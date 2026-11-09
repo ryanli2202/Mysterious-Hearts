@@ -88,6 +88,9 @@ def validate(values):
         if not isinstance(value, str) or (p['awakened'] and not 1 <= len(value.strip()) <= limit):
             raise ValueError(f'Enter {label} (1–{limit} characters).')
         p[field] = value.strip()
+    if p['awakened'] and values.get('trait_amplifications'):
+        from combat_workshop import validate_amplifications
+        p['trait_amplifications']=validate_amplifications(values['trait_amplifications'])
     return p
 
 

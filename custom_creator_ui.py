@@ -26,6 +26,9 @@ class CharacterCreator(AppWindow):
         self.photo = None
         self.source = None
         self.controls = []
+        self.trait_amplifications=[]
+        self.trait_signature=None
+        self.trait_reviewed=tk.BooleanVar(value=False)
         self.protocol('WM_DELETE_WINDOW', self.destroy)
         self.columnconfigure(0, weight=3)
         self.columnconfigure(1, weight=2)
@@ -51,6 +54,7 @@ class CharacterCreator(AppWindow):
             self.appearance_label.configure(wraplength=max(180, event.width-20))
             self.awakening_label.configure(wraplength=max(180, event.width-20))
             self.awakening_hint.configure(wraplength=max(180, event.width-20))
+            self.trait_review.configure(wraplength=max(180,event.width-20))
         canvas.bind('<Configure>', fit_form)
         form.bind('<Configure>', lambda e: canvas.configure(scrollregion=canvas.bbox('all')))
         form.columnconfigure(1, weight=1)
@@ -101,8 +105,17 @@ class CharacterCreator(AppWindow):
         self.awakening_hint = ttk.Label(form, text='Awakened characters start on the Path at Awakening with this Trait. Unawakened characters begin in Dormancy and may awaken through strenuous combat.',
                                        style='Muted.TLabel', wraplength=420)
         self.awakening_hint.grid(row=17, column=0, columnspan=2, sticky='w', pady=6)
+        self.trait_button=ttk.Button(form,text='Evaluate Trait amplification · gamemaster',command=self.evaluate_trait)
+        self.trait_button.grid(row=18,column=0,columnspan=2,sticky='ew',pady=6)
+        self.trait_review=ttk.Label(form,text='Evaluate your awakened Trait, review its options, then accept them before creating your character.',wraplength=420)
+        self.trait_review.grid(row=19,column=0,columnspan=2,sticky='ew',pady=6)
+        self.trait_accept=ttk.Checkbutton(form,text='Accept these amplification options',variable=self.trait_reviewed,command=self.changed)
+        self.trait_accept.grid(row=20,column=0,columnspan=2,sticky='w',pady=6)
+        self.controls.extend(((self.trait_button,'normal'),(self.trait_accept,'normal')))
         self.controls.extend(((self.awakening_trait, 'normal'), (self.awakening_description, 'normal')))
         self.update_awakening()
+        self.values['awakening_trait'].trace_add('write',self.trait_changed)
+        self.awakening_description.bind('<<Modified>>',self.trait_changed)
         self.appearance.bind('<<Modified>>', self.changed)
         for key in ('gender', 'age', 'height', 'hairstyle'):
             self.values[key].trace_add('write', self.changed)
@@ -138,19 +151,54 @@ class CharacterCreator(AppWindow):
         return custom.validate({key: value.get() for key, value in self.values.items()} |
                                {'appearance': self.appearance.get('1.0', 'end').strip(),
                                 'awakened': self.awakened.get(),
+                                'trait_amplifications': self.trait_amplifications if self.trait_ready() else [],
                                 'awakening_description': self.awakening_description.get('1.0', 'end').strip()})
 
     def update_awakening(self):
         state = 'normal' if self.awakened.get() and not self.cancel_event else 'disabled'
         self.awakening_trait.configure(state=state)
         self.awakening_description.configure(state=state)
+        if hasattr(self,'trait_button'):
+            self.trait_button.configure(state=state)
+            self.trait_accept.configure(state='normal' if state=='normal' and self.trait_amplifications else 'disabled')
+        self.changed()
+
+    def current_trait(self):
+        return self.values['awakening_trait'].get().strip(),self.awakening_description.get('1.0','end').strip()
+
+    def trait_ready(self):
+        return bool(self.trait_amplifications and self.trait_signature==self.current_trait() and self.trait_reviewed.get())
+
+    def trait_changed(self,*_):
+        if self.trait_signature!=self.current_trait():
+            self.trait_amplifications=[]; self.trait_reviewed.set(False)
+            self.trait_review.configure(text='Evaluate this Trait to review its amplification options.')
+            self.trait_accept.configure(state='disabled')
+        if self.awakening_description.edit_modified(): self.awakening_description.edit_modified(False)
+        self.changed()
+
+    def evaluate_trait(self):
+        if self.cancel_event or not self.awakened.get(): return
+        signature=self.current_trait()
+        if not all(signature): self.status.configure(text='Enter your Trait name and description first.'); return
+        self.cancel_event=threading.Event()
+        for widget,_ in self.controls: widget.configure(state='disabled')
+        self.generate_button.configure(state='disabled'); self.begin_button.configure(state='disabled')
+        self.cancel_button.configure(state='normal'); self.status.configure(text='Gamemaster is evaluating your Trait amplification options…')
+        def work():
+            try:
+                from combat_workshop import evaluate_trait
+                self.events.put(('trait_complete',(evaluate_trait(*signature),signature)))
+            except Exception as exc: self.events.put(('error',str(exc)))
+        threading.Thread(target=work,daemon=True).start()
 
     def signature(self):
         return tuple(self.values[key].get() for key in ('gender', 'age', 'height', 'hairstyle')) + (self.appearance.get('1.0', 'end').strip(),)
 
     def changed(self, *_):
         if hasattr(self, 'begin_button'):
-            self.begin_button.configure(state='normal' if self.portrait and not self.cancel_event and self.signature() == self.generated_signature else 'disabled')
+            ready=self.portrait and not self.cancel_event and self.signature()==self.generated_signature and (not self.awakened.get() or self.trait_ready())
+            self.begin_button.configure(state='normal' if ready else 'disabled')
         if self.appearance.edit_modified():
             self.appearance.edit_modified(False)
 
@@ -180,7 +228,7 @@ class CharacterCreator(AppWindow):
     def cancel(self):
         if self.cancel_event:
             self.cancel_event.set()
-            self.status.configure(text='Cancelling portrait generation…')
+            self.status.configure(text='Cancelling generation…')
 
     def poll(self):
         if self.closed:
@@ -196,7 +244,15 @@ class CharacterCreator(AppWindow):
             self.update_awakening()
             self.generate_button.configure(state='normal')
             self.cancel_button.configure(state='disabled')
-            if kind == 'complete' and not cancelled:
+            if kind=='trait_complete' and not cancelled:
+                options,signature=value
+                if signature==self.current_trait():
+                    self.trait_amplifications=options; self.trait_signature=signature; self.trait_reviewed.set(False)
+                    self.trait_review.configure(text='\n\n'.join(a['name']+' · '+a['role']+'\n'+a['description']+'\nMana '+str(a['mana'])+' · '+a['environment'] for a in options))
+                    self.trait_accept.configure(state='normal')
+                    self.status.configure(text='Review and accept your Trait amplification options. You can regenerate them before creating your character.')
+                else: self.status.configure(text='Trait changed; evaluate it again.')
+            elif kind == 'complete' and not cancelled:
                 try:
                     self.portrait, self.generated_signature = value
                     with Image.open(custom.ROOT / self.portrait) as source:
@@ -221,6 +277,8 @@ class CharacterCreator(AppWindow):
         self.canvas.create_image(width/2, height/2, image=self.photo)
 
     def begin(self):
+        if self.awakened.get() and not self.trait_ready():
+            self.status.configure(text='Evaluate your Trait and accept its amplification options first.'); return
         if self.cancel_event or not self.portrait or self.signature() != self.generated_signature:
             self.status.configure(text='Generate a portrait matching your current appearance first.'); return
         try:

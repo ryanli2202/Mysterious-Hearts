@@ -49,7 +49,7 @@ RATINGS = {
     'samantha': (68,86,85,83), 'minsu': (61,79,91,82), 'valentina': (74,91,89,89),
     'april': (35,0,38,99), 'emily': (64,86,75,85), 'alyssa': (66,83,78,83),
 }
-# Each trait has an actual cost, complexity gate and tactical identity in combat.py.
+# Learned Traits have resource costs and tactical identities, never stat unlock gates.
 TRAITS = {
     'fox': ('Eight Senses', 'Track sound, scent, heartbeat, vibration and air displacement; fight in darkness and counter ambushes. Physical perception, not mind-reading or automatic identity proof.', 'senses'),
     'gordon': ('Biocreation', 'Grow biological handguns, rifle-like constructs, high-impact rounds and adaptive components. Powerful fire uses finite mana; no external ammunition dependency or guaranteed hit.', 'biocreation'),
@@ -96,6 +96,8 @@ def make(who, custom=None):
                 form=FORMS.get(who), abilities=abilities.get(who,''), basis='Peak source strength; numerical game balance')
     result['mana_potential']=custom.get('mana_potential',True)
     combat_path.initialise(result,who)
+    import combat_moves
+    combat_moves.initialise(result,who,custom)
     return result
 
 def profile(s, who):
@@ -108,4 +110,6 @@ def profile(s, who):
         import game_core
         profiles[who]['name']=custom.get('name') or game_core.CONTACTS.get(who,(who,))[0]
     combat_path.initialise(profiles[who],who,root['path_epoch'])
+    import combat_moves
+    combat_moves.initialise(profiles[who],who,s.get('custom_protagonist') if who==s.get('player') else None)
     return profiles[who]

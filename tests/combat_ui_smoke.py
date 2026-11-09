@@ -32,10 +32,7 @@ with patch.object(game.Game,'check'), patch.object(game.Game,'begin_incoming'), 
     shot('combat-attack-confirm.png')
     combat.start(s,'rei','challenge'); view.refresh(); app.update()
     shot('combat-fight.png')
-    view.action.insert('1.0','I use Sanda footwork to step outside and counter with a straight punch.')
-    plan,_=combat.tactics.prepare(s)
-    j=dict(player_feasible=True,complexity=10,advantage=0,enemy_mode=plan['mode'],enemy_art=plan['art'],enemy_action=plan['action'],reason='Sanda footwork can evade the entry, but Rei can redirect the committed punch.')
-    with patch.object(combat,'ask_ai',return_value=j):
+    with patch.object(combat,'ask_ai',side_effect=ValueError('Offline narration fallback')):
         view.submit()
         deadline=time.monotonic()+5
         while view.working and time.monotonic()<deadline: app.update(); time.sleep(.02)
@@ -43,7 +40,7 @@ with patch.object(game.Game,'check'), patch.object(game.Game,'begin_incoming'), 
     assert combat.active(s)['turn']==1,view.error
     shot('combat-exchange.png')
     app.geometry('1000x800'); app.update(); shot('combat-compact.png')
-    assert view.action.winfo_rooty()+view.action.winfo_height()<=app.winfo_rooty()+app.winfo_height()
+    assert view.execute_button.winfo_rooty()+view.execute_button.winfo_height()<=app.winfo_rooty()+app.winfo_height()
     combat.finish(s,'Victory — opponent knocked out.','rei'); view.refresh(); shot('combat-result.png')
     combat.close(s); view.refresh(); view.leave(); app.update()
     assert not view.winfo_ismapped()

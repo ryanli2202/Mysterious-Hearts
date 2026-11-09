@@ -381,6 +381,9 @@ def validate_encounter(s, who):
 
 def support_turn(s,f,rng):
     if f['kind']!='interpol' or not f.get('ally_resources'): return
+    if f.get('enhanced_rules'):
+        import combat_engine
+        return combat_engine.support_turn(s,f,rng)
     import combat
     r=f['ally_resources']; p=f['ally_profile']; q=f['opponent_profile']
     if r['health']<=0 or f['enemy']['health']<=0 or f['player']['health']<=0: return

@@ -47,7 +47,7 @@ with patch.object(game.Game,'check'),patch.object(game.Game,'begin_incoming'),pa
     combat.start(s,'rei','challenge'); view.refresh(); combat.activate_form(s); view.refresh(); app.update()
     assert combat.active(s)['player']['active_form']['cost']==55
     shot('path-trump-card.png')
-    assert view.action.winfo_rooty()+view.action.winfo_height()<=app.winfo_rooty()+app.winfo_height()
+    assert view.execute_button.winfo_rooty()+view.execute_button.winfo_height()<=app.winfo_rooty()+app.winfo_height()
     app.sounds.close(); app.destroy()
     assert not errors,errors
 print('Path UI passed: locked/ready, compact, AI failure/retry, stage-two breakthrough and paid trump card. Six screenshots; no live AI or saves.')

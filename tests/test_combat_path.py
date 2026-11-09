@@ -180,9 +180,9 @@ class PathTests(unittest.TestCase):
         self.assertEqual(r['trait_uses'],0)
         r['energy']=100
         combat.strike(p,q,r,t,'Trait','Sanda',100,0,random.Random(1),0)
-        self.assertEqual(r['trait_uses'],0)
+        self.assertEqual(r['trait_uses'],1)  # Refinement affects output, never locks an established Trait.
         combat.strike(p,q,r,t,'Trait','Sanda',20,0,random.Random(1),0)
-        self.assertEqual(r['trait_uses'],1)
+        self.assertEqual(r['trait_uses'],2)
 
     def test_save_load_stage_clock_and_generated_card(self):
         p=self.ready()

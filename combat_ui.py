@@ -8,6 +8,7 @@ import combat
 import combat_path as path
 from combat_profiles import ARTS, TEACHERS, STATS, profile
 import winterfield_ui as ui
+from combat_selection_ui import EnhancedCombat
 
 def open_combat(game, dialogue=False):
     if game.busy: return
@@ -21,7 +22,7 @@ def open_combat(game, dialogue=False):
     view.place(x=0,y=0,relwidth=1,relheight=1)
     view.lift(); view.refresh()
 
-class CombatView(tk.Frame):
+class CombatView(EnhancedCombat,tk.Frame):
     def __init__(self,parent,game):
         super().__init__(parent,bg=ui.INK,padx=18,pady=12)
         self.game=game; self.working=False; self.mail=queue.Queue(); self.error=''
@@ -52,10 +53,10 @@ class CombatView(tk.Frame):
         except (ValueError,RuntimeError) as exc: self.error=str(exc)
         self.refresh()
 
-    def async_job(self,work,commit):
+    def async_job(self,work,commit,resolved=False):
         if self.working or self.game.busy: return
         original_state=self.game.state_data
-        self.working=True; self.game.busy=True; self.error='Gamemaster is considering the exchange…'
+        self.working=True; self.game.busy=True; self.error='Exchange resolved · gamemaster is narrating…' if resolved else 'Gamemaster is preparing your request…'
         self.status.configure(text=self.error)
         def worker():
             try: self.mail.put((True,work()))
@@ -71,7 +72,7 @@ class CombatView(tk.Frame):
             if ok:
                 try: commit(value); self.game.persist(); self.error=''
                 except (ValueError,RuntimeError) as exc: self.error=str(exc)
-            else: self.error='Gamemaster unavailable: '+value+' Retry; no turn or resources were spent.'
+            else: self.error=('Narration unavailable; the resolved outcome and concise fallback are saved. ' if resolved else 'Gamemaster unavailable; no learning cooldown or resources were spent. ')+value
             self.refresh()
         self.after(100,poll)
 
@@ -82,6 +83,8 @@ class CombatView(tk.Frame):
         self.status.configure(text=self.error)
         if f: self.fight(s,f)
         elif getattr(self,'path_who',None): self.render_path()
+        elif getattr(self,'training_page',None)=='academy': self.academy()
+        elif getattr(self,'training_page',None)=='workshop': self.workshop_page()
         else: self.hub(s,d)
 
     def hub(self,s,d):
@@ -90,6 +93,7 @@ class CombatView(tk.Frame):
         self.label(self.body,'Combat stats · '+ '   |   '.join(k.replace('_',' ').title()+': '+str(p['stats'][k]) for k in STATS))
         self.label(self.body,'The Path · '+p['path']['stage']+' · Awakened power = mana potency')
         self.button(self.row(),'The Path · progression & breakthroughs',lambda:self.path_page(s['player']))
+        self.button(self.row(),'Training · moves, combos & Trait workshop',lambda:self.set_page('academy'))
         if p['trait']: self.label(self.body,p['trait']['name']+' — '+p['trait']['description'])
         if p.get('abilities'): self.label(self.body,p['abilities'])
         self.label(self.body,'Martial arts: '+(', '.join(f'{k} {v}' for k,v in p['arts'].items()) or 'None yet; meet a teacher.'))
@@ -250,55 +254,6 @@ class CombatView(tk.Frame):
         snapshot=copy.deepcopy(s)
         self.async_job(lambda:combat.generate_opponent(snapshot),lambda p:combat.start(s,'circle:'+p['name'],'circle',p))
 
-    def fight(self,s,f):
-        q=f['opponent_profile']; self.title.configure(text=f['kind'].upper()+' · '+q['name'])
-        if f['kind']=='circle':
-            remaining=max(0,300-f['elapsed']%300) if f['status']=='active' else 0
-            self.label(self.body,f"Round {min(3,f['elapsed']//300+1)} / 3 · {remaining//60}:{remaining%60:02d} remaining · Each response advances 30 seconds")
-        else: self.label(self.body,'Untimed encounter · '+('Practice has no winner or loser; stop at any time.' if f['kind']=='spar' else 'Ends at knockout or concession. No deaths.'))
-        self.label(self.body,'Opponent: '+' | '.join(k.replace('_',' ')+': '+str(q['stats'][k]) for k in STATS)+' · '+', '.join(q['arts']))
-        if q['trait']: self.label(self.body,q['trait']['name']+' — '+q['trait']['description'])
-        self.label(self.body,'Path: you — '+profile(s,s['player'])['path']['stage']+' · opponent — '+q['path']['stage'])
-        for side,label in (('player','You'),('enemy',q['name'])):
-            r=f[side]
-            self.label(self.body,f"{label}  •  Health {r['health']}/{r['max_health']}  •  Stamina {r['stamina']}/100  •  Awakened energy {r['energy']}/{r['max_energy']}")
-            if r.get('active_form') and r['form_until']>f['elapsed']:
-                self.label(self.body,r['active_form']['name']+f" · {r['form_until']-f['elapsed']} seconds remaining · {r['active_form']['upkeep']} mana per exchange")
-        if f.get('ally_resources'):
-            r=f['ally_resources']
-            self.label(self.body,f"Field partner {f['ally_profile']['name']} · Health {r['health']}/{r['max_health']} · Mana {r['energy']}/{r['max_energy']} · Stamina {r['stamina']}/100")
-        if f['status']=='active':
-            plan,_=combat.tactics.prepare(s)
-            self.opponent_intent=self.label(self.body,'Opponent intent · '+combat.tactics.describe(plan,f))
-        transcript=tk.Text(self.body,bg=ui.PANEL,fg=ui.CREAM,wrap='word',height=8,relief='flat',font=('Segoe UI',11))
-        transcript.pack(fill='both',expand=True,pady=6)
-        transcript.insert('end','\n\n'.join(f['log'][-30:]) or 'The opponent is already preparing their move. Describe your defence and intended attack. Each submission resolves both actions, including when you guard or recover.')
-        transcript.configure(state='disabled'); transcript.see('end')
-        if f['status']=='finished':
-            self.label(self.body,f['result'])
-            self.button(self.row(),'Leave fight',lambda:combat.close(s)); return
-        row=self.row(); self.mode=tk.StringVar(value=getattr(self,'draft_mode','Martial')); self.style=tk.StringVar(value=getattr(self,'draft_style',next(iter(profile(s,s['player'])['arts']),'Untrained')))
-        ttk.Combobox(row,textvariable=self.mode,values=['Martial','Trait','Guard','Recover'],state='readonly',width=12).pack(side='left',padx=4)
-        ttk.Combobox(row,textvariable=self.style,values=['Untrained',*profile(s,s['player'])['arts']],state='readonly',width=25).pack(side='left',padx=4)
-        self.button(row,'Activate advanced form',lambda:combat.activate_form(s))
-        p=profile(s,s['player'])
-        if p.get('technique_form')=='Conduit State' and p['path']['stage'] in (path.TRANSCENDENCE_1,path.TRANSCENDENCE_2):
-            self.button(row,'Conduit State',lambda:combat.activate_form(s,form_choice='Conduit State'))
-        self.button(row,'Stop practice' if f['kind']=='spar' else 'Concede',lambda:combat.concede(s))
-        self.action=tk.Text(self.body,bg=ui.CARD,fg=ui.CREAM,insertbackground=ui.CREAM,height=3,wrap='word')
-        self.action.pack(fill='x',pady=4)
-        self.action.insert('1.0',getattr(self,'draft',''))
-        self.button(self.row(),'Submit defence / attack to gamemaster',self.submit)
-
-    def submit(self):
-        s=self.game.state_data; action=self.action.get('1.0','end').strip(); style=self.style.get(); mode=self.mode.get()
-        if not action: raise ValueError('Describe your intended move first.')
-        self.draft=action
-        self.draft_mode=mode; self.draft_style=style
-        snapshot=copy.deepcopy(s)
-        def commit(result):
-            combat.commit_turn(s,result); self.draft=''
-        self.async_job(lambda:combat.adjudicate(snapshot,action,style,mode),commit)
 
     def recover(self,s):
         import world_loop

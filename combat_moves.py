@@ -62,7 +62,7 @@ TAG_WORDS = {
     'ice':('ice','icy','chilled','freeze'),
     'stagger':('stagger','balance','disrupt','suppression'),
     'stability':('stability','resistance','pain suppression','pain immunity'),
-    'stored':('stored impact','stored-force','reserve spending','finite multi-hit release','stored-output'),
+    'stored':('stored impact','stored-force','reserve spending','finite multi-hit release'),
     'collect':('impact collection','reserve gain','receive-and-return'),
     'mark':('weak-point','vulnerability','mark-and-exploit'),
     'critical':('critical','marked-target','weak-point finisher'),
@@ -102,7 +102,7 @@ for who, data in CAST.items():
         tags=tags_for(role)
         skill=spec(ident,name,description,unique_role(role),'unique',
                    'unique' if data['kind']=='trait' else 'signature',tags=tags,aspects=aspects)
-        skill.update(mana=18 if data['kind']=='trait' else 0, stamina=14,
+        skill.update(mana=min(40,18+6*aspects.count('/')) if data['kind']=='trait' else 0, stamina=14,
                      range=4 if 'reach' in tags else 1, effect_summary=role)
         if any(x in role.lower() for x in ('high resource','high mana','multi-element')): skill['mana']=30
         if who=='samantha': skill['health_cost']=4
@@ -110,7 +110,8 @@ for who, data in CAST.items():
         if name=='Thousand Sparks': skill.update(role='attack',tags=['momentum','speed','breach','knockback'],build_release=True,stamina=22,mana=26,force=1.6)
         if name=='Descending Tempest': skill.update(tags=['speed','stagger','area','breach'],force=1.5)
         if name=='Dragon Kick': skill.update(tags=['speed','heat','area','breach','knockback'],force=1.5)
-        if name in ('Fivefold Ruin','Shadow Requiem'): skill.update(role='combo',hits=5,force=1.65)
+        if name in ('Fivefold Ruin','Shadow Requiem'): skill.update(role='combo',hits=5,force=1.65,mana=36,stamina=24)
+        if name=='Fivefold Ruin': skill['tags']=['speed','precision','heat','ice','stagger','breach','knockback','area']
         if name=='Fracture Point': skill.update(role='setup',tags=['mark'],range=1)
         if name=='Regrowth Reload': skill.update(role='setup',tags=['precision','guard'],mana=12)
         skills.append(skill)
@@ -210,6 +211,6 @@ def lesson(s,move_id,teacher=None):
 
 def details(move):
     return (move['name']+' · '+move.get('tier','')+' · '+move['role']+'\n'+move['description']+
-            f"\nStamina {move['stamina']} · Mana {move['mana']} · Range {move['range']} · {move['hits']} resolution beat(s)"+
+            f"\nStamina {move['stamina']} · Mana {move['mana']} · Range {move['range']} · {move['hits']} strike(s)"+
             (' · Blood cost '+str(move['health_cost']) if move.get('health_cost') else '')+
             ('\nEffects: '+', '.join(move['tags']) if move['tags'] else ''))

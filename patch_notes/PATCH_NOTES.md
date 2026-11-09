@@ -2,6 +2,73 @@
 
 Historical entries reconstruct recoverable development, not numbered releases. Unknown release dates stay unknown. Topic order is not a verified chronology. Original reports may describe superseded behavior; their test claims are historical. The 17 oversized chats were recovered from local logs; interrupted work is labelled. No complete commit history exists.
 
+# Enhanced combat: learned combos, Trait skills and destructible arenas
+
+release-2026-11-09-enhanced-combat | Release | Gameplay
+Date: 2026-11-09
+
+Select learned martial techniques, amplify them with a chosen Trait aspect, use character-specific unique skills and fight through destructible cover. Custom characters can review AI-generated Trait options and absorb new skills every 24 in-game hours.
+
+## Details
+
+Added
+
+Open In person → Combat · Iron Circle / training / challenges. Training · moves, combos & Trait workshop opens the academy and custom Trait workshop. All physical combat and training remain in the in-person stage. The checked-in catalogue contains 432 techniques across all 21 martial arts, including the requested Boxing basics, advanced combinations and superhuman masters. A first lesson grants the art's basic moves immediately. Advanced techniques require martial skill 60 to learn; master techniques require martial skill 80 and Awakening. Qualifying techniques are learned through selected 30-minute training sessions, retaining the existing three-session daily limit, teacher presence/trust and known-art solo-practice rules. A combo is one learned action with separate hit rolls and partial-hit outcomes; sequencing basics does not grant a locked advanced combo.
+
+The reviewed 33-character catalogue includes 58 Trait amplification options and 124 unique skills for 19 Trait users, plus 15 separately labelled signatures for five awakened fighters without Traits. Nine unawakened characters gain no invented supernatural abilities. Garrett has Dragon Kick and his other Golden Flame/True Sight expressions; Rei has Descending Tempest, Flowing Stream, Thousand Sparks and the expanded Flowing Tempest skills; Ivan has fire, wind, ice, red-lightning impact and blue-lightning speed/precision; Sylvanis has distinct Umbrakinesis, True Sight and Polymath options. All reviewed catalogue names and descriptions ship with the game.
+
+Select one compatible amplification for a regular action, or a learned unique skill with its authored aspects already included. Unique skills cannot receive another free amplification. Multi-aspect skills have combined mana costs. Learned Trait skills and amplification have no martial, refinement, IQ or power unlock threshold: Awakening, an established Trait and normal resources are required. Stats govern output, precision, efficiency and control. Existing advanced forms retain activation, upkeep, duration and cooldown rules; an active earned form enhances base actions instead of locking them. Sylvanis still considers his second-stage form from the opening of a serious encounter.
+
+Changed combat
+
+The freeform attack box is replaced by category, art, move, amplification and target selectors. Utility actions include a direct strike, guard, recovery, advancing, retreating and taking cover. Opponents independently select from their learned martial and Trait catalogues, mix physical and unique attacks, use compatible amplification, account for reserves and cover, and attack while the player guards or recovers. Interpol partners and their counterattacks use the same action and resource rules. Initiative and knockout still determine whether a committed action finishes.
+
+Awakened strength and movement are literally superhuman in the mechanics, including ordinary strikes. Appropriate force can breach concrete, wreck vehicles, shatter ground and move faster than ordinary perception. Both fighters can contest those feats with their own awakened capabilities. Distinct effects include momentum buildup and release, stored impact, heat, blood-health expenditure, critical marks, concealment, breakable barriers, restraint, stagger and knockback. Flowing Stream can answer any incoming attack category, including ranged Traits, through full, partial or failed redirection; counters wait when no attack arrives.
+
+Each encounter saves an arena with object material, integrity and position. Selected impacts and collisions can destroy cover, open routes, create rubble, alter footing with heat/ice and drive wreckage across the arena. Broken cover stops protecting its occupant. Barriers can be broken and physical collisions inflict damage. Vehicle props appear only in applicable outdoor arenas. Destruction persists during the encounter and through save/load; this update does not introduce permanent city rebuilding or property-repair simulation.
+
+Concise narration follows resolution. Both actions, costs, counter clashes, partial combos, damage and terrain commit first; the configured gamemaster then produces a short narrative with a compact damage/resource line below it. Requests run off the UI thread. Failed or malformed narration preserves the saved result-based fallback and never rerolls or spends resources twice. Skill and move details scroll in compact layouts.
+
+Custom Traits
+
+During character creation, enter an awakened Trait, evaluate its amplification options with the existing gamemaster, review them and explicitly accept before moving to Winterfield. Changing the Trait invalidates the review. Failed generation retains the character draft and accepted portrait. Names, aspects, compatible roles, bounded effects, costs and environment descriptions are saved with the custom character and retained by the character library. Existing custom characters can evaluate and accept missing options in the in-person workshop.
+
+Generate unique skills produces exactly three candidate cards from current stats, Trait, approved amplification, learned skills and earned form state. Review name, description, effects, range, costs, environment and setup/counter behaviour. Absorb one to learn it immediately and start a rolling 1,440-game-minute absorption cooldown. Generating, reviewing, retrying and using already learned skills remain available during the learning cooldown. Candidates, stable skill IDs, absorbed blueprints and the absolute next-absorption minute persist in the save. Stale requests, repeated clicks and duplicate absorption are rejected; reloading or deleting a learned entry cannot reset the timer. Later growth scales the skill without silently changing its identity. Generated effects and costs are bounded against approved aspects and physical mechanics.
+
+Validation and limits
+
+Passed 108 focused combat, tactics, Path, dialogue, Interpol, custom-character and enhanced-combat unit tests. The enhanced tests cover all 432 martial entries and every one of the 139 authored Trait/signature actions, learning gates, old-profile migration, full/partial/missed ranged redirection, partial combos, resources, form expiry, arena destruction and wreckage, Interpol support, successful/failed narration isolation, stale generation, custom effects, absorption timers and real isolated save/load. Passed the enhanced compact UI flow, existing combat, Path, combat-dialogue and Interpol UI smoke checks, and custom creator generation-failure/review/acceptance flow. Inspected rendered compact action selection, resolution fallback, training, candidate review and character creation. The mandatory dark-theme smoke passed across 34 phone pages, chat/contact details and embedded controls.
+
+Provider responses were mocked; no live model quality claims or player-save writes are made. Numerical balance has not undergone extended playtesting. The full repository suite was not claimed as clean; verification is scoped to this update. The patch catalogue and export are validated separately before delivery.
+
+## Save compatibility
+
+Restart the game to load the changed Python modules. Existing stories retain stats, relationships, injuries, Path progress, forms, combat history and active encounter resources. Movesets migrate additively: basics for known arts and higher tiers only where existing proficiency and eligibility qualify. Newly learned styles receive basics rather than every technique unlocked by a high overall stat. Existing active fights gain saved arena objects without rerolling earlier exchanges. Custom candidates, learned blueprints and absolute absorption timers persist; older custom characters can review missing amplification in the workshop. No story restart or retrospective world destruction is required.
+
+## Evidence and historical limits
+
+Implemented from the user's approved martial and Trait catalogues and subsequent instruction to implement the enhanced combat update in its entirety. Catalogue totals, deterministic mechanics, persistence and rendered UI were checked locally with mocked gamemaster responses; no source-story future events or live-provider outcomes are asserted. Final publication checks passed: 448-entry catalogue validation, six patch-note unit tests, Markdown export, patch-notes reader search/filter/export/error and compact-layout smoke, and the 28-character start-screen smoke.
+
+- combat_catalogue/martial.json
+- combat_catalogue/traits.json
+- combat_moves.py
+- combat_engine.py
+- combat_workshop.py
+- combat_selection_ui.py
+- combat.py
+- combat_profiles.py
+- combat_ui.py
+- custom_creator_ui.py
+- custom_protagonist.py
+- interpol.py
+- COMBAT.md
+- tests/test_enhanced_combat.py
+- tests/enhanced_combat_ui_smoke.py
+- tests/custom_creator_smoke.py
+
+
+---
+
 # Opponents initiate attacks with their powers and martial arts
 
 release-2026-11-09-opponent-combat-initiative | Release | Gameplay
