@@ -1,0 +1,142 @@
+[
+  {
+    "character": "emily",
+    "file": "assets/profiles/emily.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Create ONE new square social media profile picture for Emily Fields, shy flower-shop worker: a sweet slightly bashful selfie beside fresh daisies in her flower shop, lavender cardigan, her blonde fringe and round glasses clearly visible, soft morning light. Reference image is identity and anime art-style reference ONLY. Preserve the exact character face, hair, complexion and identifying details, but create a new pose, clothes and real-life social snapshot composition they would personally choose as their profile photo. Contemporary romance anime, fine tapered lines, refined cel shading, not a photoreal human. Close head-and-shoulders, face centered and clearly readable in a tiny circular crop, environment softly blurred. Full square image with background, no circle frame, no text, no watermark, no collage.",
+    "reference": "assets/portraits/emily-selection.png"
+  },
+  {
+    "character": "rei",
+    "file": "assets/profiles/rei.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Create ONE new square social media profile picture for Rei Takamura, quiet artist and motorcycle enthusiast: a candid close portrait at a quiet coastal overlook after a ride, black casual jacket, helmet just at edge, thoughtful small smile, wind in black hair, preserve neck tattoos and lip piercings. Reference image is identity and anime art-style reference ONLY. Preserve the exact character face, hair, complexion and identifying details, but create a new pose, clothes and real-life social snapshot composition they would personally choose as their profile photo. Contemporary romance anime, fine tapered lines, refined cel shading, not a photoreal human. Close head-and-shoulders, face centered and clearly readable in a tiny circular crop, environment softly blurred. Full square image with background, no circle frame, no text, no watermark, no collage.",
+    "reference": "assets/portraits/rei-selection.png"
+  },
+  {
+    "character": "garrett",
+    "file": "assets/profiles/garrett.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Create ONE new square social media profile picture for Garrett Han, charismatic confident wealthy young man who loves cooking: a relaxed golden-hour rooftop dinner photo a friend took, open-collar ivory shirt, playful confident half-smile, preserve blond hair, gold earrings and neck tattoo. Reference image is identity and anime art-style reference ONLY. Preserve the exact character face, hair, complexion and identifying details, but create a new pose, clothes and real-life social snapshot composition they would personally choose as their profile photo. Contemporary romance anime, fine tapered lines, refined cel shading, not a photoreal human. Close head-and-shoulders, face centered and clearly readable in a tiny circular crop, environment softly blurred. Full square image with background, no circle frame, no text, no watermark, no collage.",
+    "reference": "assets/portraits/garrett-selection.png"
+  },
+  {
+    "character": "minsu",
+    "file": "assets/profiles/minsu.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Create ONE new square social media profile picture for Minsu Park, lively medical student and taekwondo athlete: a cheerful unposed selfie after campus sports practice, green varsity jacket over tee, big warm grin, sunlit campus blurred behind. Reference image is identity and anime art-style reference ONLY. Preserve the exact character face, hair, complexion and identifying details, but create a new pose, clothes and real-life social snapshot composition they would personally choose as their profile photo. Contemporary romance anime, fine tapered lines, refined cel shading, not a photoreal human. Close head-and-shoulders, face centered and clearly readable in a tiny circular crop, environment softly blurred. Full square image with background, no circle frame, no text, no watermark, no collage.",
+    "reference": "assets/portraits/minsu-selection.png"
+  },
+  {
+    "character": "amy",
+    "file": "assets/profiles/amy.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Create ONE new square social media profile picture for Amy Hansen, thoughtful art-loving humanities and psychology student: a friend-taken candid at a leafy campus cafe, sage cardigan, sketchbook corner in foreground, gentle unforced smile, preserve auburn bob and freckles. Reference image is identity and anime art-style reference ONLY. Preserve exact face, hair, complexion, eyes and identifying details. New pose and personally chosen everyday snapshot, not a formal character-selection portrait. Contemporary romance anime, fine tapered lines and refined cel shading, not photoreal. Close head-and-shoulders; centered face readable at tiny circular avatar size. Full square softly blurred environmental background. No frame, text, watermark or collage.",
+    "reference": "assets/portraits/amy-selection.png"
+  },
+  {
+    "character": "sophie",
+    "file": "assets/profiles/sophie.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Create ONE new square social media profile picture for Sophie Parker, outgoing competitive track athlete: a bright playful post-run selfie by a red running track, sporty green running top, ponytail, confident joyful grin, a raised victory hand at edge. Reference image is identity and anime art-style reference ONLY. Preserve exact face, hair, complexion, eyes and identifying details. New pose and personally chosen everyday snapshot, not a formal character-selection portrait. Contemporary romance anime, fine tapered lines and refined cel shading, not photoreal. Close head-and-shoulders; centered face readable at tiny circular avatar size. Full square softly blurred environmental background. No frame, text, watermark or collage.",
+    "reference": "assets/portraits/sophie-selection.png"
+  },
+  {
+    "character": "samantha",
+    "file": "assets/profiles/samantha.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Create ONE new square social media profile picture for Samantha Kim, bold warm fighter and motorcycle rider: a candid close-up laughing next to her parked motorcycle, charcoal tank and open leather vest, preserve short black hair and distinctive chest/arm tattoos, evening street glow. Reference image is identity and anime art-style reference ONLY. Preserve exact face, hair, complexion, eyes and identifying details. New pose and personally chosen everyday snapshot, not a formal character-selection portrait. Contemporary romance anime, fine tapered lines and refined cel shading, not photoreal. Close head-and-shoulders; centered face readable at tiny circular avatar size. Full square softly blurred environmental background. No frame, text, watermark or collage.",
+    "reference": "assets/portraits/samantha-selection.png"
+  },
+  {
+    "character": "april",
+    "file": "assets/profiles/april.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Create ONE new square social media profile picture for April Xu, reserved intellectually curious chess enthusiast: a composed friend-taken cafe portrait with a chessboard just at the lower edge, navy knitwear, faint knowing smile, understated window light. Reference image is identity and anime art-style reference ONLY. Preserve exact face, hair, complexion, eyes and identifying details. New pose and personally chosen everyday snapshot, not a formal character-selection portrait. Contemporary romance anime, fine tapered lines and refined cel shading, not photoreal. Close head-and-shoulders; centered face readable at tiny circular avatar size. Full square softly blurred environmental background. No frame, text, watermark or collage.",
+    "reference": "assets/portraits/april-selection.png"
+  },
+  {
+    "character": "yuriko",
+    "file": "assets/profiles/yuriko.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Create ONE new square social media profile picture for Yuriko Takamura, lively witty 18-year-old theatre-design student: an impromptu backstage workshop selfie in an olive overshirt, a tiny paint dab on cheek, amber hair clip preserved, amused grin, cardboard scenery softly blurred behind. Reference image is identity and anime art-style reference ONLY. Preserve exact face, hair, complexion, eyes and identifying details. New pose and personally chosen everyday snapshot, not a formal character-selection portrait. Contemporary romance anime, fine tapered lines and refined cel shading, not photoreal. Close head-and-shoulders; centered face readable at tiny circular avatar size. Full square softly blurred environmental background. No frame, text, watermark or collage.",
+    "reference": "assets/portraits/yuriko-selection.png"
+  },
+  {
+    "character": "ivan",
+    "file": "assets/profiles/ivan.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Create ONE new square social media profile picture for Ivan Yeun, reserved charismatic 24-year-old K-pop idol: an understated off-duty recording-studio portrait at an upright piano, black knit top and simple earrings, ash brown hair and freckles preserved, cool studio light, slight private smile rather than stage glamour. Reference image is identity and anime art-style reference ONLY. Preserve exact face, hair, complexion, eyes and identifying details. New pose and personally chosen everyday snapshot, not a formal character-selection portrait. Contemporary romance anime, fine tapered lines and refined cel shading, not photoreal. Close head-and-shoulders; centered face readable at tiny circular avatar size. Full square softly blurred environmental background. No frame, text, watermark or collage.",
+    "reference": "assets/portraits/ivan-selection.png"
+  },
+  {
+    "character": "lena",
+    "file": "assets/profiles/lena.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Create ONE new square social media profile picture for Lena Ortiz, witty archive conservator and film photography lover: a slightly grainy warm analogue-style portrait on an old-town photo walk, vintage camera held below face, burgundy bow in curly brown hair, amused sideways smile, brick buildings blurred behind. Reference image is identity and anime art-style reference ONLY. Preserve exact face, hair, complexion, eyes and identifying details. New pose and personally chosen everyday snapshot, not a formal character-selection portrait. Contemporary romance anime, fine tapered lines and refined cel shading, not photoreal. Close head-and-shoulders; centered face readable at tiny circular avatar size. Full square softly blurred environmental background. No frame, text, watermark or collage.",
+    "reference": "assets/portraits/lena-selection.png"
+  },
+  {
+    "character": "naomi",
+    "file": "assets/profiles/naomi.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Create ONE new square social media profile picture for Naomi Sato, grounded bicycle mechanic who loves bouldering: a candid friend-taken portrait at a sunlit crag after climbing, blue overshirt, short black asymmetrical bob, calm tiny smile, chalk bag hint near lower edge, natural afternoon light. Reference image is identity and anime art-style reference ONLY. Preserve exact face, hair, complexion, eyes and identifying details. New pose and personally chosen everyday snapshot, not a formal character-selection portrait. Contemporary romance anime, fine tapered lines and refined cel shading, not photoreal. Close head-and-shoulders; centered face readable at tiny circular avatar size. Full square softly blurred environmental background. No frame, text, watermark or collage.",
+    "reference": "assets/portraits/naomi-selection.png"
+  },
+  {
+    "character": "celeste",
+    "file": "assets/profiles/celeste.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Create ONE new square social media profile picture for Celeste Moreau, expressive planetarium educator and jazz pianist: a warmly smiling evening selfie outside the planetarium dome with tiny stars in blue twilight, lavender scarf and navy cardigan, preserve dark complexion and curly updo, face well lit. Reference image is identity and anime art-style reference ONLY. Preserve exact face, hair, complexion, eyes and identifying details. New pose and personally chosen everyday snapshot, not a formal character-selection portrait. Contemporary romance anime, fine tapered lines and refined cel shading, not photoreal. Close head-and-shoulders; centered face readable at tiny circular avatar size. Full square softly blurred environmental background. No frame, text, watermark or collage.",
+    "reference": "assets/portraits/celeste-selection.png"
+  },
+  {
+    "character": "dev",
+    "file": "assets/profiles/dev.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Create ONE new square social media profile picture for Dev Shah, thoughtful slightly nerdy makerspace technician: an informal candid at board-game night, round glasses and stubble intact, teal overshirt, amused crooked smile, a tiny hand-painted robot on table at lower edge, warm desk light. Reference image is identity and anime art-style reference ONLY. Preserve exact face, hair, complexion, eyes and identifying details. New pose and personally chosen everyday snapshot, not a formal character-selection portrait. Contemporary romance anime, fine tapered lines and refined cel shading, not photoreal. Close head-and-shoulders; centered face readable at tiny circular avatar size. Full square softly blurred environmental background. No frame, text, watermark or collage.",
+    "reference": "assets/portraits/dev-selection.png"
+  },
+  {
+    "character": "rosa",
+    "file": "assets/profiles/rosa.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Create ONE new square social media profile picture for Rosa Bennett, sociable community cook and gardener: a laughing candid in the community garden holding a basket of bright tomatoes near lower edge, olive shirt and terracotta apron, preserve warm complexion, freckles, beauty mark and curly red-brown updo. Reference image is identity and anime art-style reference ONLY. Preserve exact face, hair, complexion, eyes and identifying details. New pose and personally chosen everyday snapshot, not a formal character-selection portrait. Contemporary romance anime, fine tapered lines and refined cel shading, not photoreal. Close head-and-shoulders; centered face readable at tiny circular avatar size. Full square softly blurred environmental background. No frame, text, watermark or collage.",
+    "reference": "assets/portraits/rosa-selection.png"
+  },
+  {
+    "character": "elliot",
+    "file": "assets/profiles/elliot.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Create ONE new square social media profile picture for Elliot Brooks, quiet wetland ranger trainee and kayaker: a peaceful early-morning selfie on a reed-lined waterway after kayaking, olive outdoor shirt and life jacket, tousled blond hair and freckles, soft half smile, misty green-blue water behind. Reference image is identity and anime art-style reference ONLY. Preserve exact face, hair, complexion, eyes and identifying details. New pose and personally chosen everyday snapshot, not a formal character-selection portrait. Contemporary romance anime, fine tapered lines and refined cel shading, not photoreal. Close head-and-shoulders; centered face readable at tiny circular avatar size. Full square softly blurred environmental background. No frame, text, watermark or collage.",
+    "reference": "assets/portraits/elliot-selection.png"
+  },
+  {
+    "character": "tyler",
+    "file": "assets/profiles/tyler.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Create ONE new square social media profile picture for Tyler Harding, easygoing boxing coach: an unpretentious candid leaning by the boxing-club doorway after class, charcoal hoodie and wrapped hands near lower frame, warm honest smile, preserve dark skin, locs and facial hair, gym softly blurred. Reference image is identity and anime art-style reference ONLY. Preserve exact face, hair, complexion, eyes and identifying details. New pose and personally chosen everyday snapshot, not a formal character-selection portrait. Contemporary romance anime, fine tapered lines and refined cel shading, not photoreal. Close head-and-shoulders; centered face readable at tiny circular avatar size. Full square softly blurred environmental background. No frame, text, watermark or collage.",
+    "reference": "assets/portraits/tyler-selection.png"
+  },
+  {
+    "character": "valentina",
+    "file": "assets/profiles/valentina.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Create ONE new square social media profile picture for Valentina Yeun, competitive sailing instructor and karaoke lover: a windblown sunny selfie at the helm of a small sailboat, navy sailing vest over sage top, bright irreverent grin, preserve short silver hair and red eyes, harbour water and white sail behind. Reference image is identity and anime art-style reference ONLY. Preserve exact face, hair, complexion, eyes and identifying details. New pose and personally chosen everyday snapshot, not a formal character-selection portrait. Contemporary romance anime, fine tapered lines and refined cel shading, not photoreal. Close head-and-shoulders; centered face readable at tiny circular avatar size. Full square softly blurred environmental background. No frame, text, watermark or collage.",
+    "reference": "assets/portraits/valentina-selection.png"
+  },
+  {
+    "character": "daniel",
+    "file": "assets/profiles/daniel.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Create ONE new square social media profile picture for Daniel Stevens, reserved repertory cinema projectionist: a candid close portrait in the projection booth, black hoodie, a shy almost-smile and green eyes, soft warm light across face, film reels and projector glow behind, personally chosen understated photo. Reference image is identity and anime art-style reference ONLY. Preserve exact face, hair, complexion, eyes and identifying details. New pose and personally chosen everyday snapshot, not a formal character-selection portrait. Contemporary romance anime, fine tapered lines and refined cel shading, not photoreal. Close head-and-shoulders; centered face readable at tiny circular avatar size. Full square softly blurred environmental background. No frame, text, watermark or collage.",
+    "reference": "assets/portraits/daniel-selection.png"
+  },
+  {
+    "character": "sylvanis",
+    "file": "assets/profiles/sylvanis.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: stylized-concept. Create ONE new square social media profile picture for Sylvanis, enigmatic private fight patron: a deliberately moody social portrait in the arena balcony, black suit and open white collar, pale face and subtle unsettling amused smile, preserve long black hair, pointed ears, violet eyes, tattoos and silver jewellery, blurred empty ring behind, face readable despite low-key purple lighting. Reference image is identity and anime art-style reference ONLY. Preserve exact face, hair, complexion, eyes and identifying details. New pose and personally chosen everyday snapshot, not a formal character-selection portrait. Contemporary romance anime, fine tapered lines and refined cel shading, not photoreal. Close head-and-shoulders; centered face readable at tiny circular avatar size. Full square softly blurred environmental background. No frame, text, watermark or collage.",
+    "reference": "assets/portraits/sylvanis-selection.png"
+  }
+]

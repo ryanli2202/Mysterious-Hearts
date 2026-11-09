@@ -1,0 +1,10 @@
+{
+  "frameCountPerDirection": 24,
+  "cycleMs": 960,
+  "periodicSeam": true,
+  "stanceTranslation": "constant backwards velocity relative to torso",
+  "minimumSwingFootY": 52.01284646056838,
+  "seamFootDelta": 1.9747113283826498,
+  "maximumOtherFootDelta": 2.1794811806626333,
+  "allLegTargetsReachable": true
+}

@@ -1,0 +1,53 @@
+{
+  "tool": "Built-in image_gen",
+  "outfits": [
+    {
+      "slug": "florist",
+      "label": "Florist workwear",
+      "path": "assets/portraits/emily-florist.png",
+      "prompt": "Use case: identity-preserve. Create ONE new alternate outfit portrait for Emily Fields, adult age 20, in Mysterious Hearts. The input image is both the exact identity and anime/manhwa art style reference. Preserve her delicate adult face, light complexion, blue eyes, fine round silver glasses, very long straight pale blonde hair and blunt bangs, petite adult proportions, gentle subtle smile. Match fine tapered linework, refined cel shading and soft highlights. Match reference centered hip-up framing, head scale and eye line, relaxed three-quarter posture, hands loosely together near waist; full crown and shoulders inside frame with breathing room. Change only clothing to: sage green linen apron with useful pockets over a cream rolled-sleeve blouse and a muted brown skirt; tiny embroidered daisy on apron. Fully clothed tasteful contemporary styling. Genuine transparent alpha background, no scenery, no text, no watermark, no frame, no additional people. One portrait only, not a sheet."
+    },
+    {
+      "slug": "cafe",
+      "label": "Café cardigan",
+      "path": "assets/portraits/emily-cafe.png",
+      "prompt": "Use case: identity-preserve. Create ONE new alternate outfit portrait for Emily Fields, adult age 20, in Mysterious Hearts. The input image is both the exact identity and anime/manhwa art style reference. Preserve her delicate adult face, light complexion, blue eyes, fine round silver glasses, very long straight pale blonde hair and blunt bangs, petite adult proportions, gentle subtle smile. Match fine tapered linework, refined cel shading and soft highlights. Match reference centered hip-up framing, head scale and eye line, relaxed three-quarter posture, hands loosely together near waist; full crown and shoulders inside frame with breathing room. Change only clothing to: soft dusty rose cable-knit cardigan with pearl buttons over an ivory lace-collar top, high-waisted cocoa pleated skirt. Fully clothed tasteful contemporary styling. Genuine transparent alpha background, no scenery, no text, no watermark, no frame, no additional people. One portrait only, not a sheet."
+    },
+    {
+      "slug": "picnic",
+      "label": "Spring picnic",
+      "path": "assets/portraits/emily-picnic.png",
+      "prompt": "Use case: identity-preserve. Create ONE new alternate outfit portrait for Emily Fields, adult age 20, in Mysterious Hearts. The input image is both the exact identity and anime/manhwa art style reference. Preserve her delicate adult face, light complexion, blue eyes, fine round silver glasses, very long straight pale blonde hair and blunt bangs, petite adult proportions, gentle subtle smile. Match fine tapered linework, refined cel shading and soft highlights. Match reference centered hip-up framing, head scale and eye line, relaxed three-quarter posture, hands loosely together near waist; full crown and shoulders inside frame with breathing room. Change only clothing to: pale yellow gingham sundress with modest square neckline, puff sleeves and fitted waist, small white ribbon at waist. Fully clothed tasteful contemporary styling. Genuine transparent alpha background, no scenery, no text, no watermark, no frame, no additional people. One portrait only, not a sheet."
+    },
+    {
+      "slug": "rainy",
+      "label": "Rainy day",
+      "path": "assets/portraits/emily-rainy.png",
+      "prompt": "Use case: identity-preserve. Create ONE new alternate outfit portrait for Emily Fields, adult age 20, in Mysterious Hearts. The input image is both the exact identity and anime/manhwa art style reference. Preserve her delicate adult face, light complexion, blue eyes, fine round silver glasses, very long straight pale blonde hair and blunt bangs, petite adult proportions, gentle subtle smile. Match fine tapered linework, refined cel shading and soft highlights. Match reference centered hip-up framing, head scale and eye line, relaxed three-quarter posture, hands loosely together near waist; full crown and shoulders inside frame with breathing room. Change only clothing to: dusty blue raincoat worn open over a cream and navy striped fine-knit top and navy skirt, practical silver snaps. Fully clothed tasteful contemporary styling. Genuine transparent alpha background, no scenery, no text, no watermark, no frame, no additional people. One portrait only, not a sheet."
+    },
+    {
+      "slug": "winter",
+      "label": "Winter coat",
+      "path": "assets/portraits/emily-winter.png",
+      "prompt": "Use case: identity-preserve. Create ONE new alternate outfit portrait for Emily Fields, adult age 20, in Mysterious Hearts. The input image is both the exact identity and anime/manhwa art style reference. Preserve her delicate adult face, light complexion, blue eyes, fine round silver glasses, very long straight pale blonde hair and blunt bangs, petite adult proportions, gentle subtle smile. Match fine tapered linework, refined cel shading and soft highlights. Match reference centered hip-up framing, head scale and eye line, relaxed three-quarter posture, hands loosely together near waist; full crown and shoulders inside frame with breathing room. Change only clothing to: warm camel wool coat with large lapels and a muted burgundy knitted scarf over an ivory turtleneck. Fully clothed tasteful contemporary styling. Genuine transparent alpha background, no scenery, no text, no watermark, no frame, no additional people. One portrait only, not a sheet."
+    },
+    {
+      "slug": "workshop",
+      "label": "Art workshop",
+      "path": "assets/portraits/emily-workshop.png",
+      "prompt": "Use case: identity-preserve. Create ONE new alternate outfit portrait for Emily Fields, adult age 20, in Mysterious Hearts. The input image is both the exact identity and anime/manhwa art style reference. Preserve her delicate adult face, light complexion, blue eyes, fine round silver glasses, very long straight pale blonde hair and blunt bangs, petite adult proportions, gentle subtle smile. Match fine tapered linework, refined cel shading and soft highlights. Match reference centered hip-up framing, head scale and eye line, relaxed three-quarter posture, hands loosely together near waist; full crown and shoulders inside frame with breathing room. Change only clothing to: soft lavender rolled-sleeve cotton shirt beneath oatmeal canvas dungarees, small tasteful paint marks on the bib. Fully clothed tasteful contemporary styling. Genuine transparent alpha background, no scenery, no text, no watermark, no frame, no additional people. One portrait only, not a sheet."
+    },
+    {
+      "slug": "garden",
+      "label": "Garden party",
+      "path": "assets/portraits/emily-garden.png",
+      "prompt": "Use case: identity-preserve. Create ONE new alternate outfit portrait for Emily Fields, adult age 20, in Mysterious Hearts. The input image is both the exact identity and anime/manhwa art style reference. Preserve her delicate adult face, light complexion, blue eyes, fine round silver glasses, very long straight pale blonde hair and blunt bangs, petite adult proportions, gentle subtle smile. Match fine tapered linework, refined cel shading and soft highlights. Match reference centered hip-up framing, head scale and eye line, relaxed three-quarter posture, hands loosely together near waist; full crown and shoulders inside frame with breathing room. Change only clothing to: sage green botanical-print midi dress with sheer opaque-lined flutter sleeves, modest V neckline, delicate waist sash. Fully clothed tasteful contemporary styling. Genuine transparent alpha background, no scenery, no text, no watermark, no frame, no additional people. One portrait only, not a sheet."
+    },
+    {
+      "slug": "velvet",
+      "label": "Evening velvet",
+      "path": "assets/portraits/emily-velvet.png",
+      "prompt": "Use case: identity-preserve. Create ONE new alternate outfit portrait for Emily Fields, adult age 20, in Mysterious Hearts. The input image is both the exact identity and anime/manhwa art style reference. Preserve her delicate adult face, light complexion, blue eyes, fine round silver glasses, very long straight pale blonde hair and blunt bangs, petite adult proportions, gentle subtle smile. Match fine tapered linework, refined cel shading and soft highlights. Match reference centered hip-up framing, head scale and eye line, relaxed three-quarter posture, hands loosely together near waist; full crown and shoulders inside frame with breathing room. Change only clothing to: deep burgundy velvet dress with elegant boat neckline and long fitted sleeves, subtle waist pleating and a small silver pendant. Fully clothed tasteful contemporary styling. Genuine transparent alpha background, no scenery, no text, no watermark, no frame, no additional people. One portrait only, not a sheet."
+    }
+  ]
+}

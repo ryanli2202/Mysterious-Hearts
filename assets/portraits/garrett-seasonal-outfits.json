@@ -1,0 +1,39 @@
+{
+  "tool": "Built-in image_gen",
+  "references": [
+    "garrett-selection.png",
+    "garrett-sleep.png"
+  ],
+  "outfits": [
+    {
+      "file": "garrett-summer-linen.png",
+      "name": "Summer linen shirt",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts transparent hip-up alternate outfit portrait. Image 1 is Garrett's exact face, hair, identity, pose, scale and anime/manhwa art style reference. Image 2 is supporting reference for exact body build and full neck/chest/arm tattoo placement. Same adult Hong Kong man age 22, golden eyes, tousled golden blond hair, angular handsome face, gold hoop earrings. Preserve all identifying details; tattoos appear only on exposed skin and must never show through clothing. Fine tapered dark contours, refined clean cel shading, grouped hair highlights, soft even light. Single character, relaxed slight three-quarter pose, direct eye contact, subtle charming smile. Frame whole hair and both shoulders with transparent margin, crop at hips below waistband. Transparent RGBA background, no white backdrop, no scenery, no text, signature, watermark, borders. Outfit: Lightweight pale sky-blue short-sleeved linen shirt, relaxed open collar with top three buttons undone, cream tailored summer shorts visible at hips, fine gold necklaces. Easy warm-weather outfit.",
+      "correction": "Use case: identity-preserve precise correction. Image 1 is edit target; image 2 is tattoo reference only. Restore the missing intricate black dragon sleeve tattoos on BOTH exposed arms from sleeve hems to wrists, exactly using image 2 as tattoo reference. Change nothing else. Keep exact face, hair, pose, outfit, framing, skin tone, linework and cel shading of image 1. Tattoos only on bare skin, never over clothing. Preserve genuinely transparent background. No text or watermark."
+    },
+    {
+      "file": "garrett-winter-coat.png",
+      "name": "Winter wool coat",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts transparent hip-up alternate outfit portrait. Image 1 is Garrett's exact face, hair, identity, pose, scale and anime/manhwa art style reference. Image 2 is supporting reference for exact body build and full neck/chest/arm tattoo placement. Same adult Hong Kong man age 22, golden eyes, tousled golden blond hair, angular handsome face, gold hoop earrings. Preserve all identifying details; tattoos appear only on exposed skin and must never show through clothing. Fine tapered dark contours, refined clean cel shading, grouped hair highlights, soft even light. Single character, relaxed slight three-quarter pose, direct eye contact, subtle charming smile. Frame whole hair and both shoulders with transparent margin, crop at hips below waistband. Transparent RGBA background, no white backdrop, no scenery, no text, signature, watermark, borders. Outfit: Heavy deep camel wool overcoat over a charcoal cable-knit turtleneck, soft dark tartan scarf loosely wrapped at neck, black tailored trousers. Cozy convincing winter layers, no headwear.",
+      "correction": null
+    },
+    {
+      "file": "garrett-gym-tank.png",
+      "name": "Gym training tank",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts transparent hip-up alternate outfit portrait. Image 1 is Garrett's exact face, hair, identity, pose, scale and anime/manhwa art style reference. Image 2 is supporting reference for exact body build and full neck/chest/arm tattoo placement. Same adult Hong Kong man age 22, golden eyes, tousled golden blond hair, angular handsome face, gold hoop earrings. Preserve all identifying details; tattoos appear only on exposed skin and must never show through clothing. Fine tapered dark contours, refined clean cel shading, grouped hair highlights, soft even light. Single character, relaxed slight three-quarter pose, direct eye contact, subtle charming smile. Frame whole hair and both shoulders with transparent margin, crop at hips below waistband. Transparent RGBA background, no white backdrop, no scenery, no text, signature, watermark, borders. Outfit: Black athletic racerback training tank with modest scoop neck and subtle gold side piping, charcoal drawstring workout shorts visible at hips. Muscular arms exposed with their exact reference dragon tattoo sleeves. No dangling necklaces during exercise, retain small gold earrings.",
+      "correction": "Use case: identity-preserve precise correction. Image 1 is edit target; image 2 is tattoo reference only. Restore the missing black thorn/branch chest tattoo on the exposed upper chest inside the tank neckline, using image 2 as exact tattoo placement reference; it connects to the neck tattoo and continues under the tank. Keep all existing arm tattoos. Change nothing else. Keep exact face, hair, pose, outfit, framing, skin tone, linework and cel shading of image 1. Tattoos only on bare skin, never over clothing. Preserve genuinely transparent background. No text or watermark."
+    },
+    {
+      "file": "garrett-gym-compression.png",
+      "name": "Gym compression shirt",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts transparent hip-up alternate outfit portrait. Image 1 is Garrett's exact face, hair, identity, pose, scale and anime/manhwa art style reference. Image 2 is supporting reference for exact body build and full neck/chest/arm tattoo placement. Same adult Hong Kong man age 22, golden eyes, tousled golden blond hair, angular handsome face, gold hoop earrings. Preserve all identifying details; tattoos appear only on exposed skin and must never show through clothing. Fine tapered dark contours, refined clean cel shading, grouped hair highlights, soft even light. Single character, relaxed slight three-quarter pose, direct eye contact, subtle charming smile. Frame whole hair and both shoulders with transparent margin, crop at hips below waistband. Transparent RGBA background, no white backdrop, no scenery, no text, signature, watermark, borders. Outfit: Fitted slate-blue short-sleeve technical compression training shirt, black athletic joggers visible at hips, small black sports watch. Tattooed forearms exposed, chest and upper arms covered correctly by opaque fabric. No necklaces, retain small gold earrings.",
+      "correction": null
+    },
+    {
+      "file": "garrett-beach-shorts.png",
+      "name": "Shirtless beach shorts",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts transparent hip-up alternate outfit portrait. Image 1 is Garrett's exact face, hair, identity, pose, scale and anime/manhwa art style reference. Image 2 is supporting reference for exact body build and full neck/chest/arm tattoo placement. Same adult Hong Kong man age 22, golden eyes, tousled golden blond hair, angular handsome face, gold hoop earrings. Preserve all identifying details; tattoos appear only on exposed skin and must never show through clothing. Fine tapered dark contours, refined clean cel shading, grouped hair highlights, soft even light. Single character, relaxed slight three-quarter pose, direct eye contact, subtle charming smile. Frame whole hair and both shoulders with transparent margin, crop at hips below waistband. Transparent RGBA background, no white backdrop, no scenery, no text, signature, watermark, borders. Outfit: Shirtless relaxed beach outfit with rich teal swim shorts and white drawstring, waistband naturally at hips, enough shorts visible to clearly read as swimwear. Match the bare torso musculature, chest/neck thorn tattoos and complete dragon tattoo sleeves exactly from reference image 2, no new tattoos. Small gold earrings, a fine gold chain. Friendly relaxed holiday smile. No scenery, no towel, no props.",
+      "correction": null
+    }
+  ]
+}

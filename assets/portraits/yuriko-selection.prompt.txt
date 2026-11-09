@@ -1,0 +1,4 @@
+Tool: Built-in image_gen
+Transparent background: true
+
+Single transparent waist-to-hips character sprite for Mysterious Hearts. Yuriko Takamura, adult Japanese woman age 18, petite first-year theatre design student. Polished contemporary anime/manhwa fine crisp linework, refined cel shading, soft light, expressive dark brown eyes, glossy ink-black collarbone-length layered hair with side swept fringe and a small amber barrette. Knowing lopsided smile, relaxed three-quarter stance facing viewer. Campus attire: moss green canvas chore jacket with rolled cuffs and a carpenter pencil in chest pocket, ivory rib tee, dark high-waisted jeans and narrow worn leather belt. Full hair, shoulders and elbows inside frame, cropped at hips, generous transparent margin. Vertical, one person, authentic transparent alpha, clean isolated silhouette, no scene, lettering, borders or watermark.

@@ -1,0 +1,5 @@
+Tool: Built-in image_gen
+Reference: C:/Users/ryanl/Pictures/Vendetta/Outputs/Art/Characters/Garrett Han.png
+Transparent background: true
+
+Use case: stylized-concept. Asset: transparent character-selection portrait for Mysterious Hearts text romance RPG. Use the supplied Garrett Han character sheet as identity and illustration style reference. Create ONE polished waist-up portrait of Garrett, adult Hong Kong man age 22: same face, tousled golden blond hair, golden eyes, black neck/chest tattoos matching reference, gold earrings and layered gold necklaces, tailored black suit jacket, open-collar white shirt with no tie, gold pocket square. Confident charming subtle flirtatious smile, relaxed three-quarter torso facing viewer, direct eye contact. Preserve handsome angular features and crisp anime/manhwa linework with refined cel shading of reference. Frame entire hair silhouette and both shoulders with generous transparent margin; waist crop at bottom. Single character only, no alternate views. Genuinely transparent alpha background, no scenery, no solid colour backdrop, no checkerboard baked in, no halo, no text, no UI, no border, no watermark.

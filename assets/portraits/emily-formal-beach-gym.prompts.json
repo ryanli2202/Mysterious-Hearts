@@ -1,0 +1,35 @@
+{
+  "tool": "Built-in image_gen",
+  "outfits": [
+    {
+      "slug": "formal-satin",
+      "label": "Midnight satin formal",
+      "path": "assets/portraits/emily-formal-satin.png",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts alternate character outfit portrait. Input image is the exact identity, framing and anime/manhwa art reference for Emily Fields, adult woman age 20. Preserve her adult face and proportions, petite build, light skin, blue eyes, fine round silver glasses, very long straight pale blonde hair with blunt bangs and small gentle smile. Match the original fine tapered linework, refined cel shading, soft highlights, centered hip-up framing and eye line, relaxed slightly three-quarter standing posture, hands loosely together near waist. Keep full crown and shoulders inside canvas with breathing room. Outfit: a midnight navy satin evening gown with an elegant off-shoulder folded neckline, fitted waist, softly draped skirt, tiny pearl earrings and delicate silver pendant. Show enough upper hip area to read the outfit. Natural neutral fashion-catalog presentation. Preserve original anatomy and body proportions. Genuine transparent alpha background. No scenery, text, borders, watermarks, extra characters or montage. One portrait only."
+    },
+    {
+      "slug": "formal-tailoring",
+      "label": "Ivory formal tailoring",
+      "path": "assets/portraits/emily-formal-tailoring.png",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts alternate character outfit portrait. Input image is the exact identity, framing and anime/manhwa art reference for Emily Fields, adult woman age 20. Preserve her adult face and proportions, petite build, light skin, blue eyes, fine round silver glasses, very long straight pale blonde hair with blunt bangs and small gentle smile. Match the original fine tapered linework, refined cel shading, soft highlights, centered hip-up framing and eye line, relaxed slightly three-quarter standing posture, hands loosely together near waist. Keep full crown and shoulders inside canvas with breathing room. Outfit: an elegant ivory tailored blazer with satin lapels over a dusty mauve silk camisole with a modest neckline, matching ivory high-waisted formal trousers and a fine silver necklace. Show enough upper hip area to read the outfit. Natural neutral fashion-catalog presentation. Preserve original anatomy and body proportions. Genuine transparent alpha background. No scenery, text, borders, watermarks, extra characters or montage. One portrait only."
+    },
+    {
+      "slug": "beach-bikini",
+      "label": "Blue floral bikini",
+      "path": "assets/portraits/emily-beach-bikini.png",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts alternate character outfit portrait. Input image is the exact identity, framing and anime/manhwa art reference for Emily Fields, adult woman age 20. Preserve her adult face and proportions, petite build, light skin, blue eyes, fine round silver glasses, very long straight pale blonde hair with blunt bangs and small gentle smile. Match the original fine tapered linework, refined cel shading, soft highlights, centered hip-up framing and eye line, relaxed slightly three-quarter standing posture, hands loosely together near waist. Keep full crown and shoulders inside canvas with breathing room. Outfit: a coordinated powder-blue bikini with a small white floral print, supportive classic bikini top with shoulder straps and matching high-waisted bikini bottoms; clearly two separate pieces with visible midriff. Show enough upper hip area to read the outfit. Natural neutral fashion-catalog presentation. Preserve original anatomy and body proportions. Genuine transparent alpha background. No scenery, text, borders, watermarks, extra characters or montage. One portrait only."
+    },
+    {
+      "slug": "beach-swimsuit",
+      "label": "Teal one-piece swimsuit",
+      "path": "assets/portraits/emily-beach-swimsuit.png",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts alternate character outfit portrait. Input image is the exact identity, framing and anime/manhwa art reference for Emily Fields, adult woman age 20. Preserve her adult face and proportions, petite build, light skin, blue eyes, fine round silver glasses, very long straight pale blonde hair with blunt bangs and small gentle smile. Match the original fine tapered linework, refined cel shading, soft highlights, centered hip-up framing and eye line, relaxed slightly three-quarter standing posture, hands loosely together near waist. Keep full crown and shoulders inside canvas with breathing room. Outfit: a classic teal one-piece swimsuit with a modest scoop neckline, wide shoulder straps and subtle ivory piping, smooth opaque swim fabric. Show enough upper hip area to read the outfit. Natural neutral fashion-catalog presentation. Preserve original anatomy and body proportions. Genuine transparent alpha background. No scenery, text, borders, watermarks, extra characters or montage. One portrait only."
+    },
+    {
+      "slug": "gym",
+      "label": "Lavender gym outfit",
+      "path": "assets/portraits/emily-gym.png",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts alternate character outfit portrait. Input image is the exact identity, framing and anime/manhwa art reference for Emily Fields, adult woman age 20. Preserve her adult face and proportions, petite build, light skin, blue eyes, fine round silver glasses, very long straight pale blonde hair with blunt bangs and small gentle smile. Match the original fine tapered linework, refined cel shading, soft highlights, centered hip-up framing and eye line, relaxed slightly three-quarter standing posture, hands loosely together near waist. Keep full crown and shoulders inside canvas with breathing room. Outfit: a lavender racerback athletic sports bra and charcoal high-waisted exercise leggings with subtle lavender side panels, practical opaque performance fabrics. Show enough upper hip area to read the outfit. Natural neutral fashion-catalog presentation. Preserve original anatomy and body proportions. Genuine transparent alpha background. No scenery, text, borders, watermarks, extra characters or montage. One portrait only."
+    }
+  ]
+}

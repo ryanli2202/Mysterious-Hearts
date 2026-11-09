@@ -1,0 +1,7 @@
+Built-in imagegen portrait prompt: Create a full-body transparent cel-shaded dark manhwa game portrait of The Crow, entirely concealed in a stylised plague doctor outfit: opaque beaked mask and lenses, deep hood, charcoal robes, layered draped cloth, gloves, silver clasps, chains and metal accessories. Calm commanding pose, no visible features, age or build, no text.
+Generated source: exec-24cf6eca-0768-446a-ba8f-c128d639ff10.png
+Original full-body asset superseded by the requested half-body revision.
+
+Half-body revision: built-in imagegen edit, source exec-19d21b68-22bf-4eae-81b8-a0fdde6aa726.png.
+Installed unchanged as crow-selection.png, crow-syndicate.png and assets/profiles/crow.png.
+Prompt: Edit image 1 (The Crow) to a HALF-BODY WAIST-UP game portrait. Image 2 (Ivan) is a framing/scale reference ONLY: match its close head-and-torso framing, large head size and waist cut at the bottom edge. Preserve The Crow's exact opaque beaked plague doctor mask, round dark lenses, embroidered charcoal hood, layered dark robes, cloth, ornate silver brooches and chains, restrained teal edge light and existing illustration style. No visible skin or personal features. Hood fully within the top edge with small margin; shoulders and upper arms visible; lower edge cuts at waist. No legs, feet, full length robe or floor. Enlarge subject to fill canvas like reference 2. Keep true transparent background, no gradient or glow background, no text. Do not incorporate Ivan's costume, mask or white cloth.

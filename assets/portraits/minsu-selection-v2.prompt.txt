@@ -1,0 +1,6 @@
+Tool: Built-in image_gen
+Edit target: minsu-selection-v1.png
+Style references: garrett-selection.png (primary), amy-selection.png (secondary)
+Transparent background: true
+
+undefined

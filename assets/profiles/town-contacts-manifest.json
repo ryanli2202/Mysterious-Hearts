@@ -1,0 +1,193 @@
+{
+  "generator": "Built-in image_gen",
+  "contacts": [
+    {
+      "name": "Maya",
+      "prompt": "Use case: identity-preserve. Create one square contact profile photo illustration for Maya, the campus barista, in Mysterious Hearts. Reference is identity and art style: preserve exact face, curly dark hair, golden headband, skin tone and adult age. New relaxed smiling head-and-shoulders candid in a cozy cafe, softly blurred coffee shelves background. Polished manhwa/anime linework and cel shading matching reference, not photoreal. Face centered, large and readable in a tiny circular crop, full hair within frame. Full square background, no text, watermark or border.",
+      "file": "Maya.png",
+      "reference": "assets/portraits/maya-selection.png"
+    },
+    {
+      "name": "Theo",
+      "prompt": "Use case: identity-preserve. One square contact profile photo illustration for Theo, bookseller in his cozy secondhand bookshop, in Mysterious Hearts. Preserve reference face, hair, skin tone, age, clothing and identifying accessories exactly. New natural head-and-shoulders candid pose with softly blurred setting. Polished manhwa/anime linework and cel shading matching reference. Face centered and large, complete hair inside square, readable tiny circular crop. No text, watermark, border, collage or extra people. Opaque full scene background.",
+      "reference": "assets/portraits/theo-selection.png",
+      "file": "Theo.png"
+    },
+    {
+      "name": "June",
+      "prompt": "Use case: identity-preserve. One square contact profile photo illustration for June, gardener beside flowering garden beds, in Mysterious Hearts. Preserve reference face, hair, skin tone, age, clothing and identifying accessories exactly. New natural head-and-shoulders candid pose with softly blurred setting. Polished manhwa/anime linework and cel shading matching reference. Face centered and large, complete hair inside square, readable tiny circular crop. No text, watermark, border, collage or extra people. Opaque full scene background.",
+      "reference": "assets/portraits/june-selection.png",
+      "file": "June.png"
+    },
+    {
+      "name": "Noah",
+      "prompt": "Use case: identity-preserve. One square contact profile photo illustration for Noah, adult university student on a leafy campus, in Mysterious Hearts. Preserve reference face, hair, skin tone, age, clothing and identifying accessories exactly. New natural head-and-shoulders candid pose with softly blurred setting. Polished manhwa/anime linework and cel shading matching reference. Face centered and large, complete hair inside square, readable tiny circular crop. No text, watermark, border, collage or extra people. Opaque full scene background.",
+      "reference": "assets/portraits/noah-selection.png",
+      "file": "Noah.png"
+    },
+    {
+      "name": "Iris",
+      "prompt": "Use case: identity-preserve. One square contact profile photo illustration for Iris, musician at an evening town square, in Mysterious Hearts. Preserve reference face, hair, skin tone, age, clothing and identifying accessories exactly. New natural head-and-shoulders candid pose with softly blurred setting. Polished manhwa/anime linework and cel shading matching reference. Face centered and large, complete hair inside square, readable tiny circular crop. No text, watermark, border, collage or extra people. Opaque full scene background.",
+      "reference": "assets/portraits/iris-selection.png",
+      "file": "Iris.png"
+    },
+    {
+      "name": "Leo",
+      "prompt": "Use case: identity-preserve. One square contact profile photo illustration for Leo, courier on a cheerful town street, in Mysterious Hearts. Preserve reference face, hair, skin tone, age, clothing and identifying accessories exactly. New natural head-and-shoulders candid pose with softly blurred setting. Polished manhwa/anime linework and cel shading matching reference. Face centered and large, complete hair inside square, readable tiny circular crop. No text, watermark, border, collage or extra people. Opaque full scene background.",
+      "reference": "assets/portraits/leo-selection.png",
+      "file": "Leo.png"
+    },
+    {
+      "name": "Priya Shah",
+      "prompt": "Use case: identity-preserve. One square contact profile photo illustration for Priya Shah, 38-year-old librarian in a quiet library, in Mysterious Hearts. Preserve reference face, hair, skin tone, age, clothing and identifying accessories exactly. New natural head-and-shoulders candid pose with softly blurred setting. Polished manhwa/anime linework and cel shading matching reference. Face centered and large, complete hair inside square, readable tiny circular crop. No text, watermark, border, collage or extra people. Opaque full scene background.",
+      "reference": "assets/portraits/priya-shah-selection.png",
+      "file": "Priya Shah.png"
+    },
+    {
+      "name": "Otis Bell",
+      "prompt": "Use case: identity-preserve. One square contact profile photo illustration for Otis Bell, 67-year-old retired mechanic by the harbour, in Mysterious Hearts. Preserve reference face, hair, skin tone, age, clothing and identifying accessories exactly. New natural head-and-shoulders candid pose with softly blurred setting. Polished manhwa/anime linework and cel shading matching reference. Face centered and large, complete hair inside square, readable tiny circular crop. No text, watermark, border, collage or extra people. Opaque full scene background.",
+      "reference": "assets/portraits/otis-bell-selection.png",
+      "file": "Otis Bell.png"
+    },
+    {
+      "name": "Nadia Flores",
+      "prompt": "Use case: identity-preserve. One square contact profile photo illustration for Nadia Flores, 44-year-old shuttle driver on a walking break in town, in Mysterious Hearts. Preserve reference face, hair, skin tone, age, clothing and identifying accessories exactly. New natural head-and-shoulders candid pose with softly blurred setting. Polished manhwa/anime linework and cel shading matching reference. Face centered and large, complete hair inside square, readable tiny circular crop. No text, watermark, border, collage or extra people. Opaque full scene background.",
+      "reference": "assets/portraits/nadia-flores-selection.png",
+      "file": "Nadia Flores.png"
+    },
+    {
+      "name": "Ben Okafor",
+      "prompt": "Use case: identity-preserve. One square contact profile photo illustration for Ben Okafor, 31-year-old bowling technician at the lanes, in Mysterious Hearts. Preserve reference face, hair, skin tone, age, clothing and identifying accessories exactly. New natural head-and-shoulders candid pose with softly blurred setting. Polished manhwa/anime linework and cel shading matching reference. Face centered and large, complete hair inside square, readable tiny circular crop. No text, watermark, border, collage or extra people. Opaque full scene background.",
+      "reference": "assets/portraits/ben-okafor-selection.png",
+      "file": "Ben Okafor.png"
+    },
+    {
+      "name": "Tess Morgan",
+      "prompt": "Use case: identity-preserve. One square contact profile photo illustration for Tess Morgan, 29-year-old projectionist in a cinema foyer, in Mysterious Hearts. Preserve reference face, hair, skin tone, age, clothing and identifying accessories exactly. New natural head-and-shoulders candid pose with softly blurred setting. Polished manhwa/anime linework and cel shading matching reference. Face centered and large, complete hair inside square, readable tiny circular crop. No text, watermark, border, collage or extra people. Opaque full scene background.",
+      "reference": "assets/portraits/tess-morgan-selection.png",
+      "file": "Tess Morgan.png"
+    },
+    {
+      "name": "Farah Haddad",
+      "prompt": "Use case: identity-preserve. One square contact profile photo illustration for Farah Haddad, 52-year-old tailor in her sewing studio, in Mysterious Hearts. Preserve reference face, hair, skin tone, age, clothing and identifying accessories exactly. New natural head-and-shoulders candid pose with softly blurred setting. Polished manhwa/anime linework and cel shading matching reference. Face centered and large, complete hair inside square, readable tiny circular crop. No text, watermark, border, collage or extra people. Opaque full scene background.",
+      "reference": "assets/portraits/farah-haddad-selection.png",
+      "file": "Farah Haddad.png"
+    },
+    {
+      "name": "Gabe Turner",
+      "prompt": "Use case: identity-preserve. One square contact profile photo illustration for Gabe Turner, 26-year-old bicycle repairer beside a cycle workshop, in Mysterious Hearts. Preserve reference face, hair, skin tone, age, clothing and identifying accessories exactly. New natural head-and-shoulders candid pose with softly blurred setting. Polished manhwa/anime linework and cel shading matching reference. Face centered and large, complete hair inside square, readable tiny circular crop. No text, watermark, border, collage or extra people. Opaque full scene background.",
+      "reference": "assets/portraits/gabe-turner-selection.png",
+      "file": "Gabe Turner.png"
+    },
+    {
+      "name": "Wren Park",
+      "prompt": "Use case: identity-preserve. One square contact profile photo illustration for Wren Park, 22-year-old animation student in an arcade, in Mysterious Hearts. Preserve reference face, hair, skin tone, age, clothing and identifying accessories exactly. New natural head-and-shoulders candid pose with softly blurred setting. Polished manhwa/anime linework and cel shading matching reference. Face centered and large, complete hair inside square, readable tiny circular crop. No text, watermark, border, collage or extra people. Opaque full scene background.",
+      "reference": "assets/portraits/wren-park-selection.png",
+      "file": "Wren Park.png"
+    },
+    {
+      "name": "Celia Brooks",
+      "prompt": "Use case: identity-preserve. One square contact profile photo illustration for Celia Brooks, 46-year-old nurse off duty in a park, in Mysterious Hearts. Preserve reference face, hair, skin tone, age, clothing and identifying accessories exactly. New natural head-and-shoulders candid pose with softly blurred setting. Polished manhwa/anime linework and cel shading matching reference. Face centered and large, complete hair inside square, readable tiny circular crop. No text, watermark, border, collage or extra people. Opaque full scene background.",
+      "reference": "assets/portraits/celia-brooks-selection.png",
+      "file": "Celia Brooks.png"
+    },
+    {
+      "name": "Arthur Finch",
+      "prompt": "Use case: identity-preserve. One square contact profile photo illustration for Arthur Finch, 73-year-old local history volunteer in an archive, in Mysterious Hearts. Preserve reference face, hair, skin tone, age, clothing and identifying accessories exactly. New natural head-and-shoulders candid pose with softly blurred setting. Polished manhwa/anime linework and cel shading matching reference. Face centered and large, complete hair inside square, readable tiny circular crop. No text, watermark, border, collage or extra people. Opaque full scene background.",
+      "reference": "assets/portraits/arthur-finch-selection.png",
+      "file": "Arthur Finch.png"
+    },
+    {
+      "name": "Luz Moreno",
+      "prompt": "Use case: identity-preserve. One square contact profile photo illustration for Luz Moreno, 34-year-old coordinator in a community garden, in Mysterious Hearts. Preserve reference face, hair, skin tone, age, clothing and identifying accessories exactly. New natural head-and-shoulders candid pose, hands outside frame, with softly blurred setting. Polished manhwa/anime linework and cel shading matching reference. Face centered and large, complete hair inside square, readable tiny circular crop. No text, watermark, border, collage or extra people. Opaque full scene background.",
+      "reference": "assets/portraits/luz-moreno-selection.png",
+      "file": "Luz Moreno.png"
+    },
+    {
+      "name": "Samir Dutta",
+      "prompt": "Use case: identity-preserve. One square contact profile photo illustration for Samir Dutta, 40-year-old bakery driver taking a seaside break, in Mysterious Hearts. Preserve reference face, hair, skin tone, age, clothing and identifying accessories exactly. New natural head-and-shoulders candid pose, hands outside frame, with softly blurred setting. Polished manhwa/anime linework and cel shading matching reference. Face centered and large, complete hair inside square, readable tiny circular crop. No text, watermark, border, collage or extra people. Opaque full scene background.",
+      "reference": "assets/portraits/samir-dutta-selection.png",
+      "file": "Samir Dutta.png"
+    },
+    {
+      "name": "Mario Romano",
+      "prompt": "Use case: identity-preserve. One square contact profile photo illustration for Mario Romano, pizza maker in his pizzeria, in Mysterious Hearts. Preserve reference face, hair, skin tone, age, clothing and identifying accessories exactly. New natural head-and-shoulders candid pose, hands outside frame, with softly blurred setting. Polished manhwa/anime linework and cel shading matching reference. Face centered and large, complete hair inside square, readable tiny circular crop. No text, watermark, border, collage or extra people. Opaque full scene background.",
+      "reference": "assets/portraits/mario-romano-selection.png",
+      "file": "Mario Romano.png"
+    },
+    {
+      "name": "Robin Vale",
+      "prompt": "Use case: identity-preserve. One square contact profile photo illustration for Robin Vale, reception clerk in a dark modern office lobby, in Mysterious Hearts. Preserve reference face, hair, skin tone, age, clothing and identifying accessories exactly. New natural head-and-shoulders portrait pose, hands outside frame, with softly blurred setting. Polished manhwa/anime linework and cel shading matching reference. Face centered and large, complete hair inside square, readable tiny circular crop. No text, watermark, border, collage or extra people. Opaque full scene background.",
+      "reference": "assets/portraits/robin-vale-selection.png",
+      "file": "Robin Vale.png"
+    },
+    {
+      "name": "Dana Lin",
+      "prompt": "Use case: identity-preserve. One square contact profile photo illustration for Dana Lin, liaison desk officer in a professional office, in Mysterious Hearts. Preserve reference face, hair, skin tone, age, clothing and identifying accessories exactly. New natural head-and-shoulders portrait pose, hands outside frame, with softly blurred setting. Polished manhwa/anime linework and cel shading matching reference. Face centered and large, complete hair inside square, readable tiny circular crop. No text, watermark, border, collage or extra people. Opaque full scene background.",
+      "reference": "assets/portraits/dana-lin-selection.png",
+      "file": "Dana Lin.png"
+    },
+    {
+      "name": "Joseph Richter",
+      "prompt": "Use case: identity-preserve. One square contact profile photo illustration for Joseph Richter, wealthy condescending CEO in a luxurious dark office, restrained smug expression, in Mysterious Hearts. Preserve reference face, hair, skin tone, age, clothing and identifying accessories exactly. New natural head-and-shoulders portrait pose, hands outside frame, with softly blurred setting. Polished manhwa/anime linework and cel shading matching reference. Face centered and large, complete hair inside square, readable tiny circular crop. No text, watermark, border, collage or extra people. Opaque full scene background.",
+      "reference": "assets/portraits/joseph-richter-selection.png",
+      "file": "Joseph Richter.png"
+    },
+    {
+      "name": "Hazel Reed",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b915-5c29-7260-86a0-4b0c8b95b253\\exec-8343969c-55bd-4360-9e9c-a3cae20c98d0.png",
+      "prompt": "Use case: identity-preserve. Create one dedicated square 1:1 contact profile picture illustration for Hazel Reed, woodland ranger beside a softly blurred pine trail, in Mysterious Hearts. The input portrait is the identity and art-style reference: preserve exact face, adult age, skin tone, hair, clothing and identifying accessories. Recompose as a new relaxed natural head-and-shoulders candid portrait, face large and centered, complete hair within frame and readable in a tiny circular phone-avatar crop. Polished manhwa linework and cel-shading matching the reference, not photorealistic. Full opaque square scene background, softly blurred to emphasise the face. No extra people, text, logos, border, watermark or collage. Preserve the source portrait as a separate asset; this is a new dedicated profile image.",
+      "reference": "assets/portraits/hazel-reed-selection.png",
+      "file": "Hazel Reed.png"
+    },
+    {
+      "name": "Euan Marsh",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b915-5c29-7260-86a0-4b0c8b95b253\\exec-db9dfcef-9215-4767-8f49-c1d272288b7e.png",
+      "prompt": "Use case: identity-preserve. Create one dedicated square 1:1 contact profile picture illustration for Euan Marsh, tea-room owner in his cosy hillside tea room with softly blurred teapot shelves, in Mysterious Hearts. The input portrait is the identity and art-style reference: preserve exact face, adult age, skin tone, hair, clothing and identifying accessories. Recompose as a new relaxed natural head-and-shoulders candid portrait, face large and centered, complete hair within frame and readable in a tiny circular phone-avatar crop. Polished manhwa linework and cel-shading matching the reference, not photorealistic. Full opaque square scene background, softly blurred to emphasise the face. No extra people, text, logos, border, watermark or collage. Preserve the source portrait as a separate asset; this is a new dedicated profile image.",
+      "reference": "assets/portraits/euan-marsh-selection.png",
+      "file": "Euan Marsh.png"
+    },
+    {
+      "name": "Marta Silva",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b915-5c29-7260-86a0-4b0c8b95b253\\exec-d3085e42-c65c-4a7c-a84b-1af0408dd091.png",
+      "prompt": "Use case: identity-preserve. Create one dedicated square 1:1 contact profile picture illustration for Marta Silva, orchard caretaker beside softly blurred apple trees, in Mysterious Hearts. The input portrait is the identity and art-style reference: preserve exact face, adult age, skin tone, hair, clothing and identifying accessories. Recompose as a new relaxed natural head-and-shoulders candid portrait, face large and centered, complete hair within frame and readable in a tiny circular phone-avatar crop. Polished manhwa linework and cel-shading matching the reference, not photorealistic. Full opaque square scene background, softly blurred to emphasise the face. No extra people, text, logos, border, watermark or collage. Preserve the source portrait as a separate asset; this is a new dedicated profile image.",
+      "reference": "assets/portraits/marta-silva-selection.png",
+      "file": "Marta Silva.png"
+    },
+    {
+      "name": "Jonah Price",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b915-5c29-7260-86a0-4b0c8b95b253\\exec-ad17f56b-d1a0-47bc-9240-c6bb99fe467f.png",
+      "prompt": "Use case: identity-preserve. Create one dedicated square 1:1 contact profile picture illustration for Jonah Price, community potter in his old mill pottery studio with softly blurred shelves of ceramic mugs, in Mysterious Hearts. The input portrait is the identity and art-style reference: preserve exact face, adult age, skin tone, hair, clothing and identifying accessories. Recompose as a new relaxed natural head-and-shoulders candid portrait, face large and centered, complete hair within frame and readable in a tiny circular phone-avatar crop. Polished manhwa linework and cel-shading matching the reference, not photorealistic. Full opaque square scene background, softly blurred to emphasise the face. No extra people, text, logos, border, watermark or collage. Preserve the source portrait as a separate asset; this is a new dedicated profile image.",
+      "reference": "assets/portraits/jonah-price-selection.png",
+      "file": "Jonah Price.png"
+    },
+    {
+      "name": "Keiko Tan",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b915-5c29-7260-86a0-4b0c8b95b253\\exec-1af434b7-a6dc-48d2-9efb-0251deec1baa.png",
+      "prompt": "Use case: identity-preserve. Create one dedicated square 1:1 contact profile picture illustration for Keiko Tan, marine education guide at the marine centre, softly blurred blue-green exhibit background, in Mysterious Hearts. The input portrait is the identity and art-style reference: preserve exact face, adult age, skin tone, hair, clothing and identifying accessories. Recompose as a new relaxed natural head-and-shoulders candid portrait, face large and centered, complete hair within frame and readable in a tiny circular phone-avatar crop. Polished manhwa linework and cel-shading matching the reference, not photorealistic. Full opaque square scene background, softly blurred to emphasise the face. No extra people, text, logos, border, watermark or collage. Preserve the source portrait as a separate asset; this is a new dedicated profile image.",
+      "reference": "assets/portraits/keiko-tan-selection.png",
+      "file": "Keiko Tan.png"
+    },
+    {
+      "name": "Callum Webb",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b915-5c29-7260-86a0-4b0c8b95b253\\exec-1781d141-abd6-4751-9e01-422fb9167764.png",
+      "prompt": "Use case: identity-preserve. Create one dedicated square 1:1 contact profile picture illustration for Callum Webb, coastal maintenance worker beside the lighthouse walking path, softly blurred coast background, in Mysterious Hearts. The input portrait is the identity and art-style reference: preserve exact face, adult age, skin tone, hair, clothing and identifying accessories. Recompose as a new relaxed natural head-and-shoulders candid portrait, face large and centered, complete hair within frame and readable in a tiny circular phone-avatar crop. Polished manhwa linework and cel-shading matching the reference, not photorealistic. Full opaque square scene background, softly blurred to emphasise the face. No extra people, text, logos, border, watermark or collage. Preserve the source portrait as a separate asset; this is a new dedicated profile image.",
+      "reference": "assets/portraits/callum-webb-selection.png",
+      "file": "Callum Webb.png"
+    },
+    {
+      "name": "Beatrice Cole",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b915-5c29-7260-86a0-4b0c8b95b253\\exec-b5fd5e64-25d0-4ebb-997d-09865c7ca848.png",
+      "prompt": "Use case: identity-preserve. Create one dedicated square 1:1 contact profile picture illustration for Beatrice Cole, railway museum volunteer in the museum, softly blurred vintage locomotive background, in Mysterious Hearts. The input portrait is the identity and art-style reference: preserve exact face, adult age, skin tone, hair, clothing and identifying accessories. Recompose as a new relaxed natural head-and-shoulders candid portrait, face large and centered, complete hair within frame and readable in a tiny circular phone-avatar crop. Polished manhwa linework and cel-shading matching the reference, not photorealistic. Full opaque square scene background, softly blurred to emphasise the face. No extra people, text, logos, border, watermark or collage. Preserve the source portrait as a separate asset; this is a new dedicated profile image.",
+      "reference": "assets/portraits/beatrice-cole-selection.png",
+      "file": "Beatrice Cole.png"
+    },
+    {
+      "name": "Ravi Menon",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b915-5c29-7260-86a0-4b0c8b95b253\\exec-717a95d4-0697-4ae8-9e5e-91e838712bbd.png",
+      "prompt": "Use case: identity-preserve. Create one dedicated square 1:1 contact profile picture illustration for Ravi Menon, diner cook in his riverside diner, softly blurred teal booths and warm counter background, in Mysterious Hearts. The input portrait is the identity and art-style reference: preserve exact face, adult age, skin tone, hair, clothing and identifying accessories. Recompose as a new relaxed natural head-and-shoulders candid portrait, face large and centered, complete hair within frame and readable in a tiny circular phone-avatar crop. Polished manhwa linework and cel-shading matching the reference, not photorealistic. Full opaque square scene background, softly blurred to emphasise the face. No extra people, text, logos, border, watermark or collage. Preserve the source portrait as a separate asset; this is a new dedicated profile image.",
+      "reference": "assets/portraits/ravi-menon-selection.png",
+      "file": "Ravi Menon.png"
+    }
+  ]
+}

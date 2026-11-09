@@ -1,0 +1,46 @@
+{
+  "tool": "Built-in image_gen",
+  "reference": "garrett-selection.png",
+  "outfits": [
+    {
+      "file": "garrett-formal-tuxedo.png",
+      "name": "Midnight tuxedo",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts transparent hip-up outfit portrait. Reference image is Garrett's exact identity, pose, framing and anime/manhwa illustration style. Preserve the same adult Hong Kong man age 22, angular face, golden eyes, tousled golden blond hair, complexion, build, gold hoop earrings, and original black neck/chest tattoo pattern only where uncovered. Clothes must occlude tattoos normally; do not draw tattoos on fabric. Match reference scale, eye line, relaxed three-quarter pose and charming subtle smile. Fine tapered dark linework, clean refined cel shading, grouped hair highlights. Whole hair and both shoulders inside canvas with margins, crop at hips. One character only, no text, watermark, borders, scenery or props. Genuinely transparent background. Change outfit only: Midnight navy tuxedo with black satin shawl lapels, crisp white dress shirt buttoned up, black bow tie, gold cufflinks, restrained gold pocket square."
+    },
+    {
+      "file": "garrett-formal-burgundy.png",
+      "name": "Burgundy evening suit",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts transparent hip-up outfit portrait. Reference image is Garrett's exact identity, pose, framing and anime/manhwa illustration style. Preserve the same adult Hong Kong man age 22, angular face, golden eyes, tousled golden blond hair, complexion, build, gold hoop earrings, and original black neck/chest tattoo pattern only where uncovered. Clothes must occlude tattoos normally; do not draw tattoos on fabric. Match reference scale, eye line, relaxed three-quarter pose and charming subtle smile. Fine tapered dark linework, clean refined cel shading, grouped hair highlights. Whole hair and both shoulders inside canvas with margins, crop at hips. One character only, no text, watermark, borders, scenery or props. Genuinely transparent background. Change outfit only: Burgundy velvet double-breasted dinner jacket, black silk open-neck shirt, black tailored trousers, subtle gold lapel pin and layered gold chains."
+    },
+    {
+      "file": "garrett-street-jade.png",
+      "name": "Jade streetwear",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts transparent hip-up outfit portrait. Reference image is Garrett's exact identity, pose, framing and anime/manhwa illustration style. Preserve the same adult Hong Kong man age 22, angular face, golden eyes, tousled golden blond hair, complexion, build, gold hoop earrings, and original black neck/chest tattoo pattern only where uncovered. Clothes must occlude tattoos normally; do not draw tattoos on fabric. Match reference scale, eye line, relaxed three-quarter pose and charming subtle smile. Fine tapered dark linework, clean refined cel shading, grouped hair highlights. Whole hair and both shoulders inside canvas with margins, crop at hips. One character only, no text, watermark, borders, scenery or props. Genuinely transparent background. Change outfit only: Contemporary Chinese streetwear: oversized jade-green utility jacket with stand collar and subtle tonal cloud embroidery, cream heavyweight T-shirt, black cargo trousers, small crossbody bag. Modern everyday Hong Kong fashion."
+    },
+    {
+      "file": "garrett-street-ink.png",
+      "name": "Ink streetwear",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts transparent hip-up outfit portrait. Reference image is Garrett's exact identity, pose, framing and anime/manhwa illustration style. Preserve the same adult Hong Kong man age 22, angular face, golden eyes, tousled golden blond hair, complexion, build, gold hoop earrings, and original black neck/chest tattoo pattern only where uncovered. Clothes must occlude tattoos normally; do not draw tattoos on fabric. Match reference scale, eye line, relaxed three-quarter pose and charming subtle smile. Fine tapered dark linework, clean refined cel shading, grouped hair highlights. Whole hair and both shoulders inside canvas with margins, crop at hips. One character only, no text, watermark, borders, scenery or props. Genuinely transparent background. Change outfit only: Contemporary Chinese designer streetwear: cropped black denim jacket with asymmetric frog-fastening details, charcoal layered tee, relaxed black trousers, silver-black utility belt, restrained ink-brush abstract sleeve panel. No writing."
+    },
+    {
+      "file": "garrett-traditional-changshan.png",
+      "name": "Brocade changshan",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts transparent hip-up outfit portrait. Reference image is Garrett's exact identity, pose, framing and anime/manhwa illustration style. Preserve the same adult Hong Kong man age 22, angular face, golden eyes, tousled golden blond hair, complexion, build, gold hoop earrings, and original black neck/chest tattoo pattern only where uncovered. Clothes must occlude tattoos normally; do not draw tattoos on fabric. Match reference scale, eye line, relaxed three-quarter pose and charming subtle smile. Fine tapered dark linework, clean refined cel shading, grouped hair highlights. Whole hair and both shoulders inside canvas with margins, crop at hips. One character only, no text, watermark, borders, scenery or props. Genuinely transparent background. Change outfit only: Traditional Chinese menswear: elegant deep red silk changshan with mandarin collar, authentic cloth frog closures and discreet gold woven cloud brocade, long sleeves. No imperial symbols or headgear."
+    },
+    {
+      "file": "garrett-traditional-hanfu.png",
+      "name": "Jade hanfu",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts transparent hip-up outfit portrait. Reference image is Garrett's exact identity, pose, framing and anime/manhwa illustration style. Preserve the same adult Hong Kong man age 22, angular face, golden eyes, tousled golden blond hair, complexion, build, gold hoop earrings, and original black neck/chest tattoo pattern only where uncovered. Clothes must occlude tattoos normally; do not draw tattoos on fabric. Match reference scale, eye line, relaxed three-quarter pose and charming subtle smile. Fine tapered dark linework, clean refined cel shading, grouped hair highlights. Whole hair and both shoulders inside canvas with margins, crop at hips. One character only, no text, watermark, borders, scenery or props. Genuinely transparent background. Change outfit only: Traditional Chinese men's hanfu: ivory crossed-collar inner robe with correct right-closing lapel, flowing deep-teal outer robe and wide woven waist sash with modest jade pendant. Keep his original short tousled blond hair, no wig or headgear."
+    },
+    {
+      "file": "garrett-fashion-asymmetric.png",
+      "name": "Asymmetric runway",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts transparent hip-up outfit portrait. Reference image is Garrett's exact identity, pose, framing and anime/manhwa illustration style. Preserve the same adult Hong Kong man age 22, angular face, golden eyes, tousled golden blond hair, complexion, build, gold hoop earrings, and original black neck/chest tattoo pattern only where uncovered. Clothes must occlude tattoos normally; do not draw tattoos on fabric. Match reference scale, eye line, relaxed three-quarter pose and charming subtle smile. Fine tapered dark linework, clean refined cel shading, grouped hair highlights. Whole hair and both shoulders inside canvas with margins, crop at hips. One character only, no text, watermark, borders, scenery or props. Genuinely transparent background. Change outfit only: High fashion: sculptural asymmetrical charcoal wool blazer with angular overlapping lapels, fitted black low-neck inner top, high-waisted tailored trousers, restrained gold chain accent. Editorial and sophisticated."
+    },
+    {
+      "file": "garrett-fashion-pearl.png",
+      "name": "Pearl couture",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts transparent hip-up outfit portrait. Reference image is Garrett's exact identity, pose, framing and anime/manhwa illustration style. Preserve the same adult Hong Kong man age 22, angular face, golden eyes, tousled golden blond hair, complexion, build, gold hoop earrings, and original black neck/chest tattoo pattern only where uncovered. Clothes must occlude tattoos normally; do not draw tattoos on fabric. Match reference scale, eye line, relaxed three-quarter pose and charming subtle smile. Fine tapered dark linework, clean refined cel shading, grouped hair highlights. Whole hair and both shoulders inside canvas with margins, crop at hips. One character only, no text, watermark, borders, scenery or props. Genuinely transparent background. Change outfit only: High fashion: pearl-gray draped silk blouse with open soft neckline, cropped structured ivory cape-shoulder jacket, high-waisted black trousers, fine gold layered necklaces. Masculine contemporary couture silhouette."
+    }
+  ]
+}

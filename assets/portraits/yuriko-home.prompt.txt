@@ -1,0 +1,5 @@
+Tool: Built-in image_gen
+Reference: yuriko-selection.png
+Transparent background: true
+
+Edit the supplied Yuriko portrait into her at-home outfit. Preserve her exact face, beauty mark, haircut, amber barrette, proportions, framing, illustration style and character scale. She is relaxed at home, sleeves pushed up on a roomy faded mulberry crewneck sweatshirt with subtle ribbing, charcoal heather drawstring lounge pants, hands loosely resting in pockets, a soft amused smile. Remove outdoor jacket, belt and pencil. True transparent background for game compositing, no scene, glow, text or border.

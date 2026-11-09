@@ -1,0 +1,80 @@
+[
+  {
+    "label": "Gym tank and shorts",
+    "path": "assets/portraits/ivan-gym-tank.png",
+    "tool": "Built-in image_gen",
+    "prompt": "Use case: identity-preserve. Create ONE alternate outfit portrait of Ivan Yeun, adult male age 24, for Mysterious Hearts. Attached image is authoritative identity, style, pose, head scale and framing reference. Preserve his exact face, ash-brown swept tousled hair, pale green-grey eyes, freckles across nose and cheeks, warm fair skin, stud earrings, relaxed subtle smile and lean adult dancer build. Natural moderate shoulder proportions. Change clothes to a fitted charcoal athletic tank, navy training shorts with drawstring waistband visible at hips, no necklace or loose jewelry. Match fine tapered anime linework, refined cel-shading, soft lighting. Centered hip-up portrait matching reference eye line and head size, relaxed slight three-quarter torso, hands resting naturally near pockets. Entire hair and shoulders inside canvas with transparent margin. One figure, genuine transparent RGBA background, no scenery, ground shadow, text, logos, watermark, signature, borders or collage. No tattoos or lip piercings."
+  },
+  {
+    "label": "Gym performance set",
+    "path": "assets/portraits/ivan-gym-training.png",
+    "tool": "Built-in image_gen",
+    "prompt": "Use case: identity-preserve. Create ONE alternate outfit portrait of Ivan Yeun, adult male age 24, for Mysterious Hearts. Attached image is authoritative identity, style, pose, head scale and framing reference. Preserve his exact face, ash-brown swept tousled hair, pale green-grey eyes, freckles across nose and cheeks, warm fair skin, stud earrings, relaxed subtle smile and lean adult dancer build. Natural moderate shoulder proportions. Change clothes to a fitted slate-blue short-sleeved performance T-shirt, black tapered training joggers, no necklace or loose jewelry. Match fine tapered anime linework, refined cel-shading, soft lighting. Centered hip-up portrait matching reference eye line and head size, relaxed slight three-quarter torso, hands resting naturally near pockets. Entire hair and shoulders inside canvas with transparent margin. One figure, genuine transparent RGBA background, no scenery, ground shadow, text, logos, watermark, signature, borders or collage. No tattoos or lip piercings."
+  },
+  {
+    "label": "Ivory sculptural tailoring",
+    "path": "assets/portraits/ivan-fashion-ivory.png",
+    "tool": "Built-in image_gen",
+    "prompt": "Use case: identity-preserve. Create ONE alternate outfit portrait of Ivan Yeun, adult male age 24, for Mysterious Hearts. Attached image is authoritative identity, style, pose, head scale and framing reference. Preserve his exact face, ash-brown swept tousled hair, pale green-grey eyes, freckles across nose and cheeks, warm fair skin, stud earrings, relaxed subtle smile and lean adult dancer build. Natural moderate shoulder proportions. Change clothes to an ivory asymmetric double-breasted tailored jacket with sculptural lapel over a sand fine-knit top, cream high-waisted pleated trousers and a delicate gold chain. Match fine tapered anime linework, refined cel-shading, soft lighting. Centered hip-up portrait matching reference eye line and head size, relaxed slight three-quarter torso, hands resting naturally near pockets. Entire hair and shoulders inside canvas with transparent margin. One figure, genuine transparent RGBA background, no scenery, ground shadow, text, logos, watermark, signature, borders or collage. No tattoos or lip piercings."
+  },
+  {
+    "label": "Burgundy silk couture",
+    "path": "assets/portraits/ivan-fashion-burgundy.png",
+    "tool": "Built-in image_gen",
+    "prompt": "Use case: identity-preserve. Create ONE alternate outfit portrait of Ivan Yeun, adult male age 24, for Mysterious Hearts. Attached image is authoritative identity, style, pose, head scale and framing reference. Preserve his exact face, ash-brown swept tousled hair, pale green-grey eyes, freckles across nose and cheeks, warm fair skin, stud earrings, relaxed subtle smile and lean adult dancer build. Natural moderate shoulder proportions. Change clothes to a rich burgundy draped silk shirt with elegant gathered neckline, fitted black belted high-waisted trousers, understated gold cuff. Match fine tapered anime linework, refined cel-shading, soft lighting. Centered hip-up portrait matching reference eye line and head size, relaxed slight three-quarter torso, hands resting naturally near pockets. Entire hair and shoulders inside canvas with transparent margin. One figure, genuine transparent RGBA background, no scenery, ground shadow, text, logos, watermark, signature, borders or collage. No tattoos or lip piercings."
+  },
+  {
+    "label": "Pearl grey runway",
+    "path": "assets/portraits/ivan-fashion-pearl.png",
+    "tool": "Built-in image_gen",
+    "prompt": "Use case: identity-preserve. Create ONE alternate outfit portrait of Ivan Yeun, adult male age 24, for Mysterious Hearts. Attached image is authoritative identity, style, pose, head scale and framing reference. Preserve his exact face, ash-brown swept tousled hair, pale green-grey eyes, freckles across nose and cheeks, warm fair skin, stud earrings, relaxed subtle smile and lean adult dancer build. Natural moderate shoulder proportions. Change clothes to a pearl-grey cropped boxy jacket with refined architectural seams over a black fine-knit sleeveless high-neck top, fluid charcoal wide-leg tailored trousers, small silver geometric brooch. Match fine tapered anime linework, refined cel-shading, soft lighting. Centered hip-up portrait matching reference eye line and head size, relaxed slight three-quarter torso, hands resting naturally near pockets. Entire hair and shoulders inside canvas with transparent margin. One figure, genuine transparent RGBA background, no scenery, ground shadow, text, logos, watermark, signature, borders or collage. No tattoos or lip piercings."
+  },
+  {
+    "label": "Midnight crystal stagewear",
+    "path": "assets/portraits/ivan-idol-midnight.png",
+    "tool": "Built-in image_gen",
+    "prompt": "Use case: identity-preserve. Create ONE alternate outfit portrait of Ivan Yeun, adult male age 24, for Mysterious Hearts. Attached image is authoritative identity, style, pose, head scale and framing reference. Preserve his exact face, ash-brown swept tousled hair, pale green-grey eyes, freckles across nose and cheeks, warm fair skin, stud earrings, relaxed subtle smile and lean adult dancer build. Natural moderate shoulder proportions. Change clothes to a midnight-blue fitted stage jacket with tasteful silver crystal embroidery along shoulders and lapels, black satin shirt, matching trousers, fine silver chain accent. Match fine tapered anime linework, refined cel-shading, soft lighting. Centered hip-up portrait matching reference eye line and head size, relaxed slight three-quarter torso, hands resting naturally near pockets. Entire hair and shoulders inside canvas with transparent margin. One figure, genuine transparent RGBA background, no scenery, ground shadow, text, logos, watermark, signature, borders or collage. No tattoos or lip piercings."
+  },
+  {
+    "label": "White and gold stagewear",
+    "path": "assets/portraits/ivan-idol-white.png",
+    "tool": "Built-in image_gen",
+    "prompt": "Use case: identity-preserve. Create ONE alternate outfit portrait of Ivan Yeun, adult male age 24, for Mysterious Hearts. Attached image is authoritative identity, style, pose, head scale and framing reference. Preserve his exact face, ash-brown swept tousled hair, pale green-grey eyes, freckles across nose and cheeks, warm fair skin, stud earrings, relaxed subtle smile and lean adult dancer build. Natural moderate shoulder proportions. Change clothes to a white performance jacket with restrained gold embroidered trim, white fitted shirt, white trousers with gold belt detail, polished glamorous idol styling. Match fine tapered anime linework, refined cel-shading, soft lighting. Centered hip-up portrait matching reference eye line and head size, relaxed slight three-quarter torso, hands resting naturally near pockets. Entire hair and shoulders inside canvas with transparent margin. One figure, genuine transparent RGBA background, no scenery, ground shadow, text, logos, watermark, signature, borders or collage. No tattoos or lip piercings."
+  },
+  {
+    "label": "Crimson stagewear",
+    "path": "assets/portraits/ivan-idol-crimson.png",
+    "tool": "Built-in image_gen",
+    "prompt": "Use case: identity-preserve. Create ONE alternate outfit portrait of Ivan Yeun, adult male age 24, for Mysterious Hearts. Attached image is authoritative identity, style, pose, head scale and framing reference. Preserve his exact face, ash-brown swept tousled hair, pale green-grey eyes, freckles across nose and cheeks, warm fair skin, stud earrings, relaxed subtle smile and lean adult dancer build. Natural moderate shoulder proportions. Change clothes to a cropped crimson satin stage jacket over a black fitted top, black tailored trousers, subtle silver stud trim and waist chain, dramatic polished idol styling. Match fine tapered anime linework, refined cel-shading, soft lighting. Centered hip-up portrait matching reference eye line and head size, relaxed slight three-quarter torso, hands resting naturally near pockets. Entire hair and shoulders inside canvas with transparent margin. One figure, genuine transparent RGBA background, no scenery, ground shadow, text, logos, watermark, signature, borders or collage. No tattoos or lip piercings."
+  },
+  {
+    "label": "Layered denim streetwear",
+    "path": "assets/portraits/ivan-street-denim.png",
+    "tool": "Built-in image_gen",
+    "prompt": "Use case: identity-preserve. Create ONE alternate outfit portrait of Ivan Yeun, adult male age 24, for Mysterious Hearts. Attached image is authoritative identity, style, pose, head scale and framing reference. Preserve his exact face, ash-brown swept tousled hair, pale green-grey eyes, freckles across nose and cheeks, warm fair skin, stud earrings, relaxed subtle smile and lean adult dancer build. Natural moderate shoulder proportions. Change clothes to a washed mid-blue oversized denim jacket over a cream hoodie with hood down, black relaxed trousers. Match fine tapered anime linework, refined cel-shading, soft lighting. Centered hip-up portrait matching reference eye line and head size, relaxed slight three-quarter torso, hands resting naturally near pockets. Entire hair and shoulders inside canvas with transparent margin. One figure, genuine transparent RGBA background, no scenery, ground shadow, text, logos, watermark, signature, borders or collage. No tattoos or lip piercings."
+  },
+  {
+    "label": "Navy varsity streetwear",
+    "path": "assets/portraits/ivan-street-varsity.png",
+    "tool": "Built-in image_gen",
+    "prompt": "Use case: identity-preserve. Create ONE alternate outfit portrait of Ivan Yeun, adult male age 24, for Mysterious Hearts. Attached image is authoritative identity, style, pose, head scale and framing reference. Preserve his exact face, ash-brown swept tousled hair, pale green-grey eyes, freckles across nose and cheeks, warm fair skin, stud earrings, relaxed subtle smile and lean adult dancer build. Natural moderate shoulder proportions. Change clothes to a navy varsity jacket with cream sleeves and no lettering or logos over a grey T-shirt, dark loose jeans. Match fine tapered anime linework, refined cel-shading, soft lighting. Centered hip-up portrait matching reference eye line and head size, relaxed slight three-quarter torso, hands resting naturally near pockets. Entire hair and shoulders inside canvas with transparent margin. One figure, genuine transparent RGBA background, no scenery, ground shadow, text, logos, watermark, signature, borders or collage. No tattoos or lip piercings."
+  },
+  {
+    "label": "Monochrome streetwear",
+    "path": "assets/portraits/ivan-street-monochrome.png",
+    "tool": "Built-in image_gen",
+    "prompt": "Use case: identity-preserve. Create ONE alternate outfit portrait of Ivan Yeun, adult male age 24, for Mysterious Hearts. Attached image is authoritative identity, style, pose, head scale and framing reference. Preserve his exact face, ash-brown swept tousled hair, pale green-grey eyes, freckles across nose and cheeks, warm fair skin, stud earrings, relaxed subtle smile and lean adult dancer build. Natural moderate shoulder proportions. Change clothes to a black cropped technical zip jacket over a long white T-shirt, charcoal utility cargo trousers, understated silver hardware. Match fine tapered anime linework, refined cel-shading, soft lighting. Centered hip-up portrait matching reference eye line and head size, relaxed slight three-quarter torso, hands resting naturally near pockets. Entire hair and shoulders inside canvas with transparent margin. One figure, genuine transparent RGBA background, no scenery, ground shadow, text, logos, watermark, signature, borders or collage. No tattoos or lip piercings."
+  },
+  {
+    "label": "Sage knit streetwear",
+    "path": "assets/portraits/ivan-street-knit.png",
+    "tool": "Built-in image_gen",
+    "prompt": "Use case: identity-preserve. Create ONE alternate outfit portrait of Ivan Yeun, adult male age 24, for Mysterious Hearts. Attached image is authoritative identity, style, pose, head scale and framing reference. Preserve his exact face, ash-brown swept tousled hair, pale green-grey eyes, freckles across nose and cheeks, warm fair skin, stud earrings, relaxed subtle smile and lean adult dancer build. Natural moderate shoulder proportions. Change clothes to a relaxed sage-green textured cardigan with dropped shoulders over an ivory T-shirt, stone pleated relaxed trousers. Match fine tapered anime linework, refined cel-shading, soft lighting. Centered hip-up portrait matching reference eye line and head size, relaxed slight three-quarter torso, hands resting naturally near pockets. Entire hair and shoulders inside canvas with transparent margin. One figure, genuine transparent RGBA background, no scenery, ground shadow, text, logos, watermark, signature, borders or collage. No tattoos or lip piercings."
+  },
+  {
+    "label": "Shirtless beachwear",
+    "path": "assets/portraits/ivan-beach.png",
+    "tool": "Built-in image_gen",
+    "prompt": "Edit the attached transparent Ivan character sprite. Keep its exact canvas, transparent empty background, face, freckles, hair, earrings, head size and hands-in-pockets pose. Change outfit only: replace blazer and mock-neck top with bare chest, and replace black trousers with coral swimming shorts with navy side stripes. Adult male age 24, natural lean athletic physique. Crop at hips as in original. Remove necklace. This is a game character outfit variant. The background MUST remain empty transparent alpha, just as the attached sprite: absolutely no brown glow, gradient, scenery or backdrop. Fine anime cel shading matching original."
+  }
+]

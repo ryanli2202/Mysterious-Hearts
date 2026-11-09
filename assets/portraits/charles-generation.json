@@ -1,0 +1,10 @@
+{
+  "mode": "built-in image_gen",
+  "prompt": "Use case: style-transfer / identity-preserve. Create a transparent-background visual-novel character sprite of Charles Han, a 27-year-old adult man, from the FIRST reference image. Preserve his recognisable face, warm light skin, amber-brown eyes, black layered curtain hair to nape, strong jaw, small mark below the outer eye, silver hoop earrings and thick silver chain, black collared jacket over pale undershirt. Match ONLY the polished hand-drawn manhwa/cel-shaded rendering style and head-to-upper-thigh portrait composition of the SECOND reference (Ivan); do NOT copy Ivan's face, blond hair or outfit. Charles is a tall 191 cm athletic martial artist, composed and observant with restrained serious expression. Stand naturally facing viewer, complete hair silhouette, shoulders and arms within frame, upper thighs at bottom, generous narrow transparent margin. Strong clean linework, nuanced warm facial shading, crisp clothing folds. Single character. Actual alpha transparency, no background, no text, no labels, no symbols, no effects, no props, no laboratory. Preserve identity and outfit from first image. This will be composited over a game scene.",
+  "references": [
+    "charles-selection.png",
+    "ivan-selection.png"
+  ],
+  "output": "charles-selection-v2.png",
+  "transparent_background": true
+}

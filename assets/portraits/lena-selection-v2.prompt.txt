@@ -1,0 +1,6 @@
+Tool: Built-in image_gen
+Transparent background: true
+Edit target: lena-selection-v1.png
+Style reference: amy-selection.png
+
+Edit image 1, Lena Ortiz portrait, to be much more clearly stylized anime visual novel illustration. Image 2 Amy is STYLE reference only, never copy Amy's identity or clothing. Match Amy's clean fine outlines, simple smooth cel shaded skin, simplified small anime nose and mouth, larger expressive anime eyes, elegant illustrated hair shapes and flat controlled color areas. Remove realistic skin texture, photographic facial modeling, realistic lips, painterly rendered fabric and photographic shading. Preserve Lena's adult age 24, warm olive complexion, dark brown wavy half-tied hair with burgundy ribbon, amber brown eyes, brass hoops, cream blouse, burgundy waistcoat and charcoal trousers. Preserve friendly witty half-smile, pose and waist-to-hips composition. Keep entire hair and shoulders within frame. One adult woman only. Genuine transparent alpha background. No text, logos, scenery or border. The result must read as a clean anime character sprite, not a realistic portrait.

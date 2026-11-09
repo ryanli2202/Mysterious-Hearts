@@ -1,0 +1,35 @@
+{
+  "tool": "built-in image_gen",
+  "portraits": [
+    {
+      "name": "Mara Voss",
+      "prompt": "Use case: stylized-concept. Asset type: transparent in-person visual novel character portrait for Mysterious Hearts/Vendetta. Single adult fictional character, a sharp-eyed 32-year-old woman with short dark auburn hair, medium olive skin, a mustard scarf over a charcoal jacket and practical dark trousers. Lantern Crew boss, streetwise and quietly calculating. Polished mature anime illustration, restrained realistic proportions, clean fine line art, sophisticated soft cel shading. Frontal three-quarter standing pose, visible from head to mid-thigh, arms relaxed, hands anatomically correct. Character fills portrait vertical frame with generous clear margin above hair and at sides. Transparent background with real alpha, no scenery, no halo, no ground shadow, no border, no lettering, no weapons, no additional people. Distinct believable face, serious expression.",
+      "path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ba86-a9d5-79a3-a704-1bbf5a924255\\exec-6a62beba-3548-4a00-9e0c-64dd1b4efcdf.png"
+    },
+    {
+      "name": "Darius Cole",
+      "prompt": "Use case: stylized-concept. Asset type: transparent in-person visual novel character portrait for Mysterious Hearts/Vendetta. Single adult fictional character, a broad-shouldered 45-year-old Black man with cropped salt-and-pepper hair and a short beard, navy work jacket over a grey henley, sturdy trousers. Rail Yard Saints boss, patient and formidable. Polished mature anime illustration, restrained realistic proportions, clean fine line art, sophisticated soft cel shading. Frontal three-quarter standing pose, visible from head to mid-thigh, arms relaxed, hands anatomically correct. Character fills portrait vertical frame with generous clear margin above hair and at sides. Transparent background with real alpha, no scenery, no halo, no ground shadow, no border, no lettering, no weapons, no additional people. Distinct believable face, serious expression.",
+      "path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ba86-a9d5-79a3-a704-1bbf5a924255\\exec-87635e85-2a3d-4d17-8214-d45a06c58652.png"
+    },
+    {
+      "name": "Rafe Calder",
+      "prompt": "Use case: stylized-concept. Asset type: transparent in-person visual novel character portrait for Mysterious Hearts/Vendetta. Single adult fictional character, a weathered 48-year-old white man with long tied-back brown hair, grey-streaked beard, purple-lined black leather motorcycle vest over a plain black shirt and dark jeans. Purple Skulls motorcycle president, blunt and watchful. Polished mature anime illustration, restrained realistic proportions, clean fine line art, sophisticated soft cel shading. Frontal three-quarter standing pose, visible from head to mid-thigh, arms relaxed, hands anatomically correct. Character fills portrait vertical frame with generous clear margin above hair and at sides. Transparent background with real alpha, no scenery, no halo, no ground shadow, no border, no lettering, no weapons, no additional people. Distinct believable face, serious expression.",
+      "path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ba86-a9d5-79a3-a704-1bbf5a924255\\exec-054d54c9-7e74-4064-b7e6-679374edc7fa.png"
+    },
+    {
+      "name": "Daichi Kurose",
+      "prompt": "Use case: stylized-concept. Asset type: transparent in-person visual novel character portrait for Mysterious Hearts/Vendetta. Single adult fictional character, a composed 52-year-old Japanese man with swept-back greying black hair, a thin scar through one eyebrow, midnight navy suit and muted burgundy shirt with no tie. New successor Hamayashi-kai boss, controlled and ambitious. Polished mature anime illustration, restrained realistic proportions, clean fine line art, sophisticated soft cel shading. Frontal three-quarter standing pose, visible from head to mid-thigh, arms relaxed, hands anatomically correct. Character fills portrait vertical frame with generous clear margin above hair and at sides. Transparent background with real alpha, no scenery, no halo, no ground shadow, no border, no lettering, no weapons, no additional people. Distinct believable face, serious expression.",
+      "path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ba86-a9d5-79a3-a704-1bbf5a924255\\exec-3f3784b2-b2b7-44d1-863d-640a88b9cda9.png"
+    },
+    {
+      "name": "Isabel Vega",
+      "prompt": "Use case: stylized-concept. Asset type: transparent in-person visual novel character portrait for Mysterious Hearts/Vendetta. Single adult fictional character, an imposing 40-year-old Latina woman with dark hair in a sleek low bun, deep red tailored blazer over black blouse and trousers, small gold earrings. Los Rojos cartel leader, exacting and unsentimental. Polished mature anime illustration, restrained realistic proportions, clean fine line art, sophisticated soft cel shading. Frontal three-quarter standing pose, visible from head to mid-thigh, arms relaxed, hands anatomically correct. Character fills portrait vertical frame with generous clear margin above hair and at sides. Transparent background with real alpha, no scenery, no halo, no ground shadow, no border, no lettering, no weapons, no additional people. Distinct believable face, serious expression.",
+      "path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ba86-a9d5-79a3-a704-1bbf5a924255\\exec-36807ba0-9254-4fe1-8d28-ad1007444884.png"
+    },
+    {
+      "name": "Evelyn Mercer",
+      "prompt": "Use case: stylized-concept. Asset type: transparent in-person visual novel character portrait for Mysterious Hearts/Vendetta. Single adult fictional character, a poised 56-year-old woman with dark brown skin, silver bob hairstyle, thin gold glasses, sea-green silk blouse beneath a charcoal tailored long jacket and dark trousers. Waterfront Consortium chair, calculating and measured. Polished mature anime illustration, restrained realistic proportions, clean fine line art, sophisticated soft cel shading. Frontal three-quarter standing pose, visible from head to mid-thigh, arms relaxed, hands anatomically correct. Character fills portrait vertical frame with generous clear margin above hair and at sides. Transparent background with real alpha, no scenery, no halo, no ground shadow, no border, no lettering, no weapons, no additional people. Distinct believable face, serious expression.",
+      "path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ba86-a9d5-79a3-a704-1bbf5a924255\\exec-db42698b-e0b7-4d8d-a3de-cdd910a1fda4.png"
+    }
+  ]
+}

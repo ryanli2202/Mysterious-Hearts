@@ -1,0 +1,58 @@
+[
+  {
+    "label": "Black knit sweater",
+    "path": "assets/portraits/rei-black-sweater.png",
+    "tool": "Built-in image_gen",
+    "prompt": "Use case: identity-preserve. Create one alternate outfit transparent PNG portrait for Mysterious Hearts. Input image 1 is Rei's authoritative identity, art style, pose and framing reference. Preserve exactly his adult masculine face, warm fair complexion, dark eyes, shaggy layered black hair, ear hoops and paired lower lip piercings, lean adult build and existing tattoos wherever skin remains exposed. Change clothing only to a soft black crewneck knit sweater with ribbed cuffs and hem, charcoal tailored trousers, subtle silver chain necklace outside the collar. Tattoos must not show through fabric; do not add tattoos. Match reference fine tapered anime linework, refined cel shading, gentle lighting and reserved expression. Match hip-up centered framing, eye line, head scale, hands near pockets; entire hairstyle and both shoulders inside canvas with breathing room. One figure only. Genuine transparent background, no scenery, text, watermark, border or cast shadow.",
+    "correction": "Edit image 1 only: restore Rei's missing intricate BLACK NECK TATTOOS on ALL exposed neck skin from just below his jaw down to the garment neckline. Image 2 is the authoritative tattoo reference; faithfully copy its dragon/floral neck ink and lettering placement onto exposed neck skin in image 1. Keep clothing, face, hair, piercings, pose, framing, colors and transparent background unchanged. Do not remove neck tattoos. No ink on fabric. Clean silhouette edges with no stray background pixels."
+  },
+  {
+    "label": "Charcoal hoodie",
+    "path": "assets/portraits/rei-charcoal-hoodie.png",
+    "tool": "Built-in image_gen",
+    "prompt": "Use case: identity-preserve. Create one alternate outfit transparent PNG portrait for Mysterious Hearts. Input image 1 is Rei's authoritative identity, art style, pose and framing reference. Preserve exactly his adult masculine face, warm fair complexion, dark eyes, shaggy layered black hair, ear hoops and paired lower lip piercings, lean adult build and existing tattoos wherever skin remains exposed. Change clothing only to an oversized charcoal zip hoodie over a plain black crewneck T-shirt, black cargo trousers. Tattoos must not show through fabric; do not add tattoos. Match reference fine tapered anime linework, refined cel shading, gentle lighting and reserved expression. Match hip-up centered framing, eye line, head scale, hands near pockets; entire hairstyle and both shoulders inside canvas with breathing room. One figure only. Genuine transparent background, no scenery, text, watermark, border or cast shadow.",
+    "correction": "Edit image 1 only: restore Rei's missing intricate BLACK NECK TATTOOS on ALL exposed neck skin from just below his jaw down to the garment neckline. Image 2 is the authoritative tattoo reference; faithfully copy its dragon/floral neck ink and lettering placement onto exposed neck skin in image 1. Keep clothing, face, hair, piercings, pose, framing, colors and transparent background unchanged. Do not remove neck tattoos. No ink on fabric. Clean silhouette edges with no stray background pixels."
+  },
+  {
+    "label": "Washed denim jacket",
+    "path": "assets/portraits/rei-denim-jacket.png",
+    "tool": "Built-in image_gen",
+    "prompt": "Use case: identity-preserve. Create one alternate outfit transparent PNG portrait for Mysterious Hearts. Input image 1 is Rei's authoritative identity, art style, pose and framing reference. Preserve exactly his adult masculine face, warm fair complexion, dark eyes, shaggy layered black hair, ear hoops and paired lower lip piercings, lean adult build and existing tattoos wherever skin remains exposed. Change clothing only to a washed dark indigo denim jacket with visible seams over an ivory crewneck T-shirt, black jeans. Tattoos must not show through fabric; do not add tattoos. Match reference fine tapered anime linework, refined cel shading, gentle lighting and reserved expression. Match hip-up centered framing, eye line, head scale, hands near pockets; entire hairstyle and both shoulders inside canvas with breathing room. One figure only. Genuine transparent background, no scenery, text, watermark, border or cast shadow.",
+    "correction": null
+  },
+  {
+    "label": "Burgundy satin shirt",
+    "path": "assets/portraits/rei-burgundy-shirt.png",
+    "tool": "Built-in image_gen",
+    "prompt": "Use case: identity-preserve. Create one alternate outfit transparent PNG portrait for Mysterious Hearts. Input image 1 is Rei's authoritative identity, art style, pose and framing reference. Preserve exactly his adult masculine face, warm fair complexion, dark eyes, shaggy layered black hair, ear hoops and paired lower lip piercings, lean adult build and existing tattoos wherever skin remains exposed. Change clothing only to a deep burgundy satin button-up shirt with collar open modestly to show existing upper chest tattoos, sleeves down, black tailored trousers and silver belt buckle. Tattoos must not show through fabric; do not add tattoos. Match reference fine tapered anime linework, refined cel shading, gentle lighting and reserved expression. Match hip-up centered framing, eye line, head scale, hands near pockets; entire hairstyle and both shoulders inside canvas with breathing room. One figure only. Genuine transparent background, no scenery, text, watermark, border or cast shadow.",
+    "correction": null
+  },
+  {
+    "label": "Cream cardigan",
+    "path": "assets/portraits/rei-cream-cardigan.png",
+    "tool": "Built-in image_gen",
+    "prompt": "Use case: identity-preserve. Create one alternate outfit transparent PNG portrait for Mysterious Hearts. Input image 1 is Rei's authoritative identity, art style, pose and framing reference. Preserve exactly his adult masculine face, warm fair complexion, dark eyes, shaggy layered black hair, ear hoops and paired lower lip piercings, lean adult build and existing tattoos wherever skin remains exposed. Change clothing only to a textured cream cardigan worn open over a fitted black crewneck shirt, charcoal trousers. Tattoos must not show through fabric; do not add tattoos. Match reference fine tapered anime linework, refined cel shading, gentle lighting and reserved expression. Match hip-up centered framing, eye line, head scale, hands near pockets; entire hairstyle and both shoulders inside canvas with breathing room. One figure only. Genuine transparent background, no scenery, text, watermark, border or cast shadow.",
+    "correction": "Edit image 1 only: restore Rei's missing intricate BLACK NECK TATTOOS on ALL exposed neck skin from just below his jaw down to the garment neckline. Image 2 is the authoritative tattoo reference; faithfully copy its dragon/floral neck ink and lettering placement onto exposed neck skin in image 1. Keep clothing, face, hair, piercings, pose, framing, colors and transparent background unchanged. Do not remove neck tattoos. No ink on fabric. Clean silhouette edges with no stray background pixels."
+  },
+  {
+    "label": "Olive bomber jacket",
+    "path": "assets/portraits/rei-olive-bomber.png",
+    "tool": "Built-in image_gen",
+    "prompt": "Use case: identity-preserve. Create one alternate outfit transparent PNG portrait for Mysterious Hearts. Input image 1 is Rei's authoritative identity, art style, pose and framing reference. Preserve exactly his adult masculine face, warm fair complexion, dark eyes, shaggy layered black hair, ear hoops and paired lower lip piercings, lean adult build and existing tattoos wherever skin remains exposed. Change clothing only to an olive green bomber jacket with ribbed collar and cuffs over a black T-shirt, black cargo trousers. Tattoos must not show through fabric; do not add tattoos. Match reference fine tapered anime linework, refined cel shading, gentle lighting and reserved expression. Match hip-up centered framing, eye line, head scale, hands near pockets; entire hairstyle and both shoulders inside canvas with breathing room. One figure only. Genuine transparent background, no scenery, text, watermark, border or cast shadow.",
+    "correction": "Edit image 1 only: restore Rei's missing intricate BLACK NECK TATTOOS on ALL exposed neck skin from just below his jaw down to the garment neckline. Image 2 is the authoritative tattoo reference; faithfully copy its dragon/floral neck ink and lettering placement onto exposed neck skin in image 1. Keep clothing, face, hair, piercings, pose, framing, colors and transparent background unchanged. Do not remove neck tattoos. No ink on fabric. Clean silhouette edges with no stray background pixels."
+  },
+  {
+    "label": "Tailored waistcoat",
+    "path": "assets/portraits/rei-tailored-waistcoat.png",
+    "tool": "Built-in image_gen",
+    "prompt": "Use case: identity-preserve. Create one alternate outfit transparent PNG portrait for Mysterious Hearts. Input image 1 is Rei's authoritative identity, art style, pose and framing reference. Preserve exactly his adult masculine face, warm fair complexion, dark eyes, shaggy layered black hair, ear hoops and paired lower lip piercings, lean adult build and existing tattoos wherever skin remains exposed. Change clothing only to a fitted charcoal waistcoat over a white long-sleeved collared shirt with top two buttons open, black tailored trousers, subtle silver waistcoat chain. Tattoos must not show through fabric; do not add tattoos. Match reference fine tapered anime linework, refined cel shading, gentle lighting and reserved expression. Match hip-up centered framing, eye line, head scale, hands near pockets; entire hairstyle and both shoulders inside canvas with breathing room. One figure only. Genuine transparent background, no scenery, text, watermark, border or cast shadow.",
+    "correction": null
+  },
+  {
+    "label": "Camel overcoat",
+    "path": "assets/portraits/rei-camel-overcoat.png",
+    "tool": "Built-in image_gen",
+    "prompt": "Use case: identity-preserve. Create one alternate outfit transparent PNG portrait for Mysterious Hearts. Input image 1 is Rei's authoritative identity, art style, pose and framing reference. Preserve exactly his adult masculine face, warm fair complexion, dark eyes, shaggy layered black hair, ear hoops and paired lower lip piercings, lean adult build and existing tattoos wherever skin remains exposed. Change clothing only to an open camel wool overcoat over a black turtleneck sweater, black tailored trousers. Tattoos must not show through fabric; do not add tattoos. Match reference fine tapered anime linework, refined cel shading, gentle lighting and reserved expression. Match hip-up centered framing, eye line, head scale, hands near pockets; entire hairstyle and both shoulders inside canvas with breathing room. One figure only. Genuine transparent background, no scenery, text, watermark, border or cast shadow.",
+    "correction": null
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "name": "Marcus",
+  "era": "High school, 2046-2047",
+  "portrait": "assets/portraits/marcus-high-school.png",
+  "appearance": "Slim teenage boy, tousled short auburn hair with an unruly cowlick, hazel eyes, light warm skin and subtle freckles, soft angular face, wry slightly shy smile. No tattoos, piercings or facial hair.",
+  "wardrobe": "Mustard cardigan, muted teal buttoned shirt, dark trousers; battered dark-blue storyboard notebook and favourite mechanical pencil.",
+  "personality_source": "Mysterious Hearts - Character References.md: Memories of Marcus",
+  "continuity": "Historical visual reference only. Marcus is not a living present-day contact or speaker. School scenes show warm ordinary memories before his death; no surname, death date or final-day chronology is established.",
+  "school_reference_rule": "Use rei-high-school.png, sophie-high-school.png and emily-high-school.png with this portrait for school-era group scenes. Rei has no tattoos in this era."
+}

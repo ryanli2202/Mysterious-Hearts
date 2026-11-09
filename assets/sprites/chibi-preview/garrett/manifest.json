@@ -1,0 +1,38 @@
+{
+  "character": "garrett",
+  "status": "style-preview-only",
+  "direction": "right",
+  "frameWidth": 48,
+  "frameHeight": 64,
+  "columns": 6,
+  "rows": 2,
+  "anchor": [
+    24,
+    60
+  ],
+  "animations": {
+    "idle": {
+      "row": 0,
+      "durationsMs": [
+        650,
+        250,
+        300,
+        250,
+        110,
+        500
+      ]
+    },
+    "walk": {
+      "row": 1,
+      "durationsMs": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ]
+    }
+  },
+  "notes": "Generated pixel-art style test. Not integrated into the game. Left/back/front directions and final animation cleanup pending style approval."
+}

@@ -1,0 +1,5 @@
+Tool: Built-in image_gen
+Style reference: assets/portraits/rei-selection.png (viewed in conversation)
+Transparent background: true
+
+undefined

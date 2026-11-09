@@ -1,0 +1,30 @@
+{
+  "character": "garrett",
+  "frameWidth": 48,
+  "frameHeight": 64,
+  "columns": 8,
+  "rows": 6,
+  "groundY": 61,
+  "anchor": [
+    24,
+    61
+  ],
+  "animations": {
+    "walk-right": {
+      "startFrame": 0,
+      "count": 24,
+      "durationMs": 40
+    },
+    "walk-left": {
+      "startFrame": 24,
+      "count": 24,
+      "durationMs": 40
+    }
+  },
+  "cycleMs": 960,
+  "suggestedSpeedPixelsPerSecond": 24.305555555555557,
+  "method": "Periodic cutout skeletal walk; 60% stance, 40% swing, 6px foot lift, alternating legs and counter-swing arms.",
+  "left": "Mirrored right; asymmetric costume details mirror.",
+  "idle": "../garrett-v2/manifest.json",
+  "status": "External animation preview; not connected to game movement."
+}

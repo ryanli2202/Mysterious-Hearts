@@ -1,0 +1,83 @@
+{
+  "tool": "Built-in image_gen",
+  "outfits": [
+    {
+      "slug": "beach-coral",
+      "label": "Coral bikini",
+      "path": "assets/portraits/sophie-beach-coral.png",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts alternate outfit portrait. Input image is Sophie Parker's exact identity and anime/manhwa style reference. Sophie is an adult woman age 21, 170 cm, athletic track runner. Preserve her original adult face, natural athletic build and body proportions, light complexion, green eyes, long brunette high ponytail with loose face-framing strands, friendly confident smile. Match the reference fine tapered linework, refined cel shading, hair highlights and soft lighting. Match centered hip-up portrait, head scale and eye line, relaxed three-quarter standing pose with one hand on her hip. Entire ponytail crown and both shoulders inside the canvas with breathing room. Change clothing to: a coral-red sporty bikini with a supportive scoop-neck top, wide shoulder straps and matching classic bikini bottoms with fine cream piping; two separate pieces with visible midriff. Include enough of the hips to clearly read the outfit. Neutral natural fashion-catalog presentation. Genuine transparent alpha background. No scenery, text, logos, watermark, border, additional characters or montage. One portrait only."
+    },
+    {
+      "slug": "beach-tropical",
+      "label": "Tropical bikini",
+      "path": "assets/portraits/sophie-beach-tropical.png",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts alternate outfit portrait. Input image is Sophie Parker's exact identity and anime/manhwa style reference. Sophie is an adult woman age 21, 170 cm, athletic track runner. Preserve her original adult face, natural athletic build and body proportions, light complexion, green eyes, long brunette high ponytail with loose face-framing strands, friendly confident smile. Match the reference fine tapered linework, refined cel shading, hair highlights and soft lighting. Match centered hip-up portrait, head scale and eye line, relaxed three-quarter standing pose with one hand on her hip. Entire ponytail crown and both shoulders inside the canvas with breathing room. Change clothing to: a teal bikini with a tasteful tropical leaf print, halter-neck bikini top and matching high-waisted bikini bottoms; two separate pieces with visible midriff. Include enough of the hips to clearly read the outfit. Neutral natural fashion-catalog presentation. Genuine transparent alpha background. No scenery, text, logos, watermark, border, additional characters or montage. One portrait only."
+    },
+    {
+      "slug": "beach-cobalt",
+      "label": "Cobalt bikini",
+      "path": "assets/portraits/sophie-beach-cobalt.png",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts alternate outfit portrait. Input image is Sophie Parker's exact identity and anime/manhwa style reference. Sophie is an adult woman age 21, 170 cm, athletic track runner. Preserve her original adult face, natural athletic build and body proportions, light complexion, green eyes, long brunette high ponytail with loose face-framing strands, friendly confident smile. Match the reference fine tapered linework, refined cel shading, hair highlights and soft lighting. Match centered hip-up portrait, head scale and eye line, relaxed three-quarter standing pose with one hand on her hip. Entire ponytail crown and both shoulders inside the canvas with breathing room. Change clothing to: a cobalt-blue classic bikini with a supportive triangle-style top with secure shoulder straps and matching mid-rise bikini bottoms, small silver ring detail at the side; two separate pieces. Include enough of the hips to clearly read the outfit. Neutral natural fashion-catalog presentation. Genuine transparent alpha background. No scenery, text, logos, watermark, border, additional characters or montage. One portrait only."
+    },
+    {
+      "slug": "gym-strength",
+      "label": "Strength training",
+      "path": "assets/portraits/sophie-gym-strength.png",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts alternate outfit portrait. Input image is Sophie Parker's exact identity and anime/manhwa style reference. Sophie is an adult woman age 21, 170 cm, athletic track runner. Preserve her original adult face, natural athletic build and body proportions, light complexion, green eyes, long brunette high ponytail with loose face-framing strands, friendly confident smile. Match the reference fine tapered linework, refined cel shading, hair highlights and soft lighting. Match centered hip-up portrait, head scale and eye line, relaxed three-quarter standing pose with one hand on her hip. Entire ponytail crown and both shoulders inside the canvas with breathing room. Change clothing to: a plum racerback sports bra and charcoal high-waisted full-length gym leggings with plum side panels, opaque performance fabric. Include enough of the hips to clearly read the outfit. Neutral natural fashion-catalog presentation. Genuine transparent alpha background. No scenery, text, logos, watermark, border, additional characters or montage. One portrait only."
+    },
+    {
+      "slug": "gym-cardio",
+      "label": "Cardio training",
+      "path": "assets/portraits/sophie-gym-cardio.png",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts alternate outfit portrait. Input image is Sophie Parker's exact identity and anime/manhwa style reference. Sophie is an adult woman age 21, 170 cm, athletic track runner. Preserve her original adult face, natural athletic build and body proportions, light complexion, green eyes, long brunette high ponytail with loose face-framing strands, friendly confident smile. Match the reference fine tapered linework, refined cel shading, hair highlights and soft lighting. Match centered hip-up portrait, head scale and eye line, relaxed three-quarter standing pose with one hand on her hip. Entire ponytail crown and both shoulders inside the canvas with breathing room. Change clothing to: a cobalt-blue sleeveless fitted athletic tank and black running shorts with white piping and a blue drawstring, opaque technical fabrics. Include enough of the hips to clearly read the outfit. Neutral natural fashion-catalog presentation. Genuine transparent alpha background. No scenery, text, logos, watermark, border, additional characters or montage. One portrait only."
+    },
+    {
+      "slug": "casual-denim",
+      "label": "Denim weekend",
+      "path": "assets/portraits/sophie-casual-denim.png",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts alternate outfit portrait. Input image is Sophie Parker's exact identity and anime/manhwa style reference. Sophie is an adult woman age 21, 170 cm, athletic track runner. Preserve her original adult face, natural athletic build and body proportions, light complexion, green eyes, long brunette high ponytail with loose face-framing strands, friendly confident smile. Match the reference fine tapered linework, refined cel shading, hair highlights and soft lighting. Match centered hip-up portrait, head scale and eye line, relaxed three-quarter standing pose with one hand on her hip. Entire ponytail crown and both shoulders inside the canvas with breathing room. Change clothing to: a washed blue denim jacket over a fitted white crew-neck T-shirt and black high-waisted jeans, casual clean styling. Include enough of the hips to clearly read the outfit. Neutral natural fashion-catalog presentation. Genuine transparent alpha background. No scenery, text, logos, watermark, border, additional characters or montage. One portrait only."
+    },
+    {
+      "slug": "casual-varsity",
+      "label": "Varsity casual",
+      "path": "assets/portraits/sophie-casual-varsity.png",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts alternate outfit portrait. Input image is Sophie Parker's exact identity and anime/manhwa style reference. Sophie is an adult woman age 21, 170 cm, athletic track runner. Preserve her original adult face, natural athletic build and body proportions, light complexion, green eyes, long brunette high ponytail with loose face-framing strands, friendly confident smile. Match the reference fine tapered linework, refined cel shading, hair highlights and soft lighting. Match centered hip-up portrait, head scale and eye line, relaxed three-quarter standing pose with one hand on her hip. Entire ponytail crown and both shoulders inside the canvas with breathing room. Change clothing to: a burgundy varsity jacket with cream sleeves and plain unlettered chest, charcoal fitted tee and blue jeans. Include enough of the hips to clearly read the outfit. Neutral natural fashion-catalog presentation. Genuine transparent alpha background. No scenery, text, logos, watermark, border, additional characters or montage. One portrait only."
+    },
+    {
+      "slug": "summer-linen",
+      "label": "Summer linen",
+      "path": "assets/portraits/sophie-summer-linen.png",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts alternate outfit portrait. Input image is Sophie Parker's exact identity and anime/manhwa style reference. Sophie is an adult woman age 21, 170 cm, athletic track runner. Preserve her original adult face, natural athletic build and body proportions, light complexion, green eyes, long brunette high ponytail with loose face-framing strands, friendly confident smile. Match the reference fine tapered linework, refined cel shading, hair highlights and soft lighting. Match centered hip-up portrait, head scale and eye line, relaxed three-quarter standing pose with one hand on her hip. Entire ponytail crown and both shoulders inside the canvas with breathing room. Change clothing to: a white linen short-sleeve shirt knotted neatly at the waist over an opaque cream camisole, olive high-waisted linen shorts and a narrow tan belt. Include enough of the hips to clearly read the outfit. Neutral natural fashion-catalog presentation. Genuine transparent alpha background. No scenery, text, logos, watermark, border, additional characters or montage. One portrait only."
+    },
+    {
+      "slug": "picnic-dress",
+      "label": "Yellow floral sundress",
+      "path": "assets/portraits/sophie-picnic-dress.png",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts alternate outfit portrait. Input image is Sophie Parker's exact identity and anime/manhwa style reference. Sophie is an adult woman age 21, 170 cm, athletic track runner. Preserve her original adult face, natural athletic build and body proportions, light complexion, green eyes, long brunette high ponytail with loose face-framing strands, friendly confident smile. Match the reference fine tapered linework, refined cel shading, hair highlights and soft lighting. Match centered hip-up portrait, head scale and eye line, relaxed three-quarter standing pose with one hand on her hip. Entire ponytail crown and both shoulders inside the canvas with breathing room. Change clothing to: a warm yellow sundress with tiny white daisy print, square neckline, broad shoulder straps and fitted waist. Include enough of the hips to clearly read the outfit. Neutral natural fashion-catalog presentation. Genuine transparent alpha background. No scenery, text, logos, watermark, border, additional characters or montage. One portrait only."
+    },
+    {
+      "slug": "autumn-knit",
+      "label": "Autumn knit",
+      "path": "assets/portraits/sophie-autumn-knit.png",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts alternate outfit portrait. Input image is Sophie Parker's exact identity and anime/manhwa style reference. Sophie is an adult woman age 21, 170 cm, athletic track runner. Preserve her original adult face, natural athletic build and body proportions, light complexion, green eyes, long brunette high ponytail with loose face-framing strands, friendly confident smile. Match the reference fine tapered linework, refined cel shading, hair highlights and soft lighting. Match centered hip-up portrait, head scale and eye line, relaxed three-quarter standing pose with one hand on her hip. Entire ponytail crown and both shoulders inside the canvas with breathing room. Change clothing to: a rust-orange ribbed long-sleeve sweater with a relaxed crew neckline, dark indigo high-waisted jeans and a brown belt. Include enough of the hips to clearly read the outfit. Neutral natural fashion-catalog presentation. Genuine transparent alpha background. No scenery, text, logos, watermark, border, additional characters or montage. One portrait only."
+    },
+    {
+      "slug": "winter-puffer",
+      "label": "Winter puffer",
+      "path": "assets/portraits/sophie-winter-puffer.png",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts alternate outfit portrait. Input image is Sophie Parker's exact identity and anime/manhwa style reference. Sophie is an adult woman age 21, 170 cm, athletic track runner. Preserve her original adult face, natural athletic build and body proportions, light complexion, green eyes, long brunette high ponytail with loose face-framing strands, friendly confident smile. Match the reference fine tapered linework, refined cel shading, hair highlights and soft lighting. Match centered hip-up portrait, head scale and eye line, relaxed three-quarter standing pose with one hand on her hip. Entire ponytail crown and both shoulders inside the canvas with breathing room. Change clothing to: a cream cropped quilted puffer jacket worn open over a forest-green turtleneck sweater and charcoal trousers. Include enough of the hips to clearly read the outfit. Neutral natural fashion-catalog presentation. Genuine transparent alpha background. No scenery, text, logos, watermark, border, additional characters or montage. One portrait only."
+    },
+    {
+      "slug": "formal-emerald",
+      "label": "Emerald evening gown",
+      "path": "assets/portraits/sophie-formal-emerald.png",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts alternate outfit portrait. Input image is Sophie Parker's exact identity and anime/manhwa style reference. Sophie is an adult woman age 21, 170 cm, athletic track runner. Preserve her original adult face, natural athletic build and body proportions, light complexion, green eyes, long brunette high ponytail with loose face-framing strands, friendly confident smile. Match the reference fine tapered linework, refined cel shading, hair highlights and soft lighting. Match centered hip-up portrait, head scale and eye line, relaxed three-quarter standing pose with one hand on her hip. Entire ponytail crown and both shoulders inside the canvas with breathing room. Change clothing to: an elegant emerald satin evening gown with an asymmetric one-shoulder neckline, softly draped bodice, fitted waist and small gold earrings. Include enough of the hips to clearly read the outfit. Neutral natural fashion-catalog presentation. Genuine transparent alpha background. No scenery, text, logos, watermark, border, additional characters or montage. One portrait only."
+    },
+    {
+      "slug": "formal-suit",
+      "label": "Midnight tailored suit",
+      "path": "assets/portraits/sophie-formal-suit.png",
+      "prompt": "Use case: identity-preserve. Asset: Mysterious Hearts alternate outfit portrait. Input image is Sophie Parker's exact identity and anime/manhwa style reference. Sophie is an adult woman age 21, 170 cm, athletic track runner. Preserve her original adult face, natural athletic build and body proportions, light complexion, green eyes, long brunette high ponytail with loose face-framing strands, friendly confident smile. Match the reference fine tapered linework, refined cel shading, hair highlights and soft lighting. Match centered hip-up portrait, head scale and eye line, relaxed three-quarter standing pose with one hand on her hip. Entire ponytail crown and both shoulders inside the canvas with breathing room. Change clothing to: a sharply tailored midnight navy blazer over an ivory satin camisole, matching high-waisted formal trousers and a delicate gold necklace. Include enough of the hips to clearly read the outfit. Neutral natural fashion-catalog presentation. Genuine transparent alpha background. No scenery, text, logos, watermark, border, additional characters or montage. One portrait only."
+    }
+  ]
+}
