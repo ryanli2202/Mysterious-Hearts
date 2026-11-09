@@ -1,0 +1,85 @@
+"""Public destinations and everyday residents beyond central Winterfield."""
+
+# name, map point, ongoing activity, visit action, cost, memory description
+VENUES = {
+    'pine_trail': ('Pine Ridge · Woodland trail', (150, -300), 'Walking the pine trail', 'Walk the pine trail', 0, 'a pine-trail walk'),
+    'ridge_lookout': ('North Ridge · Lookout', (650, -430), 'Taking in the ridge view', 'Visit the lookout', 0, 'a ridge-view walk'),
+    'hill_tea_room': ('Hillside Tea Room', (940, -240), 'Enjoying hillside tea', 'Order a pot of tea · $5', 5, 'a pot of hillside tea'),
+    'orchard': ('Westbrook · Community orchard', (-430, 180), 'Walking the orchard paths', 'Explore the orchard', 0, 'an orchard walk'),
+    'farm_shop': ('Westbrook · Farm shop', (-440, 570), 'Browsing local produce', 'Try a seasonal juice · $4', 4, 'a seasonal fruit juice'),
+    'pottery_studio': ('Old Mill · Pottery studio', (-320, 940), 'Browsing the pottery display', 'Browse the pottery display', 0, 'a pottery-display visit'),
+    'coastal_pier': ('Eastwatch · Coastal pier', (1780, 190), 'Walking the coastal pier', 'Walk the pier', 0, 'a coastal-pier walk'),
+    'marine_centre': ('Eastwatch · Marine discovery centre', (1860, 600), 'Exploring marine exhibits', 'Explore the marine exhibits', 0, 'a marine-exhibit visit'),
+    'lighthouse_walk': ('Eastwatch · Lighthouse walk', (1840, 1010), 'Walking the lighthouse headland', 'Explore the headland path', 0, 'a lighthouse-headland walk'),
+    'harbour_market': ('South Harbour · Covered market', (1070, 1460), 'Browsing covered harbour stalls', 'Browse the harbour stalls', 0, 'a harbour-market visit'),
+    'railway_museum': ('Southbank · Railway museum', (540, 1540), 'Exploring the railway collection', 'Visit the railway collection', 0, 'a railway-museum visit'),
+    'southbank_diner': ('Southbank · Riverside diner', (70, 1400), 'Sharing a diner lunch', 'Order a toasted sandwich · $8', 8, 'a diner sandwich'),
+}
+OUTDOORS = {'pine_trail', 'ridge_lookout', 'orchard', 'coastal_pier', 'lighthouse_walk'}
+FOOD = {'hill_tea_room', 'farm_shop', 'southbank_diner', 'harbour_market'}
+DISTRICTS = ((480, -610, 'NORTHERN HILLS'), (-430, 30, 'WESTBROOK'),
+             (1810, -10, 'EASTWATCH COAST'), (570, 1250, 'SOUTHBANK & HARBOUR'))
+
+RESIDENTS = {
+    'Hazel Reed': dict(role='woodland ranger', age=35,
+        places=('pine_trail', 'ridge_lookout', 'hill_tea_room'), weekend=('ridge_lookout', 'pine_trail', 'hill_tea_room'),
+        voice='Observant and gently funny; describes the small things she has noticed on a walk.',
+        life='Maintains public trail signs. Trades seed notes with Luz and keeps a notebook of bird calls she cannot yet identify.',
+        topics=('A woodpecker interrupts every attempt at a quiet recording.', 'Choosing clearer arrows for a fork in the trail.', 'Luz has suggested planting native flowers near the trail entrance.'),
+        appearance='Hazel has freckled brown skin, dark curly hair tied back, and a forest-green trail jacket.'),
+    'Euan Marsh': dict(role='tea-room owner', age=48,
+        places=('hill_tea_room', 'hill_tea_room', 'ridge_lookout'), weekend=('hill_tea_room', 'hill_tea_room', 'square'),
+        voice='Soft-spoken and wry; remembers preferences without assuming intimacy.',
+        life='Collects mismatched teapots and tests small batches of oat biscuits. Hazel helps him identify the birds outside the window.',
+        topics=('A donated teapot pours better than his expensive one.', 'Testing biscuits that will not crumble into tea.', 'Learning the names of the birds at his window.'),
+        appearance='Euan has pale skin, grey curls, round glasses and a navy apron over a rust shirt.'),
+    'Marta Silva': dict(role='orchard caretaker', age=56,
+        places=('orchard', 'farm_shop', 'southbank_diner'), weekend=('farm_shop', 'orchard', 'southbank_diner'),
+        voice='Direct, cheerful and patient with beginner gardeners.',
+        life='Keeps the community orchard labelled for visitors. Swaps recipes with Samir and lends June pruning guides.',
+        topics=('Repainting the names on weathered fruit-tree labels.', 'Samir wants to try an apple loaf.', 'Working out how to share a surprisingly large pear harvest.'),
+        appearance='Marta has olive skin, silver-streaked dark hair in a braid and a plum work shirt.'),
+    'Jonah Price': dict(role='community potter', age=32,
+        places=('pottery_studio', 'pottery_studio', 'harbour_market'), weekend=('farm_shop', 'pottery_studio', 'harbour_market'),
+        voice='Thoughtful, self-deprecating and enthusiastic about handmade imperfections.',
+        life='Makes useful mugs at the old mill. Supplies Euan with cups and trades display ideas with Farah.',
+        topics=('A lopsided mug has become his favourite.', 'Choosing a glaze for Euan’s replacement cups.', 'Building a market stand that packs into one crate.'),
+        appearance='Jonah has dark brown skin, short twists and a charcoal apron over a teal shirt.'),
+    'Keiko Tan': dict(role='marine education guide', age=30,
+        places=('marine_centre', 'marine_centre', 'coastal_pier'), weekend=('coastal_pier', 'marine_centre', 'harbour_market'),
+        voice='Animated and curious; explains exhibits with concrete comparisons.',
+        life='Builds tactile marine displays and sketches shells. Otis helps repair the moving parts in her demonstration models.',
+        topics=('Making a tide model easier to understand.', 'A shell sketch looks more like a cinnamon roll.', 'Otis found a quieter gear for an exhibit.'),
+        appearance='Keiko has light brown skin, a straight black bob and a cobalt overshirt.'),
+    'Callum Webb': dict(role='coastal maintenance worker', age=41,
+        places=('lighthouse_walk', 'coastal_pier', 'harbour_market'), weekend=('lighthouse_walk', 'marine_centre', 'southbank_diner'),
+        voice='Practical and dryly humorous; enjoys listening as much as telling stories.',
+        life='Maintains public coastal paths. Takes landscape photographs on days off and compares walking routes with Nadia.',
+        topics=('Finding an angle without a seagull in the photograph.', 'Replacing a faded headland direction sign.', 'Nadia recommends a shorter route to the diner.'),
+        appearance='Callum has tan skin, close-cropped brown hair, a short beard and a slate work jacket.'),
+    'Beatrice Cole': dict(role='railway museum volunteer', age=64,
+        places=('railway_museum', 'railway_museum', 'southbank_diner'), weekend=('railway_museum', 'harbour_market', 'chess'),
+        voice='Lively and exact about dates, but willing to correct herself.',
+        life='Restores public railway notices and shares catalogue tips with Arthur. Plays friendly chess without keeping a rating.',
+        topics=('Deciphering a handwritten note on an old timetable.', 'Arthur found a postcard showing the former station entrance.', 'Trying a new chess opening against a patient friend.'),
+        appearance='Beatrice has deep brown skin, cropped silver hair and a burgundy cardigan.'),
+    'Ravi Menon': dict(role='Southbank diner cook', age=37,
+        places=('southbank_diner', 'southbank_diner', 'harbour_market'), weekend=('farm_shop', 'southbank_diner', 'harbour_market'),
+        voice='Warm and brisk, with affectionate humour about kitchen experiments.',
+        life='Runs a small diner and buys produce from Marta. Exchanges lunch ideas with Mario and is learning to keep herbs alive.',
+        topics=('Testing a sandwich filling that will not fall out.', 'Marta has brought a new variety of tomato.', 'Trying to rescue the basil on the kitchen windowsill.'),
+        appearance='Ravi has medium brown skin, wavy black hair and a dark blue chef jacket.'),
+}
+
+# Existing contact numbers remain in their original order; these are appended.
+NAMES = tuple(RESIDENTS)
+TASTES = {
+    'Hazel Reed': ('Oats', 'Vegetable wrap', 'Bean stew', 'Trail mix', 'Mint tea', 'Springwatch', 'Local Hero', 'The Wild Places', 'Robert Macfarlane'),
+    'Euan Marsh': ('Toast', 'Leek soup', 'Mushroom pie', 'Oat biscuits', 'Oolong tea', 'Detectorists', 'Paddington', 'The Hobbit', 'J. R. R. Tolkien'),
+    'Marta Silva': ('Eggs on toast', 'Tomato salad', 'Vegetable rice', 'Pears', 'Apple juice', 'Gardener’s World', 'Chef', 'Little Women', 'Louisa May Alcott'),
+    'Jonah Price': ('Granola', 'Cheese toastie', 'Lentil curry', 'Cashews', 'Coffee', 'The Great Pottery Throw Down', 'Amelie', 'Piranesi', 'Susanna Clarke'),
+    'Keiko Tan': ('Rice and eggs', 'Noodle salad', 'Tofu rice bowl', 'Rice crackers', 'Green tea', 'Blue Planet', 'Ponyo', 'The Sea Around Us', 'Rachel Carson'),
+    'Callum Webb': ('Porridge', 'Baked potato', 'Fish pie', 'Apples', 'Black tea', 'Time Team', 'The Secret Life of Walter Mitty', 'Treasure Island', 'Robert Louis Stevenson'),
+    'Beatrice Cole': ('Marmalade toast', 'Vegetable soup', 'Roast vegetables', 'Shortbread', 'Earl Grey', 'The Repair Shop', 'The Railway Children', 'Persuasion', 'Jane Austen'),
+    'Ravi Menon': ('Masala omelette', 'Toasted sandwich', 'Chickpea curry', 'Banana bread', 'Masala chai', 'The Great British Bake Off', 'Ratatouille', 'None; recipe notebooks', 'None'),
+}

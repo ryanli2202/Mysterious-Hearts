@@ -1,0 +1,28 @@
+"""Player garages for the expanded cast; capacities are game passenger limits."""
+
+GARAGES = {
+    'fox': {'Unmarked utility car': (5, 'a weathered dark utility car with maintained field equipment')},
+    'gordon': {'Interpol duty sedan': (5, 'a navy regional Interpol duty sedan')},
+    'yuriko': {'Suzuki Swift': (5, 'the violet Swift with a theatre-model case in the boot')},
+    'emily': {'Honda Fit': (5, 'the sage-green Fit with a small flower charm'), 'Volkswagen Beetle': (4, 'the muted rose Beetle')},
+    'sophie': {'Mazda3 hatchback': (5, 'the deep blue Mazda3 with a track-club bag'), 'Subaru BRZ': (4, 'the graphite BRZ')},
+    'amy': {'Toyota Yaris': (5, 'the burgundy Yaris with an art-supply tote')},
+    'samantha': {'Mazda MX-5': (2, 'the dark red MX-5'), 'Ford Mustang GT': (4, 'the charcoal Mustang'), 'Motorcycle': (1, 'your motorcycle')},
+    'april': {'Lexus IS 300': (5, 'the midnight-blue Lexus IS'), 'Toyota Prius': (5, 'the graphite Prius')},
+    'lena': {'Mini Cooper': (4, 'the copper Mini with a camera case'), 'Volvo V40': (5, 'the dark teal Volvo V40')},
+    'naomi': {'Subaru Forester': (5, 'the forest-green Forester with a bicycle rack'), 'Honda Civic hatchback': (5, 'the slate Civic hatchback')},
+    'celeste': {'Mazda CX-30': (5, 'the deep violet CX-30'), 'Fiat 500': (4, 'the midnight-blue Fiat 500')},
+    'dev': {'Honda Jazz': (5, 'the teal Jazz with a toolkit in the boot'), 'Toyota Corolla hatchback': (5, 'the charcoal Corolla hatchback')},
+    'rosa': {'Kia Soul': (5, 'the terracotta Kia Soul'), 'Toyota RAV4': (5, 'the dark green RAV4 with folded market crates')},
+    'elliot': {'Subaru Outback': (5, 'the moss-green Outback with a kayak rack'), 'Suzuki Jimny': (4, 'the dark blue Jimny')},
+    'tyler': {'Honda Accord': (5, 'the dark grey Accord with a boxing-club bag'), 'Ford Ranger': (5, 'the navy Ranger with covered training equipment')},
+    'valentina': {'Volvo V60': (5, 'the sea-blue V60 with neatly folded sailcloth'), 'Land Rover Defender 110': (5, 'the dark green Defender')},
+    'daniel': {'Volkswagen Golf': (5, 'the navy Golf with a cinema programme folder'), 'Toyota 86': (4, 'the charcoal Toyota 86')},
+    'neo': {'Honda Civic sedan': (5, 'the dark blue Civic with a repaired dashboard radio'), 'Toyota GT86': (4, 'the graphite GT86')},
+    'alyssa': {'Suzuki Baleno': (5, 'the plum Baleno with a bookbinding satchel'), 'Toyota Corolla': (5, 'the muted green Corolla')},
+    'sylvanis': {'Rolls-Royce Wraith': (4, 'the black Wraith with muted violet detailing'), 'Mercedes-AMG GT': (2, 'the obsidian AMG GT')},
+    'martos': {'Mercedes-Benz G-Class': (5, 'the black G-Class'), 'Lexus LS': (5, 'the graphite Lexus LS')},
+    'elias': {'Porsche 911 Carrera': (4, 'the burgundy 911 Carrera'), 'Mercedes-Benz E-Class Coupe': (4, 'the midnight-blue E-Class coupe')},
+    'mavis': {'Subaru Outback': (5, 'the dark forest Outback with field-recording equipment'), 'Mazda MX-5': (2, 'the charcoal MX-5')},
+    'camila': {'Audi A7': (5, 'the graphite Audi A7'), 'Lexus LC 500': (4, 'the deep burgundy Lexus LC')},
+}

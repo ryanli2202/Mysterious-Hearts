@@ -1,0 +1,623 @@
+[
+  {
+    "art": "Boxing", "identity": "Punch combinations, evasive footwork and precise counters.",
+    "basic": [
+      "Jab|Attack|A quick lead punch that tests range and creates openings.",
+      "Cross|Attack|A committed rear straight with greater power and recovery time.",
+      "Right hook|Attack|A curved right punch that pressures the side of the guard.",
+      "Left hook|Attack|A curved left punch suited to close exchanges.",
+      "Uppercut|Attack|A rising punch effective when an opponent crowds the guard.",
+      "L-step|Mobility|An angled retreat that opens space for the next action.",
+      "Parry|Defence|Redirect a straight punch; vulnerable to feints and curved attacks.",
+      "Block|Defence|Absorb an incoming attack with reduced damage and stamina loss.",
+      "Shoulder roll|Defence|Turn a punch off the shoulder; requires correct timing and range.",
+      "Slip|Defence|Move off a straight attack's line without leaving punching range.",
+      "Bob and weave|Defence|Dip beneath a swinging attack while changing angle.",
+      "Pivot|Mobility|Turn around the engagement to improve the next attack angle.",
+      "Body jab|Attack|A lower jab that pressures stamina rather than raw damage.",
+      "Feint|Setup|Suggest a punch to draw a reaction and improve a follow-up."
+    ],
+    "advanced": [
+      "Double jab → cross|Combo|Two range-finding jabs create a line for a strong straight.",
+      "Jab → cross → hook|Combo|Straight punches draw the guard inward before the hook.",
+      "Flash dodge|Defence|A sharply timed evasive burst; a failed read leaves an opening.",
+      "Slip → cross|Counter|Evade a straight attack and answer from the shifted line.",
+      "Shoulder roll → cross|Counter|Turn off a punch and return a rear straight.",
+      "Body jab → head cross|Combo|Change the attack level to challenge an established guard.",
+      "Hook → uppercut → hook|Combo|A close-range sequence that pressures several defensive angles.",
+      "L-step → check hook|Counter|Leave the pursuit line while catching an advancing opponent.",
+      "Double body hook → uppercut|Combo|Draw attention downward before a rising finishing punch.",
+      "Feint → cross → pivot|Combo|Draw a reaction, attack the opening and exit at an angle."
+    ],
+    "master": [
+      "Hurricane punches|Flurry|An overwhelming blur of punches, resolved as a finite burst with heavy stamina cost.",
+      "Ghost step|Mobility|Close into punching range faster than normal perception; movement still crosses the intervening space.",
+      "Unseen spectre|Flurry|Circle at extreme speed, leaving apparent after-images while striking exposed openings.",
+      "Power-breaker|Guard break|A concrete-shattering straight that challenges defence; it does not automatically ignore armour.",
+      "Phantom cadence|Combo|Alternate startlingly different punch rhythms to disrupt an opponent's timing.",
+      "Thunderclap counter|Counter|Turn a precisely read opening into one explosive returning punch.",
+      "Iron constellation|Combo|An awakened sequence of precise body-and-head punches that punishes an uneven guard.",
+      "Vanishing bell|Counter|Evade with a sudden angle change and return before the opponent resets."
+    ]
+  },
+  {
+    "art": "Taekwondo", "identity": "Long-range kicks, fast changes of angle and aerial pressure.",
+    "basic": [
+      "Front kick|Attack|A direct kick that controls the approach.",
+      "Roundhouse kick|Attack|A turning kick that attacks around the guard.",
+      "Side kick|Attack|A firm linear kick for stopping forward movement.",
+      "Back kick|Counter|A turning counter against a committed approach.",
+      "Axe kick|Attack|A descending kick that challenges a high guard.",
+      "Crescent kick|Attack|An arcing kick used to alter the defensive line.",
+      "Low block|Defence|Protect the lower line against straightforward attacks.",
+      "High block|Defence|Cover the upper line while giving up some mobility.",
+      "Slide step|Mobility|Adjust kicking distance without committing to an attack.",
+      "Kick feint|Setup|Draw a reaction by suggesting a change of kicking level."
+    ],
+    "advanced": [
+      "Double roundhouse|Combo|Two rapid kicks challenge the guard's recovery.",
+      "Front kick → roundhouse|Combo|Drive the opponent back before attacking around their defence.",
+      "Side kick → spinning back kick|Combo|Maintain distance, then punish renewed forward movement.",
+      "Question-mark kick|Attack|Disguise a rising kick before changing its attack line.",
+      "Tornado kick|Attack|A spinning aerial attack with strong pressure and exposed recovery.",
+      "Step-out → back-kick counter|Counter|Leave the attack line and answer a pursuit."
+    ],
+    "master": [
+      "Skywheel barrage|Flurry|A rapid aerial chain of kicks that sustains pressure while airborne.",
+      "Horizon step|Mobility|An awakened burst carries the fighter from outside reach into kicking range.",
+      "Falling star|Guard break|A descending kick concentrates immense force against a set guard.",
+      "Mirage wheel|Combo|Blurring changes of kicking angle create apparent after-images around the opponent."
+    ]
+  },
+  {
+    "art": "Judo", "identity": "Grip control, balance disruption, throws and pins.",
+    "basic": [
+      "Breakfall|Defence|Reduce damage from a successful throw when a safe landing is possible.",
+      "Grip entry|Setup|Establish the contact required for subsequent throws.",
+      "Grip break|Defence|Challenge an opponent's hold and restore movement.",
+      "Foot sweep|Control|Disrupt a moving opponent's balance.",
+      "Major outer reap|Throw|A committed standing throw from established contact.",
+      "Major inner reap|Throw|Challenge balance from inside a close engagement.",
+      "Hip throw|Throw|Use a close grip to turn a balance advantage into a throw.",
+      "Shoulder throw|Throw|A compact throwing entry that requires secure contact.",
+      "Scarf hold|Control|Maintain a pin after a successful grounded transition.",
+      "Ground escape|Defence|Work out of a pin and restore a safer position."
+    ],
+    "advanced": [
+      "Inner reap → outer reap|Combo|Change the direction of a throw when the opponent resists.",
+      "Foot sweep → shoulder throw|Combo|Use the balance reaction to enter a second throwing attack.",
+      "Hip throw → pin|Combo|Follow a successful throw into immediate ground control.",
+      "Sacrifice throw|Throw|Trade standing position for a powerful but risky reversal.",
+      "Counterthrow|Counter|Turn an opponent's committed throw into a reversal.",
+      "Grip break → regrip → throw|Combo|Replace a losing hold with a fresh attacking grip."
+    ],
+    "master": [
+      "World-turner|Throw|An awakened rotation converts a secure grip into a devastating throw.",
+      "Falling mountain|Throw|Immense physical power drives a grounded, high-impact takedown.",
+      "Zero-point reversal|Counter|Reverse a throw at the last viable instant through exceptional timing.",
+      "Iron orbit|Control|Chain rapid balance changes to prevent a gripped opponent from settling."
+    ]
+  },
+  {
+    "art": "Kyokushin", "identity": "Conditioned close-range pressure, body strikes and punishing kicks.",
+    "basic": [
+      "Straight punch|Attack|A direct strike built around a stable stance.",
+      "Body punch|Attack|A close strike that pressures the opponent's stamina.",
+      "Low roundhouse|Attack|Attack the lower defensive line and challenge mobility.",
+      "Middle roundhouse|Attack|A body-height kick that rewards controlled distance.",
+      "Front kick|Attack|Push back an advancing opponent.",
+      "Knee strike|Attack|A short attack suited to crowded exchanges.",
+      "Low block|Defence|Protect against straightforward lower attacks.",
+      "High guard|Defence|Prioritise protection while surrendering some initiative.",
+      "Angle step|Mobility|Leave the direct line while keeping pressure.",
+      "Body feint|Setup|Draw the guard toward a threatened close-range strike."
+    ],
+    "advanced": [
+      "Body punch → low kick|Combo|Alternate close striking and lower-line pressure.",
+      "Double body punch → roundhouse|Combo|Fix attention on punches before changing range.",
+      "Front-kick feint → high roundhouse|Combo|Threaten the centre before attacking above the expected line.",
+      "Inside kick → knee|Combo|Use disrupted footing to enter close range.",
+      "Block → body counter → kick|Counter|Answer a defended attack with layered pressure.",
+      "Rolling thunder kick|Attack|A committed rolling kick with a dangerous recovery window."
+    ],
+    "master": [
+      "Mountain-splitter|Guard break|A heavily committed awakened strike that challenges a rooted guard.",
+      "Adamant advance|Pressure|Maintain forward pressure through reduced, but still meaningful, incoming damage.",
+      "Hundred-beat barrage|Flurry|A dense burst of body strikes and low kicks that drains both fighters.",
+      "Thunder heel|Attack|An explosive descending kick converts exceptional strength into concentrated impact."
+    ]
+  },
+  {
+    "art": "MMA", "identity": "Transitions between striking, takedowns and ground control.",
+    "basic": [
+      "Jab|Attack|A probing straight punch that helps manage range.",
+      "Cross|Attack|A stronger straight punch with a longer recovery.",
+      "Low kick|Attack|Pressure movement from striking range.",
+      "Front kick|Attack|Create space against an advancing opponent.",
+      "Clinch entry|Setup|Attempt to move from striking range into contact.",
+      "Double-leg takedown|Takedown|A direct attempt to bring a standing opponent down.",
+      "Sprawl|Defence|Defend a committed takedown attempt.",
+      "Guard recovery|Defence|Restore a protective position while grounded.",
+      "Technical stand-up|Mobility|Return to standing when pressure leaves an opening.",
+      "Positional pin|Control|Maintain an advantageous ground position."
+    ],
+    "advanced": [
+      "Jab → cross → takedown|Combo|Use striking pressure to disguise a change of level.",
+      "Low kick → cross → clinch|Combo|Transition from range pressure into close control.",
+      "Sprawl → go-behind|Counter|Defend a takedown and claim a superior position.",
+      "Clinch → trip → pin|Combo|Convert contact into a controlled ground transition.",
+      "Guard sweep → stand-up|Combo|Reverse a grounded disadvantage and recover standing range.",
+      "Takedown feint → overhand|Combo|Draw a defensive level change before returning to striking."
+    ],
+    "master": [
+      "Apex chain|Combo|Seamlessly link awakened striking, a takedown and ground control.",
+      "Predator switch|Counter|Change phase at blurring speed when an opponent commits to one defence.",
+      "Gravity crash|Takedown|A powerful awakened entry converts close contact into a heavy takedown.",
+      "Total control|Control|Maintain rapid positional transitions to contest escape without guaranteeing a pin."
+    ]
+  },
+  {
+    "art": "Muay Thai", "identity": "Punches, elbows, knees, kicks and clinch pressure.",
+    "basic": [
+      "Jab|Attack|A quick punch that tests the approach.",
+      "Cross|Attack|A committed rear straight.",
+      "Teep|Attack|A pushing kick that manages distance.",
+      "Low roundhouse|Attack|Pressure footing and movement.",
+      "Body roundhouse|Attack|A turning kick directed around the body guard.",
+      "Straight knee|Attack|A rising close-range attack; compatible with earned strike augmentations.",
+      "Horizontal elbow|Attack|A short strike for close exchanges.",
+      "Clinch grip|Setup|Attempt to establish the contact needed for clinch attacks.",
+      "Kick check|Defence|Reduce a correctly read incoming kick.",
+      "Long guard|Defence|Use extended framing to manage an advancing opponent."
+    ],
+    "advanced": [
+      "Jab → cross → low kick|Combo|Layer straight punches with a lower attack.",
+      "Teep feint → roundhouse|Combo|Disguise the line of the next kick.",
+      "Clinch turn → knee|Combo|Use close control to create a knee opening.",
+      "Check → return kick|Counter|Answer a defended kick before the opponent resets.",
+      "Elbow → knee → elbow|Combo|A compact sequence for an established close engagement.",
+      "Step-off → counter elbow|Counter|Leave the rising attack line and answer at close range."
+    ],
+    "master": [
+      "Eight-limbed tempest|Flurry|A blurring sequence of punches, elbows, knees and kicks.",
+      "Meteor knee|Attack|An explosive awakened knee with immense commitment and exposed recovery.",
+      "Titan clinch|Control|Use awakened strength to contest posture and sustain close pressure.",
+      "Thunder pillar|Guard break|A devastating roundhouse concentrates power against a braced defence."
+    ]
+  },
+  {
+    "art": "Streetfighting", "identity": "Unpredictable rhythm, rough close pressure and situational movement.",
+    "basic": [
+      "Straight punch|Attack|A simple direct strike with little setup.",
+      "Swinging hook|Attack|A wide, forceful strike with an obvious recovery opening.",
+      "Palm strike|Attack|A compact close-range strike.",
+      "Front kick|Attack|Create space against an approach.",
+      "Shove|Control|Disrupt an opponent's position without guaranteeing a knockdown.",
+      "Forearm cover|Defence|Protect against a hurried incoming strike.",
+      "Duck|Defence|Move beneath a high swinging attack.",
+      "Sidestep|Mobility|Leave the direct line of pressure.",
+      "Clinch push|Control|Contest space from close contact.",
+      "Rough feint|Setup|Use an uneven rhythm to draw an early reaction."
+    ],
+    "advanced": [
+      "Feint → overhand|Combo|Draw attention away from a committed punch.",
+      "Shove → cross|Combo|Attack after challenging the opponent's position.",
+      "Cover → hook → kick|Counter|Turn a protected entry into a short combination.",
+      "Sidestep → body hook|Counter|Attack from the angle left by an advancing opponent.",
+      "Clinch break → elbow|Combo|Attack during a contested separation.",
+      "Obstacle pivot → counter|Counter|Use available space around an obstacle; requires a suitable arena."
+    ],
+    "master": [
+      "Riot engine|Pressure|An explosive but exhausting surge of irregular striking pressure.",
+      "Backstreet phantom|Mobility|Abrupt awakened angle changes make the attack rhythm difficult to follow.",
+      "Concrete verdict|Guard break|A heavily committed straight punch with concrete-shattering force.",
+      "Chaos rhythm|Combo|Alternate sudden stops and blurring bursts to punish predictable defence."
+    ]
+  },
+  {
+    "art": "Sanda", "identity": "Mobile striking, kick catches and fast throwing transitions.",
+    "basic": [
+      "Jab|Attack|Probe range while staying mobile.",
+      "Cross|Attack|A direct punch that rewards a settled opening.",
+      "Side kick|Attack|Control the approach with a linear kick.",
+      "Roundhouse|Attack|Pressure the side of the guard.",
+      "Push kick|Attack|Create separation from an advancing fighter.",
+      "Kick catch|Defence|Attempt to capture a readable incoming kick.",
+      "Body-lock entry|Setup|Seek the contact needed for close throwing attacks.",
+      "Outside trip|Takedown|Challenge balance from an established close position.",
+      "Backstep|Mobility|Leave range while retaining a forward-facing guard.",
+      "Forearm cover|Defence|Protect against a direct striking approach."
+    ],
+    "advanced": [
+      "Jab → cross → side kick|Combo|Use punches to establish a stronger kicking line.",
+      "Catch → sweep|Counter|Convert a successfully caught kick into a balance attack.",
+      "Roundhouse → body lock → throw|Combo|Move from striking pressure into a close takedown.",
+      "Side-kick feint → cross|Combo|Draw a kicking defence before attacking with a punch.",
+      "Slip → waist-lock throw|Counter|Enter under striking pressure to contest a throwing grip.",
+      "Trip feint → roundhouse|Combo|Threaten a takedown before returning to range."
+    ],
+    "master": [
+      "Storm bridge|Combo|Cross striking and grappling ranges in one blurring attacking sequence.",
+      "Sky-catch reversal|Counter|Turn a caught aerial attack into a powerful awakened throw.",
+      "Horizon breaker|Guard break|An explosive side kick challenges a firmly held guard.",
+      "Cyclone sweep|Takedown|Use exceptional rotational speed to contest several balance reactions."
+    ]
+  },
+  {
+    "art": "Jeet Kune Do", "identity": "Interception, efficient movement and adaptive counters.",
+    "basic": [
+      "Lead straight|Attack|A direct lead-hand strike with economical motion.",
+      "Rear straight|Attack|A stronger follow-through punch.",
+      "Stop kick|Counter|Challenge an opponent's forward entry.",
+      "Low side kick|Attack|Control the lower approach line.",
+      "Parry|Defence|Redirect a direct attack without a large movement.",
+      "Slip|Defence|Shift away from a straight striking line.",
+      "Angle step|Mobility|Move to a less protected line of engagement.",
+      "Hand trap|Control|Briefly contest a guard at close range.",
+      "Distance feint|Setup|Threaten an entry to draw a range response.",
+      "Retreat step|Mobility|Leave the immediate attack range."
+    ],
+    "advanced": [
+      "Stop hit → cross|Counter|Interrupt an approach and follow the resulting opening.",
+      "Parry → lead straight|Counter|Redirect a punch while returning a direct strike.",
+      "Trap → straight → pivot|Combo|Contest the guard, attack and leave at an angle.",
+      "Low-high interception|Combo|Shift attack level while disrupting forward movement.",
+      "Broken-rhythm entry|Setup|Vary movement timing to unsettle an anticipated response.",
+      "Draw → evade → counter|Counter|Invite a commitment and attack its recovery."
+    ],
+    "master": [
+      "Stillpoint intercept|Counter|An exceptionally timed awakened strike contests an attack at its opening.",
+      "Vanishing line|Mobility|A sudden diagonal burst leaves the expected attack corridor.",
+      "One-beat thunder|Attack|Concentrate awakened force into one minimal, explosive motion.",
+      "Empty rhythm|Combo|Use near-imperceptible timing changes to attack through anticipated defences."
+    ]
+  },
+  {
+    "art": "Military CQC", "identity": "Compact control, positional dominance and efficient takedowns.",
+    "basic": [
+      "Straight punch|Attack|A compact strike for immediate pressure.",
+      "Palm strike|Attack|A short-range alternative to a closed-fist strike.",
+      "Elbow strike|Attack|Contest a crowded engagement.",
+      "Front kick|Attack|Create space against an entry.",
+      "Protective frame|Defence|Keep structure between the fighter and close pressure.",
+      "Grip break|Defence|Challenge an established hold.",
+      "Clinch entry|Setup|Seek a stable controlling position.",
+      "Balance trip|Takedown|Attempt a simple takedown from contact.",
+      "Ground pin|Control|Maintain a safer controlling position after a takedown.",
+      "Controlled disengage|Mobility|Leave contact while preserving a protective stance."
+    ],
+    "advanced": [
+      "Frame → elbow → trip|Combo|Link defence, a short strike and a takedown attempt.",
+      "Grip break → body lock|Combo|Replace a hostile hold with a controlling entry.",
+      "Guard pass → pin|Control|Improve an existing grounded position.",
+      "Strike → takedown → restrain|Combo|Turn a close opening into a restraint attempt.",
+      "Rush interception|Counter|Contest a committed charge and redirect its momentum.",
+      "Weapon-hand control|Control|A contextual control attempt against an actually equipped weapon."
+    ],
+    "master": [
+      "Breach sequence|Combo|An awakened burst links entry, disruption and positional control.",
+      "Lockdown engine|Control|Rapidly adjust holds to contest an opponent's attempts to escape.",
+      "Silent vector|Mobility|Cross a short exposed gap in a sudden, low-telegraph burst.",
+      "Titan restraint|Control|Use awakened strength to challenge a powerful opponent's movement."
+    ]
+  },
+  {
+    "art": "Kickboxing", "identity": "Punch-kick combinations, range changes and mobile pressure.",
+    "basic": [
+      "Jab|Attack|A quick range-finding punch.",
+      "Cross|Attack|A strong direct punch.",
+      "Lead hook|Attack|A curved punch for a closer engagement.",
+      "Rear hook|Attack|A committed curved punch with longer recovery.",
+      "Uppercut|Attack|A rising punch when the opponent crowds the guard.",
+      "Low kick|Attack|Pressure movement and lower defence.",
+      "Body roundhouse|Attack|A turning kick around the body guard.",
+      "Front kick|Attack|Control an approaching opponent's distance.",
+      "High guard|Defence|Protect the upper line at the cost of some initiative.",
+      "Pivot step|Mobility|Change angle while staying ready to strike."
+    ],
+    "advanced": [
+      "Jab → cross → low kick|Combo|Draw attention high before challenging the lower line.",
+      "Cross → hook → body kick|Combo|Change attack angle and range in one sequence.",
+      "Check → cross → kick|Counter|Answer a defended kick with mixed striking.",
+      "Low-high double kick|Combo|Threaten two defensive levels in quick succession.",
+      "Slip → cross → rear kick|Counter|Use an evasive angle for a punch-kick return.",
+      "Front-kick feint → spinning back kick|Combo|Disguise a committed spinning attack."
+    ],
+    "master": [
+      "Tempest circuit|Flurry|Loop a finite burst of blurring punches and kicks through changing angles.",
+      "Sonic crescent|Attack|An exceptionally fast roundhouse challenges the opponent's reaction window.",
+      "Iron comet|Guard break|A driving punch-kick sequence pressures a reinforced guard.",
+      "Phantom relay|Combo|Switch between punching and kicking distance faster than an ordinary fighter can track."
+    ]
+  },
+  {
+    "art": "Silat", "identity": "Off-angle entries, sweeps, guard disruption and close control.",
+    "basic": [
+      "Diagonal step|Mobility|Move away from the direct attack corridor.",
+      "Palm strike|Attack|A short strike from an angled position.",
+      "Short elbow|Attack|Contest close-range pressure.",
+      "Low kick|Attack|Challenge movement from a compact stance.",
+      "Hand parry|Defence|Redirect a readable direct attack.",
+      "Wrist control|Control|Attempt to establish a limited close hold.",
+      "Leg sweep|Takedown|Attack balance when an opening develops.",
+      "Low evasion|Defence|Change height to leave a high attack line.",
+      "Guard trap|Control|Briefly contest a defensive hand at close range.",
+      "Clinch escape|Defence|Recover space from an established close engagement."
+    ],
+    "advanced": [
+      "Parry → elbow → sweep|Counter|Turn a redirected attack into close striking and imbalance.",
+      "Diagonal entry → hand trap → palm|Combo|Use an angle to challenge a direct guard.",
+      "Low feint → body strike|Combo|Draw attention downward before changing the attack line.",
+      "Wrist control → off-balance throw|Combo|Convert a contested hold into a throwing attempt.",
+      "Sweep feint → spinning elbow|Combo|Disguise the range and direction of a close attack.",
+      "Low evasion → rising counter|Counter|Return from a changed body level after an attack passes."
+    ],
+    "master": [
+      "Serpent lattice|Control|Chain blurring changes of angle and guard contact to restrict defensive choices.",
+      "Phantom crescent|Takedown|An awakened sweeping entry threatens balance from an unexpected angle.",
+      "Falling canopy|Combo|Flow from a low evasion into a powerful close throw.",
+      "Mirror snare|Counter|Exploit the opponent's defensive adjustment with a rapid reversal of direction."
+    ]
+  },
+  {
+    "art": "Aikido", "identity": "Contact-dependent redirection, balance manipulation and controlled reversals.",
+    "basic": [
+      "Entering step|Mobility|Move toward a useful angle without claiming an automatic attack opening.",
+      "Pivot turn|Mobility|Rotate away from a direct line of pressure.",
+      "Breakfall|Defence|Reduce throwing damage when a safe landing remains possible.",
+      "Grip release|Defence|Contest a hold and restore freedom of movement.",
+      "Hand redirection|Defence|Guide a committed attack away from its intended line.",
+      "First control|Control|Seek a stable hold from established arm contact.",
+      "Wrist turn|Control|Challenge balance through a contested close hold.",
+      "Entry throw|Throw|Attempt a throw after gaining a suitable entering position.",
+      "Movement feint|Setup|Invite a readable commitment without forcing the opponent to attack.",
+      "Balance draw|Setup|Use existing contact to test and disturb stability."
+    ],
+    "advanced": [
+      "Enter → turn → throw|Counter|Redirect a committed approach into a throwing attempt.",
+      "Grip release → wrist-turn throw|Counter|Turn an escape from contact into a reversal.",
+      "High-low balance throw|Throw|Challenge two directions of resistance within one connected movement.",
+      "Four-direction throw|Throw|A rotational control sequence requiring sustained contact.",
+      "Redirection → controlled pin|Counter|Follow a successful reversal into a restraint attempt.",
+      "Counter-grip reversal|Counter|Contest a stronger grip through timing and changed direction."
+    ],
+    "master": [
+      "Still-water reversal|Counter|Use awakened reactions to redirect a highly committed attack at close range.",
+      "World-axis turn|Throw|An exceptionally fast pivot turns secured contact into a forceful throw.",
+      "Orbit of silence|Control|Maintain fluid balance pressure through rapid, continuous changes of direction.",
+      "Returning mountain|Counter|Exploit a powerful rush with an equally powerful grounded reversal."
+    ]
+  },
+  {
+    "art": "Taido", "identity": "Changing body axes, evasive acrobatics and unconventional kicking angles.",
+    "basic": [
+      "Angle step|Mobility|Shift the line of engagement before committing.",
+      "Low sway|Defence|Move the torso away from a direct strike.",
+      "Turning body evasion|Defence|Change orientation to leave an anticipated attack line.",
+      "Straight punch|Attack|A direct strike from a changed angle.",
+      "Front kick|Attack|Contest an opponent's approach.",
+      "Roundhouse|Attack|Attack around a settled guard.",
+      "Low sweep|Takedown|Threaten footing from a low position.",
+      "Rising kick|Attack|Attack upward from a lowered posture.",
+      "Rolling recovery|Mobility|Return from a low or disrupted position when space permits.",
+      "Guard reset|Defence|Re-establish balance and protection after committed movement."
+    ],
+    "advanced": [
+      "Axis shift → roundhouse|Combo|Change body alignment before releasing a kick.",
+      "Low sway → rising counter|Counter|Attack after moving beneath the initial line.",
+      "Spin → sweep → stand|Combo|Contest balance and recover a standing guard.",
+      "Aerial turning kick|Attack|A high-commitment kick with unusual angle and recovery risk.",
+      "Rolling evasion → kick|Counter|Use continuous movement to answer a missed attack.",
+      "Descending heel sequence|Combo|Change levels before a descending finishing kick."
+    ],
+    "master": [
+      "Axis phantom|Mobility|Switch body orientation at blurring speed to spoil an expected attack line.",
+      "Sky spiral|Combo|An awakened aerial rotation delivers a finite chain of changing kicks.",
+      "Inverted comet|Attack|A powerful acrobatic kick attacks from a sharply changed body axis.",
+      "Nine-angle mirage|Flurry|Rapid level and angle changes create apparent after-images around a short burst."
+    ]
+  },
+  {
+    "art": "Lethwei", "identity": "Committed close striking, headbutts, clinch pressure and risky exchanges.",
+    "basic": [
+      "Jab|Attack|Test the approach with a quick punch.",
+      "Cross|Attack|Commit to a strong straight punch.",
+      "Hook|Attack|Pressure the side of a close guard.",
+      "Low kick|Attack|Challenge footing and movement.",
+      "Front kick|Attack|Create space against a forward entry.",
+      "Knee strike|Attack|Attack from close range.",
+      "Elbow strike|Attack|A short strike in a crowded exchange.",
+      "Headbutt|Attack|A close-range attack with significant mutual collision risk.",
+      "Clinch grip|Setup|Contest the contact needed for sustained close pressure.",
+      "High cover|Defence|Protect the upper line while staying close."
+    ],
+    "advanced": [
+      "Jab → cross → low kick|Combo|Alternate upper and lower pressure.",
+      "Clinch turn → knee → elbow|Combo|Use a close position to change striking angles.",
+      "Cover → headbutt counter|Counter|Answer an overcommitted close entry with collision risk.",
+      "Body hook → elbow|Combo|Follow a lower strike with a shorter upper attack.",
+      "Kick catch → sweep|Counter|Turn a captured kick into a balance challenge.",
+      "Break-clinch combination|Combo|Strike while attempting to separate from close pressure."
+    ],
+    "master": [
+      "Nine-limbed thunder|Flurry|An awakened burst combines every striking surface in a costly close exchange.",
+      "Iron monsoon|Pressure|Sustain punishing close attacks while accepting meaningful counterattack risk.",
+      "Falling bell|Attack|An explosive close collision with exceptional force and substantial recovery risk.",
+      "Unbroken advance|Pressure|Keep attacking through a contested exchange without becoming immune to damage."
+    ]
+  },
+  {
+    "art": "Japanese Jujutsu", "identity": "Joint control, throws, positional restraints and escapes.",
+    "basic": [
+      "Breakfall|Defence|Reduce a throw's impact when the landing can be controlled.",
+      "Grip break|Defence|Contest an opponent's hold.",
+      "Wrist control|Control|Seek a stable close hold.",
+      "Balance pull|Setup|Test stability through existing contact.",
+      "Hip throw|Throw|Convert a close balance advantage into a throwing attempt.",
+      "Foot trip|Takedown|Attack footing from contact.",
+      "Arm control|Control|Restrict an attack line through a contested hold.",
+      "Ground pin|Control|Maintain an advantageous grounded position.",
+      "Pin escape|Defence|Work back toward a safer ground position.",
+      "Protective strike|Attack|Use a short strike to create space for movement."
+    ],
+    "advanced": [
+      "Strike → grip → throw|Combo|Use a short opening to enter a controlled takedown.",
+      "Wrist reversal → pin|Counter|Turn a contested hold into positional control.",
+      "Throw → submission hold|Control|Seek a concession after a successful ground transition.",
+      "Sacrifice reversal|Throw|Trade standing position for a committed counterthrow.",
+      "Escape → sweep → stand|Combo|Reverse a ground disadvantage and recover standing range.",
+      "Counterlock transition|Counter|Change control direction when an opponent contests a hold."
+    ],
+    "master": [
+      "Thousand-link bind|Control|Rapidly transition between legal holds, contesting each attempted escape.",
+      "Earthfall reversal|Counter|An awakened counterthrow turns a heavy commitment into a powerful landing.",
+      "Iron labyrinth|Control|Use exceptional reactions to maintain changing positional pressure.",
+      "Silent avalanche|Combo|Link a sudden entry, throw and restraint in one compact burst."
+    ]
+  },
+  {
+    "art": "Wing Chun", "identity": "Centre-line pressure, compact punches, trapping and close defence.",
+    "basic": [
+      "Centre-line punch|Attack|A compact straight punch directed through the central guard.",
+      "Palm strike|Attack|A short strike from a close stance.",
+      "Low front kick|Attack|Challenge the approach without a large movement.",
+      "Slap parry|Defence|Deflect a direct attack with a small guarding motion.",
+      "Receiving hand|Defence|Contest an incoming line while maintaining structure.",
+      "Wing deflection|Defence|Redirect close pressure through a changed forearm position.",
+      "Guarding hand|Defence|Protect the centre against a direct return.",
+      "Hand trap|Control|Briefly restrict a guard at contact range.",
+      "Turning stance|Mobility|Change alignment while staying close.",
+      "Forward step|Mobility|Close distance behind an organised guard."
+    ],
+    "advanced": [
+      "Slap parry → straight|Counter|Redirect and strike within a compact exchange.",
+      "Pulling-hand counter|Counter|Contest a defensive hand before attacking the opened line.",
+      "Chain-punch burst|Combo|A short, finite sequence of centre-line punches.",
+      "Low kick → palm sequence|Combo|Change attack level while maintaining forward pressure.",
+      "Trap → elbow|Combo|Use close guard contact to attempt a shorter strike.",
+      "Turning deflection → counter|Counter|Change alignment as an attack enters, then answer."
+    ],
+    "master": [
+      "Thousand-point rain|Flurry|A blurring but finite chain of compact punches overwhelms defensive timing.",
+      "Centre-line collapse|Guard break|Concentrate awakened force through a fiercely contested central opening.",
+      "Mirror hands|Counter|Exceptional close reactions link deflections and returning strikes.",
+      "Inch thunder|Attack|Deliver an explosive awakened strike from very short range."
+    ]
+  },
+  {
+    "art": "Shinokami martial arts", "identity": "Conditioned interception, precise pressure and disruption of attack rhythm.",
+    "basic": [
+      "Guarded advance|Mobility|Close distance while preserving a disciplined defence.",
+      "Intercepting straight|Counter|Contest an opponent's advancing attack line.",
+      "Low stopping kick|Counter|Challenge an entry before it reaches close range.",
+      "Forearm parry|Defence|Redirect a readable strike.",
+      "Pivot evasion|Defence|Leave the attack corridor with a small turn.",
+      "Contact check|Control|Briefly contest an attacking limb at close range.",
+      "Clinch break|Defence|Recover movement from a close hold.",
+      "Balance sweep|Takedown|Exploit an exposed step to challenge stability.",
+      "Body strike|Attack|Pressure stamina through a compact direct attack.",
+      "Measured feint|Setup|Test a defensive reaction without committing heavily."
+    ],
+    "advanced": [
+      "Intercept → cross → sweep|Counter|Use an interrupted entry to contest both guard and balance.",
+      "False opening → counter|Counter|Invite a commitment before returning a prepared strike.",
+      "Contact check → pivot strike|Combo|Change the attack angle while contesting close contact.",
+      "Rush suppression|Counter|Disrupt a charging attack through timing and positioning.",
+      "Rhythm-break combination|Combo|Change timing between attacks to contest predictable defence.",
+      "Feint read → clinch control|Control|Use an observed reaction to seek a controlling position."
+    ],
+    "master": [
+      "Eclipse intercept|Counter|A blurring intercept contests an opponent's commitment before it fully develops.",
+      "Null cadence|Pressure|Disrupt physical attack rhythm; this technique does not cancel Traits or mana.",
+      "Shinigami crossing|Mobility|An awakened angle change carries the fighter across an expected attack line.",
+      "Iron eclipse|Combo|Link precise interceptions and heavy counters while conserving unnecessary motion."
+    ]
+  },
+  {
+    "art": "Krav Maga", "identity": "Direct defensive responses, close control and rapid disengagement.",
+    "basic": [
+      "Straight punch|Attack|A direct response with little setup.",
+      "Palm strike|Attack|A short strike for a crowded engagement.",
+      "Elbow strike|Attack|Contest pressure at close range.",
+      "Knee strike|Attack|A rising attack during a close exchange.",
+      "Front kick|Attack|Create separation from an approach.",
+      "Protective cover|Defence|Reduce exposure during an incoming attack.",
+      "Outside deflection|Defence|Redirect a committed striking line.",
+      "Grip release|Defence|Challenge an existing hold.",
+      "Balance push|Control|Attempt to create space by disrupting position.",
+      "Escape step|Mobility|Leave immediate pressure while maintaining a protective guard."
+    ],
+    "advanced": [
+      "Cover → cross → disengage|Counter|Answer a defended attack and seek separation.",
+      "Grip release → palm counter|Counter|Attack an opening created during escape from a hold.",
+      "Deflect → elbow → knee|Combo|Turn an incoming line into close striking pressure.",
+      "Rush defence → trip|Counter|Challenge a committed entry with a balance attack.",
+      "Wall escape sequence|Mobility|Seek separation from constraining terrain when an exit exists.",
+      "Weapon-line escape|Defence|A contextual attempt to leave an equipped weapon's immediate line."
+    ],
+    "master": [
+      "Zero-window response|Counter|Use awakened reactions to answer a dangerous commitment in one sudden burst.",
+      "Breakout surge|Mobility|An explosive movement attempts to escape overwhelming close pressure.",
+      "Iron corridor|Combo|Combine protective movement with short, powerful counters while advancing.",
+      "Last-light reversal|Counter|Turn a narrowly defended rush into a decisive positional reversal."
+    ]
+  },
+  {
+    "art": "Systema", "identity": "Adaptive movement, relaxed defence, breathing and fluid close control.",
+    "basic": [
+      "Relaxed straight|Attack|A direct punch with a low visible wind-up.",
+      "Short palm|Attack|A compact strike from a loose guard.",
+      "Low kick|Attack|Challenge footing without a large commitment.",
+      "Body sway|Defence|Move away from a strike's line while retaining balance.",
+      "Soft parry|Defence|Redirect a readable attack with a small motion.",
+      "Rolling fall|Defence|Reduce a fall's impact when space permits.",
+      "Grip escape|Defence|Recover movement from a close hold.",
+      "Breathing reset|Recovery|Recover composure and stamina while remaining vulnerable to pressure.",
+      "Circular step|Mobility|Change the engagement angle through continuous movement.",
+      "Off-balance push|Control|Challenge stability from close contact."
+    ],
+    "advanced": [
+      "Sway → short counter|Counter|Return a compact strike after an attack passes.",
+      "Circular step → off-balance throw|Combo|Use continuous movement to develop a throwing opening.",
+      "Relaxed combination|Combo|Link short strikes with minimal visible resets.",
+      "Yield → redirect → strike|Counter|Give ground briefly before returning pressure at a changed angle.",
+      "Rolling escape → stand|Combo|Recover from a low position without a static pause.",
+      "Grip escape → body counter|Counter|Attack the opening created by a successful release."
+    ],
+    "master": [
+      "Quiet thunder|Attack|Release exceptional awakened force from a minimal, apparently relaxed motion.",
+      "Flowing void|Defence|Chain fluid evasions through extreme reactions; missed reads still take damage.",
+      "Pulse cascade|Combo|Deliver a finite succession of compact strikes with changing timing.",
+      "Unbroken current|Counter|Continuously turn defence into positioning and positioning into returning pressure."
+    ]
+  },
+  {
+    "art": "Kudo", "identity": "Integrated striking, headbutts, clinching and throws.",
+    "basic": [
+      "Jab|Attack|A quick punch used to test distance.",
+      "Cross|Attack|A strong direct punch.",
+      "Hook|Attack|A curved punch for close engagement.",
+      "Low kick|Attack|Pressure footing and movement.",
+      "Front kick|Attack|Contest the approach with a direct kick.",
+      "Knee strike|Attack|Attack from an established close position.",
+      "Headbutt|Attack|A close collision attack with meaningful mutual risk.",
+      "Clinch entry|Setup|Seek contact for subsequent control and throwing actions.",
+      "Foot sweep|Takedown|Challenge balance during a moving engagement.",
+      "Breakfall|Defence|Reduce the impact of a throw when the landing permits."
+    ],
+    "advanced": [
+      "Jab → cross → clinch throw|Combo|Use punches to enter a throwing engagement.",
+      "Low kick → body lock|Combo|Transition from lower pressure into close control.",
+      "Clinch knee → sweep|Combo|Change from close striking to balance disruption.",
+      "Punch feint → hip throw|Combo|Draw a striking reaction before a throwing attempt.",
+      "Headbutt feint → body strike|Combo|Disguise a compact close-range attack.",
+      "Throw → ground control|Combo|Follow a successful takedown with positional pressure."
+    ],
+    "master": [
+      "Tempest clinch|Combo|An awakened close sequence blends compact strikes and rapid throwing entries.",
+      "Meteor wheel|Throw|A powerful rotating throw that requires secure contact.",
+      "Crashing tide|Pressure|Sustain heavy mixed striking while contesting a close grip.",
+      "Seamless storm|Combo|Move between striking, clinching and throwing in a blurring continuous burst."
+    ]
+  }
+]

@@ -1,0 +1,1652 @@
+[
+  {
+    "id": "garrett",
+    "name": "Garrett Han",
+    "trait": "Golden Flame / True Sight",
+    "kind": "trait",
+    "identity": "Flame-driven martial force and superhuman perception. Walls break, pavement craters and golden fire carries his attacks across the arena.",
+    "amplifications": [
+      [
+        "Golden fire",
+        "Coat the selected move in golden flame, adding explosive striking force, burning contact and greater damage to terrain.",
+        "Damage · heat · destruction"
+      ],
+      [
+        "True Sight",
+        "Read movement at awakened speed and adjust the selected move towards the developing opening.",
+        "Accuracy · tracking · counter timing"
+      ]
+    ],
+    "skills": [
+      [
+        "Dragon Kick",
+        "Golden fire",
+        "Flame erupts behind a flying side kick, propelling Garrett into a devastating impact that tears through cover and blasts apart the surrounding ground.",
+        "Burst approach · heavy impact · area destruction"
+      ],
+      [
+        "Sunbreaker Fist",
+        "Golden fire / Fa Jin",
+        "A compact release of internal force and golden fire drives a straight punch through a wall, showering the space beyond with broken masonry.",
+        "Guard pressure · wall breach · knockback"
+      ],
+      [
+        "Golden Dragon Spiral",
+        "Golden fire",
+        "Garrett spins through a rising ring of flame, chaining a sweeping kick into a second explosive impact as shattered concrete lifts around him.",
+        "Rotating attack · nearby targets · broken footing"
+      ],
+      [
+        "Solar Wake",
+        "Golden fire",
+        "A burst of flame launches Garrett faster than ordinary sight can follow, carrying his next impact across the arena and leaving a burning path.",
+        "Rapid movement · pursuit · fire trail"
+      ],
+      [
+        "True-Sight Reversal",
+        "True Sight",
+        "Garrett reads the opening motion of an attack, slips through its line and returns a blindingly fast strike into the exposed guard.",
+        "Reactive counter · precision · initiative contest"
+      ],
+      [
+        "Dragon's Descent",
+        "Golden fire",
+        "He rises on a roaring flame burst and plunges down with a driving punch, detonating a golden impact through pavement and nearby cover.",
+        "Aerial entry · ground impact · area destruction"
+      ],
+      [
+        "Phoenix Wheel",
+        "Golden fire",
+        "A blazing spinning kick sweeps through the engagement, hurling struck opponents and loose wreckage away in a rolling arc of fire.",
+        "Wide strike · knockback · debris movement"
+      ],
+      [
+        "Dawnfall Breaker",
+        "Golden fire / True Sight",
+        "Garrett tracks a momentary opening and releases a tightly focused golden blast through his strike, punching through the target's cover before the flame spreads.",
+        "Precision breach · concentrated damage · fire spread"
+      ]
+    ],
+    "form_note": "Golden Flame Transcendence strengthens these same skills and their environmental impact. Their base versions remain available without activating the form.",
+    "stats": {
+      "power": 84,
+      "refinement": 96,
+      "martial": 96,
+      "iq": 96
+    }
+  },
+  {
+    "id": "rei",
+    "name": "Rei Takamura",
+    "trait": "Flowing Tempest · green lightning / wind / kinetic flow",
+    "kind": "trait",
+    "identity": "Continuous movement becomes extraordinary speed and force. Green lightning, wind and kinetic redirection give Rei three distinct ways to shape an exchange.",
+    "amplifications": [
+      [
+        "Green lightning",
+        "Thread the selected move with green lightning, adding a sudden impact burst and disruptive electrical pressure.",
+        "Burst damage · stagger pressure"
+      ],
+      [
+        "Wind",
+        "Wrap the move in driving wind, increasing reach, displacement and the force carried into surrounding cover.",
+        "Reach · movement · knockback"
+      ],
+      [
+        "Flowing Tempest",
+        "Carry accumulated movement into the move or redirect received force into its return; sustained motion increases speed and impact.",
+        "Momentum · redirection · scaling force"
+      ]
+    ],
+    "skills": [
+      [
+        "Descending Tempest",
+        "Green lightning / wind",
+        "Rei launches high above the arena and descends with a lightning-enhanced axe kick, blasting a crater into the ground and breaking nearby concrete.",
+        "Aerial attack · lightning impact · crater"
+      ],
+      [
+        "Flowing Stream",
+        "Flowing Tempest",
+        "Rei turns an incoming attack's force back towards its source, bending the exchange into a violent returning impact. It can answer melee, projectiles and ranged Trait attacks.",
+        "Universal attack-type counter · force return · clash resolution"
+      ],
+      [
+        "Thousand Sparks",
+        "Flowing Tempest / green lightning",
+        "He accelerates around the arena until his movements become a green blur, then releases the accumulated force through a spinning kick that blasts apart the impact area.",
+        "Movement buildup · extreme speed · devastating release"
+      ],
+      [
+        "Emerald Rift",
+        "Wind",
+        "A sweeping kick launches a compressed green wind arc that cuts across the arena, ripping through concrete cover and vehicle panels.",
+        "Ranged cutting wave · cover breach"
+      ],
+      [
+        "Cyclone Crash",
+        "Flowing Tempest / wind",
+        "Rei captures momentum through a throwing entry and drives the opponent into a spiralling wind-assisted crash capable of crushing a parked car.",
+        "Throw · collision damage · vehicle destruction"
+      ],
+      [
+        "Storm Rail",
+        "Green lightning",
+        "Rei crosses the engagement in a straight flash of green sparks and delivers a concentrated, lightning-charged strike before ordinary eyes can follow.",
+        "Linear burst movement · precision impact"
+      ],
+      [
+        "Tempest Mantle",
+        "Flowing Tempest / wind",
+        "A moving envelope of wind and redirected force surrounds his guard, scattering debris and carrying defended pressure into his next attack.",
+        "Defence · momentum retention · debris deflection"
+      ],
+      [
+        "Eye of the Tempest",
+        "Wind / green lightning",
+        "Rei becomes the centre of a local wind-and-lightning surge, dragging loose wreckage into motion before releasing it outward with a sweeping attack.",
+        "Local area control · debris movement · multi-angle pressure"
+      ]
+    ],
+    "form_note": "Flowing Stream has no attack-type exclusion or stat unlock gate. Its return, partial redirection or failure is resolved against the incoming attack's force and Rei's timing; the narrator reports that result.",
+    "stats": {
+      "power": 79,
+      "refinement": 94,
+      "martial": 94,
+      "iq": 93
+    }
+  },
+  {
+    "id": "ivan",
+    "name": "Ivan Yeun",
+    "trait": "Conduit · five elemental channels",
+    "kind": "trait",
+    "identity": "Fire, wind, ice, red lightning and blue lightning turn the same martial move into very different attacks. Elemental force can reshape the arena.",
+    "amplifications": [
+      [
+        "Fire",
+        "Engulf the move in flame, adding explosive contact and igniting breakable cover or ground surfaces.",
+        "Damage · burning terrain"
+      ],
+      [
+        "Wind",
+        "Drive the movement with a forceful gust, extending its reach and throwing targets or wreckage farther.",
+        "Speed · reach · displacement"
+      ],
+      [
+        "Ice",
+        "Armour the striking surface with ice and spread freezing material at impact, altering grip and footing.",
+        "Guard pressure · chilled footing · temporary cover"
+      ],
+      [
+        "Red lightning",
+        "Concentrate red electrical force through the move for a heavier, more disruptive impact.",
+        "Proposed identity: impact · stagger"
+      ],
+      [
+        "Blue lightning",
+        "Run blue electrical force through the movement for rapid acceleration and sharper reaction timing.",
+        "Proposed identity: speed · precision"
+      ]
+    ],
+    "skills": [
+      [
+        "Furnace Knee",
+        "Fire",
+        "Ivan drives a roaring, fire-coated knee into the engagement; its impact bursts through cover and leaves a scorched crater beneath the collision.",
+        "Close impact · fire burst · destruction"
+      ],
+      [
+        "Whiteout Crash",
+        "Ice",
+        "Ice builds around his shoulder as he charges, smashing a barrier into a cloud of frozen shards and leaving broken, slippery terrain behind him.",
+        "Armoured charge · barrier break · icy terrain"
+      ],
+      [
+        "Gale Cutter",
+        "Wind",
+        "A turning kick releases a compressed wind blade across the arena, shearing vehicle panels and splitting exposed cover along its path.",
+        "Ranged slash · line damage · cover cutting"
+      ],
+      [
+        "Crimson Break",
+        "Red lightning",
+        "Ivan concentrates red lightning into a strike that erupts on contact, throwing the target back through nearby cover.",
+        "Heavy impact · stagger · collision damage"
+      ],
+      [
+        "Azure Blink",
+        "Blue lightning",
+        "A blue flash marks Ivan's explosive movement across a short stretch of the arena, followed by a strike delivered faster than ordinary perception.",
+        "Extreme-speed approach · reposition · precision"
+      ],
+      [
+        "Flashfreeze Snare",
+        "Ice",
+        "Ice surges across a chosen patch of ground and rises around the opponent's path, contesting their movement and creating a breakable obstruction.",
+        "Terrain control · movement restraint · destructible ice"
+      ],
+      [
+        "Thunderhead Drop",
+        "Wind / red lightning",
+        "A gust throws Ivan upward before he crashes down inside a red-lightning impact that fractures the landing zone.",
+        "Aerial entry · electrical burst · ground destruction"
+      ],
+      [
+        "Winterstorm Ring",
+        "Wind / ice",
+        "Ivan spins a ring of ice and driving wind around the engagement, shredding fragile cover and forcing the opponent to cross hazardous footing.",
+        "Local area pressure · ice fragments · altered footing"
+      ],
+      [
+        "Arc Split",
+        "Blue lightning / red lightning",
+        "Blue lightning carries him around the guard in a blur; red lightning erupts through the finishing blow and drives the target into the scenery.",
+        "Angle change · concentrated finisher · knockback"
+      ],
+      [
+        "Fivefold Ruin",
+        "All five Conduit channels",
+        "A rapid sequence of flame, wind, ice and both lightning channels culminates in an arena-shaking impact that tears through clustered cover.",
+        "Multi-element sequence · high resource demand · area destruction"
+      ]
+    ],
+    "form_note": "All five channels and these base skills are available through Conduit. Conduit State remains a separate five-minute form with its existing daily activation cooldown. Red/blue mechanical identities above are proposed distinctions for review.",
+    "stats": {
+      "power": 86,
+      "refinement": 94,
+      "martial": 96,
+      "iq": 95
+    }
+  },
+  {
+    "id": "sylvanis",
+    "name": "Sylvanis",
+    "trait": "Umbrakinesis / True Sight / Polymath",
+    "kind": "trait",
+    "identity": "Physical shadow constructs, superhuman perception and accelerated analysis let Sylvanis overwhelm both terrain and an opponent's defensive choices.",
+    "amplifications": [
+      [
+        "Umbrakinesis",
+        "Extend or reinforce the selected move with shaped shadow, increasing contact force, reach and pressure against cover.",
+        "Shadow reach · damage · control"
+      ],
+      [
+        "True Sight",
+        "Read the immediate movement of a fast opponent and adjust the move's timing and line in response.",
+        "Accuracy · tracking · counter timing"
+      ],
+      [
+        "Polymath",
+        "Exploit observed habits and martial structure to select an unexpected angle or punish a repeated defence.",
+        "Adaptation · combo routing · pattern exploitation"
+      ]
+    ],
+    "skills": [
+      [
+        "Nightfall Hammer",
+        "Umbrakinesis",
+        "A massive shadow fist follows Sylvanis's strike, crushing a wall or vehicle beneath the combined impact.",
+        "Heavy shadow impact · terrain destruction"
+      ],
+      [
+        "Midnight Coil",
+        "Umbrakinesis",
+        "Thick bands of shadow close around an opponent or a piece of cover, contesting escape while exerting crushing force.",
+        "Restraint · pressure · crushable cover"
+      ],
+      [
+        "Umbral Rush",
+        "Umbrakinesis",
+        "Shadow obscures his approach as he accelerates beyond ordinary perception and drives a shadow-reinforced strike through the engagement.",
+        "Concealed burst movement · heavy strike"
+      ],
+      [
+        "True-Sight Intercept",
+        "True Sight",
+        "Sylvanis tracks the first change in an attack's movement and launches a blindingly fast counter along the exposed line.",
+        "Reactive precision · initiative contest"
+      ],
+      [
+        "Polymath Rupture",
+        "Polymath",
+        "He recognises a repeated defensive structure and switches martial rhythm mid-combination, concentrating awakened force into its weakest opening.",
+        "Adaptive combo · repeated-defence punishment"
+      ],
+      [
+        "Eclipse Convergence",
+        "Umbrakinesis / Polymath",
+        "Several shaped shadows converge from different angles while Sylvanis drives the opponent towards a collapsing pocket of cover.",
+        "Multi-angle attack · position pressure · breakable cover"
+      ],
+      [
+        "Black Sun Collapse",
+        "Umbrakinesis",
+        "A dense mass of shadow crashes down over a chosen area, crushing concrete and hurling loose wreckage away from the impact.",
+        "Area impact · overhead pressure · debris movement"
+      ],
+      [
+        "Shadow Requiem",
+        "Umbrakinesis / True Sight / Polymath",
+        "Sylvanis reads the opponent's escape, cuts it off with shadow constructs and delivers a rapid finishing sequence that tears apart the surrounding arena.",
+        "Predictive sequence · zone control · destruction"
+      ]
+    ],
+    "form_note": "The skills themselves remain selectable without a stat gate. Active second-stage Transcendence upgrades their shadow effects with corrosive, burning, explosive or piercing properties and operation in absolute light; those upgrades are form state, not new base skills.",
+    "stats": {
+      "power": 90,
+      "refinement": 100,
+      "martial": 100,
+      "iq": 100
+    }
+  },
+  {
+    "id": "charles",
+    "name": "Charles Han",
+    "trait": "White Flame Tiger",
+    "kind": "trait",
+    "identity": "White flame gives Charles's precise martial pressure the impact and presence of a charging tiger.",
+    "amplifications": [
+      [
+        "White flame",
+        "Reinforce the move with concentrated white flame for searing contact and heavy structural damage.",
+        "Heat · impact · breach"
+      ],
+      [
+        "Tiger drive",
+        "Focus the same white-flame reinforcement into explosive forward motion and forceful close pressure.",
+        "Burst entry · knockback"
+      ],
+      [
+        "White-flame guard",
+        "Wrap a defensive move in white flame that contests incoming contact and burns nearby debris.",
+        "Guard reinforcement · contact pressure"
+      ]
+    ],
+    "skills": [
+      [
+        "White Tiger Pounce",
+        "White Flame Tiger",
+        "Charles launches in a white-flame burst and crashes into his opponent with a striking pounce that smashes nearby concrete.",
+        "Rapid approach · heavy contact"
+      ],
+      [
+        "Fangbreaker Fist",
+        "White flame",
+        "A focused white-flame punch drives through a guarded opening and blows a jagged breach through the cover behind it.",
+        "Precision impact · breach"
+      ],
+      [
+        "Tiger Wheel",
+        "White flame",
+        "A sweeping turn releases a ring of white-flame strikes, flinging loose debris away from the close engagement.",
+        "Rotating pressure · nearby terrain"
+      ],
+      [
+        "White-Flame Roar",
+        "White flame",
+        "A forceful release of flame rolls outward from his martial strike, blasting apart obstacles along its short path.",
+        "Forward burst · cover destruction"
+      ],
+      [
+        "Twin-Fang Return",
+        "White Flame Tiger",
+        "Charles turns a defended opening into two explosive white-flame blows, each pressing a different line of the guard.",
+        "Counter sequence · two-line pressure"
+      ],
+      [
+        "Snowfire Mantle",
+        "White flame",
+        "White flame reinforces his frame as he advances through flying wreckage and delivers a close-range returning strike.",
+        "Guarded advance · counter pressure"
+      ]
+    ],
+    "form_note": "His earned Transcendence intensifies the tiger manifestation, flame output and physical reinforcement; the base moves have no martial or refinement threshold.",
+    "stats": {
+      "power": 85,
+      "refinement": 94,
+      "martial": 97,
+      "iq": 96
+    }
+  },
+  {
+    "id": "takeo",
+    "name": "Takeo Mishima",
+    "trait": "Nanoengine",
+    "kind": "trait",
+    "identity": "Internal nanomachines turn Takeo into a living siege weapon: armour, transformed striking surfaces and immense reinforced force.",
+    "amplifications": [
+      [
+        "Power reinforcement",
+        "Concentrate nanomachine support behind a regular move to increase force and collision damage.",
+        "Strength · knockback · destruction"
+      ],
+      [
+        "Adaptive armour",
+        "Redistribute reinforcement around the selected defence, increasing resistance to the incoming strike.",
+        "Mitigation · stability"
+      ],
+      [
+        "Weapon morph",
+        "Reshape the move's striking surface into an established adaptive weapon form.",
+        "Reach · contact shape · armour pressure"
+      ]
+    ],
+    "skills": [
+      [
+        "Siege Fist",
+        "Nanoengine",
+        "Nanomachines reinforce Takeo's arm into a battering weapon; his punch ploughs through concrete and sends the broken wall outward.",
+        "Heavy breach · debris impact"
+      ],
+      [
+        "Bunker Rush",
+        "Nanoengine",
+        "He drives forward behind concentrated armour, crushing a vehicle or barrier beneath a devastating shoulder charge.",
+        "Armoured charge · vehicle destruction"
+      ],
+      [
+        "Adaptive Bulwark",
+        "Nanoengine",
+        "Armour thickens and shifts across his body to meet the incoming force, letting him contest a heavy attack without surrendering his stance.",
+        "Reactive defence · stagger resistance"
+      ],
+      [
+        "Monolith Blade",
+        "Nanoengine",
+        "An adaptive arm weapon extends into a sweeping strike that cleaves through the engagement and tears into structural cover.",
+        "Extended weapon strike · cover cutting"
+      ],
+      [
+        "Engine Overdrive",
+        "Nanoengine",
+        "A surge of internal reinforcement drives his massive body faster than ordinary sight, culminating in a crushing close-range attack.",
+        "Burst speed · high-impact entry"
+      ],
+      [
+        "Iron Meteor",
+        "Nanoengine",
+        "Takeo launches and descends under heavy reinforcement, smashing the landing zone into a crater and scattering wreckage.",
+        "Aerial impact · area destruction"
+      ]
+    ],
+    "form_note": "Nanoengine manipulates his own nanomachines and body. The catalogue does not grant remote control of cars, electronics or other people's bodies.",
+    "stats": {
+      "power": 100,
+      "refinement": 80,
+      "martial": 95,
+      "iq": 90
+    }
+  },
+  {
+    "id": "crow",
+    "name": "The Crow",
+    "trait": "Polymath",
+    "kind": "trait",
+    "identity": "Superhuman analysis directs an already formidable awakened body and a vast learned martial repertoire.",
+    "amplifications": [
+      [
+        "Pattern exploitation",
+        "Use observed defensive habits to improve the selected move's timing and accuracy.",
+        "Accuracy · adaptation"
+      ],
+      [
+        "Martial synthesis",
+        "Choose a compatible transition from arts he actually knows to pressure the opponent's current response.",
+        "Combo transitions · guard pressure"
+      ],
+      [
+        "Structural read",
+        "Concentrate the move on an observed weakness in a guard or physical obstacle.",
+        "Precision · terrain breach"
+      ]
+    ],
+    "skills": [
+      [
+        "Checkmate Sequence",
+        "Polymath",
+        "The Crow chains learned techniques around observed escape routes, his awakened blows driving the opponent through collapsing cover.",
+        "Adaptive sequence · positional pressure"
+      ],
+      [
+        "Perfect Counter",
+        "Polymath",
+        "Accelerated analysis identifies a returning line and sends a precisely timed, superhuman strike into the exchange.",
+        "Predictive counter · high precision"
+      ],
+      [
+        "Black Rook Breach",
+        "Polymath",
+        "He reads the structure of a guard or barrier and commits a concentrated strike that can punch a clean breach through concrete.",
+        "Structural targeting · breach"
+      ],
+      [
+        "Hundred-Style Sequence",
+        "Polymath",
+        "A rapid, finite sequence shifts between his learned arts, changing range and rhythm faster than an ordinary fighter can process.",
+        "Mixed martial sequence · rhythm changes"
+      ],
+      [
+        "Queen's Gambit",
+        "Polymath",
+        "The Crow presents an enticing opening, reads the commitment and turns it into a devastating returning combination.",
+        "Bait · reactive sequence"
+      ],
+      [
+        "King in Motion",
+        "Polymath",
+        "He moves through predicted attack lines in a blur, finding a position from which to launch his next precise strike.",
+        "Predictive movement · advantageous position"
+      ]
+    ],
+    "form_note": "The physical speed and destruction come from his awakened body. Polymath directs them through observation and analysis; it does not copy someone else's Trait.",
+    "stats": {
+      "power": 80,
+      "refinement": 100,
+      "martial": 100,
+      "iq": 100
+    }
+  },
+  {
+    "id": "martos",
+    "name": "Martos Cabrera",
+    "trait": "Rage",
+    "kind": "trait",
+    "identity": "Battle pressure magnifies his strength, durability and physical mutation until the arena itself gives way beneath him.",
+    "amplifications": [
+      [
+        "Rage force",
+        "Drive the regular move with escalating strength as battle pressure rises.",
+        "Damage · knockback"
+      ],
+      [
+        "Rage hide",
+        "Reinforce a defensive action with increased physical durability.",
+        "Mitigation · stagger resistance"
+      ],
+      [
+        "Mutation pressure",
+        "Concentrate mutation into the move for greater reach and force, trading away fine control.",
+        "Reach · guard pressure · control trade-off"
+      ]
+    ],
+    "skills": [
+      [
+        "Juggernaut Charge",
+        "Rage",
+        "Martos surges through the engagement with terrifying speed for his size, flattening a car or concrete barrier in his path.",
+        "Rush · obstacle destruction"
+      ],
+      [
+        "Ruin Hammer",
+        "Rage",
+        "A heavily reinforced downward strike pulverises the impact point and sends fragments of concrete across the nearby arena.",
+        "Heavy strike · ground fracture"
+      ],
+      [
+        "Colossus Grip",
+        "Rage",
+        "He catches a close opponent or a piece of cover in an immense grip, contesting escape before crushing or hurling it aside.",
+        "Grapple · crush · throw"
+      ],
+      [
+        "Aftershock Stamp",
+        "Rage",
+        "A violent stamp fractures the ground, disrupting footing and lifting loose rubble into the surrounding engagement.",
+        "Ground damage · balance disruption"
+      ],
+      [
+        "Redline Surge",
+        "Rage",
+        "Martos pushes his mutation into a short, brutal offensive burst, gaining enormous impact at the expense of precise movement.",
+        "High pressure · power/control trade-off"
+      ],
+      [
+        "Siege Reversal",
+        "Rage",
+        "He braces through an incoming collision and returns the accumulated battle pressure with a strike that sends the opponent into surrounding cover.",
+        "Trade counter · heavy knockback"
+      ]
+    ],
+    "form_note": "Rage can be used at any Trait-capable stat level. Greater pressure changes its output and control; it does not erase incoming damage.",
+    "stats": {
+      "power": 85,
+      "refinement": 88,
+      "martial": 93,
+      "iq": 89
+    }
+  },
+  {
+    "id": "elias",
+    "name": "Elias Braun",
+    "trait": "Pyromovement",
+    "kind": "trait",
+    "identity": "Motion becomes heat. His movement builds an increasingly destructive reservoir that he releases through strikes and burning trails.",
+    "amplifications": [
+      [
+        "Heat-loaded strike",
+        "Release accumulated movement heat through the selected attack.",
+        "Heat damage · stored-output release"
+      ],
+      [
+        "Ignition footwork",
+        "Generate heat while moving through the action and leave a hot trail along the travelled route.",
+        "Heat buildup · route pressure"
+      ],
+      [
+        "Burning follow-through",
+        "Carry heat through a combo's continuation to pressure an opponent who remains close.",
+        "Sustained heat · close pressure"
+      ]
+    ],
+    "skills": [
+      [
+        "Heatstep Engine",
+        "Pyromovement",
+        "Elias accelerates through a series of rapid steps, gathering heat until the ground behind him glows and his movements blur.",
+        "Movement buildup · extreme speed · heat reserve"
+      ],
+      [
+        "Ignition Carousel",
+        "Pyromovement",
+        "A fast rotating kick releases accumulated heat in a blazing arc, battering the opponent and scorching surrounding cover.",
+        "Rotating attack · heat release"
+      ],
+      [
+        "Cinder Rail",
+        "Pyromovement",
+        "He drives along a heated movement line and unloads it through a straight strike, blasting a fiery breach through concrete.",
+        "Linear rush · heavy breach"
+      ],
+      [
+        "Ember Encore",
+        "Pyromovement",
+        "Successive kicks build and release heat in rhythm, making the later impacts fiercer as the sequence continues.",
+        "Growing combo · sustained movement"
+      ],
+      [
+        "Scorched Stage",
+        "Pyromovement",
+        "Elias circles the engagement at superhuman speed, laying intersecting heated trails that change the opponent's safe routes.",
+        "Area routing · persistent hot trails"
+      ],
+      [
+        "Curtainfall Kick",
+        "Pyromovement",
+        "He takes accumulated heat airborne and drives it down through a finishing kick that bursts the landing surface apart.",
+        "Aerial finisher · stored heat · crater"
+      ]
+    ],
+    "form_note": "Skills remain selectable with an empty heat reserve: movement stages build heat, while immediate releases are weaker until heat has accumulated.",
+    "stats": {
+      "power": 77,
+      "refinement": 91,
+      "martial": 92,
+      "iq": 93
+    }
+  },
+  {
+    "id": "mavis",
+    "name": "Mavis Kuro",
+    "trait": "Mist",
+    "kind": "trait",
+    "identity": "Dark-vapour dispersal lets Mavis evade physical lines, move through gaps and return with the impact of an awakened body.",
+    "amplifications": [
+      [
+        "Mist shroud",
+        "Cover the regular move in dark vapour to obscure its line and timing.",
+        "Concealment · deceptive entry"
+      ],
+      [
+        "Vapour evasion",
+        "Partially disperse during a defensive movement to contest contact along the incoming line.",
+        "Evasion · partial dispersal"
+      ],
+      [
+        "Reforming impact",
+        "Concentrate the return to physical form into the move's striking beat.",
+        "Concealed return · close impact"
+      ]
+    ],
+    "skills": [
+      [
+        "Black-Vapour Slip",
+        "Mist",
+        "Mavis breaks into dark vapour as an attack arrives, slides off its line and reforms at a new angle.",
+        "Reactive dispersal · reposition"
+      ],
+      [
+        "Hollow Counter",
+        "Mist",
+        "The struck silhouette disperses into a cloud while Mavis reforms beside the attack line and returns a superhuman close strike.",
+        "Dispersal counter · close pressure"
+      ],
+      [
+        "Veilbreaker Palm",
+        "Mist",
+        "A hand reforms from obscuring mist into an explosive palm strike capable of caving in a vehicle panel or breaking masonry.",
+        "Concealed impact · terrain damage"
+      ],
+      [
+        "Shrouded Sweep",
+        "Mist",
+        "Dark vapour floods the lower engagement as she moves in a blur and sweeps through the opponent's footing.",
+        "Low concealment · balance attack"
+      ],
+      [
+        "Smokebreak Traverse",
+        "Mist",
+        "She disperses through an available opening in broken cover and reforms beyond it, turning arena damage into a new movement route.",
+        "Gap traversal · reposition"
+      ],
+      [
+        "Midnight Curtain",
+        "Mist",
+        "A broad curtain of dark mist rolls across part of the arena, interrupting sight lines and concealing a rapid change of position.",
+        "Local concealment · sight-line change"
+      ]
+    ],
+    "form_note": "Dispersal uses Mist's established body transformation. Bright light, mana and actual available gaps still affect it; no additional teleportation power is introduced.",
+    "stats": {
+      "power": 75,
+      "refinement": 95,
+      "martial": 95,
+      "iq": 96
+    }
+  },
+  {
+    "id": "camila",
+    "name": "Camila Lopez",
+    "trait": "Analysis",
+    "kind": "trait",
+    "identity": "Accelerated perception of patterns directs her awakened movement and Aikido into exact reversals and structural breaks.",
+    "amplifications": [
+      [
+        "Trajectory analysis",
+        "Read an observed attack line and adjust the regular move's response.",
+        "Accuracy · counter timing"
+      ],
+      [
+        "Pattern analysis",
+        "Use repeated behaviour to improve the next attack or defensive choice.",
+        "Adaptation · repeated-pattern punishment"
+      ],
+      [
+        "Structural analysis",
+        "Concentrate force on a visible weakness in a guard, grip or arena object.",
+        "Control precision · structural damage"
+      ]
+    ],
+    "skills": [
+      [
+        "Faultline Palm",
+        "Analysis",
+        "Camila identifies a structural weakness and delivers an awakened palm strike that fractures the barrier along it.",
+        "Precision terrain break · concentrated force"
+      ],
+      [
+        "Pattern Lock",
+        "Analysis",
+        "Her accelerated analysis follows a repeated defensive habit, setting up a precisely timed strike along its recurring opening.",
+        "Observed-pattern counter · accuracy"
+      ],
+      [
+        "Checkmate Turn",
+        "Analysis",
+        "She reads a committed entry and turns it into an explosive Aikido reversal, sending the opponent into nearby cover.",
+        "Throw counter · collision damage"
+      ],
+      [
+        "Tempo Theft",
+        "Analysis",
+        "Camila recognises the instant an opponent commits their weight and moves at awakened speed to seize the next exchange.",
+        "Timing read · initiative contest"
+      ],
+      [
+        "Glassboard Feint",
+        "Analysis",
+        "A calculated opening draws a response that she analyses in motion before returning a forceful, precisely placed strike.",
+        "Bait · adaptive counter"
+      ],
+      [
+        "Cascade Reversal",
+        "Analysis",
+        "Rapid changes of grip and direction turn successive defensive reactions into a powerful throwing finish through the scenery.",
+        "Linked control · heavy throw"
+      ]
+    ],
+    "form_note": "Analysis operates at superhuman speed but uses observed information. Destructive force is supplied by Camila's awakened body, not an invented energy projection.",
+    "stats": {
+      "power": 68,
+      "refinement": 96,
+      "martial": 89,
+      "iq": 99
+    }
+  },
+  {
+    "id": "samantha",
+    "name": "Samantha Kim",
+    "trait": "Hemokinesis",
+    "kind": "trait",
+    "identity": "Accessible blood becomes striking edges, projectiles, restraints and barriers with force far beyond an ordinary weapon.",
+    "amplifications": [
+      [
+        "Blood edge",
+        "Shape accessible blood around the regular move into a reinforced cutting or striking surface.",
+        "Contact damage · cover cutting"
+      ],
+      [
+        "Blood tether",
+        "Extend the action with a controllable blood strand that contests movement or pulls on a contacted object.",
+        "Reach · restraint · displacement"
+      ],
+      [
+        "Blood guard",
+        "Gather accessible blood into a temporary protective layer around a defensive action.",
+        "Barrier · mitigation · resource use"
+      ]
+    ],
+    "skills": [
+      [
+        "Crimson Lance",
+        "Hemokinesis",
+        "A dense lance of blood shoots across the arena with enough force to burst masonry and pin broken cover against the impact surface.",
+        "Ranged pressure · structural damage"
+      ],
+      [
+        "Red-Thread Snare",
+        "Hemokinesis",
+        "Blood strands whip around the opponent from outside their body, contesting movement and dragging loose objects into their path.",
+        "External restraint · displacement"
+      ],
+      [
+        "Scarlet Crescent",
+        "Hemokinesis",
+        "A broad, hardened blood arc sweeps through the engagement and slices into vehicle panels or exposed cover.",
+        "Wide cutting attack · terrain damage"
+      ],
+      [
+        "Bloodbloom Burst",
+        "Hemokinesis",
+        "A controlled mass of accessible blood erupts into a short-range array of striking forms, hammering the nearby guard and scenery.",
+        "Multi-angle burst · area pressure"
+      ],
+      [
+        "Coagulated Aegis",
+        "Hemokinesis",
+        "Blood plates gather into a breakable shield that meets the incoming impact and scatters under sufficient force.",
+        "Barrier · collision resistance"
+      ],
+      [
+        "Returning Fang",
+        "Hemokinesis",
+        "A shaped blood weapon curves back across the arena under her control, threatening a second angle after its initial pass.",
+        "Returning projectile · angle change"
+      ]
+    ],
+    "form_note": "Mana and accessible blood determine scale. Supplying her own blood has a real health cost; these skills do not control blood inside an intact opponent.",
+    "stats": {
+      "power": 68,
+      "refinement": 86,
+      "martial": 85,
+      "iq": 83
+    }
+  },
+  {
+    "id": "tyler",
+    "name": "Tyler Harding",
+    "trait": "Impact storage",
+    "kind": "trait",
+    "identity": "Absorbed impact becomes a reserve that Tyler releases through devastating boxing strikes, sending force back into opponents and terrain.",
+    "amplifications": [
+      [
+        "Stored-force release",
+        "Add available stored impact to the selected punch or combo.",
+        "Damage · knockback · reserve spending"
+      ],
+      [
+        "Impact bracing",
+        "Use a defensive action to store part of a received impact while still suffering its resolved damage.",
+        "Reserve gain · physical defence"
+      ],
+      [
+        "Focused discharge",
+        "Concentrate available impact into a narrower contact instead of spreading it through the combo.",
+        "Guard pressure · structural breach"
+      ]
+    ],
+    "skills": [
+      [
+        "Debt Collector",
+        "Impact storage",
+        "Tyler unloads stored force through a straight punch that drives an opponent through a wall or crushes the vehicle behind them.",
+        "Stored impact · heavy knockback"
+      ],
+      [
+        "Rebound Crash",
+        "Impact storage",
+        "He braces into an attack and returns its collected force through an explosive punch during the same contested exchange.",
+        "Receive-and-return counter · damage trade"
+      ],
+      [
+        "Breakwater Guard",
+        "Impact storage",
+        "A tightly braced defence captures part of a heavy collision, converting the surviving pressure into a reserve for his next strike.",
+        "Guard · impact collection"
+      ],
+      [
+        "Avalanche Hook",
+        "Impact storage",
+        "A loaded hook releases a sweeping collision that throws the opponent and nearby wreckage across the engagement.",
+        "Wide impact · displacement"
+      ],
+      [
+        "Redline Barrage",
+        "Impact storage",
+        "Tyler divides his reserve across a rapid boxing barrage, each punch delivering a distinct burst of stored force.",
+        "Finite multi-hit release · reserve distribution"
+      ],
+      [
+        "Aftershock Uppercut",
+        "Impact storage",
+        "Stored impact erupts through a rising punch, launching the struck target into a heavy landing that damages the arena.",
+        "Launch · landing collision · terrain damage"
+      ]
+    ],
+    "form_note": "Release skills always remain selectable. With no stored impact they use Tyler's base awakened striking force; stronger discharges consume the actual reserve.",
+    "stats": {
+      "power": 80,
+      "refinement": 89,
+      "martial": 94,
+      "iq": 92
+    }
+  },
+  {
+    "id": "minsu",
+    "name": "Minsu Park",
+    "trait": "Speed and reflexes",
+    "kind": "trait",
+    "identity": "Explosive acceleration, movement faster than normal perception and sharply accelerated reactions amplify his Taekwondo.",
+    "amplifications": [
+      [
+        "Burst acceleration",
+        "Drive the regular move into striking range before ordinary perception can track the approach.",
+        "Approach speed · initiative"
+      ],
+      [
+        "Reflex overdrive",
+        "Accelerate reaction timing during the selected defence or counter.",
+        "Evasion · counter accuracy"
+      ],
+      [
+        "Velocity transfer",
+        "Carry movement speed into the selected impact for greater force and knockback.",
+        "Impact · momentum · destruction"
+      ]
+    ],
+    "skills": [
+      [
+        "Vanishing Kick",
+        "Speed and reflexes",
+        "Minsu closes in a sudden blur and releases a kick that strikes before an ordinary observer sees him arrive.",
+        "Burst approach · rapid strike"
+      ],
+      [
+        "Hundred-Frame Step",
+        "Speed and reflexes",
+        "Rapid angle changes create apparent after-images while he moves around the incoming attack and seeks a new opening.",
+        "Extreme-speed evasion · reposition"
+      ],
+      [
+        "Blink Chain",
+        "Speed and reflexes",
+        "A finite chain of kicks arrives in a blur, changing level between impacts faster than normal vision can separate them.",
+        "High-speed combo · multiple levels"
+      ],
+      [
+        "Racing Intercept",
+        "Speed and reflexes",
+        "Minsu accelerates across the opponent's attack line and delivers a stopping kick at the point of interception.",
+        "Interception · initiative contest"
+      ],
+      [
+        "Comet Run",
+        "Speed and reflexes",
+        "He builds speed across the arena and converts it into a driving kick that launches the opponent into a barrier or parked car.",
+        "Run-up impact · collision destruction"
+      ],
+      [
+        "Afterimage Relay",
+        "Speed and reflexes",
+        "Successive short bursts circle the guard before a final kick lands along the rapidly changing attack line.",
+        "Angle sequence · precision finish"
+      ]
+    ],
+    "form_note": "The apparent disappearance and after-images are literal superhuman movement effects. He still travels through the arena; this does not add a teleportation Trait.",
+    "stats": {
+      "power": 61,
+      "refinement": 79,
+      "martial": 91,
+      "iq": 82
+    }
+  },
+  {
+    "id": "valentina",
+    "name": "Valentina Yeun",
+    "trait": "Deathwind",
+    "kind": "trait",
+    "identity": "Cutting wind, concentrated pressure and powerful gusts turn her acrobatic movement into an arena-shaping threat.",
+    "amplifications": [
+      [
+        "Cutting wind",
+        "Extend the regular move with a concentrated cutting gust.",
+        "Reach · cutting force · cover damage"
+      ],
+      [
+        "Gust drive",
+        "Use wind to accelerate the move, lift a leap or drive a struck target away.",
+        "Mobility · knockback"
+      ],
+      [
+        "Pressure guard",
+        "Wrap a defensive movement in opposing wind to contest contact and deflect loose debris.",
+        "Defence · displacement · debris control"
+      ]
+    ],
+    "skills": [
+      [
+        "Guillotine Gale",
+        "Deathwind",
+        "A powerful cutting gust falls across the engagement, slicing into cover and tearing through vehicle bodywork.",
+        "Ranged cutting attack · structural damage"
+      ],
+      [
+        "Cyclone Vault",
+        "Deathwind",
+        "A rising gust throws Valentina into an extraordinary leap before she returns with a wind-driven acrobatic kick.",
+        "Aerial movement · empowered kick"
+      ],
+      [
+        "Pressure Coffin",
+        "Deathwind",
+        "Converging gusts compress the space around the opponent, contesting movement and crushing fragile cover caught between them.",
+        "Zone pressure · restraint contest · cover damage"
+      ],
+      [
+        "Horizon Sever",
+        "Deathwind",
+        "A sweeping attack sends a long, compressed wind crescent through the arena and splits obstacles along its line.",
+        "Long line attack · barrier cutting"
+      ],
+      [
+        "Gale Reversal",
+        "Deathwind",
+        "She drives a counter-gust into incoming physical force, diverting the collision and returning an attack along the new opening.",
+        "Wind counter · trajectory change"
+      ],
+      [
+        "Seventh Squall",
+        "Deathwind",
+        "A finite succession of violent gusts strikes from changing directions, scattering wreckage and forcing repeated defensive adjustments.",
+        "Multi-angle area pressure · wreckage movement"
+      ]
+    ],
+    "form_note": "Deathwind controls actual wind and pressure. Its destructive name does not create automatic death or a separate soul power.",
+    "stats": {
+      "power": 74,
+      "refinement": 91,
+      "martial": 89,
+      "iq": 89
+    }
+  },
+  {
+    "id": "emily",
+    "name": "Emily Fields",
+    "trait": "Critical Hit",
+    "kind": "trait",
+    "identity": "Created weak points let her awakened strikes produce extraordinary breaks; pain suppression supports commitment without preventing injury.",
+    "amplifications": [
+      [
+        "Weak-point creation",
+        "Use the move to establish a vulnerable point on an opponent or breakable arena object.",
+        "Vulnerability setup · precision"
+      ],
+      [
+        "Critical exploitation",
+        "Direct the move into an established weak point for amplified damage and structural failure.",
+        "Critical damage · terrain break"
+      ],
+      [
+        "Pain suppression",
+        "Suppress pain interference during the action while retaining all resolved health loss.",
+        "Action stability · interruption resistance"
+      ]
+    ],
+    "skills": [
+      [
+        "Fracture Point",
+        "Critical Hit",
+        "Emily creates a vulnerable point on the chosen target, setting up a future impact capable of breaking far stronger material than the initial touch.",
+        "Weak-point mark · follow-up setup"
+      ],
+      [
+        "Shatter Touch",
+        "Critical Hit",
+        "A precise awakened strike exploits a weak point and breaks a wall, barrier or vehicle panel around the contact.",
+        "Marked-target impact · structural destruction"
+      ],
+      [
+        "Faultline Rush",
+        "Critical Hit",
+        "Emily bursts towards the target at awakened speed and drives a strike through a newly exposed weakness in its defence.",
+        "Rapid entry · critical pressure"
+      ],
+      [
+        "Painless Advance",
+        "Critical Hit",
+        "She suppresses pain long enough to continue a committed offensive movement through a damaging exchange.",
+        "Commitment · pain suppression · damage still applies"
+      ],
+      [
+        "Chain Fracture",
+        "Critical Hit",
+        "Successive contacts establish and exploit a short sequence of weak points, turning a compact combination into a destructive cascade.",
+        "Mark-and-exploit combo · escalating damage"
+      ],
+      [
+        "Critical Verdict",
+        "Critical Hit",
+        "Emily concentrates an attack into an established weak point, consuming the opening in one heavy impact that can collapse the surrounding cover.",
+        "Weak-point finisher · high structural damage"
+      ]
+    ],
+    "form_note": "This follows the game's existing peak-combat version of Emily, where Critical Hit is available. Pain immunity never removes damage or knockout.",
+    "stats": {
+      "power": 64,
+      "refinement": 86,
+      "martial": 75,
+      "iq": 85
+    }
+  },
+  {
+    "id": "alyssa",
+    "name": "Alyssa",
+    "trait": "Umbrakinesis",
+    "kind": "trait",
+    "identity": "Shaped shadows become substantial striking forms, screens and restraints. Her shadow attacks are fully superhuman without inheriting Sylvanis's other powers.",
+    "amplifications": [
+      [
+        "Shadow reinforcement",
+        "Shape shadow around the regular move to increase force, contact size and pressure against cover.",
+        "Impact · reach · structural damage"
+      ],
+      [
+        "Shadow veil",
+        "Use shifting shadow to conceal the move's line and direction.",
+        "Concealment · deceptive timing"
+      ],
+      [
+        "Shadow tether",
+        "Extend a move with a shaped shadow strand that contests a target's position.",
+        "Control · reach · displacement"
+      ]
+    ],
+    "skills": [
+      [
+        "Dusk Hammer",
+        "Umbrakinesis",
+        "A shaped shadow mass follows Alyssa's strike and smashes into the target with enough force to break concrete cover.",
+        "Heavy construct impact · terrain damage"
+      ],
+      [
+        "Black-Ribbon Bind",
+        "Umbrakinesis",
+        "Long ribbons of shadow wrap around the outside of a target or object, contesting movement and pulling against its position.",
+        "External restraint · displacement"
+      ],
+      [
+        "Shade Mantle",
+        "Umbrakinesis",
+        "A layered shield of shadow meets an incoming attack, breaking or holding according to the force of the clash.",
+        "Shadow barrier · impact contest"
+      ],
+      [
+        "Twilight Step",
+        "Umbrakinesis",
+        "Shadow conceals a burst of awakened movement as Alyssa changes angle and returns with a reinforced strike.",
+        "Concealed movement · counter entry"
+      ],
+      [
+        "Midnight Sweep",
+        "Umbrakinesis",
+        "A broad shadow sweep travels through the lower engagement, disrupting footing and throwing loose obstacles aside.",
+        "Wide control · balance attack · debris displacement"
+      ],
+      [
+        "Falling Shade",
+        "Umbrakinesis",
+        "A heavy shadow form descends onto a chosen patch of the arena, crushing cover beneath a forceful overhead impact.",
+        "Overhead attack · local destruction"
+      ]
+    ],
+    "form_note": "Alyssa keeps shadow manipulation and her own heightened physical abilities. True Sight, Polymath and Sylvanis's second-stage special shadow properties remain his abilities.",
+    "stats": {
+      "power": 66,
+      "refinement": 83,
+      "martial": 78,
+      "iq": 83
+    }
+  },
+  {
+    "id": "fox",
+    "name": "Edward Fox",
+    "trait": "Eight Senses",
+    "kind": "trait",
+    "identity": "Superhuman sensory processing tracks combat through darkness, sound, vibration and air movement, guiding forceful awakened CQC.",
+    "amplifications": [
+      [
+        "Sensory lock",
+        "Track physical cues during the move to improve accuracy against concealed or rapidly moving targets.",
+        "Tracking · accuracy · concealment resistance"
+      ],
+      [
+        "Threat read",
+        "Use approaching physical cues to sharpen the selected defence or counter.",
+        "Reaction timing · evasive precision"
+      ],
+      [
+        "Contact resonance",
+        "Read vibrations through contact to focus a strike on an object's structural weakness.",
+        "Contact precision · terrain damage"
+      ]
+    ],
+    "skills": [
+      [
+        "Blindside Verdict",
+        "Eight Senses",
+        "Fox tracks an attacker outside ordinary sight through physical cues and returns a sharply timed awakened strike.",
+        "Concealment counter · precise impact"
+      ],
+      [
+        "Pulse Hunter",
+        "Eight Senses",
+        "He follows movement, heartbeat and displacement through visual obstruction, advancing at superhuman speed along the detected line.",
+        "Physical tracking · rapid pursuit"
+      ],
+      [
+        "Zero-Noise Rush",
+        "Eight Senses / learned CQC",
+        "Fox chooses a low-noise route through the arena and closes in a sudden burst, using sensory feedback to time a forceful entry.",
+        "Stealthy approach · burst movement"
+      ],
+      [
+        "Shockline Read",
+        "Eight Senses",
+        "Surface vibration and air displacement reveal an incoming attack's approach, letting Fox change line and launch a returning strike.",
+        "Threat detection · reactive counter"
+      ],
+      [
+        "Eightfold Intercept",
+        "Eight Senses",
+        "Multiple streams of sensory information converge on a fast-moving target as he launches a precise interception through the exchange.",
+        "Tracking · initiative contest"
+      ],
+      [
+        "Blackhaven Breaker",
+        "Eight Senses",
+        "Fox reads a contacted barrier's vibration and drives an awakened strike into its weak structure, bursting a route through the masonry.",
+        "Contact analysis · wall breach"
+      ]
+    ],
+    "form_note": "Eight Senses supplies physical information, not mind-reading. Fox's awakened body provides the speed and destructive force of the resulting action.",
+    "stats": {
+      "power": 80,
+      "refinement": 97,
+      "martial": 97,
+      "iq": 97
+    }
+  },
+  {
+    "id": "gordon",
+    "name": "Jeremy Gordon",
+    "trait": "Biocreation",
+    "kind": "trait",
+    "identity": "Grown biological weapons and adaptive components provide real, finite firepower capable of destroying vehicles and breaching concrete.",
+    "amplifications": [
+      [
+        "Biological reinforcement",
+        "Grow a supporting component around the selected regular move for stronger contact and guard pressure.",
+        "Physical reinforcement · impact"
+      ],
+      [
+        "Weapon integration",
+        "Integrate a grown handgun or rifle component into the action's follow-through.",
+        "Ranged follow-up · finite mana cost"
+      ],
+      [
+        "Adaptive bracing",
+        "Grow a protective or stabilising component around the chosen defensive movement.",
+        "Mitigation · stability · recoil management"
+      ]
+    ],
+    "skills": [
+      [
+        "Living Cannon",
+        "Biocreation",
+        "A heavy biological firing construct releases a concentrated round that punches through concrete or tears into a vehicle's structure.",
+        "Heavy ranged impact · breach"
+      ],
+      [
+        "Hydra Burst",
+        "Biocreation",
+        "Several grown firing channels deliver a finite burst across different angles, hammering the guard and exposed cover.",
+        "Multi-angle fire · high mana expenditure"
+      ],
+      [
+        "Adaptive Breach",
+        "Biocreation",
+        "Gordon forms a specialised high-impact component and fires a shot shaped to break the selected obstacle.",
+        "Obstacle-focused shot · structural damage"
+      ],
+      [
+        "Bone Bulwark",
+        "Biocreation",
+        "Adaptive biological components grow into a breakable shield around his defensive line, taking the brunt of an incoming collision.",
+        "Grown barrier · durability contest"
+      ],
+      [
+        "Regrowth Reload",
+        "Biocreation",
+        "He replaces damaged or spent firing components and brings a fresh biological weapon into action during a controlled reset.",
+        "Weapon restoration · mana expenditure"
+      ],
+      [
+        "Siege Lance",
+        "Biocreation",
+        "A rifle-like growth concentrates its output into a powerful linear shot that breaches a barrier and threatens the space immediately beyond.",
+        "Line attack · cover penetration"
+      ]
+    ],
+    "form_note": "The added component expressions are proposed extensions of his established biological weapons. They cost mana and do not add external ammunition or general body-healing powers.",
+    "stats": {
+      "power": 85,
+      "refinement": 97,
+      "martial": 95,
+      "iq": 98
+    }
+  },
+  {
+    "id": "neo",
+    "name": "Neo Ishida",
+    "trait": "No established Trait",
+    "kind": "awakened",
+    "identity": "Awakened physical ability, elite reactions and peak combat processing. These are proposed signature actions, separate from Trait amplification and Trait unique skills.",
+    "amplifications": [],
+    "skills": [
+      [
+        "Shinigami Vector",
+        "Awakened physical signature",
+        "Neo crosses the engagement faster than ordinary perception and delivers a precise CQC strike along the new line.",
+        "Extreme-speed entry · precision"
+      ],
+      [
+        "Breakpoint Drive",
+        "Awakened physical signature",
+        "A fully committed close strike drives his awakened strength through the target's cover, breaking concrete at the collision.",
+        "Physical breach · heavy impact"
+      ],
+      [
+        "Adaptive Intercept",
+        "Combat-processing signature",
+        "His accelerated processing tracks a changing attack and selects a learned CQC response during the exchange.",
+        "Reaction · learned-technique counter"
+      ]
+    ],
+    "form_note": "No Nanoengine, Polymath or new Trait is assigned. Martial tier requirements continue to apply to ordinary learned martial moves.",
+    "stats": {
+      "power": 93,
+      "refinement": 0,
+      "martial": 98,
+      "iq": 97
+    }
+  },
+  {
+    "id": "daniel",
+    "name": "Daniel Stevens",
+    "trait": "No established Trait",
+    "kind": "awakened",
+    "identity": "Developed awakened strength and instinctive battle aptitude. His signature actions remain physical rather than fabricated elemental powers.",
+    "amplifications": [],
+    "skills": [
+      [
+        "Perfect Transition",
+        "Awakened physical signature",
+        "Daniel shifts from learned striking into a takedown in a blurring sequence, driving the resulting collision through nearby cover.",
+        "Striking-to-grappling transition · collision"
+      ],
+      [
+        "Concrete Driver",
+        "Awakened physical signature",
+        "He commits his awakened strength to a heavy close strike or throw that shatters the impact surface.",
+        "Heavy contact · terrain destruction"
+      ],
+      [
+        "Instinctive Reversal",
+        "Combat-aptitude signature",
+        "Daniel reads the physical pressure of a contested exchange and reverses it into a fast, forceful counter.",
+        "Reactive reversal · forceful return"
+      ]
+    ],
+    "form_note": "These are separately labelled signature-action suggestions. Trait amplification and the custom Trait workshop stay unavailable until an actual Trait is established.",
+    "stats": {
+      "power": 87,
+      "refinement": 0,
+      "martial": 97,
+      "iq": 94
+    }
+  },
+  {
+    "id": "april",
+    "name": "April Xu",
+    "trait": "No established Trait",
+    "kind": "awakened",
+    "identity": "Superhuman cognition is her distinction. These signature suggestions express accelerated analysis without silently giving her another character's named Trait or martial mastery.",
+    "amplifications": [],
+    "skills": [
+      [
+        "Accelerated Calculation",
+        "Awakened cognition signature",
+        "April processes the observed exchange at extraordinary speed and chooses a defensive line from the information available.",
+        "Decision timing · defensive precision"
+      ],
+      [
+        "Pattern Map",
+        "Awakened cognition signature",
+        "Repeated movements become a rapid internal map of likely attack routes and recoveries, helping her contest the next exchange.",
+        "Observed-pattern advantage"
+      ],
+      [
+        "Predictive Escape",
+        "Awakened cognition signature",
+        "She identifies a developing gap and uses her existing awakened movement to reach it before the pressure closes.",
+        "Planned reposition · escape contest"
+      ]
+    ],
+    "form_note": "Her existing lower martial rating still affects execution. No stat is a lock on her established cognition; no rare Trait or automatic superhuman fighting expertise is invented.",
+    "stats": {
+      "power": 35,
+      "refinement": 0,
+      "martial": 38,
+      "iq": 99
+    }
+  },
+  {
+    "id": "thirteen",
+    "name": "Number Thirteen",
+    "trait": "No established Trait",
+    "kind": "awakened",
+    "identity": "Shinigami conditioning and specialised martial training support superhuman physical suppression and interception.",
+    "amplifications": [],
+    "skills": [
+      [
+        "Suppression Rush",
+        "Awakened physical signature",
+        "Thirteen crosses the gap in a blur and delivers a tightly linked physical sequence that pressures the opponent into breaking cover.",
+        "Fast pressure · physical destruction"
+      ],
+      [
+        "Iron Reversal",
+        "Conditioned-combat signature",
+        "A braced interception turns a heavy collision into a powerful returning strike or takedown.",
+        "Collision counter · physical control"
+      ],
+      [
+        "Vanishing Entry",
+        "Awakened physical signature",
+        "An abrupt burst of speed carries Thirteen across an expected attack line and into close striking range.",
+        "Extreme-speed approach · angle change"
+      ]
+    ],
+    "form_note": "Physical suppression disrupts actions and positioning. It does not grant automatic cancellation of Traits or mana.",
+    "stats": {
+      "power": 83,
+      "refinement": 0,
+      "martial": 95,
+      "iq": 90
+    }
+  },
+  {
+    "id": "Keisuke Hachimura",
+    "name": "Keisuke Hachimura",
+    "trait": "No established Trait",
+    "kind": "awakened",
+    "identity": "Awakened physical power supports his Kyokushin and Japanese Jujutsu. No elemental or rare Trait is added.",
+    "amplifications": [],
+    "skills": [
+      [
+        "Crushing Body Blow",
+        "Awakened physical signature",
+        "A conditioned close strike delivers enough awakened force to smash concrete when the opponent is driven into it.",
+        "Close damage · collision destruction"
+      ],
+      [
+        "Groundsplitter Throw",
+        "Awakened physical signature",
+        "A secure throwing entry turns exceptional strength into a landing that cracks the ground beneath the impact.",
+        "Powerful throw · ground damage"
+      ],
+      [
+        "Relentless Storm",
+        "Awakened physical signature",
+        "Keisuke maintains a rapid sequence of learned body strikes, kicks and control transitions, forcing repeated defensive responses.",
+        "Mixed physical pressure · sustained sequence"
+      ]
+    ],
+    "form_note": "These physical signature suggestions remain separate from Trait systems. His learned martial catalogue still follows the agreed martial training rules.",
+    "stats": {
+      "power": 72,
+      "refinement": 0,
+      "martial": 91,
+      "iq": 87
+    }
+  },
+  {
+    "id": "yuriko",
+    "name": "Yuriko Takamura",
+    "trait": "Unawakened; no established Trait",
+    "kind": "dormant",
+    "identity": "No current Trait amplification or Trait unique skills. Ordinary martial training and universal defensive actions remain available.",
+    "amplifications": [],
+    "skills": [],
+    "form_note": "Awakening alone does not automatically invent a rare Trait. A future authored Trait would need its own reviewed amplification options and unique skills.",
+    "stats": null
+  },
+  {
+    "id": "sophie",
+    "name": "Sophie Parker",
+    "trait": "Unawakened; no established Trait",
+    "kind": "dormant",
+    "identity": "No current Trait amplification or Trait unique skills. Ordinary martial training and universal defensive actions remain available.",
+    "amplifications": [],
+    "skills": [],
+    "form_note": "Awakening alone does not automatically invent a rare Trait. A future authored Trait would need its own reviewed amplification options and unique skills.",
+    "stats": null
+  },
+  {
+    "id": "amy",
+    "name": "Amy Hansen",
+    "trait": "Unawakened; no established Trait",
+    "kind": "dormant",
+    "identity": "No current Trait amplification or Trait unique skills. Ordinary martial training and universal defensive actions remain available.",
+    "amplifications": [],
+    "skills": [],
+    "form_note": "Awakening alone does not automatically invent a rare Trait. A future authored Trait would need its own reviewed amplification options and unique skills.",
+    "stats": null
+  },
+  {
+    "id": "lena",
+    "name": "Lena Ortiz",
+    "trait": "Unawakened; no established Trait",
+    "kind": "dormant",
+    "identity": "No current Trait amplification or Trait unique skills. Ordinary martial training and universal defensive actions remain available.",
+    "amplifications": [],
+    "skills": [],
+    "form_note": "Awakening alone does not automatically invent a rare Trait. A future authored Trait would need its own reviewed amplification options and unique skills.",
+    "stats": null
+  },
+  {
+    "id": "naomi",
+    "name": "Naomi Sato",
+    "trait": "Unawakened; no established Trait",
+    "kind": "dormant",
+    "identity": "No current Trait amplification or Trait unique skills. Ordinary martial training and universal defensive actions remain available.",
+    "amplifications": [],
+    "skills": [],
+    "form_note": "Awakening alone does not automatically invent a rare Trait. A future authored Trait would need its own reviewed amplification options and unique skills.",
+    "stats": null
+  },
+  {
+    "id": "celeste",
+    "name": "Celeste Moreau",
+    "trait": "Unawakened; no established Trait",
+    "kind": "dormant",
+    "identity": "No current Trait amplification or Trait unique skills. Ordinary martial training and universal defensive actions remain available.",
+    "amplifications": [],
+    "skills": [],
+    "form_note": "Awakening alone does not automatically invent a rare Trait. A future authored Trait would need its own reviewed amplification options and unique skills.",
+    "stats": null
+  },
+  {
+    "id": "dev",
+    "name": "Dev Shah",
+    "trait": "Unawakened; no established Trait",
+    "kind": "dormant",
+    "identity": "No current Trait amplification or Trait unique skills. Ordinary martial training and universal defensive actions remain available.",
+    "amplifications": [],
+    "skills": [],
+    "form_note": "Awakening alone does not automatically invent a rare Trait. A future authored Trait would need its own reviewed amplification options and unique skills.",
+    "stats": null
+  },
+  {
+    "id": "rosa",
+    "name": "Rosa Bennett",
+    "trait": "Unawakened; no established Trait",
+    "kind": "dormant",
+    "identity": "No current Trait amplification or Trait unique skills. Ordinary martial training and universal defensive actions remain available.",
+    "amplifications": [],
+    "skills": [],
+    "form_note": "Awakening alone does not automatically invent a rare Trait. A future authored Trait would need its own reviewed amplification options and unique skills.",
+    "stats": null
+  },
+  {
+    "id": "elliot",
+    "name": "Elliot Brooks",
+    "trait": "Unawakened; no established Trait",
+    "kind": "dormant",
+    "identity": "No current Trait amplification or Trait unique skills. Ordinary martial training and universal defensive actions remain available.",
+    "amplifications": [],
+    "skills": [],
+    "form_note": "Awakening alone does not automatically invent a rare Trait. A future authored Trait would need its own reviewed amplification options and unique skills.",
+    "stats": null
+  }
+]

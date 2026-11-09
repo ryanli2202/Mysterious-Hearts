@@ -1,0 +1,8 @@
+{
+  "name": "mysterious-hearts-desktop",
+  "private": true,
+  "type": "module",
+  "scripts": {"build:signin": "tsc -p vendor/sign-in-with-chatgpt-devkit/packages/local/tsconfig.json"},
+  "dependencies": {"jose": "^6.1.0", "openai": "^7.21.0", "proper-lockfile": "^4.1.2"},
+  "devDependencies": {"@types/node": "^24.0.0", "@types/proper-lockfile": "^4.1.4", "typescript": "^7.0.2"}
+}

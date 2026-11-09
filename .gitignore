@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.test-tmp/
+saves/
+custom_characters/
+tests/screenshots/
+node_modules/
+.chatgpt/
+ai_settings.json
+.lu-token
+.lu-token.tmp
+
+phone_preferences.json
+phone_preferences.tmp
+patch_notes_preferences.json
+patch_notes_preferences.json.*.tmp
+patch_notes/exports/

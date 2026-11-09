@@ -1,0 +1,7 @@
+Official Sign in with ChatGPT DevKit
+Source: https://github.com/openai/sign-in-with-chatgpt-devkit
+Revision: 0a36fefeb913055c8c7a1a29b63d82b96b2e841a
+SDK source is unmodified; compiled locally with TypeScript.
+License: vendor/sign-in-with-chatgpt-devkit/LICENSE
+Third-party notices: vendor/sign-in-with-chatgpt-devkit/THIRD_PARTY_NOTICES.md
+This integration is for the user's personal local project under the SDK's noncommercial license.

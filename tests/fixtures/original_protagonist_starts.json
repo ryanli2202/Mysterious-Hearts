@@ -1,0 +1,1277 @@
+{
+  "garrett": {
+    "player": "garrett",
+    "active": "emily",
+    "turn": 0,
+    "relationships": {
+      "amy": {
+        "attraction": 24,
+        "closeness": 5,
+        "known_betrayals": [],
+        "status": "interview contact",
+        "trust": 35
+      },
+      "april": {
+        "attraction": 8,
+        "closeness": 75,
+        "known_betrayals": [],
+        "status": "childhood friends",
+        "trust": 85
+      },
+      "celeste": {
+        "attraction": 15,
+        "closeness": 0,
+        "known_betrayals": [],
+        "status": "strangers",
+        "trust": 35
+      },
+      "emily": {
+        "attraction": 8,
+        "closeness": 30,
+        "known_betrayals": [],
+        "status": "friends",
+        "trust": 60
+      },
+      "lena": {
+        "attraction": 17,
+        "closeness": 0,
+        "known_betrayals": [],
+        "status": "strangers",
+        "trust": 35
+      },
+      "naomi": {
+        "attraction": 0,
+        "closeness": 0,
+        "known_betrayals": [],
+        "status": "strangers",
+        "trust": 35
+      },
+      "samantha": {
+        "attraction": 38,
+        "closeness": 8,
+        "known_betrayals": [],
+        "status": "new acquaintance",
+        "trust": 38
+      },
+      "sophie": {
+        "attraction": 22,
+        "closeness": 35,
+        "known_betrayals": [],
+        "status": "party friends",
+        "trust": 55
+      },
+      "valentina": {
+        "attraction": 18,
+        "closeness": 0,
+        "known_betrayals": [],
+        "status": "strangers",
+        "trust": 35
+      },
+      "yuriko": {
+        "attraction": 8,
+        "closeness": 10,
+        "known_betrayals": [],
+        "status": "acquaintances",
+        "trust": 45
+      }
+    },
+    "friendships": {
+      "alyssa": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "camila": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "charles": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "crow": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "daniel": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "dev": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "elias": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "elliot": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "garrett": {
+        "closeness": 90,
+        "status": "best friends",
+        "trust": 95
+      },
+      "ivan": {
+        "attraction": 0,
+        "closeness": 18,
+        "status": "acquaintances",
+        "trust": 45
+      },
+      "martos": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "mavis": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "minsu": {
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "neo": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "rei": {
+        "closeness": 90,
+        "status": "best friends",
+        "trust": 95
+      },
+      "rosa": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "sylvanis": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 5
+      },
+      "takeo": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "thirteen": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "tyler": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      }
+    },
+    "discoveries": {
+      "alyssa": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "camila": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "celeste": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "charles": {
+        "contact": false,
+        "home": false,
+        "met": false,
+        "online": false
+      },
+      "crow": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "daniel": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "dev": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "elias": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "elliot": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "lena": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "martos": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "mavis": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "naomi": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "neo": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "rosa": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "sylvanis": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "takeo": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "thirteen": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "tyler": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "valentina": {
+        "contact": false,
+        "home": false,
+        "met": false
+      }
+    },
+    "world": {
+      "location": "square",
+      "money": 100000,
+      "minute": 480,
+      "inventory": {},
+      "job": null
+    }
+  },
+  "ivan": {
+    "player": "ivan",
+    "active": "valentina",
+    "turn": 0,
+    "relationships": {
+      "amy": {
+        "attraction": 0,
+        "closeness": 0,
+        "known_betrayals": [],
+        "status": "strangers",
+        "trust": 35
+      },
+      "april": {
+        "attraction": 0,
+        "closeness": 0,
+        "known_betrayals": [],
+        "status": "strangers",
+        "trust": 35
+      },
+      "celeste": {
+        "attraction": 0,
+        "closeness": 0,
+        "known_betrayals": [],
+        "status": "strangers",
+        "trust": 35
+      },
+      "emily": {
+        "attraction": 0,
+        "closeness": 0,
+        "known_betrayals": [],
+        "status": "strangers",
+        "trust": 35
+      },
+      "lena": {
+        "attraction": 0,
+        "closeness": 0,
+        "known_betrayals": [],
+        "status": "strangers",
+        "trust": 35
+      },
+      "naomi": {
+        "attraction": 0,
+        "closeness": 0,
+        "known_betrayals": [],
+        "status": "strangers",
+        "trust": 35
+      },
+      "samantha": {
+        "attraction": 0,
+        "closeness": 0,
+        "known_betrayals": [],
+        "status": "strangers",
+        "trust": 35
+      },
+      "sophie": {
+        "attraction": 0,
+        "closeness": 0,
+        "known_betrayals": [],
+        "status": "strangers",
+        "trust": 35
+      },
+      "yuriko": {
+        "attraction": 0,
+        "closeness": 0,
+        "known_betrayals": [],
+        "status": "strangers",
+        "trust": 35
+      }
+    },
+    "friendships": {
+      "alyssa": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "camila": {
+        "attraction": 0,
+        "closeness": 12,
+        "status": "acquaintances",
+        "trust": 45
+      },
+      "charles": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "crow": {
+        "attraction": 0,
+        "closeness": 12,
+        "status": "acquaintances",
+        "trust": 45
+      },
+      "daniel": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "dev": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "elias": {
+        "attraction": 0,
+        "closeness": 12,
+        "status": "acquaintances",
+        "trust": 45
+      },
+      "elliot": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "garrett": {
+        "attraction": 0,
+        "closeness": 18,
+        "status": "acquaintances",
+        "trust": 45
+      },
+      "ivan": {
+        "attraction": 0,
+        "closeness": 18,
+        "status": "acquaintances",
+        "trust": 45
+      },
+      "martos": {
+        "attraction": 0,
+        "closeness": 12,
+        "status": "acquaintances",
+        "trust": 45
+      },
+      "mavis": {
+        "attraction": 0,
+        "closeness": 12,
+        "status": "acquaintances",
+        "trust": 45
+      },
+      "minsu": {
+        "attraction": 0,
+        "closeness": 18,
+        "status": "acquaintances",
+        "trust": 45
+      },
+      "neo": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "rei": {
+        "attraction": 0,
+        "closeness": 18,
+        "status": "acquaintances",
+        "trust": 45
+      },
+      "rosa": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "sylvanis": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "hostile coworkers",
+        "trust": 5
+      },
+      "takeo": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "thirteen": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "tyler": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "valentina": {
+        "attraction": 0,
+        "closeness": 95,
+        "status": "close siblings",
+        "trust": 98
+      }
+    },
+    "discoveries": {
+      "alyssa": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "amy": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "april": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "camila": {
+        "contact": true,
+        "home": false,
+        "met": true
+      },
+      "celeste": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "charles": {
+        "contact": false,
+        "home": false,
+        "met": false,
+        "online": false
+      },
+      "crow": {
+        "contact": true,
+        "home": false,
+        "met": true
+      },
+      "daniel": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "dev": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "elias": {
+        "contact": true,
+        "home": false,
+        "met": true
+      },
+      "elliot": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "emily": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "garrett": {
+        "contact": true,
+        "home": false,
+        "met": true
+      },
+      "ivan": {
+        "contact": true,
+        "home": false,
+        "met": true
+      },
+      "lena": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "martos": {
+        "contact": true,
+        "home": false,
+        "met": true
+      },
+      "mavis": {
+        "contact": true,
+        "home": false,
+        "met": true
+      },
+      "minsu": {
+        "contact": true,
+        "home": false,
+        "met": true
+      },
+      "naomi": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "neo": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "rei": {
+        "contact": true,
+        "home": false,
+        "met": true
+      },
+      "rosa": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "samantha": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "sophie": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "sylvanis": {
+        "contact": true,
+        "home": false,
+        "met": true
+      },
+      "takeo": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "thirteen": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "tyler": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "valentina": {
+        "contact": true,
+        "home": true,
+        "met": true
+      },
+      "yuriko": {
+        "contact": false,
+        "home": false,
+        "met": false
+      }
+    },
+    "world": {
+      "location": "square",
+      "money": 100000,
+      "minute": 480,
+      "inventory": {},
+      "job": null
+    }
+  },
+  "minsu": {
+    "player": "minsu",
+    "active": "emily",
+    "turn": 0,
+    "relationships": {
+      "amy": {
+        "attraction": 0,
+        "closeness": 75,
+        "known_betrayals": [],
+        "status": "close friends and dorm neighbours",
+        "trust": 85
+      },
+      "april": {
+        "attraction": 0,
+        "closeness": 0,
+        "known_betrayals": [],
+        "status": "strangers",
+        "trust": 35
+      },
+      "celeste": {
+        "attraction": 39,
+        "closeness": 0,
+        "known_betrayals": [],
+        "status": "strangers",
+        "trust": 35
+      },
+      "emily": {
+        "attraction": 0,
+        "closeness": 0,
+        "known_betrayals": [],
+        "status": "strangers",
+        "trust": 35
+      },
+      "lena": {
+        "attraction": 17,
+        "closeness": 0,
+        "known_betrayals": [],
+        "status": "strangers",
+        "trust": 35
+      },
+      "naomi": {
+        "attraction": 0,
+        "closeness": 0,
+        "known_betrayals": [],
+        "status": "strangers",
+        "trust": 35
+      },
+      "samantha": {
+        "attraction": 0,
+        "closeness": 0,
+        "known_betrayals": [],
+        "status": "strangers",
+        "trust": 35
+      },
+      "sophie": {
+        "attraction": 0,
+        "closeness": 75,
+        "known_betrayals": [],
+        "status": "close sports-club friends",
+        "trust": 85
+      },
+      "valentina": {
+        "attraction": 11,
+        "closeness": 0,
+        "known_betrayals": [],
+        "status": "strangers",
+        "trust": 35
+      },
+      "yuriko": {
+        "attraction": 8,
+        "closeness": 10,
+        "known_betrayals": [],
+        "status": "acquaintances",
+        "trust": 45
+      }
+    },
+    "friendships": {
+      "alyssa": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "camila": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "charles": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "crow": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "daniel": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "dev": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "elias": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "elliot": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "garrett": {
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "ivan": {
+        "attraction": 0,
+        "closeness": 18,
+        "status": "acquaintances",
+        "trust": 45
+      },
+      "martos": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "mavis": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "minsu": {
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "neo": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "rei": {
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "rosa": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "sylvanis": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 5
+      },
+      "takeo": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "thirteen": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "tyler": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      }
+    },
+    "discoveries": {
+      "alyssa": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "camila": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "celeste": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "charles": {
+        "contact": false,
+        "home": false,
+        "met": false,
+        "online": false
+      },
+      "crow": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "daniel": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "dev": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "elias": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "elliot": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "lena": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "martos": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "mavis": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "naomi": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "neo": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "rosa": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "sylvanis": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "takeo": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "thirteen": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "tyler": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "valentina": {
+        "contact": false,
+        "home": false,
+        "met": false
+      }
+    },
+    "world": {
+      "location": "square",
+      "money": 100000,
+      "minute": 480,
+      "inventory": {},
+      "job": null
+    }
+  },
+  "rei": {
+    "player": "rei",
+    "active": "emily",
+    "turn": 0,
+    "relationships": {
+      "amy": {
+        "attraction": 28,
+        "closeness": 7,
+        "known_betrayals": [],
+        "status": "interview contact",
+        "trust": 42
+      },
+      "april": {
+        "attraction": 6,
+        "closeness": 10,
+        "known_betrayals": [],
+        "status": "new acquaintance",
+        "trust": 40
+      },
+      "celeste": {
+        "attraction": 45,
+        "closeness": 0,
+        "known_betrayals": [],
+        "status": "strangers",
+        "trust": 35
+      },
+      "emily": {
+        "attraction": 58,
+        "closeness": 88,
+        "known_betrayals": [],
+        "status": "close friends",
+        "trust": 92
+      },
+      "lena": {
+        "attraction": 26,
+        "closeness": 0,
+        "known_betrayals": [],
+        "status": "strangers",
+        "trust": 35
+      },
+      "naomi": {
+        "attraction": 0,
+        "closeness": 0,
+        "known_betrayals": [],
+        "status": "strangers",
+        "trust": 35
+      },
+      "samantha": {
+        "attraction": 42,
+        "closeness": 45,
+        "known_betrayals": [],
+        "status": "fellow fighters",
+        "trust": 68
+      },
+      "sophie": {
+        "attraction": 32,
+        "closeness": 60,
+        "known_betrayals": [],
+        "status": "high school friends",
+        "trust": 72
+      },
+      "valentina": {
+        "attraction": 11,
+        "closeness": 0,
+        "known_betrayals": [],
+        "status": "strangers",
+        "trust": 35
+      }
+    },
+    "friendships": {
+      "alyssa": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "camila": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "charles": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "crow": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "daniel": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "dev": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "elias": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "elliot": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "garrett": {
+        "closeness": 90,
+        "status": "best friends",
+        "trust": 95
+      },
+      "ivan": {
+        "attraction": 0,
+        "closeness": 18,
+        "status": "acquaintances",
+        "trust": 45
+      },
+      "martos": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "mavis": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "minsu": {
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "neo": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "rei": {
+        "closeness": 90,
+        "status": "best friends",
+        "trust": 95
+      },
+      "rosa": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "sylvanis": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 5
+      },
+      "takeo": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "thirteen": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "tyler": {
+        "attraction": 0,
+        "closeness": 0,
+        "status": "strangers",
+        "trust": 35
+      },
+      "yuriko": {
+        "attraction": 0,
+        "closeness": 95,
+        "status": "close siblings",
+        "trust": 98
+      }
+    },
+    "discoveries": {
+      "alyssa": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "camila": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "celeste": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "charles": {
+        "contact": false,
+        "home": false,
+        "met": false,
+        "online": false
+      },
+      "crow": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "daniel": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "dev": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "elias": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "elliot": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "lena": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "martos": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "mavis": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "naomi": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "neo": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "rosa": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "sylvanis": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "takeo": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "thirteen": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "tyler": {
+        "contact": false,
+        "home": false,
+        "met": false
+      },
+      "valentina": {
+        "contact": false,
+        "home": false,
+        "met": false
+      }
+    },
+    "world": {
+      "location": "square",
+      "money": 100000,
+      "minute": 480,
+      "inventory": {},
+      "job": null
+    }
+  }
+}
