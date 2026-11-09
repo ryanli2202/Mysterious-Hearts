@@ -1,0 +1,39 @@
+[
+  {
+    "id": "fe7184c91ef74f84ac50f300e44f8121",
+    "album": "1575f3e6cf5e45e8a65a5e26e63400a0",
+    "player": "rei",
+    "minute": 840,
+    "date": "2050-01-01",
+    "created": 1793932335.1464646,
+    "path": "assets/generated/fe7184c91ef74f84ac50f300e44f8121/image.png",
+    "mode": "Selfie",
+    "location": "Winterfield town square",
+    "snapshot": {
+      "player": "rei",
+      "minute": 840,
+      "location": "square",
+      "location_name": "Winterfield town square",
+      "at_home": false,
+      "interior": "",
+      "companions": [],
+      "romance": [],
+      "activity": "",
+      "weather": "Partly cloudy · 2°C · Day · Wind 12 km/h",
+      "mode": "Selfie",
+      "detail": "",
+      "subjects": [
+        {
+          "id": "rei",
+          "name": "Rei Takamura",
+          "expression": "Thoughtful",
+          "pose": "Relaxed",
+          "outfit": "Black suit",
+          "reference": 1,
+          "reference_role": "Identity, exact clothing and illustration style"
+        }
+      ],
+      "group_pose": ""
+    }
+  }
+]

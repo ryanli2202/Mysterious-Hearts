@@ -1,0 +1,726 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-11-08",
+  "items": [
+    {
+      "restaurant": "Garrett's Noodles",
+      "ident": "entrees-0",
+      "name": "Pork dumplings",
+      "category": "Entrees",
+      "price": 8,
+      "image": "assets/doober/restaurant-0-entrees-0.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Pork dumplings for Garrett's Noodles. Korean manhwa food art, delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. A believable serving of pork dumplings on dark ceramic, dark slate tabletop, close three-quarter view, entire serving visible. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Garrett's Noodles",
+      "ident": "entrees-1",
+      "name": "Vegetable spring rolls",
+      "category": "Entrees",
+      "price": 10,
+      "image": "assets/doober/restaurant-0-entrees-1.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Vegetable spring rolls (Entrees) for Garrett's Noodles. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Garrett's Noodles",
+      "ident": "entrees-2",
+      "name": "Chilli wontons",
+      "category": "Entrees",
+      "price": 12,
+      "image": "assets/doober/restaurant-0-entrees-2.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Chilli wontons (Entrees) for Garrett's Noodles. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Garrett's Noodles",
+      "ident": "entrees-3",
+      "name": "Cucumber sesame salad",
+      "category": "Entrees",
+      "price": 14,
+      "image": "assets/doober/restaurant-0-entrees-3.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Cucumber sesame salad (Entrees) for Garrett's Noodles. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Garrett's Noodles",
+      "ident": "sides-0",
+      "name": "Steamed greens",
+      "category": "Sides",
+      "price": 6,
+      "image": "assets/doober/restaurant-0-sides-0.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Steamed greens (Sides) for Garrett's Noodles. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Garrett's Noodles",
+      "ident": "sides-1",
+      "name": "Garlic edamame",
+      "category": "Sides",
+      "price": 8,
+      "image": "assets/doober/restaurant-0-sides-1.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Garlic edamame (Sides) for Garrett's Noodles. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Garrett's Noodles",
+      "ident": "sides-2",
+      "name": "Scallion pancake",
+      "category": "Sides",
+      "price": 10,
+      "image": "assets/doober/restaurant-0-sides-2.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Scallion pancake (Sides) for Garrett's Noodles. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Garrett's Noodles",
+      "ident": "sides-3",
+      "name": "Jasmine rice",
+      "category": "Sides",
+      "price": 12,
+      "image": "assets/doober/restaurant-0-sides-3.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Jasmine rice (Sides) for Garrett's Noodles. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Garrett's Noodles",
+      "ident": "mains-0",
+      "name": "Signature beef noodles",
+      "category": "Mains",
+      "price": 18,
+      "image": "assets/doober/restaurant-0-mains-0.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Signature beef noodles (Mains) for Garrett's Noodles. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Garrett's Noodles",
+      "ident": "mains-1",
+      "name": "Miso mushroom ramen",
+      "category": "Mains",
+      "price": 20,
+      "image": "assets/doober/restaurant-0-mains-1.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Miso mushroom ramen (Mains) for Garrett's Noodles. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Garrett's Noodles",
+      "ident": "mains-2",
+      "name": "Chilli chicken noodles",
+      "category": "Mains",
+      "price": 22,
+      "image": "assets/doober/restaurant-0-mains-2.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Chilli chicken noodles (Mains) for Garrett's Noodles. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Garrett's Noodles",
+      "ident": "mains-3",
+      "name": "Tofu sesame noodles",
+      "category": "Mains",
+      "price": 24,
+      "image": "assets/doober/restaurant-0-mains-3.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Tofu sesame noodles (Mains) for Garrett's Noodles. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Garrett's Noodles",
+      "ident": "desserts-0",
+      "name": "Mango pudding",
+      "category": "Desserts",
+      "price": 7,
+      "image": "assets/doober/restaurant-0-desserts-0.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Mango pudding (Desserts) for Garrett's Noodles. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Garrett's Noodles",
+      "ident": "desserts-1",
+      "name": "Black sesame ice cream",
+      "category": "Desserts",
+      "price": 9,
+      "image": "assets/doober/restaurant-0-desserts-1.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Black sesame ice cream (Desserts) for Garrett's Noodles. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Garrett's Noodles",
+      "ident": "desserts-2",
+      "name": "Red bean buns",
+      "category": "Desserts",
+      "price": 11,
+      "image": "assets/doober/restaurant-0-desserts-2.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Red bean buns (Desserts) for Garrett's Noodles. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Garrett's Noodles",
+      "ident": "desserts-3",
+      "name": "Coconut sago",
+      "category": "Desserts",
+      "price": 13,
+      "image": "assets/doober/restaurant-0-desserts-3.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Coconut sago (Desserts) for Garrett's Noodles. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Garrett's Noodles",
+      "ident": "drinks-0",
+      "name": "Jasmine tea",
+      "category": "Drinks",
+      "price": 4,
+      "image": "assets/doober/restaurant-0-drinks-0.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Jasmine tea (Drinks) for Garrett's Noodles. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Garrett's Noodles",
+      "ident": "drinks-1",
+      "name": "Lychee soda",
+      "category": "Drinks",
+      "price": 6,
+      "image": "assets/doober/restaurant-0-drinks-1.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Lychee soda (Drinks) for Garrett's Noodles. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Garrett's Noodles",
+      "ident": "drinks-2",
+      "name": "Iced lemon tea",
+      "category": "Drinks",
+      "price": 8,
+      "image": "assets/doober/restaurant-0-drinks-2.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Iced lemon tea (Drinks) for Garrett's Noodles. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Garrett's Noodles",
+      "ident": "drinks-3",
+      "name": "Plum juice",
+      "category": "Drinks",
+      "price": 10,
+      "image": "assets/doober/restaurant-0-drinks-3.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Plum juice (Drinks) for Garrett's Noodles. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Mario's Pizza",
+      "ident": "entrees-0",
+      "name": "Tomato bruschetta",
+      "category": "Entrees",
+      "price": 8,
+      "image": "assets/doober/restaurant-1-entrees-0.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Tomato bruschetta (Entrees) for Mario's Pizza. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Mario's Pizza",
+      "ident": "entrees-1",
+      "name": "Caprese salad",
+      "category": "Entrees",
+      "price": 10,
+      "image": "assets/doober/restaurant-1-entrees-1.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Caprese salad (Entrees) for Mario's Pizza. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Mario's Pizza",
+      "ident": "entrees-2",
+      "name": "Arancini",
+      "category": "Entrees",
+      "price": 12,
+      "image": "assets/doober/restaurant-1-entrees-2.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Arancini (Entrees) for Mario's Pizza. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Mario's Pizza",
+      "ident": "entrees-3",
+      "name": "Minestrone",
+      "category": "Entrees",
+      "price": 14,
+      "image": "assets/doober/restaurant-1-entrees-3.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Minestrone (Entrees) for Mario's Pizza. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Mario's Pizza",
+      "ident": "sides-0",
+      "name": "Garlic bread",
+      "category": "Sides",
+      "price": 6,
+      "image": "assets/doober/restaurant-1-sides-0.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Garlic bread (Sides) for Mario's Pizza. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Mario's Pizza",
+      "ident": "sides-1",
+      "name": "Rosemary potatoes",
+      "category": "Sides",
+      "price": 8,
+      "image": "assets/doober/restaurant-1-sides-1.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Rosemary potatoes (Sides) for Mario's Pizza. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Mario's Pizza",
+      "ident": "sides-2",
+      "name": "Garden salad",
+      "category": "Sides",
+      "price": 10,
+      "image": "assets/doober/restaurant-1-sides-2.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Garden salad (Sides) for Mario's Pizza. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Mario's Pizza",
+      "ident": "sides-3",
+      "name": "Mozzarella sticks",
+      "category": "Sides",
+      "price": 12,
+      "image": "assets/doober/restaurant-1-sides-3.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Mozzarella sticks (Sides) for Mario's Pizza. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Mario's Pizza",
+      "ident": "mains-0",
+      "name": "Margherita pizza",
+      "category": "Mains",
+      "price": 18,
+      "image": "assets/doober/restaurant-1-mains-0.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Margherita pizza (Mains) for Mario's Pizza. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Mario's Pizza",
+      "ident": "mains-1",
+      "name": "Pepperoni pizza",
+      "category": "Mains",
+      "price": 20,
+      "image": "assets/doober/restaurant-1-mains-1.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Pepperoni pizza (Mains) for Mario's Pizza. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Mario's Pizza",
+      "ident": "mains-2",
+      "name": "Roasted vegetable pizza",
+      "category": "Mains",
+      "price": 22,
+      "image": "assets/doober/restaurant-1-mains-2.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Roasted vegetable pizza (Mains) for Mario's Pizza. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Mario's Pizza",
+      "ident": "mains-3",
+      "name": "Spaghetti bolognese",
+      "category": "Mains",
+      "price": 24,
+      "image": "assets/doober/restaurant-1-mains-3.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Spaghetti bolognese (Mains) for Mario's Pizza. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Mario's Pizza",
+      "ident": "desserts-0",
+      "name": "Tiramisu",
+      "category": "Desserts",
+      "price": 7,
+      "image": "assets/doober/restaurant-1-desserts-0.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Tiramisu (Desserts) for Mario's Pizza. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Mario's Pizza",
+      "ident": "desserts-1",
+      "name": "Chocolate cannoli",
+      "category": "Desserts",
+      "price": 9,
+      "image": "assets/doober/restaurant-1-desserts-1.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Chocolate cannoli (Desserts) for Mario's Pizza. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Mario's Pizza",
+      "ident": "desserts-2",
+      "name": "Vanilla panna cotta",
+      "category": "Desserts",
+      "price": 11,
+      "image": "assets/doober/restaurant-1-desserts-2.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Vanilla panna cotta (Desserts) for Mario's Pizza. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Mario's Pizza",
+      "ident": "desserts-3",
+      "name": "Lemon gelato",
+      "category": "Desserts",
+      "price": 13,
+      "image": "assets/doober/restaurant-1-desserts-3.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Lemon gelato (Desserts) for Mario's Pizza. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Mario's Pizza",
+      "ident": "drinks-0",
+      "name": "Chinotto",
+      "category": "Drinks",
+      "price": 4,
+      "image": "assets/doober/restaurant-1-drinks-0.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Chinotto (Drinks) for Mario's Pizza. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Mario's Pizza",
+      "ident": "drinks-1",
+      "name": "Lemon soda",
+      "category": "Drinks",
+      "price": 6,
+      "image": "assets/doober/restaurant-1-drinks-1.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Lemon soda (Drinks) for Mario's Pizza. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Mario's Pizza",
+      "ident": "drinks-2",
+      "name": "Sparkling water",
+      "category": "Drinks",
+      "price": 8,
+      "image": "assets/doober/restaurant-1-drinks-2.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Sparkling water (Drinks) for Mario's Pizza. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Mario's Pizza",
+      "ident": "drinks-3",
+      "name": "Iced espresso",
+      "category": "Drinks",
+      "price": 10,
+      "image": "assets/doober/restaurant-1-drinks-3.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Iced espresso (Drinks) for Mario's Pizza. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Campus Café",
+      "ident": "entrees-0",
+      "name": "Tomato soup",
+      "category": "Entrees",
+      "price": 8,
+      "image": "assets/doober/restaurant-2-entrees-0.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Tomato soup (Entrees) for Campus Café. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Campus Café",
+      "ident": "entrees-1",
+      "name": "Pumpkin soup",
+      "category": "Entrees",
+      "price": 10,
+      "image": "assets/doober/restaurant-2-entrees-1.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Pumpkin soup (Entrees) for Campus Café. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Campus Café",
+      "ident": "entrees-2",
+      "name": "Mini quiches",
+      "category": "Entrees",
+      "price": 12,
+      "image": "assets/doober/restaurant-2-entrees-2.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Mini quiches (Entrees) for Campus Café. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Campus Café",
+      "ident": "entrees-3",
+      "name": "Avocado crostini",
+      "category": "Entrees",
+      "price": 14,
+      "image": "assets/doober/restaurant-2-entrees-3.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Avocado crostini (Entrees) for Campus Café. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Campus Café",
+      "ident": "sides-0",
+      "name": "Sweet potato fries",
+      "category": "Sides",
+      "price": 6,
+      "image": "assets/doober/restaurant-2-sides-0.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Sweet potato fries (Sides) for Campus Café. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Campus Café",
+      "ident": "sides-1",
+      "name": "Hash browns",
+      "category": "Sides",
+      "price": 8,
+      "image": "assets/doober/restaurant-2-sides-1.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Hash browns (Sides) for Campus Café. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Campus Café",
+      "ident": "sides-2",
+      "name": "Mixed leaves",
+      "category": "Sides",
+      "price": 10,
+      "image": "assets/doober/restaurant-2-sides-2.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Mixed leaves (Sides) for Campus Café. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Campus Café",
+      "ident": "sides-3",
+      "name": "Buttered sourdough",
+      "category": "Sides",
+      "price": 12,
+      "image": "assets/doober/restaurant-2-sides-3.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Buttered sourdough (Sides) for Campus Café. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Campus Café",
+      "ident": "mains-0",
+      "name": "Chicken pesto sandwich",
+      "category": "Mains",
+      "price": 18,
+      "image": "assets/doober/restaurant-2-mains-0.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Chicken pesto sandwich (Mains) for Campus Café. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Campus Café",
+      "ident": "mains-1",
+      "name": "Falafel wrap",
+      "category": "Mains",
+      "price": 20,
+      "image": "assets/doober/restaurant-2-mains-1.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Falafel wrap (Mains) for Campus Café. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Campus Café",
+      "ident": "mains-2",
+      "name": "Mushroom toastie",
+      "category": "Mains",
+      "price": 22,
+      "image": "assets/doober/restaurant-2-mains-2.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Mushroom toastie (Mains) for Campus Café. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Campus Café",
+      "ident": "mains-3",
+      "name": "Breakfast bowl",
+      "category": "Mains",
+      "price": 24,
+      "image": "assets/doober/restaurant-2-mains-3.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Breakfast bowl (Mains) for Campus Café. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Campus Café",
+      "ident": "desserts-0",
+      "name": "Chocolate brownie",
+      "category": "Desserts",
+      "price": 7,
+      "image": "assets/doober/restaurant-2-desserts-0.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Chocolate brownie (Desserts) for Campus Café. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Campus Café",
+      "ident": "desserts-1",
+      "name": "Carrot cake",
+      "category": "Desserts",
+      "price": 9,
+      "image": "assets/doober/restaurant-2-desserts-1.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Carrot cake (Desserts) for Campus Café. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Campus Café",
+      "ident": "desserts-2",
+      "name": "Blueberry muffin",
+      "category": "Desserts",
+      "price": 11,
+      "image": "assets/doober/restaurant-2-desserts-2.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Blueberry muffin (Desserts) for Campus Café. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Campus Café",
+      "ident": "desserts-3",
+      "name": "Banana bread",
+      "category": "Desserts",
+      "price": 13,
+      "image": "assets/doober/restaurant-2-desserts-3.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Banana bread (Desserts) for Campus Café. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Campus Café",
+      "ident": "drinks-0",
+      "name": "Flat white",
+      "category": "Drinks",
+      "price": 4,
+      "image": "assets/doober/restaurant-2-drinks-0.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Flat white (Drinks) for Campus Café. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Campus Café",
+      "ident": "drinks-1",
+      "name": "Iced latte",
+      "category": "Drinks",
+      "price": 6,
+      "image": "assets/doober/restaurant-2-drinks-1.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Iced latte (Drinks) for Campus Café. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Campus Café",
+      "ident": "drinks-2",
+      "name": "Matcha latte",
+      "category": "Drinks",
+      "price": 8,
+      "image": "assets/doober/restaurant-2-drinks-2.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Matcha latte (Drinks) for Campus Café. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Campus Café",
+      "ident": "drinks-3",
+      "name": "Berry smoothie",
+      "category": "Drinks",
+      "price": 10,
+      "image": "assets/doober/restaurant-2-drinks-3.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Berry smoothie (Drinks) for Campus Café. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Riverside Kitchen",
+      "ident": "entrees-0",
+      "name": "Corn fritters",
+      "category": "Entrees",
+      "price": 8,
+      "image": "assets/doober/restaurant-3-entrees-0.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Corn fritters (Entrees) for Riverside Kitchen. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Riverside Kitchen",
+      "ident": "entrees-1",
+      "name": "Hummus and pita",
+      "category": "Entrees",
+      "price": 10,
+      "image": "assets/doober/restaurant-3-entrees-1.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Hummus and pita (Entrees) for Riverside Kitchen. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Riverside Kitchen",
+      "ident": "entrees-2",
+      "name": "Crispy cauliflower",
+      "category": "Entrees",
+      "price": 12,
+      "image": "assets/doober/restaurant-3-entrees-2.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Crispy cauliflower (Entrees) for Riverside Kitchen. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Riverside Kitchen",
+      "ident": "entrees-3",
+      "name": "Prawn skewers",
+      "category": "Entrees",
+      "price": 14,
+      "image": "assets/doober/restaurant-3-entrees-3.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Prawn skewers (Entrees) for Riverside Kitchen. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Riverside Kitchen",
+      "ident": "sides-0",
+      "name": "Seasoned fries",
+      "category": "Sides",
+      "price": 6,
+      "image": "assets/doober/restaurant-3-sides-0.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Seasoned fries (Sides) for Riverside Kitchen. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Riverside Kitchen",
+      "ident": "sides-1",
+      "name": "Coleslaw",
+      "category": "Sides",
+      "price": 8,
+      "image": "assets/doober/restaurant-3-sides-1.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Coleslaw (Sides) for Riverside Kitchen. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Riverside Kitchen",
+      "ident": "sides-2",
+      "name": "Grilled corn",
+      "category": "Sides",
+      "price": 10,
+      "image": "assets/doober/restaurant-3-sides-2.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Grilled corn (Sides) for Riverside Kitchen. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Riverside Kitchen",
+      "ident": "sides-3",
+      "name": "Roasted vegetables",
+      "category": "Sides",
+      "price": 12,
+      "image": "assets/doober/restaurant-3-sides-3.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Roasted vegetables (Sides) for Riverside Kitchen. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Riverside Kitchen",
+      "ident": "mains-0",
+      "name": "Classic beef burger",
+      "category": "Mains",
+      "price": 18,
+      "image": "assets/doober/restaurant-3-mains-0.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Classic beef burger (Mains) for Riverside Kitchen. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Riverside Kitchen",
+      "ident": "mains-1",
+      "name": "Grilled fish plate",
+      "category": "Mains",
+      "price": 20,
+      "image": "assets/doober/restaurant-3-mains-1.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Grilled fish plate (Mains) for Riverside Kitchen. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Riverside Kitchen",
+      "ident": "mains-2",
+      "name": "Chickpea burger",
+      "category": "Mains",
+      "price": 22,
+      "image": "assets/doober/restaurant-3-mains-2.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Chickpea burger (Mains) for Riverside Kitchen. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Riverside Kitchen",
+      "ident": "mains-3",
+      "name": "Lemon chicken bowl",
+      "category": "Mains",
+      "price": 24,
+      "image": "assets/doober/restaurant-3-mains-3.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Lemon chicken bowl (Mains) for Riverside Kitchen. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Riverside Kitchen",
+      "ident": "desserts-0",
+      "name": "Apple crumble",
+      "category": "Desserts",
+      "price": 7,
+      "image": "assets/doober/restaurant-3-desserts-0.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Apple crumble (Desserts) for Riverside Kitchen. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Riverside Kitchen",
+      "ident": "desserts-1",
+      "name": "Cheesecake",
+      "category": "Desserts",
+      "price": 9,
+      "image": "assets/doober/restaurant-3-desserts-1.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Cheesecake (Desserts) for Riverside Kitchen. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Riverside Kitchen",
+      "ident": "desserts-2",
+      "name": "Chocolate mousse",
+      "category": "Desserts",
+      "price": 11,
+      "image": "assets/doober/restaurant-3-desserts-2.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Chocolate mousse (Desserts) for Riverside Kitchen. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Riverside Kitchen",
+      "ident": "desserts-3",
+      "name": "Fruit salad",
+      "category": "Desserts",
+      "price": 13,
+      "image": "assets/doober/restaurant-3-desserts-3.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Fruit salad (Desserts) for Riverside Kitchen. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Riverside Kitchen",
+      "ident": "drinks-0",
+      "name": "Ginger beer",
+      "category": "Drinks",
+      "price": 4,
+      "image": "assets/doober/restaurant-3-drinks-0.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Ginger beer (Drinks) for Riverside Kitchen. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Riverside Kitchen",
+      "ident": "drinks-1",
+      "name": "Orange juice",
+      "category": "Drinks",
+      "price": 6,
+      "image": "assets/doober/restaurant-3-drinks-1.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Orange juice (Drinks) for Riverside Kitchen. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Riverside Kitchen",
+      "ident": "drinks-2",
+      "name": "Peach iced tea",
+      "category": "Drinks",
+      "price": 8,
+      "image": "assets/doober/restaurant-3-drinks-2.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Peach iced tea (Drinks) for Riverside Kitchen. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    },
+    {
+      "restaurant": "Riverside Kitchen",
+      "ident": "drinks-3",
+      "name": "Mineral water",
+      "category": "Drinks",
+      "price": 10,
+      "image": "assets/doober/restaurant-3-drinks-3.png",
+      "prompt": "Use case: stylized-concept. Create one square game food-menu illustration of Mineral water (Drinks) for Riverside Kitchen. Korean manhwa / webtoon food art, clearly illustrated delicate ink outlines, rich cel shading, appetising glossy highlights, beautifully drawn ingredients. Show a believable serving of exactly this dish or drink, faithful to its name, on dark ceramic or appropriate glassware. Dark slate tabletop and dark background, close three-quarter view with the entire serving visible and breathing room around it. No unrelated sides. No text, logos, watermark, people or collage."
+    }
+  ]
+}

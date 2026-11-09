@@ -1,0 +1,52 @@
+[
+  {
+    "file": "assets/gallery/amy-casual.png",
+    "tool": "built-in image_gen",
+    "prompt": "Create one polished anime visual-novel gallery illustration of adult amy (age 20+). Use the attached reference ONLY for identity: preserve face, hairstyle, hair color, eye color and illustration style. New outfit: sage green cardigan over a cream blouse, relaxed jeans, art studio with warm window light. Tasteful fully clothed fashion portrait, natural relaxed pose, head to mid-thigh composition, portrait orientation, detailed expressive face, clean hands, soft cinematic lighting. One character, one outfit, no panels, no text, no watermark. Title concept: Art-studio afternoon."
+  },
+  {
+    "file": "assets/gallery/amy-evening.png",
+    "tool": "built-in image_gen",
+    "prompt": "Create one polished anime visual-novel gallery illustration of adult amy (age 20+). Use the attached reference ONLY for identity: preserve face, hairstyle, hair color, eye color, glasses if present, tattoos if present, and illustration style. New outfit: elegant forest-green midi dress and delicate jewelry, warmly lit art exhibition. Tasteful fully clothed fashion portrait, natural relaxed pose, head to mid-thigh composition, portrait orientation, detailed expressive face, clean hands, soft cinematic lighting. One character, one outfit, no panels, no text, no watermark. Title concept: Gallery opening."
+  },
+  {
+    "file": "assets/gallery/april-casual.png",
+    "tool": "built-in image_gen",
+    "prompt": "Create one polished anime visual-novel gallery illustration of adult april (age 20+). Use the attached reference ONLY for identity: preserve face, hairstyle, hair color, eye color, glasses if present, tattoos if present, and illustration style. New outfit: charcoal turtleneck, plaid midi skirt, dark tights, quiet bookshop. Tasteful fully clothed fashion portrait, natural relaxed pose, head to mid-thigh composition, portrait orientation, detailed expressive face, clean hands, soft cinematic lighting. One character, one outfit, no panels, no text, no watermark. Title concept: Bookshop afternoon."
+  },
+  {
+    "file": "assets/gallery/april-evening.png",
+    "tool": "built-in image_gen",
+    "prompt": "Create one polished anime visual-novel gallery illustration of adult april (age 20+). Use the attached reference ONLY for identity: preserve face, hairstyle, hair color, eye color, glasses if present, tattoos if present, and illustration style. New outfit: navy evening dress with subtle silver accents, observatory terrace under a starry sky. Tasteful fully clothed fashion portrait, natural relaxed pose, head to mid-thigh composition, portrait orientation, detailed expressive face, clean hands, soft cinematic lighting. One character, one outfit, no panels, no text, no watermark. Title concept: Under the stars."
+  },
+  {
+    "file": "assets/gallery/emily-casual.png",
+    "tool": "built-in image_gen",
+    "prompt": "Create one polished anime visual-novel gallery illustration of adult emily (age 20+). Use the attached reference ONLY for identity: preserve face, hairstyle, hair color, eye color, glasses if present, tattoos if present, and illustration style. New outfit: soft lavender cardigan, white blouse and floral skirt, cozy flower shop. Tasteful fully clothed fashion portrait, natural relaxed pose, head to mid-thigh composition, portrait orientation, detailed expressive face, clean hands, soft cinematic lighting. One character, one outfit, no panels, no text, no watermark. Title concept: Flower-shop morning."
+  },
+  {
+    "file": "assets/gallery/emily-evening.png",
+    "tool": "built-in image_gen",
+    "prompt": "Create one polished anime visual-novel gallery illustration of adult emily (age 20+). Use the attached reference ONLY for identity: preserve face, hairstyle, hair color, eye color, glasses if present, tattoos if present, and illustration style. New outfit: blush pink elegant dress and small pearl earrings, garden dinner with fairy lights. Tasteful fully clothed fashion portrait, natural relaxed pose, head to mid-thigh composition, portrait orientation, detailed expressive face, clean hands, soft cinematic lighting. One character, one outfit, no panels, no text, no watermark. Title concept: Garden dinner."
+  },
+  {
+    "file": "assets/gallery/samantha-casual.png",
+    "tool": "built-in image_gen",
+    "prompt": "Create one polished anime visual-novel gallery illustration of adult samantha (age 20+). Use the attached reference ONLY for identity: preserve face, hairstyle, hair color, eye color, glasses if present, tattoos if present, and illustration style. New outfit: burgundy fitted T-shirt, black leather jacket and jeans, parked motorcycle on a quiet street. Tasteful fully clothed fashion portrait, natural relaxed pose, head to mid-thigh composition, portrait orientation, detailed expressive face, clean hands, soft cinematic lighting. One character, one outfit, no panels, no text, no watermark. Title concept: Weekend ride."
+  },
+  {
+    "file": "assets/gallery/samantha-evening.png",
+    "tool": "built-in image_gen",
+    "prompt": "Create one polished anime visual-novel gallery illustration of adult samantha (age 20+). Use the attached reference ONLY for identity: preserve face, hairstyle, hair color, eye color, glasses if present, tattoos if present, and illustration style. New outfit: tailored burgundy pantsuit over a black top, city rooftop at dusk. Tasteful fully clothed fashion portrait, natural relaxed pose, head to mid-thigh composition, portrait orientation, detailed expressive face, clean hands, soft cinematic lighting. One character, one outfit, no panels, no text, no watermark. Title concept: City lights."
+  },
+  {
+    "file": "assets/gallery/sophie-casual.png",
+    "tool": "built-in image_gen",
+    "prompt": "Create one polished anime visual-novel gallery illustration of adult sophie (age 20+). Use the attached reference ONLY for identity: preserve face, hairstyle, hair color, eye color, glasses if present, tattoos if present, and illustration style. New outfit: blue athletic zip jacket over a white sports top and running leggings, riverside park. Tasteful fully clothed fashion portrait, natural relaxed pose, head to mid-thigh composition, portrait orientation, detailed expressive face, clean hands, soft cinematic lighting. One character, one outfit, no panels, no text, no watermark. Title concept: A day outdoors."
+  },
+  {
+    "file": "assets/gallery/sophie-evening.png",
+    "tool": "built-in image_gen",
+    "prompt": "Create one polished anime visual-novel gallery illustration of adult sophie (age 20+). Use the attached reference ONLY for identity: preserve face, hairstyle, hair color, eye color, glasses if present, tattoos if present, and illustration style. New outfit: elegant cobalt blue dress and simple gold jewelry, restaurant terrace at sunset. Tasteful fully clothed fashion portrait, natural relaxed pose, head to mid-thigh composition, portrait orientation, detailed expressive face, clean hands, soft cinematic lighting. One character, one outfit, no panels, no text, no watermark. Title concept: An evening out."
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "id": "7f85b5c33ffb4f9bb027a75985dd356a",
+    "album": "e8f93cb0ac194141badb8f62fc447bb1",
+    "player": "custom_4d497dc9220b424a8348caabe6ece528",
+    "minute": 498,
+    "date": "2050-01-01",
+    "created": 1794146579.6957233,
+    "path": "assets/generated/7f85b5c33ffb4f9bb027a75985dd356a/image.png",
+    "mode": "Mirror selfie",
+    "location": "Vacant downtown apartment",
+    "snapshot": {
+      "player": "custom_4d497dc9220b424a8348caabe6ece528",
+      "minute": 498,
+      "location": "vacant_downtown_home",
+      "location_name": "Vacant downtown apartment",
+      "at_home": true,
+      "interior": "An unfurnished downtown apartment with an open living room, fitted kitchen, bare timber floors and broad windows above the city streets.",
+      "companions": [],
+      "romance": [],
+      "activity": "",
+      "weather": "Partly cloudy · -2°C · Dawn · Wind 12 km/h",
+      "mode": "Mirror selfie",
+      "detail": "",
+      "subjects": [
+        {
+          "id": "custom_4d497dc9220b424a8348caabe6ece528",
+          "name": "Julius Lee",
+          "expression": "Smoulder",
+          "pose": "Relaxed",
+          "outfit": "Signature portrait",
+          "reference": 1,
+          "reference_role": "Identity, exact clothing and illustration style"
+        }
+      ],
+      "group_pose": ""
+    }
+  },
+  {
+    "id": "fc6486bef03b4becb2048d146202ccdd",
+    "album": "e8f93cb0ac194141badb8f62fc447bb1",
+    "player": "custom_4d497dc9220b424a8348caabe6ece528",
+    "minute": 486,
+    "date": "2050-01-01",
+    "created": 1794146517.6930926,
+    "path": "assets/generated/fc6486bef03b4becb2048d146202ccdd/image.png",
+    "mode": "Selfie",
+    "location": "Vacant downtown apartment",
+    "snapshot": {
+      "player": "custom_4d497dc9220b424a8348caabe6ece528",
+      "minute": 486,
+      "location": "vacant_downtown_home",
+      "location_name": "Vacant downtown apartment",
+      "at_home": true,
+      "interior": "An unfurnished downtown apartment with an open living room, fitted kitchen, bare timber floors and broad windows above the city streets.",
+      "companions": [],
+      "romance": [],
+      "activity": "",
+      "weather": "Partly cloudy · -2°C · Dawn · Wind 12 km/h",
+      "mode": "Selfie",
+      "detail": "",
+      "subjects": [
+        {
+          "id": "custom_4d497dc9220b424a8348caabe6ece528",
+          "name": "Julius Lee",
+          "expression": "Smoulder",
+          "pose": "Relaxed",
+          "outfit": "Signature portrait",
+          "reference": 1,
+          "reference_role": "Identity, exact clothing and illustration style"
+        }
+      ],
+      "group_pose": ""
+    }
+  },
+  {
+    "id": "670f76bf77d942f3806a4eef3418c31a",
+    "album": "e8f93cb0ac194141badb8f62fc447bb1",
+    "player": "custom_4d497dc9220b424a8348caabe6ece528",
+    "minute": 513,
+    "date": "2050-01-01",
+    "created": 1794146653.9472604,
+    "path": "assets/generated/670f76bf77d942f3806a4eef3418c31a/image.png",
+    "mode": "Selfie",
+    "location": "Vacant downtown apartment",
+    "snapshot": {
+      "player": "custom_4d497dc9220b424a8348caabe6ece528",
+      "minute": 513,
+      "location": "vacant_downtown_home",
+      "location_name": "Vacant downtown apartment",
+      "at_home": true,
+      "interior": "An unfurnished downtown apartment with an open living room, fitted kitchen, bare timber floors and broad windows above the city streets.",
+      "companions": [],
+      "romance": [],
+      "activity": "",
+      "weather": "Partly cloudy · -2°C · Day · Wind 12 km/h",
+      "mode": "Selfie",
+      "detail": "",
+      "subjects": [
+        {
+          "id": "custom_4d497dc9220b424a8348caabe6ece528",
+          "name": "Julius Lee",
+          "expression": "Stoic",
+          "pose": "Relaxed",
+          "outfit": "Signature portrait",
+          "reference": 1,
+          "reference_role": "Identity, exact clothing and illustration style"
+        }
+      ],
+      "group_pose": ""
+    }
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "id": "5a69288e675842b29dc52f0343488d6e",
+    "album": "e45466fdf4b44ccbb10ac12cc60db700",
+    "player": "custom_a6fd02bd27ef491aa17616ab87520c8e",
+    "minute": 483,
+    "date": "2050-01-01",
+    "created": 1794141001.5755944,
+    "path": "assets/generated/5a69288e675842b29dc52f0343488d6e/image.png",
+    "mode": "Selfie",
+    "location": "Vacant downtown apartment",
+    "snapshot": {
+      "player": "custom_a6fd02bd27ef491aa17616ab87520c8e",
+      "minute": 483,
+      "location": "vacant_downtown_home",
+      "location_name": "Vacant downtown apartment",
+      "at_home": true,
+      "interior": "An unfurnished downtown apartment with an open living room, fitted kitchen, bare timber floors and broad windows above the city streets.",
+      "companions": [],
+      "romance": [],
+      "activity": "",
+      "weather": "Partly cloudy · -2°C · Dawn · Wind 12 km/h",
+      "mode": "Selfie",
+      "detail": "",
+      "subjects": [
+        {
+          "id": "custom_a6fd02bd27ef491aa17616ab87520c8e",
+          "name": "Julius Lee",
+          "expression": "Smoulder",
+          "pose": "Relaxed",
+          "outfit": "Signature portrait",
+          "reference": 1,
+          "reference_role": "Identity, exact clothing and illustration style"
+        }
+      ],
+      "group_pose": ""
+    }
+  }
+]

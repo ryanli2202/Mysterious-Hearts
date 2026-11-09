@@ -1,0 +1,476 @@
+[
+  {
+    "character": "amy",
+    "outfit": "casual",
+    "title": "Art-studio afternoon",
+    "path": "assets/gallery/amy-casual.png"
+  },
+  {
+    "character": "amy",
+    "outfit": "evening",
+    "title": "Gallery opening",
+    "path": "assets/gallery/amy-evening.png"
+  },
+  {
+    "character": "amy",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 1",
+    "path": "assets/gallery/amy-bedroom-1.jpg"
+  },
+  {
+    "character": "amy",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 2",
+    "path": "assets/gallery/amy-bedroom-2.jpg"
+  },
+  {
+    "character": "amy",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 3",
+    "path": "assets/gallery/amy-bedroom-3.jpg"
+  },
+  {
+    "character": "amy",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 4",
+    "path": "assets/gallery/amy-bedroom-4.jpg"
+  },
+  {
+    "character": "amy",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 5",
+    "path": "assets/gallery/amy-bedroom-5.jpg"
+  },
+  {
+    "character": "amy",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 6",
+    "path": "assets/gallery/amy-bedroom-6.jpg"
+  },
+  {
+    "character": "april",
+    "outfit": "casual",
+    "title": "Bookshop afternoon",
+    "path": "assets/gallery/april-casual.png"
+  },
+  {
+    "character": "april",
+    "outfit": "evening",
+    "title": "Under the stars",
+    "path": "assets/gallery/april-evening.png"
+  },
+  {
+    "character": "april",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 1",
+    "path": "assets/gallery/april-bedroom-1.jpg"
+  },
+  {
+    "character": "april",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 2",
+    "path": "assets/gallery/april-bedroom-2.jpg"
+  },
+  {
+    "character": "april",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 3",
+    "path": "assets/gallery/april-bedroom-3.jpg"
+  },
+  {
+    "character": "april",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 4",
+    "path": "assets/gallery/april-bedroom-4.jpg"
+  },
+  {
+    "character": "april",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 5",
+    "path": "assets/gallery/april-bedroom-5.jpg"
+  },
+  {
+    "character": "april",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 6",
+    "path": "assets/gallery/april-bedroom-6.jpg"
+  },
+  {
+    "character": "emily",
+    "outfit": "casual",
+    "title": "Flower-shop morning",
+    "path": "assets/gallery/emily-casual.png"
+  },
+  {
+    "character": "emily",
+    "outfit": "evening",
+    "title": "Garden dinner",
+    "path": "assets/gallery/emily-evening.png"
+  },
+  {
+    "character": "emily",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 1",
+    "path": "assets/gallery/emily-bedroom-1.jpg"
+  },
+  {
+    "character": "emily",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 2",
+    "path": "assets/gallery/emily-bedroom-2.jpg"
+  },
+  {
+    "character": "emily",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 3",
+    "path": "assets/gallery/emily-bedroom-3.jpg"
+  },
+  {
+    "character": "emily",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 4",
+    "path": "assets/gallery/emily-bedroom-4.jpg"
+  },
+  {
+    "character": "emily",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 5",
+    "path": "assets/gallery/emily-bedroom-5.jpg"
+  },
+  {
+    "character": "emily",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 6",
+    "path": "assets/gallery/emily-bedroom-6.jpg"
+  },
+  {
+    "character": "samantha",
+    "outfit": "casual",
+    "title": "Weekend ride",
+    "path": "assets/gallery/samantha-casual.png"
+  },
+  {
+    "character": "samantha",
+    "outfit": "evening",
+    "title": "City lights",
+    "path": "assets/gallery/samantha-evening.png"
+  },
+  {
+    "character": "samantha",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 1",
+    "path": "assets/gallery/samantha-bedroom-1.jpg"
+  },
+  {
+    "character": "samantha",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 2",
+    "path": "assets/gallery/samantha-bedroom-2.jpg"
+  },
+  {
+    "character": "samantha",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 3",
+    "path": "assets/gallery/samantha-bedroom-3.jpg"
+  },
+  {
+    "character": "samantha",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 4",
+    "path": "assets/gallery/samantha-bedroom-4.jpg"
+  },
+  {
+    "character": "samantha",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 5",
+    "path": "assets/gallery/samantha-bedroom-5.jpg"
+  },
+  {
+    "character": "samantha",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 6",
+    "path": "assets/gallery/samantha-bedroom-6.jpg"
+  },
+  {
+    "character": "sophie",
+    "outfit": "casual",
+    "title": "A day outdoors",
+    "path": "assets/gallery/sophie-casual.png"
+  },
+  {
+    "character": "sophie",
+    "outfit": "evening",
+    "title": "An evening out",
+    "path": "assets/gallery/sophie-evening.png"
+  },
+  {
+    "character": "sophie",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 1",
+    "path": "assets/gallery/sophie-bedroom-1.jpg"
+  },
+  {
+    "character": "sophie",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 2",
+    "path": "assets/gallery/sophie-bedroom-2.jpg"
+  },
+  {
+    "character": "sophie",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 3",
+    "path": "assets/gallery/sophie-bedroom-3.jpg"
+  },
+  {
+    "character": "sophie",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 4",
+    "path": "assets/gallery/sophie-bedroom-4.jpg"
+  },
+  {
+    "character": "sophie",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 5",
+    "path": "assets/gallery/sophie-bedroom-5.jpg"
+  },
+  {
+    "character": "sophie",
+    "outfit": "bedroom",
+    "title": "Bedroom portrait 6",
+    "path": "assets/gallery/sophie-bedroom-6.jpg"
+  },
+  {
+    "character": "emily",
+    "outfit": "florist",
+    "title": "Florist workwear",
+    "path": "assets/portraits/emily-florist.png"
+  },
+  {
+    "character": "emily",
+    "outfit": "cafe",
+    "title": "CafÃ© cardigan",
+    "path": "assets/portraits/emily-cafe.png"
+  },
+  {
+    "character": "emily",
+    "outfit": "picnic",
+    "title": "Spring picnic",
+    "path": "assets/portraits/emily-picnic.png"
+  },
+  {
+    "character": "emily",
+    "outfit": "rainy",
+    "title": "Rainy day",
+    "path": "assets/portraits/emily-rainy.png"
+  },
+  {
+    "character": "emily",
+    "outfit": "winter",
+    "title": "Winter coat",
+    "path": "assets/portraits/emily-winter.png"
+  },
+  {
+    "character": "emily",
+    "outfit": "workshop",
+    "title": "Art workshop",
+    "path": "assets/portraits/emily-workshop.png"
+  },
+  {
+    "character": "emily",
+    "outfit": "garden",
+    "title": "Garden party",
+    "path": "assets/portraits/emily-garden.png"
+  },
+  {
+    "character": "emily",
+    "outfit": "velvet",
+    "title": "Evening velvet",
+    "path": "assets/portraits/emily-velvet.png"
+  },
+  {
+    "character": "emily",
+    "outfit": "formal-satin",
+    "title": "Midnight satin formal",
+    "path": "assets/portraits/emily-formal-satin.png"
+  },
+  {
+    "character": "emily",
+    "outfit": "formal-tailoring",
+    "title": "Ivory formal tailoring",
+    "path": "assets/portraits/emily-formal-tailoring.png"
+  },
+  {
+    "character": "emily",
+    "outfit": "beach-bikini",
+    "title": "Blue floral bikini",
+    "path": "assets/portraits/emily-beach-bikini.png"
+  },
+  {
+    "character": "emily",
+    "outfit": "beach-swimsuit",
+    "title": "Teal one-piece swimsuit",
+    "path": "assets/portraits/emily-beach-swimsuit.png"
+  },
+  {
+    "character": "emily",
+    "outfit": "gym",
+    "title": "Lavender gym outfit",
+    "path": "assets/portraits/emily-gym.png"
+  },
+  {
+    "character": "sophie",
+    "outfit": "beach-coral",
+    "title": "Coral bikini",
+    "path": "assets/portraits/sophie-beach-coral.png"
+  },
+  {
+    "character": "sophie",
+    "outfit": "beach-tropical",
+    "title": "Tropical bikini",
+    "path": "assets/portraits/sophie-beach-tropical.png"
+  },
+  {
+    "character": "sophie",
+    "outfit": "beach-cobalt",
+    "title": "Cobalt bikini",
+    "path": "assets/portraits/sophie-beach-cobalt.png"
+  },
+  {
+    "character": "sophie",
+    "outfit": "gym-strength",
+    "title": "Strength training",
+    "path": "assets/portraits/sophie-gym-strength.png"
+  },
+  {
+    "character": "sophie",
+    "outfit": "gym-cardio",
+    "title": "Cardio training",
+    "path": "assets/portraits/sophie-gym-cardio.png"
+  },
+  {
+    "character": "sophie",
+    "outfit": "casual-denim",
+    "title": "Denim weekend",
+    "path": "assets/portraits/sophie-casual-denim.png"
+  },
+  {
+    "character": "sophie",
+    "outfit": "casual-varsity",
+    "title": "Varsity casual",
+    "path": "assets/portraits/sophie-casual-varsity.png"
+  },
+  {
+    "character": "sophie",
+    "outfit": "summer-linen",
+    "title": "Summer linen",
+    "path": "assets/portraits/sophie-summer-linen.png"
+  },
+  {
+    "character": "sophie",
+    "outfit": "picnic-dress",
+    "title": "Yellow floral sundress",
+    "path": "assets/portraits/sophie-picnic-dress.png"
+  },
+  {
+    "character": "sophie",
+    "outfit": "autumn-knit",
+    "title": "Autumn knit",
+    "path": "assets/portraits/sophie-autumn-knit.png"
+  },
+  {
+    "character": "sophie",
+    "outfit": "winter-puffer",
+    "title": "Winter puffer",
+    "path": "assets/portraits/sophie-winter-puffer.png"
+  },
+  {
+    "character": "sophie",
+    "outfit": "formal-emerald",
+    "title": "Emerald evening gown",
+    "path": "assets/portraits/sophie-formal-emerald.png"
+  },
+  {
+    "character": "sophie",
+    "outfit": "formal-suit",
+    "title": "Midnight tailored suit",
+    "path": "assets/portraits/sophie-formal-suit.png"
+  },
+  {
+    "character": "amy",
+    "outfit": "beach-sage",
+    "title": "Sage bikini",
+    "path": "assets/portraits/amy-beach-sage.png"
+  },
+  {
+    "character": "amy",
+    "outfit": "beach-daisy",
+    "title": "Daisy bikini",
+    "path": "assets/portraits/amy-beach-daisy.png"
+  },
+  {
+    "character": "amy",
+    "outfit": "beach-terracotta",
+    "title": "Terracotta bikini",
+    "path": "assets/portraits/amy-beach-terracotta.png"
+  },
+  {
+    "character": "amy",
+    "outfit": "gym-yoga",
+    "title": "Sage yoga set",
+    "path": "assets/portraits/amy-gym-yoga.png"
+  },
+  {
+    "character": "amy",
+    "outfit": "gym-training",
+    "title": "Plum training outfit",
+    "path": "assets/portraits/amy-gym-training.png"
+  },
+  {
+    "character": "amy",
+    "outfit": "studio-overalls",
+    "title": "Painting studio",
+    "path": "assets/portraits/amy-studio-overalls.png"
+  },
+  {
+    "character": "amy",
+    "outfit": "library-knit",
+    "title": "Library knit",
+    "path": "assets/portraits/amy-library-knit.png"
+  },
+  {
+    "character": "amy",
+    "outfit": "weekend-denim",
+    "title": "Denim weekend",
+    "path": "assets/portraits/amy-weekend-denim.png"
+  },
+  {
+    "character": "amy",
+    "outfit": "summer-linen",
+    "title": "Summer linen",
+    "path": "assets/portraits/amy-summer-linen.png"
+  },
+  {
+    "character": "amy",
+    "outfit": "floral-dress",
+    "title": "Wildflower dress",
+    "path": "assets/portraits/amy-floral-dress.png"
+  },
+  {
+    "character": "amy",
+    "outfit": "winter-coat",
+    "title": "Winter layers",
+    "path": "assets/portraits/amy-winter-coat.png"
+  },
+  {
+    "character": "amy",
+    "outfit": "formal-plum",
+    "title": "Plum evening dress",
+    "path": "assets/portraits/amy-formal-plum.png"
+  },
+  {
+    "character": "amy",
+    "outfit": "formal-tweed",
+    "title": "Gallery reception",
+    "path": "assets/portraits/amy-formal-tweed.png"
+  }
+]

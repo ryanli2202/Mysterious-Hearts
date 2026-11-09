@@ -1,0 +1,50 @@
+[
+  {
+    "id": "08aae0dc278d4ea6a585b609dc3ffa6d",
+    "album": "b227aa1256b748488b7733f975f50f7e",
+    "player": "rei",
+    "minute": 1174,
+    "date": "2050-01-01",
+    "created": 1793940038.8622508,
+    "path": "assets/generated/08aae0dc278d4ea6a585b609dc3ffa6d/image.png",
+    "mode": "Group selfie",
+    "location": "Rei’s downtown penthouse",
+    "snapshot": {
+      "player": "rei",
+      "minute": 1174,
+      "location": "rei_home",
+      "location_name": "Rei’s downtown penthouse",
+      "at_home": true,
+      "interior": "A gothic penthouse with a library, paintings, Yuriko’s scale models, a dedicated art space and an intimate kitchen high above the city.",
+      "companions": [
+        "garrett"
+      ],
+      "romance": [],
+      "activity": "",
+      "weather": "Partly cloudy · 0°C · Night · Wind 12 km/h",
+      "mode": "Group selfie",
+      "detail": "",
+      "subjects": [
+        {
+          "id": "rei",
+          "name": "Rei Takamura",
+          "expression": "Smoulder",
+          "pose": "Relaxed",
+          "outfit": "Black suit",
+          "reference": 1,
+          "reference_role": "Identity, exact clothing and illustration style"
+        },
+        {
+          "id": "garrett",
+          "name": "Garrett Han",
+          "expression": "Smoulder",
+          "pose": "Relaxed",
+          "outfit": "Home clothes",
+          "reference": 2,
+          "reference_role": "Identity, exact clothing and illustration style"
+        }
+      ],
+      "group_pose": "Album-cover stance"
+    }
+  }
+]

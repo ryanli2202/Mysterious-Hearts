@@ -1,0 +1,414 @@
+{
+  "style": "Korean manhwa food illustration",
+  "generator": "built-in image_gen",
+  "items": {
+    "Garrett's Noodles": {
+      "entrees-0": {
+        "name": "Pork dumplings",
+        "category": "Entrees",
+        "image": "assets/doober/restaurant-0-entrees-0.png"
+      },
+      "entrees-1": {
+        "name": "Vegetable spring rolls",
+        "category": "Entrees",
+        "image": "assets/doober/restaurant-0-entrees-1.png"
+      },
+      "entrees-2": {
+        "name": "Chilli wontons",
+        "category": "Entrees",
+        "image": "assets/doober/restaurant-0-entrees-2.png"
+      },
+      "entrees-3": {
+        "name": "Cucumber sesame salad",
+        "category": "Entrees",
+        "image": "assets/doober/restaurant-0-entrees-3.png"
+      },
+      "sides-0": {
+        "name": "Steamed greens",
+        "category": "Sides",
+        "image": "assets/doober/restaurant-0-sides-0.png"
+      },
+      "sides-1": {
+        "name": "Garlic edamame",
+        "category": "Sides",
+        "image": "assets/doober/restaurant-0-sides-1.png"
+      },
+      "sides-2": {
+        "name": "Scallion pancake",
+        "category": "Sides",
+        "image": "assets/doober/restaurant-0-sides-2.png"
+      },
+      "sides-3": {
+        "name": "Jasmine rice",
+        "category": "Sides",
+        "image": "assets/doober/restaurant-0-sides-3.png"
+      },
+      "mains-0": {
+        "name": "Signature beef noodles",
+        "category": "Mains",
+        "image": "assets/doober/restaurant-0-mains-0.png"
+      },
+      "mains-1": {
+        "name": "Miso mushroom ramen",
+        "category": "Mains",
+        "image": "assets/doober/restaurant-0-mains-1.png"
+      },
+      "mains-2": {
+        "name": "Chilli chicken noodles",
+        "category": "Mains",
+        "image": "assets/doober/restaurant-0-mains-2.png"
+      },
+      "mains-3": {
+        "name": "Tofu sesame noodles",
+        "category": "Mains",
+        "image": "assets/doober/restaurant-0-mains-3.png"
+      },
+      "desserts-0": {
+        "name": "Mango pudding",
+        "category": "Desserts",
+        "image": "assets/doober/restaurant-0-desserts-0.png"
+      },
+      "desserts-1": {
+        "name": "Black sesame ice cream",
+        "category": "Desserts",
+        "image": "assets/doober/restaurant-0-desserts-1.png"
+      },
+      "desserts-2": {
+        "name": "Red bean buns",
+        "category": "Desserts",
+        "image": "assets/doober/restaurant-0-desserts-2.png"
+      },
+      "desserts-3": {
+        "name": "Coconut sago",
+        "category": "Desserts",
+        "image": "assets/doober/restaurant-0-desserts-3.png"
+      },
+      "drinks-0": {
+        "name": "Jasmine tea",
+        "category": "Drinks",
+        "image": "assets/doober/restaurant-0-drinks-0.png"
+      },
+      "drinks-1": {
+        "name": "Lychee soda",
+        "category": "Drinks",
+        "image": "assets/doober/restaurant-0-drinks-1.png"
+      },
+      "drinks-2": {
+        "name": "Iced lemon tea",
+        "category": "Drinks",
+        "image": "assets/doober/restaurant-0-drinks-2.png"
+      },
+      "drinks-3": {
+        "name": "Plum juice",
+        "category": "Drinks",
+        "image": "assets/doober/restaurant-0-drinks-3.png"
+      }
+    },
+    "Mario's Pizza": {
+      "entrees-0": {
+        "name": "Tomato bruschetta",
+        "category": "Entrees",
+        "image": "assets/doober/restaurant-1-entrees-0.png"
+      },
+      "entrees-1": {
+        "name": "Caprese salad",
+        "category": "Entrees",
+        "image": "assets/doober/restaurant-1-entrees-1.png"
+      },
+      "entrees-2": {
+        "name": "Arancini",
+        "category": "Entrees",
+        "image": "assets/doober/restaurant-1-entrees-2.png"
+      },
+      "entrees-3": {
+        "name": "Minestrone",
+        "category": "Entrees",
+        "image": "assets/doober/restaurant-1-entrees-3.png"
+      },
+      "sides-0": {
+        "name": "Garlic bread",
+        "category": "Sides",
+        "image": "assets/doober/restaurant-1-sides-0.png"
+      },
+      "sides-1": {
+        "name": "Rosemary potatoes",
+        "category": "Sides",
+        "image": "assets/doober/restaurant-1-sides-1.png"
+      },
+      "sides-2": {
+        "name": "Garden salad",
+        "category": "Sides",
+        "image": "assets/doober/restaurant-1-sides-2.png"
+      },
+      "sides-3": {
+        "name": "Mozzarella sticks",
+        "category": "Sides",
+        "image": "assets/doober/restaurant-1-sides-3.png"
+      },
+      "mains-0": {
+        "name": "Margherita pizza",
+        "category": "Mains",
+        "image": "assets/doober/restaurant-1-mains-0.png"
+      },
+      "mains-1": {
+        "name": "Pepperoni pizza",
+        "category": "Mains",
+        "image": "assets/doober/restaurant-1-mains-1.png"
+      },
+      "mains-2": {
+        "name": "Roasted vegetable pizza",
+        "category": "Mains",
+        "image": "assets/doober/restaurant-1-mains-2.png"
+      },
+      "mains-3": {
+        "name": "Spaghetti bolognese",
+        "category": "Mains",
+        "image": "assets/doober/restaurant-1-mains-3.png"
+      },
+      "desserts-0": {
+        "name": "Tiramisu",
+        "category": "Desserts",
+        "image": "assets/doober/restaurant-1-desserts-0.png"
+      },
+      "desserts-1": {
+        "name": "Chocolate cannoli",
+        "category": "Desserts",
+        "image": "assets/doober/restaurant-1-desserts-1.png"
+      },
+      "desserts-2": {
+        "name": "Vanilla panna cotta",
+        "category": "Desserts",
+        "image": "assets/doober/restaurant-1-desserts-2.png"
+      },
+      "desserts-3": {
+        "name": "Lemon gelato",
+        "category": "Desserts",
+        "image": "assets/doober/restaurant-1-desserts-3.png"
+      },
+      "drinks-0": {
+        "name": "Chinotto",
+        "category": "Drinks",
+        "image": "assets/doober/restaurant-1-drinks-0.png"
+      },
+      "drinks-1": {
+        "name": "Lemon soda",
+        "category": "Drinks",
+        "image": "assets/doober/restaurant-1-drinks-1.png"
+      },
+      "drinks-2": {
+        "name": "Sparkling water",
+        "category": "Drinks",
+        "image": "assets/doober/restaurant-1-drinks-2.png"
+      },
+      "drinks-3": {
+        "name": "Iced espresso",
+        "category": "Drinks",
+        "image": "assets/doober/restaurant-1-drinks-3.png"
+      }
+    },
+    "Campus Café": {
+      "entrees-0": {
+        "name": "Tomato soup",
+        "category": "Entrees",
+        "image": "assets/doober/restaurant-2-entrees-0.png"
+      },
+      "entrees-1": {
+        "name": "Pumpkin soup",
+        "category": "Entrees",
+        "image": "assets/doober/restaurant-2-entrees-1.png"
+      },
+      "entrees-2": {
+        "name": "Mini quiches",
+        "category": "Entrees",
+        "image": "assets/doober/restaurant-2-entrees-2.png"
+      },
+      "entrees-3": {
+        "name": "Avocado crostini",
+        "category": "Entrees",
+        "image": "assets/doober/restaurant-2-entrees-3.png"
+      },
+      "sides-0": {
+        "name": "Sweet potato fries",
+        "category": "Sides",
+        "image": "assets/doober/restaurant-2-sides-0.png"
+      },
+      "sides-1": {
+        "name": "Hash browns",
+        "category": "Sides",
+        "image": "assets/doober/restaurant-2-sides-1.png"
+      },
+      "sides-2": {
+        "name": "Mixed leaves",
+        "category": "Sides",
+        "image": "assets/doober/restaurant-2-sides-2.png"
+      },
+      "sides-3": {
+        "name": "Buttered sourdough",
+        "category": "Sides",
+        "image": "assets/doober/restaurant-2-sides-3.png"
+      },
+      "mains-0": {
+        "name": "Chicken pesto sandwich",
+        "category": "Mains",
+        "image": "assets/doober/restaurant-2-mains-0.png"
+      },
+      "mains-1": {
+        "name": "Falafel wrap",
+        "category": "Mains",
+        "image": "assets/doober/restaurant-2-mains-1.png"
+      },
+      "mains-2": {
+        "name": "Mushroom toastie",
+        "category": "Mains",
+        "image": "assets/doober/restaurant-2-mains-2.png"
+      },
+      "mains-3": {
+        "name": "Breakfast bowl",
+        "category": "Mains",
+        "image": "assets/doober/restaurant-2-mains-3.png"
+      },
+      "desserts-0": {
+        "name": "Chocolate brownie",
+        "category": "Desserts",
+        "image": "assets/doober/restaurant-2-desserts-0.png"
+      },
+      "desserts-1": {
+        "name": "Carrot cake",
+        "category": "Desserts",
+        "image": "assets/doober/restaurant-2-desserts-1.png"
+      },
+      "desserts-2": {
+        "name": "Blueberry muffin",
+        "category": "Desserts",
+        "image": "assets/doober/restaurant-2-desserts-2.png"
+      },
+      "desserts-3": {
+        "name": "Banana bread",
+        "category": "Desserts",
+        "image": "assets/doober/restaurant-2-desserts-3.png"
+      },
+      "drinks-0": {
+        "name": "Flat white",
+        "category": "Drinks",
+        "image": "assets/doober/restaurant-2-drinks-0.png"
+      },
+      "drinks-1": {
+        "name": "Iced latte",
+        "category": "Drinks",
+        "image": "assets/doober/restaurant-2-drinks-1.png"
+      },
+      "drinks-2": {
+        "name": "Matcha latte",
+        "category": "Drinks",
+        "image": "assets/doober/restaurant-2-drinks-2.png"
+      },
+      "drinks-3": {
+        "name": "Berry smoothie",
+        "category": "Drinks",
+        "image": "assets/doober/restaurant-2-drinks-3.png"
+      }
+    },
+    "Riverside Kitchen": {
+      "entrees-0": {
+        "name": "Corn fritters",
+        "category": "Entrees",
+        "image": "assets/doober/restaurant-3-entrees-0.png"
+      },
+      "entrees-1": {
+        "name": "Hummus and pita",
+        "category": "Entrees",
+        "image": "assets/doober/restaurant-3-entrees-1.png"
+      },
+      "entrees-2": {
+        "name": "Crispy cauliflower",
+        "category": "Entrees",
+        "image": "assets/doober/restaurant-3-entrees-2.png"
+      },
+      "entrees-3": {
+        "name": "Prawn skewers",
+        "category": "Entrees",
+        "image": "assets/doober/restaurant-3-entrees-3.png"
+      },
+      "sides-0": {
+        "name": "Seasoned fries",
+        "category": "Sides",
+        "image": "assets/doober/restaurant-3-sides-0.png"
+      },
+      "sides-1": {
+        "name": "Coleslaw",
+        "category": "Sides",
+        "image": "assets/doober/restaurant-3-sides-1.png"
+      },
+      "sides-2": {
+        "name": "Grilled corn",
+        "category": "Sides",
+        "image": "assets/doober/restaurant-3-sides-2.png"
+      },
+      "sides-3": {
+        "name": "Roasted vegetables",
+        "category": "Sides",
+        "image": "assets/doober/restaurant-3-sides-3.png"
+      },
+      "mains-0": {
+        "name": "Classic beef burger",
+        "category": "Mains",
+        "image": "assets/doober/restaurant-3-mains-0.png"
+      },
+      "mains-1": {
+        "name": "Grilled fish plate",
+        "category": "Mains",
+        "image": "assets/doober/restaurant-3-mains-1.png"
+      },
+      "mains-2": {
+        "name": "Chickpea burger",
+        "category": "Mains",
+        "image": "assets/doober/restaurant-3-mains-2.png"
+      },
+      "mains-3": {
+        "name": "Lemon chicken bowl",
+        "category": "Mains",
+        "image": "assets/doober/restaurant-3-mains-3.png"
+      },
+      "desserts-0": {
+        "name": "Apple crumble",
+        "category": "Desserts",
+        "image": "assets/doober/restaurant-3-desserts-0.png"
+      },
+      "desserts-1": {
+        "name": "Cheesecake",
+        "category": "Desserts",
+        "image": "assets/doober/restaurant-3-desserts-1.png"
+      },
+      "desserts-2": {
+        "name": "Chocolate mousse",
+        "category": "Desserts",
+        "image": "assets/doober/restaurant-3-desserts-2.png"
+      },
+      "desserts-3": {
+        "name": "Fruit salad",
+        "category": "Desserts",
+        "image": "assets/doober/restaurant-3-desserts-3.png"
+      },
+      "drinks-0": {
+        "name": "Ginger beer",
+        "category": "Drinks",
+        "image": "assets/doober/restaurant-3-drinks-0.png"
+      },
+      "drinks-1": {
+        "name": "Orange juice",
+        "category": "Drinks",
+        "image": "assets/doober/restaurant-3-drinks-1.png"
+      },
+      "drinks-2": {
+        "name": "Peach iced tea",
+        "category": "Drinks",
+        "image": "assets/doober/restaurant-3-drinks-2.png"
+      },
+      "drinks-3": {
+        "name": "Mineral water",
+        "category": "Drinks",
+        "image": "assets/doober/restaurant-3-drinks-3.png"
+      }
+    }
+  }
+}
