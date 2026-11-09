@@ -1,0 +1,31 @@
+Built-in image_gen. Shared specification: one square Grove gallery image, polished contemporary anime/manhwa illustration, fine contours, refined shading, soft natural light. No UI, captions, watermark, borders or collage. Still-life and nature images generated without people or reference images. Selfies use assets/portraits/amy-selection.png: adult Amy Hansen age 19, ginger chin-length bob, hazel eyes, faint freckles, preserve face and build.
+
+01-window-books
+Object-only still life of a small stack of well-worn books and an open paperback on a wooden window seat, mug of tea and knitted rust blanket, soft rain on window. Oblique close-up, no people, no readable titles or text.
+
+02-library-books
+Object-only phone photo looking down a quiet university library aisle with beautiful wooden shelves, stacks of books on a small reading desk in foreground and a paper bookmark. Late afternoon light. No people, no readable text.
+
+03-watercolour-desk
+Object-only overhead phone photo of Amy's painting desk, original unfinished watercolor of river reeds on textured paper, ceramic palette with sage blue and ochre washes, brushes and cloudy paint water. Natural creative mess, no people, no text.
+
+04-painting-easel
+Object-only phone photo of an original small landscape painting on a wooden easel: loose painterly woodland sunlight and a winding stream. Paint tubes and rag on stool nearby, cosy student art corner, evening lamp. No people, no readable text.
+
+05-philosophy-notes
+Object-only overhead study photograph: open philosophy book with pages rendered as indistinct fine lines, notebook of a hand-drawn branching argument diagram using circles and arrows but no words, two pencils and tea, paper tabs, warm lamplight. No people and no readable text.
+
+06-philosophy-window
+Object-only quiet contemplative study photograph, a closed clothbound philosophy book with blank spine on a cafe table, a small notebook and fountain pen next to it, empty chair and window framing an old tree in rain. Focus on book and window reflection, cool daylight. No people, no readable text.
+
+07-studio-selfie
+Adult Amy taking an arm-length selfie in her painting nook, small shy smile, a tiny paint smudge on her cheek, free hand holding a paintbrush beside her shoulder, ivory t-shirt under muted rust cardigan, copper ginger bob, unfinished landscape blurred behind her. Candid close-up, warm afternoon.
+
+08-walk-selfie
+Adult Amy taking a different arm-length selfie outside among trees, head tilted slightly, laughing gently with eyes narrowed, free hand tucking ginger bob behind one ear, sage knit sweater and canvas tote on shoulder. Waist-up crop, dappled morning sunshine.
+
+09-river-reeds
+Nature-only phone photograph taken by Amy, low view of delicate reeds and tiny white wildflowers along a quiet river, water reflecting pale gold sunset and soft ripples, painterly natural colors. No humans, no buildings, no text.
+
+10-forest-light
+Nature-only phone photo taken by Amy, upward view along a mossy woodland path toward sunlight through fresh green leaves, small ferns and soft shadows across roots, tranquil composition with a tiny red leaf in foreground. No people, no text.

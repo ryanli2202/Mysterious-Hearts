@@ -1,0 +1,172 @@
+{
+  "tool": "Built-in image_gen",
+  "supporting_cast": "Original unnamed adult producers and idols; not additions to the game character roster.",
+  "images": [
+    {
+      "file": "11-valentina-marina.png",
+      "category": "family",
+      "subjects": [
+        "ivan",
+        "valentina"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square in-game Grove social gallery photo in polished contemporary romance anime/manhwa illustration style matching supplied portrait, refined cel shading, fine tapered linework, rich drawn environment. Reference 1 is fictional adult Ivan Yeun, age 24, tall 193cm, broad-shouldered lean athletic build, swept tousled ash-brown hair with taupe highlights, pale grey-green eyes, light freckles across nose and cheeks, handsome mature angular face, round silver stud earrings. Preserve these recognizable features. Reference 2 when present is his adult adoptive sister Valentina, age 24, short tousled silver-grey bob, RED eyes as portrait, lean athletic build; strictly familial sibling affection. Reference portraits are identity guides, not composition. No tattoos, lip piercings, invented scars, text, logos, watermark, UI, borders or collage. Natural hands and anatomy. All subjects adults. Scene: Ivan and his adoptive sister Valentina standing beside a restored sailing dinghy at a sunny marina. Valentina wears her practical navy sailing vest over sage top, proudly rests one hand on the varnished gunwale; Ivan in cream casual overshirt and dark trousers holds a loosely coiled rope and grins at her. Warm strictly familial companionship, natural waist-up candid showing both faces, harbour detail and gentle water reflections.",
+      "caption": "She restored the boat. I have been trusted with the rope.",
+      "comment": {
+        "author": "valentina",
+        "text": "After a very thorough knot inspection."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/ivan-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/valentina-selection.png"
+      ]
+    },
+    {
+      "file": "12-valentina-breakfast.png",
+      "category": "family",
+      "subjects": [
+        "ivan",
+        "valentina"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square in-game Grove social gallery photo in polished contemporary romance anime/manhwa illustration style matching supplied portrait, refined cel shading, fine tapered linework, rich drawn environment. Reference 1 is fictional adult Ivan Yeun, age 24, tall 193cm, broad-shouldered lean athletic build, swept tousled ash-brown hair with taupe highlights, pale grey-green eyes, light freckles across nose and cheeks, handsome mature angular face, round silver stud earrings. Preserve these recognizable features. Reference 2 when present is his adult adoptive sister Valentina, age 24, short tousled silver-grey bob, RED eyes as portrait, lean athletic build; strictly familial sibling affection. Reference portraits are identity guides, not composition. No tattoos, lip piercings, invented scars, text, logos, watermark, UI, borders or collage. Natural hands and anatomy. All subjects adults. Scene: Ivan and his adoptive sister Valentina sharing an easy weekend breakfast at their home by the harbour. Both seated next to each other at a small wooden table, smiling at a little old tabletop radio between toast and teacups. Ivan wears soft oatmeal sweatshirt; Valentina sage green casual knit top, her short silver bob and red eyes preserved. Natural sibling warmth, sunlit window, a folded sail on a nearby chair. Waist-up candid, strictly familial, no romantic posing.",
+      "caption": "Breakfast, the radio, and no reason to rush.",
+      "comment": {
+        "author": "valentina",
+        "text": "The second verse is still mine."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/ivan-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/valentina-selection.png"
+      ]
+    },
+    {
+      "file": "13-valentina-pier-selfie.png",
+      "category": "family",
+      "subjects": [
+        "ivan",
+        "valentina"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square in-game Grove social gallery photo in polished contemporary romance anime/manhwa illustration style matching supplied portrait, refined cel shading, fine tapered linework, rich drawn environment. Reference 1 is fictional adult Ivan Yeun, age 24, tall 193cm, broad-shouldered lean athletic build, swept tousled ash-brown hair with taupe highlights, pale grey-green eyes, light freckles across nose and cheeks, handsome mature angular face, round silver stud earrings. Preserve these recognizable features. Reference 2 when present is his adult adoptive sister Valentina, age 24, short tousled silver-grey bob, RED eyes as portrait, lean athletic build; strictly familial sibling affection. Reference portraits are identity guides, not composition. No tattoos, lip piercings, invented scars, text, logos, watermark, UI, borders or collage. Natural hands and anatomy. All subjects adults. Scene: A cheerful close phone selfie of Ivan and his adoptive sister Valentina on a breezy harbour pier at sunset. Ivan's extended arm goes out of frame holding camera; both faces unobscured, Ivan laughs and Valentina gives a playful small peace sign near her own shoulder. Ivan dark denim jacket, Valentina navy windbreaker over sage tee. Short silver hair wind-tousled, red eyes; sibling energy, casual shoulders side by side, boats blurred behind.",
+      "caption": "Off duty. Still being told where to stand.",
+      "comment": {
+        "author": "valentina",
+        "text": "Away from the edge was a reasonable suggestion."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/ivan-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/valentina-selection.png"
+      ]
+    },
+    {
+      "file": "14-burgundy-fashion.png",
+      "category": "modelling",
+      "subjects": [
+        "ivan"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square in-game Grove social gallery photo in polished contemporary romance anime/manhwa illustration style matching supplied portrait, refined cel shading, fine tapered linework, rich drawn environment. Reference 1 is fictional adult Ivan Yeun, age 24, tall 193cm, broad-shouldered lean athletic build, swept tousled ash-brown hair with taupe highlights, pale grey-green eyes, light freckles across nose and cheeks, handsome mature angular face, round silver stud earrings. Preserve these recognizable features. Reference 2 when present is his adult adoptive sister Valentina, age 24, short tousled silver-grey bob, RED eyes as portrait, lean athletic build; strictly familial sibling affection. Reference portraits are identity guides, not composition. No tattoos, lip piercings, invented scars, text, logos, watermark, UI, borders or collage. Natural hands and anatomy. All subjects adults. Scene: Solo professional fashion shoot of Ivan in a beautifully tailored burgundy double-breasted suit over a black silk shirt, silver stud earrings. Leaning lightly against a warm stone column, one hand in trouser pocket, head tilted with calm direct eye contact. Three-quarter body frame, rich warm light and architectural shadows, elegant magazine editorial composition, polished fabric texture, no other people.",
+      "caption": "A different shade for this shoot.",
+      "comment": {
+        "author": "rei",
+        "text": "the colour works."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/ivan-selection.png"
+      ]
+    },
+    {
+      "file": "15-denim-daylight-editorial.png",
+      "category": "modelling",
+      "subjects": [
+        "ivan"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square in-game Grove social gallery photo in polished contemporary romance anime/manhwa illustration style matching supplied portrait, refined cel shading, fine tapered linework, rich drawn environment. Reference 1 is fictional adult Ivan Yeun, age 24, tall 193cm, broad-shouldered lean athletic build, swept tousled ash-brown hair with taupe highlights, pale grey-green eyes, light freckles across nose and cheeks, handsome mature angular face, round silver stud earrings. Preserve these recognizable features. Reference 2 when present is his adult adoptive sister Valentina, age 24, short tousled silver-grey bob, RED eyes as portrait, lean athletic build; strictly familial sibling affection. Reference portraits are identity guides, not composition. No tattoos, lip piercings, invented scars, text, logos, watermark, UI, borders or collage. Natural hands and anatomy. All subjects adults. Scene: Solo daylight fashion editorial of Ivan wearing a fitted white tee beneath an open indigo denim jacket with matching dark jeans, seated sideways on a low modern concrete bench, one forearm resting naturally on knee, looking at camera with a relaxed half smile. Bright loft with tall windows, crisp morning shadows, head through knees, natural freckles visible, tasteful contemporary casualwear campaign.",
+      "caption": "The easiest outfit on the rack. Still took an hour.",
+      "comment": {
+        "author": "sophie",
+        "text": "At least that one looks comfortable."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/ivan-selection.png"
+      ]
+    },
+    {
+      "file": "16-silver-studio-editorial.png",
+      "category": "modelling",
+      "subjects": [
+        "ivan"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square in-game Grove social gallery photo in polished contemporary romance anime/manhwa illustration style matching supplied portrait, refined cel shading, fine tapered linework, rich drawn environment. Reference 1 is fictional adult Ivan Yeun, age 24, tall 193cm, broad-shouldered lean athletic build, swept tousled ash-brown hair with taupe highlights, pale grey-green eyes, light freckles across nose and cheeks, handsome mature angular face, round silver stud earrings. Preserve these recognizable features. Reference 2 when present is his adult adoptive sister Valentina, age 24, short tousled silver-grey bob, RED eyes as portrait, lean athletic build; strictly familial sibling affection. Reference portraits are identity guides, not composition. No tattoos, lip piercings, invented scars, text, logos, watermark, UI, borders or collage. Natural hands and anatomy. All subjects adults. Scene: Solo high-fashion studio portrait of Ivan in a shimmering silver-grey satin shirt with modestly open collar and tailored charcoal trousers. Standing in three-quarter turn, one hand gently adjusting opposite cuff, eyes toward lens, swept ash brown hair, freckles and grey-green eyes clear. Dark slate seamless backdrop, beautiful soft silver rim light, waist-up medium portrait. Refined expensive styling and calm magnetic expression.",
+      "caption": "Last frame from the silver set.",
+      "comment": {
+        "author": "samantha",
+        "text": "That lighting is beautiful."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/ivan-selection.png"
+      ]
+    },
+    {
+      "file": "17-producer-playback.png",
+      "category": "producers",
+      "subjects": [
+        "ivan"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square in-game Grove social gallery photo in polished contemporary romance anime/manhwa illustration style matching supplied portrait, refined cel shading, fine tapered linework, rich drawn environment. Reference 1 is fictional adult Ivan Yeun, age 24, tall 193cm, broad-shouldered lean athletic build, swept tousled ash-brown hair with taupe highlights, pale grey-green eyes, light freckles across nose and cheeks, handsome mature angular face, round silver stud earrings. Preserve these recognizable features. Reference 2 when present is his adult adoptive sister Valentina, age 24, short tousled silver-grey bob, RED eyes as portrait, lean athletic build; strictly familial sibling affection. Reference portraits are identity guides, not composition. No tattoos, lip piercings, invented scars, text, logos, watermark, UI, borders or collage. Natural hands and anatomy. All subjects adults. Scene: Ivan with TWO original fictional adult music producers in a professional recording studio control room, candid playback session. Ivan in black casual knit shirt sits centre listening attentively at a large mixing console; producer on left is a woman about 35 with dark curly shoulder-length hair, amber glasses and rust cardigan; producer on right is a man about 40 with short dark hair, neat beard and navy sweatshirt, pointing at a console fader. Three distinct people total, comfortable collaborative body language, nearfield speakers and acoustic panels, monitor has abstract waveforms without readable text, warm low lighting, all faces visible. Supporting people not based on celebrities.",
+      "caption": "Listening back with the people who hear everything.",
+      "comment": {
+        "author": "minsu",
+        "text": "I would have asked to hear it one more time."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/ivan-selection.png"
+      ]
+    },
+    {
+      "file": "18-producer-piano-session.png",
+      "category": "producers",
+      "subjects": [
+        "ivan"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square in-game Grove social gallery photo in polished contemporary romance anime/manhwa illustration style matching supplied portrait, refined cel shading, fine tapered linework, rich drawn environment. Reference 1 is fictional adult Ivan Yeun, age 24, tall 193cm, broad-shouldered lean athletic build, swept tousled ash-brown hair with taupe highlights, pale grey-green eyes, light freckles across nose and cheeks, handsome mature angular face, round silver stud earrings. Preserve these recognizable features. Reference 2 when present is his adult adoptive sister Valentina, age 24, short tousled silver-grey bob, RED eyes as portrait, lean athletic build; strictly familial sibling affection. Reference portraits are identity guides, not composition. No tattoos, lip piercings, invented scars, text, logos, watermark, UI, borders or collage. Natural hands and anatomy. All subjects adults. Scene: Ivan collaborating with ONE original fictional adult female music producer at an upright studio piano. Producer about 30, deep brown skin, short natural black curls, thin gold glasses, muted terracotta overshirt, seated at piano playing a chord; Ivan in cream cable-knit sweater stands beside piano humming a melody with a small engaged smile, one hand loosely marking time. Both faces and piano keys visible, warm desk lamp, acoustic wood panels, notebook closed on piano. Casual candid songwriting session, two people total, no readable notes, no celebrity likeness.",
+      "caption": "We found the bridge at the piano.",
+      "comment": {
+        "author": "valentina",
+        "text": "You always come back to the keys."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/ivan-selection.png"
+      ]
+    },
+    {
+      "file": "19-idols-backstage.png",
+      "category": "idols",
+      "subjects": [
+        "ivan"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square in-game Grove social gallery photo in polished contemporary romance anime/manhwa illustration style matching supplied portrait, refined cel shading, fine tapered linework, rich drawn environment. Reference 1 is fictional adult Ivan Yeun, age 24, tall 193cm, broad-shouldered lean athletic build, swept tousled ash-brown hair with taupe highlights, pale grey-green eyes, light freckles across nose and cheeks, handsome mature angular face, round silver stud earrings. Preserve these recognizable features. Reference 2 when present is his adult adoptive sister Valentina, age 24, short tousled silver-grey bob, RED eyes as portrait, lean athletic build; strictly familial sibling affection. Reference portraits are identity guides, not composition. No tattoos, lip piercings, invented scars, text, logos, watermark, UI, borders or collage. Natural hands and anatomy. All subjects adults. Scene: Ivan posing for a cheerful backstage photo with TWO other original fictional adult K-pop idols, all about 25 or older. Ivan tallest in centre, recognizable ash-brown waves, freckles, grey-green eyes, black tailored stage jacket with subtle silver trim. Male idol left has short ink-blue hair, dark eyes and a white cropped stage jacket over a black shirt; female idol right has long auburn hair in a high ponytail, dark eyes, fully clothed emerald tailored stage pantsuit. Relaxed smiles and small peace signs, friendly colleagues after a music show. Exactly three distinct people, no cloned faces, backstage curtains and soft vanity lights, waist-up group framing, no real celebrities, no readable logos.",
+      "caption": "Three sets finished. Finally time to say hello.",
+      "comment": {
+        "author": "emily",
+        "text": "You all look so happy after the show."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/ivan-selection.png"
+      ]
+    },
+    {
+      "file": "20-idols-rehearsal-break.png",
+      "category": "idols",
+      "subjects": [
+        "ivan"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square in-game Grove social gallery photo in polished contemporary romance anime/manhwa illustration style matching supplied portrait, refined cel shading, fine tapered linework, rich drawn environment. Reference 1 is fictional adult Ivan Yeun, age 24, tall 193cm, broad-shouldered lean athletic build, swept tousled ash-brown hair with taupe highlights, pale grey-green eyes, light freckles across nose and cheeks, handsome mature angular face, round silver stud earrings. Preserve these recognizable features. Reference 2 when present is his adult adoptive sister Valentina, age 24, short tousled silver-grey bob, RED eyes as portrait, lean athletic build; strictly familial sibling affection. Reference portraits are identity guides, not composition. No tattoos, lip piercings, invented scars, text, logos, watermark, UI, borders or collage. Natural hands and anatomy. All subjects adults. Scene: Ivan sitting on a dance studio floor with TWO original fictional adult male K-pop idol colleagues during a rehearsal break, all 25 or older, exactly three people. Ivan centre in light grey tee and black track trousers, one knee raised and smiling warmly at a joke. Idol left has short platinum blond hair with dark roots, deep brown eyes, navy tracksuit; idol right has warm brown skin, short wavy black hair, dark eyes and forest green tee with black joggers. Towels and closed water bottles nearby, polished wooden floor and bright windows; no mirror duplicates. Natural relaxed friendship and distinct faces, medium-wide framing including heads and bent knees, no real celebrity likeness.",
+      "caption": "The break had better choreography than the rehearsal.",
+      "comment": {
+        "author": "rei",
+        "text": "keep that version."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/ivan-selection.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+Built-in image_gen; final scene prompts. All images: square polished contemporary anime/manhwa illustration, refined shading, no text/UI/watermarks. Human scenes use assets/portraits/emily-selection.png as identity reference. Object scenes generated without reference, no people or reflections.
+
+01-flower-shop-selfie
+Adult Emily takes an arm-length close-up selfie at the flower shop, head tilted, warm shy smile, free hand holding a lavender sprig beside her cheek. Cream blouse and blue pinafore. Flowers softly behind her.
+
+02-cosy-selfie
+Adult Emily takes a high-angle arm-length selfie sitting on a sofa, laughing with eyes slightly narrowed, long blonde hair over one shoulder, pale lilac cardigan. Casual candid crop, soft afternoon window light.
+
+03-tulips
+A phone photo of fresh pink and cream tulips in a glass vase on a flower shop workbench, water droplets and twine, morning side lighting. No people.
+
+04-garden-flowers
+A close low-angle phone photograph of flowering lavender and small white daisies in a garden after rain, dew drops, dreamy late sun. No people.
+
+05-lego-cottage
+A phone photograph of a charming small LEGO brick cottage with a blue roof and tiny flower garden, sitting on a wooden hobby desk with a few spare studded bricks. Three-quarter close-up view, cosy lamplight. No people.
+
+06-lego-bouquet
+An overhead phone photo of a LEGO flower bouquet under construction on a cream desk: pink brick flowers, green stems, sorted pieces in small bowls, one completed flower lying diagonally. Clearly plastic studded construction bricks. No people.
+
+07-mirror-cardigan
+Adult Emily taking a full-length mirror selfie in a tidy cosy bedroom, phone in one hand at shoulder height, other hand tucked into cardigan pocket, one knee bent casually. Sage cardigan over ivory top and long pleated blue skirt. Long blonde hair with bangs, round glasses and blue eyes preserved.
+
+08-mirror-pinafore
+Adult Emily taking a different mirror selfie, seated sideways on a small stool before a tall bedroom mirror, phone raised in right hand, left hand smoothing hair behind ear, gentle smile. Cream lace blouse and blue pinafore from reference. Three-quarter seated pose, warm evening lamplight.

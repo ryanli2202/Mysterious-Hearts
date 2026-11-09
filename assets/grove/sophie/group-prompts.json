@@ -1,0 +1,161 @@
+{
+  "tool": "Built-in image_gen",
+  "images": [
+    {
+      "file": "13-rei-riverside.png",
+      "subjects": [
+        "sophie",
+        "rei"
+      ],
+      "published_at": "2049-09-14T16:35",
+      "caption": "Took Rei on a walk. He gave the ducks a design review.",
+      "comment": {
+        "author": "rei",
+        "text": "strong silhouettes. questionable manners."
+      },
+      "prompt": "Create ONE square Grove gallery photo in polished contemporary anime/manhwa illustration, refined cel shading fine linework and rich natural setting. Preserve reference identities and distinct faces. Exact subject count, only the named subjects, natural hands and anatomy. Friendly candid, no romantic posing, text, borders, watermark, UI or collage. Sophie: brunette high ponytail, green eyes, athletic build, forest-green casual sports jacket. Rei: tousled layered black hair, grey eyes, paired lower-lip piercings, silver earrings, canonical neck tattoos, black long-sleeve casual shirt covering arms. All subjects adults. Two adult friends Sophie and Rei on a riverside walk, Sophie laughing and pointing at a tiny duck while Rei calmly presents a sketchbook with a loose duck sketch (no lettering). Candid waist-up, autumn light. Identity references in order: sophie, rei.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sophie-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-selection.png"
+      ]
+    },
+    {
+      "file": "14-rei-arcade.png",
+      "subjects": [
+        "sophie",
+        "rei"
+      ],
+      "published_at": "2049-10-02T18:15",
+      "caption": "Athletic performance: excellent. Prize selection: tiny duck.",
+      "comment": {
+        "author": "rei",
+        "text": "the duck earned its place."
+      },
+      "prompt": "Create ONE square Grove gallery photo in polished contemporary anime/manhwa illustration, refined cel shading fine linework and rich natural setting. Preserve reference identities and distinct faces. Exact subject count, only the named subjects, natural hands and anatomy. Friendly candid, no romantic posing, text, borders, watermark, UI or collage. Sophie: brunette high ponytail, green eyes, athletic build, forest-green casual sports jacket. Rei: tousled layered black hair, grey eyes, paired lower-lip piercings, silver earrings, canonical neck tattoos, black long-sleeve casual shirt covering arms. All subjects adults. Two adult friends Sophie and Rei at an arcade basketball hoop machine. Sophie holds a basketball at her hip and laughs while Rei sheepishly holds a tiny plush duck prize. Neon reflections, friendly unposed moment, no legible signage. Identity references in order: sophie, rei.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sophie-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-selection.png"
+      ]
+    },
+    {
+      "file": "15-emily-flower-market.png",
+      "subjects": [
+        "sophie",
+        "emily"
+      ],
+      "published_at": "2049-10-18T11:40",
+      "caption": "Emily picked the flowers. I provided carrying capacity.",
+      "comment": {
+        "author": "emily",
+        "text": "You also chose every sunflower."
+      },
+      "prompt": "Create ONE square Grove gallery photo in polished contemporary anime/manhwa illustration, refined cel shading fine linework and rich natural setting. Preserve reference identities and distinct faces. Exact subject count, only the named subjects, natural hands and anatomy. Friendly candid, no romantic posing, text, borders, watermark, UI or collage. Sophie: brunette high ponytail, green eyes, athletic build, forest-green casual sports jacket. Emily: petite, very long straight blonde hair with blunt bangs, blue eyes, round glasses, cream and dusty-blue modest clothing. All subjects adults. Two adult friends Sophie and petite Emily browsing flower buckets at a sunny outdoor flower stall. Sophie carries a large bunch of sunflowers, Emily in blue cardigan and cream blouse carefully selects a small bunch of daisies. Both smiling together, relaxed friendship. Identity references in order: sophie, emily.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sophie-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/emily-selection.png"
+      ]
+    },
+    {
+      "file": "16-rei-emily-game-night.png",
+      "subjects": [
+        "sophie",
+        "rei",
+        "emily"
+      ],
+      "published_at": "2049-11-09T19:10",
+      "caption": "Apparently game night is not improved by announcing a personal best.",
+      "comment": {
+        "author": "rei",
+        "text": "the tower has lodged a complaint."
+      },
+      "prompt": "Create ONE square Grove gallery photo in polished contemporary anime/manhwa illustration, refined cel shading fine linework and rich natural setting. Preserve reference identities and distinct faces. Exact subject count, only the named subjects, natural hands and anatomy. Friendly candid, no romantic posing, text, borders, watermark, UI or collage. Sophie: brunette high ponytail, green eyes, athletic build, forest-green casual sports jacket. Rei: tousled layered black hair, grey eyes, paired lower-lip piercings, silver earrings, canonical neck tattoos, black long-sleeve casual shirt covering arms. Emily: petite, very long straight blonde hair with blunt bangs, blue eyes, round glasses, cream and dusty-blue modest clothing. All subjects adults. Exactly three adult friends Sophie Rei and petite Emily around a coffee table playing a colourful wooden stacking-block game. Sophie carefully pulls a block with intense focus, Rei amused with folded arms and Emily smiling with her hand near her mouth. Warm cosy living room, casual modest clothes. Identity references in order: sophie, rei, emily.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sophie-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/emily-selection.png"
+      ]
+    },
+    {
+      "file": "17-minsu-post-training.png",
+      "subjects": [
+        "sophie",
+        "minsu"
+      ],
+      "published_at": "2049-11-21T17:25",
+      "caption": "Recovery plan: stretch first, bakery second. Negotiations ongoing.",
+      "comment": {
+        "author": "minsu",
+        "text": "the bakery is part of the route. strategically."
+      },
+      "prompt": "Create ONE square Grove gallery photo in polished contemporary anime/manhwa illustration, refined cel shading fine linework and rich natural setting. Preserve reference identities and distinct faces. Exact subject count, only the named subjects, natural hands and anatomy. Friendly candid, no romantic posing, text, borders, watermark, UI or collage. Sophie: brunette high ponytail, green eyes, athletic build, forest-green casual sports jacket. Minsu: Korean young adult man, wavy parted black hair, brown eyes, athletic build, friendly grin, no tattoos, charcoal track jacket. All subjects adults. Exactly two adult friends Sophie and Minsu sitting on a park bench after a workout, both wearing loose athletic jackets and track pants. Sophie laughing with a smoothie and Minsu good-naturedly showing a small paper bag of pastries. Sunset, sports bags at their feet, no text. Identity references in order: sophie, minsu.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sophie-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/minsu-selection.png"
+      ]
+    },
+    {
+      "file": "18-rei-garrett-kitchen.png",
+      "subjects": [
+        "sophie",
+        "rei",
+        "garrett"
+      ],
+      "published_at": "2049-12-08T18:30",
+      "caption": "Conversation time counts, Garrett. Rei is my witness.",
+      "comment": {
+        "author": "garrett",
+        "text": "the audience kept asking excellent questions."
+      },
+      "prompt": "Create ONE square Grove gallery photo in polished contemporary anime/manhwa illustration, refined cel shading fine linework and rich natural setting. Preserve reference identities and distinct faces. Exact subject count, only the named subjects, natural hands and anatomy. Friendly candid, no romantic posing, text, borders, watermark, UI or collage. Sophie: brunette high ponytail, green eyes, athletic build, forest-green casual sports jacket. Rei: tousled layered black hair, grey eyes, paired lower-lip piercings, silver earrings, canonical neck tattoos, black long-sleeve casual shirt covering arms. Garrett: blond layered hair, golden eyes, gold earrings, neck tattoo, white long-sleeve shirt. All subjects adults. Exactly three adult friends Sophie Rei Garrett in a cosy kitchen serving snacks. Sophie holds a plain stopwatch and grins; blond Garrett in white shirt holds a platter of spring rolls while speaking animatedly; black-haired Rei in black shirt carries plates with a knowing smile. Nobody else present. Clear faces. Identity references in order: sophie, rei, garrett.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sophie-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/garrett-selection.png"
+      ]
+    },
+    {
+      "file": "19-school-paper-pigeon.png",
+      "subjects": [
+        "sophie",
+        "rei",
+        "emily",
+        "marcus"
+      ],
+      "published_at": "2046-11-12T12:35",
+      "caption": "Four people. One paper pigeon. Marcus insists it needs a bus timetable.",
+      "comment": {
+        "author": "emily",
+        "text": "The shelter needs a roof too. Working on it."
+      },
+      "prompt": "Create ONE square Grove gallery photo in polished contemporary anime/manhwa illustration, refined cel shading fine linework and rich natural setting. Preserve reference identities and distinct faces. Exact subject count, only the named subjects, natural hands and anatomy. Friendly candid, no romantic posing, text, borders, watermark, UI or collage. Historical photo from 2046. All characters teenagers as in their HIGH-SCHOOL portraits. Rei has NO TATTOOS. Exactly FOUR high-school friends, teenage Sophie Rei Emily and Marcus making a stop-motion paper-pigeon film in a classroom during a rainy lunch break. Marcus with auburn hair mustard cardigan positions a folded paper pigeon beside a cardboard bus shelter; petite blonde Emily with round glasses steadies the shelter; black-haired tattoo-free Rei sketches beside them; brunette ponytail Sophie holds a desk lamp to light the miniature. All four faces clear, a phone on a small tripod on desk, joyful candid. No tattoos on anyone, especially Rei's neck and forearms. Modest everyday school clothes. No other people. Identity references in order: sophie, rei, emily, marcus.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sophie-high-school.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-high-school.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/emily-high-school.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/marcus-high-school.png"
+      ]
+    },
+    {
+      "file": "20-school-puzzle-lunch.png",
+      "subjects": [
+        "sophie",
+        "rei",
+        "emily",
+        "marcus"
+      ],
+      "published_at": "2047-03-19T12:25",
+      "caption": "Marcus made a puzzle. I tried to speedrun it. Emily found the missing exit.",
+      "comment": {
+        "author": "rei",
+        "text": "added a bench. the stranded player deserves a rest."
+      },
+      "prompt": "Create ONE square Grove gallery photo in polished contemporary anime/manhwa illustration, refined cel shading fine linework and rich natural setting. Preserve reference identities and distinct faces. Exact subject count, only the named subjects, natural hands and anatomy. Friendly candid, no romantic posing, text, borders, watermark, UI or collage. Historical photo from 2047. All characters teenagers as in their HIGH-SCHOOL portraits. Rei has NO TATTOOS. Exactly FOUR high-school friends, teenage Sophie Rei Emily Marcus at a sunny school lunch table playing Marcus's graph-paper maze game. Auburn-haired freckled Marcus in mustard cardigan explains with a pencil and mock-serious smile, ponytailed Sophie grins leaning toward puzzle, petite blonde Emily with round glasses points to a dead end, black-haired tattoo-free Rei draws a tiny bench beside the maze. Lunch boxes, cloudy apple juice and a battered blue notebook. All four faces clear, ordinary happy teenage friendship, no uniforms or text. Absolutely NO tattoos anywhere on Rei or others. Identity references in order: sophie, rei, emily, marcus.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sophie-high-school.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-high-school.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/emily-high-school.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/marcus-high-school.png"
+      ]
+    }
+  ]
+}

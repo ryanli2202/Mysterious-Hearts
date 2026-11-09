@@ -1,0 +1,45 @@
+{
+  "tool": "Built-in image_gen",
+  "images": [
+    {
+      "slug": "01-workshop-selfie",
+      "prompt": "Create one square Grove social photo for Mysterious Hearts, contemporary romance anime illustration, fine tapered outlines, restrained cel shadows, detailed warm environment. Reference image is Yuriko's identity and drawing style: preserve face, chin-length tousled black bob, dark eyes, amber hair clip, petite adult 18-year-old. An informal arm-length selfie in her theatre-design workshop, olive overshirt and cream tee, small delighted grin, tiny paint smudge on cheek, cardboard miniature theatre visible behind her. Natural window light, candid phone perspective. Full bleed single image, no text, watermark, border or collage.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1af57-941c-7bf1-a5e8-a1c5e2e3e207\\exec-194ee5f4-f6c2-474b-9fff-a627a8fee149.png"
+    },
+    {
+      "slug": "02-miniature-set",
+      "prompt": "Use case: illustration-story. Single square full-bleed social photo rendered as contemporary romance anime background art, fine ink lines, clear cel shadows, soft afternoon light. Close phone snapshot of an intricate handmade cardboard miniature theatre set on a well-used green cutting mat: a tiny apartment interior with a window, miniature chair, unfinished staircase and tissue-paper curtains. Cardboard edges, pencil marks, small offcuts, ruler and capped glue bottle make this an honest theatre student's work in progress. Warm workshop window light. No person, no lettering, no watermark, no collage. This is Yuriko's personal Grove photo in Mysterious Hearts.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1af57-941c-7bf1-a5e8-a1c5e2e3e207\\exec-f42b4661-25ee-4264-ad55-cd998d44e60d.png"
+    },
+    {
+      "slug": "03-cosy-selfie",
+      "prompt": "Single square full bleed Grove social photo, contemporary romance anime illustration matching reference's fine linework and cel shadows. Reference image is identity/style only, not composition. Yuriko, adult 18, petite, light skin, dark eyes, tousled chin-length black bob and amber hair clip. Cozy evening at home selfie from arm's-length slightly above, relaxed small smile, wearing a loose rust-red knitted cardigan over cream top, couch and warm reading lamp behind her, a closed sketchbook resting nearby. Preserve reference face, casual believable phone framing, no other people, no text, no watermark, no collage.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1af57-941c-7bf1-a5e8-a1c5e2e3e207\\exec-14c69724-dcfb-46df-a652-e762cc3bcf41.png"
+    },
+    {
+      "slug": "04-back-row-test",
+      "prompt": "Use case illustration-story. Create a square full bleed phone snapshot in contemporary romance anime background illustration style, fine outlines, tactile painted textures and clear shadows. Yuriko the theatre-design student's Grove post: view from the very back row of a small empty university theatre toward a stage where a modest handmade scenic doorway and translucent blue fabric are lit by one warm amber spotlight. Rows of worn red seats in foreground, visible wings, practical work-in-progress feeling, no people. The clever silhouette reads clearly even from this distant cheap seat. No text, poster lettering, watermark, border or collage.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1af57-941c-7bf1-a5e8-a1c5e2e3e207\\exec-3b2076b1-9c57-4310-885b-c411b565aeee.png"
+    },
+    {
+      "slug": "05-riverside-selfie",
+      "prompt": "Single square full bleed Grove selfie in contemporary romance anime illustration. Use attached portrait for Yuriko's identity and drawing style only. Preserve petite adult 18-year-old face, light skin, tousled chin-length black bob, dark eyes, amber hair clip. She takes a candid outdoor arm-length selfie on a breezy autumn riverside walk, mustard scarf and dark denim jacket, cheerful laughing expression, a few hair strands windblown, rusty orange leaves and calm river behind. Natural overcast light, fresh different pose from portrait, believable casual composition. No other recognizable people, text, watermark, borders or collage.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1af57-941c-7bf1-a5e8-a1c5e2e3e207\\exec-0fb0121c-82f3-4fbc-b54e-6de18917d12f.png"
+    },
+    {
+      "slug": "06-dinner-at-home",
+      "prompt": "Use case illustration-story. Square full bleed social snapshot, contemporary romance anime illustration with fine outlines, clean cel shadows and warm kitchen light. Top-down casual photo of a simple dinner for two on a small apartment wooden table: two bowls of rice, miso soup, vegetable side dishes, chopsticks and an old translucent rice-cooker measuring cup by a compact well-used rice cooker at the edge. Comfortable lived-in home, no people, no legible labels. Posted by theatre student Yuriko after making dinner with her brother. Focus on food and everyday warmth, no romantic styling, no text, no watermark or collage.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1af57-941c-7bf1-a5e8-a1c5e2e3e207\\exec-c489ea16-3588-4edd-860e-c41895759cb8.png"
+    },
+    {
+      "slug": "07-backstage-selfie",
+      "prompt": "Single square full bleed Grove social photograph rendered as contemporary romance anime illustration, fine tapered linework and clear cel shadows matching reference. Reference is Yuriko identity only: petite adult age 18, light skin, tousled chin-length black bob, dark eyes, amber hair clip. Backstage mirror selfie: she is reflected holding one phone naturally in one hand at chest height, wearing cream tee under olive work shirt, sleeves rolled, dark trousers, a satisfied slightly tired smile after a scenic lighting test. Framed waist-up in a practical dressing-room mirror with a few warm bulbs; dark stage curtains and stacked unmarked prop boxes behind. Correct mirror and hands, just one person. No text, watermark, collage or border.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1af57-941c-7bf1-a5e8-a1c5e2e3e207\\exec-41617bab-9215-4fa9-b0b0-1f205c36d6c6.png"
+    },
+    {
+      "slug": "08-rainy-cafe-sketches",
+      "prompt": "Use case illustration-story. Single square full-bleed Grove phone snapshot rendered in warm contemporary romance anime background illustration, fine ink linework, restrained cel shadows and tactile materials. Overhead view of theatre design student Yuriko's cafe table on a rainy afternoon: open sketchbook containing only wordless pencil drawings of theatrical windows and archways, soft pencil, little paper architectural offcuts tucked into book, cup of hot tea and half-eaten pastry on a ceramic plate. Rain-streaked window at edge, moody blue outdoors and warm interior light. Ordinary personal moment, no people, no readable text, watermark, borders or collage.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1af57-941c-7bf1-a5e8-a1c5e2e3e207\\exec-41b626f0-8a66-4840-aa23-d89f941f9037.png"
+    }
+  ]
+}

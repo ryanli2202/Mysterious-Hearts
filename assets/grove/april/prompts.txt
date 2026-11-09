@@ -1,0 +1,25 @@
+Built-in image_gen. Shared specification: one square Grove social photo, polished contemporary anime/manhwa illustration, fine contours, refined shading, natural lighting, no UI/captions/watermark/collage/borders. Human scenes reference assets/portraits/april-selection.png: April Xu, adult age 21, petite adult proportions, shoulder-length straight dark brown side-parted hair, brown eyes, preserve face/build. Object-only scenes generated without references or people.
+
+01-science-books
+Object-only overhead phone photograph of science textbooks on a neat wooden study desk, one open to clean diagrams of orbital paths and a prism splitting light, rows of tiny indistinct printed lines, notebook and mechanical pencil, cup of tea. No readable words, no people. Cool morning window light.
+
+02-library-science
+Object-only phone photograph of a library reading desk: stack of science books with blank blue and cream spines, a small ball-and-stick molecular model and open book of abstract scientific diagrams, green shaded desk lamp and tall shelves behind. No people, no readable text, soft evening atmosphere.
+
+03-chess-study
+Object-only close three-quarter phone photo of a wooden chessboard during a quiet endgame study, modest number of distinct black and white chess pieces, a chess clock beside it, pencil and closed notebook, sunlight across squares. No people or hands, no readable writing.
+
+04-chess-player
+April seated at a chess table in a university club room, thoughtful three-quarter profile, one hand resting lightly at her chin while she studies the board, other hand resting by clock, navy cardigan over ivory collared blouse, quiet knowing smile. Medium-wide candid composition with chessboard in foreground. No other identifiable people.
+
+05-library-selfie
+April taking an arm-length close-up selfie beside library shelves, subtle amused smile, head tilted a little, free hand holding a closed blue book at chest height, navy cardigan and ivory blouse. Preserve adult facial likeness, shoulder-length straight dark brown side-parted hair and brown eyes.
+
+06-campus-selfie
+April taking a different arm-length selfie outside on campus, warm spontaneous smile, free hand tucking hair behind her ear, cream knit sweater and charcoal trousers, trees and stone university building behind. Waist-up framing and soft afternoon light.
+
+07-chess-award
+April posing for a modest university chess-club award photograph, standing upright beside a chess table and holding a small silver trophy shaped like a knight chess piece at waist height, composed proud smile. Navy blazer over ivory blouse, charcoal trousers, warm club room lighting. Single adult subject, no crowd, no legible inscriptions or signs.
+
+08-science-award
+April posing for a modest university science presentation award photo, holding a small clear glass geometric award in both hands at waist height, thoughtful pleased smile. Neat ivory collared blouse and navy cardigan, university seminar room with blurred abstract molecule diagram on display behind. Medium-wide standing composition. No readable text, official logos, other people or specific named real-world awards.

@@ -1,0 +1,99 @@
+{
+  "tool": "Built-in image_gen",
+  "images": [
+    {
+      "slug": "01-boathouse-selfie",
+      "subjects": [
+        "valentina"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE square full-bleed personal Grove social photo, polished contemporary romance anime/manhwa, fine tapered linework, refined cel shading and detailed drawn scenery matching references. Not photoreal. No text overlays, logos, watermarks, borders, collage. Correct natural anatomy. Reference 1 is Valentina Yeun, adult woman 24, 170cm lean athletic build, light skin, short tousled silver-grey bob and vivid RED eyes, mature confident face. Preserve identity, use new pose and outfit. Valentina chest-up arm-length selfie outside municipal boathouse with restored small dinghies on racks. Navy sailing vest over sage long-sleeve top, windblown silver bob, confident grin. Morning harbour light, one adult only.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/valentina-selection.png"
+      ],
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b35c-7954-7562-bb9f-5e0785b14702\\exec-3ce69f33-6858-4745-9b88-8fd23fc428d9.png"
+    },
+    {
+      "slug": "02-first-launch",
+      "subjects": [
+        "valentina"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE square full-bleed personal Grove social photo, polished contemporary romance anime/manhwa, fine tapered linework, refined cel shading and detailed drawn scenery matching references. Not photoreal. No text overlays, logos, watermarks, borders, collage. Correct natural anatomy. Reference 1 is Valentina Yeun, adult woman 24, 170cm lean athletic build, light skin, short tousled silver-grey bob and vivid RED eyes, mature confident face. Preserve identity, use new pose and outfit. Valentina alone sailing a small simple dinghy on calm harbour water, securely fastened navy buoyancy vest over pale blue athletic top, dark sailing shorts. One hand on tiller extension, other holding mainsheet, believable single mast, boom and triangular sail, seated securely on windward side. Medium-wide view from nearby boat, cheerful concentration.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/valentina-selection.png"
+      ],
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b35c-7954-7562-bb9f-5e0785b14702\\exec-49710cf3-c3f1-4069-a183-9a35e8d9b4da.png"
+    },
+    {
+      "slug": "03-sail-repair-with-ivan",
+      "subjects": [
+        "valentina",
+        "ivan"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE square full-bleed personal Grove social photo, polished contemporary romance anime/manhwa, fine tapered linework, refined cel shading and detailed drawn scenery matching references. Not photoreal. No text overlays, logos, watermarks, borders, collage. Correct natural anatomy. Reference 1 is Valentina Yeun, adult woman 24, 170cm lean athletic build, light skin, short tousled silver-grey bob and vivid RED eyes, mature confident face. Preserve identity, use new pose and outfit. Reference 2 is her adoptive brother Ivan Yeun, adult man 24, 193cm tall athletic broad shoulders, tousled ash brown hair with taupe highlights, pale grey green eyes, freckles across nose and cheeks, silver stud earrings, clean shaven. Preserve both distinct faces and height difference. Natural familial sibling rapport. Candid medium-wide view inside their converted ferry signal house. Valentina in rust rolled-sleeve shirt sits at oak workbench carefully sewing a small patch on off-white sailcloth. Ivan in plain charcoal tee sits beside her holding the loose fabric steady as instructed, slightly amused. Valentina focused with small smile, tools in tray, harbour windows, upright piano in walnut alcove behind. Two adults only.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/valentina-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/ivan-selection.png"
+      ],
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b35c-7954-7562-bb9f-5e0785b14702\\exec-7555212a-9a5f-45d4-8771-5f4f6f4f2160.png"
+    },
+    {
+      "slug": "04-knots-and-coffee",
+      "subjects": [
+        "valentina"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE square full-bleed personal Grove social photo, polished contemporary romance anime/manhwa, fine tapered linework, refined cel shading and detailed drawn scenery matching references. Not photoreal. No text overlays, logos, watermarks, borders, collage. Correct natural anatomy. Reference 1 is Valentina Yeun, adult woman 24, 170cm lean athletic build, light skin, short tousled silver-grey bob and vivid RED eyes, mature confident face. Preserve identity, use new pose and outfit. Still life only, no people: a neatly coiled blue sailing rope with a correctly formed bowline loop, well-used sailing gloves and enamel coffee mug on weathered boathouse workbench, folded sailcloth behind, morning sidelight. Personal practical snapshot, no readable labels.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/valentina-selection.png"
+      ],
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b35c-7954-7562-bb9f-5e0785b14702\\exec-864d46a9-8856-4bab-8b76-e9992594a41a.png"
+    },
+    {
+      "slug": "05-karaoke-with-ivan",
+      "subjects": [
+        "valentina",
+        "ivan"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE square full-bleed personal Grove social photo, polished contemporary romance anime/manhwa, fine tapered linework, refined cel shading and detailed drawn scenery matching references. Not photoreal. No text overlays, logos, watermarks, borders, collage. Correct natural anatomy. Reference 1 is Valentina Yeun, adult woman 24, 170cm lean athletic build, light skin, short tousled silver-grey bob and vivid RED eyes, mature confident face. Preserve identity, use new pose and outfit. Reference 2 is her adoptive brother Ivan Yeun, adult man 24, 193cm tall athletic broad shoulders, tousled ash brown hair with taupe highlights, pale grey green eyes, freckles across nose and cheeks, silver stud earrings, clean shaven. Preserve both distinct faces and height difference. Natural familial sibling rapport. Valentina and Ivan singing a playful karaoke duet in a small private karaoke booth. Valentina in deep teal casual blouse, leaning forward singing with gleeful confidence into one handheld microphone; taller Ivan in burgundy open overshirt over black tee beside her laughing with his own microphone lowered near chest. Clear distinct faces, sibling fun, purple and amber practical lights, no readable screen or text, two adults only.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/valentina-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/ivan-selection.png"
+      ],
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b35c-7954-7562-bb9f-5e0785b14702\\exec-ee1dd42a-4585-4d29-9fc2-487c4c855011.png"
+    },
+    {
+      "slug": "06-signal-house-supper",
+      "subjects": [
+        "valentina",
+        "ivan"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE square full-bleed personal Grove social photo, polished contemporary romance anime/manhwa, fine tapered linework, refined cel shading and detailed drawn scenery matching references. Not photoreal. No text overlays, logos, watermarks, borders, collage. Correct natural anatomy. Reference 1 is Valentina Yeun, adult woman 24, 170cm lean athletic build, light skin, short tousled silver-grey bob and vivid RED eyes, mature confident face. Preserve identity, use new pose and outfit. Reference 2 is her adoptive brother Ivan Yeun, adult man 24, 193cm tall athletic broad shoulders, tousled ash brown hair with taupe highlights, pale grey green eyes, freckles across nose and cheeks, silver stud earrings, clean shaven. Preserve both distinct faces and height difference. Natural familial sibling rapport. Candid sibling supper at their shared converted ferry signal house. Valentina in cream knit sweater, Ivan in navy casual shirt, sitting opposite sides of an oak dining table with two bowls of soup and bread, comfortably laughing during conversation. Folded sailcloth at far end of long table, upright piano in walnut alcove behind, harbour twilight through tall windows, warm lamplight. Both faces clearly visible in three-quarter view, two adults only.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/valentina-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/ivan-selection.png"
+      ],
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b35c-7954-7562-bb9f-5e0785b14702\\exec-ea0e800a-870b-4293-960c-43184d872999.png"
+    },
+    {
+      "slug": "07-restored-dinghy",
+      "subjects": [
+        "valentina"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE square full-bleed personal Grove social photo, polished contemporary romance anime/manhwa, fine tapered linework, refined cel shading and detailed drawn scenery matching references. Not photoreal. No text overlays, logos, watermarks, borders, collage. Correct natural anatomy. Reference 1 is Valentina Yeun, adult woman 24, 170cm lean athletic build, light skin, short tousled silver-grey bob and vivid RED eyes, mature confident face. Preserve identity, use new pose and outfit. Personal still life harbour photo, no people. One lovingly restored small white sailing dinghy with teal trim sitting safely on a launching trolley outside modest boathouse, sail neatly furled, carefully varnished wooden tiller, tidy rigging. Soft late afternoon sunlight, modest working sailing club rather than luxury yachts. No letters or numbers.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/valentina-selection.png"
+      ],
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b35c-7954-7562-bb9f-5e0785b14702\\exec-6a1a0cb2-af46-4b87-978b-0162b587608a.png"
+    },
+    {
+      "slug": "08-after-the-last-lesson",
+      "subjects": [
+        "valentina"
+      ],
+      "prompt": "Use case: illustration-story. Create ONE square full-bleed personal Grove social photo, polished contemporary romance anime/manhwa, fine tapered linework, refined cel shading and detailed drawn scenery matching references. Not photoreal. No text overlays, logos, watermarks, borders, collage. Correct natural anatomy. Reference 1 is Valentina Yeun, adult woman 24, 170cm lean athletic build, light skin, short tousled silver-grey bob and vivid RED eyes, mature confident face. Preserve identity, use new pose and outfit. Waist-up candid Valentina sitting on a harbour bench after last lesson, mustard rain jacket open over navy tee, short silver-grey hair tousled, RED eyes, relaxed satisfied smile towards camera. One hand holding a plain reusable water bottle on lap, other resting on bench. Small moored dinghies and sunset behind. One adult only.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/valentina-selection.png"
+      ],
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b35c-7954-7562-bb9f-5e0785b14702\\exec-29395b6a-7de9-4126-9d87-2ac1a8a5f8ff.png"
+    }
+  ]
+}

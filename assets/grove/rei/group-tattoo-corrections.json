@@ -1,0 +1,22 @@
+{
+  "tool": "Built-in image_gen",
+  "reference": "tattoo-reference.png",
+  "prompt": "Use case: identity-preserve. Edit image 1 with the smallest possible change: restore Rei's missing arm tattoos. Rei is the adult BLACK shaggy-haired MAN with double lip rings and neck tattoos. Image 2 is his authoritative tattoo reference ONLY. Add matching intricate black dragon/organic thorn sleeve tattoo detail to EVERY exposed portion of Rei's forearms and wrists between his existing clothing cuffs and the base of his hands, including small exposed wrist strips; for rolled sleeves cover the full exposed forearm, following the reference's shape, density and placement. Keep hands/fingers untattooed as in the reference. Preserve clothing and original sleeve lengths exactly; DO NOT roll sleeves up or expose additional skin. Tattoos must stay on skin and disappear correctly beneath fabric and jewelry, never draw on clothing. Do not add or alter anyone else's tattoos. Preserve original image composition, every face, hair, body shape, pose, expression, hands, clothing, objects, background, lighting, palette and polished anime/manhwa rendering exactly. Maintain existing neck/chest tattoos. No added text, watermark or border.",
+  "files": [
+    "10-emily-cafe.png",
+    "11-emily-art-shop.png",
+    "12-emily-park-sketch.png",
+    "13-garrett-noodles.png",
+    "14-garrett-arcade.png",
+    "15-garrett-riverside.png",
+    "16-sophie-track.png",
+    "18-sophie-smoothies.png",
+    "19-emily-sophie-picnic.png",
+    "20-emily-sophie-pottery.png",
+    "21-emily-sophie-night-market.png",
+    "22-yuriko-art-table.png",
+    "23-yuriko-bakery.png",
+    "24-yuriko-bookshop.png",
+    "25-yuriko-garrett-dinner.png"
+  ]
+}

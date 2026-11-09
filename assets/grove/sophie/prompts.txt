@@ -1,0 +1,25 @@
+Built-in image_gen. Shared prompt: One square Grove social photo, polished contemporary romance anime/manhwa style, fine contours and refined shading. Reference assets/portraits/sophie-selection.png is identity/style only. Sophie is an adult university athlete; preserve green eyes, chestnut brown high ponytail, face, warm fair complexion and athletic build. No text, UI, captions, watermark, borders or collage.
+
+01-park-selfie
+Arm-length selfie on a park path after an easy run, smiling broadly, free hand giving a peace sign, green track jacket over white athletic tank, high brown ponytail, fresh morning light.
+
+02-cafe-selfie
+High-angle arm-length selfie seated at an outdoor cafe, laughing, free hand holding an iced coffee, loose white t-shirt and brown ponytail over shoulder, sunny casual weekend.
+
+03-mirror-training
+Full-length mirror selfie in a clean gym changing area, standing with weight on one leg, phone at shoulder level, free hand on hip, forest-green sports bra and black running shorts, trainers, sporty confident smile.
+
+04-mirror-weekend
+Mirror selfie in a tidy bedroom, seated on an ottoman with one leg angled forward, phone in one hand and other hand adjusting ponytail, casual green cropped tee and high-waisted blue jeans, relaxed grin, afternoon sunlight.
+
+05-beach-walk
+Candid full-body vacation photograph taken by a friend of adult Sophie walking through shallow surf, wearing a forest-green bikini, arms relaxed and one hand brushing windblown hair away, laughing toward camera, natural athletic build. Wide bright beach, blue water, ordinary nonsexual swimwear photo.
+
+06-beach-seated
+Candid vacation photograph taken by a friend of adult Sophie sitting upright on a striped beach towel, wearing a coral bikini, knees casually bent to one side, one hand resting on towel and other holding a sunhat, cheerful smile toward camera. Ocean and beach umbrella behind, late afternoon light. Ordinary nonsexual swimwear photo, full figure with scenic context.
+
+07-track-sprint
+Dynamic full-body sideline sports photograph of adult Sophie sprinting on a red athletics track, mid-stride with opposite arm and leg forward, brown ponytail flying behind, green racing singlet and black running shorts and spikes. Camera far enough to show entire running pose and lane lines, determined expression, crisp sunny sports action.
+
+08-track-recovery
+Candid sports photograph of adult Sophie seated on trackside bleachers after training, leaning forward with elbows on knees, water bottle in one hand, smiling breathlessly toward photographer. Green athletic tank and black running shorts, ponytail, running shoes, red track behind in golden evening light. Three-quarter full body.

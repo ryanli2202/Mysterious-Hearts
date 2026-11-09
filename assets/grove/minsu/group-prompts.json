@@ -1,0 +1,164 @@
+{
+  "tool": "Built-in image_gen",
+  "images": [
+    {
+      "file": "09-amy-bakery-review.png",
+      "subjects": [
+        "minsu",
+        "amy"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square illustrated in-game Grove gallery photograph, polished contemporary romance anime/manhwa with fine tapered linework, refined cel shading and rich natural environments matching supplied portraits. All subjects adults: Minsu age19, Amy19, Sophie21. Portraits are identity references, not composition. Minsu: 177cm lean athletic compact build, light skin, softly tousled dark brown-black middle-parted hair, warm brown eyes, softer handsome adult face, expressive brows, open outgoing smile, clean-shaven, no tattoos or piercings. Amy: 163cm slim, light skin with fine freckles, softly waved ginger bob, hazel eyes, delicate thoughtful adult face. Sophie:170cm athletic runner, light skin, long brown hair in high ponytail, bright green eyes, confident lively face. Preserve each identity exactly, do not transfer hair or features. Natural friendly companionship consistent with close friends, no romantic posing. No text, captions, UI, watermark, logos, borders, collage or extra people. Coherent natural anatomy and hands. Scene: Minsu and Amy seated together at a sunny bakery window table, each holding one intact golden bun on a small plate. Minsu in black bomber over cream tee gives the buns a comically thoughtful look, Amy in rust cardigan over ivory top smiles knowingly at him. Two cups and paper bakery bag on table, friendly candid waist-up, warm daylight. Reference identities in order: Minsu, amy.",
+      "caption": "two intact specimens. independent texture review can begin.",
+      "comment": {
+        "author": "amy",
+        "text": "A much stronger starting methodology."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/minsu-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/amy-selection.png"
+      ]
+    },
+    {
+      "file": "10-amy-library-break.png",
+      "subjects": [
+        "minsu",
+        "amy"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square illustrated in-game Grove gallery photograph, polished contemporary romance anime/manhwa with fine tapered linework, refined cel shading and rich natural environments matching supplied portraits. All subjects adults: Minsu age19, Amy19, Sophie21. Portraits are identity references, not composition. Minsu: 177cm lean athletic compact build, light skin, softly tousled dark brown-black middle-parted hair, warm brown eyes, softer handsome adult face, expressive brows, open outgoing smile, clean-shaven, no tattoos or piercings. Amy: 163cm slim, light skin with fine freckles, softly waved ginger bob, hazel eyes, delicate thoughtful adult face. Sophie:170cm athletic runner, light skin, long brown hair in high ponytail, bright green eyes, confident lively face. Preserve each identity exactly, do not transfer hair or features. Natural friendly companionship consistent with close friends, no romantic posing. No text, captions, UI, watermark, logos, borders, collage or extra people. Coherent natural anatomy and hands. Scene: Minsu and Amy sharing a university library study table, Minsu in blue sweatshirt leaning back with a relieved grin, Amy in soft rust cardigan closing her plain notebook and looking at him with an amused smile. Books, unlabelled study cards and pencils neatly spread out, late afternoon window light, cozy shelves, natural candid of two adult friends taking a break, waist-up. Reference identities in order: Minsu, amy.",
+      "caption": "scheduled a ten-minute break. amy is enforcing it.",
+      "comment": {
+        "author": "amy",
+        "text": "You were rereading the same line."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/minsu-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/amy-selection.png"
+      ]
+    },
+    {
+      "file": "11-amy-art-supplies.png",
+      "subjects": [
+        "minsu",
+        "amy"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square illustrated in-game Grove gallery photograph, polished contemporary romance anime/manhwa with fine tapered linework, refined cel shading and rich natural environments matching supplied portraits. All subjects adults: Minsu age19, Amy19, Sophie21. Portraits are identity references, not composition. Minsu: 177cm lean athletic compact build, light skin, softly tousled dark brown-black middle-parted hair, warm brown eyes, softer handsome adult face, expressive brows, open outgoing smile, clean-shaven, no tattoos or piercings. Amy: 163cm slim, light skin with fine freckles, softly waved ginger bob, hazel eyes, delicate thoughtful adult face. Sophie:170cm athletic runner, light skin, long brown hair in high ponytail, bright green eyes, confident lively face. Preserve each identity exactly, do not transfer hair or features. Natural friendly companionship consistent with close friends, no romantic posing. No text, captions, UI, watermark, logos, borders, collage or extra people. Coherent natural anatomy and hands. Scene: Minsu and Amy browsing a small artist supplies shop. Amy with ginger bob and freckles holds two paintbrushes for comparison, Minsu in cream hoodie and dark casual jacket carries a small basket of paint tubes and gives her a warm curious smile. Amy wears sage cardigan over ivory shirt, waist-up two-person candid, shelves of pigment jars and paper without legible writing, gentle warm shop lighting. Reference identities in order: Minsu, amy.",
+      "caption": "today's expert is amy. i'm carrying the basket.",
+      "comment": {
+        "author": "amy",
+        "text": "You also asked very good questions about the brushes."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/minsu-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/amy-selection.png"
+      ]
+    },
+    {
+      "file": "12-sophie-track-cooldown.png",
+      "subjects": [
+        "minsu",
+        "sophie"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square illustrated in-game Grove gallery photograph, polished contemporary romance anime/manhwa with fine tapered linework, refined cel shading and rich natural environments matching supplied portraits. All subjects adults: Minsu age19, Amy19, Sophie21. Portraits are identity references, not composition. Minsu: 177cm lean athletic compact build, light skin, softly tousled dark brown-black middle-parted hair, warm brown eyes, softer handsome adult face, expressive brows, open outgoing smile, clean-shaven, no tattoos or piercings. Amy: 163cm slim, light skin with fine freckles, softly waved ginger bob, hazel eyes, delicate thoughtful adult face. Sophie:170cm athletic runner, light skin, long brown hair in high ponytail, bright green eyes, confident lively face. Preserve each identity exactly, do not transfer hair or features. Natural friendly companionship consistent with close friends, no romantic posing. No text, captions, UI, watermark, logos, borders, collage or extra people. Coherent natural anatomy and hands. Scene: Minsu and Sophie standing side by side beside a university running track after a training session. Minsu in navy athletic tee and black joggers holds a towel draped over one shoulder, laughing with palms slightly raised in mock surrender. Sophie in forest-green track jacket over white athletic top and black leggings holds a small stopwatch and smiles confidently. No legible stopwatch numbers, no competition medals, sunny late afternoon, both faces visible, waist-up candid, healthy sports club friendship. Reference identities in order: Minsu, sophie.",
+      "caption": "appeal to the clock: unsuccessful.",
+      "comment": {
+        "author": "sophie",
+        "text": "Those last ten seconds count 😄"
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/minsu-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sophie-selection.png"
+      ]
+    },
+    {
+      "file": "13-sophie-smoothie-stop.png",
+      "subjects": [
+        "minsu",
+        "sophie"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square illustrated in-game Grove gallery photograph, polished contemporary romance anime/manhwa with fine tapered linework, refined cel shading and rich natural environments matching supplied portraits. All subjects adults: Minsu age19, Amy19, Sophie21. Portraits are identity references, not composition. Minsu: 177cm lean athletic compact build, light skin, softly tousled dark brown-black middle-parted hair, warm brown eyes, softer handsome adult face, expressive brows, open outgoing smile, clean-shaven, no tattoos or piercings. Amy: 163cm slim, light skin with fine freckles, softly waved ginger bob, hazel eyes, delicate thoughtful adult face. Sophie:170cm athletic runner, light skin, long brown hair in high ponytail, bright green eyes, confident lively face. Preserve each identity exactly, do not transfer hair or features. Natural friendly companionship consistent with close friends, no romantic posing. No text, captions, UI, watermark, logos, borders, collage or extra people. Coherent natural anatomy and hands. Scene: Minsu and Sophie enjoying smoothies outside a little cafe after sport, seated side by side on a wooden outdoor bench. Minsu wears grey hoodie and dark track pants, Sophie green zip sports jacket over white shirt, brown high ponytail. Both hold clear cups with fruit smoothies, Minsu chats enthusiastically and Sophie laughs. Relaxed friendly candid, leafy street, warm morning light, heads through knees visible. Reference identities in order: Minsu, sophie.",
+      "caption": "recovery plan: sit down and compare smoothie flavours.",
+      "comment": {
+        "author": "sophie",
+        "text": "Mango won. Your review can be shorter than the run."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/minsu-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sophie-selection.png"
+      ]
+    },
+    {
+      "file": "14-sophie-campus-selfie.png",
+      "subjects": [
+        "minsu",
+        "sophie"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square illustrated in-game Grove gallery photograph, polished contemporary romance anime/manhwa with fine tapered linework, refined cel shading and rich natural environments matching supplied portraits. All subjects adults: Minsu age19, Amy19, Sophie21. Portraits are identity references, not composition. Minsu: 177cm lean athletic compact build, light skin, softly tousled dark brown-black middle-parted hair, warm brown eyes, softer handsome adult face, expressive brows, open outgoing smile, clean-shaven, no tattoos or piercings. Amy: 163cm slim, light skin with fine freckles, softly waved ginger bob, hazel eyes, delicate thoughtful adult face. Sophie:170cm athletic runner, light skin, long brown hair in high ponytail, bright green eyes, confident lively face. Preserve each identity exactly, do not transfer hair or features. Natural friendly companionship consistent with close friends, no romantic posing. No text, captions, UI, watermark, logos, borders, collage or extra people. Coherent natural anatomy and hands. Scene: Cheerful phone selfie taken by Minsu with Sophie on a leafy university campus path, Minsu's camera arm extending out of frame, both faces clear. Minsu black bomber over cream tee smiles broadly, Sophie forest-green jacket and high brown ponytail leans into frame with a playful small peace sign near her own shoulder. Golden afternoon sunlight, university buildings softly behind, friendly spontaneous snapshot. Reference identities in order: Minsu, sophie.",
+      "caption": "caught the track queen at walking speed.",
+      "comment": {
+        "author": "sophie",
+        "text": "Rare footage."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/minsu-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sophie-selection.png"
+      ]
+    },
+    {
+      "file": "15-amy-sophie-noodles.png",
+      "subjects": [
+        "minsu",
+        "amy",
+        "sophie"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square illustrated in-game Grove gallery photograph, polished contemporary romance anime/manhwa with fine tapered linework, refined cel shading and rich natural environments matching supplied portraits. All subjects adults: Minsu age19, Amy19, Sophie21. Portraits are identity references, not composition. Minsu: 177cm lean athletic compact build, light skin, softly tousled dark brown-black middle-parted hair, warm brown eyes, softer handsome adult face, expressive brows, open outgoing smile, clean-shaven, no tattoos or piercings. Amy: 163cm slim, light skin with fine freckles, softly waved ginger bob, hazel eyes, delicate thoughtful adult face. Sophie:170cm athletic runner, light skin, long brown hair in high ponytail, bright green eyes, confident lively face. Preserve each identity exactly, do not transfer hair or features. Natural friendly companionship consistent with close friends, no romantic posing. No text, captions, UI, watermark, logos, borders, collage or extra people. Coherent natural anatomy and hands. Scene: Exactly three adult friends Minsu, Amy and Sophie sharing lunch at a cosy noodle restaurant. Minsu centre in black bomber and cream tee smiling proudly at a steaming bowl, Amy left with ginger bob rust cardigan and ivory top, Sophie right with brunette high ponytail green jacket over white top, both amused at his enthusiasm. Each has their own bowl and utensils, table framed in foreground, all three faces distinct and fully visible, warm restaurant lighting, friendly social candid. Reference identities in order: Minsu, amy, sophie.",
+      "caption": "brought the review panel. ordered extra dumplings.",
+      "comment": {
+        "author": "amy",
+        "text": "The panel would like to eat before the opening statement."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/minsu-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/amy-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sophie-selection.png"
+      ]
+    },
+    {
+      "file": "16-amy-sophie-park-picnic.png",
+      "subjects": [
+        "minsu",
+        "amy",
+        "sophie"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square illustrated in-game Grove gallery photograph, polished contemporary romance anime/manhwa with fine tapered linework, refined cel shading and rich natural environments matching supplied portraits. All subjects adults: Minsu age19, Amy19, Sophie21. Portraits are identity references, not composition. Minsu: 177cm lean athletic compact build, light skin, softly tousled dark brown-black middle-parted hair, warm brown eyes, softer handsome adult face, expressive brows, open outgoing smile, clean-shaven, no tattoos or piercings. Amy: 163cm slim, light skin with fine freckles, softly waved ginger bob, hazel eyes, delicate thoughtful adult face. Sophie:170cm athletic runner, light skin, long brown hair in high ponytail, bright green eyes, confident lively face. Preserve each identity exactly, do not transfer hair or features. Natural friendly companionship consistent with close friends, no romantic posing. No text, captions, UI, watermark, logos, borders, collage or extra people. Coherent natural anatomy and hands. Scene: Exactly three adult friends Minsu, Amy and Sophie enjoying a picnic on a blanket in a leafy park. Minsu in pale blue casual overshirt over white tee holds open a small food container and laughs, Amy with ginger bob and freckles in rust cardigan holds a sandwich, Sophie with brunette ponytail and green eyes in green sporty sweatshirt smiles toward both. Fruit, buns and thermos on blanket, dappled sunny light, medium-wide composition showing all three seated comfortably, no romance or extra people. Reference identities in order: Minsu, amy, sophie.",
+      "caption": "one blanket, three opinions, not enough strawberries.",
+      "comment": {
+        "author": "sophie",
+        "text": "We agreed on the strawberries very quickly."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/minsu-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/amy-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sophie-selection.png"
+      ]
+    },
+    {
+      "file": "17-amy-sophie-game-night.png",
+      "subjects": [
+        "minsu",
+        "amy",
+        "sophie"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square illustrated in-game Grove gallery photograph, polished contemporary romance anime/manhwa with fine tapered linework, refined cel shading and rich natural environments matching supplied portraits. All subjects adults: Minsu age19, Amy19, Sophie21. Portraits are identity references, not composition. Minsu: 177cm lean athletic compact build, light skin, softly tousled dark brown-black middle-parted hair, warm brown eyes, softer handsome adult face, expressive brows, open outgoing smile, clean-shaven, no tattoos or piercings. Amy: 163cm slim, light skin with fine freckles, softly waved ginger bob, hazel eyes, delicate thoughtful adult face. Sophie:170cm athletic runner, light skin, long brown hair in high ponytail, bright green eyes, confident lively face. Preserve each identity exactly, do not transfer hair or features. Natural friendly companionship consistent with close friends, no romantic posing. No text, captions, UI, watermark, logos, borders, collage or extra people. Coherent natural anatomy and hands. Scene: Exactly three adult friends Minsu, Amy and Sophie at a relaxed board-game night in a university common-room lounge. Minsu seated centre in cream sweatshirt holding a small fan of plain coloured game cards, Amy left ginger bob hazel eyes freckles in rust cardigan leans toward board with thoughtful smile, Sophie right brunette high ponytail green eyes green casual hoodie laughs with one hand resting beside dice. Simple colourful abstract board and tokens on low table, no legible text or recognizable branded game, warm floor lamp, sofa cushions, friendly candid with all three faces and natural hands visible. Reference identities in order: Minsu, amy, sophie.",
+      "caption": "the rules were simple until we started discussing them.",
+      "comment": {
+        "author": "amy",
+        "text": "Clarifying a rule is not the same as rewriting it."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/minsu-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/amy-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sophie-selection.png"
+      ]
+    }
+  ]
+}

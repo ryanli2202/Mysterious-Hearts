@@ -1,0 +1,89 @@
+{
+  "tool": "Built-in image_gen",
+  "images": [
+    {
+      "author": "emily",
+      "file": "18-school-rei-model-bench.png",
+      "subjects": [
+        "emily",
+        "rei"
+      ],
+      "published_at": "2047-02-19T15:30",
+      "caption": "A very small bench, made with a very steady hand.",
+      "comment": {
+        "author": "rei",
+        "text": "tested for imaginary passengers."
+      },
+      "prompt": "Use case: stylized-concept. Create ONE square high-school-era Grove photo in polished contemporary anime/manhwa, fine tapered lines, refined cel shading and detailed setting matching supplied HIGH-SCHOOL identity portraits. Historical ordinary teenage friendship in 2047. All subjects school-age teenagers in modest everyday clothes. Only named subjects, no other people. NO TATTOOS on anyone, especially Rei; neck and exposed forearms naturally visible and completely uninked. Preserve faces hair eye colours and piercings from school references. Natural anatomy, hands and warm candid expressions. No romantic posing, lettering, captions, watermark, borders, UI or collage. Emily: petite teenage girl, very long straight blonde hair, blunt bangs, blue eyes behind round glasses, cream blouse and cardigan with dusty blue pinafore. Rei: teenage boy with tousled layered black hair, grey eyes, small silver earrings and paired lower-lip piercings, blue-grey overshirt over charcoal crew-neck tee, rolled sleeves, ENTIRELY UNINKED neck, chest, arms, wrists and hands. Scene: Exactly TWO teenagers petite Emily and Rei at a school library worktable crafting a tiny park bench for a miniature scene. Emily gently indicates where a small wooden slat should fit, Rei concentrates on placing it with tweezers. Their faces clear, both quietly smiling, blue notebook and craft materials, soft afternoon light. Reference portraits in order: emily, rei.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/emily-high-school.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-high-school.png"
+      ]
+    },
+    {
+      "author": "emily",
+      "file": "19-school-sophie-greenhouse.png",
+      "subjects": [
+        "emily",
+        "sophie"
+      ],
+      "published_at": "2046-10-22T15:20",
+      "caption": "The slowest relay. We made it with every window intact.",
+      "comment": {
+        "author": "sophie",
+        "text": "Precision walking. Extremely advanced sport."
+      },
+      "prompt": "Use case: stylized-concept. Create ONE square high-school-era Grove photo in polished contemporary anime/manhwa, fine tapered lines, refined cel shading and detailed setting matching supplied HIGH-SCHOOL identity portraits. Historical ordinary teenage friendship in 2046. All subjects school-age teenagers in modest everyday clothes. Only named subjects, no other people. NO TATTOOS on anyone, especially Rei; neck and exposed forearms naturally visible and completely uninked. Preserve faces hair eye colours and piercings from school references. Natural anatomy, hands and warm candid expressions. No romantic posing, lettering, captions, watermark, borders, UI or collage. Emily: petite teenage girl, very long straight blonde hair, blunt bangs, blue eyes behind round glasses, cream blouse and cardigan with dusty blue pinafore. Sophie: athletic teenage girl, brunette high ponytail, green eyes, loose forest-green crew-neck sports sweatshirt with cream sleeve stripes. Scene: Exactly TWO teenage girls petite blonde Emily with round glasses and athletic brunette ponytail Sophie carrying a delicate model greenhouse together down a quiet school corridor, Emily supporting one side and Sophie taking exaggerated careful steps. Both smiling at the shared effort, backpacks, warm school window light, friendly candid. Reference portraits in order: emily, sophie.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/emily-high-school.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sophie-high-school.png"
+      ]
+    },
+    {
+      "author": "emily",
+      "file": "20-school-four-puzzle.png",
+      "subjects": [
+        "emily",
+        "rei",
+        "sophie",
+        "marcus"
+      ],
+      "published_at": "2047-03-19T12:28",
+      "caption": "Found a missing exit. Marcus is working on a revision.",
+      "comment": {
+        "author": "rei",
+        "text": "bench stays. good view from there."
+      },
+      "prompt": "Use case: stylized-concept. Create ONE square high-school-era Grove photo in polished contemporary anime/manhwa, fine tapered lines, refined cel shading and detailed setting matching supplied HIGH-SCHOOL identity portraits. Historical ordinary teenage friendship in 2047. All subjects school-age teenagers in modest everyday clothes. Only named subjects, no other people. NO TATTOOS on anyone, especially Rei; neck and exposed forearms naturally visible and completely uninked. Preserve faces hair eye colours and piercings from school references. Natural anatomy, hands and warm candid expressions. No romantic posing, lettering, captions, watermark, borders, UI or collage. Emily: petite teenage girl, very long straight blonde hair, blunt bangs, blue eyes behind round glasses, cream blouse and cardigan with dusty blue pinafore. Rei: teenage boy with tousled layered black hair, grey eyes, small silver earrings and paired lower-lip piercings, blue-grey overshirt over charcoal crew-neck tee, rolled sleeves, ENTIRELY UNINKED neck, chest, arms, wrists and hands. Sophie: athletic teenage girl, brunette high ponytail, green eyes, loose forest-green crew-neck sports sweatshirt with cream sleeve stripes. Marcus: slim teenage boy, short tousled auburn hair, hazel eyes, subtle freckles, mustard cardigan over muted teal buttoned shirt, battered dark-blue storyboard notebook. Scene: Exactly FOUR teenagers Emily Rei Sophie Marcus at a school lunch table seen from a slightly elevated candid angle. Emily points out a dead end in Marcus's graph-paper puzzle; Marcus smiles ruefully holding a pencil; Sophie leans in laughing at her attempted speedrun; Rei sketches a tiny bench beside the maze. All four distinct faces visible, lunch boxes and battered blue storyboard notebook. Warm everyday friendship. Reference portraits in order: emily, rei, sophie, marcus.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/emily-high-school.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-high-school.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sophie-high-school.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/marcus-high-school.png"
+      ]
+    },
+    {
+      "author": "emily",
+      "file": "21-school-four-paper-pigeon.png",
+      "subjects": [
+        "emily",
+        "rei",
+        "sophie",
+        "marcus"
+      ],
+      "published_at": "2046-11-12T12:42",
+      "caption": "A very local weather event has entered the frame. Marcus says we should keep it.",
+      "comment": {
+        "author": "sophie",
+        "text": "The weather event has excellent comic timing."
+      },
+      "prompt": "Use case: stylized-concept. Create ONE square high-school-era Grove photo in polished contemporary anime/manhwa, fine tapered lines, refined cel shading and detailed setting matching supplied HIGH-SCHOOL identity portraits. Historical ordinary teenage friendship in 2046. All subjects school-age teenagers in modest everyday clothes. Only named subjects, no other people. NO TATTOOS on anyone, especially Rei; neck and exposed forearms naturally visible and completely uninked. Preserve faces hair eye colours and piercings from school references. Natural anatomy, hands and warm candid expressions. No romantic posing, lettering, captions, watermark, borders, UI or collage. Emily: petite teenage girl, very long straight blonde hair, blunt bangs, blue eyes behind round glasses, cream blouse and cardigan with dusty blue pinafore. Rei: teenage boy with tousled layered black hair, grey eyes, small silver earrings and paired lower-lip piercings, blue-grey overshirt over charcoal crew-neck tee, rolled sleeves, ENTIRELY UNINKED neck, chest, arms, wrists and hands. Sophie: athletic teenage girl, brunette high ponytail, green eyes, loose forest-green crew-neck sports sweatshirt with cream sleeve stripes. Marcus: slim teenage boy, short tousled auburn hair, hazel eyes, subtle freckles, mustard cardigan over muted teal buttoned shirt, battered dark-blue storyboard notebook. Scene: Exactly FOUR teenagers Emily Rei Sophie Marcus at their classroom stop-motion set on a rainy lunch break, captured just after an amusing mistake. Marcus laughing with one hand hovering above the little paper pigeon; Sophie smiling beside the desk lamp, Rei smiling while reviewing a camera phone on a small tripod, Emily grinning beside the cardboard bus shelter she built. Clearly show all four youthful faces. Tiny handmade set and sketches in foreground, rainy windows behind. Cheerful warm memory. Reference portraits in order: emily, rei, sophie, marcus.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/emily-high-school.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-high-school.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sophie-high-school.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/marcus-high-school.png"
+      ]
+    }
+  ]
+}

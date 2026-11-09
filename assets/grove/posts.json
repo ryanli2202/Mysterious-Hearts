@@ -1,0 +1,4563 @@
+[
+  {
+    "key": "garrett:01-golden-dragon-kitchen",
+    "author": "garrett",
+    "image": "assets/grove/garrett/01-golden-dragon-kitchen.png",
+    "published_at": "2049-09-06T12:24",
+    "caption": "lunch rush handled. yes, i cooked. yes, i also looked this good doing it.",
+    "engagement_basis_points": 682,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "the noodles would like some credit.",
+        "delay_minutes": 19
+      },
+      {
+        "author": "april",
+        "text": "The apron is doing most of the work.",
+        "delay_minutes": 73
+      }
+    ],
+    "visible_subjects": [
+      "garrett"
+    ]
+  },
+  {
+    "key": "garrett:02-noodle-closeup",
+    "author": "garrett",
+    "image": "assets/grove/garrett/02-noodle-closeup.png",
+    "published_at": "2049-09-19T18:42",
+    "caption": "clear broth, shrimp wontons, absolutely no chance i'm giving you the recipe.",
+    "engagement_basis_points": 533,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "the broth deserves its own review. separate score for the wontons.",
+        "delay_minutes": 26
+      },
+      {
+        "author": "rei",
+        "text": "one imperfect wonton. excellent character.",
+        "delay_minutes": 84
+      }
+    ]
+  },
+  {
+    "key": "garrett:03-training",
+    "author": "garrett",
+    "image": "assets/grove/garrett/03-training.png",
+    "published_at": "2049-10-03T17:15",
+    "caption": "finished the rounds. still available for arguments i can win standing up.",
+    "engagement_basis_points": 749,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "try arguing while doing hill sprints 😂",
+        "delay_minutes": 33
+      },
+      {
+        "author": "april",
+        "text": "Chess remains seated. Convenient for you.",
+        "delay_minutes": 95
+      }
+    ],
+    "visible_subjects": [
+      "garrett"
+    ]
+  },
+  {
+    "key": "garrett:04-evening",
+    "author": "garrett",
+    "image": "assets/grove/garrett/04-evening.png",
+    "published_at": "2049-10-17T20:08",
+    "caption": "booked the table. brought the view.",
+    "engagement_basis_points": 815,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "the skyline is filing a complaint.",
+        "delay_minutes": 40
+      },
+      {
+        "author": "ivan",
+        "text": "Good jacket. Let the skyline have one photo.",
+        "delay_minutes": 106
+      }
+    ],
+    "visible_subjects": [
+      "garrett"
+    ]
+  },
+  {
+    "key": "garrett:05-shirtless-gym",
+    "author": "garrett",
+    "image": "assets/grove/garrett/05-shirtless-gym.png",
+    "published_at": "2049-11-02T18:36",
+    "caption": "proof i occasionally lift something heavier than the conversation.",
+    "engagement_basis_points": 1423,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "the mirror has seen enough. go stretch.",
+        "delay_minutes": 47
+      },
+      {
+        "author": "rei",
+        "text": "finally. evidence of a quiet gym.",
+        "delay_minutes": 117
+      }
+    ]
+  },
+  {
+    "key": "garrett:06-across-the-table",
+    "author": "garrett",
+    "image": "assets/grove/garrett/06-across-the-table.png",
+    "published_at": "2049-11-16T15:21",
+    "caption": "coffee's getting cold. apparently i'm distracting.",
+    "engagement_basis_points": 1037,
+    "comments": [
+      {
+        "author": "april",
+        "text": "Perhaps drink it between sentences.",
+        "delay_minutes": 54
+      },
+      {
+        "author": "emily",
+        "text": "that café has really lovely cups… and good coffee too (｡･ω･｡)",
+        "delay_minutes": 128
+      }
+    ]
+  },
+  {
+    "key": "garrett:07-open-shirt-balcony",
+    "author": "garrett",
+    "image": "assets/grove/garrett/07-open-shirt-balcony.png",
+    "published_at": "2049-12-07T17:49",
+    "caption": "sunset had a good run. then i walked outside.",
+    "engagement_basis_points": 1289,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "please apologise to the sun.",
+        "delay_minutes": 61
+      },
+      {
+        "author": "sophie",
+        "text": "did the buttons lose a bet?",
+        "delay_minutes": 139
+      }
+    ]
+  },
+  {
+    "key": "garrett:08-loosened-collar",
+    "author": "garrett",
+    "image": "assets/grove/garrett/08-loosened-collar.png",
+    "published_at": "2049-12-28T19:12",
+    "caption": "ready in five. looking like this takes at least four.",
+    "engagement_basis_points": 914,
+    "comments": [
+      {
+        "author": "april",
+        "text": "I will start the timer.",
+        "delay_minutes": 68
+      },
+      {
+        "author": "rei",
+        "text": "a rare photo of you underestimating yourself.",
+        "delay_minutes": 150
+      }
+    ]
+  },
+  {
+    "key": "rei:01-studio-tailoring",
+    "author": "rei",
+    "image": "assets/grove/rei/01-studio-tailoring.png",
+    "published_at": "2049-09-09T11:40",
+    "caption": "a very expensive chair. i was asked not to move.",
+    "engagement_basis_points": 623,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "That chair has better posture than either of us after hour six.",
+        "delay_minutes": 19
+      },
+      {
+        "author": "yuriko",
+        "text": "could build that for a set. would not promise it holds you.",
+        "delay_minutes": 73
+      }
+    ],
+    "visible_subjects": [
+      "rei"
+    ]
+  },
+  {
+    "key": "rei:02-open-jacket-editorial",
+    "author": "rei",
+    "image": "assets/grove/rei/02-open-jacket-editorial.png",
+    "published_at": "2049-09-23T16:18",
+    "caption": "the jacket did most of the work. the wall was also reliable.",
+    "engagement_basis_points": 1187,
+    "comments": [
+      {
+        "author": "garrett",
+        "text": "happy for the wall. huge career moment.",
+        "delay_minutes": 26
+      },
+      {
+        "author": "sophie",
+        "text": "the wall needs an agent now",
+        "delay_minutes": 84
+      }
+    ]
+  },
+  {
+    "key": "rei:03-rooftop-campaign",
+    "author": "rei",
+    "image": "assets/grove/rei/03-rooftop-campaign.png",
+    "published_at": "2049-10-06T14:32",
+    "caption": "wind: uncredited stylist.",
+    "engagement_basis_points": 732,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "Always arrives early. Never follows direction.",
+        "delay_minutes": 33
+      },
+      {
+        "author": "emily",
+        "text": "the coat looks like it's about to take flight 🌷",
+        "delay_minutes": 95
+      }
+    ]
+  },
+  {
+    "key": "rei:04-studio-mirror-selfie",
+    "author": "rei",
+    "image": "assets/grove/rei/04-studio-mirror-selfie.png",
+    "published_at": "2049-10-20T13:05",
+    "caption": "blue paint again. the mirror is still mostly usable.",
+    "engagement_basis_points": 457,
+    "comments": [
+      {
+        "author": "yuriko",
+        "text": "that corner of the mirror is now mixed media.",
+        "delay_minutes": 40
+      },
+      {
+        "author": "garrett",
+        "text": "come eat before you paint the phone too.",
+        "delay_minutes": 106
+      }
+    ],
+    "visible_subjects": [
+      "rei"
+    ]
+  },
+  {
+    "key": "rei:05-window-light-selfie",
+    "author": "rei",
+    "image": "assets/grove/rei/05-window-light-selfie.png",
+    "published_at": "2049-11-04T16:06",
+    "caption": "the light stayed for about thirty seconds.",
+    "engagement_basis_points": 986,
+    "comments": [
+      {
+        "author": "emily",
+        "text": "the little leaf shadows are so pretty…",
+        "delay_minutes": 47
+      },
+      {
+        "author": "sophie",
+        "text": "and you actually caught it before it moved. impressive",
+        "delay_minutes": 117
+      }
+    ],
+    "visible_subjects": [
+      "rei"
+    ]
+  },
+  {
+    "key": "rei:06-rainy-window-reflection",
+    "author": "rei",
+    "image": "assets/grove/rei/06-rainy-window-reflection.png",
+    "published_at": "2049-11-18T18:23",
+    "caption": "rain made a second city on the glass.",
+    "engagement_basis_points": 554,
+    "comments": [
+      {
+        "author": "yuriko",
+        "text": "this is why i refuse to clean windows during good weather effects.",
+        "delay_minutes": 54
+      },
+      {
+        "author": "garrett",
+        "text": "second city got anywhere serving dinner?",
+        "delay_minutes": 128
+      }
+    ]
+  },
+  {
+    "key": "rei:07-rainy-city-painting",
+    "author": "rei",
+    "image": "assets/grove/rei/07-rainy-city-painting.png",
+    "published_at": "2049-12-02T15:47",
+    "caption": "left one window warm. that seemed enough.",
+    "engagement_basis_points": 398,
+    "comments": [
+      {
+        "author": "emily",
+        "text": "i keep looking at that window. it feels like someone left a light on for you.",
+        "delay_minutes": 61
+      },
+      {
+        "author": "yuriko",
+        "text": "yes. that one needed a window.",
+        "delay_minutes": 139
+      }
+    ]
+  },
+  {
+    "key": "rei:08-commuter-sketchbook",
+    "author": "rei",
+    "image": "assets/grove/rei/08-commuter-sketchbook.png",
+    "published_at": "2049-12-14T10:16",
+    "caption": "people reading on the bus hold perfectly still until you reach the hands.",
+    "engagement_basis_points": 312,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "public transport: your most unreliable life drawing class",
+        "delay_minutes": 68
+      },
+      {
+        "author": "emily",
+        "text": "the person tucked into their coat feels very familiar (｡･ω･｡)",
+        "delay_minutes": 150
+      }
+    ]
+  },
+  {
+    "key": "rei:09-charcoal-still-life",
+    "author": "rei",
+    "image": "assets/grove/rei/09-charcoal-still-life.png",
+    "published_at": "2049-12-30T21:03",
+    "caption": "one mug. several hours. charcoal everywhere else.",
+    "engagement_basis_points": 367,
+    "comments": [
+      {
+        "author": "yuriko",
+        "text": "please don't use the good towels for 'everywhere else'.",
+        "delay_minutes": 75
+      },
+      {
+        "author": "garrett",
+        "text": "i've made entire dinners faster than you've drawn the washing up.",
+        "delay_minutes": 161
+      }
+    ]
+  },
+  {
+    "key": "ivan:01-arena-chorus",
+    "author": "ivan",
+    "image": "assets/grove/ivan/01-arena-chorus.png",
+    "published_at": "2049-09-03T23:10",
+    "caption": "You took the chorus from me. I let you keep it.",
+    "engagement_basis_points": 1376,
+    "comments": [
+      {
+        "author": "valentina",
+        "text": "saving the second verse for me, obviously.",
+        "delay_minutes": 19
+      },
+      {
+        "author": "rei",
+        "text": "the lights almost kept time with you.",
+        "delay_minutes": 73
+      }
+    ],
+    "visible_subjects": [
+      "ivan"
+    ]
+  },
+  {
+    "key": "ivan:02-dance-rehearsal",
+    "author": "ivan",
+    "image": "assets/grove/ivan/02-dance-rehearsal.png",
+    "published_at": "2049-09-15T16:35",
+    "caption": "Slow first. Clean second. Fast when it earns it.",
+    "engagement_basis_points": 894,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "that control on the planted foot. respect.",
+        "delay_minutes": 26
+      },
+      {
+        "author": "rei",
+        "text": "one more turn. the floor remembers.",
+        "delay_minutes": 84
+      }
+    ]
+  },
+  {
+    "key": "ivan:03-recording-booth",
+    "author": "ivan",
+    "image": "assets/grove/ivan/03-recording-booth.png",
+    "published_at": "2049-09-28T22:04",
+    "caption": "Kept the quieter take. It said more.",
+    "engagement_basis_points": 751,
+    "comments": [
+      {
+        "author": "valentina",
+        "text": "play me this one without apologising for the rough mix.",
+        "delay_minutes": 33
+      },
+      {
+        "author": "rei",
+        "text": "good call. leave it room.",
+        "delay_minutes": 95
+      }
+    ]
+  },
+  {
+    "key": "ivan:04-backstage-selfie",
+    "author": "ivan",
+    "image": "assets/grove/ivan/04-backstage-selfie.png",
+    "published_at": "2049-10-09T23:18",
+    "caption": "Out of the lights. Still hearing all of you.",
+    "engagement_basis_points": 1082,
+    "comments": [
+      {
+        "author": "garrett",
+        "text": "get some food before the encore becomes your stomach.",
+        "delay_minutes": 40
+      },
+      {
+        "author": "valentina",
+        "text": "water first. then you can tell me about the lights.",
+        "delay_minutes": 106
+      }
+    ],
+    "visible_subjects": [
+      "ivan"
+    ]
+  },
+  {
+    "key": "ivan:05-piano-songwriting",
+    "author": "ivan",
+    "image": "assets/grove/ivan/05-piano-songwriting.png",
+    "published_at": "2049-10-24T22:31",
+    "caption": "An hour with no brief. This one's staying mine for a while.",
+    "engagement_basis_points": 667,
+    "comments": [
+      {
+        "author": "valentina",
+        "text": "a repair concert where the piano actually gets played? progress.",
+        "delay_minutes": 47
+      },
+      {
+        "author": "rei",
+        "text": "keep that hour.",
+        "delay_minutes": 117
+      }
+    ],
+    "visible_subjects": [
+      "ivan"
+    ]
+  },
+  {
+    "key": "ivan:06-soundcheck",
+    "author": "ivan",
+    "image": "assets/grove/ivan/06-soundcheck.png",
+    "published_at": "2049-11-05T14:12",
+    "caption": "Empty seats. Full volume. Checking the back row.",
+    "engagement_basis_points": 589,
+    "comments": [
+      {
+        "author": "garrett",
+        "text": "even the empty room gets a private show.",
+        "delay_minutes": 54
+      },
+      {
+        "author": "valentina",
+        "text": "the back row would like you to eat lunch.",
+        "delay_minutes": 128
+      }
+    ]
+  },
+  {
+    "key": "ivan:07-stage-finale",
+    "author": "ivan",
+    "image": "assets/grove/ivan/07-stage-finale.png",
+    "published_at": "2049-11-22T23:26",
+    "caption": "Last song. Longer goodbye. Thank you for staying.",
+    "engagement_basis_points": 1457,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "that crowd must have been LOUD. what a finish.",
+        "delay_minutes": 61
+      },
+      {
+        "author": "valentina",
+        "text": "you always wave like you're trying to reach the last person. i love that.",
+        "delay_minutes": 139
+      }
+    ]
+  },
+  {
+    "key": "ivan:08-black-suit-editorial",
+    "author": "ivan",
+    "image": "assets/grove/ivan/08-black-suit-editorial.png",
+    "published_at": "2049-12-03T12:44",
+    "caption": "A still frame between louder days.",
+    "engagement_basis_points": 937,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "good use of the chair.",
+        "delay_minutes": 68
+      },
+      {
+        "author": "garrett",
+        "text": "finally a meeting where nobody has to talk.",
+        "delay_minutes": 150
+      }
+    ]
+  },
+  {
+    "key": "ivan:09-ivory-fashion-story",
+    "author": "ivan",
+    "image": "assets/grove/ivan/09-ivory-fashion-story.png",
+    "published_at": "2049-12-16T11:28",
+    "caption": "Window light. Ivory tailoring. Coffee kept safely elsewhere.",
+    "engagement_basis_points": 1013,
+    "comments": [
+      {
+        "author": "valentina",
+        "text": "i give the coffee separation policy twelve minutes.",
+        "delay_minutes": 75
+      },
+      {
+        "author": "rei",
+        "text": "the fabric caught the light well.",
+        "delay_minutes": 161
+      }
+    ]
+  },
+  {
+    "key": "ivan:10-blue-hour-editorial",
+    "author": "ivan",
+    "image": "assets/grove/ivan/10-blue-hour-editorial.png",
+    "published_at": "2049-12-29T18:07",
+    "caption": "The city gave us ten minutes of this blue.",
+    "engagement_basis_points": 826,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "ten is generous. mine usually gives me thirty seconds.",
+        "delay_minutes": 82
+      },
+      {
+        "author": "garrett",
+        "text": "coat's doing numbers. deserved.",
+        "delay_minutes": 172
+      }
+    ]
+  },
+  {
+    "key": "minsu:01-library-study",
+    "author": "minsu",
+    "image": "assets/grove/minsu/01-library-study.png",
+    "published_at": "2049-09-12T15:22",
+    "caption": "colour coded everything. now to learn what the colours mean.",
+    "engagement_basis_points": 631,
+    "comments": [
+      {
+        "author": "amy",
+        "text": "the yellow tabs are doing a lot of emotional support work 🙂",
+        "delay_minutes": 19
+      },
+      {
+        "author": "april",
+        "text": "Try testing yourself before adding a sixth colour.",
+        "delay_minutes": 73
+      }
+    ],
+    "visible_subjects": [
+      "minsu"
+    ]
+  },
+  {
+    "key": "minsu:02-teaching-lab",
+    "author": "minsu",
+    "image": "assets/grove/minsu/02-teaching-lab.png",
+    "published_at": "2049-09-26T13:41",
+    "caption": "today's study partner has excellent anatomy and no interest in my questions.",
+    "engagement_basis_points": 548,
+    "comments": [
+      {
+        "author": "amy",
+        "text": "at least this one won't interrupt your explanation.",
+        "delay_minutes": 26
+      },
+      {
+        "author": "sophie",
+        "text": "ask it why my heart thinks stairs are a competitive event",
+        "delay_minutes": 84
+      }
+    ]
+  },
+  {
+    "key": "minsu:03-dumpling-review",
+    "author": "minsu",
+    "image": "assets/grove/minsu/03-dumpling-review.png",
+    "published_at": "2049-10-11T12:52",
+    "caption": "thin wrapper, generous filling, chilli oil with ambition. ordering another basket for accuracy.",
+    "engagement_basis_points": 1183,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "your sample size is always conveniently edible 😂",
+        "delay_minutes": 33
+      },
+      {
+        "author": "amy",
+        "text": "independent texture review. please keep this specimen off your chair.",
+        "delay_minutes": 95
+      }
+    ]
+  },
+  {
+    "key": "minsu:04-bakery-taste-test",
+    "author": "minsu",
+    "image": "assets/grove/minsu/04-bakery-taste-test.png",
+    "published_at": "2049-10-25T10:34",
+    "caption": "custard wins warm. red bean wins the walk home. crumb topping wins custody of my hoodie.",
+    "engagement_basis_points": 1294,
+    "comments": [
+      {
+        "author": "amy",
+        "text": "finally, intact specimens. the review can proceed.",
+        "delay_minutes": 40
+      },
+      {
+        "author": "emily",
+        "text": "the custard one looks so fluffy… adding it to my list 🌷",
+        "delay_minutes": 106
+      }
+    ]
+  },
+  {
+    "key": "minsu:05-taekwondo-practice",
+    "author": "minsu",
+    "image": "assets/grove/minsu/05-taekwondo-practice.png",
+    "published_at": "2049-11-09T17:08",
+    "caption": "balance before height. the floor has very consistent feedback.",
+    "engagement_basis_points": 1371,
+    "comments": [
+      {
+        "author": "samantha",
+        "text": "solid control. the reset matters as much as the kick.",
+        "delay_minutes": 47
+      },
+      {
+        "author": "sophie",
+        "text": "and the last ten seconds still count, yes",
+        "delay_minutes": 117
+      }
+    ]
+  },
+  {
+    "key": "minsu:06-post-training",
+    "author": "minsu",
+    "image": "assets/grove/minsu/06-post-training.png",
+    "published_at": "2049-11-23T18:02",
+    "caption": "black belt, empty bottle next, enormous dinner after that.",
+    "engagement_basis_points": 823,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "cooldown first. i know your negotiation face.",
+        "delay_minutes": 54
+      },
+      {
+        "author": "amy",
+        "text": "enormous dinner sounds right. save room for something that isn't a protein bar.",
+        "delay_minutes": 128
+      }
+    ]
+  },
+  {
+    "key": "minsu:07-campus-selfie",
+    "author": "minsu",
+    "image": "assets/grove/minsu/07-campus-selfie.png",
+    "published_at": "2049-12-05T11:53",
+    "caption": "made it to class with time to spare. documenting this rare academic event.",
+    "engagement_basis_points": 747,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "look at you discovering the concept of leaving early",
+        "delay_minutes": 61
+      },
+      {
+        "author": "amy",
+        "text": "this deserves a tiny calendar sticker.",
+        "delay_minutes": 139
+      }
+    ],
+    "visible_subjects": [
+      "minsu"
+    ]
+  },
+  {
+    "key": "minsu:08-late-study-selfie",
+    "author": "minsu",
+    "image": "assets/grove/minsu/08-late-study-selfie.png",
+    "published_at": "2049-12-27T22:14",
+    "caption": "calling it a night before i start giving the flashcards personalities.",
+    "engagement_basis_points": 596,
+    "comments": [
+      {
+        "author": "amy",
+        "text": "too late. you've already made the rib cage look judgemental.",
+        "delay_minutes": 68
+      },
+      {
+        "author": "sophie",
+        "text": "close the book, champion. sleep isn't an optional module",
+        "delay_minutes": 150
+      }
+    ],
+    "visible_subjects": [
+      "minsu"
+    ]
+  },
+  {
+    "key": "emily:01-flower-shop-morning",
+    "author": "emily",
+    "image": "assets/grove/emily/01-flower-shop-selfie.png",
+    "published_at": "2049-11-18T09:24",
+    "caption": "a little lavender to start the morning 🌷 the shop smells so lovely today. wish i could put that in a photo.",
+    "engagement_basis_points": 874,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "you dressed like the flowers again. they have competition.",
+        "delay_minutes": 17
+      },
+      {
+        "author": "garrett",
+        "text": "save me a bunch. apparently showing up with noodles is not always enough.",
+        "delay_minutes": 48
+      }
+    ],
+    "visible_subjects": [
+      "emily"
+    ]
+  },
+  {
+    "key": "emily:02-garden-dinner",
+    "author": "emily",
+    "image": "assets/grove/emily/02-cosy-selfie.png",
+    "published_at": "2049-12-21T18:42",
+    "caption": "the cardigan is soft and the afternoon is mine. a very good combination 🤍",
+    "engagement_basis_points": 1294,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "That looks like a very good afternoon.",
+        "delay_minutes": 20
+      },
+      {
+        "author": "rei",
+        "text": "the cardigan has clearly won.",
+        "delay_minutes": 51
+      }
+    ],
+    "visible_subjects": [
+      "emily"
+    ]
+  },
+  {
+    "key": "emily:03-tulips",
+    "author": "emily",
+    "published_at": "2049-11-22T10:16",
+    "engagement_basis_points": 734,
+    "image": "assets/grove/emily/03-tulips.png",
+    "caption": "pink and cream tulips today 🌷 tied them with twine and immediately wanted to keep them.",
+    "comments": [
+      {
+        "author": "garrett",
+        "text": "save me the pink ones. i can trade lunch.",
+        "delay_minutes": 21
+      },
+      {
+        "author": "rei",
+        "text": "excellent arrangement. suspiciously good lighting.",
+        "delay_minutes": 52
+      }
+    ]
+  },
+  {
+    "key": "emily:04-garden-flowers",
+    "author": "emily",
+    "published_at": "2049-11-27T16:32",
+    "engagement_basis_points": 629,
+    "image": "assets/grove/emily/04-garden-flowers.png",
+    "caption": "the garden after rain. even the tiniest daisies were sparkling ✨",
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "The drops on the lavender are beautiful.",
+        "delay_minutes": 22
+      },
+      {
+        "author": "rei",
+        "text": "tiny flowers. dramatic entrance.",
+        "delay_minutes": 53
+      }
+    ]
+  },
+  {
+    "key": "emily:05-lego-cottage",
+    "author": "emily",
+    "published_at": "2049-12-03T19:45",
+    "engagement_basis_points": 1154,
+    "image": "assets/grove/emily/05-lego-cottage.png",
+    "caption": "finished my little lego cottage! the garden took longer than the roof. priorities 🏡",
+    "comments": [
+      {
+        "author": "garrett",
+        "text": "does the tiny kitchen need a chef?",
+        "delay_minutes": 23
+      },
+      {
+        "author": "rei",
+        "text": "the flowers have more living space than the residents.",
+        "delay_minutes": 54
+      }
+    ]
+  },
+  {
+    "key": "emily:06-lego-bouquet",
+    "author": "emily",
+    "published_at": "2049-12-09T14:12",
+    "engagement_basis_points": 1049,
+    "image": "assets/grove/emily/06-lego-bouquet.png",
+    "caption": "flowers at work, lego flowers at home. apparently i have a theme 🌸",
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "Sorting the colours looks almost as satisfying as building it.",
+        "delay_minutes": 24
+      },
+      {
+        "author": "rei",
+        "text": "finally. flowers i cannot accidentally neglect.",
+        "delay_minutes": 55
+      }
+    ]
+  },
+  {
+    "key": "emily:07-mirror-cardigan",
+    "author": "emily",
+    "published_at": "2049-12-16T11:08",
+    "engagement_basis_points": 944,
+    "image": "assets/grove/emily/07-mirror-cardigan.png",
+    "caption": "this cardigan has pockets. that is the entire outfit review 🌿",
+    "comments": [
+      {
+        "author": "garrett",
+        "text": "pockets make it formal. everyone knows that.",
+        "delay_minutes": 25
+      },
+      {
+        "author": "rei",
+        "text": "five stars. room for snacks.",
+        "delay_minutes": 56
+      }
+    ],
+    "visible_subjects": [
+      "emily"
+    ]
+  },
+  {
+    "key": "emily:08-mirror-pinafore",
+    "author": "emily",
+    "published_at": "2049-12-27T20:18",
+    "engagement_basis_points": 1399,
+    "image": "assets/grove/emily/08-mirror-pinafore.png",
+    "caption": "one last mirror photo before i put the comfy clothes on 🤍",
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "The blue and cream suit you so well.",
+        "delay_minutes": 26
+      },
+      {
+        "author": "rei",
+        "text": "the comfy clothes deserve their own post.",
+        "delay_minutes": 57
+      }
+    ]
+  },
+  {
+    "key": "sophie:01-park-selfie",
+    "author": "sophie",
+    "image": "assets/grove/sophie/01-park-selfie.png",
+    "published_at": "2049-09-07T07:34",
+    "caption": "easy run, excellent hair day. taking both wins 🏃‍♀️",
+    "engagement_basis_points": 812,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "Your easy pace still needs a warning label.",
+        "delay_minutes": 21
+      },
+      {
+        "author": "rei",
+        "text": "the park survived. impressive.",
+        "delay_minutes": 58
+      }
+    ],
+    "visible_subjects": [
+      "sophie"
+    ]
+  },
+  {
+    "key": "sophie:02-cafe-selfie",
+    "author": "sophie",
+    "image": "assets/grove/sophie/02-cafe-selfie.png",
+    "published_at": "2049-09-20T10:18",
+    "caption": "ran for the coffee. stayed for the pastry. balanced lifestyle ☕",
+    "engagement_basis_points": 943,
+    "comments": [
+      {
+        "author": "garrett",
+        "text": "next time run toward my kitchen. better breakfast.",
+        "delay_minutes": 21
+      },
+      {
+        "author": "rei",
+        "text": "finally a finish line i understand.",
+        "delay_minutes": 58
+      }
+    ],
+    "visible_subjects": [
+      "sophie"
+    ]
+  },
+  {
+    "key": "sophie:03-mirror-training",
+    "author": "sophie",
+    "image": "assets/grove/sophie/03-mirror-training.png",
+    "published_at": "2049-10-04T16:42",
+    "caption": "mirror check before leg day. ask me about stairs tomorrow 💚",
+    "engagement_basis_points": 1107,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "I will save you a seat downstairs.",
+        "delay_minutes": 21
+      },
+      {
+        "author": "garrett",
+        "text": "stairs are just vertical hill sprints. you love those.",
+        "delay_minutes": 58
+      }
+    ],
+    "visible_subjects": [
+      "sophie"
+    ]
+  },
+  {
+    "key": "sophie:04-mirror-weekend",
+    "author": "sophie",
+    "image": "assets/grove/sophie/04-mirror-weekend.png",
+    "published_at": "2049-10-19T14:26",
+    "caption": "proof i own clothes that are not for running 😂",
+    "engagement_basis_points": 1256,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "jeans. historic footage.",
+        "delay_minutes": 21
+      },
+      {
+        "author": "garrett",
+        "text": "still betting you race someone to dinner.",
+        "delay_minutes": 58
+      }
+    ]
+  },
+  {
+    "key": "sophie:05-beach-walk",
+    "author": "sophie",
+    "image": "assets/grove/sophie/05-beach-walk.png",
+    "published_at": "2049-11-02T12:14",
+    "caption": "no stopwatch. no splits. just saltwater and absolutely no plans 🌊",
+    "engagement_basis_points": 1431,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "This looks like a proper rest day.",
+        "delay_minutes": 21
+      },
+      {
+        "author": "rei",
+        "text": "the ocean declines your race invitation.",
+        "delay_minutes": 58
+      }
+    ]
+  },
+  {
+    "key": "sophie:06-beach-seated",
+    "author": "sophie",
+    "image": "assets/grove/sophie/06-beach-seated.png",
+    "published_at": "2049-11-16T16:53",
+    "caption": "officially on towel duty. someone else can chase the beach ball ☀️",
+    "engagement_basis_points": 1378,
+    "comments": [
+      {
+        "author": "garrett",
+        "text": "i give you five minutes before you get competitive.",
+        "delay_minutes": 21
+      },
+      {
+        "author": "minsu",
+        "text": "Keep this energy when we schedule recovery days.",
+        "delay_minutes": 58
+      }
+    ]
+  },
+  {
+    "key": "sophie:07-track-sprint",
+    "author": "sophie",
+    "image": "assets/grove/sophie/07-track-sprint.png",
+    "published_at": "2049-12-06T08:35",
+    "caption": "last rep means last rep. not the one where we stop trying 🏃‍♀️🔥",
+    "engagement_basis_points": 1194,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "You absolutely made me finish that interval properly.",
+        "delay_minutes": 21
+      },
+      {
+        "author": "rei",
+        "text": "even your ponytail is trying to win.",
+        "delay_minutes": 58
+      }
+    ]
+  },
+  {
+    "key": "sophie:08-track-recovery",
+    "author": "sophie",
+    "image": "assets/grove/sophie/08-track-recovery.png",
+    "published_at": "2049-12-23T18:09",
+    "caption": "session done. legs cooked. accepting snacks and compliments in that order 😂",
+    "engagement_basis_points": 1028,
+    "comments": [
+      {
+        "author": "garrett",
+        "text": "noodles count as both if i made them.",
+        "delay_minutes": 21
+      },
+      {
+        "author": "minsu",
+        "text": "Good session. Water first, then we can find food.",
+        "delay_minutes": 58
+      }
+    ]
+  },
+  {
+    "key": "sophie:09-sleepwear-mirror",
+    "author": "sophie",
+    "image": "assets/grove/sophie/09-sleepwear-mirror.png",
+    "published_at": "2049-12-29T21:16",
+    "caption": "training kit off. sleep mode on. do not challenge me to anything until breakfast 💙",
+    "engagement_basis_points": 1317,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "breakfast has been notified. no competition before toast.",
+        "delay_minutes": 12
+      },
+      {
+        "author": "minsu",
+        "text": "An early night actually made the schedule. Proud of you.",
+        "delay_minutes": 29
+      }
+    ]
+  },
+  {
+    "key": "samantha:01-gym-progress",
+    "author": "samantha",
+    "image": "assets/grove/samantha/01-gym-progress.png",
+    "published_at": "2049-09-03T17:12",
+    "caption": "shoulders showing up. consistency is annoying but it works.",
+    "engagement_basis_points": 842,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "Clean progress. Those last sets have been paying off.",
+        "delay_minutes": 24
+      },
+      {
+        "author": "rei",
+        "text": "the mirror has accepted defeat.",
+        "delay_minutes": 53
+      }
+    ],
+    "visible_subjects": [
+      "samantha"
+    ]
+  },
+  {
+    "key": "samantha:02-gym-session",
+    "author": "samantha",
+    "image": "assets/grove/samantha/02-gym-session.png",
+    "published_at": "2049-09-17T18:26",
+    "caption": "rest timer says sit down. for once i agree.",
+    "engagement_basis_points": 957,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "That bench is the best part of the session sometimes.",
+        "delay_minutes": 24
+      },
+      {
+        "author": "rei",
+        "text": "rare footage of you accepting instructions.",
+        "delay_minutes": 53
+      }
+    ],
+    "visible_subjects": [
+      "samantha"
+    ]
+  },
+  {
+    "key": "samantha:03-glute-progress-side",
+    "author": "samantha",
+    "image": "assets/grove/samantha/03-glute-progress-side.png",
+    "published_at": "2049-10-01T17:34",
+    "caption": "lower-body check-in. stronger legs, same hatred of stairs.",
+    "engagement_basis_points": 1103,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "Your single-leg work has looked much steadier lately.",
+        "delay_minutes": 24
+      },
+      {
+        "author": "rei",
+        "text": "stairs remain undefeated the morning after.",
+        "delay_minutes": 53
+      }
+    ]
+  },
+  {
+    "key": "samantha:04-glute-progress-rear",
+    "author": "samantha",
+    "image": "assets/grove/samantha/04-glute-progress-rear.png",
+    "published_at": "2049-10-29T17:38",
+    "caption": "another leg-day check-in. boring reps, actual progress.",
+    "engagement_basis_points": 1219,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "A month of turning up adds up. Nice work.",
+        "delay_minutes": 24
+      },
+      {
+        "author": "rei",
+        "text": "the boring reps would like an apology.",
+        "delay_minutes": 53
+      }
+    ]
+  },
+  {
+    "key": "samantha:05-sleepwear-mirror",
+    "author": "samantha",
+    "image": "assets/grove/samantha/05-sleepwear-mirror.png",
+    "published_at": "2049-11-04T21:18",
+    "caption": "boots off. burgundy on. that is all the evening planning i am doing.",
+    "engagement_basis_points": 1371,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "A quiet evening sounds well earned.",
+        "delay_minutes": 24
+      },
+      {
+        "author": "rei",
+        "text": "an ambitious schedule. leave room for snacks.",
+        "delay_minutes": 53
+      }
+    ]
+  },
+  {
+    "key": "samantha:06-sleepwear-morning",
+    "author": "samantha",
+    "image": "assets/grove/samantha/06-sleepwear-morning.png",
+    "published_at": "2049-11-12T09:42",
+    "caption": "coffee first. coherent sentences later.",
+    "engagement_basis_points": 1287,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "I will save the complicated questions for after breakfast.",
+        "delay_minutes": 24
+      },
+      {
+        "author": "rei",
+        "text": "this caption is already overachieving.",
+        "delay_minutes": 53
+      }
+    ]
+  },
+  {
+    "key": "samantha:07-motorbike-street",
+    "author": "samantha",
+    "image": "assets/grove/samantha/07-motorbike-street.png",
+    "published_at": "2049-11-21T17:09",
+    "caption": "parked long enough for one photo. she cleans up well.",
+    "engagement_basis_points": 1463,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "The light on the bike is really good here.",
+        "delay_minutes": 24
+      },
+      {
+        "author": "rei",
+        "text": "assuming you mean the bike. both work.",
+        "delay_minutes": 53
+      }
+    ],
+    "visible_subjects": [
+      "samantha"
+    ]
+  },
+  {
+    "key": "samantha:08-motorbike-garage",
+    "author": "samantha",
+    "image": "assets/grove/samantha/08-motorbike-garage.png",
+    "published_at": "2049-12-02T14:33",
+    "caption": "garage afternoon. checking the little things before the next ride.",
+    "engagement_basis_points": 1038,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "Good excuse to slow down and get everything sorted.",
+        "delay_minutes": 24
+      },
+      {
+        "author": "rei",
+        "text": "tools accounted for. miraculous.",
+        "delay_minutes": 53
+      }
+    ]
+  },
+  {
+    "key": "samantha:09-smoking-evening",
+    "author": "samantha",
+    "image": "assets/grove/samantha/09-smoking-evening.png",
+    "published_at": "2049-12-14T19:16",
+    "caption": "five quiet minutes outside. city is still loud.",
+    "engagement_basis_points": 763,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "That street looks completely different after sunset.",
+        "delay_minutes": 24
+      },
+      {
+        "author": "rei",
+        "text": "five minutes without an argument. personal record.",
+        "delay_minutes": 53
+      }
+    ]
+  },
+  {
+    "key": "samantha:10-smoking-balcony",
+    "author": "samantha",
+    "image": "assets/grove/samantha/10-smoking-balcony.png",
+    "published_at": "2049-12-27T15:24",
+    "caption": "rooftops, cold coffee, no urgent plans.",
+    "engagement_basis_points": 891,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "The view from there is lovely.",
+        "delay_minutes": 24
+      },
+      {
+        "author": "rei",
+        "text": "the coffee has given up waiting for you.",
+        "delay_minutes": 53
+      }
+    ]
+  },
+  {
+    "key": "amy:01-window-books",
+    "author": "amy",
+    "image": "assets/grove/amy/01-window-books.png",
+    "published_at": "2049-09-05T15:18",
+    "caption": "rain, tea, and a book i keep reading one paragraph at a time. no complaints.",
+    "engagement_basis_points": 804,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "That looks like a good place to spend a rainy afternoon.",
+        "delay_minutes": 18
+      },
+      {
+        "author": "rei",
+        "text": "one paragraph. several cups of tea. respectable pace.",
+        "delay_minutes": 47
+      }
+    ]
+  },
+  {
+    "key": "amy:02-library-books",
+    "author": "amy",
+    "image": "assets/grove/amy/02-library-books.png",
+    "published_at": "2049-09-19T16:32",
+    "caption": "went in for one book. leaving that sentence unfinished seems appropriate.",
+    "engagement_basis_points": 919,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "I can help carry them if you got more than your bag can hold.",
+        "delay_minutes": 18
+      },
+      {
+        "author": "rei",
+        "text": "the bookmark looks outnumbered.",
+        "delay_minutes": 47
+      }
+    ]
+  },
+  {
+    "key": "amy:03-watercolour-desk",
+    "author": "amy",
+    "image": "assets/grove/amy/03-watercolour-desk.png",
+    "published_at": "2049-10-03T14:21",
+    "caption": "trying to paint the river without asking it to sit still. the watercolour has opinions.",
+    "engagement_basis_points": 1098,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "The pale blue in the water is really lovely.",
+        "delay_minutes": 18
+      },
+      {
+        "author": "rei",
+        "text": "the reeds seem willing to cooperate.",
+        "delay_minutes": 47
+      }
+    ]
+  },
+  {
+    "key": "amy:04-painting-easel",
+    "author": "amy",
+    "image": "assets/grove/amy/04-painting-easel.png",
+    "published_at": "2049-10-16T19:07",
+    "caption": "nearly finished. which is usually when i decide one more green will solve everything.",
+    "engagement_basis_points": 1213,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "I like how the light breaks through the trees.",
+        "delay_minutes": 18
+      },
+      {
+        "author": "rei",
+        "text": "hide the green. save yourself.",
+        "delay_minutes": 47
+      }
+    ]
+  },
+  {
+    "key": "amy:05-philosophy-notes",
+    "author": "amy",
+    "image": "assets/grove/amy/05-philosophy-notes.png",
+    "published_at": "2049-10-30T20:14",
+    "caption": "tonight: does a good intention change a bad outcome? the arrows are not helping yet.",
+    "engagement_basis_points": 702,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "I want to hear where you land on this after some sleep.",
+        "delay_minutes": 18
+      },
+      {
+        "author": "rei",
+        "text": "draw an arrow toward dinner first.",
+        "delay_minutes": 47
+      }
+    ]
+  },
+  {
+    "key": "amy:06-philosophy-window",
+    "author": "amy",
+    "image": "assets/grove/amy/06-philosophy-window.png",
+    "published_at": "2049-11-08T11:43",
+    "caption": "thinking about whether paying attention is something we owe each other. the tree is getting plenty of mine.",
+    "engagement_basis_points": 855,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "I like that question. Especially the part about noticing.",
+        "delay_minutes": 18
+      },
+      {
+        "author": "rei",
+        "text": "the tree has declined to submit an essay.",
+        "delay_minutes": 47
+      }
+    ]
+  },
+  {
+    "key": "amy:07-studio-selfie",
+    "author": "amy",
+    "image": "assets/grove/amy/07-studio-selfie.png",
+    "published_at": "2049-11-20T16:18",
+    "caption": "proof there is a person behind the paintings. usually with paint on her face.",
+    "engagement_basis_points": 1341,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "The paint smudge makes this feel very honest.",
+        "delay_minutes": 18
+      },
+      {
+        "author": "rei",
+        "text": "the artist has become part of the palette.",
+        "delay_minutes": 47
+      }
+    ],
+    "visible_subjects": [
+      "amy"
+    ]
+  },
+  {
+    "key": "amy:08-walk-selfie",
+    "author": "amy",
+    "image": "assets/grove/amy/08-walk-selfie.png",
+    "published_at": "2049-12-01T09:26",
+    "caption": "took my thoughts outside. they are still coming with me, but the light is nicer 🌿",
+    "engagement_basis_points": 1456,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "Good choice. The path looks beautiful this morning.",
+        "delay_minutes": 18
+      },
+      {
+        "author": "rei",
+        "text": "thoughts need fresh air too. unfortunately.",
+        "delay_minutes": 47
+      }
+    ],
+    "visible_subjects": [
+      "amy"
+    ]
+  },
+  {
+    "key": "amy:09-river-reeds",
+    "author": "amy",
+    "image": "assets/grove/amy/09-river-reeds.png",
+    "published_at": "2049-12-13T17:38",
+    "caption": "saving these colours for a day when i forget how soft the river can look.",
+    "engagement_basis_points": 1009,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "That gold reflection would make a beautiful wash.",
+        "delay_minutes": 18
+      },
+      {
+        "author": "rei",
+        "text": "the river is showing off quietly.",
+        "delay_minutes": 47
+      }
+    ]
+  },
+  {
+    "key": "amy:10-forest-light",
+    "author": "amy",
+    "image": "assets/grove/amy/10-forest-light.png",
+    "published_at": "2049-12-28T10:12",
+    "caption": "a small reminder that not everything needs an explanation. sometimes i can just look.",
+    "engagement_basis_points": 1162,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "This makes me want to take the long way home.",
+        "delay_minutes": 18
+      },
+      {
+        "author": "rei",
+        "text": "the fern accepts this arrangement.",
+        "delay_minutes": 47
+      }
+    ]
+  },
+  {
+    "key": "samantha:11-lamplight-selfie",
+    "author": "samantha",
+    "image": "assets/grove/samantha/11-lamplight-selfie.jpg",
+    "published_at": "2049-12-28T20:15",
+    "caption": "finally off my feet.",
+    "engagement_basis_points": 934,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "a rare sight. samantha sitting still.",
+        "delay_minutes": 24
+      },
+      {
+        "author": "sophie",
+        "text": "Rest day looks good on you.",
+        "delay_minutes": 53
+      }
+    ]
+  },
+  {
+    "key": "samantha:12-evening-mirror",
+    "author": "samantha",
+    "image": "assets/grove/samantha/12-evening-mirror.jpg",
+    "published_at": "2049-12-29T20:15",
+    "caption": "keeping the good lighting.",
+    "engagement_basis_points": 976,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "the fairy lights understood the assignment.",
+        "delay_minutes": 24
+      },
+      {
+        "author": "sophie",
+        "text": "That mirror has earned its place.",
+        "delay_minutes": 53
+      }
+    ]
+  },
+  {
+    "key": "samantha:13-quiet-evening",
+    "author": "samantha",
+    "image": "assets/grove/samantha/13-quiet-evening.jpg",
+    "published_at": "2049-12-30T20:15",
+    "caption": "no alarms. no plans. perfect.",
+    "engagement_basis_points": 1018,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "an excellent evening schedule.",
+        "delay_minutes": 24
+      },
+      {
+        "author": "sophie",
+        "text": "Protecting this energy for the weekend.",
+        "delay_minutes": 53
+      }
+    ]
+  },
+  {
+    "key": "samantha:14-mirror-over-shoulder",
+    "author": "samantha",
+    "image": "assets/grove/samantha/14-mirror-over-shoulder.jpg",
+    "published_at": "2049-12-31T20:15",
+    "caption": "one last mirror check for the year.",
+    "engagement_basis_points": 1060,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "mirror inspection passed.",
+        "delay_minutes": 24
+      },
+      {
+        "author": "sophie",
+        "text": "The warm lighting is lovely here.",
+        "delay_minutes": 53
+      }
+    ]
+  },
+  {
+    "key": "april:01-science-books",
+    "author": "april",
+    "image": "assets/grove/april/01-science-books.png",
+    "published_at": "2049-09-09T09:18",
+    "caption": "A quiet morning with optics. The tea is cooling faster than I am taking notes.",
+    "engagement_basis_points": 724,
+    "comments": [
+      {
+        "author": "garrett",
+        "text": "finally, someone else willing to overthink how heat leaves a cup.",
+        "delay_minutes": 14
+      },
+      {
+        "author": "minsu",
+        "text": "That window seat looks ideal for reading.",
+        "delay_minutes": 39
+      }
+    ]
+  },
+  {
+    "key": "april:02-library-science",
+    "author": "april",
+    "image": "assets/grove/april/02-library-science.png",
+    "published_at": "2049-09-24T18:42",
+    "caption": "One chapter became three. This is why I do not estimate library visits in advance.",
+    "engagement_basis_points": 865,
+    "comments": [
+      {
+        "author": "garrett",
+        "text": "i estimate them in meals. you missed one.",
+        "delay_minutes": 14
+      },
+      {
+        "author": "minsu",
+        "text": "I wondered if you were still at that desk. Good chapter?",
+        "delay_minutes": 39
+      }
+    ]
+  },
+  {
+    "key": "april:03-chess-study",
+    "author": "april",
+    "image": "assets/grove/april/03-chess-study.png",
+    "published_at": "2049-10-08T15:16",
+    "caption": "Fewer pieces does not mean fewer decisions. Endgames remain excellent company.",
+    "engagement_basis_points": 1005,
+    "comments": [
+      {
+        "author": "garrett",
+        "text": "i prefer company that lets me take a move back.",
+        "delay_minutes": 14
+      },
+      {
+        "author": "minsu",
+        "text": "That looks like a satisfying position to work through slowly.",
+        "delay_minutes": 39
+      }
+    ]
+  },
+  {
+    "key": "april:04-chess-player",
+    "author": "april",
+    "image": "assets/grove/april/04-chess-player.png",
+    "published_at": "2049-10-23T16:37",
+    "caption": "Thinking. This is not an invitation to tell me what you would play.",
+    "engagement_basis_points": 1121,
+    "comments": [
+      {
+        "author": "garrett",
+        "text": "fine. i will save my brilliant advice for the rematch.",
+        "delay_minutes": 14
+      },
+      {
+        "author": "minsu",
+        "text": "I will keep the suggestions to myself and bring tea.",
+        "delay_minutes": 39
+      }
+    ],
+    "visible_subjects": [
+      "april"
+    ]
+  },
+  {
+    "key": "april:05-library-selfie",
+    "author": "april",
+    "image": "assets/grove/april/05-library-selfie.png",
+    "published_at": "2049-11-05T14:21",
+    "caption": "Occasional evidence that I am not simply a stack of books with an account.",
+    "engagement_basis_points": 1355,
+    "comments": [
+      {
+        "author": "garrett",
+        "text": "the books would post more often.",
+        "delay_minutes": 14
+      },
+      {
+        "author": "minsu",
+        "text": "Nice photo. I recognise that shelf immediately.",
+        "delay_minutes": 39
+      }
+    ],
+    "visible_subjects": [
+      "april"
+    ]
+  },
+  {
+    "key": "april:06-campus-selfie",
+    "author": "april",
+    "image": "assets/grove/april/06-campus-selfie.png",
+    "published_at": "2049-11-19T11:08",
+    "caption": "Took the longer route between buildings. A defensible use of ten minutes.",
+    "engagement_basis_points": 1472,
+    "comments": [
+      {
+        "author": "garrett",
+        "text": "look at you. taking a break without submitting a proposal.",
+        "delay_minutes": 14
+      },
+      {
+        "author": "minsu",
+        "text": "The light is lovely there. I should try that route.",
+        "delay_minutes": 39
+      }
+    ],
+    "visible_subjects": [
+      "april"
+    ]
+  },
+  {
+    "key": "april:07-chess-award",
+    "author": "april",
+    "image": "assets/grove/april/07-chess-award.png",
+    "published_at": "2049-12-04T18:26",
+    "caption": "A small trophy from the university chess club. Good games, and several positions worth revisiting.",
+    "engagement_basis_points": 1565,
+    "comments": [
+      {
+        "author": "garrett",
+        "text": "proud of you. still requesting a rematch, obviously.",
+        "delay_minutes": 14
+      },
+      {
+        "author": "minsu",
+        "text": "Congratulations, April. You look quietly very pleased.",
+        "delay_minutes": 39
+      }
+    ]
+  },
+  {
+    "key": "april:08-science-award",
+    "author": "april",
+    "image": "assets/grove/april/08-science-award.png",
+    "published_at": "2049-12-20T17:14",
+    "caption": "A university science presentation award. Grateful for thoughtful questions; I have already revised one slide.",
+    "engagement_basis_points": 1262,
+    "comments": [
+      {
+        "author": "garrett",
+        "text": "you revised it before getting home, did not you. congratulations.",
+        "delay_minutes": 14
+      },
+      {
+        "author": "minsu",
+        "text": "Well deserved. I liked how clearly you explained the difficult part.",
+        "delay_minutes": 39
+      }
+    ]
+  },
+  {
+    "key": "sophie:10-neon-mirror",
+    "author": "sophie",
+    "image": "assets/grove/sophie/10-neon-mirror.jpg",
+    "published_at": "2049-12-29T21:10",
+    "caption": "neon lights and a good hair day. keeping the evidence.",
+    "engagement_basis_points": 1121,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "that ponytail has its own postcode.",
+        "delay_minutes": 21
+      },
+      {
+        "author": "minsu",
+        "text": "The blue lighting really suits you.",
+        "delay_minutes": 58
+      }
+    ]
+  },
+  {
+    "key": "sophie:11-neon-evening",
+    "author": "sophie",
+    "image": "assets/grove/sophie/11-neon-evening.jpg",
+    "published_at": "2049-12-30T21:10",
+    "caption": "taking a break. the lights can do the cardio tonight.",
+    "engagement_basis_points": 1162,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "finally. a workout i can manage.",
+        "delay_minutes": 21
+      },
+      {
+        "author": "minsu",
+        "text": "Your room looks so cosy tonight.",
+        "delay_minutes": 58
+      }
+    ]
+  },
+  {
+    "key": "sophie:12-blue-mirror",
+    "author": "sophie",
+    "image": "assets/grove/sophie/12-blue-mirror.jpg",
+    "published_at": "2049-12-31T21:10",
+    "caption": "one more before i turn the lights down.",
+    "engagement_basis_points": 1203,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "one more is never one more.",
+        "delay_minutes": 21
+      },
+      {
+        "author": "minsu",
+        "text": "Pink and blue is such a lovely combination.",
+        "delay_minutes": 58
+      }
+    ]
+  },
+  {
+    "key": "yuriko:01-workshop-selfie",
+    "author": "yuriko",
+    "image": "assets/grove/yuriko/01-workshop-selfie.png",
+    "published_at": "2049-09-08T15:32",
+    "caption": "paint on my face. none on the curtains. calling that a successful afternoon.",
+    "engagement_basis_points": 720,
+    "comments": [
+      {
+        "author": "emily",
+        "text": "The little stage behind you! Can I see it closer?",
+        "delay_minutes": 13
+      },
+      {
+        "author": "rei",
+        "text": "there is also paint on the kettle.",
+        "delay_minutes": 61
+      }
+    ],
+    "visible_subjects": [
+      "yuriko"
+    ]
+  },
+  {
+    "key": "yuriko:02-miniature-set",
+    "author": "yuriko",
+    "image": "assets/grove/yuriko/02-miniature-set.png",
+    "published_at": "2049-09-17T16:10",
+    "caption": "the stairs are temporary. the tiny curtains have somehow become non-negotiable.",
+    "engagement_basis_points": 580,
+    "comments": [
+      {
+        "author": "emily",
+        "text": "Those curtains make the whole room feel lived in.",
+        "delay_minutes": 16
+      },
+      {
+        "author": "rei",
+        "text": "does it need another window?",
+        "delay_minutes": 68
+      }
+    ]
+  },
+  {
+    "key": "yuriko:03-cosy-selfie",
+    "author": "yuriko",
+    "image": "assets/grove/yuriko/03-cosy-selfie.png",
+    "published_at": "2049-10-02T20:36",
+    "caption": "closed the sketchbook before midnight. please respect this historic occasion.",
+    "engagement_basis_points": 830,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "Documented. Witnessed. Proud of you.",
+        "delay_minutes": 19
+      },
+      {
+        "author": "rei",
+        "text": "do the drawings on the back of the receipt count?",
+        "delay_minutes": 75
+      }
+    ],
+    "visible_subjects": [
+      "yuriko"
+    ]
+  },
+  {
+    "key": "yuriko:04-back-row-test",
+    "author": "yuriko",
+    "image": "assets/grove/yuriko/04-back-row-test.png",
+    "published_at": "2049-10-15T18:24",
+    "caption": "back-row check. if the reveal only works from the front, it does not work yet.",
+    "engagement_basis_points": 610,
+    "comments": [
+      {
+        "author": "emily",
+        "text": "The shadow through that doorway is lovely.",
+        "delay_minutes": 22
+      },
+      {
+        "author": "sophie",
+        "text": "I volunteer for sitting very far away and being honest.",
+        "delay_minutes": 82
+      }
+    ]
+  },
+  {
+    "key": "yuriko:05-riverside-selfie",
+    "author": "yuriko",
+    "image": "assets/grove/yuriko/05-riverside-selfie.png",
+    "published_at": "2049-10-28T14:12",
+    "caption": "went outside for reference photos. mostly collected wind in my fringe.",
+    "engagement_basis_points": 910,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "That scarf was an excellent decision.",
+        "delay_minutes": 25
+      },
+      {
+        "author": "emily",
+        "text": "The leaves match your clip 🍂",
+        "delay_minutes": 89
+      }
+    ],
+    "visible_subjects": [
+      "yuriko"
+    ]
+  },
+  {
+    "key": "yuriko:06-dinner-at-home",
+    "author": "yuriko",
+    "image": "assets/grove/yuriko/06-dinner-at-home.png",
+    "published_at": "2049-11-09T19:05",
+    "caption": "a table with no cardboard on it. we even used it for dinner.",
+    "engagement_basis_points": 670,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "the cardboard has moved to my chair.",
+        "delay_minutes": 28
+      },
+      {
+        "author": "emily",
+        "text": "That measuring cup is still going!",
+        "delay_minutes": 96
+      }
+    ]
+  },
+  {
+    "key": "yuriko:07-backstage-selfie",
+    "author": "yuriko",
+    "image": "assets/grove/yuriko/07-backstage-selfie.png",
+    "published_at": "2049-11-22T21:18",
+    "caption": "lighting test done. keeping this one because i look exactly as tired and pleased as i feel.",
+    "engagement_basis_points": 780,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "That is absolutely a finished-the-thing face.",
+        "delay_minutes": 31
+      },
+      {
+        "author": "rei",
+        "text": "want me to put the kettle on?",
+        "delay_minutes": 103
+      }
+    ]
+  },
+  {
+    "key": "yuriko:08-rainy-cafe-sketches",
+    "author": "yuriko",
+    "image": "assets/grove/yuriko/08-rainy-cafe-sketches.png",
+    "published_at": "2049-12-12T13:47",
+    "caption": "came in to get out of the rain. accidentally redesigned three windows.",
+    "engagement_basis_points": 560,
+    "comments": [
+      {
+        "author": "emily",
+        "text": "I like the tall arch on the right.",
+        "delay_minutes": 34
+      },
+      {
+        "author": "sophie",
+        "text": "Did the pastry survive the design meeting?",
+        "delay_minutes": 110
+      }
+    ]
+  },
+  {
+    "key": "lena:01-archive-selfie",
+    "author": "lena",
+    "image": "assets/grove/lena/01-archive-selfie.png",
+    "published_at": "2049-09-05T16:12",
+    "caption": "proof i occasionally emerge from behind the boxes. the boxes declined to comment.",
+    "engagement_basis_points": 760,
+    "comments": [],
+    "visible_subjects": [
+      "lena"
+    ]
+  },
+  {
+    "key": "lena:02-contact-sheets",
+    "author": "lena",
+    "image": "assets/grove/lena/02-contact-sheets.png",
+    "published_at": "2049-09-19T19:43",
+    "caption": "same corner, twelve attempts. keeping the missed frames because they are annoyingly educational.",
+    "engagement_basis_points": 540,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "The empty corner in the middle row is my favourite.",
+        "delay_minutes": 46
+      }
+    ]
+  },
+  {
+    "key": "lena:03-cortado-selfie",
+    "author": "lena",
+    "image": "assets/grove/lena/03-cortado-selfie.png",
+    "published_at": "2049-10-03T11:26",
+    "caption": "one cortado before i become someone with opinions about exposure again.",
+    "engagement_basis_points": 880,
+    "comments": [],
+    "visible_subjects": [
+      "lena"
+    ]
+  },
+  {
+    "key": "lena:04-old-town-light",
+    "author": "lena",
+    "image": "assets/grove/lena/04-old-town-light.png",
+    "published_at": "2049-10-18T17:06",
+    "caption": "waited twenty minutes for that stripe of light. the drainpipe was very patient.",
+    "engagement_basis_points": 690,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "Worth waiting. The shadow almost looks like another street.",
+        "delay_minutes": 64
+      }
+    ]
+  },
+  {
+    "key": "lena:05-salsa-mirror",
+    "author": "lena",
+    "image": "assets/grove/lena/05-salsa-mirror.png",
+    "published_at": "2049-10-30T18:52",
+    "caption": "tonight the feet are in charge. hoping they have read the instructions.",
+    "engagement_basis_points": 920,
+    "comments": [],
+    "visible_subjects": [
+      "lena"
+    ]
+  },
+  {
+    "key": "lena:06-conservation-desk",
+    "author": "lena",
+    "image": "assets/grove/lena/06-conservation-desk.png",
+    "published_at": "2049-11-13T15:34",
+    "caption": "repairing the tear, not improving the story. those are different jobs.",
+    "engagement_basis_points": 570,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "I like that distinction. Especially with old publicity photos.",
+        "delay_minutes": 82
+      }
+    ]
+  },
+  {
+    "key": "lena:07-clocktower-home",
+    "author": "lena",
+    "image": "assets/grove/lena/07-clocktower-home.png",
+    "published_at": "2049-11-28T20:17",
+    "caption": "record on. shoes off. the unfinished roll can develop a little patience.",
+    "engagement_basis_points": 810,
+    "comments": []
+  },
+  {
+    "key": "lena:08-paella-night",
+    "author": "lena",
+    "image": "assets/grove/lena/08-paella-night.png",
+    "published_at": "2049-12-16T19:21",
+    "caption": "the rice has a crust and i have no intention of sharing that particular corner.",
+    "engagement_basis_points": 640,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "A very reasonable boundary.",
+        "delay_minutes": 100
+      }
+    ]
+  },
+  {
+    "key": "naomi:01-workshop-selfie",
+    "author": "naomi",
+    "image": "assets/grove/naomi/01-workshop-selfie.png",
+    "published_at": "2049-04-07T16:28",
+    "caption": "Finished before closing. Even washed most of the grease off.",
+    "engagement_basis_points": 730,
+    "comments": [],
+    "visible_subjects": [
+      "naomi"
+    ]
+  },
+  {
+    "key": "naomi:02-wheel-repair",
+    "author": "naomi",
+    "image": "assets/grove/naomi/02-wheel-repair.png",
+    "published_at": "2049-04-21T14:36",
+    "caption": "Round again. Small adjustments. Repeated more times than the photograph suggests.",
+    "engagement_basis_points": 540,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "The quiet repairs always seem to take the most patience.",
+        "delay_minutes": 42
+      }
+    ]
+  },
+  {
+    "key": "naomi:03-bouldering-selfie",
+    "author": "naomi",
+    "image": "assets/grove/naomi/03-bouldering-selfie.png",
+    "published_at": "2049-10-05T18:42",
+    "caption": "Tried the same move six times. The seventh was less embarrassing.",
+    "engagement_basis_points": 870,
+    "comments": [],
+    "visible_subjects": [
+      "naomi"
+    ]
+  },
+  {
+    "key": "naomi:04-first-ceramic-mug",
+    "author": "naomi",
+    "image": "assets/grove/naomi/04-first-ceramic-mug.png",
+    "published_at": "2049-10-19T08:17",
+    "caption": "First mug. Still crooked. Still the handle I reach for.",
+    "engagement_basis_points": 650,
+    "comments": []
+  },
+  {
+    "key": "naomi:05-pottery-mirror",
+    "author": "naomi",
+    "image": "assets/grove/naomi/05-pottery-mirror.png",
+    "published_at": "2049-11-02T16:54",
+    "caption": "Clay on the apron. None on the phone. A measurable improvement.",
+    "engagement_basis_points": 790,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "That seems like a success worth recording.",
+        "delay_minutes": 81
+      }
+    ],
+    "visible_subjects": [
+      "naomi"
+    ]
+  },
+  {
+    "key": "naomi:06-riverside-bicycle",
+    "author": "naomi",
+    "image": "assets/grove/naomi/06-riverside-bicycle.png",
+    "published_at": "2049-11-16T15:23",
+    "caption": "No errands. No stopwatch. Stopped here because I felt like it.",
+    "engagement_basis_points": 590,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "That is a good place to leave the afternoon unplanned.",
+        "delay_minutes": 94
+      }
+    ]
+  },
+  {
+    "key": "naomi:07-reading-at-home",
+    "author": "naomi",
+    "image": "assets/grove/naomi/07-reading-at-home.png",
+    "published_at": "2049-11-30T20:08",
+    "caption": "One more chapter. The suspect has a better bedtime routine than I do.",
+    "engagement_basis_points": 830,
+    "comments": []
+  },
+  {
+    "key": "naomi:08-miso-aubergine",
+    "author": "naomi",
+    "image": "assets/grove/naomi/08-miso-aubergine.png",
+    "published_at": "2049-12-18T19:14",
+    "caption": "Miso aubergine. Rice. Tea. That is enough of a plan for tonight.",
+    "engagement_basis_points": 680,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "The glaze looks excellent.",
+        "delay_minutes": 120
+      }
+    ]
+  },
+  {
+    "key": "celeste:01-planetarium-selfie",
+    "author": "celeste",
+    "image": "assets/grove/celeste/01-planetarium-selfie.png",
+    "published_at": "2049-09-04T17:42",
+    "caption": "Five minutes until the doors open. Hoping someone asks a question I have to think about. ✨",
+    "engagement_basis_points": 820,
+    "comments": [],
+    "visible_subjects": [
+      "celeste"
+    ]
+  },
+  {
+    "key": "celeste:02-dome-after-hours",
+    "author": "celeste",
+    "image": "assets/grove/celeste/02-dome-after-hours.png",
+    "published_at": "2049-09-18T20:16",
+    "caption": "Everyone has gone home. Staying for one quiet sky before I switch it off.",
+    "engagement_basis_points": 640,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "An empty room has its own kind of quiet after a show.",
+        "delay_minutes": 52
+      }
+    ]
+  },
+  {
+    "key": "celeste:03-birdwalk-selfie",
+    "author": "celeste",
+    "image": "assets/grove/celeste/03-birdwalk-selfie.png",
+    "published_at": "2049-10-04T09:12",
+    "caption": "Saw the bird. Forgot the photograph. You will have to accept this very pleased witness.",
+    "engagement_basis_points": 910,
+    "comments": [],
+    "visible_subjects": [
+      "celeste"
+    ]
+  },
+  {
+    "key": "celeste:04-window-bird",
+    "author": "celeste",
+    "image": "assets/grove/celeste/04-window-bird.png",
+    "published_at": "2049-05-17T08:24",
+    "caption": "An unexpected visitor. I stayed still; apparently that was the correct introduction.",
+    "engagement_basis_points": 710,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "That little pause before they fly is difficult to catch.",
+        "delay_minutes": 74
+      }
+    ]
+  },
+  {
+    "key": "celeste:05-baking-selfie",
+    "author": "celeste",
+    "image": "assets/grove/celeste/05-baking-selfie.png",
+    "published_at": "2049-11-01T11:46",
+    "caption": "The flour escaped. The loaf rose. I am choosing which result to focus on.",
+    "engagement_basis_points": 860,
+    "comments": [],
+    "visible_subjects": [
+      "celeste"
+    ]
+  },
+  {
+    "key": "celeste:06-sourdough-breakfast",
+    "author": "celeste",
+    "image": "assets/grove/celeste/06-sourdough-breakfast.png",
+    "published_at": "2049-11-15T08:38",
+    "caption": "Not a perfect circle. Excellent toast. Keeping both observations in the notebook.",
+    "engagement_basis_points": 680,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "I would judge this entirely on the second observation.",
+        "delay_minutes": 96
+      }
+    ]
+  },
+  {
+    "key": "celeste:07-piano-selfie",
+    "author": "celeste",
+    "image": "assets/grove/celeste/07-piano-selfie.png",
+    "published_at": "2049-11-29T20:13",
+    "caption": "Playing for myself tonight. No requests, but the lamp is being a lovely audience.",
+    "engagement_basis_points": 790,
+    "comments": []
+  },
+  {
+    "key": "celeste:08-jazz-evening",
+    "author": "celeste",
+    "image": "assets/grove/celeste/08-jazz-evening.png",
+    "published_at": "2049-12-14T21:07",
+    "caption": "Left a little more space between the chords. I like what the room does with it.",
+    "engagement_basis_points": 570,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "The space is part of the phrase. I forget that when I rush.",
+        "delay_minutes": 118
+      }
+    ]
+  },
+  {
+    "key": "rei:10-emily-cafe",
+    "author": "rei",
+    "image": "assets/grove/rei/10-emily-cafe.png",
+    "published_at": "2049-04-03T15:20",
+    "caption": "small house. serious architect.",
+    "engagement_basis_points": 620,
+    "comments": [
+      {
+        "author": "emily",
+        "text": "The roof finally stayed on.",
+        "delay_minutes": 23
+      }
+    ]
+  },
+  {
+    "key": "rei:11-emily-art-shop",
+    "author": "rei",
+    "image": "assets/grove/rei/11-emily-art-shop.png",
+    "published_at": "2049-04-19T15:33",
+    "caption": "we went in for one brush.",
+    "engagement_basis_points": 651,
+    "comments": [
+      {
+        "author": "emily",
+        "text": "We both knew that was optimistic.",
+        "delay_minutes": 30
+      }
+    ]
+  },
+  {
+    "key": "rei:12-emily-park-sketch",
+    "author": "rei",
+    "image": "assets/grove/rei/12-emily-park-sketch.png",
+    "published_at": "2049-05-05T15:46",
+    "caption": "same fountain. very different priorities.",
+    "engagement_basis_points": 682,
+    "comments": [
+      {
+        "author": "emily",
+        "text": "The little birds were part of the architecture.",
+        "delay_minutes": 37
+      }
+    ]
+  },
+  {
+    "key": "rei:13-garrett-noodles",
+    "author": "rei",
+    "image": "assets/grove/rei/13-garrett-noodles.png",
+    "published_at": "2049-05-21T15:59",
+    "caption": "the noodles survived the commentary.",
+    "engagement_basis_points": 713,
+    "comments": [
+      {
+        "author": "garrett",
+        "text": "my commentary is part of the service.",
+        "delay_minutes": 44
+      }
+    ]
+  },
+  {
+    "key": "rei:14-garrett-arcade",
+    "author": "rei",
+    "image": "assets/grove/rei/14-garrett-arcade.png",
+    "published_at": "2049-06-06T16:12",
+    "caption": "he requested a rematch before we finished.",
+    "engagement_basis_points": 744,
+    "comments": [
+      {
+        "author": "garrett",
+        "text": "that was clearly the warm-up.",
+        "delay_minutes": 51
+      }
+    ]
+  },
+  {
+    "key": "rei:15-garrett-riverside",
+    "author": "rei",
+    "image": "assets/grove/rei/15-garrett-riverside.png",
+    "published_at": "2049-06-22T16:25",
+    "caption": "a rare pause in the broadcast.",
+    "engagement_basis_points": 775,
+    "comments": [
+      {
+        "author": "garrett",
+        "text": "i was drinking. it happens.",
+        "delay_minutes": 58
+      }
+    ]
+  },
+  {
+    "key": "rei:16-sophie-track",
+    "author": "rei",
+    "image": "assets/grove/rei/16-sophie-track.png",
+    "published_at": "2049-07-08T16:38",
+    "caption": "apparently that was the easy lap.",
+    "engagement_basis_points": 806,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "You had enough breath left to complain. Another lap next time.",
+        "delay_minutes": 65
+      }
+    ]
+  },
+  {
+    "key": "rei:17-sophie-basketball",
+    "author": "rei",
+    "image": "assets/grove/rei/17-sophie-basketball.png",
+    "published_at": "2049-07-24T16:51",
+    "caption": "the scoreboard has been asked to remain discreet.",
+    "engagement_basis_points": 837,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "The scoreboard and I have declined.",
+        "delay_minutes": 72
+      }
+    ]
+  },
+  {
+    "key": "rei:18-sophie-smoothies",
+    "author": "rei",
+    "image": "assets/grove/rei/18-sophie-smoothies.png",
+    "published_at": "2049-08-09T17:04",
+    "caption": "recovery has a very specific menu.",
+    "engagement_basis_points": 868,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "And you admitted yours was good. Witnessed.",
+        "delay_minutes": 79
+      }
+    ]
+  },
+  {
+    "key": "rei:19-emily-sophie-picnic",
+    "author": "rei",
+    "image": "assets/grove/rei/19-emily-sophie-picnic.png",
+    "published_at": "2049-08-25T17:17",
+    "caption": "three people. enough food for a small expedition.",
+    "engagement_basis_points": 899,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "You said bring lunch. We brought options.",
+        "delay_minutes": 86
+      }
+    ]
+  },
+  {
+    "key": "rei:20-emily-sophie-pottery",
+    "author": "rei",
+    "image": "assets/grove/rei/20-emily-sophie-pottery.png",
+    "published_at": "2049-09-10T17:30",
+    "caption": "one of these bowls has ambitions beyond geometry.",
+    "engagement_basis_points": 930,
+    "comments": [
+      {
+        "author": "emily",
+        "text": "I think Sophie's has a very expressive rim.",
+        "delay_minutes": 93
+      }
+    ]
+  },
+  {
+    "key": "rei:21-emily-sophie-night-market",
+    "author": "rei",
+    "image": "assets/grove/rei/21-emily-sophie-night-market.png",
+    "published_at": "2049-09-26T17:43",
+    "caption": "we agreed to share. negotiations continue.",
+    "engagement_basis_points": 961,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "Your last bite is still under discussion.",
+        "delay_minutes": 100
+      }
+    ]
+  },
+  {
+    "key": "rei:22-yuriko-art-table",
+    "author": "rei",
+    "image": "assets/grove/rei/22-yuriko-art-table.png",
+    "published_at": "2049-10-12T17:56",
+    "caption": "my sister has notes. several pages of them.",
+    "engagement_basis_points": 992,
+    "comments": [
+      {
+        "author": "yuriko",
+        "text": "You gave the sky three colours and none of them were cheerful.",
+        "delay_minutes": 107
+      }
+    ]
+  },
+  {
+    "key": "rei:23-yuriko-bakery",
+    "author": "rei",
+    "image": "assets/grove/rei/23-yuriko-bakery.png",
+    "published_at": "2049-10-28T18:09",
+    "caption": "pastry inspection with my sister.",
+    "engagement_basis_points": 1023,
+    "comments": [
+      {
+        "author": "yuriko",
+        "text": "A second sample is essential to the process.",
+        "delay_minutes": 114
+      }
+    ]
+  },
+  {
+    "key": "rei:24-yuriko-bookshop",
+    "author": "rei",
+    "image": "assets/grove/rei/24-yuriko-bookshop.png",
+    "published_at": "2049-11-13T18:22",
+    "caption": "she found the heaviest book in the shop.",
+    "engagement_basis_points": 1054,
+    "comments": [
+      {
+        "author": "yuriko",
+        "text": "And you found a reason to look through every page.",
+        "delay_minutes": 121
+      }
+    ]
+  },
+  {
+    "key": "rei:25-yuriko-garrett-dinner",
+    "author": "rei",
+    "image": "assets/grove/rei/25-yuriko-garrett-dinner.png",
+    "published_at": "2049-11-29T18:35",
+    "caption": "between these two, the dumplings barely got a word in.",
+    "engagement_basis_points": 1085,
+    "comments": [
+      {
+        "author": "garrett",
+        "text": "the dumplings had your full attention, don't worry.",
+        "delay_minutes": 128
+      }
+    ]
+  },
+  {
+    "key": "dev:01-makerspace-selfie",
+    "author": "dev",
+    "image": "assets/grove/dev/01-makerspace-selfie.png",
+    "published_at": "2049-12-03T16:38",
+    "caption": "everything is back in its drawer. this is a temporary condition, but it deserves documentation.",
+    "engagement_basis_points": 740,
+    "comments": [],
+    "visible_subjects": [
+      "dev"
+    ]
+  },
+  {
+    "key": "dev:02-radio-repair",
+    "author": "dev",
+    "image": "assets/grove/dev/02-radio-repair.png",
+    "published_at": "2049-12-17T15:24",
+    "caption": "found the loose connection. now for the advanced stage: putting all the screws back.",
+    "engagement_basis_points": 580,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "The last screw always seems to belong somewhere important.",
+        "delay_minutes": 50
+      }
+    ]
+  },
+  {
+    "key": "dev:03-tabletop-selfie",
+    "author": "dev",
+    "image": "assets/grove/dev/03-tabletop-selfie.png",
+    "published_at": "2049-12-02T15:12",
+    "caption": "today i am playing the game instead of explaining it. personal growth (probably).",
+    "engagement_basis_points": 860,
+    "comments": [],
+    "visible_subjects": [
+      "dev"
+    ]
+  },
+  {
+    "key": "dev:04-game-night",
+    "author": "dev",
+    "image": "assets/grove/dev/04-game-night.png",
+    "published_at": "2049-12-04T18:46",
+    "caption": "board ready. snacks outside the danger zone. absolutely no plan beyond turn two.",
+    "engagement_basis_points": 620,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "Planning beyond turn two would only give the dice something to ruin.",
+        "delay_minutes": 84
+      }
+    ]
+  },
+  {
+    "key": "dev:05-nightwalk-selfie",
+    "author": "dev",
+    "image": "assets/grove/dev/05-nightwalk-selfie.png",
+    "published_at": "2049-12-09T17:07",
+    "caption": "waiting for the sky to get a little darker. briefly remembering that standing still counts as an activity.",
+    "engagement_basis_points": 790,
+    "comments": [],
+    "visible_subjects": [
+      "dev"
+    ]
+  },
+  {
+    "key": "dev:06-river-long-exposure",
+    "author": "dev",
+    "image": "assets/grove/dev/06-river-long-exposure.png",
+    "published_at": "2049-11-12T20:18",
+    "caption": "the river did most of the work. i contributed a tripod and cold fingers.",
+    "engagement_basis_points": 920,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "Those reflections look almost like held notes.",
+        "delay_minutes": 118
+      }
+    ]
+  },
+  {
+    "key": "dev:07-fern-selfie",
+    "author": "dev",
+    "image": "assets/grove/dev/07-fern-selfie.png",
+    "published_at": "2049-11-27T10:26",
+    "caption": "the fern continues to thrive without a firmware update. humbling.",
+    "engagement_basis_points": 830,
+    "comments": []
+  },
+  {
+    "key": "dev:08-chai-and-book",
+    "author": "dev",
+    "image": "assets/grove/dev/08-chai-and-book.png",
+    "published_at": "2049-12-13T21:04",
+    "caption": "chai, chickpeas, one chapter. nothing on this table requires troubleshooting.",
+    "engagement_basis_points": 670,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "A table worth protecting for the evening.",
+        "delay_minutes": 152
+      }
+    ]
+  },
+  {
+    "key": "rei:26-garrett-editorial-tailoring",
+    "author": "rei",
+    "image": "assets/grove/rei/26-garrett-editorial-tailoring.png",
+    "published_at": "2049-11-06T18:10",
+    "caption": "two suits. one very patient lighting crew.",
+    "engagement_basis_points": 1050,
+    "comments": [
+      {
+        "author": "garrett",
+        "text": "i was ready before the lighting crew.",
+        "delay_minutes": 32
+      }
+    ]
+  },
+  {
+    "key": "rei:27-garrett-editorial-rooftop",
+    "author": "rei",
+    "image": "assets/grove/rei/27-garrett-editorial-rooftop.png",
+    "published_at": "2049-11-18T18:10",
+    "caption": "the wind had its own direction notes.",
+    "engagement_basis_points": 1123,
+    "comments": [
+      {
+        "author": "garrett",
+        "text": "and somehow still picked my good side.",
+        "delay_minutes": 49
+      }
+    ]
+  },
+  {
+    "key": "rei:28-garrett-editorial-singlet",
+    "author": "rei",
+    "image": "assets/grove/rei/28-garrett-editorial-singlet.png",
+    "published_at": "2049-11-30T18:10",
+    "caption": "less tailoring. same number of takes.",
+    "engagement_basis_points": 1196,
+    "comments": [
+      {
+        "author": "garrett",
+        "text": "you say that like we weren't excellent on the first one.",
+        "delay_minutes": 66
+      }
+    ]
+  },
+  {
+    "key": "rei:29-garrett-editorial-seated",
+    "author": "rei",
+    "image": "assets/grove/rei/29-garrett-editorial-seated.png",
+    "published_at": "2049-12-12T18:10",
+    "caption": "the brief said hold still. one of us managed.",
+    "engagement_basis_points": 1269,
+    "comments": [
+      {
+        "author": "garrett",
+        "text": "movement is a creative contribution.",
+        "delay_minutes": 83
+      }
+    ]
+  },
+  {
+    "key": "rosa:01-kitchen-selfie",
+    "author": "rosa",
+    "image": "assets/grove/rosa/01-kitchen-selfie.png",
+    "published_at": "2049-09-06T11:32",
+    "caption": "Bowls ready. Soup ready. I am taking five minutes before the doors open. 💛",
+    "engagement_basis_points": 870,
+    "comments": [],
+    "visible_subjects": [
+      "rosa"
+    ]
+  },
+  {
+    "key": "rosa:02-lentil-lunch",
+    "author": "rosa",
+    "image": "assets/grove/rosa/02-lentil-lunch.png",
+    "published_at": "2049-09-20T12:18",
+    "caption": "Lentils, vegetables, crusty bread. There is a reason this pot gets invited back.",
+    "engagement_basis_points": 730,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "That looks like a very good reason to take a proper lunch break.",
+        "delay_minutes": 52
+      }
+    ]
+  },
+  {
+    "key": "rosa:03-garden-selfie",
+    "author": "rosa",
+    "image": "assets/grove/rosa/03-garden-selfie.png",
+    "published_at": "2049-09-28T10:43",
+    "caption": "One tomato and an unreasonable amount of pride. Let me have this.",
+    "engagement_basis_points": 920,
+    "comments": []
+  },
+  {
+    "key": "rosa:04-garden-harvest",
+    "author": "rosa",
+    "image": "assets/grove/rosa/04-garden-harvest.png",
+    "published_at": "2049-10-09T10:26",
+    "caption": "The carrots ignored the shape instructions. We are keeping them anyway.",
+    "engagement_basis_points": 680,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "They look like they have more personality that way.",
+        "delay_minutes": 78
+      }
+    ]
+  },
+  {
+    "key": "rosa:05-skating-selfie",
+    "author": "rosa",
+    "image": "assets/grove/rosa/05-skating-selfie.png",
+    "published_at": "2049-10-18T15:14",
+    "caption": "Off duty. On wheels. Dinner questions can wait until tomorrow.",
+    "engagement_basis_points": 980,
+    "comments": []
+  },
+  {
+    "key": "rosa:06-skates-off-duty",
+    "author": "rosa",
+    "image": "assets/grove/rosa/06-skates-off-duty.png",
+    "published_at": "2049-10-25T16:28",
+    "caption": "A few more laps than last time. Sitting down is also part of the sport.",
+    "engagement_basis_points": 650,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "A very underrated part, in my experience.",
+        "delay_minutes": 104
+      }
+    ]
+  },
+  {
+    "key": "rosa:07-courtyard-selfie",
+    "author": "rosa",
+    "image": "assets/grove/rosa/07-courtyard-selfie.png",
+    "published_at": "2049-11-08T14:37",
+    "caption": "Today I made enough tea for me. That is the whole plan.",
+    "engagement_basis_points": 810,
+    "comments": []
+  },
+  {
+    "key": "rosa:08-evening-book",
+    "author": "rosa",
+    "image": "assets/grove/rosa/08-evening-book.png",
+    "published_at": "2049-12-11T20:12",
+    "caption": "Reading about food instead of making another meal. Apple slices count as excellent company.",
+    "engagement_basis_points": 590,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "An evening that does not need a larger guest list.",
+        "delay_minutes": 130
+      }
+    ]
+  },
+  {
+    "key": "garrett:09-rei-dumpling-prep",
+    "author": "garrett",
+    "image": "assets/grove/garrett/09-rei-dumpling-prep.png",
+    "published_at": "2049-12-03T18:30",
+    "caption": "quality control got distracted.",
+    "engagement_basis_points": 640,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "your dumpling has structural problems.",
+        "delay_minutes": 18
+      }
+    ]
+  },
+  {
+    "key": "garrett:10-rei-coffee-walk",
+    "author": "garrett",
+    "image": "assets/grove/garrett/10-rei-coffee-walk.png",
+    "published_at": "2049-12-06T18:30",
+    "caption": "coffee. fresh air. exceptionally good company.",
+    "engagement_basis_points": 687,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "you told that story twice.",
+        "delay_minutes": 25
+      }
+    ]
+  },
+  {
+    "key": "garrett:11-rei-record-shop",
+    "author": "garrett",
+    "image": "assets/grove/garrett/11-rei-record-shop.png",
+    "published_at": "2049-12-09T18:30",
+    "caption": "apparently my taste needed supervision.",
+    "engagement_basis_points": 734,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "one intervention. very necessary.",
+        "delay_minutes": 32
+      }
+    ]
+  },
+  {
+    "key": "garrett:12-rei-studio-tailoring",
+    "author": "garrett",
+    "image": "assets/grove/garrett/12-rei-studio-tailoring.png",
+    "published_at": "2049-12-12T18:30",
+    "caption": "rei said stand still. i made it look expensive.",
+    "engagement_basis_points": 781,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "eventually.",
+        "delay_minutes": 39
+      }
+    ]
+  },
+  {
+    "key": "garrett:13-rei-city-editorial",
+    "author": "garrett",
+    "image": "assets/grove/garrett/13-rei-city-editorial.png",
+    "published_at": "2049-12-15T18:30",
+    "caption": "two coats. one very cold evening breeze.",
+    "engagement_basis_points": 828,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "the photos do not record the complaining.",
+        "delay_minutes": 46
+      }
+    ]
+  },
+  {
+    "key": "garrett:14-april-chess",
+    "author": "garrett",
+    "image": "assets/grove/garrett/14-april-chess.png",
+    "published_at": "2049-12-18T18:30",
+    "caption": "i was giving her a false sense of security.",
+    "engagement_basis_points": 875,
+    "comments": [
+      {
+        "author": "april",
+        "text": "For all three games?",
+        "delay_minutes": 53
+      }
+    ]
+  },
+  {
+    "key": "garrett:15-april-market",
+    "author": "garrett",
+    "image": "assets/grove/garrett/15-april-market.png",
+    "published_at": "2049-12-21T18:30",
+    "caption": "shopping with someone who checks my maths.",
+    "engagement_basis_points": 922,
+    "comments": [
+      {
+        "author": "april",
+        "text": "And remembers the list.",
+        "delay_minutes": 60
+      }
+    ]
+  },
+  {
+    "key": "garrett:16-april-dinner-prep",
+    "author": "garrett",
+    "image": "assets/grove/garrett/16-april-dinner-prep.png",
+    "published_at": "2049-12-24T18:30",
+    "caption": "the toughest food critic got the first taste.",
+    "engagement_basis_points": 969,
+    "comments": [
+      {
+        "author": "april",
+        "text": "Good broth. You can stop watching my face now.",
+        "delay_minutes": 67
+      }
+    ]
+  },
+  {
+    "key": "garrett:17-friends-dinner",
+    "author": "garrett",
+    "image": "assets/grove/garrett/17-friends-dinner.png",
+    "published_at": "2049-12-27T18:30",
+    "caption": "a full table. exactly how i like it.",
+    "engagement_basis_points": 1016,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "We did leave you one dumpling.",
+        "delay_minutes": 74
+      }
+    ]
+  },
+  {
+    "key": "ivan:11-valentina-marina",
+    "author": "ivan",
+    "image": "assets/grove/ivan/11-valentina-marina.png",
+    "published_at": "2049-12-02T19:15",
+    "caption": "She restored the boat. I have been trusted with the rope.",
+    "engagement_basis_points": 720,
+    "comments": [
+      {
+        "author": "valentina",
+        "text": "After a very thorough knot inspection.",
+        "delay_minutes": 23
+      }
+    ]
+  },
+  {
+    "key": "ivan:12-valentina-breakfast",
+    "author": "ivan",
+    "image": "assets/grove/ivan/12-valentina-breakfast.png",
+    "published_at": "2049-12-05T19:15",
+    "caption": "Breakfast, the radio, and no reason to rush.",
+    "engagement_basis_points": 773,
+    "comments": [
+      {
+        "author": "valentina",
+        "text": "The second verse is still mine.",
+        "delay_minutes": 28
+      }
+    ]
+  },
+  {
+    "key": "ivan:13-valentina-pier-selfie",
+    "author": "ivan",
+    "image": "assets/grove/ivan/13-valentina-pier-selfie.png",
+    "published_at": "2049-12-08T19:15",
+    "caption": "Off duty. Still being told where to stand.",
+    "engagement_basis_points": 826,
+    "comments": [
+      {
+        "author": "valentina",
+        "text": "Away from the edge was a reasonable suggestion.",
+        "delay_minutes": 33
+      }
+    ]
+  },
+  {
+    "key": "ivan:14-burgundy-fashion",
+    "author": "ivan",
+    "image": "assets/grove/ivan/14-burgundy-fashion.png",
+    "published_at": "2049-12-11T19:15",
+    "caption": "A different shade for this shoot.",
+    "engagement_basis_points": 879,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "the colour works.",
+        "delay_minutes": 38
+      }
+    ]
+  },
+  {
+    "key": "ivan:15-denim-daylight-editorial",
+    "author": "ivan",
+    "image": "assets/grove/ivan/15-denim-daylight-editorial.png",
+    "published_at": "2049-12-14T19:15",
+    "caption": "The easiest outfit on the rack. Still took an hour.",
+    "engagement_basis_points": 932,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "At least that one looks comfortable.",
+        "delay_minutes": 43
+      }
+    ]
+  },
+  {
+    "key": "ivan:16-silver-studio-editorial",
+    "author": "ivan",
+    "image": "assets/grove/ivan/16-silver-studio-editorial.png",
+    "published_at": "2049-12-17T19:15",
+    "caption": "Last frame from the silver set.",
+    "engagement_basis_points": 985,
+    "comments": [
+      {
+        "author": "samantha",
+        "text": "That lighting is beautiful.",
+        "delay_minutes": 48
+      }
+    ]
+  },
+  {
+    "key": "ivan:17-producer-playback",
+    "author": "ivan",
+    "image": "assets/grove/ivan/17-producer-playback.png",
+    "published_at": "2049-12-20T19:15",
+    "caption": "Listening back with the people who hear everything.",
+    "engagement_basis_points": 1038,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "I would have asked to hear it one more time.",
+        "delay_minutes": 53
+      }
+    ]
+  },
+  {
+    "key": "ivan:18-producer-piano-session",
+    "author": "ivan",
+    "image": "assets/grove/ivan/18-producer-piano-session.png",
+    "published_at": "2049-12-23T19:15",
+    "caption": "We found the bridge at the piano.",
+    "engagement_basis_points": 1091,
+    "comments": [
+      {
+        "author": "valentina",
+        "text": "You always come back to the keys.",
+        "delay_minutes": 58
+      }
+    ]
+  },
+  {
+    "key": "ivan:19-idols-backstage",
+    "author": "ivan",
+    "image": "assets/grove/ivan/19-idols-backstage.png",
+    "published_at": "2049-12-26T19:15",
+    "caption": "Three sets finished. Finally time to say hello.",
+    "engagement_basis_points": 1144,
+    "comments": [
+      {
+        "author": "emily",
+        "text": "You all look so happy after the show.",
+        "delay_minutes": 63
+      }
+    ]
+  },
+  {
+    "key": "ivan:20-idols-rehearsal-break",
+    "author": "ivan",
+    "image": "assets/grove/ivan/20-idols-rehearsal-break.png",
+    "published_at": "2049-12-29T19:15",
+    "caption": "The break had better choreography than the rehearsal.",
+    "engagement_basis_points": 1197,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "keep that version.",
+        "delay_minutes": 68
+      }
+    ]
+  },
+  {
+    "key": "minsu:09-amy-bakery-review",
+    "author": "minsu",
+    "image": "assets/grove/minsu/09-amy-bakery-review.png",
+    "published_at": "2049-12-03T16:40",
+    "caption": "two intact specimens. independent texture review can begin.",
+    "engagement_basis_points": 620,
+    "comments": [
+      {
+        "author": "amy",
+        "text": "A much stronger starting methodology.",
+        "delay_minutes": 16
+      }
+    ]
+  },
+  {
+    "key": "minsu:10-amy-library-break",
+    "author": "minsu",
+    "image": "assets/grove/minsu/10-amy-library-break.png",
+    "published_at": "2049-12-06T16:40",
+    "caption": "scheduled a ten-minute break. amy is enforcing it.",
+    "engagement_basis_points": 677,
+    "comments": [
+      {
+        "author": "amy",
+        "text": "You were rereading the same line.",
+        "delay_minutes": 22
+      }
+    ]
+  },
+  {
+    "key": "minsu:11-amy-art-supplies",
+    "author": "minsu",
+    "image": "assets/grove/minsu/11-amy-art-supplies.png",
+    "published_at": "2049-12-09T16:40",
+    "caption": "today's expert is amy. i'm carrying the basket.",
+    "engagement_basis_points": 734,
+    "comments": [
+      {
+        "author": "amy",
+        "text": "You also asked very good questions about the brushes.",
+        "delay_minutes": 28
+      }
+    ]
+  },
+  {
+    "key": "minsu:12-sophie-track-cooldown",
+    "author": "minsu",
+    "image": "assets/grove/minsu/12-sophie-track-cooldown.png",
+    "published_at": "2049-12-12T16:40",
+    "caption": "appeal to the clock: unsuccessful.",
+    "engagement_basis_points": 791,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "Those last ten seconds count 😄",
+        "delay_minutes": 34
+      }
+    ]
+  },
+  {
+    "key": "minsu:13-sophie-smoothie-stop",
+    "author": "minsu",
+    "image": "assets/grove/minsu/13-sophie-smoothie-stop.png",
+    "published_at": "2049-12-15T16:40",
+    "caption": "recovery plan: sit down and compare smoothie flavours.",
+    "engagement_basis_points": 848,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "Mango won. Your review can be shorter than the run.",
+        "delay_minutes": 40
+      }
+    ]
+  },
+  {
+    "key": "minsu:14-sophie-campus-selfie",
+    "author": "minsu",
+    "image": "assets/grove/minsu/14-sophie-campus-selfie.png",
+    "published_at": "2049-12-18T16:40",
+    "caption": "caught the track queen at walking speed.",
+    "engagement_basis_points": 905,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "Rare footage.",
+        "delay_minutes": 46
+      }
+    ]
+  },
+  {
+    "key": "minsu:15-amy-sophie-noodles",
+    "author": "minsu",
+    "image": "assets/grove/minsu/15-amy-sophie-noodles.png",
+    "published_at": "2049-12-21T16:40",
+    "caption": "brought the review panel. ordered extra dumplings.",
+    "engagement_basis_points": 962,
+    "comments": [
+      {
+        "author": "amy",
+        "text": "The panel would like to eat before the opening statement.",
+        "delay_minutes": 52
+      }
+    ]
+  },
+  {
+    "key": "minsu:16-amy-sophie-park-picnic",
+    "author": "minsu",
+    "image": "assets/grove/minsu/16-amy-sophie-park-picnic.png",
+    "published_at": "2049-12-24T16:40",
+    "caption": "one blanket, three opinions, not enough strawberries.",
+    "engagement_basis_points": 1019,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "We agreed on the strawberries very quickly.",
+        "delay_minutes": 58
+      }
+    ]
+  },
+  {
+    "key": "minsu:17-amy-sophie-game-night",
+    "author": "minsu",
+    "image": "assets/grove/minsu/17-amy-sophie-game-night.png",
+    "published_at": "2049-12-27T16:40",
+    "caption": "the rules were simple until we started discussing them.",
+    "engagement_basis_points": 1076,
+    "comments": [
+      {
+        "author": "amy",
+        "text": "Clarifying a rule is not the same as rewriting it.",
+        "delay_minutes": 64
+      }
+    ]
+  },
+  {
+    "key": "emily:09-rei-flower-shop",
+    "author": "emily",
+    "image": "assets/grove/emily/09-rei-flower-shop.png",
+    "published_at": "2049-12-03T15:20",
+    "caption": "He held the paper. I handled the tulips.",
+    "engagement_basis_points": 620,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "paper stayed where instructed.",
+        "delay_minutes": 21
+      }
+    ]
+  },
+  {
+    "key": "emily:10-rei-miniature-roof",
+    "author": "emily",
+    "image": "assets/grove/emily/10-rei-miniature-roof.png",
+    "published_at": "2049-12-06T15:20",
+    "caption": "The roof supervisor has been given very specific instructions.",
+    "engagement_basis_points": 677,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "holding. not improvising.",
+        "delay_minutes": 27
+      }
+    ]
+  },
+  {
+    "key": "emily:11-rei-garden-walk",
+    "author": "emily",
+    "image": "assets/grove/emily/11-rei-garden-walk.png",
+    "published_at": "2049-12-09T15:20",
+    "caption": "A little detour for the flowers.",
+    "engagement_basis_points": 734,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "worth taking the long path.",
+        "delay_minutes": 33
+      }
+    ]
+  },
+  {
+    "key": "emily:12-sophie-plushie-shop",
+    "author": "emily",
+    "image": "assets/grove/emily/12-sophie-plushie-shop.png",
+    "published_at": "2049-12-12T15:20",
+    "caption": "We were only going to look.",
+    "engagement_basis_points": 791,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "The rabbit made a very convincing argument.",
+        "delay_minutes": 39
+      }
+    ]
+  },
+  {
+    "key": "emily:13-sophie-brick-bouquet",
+    "author": "emily",
+    "image": "assets/grove/emily/13-sophie-brick-bouquet.png",
+    "published_at": "2049-12-15T15:20",
+    "caption": "A quiet afternoon, one petal at a time.",
+    "engagement_basis_points": 848,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "I have earned a promotion from sorting the green pieces.",
+        "delay_minutes": 45
+      }
+    ]
+  },
+  {
+    "key": "emily:14-sophie-park-selfie",
+    "author": "emily",
+    "image": "assets/grove/emily/14-sophie-park-selfie.png",
+    "published_at": "2049-12-18T15:20",
+    "caption": "Found a sunny spot after the walk.",
+    "engagement_basis_points": 905,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "Excellent choice of bench, too.",
+        "delay_minutes": 51
+      }
+    ]
+  },
+  {
+    "key": "emily:15-rei-sophie-greenhouse",
+    "author": "emily",
+    "image": "assets/grove/emily/15-rei-sophie-greenhouse.png",
+    "published_at": "2049-12-21T15:20",
+    "caption": "The slowest relay team, reunited around a much smaller greenhouse.",
+    "engagement_basis_points": 962,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "Still taking the corners very carefully.",
+        "delay_minutes": 57
+      }
+    ]
+  },
+  {
+    "key": "emily:16-rei-sophie-cafe",
+    "author": "emily",
+    "image": "assets/grove/emily/16-rei-sophie-cafe.png",
+    "published_at": "2049-12-24T15:20",
+    "caption": "Tea, cake, and a table we stayed at a little longer.",
+    "engagement_basis_points": 1019,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "good cake. better company.",
+        "delay_minutes": 63
+      }
+    ]
+  },
+  {
+    "key": "emily:17-rei-sophie-riverside",
+    "author": "emily",
+    "image": "assets/grove/emily/17-rei-sophie-riverside.png",
+    "published_at": "2049-12-27T15:20",
+    "caption": "A good place to stop for a while.",
+    "engagement_basis_points": 1076,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "Next time we are bringing a picnic.",
+        "delay_minutes": 69
+      }
+    ]
+  },
+  {
+    "key": "yuriko:09-rei-cat-ears",
+    "author": "yuriko",
+    "image": "assets/grove/yuriko/09-rei-cat-ears.png",
+    "published_at": "2049-10-08T16:20",
+    "caption": "professional model. defeated by two felt triangles.",
+    "engagement_basis_points": 720,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "you said it was a lighting test.",
+        "delay_minutes": 17
+      }
+    ]
+  },
+  {
+    "key": "yuriko:10-rei-flour",
+    "author": "yuriko",
+    "image": "assets/grove/yuriko/10-rei-flour.png",
+    "published_at": "2049-10-21T16:20",
+    "caption": "he said he could handle the flour. the flour disagreed.",
+    "engagement_basis_points": 781,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "the cookies survived. focus on that.",
+        "delay_minutes": 24
+      }
+    ]
+  },
+  {
+    "key": "yuriko:11-rei-tiny-crown",
+    "author": "yuriko",
+    "image": "assets/grove/yuriko/11-rei-tiny-crown.png",
+    "published_at": "2049-11-03T16:20",
+    "caption": "finally found a role worthy of his range. king of the tiny stairs.",
+    "engagement_basis_points": 842,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "my kingdom needs better chairs.",
+        "delay_minutes": 31
+      }
+    ]
+  },
+  {
+    "key": "yuriko:12-emily-miniature-garden",
+    "author": "yuriko",
+    "image": "assets/grove/yuriko/12-emily-miniature-garden.png",
+    "published_at": "2049-11-16T16:20",
+    "caption": "emily made the tiny garden. i am trying very hard not to move in.",
+    "engagement_basis_points": 903,
+    "comments": [
+      {
+        "author": "emily",
+        "text": "I can add a little bench.",
+        "delay_minutes": 38
+      }
+    ]
+  },
+  {
+    "key": "yuriko:13-rei-emily-tea",
+    "author": "yuriko",
+    "image": "assets/grove/yuriko/13-rei-emily-tea.png",
+    "published_at": "2049-11-29T16:20",
+    "caption": "tea with emily. surprise accessory consultation for rei.",
+    "engagement_basis_points": 964,
+    "comments": [
+      {
+        "author": "emily",
+        "text": "The colour is quite nice on him.",
+        "delay_minutes": 45
+      }
+    ]
+  },
+  {
+    "key": "yuriko:14-rei-garrett-dumplings",
+    "author": "yuriko",
+    "image": "assets/grove/yuriko/14-rei-garrett-dumplings.png",
+    "published_at": "2049-12-12T16:20",
+    "caption": "garrett demonstrated. rei inspected. i invented a new shape.",
+    "engagement_basis_points": 1025,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "garrett gave it points for ambition. i ate the evidence.",
+        "delay_minutes": 52
+      }
+    ]
+  },
+  {
+    "key": "yuriko:15-rei-emily-sophie-picnic",
+    "author": "yuriko",
+    "image": "assets/grove/yuriko/15-rei-emily-sophie-picnic.png",
+    "published_at": "2049-12-25T16:20",
+    "caption": "four people. one picnic. rei got the fancy cup and took it very seriously.",
+    "engagement_basis_points": 1086,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "he held his pinky up. i saw it.",
+        "delay_minutes": 59
+      }
+    ]
+  },
+  {
+    "key": "elliot:01-boardwalk-selfie",
+    "author": "elliot",
+    "image": "assets/grove/elliot/01-boardwalk-selfie.png",
+    "published_at": "2049-09-05T08:24",
+    "caption": "first round of the boardwalk. just me and the early shift.",
+    "engagement_basis_points": 650,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "That light was worth getting up for.",
+        "delay_minutes": 31
+      }
+    ],
+    "visible_subjects": [
+      "elliot"
+    ]
+  },
+  {
+    "key": "elliot:02-morning-heron",
+    "author": "elliot",
+    "image": "assets/grove/elliot/02-morning-heron.png",
+    "published_at": "2049-09-14T09:24",
+    "caption": "same fishing spot three mornings running. fair enough.",
+    "engagement_basis_points": 480,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "Better patience than either of us.",
+        "delay_minutes": 48
+      }
+    ]
+  },
+  {
+    "key": "elliot:03-field-recording",
+    "author": "elliot",
+    "image": "assets/grove/elliot/03-field-recording.png",
+    "published_at": "2049-09-23T10:24",
+    "caption": "twenty minutes of reeds. one very loud frog.",
+    "engagement_basis_points": 720,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "Send me the frog take. I want to hear the interruption.",
+        "delay_minutes": 65
+      }
+    ],
+    "visible_subjects": [
+      "elliot"
+    ]
+  },
+  {
+    "key": "elliot:04-carved-birds",
+    "author": "elliot",
+    "image": "assets/grove/elliot/04-carved-birds.png",
+    "published_at": "2049-10-05T11:24",
+    "caption": "three herons. none of them willing to help with the shavings.",
+    "engagement_basis_points": 890,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "The one on the right looks ready to leave.",
+        "delay_minutes": 82
+      }
+    ]
+  },
+  {
+    "key": "elliot:05-kayak-break",
+    "author": "elliot",
+    "image": "assets/grove/elliot/05-kayak-break.png",
+    "published_at": "2049-10-14T12:24",
+    "caption": "took the long way back. water was too good.",
+    "engagement_basis_points": 810,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "Good day to take your time.",
+        "delay_minutes": 99
+      }
+    ],
+    "visible_subjects": [
+      "elliot"
+    ]
+  },
+  {
+    "key": "elliot:06-rain-on-reeds",
+    "author": "elliot",
+    "image": "assets/grove/elliot/06-rain-on-reeds.png",
+    "published_at": "2049-10-23T13:24",
+    "caption": "rain on the porch roof. staying here a bit.",
+    "engagement_basis_points": 560,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "That roof must sound good in the rain.",
+        "delay_minutes": 116
+      }
+    ]
+  },
+  {
+    "key": "elliot:07-cabin-evening",
+    "author": "elliot",
+    "image": "assets/grove/elliot/07-cabin-evening.png",
+    "published_at": "2049-11-05T14:24",
+    "caption": "finished this little one before the light went.",
+    "engagement_basis_points": 1040,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "You got the tilt of its head just right.",
+        "delay_minutes": 133
+      }
+    ]
+  },
+  {
+    "key": "elliot:08-recording-kit",
+    "author": "elliot",
+    "image": "assets/grove/elliot/08-recording-kit.png",
+    "published_at": "2049-11-14T15:24",
+    "caption": "batteries charged. remembered the pencil this time.",
+    "engagement_basis_points": 430,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "Spare batteries too. Learned that one the hard way.",
+        "delay_minutes": 150
+      }
+    ]
+  },
+  {
+    "key": "tyler:01-club-selfie",
+    "author": "tyler",
+    "image": "assets/grove/tyler/01-club-selfie.png",
+    "published_at": "2049-09-04T08:18",
+    "caption": "doors open at six. beat the alarm for once.",
+    "engagement_basis_points": 680,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "You beat me to the gym. That is early.",
+        "delay_minutes": 24
+      }
+    ],
+    "visible_subjects": [
+      "tyler"
+    ]
+  },
+  {
+    "key": "tyler:02-loaner-gloves",
+    "author": "tyler",
+    "image": "assets/grove/tyler/02-loaner-gloves.png",
+    "published_at": "2049-09-14T09:18",
+    "caption": "patched up. back on the loaner shelf tomorrow.",
+    "engagement_basis_points": 450,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "Someone will get their first round out of those.",
+        "delay_minutes": 37
+      }
+    ]
+  },
+  {
+    "key": "tyler:03-skipping-round",
+    "author": "tyler",
+    "image": "assets/grove/tyler/03-skipping-round.png",
+    "published_at": "2049-09-24T10:18",
+    "caption": "one whole song without catching the rope. then you pick the music.",
+    "engagement_basis_points": 910,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "Brave offer. Some songs are seven minutes long.",
+        "delay_minutes": 50
+      }
+    ],
+    "visible_subjects": [
+      "tyler"
+    ]
+  },
+  {
+    "key": "tyler:04-domino-table",
+    "author": "tyler",
+    "image": "assets/grove/tyler/04-domino-table.png",
+    "published_at": "2049-10-04T11:18",
+    "caption": "game on the radio. tiles on the table. decent afternoon.",
+    "engagement_basis_points": 590,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "Which game are you calling today?",
+        "delay_minutes": 63
+      }
+    ]
+  },
+  {
+    "key": "tyler:05-padwork-break",
+    "author": "tyler",
+    "image": "assets/grove/tyler/05-padwork-break.png",
+    "published_at": "2049-10-14T12:18",
+    "caption": "good round. same time thursday?",
+    "engagement_basis_points": 820,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "Thursday works. I will bring my wraps.",
+        "delay_minutes": 76
+      }
+    ],
+    "visible_subjects": [
+      "tyler"
+    ]
+  },
+  {
+    "key": "tyler:06-porch-with-dad",
+    "author": "tyler",
+    "image": "assets/grove/tyler/06-porch-with-dad.png",
+    "published_at": "2049-10-24T13:18",
+    "caption": "dad said it was a practice hand. apparently only when i win.",
+    "engagement_basis_points": 1140,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "That smile says he had the winning tile for a while.",
+        "delay_minutes": 89
+      }
+    ]
+  },
+  {
+    "key": "tyler:07-post-training-supper",
+    "author": "tyler",
+    "image": "assets/grove/tyler/07-post-training-supper.png",
+    "published_at": "2049-11-04T14:18",
+    "caption": "home before the first pitch. dinner sorted.",
+    "engagement_basis_points": 520,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "Good timing. Hope the game was worth getting home for.",
+        "delay_minutes": 102
+      }
+    ]
+  },
+  {
+    "key": "tyler:08-evening-porch",
+    "author": "tyler",
+    "image": "assets/grove/tyler/08-evening-porch.png",
+    "published_at": "2049-11-14T15:18",
+    "caption": "got another hand in me. probably said that three hands ago.",
+    "engagement_basis_points": 740,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "That is how an afternoon disappears.",
+        "delay_minutes": 115
+      }
+    ]
+  },
+  {
+    "key": "sophie:13-rei-riverside",
+    "author": "sophie",
+    "image": "assets/grove/sophie/13-rei-riverside.png",
+    "published_at": "2049-09-14T16:35",
+    "caption": "Took Rei on a walk. He gave the ducks a design review.",
+    "engagement_basis_points": 710,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "strong silhouettes. questionable manners.",
+        "delay_minutes": 14
+      }
+    ]
+  },
+  {
+    "key": "sophie:14-rei-arcade",
+    "author": "sophie",
+    "image": "assets/grove/sophie/14-rei-arcade.png",
+    "published_at": "2049-10-02T18:15",
+    "caption": "Athletic performance: excellent. Prize selection: tiny duck.",
+    "engagement_basis_points": 775,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "the duck earned its place.",
+        "delay_minutes": 20
+      }
+    ]
+  },
+  {
+    "key": "sophie:15-emily-flower-market",
+    "author": "sophie",
+    "image": "assets/grove/sophie/15-emily-flower-market.png",
+    "published_at": "2049-10-18T11:40",
+    "caption": "Emily picked the flowers. I provided carrying capacity.",
+    "engagement_basis_points": 840,
+    "comments": [
+      {
+        "author": "emily",
+        "text": "You also chose every sunflower.",
+        "delay_minutes": 26
+      }
+    ]
+  },
+  {
+    "key": "sophie:16-rei-emily-game-night",
+    "author": "sophie",
+    "image": "assets/grove/sophie/16-rei-emily-game-night.png",
+    "published_at": "2049-11-09T19:10",
+    "caption": "Apparently game night is not improved by announcing a personal best.",
+    "engagement_basis_points": 905,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "the tower has lodged a complaint.",
+        "delay_minutes": 32
+      }
+    ]
+  },
+  {
+    "key": "sophie:17-minsu-post-training",
+    "author": "sophie",
+    "image": "assets/grove/sophie/17-minsu-post-training.png",
+    "published_at": "2049-11-21T17:25",
+    "caption": "Recovery plan: stretch first, bakery second. Negotiations ongoing.",
+    "engagement_basis_points": 970,
+    "comments": [
+      {
+        "author": "minsu",
+        "text": "the bakery is part of the route. strategically.",
+        "delay_minutes": 38
+      }
+    ]
+  },
+  {
+    "key": "sophie:18-rei-garrett-kitchen",
+    "author": "sophie",
+    "image": "assets/grove/sophie/18-rei-garrett-kitchen.png",
+    "published_at": "2049-12-08T18:30",
+    "caption": "Conversation time counts, Garrett. Rei is my witness.",
+    "engagement_basis_points": 1035,
+    "comments": [
+      {
+        "author": "garrett",
+        "text": "the audience kept asking excellent questions.",
+        "delay_minutes": 44
+      }
+    ]
+  },
+  {
+    "key": "sophie:19-school-paper-pigeon",
+    "author": "sophie",
+    "image": "assets/grove/sophie/19-school-paper-pigeon.png",
+    "published_at": "2046-11-12T12:35",
+    "caption": "Four people. One paper pigeon. Marcus insists it needs a bus timetable.",
+    "engagement_basis_points": 1100,
+    "comments": [
+      {
+        "author": "emily",
+        "text": "The shelter needs a roof too. Working on it.",
+        "delay_minutes": 50
+      }
+    ]
+  },
+  {
+    "key": "sophie:20-school-puzzle-lunch",
+    "author": "sophie",
+    "image": "assets/grove/sophie/20-school-puzzle-lunch.png",
+    "published_at": "2047-03-19T12:25",
+    "caption": "Marcus made a puzzle. I tried to speedrun it. Emily found the missing exit.",
+    "engagement_basis_points": 1165,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "added a bench. the stranded player deserves a rest.",
+        "delay_minutes": 56
+      }
+    ]
+  },
+  {
+    "key": "rei:30-school-marcus-storyboards",
+    "author": "rei",
+    "image": "assets/grove/rei/30-school-marcus-storyboards.png",
+    "published_at": "2046-10-07T15:40",
+    "caption": "marcus has notes. the pigeon has requested representation.",
+    "engagement_basis_points": 650,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "Please tell me the pigeon gets a lunch break.",
+        "delay_minutes": 18
+      }
+    ]
+  },
+  {
+    "key": "rei:31-school-marcus-lunch",
+    "author": "rei",
+    "image": "assets/grove/rei/31-school-marcus-lunch.png",
+    "published_at": "2047-02-11T12:30",
+    "caption": "lunch with the director. crisps were in the budget.",
+    "engagement_basis_points": 741,
+    "comments": [
+      {
+        "author": "emily",
+        "text": "I hope the bus shelter gets a budget too.",
+        "delay_minutes": 27
+      }
+    ]
+  },
+  {
+    "key": "rei:32-school-emily-greenhouse",
+    "author": "rei",
+    "image": "assets/grove/rei/32-school-emily-greenhouse.png",
+    "published_at": "2046-11-20T15:15",
+    "caption": "roof supervisor has final say.",
+    "engagement_basis_points": 832,
+    "comments": [
+      {
+        "author": "emily",
+        "text": "Just a little to the left. Thank you.",
+        "delay_minutes": 36
+      }
+    ]
+  },
+  {
+    "key": "rei:33-school-four-friends",
+    "author": "rei",
+    "image": "assets/grove/rei/33-school-four-friends.png",
+    "published_at": "2047-03-05T12:40",
+    "caption": "four-person crew. one very demanding paper pigeon.",
+    "engagement_basis_points": 923,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "Lighting department would like a chair.",
+        "delay_minutes": 45
+      }
+    ]
+  },
+  {
+    "key": "emily:18-school-rei-model-bench",
+    "author": "emily",
+    "image": "assets/grove/emily/18-school-rei-model-bench.png",
+    "published_at": "2047-02-19T15:30",
+    "caption": "A very small bench, made with a very steady hand.",
+    "engagement_basis_points": 650,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "tested for imaginary passengers.",
+        "delay_minutes": 18
+      }
+    ]
+  },
+  {
+    "key": "emily:19-school-sophie-greenhouse",
+    "author": "emily",
+    "image": "assets/grove/emily/19-school-sophie-greenhouse.png",
+    "published_at": "2046-10-22T15:20",
+    "caption": "The slowest relay. We made it with every window intact.",
+    "engagement_basis_points": 741,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "Precision walking. Extremely advanced sport.",
+        "delay_minutes": 27
+      }
+    ]
+  },
+  {
+    "key": "emily:20-school-four-puzzle",
+    "author": "emily",
+    "image": "assets/grove/emily/20-school-four-puzzle.png",
+    "published_at": "2047-03-19T12:28",
+    "caption": "Found a missing exit. Marcus is working on a revision.",
+    "engagement_basis_points": 832,
+    "comments": [
+      {
+        "author": "rei",
+        "text": "bench stays. good view from there.",
+        "delay_minutes": 36
+      }
+    ]
+  },
+  {
+    "key": "emily:21-school-four-paper-pigeon",
+    "author": "emily",
+    "image": "assets/grove/emily/21-school-four-paper-pigeon.png",
+    "published_at": "2046-11-12T12:42",
+    "caption": "A very local weather event has entered the frame. Marcus says we should keep it.",
+    "engagement_basis_points": 923,
+    "comments": [
+      {
+        "author": "sophie",
+        "text": "The weather event has excellent comic timing.",
+        "delay_minutes": 45
+      }
+    ]
+  },
+  {
+    "key": "valentina:01-boathouse-selfie",
+    "author": "valentina",
+    "image": "assets/grove/valentina/01-boathouse-selfie.png",
+    "published_at": "2049-09-03T10:32",
+    "caption": "Boats ready. Hair doing its own weather forecast.",
+    "engagement_basis_points": 730,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "The boats look more prepared than your hair.",
+        "delay_minutes": 19
+      }
+    ],
+    "visible_subjects": [
+      "valentina"
+    ]
+  },
+  {
+    "key": "valentina:02-first-launch",
+    "author": "valentina",
+    "image": "assets/grove/valentina/02-first-launch.png",
+    "published_at": "2049-09-13T11:32",
+    "caption": "Light breeze, clear water. Took one extra lap before the lesson.",
+    "engagement_basis_points": 850,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "One extra lap is what you said last time too.",
+        "delay_minutes": 30
+      }
+    ]
+  },
+  {
+    "key": "valentina:03-sail-repair-with-ivan",
+    "author": "valentina",
+    "image": "assets/grove/valentina/03-sail-repair-with-ivan.png",
+    "published_at": "2049-09-23T12:32",
+    "caption": "My brother has been promoted to holding the sail still. Excellent work so far.",
+    "engagement_basis_points": 1150,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "I would like my excellent work recorded in the family minutes.",
+        "delay_minutes": 41
+      }
+    ],
+    "visible_subjects": [
+      "valentina"
+    ]
+  },
+  {
+    "key": "valentina:04-knots-and-coffee",
+    "author": "valentina",
+    "image": "assets/grove/valentina/04-knots-and-coffee.png",
+    "published_at": "2049-10-03T13:32",
+    "caption": "Coffee first. Knot check second. Launch third.",
+    "engagement_basis_points": 480,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "And then you check the knot I tied again.",
+        "delay_minutes": 52
+      }
+    ]
+  },
+  {
+    "key": "valentina:05-karaoke-with-ivan",
+    "author": "valentina",
+    "image": "assets/grove/valentina/05-karaoke-with-ivan.png",
+    "published_at": "2049-10-13T14:32",
+    "caption": "He gets the first verse. I get the loud one.",
+    "engagement_basis_points": 1320,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "You took the chorus as well. And most of my verse.",
+        "delay_minutes": 63
+      }
+    ]
+  },
+  {
+    "key": "valentina:06-signal-house-supper",
+    "author": "valentina",
+    "image": "assets/grove/valentina/06-signal-house-supper.png",
+    "published_at": "2049-10-23T15:32",
+    "caption": "Sail off the table. Soup on the table. We can negotiate.",
+    "engagement_basis_points": 1090,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "The soup had to apply for that table space.",
+        "delay_minutes": 74
+      }
+    ]
+  },
+  {
+    "key": "valentina:07-restored-dinghy",
+    "author": "valentina",
+    "image": "assets/grove/valentina/07-restored-dinghy.png",
+    "published_at": "2049-11-03T16:32",
+    "caption": "Secondhand hull. A lot of sanding. Ready for someone's first sail.",
+    "engagement_basis_points": 690,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "I remember the day we brought that hull home. Look at it now.",
+        "delay_minutes": 85
+      }
+    ]
+  },
+  {
+    "key": "valentina:08-after-the-last-lesson",
+    "author": "valentina",
+    "image": "assets/grove/valentina/08-after-the-last-lesson.png",
+    "published_at": "2049-11-13T17:32",
+    "caption": "Last boat tied up. Evening officially mine.",
+    "engagement_basis_points": 810,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "Dinner is at seven. No sailcloth on your chair this time.",
+        "delay_minutes": 96
+      }
+    ],
+    "visible_subjects": [
+      "valentina"
+    ]
+  },
+  {
+    "key": "daniel:01-projection-booth",
+    "author": "daniel",
+    "image": "assets/grove/daniel/01-projection-booth.png",
+    "published_at": "2049-09-07T12:16",
+    "caption": "Matinee checked. The projector is more awake than I am.",
+    "engagement_basis_points": 650,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "Give it a coffee break after the second screening.",
+        "delay_minutes": 27
+      }
+    ],
+    "visible_subjects": [
+      "daniel"
+    ]
+  },
+  {
+    "key": "daniel:02-film-reels",
+    "author": "daniel",
+    "image": "assets/grove/daniel/02-film-reels.png",
+    "published_at": "2049-09-16T13:16",
+    "caption": "Two reels. One very good reason to stay for the ending.",
+    "engagement_basis_points": 470,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "I will stay. You can ask what I thought afterwards.",
+        "delay_minutes": 40
+      }
+    ]
+  },
+  {
+    "key": "daniel:03-lobby-card-drawing",
+    "author": "daniel",
+    "image": "assets/grove/daniel/03-lobby-card-drawing.png",
+    "published_at": "2049-09-25T14:16",
+    "caption": "The detective has a hat now. This counts as progress.",
+    "engagement_basis_points": 820,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "The reflection under the streetlamp is good. Keep that.",
+        "delay_minutes": 53
+      }
+    ],
+    "visible_subjects": [
+      "daniel"
+    ]
+  },
+  {
+    "key": "daniel:04-empty-auditorium",
+    "author": "daniel",
+    "image": "assets/grove/daniel/04-empty-auditorium.png",
+    "published_at": "2049-10-07T15:16",
+    "caption": "Ten minutes before doors. Best sound in here is almost nothing.",
+    "engagement_basis_points": 540,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "Save me an aisle seat when the doors open.",
+        "delay_minutes": 66
+      }
+    ]
+  },
+  {
+    "key": "daniel:05-judo-evening",
+    "author": "daniel",
+    "image": "assets/grove/daniel/05-judo-evening.png",
+    "published_at": "2049-10-16T16:16",
+    "caption": "An evening spent learning how to meet the floor politely.",
+    "engagement_basis_points": 740,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "The floor remains undefeated, then.",
+        "delay_minutes": 79
+      }
+    ],
+    "visible_subjects": [
+      "daniel"
+    ]
+  },
+  {
+    "key": "daniel:06-double-feature",
+    "author": "daniel",
+    "image": "assets/grove/daniel/06-double-feature.png",
+    "published_at": "2049-10-25T17:16",
+    "caption": "My first double feature. Drew the cards too. Mum and Dad have seats.",
+    "engagement_basis_points": 1120,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "You should be proud of those. What time does the first one start?",
+        "delay_minutes": 92
+      }
+    ]
+  },
+  {
+    "key": "daniel:07-flat-above-the-bijou",
+    "author": "daniel",
+    "image": "assets/grove/daniel/07-flat-above-the-bijou.png",
+    "published_at": "2049-11-07T18:16",
+    "caption": "Keys downstairs. Jacket upstairs. Occasionally I remember which is which.",
+    "engagement_basis_points": 430,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "At least the commute is short.",
+        "delay_minutes": 105
+      }
+    ]
+  },
+  {
+    "key": "daniel:08-after-the-credits",
+    "author": "daniel",
+    "image": "assets/grove/daniel/08-after-the-credits.png",
+    "published_at": "2049-11-16T19:16",
+    "caption": "Good film. Terrible final five minutes. Tea is helping.",
+    "engagement_basis_points": 680,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "You looked ready to rewrite the ending on the way out.",
+        "delay_minutes": 118
+      }
+    ]
+  },
+  {
+    "key": "sylvanis:01-ringside-patron",
+    "author": "sylvanis",
+    "image": "assets/grove/sylvanis/01-ringside-patron.png",
+    "published_at": "2049-09-06T20:13",
+    "caption": "Round three. The hesitation was worth the price of admission.",
+    "engagement_basis_points": 920,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "The round was over. Leave it there.",
+        "delay_minutes": 43
+      }
+    ],
+    "visible_subjects": [
+      "sylvanis"
+    ]
+  },
+  {
+    "key": "sylvanis:02-stakes-on-the-table",
+    "author": "sylvanis",
+    "image": "assets/grove/sylvanis/02-stakes-on-the-table.png",
+    "published_at": "2049-09-15T21:13",
+    "caption": "The bell is impartial. The room is not.",
+    "engagement_basis_points": 560,
+    "comments": []
+  },
+  {
+    "key": "sylvanis:03-backroom-payment",
+    "author": "sylvanis",
+    "image": "assets/grove/sylvanis/03-backroom-payment.png",
+    "published_at": "2049-09-24T22:13",
+    "caption": "A small consideration. Do make the next round interesting.",
+    "engagement_basis_points": 740,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "They came here to box.",
+        "delay_minutes": 77
+      }
+    ]
+  },
+  {
+    "key": "sylvanis:04-underground-cards",
+    "author": "sylvanis",
+    "image": "assets/grove/sylvanis/04-underground-cards.png",
+    "published_at": "2049-10-06T23:13",
+    "caption": "Please. Take the empty seat.",
+    "engagement_basis_points": 680,
+    "comments": []
+  },
+  {
+    "key": "sylvanis:05-warehouse-after-midnight",
+    "author": "sylvanis",
+    "image": "assets/grove/sylvanis/05-warehouse-after-midnight.png",
+    "published_at": "2049-10-15T20:13",
+    "caption": "Midnight. Everyone arrived with something to lose.",
+    "engagement_basis_points": 430,
+    "comments": []
+  },
+  {
+    "key": "sylvanis:06-private-terms",
+    "author": "sylvanis",
+    "image": "assets/grove/sylvanis/06-private-terms.png",
+    "published_at": "2049-10-24T21:13",
+    "caption": "Your copy remains sealed. How considerate of me.",
+    "engagement_basis_points": 510,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "This is not a conversation for here.",
+        "delay_minutes": 128
+      }
+    ]
+  },
+  {
+    "key": "sylvanis:07-two-chairs",
+    "author": "sylvanis",
+    "image": "assets/grove/sylvanis/07-two-chairs.png",
+    "published_at": "2049-11-06T22:13",
+    "caption": "Two chairs. I have left you the choice.",
+    "engagement_basis_points": 390,
+    "comments": []
+  },
+  {
+    "key": "sylvanis:08-round-thirteen",
+    "author": "sylvanis",
+    "image": "assets/grove/sylvanis/08-round-thirteen.png",
+    "published_at": "2049-11-15T23:13",
+    "caption": "Thirteen. I could have watched another.",
+    "engagement_basis_points": 1080,
+    "comments": [
+      {
+        "author": "ivan",
+        "text": "They were finished. You heard the bell.",
+        "delay_minutes": 162
+      }
+    ]
+  },
+  {
+    "key": "neo:01-repair-bench",
+    "author": "neo",
+    "image": "assets/grove/neo/01-repair-bench.png",
+    "published_at": "2049-09-05T18:30",
+    "caption": "stick drift defeated. for now.",
+    "engagement_basis_points": 700,
+    "comments": [
+      {
+        "author": "alyssa",
+        "text": "The patient has made a full recovery.",
+        "delay_minutes": 37
+      }
+    ]
+  },
+  {
+    "key": "neo:02-round-with-tyler",
+    "author": "neo",
+    "image": "assets/grove/neo/02-round-with-tyler.png",
+    "published_at": "2049-09-13T18:30",
+    "caption": "he said light warm-up. should have asked what that meant.",
+    "engagement_basis_points": 770,
+    "comments": [
+      {
+        "author": "tyler",
+        "text": "You were the one who asked for another round.",
+        "delay_minutes": 37
+      }
+    ]
+  },
+  {
+    "key": "neo:03-three-at-the-bijou",
+    "author": "neo",
+    "image": "assets/grove/neo/03-three-at-the-bijou.png",
+    "published_at": "2049-09-21T18:30",
+    "caption": "three opinions. daniel brought a closing argument.",
+    "engagement_basis_points": 840,
+    "comments": [
+      {
+        "author": "daniel",
+        "text": "The last scene changes the whole film. I stand by that.",
+        "delay_minutes": 37
+      }
+    ]
+  },
+  {
+    "key": "neo:04-dinner-duty",
+    "author": "neo",
+    "image": "assets/grove/neo/04-dinner-duty.png",
+    "published_at": "2049-10-05T18:30",
+    "caption": "she handles the greens. i handle the extremely serious rice situation.",
+    "engagement_basis_points": 910,
+    "comments": [
+      {
+        "author": "alyssa",
+        "text": "The rice situation was a button, Neo.",
+        "delay_minutes": 37
+      }
+    ]
+  },
+  {
+    "key": "neo:05-river-break",
+    "author": "neo",
+    "image": "assets/grove/neo/05-river-break.png",
+    "published_at": "2049-10-13T18:30",
+    "caption": "took the long way. worth it.",
+    "engagement_basis_points": 980,
+    "comments": [
+      {
+        "author": "alyssa",
+        "text": "You found the bench with the good afternoon light.",
+        "delay_minutes": 37
+      }
+    ]
+  },
+  {
+    "key": "neo:06-coop-with-the-boys",
+    "author": "neo",
+    "image": "assets/grove/neo/06-coop-with-the-boys.png",
+    "published_at": "2049-10-21T18:30",
+    "caption": "daniel and i had a plan. tyler had commentary.",
+    "engagement_basis_points": 1050,
+    "comments": [
+      {
+        "author": "tyler",
+        "text": "Commentary improved morale. Put that in the credits.",
+        "delay_minutes": 37
+      }
+    ]
+  },
+  {
+    "key": "neo:07-slow-morning",
+    "author": "neo",
+    "image": "assets/grove/neo/07-slow-morning.png",
+    "published_at": "2049-11-05T18:30",
+    "caption": "no alarms. two mugs. good morning.",
+    "engagement_basis_points": 1120,
+    "comments": [
+      {
+        "author": "alyssa",
+        "text": "My favourite kind.",
+        "delay_minutes": 37
+      }
+    ]
+  },
+  {
+    "key": "neo:08-radio-working",
+    "author": "neo",
+    "image": "assets/grove/neo/08-radio-working.png",
+    "published_at": "2049-11-13T18:30",
+    "caption": "the radio works again. the station still plays terrible songs.",
+    "engagement_basis_points": 1190,
+    "comments": [
+      {
+        "author": "alyssa",
+        "text": "You hummed along to three of them.",
+        "delay_minutes": 37
+      }
+    ]
+  },
+  {
+    "key": "alyssa:01-binding-day",
+    "author": "alyssa",
+    "image": "assets/grove/alyssa/01-binding-day.png",
+    "published_at": "2049-09-06T18:30",
+    "caption": "A spine that opens properly is a small, very satisfying victory.",
+    "engagement_basis_points": 700,
+    "comments": [
+      {
+        "author": "neo",
+        "text": "looks solid. i'll keep the soldering iron well away.",
+        "delay_minutes": 37
+      }
+    ]
+  },
+  {
+    "key": "alyssa:02-riverside-sketch",
+    "author": "alyssa",
+    "image": "assets/grove/alyssa/02-riverside-sketch.png",
+    "published_at": "2049-09-14T18:30",
+    "caption": "The leaf stayed still. The wind did not.",
+    "engagement_basis_points": 770,
+    "comments": [
+      {
+        "author": "neo",
+        "text": "you won on points.",
+        "delay_minutes": 37
+      }
+    ]
+  },
+  {
+    "key": "alyssa:03-herb-corner",
+    "author": "alyssa",
+    "image": "assets/grove/alyssa/03-herb-corner.png",
+    "published_at": "2049-09-22T18:30",
+    "caption": "Basil is thriving. Rosemary and I are still negotiating.",
+    "engagement_basis_points": 840,
+    "comments": [
+      {
+        "author": "neo",
+        "text": "rosemary has requested better terms.",
+        "delay_minutes": 37
+      }
+    ]
+  },
+  {
+    "key": "alyssa:04-market-with-neo",
+    "author": "alyssa",
+    "image": "assets/grove/alyssa/04-market-with-neo.png",
+    "published_at": "2049-10-06T18:30",
+    "caption": "We went for herbs. We came back with dinner and a very good pear.",
+    "engagement_basis_points": 910,
+    "comments": [
+      {
+        "author": "neo",
+        "text": "two pears. quality control was thorough.",
+        "delay_minutes": 37
+      }
+    ]
+  },
+  {
+    "key": "alyssa:05-one-more-level",
+    "author": "alyssa",
+    "image": "assets/grove/alyssa/05-one-more-level.png",
+    "published_at": "2049-10-14T18:30",
+    "caption": "One more level is a unit of time with no agreed definition.",
+    "engagement_basis_points": 980,
+    "comments": [
+      {
+        "author": "neo",
+        "text": "we agreed on one. then another one.",
+        "delay_minutes": 37
+      }
+    ]
+  },
+  {
+    "key": "alyssa:06-table-for-two",
+    "author": "alyssa",
+    "image": "assets/grove/alyssa/06-table-for-two.png",
+    "published_at": "2049-10-22T18:30",
+    "caption": "Cleared the table. Made something warm. That was enough for tonight.",
+    "engagement_basis_points": 1050,
+    "comments": [
+      {
+        "author": "neo",
+        "text": "best part of the day.",
+        "delay_minutes": 37
+      }
+    ]
+  },
+  {
+    "key": "alyssa:07-rain-and-pages",
+    "author": "alyssa",
+    "image": "assets/grove/alyssa/07-rain-and-pages.png",
+    "published_at": "2049-11-06T18:30",
+    "caption": "Different books. Same rainy afternoon.",
+    "engagement_basis_points": 1120,
+    "comments": [
+      {
+        "author": "neo",
+        "text": "yours has a better plot. mine has diagrams.",
+        "delay_minutes": 37
+      }
+    ]
+  },
+  {
+    "key": "alyssa:08-pressed-leaf",
+    "author": "alyssa",
+    "image": "assets/grove/alyssa/08-pressed-leaf.png",
+    "published_at": "2049-11-14T18:30",
+    "caption": "Made a place for the leaf I kept bringing home.",
+    "engagement_basis_points": 1190,
+    "comments": [
+      {
+        "author": "neo",
+        "text": "better than finding it in the laundry.",
+        "delay_minutes": 37
+      }
+    ]
+  }
+]

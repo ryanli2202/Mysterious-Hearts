@@ -1,0 +1,177 @@
+{
+  "tool": "Built-in image_gen",
+  "images": [
+    {
+      "file": "09-rei-dumpling-prep.png",
+      "subjects": [
+        "garrett",
+        "rei"
+      ],
+      "caption": "quality control got distracted.",
+      "comment": {
+        "author": "rei",
+        "text": "your dumpling has structural problems."
+      },
+      "prompt": "Use case: stylized-concept. Create ONE square Grove gallery photo as polished contemporary romance anime/manhwa illustration with fine tapered linework and refined cel shading, matching reference art. All characters adults. Reference portraits give identity only, not scene. Preserve faces, hair, eye colour, build, jewellery. Garrett is golden blond with amber eyes and gold earrings, Rei has black hair, grey eyes and paired lower-lip piercings. Tattoo references give exact exposed-skin coverage: Garrett has both dragon sleeves to wrists and branching chest tattoo up left neck; Rei has both full tattoo sleeves, chest and neck tattoos. Ink belongs only on exposed skin, never over clothing, never on other people. Keep hands uninked. No text, watermark, UI, borders or collage. Scene: Garrett and Rei making dumplings side by side at the Golden Dragon kitchen counter after closing, sharing a laugh at a misshapen dumpling. Garrett wears an ivory shirt with sleeves rolled continuously to elbows and a charcoal apron, Rei a black short-sleeve tee and grey apron. Waist-up candid warm kitchen lighting.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/garrett-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/grove/garrett/appearance-reference.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/grove/rei/tattoo-reference.png"
+      ]
+    },
+    {
+      "file": "10-rei-coffee-walk.png",
+      "subjects": [
+        "garrett",
+        "rei"
+      ],
+      "caption": "coffee. fresh air. exceptionally good company.",
+      "comment": {
+        "author": "rei",
+        "text": "you told that story twice."
+      },
+      "prompt": "Use case: stylized-concept. Create ONE square Grove gallery photo as polished contemporary romance anime/manhwa illustration with fine tapered linework and refined cel shading, matching reference art. All characters adults. Reference portraits give identity only, not scene. Preserve faces, hair, eye colour, build, jewellery. Garrett is golden blond with amber eyes and gold earrings, Rei has black hair, grey eyes and paired lower-lip piercings. Tattoo references give exact exposed-skin coverage: Garrett has both dragon sleeves to wrists and branching chest tattoo up left neck; Rei has both full tattoo sleeves, chest and neck tattoos. Ink belongs only on exposed skin, never over clothing, never on other people. Keep hands uninked. No text, watermark, UI, borders or collage. Scene: Garrett and Rei walking shoulder to shoulder along a leafy riverside path with takeaway coffee, Garrett laughing mid-story, Rei giving him a small amused smile. Both wear casual full-length jackets, Garrett tan over white shirt, Rei charcoal over black shirt. Candid three-quarter portrait, soft morning sunlight.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/garrett-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/grove/garrett/appearance-reference.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/grove/rei/tattoo-reference.png"
+      ]
+    },
+    {
+      "file": "11-rei-record-shop.png",
+      "subjects": [
+        "garrett",
+        "rei"
+      ],
+      "caption": "apparently my taste needed supervision.",
+      "comment": {
+        "author": "rei",
+        "text": "one intervention. very necessary."
+      },
+      "prompt": "Use case: stylized-concept. Create ONE square Grove gallery photo as polished contemporary romance anime/manhwa illustration with fine tapered linework and refined cel shading, matching reference art. All characters adults. Reference portraits give identity only, not scene. Preserve faces, hair, eye colour, build, jewellery. Garrett is golden blond with amber eyes and gold earrings, Rei has black hair, grey eyes and paired lower-lip piercings. Tattoo references give exact exposed-skin coverage: Garrett has both dragon sleeves to wrists and branching chest tattoo up left neck; Rei has both full tattoo sleeves, chest and neck tattoos. Ink belongs only on exposed skin, never over clothing, never on other people. Keep hands uninked. No text, watermark, UI, borders or collage. Scene: Garrett and Rei browsing a cosy vinyl record shop together. Garrett in a dark green full-sleeve overshirt holds a plain illustrated record sleeve with no writing, Rei in a black full-sleeve jacket leans over to inspect it, amused expressions. Warm wood shelves and afternoon light, waist-up friendly candid.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/garrett-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/grove/garrett/appearance-reference.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/grove/rei/tattoo-reference.png"
+      ]
+    },
+    {
+      "file": "12-rei-studio-tailoring.png",
+      "subjects": [
+        "garrett",
+        "rei"
+      ],
+      "caption": "rei said stand still. i made it look expensive.",
+      "comment": {
+        "author": "rei",
+        "text": "eventually."
+      },
+      "prompt": "Use case: stylized-concept. Create ONE square Grove gallery photo as polished contemporary romance anime/manhwa illustration with fine tapered linework and refined cel shading, matching reference art. All characters adults. Reference portraits give identity only, not scene. Preserve faces, hair, eye colour, build, jewellery. Garrett is golden blond with amber eyes and gold earrings, Rei has black hair, grey eyes and paired lower-lip piercings. Tattoo references give exact exposed-skin coverage: Garrett has both dragon sleeves to wrists and branching chest tattoo up left neck; Rei has both full tattoo sleeves, chest and neck tattoos. Ink belongs only on exposed skin, never over clothing, never on other people. Keep hands uninked. No text, watermark, UI, borders or collage. Scene: Professional fashion modelling shoot of Garrett and Rei posing together on a warm grey seamless studio background. Garrett wears tailored ivory suit with an open-collar white shirt and gold jewellery; Rei tailored black suit with open black shirt and silver jewellery. Garrett stands with one hand in pocket, Rei seated on a simple tall stool beside him, both look directly at camera. Sophisticated complementary poses, full heads through knees, dramatic softbox lighting. Full sleeves to wrists.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/garrett-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/grove/garrett/appearance-reference.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/grove/rei/tattoo-reference.png"
+      ]
+    },
+    {
+      "file": "13-rei-city-editorial.png",
+      "subjects": [
+        "garrett",
+        "rei"
+      ],
+      "caption": "two coats. one very cold evening breeze.",
+      "comment": {
+        "author": "rei",
+        "text": "the photos do not record the complaining."
+      },
+      "prompt": "Use case: stylized-concept. Create ONE square Grove gallery photo as polished contemporary romance anime/manhwa illustration with fine tapered linework and refined cel shading, matching reference art. All characters adults. Reference portraits give identity only, not scene. Preserve faces, hair, eye colour, build, jewellery. Garrett is golden blond with amber eyes and gold earrings, Rei has black hair, grey eyes and paired lower-lip piercings. Tattoo references give exact exposed-skin coverage: Garrett has both dragon sleeves to wrists and branching chest tattoo up left neck; Rei has both full tattoo sleeves, chest and neck tattoos. Ink belongs only on exposed skin, never over clothing, never on other people. Keep hands uninked. No text, watermark, UI, borders or collage. Scene: Professional fashion modelling editorial of Garrett and Rei together on broad modern stone steps at blue hour. Garrett in a camel long coat over black fine-knit shirt and tailored trousers, Rei in a charcoal long coat over ivory shirt and dark trousers, all full sleeves to wrists. Both standing at different levels, strong elegant silhouettes and deliberate calm confident expressions looking toward camera. Three-quarter bodies, cinematic city lights, polished campaign photograph composition.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/garrett-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/grove/garrett/appearance-reference.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/grove/rei/tattoo-reference.png"
+      ]
+    },
+    {
+      "file": "14-april-chess.png",
+      "subjects": [
+        "garrett",
+        "april"
+      ],
+      "caption": "i was giving her a false sense of security.",
+      "comment": {
+        "author": "april",
+        "text": "For all three games?"
+      },
+      "prompt": "Use case: stylized-concept. Create ONE square Grove gallery photo as polished contemporary romance anime/manhwa illustration with fine tapered linework and refined cel shading, matching reference art. All characters adults. Reference portraits give identity only, not scene. Preserve faces, hair, eye colour, build, jewellery. Garrett is golden blond with amber eyes and gold earrings, Rei has black hair, grey eyes and paired lower-lip piercings. Tattoo references give exact exposed-skin coverage: Garrett has both dragon sleeves to wrists and branching chest tattoo up left neck; Rei has both full tattoo sleeves, chest and neck tattoos. Ink belongs only on exposed skin, never over clothing, never on other people. Keep hands uninked. No text, watermark, UI, borders or collage. Scene: Garrett and April playing chess at a cafe window. April with shoulder-length chestnut brown bob wears navy cardigan over ivory blouse and gives an amused knowing smile as she places a chess piece; Garrett in a black long-sleeved collared shirt looks at the board with theatrical disbelief. Friendly adult companions, clearly visible faces, waist-up across a small chess table, warm afternoon lighting.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/garrett-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/april-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/grove/garrett/appearance-reference.png"
+      ]
+    },
+    {
+      "file": "15-april-market.png",
+      "subjects": [
+        "garrett",
+        "april"
+      ],
+      "caption": "shopping with someone who checks my maths.",
+      "comment": {
+        "author": "april",
+        "text": "And remembers the list."
+      },
+      "prompt": "Use case: stylized-concept. Create ONE square Grove gallery photo as polished contemporary romance anime/manhwa illustration with fine tapered linework and refined cel shading, matching reference art. All characters adults. Reference portraits give identity only, not scene. Preserve faces, hair, eye colour, build, jewellery. Garrett is golden blond with amber eyes and gold earrings, Rei has black hair, grey eyes and paired lower-lip piercings. Tattoo references give exact exposed-skin coverage: Garrett has both dragon sleeves to wrists and branching chest tattoo up left neck; Rei has both full tattoo sleeves, chest and neck tattoos. Ink belongs only on exposed skin, never over clothing, never on other people. Keep hands uninked. No text, watermark, UI, borders or collage. Scene: Garrett and April at a cheerful outdoor produce market, side by side. Garrett in a cream long-sleeved overshirt and white tee carries a paper grocery bag with leafy greens, April in a pale blue full-sleeve cardigan holds two oranges for comparison, both smiling naturally. Candid waist-up composition with softly drawn produce stalls, bright soft daylight.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/garrett-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/april-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/grove/garrett/appearance-reference.png"
+      ]
+    },
+    {
+      "file": "16-april-dinner-prep.png",
+      "subjects": [
+        "garrett",
+        "april"
+      ],
+      "caption": "the toughest food critic got the first taste.",
+      "comment": {
+        "author": "april",
+        "text": "Good broth. You can stop watching my face now."
+      },
+      "prompt": "Use case: stylized-concept. Create ONE square Grove gallery photo as polished contemporary romance anime/manhwa illustration with fine tapered linework and refined cel shading, matching reference art. All characters adults. Reference portraits give identity only, not scene. Preserve faces, hair, eye colour, build, jewellery. Garrett is golden blond with amber eyes and gold earrings, Rei has black hair, grey eyes and paired lower-lip piercings. Tattoo references give exact exposed-skin coverage: Garrett has both dragon sleeves to wrists and branching chest tattoo up left neck; Rei has both full tattoo sleeves, chest and neck tattoos. Ink belongs only on exposed skin, never over clothing, never on other people. Keep hands uninked. No text, watermark, UI, borders or collage. Scene: Garrett and April preparing dinner together in a cosy home kitchen. Garrett in a dark rolled-sleeve shirt and apron proudly offers a small tasting spoon, April in a navy cardigan over cream top holds a little tasting bowl and gives an amused approving smile. Adult friends, warm intimate everyday companionship, no romance implied. Waist-up shot, vegetables and gently steaming pot in foreground.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/garrett-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/april-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/grove/garrett/appearance-reference.png"
+      ]
+    },
+    {
+      "file": "17-friends-dinner.png",
+      "subjects": [
+        "garrett",
+        "rei",
+        "emily",
+        "sophie",
+        "yuriko"
+      ],
+      "caption": "a full table. exactly how i like it.",
+      "comment": {
+        "author": "sophie",
+        "text": "We did leave you one dumpling."
+      },
+      "prompt": "Use case: stylized-concept. Create ONE square Grove gallery photo as polished contemporary romance anime/manhwa illustration with fine tapered linework and refined cel shading, matching reference art. All characters adults. Reference portraits give identity only, not scene. Preserve faces, hair, eye colour, build, jewellery. Garrett is golden blond with amber eyes and gold earrings, Rei has black hair, grey eyes and paired lower-lip piercings. Tattoo references give exact exposed-skin coverage: Garrett has both dragon sleeves to wrists and branching chest tattoo up left neck; Rei has both full tattoo sleeves, chest and neck tattoos. Ink belongs only on exposed skin, never over clothing, never on other people. Keep hands uninked. No text, watermark, UI, borders or collage. Scene: Exactly FIVE adult friends in a single warm candid group photograph at a round dinner table at the Golden Dragon. Garrett in centre, Rei beside him, Emily with long straight blonde hair bangs and round glasses, Sophie brown ponytail green eyes, Yuriko black bob amber hair clip. Each face clearly visible and distinct. Garrett ivory rolled-sleeve shirt, Rei black collared full-sleeve shirt, Emily cream blouse with blue pinafore, Sophie green zip jacket, Yuriko olive overshirt over white top. Garrett beams at the camera, others smiling naturally together, shared platters of dumplings and teacups in foreground, warm pendant lighting and evening windows. Friendly relaxed group portrait framed wide enough to fit all five without cropped heads. No additional people. The five reference portraits in order are Garrett, Rei, Emily, Sophie, Yuriko. Use these five distinct identities exactly once each. Keep both men's sleeves down to wrists, neck tattoos visible.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/garrett-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/emily-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sophie-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/yuriko-selection.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "tool": "Built-in image_gen",
+  "images": [
+    {
+      "slug": "01-repair-bench",
+      "prompt": "Use case: illustration-story. Create ONE square full-bleed personal Grove social photo for Mysterious Hearts. Contemporary romance anime/manhwa, fine linework, refined cel shading and detailed environments matching reference style, not photoreal. References are identity and setting guides only; use new natural poses. Reference 1: Neo: adult man 21, Japanese, light warm skin, tousled black hair, grey-green eyes, angular clean-shaven face, small dark earrings, athletic build, intricate Japanese tattoo sleeves on both arms. Neo seated at the Station makerspace repairing an opened game controller, small screwdriver held carefully, black t-shirt, tattooed forearms, focused expression, organized tools and warm desk lamp. Medium candid portrait, one adult. No text overlays, watermark, logos, border or collage. Preserve distinct identities, correct anatomy and hands. Do not add extra people, pets or wedding rings.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/profiles/neo.png"
+      ],
+      "caption": "stick drift defeated. for now.",
+      "comments": [
+        {
+          "author": "alyssa",
+          "text": "The patient has made a full recovery.",
+          "delay_minutes": 37
+        }
+      ]
+    },
+    {
+      "slug": "02-round-with-tyler",
+      "prompt": "Use case: illustration-story. Create ONE square full-bleed personal Grove social photo for Mysterious Hearts. Contemporary romance anime/manhwa, fine linework, refined cel shading and detailed environments matching reference style, not photoreal. References are identity and setting guides only; use new natural poses. Reference 1: Neo: adult man 21, Japanese, light warm skin, tousled black hair, grey-green eyes, angular clean-shaven face, small dark earrings, athletic build, intricate Japanese tattoo sleeves on both arms. Reference 2: Tyler: adult man 21, dark brown skin, dark short-to-medium locs, brown eyes, neat moustache and small goatee, athletic build. Neo and Tyler laughing between controlled boxing drills in East Ward gym, both adult men. Neo black athletic tee and boxing gloves lowered; Tyler burgundy tee with focus mitts at waist, dark locs and facial hair. Safe relaxed break, no strike or injury. Waist-up two-person candid. No text overlays, watermark, logos, border or collage. Preserve distinct identities, correct anatomy and hands. Do not add extra people, pets or wedding rings.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/profiles/neo.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/profiles/tyler.png"
+      ],
+      "caption": "he said light warm-up. should have asked what that meant.",
+      "comments": [
+        {
+          "author": "tyler",
+          "text": "You were the one who asked for another round.",
+          "delay_minutes": 37
+        }
+      ]
+    },
+    {
+      "slug": "03-three-at-the-bijou",
+      "prompt": "Use case: illustration-story. Create ONE square full-bleed personal Grove social photo for Mysterious Hearts. Contemporary romance anime/manhwa, fine linework, refined cel shading and detailed environments matching reference style, not photoreal. References are identity and setting guides only; use new natural poses. Reference 1: Neo: adult man 21, Japanese, light warm skin, tousled black hair, grey-green eyes, angular clean-shaven face, small dark earrings, athletic build, intricate Japanese tattoo sleeves on both arms. Reference 2: Tyler: adult man 21, dark brown skin, dark short-to-medium locs, brown eyes, neat moustache and small goatee, athletic build. Reference 3: Daniel: adult man 21, light warm skin, tousled dark chestnut brown hair, green eyes, strong brows, clean shaven athletic build. Exactly three adult best friends Neo, Tyler and Daniel standing together in Bijou repertory cinema lobby after a movie, amused mid-conversation. Neo black tee tattoo sleeves, Tyler olive overshirt over cream tee locs and facial hair, Daniel dark hoodie chestnut hair green eyes. Text-free movie illustrations, warm lobby lights, waist-up casual group photo, distinct likenesses. No text overlays, watermark, logos, border or collage. Preserve distinct identities, correct anatomy and hands. Do not add extra people, pets or wedding rings.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/profiles/neo.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/profiles/tyler.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/profiles/daniel.png"
+      ],
+      "caption": "three opinions. daniel brought a closing argument.",
+      "comments": [
+        {
+          "author": "daniel",
+          "text": "The last scene changes the whole film. I stand by that.",
+          "delay_minutes": 37
+        }
+      ]
+    },
+    {
+      "slug": "04-dinner-duty",
+      "prompt": "Use case: illustration-story. Create ONE square full-bleed personal Grove social photo for Mysterious Hearts. Contemporary romance anime/manhwa, fine linework, refined cel shading and detailed environments matching reference style, not photoreal. References are identity and setting guides only; use new natural poses. Reference 1: Neo: adult man 21, Japanese, light warm skin, tousled black hair, grey-green eyes, angular clean-shaven face, small dark earrings, athletic build, intricate Japanese tattoo sleeves on both arms. Reference 2: Alyssa: adult Blisk woman 21, light warm skin, long near-black wavy hair, clearly visible long elf-like pointed ears, vivid purple eyes, feminine face, silver earrings, gentle playful expression. No tattoos. Reference 3: their modest shared apartment, preserve its warm simple furniture and general layout. Neo and Alyssa cooking together in their modest apartment kitchenette, reference home layout. Neo black short sleeve tee tattooed arms plating ginger pork rice bowls; Alyssa lilac cardigan ivory top, elf ears purple eyes dark hair, washing leafy greens beside sink. Affectionate amused glance, natural hands, two adults only, rice cooker and two mugs, warm light. No text overlays, watermark, logos, border or collage. Preserve distinct identities, correct anatomy and hands. Do not add extra people, pets or wedding rings.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/profiles/neo.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/profiles/alyssa.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/ui/locations/neo_home.png"
+      ],
+      "caption": "she handles the greens. i handle the extremely serious rice situation.",
+      "comments": [
+        {
+          "author": "alyssa",
+          "text": "The rice situation was a button, Neo.",
+          "delay_minutes": 37
+        }
+      ]
+    },
+    {
+      "slug": "05-river-break",
+      "prompt": "Use case: illustration-story. Create ONE square full-bleed personal Grove social photo for Mysterious Hearts. Contemporary romance anime/manhwa, fine linework, refined cel shading and detailed environments matching reference style, not photoreal. References are identity and setting guides only; use new natural poses. Reference 1: Neo: adult man 21, Japanese, light warm skin, tousled black hair, grey-green eyes, angular clean-shaven face, small dark earrings, athletic build, intricate Japanese tattoo sleeves on both arms. Neo alone on a riverside bench at late afternoon, relaxed black t-shirt and dark trousers, tattoo sleeves, holding a takeaway barley tea in one hand, slight contented smile, soft river and trees, waist-up candid, peaceful everyday walk. No text overlays, watermark, logos, border or collage. Preserve distinct identities, correct anatomy and hands. Do not add extra people, pets or wedding rings.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/profiles/neo.png"
+      ],
+      "caption": "took the long way. worth it.",
+      "comments": [
+        {
+          "author": "alyssa",
+          "text": "You found the bench with the good afternoon light.",
+          "delay_minutes": 37
+        }
+      ]
+    },
+    {
+      "slug": "06-coop-with-the-boys",
+      "prompt": "Use case: illustration-story. Create ONE square full-bleed personal Grove social photo for Mysterious Hearts. Contemporary romance anime/manhwa, fine linework, refined cel shading and detailed environments matching reference style, not photoreal. References are identity and setting guides only; use new natural poses. Reference 1: Neo: adult man 21, Japanese, light warm skin, tousled black hair, grey-green eyes, angular clean-shaven face, small dark earrings, athletic build, intricate Japanese tattoo sleeves on both arms. Reference 2: Tyler: adult man 21, dark brown skin, dark short-to-medium locs, brown eyes, neat moustache and small goatee, athletic build. Reference 3: Daniel: adult man 21, light warm skin, tousled dark chestnut brown hair, green eyes, strong brows, clean shaven athletic build. Reference 4: their modest shared apartment, preserve its warm simple furniture and general layout. Exactly three adult friends Neo, Tyler and Daniel on worn charcoal sofa in Neo's modest apartment playing a video game. Neo black tee tattoo sleeves and Daniel dark blue hoodie each hold one controller naturally; Tyler locs and facial hair in cream tee sits between watching and laughing, no controller. All looking towards unseen TV. Cozy warm lamplight, three distinct men, candid medium-wide frame. No text overlays, watermark, logos, border or collage. Preserve distinct identities, correct anatomy and hands. Do not add extra people, pets or wedding rings.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/profiles/neo.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/profiles/tyler.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/profiles/daniel.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/ui/locations/neo_home.png"
+      ],
+      "caption": "daniel and i had a plan. tyler had commentary.",
+      "comments": [
+        {
+          "author": "tyler",
+          "text": "Commentary improved morale. Put that in the credits.",
+          "delay_minutes": 37
+        }
+      ]
+    },
+    {
+      "slug": "07-slow-morning",
+      "prompt": "Use case: illustration-story. Create ONE square full-bleed personal Grove social photo for Mysterious Hearts. Contemporary romance anime/manhwa, fine linework, refined cel shading and detailed environments matching reference style, not photoreal. References are identity and setting guides only; use new natural poses. Reference 1: Neo: adult man 21, Japanese, light warm skin, tousled black hair, grey-green eyes, angular clean-shaven face, small dark earrings, athletic build, intricate Japanese tattoo sleeves on both arms. Reference 2: Alyssa: adult Blisk woman 21, light warm skin, long near-black wavy hair, clearly visible long elf-like pointed ears, vivid purple eyes, feminine face, silver earrings, gentle playful expression. No tattoos. Reference 3: their modest shared apartment, preserve its warm simple furniture and general layout. Neo and Alyssa at their small wooden dining table with two mismatched mugs and simple breakfast, morning light in modest apartment. Neo black tee and tattoos gently smiling at Alyssa, Alyssa dark hair elf ears purple eyes in lavender cardigan holding her mug with both hands, quietly affectionate comfortable couple, two adults only, no romantic spectacle. No text overlays, watermark, logos, border or collage. Preserve distinct identities, correct anatomy and hands. Do not add extra people, pets or wedding rings.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/profiles/neo.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/profiles/alyssa.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/ui/locations/neo_home.png"
+      ],
+      "caption": "no alarms. two mugs. good morning.",
+      "comments": [
+        {
+          "author": "alyssa",
+          "text": "My favourite kind.",
+          "delay_minutes": 37
+        }
+      ]
+    },
+    {
+      "slug": "08-radio-working",
+      "prompt": "Use case: illustration-story. Create ONE square full-bleed personal Grove social photo for Mysterious Hearts. Contemporary romance anime/manhwa, fine linework, refined cel shading and detailed environments matching reference style, not photoreal. References are identity and setting guides only; use new natural poses. Reference 1: their modest shared apartment, preserve its warm simple furniture and general layout. No people or body parts. Intimate square still life on small apartment shelf: repaired vintage portable radio with small warm indicator light, closed compact toolkit nearby, a hand-bound notebook and two mismatched ceramic mugs. Soft afternoon light, modest lived-in setting, no legible writing. No text overlays, watermark, logos, border or collage. Preserve distinct identities, correct anatomy and hands. Do not add extra people, pets or wedding rings.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/ui/locations/neo_home.png"
+      ],
+      "caption": "the radio works again. the station still plays terrible songs.",
+      "comments": [
+        {
+          "author": "alyssa",
+          "text": "You hummed along to three of them.",
+          "delay_minutes": 37
+        }
+      ]
+    }
+  ]
+}

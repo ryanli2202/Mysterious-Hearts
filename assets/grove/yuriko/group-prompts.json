@@ -1,0 +1,136 @@
+{
+  "tool": "Built-in image_gen",
+  "images": [
+    {
+      "file": "09-rei-cat-ears.png",
+      "subjects": [
+        "yuriko",
+        "rei"
+      ],
+      "prompt": "Create one square polished anime/manhwa Grove gallery photo. EXACTLY TWO PEOPLE: Yuriko (adult woman with wavy black bob, amber hair clip and brown eyes) and her older brother Rei (adult man with tousled black hair, grey eyes, paired lower-lip piercings, silver earrings, neck tattoos, long-sleeve black shirt). Match the two identity reference portraits. No other people anywhere. Yuriko grins beside a blushing deadpan Rei wearing ridiculous pink plush cat ears in a cosy craft workshop, a small felt cat toy on the table. Natural playful sibling warmth. Fine linework refined cel shading, detailed warm setting, no text or borders.",
+      "caption": "professional model. defeated by two felt triangles.",
+      "comment": {
+        "author": "rei",
+        "text": "you said it was a lighting test."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/yuriko-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-selection.png"
+      ]
+    },
+    {
+      "file": "10-rei-flour.png",
+      "subjects": [
+        "yuriko",
+        "rei"
+      ],
+      "prompt": "Create ONE square in-game Grove candid photo, polished contemporary romance anime/manhwa, fine tapered outlines refined cel shading and detailed warm setting matching supplied identity portraits. All people adults, only listed subjects. Preserve faces, hair, eyes and piercings. Yuriko black wavy bob amber clip brown eyes beauty mark, playful. Rei black tousled hair grey eyes paired lip piercings silver earrings neck tattoos, long-sleeve black shirt covering arms. Emily petite long blonde straight hair blunt bangs blue eyes round glasses. Garrett blond golden eyes gold earrings neck tattoo white long-sleeve shirt. Sophie brunette high ponytail green eyes athletic green jacket. Women have no tattoos. Natural anatomy. No lettering, watermark, borders, collage or UI. Friendly candid memories, no romantic posing. Yuriko and Rei baking cookies at home. Yuriko laughs warmly with flour on her own apron; Rei looks sheepishly at camera with a comical dab of flour on his nose, holding a tray of slightly wonky cookies. Both fully dressed wearing aprons. Reference portraits in order: yuriko, rei.",
+      "caption": "he said he could handle the flour. the flour disagreed.",
+      "comment": {
+        "author": "rei",
+        "text": "the cookies survived. focus on that."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/yuriko-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-selection.png"
+      ]
+    },
+    {
+      "file": "11-rei-tiny-crown.png",
+      "subjects": [
+        "yuriko",
+        "rei",
+        "emily",
+        "garrett",
+        "sophie"
+      ],
+      "prompt": "Create ONE square in-game Grove candid photo, polished contemporary romance anime/manhwa, fine tapered outlines refined cel shading and detailed warm setting matching supplied identity portraits. All people adults, only listed subjects. Preserve faces, hair, eyes and piercings. Yuriko black wavy bob amber clip brown eyes beauty mark, playful. Rei black tousled hair grey eyes paired lip piercings silver earrings neck tattoos, long-sleeve black shirt covering arms. Emily petite long blonde straight hair blunt bangs blue eyes round glasses. Garrett blond golden eyes gold earrings neck tattoo white long-sleeve shirt. Sophie brunette high ponytail green eyes athletic green jacket. Women have no tattoos. Natural anatomy. No lettering, watermark, borders, collage or UI. Friendly candid memories, no romantic posing. At a theatre craft table Yuriko proudly presents a tiny cardboard crown perched absurdly on Rei's black hair. Rei stares resignedly into camera with a small embarrassed smile. Yuriko holds a matching miniature cardboard throne. Paint jars and model scenery background. Reference portraits in order: yuriko, rei.",
+      "caption": "finally found a role worthy of his range. king of the tiny stairs.",
+      "comment": {
+        "author": "rei",
+        "text": "my kingdom needs better chairs."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/yuriko-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-selection.png"
+      ],
+      "review_note": "Accepted as a full-group craft memory; all five friends are visible around the tiny crown."
+    },
+    {
+      "file": "12-emily-miniature-garden.png",
+      "subjects": [
+        "yuriko",
+        "emily"
+      ],
+      "prompt": "Create ONE square in-game Grove candid photo, polished contemporary romance anime/manhwa, fine tapered outlines refined cel shading and detailed warm setting matching supplied identity portraits. All people adults, only listed subjects. Preserve faces, hair, eyes and piercings. Yuriko black wavy bob amber clip brown eyes beauty mark, playful. Rei black tousled hair grey eyes paired lip piercings silver earrings neck tattoos, long-sleeve black shirt covering arms. Emily petite long blonde straight hair blunt bangs blue eyes round glasses. Garrett blond golden eyes gold earrings neck tattoo white long-sleeve shirt. Sophie brunette high ponytail green eyes athletic green jacket. Women have no tattoos. Natural anatomy. No lettering, watermark, borders, collage or UI. Friendly candid memories, no romantic posing. Yuriko and petite Emily building a miniature garden at a sunlit craft workbench, Yuriko holding a little model arch and Emily arranging tiny flowers beneath it. Warm natural smiles, tools neatly placed, both faces clear. Reference portraits in order: yuriko, emily.",
+      "caption": "emily made the tiny garden. i am trying very hard not to move in.",
+      "comment": {
+        "author": "emily",
+        "text": "I can add a little bench."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/yuriko-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/emily-selection.png"
+      ]
+    },
+    {
+      "file": "13-rei-emily-tea.png",
+      "subjects": [
+        "yuriko",
+        "rei",
+        "emily"
+      ],
+      "prompt": "Create ONE square in-game Grove candid photo, polished contemporary romance anime/manhwa, fine tapered outlines refined cel shading and detailed warm setting matching supplied identity portraits. All people adults, only listed subjects. Preserve faces, hair, eyes and piercings. Yuriko black wavy bob amber clip brown eyes beauty mark, playful. Rei black tousled hair grey eyes paired lip piercings silver earrings neck tattoos, long-sleeve black shirt covering arms. Emily petite long blonde straight hair blunt bangs blue eyes round glasses. Garrett blond golden eyes gold earrings neck tattoo white long-sleeve shirt. Sophie brunette high ponytail green eyes athletic green jacket. Women have no tattoos. Natural anatomy. No lettering, watermark, borders, collage or UI. Friendly candid memories, no romantic posing. Three friends Yuriko, Rei, petite Emily seated around a cosy cafe table with tea and pastries. Yuriko mischievously points at a tiny pink paper parasol tucked into Rei's black hair; Rei amused and mildly embarrassed, Emily smiling behind her teacup. All three faces clear. Reference portraits in order: yuriko, rei, emily.",
+      "caption": "tea with emily. surprise accessory consultation for rei.",
+      "comment": {
+        "author": "emily",
+        "text": "The colour is quite nice on him."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/yuriko-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/emily-selection.png"
+      ]
+    },
+    {
+      "file": "14-rei-garrett-dumplings.png",
+      "subjects": [
+        "yuriko",
+        "rei",
+        "garrett"
+      ],
+      "prompt": "Create ONE square in-game Grove candid photo, polished contemporary romance anime/manhwa, fine tapered outlines refined cel shading and detailed warm setting matching supplied identity portraits. All people adults, only listed subjects. Preserve faces, hair, eyes and piercings. Yuriko black wavy bob amber clip brown eyes beauty mark, playful. Rei black tousled hair grey eyes paired lip piercings silver earrings neck tattoos, long-sleeve black shirt covering arms. Emily petite long blonde straight hair blunt bangs blue eyes round glasses. Garrett blond golden eyes gold earrings neck tattoo white long-sleeve shirt. Sophie brunette high ponytail green eyes athletic green jacket. Women have no tattoos. Natural anatomy. No lettering, watermark, borders, collage or UI. Friendly candid memories, no romantic posing. Three friends Yuriko Rei Garrett at a restaurant table making dumplings. Yuriko laughs presenting one charmingly lopsided dumpling, Rei gives it a mock serious appraisal and Garrett grins holding a neat dumpling for comparison. Casual rolled-down long sleeves, bowls and bamboo steamer, three clear distinct faces. Reference portraits in order: yuriko, rei, garrett.",
+      "caption": "garrett demonstrated. rei inspected. i invented a new shape.",
+      "comment": {
+        "author": "rei",
+        "text": "garrett gave it points for ambition. i ate the evidence."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/yuriko-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/garrett-selection.png"
+      ]
+    },
+    {
+      "file": "15-rei-emily-sophie-picnic.png",
+      "subjects": [
+        "yuriko",
+        "rei",
+        "emily",
+        "sophie"
+      ],
+      "prompt": "Create ONE square in-game Grove candid photo, polished contemporary romance anime/manhwa, fine tapered outlines refined cel shading and detailed warm setting matching supplied identity portraits. All people adults, only listed subjects. Preserve faces, hair, eyes and piercings. Yuriko black wavy bob amber clip brown eyes beauty mark, playful. Rei black tousled hair grey eyes paired lip piercings silver earrings neck tattoos, long-sleeve black shirt covering arms. Emily petite long blonde straight hair blunt bangs blue eyes round glasses. Garrett blond golden eyes gold earrings neck tattoo white long-sleeve shirt. Sophie brunette high ponytail green eyes athletic green jacket. Women have no tattoos. Natural anatomy. No lettering, watermark, borders, collage or UI. Friendly candid memories, no romantic posing. Exactly FOUR adult friends in a close group candid on a picnic blanket in a leafy park: Yuriko with black bob laughing, Rei black hair holding a ridiculously small floral teacup with bemused shy smile, petite blonde Emily with round glasses smiling, brunette ponytail Sophie laughing beside picnic basket. All four faces clearly visible, chest-up composition, cake and strawberries foreground. Reference portraits in order: yuriko, rei, emily, sophie.",
+      "caption": "four people. one picnic. rei got the fancy cup and took it very seriously.",
+      "comment": {
+        "author": "sophie",
+        "text": "he held his pinky up. i saw it."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/yuriko-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/emily-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sophie-selection.png"
+      ]
+    }
+  ]
+}

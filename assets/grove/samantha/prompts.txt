@@ -1,0 +1,31 @@
+Built-in image_gen. Shared specification: one square Grove social photo, polished contemporary anime/manhwa illustration, fine contours and refined shading, no text/UI/watermark/borders/collage. Samantha Kim is an adult age 22, short shaggy black hair, brown eyes, silver hoop earrings, athletic build, floral sleeve tattoos and botanical compass chest tattoo. Preserve face and tattoos. Reference: assets/portraits/samantha-selection.png except 05 uses assets/portraits/samantha-sleep.png.
+
+01-gym-progress
+Full-length gym mirror progress selfie, standing squarely with one arm flexed to document shoulder strength and phone in other hand, black sports bra and opaque charcoal leggings, neutral upright athletic posture. Gym weights behind.
+
+02-gym-session
+Candid gym training photograph, seated upright on weight bench holding a dumbbell by her side between sets, dark red athletic tank and black shorts, relaxed confident grin. Three-quarter full body, bright gym light.
+
+03-glute-progress-side
+Full-body side-view fitness progress mirror photo documenting leg and glute strength, opaque dark charcoal high-waisted leggings and black sports bra, standing naturally upright with feet planted, phone held at chest height and face visible in mirror. Neutral fitness check-in, balanced head-to-toe framing, no arched back, no close-up of body parts. Simple gym changing area.
+
+04-glute-progress-rear
+Full-body rear three-quarter fitness progress photo documenting leg and glute training, opaque navy full-length gym leggings and grey racerback athletic tank, arms relaxed and head turned slightly toward the camera, naturally upright neutral stance, evenly planted feet. Camera at chest height with full head-to-toe framing and ample gym environment. No body-part close-ups or exaggerated posing.
+
+05-sleepwear-mirror
+Evening bedroom mirror selfie wearing the exact burgundy lace two-piece sleepwear from the reference with opaque lining, upright relaxed posture, phone at shoulder height, free hand resting naturally by her side, friendly half-smile. Head to mid-thigh framing, warm lamp and tidy dresser behind, ordinary outfit photo.
+
+06-sleepwear-morning
+Casual morning portrait seated upright by her bedroom window, wearing a fully closed opaque burgundy satin sleep robe tied securely at the waist, covering torso and thighs, holding a coffee mug, relaxed smile. Medium shot, soft morning light, ordinary cozy at-home snapshot.
+
+07-motorbike-street
+Full-body street portrait standing beside her parked matte-black cafe-racer motorcycle, one hand resting on seat, other holding black full-face helmet, black riding jacket over charcoal tank, dark jeans and boots. Confident smile, sunset city street, entire motorcycle visible.
+
+08-motorbike-garage
+Candid garage photo crouching beside a parked matte-black cafe-racer motorcycle, inspecting the front wheel with one hand on tire, charcoal t-shirt, black work jeans and boots, black helmet on nearby workbench. Wide three-quarter composition, practical workshop lighting, relaxed focused expression.
+
+09-smoking-evening
+Candid adult street photograph standing outdoors against a brick wall in black leather sleeveless vest, charcoal tank and dark jeans, holding a lit cigarette away from her body at waist height, small wisp of smoke, looking thoughtfully off camera. Medium-wide composition at blue hour with warm street lighting. No tobacco branding or text.
+
+10-smoking-balcony
+Casual adult photograph sitting upright on an outdoor balcony chair in a black t-shirt and jeans, one forearm on railing holding a lit cigarette with a small smoke wisp, other hand holding a mug, looking over city rooftops. Wide composition, overcast afternoon light, understated everyday scene, no tobacco branding.

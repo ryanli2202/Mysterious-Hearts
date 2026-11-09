@@ -1,0 +1,24 @@
+{
+  "character": "garrett",
+  "tool": "Built-in image_gen",
+  "reference": "assets/portraits/garrett-selection.png",
+  "status": "Generated assets; Grove gallery UI not yet connected.",
+  "images": [
+    {
+      "file": "01-golden-dragon-kitchen.png",
+      "prompt": "Use case: stylized-concept. Create one square illustrated social media photo for Garrett Han's Grove profile in Mysterious Hearts. Match the supplied reference's polished anime/manhwa linework and refined cel shading. Reference is identity/style only, not a pose to copy. Garrett is an adult Hong Kong man age 22, tall athletic build, tousled golden blond hair, golden eyes, angular handsome face, gold hoop earrings, distinctive black branching dragon-like tattoo on his left neck descending onto chest. Preserve identity closely. Full environment background, natural social-media framing, no text, watermark, collage, borders or UI. Garrett in the Golden Dragon restaurant kitchen, wearing a dark apron over a white shirt with sleeves rolled, confidently smiling toward a friend taking the photo as he lifts freshly cooked noodles from a pot with a noodle strainer. Warm stainless-steel kitchen, gentle steam, candid waist-up framing, inviting and slightly cocky. Necklace tucked safely into shirt."
+    },
+    {
+      "file": "02-noodle-closeup.png",
+      "prompt": "Use case: stylized-concept. Create one square illustrated social media photo for Garrett Han's Grove profile in Mysterious Hearts. Match the supplied reference's polished anime/manhwa linework and refined cel shading. Reference is identity/style only, not a pose to copy. Garrett is an adult Hong Kong man age 22, tall athletic build, tousled golden blond hair, golden eyes, angular handsome face, gold hoop earrings, distinctive black branching dragon-like tattoo on his left neck descending onto chest. Preserve identity closely. Full environment background, natural social-media framing, no text, watermark, collage, borders or UI. Food-only photo taken by Garrett: a beautifully prepared bowl of Hong Kong-style shrimp wonton noodle soup on a dark wooden restaurant counter, delicate thin egg noodles, plump wontons, clear golden broth, scallions, ceramic spoon and chopsticks neatly beside the bowl. Warm intimate restaurant lighting, close three-quarter overhead view, appetizing illustrated food detail. No people or hands. Match reference illustration style, not its portrait subject."
+    },
+    {
+      "file": "03-training.png",
+      "prompt": "Use case: stylized-concept. Create one square illustrated social media photo for Garrett Han's Grove profile in Mysterious Hearts. Match the supplied reference's polished anime/manhwa linework and refined cel shading. Reference is identity/style only, not a pose to copy. Garrett is an adult Hong Kong man age 22, tall athletic build, tousled golden blond hair, golden eyes, angular handsome face, gold hoop earrings, distinctive black branching dragon-like tattoo on his left neck descending onto chest. Preserve identity closely. Full environment background, natural social-media framing, no text, watermark, collage, borders or UI. Garrett taking a relaxed post-training mirror selfie in a clean martial arts gym, dark sleeveless athletic shirt and training trousers, one hand holding a plain smartphone and the other with a cloth training wrap. Athletic shoulders, slightly tousled hair, playful confident half smile. His recognizable neck tattoo visible, no invented arm tattoos, no jewellery during training. Chest-up to hip framing, gym mats and a heavy bag behind him, soft daylight. Anatomically coherent phone, hands and mirror reflection."
+    },
+    {
+      "file": "04-evening.png",
+      "prompt": "Use case: stylized-concept. Create one square illustrated social media photo for Garrett Han's Grove profile in Mysterious Hearts. Match the supplied reference's polished anime/manhwa linework and refined cel shading. Reference is identity/style only, not a pose to copy. Garrett is an adult Hong Kong man age 22, tall athletic build, tousled golden blond hair, golden eyes, angular handsome face, gold hoop earrings, distinctive black branching dragon-like tattoo on his left neck descending onto chest. Preserve identity closely. Full environment background, natural social-media framing, no text, watermark, collage, borders or UI. Garrett in a candid evening photo on a restaurant terrace with soft city lights behind him, black tailored suit and open-collar white shirt, gold hoop earrings and layered gold necklaces as in reference. Seated casually with one forearm resting on the table, looking at the camera with an amused self-assured smile. Warm evening light across his face, waist-up three-quarter angle, stylish but personal, no other identifiable people."
+    }
+  ]
+}

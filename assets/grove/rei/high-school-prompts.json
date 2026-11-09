@@ -1,0 +1,85 @@
+{
+  "tool": "Built-in image_gen",
+  "images": [
+    {
+      "author": "rei",
+      "file": "30-school-marcus-storyboards.png",
+      "subjects": [
+        "rei",
+        "marcus"
+      ],
+      "published_at": "2046-10-07T15:40",
+      "caption": "marcus has notes. the pigeon has requested representation.",
+      "comment": {
+        "author": "sophie",
+        "text": "Please tell me the pigeon gets a lunch break."
+      },
+      "prompt": "Use case: stylized-concept. Create ONE square high-school-era Grove photo in polished contemporary anime/manhwa, fine tapered lines, refined cel shading and detailed setting matching supplied HIGH-SCHOOL identity portraits. Historical ordinary teenage friendship in 2046. All subjects school-age teenagers in modest everyday clothes. Only named subjects, no other people. NO TATTOOS on anyone, especially Rei; neck and exposed forearms naturally visible and completely uninked. Preserve faces hair eye colours and piercings from school references. Natural anatomy, hands and warm candid expressions. No romantic posing, lettering, captions, watermark, borders, UI or collage. Rei: teenage boy with tousled layered black hair, grey eyes, small silver earrings and paired lower-lip piercings, blue-grey overshirt over charcoal crew-neck tee, rolled sleeves, ENTIRELY UNINKED neck, chest, arms, wrists and hands. Marcus: slim teenage boy, short tousled auburn hair, hazel eyes, subtle freckles, mustard cardigan over muted teal buttoned shirt, battered dark-blue storyboard notebook. Scene: Exactly TWO teenage boys Rei and Marcus sitting at a school art-room desk, Rei drawing a paper pigeon character in his sketchbook while freckled auburn-haired Marcus holds up his battered blue storyboard notebook with a mock-serious grin. Pencil boxes, cut paper and afternoon window light; both faces clear, friendly spontaneous snapshot. Reference portraits in order: rei, marcus.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-high-school.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/marcus-high-school.png"
+      ]
+    },
+    {
+      "author": "rei",
+      "file": "31-school-marcus-lunch.png",
+      "subjects": [
+        "rei",
+        "marcus"
+      ],
+      "published_at": "2047-02-11T12:30",
+      "caption": "lunch with the director. crisps were in the budget.",
+      "comment": {
+        "author": "emily",
+        "text": "I hope the bus shelter gets a budget too."
+      },
+      "prompt": "Use case: stylized-concept. Create ONE square high-school-era Grove photo in polished contemporary anime/manhwa, fine tapered lines, refined cel shading and detailed setting matching supplied HIGH-SCHOOL identity portraits. Historical ordinary teenage friendship in 2047. All subjects school-age teenagers in modest everyday clothes. Only named subjects, no other people. NO TATTOOS on anyone, especially Rei; neck and exposed forearms naturally visible and completely uninked. Preserve faces hair eye colours and piercings from school references. Natural anatomy, hands and warm candid expressions. No romantic posing, lettering, captions, watermark, borders, UI or collage. Rei: teenage boy with tousled layered black hair, grey eyes, small silver earrings and paired lower-lip piercings, blue-grey overshirt over charcoal crew-neck tee, rolled sleeves, ENTIRELY UNINKED neck, chest, arms, wrists and hands. Marcus: slim teenage boy, short tousled auburn hair, hazel eyes, subtle freckles, mustard cardigan over muted teal buttoned shirt, battered dark-blue storyboard notebook. Scene: Exactly TWO teenage boys Rei and Marcus on a school courtyard bench during lunch. Marcus offers a bag of salt-and-vinegar crisps while pointing animatedly at a small folded paper bird balanced on his blue notebook; Rei laughs openly holding a cloudy apple juice carton. Casual waist-up photo, simple school clothes, both boys clearly visible. Reference portraits in order: rei, marcus.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-high-school.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/marcus-high-school.png"
+      ]
+    },
+    {
+      "author": "rei",
+      "file": "32-school-emily-greenhouse.png",
+      "subjects": [
+        "rei",
+        "emily"
+      ],
+      "published_at": "2046-11-20T15:15",
+      "caption": "roof supervisor has final say.",
+      "comment": {
+        "author": "emily",
+        "text": "Just a little to the left. Thank you."
+      },
+      "prompt": "Use case: stylized-concept. Create ONE square high-school-era Grove photo in polished contemporary anime/manhwa, fine tapered lines, refined cel shading and detailed setting matching supplied HIGH-SCHOOL identity portraits. Historical ordinary teenage friendship in 2046. All subjects school-age teenagers in modest everyday clothes. Only named subjects, no other people. NO TATTOOS on anyone, especially Rei; neck and exposed forearms naturally visible and completely uninked. Preserve faces hair eye colours and piercings from school references. Natural anatomy, hands and warm candid expressions. No romantic posing, lettering, captions, watermark, borders, UI or collage. Rei: teenage boy with tousled layered black hair, grey eyes, small silver earrings and paired lower-lip piercings, blue-grey overshirt over charcoal crew-neck tee, rolled sleeves, ENTIRELY UNINKED neck, chest, arms, wrists and hands. Emily: petite teenage girl, very long straight blonde hair, blunt bangs, blue eyes behind round glasses, cream blouse and cardigan with dusty blue pinafore. Scene: Exactly TWO teenagers Rei and petite Emily at a school craft table. Emily with round glasses directs the placement of her miniature greenhouse roof while Rei carefully holds the roof steady, both sharing small warm smiles. Cardboard, rulers and model plants, candid waist-up composition, bright window, ordinary friendship. Reference portraits in order: rei, emily.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-high-school.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/emily-high-school.png"
+      ]
+    },
+    {
+      "author": "rei",
+      "file": "33-school-four-friends.png",
+      "subjects": [
+        "rei",
+        "emily",
+        "sophie",
+        "marcus"
+      ],
+      "published_at": "2047-03-05T12:40",
+      "caption": "four-person crew. one very demanding paper pigeon.",
+      "comment": {
+        "author": "sophie",
+        "text": "Lighting department would like a chair."
+      },
+      "prompt": "Use case: stylized-concept. Create ONE square high-school-era Grove photo in polished contemporary anime/manhwa, fine tapered lines, refined cel shading and detailed setting matching supplied HIGH-SCHOOL identity portraits. Historical ordinary teenage friendship in 2047. All subjects school-age teenagers in modest everyday clothes. Only named subjects, no other people. NO TATTOOS on anyone, especially Rei; neck and exposed forearms naturally visible and completely uninked. Preserve faces hair eye colours and piercings from school references. Natural anatomy, hands and warm candid expressions. No romantic posing, lettering, captions, watermark, borders, UI or collage. Rei: teenage boy with tousled layered black hair, grey eyes, small silver earrings and paired lower-lip piercings, blue-grey overshirt over charcoal crew-neck tee, rolled sleeves, ENTIRELY UNINKED neck, chest, arms, wrists and hands. Emily: petite teenage girl, very long straight blonde hair, blunt bangs, blue eyes behind round glasses, cream blouse and cardigan with dusty blue pinafore. Sophie: athletic teenage girl, brunette high ponytail, green eyes, loose forest-green crew-neck sports sweatshirt with cream sleeve stripes. Marcus: slim teenage boy, short tousled auburn hair, hazel eyes, subtle freckles, mustard cardigan over muted teal buttoned shirt, battered dark-blue storyboard notebook. Scene: Exactly FOUR teenagers Rei Emily Sophie Marcus clustered around a school lunch table laughing during a break in making a stop-motion film. Marcus theatrically presents the tiny paper pigeon on one palm, Rei holds a sketchbook showing its drawn poses, Emily holds a small cardboard bus shelter and Sophie props a portable desk lamp on the table. All four clear faces, affectionate ordinary friendship, cheerful candid group portrait. Reference portraits in order: rei, emily, sophie, marcus.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-high-school.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/emily-high-school.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sophie-high-school.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/marcus-high-school.png"
+      ]
+    }
+  ]
+}

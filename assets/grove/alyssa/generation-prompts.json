@@ -1,0 +1,129 @@
+{
+  "tool": "Built-in image_gen",
+  "images": [
+    {
+      "slug": "01-binding-day",
+      "prompt": "Use case: illustration-story. Create ONE square full-bleed personal Grove social photo for Mysterious Hearts. Contemporary romance anime/manhwa, fine linework, refined cel shading and detailed environments matching reference style, not photoreal. References are identity and setting guides only; use new natural poses. Reference 1: Alyssa: adult Blisk woman 21, light warm skin, long near-black wavy hair, clearly visible long elf-like pointed ears, vivid purple eyes, feminine face, silver earrings, gentle playful expression. No tattoos. Alyssa adult Blisk woman at Old town archive worktable sewing a notebook spine, fine thread and folded paper, small simple tools. Dark wavy hair tucked behind pointed ears, purple eyes, ivory blouse sleeves rolled, lilac cardigan on chair, attentive gentle expression, warm shelves behind, medium candid portrait. No text overlays, watermark, logos, border or collage. Preserve distinct identities, correct anatomy and hands. Do not add extra people, pets or wedding rings.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/profiles/alyssa.png"
+      ],
+      "caption": "A spine that opens properly is a small, very satisfying victory.",
+      "comments": [
+        {
+          "author": "neo",
+          "text": "looks solid. i'll keep the soldering iron well away.",
+          "delay_minutes": 37
+        }
+      ]
+    },
+    {
+      "slug": "02-riverside-sketch",
+      "prompt": "Use case: illustration-story. Create ONE square full-bleed personal Grove social photo for Mysterious Hearts. Contemporary romance anime/manhwa, fine linework, refined cel shading and detailed environments matching reference style, not photoreal. References are identity and setting guides only; use new natural poses. Reference 1: Alyssa: adult Blisk woman 21, light warm skin, long near-black wavy hair, clearly visible long elf-like pointed ears, vivid purple eyes, feminine face, silver earrings, gentle playful expression. No tattoos. Alyssa on park bench sketching a leafy branch in an open notebook, graphite pencil held naturally, dark long hair tucked behind elf ears, purple eyes, sage cardigan over ivory blouse. River trees behind, soft afternoon, medium candid, one adult. Sketch has botanical lines but no lettering. No text overlays, watermark, logos, border or collage. Preserve distinct identities, correct anatomy and hands. Do not add extra people, pets or wedding rings.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/profiles/alyssa.png"
+      ],
+      "caption": "The leaf stayed still. The wind did not.",
+      "comments": [
+        {
+          "author": "neo",
+          "text": "you won on points.",
+          "delay_minutes": 37
+        }
+      ]
+    },
+    {
+      "slug": "03-herb-corner",
+      "prompt": "Use case: illustration-story. Create ONE square full-bleed personal Grove social photo for Mysterious Hearts. Contemporary romance anime/manhwa, fine linework, refined cel shading and detailed environments matching reference style, not photoreal. References are identity and setting guides only; use new natural poses. Reference 1: Alyssa: adult Blisk woman 21, light warm skin, long near-black wavy hair, clearly visible long elf-like pointed ears, vivid purple eyes, feminine face, silver earrings, gentle playful expression. No tattoos. Reference 2: their modest shared apartment, preserve its warm simple furniture and general layout. Alyssa tending three small pots of basil mint and rosemary on a narrow apartment window ledge, gently pinching one leaf to smell, morning sunlight, dark hair half tied revealing pointed ears, violet eyes and soft smile, lilac cardigan ivory shirt, indoor garden small and believable, one adult. No text overlays, watermark, logos, border or collage. Preserve distinct identities, correct anatomy and hands. Do not add extra people, pets or wedding rings.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/profiles/alyssa.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/ui/locations/neo_home.png"
+      ],
+      "caption": "Basil is thriving. Rosemary and I are still negotiating.",
+      "comments": [
+        {
+          "author": "neo",
+          "text": "rosemary has requested better terms.",
+          "delay_minutes": 37
+        }
+      ]
+    },
+    {
+      "slug": "04-market-with-neo",
+      "prompt": "Use case: illustration-story. Create ONE square full-bleed personal Grove social photo for Mysterious Hearts. Contemporary romance anime/manhwa, fine linework, refined cel shading and detailed environments matching reference style, not photoreal. References are identity and setting guides only; use new natural poses. Reference 1: Alyssa: adult Blisk woman 21, light warm skin, long near-black wavy hair, clearly visible long elf-like pointed ears, vivid purple eyes, feminine face, silver earrings, gentle playful expression. No tattoos. Reference 2: Neo: adult man 21, Japanese, light warm skin, tousled black hair, grey-green eyes, angular clean-shaven face, small dark earrings, athletic build, intricate Japanese tattoo sleeves on both arms. Alyssa and Neo browsing vegetables at a cozy local market stall, Alyssa long dark hair purple eyes elf ears in cream cardigan and charcoal trousers holding a bunch of herbs; Neo black t-shirt tattoo sleeves carries plain canvas grocery bag and smiles gently at her. Two adults only in focus, warm natural daytime, text-free stalls, candid waist-up couple. No text overlays, watermark, logos, border or collage. Preserve distinct identities, correct anatomy and hands. Do not add extra people, pets or wedding rings.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/profiles/alyssa.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/profiles/neo.png"
+      ],
+      "caption": "We went for herbs. We came back with dinner and a very good pear.",
+      "comments": [
+        {
+          "author": "neo",
+          "text": "two pears. quality control was thorough.",
+          "delay_minutes": 37
+        }
+      ]
+    },
+    {
+      "slug": "05-one-more-level",
+      "prompt": "Use case: illustration-story. Create ONE square full-bleed personal Grove social photo for Mysterious Hearts. Contemporary romance anime/manhwa, fine linework, refined cel shading and detailed environments matching reference style, not photoreal. References are identity and setting guides only; use new natural poses. Reference 1: Alyssa: adult Blisk woman 21, light warm skin, long near-black wavy hair, clearly visible long elf-like pointed ears, vivid purple eyes, feminine face, silver earrings, gentle playful expression. No tattoos. Reference 2: Neo: adult man 21, Japanese, light warm skin, tousled black hair, grey-green eyes, angular clean-shaven face, small dark earrings, athletic build, intricate Japanese tattoo sleeves on both arms. Reference 3: their modest shared apartment, preserve its warm simple furniture and general layout. Alyssa and Neo side by side on their worn charcoal sofa, each holding one game controller naturally and looking towards TV off camera. Alyssa lilac cardigan ivory blouse dark hair elf ears purple eyes leaning shoulder lightly against Neo, Neo black tee tattoo sleeves, both gently laughing, cozy co-op evening, warm floor lamp. Two adults, modest apartment. No text overlays, watermark, logos, border or collage. Preserve distinct identities, correct anatomy and hands. Do not add extra people, pets or wedding rings.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/profiles/alyssa.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/profiles/neo.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/ui/locations/neo_home.png"
+      ],
+      "caption": "One more level is a unit of time with no agreed definition.",
+      "comments": [
+        {
+          "author": "neo",
+          "text": "we agreed on one. then another one.",
+          "delay_minutes": 37
+        }
+      ]
+    },
+    {
+      "slug": "06-table-for-two",
+      "prompt": "Use case: illustration-story. Create ONE square full-bleed personal Grove social photo for Mysterious Hearts. Contemporary romance anime/manhwa, fine linework, refined cel shading and detailed environments matching reference style, not photoreal. References are identity and setting guides only; use new natural poses. Reference 1: their modest shared apartment, preserve its warm simple furniture and general layout. No people or hands. Personal overhead three-quarter still life of wooden dining table in modest apartment: two bowls of mushroom udon with vegetables, two pairs chopsticks on rests, two mismatched mugs of jasmine tea, small pot of herbs at far edge. Warm evening light, realistic portions, neatly clear table, no text. No text overlays, watermark, logos, border or collage. Preserve distinct identities, correct anatomy and hands. Do not add extra people, pets or wedding rings.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/ui/locations/neo_home.png"
+      ],
+      "caption": "Cleared the table. Made something warm. That was enough for tonight.",
+      "comments": [
+        {
+          "author": "neo",
+          "text": "best part of the day.",
+          "delay_minutes": 37
+        }
+      ]
+    },
+    {
+      "slug": "07-rain-and-pages",
+      "prompt": "Use case: illustration-story. Create ONE square full-bleed personal Grove social photo for Mysterious Hearts. Contemporary romance anime/manhwa, fine linework, refined cel shading and detailed environments matching reference style, not photoreal. References are identity and setting guides only; use new natural poses. Reference 1: Alyssa: adult Blisk woman 21, light warm skin, long near-black wavy hair, clearly visible long elf-like pointed ears, vivid purple eyes, feminine face, silver earrings, gentle playful expression. No tattoos. Reference 2: Neo: adult man 21, Japanese, light warm skin, tousled black hair, grey-green eyes, angular clean-shaven face, small dark earrings, athletic build, intricate Japanese tattoo sleeves on both arms. Reference 3: their modest shared apartment, preserve its warm simple furniture and general layout. Alyssa and Neo quietly reading together at opposite ends of worn charcoal sofa, their feet comfortably near each other, rainy window behind. Alyssa dark hair pointed ears purple eyes wearing lilac cardigan, reading paperback; Neo black tee tattoos looking through a small electronics repair booklet. Relaxed affectionate ordinary couple, cups on side table, warm lamp, two adults, pages no legible words. No text overlays, watermark, logos, border or collage. Preserve distinct identities, correct anatomy and hands. Do not add extra people, pets or wedding rings.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/profiles/alyssa.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/profiles/neo.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/ui/locations/neo_home.png"
+      ],
+      "caption": "Different books. Same rainy afternoon.",
+      "comments": [
+        {
+          "author": "neo",
+          "text": "yours has a better plot. mine has diagrams.",
+          "delay_minutes": 37
+        }
+      ]
+    },
+    {
+      "slug": "08-pressed-leaf",
+      "prompt": "Use case: illustration-story. Create ONE square full-bleed personal Grove social photo for Mysterious Hearts. Contemporary romance anime/manhwa, fine linework, refined cel shading and detailed environments matching reference style, not photoreal. References are identity and setting guides only; use new natural poses.  No people or body parts. Close intimate still life of a handmade lilac cloth-bound notebook open to a delicate pencil drawing of a basil sprig, one pressed leaf beside it, graphite pencil, tidy spool of bookbinding thread and cup of jasmine tea on light wooden worktable. Warm window light, fine anime detail, no writing. No text overlays, watermark, logos, border or collage. Preserve distinct identities, correct anatomy and hands. Do not add extra people, pets or wedding rings.",
+      "references": [],
+      "caption": "Made a place for the leaf I kept bringing home.",
+      "comments": [
+        {
+          "author": "neo",
+          "text": "better than finding it in the laundry.",
+          "delay_minutes": 37
+        }
+      ]
+    }
+  ]
+}

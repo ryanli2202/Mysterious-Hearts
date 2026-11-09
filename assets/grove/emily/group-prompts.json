@@ -1,0 +1,170 @@
+{
+  "tool": "Built-in image_gen",
+  "images": [
+    {
+      "file": "09-rei-flower-shop.png",
+      "subjects": [
+        "emily",
+        "rei"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square Grove social gallery photo in polished contemporary romance anime/manhwa illustration with fine tapered linework, refined cel shading and richly drawn setting matching reference portraits. All characters adults. Emily20:154cm petite, very long straight blonde hair with blunt bangs, blue eyes behind ROUND glasses, light skin, delicate face, gentle smile. Rei:adult male, tousled black layered hair, grey eyes, paired lower-lip piercings, silver earrings, lean athletic body and canonical neck chest and full arm tattoos; preserve ink on exposed skin only, never over clothing or on hands. Sophie21:170cm athletic runner, light skin, long brunette high ponytail, green eyes and lively confident face. Portraits are authoritative identity guides, not composition. Preserve distinct faces, heights and features; no transferring tattoos to women. Natural close friendship, no romantic declaration or romantic posing. No extra people, captions, text, logos, watermark, borders, collage or UI. Natural hands and anatomy. Scene: Emily and Rei at the Petal & Stem flower-shop workbench. Petite Emily in cream blouse and dusty blue florist apron confidently arranges pale pink tulips, Rei in a full-sleeve black collared shirt stands beside her holding a roll of brown wrapping paper and watches with a small warm smile. Bright window, buckets of seasonal flowers, natural waist-up candid of close adult friends, both faces clear. Reference portraits in order: Emily, rei. Final reference gives Rei's tattoo coverage.",
+      "caption": "He held the paper. I handled the tulips.",
+      "comment": {
+        "author": "rei",
+        "text": "paper stayed where instructed."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/emily-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/grove/rei/tattoo-reference.png"
+      ]
+    },
+    {
+      "file": "10-rei-miniature-roof.png",
+      "subjects": [
+        "emily",
+        "rei"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square Grove social gallery photo in polished contemporary romance anime/manhwa illustration with fine tapered linework, refined cel shading and richly drawn setting matching reference portraits. All characters adults. Emily20:154cm petite, very long straight blonde hair with blunt bangs, blue eyes behind ROUND glasses, light skin, delicate face, gentle smile. Rei:adult male, tousled black layered hair, grey eyes, paired lower-lip piercings, silver earrings, lean athletic body and canonical neck chest and full arm tattoos; preserve ink on exposed skin only, never over clothing or on hands. Sophie21:170cm athletic runner, light skin, long brunette high ponytail, green eyes and lively confident face. Portraits are authoritative identity guides, not composition. Preserve distinct faces, heights and features; no transferring tattoos to women. Natural close friendship, no romantic declaration or romantic posing. No extra people, captions, text, logos, watermark, borders, collage or UI. Natural hands and anatomy. Scene: Emily and Rei building a small interlocking-brick greenhouse at a cosy home craft table. Emily in a pale blue cardigan over ivory blouse delicately indicates where the roof should go; Rei in a black rolled-sleeve shirt holds the small roof section steady while she directs him, both sharing a quiet smile. His exposed forearms fully tattooed down to wrists per tattoo reference, no ink on hands. Unbranded plastic bricks and trays on table, warm lamplight, head-to-waist two-person view, adult close friends. Reference portraits in order: Emily, rei. Final reference gives Rei's tattoo coverage.",
+      "caption": "The roof supervisor has been given very specific instructions.",
+      "comment": {
+        "author": "rei",
+        "text": "holding. not improvising."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/emily-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/grove/rei/tattoo-reference.png"
+      ]
+    },
+    {
+      "file": "11-rei-garden-walk.png",
+      "subjects": [
+        "emily",
+        "rei"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square Grove social gallery photo in polished contemporary romance anime/manhwa illustration with fine tapered linework, refined cel shading and richly drawn setting matching reference portraits. All characters adults. Emily20:154cm petite, very long straight blonde hair with blunt bangs, blue eyes behind ROUND glasses, light skin, delicate face, gentle smile. Rei:adult male, tousled black layered hair, grey eyes, paired lower-lip piercings, silver earrings, lean athletic body and canonical neck chest and full arm tattoos; preserve ink on exposed skin only, never over clothing or on hands. Sophie21:170cm athletic runner, light skin, long brunette high ponytail, green eyes and lively confident face. Portraits are authoritative identity guides, not composition. Preserve distinct faces, heights and features; no transferring tattoos to women. Natural close friendship, no romantic declaration or romantic posing. No extra people, captions, text, logos, watermark, borders, collage or UI. Natural hands and anatomy. Scene: Emily and Rei taking a quiet walk through a botanical garden beside beds of white and lavender flowers. Emily in blue pinafore over ivory blouse with light cream cardigan points out a small bloom; Rei in charcoal full-sleeved jacket and black shirt bends slightly to see what she is showing him, subtle engaged smile. Petite Emily noticeably shorter, long blonde hair bangs glasses blue eyes preserved. Candid waist-up portrait, soft afternoon sun, gentle friendship. Reference portraits in order: Emily, rei. Final reference gives Rei's tattoo coverage.",
+      "caption": "A little detour for the flowers.",
+      "comment": {
+        "author": "rei",
+        "text": "worth taking the long path."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/emily-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/grove/rei/tattoo-reference.png"
+      ]
+    },
+    {
+      "file": "12-sophie-plushie-shop.png",
+      "subjects": [
+        "emily",
+        "sophie"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square Grove social gallery photo in polished contemporary romance anime/manhwa illustration with fine tapered linework, refined cel shading and richly drawn setting matching reference portraits. All characters adults. Emily20:154cm petite, very long straight blonde hair with blunt bangs, blue eyes behind ROUND glasses, light skin, delicate face, gentle smile. Rei:adult male, tousled black layered hair, grey eyes, paired lower-lip piercings, silver earrings, lean athletic body and canonical neck chest and full arm tattoos; preserve ink on exposed skin only, never over clothing or on hands. Sophie21:170cm athletic runner, light skin, long brunette high ponytail, green eyes and lively confident face. Portraits are authoritative identity guides, not composition. Preserve distinct faces, heights and features; no transferring tattoos to women. Natural close friendship, no romantic declaration or romantic posing. No extra people, captions, text, logos, watermark, borders, collage or UI. Natural hands and anatomy. Scene: Emily and Sophie browsing a cheerful small plush-toy shop. Emily in blue pinafore and cream blouse hugs a soft little rabbit plush at chest height, smiling happily; Sophie with brunette high ponytail green eyes in forest-green casual zip jacket holds a small bear plush for comparison and smiles toward Emily. Friendly spontaneous waist-up photo, shelves of generic unbranded plush animals, soft shop lighting, distinct faces. Reference portraits in order: Emily, sophie.",
+      "caption": "We were only going to look.",
+      "comment": {
+        "author": "sophie",
+        "text": "The rabbit made a very convincing argument."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/emily-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sophie-selection.png"
+      ]
+    },
+    {
+      "file": "13-sophie-brick-bouquet.png",
+      "subjects": [
+        "emily",
+        "sophie"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square Grove social gallery photo in polished contemporary romance anime/manhwa illustration with fine tapered linework, refined cel shading and richly drawn setting matching reference portraits. All characters adults. Emily20:154cm petite, very long straight blonde hair with blunt bangs, blue eyes behind ROUND glasses, light skin, delicate face, gentle smile. Rei:adult male, tousled black layered hair, grey eyes, paired lower-lip piercings, silver earrings, lean athletic body and canonical neck chest and full arm tattoos; preserve ink on exposed skin only, never over clothing or on hands. Sophie21:170cm athletic runner, light skin, long brunette high ponytail, green eyes and lively confident face. Portraits are authoritative identity guides, not composition. Preserve distinct faces, heights and features; no transferring tattoos to women. Natural close friendship, no romantic declaration or romantic posing. No extra people, captions, text, logos, watermark, borders, collage or UI. Natural hands and anatomy. Scene: Emily and Sophie seated at a bright home dining table assembling a colourful interlocking-brick flower bouquet. Emily in cream blouse and pale blue cardigan carefully holds a completed little brick daisy, Sophie in green casual sweatshirt holds a stem piece and studies it with a playful concentrated expression. Long blonde hair and round glasses versus brown high ponytail, adult friends, small sorted parts trays, sunlight, waist-up two-person view, no box logos or legible instructions. Reference portraits in order: Emily, sophie.",
+      "caption": "A quiet afternoon, one petal at a time.",
+      "comment": {
+        "author": "sophie",
+        "text": "I have earned a promotion from sorting the green pieces."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/emily-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sophie-selection.png"
+      ]
+    },
+    {
+      "file": "14-sophie-park-selfie.png",
+      "subjects": [
+        "emily",
+        "sophie"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square Grove social gallery photo in polished contemporary romance anime/manhwa illustration with fine tapered linework, refined cel shading and richly drawn setting matching reference portraits. All characters adults. Emily20:154cm petite, very long straight blonde hair with blunt bangs, blue eyes behind ROUND glasses, light skin, delicate face, gentle smile. Rei:adult male, tousled black layered hair, grey eyes, paired lower-lip piercings, silver earrings, lean athletic body and canonical neck chest and full arm tattoos; preserve ink on exposed skin only, never over clothing or on hands. Sophie21:170cm athletic runner, light skin, long brunette high ponytail, green eyes and lively confident face. Portraits are authoritative identity guides, not composition. Preserve distinct faces, heights and features; no transferring tattoos to women. Natural close friendship, no romantic declaration or romantic posing. No extra people, captions, text, logos, watermark, borders, collage or UI. Natural hands and anatomy. Scene: A warm phone selfie taken by Emily with Sophie in a leafy park near a flower bed. Petite Emily closest to camera with round glasses blue eyes long straight blonde hair and blunt bangs, cream cardigan over blue pinafore, smiles softly; taller Sophie in green athletic jacket and high brunette ponytail leans down beside her with a bright friendly smile. Emily's camera arm out of frame, both faces unobscured, golden hour light, relaxed close friends. Reference portraits in order: Emily, sophie.",
+      "caption": "Found a sunny spot after the walk.",
+      "comment": {
+        "author": "sophie",
+        "text": "Excellent choice of bench, too."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/emily-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sophie-selection.png"
+      ]
+    },
+    {
+      "file": "15-rei-sophie-greenhouse.png",
+      "subjects": [
+        "emily",
+        "rei",
+        "sophie"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square Grove social gallery photo in polished contemporary romance anime/manhwa illustration with fine tapered linework, refined cel shading and richly drawn setting matching reference portraits. All characters adults. Emily20:154cm petite, very long straight blonde hair with blunt bangs, blue eyes behind ROUND glasses, light skin, delicate face, gentle smile. Rei:adult male, tousled black layered hair, grey eyes, paired lower-lip piercings, silver earrings, lean athletic body and canonical neck chest and full arm tattoos; preserve ink on exposed skin only, never over clothing or on hands. Sophie21:170cm athletic runner, light skin, long brunette high ponytail, green eyes and lively confident face. Portraits are authoritative identity guides, not composition. Preserve distinct faces, heights and features; no transferring tattoos to women. Natural close friendship, no romantic declaration or romantic posing. No extra people, captions, text, logos, watermark, borders, collage or UI. Natural hands and anatomy. Scene: Exactly three adult friends Emily, Rei and Sophie at a craft table in a bright home sunroom working on a small miniature greenhouse display. Emily centre foreground, petite blonde glasses blue pinafore cream blouse, proudly places a tiny potted plant beside finished model; Rei left black full-sleeve collared shirt holds a small painted blue backdrop board without text; Sophie right green zip jacket and brown ponytail carefully carries a little tray of model plants. Shared easy smiles, model visible, no extra people, natural waist-up group composition, sunny detail. Reference portraits in order: Emily, rei, sophie. Final reference gives Rei's tattoo coverage.",
+      "caption": "The slowest relay team, reunited around a much smaller greenhouse.",
+      "comment": {
+        "author": "sophie",
+        "text": "Still taking the corners very carefully."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/emily-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sophie-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/grove/rei/tattoo-reference.png"
+      ]
+    },
+    {
+      "file": "16-rei-sophie-cafe.png",
+      "subjects": [
+        "emily",
+        "rei",
+        "sophie"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square Grove social gallery photo in polished contemporary romance anime/manhwa illustration with fine tapered linework, refined cel shading and richly drawn setting matching reference portraits. All characters adults. Emily20:154cm petite, very long straight blonde hair with blunt bangs, blue eyes behind ROUND glasses, light skin, delicate face, gentle smile. Rei:adult male, tousled black layered hair, grey eyes, paired lower-lip piercings, silver earrings, lean athletic body and canonical neck chest and full arm tattoos; preserve ink on exposed skin only, never over clothing or on hands. Sophie21:170cm athletic runner, light skin, long brunette high ponytail, green eyes and lively confident face. Portraits are authoritative identity guides, not composition. Preserve distinct faces, heights and features; no transferring tattoos to women. Natural close friendship, no romantic declaration or romantic posing. No extra people, captions, text, logos, watermark, borders, collage or UI. Natural hands and anatomy. Scene: Exactly three adult friends Emily, Rei and Sophie seated around a small cafe window table with tea, coffee and slices of cake. Emily in centre, petite long straight blonde hair bangs blue eyes round glasses, cream blouse and blue cardigan, holds teacup and laughs softly; Rei left tousled black hair lip piercings neck tattoos black full-sleeve shirt gives a small amused smile; Sophie right green jacket brunette ponytail green eyes mid-story with one natural hand gesture. All three faces fully visible and distinct, warm late afternoon candid. Reference portraits in order: Emily, rei, sophie. Final reference gives Rei's tattoo coverage.",
+      "caption": "Tea, cake, and a table we stayed at a little longer.",
+      "comment": {
+        "author": "rei",
+        "text": "good cake. better company."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/emily-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sophie-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/grove/rei/tattoo-reference.png"
+      ]
+    },
+    {
+      "file": "17-rei-sophie-riverside.png",
+      "subjects": [
+        "emily",
+        "rei",
+        "sophie"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE square Grove social gallery photo in polished contemporary romance anime/manhwa illustration with fine tapered linework, refined cel shading and richly drawn setting matching reference portraits. All characters adults. Emily20:154cm petite, very long straight blonde hair with blunt bangs, blue eyes behind ROUND glasses, light skin, delicate face, gentle smile. Rei:adult male, tousled black layered hair, grey eyes, paired lower-lip piercings, silver earrings, lean athletic body and canonical neck chest and full arm tattoos; preserve ink on exposed skin only, never over clothing or on hands. Sophie21:170cm athletic runner, light skin, long brunette high ponytail, green eyes and lively confident face. Portraits are authoritative identity guides, not composition. Preserve distinct faces, heights and features; no transferring tattoos to women. Natural close friendship, no romantic declaration or romantic posing. No extra people, captions, text, logos, watermark, borders, collage or UI. Natural hands and anatomy. Scene: Exactly three adult friends Emily, Rei and Sophie posing for a relaxed group photo seated on a broad riverside park bench in soft evening light. Emily centre noticeably petite, blue pinafore and ivory blouse under cream cardigan, long blonde hair and round glasses, small content smile, hands resting on closed book in her lap. Rei on one side in charcoal jacket over black full-sleeved shirt, black hair piercings neck tattoos, relaxed soft smile. Sophie other side in forest green jacket, brown high ponytail green eyes, warm lively smile. Natural friendly spacing, all faces unobscured, river and flowering trees behind, head-to-knees framing, no romance implied. Reference portraits in order: Emily, rei, sophie. Final reference gives Rei's tattoo coverage.",
+      "caption": "A good place to stop for a while.",
+      "comment": {
+        "author": "sophie",
+        "text": "Next time we are bringing a picnic."
+      },
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/emily-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/rei-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sophie-selection.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/grove/rei/tattoo-reference.png"
+      ]
+    }
+  ]
+}

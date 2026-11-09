@@ -1,0 +1,63 @@
+{
+  "tool": "Built-in image_gen",
+  "images": [
+    {
+      "slug": "01-ringside-patron",
+      "prompt": "Use case: illustration-story. ONE square full-bleed fictional Grove social photo for Mysterious Hearts. Contemporary dark crime anime/manhwa illustration, fine tapered linework, refined cel shading, rich drawn scenery, not photoreal. No text overlays, legible writing, logos, watermark, border or collage. Noir lighting, natural anatomy, non-graphic. Reference is identity only: Sylvanis, mature adult male 198cm tall, lean imposing build, pale skin, very long straight black hair, pointed elf ears, vivid violet eyes, intricate dark neck tattoos, silver dangling chain earrings, purple gemstone pendant, sly unsettling smile. Preserve identity but use requested new pose. Sylvanis in black tailored suit over open collar white shirt sitting in a private raised ringside booth overlooking an underground boxing ring. One hand loosely holding a plain sealed cash envelope, leaning forward with delighted predatory attention. Two distant adult fighters spar normally in background, no injuries or gore, industrial lamps, red velvet booth. Medium portrait.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sylvanis-selection.png"
+      ],
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b35c-7954-7562-bb9f-5e0785b14702\\exec-aebd2129-413a-41cc-b201-c20d88a5e01d.png"
+    },
+    {
+      "slug": "02-stakes-on-the-table",
+      "prompt": "Use case: illustration-story. ONE square full-bleed fictional Grove social photo for Mysterious Hearts. Contemporary dark crime anime/manhwa illustration, fine tapered linework, refined cel shading, rich drawn scenery, not photoreal. No text overlays, legible writing, logos, watermark, border or collage. Noir lighting, natural anatomy, non-graphic. Object-only close-up: bundles of unmarked fictional banknotes held by plain bands, scattered poker chips, a closed black ledger and brass ringside bell on a scarred private club table. Boxing ropes out of focus behind. Moody green and amber light. No people, no hands, no readable currency or writing.",
+      "references": [],
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b35c-7954-7562-bb9f-5e0785b14702\\exec-8c9c80a5-5215-4b72-985f-9e954925a64a.png"
+    },
+    {
+      "slug": "03-backroom-payment",
+      "prompt": "Use case: illustration-story. ONE square full-bleed fictional Grove social photo for Mysterious Hearts. Contemporary dark crime anime/manhwa illustration, fine tapered linework, refined cel shading, rich drawn scenery, not photoreal. No text overlays, legible writing, logos, watermark, border or collage. Noir lighting, natural anatomy, non-graphic. Reference is identity only: Sylvanis, mature adult male 198cm tall, lean imposing build, pale skin, very long straight black hair, pointed elf ears, vivid violet eyes, intricate dark neck tattoos, silver dangling chain earrings, purple gemstone pendant, sly unsettling smile. Preserve identity but use requested new pose. Sylvanis standing in dim private fight-club corridor handing a thick sealed envelope to an original anonymous adult male boxer in a dark training jacket. Boxer shown in three-quarter back view, Sylvanis clearly visible with unnerving courteous smile, long black hair, violet eyes and pointed ears. Black waistcoat over rolled-sleeve white shirt. Cash-deal crime-film atmosphere, both hands naturally holding opposite ends of envelope, two adults only, no injuries.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sylvanis-selection.png"
+      ],
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b35c-7954-7562-bb9f-5e0785b14702\\exec-62439078-0558-4ed6-b759-cd69f452bf1c.png"
+    },
+    {
+      "slug": "04-underground-cards",
+      "prompt": "Use case: illustration-story. ONE square full-bleed fictional Grove social photo for Mysterious Hearts. Contemporary dark crime anime/manhwa illustration, fine tapered linework, refined cel shading, rich drawn scenery, not photoreal. No text overlays, legible writing, logos, watermark, border or collage. Noir lighting, natural anatomy, non-graphic. Reference is identity only: Sylvanis, mature adult male 198cm tall, lean imposing build, pale skin, very long straight black hair, pointed elf ears, vivid violet eyes, intricate dark neck tattoos, silver dangling chain earrings, purple gemstone pendant, sly unsettling smile. Preserve identity but use requested new pose. Sylvanis at a dim underground gambling table, black shirt open at collar, purple pendant, sleeves down. Medium three-quarter view, fingertips resting on a small stack of chips, two playing cards face-down before him. Cool amused violet gaze directly toward camera, long black hair and pointed ears. Empty neighbouring chair, green felt, low hanging amber lamp, smoke-free noir atmosphere. One adult.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sylvanis-selection.png"
+      ],
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b35c-7954-7562-bb9f-5e0785b14702\\exec-9759d86b-3014-4f9a-b921-260e2911615f.png"
+    },
+    {
+      "slug": "05-warehouse-after-midnight",
+      "prompt": "Use case: illustration-story. ONE square full-bleed fictional Grove social photo for Mysterious Hearts. Contemporary dark crime anime/manhwa illustration, fine tapered linework, refined cel shading, rich drawn scenery, not photoreal. No text overlays, legible writing, logos, watermark, border or collage. Noir lighting, natural anatomy, non-graphic. Reference is identity only: Sylvanis, mature adult male 198cm tall, lean imposing build, pale skin, very long straight black hair, pointed elf ears, vivid violet eyes, intricate dark neck tattoos, silver dangling chain earrings, purple gemstone pendant, sly unsettling smile. Preserve identity but use requested new pose. Sylvanis in long black coat over charcoal suit standing under a loading-bay lamp beside stacked sealed wooden crates and a closed dark van in a rain-wet industrial warehouse yard. One anonymous adult guard in dark coat far in background near door, no visible insignia. Sylvanis holds a closed plain document folio at his side and looks back at camera with faint knowing smile. Strong recognizable face, violet eyes, pointed ears, long black hair. Criminal-thriller handover atmosphere.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sylvanis-selection.png"
+      ],
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b35c-7954-7562-bb9f-5e0785b14702\\exec-70ce474f-363d-4a62-8686-8ce0ce07aecc.png"
+    },
+    {
+      "slug": "06-private-terms",
+      "prompt": "Use case: illustration-story. ONE square full-bleed fictional Grove social photo for Mysterious Hearts. Contemporary dark crime anime/manhwa illustration, fine tapered linework, refined cel shading, rich drawn scenery, not photoreal. No text overlays, legible writing, logos, watermark, border or collage. Noir lighting, natural anatomy, non-graphic. Object-only ominous crime-thriller still life: sealed thick cream envelope, closed black document folder, small pile of poker chips and a holstered handgun resting untouched on a dark walnut desk. No ammunition details, no handling, no instructional components. Heavy shutter blinds casting bars of light, one spare chair beyond, deep violet and warm amber noir tones. No people, no readable paperwork.",
+      "references": [],
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b35c-7954-7562-bb9f-5e0785b14702\\exec-90096d8f-667f-433c-b65a-e99e8fd04e91.png"
+    },
+    {
+      "slug": "07-two-chairs",
+      "prompt": "Use case: illustration-story. ONE square full-bleed fictional Grove social photo for Mysterious Hearts. Contemporary dark crime anime/manhwa illustration, fine tapered linework, refined cel shading, rich drawn scenery, not photoreal. No text overlays, legible writing, logos, watermark, border or collage. Noir lighting, natural anatomy, non-graphic. No people: stark shuttered flat interior with exactly two plain chairs facing each other across bare scuffed wooden floor, a small brass ringside bell on wall bracket beside closed door, one overhead light, a plain closed briefcase beside one chair. Ominous interrogation-room atmosphere in a fictional crime drama, no victims, no restraints, no blood, no writing.",
+      "references": [],
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b35c-7954-7562-bb9f-5e0785b14702\\exec-a1b4a377-eceb-4bd2-b60d-8afe063f130f.png"
+    },
+    {
+      "slug": "08-round-thirteen",
+      "prompt": "Use case: illustration-story. ONE square full-bleed fictional Grove social photo for Mysterious Hearts. Contemporary dark crime anime/manhwa illustration, fine tapered linework, refined cel shading, rich drawn scenery, not photoreal. No text overlays, legible writing, logos, watermark, border or collage. Noir lighting, natural anatomy, non-graphic. Reference is identity only: Sylvanis, mature adult male 198cm tall, lean imposing build, pale skin, very long straight black hair, pointed elf ears, vivid violet eyes, intricate dark neck tattoos, silver dangling chain earrings, purple gemstone pendant, sly unsettling smile. Preserve identity but use requested new pose. Sylvanis alone in an empty underground arena after the crowd has left, seated casually on ring apron wearing black suit trousers and open collar white shirt, black jacket folded beside him, very long black hair, pointed ears, violet eyes, neck tattoos, purple pendant. One hand resting near an untouched brass ring bell, small manic delighted smile at camera, low-angle medium-wide view, harsh overhead spotlight and dark empty seats. No blood or injuries.",
+      "references": [
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/sylvanis-selection.png"
+      ],
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b35c-7954-7562-bb9f-5e0785b14702\\exec-d034ad61-2059-4893-97ab-b8e37b3ba348.png"
+    }
+  ]
+}

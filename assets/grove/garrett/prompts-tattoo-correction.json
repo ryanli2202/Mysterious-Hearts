@@ -1,0 +1,26 @@
+{
+  "tool": "Built-in image_gen",
+  "reference": "appearance-reference.png",
+  "prompt": "Use case: identity-preserve. Edit image 1 (the existing gallery photo). Image 2 is the authoritative reference for fictional adult Garrett Han, age 22, specifically his tattoos and physique. Correct ONLY Garrett's tattoo coverage and body build in image 1 to match image 2. Copy the intricate black dragon sleeve tattoos on BOTH arms, dragon heads at shoulders and coiling scaled bodies down upper arms and forearms to wrists; copy the large thornlike branching chest tattoo across BOTH pectorals forming a pointed V toward the sternum and continuing up his left neck. Match the placement, density, shapes and extent in image 2 as closely as possible, adapted naturally to pose and foreshortening. Tattoo only exposed skin: clothing, sleeves, cuffs and accessories must occlude tattoos properly. Keep hands and abdomen free of new tattoos. Match reference's lean athletic defined build, broad but natural shoulders, slender waist, defined chest and abs, not exaggerated bulky bodybuilder mass. Preserve image 1's face identity, expression, hair, pose, camera framing, outfit, clothing coverage, jewellery, props, background, lighting, colour palette and polished anime/manhwa style. Keep the original square composition. Do not copy image 2's white background, pose, or watermark. No text, watermark, UI, collage or extra people. Output one corrected image.",
+  "images": [
+    "01-golden-dragon-kitchen.png",
+    "03-training.png",
+    "04-evening.png",
+    "05-shirtless-gym.png",
+    "06-across-the-table.png",
+    "07-open-shirt-balcony.png",
+    "08-loosened-collar.png"
+  ],
+  "unchanged": "02-noodle-closeup.png (no character)",
+  "originals": "originals-before-tattoo-correction",
+  "sleeveRepairs": [
+    {
+      "image": "01-golden-dragon-kitchen.png",
+      "instruction": "Repair the white shirt sleeve on the arm at viewer RIGHT. Fill the exposed upper-arm gap between shoulder sleeve and elbow cuff with continuous opaque white shirt fabric. The white shirt must run unbroken from shoulder to a single rolled cuff near the elbow. Leave only forearm skin below cuff visible with its existing tattoo. Also on viewer LEFT keep an ordinary continuous white sleeve ending at its rolled cuff. No holes, cutouts or floating sleeve rings."
+    },
+    {
+      "image": "08-loosened-collar.png",
+      "instruction": "Repair the black shirt sleeve on the arm at viewer LEFT: fill the tattooed upper-arm gap with continuous opaque black fabric from shoulder to a single rolled cuff at elbow. Keep tattooed forearm exposed below this cuff. No holes, cutouts, detached sleeve rings, or tattoo printed on fabric."
+    }
+  ]
+}
