@@ -1,0 +1,122 @@
+{
+  "generator": "Built-in image_gen",
+  "portraits": "User requested Ivan/Charles framing; full-body drafts not installed.",
+  "assets": [
+    {
+      "key": "fox_contact",
+      "path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bddf-68f2-7a61-9035-9634b11560e0\\exec-4357ae06-51eb-41cd-b8da-a3f41672947e.png",
+      "destination": "assets/portraits/fox-contact.png",
+      "prompt": "Use case: identity-preserve. Create a square contact profile photo illustration of Edward Fox from the supplied reference. Preserve his exact silver parted hair, weathered adult face, moustache and chin stubble, neck tattoos and black hooded tactical jacket. Single head and shoulders three-quarter portrait, restrained cynical expression, mature manhwa clean linework and cel shading. Dim out-of-focus brick workshop background, no text, no frames, no badges, no extra people. This is a private phone contact image, not a social media account.",
+      "referenced_image_paths": [
+        "C:/Users/ryanl/Pictures/Vendetta/Outputs/Art/Characters/edward fox.png"
+      ],
+      "transparent_background": false
+    },
+    {
+      "key": "gordon_contact",
+      "path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bddf-68f2-7a61-9035-9634b11560e0\\exec-37c9b0aa-a9f3-410e-ab60-e60dd6374af8.png",
+      "destination": "assets/portraits/gordon-contact.png",
+      "prompt": "Use case: identity-preserve. Create a square head-and-shoulders contact photo illustration of Jeremy Gordon from this portrait reference. Preserve exactly his short brown hair, rectangular glasses, neat stubble, face shape and navy Interpol officer uniform. Composed, slightly tired but attentive adult British officer. Mature manhwa linework and refined cel shading. Softly blurred dark blue regional office background. No extra people, no captions, no frames.",
+      "referenced_image_paths": [
+        "C:/Users/ryanl/.codex/generated_images/01a1bddf-68f2-7a61-9035-9634b11560e0/exec-2e79bebd-414c-4630-b350-c6ac6919992d.png"
+      ],
+      "transparent_background": false
+    },
+    {
+      "key": "blackhaven",
+      "path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bddf-68f2-7a61-9035-9634b11560e0\\exec-a671f260-8d9f-43dc-ad5b-eaa14336afc5.png",
+      "destination": "assets/ui/locations/blackhaven.png",
+      "prompt": "Use case: illustration-story. Wide 3:2 visual novel location background, Blackhaven, a western suburb of the fictional American city Winterfield in 2050. Human-scale worn brick row houses, old workshops, fire escapes, narrow alleys, an elevated rail line in the distance, a corner shop with warm window light and dark slate asphalt. Late afternoon overcast neutral lighting suitable for game day/night tint. Atmospheric mature manhwa clean linework, detailed painted cel shading, grounded near-future urban crime drama, no futuristic neon megacity. Street-level eye-level view with foreground space for dialogue characters. No foreground people, no text labels, no captions or UI.",
+      "transparent_background": false
+    },
+    {
+      "key": "fox_home",
+      "path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bddf-68f2-7a61-9035-9634b11560e0\\exec-29b69d02-5bac-49ab-b26b-71bbe1db8c3b.png",
+      "destination": "assets/ui/locations/fox_home.png",
+      "prompt": "Use case: illustration-story. Wide 3:2 visual-novel background of Edward Fox's private hideout interior, a converted industrial workshop in Blackhaven western Winterfield. Weathered dark brick, steel door, neatly maintained field equipment in closed storage, repair workbench, practical kettle, battered leather chair, small cot through a doorway, private paper evidence board with unreadable notes turned partly away. Cynical veteran vigilante's lived-in refuge, practical rather than luxurious. Muted slate blue, charcoal and warm task lamps. Grounded 2050 urban manhwa painted cel shading and fine clean linework. Eye-level room view, no people, no readable case secrets or text, no UI.",
+      "transparent_background": false
+    },
+    {
+      "key": "gordon_home",
+      "path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bddf-68f2-7a61-9035-9634b11560e0\\exec-e9d0e215-8343-4467-a2c4-53f353b09893.png",
+      "destination": "assets/ui/locations/gordon_home.png",
+      "prompt": "Use case: illustration-story. Wide 3:2 visual-novel game location background of Jeremy Gordon's apartment near Interpol regional headquarters in Winterfield, 2050. Orderly adult officer's modest apartment, charcoal sofa, small kitchen with a kettle and one mug, reading chair and books, closed dark navy uniform locker, desk with closed case folder, city street outside window with a nearby restrained modern civic complex. Warm domestic lamps against slate-blue evening light. Mature manhwa fine clean linework and richly painted cel shading, human-scale ordinary life, eye-level composition with foreground space for portrait overlay. No people, no readable case details or text, no UI.",
+      "transparent_background": false
+    },
+    {
+      "key": "fox_portrait_v2",
+      "path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bddf-68f2-7a61-9035-9634b11560e0\\exec-9c1bcca4-47fe-4d22-ab15-358a21ea6e1e.png",
+      "destination": "assets/portraits/fox-selection.png",
+      "prompt": "Use case: identity-preserve. Make a transparent portrait of Edward Fox. Image 1 is Fox's IDENTITY AND CLOTHING reference. Image 2 Charles is ONLY the framing/style reference: match its tight upright head-to-upper-thigh portrait composition, large head and upper body, full head visible near top, torso fills frame, hands near lower edge. NOT full body, no knees or feet. Preserve Fox's silver parted hair, weathered face, moustache and chin stubble, neck and forearm tattoos, black hooded tactical jacket, black shirt, cross-body strap. Stern cynical expression. Clean refined manhwa linework and cel shading. Single person Edward only, do NOT copy Charles's face or hair or outfit. Actual transparent alpha background, no opaque background, no vignette, no black rectangle, no glow, no caption.",
+      "referenced_image_paths": [
+        "C:/Users/ryanl/Pictures/Vendetta/Outputs/Art/Characters/edward fox.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/charles-selection-v2.png"
+      ],
+      "transparent_background": true
+    },
+    {
+      "key": "gordon_portrait_v2",
+      "path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bddf-68f2-7a61-9035-9634b11560e0\\exec-c5861e7b-f1d7-434f-98e6-6866acf58de1.png",
+      "destination": "assets/portraits/gordon-selection.png",
+      "prompt": "Use case: identity-preserve. Reframe Jeremy Gordon into a transparent character portrait. Image 1 Gordon is exact IDENTITY AND CLOTHING reference; Image 2 Charles ONLY shows desired close framing. Match image 2's tight upright head-to-upper-thigh composition with large head and torso, full hair near top, arms/hands near bottom. NOT full body, no knees, no boots. Preserve Gordon's short brown hair, rectangular glasses, stubble, mature face and dark navy Interpol tactical uniform with blue ID patches. Composed attentive expression. Clean refined manhwa linework and cel shading matching Charles portrait. Only Gordon, not Charles. Actual alpha transparency all around subject, no opaque background, no vignette, no glow, no black rectangle, no caption.",
+      "referenced_image_paths": [
+        "C:/Users/ryanl/.codex/generated_images/01a1bddf-68f2-7a61-9035-9634b11560e0/exec-2e79bebd-414c-4630-b350-c6ac6919992d.png",
+        "C:/Users/ryanl/Documents/ChatGPT/Game Creator/assets/portraits/charles-selection-v2.png"
+      ],
+      "transparent_background": true
+    },
+    {
+      "key": "fox_hideout",
+      "path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bddf-68f2-7a61-9035-9634b11560e0\\exec-763de4ff-8a52-4d66-a532-c724eabd7062.png",
+      "destination": "assets/ui/locations/fox_hideout.png",
+      "prompt": "Use case: illustration-story. Wide 3:2 visual novel game location background. A discreet converted brick maintenance workshop at the end of an alley in Blackhaven, western Winterfield. Reinforced unmarked dark door, fire escape, rooftop access, weathered brick and a dim warm light at one window. No sign revealing the vigilante's name. An inhabited, maintained refuge hidden among ordinary older buildings. Detailed mature manhwa illustration, fine clean linework, richly painted cel shading, grounded near-future urban crime drama. Muted slate/navy with subtle warm lighting, eye-level cinematic composition and foreground space for dialogue portraits. No foreground people, no readable text, no UI or captions.",
+      "transparent_background": false
+    },
+    {
+      "key": "gordon_apartments",
+      "path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bddf-68f2-7a61-9035-9634b11560e0\\exec-41a25835-82dc-4a8a-a791-8f91bbe04da6.png",
+      "destination": "assets/ui/locations/gordon_apartments.png",
+      "prompt": "Use case: illustration-story. Wide 3:2 visual novel game location background. Civic Court apartment building on a calm tree-lined street near Interpol's regional headquarters in Winterfield. Restrained brick and dark stone mid-rise apartments, private balconies, practical entrance, bicycles, civic complex visible a block away. An officer's ordinary home outside work, not a mansion. Detailed mature manhwa illustration, fine clean linework, richly painted cel shading, grounded near-future urban crime drama. Muted slate/navy with subtle warm lighting, eye-level cinematic composition and foreground space for dialogue portraits. No foreground people, no readable text, no UI or captions.",
+      "transparent_background": false
+    },
+    {
+      "key": "interpol_briefing",
+      "path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bddf-68f2-7a61-9035-9634b11560e0\\exec-d70ce5f2-2f26-466d-913d-1ff9a70fb2a7.png",
+      "destination": "assets/ui/locations/interpol_briefing.png",
+      "prompt": "Use case: illustration-story. Wide 3:2 visual novel game location background. Interior of Interpol's Awakened Operations regional briefing room. Dark slate conference table, blue cushioned chairs, muted navy wall panels, abstract city map display without readable intelligence, closed case folders, glass overlooking a civic courtyard. Professional, functional 2050 office, no sci-fi spectacle. Detailed mature manhwa illustration, fine clean linework, richly painted cel shading, grounded near-future urban crime drama. Muted slate/navy with subtle warm lighting, eye-level cinematic composition and foreground space for dialogue portraits. No foreground people, no readable text, no UI or captions.",
+      "transparent_background": false
+    },
+    {
+      "key": "interpol_training",
+      "path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bddf-68f2-7a61-9035-9634b11560e0\\exec-6158d62a-7f05-43c2-b4be-b1987d1a20d4.png",
+      "destination": "assets/ui/locations/interpol_training.png",
+      "prompt": "Use case: illustration-story. Wide 3:2 visual novel game location background. Interior of Interpol's controlled Awakened training hall. Tall reinforced room, padded charcoal floor, movable barriers, nonhuman target silhouettes, transparent observation booth, blue safety lights, equipment lockers. Purpose-built safe training for powerful agents, calm and empty, no damage or explosions. Detailed mature manhwa illustration, fine clean linework, richly painted cel shading, grounded near-future urban crime drama. Muted slate/navy with subtle warm lighting, eye-level cinematic composition and foreground space for dialogue portraits. No foreground people, no readable text, no UI or captions.",
+      "transparent_background": false
+    },
+    {
+      "key": "interpol_containment",
+      "path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bddf-68f2-7a61-9035-9634b11560e0\\exec-f4518a4f-083e-4c58-80b0-5061b9947cea.png",
+      "destination": "assets/ui/locations/interpol_containment.png",
+      "prompt": "Use case: illustration-story. Wide 3:2 visual novel game location background. Interior of Interpol's secure interview and containment wing. Reinforced glass interview room, dark slate walls and furniture, two chairs and table, unobtrusive observation window, blue perimeter indicators, closed secure doors. Humane, quiet institutional setting, no prisoners visible, no torture equipment. Detailed mature manhwa illustration, fine clean linework, richly painted cel shading, grounded near-future urban crime drama. Muted slate/navy with subtle warm lighting, eye-level cinematic composition and foreground space for dialogue portraits. No foreground people, no readable text, no UI or captions.",
+      "transparent_background": false
+    },
+    {
+      "key": "fox_wallpaper",
+      "path": "C:/Users/ryanl/.codex/generated_images/01a1bddf-68f2-7a61-9035-9634b11560e0/exec-3a1e045b-12cb-4074-a43c-7b87dd2a27e0.png",
+      "destination": "assets/ui/phone-wallpaper-fox.png",
+      "prompt": "Generate one premium vertical 2:3 smartphone wallpaper for Edward Fox, a hardened vigilante in the fictional Winterfield city. NO people, no text, no UI, no logos. Moody illustrated manhwa background of quiet Blackhaven western suburb at midnight: wet dark asphalt, old brick workshop silhouettes, a very subtle warm window in far distance, charcoal stormclouds, a few restrained cold silver reflections. Extremely dark navy/slate/charcoal image everywhere; keep top 75% mostly deep nearly-black shadow with sparse forms so light phone icons are legible, bottom quarter slightly more detailed. Rich fine painted illustration with clean graphic shapes, no bright sky or pale surfaces, no glowing white lights. Full bleed portrait wallpaper. Create and save local output in C:/Users/ryanl/Documents/ChatGPT/Game Creator/.codex/generated_images if supported.",
+      "transparent_background": false
+    },
+    {
+      "key": "gordon_wallpaper",
+      "path": "C:/Users/ryanl/.codex/generated_images/01a1bddf-68f2-7a61-9035-9634b11560e0/exec-310f09a9-6648-4e58-8bb3-42f32ecbc549.png",
+      "destination": "assets/ui/phone-wallpaper-gordon.png",
+      "prompt": "Generate one premium vertical 2:3 smartphone wallpaper for Jeremy Gordon, a fictional Interpol combat officer based in Winterfield. NO people, no text, no UI, no logos. A disciplined elegant architectural night composition: regional headquarters glass and dark concrete seen from nearby apartment window, sparse subdued teal-blue lines in the lowest quarter and very dim blue illuminated windows, deep navy/slate sky taking most of the upper area, subtle rain on glass. Illustrated polished manhwa background matching a visual-novel game. Extremely dark overall, upper 75% near-black navy/slate with quiet indistinct forms for phone icons; no bright sky or pale surfaces or white lights, no white borders. Full bleed portrait wallpaper. Create and save local output in C:/Users/ryanl/Documents/ChatGPT/Game Creator/.codex/generated_images if supported.",
+      "transparent_background": false
+    }
+  ],
+  "contact_installations": {
+    "fox": "assets/profiles/fox.png",
+    "gordon": "assets/profiles/gordon.png"
+  }
+}

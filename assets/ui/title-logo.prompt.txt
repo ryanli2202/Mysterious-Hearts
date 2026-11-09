@@ -1,0 +1,4 @@
+Tool: Built-in image_gen
+Transparent background: true
+
+Create a finished title logo artwork for an elegant contemporary anime romance visual novel. Exact and ONLY text: 'Mysterious Hearts'. Render on ONE horizontal line in beautifully legible high-contrast champagne gold engraved serif lettering with subtle ivory highlights; sophisticated fine swashes, no excessive curls obscuring letters. A small intertwined heart-and-key emblem integrated between/above the words, tiny deep burgundy rose accents at both ends. Refined drawn 2D art nouveau aesthetic, matching navy/gold romance game UI. Wide horizontal layout, content fills width with modest safe margin, typography dominates, no tagline. True transparent alpha background, no rectangular panel, no scene, no mockup, no watermark. Intended display around 600 pixels wide by 100 high, so keep words bold and clear. Landscape 3:1 composition.

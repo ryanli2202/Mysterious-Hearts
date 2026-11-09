@@ -1,0 +1,8 @@
+Generated with the built-in image_gen tool on 2026-11-08.
+
+Shared prompt: Create a landscape 1536x1024 visual-novel game background illustration, polished painterly anime environment, believable architecture, soft natural afternoon light, subdued slate and wood palette. [Scene below] Vacant and ready for a future resident: no people, no furniture, no belongings, no text, no labels, no borders. Wide interior view.
+
+vacant_downtown_home.png: Unfurnished downtown apartment, open living room with charcoal walls, empty timber floor, fitted kitchen, large windows looking onto metropolitan brick buildings.
+vacant_suburbs_home.png: Unfurnished suburban detached house, empty living room with timber floors, fitted kitchen, open doorway to two bedrooms, broad windows overlooking a quiet leafy residential street and small garden.
+vacant_beach_home.png: Unfurnished beach cottage near Silver Sands, empty living room, weathered timber floors, fitted kitchen, glass doors to small deck overlooking coastal dunes and ocean.
+vacant_university_home.png: Unfurnished compact apartment near Winterfield University, empty living and study space, fitted kitchenette, bedroom doorway, tall windows overlooking university brick buildings and tree-lined paths.

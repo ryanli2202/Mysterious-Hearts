@@ -1,0 +1,205 @@
+{
+  "tool": "built-in image_gen",
+  "style_reference": "assets/portraits/keisuke-hachimura-selection.png",
+  "contact_style_reference": "assets/profiles/Mara Voss.png",
+  "files": [
+    {
+      "name": "Nessa Quinn",
+      "kind": "portrait",
+      "file": "assets/portraits/nessa-quinn-selection.png",
+      "prompt": "Use case: stylized-concept. Create ONE new game character portrait matching the attached image's Korean manhwa/webtoon drawing style: confident black ink outlines, angular stylized face and expressive eyes, crisp cel-shaded shadow shapes, clean flat colors, minimal painterly texture. Reference is STYLE ONLY, not the same person. Subject: Nessa Quinn, age 28, adult woman with copper curly hair, light freckled skin, charcoal hoodie beneath amber work apron, dark trousers; dryly amused, organised shift coordinator. Upright head-to-mid-thigh composition, both arms fully within image, relaxed natural hands, all hair visible, generous empty space around silhouette. Real transparent background with alpha, fully opaque character. No backdrop, halo, ground shadow, glow, checkerboard drawing, lettering, logo, watermark, weapons or extra people.",
+      "source": "C:/Users/ryanl/.codex/generated_images/01a1bac3-a895-7840-b6af-8a92f8f84440/exec-1191e920-a847-4dbd-84f8-c236a4a6f4ee.png"
+    },
+    {
+      "name": "Malik Reed",
+      "kind": "portrait",
+      "file": "assets/portraits/malik-reed-selection.png",
+      "prompt": "Use case: stylized-concept. Create ONE new game character portrait matching the reference's Korean manhwa/webtoon drawing style: confident black ink outlines, angular stylized face and expressive eyes, crisp cel-shaded shadow shapes, clean flat colors, minimal painterly texture. Reference is STYLE ONLY, not the same person. Subject: Malik Reed, 34-year-old Black man, close-cropped black hair, dark green overshirt over charcoal tee, square glasses, dark work trousers; soft-spoken, thoughtful expression. Upright head-to-mid-thigh composition, both arms fully within image, relaxed natural hands, all hair visible, generous empty space around silhouette. Real transparent background with alpha, fully opaque character. No backdrop, halo, ground shadow, glow, checkerboard drawing, lettering, logo, watermark, weapons or extra people.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-2e62256e-1e29-44d6-a517-9d7fe99f07c7.png",
+      "original_source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-84b0ce92-cb27-40ab-bf6d-0ca8ec429e44.png",
+      "cleanup_prompt": "Background extraction edit of this exact character. Remove the entire dark hazy background AND every blurred colored glow around the silhouette. Output a production-ready transparent PNG cutout. Retain ONLY the man, his hair, glasses, clothes and hands unchanged. Set all empty pixels outside his silhouette to alpha zero; character entirely opaque. Do not redraw or change his face or pose. No shadows or halo outside the crisp contour."
+    },
+    {
+      "name": "Imani Price",
+      "kind": "portrait",
+      "file": "assets/portraits/imani-price-selection.png",
+      "prompt": "Use case: stylized-concept. Create ONE new game character portrait matching the reference's Korean manhwa/webtoon drawing style: confident black ink outlines, angular stylized face and expressive eyes, crisp cel-shaded shadow shapes, clean flat colors, minimal painterly texture. Reference is STYLE ONLY, not the same person. Subject: Imani Price, 39-year-old Black woman, braided hair pulled back, navy coveralls, orange ear defenders resting around neck; capable maintenance lead, patient confident expression. Upright head-to-mid-thigh composition, both arms fully within image, relaxed natural hands, all hair visible, generous empty space around silhouette. Real transparent background with alpha, fully opaque character. No backdrop, halo, ground shadow, glow, checkerboard drawing, lettering, logo, watermark, weapons or extra people.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-8bb89395-4c2f-4431-bdca-ab3cbe70ed04.png"
+    },
+    {
+      "name": "Owen Pike",
+      "kind": "portrait",
+      "file": "assets/portraits/owen-pike-selection.png",
+      "prompt": "Use case: stylized-concept. Create ONE new game character portrait matching the reference's Korean manhwa/webtoon drawing style: confident black ink outlines, angular stylized face and expressive eyes, crisp cel-shaded shadow shapes, clean flat colors, minimal painterly texture. Reference is STYLE ONLY, not the same person. Subject: Owen Pike, 27-year-old man, light freckled skin, sandy hair, slate canvas jacket, dark trousers; thoughtful reserved expression. Upright head-to-mid-thigh composition, both arms fully within image, relaxed natural hands, all hair visible, generous empty space around silhouette. Real transparent background with alpha, fully opaque character. No backdrop, halo, ground shadow, glow, checkerboard drawing, lettering, logo, watermark, weapons or extra people.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-19389b34-cb39-4832-bbf1-de8f9c631015.png"
+    },
+    {
+      "name": "Jules Navarro",
+      "kind": "portrait",
+      "file": "assets/portraits/jules-navarro-selection.png",
+      "prompt": "Use case: stylized-concept. Create ONE new game character portrait matching the reference's Korean manhwa/webtoon drawing style: confident black ink outlines, angular stylized face and expressive eyes, crisp cel-shaded shadow shapes, clean flat colors, minimal painterly texture. Reference is STYLE ONLY, not the same person. Subject: Jules Navarro, 33-year-old androgynous adult, warm tan skin, undercut dark hair, purple bandana around neck, black work shirt and dark trousers; cheerfully blunt mechanic, confident easy smile. Upright head-to-mid-thigh composition, both arms fully within image, relaxed natural hands, all hair visible, generous empty space around silhouette. Real transparent background with alpha, fully opaque character. No backdrop, halo, ground shadow, glow, checkerboard drawing, lettering, logo, watermark, weapons or extra people.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-6df0864e-5aaf-4cb4-871d-7972513ab82e.png"
+    },
+    {
+      "name": "Greta Shaw",
+      "kind": "portrait",
+      "file": "assets/portraits/greta-shaw-selection.png",
+      "prompt": "Use case: stylized-concept. Create ONE new game character portrait matching the reference's Korean manhwa/webtoon drawing style: confident black ink outlines, angular stylized face and expressive eyes, crisp cel-shaded shadow shapes, clean flat colors, minimal painterly texture. Reference is STYLE ONLY, not the same person. Subject: Greta Shaw, 46-year-old woman, light skin, silver-streaked braid, dark denim shirt and trousers with purple waistcoat; wry welcoming expression, mature face. Upright head-to-mid-thigh composition, both arms fully within image, relaxed natural hands, all hair visible, generous empty space around silhouette. Real transparent background with alpha, fully opaque character. No backdrop, halo, ground shadow, glow, checkerboard drawing, lettering, logo, watermark, weapons or extra people.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-4563cd81-5d16-4e72-b04a-83dc5d85185e.png"
+    },
+    {
+      "name": "Emi Suda",
+      "kind": "portrait",
+      "file": "assets/portraits/emi-suda-selection.png",
+      "prompt": "Use case: stylized-concept. Create ONE new game character portrait matching the reference's Korean manhwa/webtoon drawing style: confident black ink outlines, angular stylized face and expressive eyes, crisp cel-shaded shadow shapes, clean flat colors, minimal painterly texture. Reference is STYLE ONLY, not the same person. Subject: Emi Suda, 30-year-old Japanese woman, straight chin-length black hair, charcoal cardigan over muted dark blouse and dark trousers; precise, quietly playful expression. Upright head-to-mid-thigh composition, both arms fully within image, relaxed natural hands, all hair visible, generous empty space around silhouette. Real transparent background with alpha, fully opaque character. No backdrop, halo, ground shadow, glow, checkerboard drawing, lettering, logo, watermark, weapons or extra people.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-3900b384-6c12-46d2-a8bd-f78580a7e153.png"
+    },
+    {
+      "name": "Ren Aoki",
+      "kind": "portrait",
+      "file": "assets/portraits/ren-aoki-selection.png",
+      "prompt": "Use case: stylized-concept. Create ONE new game character portrait matching the reference's Korean manhwa/webtoon drawing style: confident black ink outlines, angular stylized face and expressive eyes, crisp cel-shaded shadow shapes, clean flat colors, minimal painterly texture. Reference is STYLE ONLY, not the same person. Subject: Ren Aoki, 36-year-old Japanese man, short black hair, navy work jacket, round glasses, dark trousers; reserved practical expression. Upright head-to-mid-thigh composition, both arms fully within image, relaxed natural hands, all hair visible, generous empty space around silhouette. Real transparent background with alpha, fully opaque character. No backdrop, halo, ground shadow, glow, checkerboard drawing, lettering, logo, watermark, weapons or extra people.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-0be5e617-50d1-4f09-b078-2fbbc3eb5280.png"
+    },
+    {
+      "name": "Lucia Serrano",
+      "kind": "portrait",
+      "file": "assets/portraits/lucia-serrano-selection.png",
+      "prompt": "Use case: stylized-concept. Create ONE new game character portrait matching the reference's Korean manhwa/webtoon drawing style: confident black ink outlines, angular stylized face and expressive eyes, crisp cel-shaded shadow shapes, clean flat colors, minimal painterly texture. Reference is STYLE ONLY, not the same person. Subject: Lucia Serrano, 32-year-old Latina woman, dark curls, red scarf, graphite blouse and dark trousers; brisk, perceptive expression. Upright head-to-mid-thigh composition, both arms fully within image, relaxed natural hands, all hair visible, generous empty space around silhouette. Real transparent background with alpha, fully opaque character. No backdrop, halo, ground shadow, glow, checkerboard drawing, lettering, logo, watermark, weapons or extra people.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-b41d55e7-1bf3-4b03-b5cb-770bb4d51514.png"
+    },
+    {
+      "name": "Mateo Cruz",
+      "kind": "portrait",
+      "file": "assets/portraits/mateo-cruz-selection.png",
+      "prompt": "Use case: stylized-concept. Create ONE new game character portrait matching the reference's Korean manhwa/webtoon drawing style: confident black ink outlines, angular stylized face and expressive eyes, crisp cel-shaded shadow shapes, clean flat colors, minimal painterly texture. Reference is STYLE ONLY, not the same person. Subject: Mateo Cruz, 41-year-old Latino man, salt-and-pepper moustache, short dark greying hair, burgundy shirt and dark work trousers; patient steady expression. Upright head-to-mid-thigh composition, both arms fully within image, relaxed natural hands, all hair visible, generous empty space around silhouette. Real transparent background with alpha, fully opaque character. No backdrop, halo, ground shadow, glow, checkerboard drawing, lettering, logo, watermark, weapons or extra people.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-21f41ca1-3ff4-4905-90e8-0199afd69f97.png"
+    },
+    {
+      "name": "Ada Mensah",
+      "kind": "portrait",
+      "file": "assets/portraits/ada-mensah-selection.png",
+      "prompt": "Use case: stylized-concept. Create ONE new game character portrait matching the reference's Korean manhwa/webtoon drawing style: confident black ink outlines, angular stylized face and expressive eyes, crisp cel-shaded shadow shapes, clean flat colors, minimal painterly texture. Reference is STYLE ONLY, not the same person. Subject: Ada Mensah, 37-year-old Black woman, twisted updo, teal glasses, charcoal knit jacket over dark blouse, dark trousers; intelligent warm expression. Upright head-to-mid-thigh composition, both arms fully within image, relaxed natural hands, all hair visible, generous empty space around silhouette. Real transparent background with alpha, fully opaque character. No backdrop, halo, ground shadow, glow, checkerboard drawing, lettering, logo, watermark, weapons or extra people.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-5f18ba69-c3ea-4c3d-897d-77077e464e23.png"
+    },
+    {
+      "name": "Felix Ward",
+      "kind": "portrait",
+      "file": "assets/portraits/felix-ward-selection.png",
+      "prompt": "Use case: stylized-concept. Create ONE new game character portrait matching the reference's Korean manhwa/webtoon drawing style: confident black ink outlines, angular stylized face and expressive eyes, crisp cel-shaded shadow shapes, clean flat colors, minimal painterly texture. Reference is STYLE ONLY, not the same person. Subject: Felix Ward, 44-year-old man, light skin, wavy greying hair, navy overshirt, sea-green scarf and dark trousers; unhurried observant expression. Upright head-to-mid-thigh composition, both arms fully within image, relaxed natural hands, all hair visible, generous empty space around silhouette. Real transparent background with alpha, fully opaque character. No backdrop, halo, ground shadow, glow, checkerboard drawing, lettering, logo, watermark, weapons or extra people.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-b02de1ee-199d-442b-9130-9235686a308e.png"
+    },
+    {
+      "name": "Mina Cho",
+      "kind": "portrait",
+      "file": "assets/portraits/mina-cho-selection.png",
+      "prompt": "Use case: stylized-concept. Create ONE new game character portrait matching the reference's Korean manhwa/webtoon drawing style: confident black ink outlines, angular stylized face and expressive eyes, crisp cel-shaded shadow shapes, clean flat colors, minimal painterly texture. Reference is STYLE ONLY, not the same person. Subject: Mina Cho, 29-year-old Korean woman, black ponytail, dark red blouse and charcoal trousers; quick-witted firm expression. Upright head-to-mid-thigh composition, both arms fully within image, relaxed natural hands, all hair visible, generous empty space around silhouette. Real transparent background with alpha, fully opaque character. No backdrop, halo, ground shadow, glow, checkerboard drawing, lettering, logo, watermark, weapons or extra people.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-66f07cf8-baa0-4289-b4ac-a087d409feaa.png"
+    },
+    {
+      "name": "Anton Bellamy",
+      "kind": "portrait",
+      "file": "assets/portraits/anton-bellamy-selection.png",
+      "prompt": "Use case: stylized-concept. Create ONE new game character portrait matching the reference's Korean manhwa/webtoon drawing style: confident black ink outlines, angular stylized face and expressive eyes, crisp cel-shaded shadow shapes, clean flat colors, minimal painterly texture. Reference is STYLE ONLY, not the same person. Subject: Anton Bellamy, 35-year-old man, warm medium skin, short brown curls, trimmed beard, black denim jacket over dark shirt and dark trousers; calm methodical expression. Upright head-to-mid-thigh composition, both arms fully within image, relaxed natural hands, all hair visible, generous empty space around silhouette. Real transparent background with alpha, fully opaque character. No backdrop, halo, ground shadow, glow, checkerboard drawing, lettering, logo, watermark, weapons or extra people.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-9270846e-102e-4e0f-83bc-3654d1f41127.png"
+    },
+    {
+      "name": "Nessa Quinn",
+      "kind": "contact",
+      "file": "assets/profiles/Nessa Quinn.png",
+      "prompt": "Use case: identity-preserve. Create one square 1024x1024 head-and-shoulders contact photo of the exact person in image 1. Preserve their face, age, skin tone, hairstyle, glasses or accessories, outfit colors, and crisp Korean manhwa/webtoon ink lines and cel shading. Image 2 is composition and dark background reference only, NOT identity. Face centered, looking toward camera, all top hair visible with comfortable margin, shoulders visible; easy to recognize in a small round avatar. Fully opaque image on flat dark slate #232b38 backdrop. No transparency, halo, scenery, text, border, watermark or other people. Character: Nessa Quinn.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-49d74219-9ef7-42b4-afac-83f45ef19b5b.png"
+    },
+    {
+      "name": "Malik Reed",
+      "kind": "contact",
+      "file": "assets/profiles/Malik Reed.png",
+      "prompt": "Use case: identity-preserve. Create one square 1024x1024 head-and-shoulders contact photo of the exact person in image 1. Preserve their face, age, skin tone, hairstyle, glasses or accessories, outfit colors, and crisp Korean manhwa/webtoon ink lines and cel shading. Image 2 is composition and dark background reference only, NOT identity. Face centered, looking toward camera, all top hair visible with comfortable margin, shoulders visible; easy to recognize in a small round avatar. Fully opaque image on flat dark slate #232b38 backdrop. No transparency, halo, scenery, text, border, watermark or other people. Character: Malik Reed.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-58a6e79d-7bf8-4501-a963-3983817f77c6.png"
+    },
+    {
+      "name": "Imani Price",
+      "kind": "contact",
+      "file": "assets/profiles/Imani Price.png",
+      "prompt": "Use case: identity-preserve. Create one square 1024x1024 head-and-shoulders contact photo of the exact person in image 1. Preserve their face, age, skin tone, hairstyle, glasses or accessories, outfit colors, and crisp Korean manhwa/webtoon ink lines and cel shading. Image 2 is composition and dark background reference only, NOT identity. Face centered, looking toward camera, all top hair visible with comfortable margin, shoulders visible; easy to recognize in a small round avatar. Fully opaque image on flat dark slate #232b38 backdrop. No transparency, halo, scenery, text, border, watermark or other people. Character: Imani Price.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-5c58c010-de19-40c2-8981-be95c158cbd2.png"
+    },
+    {
+      "name": "Owen Pike",
+      "kind": "contact",
+      "file": "assets/profiles/Owen Pike.png",
+      "prompt": "Use case: identity-preserve. Create one square 1024x1024 head-and-shoulders contact photo of the exact person in image 1. Preserve their face, age, skin tone, hairstyle, glasses or accessories, outfit colors, and crisp Korean manhwa/webtoon ink lines and cel shading. Image 2 is composition and dark background reference only, NOT identity. Face centered, looking toward camera, all top hair visible with comfortable margin, shoulders visible; easy to recognize in a small round avatar. Fully opaque image on flat dark slate #232b38 backdrop. No transparency, halo, scenery, text, border, watermark or other people. Character: Owen Pike.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-d47b45c6-ce79-440e-aa30-ccd3c2572dd6.png"
+    },
+    {
+      "name": "Jules Navarro",
+      "kind": "contact",
+      "file": "assets/profiles/Jules Navarro.png",
+      "prompt": "Use case: identity-preserve. Create one square 1024x1024 head-and-shoulders contact photo of the exact person in image 1. Preserve their face, age, skin tone, hairstyle, glasses or accessories, outfit colors, and crisp Korean manhwa/webtoon ink lines and cel shading. Image 2 is composition and dark background reference only, NOT identity. Face centered, looking toward camera, all top hair visible with comfortable margin, shoulders visible; easy to recognize in a small round avatar. Fully opaque image on flat dark slate #232b38 backdrop. No transparency, halo, scenery, text, border, watermark or other people. Character: Jules Navarro.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-30bf4fbd-dec6-44ab-b62e-654d511d83e9.png"
+    },
+    {
+      "name": "Greta Shaw",
+      "kind": "contact",
+      "file": "assets/profiles/Greta Shaw.png",
+      "prompt": "Use case: identity-preserve. Create one square 1024x1024 head-and-shoulders contact photo of the exact person in image 1. Preserve their face, age, skin tone, hairstyle, glasses or accessories, outfit colors, and crisp Korean manhwa/webtoon ink lines and cel shading. Image 2 is composition and dark background reference only, NOT identity. Face centered, looking toward camera, all top hair visible with comfortable margin, shoulders visible; easy to recognize in a small round avatar. Fully opaque image on flat dark slate #232b38 backdrop. No transparency, halo, scenery, text, border, watermark or other people. Character: Greta Shaw.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-9bfec10a-3f4f-403b-aaee-07458f35b19f.png"
+    },
+    {
+      "name": "Emi Suda",
+      "kind": "contact",
+      "file": "assets/profiles/Emi Suda.png",
+      "prompt": "Use case: identity-preserve. Create one square 1024x1024 head-and-shoulders contact photo of the exact person in image 1. Preserve their face, age, skin tone, hairstyle, glasses or accessories, outfit colors, and crisp Korean manhwa/webtoon ink lines and cel shading. Image 2 is composition and dark background reference only, NOT identity. Face centered, looking toward camera, all top hair visible with comfortable margin, shoulders visible; easy to recognize in a small round avatar. Fully opaque image on flat dark slate #232b38 backdrop. No transparency, halo, scenery, text, border, watermark or other people. Character: Emi Suda.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-6fdd2f10-0b1a-4a72-9007-87563bef1c29.png"
+    },
+    {
+      "name": "Ren Aoki",
+      "kind": "contact",
+      "file": "assets/profiles/Ren Aoki.png",
+      "prompt": "Use case: identity-preserve. Create one square 1024x1024 head-and-shoulders contact photo of the exact person in image 1. Preserve their face, age, skin tone, hairstyle, glasses or accessories, outfit colors, and crisp Korean manhwa/webtoon ink lines and cel shading. Image 2 is composition and dark background reference only, NOT identity. Face centered, looking toward camera, all top hair visible with comfortable margin, shoulders visible; easy to recognize in a small round avatar. Fully opaque image on flat dark slate #232b38 backdrop. No transparency, halo, scenery, text, border, watermark or other people. Character: Ren Aoki.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-d672f86e-3b6c-4f74-8692-6eb9d8651dd6.png"
+    },
+    {
+      "name": "Lucia Serrano",
+      "kind": "contact",
+      "file": "assets/profiles/Lucia Serrano.png",
+      "prompt": "Use case: identity-preserve. Create one square 1024x1024 head-and-shoulders contact photo of the exact person in image 1. Preserve their face, age, skin tone, hairstyle, glasses or accessories, outfit colors, and crisp Korean manhwa/webtoon ink lines and cel shading. Image 2 is composition and dark background reference only, NOT identity. Face centered, looking toward camera, all top hair visible with comfortable margin, shoulders visible; easy to recognize in a small round avatar. Fully opaque image on flat dark slate #232b38 backdrop. No transparency, halo, scenery, text, border, watermark or other people. Character: Lucia Serrano.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-b5622031-f400-42c1-9659-fb191ea8dc45.png"
+    },
+    {
+      "name": "Mateo Cruz",
+      "kind": "contact",
+      "file": "assets/profiles/Mateo Cruz.png",
+      "prompt": "Use case: identity-preserve. Create one square 1024x1024 head-and-shoulders contact photo of the exact person in image 1. Preserve their face, age, skin tone, hairstyle, glasses or accessories, outfit colors, and crisp Korean manhwa/webtoon ink lines and cel shading. Image 2 is composition and dark background reference only, NOT identity. Face centered, looking toward camera, all top hair visible with comfortable margin, shoulders visible; easy to recognize in a small round avatar. Fully opaque image on flat dark slate #232b38 backdrop. No transparency, halo, scenery, text, border, watermark or other people. Character: Mateo Cruz.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-4f2a36cb-3229-4108-ae32-c88e2801887d.png"
+    },
+    {
+      "name": "Ada Mensah",
+      "kind": "contact",
+      "file": "assets/profiles/Ada Mensah.png",
+      "prompt": "Use case: identity-preserve. Create one square 1024x1024 head-and-shoulders contact photo of the exact person in image 1. Preserve their face, age, skin tone, hairstyle, glasses or accessories, outfit colors, and crisp Korean manhwa/webtoon ink lines and cel shading. Image 2 is composition and dark background reference only, NOT identity. Face centered, looking toward camera, all top hair visible with comfortable margin, shoulders visible; easy to recognize in a small round avatar. Fully opaque image on flat dark slate #232b38 backdrop. No transparency, halo, scenery, text, border, watermark or other people. Character: Ada Mensah.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-bb5f53a4-8162-4329-bd00-739aa10b181e.png"
+    },
+    {
+      "name": "Felix Ward",
+      "kind": "contact",
+      "file": "assets/profiles/Felix Ward.png",
+      "prompt": "Use case: identity-preserve. Create one square 1024x1024 head-and-shoulders contact photo of the exact person in image 1. Preserve their face, age, skin tone, hairstyle, glasses or accessories, outfit colors, and crisp Korean manhwa/webtoon ink lines and cel shading. Image 2 is composition and dark background reference only, NOT identity. Face centered, looking toward camera, all top hair visible with comfortable margin, shoulders visible; easy to recognize in a small round avatar. Fully opaque image on flat dark slate #232b38 backdrop. No transparency, halo, scenery, text, border, watermark or other people. Character: Felix Ward.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-e56e2305-9f51-4a6b-a5b5-14ce2bd8a7ea.png"
+    },
+    {
+      "name": "Mina Cho",
+      "kind": "contact",
+      "file": "assets/profiles/Mina Cho.png",
+      "prompt": "Use case: identity-preserve. Create one square 1024x1024 head-and-shoulders contact photo of the exact person in image 1. Preserve their face, age, skin tone, hairstyle, glasses or accessories, outfit colors, and crisp Korean manhwa/webtoon ink lines and cel shading. Image 2 is composition and dark background reference only, NOT identity. Face centered, looking toward camera, all top hair visible with comfortable margin, shoulders visible; easy to recognize in a small round avatar. Fully opaque image on flat dark slate #232b38 backdrop. No transparency, halo, scenery, text, border, watermark or other people. Character: Mina Cho.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-1f9b245a-6378-4330-89a1-81681d999ac8.png"
+    },
+    {
+      "name": "Anton Bellamy",
+      "kind": "contact",
+      "file": "assets/profiles/Anton Bellamy.png",
+      "prompt": "Use case: identity-preserve. Create one square 1024x1024 head-and-shoulders contact photo of the exact person in image 1. Preserve their face, age, skin tone, hairstyle, glasses or accessories, outfit colors, and crisp Korean manhwa/webtoon ink lines and cel shading. Image 2 is composition and dark background reference only, NOT identity. Face centered, looking toward camera, all top hair visible with comfortable margin, shoulders visible; easy to recognize in a small round avatar. Fully opaque image on flat dark slate #232b38 backdrop. No transparency, halo, scenery, text, border, watermark or other people. Character: Anton Bellamy.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1bac3-a895-7840-b6af-8a92f8f84440\\exec-1e64ece7-6f2c-4ef5-93f5-48ac0bc78efd.png"
+    }
+  ]
+}

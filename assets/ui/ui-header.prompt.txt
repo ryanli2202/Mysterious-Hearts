@@ -1,0 +1,4 @@
+Tool: Built-in image_gen
+Transparent background: false
+
+Generate one wide decorative UI header background for Mysterious Hearts romance visual novel. Horizontal 1536x1024 canvas, design composed especially for central horizontal strip crop. Deep midnight navy velvety background, delicate champagne-gold art nouveau filigree at far left and right, subtle rose petals and a small interlocking-heart-and-key ornamental motif at each end. Very restrained elegant illustrated 2D game UI aesthetic, crisp refined linework, flat matte center. Large completely empty dark middle 70% for live title text overlay. No letters, words, numbers, buttons, logos, watermark, or mockup screen. Opaque background.

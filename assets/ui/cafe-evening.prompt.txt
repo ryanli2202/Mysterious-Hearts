@@ -1,0 +1,4 @@
+Tool: Built-in image_gen
+Transparent background: false
+
+Production background for Mysterious Hearts, contemporary romance visual novel in fictional Winterfield USA. Polished anime/manhwa environment illustration, crisp fine linework, elegant cel shading with restrained painterly lighting, romantic quietly mysterious atmosphere, coordinated deep midnight navy, warm ivory, muted rose and champagne gold palette. Wide landscape 1536x1024 composition that also crops attractively into a wide header. No people, no readable text, no logos, no watermark, no interface. Cozy campus café interior at early evening, intimate window-side tables, plush booth seats, coffee counter, potted greenery, warm pendant lamps, large windows onto tree-lined university street, empty inviting space for a conversation. No readable menus.

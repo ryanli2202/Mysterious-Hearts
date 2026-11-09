@@ -1,0 +1,135 @@
+{
+  "description": "AI-generated illustrated phone wallpapers; themes below were included in dark portrait composition prompts. Existing original assets retained.",
+  "assets": [
+    {
+      "who": "garrett",
+      "path": "assets/ui/phone-wallpaper-garrett-v2.png",
+      "theme": "A sophisticated penthouse view over a harbour city at midnight, distant restrained warm gold window lights, a small bowl and chopsticks on a dark ledge in the lower corner, charcoal navy and antique gold."
+    },
+    {
+      "who": "rei",
+      "path": "assets/ui/phone-wallpaper-rei-v2.png",
+      "theme": "Quiet Japanese ink-wash mountain lake at night, dark pine silhouettes, tiny muted teal reflection of a crescent moon, a sketchbook and brush in the lower corner, poetic indigo atmosphere."
+    },
+    {
+      "who": "minsu",
+      "path": "assets/ui/phone-wallpaper-minsu-v2.png",
+      "theme": "An empty university athletics track at blue hour under a dark evening sky, very subtle teal and coral lane markings, distant campus silhouettes, sports bag in the lower corner, optimistic quiet."
+    },
+    {
+      "who": "ivan",
+      "path": "assets/ui/phone-wallpaper-ivan-v2.png",
+      "theme": "An empty intimate recording studio at night, grand piano silhouette and small softly glowing mixing console in the lower third, deep plum navy and muted lavender light."
+    },
+    {
+      "who": "yuriko",
+      "path": "assets/ui/phone-wallpaper-yuriko-v2.png",
+      "theme": "A theatre designer's miniature stage in a dim workshop at night, tiny cardboard scenery and architectural model steps in the lower third, indigo background and restrained violet work light."
+    },
+    {
+      "who": "emily",
+      "path": "assets/ui/phone-wallpaper-emily-v2.png",
+      "theme": "A small balcony flower garden after dusk, delicate rose and muted pink flowers around lower corners, soft dark leafy silhouettes and tiny amber window light, deep forest navy."
+    },
+    {
+      "who": "sophie",
+      "path": "assets/ui/phone-wallpaper-sophie-v2.png",
+      "theme": "Empty running track beneath an indigo night sky, starting blocks and running shoes in the lower corner, faint mint lane highlights, distant stadium silhouettes."
+    },
+    {
+      "who": "amy",
+      "path": "assets/ui/phone-wallpaper-amy-v2.png",
+      "theme": "An artist's dorm desk by a night window, a closed philosophy book and small canvas with an abstract botanical sketch in the lower third, deep plum and dusty mauve shadows."
+    },
+    {
+      "who": "samantha",
+      "path": "assets/ui/phone-wallpaper-samantha-v2.png",
+      "theme": "A quiet motorcycle workshop at night, dark motorcycle silhouette and hanging boxing gloves in the lower third, charcoal graphite and restrained rust-orange accent lights."
+    },
+    {
+      "who": "april",
+      "path": "assets/ui/phone-wallpaper-april-v2.png",
+      "theme": "A rooftop observatory at night with a small telescope and a wooden chessboard in the lower corners, deep indigo sky, restrained sapphire points of starlight."
+    },
+    {
+      "who": "lena",
+      "path": "assets/ui/phone-wallpaper-lena-v2.png",
+      "theme": "An old-town clocktower archive at night, vintage film camera and a few unlettered photographs on a lower desk, dark walnut, midnight blue and subdued copper highlights."
+    },
+    {
+      "who": "naomi",
+      "path": "assets/ui/phone-wallpaper-naomi-v2.png",
+      "theme": "A riverside bicycle workshop at night, elegant bicycle wheel silhouette and handmade ceramic mug at the bottom, slate navy with subtle moss-green accents."
+    },
+    {
+      "who": "celeste",
+      "path": "assets/ui/phone-wallpaper-celeste-v2.png",
+      "theme": "A planetarium interior with a tiny violet constellation projection over a dark dome, piano keys and a small bird silhouette motif in the lower corner, very dark cobalt violet."
+    },
+    {
+      "who": "dev",
+      "path": "assets/ui/phone-wallpaper-dev-v2.png",
+      "theme": "A makerspace bench at night, soldering stand unplugged, circuit boards and a pair of game dice in the lower third, graphite blue and dim cyan accents."
+    },
+    {
+      "who": "rosa",
+      "path": "assets/ui/phone-wallpaper-rosa-v2.png",
+      "theme": "A cozy community kitchen after closing, dark pots, herb sprigs and a recipe notebook with no readable writing along the bottom, dark terracotta and forest slate."
+    },
+    {
+      "who": "elliot",
+      "path": "assets/ui/phone-wallpaper-elliot-v2.png",
+      "theme": "A moonlit wetland boardwalk fading into reeds, small kayak beside the lower bank and a carved wooden bird on a post, very dark blue-green mist."
+    },
+    {
+      "who": "tyler",
+      "path": "assets/ui/phone-wallpaper-tyler-v2.png",
+      "theme": "An empty neighborhood boxing gym at night, gloves and a domino set on a lower bench, distant ring ropes, deep navy and subdued warm amber."
+    },
+    {
+      "who": "valentina",
+      "path": "assets/ui/phone-wallpaper-valentina-v2.png",
+      "theme": "A quiet harbour boathouse at night, folded dark sailcloth and a small moored dinghy in the lower third, muted sea-teal reflections and navy sky."
+    },
+    {
+      "who": "daniel",
+      "path": "assets/ui/phone-wallpaper-daniel-v2.png",
+      "theme": "An old repertory cinema projection booth at night, film reels and a projector silhouette in the lower third, muted amber beam against deep burgundy navy, no posters or text."
+    },
+    {
+      "who": "neo",
+      "path": "assets/ui/phone-wallpaper-neo-v2.png",
+      "theme": "A quiet electronics repair desk beside a rainy night window, restored game controllers and an old radio at the bottom, charcoal navy and tiny teal power lights."
+    },
+    {
+      "who": "alyssa",
+      "path": "assets/ui/phone-wallpaper-alyssa-v2.png",
+      "theme": "A bookbinder's desk at night beside small potted herbs, hand-bound dark notebooks and botanical sketches with no writing at the bottom, deep indigo with restrained violet and sage accents."
+    },
+    {
+      "who": "sylvanis",
+      "path": "assets/ui/phone-wallpaper-sylvanis-v2.png",
+      "theme": "An unsettling empty private arena viewing room at midnight, a dark metal ringside bell and abstract fractured violet reflections in the lower third, black plum and subtle crimson accents, elegant threatening stillness, no gore."
+    },
+    {
+      "who": "martos",
+      "path": "assets/ui/phone-wallpaper-martos-v2.png",
+      "theme": "A precise watch restoration desk at midnight, a disassembled antique watch and dark gloves in the lower corner, charcoal slate and restrained brass highlights, orderly and substantial."
+    },
+    {
+      "who": "elias",
+      "path": "assets/ui/phone-wallpaper-elias-v2.png",
+      "theme": "An empty theatrical rehearsal stage at night, dark velvet curtain edges, a single dim rose spotlight on the lower stage and an unmarked script notebook, ink navy and muted wine red."
+    },
+    {
+      "who": "mavis",
+      "path": "assets/ui/phone-wallpaper-mavis-v2.png",
+      "theme": "A rain-dark wetland path at night, portable field recorder and headphones on a lower wooden railing, subtle rain rings and fern silhouettes, charcoal forest green."
+    },
+    {
+      "who": "camila",
+      "path": "assets/ui/phone-wallpaper-camila-v2.png",
+      "theme": "A refined desk overlooking geometric city buildings at night, a chess knight and orderly unmarked financial charts in the lower third, deep graphite, muted burgundy and subtle brass."
+    }
+  ]
+}

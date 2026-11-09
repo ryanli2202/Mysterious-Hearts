@@ -1,0 +1,4 @@
+Tool: Built-in image_gen
+Transparent background: false
+
+Create ONE production-ready vertical character-selection card background for Mysterious Hearts, elegant anime romance game UI. Entire canvas is the card, portrait 2:3 aspect ratio. Deep midnight navy matte empty center. Thin champagne gold double-line border inset 3 percent from each edge, refined art nouveau corner flourishes, tiny burgundy roses at bottom corners and a small golden heart crest at top center. Border ornament stays within outer 8 percent of canvas so a waist-up character and labels can be overlaid. Center completely blank navy, no character, no words, no letters, no internal dividers, no additional panels, no buttons. Restrained crisp hand-illustrated 2D metalwork with fine highlights, matching navy-gold romance UI, no heavy bevels, no mockup, no scenery. Opaque background.

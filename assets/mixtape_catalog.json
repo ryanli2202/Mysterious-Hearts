@@ -1,0 +1,5636 @@
+{
+  "artists": [
+    {
+      "id": "voss",
+      "name": "Voss",
+      "genre": "R&B / Trapsoul",
+      "description": "Smooth, late-night trapsoul with intimate vocals and 808-heavy beats; known for tracks about quiet heartbreak.",
+      "songs": [
+        {
+          "id": "voss-01",
+          "title": "2AM Text",
+          "description": "A quiet, regretful late-night message that never gets sent."
+        },
+        {
+          "id": "voss-02",
+          "title": "Empty Side",
+          "description": "Missing someone who used to take up half the bed."
+        },
+        {
+          "id": "voss-03",
+          "title": "Low Lights",
+          "description": "Driving around with the windows down, trying not to think."
+        },
+        {
+          "id": "voss-04",
+          "title": "Still Here",
+          "description": "Realizing you’re still waiting even after you’ve moved on."
+        },
+        {
+          "id": "voss-05",
+          "title": "Soft Lies",
+          "description": "The gentle ways people leave without saying goodbye."
+        },
+        {
+          "id": "voss-06",
+          "title": "Afterglow",
+          "description": "The strange calm that comes once the tears stop."
+        },
+        {
+          "id": "voss-07",
+          "title": "Muted",
+          "description": "Feeling everything but saying almost nothing."
+        },
+        {
+          "id": "voss-08",
+          "title": "Room 14",
+          "description": "A hotel room that still smells like the person who left."
+        },
+        {
+          "id": "voss-09",
+          "title": "Slow Fade",
+          "description": "Watching a relationship disappear in small, almost unnoticeable ways."
+        },
+        {
+          "id": "voss-10",
+          "title": "Velvet",
+          "description": "Skin and silence on a night that doesn’t mean what it used to."
+        },
+        {
+          "id": "voss-11",
+          "title": "Don’t Call",
+          "description": "Asking someone not to reach out even though you want them to."
+        },
+        {
+          "id": "voss-12",
+          "title": "Half Empty",
+          "description": "Drinking alone and replaying old conversations."
+        },
+        {
+          "id": "voss-13",
+          "title": "Quiet Storm",
+          "description": "Heavy feelings with almost no outward reaction."
+        },
+        {
+          "id": "voss-14",
+          "title": "Last Cigarette",
+          "description": "The final shared moment before everything changes."
+        },
+        {
+          "id": "voss-15",
+          "title": "Blue Hour",
+          "description": "That strange time between night and morning when nothing feels real."
+        },
+        {
+          "id": "voss-16",
+          "title": "Unsent",
+          "description": "A voice note full of things that will never be said."
+        },
+        {
+          "id": "voss-17",
+          "title": "Cold Sheets",
+          "description": "Waking up alone and noticing how big the bed feels."
+        },
+        {
+          "id": "voss-18",
+          "title": "Soft Goodbye",
+          "description": "Leaving without drama, just exhaustion."
+        },
+        {
+          "id": "voss-19",
+          "title": "Echo",
+          "description": "Hearing someone’s voice in songs that have nothing to do with them."
+        },
+        {
+          "id": "voss-20",
+          "title": "Dim",
+          "description": "Everything feeling slightly less bright after they left."
+        },
+        {
+          "id": "voss-21",
+          "title": "Stay Down",
+          "description": "Choosing to stay in the feeling instead of forcing yourself to move on."
+        },
+        {
+          "id": "voss-22",
+          "title": "No Reply",
+          "description": "Watching the “delivered” notification sit there."
+        },
+        {
+          "id": "voss-23",
+          "title": "Almost",
+          "description": "The relationship that never quite became what it could have been."
+        },
+        {
+          "id": "voss-24",
+          "title": "Fade Out",
+          "description": "Letting the night end without trying to fix anything."
+        }
+      ]
+    },
+    {
+      "id": "kai-mercer",
+      "name": "Kai Mercer",
+      "genre": "R&B / Trapsoul",
+      "description": "Velvet-voiced singer blending neo-soul with trap drums; often writes about late nights and unspoken tension.",
+      "songs": [
+        {
+          "id": "kai-mercer-01",
+          "title": "Tension",
+          "description": "The charged silence between two people who both want something but won’t say it."
+        },
+        {
+          "id": "kai-mercer-02",
+          "title": "Late Again",
+          "description": "Showing up when you know you shouldn’t."
+        },
+        {
+          "id": "kai-mercer-03",
+          "title": "Unspoken",
+          "description": "Everything sitting in the room that neither of you will name."
+        },
+        {
+          "id": "kai-mercer-04",
+          "title": "Velvet Rope",
+          "description": "Being close but still kept at a distance."
+        },
+        {
+          "id": "kai-mercer-05",
+          "title": "3AM Drive",
+          "description": "Circling the city because going home feels worse."
+        },
+        {
+          "id": "kai-mercer-06",
+          "title": "Almost Yours",
+          "description": "The person who acts like they’re yours until they aren’t."
+        },
+        {
+          "id": "kai-mercer-07",
+          "title": "Slow Burn",
+          "description": "Desire that builds without ever fully catching."
+        },
+        {
+          "id": "kai-mercer-08",
+          "title": "Don’t Move",
+          "description": "Asking someone to stay still so the moment doesn’t break."
+        },
+        {
+          "id": "kai-mercer-09",
+          "title": "Heavy Air",
+          "description": "A room thick with things left unsaid."
+        },
+        {
+          "id": "kai-mercer-10",
+          "title": "Pull Up",
+          "description": "The text that means more than it should."
+        },
+        {
+          "id": "kai-mercer-11",
+          "title": "Soft Warning",
+          "description": "Knowing something is bad for you and still leaning in."
+        },
+        {
+          "id": "kai-mercer-12",
+          "title": "Midnight Confession",
+          "description": "Things only said when the lights are low."
+        },
+        {
+          "id": "kai-mercer-13",
+          "title": "Close Enough",
+          "description": "Being near someone without ever actually having them."
+        },
+        {
+          "id": "kai-mercer-14",
+          "title": "Quiet Fire",
+          "description": "Attraction that stays controlled on the surface."
+        },
+        {
+          "id": "kai-mercer-15",
+          "title": "Stay Silent",
+          "description": "Preferring the tension over a conversation that might end it."
+        },
+        {
+          "id": "kai-mercer-16",
+          "title": "Half Lit",
+          "description": "City lights and half-truths."
+        },
+        {
+          "id": "kai-mercer-17",
+          "title": "Too Late",
+          "description": "Realizing what you wanted after the chance is gone."
+        },
+        {
+          "id": "kai-mercer-18",
+          "title": "Slow Pulse",
+          "description": "The physical feeling of wanting someone who won’t fully meet you."
+        },
+        {
+          "id": "kai-mercer-19",
+          "title": "Unnamed",
+          "description": "The relationship that never got a title."
+        },
+        {
+          "id": "kai-mercer-20",
+          "title": "Hold Still",
+          "description": "Trying to freeze a moment before it slips."
+        },
+        {
+          "id": "kai-mercer-21",
+          "title": "Low Frequency",
+          "description": "Feelings that hum underneath everything else."
+        },
+        {
+          "id": "kai-mercer-22",
+          "title": "Almost Touch",
+          "description": "The space between reaching and actually making contact."
+        },
+        {
+          "id": "kai-mercer-23",
+          "title": "Night Shift",
+          "description": "Living in the hours when most people are asleep."
+        },
+        {
+          "id": "kai-mercer-24",
+          "title": "Fade In",
+          "description": "The slow way someone starts to take up space in your head."
+        }
+      ]
+    },
+    {
+      "id": "luna-reign",
+      "name": "Luna Reign",
+      "genre": "R&B / Trapsoul",
+      "description": "Ethereal R&B artist with layered harmonies and minimalist production.",
+      "songs": [
+        {
+          "id": "luna-reign-01",
+          "title": "Moonlight",
+          "description": "Soft, distant longing that never quite lands."
+        },
+        {
+          "id": "luna-reign-02",
+          "title": "Weightless",
+          "description": "Feeling detached from your own emotions."
+        },
+        {
+          "id": "luna-reign-03",
+          "title": "Glass",
+          "description": "Being transparent and fragile at the same time."
+        },
+        {
+          "id": "luna-reign-04",
+          "title": "Drift",
+          "description": "Letting yourself float away from someone instead of confronting them."
+        },
+        {
+          "id": "luna-reign-05",
+          "title": "Soft Orbit",
+          "description": "Circling a person without ever getting too close."
+        },
+        {
+          "id": "luna-reign-06",
+          "title": "Hollow",
+          "description": "Emptiness that feels almost peaceful."
+        },
+        {
+          "id": "luna-reign-07",
+          "title": "Veil",
+          "description": "Emotions kept just out of reach."
+        },
+        {
+          "id": "luna-reign-08",
+          "title": "Pale",
+          "description": "Everything washed out after a long stretch of feeling nothing."
+        },
+        {
+          "id": "luna-reign-09",
+          "title": "Echo Room",
+          "description": "Hearing your own thoughts bounce back with no one else there."
+        },
+        {
+          "id": "luna-reign-10",
+          "title": "Slow Light",
+          "description": "Watching dawn arrive while still stuck in the night before."
+        },
+        {
+          "id": "luna-reign-11",
+          "title": "Air",
+          "description": "A relationship so light it almost doesn’t exist."
+        },
+        {
+          "id": "luna-reign-12",
+          "title": "Faint",
+          "description": "Feelings that are present but barely detectable."
+        },
+        {
+          "id": "luna-reign-13",
+          "title": "Still Water",
+          "description": "Calm on the surface with something deeper underneath."
+        },
+        {
+          "id": "luna-reign-14",
+          "title": "Ghost Note",
+          "description": "The memory of a voice that no longer answers."
+        },
+        {
+          "id": "luna-reign-15",
+          "title": "Thin",
+          "description": "Stretching yourself until there’s almost nothing left."
+        },
+        {
+          "id": "luna-reign-16",
+          "title": "Low Glow",
+          "description": "A small, persistent warmth that refuses to go out."
+        },
+        {
+          "id": "luna-reign-17",
+          "title": "Distance",
+          "description": "The space that grows even when neither person moves."
+        },
+        {
+          "id": "luna-reign-18",
+          "title": "Silver",
+          "description": "Cold, beautiful, and slightly unreal."
+        },
+        {
+          "id": "luna-reign-19",
+          "title": "Float",
+          "description": "Detaching so the hurt doesn’t reach you."
+        },
+        {
+          "id": "luna-reign-20",
+          "title": "Quiet Moon",
+          "description": "Sitting with feelings that don’t need to be spoken."
+        },
+        {
+          "id": "luna-reign-21",
+          "title": "Mist",
+          "description": "Something once clear becoming harder to see."
+        },
+        {
+          "id": "luna-reign-22",
+          "title": "Soft Static",
+          "description": "The low hum of unresolved emotion."
+        },
+        {
+          "id": "luna-reign-23",
+          "title": "Far Light",
+          "description": "Someone who still shines even from a distance."
+        },
+        {
+          "id": "luna-reign-24",
+          "title": "Afterimage",
+          "description": "The shape of a person that stays after they’re gone."
+        }
+      ]
+    },
+    {
+      "id": "jalen-crowe",
+      "name": "Jalen Crowe",
+      "genre": "R&B / Trapsoul",
+      "description": "Deep, smoky trapsoul with jazz influences and confessional lyrics.",
+      "songs": [
+        {
+          "id": "jalen-crowe-01",
+          "title": "Confession",
+          "description": "Saying the quiet part out loud for the first time."
+        },
+        {
+          "id": "jalen-crowe-02",
+          "title": "Smoke",
+          "description": "Memories that linger even after you’ve tried to clear them."
+        },
+        {
+          "id": "jalen-crowe-03",
+          "title": "Late Truth",
+          "description": "Admitting something long after it mattered."
+        },
+        {
+          "id": "jalen-crowe-04",
+          "title": "Blue Note",
+          "description": "A melancholy that feels almost musical."
+        },
+        {
+          "id": "jalen-crowe-05",
+          "title": "Worn",
+          "description": "Feeling used up by the same cycle."
+        },
+        {
+          "id": "jalen-crowe-06",
+          "title": "Slow Pour",
+          "description": "Letting emotions out gradually instead of all at once."
+        },
+        {
+          "id": "jalen-crowe-07",
+          "title": "Unfinished",
+          "description": "A conversation or relationship that never reached a real ending."
+        },
+        {
+          "id": "jalen-crowe-08",
+          "title": "Low End",
+          "description": "The heavy feeling that sits in your chest."
+        },
+        {
+          "id": "jalen-crowe-09",
+          "title": "Ash",
+          "description": "What’s left after something burns out."
+        },
+        {
+          "id": "jalen-crowe-10",
+          "title": "Midnight Standard",
+          "description": "The version of yourself that only exists late at night."
+        },
+        {
+          "id": "jalen-crowe-11",
+          "title": "Heavy Tongue",
+          "description": "Words that are hard to say even when you want to."
+        },
+        {
+          "id": "jalen-crowe-12",
+          "title": "Fade",
+          "description": "Watching interest leave someone’s eyes."
+        },
+        {
+          "id": "jalen-crowe-13",
+          "title": "Old Flame",
+          "description": "Someone from the past who still has a hold."
+        },
+        {
+          "id": "jalen-crowe-14",
+          "title": "Quiet Guilt",
+          "description": "The kind of regret that doesn’t announce itself."
+        },
+        {
+          "id": "jalen-crowe-15",
+          "title": "Smoke Signal",
+          "description": "Small signs that something is still there."
+        },
+        {
+          "id": "jalen-crowe-16",
+          "title": "Deep Cut",
+          "description": "A hurt that went further than expected."
+        },
+        {
+          "id": "jalen-crowe-17",
+          "title": "Last Call",
+          "description": "One more attempt before fully letting go."
+        },
+        {
+          "id": "jalen-crowe-18",
+          "title": "Velvet Dark",
+          "description": "Comfort found in the middle of the night."
+        },
+        {
+          "id": "jalen-crowe-19",
+          "title": "Unsteady",
+          "description": "Trying to stay composed while everything shifts."
+        },
+        {
+          "id": "jalen-crowe-20",
+          "title": "Low Voice",
+          "description": "Speaking softly about something that still hurts."
+        },
+        {
+          "id": "jalen-crowe-21",
+          "title": "Residue",
+          "description": "The traces left behind after someone leaves."
+        },
+        {
+          "id": "jalen-crowe-22",
+          "title": "Slow Bleed",
+          "description": "Pain that continues longer than it should."
+        },
+        {
+          "id": "jalen-crowe-23",
+          "title": "After Hours",
+          "description": "The thoughts that only show up once the day is over."
+        },
+        {
+          "id": "jalen-crowe-24",
+          "title": "Final Note",
+          "description": "Accepting that some things don’t get a resolution."
+        }
+      ]
+    },
+    {
+      "id": "malik-thorne",
+      "name": "Malik Thorne",
+      "genre": "Hip Hop / Rap",
+      "description": "Lyrical street storyteller with boom-bap roots and sharp punchlines.",
+      "songs": [
+        {
+          "id": "malik-thorne-01",
+          "title": "Block Stories",
+          "description": "Everyday tales from the neighborhood, told with detail and no filter."
+        },
+        {
+          "id": "malik-thorne-02",
+          "title": "Same Corners",
+          "description": "Growing up on the same streets and watching who makes it out."
+        },
+        {
+          "id": "malik-thorne-03",
+          "title": "Quiet Money",
+          "description": "Moving differently once things start working in your favor."
+        },
+        {
+          "id": "malik-thorne-04",
+          "title": "Old Heads",
+          "description": "Lessons from the people who were around before you."
+        },
+        {
+          "id": "malik-thorne-05",
+          "title": "Late Rent",
+          "description": "The stress of making ends meet while still trying to build something."
+        },
+        {
+          "id": "malik-thorne-06",
+          "title": "Name on the List",
+          "description": "Being counted on by people who don’t have many options."
+        },
+        {
+          "id": "malik-thorne-07",
+          "title": "Two Paths",
+          "description": "Choosing between the safe route and the one that actually changes things."
+        },
+        {
+          "id": "malik-thorne-08",
+          "title": "Window Seat",
+          "description": "Watching the block from a distance and realizing how much has changed."
+        },
+        {
+          "id": "malik-thorne-09",
+          "title": "Small Wins",
+          "description": "Celebrating the little victories that don’t make headlines."
+        },
+        {
+          "id": "malik-thorne-10",
+          "title": "Known Face",
+          "description": "Being recognized everywhere but still feeling like an outsider."
+        },
+        {
+          "id": "malik-thorne-11",
+          "title": "Night Walk",
+          "description": "Moving through the city after dark with your thoughts."
+        },
+        {
+          "id": "malik-thorne-12",
+          "title": "Paper Trail",
+          "description": "The records, debts, and proof of everything you’ve been through."
+        },
+        {
+          "id": "malik-thorne-13",
+          "title": "Family First",
+          "description": "Putting the people who raised you ahead of everything else."
+        },
+        {
+          "id": "malik-thorne-14",
+          "title": "Same Shirt",
+          "description": "Staying grounded even when the money starts coming in."
+        },
+        {
+          "id": "malik-thorne-15",
+          "title": "Corner Store",
+          "description": "The small places that hold the real stories."
+        },
+        {
+          "id": "malik-thorne-16",
+          "title": "Long Game",
+          "description": "Playing it smart instead of rushing for quick results."
+        },
+        {
+          "id": "malik-thorne-17",
+          "title": "Old Numbers",
+          "description": "People from the past who only call when they need something."
+        },
+        {
+          "id": "malik-thorne-18",
+          "title": "Clear Mind",
+          "description": "Trying to stay focused while everything around you gets louder."
+        },
+        {
+          "id": "malik-thorne-19",
+          "title": "Street Credit",
+          "description": "Earning respect the hard way."
+        },
+        {
+          "id": "malik-thorne-20",
+          "title": "Home Cooked",
+          "description": "Missing the simple things once life gets complicated."
+        },
+        {
+          "id": "malik-thorne-21",
+          "title": "Last Bus",
+          "description": "The late ride home after a long day of grinding."
+        },
+        {
+          "id": "malik-thorne-22",
+          "title": "Names & Faces",
+          "description": "Remembering everyone who helped and everyone who didn’t."
+        },
+        {
+          "id": "malik-thorne-23",
+          "title": "Slow Build",
+          "description": "Progress that doesn’t look like much until it does."
+        },
+        {
+          "id": "malik-thorne-24",
+          "title": "Still Standing",
+          "description": "Making it through another year on the same block."
+        }
+      ]
+    },
+    {
+      "id": "riven-banks",
+      "name": "Riven Banks",
+      "genre": "Hip Hop / Rap",
+      "description": "Aggressive, technical rapper known for complex flows and dark storytelling.",
+      "songs": [
+        {
+          "id": "riven-banks-01",
+          "title": "No Exit",
+          "description": "A situation that keeps getting worse no matter which way you turn."
+        },
+        {
+          "id": "riven-banks-02",
+          "title": "Cold Room",
+          "description": "Isolation and the thoughts that come with it."
+        },
+        {
+          "id": "riven-banks-03",
+          "title": "Blackout",
+          "description": "Losing control and dealing with the aftermath."
+        },
+        {
+          "id": "riven-banks-04",
+          "title": "Sharp Edges",
+          "description": "Cutting through people and situations without hesitation."
+        },
+        {
+          "id": "riven-banks-05",
+          "title": "Dead End",
+          "description": "Realizing the path you’re on doesn’t lead anywhere good."
+        },
+        {
+          "id": "riven-banks-06",
+          "title": "Low Ceiling",
+          "description": "Feeling trapped by circumstances you can’t fully escape."
+        },
+        {
+          "id": "riven-banks-07",
+          "title": "Silent Witness",
+          "description": "Seeing things you’re not supposed to talk about."
+        },
+        {
+          "id": "riven-banks-08",
+          "title": "Red Light",
+          "description": "Moving through danger with your eyes open."
+        },
+        {
+          "id": "riven-banks-09",
+          "title": "Broken Mirror",
+          "description": "Facing the version of yourself you don’t like."
+        },
+        {
+          "id": "riven-banks-10",
+          "title": "No Witnesses",
+          "description": "Handling business when no one else is around."
+        },
+        {
+          "id": "riven-banks-11",
+          "title": "Heavy Hands",
+          "description": "The weight of the choices you’ve made."
+        },
+        {
+          "id": "riven-banks-12",
+          "title": "Dark Alley",
+          "description": "The places most people avoid."
+        },
+        {
+          "id": "riven-banks-13",
+          "title": "Last Warning",
+          "description": "The final line before everything collapses."
+        },
+        {
+          "id": "riven-banks-14",
+          "title": "Cold Steel",
+          "description": "Detached and precise when it matters."
+        },
+        {
+          "id": "riven-banks-15",
+          "title": "No Sleep",
+          "description": "Running on empty while the pressure keeps building."
+        },
+        {
+          "id": "riven-banks-16",
+          "title": "Empty Clip",
+          "description": "Reaching the end of what you have left."
+        },
+        {
+          "id": "riven-banks-17",
+          "title": "Shadow Work",
+          "description": "The things done in the dark that follow you into the light."
+        },
+        {
+          "id": "riven-banks-18",
+          "title": "Fractured",
+          "description": "A mind and life that don’t fully hold together."
+        },
+        {
+          "id": "riven-banks-19",
+          "title": "Point Blank",
+          "description": "Direct and unfiltered."
+        },
+        {
+          "id": "riven-banks-20",
+          "title": "Night Shift",
+          "description": "Operating when everyone else is off."
+        },
+        {
+          "id": "riven-banks-21",
+          "title": "Dead Weight",
+          "description": "Carrying people or problems that slow you down."
+        },
+        {
+          "id": "riven-banks-22",
+          "title": "No Return",
+          "description": "Crossing a line you can’t come back from."
+        },
+        {
+          "id": "riven-banks-23",
+          "title": "Low Visibility",
+          "description": "Moving when it’s hard to see what’s coming."
+        },
+        {
+          "id": "riven-banks-24",
+          "title": "Final Cut",
+          "description": "Ending something permanently."
+        }
+      ]
+    },
+    {
+      "id": "nia-sol",
+      "name": "Nia Sol",
+      "genre": "Hip Hop / Rap",
+      "description": "Conscious rapper with poetic delivery and political edge.",
+      "songs": [
+        {
+          "id": "nia-sol-01",
+          "title": "System Check",
+          "description": "Calling out how institutions fail the people they’re supposed to serve."
+        },
+        {
+          "id": "nia-sol-02",
+          "title": "Uneven Ground",
+          "description": "Growing up with fewer options and more obstacles."
+        },
+        {
+          "id": "nia-sol-03",
+          "title": "Quiet Riot",
+          "description": "Resistance that doesn’t always look loud."
+        },
+        {
+          "id": "nia-sol-04",
+          "title": "Paper Walls",
+          "description": "Barriers that look official but are still just paper."
+        },
+        {
+          "id": "nia-sol-05",
+          "title": "Same Script",
+          "description": "Watching history repeat itself under different names."
+        },
+        {
+          "id": "nia-sol-06",
+          "title": "Open Eyes",
+          "description": "Refusing to look away from what’s happening."
+        },
+        {
+          "id": "nia-sol-07",
+          "title": "Cost of Living",
+          "description": "The real price people pay just to get by."
+        },
+        {
+          "id": "nia-sol-08",
+          "title": "No Filter",
+          "description": "Speaking plainly about power and who holds it."
+        },
+        {
+          "id": "nia-sol-09",
+          "title": "Root Cause",
+          "description": "Looking past symptoms to what’s actually driving the problem."
+        },
+        {
+          "id": "nia-sol-10",
+          "title": "Borrowed Time",
+          "description": "Living under conditions that aren’t sustainable."
+        },
+        {
+          "id": "nia-sol-11",
+          "title": "Clear Line",
+          "description": "Drawing boundaries between what’s acceptable and what isn’t."
+        },
+        {
+          "id": "nia-sol-12",
+          "title": "Hidden Cost",
+          "description": "The things that get sacrificed so others can profit."
+        },
+        {
+          "id": "nia-sol-13",
+          "title": "New Language",
+          "description": "Finding better ways to talk about old problems."
+        },
+        {
+          "id": "nia-sol-14",
+          "title": "Still Here",
+          "description": "Surviving systems that weren’t built for you."
+        },
+        {
+          "id": "nia-sol-15",
+          "title": "Public Record",
+          "description": "What gets documented and what gets ignored."
+        },
+        {
+          "id": "nia-sol-16",
+          "title": "Slow Burn",
+          "description": "Anger and awareness that build over time."
+        },
+        {
+          "id": "nia-sol-17",
+          "title": "Equal Weight",
+          "description": "Demanding the same standards for everyone."
+        },
+        {
+          "id": "nia-sol-18",
+          "title": "False Peace",
+          "description": "Calm that only exists because people stopped speaking up."
+        },
+        {
+          "id": "nia-sol-19",
+          "title": "Open Book",
+          "description": "Refusing to hide the truth."
+        },
+        {
+          "id": "nia-sol-20",
+          "title": "Long Memory",
+          "description": "Remembering what others would rather forget."
+        },
+        {
+          "id": "nia-sol-21",
+          "title": "No Excuse",
+          "description": "Rejecting the usual justifications."
+        },
+        {
+          "id": "nia-sol-22",
+          "title": "Shared Burden",
+          "description": "The weight that gets passed down."
+        },
+        {
+          "id": "nia-sol-23",
+          "title": "Bright Line",
+          "description": "Knowing exactly where you stand."
+        },
+        {
+          "id": "nia-sol-24",
+          "title": "Keep Going",
+          "description": "Continuing the work even when progress is slow."
+        }
+      ]
+    },
+    {
+      "id": "dex-holloway",
+      "name": "Dex Holloway",
+      "genre": "Hip Hop / Rap",
+      "description": "Melodic rapper who mixes sing-rap with hard-hitting verses.",
+      "songs": [
+        {
+          "id": "dex-holloway-01",
+          "title": "Half Singing",
+          "description": "Moving between melody and rap when the feeling shifts."
+        },
+        {
+          "id": "dex-holloway-02",
+          "title": "Late Reply",
+          "description": "Waiting on a message that means more than it should."
+        },
+        {
+          "id": "dex-holloway-03",
+          "title": "Soft Armor",
+          "description": "Protecting yourself while still letting some things through."
+        },
+        {
+          "id": "dex-holloway-04",
+          "title": "City Lights",
+          "description": "Driving at night with too much on your mind."
+        },
+        {
+          "id": "dex-holloway-05",
+          "title": "Almost Home",
+          "description": "Getting close to something stable but not quite there."
+        },
+        {
+          "id": "dex-holloway-06",
+          "title": "Low Volume",
+          "description": "Keeping things quiet while everything feels loud."
+        },
+        {
+          "id": "dex-holloway-07",
+          "title": "Same Mistakes",
+          "description": "Recognizing patterns you keep repeating."
+        },
+        {
+          "id": "dex-holloway-08",
+          "title": "Night Drive",
+          "description": "Clearing your head with the windows down."
+        },
+        {
+          "id": "dex-holloway-09",
+          "title": "Two Sides",
+          "description": "Showing different versions of yourself depending on who’s listening."
+        },
+        {
+          "id": "dex-holloway-10",
+          "title": "Fade Away",
+          "description": "Watching someone slowly pull back."
+        },
+        {
+          "id": "dex-holloway-11",
+          "title": "Heavy Chorus",
+          "description": "The part of the song (and the feeling) that sticks."
+        },
+        {
+          "id": "dex-holloway-12",
+          "title": "Quiet Flex",
+          "description": "Success that doesn’t need to be announced."
+        },
+        {
+          "id": "dex-holloway-13",
+          "title": "Lost Signal",
+          "description": "Trying to reach someone who isn’t answering."
+        },
+        {
+          "id": "dex-holloway-14",
+          "title": "Soft Landing",
+          "description": "Hoping things settle instead of crashing."
+        },
+        {
+          "id": "dex-holloway-15",
+          "title": "Midnight Mood",
+          "description": "The headspace that only shows up late."
+        },
+        {
+          "id": "dex-holloway-16",
+          "title": "Half Truth",
+          "description": "Saying enough without saying everything."
+        },
+        {
+          "id": "dex-holloway-17",
+          "title": "Open Road",
+          "description": "Wanting space to figure things out."
+        },
+        {
+          "id": "dex-holloway-18",
+          "title": "Slow Motion",
+          "description": "Moments that feel like they last longer than they should."
+        },
+        {
+          "id": "dex-holloway-19",
+          "title": "Low Key",
+          "description": "Keeping the important things private."
+        },
+        {
+          "id": "dex-holloway-20",
+          "title": "Echoes",
+          "description": "Old conversations still playing in your head."
+        },
+        {
+          "id": "dex-holloway-21",
+          "title": "New Chapter",
+          "description": "Trying to start over without fully closing the last one."
+        },
+        {
+          "id": "dex-holloway-22",
+          "title": "Dim Lights",
+          "description": "Preferring the dark when you’re not ready to be seen."
+        },
+        {
+          "id": "dex-holloway-23",
+          "title": "Still Moving",
+          "description": "Keeping going even when the pace feels off."
+        },
+        {
+          "id": "dex-holloway-24",
+          "title": "Last Verse",
+          "description": "Saying what needs to be said before the song ends."
+        }
+      ]
+    },
+    {
+      "id": "yung-m-ney",
+      "name": "Yung M$NEY",
+      "genre": "Trap Music",
+      "description": "Atlanta-style trap with heavy 808s, auto-tuned hooks, and flex-heavy themes.",
+      "songs": [
+        {
+          "id": "yung-m-ney-01",
+          "title": "Foreign",
+          "description": "Pulling up in something expensive that most people only see online."
+        },
+        {
+          "id": "yung-m-ney-02",
+          "title": "Count It",
+          "description": "Stacking money and making sure everyone hears it."
+        },
+        {
+          "id": "yung-m-ney-03",
+          "title": "Ice Cold",
+          "description": "Moving with no emotion and a lot of jewelry."
+        },
+        {
+          "id": "yung-m-ney-04",
+          "title": "Bands",
+          "description": "The sound of rubber bands and the lifestyle that comes with them."
+        },
+        {
+          "id": "yung-m-ney-05",
+          "title": "No Sleep",
+          "description": "Grinding and spending at the same time."
+        },
+        {
+          "id": "yung-m-ney-06",
+          "title": "Pull Up",
+          "description": "Showing out wherever you go."
+        },
+        {
+          "id": "yung-m-ney-07",
+          "title": "Designer",
+          "description": "Head-to-toe pieces that cost more than most people’s rent."
+        },
+        {
+          "id": "yung-m-ney-08",
+          "title": "Money Talk",
+          "description": "Letting the numbers speak instead of explaining yourself."
+        },
+        {
+          "id": "yung-m-ney-09",
+          "title": "Late Night",
+          "description": "Spending and moving after the city slows down."
+        },
+        {
+          "id": "yung-m-ney-10",
+          "title": "Flex Season",
+          "description": "A stretch where everything is visible and nothing is subtle."
+        },
+        {
+          "id": "yung-m-ney-11",
+          "title": "Cash Out",
+          "description": "Taking the money and leaving the conversation."
+        },
+        {
+          "id": "yung-m-ney-12",
+          "title": "New Whip",
+          "description": "The car that changes how people look at you."
+        },
+        {
+          "id": "yung-m-ney-13",
+          "title": "All White",
+          "description": "Clean fits and clean money."
+        },
+        {
+          "id": "yung-m-ney-14",
+          "title": "No Cap",
+          "description": "Saying exactly what you have and what you did."
+        },
+        {
+          "id": "yung-m-ney-15",
+          "title": "Big Face",
+          "description": "Bills so large they don’t even feel real."
+        },
+        {
+          "id": "yung-m-ney-16",
+          "title": "Studio Hours",
+          "description": "Making hits while the money keeps moving."
+        },
+        {
+          "id": "yung-m-ney-17",
+          "title": "Private",
+          "description": "Keeping the real moves away from the public."
+        },
+        {
+          "id": "yung-m-ney-18",
+          "title": "Ice on Me",
+          "description": "Jewelry that catches light from across the room."
+        },
+        {
+          "id": "yung-m-ney-19",
+          "title": "Fast Life",
+          "description": "Moving quick and spending quicker."
+        },
+        {
+          "id": "yung-m-ney-20",
+          "title": "Bag Secured",
+          "description": "Knowing the money is already handled."
+        },
+        {
+          "id": "yung-m-ney-21",
+          "title": "Night Mode",
+          "description": "Operating when most people are offline."
+        },
+        {
+          "id": "yung-m-ney-22",
+          "title": "Heavy",
+          "description": "808s and the weight of what you’re carrying."
+        },
+        {
+          "id": "yung-m-ney-23",
+          "title": "No Talking",
+          "description": "Actions louder than any interview."
+        },
+        {
+          "id": "yung-m-ney-24",
+          "title": "Count Up",
+          "description": "Watching the numbers rise in real time."
+        }
+      ]
+    },
+    {
+      "id": "lil-karro",
+      "name": "Lil Karro",
+      "genre": "Trap Music",
+      "description": "Atmospheric trap producer-rapper hybrid with dark, cinematic beats.",
+      "songs": [
+        {
+          "id": "lil-karro-01",
+          "title": "Fog",
+          "description": "Moving through situations you can’t fully see."
+        },
+        {
+          "id": "lil-karro-02",
+          "title": "Low Light",
+          "description": "Operating in the shadows with minimal noise."
+        },
+        {
+          "id": "lil-karro-03",
+          "title": "Cold World",
+          "description": "Detached perspective on everything around you."
+        },
+        {
+          "id": "lil-karro-04",
+          "title": "Night Vision",
+          "description": "Seeing clearly when others can’t."
+        },
+        {
+          "id": "lil-karro-05",
+          "title": "Empty Streets",
+          "description": "The quiet after everyone else is gone."
+        },
+        {
+          "id": "lil-karro-06",
+          "title": "Static",
+          "description": "Background noise that never fully leaves."
+        },
+        {
+          "id": "lil-karro-07",
+          "title": "Dark Room",
+          "description": "Isolation and the thoughts that fill it."
+        },
+        {
+          "id": "lil-karro-08",
+          "title": "Slow Motion",
+          "description": "Watching everything unfold without rushing."
+        },
+        {
+          "id": "lil-karro-09",
+          "title": "No Signal",
+          "description": "Being unreachable on purpose."
+        },
+        {
+          "id": "lil-karro-10",
+          "title": "Grey",
+          "description": "Living in the space between right and wrong."
+        },
+        {
+          "id": "lil-karro-11",
+          "title": "Distant",
+          "description": "Keeping everyone at arm’s length."
+        },
+        {
+          "id": "lil-karro-12",
+          "title": "After Hours",
+          "description": "The hours that belong only to you."
+        },
+        {
+          "id": "lil-karro-13",
+          "title": "Black Glass",
+          "description": "Reflections that don’t show the full picture."
+        },
+        {
+          "id": "lil-karro-14",
+          "title": "Low Frequency",
+          "description": "Feelings and moves that stay under the surface."
+        },
+        {
+          "id": "lil-karro-15",
+          "title": "Void",
+          "description": "The empty space left after cutting people off."
+        },
+        {
+          "id": "lil-karro-16",
+          "title": "Night Drive",
+          "description": "Moving through the city with no destination."
+        },
+        {
+          "id": "lil-karro-17",
+          "title": "Faded",
+          "description": "Numb but still aware."
+        },
+        {
+          "id": "lil-karro-18",
+          "title": "Shadow",
+          "description": "Staying close without being seen."
+        },
+        {
+          "id": "lil-karro-19",
+          "title": "Cold Air",
+          "description": "Atmosphere that feels heavy even when nothing is happening."
+        },
+        {
+          "id": "lil-karro-20",
+          "title": "No Trace",
+          "description": "Leaving nothing behind."
+        },
+        {
+          "id": "lil-karro-21",
+          "title": "Dim",
+          "description": "Everything slightly muted."
+        },
+        {
+          "id": "lil-karro-22",
+          "title": "Still Frame",
+          "description": "Moments that feel frozen."
+        },
+        {
+          "id": "lil-karro-23",
+          "title": "Underground",
+          "description": "Operating away from the main lights."
+        },
+        {
+          "id": "lil-karro-24",
+          "title": "Fade to Black",
+          "description": "Ending things cleanly and quietly."
+        }
+      ]
+    },
+    {
+      "id": "kairo-lux",
+      "name": "Kairo Lux",
+      "genre": "Trap Music",
+      "description": "High-energy trap artist blending melodic choruses with rapid-fire verses.",
+      "songs": [
+        {
+          "id": "kairo-lux-01",
+          "title": "Turn Up",
+          "description": "Full energy from the first bar."
+        },
+        {
+          "id": "kairo-lux-02",
+          "title": "Lights Out",
+          "description": "Moving so fast the room can’t keep up."
+        },
+        {
+          "id": "kairo-lux-03",
+          "title": "All Gas",
+          "description": "No brakes once you start."
+        },
+        {
+          "id": "kairo-lux-04",
+          "title": "Night Shift",
+          "description": "Peak hours when everything is moving."
+        },
+        {
+          "id": "kairo-lux-05",
+          "title": "Full Send",
+          "description": "Committing without hesitation."
+        },
+        {
+          "id": "kairo-lux-06",
+          "title": "Loud",
+          "description": "Hooks that cut through any beat."
+        },
+        {
+          "id": "kairo-lux-07",
+          "title": "Speed Run",
+          "description": "Covering ground faster than expected."
+        },
+        {
+          "id": "kairo-lux-08",
+          "title": "On Sight",
+          "description": "Reacting the moment something happens."
+        },
+        {
+          "id": "kairo-lux-09",
+          "title": "High Beam",
+          "description": "Impossible to ignore."
+        },
+        {
+          "id": "kairo-lux-10",
+          "title": "Nonstop",
+          "description": "Keeping the same pace the whole way."
+        },
+        {
+          "id": "kairo-lux-11",
+          "title": "Flash",
+          "description": "Quick moments that still leave an impact."
+        },
+        {
+          "id": "kairo-lux-12",
+          "title": "Overdrive",
+          "description": "Pushing past normal limits."
+        },
+        {
+          "id": "kairo-lux-13",
+          "title": "Crowd Control",
+          "description": "Owning the room the second you enter."
+        },
+        {
+          "id": "kairo-lux-14",
+          "title": "Live Wire",
+          "description": "Energy that feels unstable in the best way."
+        },
+        {
+          "id": "kairo-lux-15",
+          "title": "No Chill",
+          "description": "Refusing to slow down."
+        },
+        {
+          "id": "kairo-lux-16",
+          "title": "Peak Hours",
+          "description": "Performing when the stakes are highest."
+        },
+        {
+          "id": "kairo-lux-17",
+          "title": "Rapid",
+          "description": "Verses that don’t give listeners time to breathe."
+        },
+        {
+          "id": "kairo-lux-18",
+          "title": "Spotlight",
+          "description": "Taking all the attention without asking."
+        },
+        {
+          "id": "kairo-lux-19",
+          "title": "Full Throttle",
+          "description": "Maximum output the entire track."
+        },
+        {
+          "id": "kairo-lux-20",
+          "title": "Night Mode",
+          "description": "Switching on when the sun goes down."
+        },
+        {
+          "id": "kairo-lux-21",
+          "title": "Electric",
+          "description": "Melodies and energy that hit at the same time."
+        },
+        {
+          "id": "kairo-lux-22",
+          "title": "Go Mode",
+          "description": "Locked in from the jump."
+        },
+        {
+          "id": "kairo-lux-23",
+          "title": "Blinding",
+          "description": "Too bright to look at directly."
+        },
+        {
+          "id": "kairo-lux-24",
+          "title": "Last Call",
+          "description": "Saving the biggest moment for the end."
+        }
+      ]
+    },
+    {
+      "id": "blaze-ren",
+      "name": "Blaze Ren",
+      "genre": "Trap Music",
+      "description": "Minimalist trap with cold delivery and luxury lifestyle focus.",
+      "songs": [
+        {
+          "id": "blaze-ren-01",
+          "title": "Quiet Luxury",
+          "description": "Expensive without needing to announce it."
+        },
+        {
+          "id": "blaze-ren-02",
+          "title": "Low Profile",
+          "description": "Moving well while staying out of the noise."
+        },
+        {
+          "id": "blaze-ren-03",
+          "title": "Clean",
+          "description": "No excess, just precision."
+        },
+        {
+          "id": "blaze-ren-04",
+          "title": "Private Jet",
+          "description": "Travel that doesn’t involve waiting."
+        },
+        {
+          "id": "blaze-ren-05",
+          "title": "Minimal",
+          "description": "Saying less and having more."
+        },
+        {
+          "id": "blaze-ren-06",
+          "title": "Cold Cut",
+          "description": "Detached and exact."
+        },
+        {
+          "id": "blaze-ren-07",
+          "title": "Reserved",
+          "description": "Access that most people don’t get."
+        },
+        {
+          "id": "blaze-ren-08",
+          "title": "Silent Money",
+          "description": "Wealth that doesn’t need to be loud."
+        },
+        {
+          "id": "blaze-ren-09",
+          "title": "Tailored",
+          "description": "Everything fitted, nothing extra."
+        },
+        {
+          "id": "blaze-ren-10",
+          "title": "After Dark",
+          "description": "Operating once the day people are gone."
+        },
+        {
+          "id": "blaze-ren-11",
+          "title": "No Logos",
+          "description": "Quality that doesn’t require branding."
+        },
+        {
+          "id": "blaze-ren-12",
+          "title": "Distance",
+          "description": "Keeping space between yourself and everyone else."
+        },
+        {
+          "id": "blaze-ren-13",
+          "title": "Polished",
+          "description": "Smooth on the surface, sharp underneath."
+        },
+        {
+          "id": "blaze-ren-14",
+          "title": "Members Only",
+          "description": "Circles that stay small on purpose."
+        },
+        {
+          "id": "blaze-ren-15",
+          "title": "Low Key",
+          "description": "Success that doesn’t perform for an audience."
+        },
+        {
+          "id": "blaze-ren-16",
+          "title": "Black Card",
+          "description": "Spending without thinking twice."
+        },
+        {
+          "id": "blaze-ren-17",
+          "title": "Still",
+          "description": "Calm while everything else moves."
+        },
+        {
+          "id": "blaze-ren-18",
+          "title": "Exclusive",
+          "description": "Places and people most never reach."
+        },
+        {
+          "id": "blaze-ren-19",
+          "title": "Understated",
+          "description": "Power that doesn’t raise its voice."
+        },
+        {
+          "id": "blaze-ren-20",
+          "title": "Night Reservation",
+          "description": "Tables and rooms booked without names."
+        },
+        {
+          "id": "blaze-ren-21",
+          "title": "Clean Lines",
+          "description": "Aesthetic and lifestyle with nothing wasted."
+        },
+        {
+          "id": "blaze-ren-22",
+          "title": "Unbothered",
+          "description": "Watching from a distance."
+        },
+        {
+          "id": "blaze-ren-23",
+          "title": "Private Number",
+          "description": "Only certain people can reach you."
+        },
+        {
+          "id": "blaze-ren-24",
+          "title": "Final Touch",
+          "description": "The small detail that completes everything."
+        }
+      ]
+    },
+    {
+      "id": "mira-ellison",
+      "name": "Mira Ellison",
+      "genre": "Indie Music",
+      "description": "Dreamy indie folk with soft vocals and introspective lyrics.",
+      "songs": [
+        {
+          "id": "mira-ellison-01",
+          "title": "Soft Morning",
+          "description": "Waking up slowly and noticing how quiet everything feels."
+        },
+        {
+          "id": "mira-ellison-02",
+          "title": "Paper Boats",
+          "description": "Small hopes that drift without a clear direction."
+        },
+        {
+          "id": "mira-ellison-03",
+          "title": "Window Light",
+          "description": "Sitting with thoughts while the day moves outside."
+        },
+        {
+          "id": "mira-ellison-04",
+          "title": "Gentle",
+          "description": "Trying to be kind to yourself after a hard stretch."
+        },
+        {
+          "id": "mira-ellison-05",
+          "title": "Old Letters",
+          "description": "Rereading things you wrote when you felt differently."
+        },
+        {
+          "id": "mira-ellison-06",
+          "title": "Slow River",
+          "description": "Letting emotions move at their own pace."
+        },
+        {
+          "id": "mira-ellison-07",
+          "title": "Faded Photograph",
+          "description": "Memories that have lost their sharp edges."
+        },
+        {
+          "id": "mira-ellison-08",
+          "title": "Quiet Room",
+          "description": "Being alone without it feeling heavy."
+        },
+        {
+          "id": "mira-ellison-09",
+          "title": "Wildflowers",
+          "description": "Finding small beauty in ordinary places."
+        },
+        {
+          "id": "mira-ellison-10",
+          "title": "Half Awake",
+          "description": "Existing between sleep and the day ahead."
+        },
+        {
+          "id": "mira-ellison-11",
+          "title": "Soft Edges",
+          "description": "Letting go of the need to have everything defined."
+        },
+        {
+          "id": "mira-ellison-12",
+          "title": "Distant Hills",
+          "description": "Wanting space without fully leaving."
+        },
+        {
+          "id": "mira-ellison-13",
+          "title": "Linen",
+          "description": "Simple comforts that still mean something."
+        },
+        {
+          "id": "mira-ellison-14",
+          "title": "Low Voice",
+          "description": "Speaking carefully about things that still hurt."
+        },
+        {
+          "id": "mira-ellison-15",
+          "title": "Open Field",
+          "description": "Feeling exposed but oddly calm."
+        },
+        {
+          "id": "mira-ellison-16",
+          "title": "Morning Dew",
+          "description": "Fresh starts that don’t last as long as you hoped."
+        },
+        {
+          "id": "mira-ellison-17",
+          "title": "Unspoken",
+          "description": "Feelings that stay inside because saying them might change everything."
+        },
+        {
+          "id": "mira-ellison-18",
+          "title": "Pale Sky",
+          "description": "A day that never fully brightens."
+        },
+        {
+          "id": "mira-ellison-19",
+          "title": "Small Hands",
+          "description": "Holding onto things more lightly than before."
+        },
+        {
+          "id": "mira-ellison-20",
+          "title": "Driftwood",
+          "description": "Pieces of the past that wash up when you least expect them."
+        },
+        {
+          "id": "mira-ellison-21",
+          "title": "Soft Landing",
+          "description": "Hoping the next part of life is gentler."
+        },
+        {
+          "id": "mira-ellison-22",
+          "title": "Evening Walk",
+          "description": "Clearing your head with no particular destination."
+        },
+        {
+          "id": "mira-ellison-23",
+          "title": "Faint Glow",
+          "description": "A small sense of hope that hasn’t gone out."
+        },
+        {
+          "id": "mira-ellison-24",
+          "title": "Still Here",
+          "description": "Remaining even after things have changed."
+        }
+      ]
+    },
+    {
+      "id": "the-hollow-kin",
+      "name": "The Hollow Kin",
+      "genre": "Indie Music",
+      "description": "Indie rock band with jangly guitars and melancholic storytelling.",
+      "songs": [
+        {
+          "id": "the-hollow-kin-01",
+          "title": "Empty Rooms",
+          "description": "Walking through a place that used to feel full."
+        },
+        {
+          "id": "the-hollow-kin-02",
+          "title": "Last Summer",
+          "description": "Looking back at a season that felt like it would last longer."
+        },
+        {
+          "id": "the-hollow-kin-03",
+          "title": "Broken Strings",
+          "description": "Trying to play through something that’s already falling apart."
+        },
+        {
+          "id": "the-hollow-kin-04",
+          "title": "Highway Lights",
+          "description": "Leaving town with mixed feelings."
+        },
+        {
+          "id": "the-hollow-kin-05",
+          "title": "Old Friends",
+          "description": "People you still care about but no longer know how to talk to."
+        },
+        {
+          "id": "the-hollow-kin-06",
+          "title": "Rain on Glass",
+          "description": "Watching the world blur while you stay inside."
+        },
+        {
+          "id": "the-hollow-kin-07",
+          "title": "Fading Signal",
+          "description": "Connection that keeps cutting out."
+        },
+        {
+          "id": "the-hollow-kin-08",
+          "title": "Small Town Ghost",
+          "description": "Feeling like a stranger in the place you grew up."
+        },
+        {
+          "id": "the-hollow-kin-09",
+          "title": "Late Train",
+          "description": "Missing the moment you were supposed to leave."
+        },
+        {
+          "id": "the-hollow-kin-10",
+          "title": "Worn Out",
+          "description": "Relationships and places that have lost their shape."
+        },
+        {
+          "id": "the-hollow-kin-11",
+          "title": "Streetlights",
+          "description": "Driving the same roads and noticing what’s gone."
+        },
+        {
+          "id": "the-hollow-kin-12",
+          "title": "Quiet Fight",
+          "description": "Tension that never turns into an actual argument."
+        },
+        {
+          "id": "the-hollow-kin-13",
+          "title": "Lost Weekend",
+          "description": "Time that disappeared without much to show for it."
+        },
+        {
+          "id": "the-hollow-kin-14",
+          "title": "Hollow Sound",
+          "description": "Music and memories that don’t hit the same way anymore."
+        },
+        {
+          "id": "the-hollow-kin-15",
+          "title": "Leaving Early",
+          "description": "Walking away before things get worse."
+        },
+        {
+          "id": "the-hollow-kin-16",
+          "title": "Old Jacket",
+          "description": "Holding onto something that doesn’t fit like it used to."
+        },
+        {
+          "id": "the-hollow-kin-17",
+          "title": "Distant Voices",
+          "description": "Conversations you can barely remember."
+        },
+        {
+          "id": "the-hollow-kin-18",
+          "title": "Cold Morning",
+          "description": "Starting the day already tired."
+        },
+        {
+          "id": "the-hollow-kin-19",
+          "title": "Paper Town",
+          "description": "A place that looked more solid from far away."
+        },
+        {
+          "id": "the-hollow-kin-20",
+          "title": "Last Call",
+          "description": "One more night before everything changes."
+        },
+        {
+          "id": "the-hollow-kin-21",
+          "title": "Echo Chamber",
+          "description": "Hearing the same thoughts on repeat."
+        },
+        {
+          "id": "the-hollow-kin-22",
+          "title": "Faded Denim",
+          "description": "Comfort that has become a little too familiar."
+        },
+        {
+          "id": "the-hollow-kin-23",
+          "title": "Slow Goodbye",
+          "description": "Ending something without a clear moment."
+        },
+        {
+          "id": "the-hollow-kin-24",
+          "title": "Still Playing",
+          "description": "Continuing even when the song doesn’t feel right anymore."
+        }
+      ]
+    },
+    {
+      "id": "felix-rowan",
+      "name": "Felix Rowan",
+      "genre": "Indie Music",
+      "description": "Bedroom indie pop with lo-fi textures and vulnerable songwriting.",
+      "songs": [
+        {
+          "id": "felix-rowan-01",
+          "title": "Unread",
+          "description": "Messages you open but never answer."
+        },
+        {
+          "id": "felix-rowan-02",
+          "title": "Low Battery",
+          "description": "Running on empty and still trying to function."
+        },
+        {
+          "id": "felix-rowan-03",
+          "title": "Soft Static",
+          "description": "Background noise that matches how your head feels."
+        },
+        {
+          "id": "felix-rowan-04",
+          "title": "Almost Text",
+          "description": "Typing something and deleting it."
+        },
+        {
+          "id": "felix-rowan-05",
+          "title": "Dim Screen",
+          "description": "Late nights spent doing nothing in particular."
+        },
+        {
+          "id": "felix-rowan-06",
+          "title": "Small Room",
+          "description": "Feeling both safe and stuck in the same space."
+        },
+        {
+          "id": "felix-rowan-07",
+          "title": "Half Asleep",
+          "description": "Thoughts that only make sense at 3 a.m."
+        },
+        {
+          "id": "felix-rowan-08",
+          "title": "Old Playlist",
+          "description": "Songs that bring back a version of you that no longer exists."
+        },
+        {
+          "id": "felix-rowan-09",
+          "title": "Quiet Panic",
+          "description": "Worry that stays under the surface."
+        },
+        {
+          "id": "felix-rowan-10",
+          "title": "Missed Call",
+          "description": "Wanting to talk but not knowing what to say."
+        },
+        {
+          "id": "felix-rowan-11",
+          "title": "Faded Hoodie",
+          "description": "Comfort clothes that have seen better days."
+        },
+        {
+          "id": "felix-rowan-12",
+          "title": "Late Reply",
+          "description": "Answering long after the moment has passed."
+        },
+        {
+          "id": "felix-rowan-13",
+          "title": "Low Light",
+          "description": "Preferring the dark when you’re not ready to be seen."
+        },
+        {
+          "id": "felix-rowan-14",
+          "title": "Unsent Draft",
+          "description": "Words that stay in the notes app."
+        },
+        {
+          "id": "felix-rowan-15",
+          "title": "Soft Crash",
+          "description": "Falling apart slowly instead of all at once."
+        },
+        {
+          "id": "felix-rowan-16",
+          "title": "Empty Inbox",
+          "description": "Waiting for something that doesn’t come."
+        },
+        {
+          "id": "felix-rowan-17",
+          "title": "Night Mode",
+          "description": "Living mostly after everyone else is asleep."
+        },
+        {
+          "id": "felix-rowan-18",
+          "title": "Gentle Lie",
+          "description": "Telling yourself you’re fine."
+        },
+        {
+          "id": "felix-rowan-19",
+          "title": "Blurry",
+          "description": "Days that blend together."
+        },
+        {
+          "id": "felix-rowan-20",
+          "title": "Small Voice",
+          "description": "Speaking up even when it feels pointless."
+        },
+        {
+          "id": "felix-rowan-21",
+          "title": "Charging",
+          "description": "Trying to recover without fully stopping."
+        },
+        {
+          "id": "felix-rowan-22",
+          "title": "Old Tab",
+          "description": "Something you meant to deal with and never did."
+        },
+        {
+          "id": "felix-rowan-23",
+          "title": "Quiet Room",
+          "description": "Being alone with your own thoughts."
+        },
+        {
+          "id": "felix-rowan-24",
+          "title": "Still Typing",
+          "description": "Not ready to send it yet."
+        }
+      ]
+    },
+    {
+      "id": "sable-the-night",
+      "name": "Sable & the Night",
+      "genre": "Indie Music",
+      "description": "Atmospheric indie with electronic undertones and poetic imagery.",
+      "songs": [
+        {
+          "id": "sable-the-night-01",
+          "title": "Black Water",
+          "description": "Emotions that run deep and stay mostly unseen."
+        },
+        {
+          "id": "sable-the-night-02",
+          "title": "Neon Ghost",
+          "description": "Memories that glow but don’t feel solid."
+        },
+        {
+          "id": "sable-the-night-03",
+          "title": "Low Orbit",
+          "description": "Circling something without ever landing."
+        },
+        {
+          "id": "sable-the-night-04",
+          "title": "Silver Static",
+          "description": "Noise that almost sounds like meaning."
+        },
+        {
+          "id": "sable-the-night-05",
+          "title": "Night Bloom",
+          "description": "Things that only open after dark."
+        },
+        {
+          "id": "sable-the-night-06",
+          "title": "Distant Frequency",
+          "description": "A signal you can barely catch."
+        },
+        {
+          "id": "sable-the-night-07",
+          "title": "Glass City",
+          "description": "A place that looks beautiful but feels cold."
+        },
+        {
+          "id": "sable-the-night-08",
+          "title": "Soft Voltage",
+          "description": "Tension that hums just under the surface."
+        },
+        {
+          "id": "sable-the-night-09",
+          "title": "Moon Pool",
+          "description": "Stillness that reflects more than it shows."
+        },
+        {
+          "id": "sable-the-night-10",
+          "title": "Faint Pulse",
+          "description": "Life continuing at a reduced rate."
+        },
+        {
+          "id": "sable-the-night-11",
+          "title": "Shadow Garden",
+          "description": "Growth that happens away from the light."
+        },
+        {
+          "id": "sable-the-night-12",
+          "title": "Cold Transmission",
+          "description": "Messages that arrive without warmth."
+        },
+        {
+          "id": "sable-the-night-13",
+          "title": "Violet Hour",
+          "description": "The strange time between day and night."
+        },
+        {
+          "id": "sable-the-night-14",
+          "title": "Empty Frequency",
+          "description": "Searching for something that isn’t answering."
+        },
+        {
+          "id": "sable-the-night-15",
+          "title": "Liquid Night",
+          "description": "Darkness that feels like it could swallow you."
+        },
+        {
+          "id": "sable-the-night-16",
+          "title": "Pale Circuit",
+          "description": "Moving through routines that no longer feel alive."
+        },
+        {
+          "id": "sable-the-night-17",
+          "title": "Afterglow",
+          "description": "The light that remains once the main event is over."
+        },
+        {
+          "id": "sable-the-night-18",
+          "title": "Low Current",
+          "description": "Energy that keeps flowing even when it’s weak."
+        },
+        {
+          "id": "sable-the-night-19",
+          "title": "Mirror Lake",
+          "description": "Seeing yourself clearly and not liking all of it."
+        },
+        {
+          "id": "sable-the-night-20",
+          "title": "Night Architecture",
+          "description": "Structures that only make sense in the dark."
+        },
+        {
+          "id": "sable-the-night-21",
+          "title": "Soft Collapse",
+          "description": "Falling apart without making much noise."
+        },
+        {
+          "id": "sable-the-night-22",
+          "title": "Distant Shore",
+          "description": "A place you can see but can’t quite reach."
+        },
+        {
+          "id": "sable-the-night-23",
+          "title": "Black Silk",
+          "description": "Darkness that feels smooth instead of harsh."
+        },
+        {
+          "id": "sable-the-night-24",
+          "title": "Final Signal",
+          "description": "The last thing that gets through before silence."
+        }
+      ]
+    },
+    {
+      "id": "elena-voss",
+      "name": "Elena Voss",
+      "genre": "Pop Music",
+      "description": "Bright, anthemic pop with strong hooks and danceable production.",
+      "songs": [
+        {
+          "id": "elena-voss-01",
+          "title": "Higher",
+          "description": "Pushing past limits and feeling unstoppable."
+        },
+        {
+          "id": "elena-voss-02",
+          "title": "Lights On",
+          "description": "Owning the moment once the night starts."
+        },
+        {
+          "id": "elena-voss-03",
+          "title": "Run It Back",
+          "description": "Wanting the high of a perfect night again."
+        },
+        {
+          "id": "elena-voss-04",
+          "title": "Golden Hour",
+          "description": "Everything lining up exactly right."
+        },
+        {
+          "id": "elena-voss-05",
+          "title": "No Brakes",
+          "description": "Moving full speed without second-guessing."
+        },
+        {
+          "id": "elena-voss-06",
+          "title": "City Glow",
+          "description": "Falling in love with the energy of the night."
+        },
+        {
+          "id": "elena-voss-07",
+          "title": "Turn It Up",
+          "description": "Demanding more volume and more life."
+        },
+        {
+          "id": "elena-voss-08",
+          "title": "Skyline",
+          "description": "Looking at how far you’ve come."
+        },
+        {
+          "id": "elena-voss-09",
+          "title": "Electric",
+          "description": "Chemistry that hits instantly."
+        },
+        {
+          "id": "elena-voss-10",
+          "title": "All Night",
+          "description": "Refusing to let the good feeling end."
+        },
+        {
+          "id": "elena-voss-11",
+          "title": "Rise",
+          "description": "Coming back stronger after being down."
+        },
+        {
+          "id": "elena-voss-12",
+          "title": "Spotlight",
+          "description": "Stepping into the center without apology."
+        },
+        {
+          "id": "elena-voss-13",
+          "title": "Feel Alive",
+          "description": "Remembering what it feels like to fully show up."
+        },
+        {
+          "id": "elena-voss-14",
+          "title": "Neon Heart",
+          "description": "Love that burns bright and fast."
+        },
+        {
+          "id": "elena-voss-15",
+          "title": "Go",
+          "description": "The moment you finally decide to move."
+        },
+        {
+          "id": "elena-voss-16",
+          "title": "Full Volume",
+          "description": "Living without turning yourself down."
+        },
+        {
+          "id": "elena-voss-17",
+          "title": "After Dark",
+          "description": "The version of you that only exists at night."
+        },
+        {
+          "id": "elena-voss-18",
+          "title": "Bright Side",
+          "description": "Choosing optimism even when it’s hard."
+        },
+        {
+          "id": "elena-voss-19",
+          "title": "Dancefloor",
+          "description": "Losing yourself in the music and the crowd."
+        },
+        {
+          "id": "elena-voss-20",
+          "title": "New Light",
+          "description": "Starting over with clearer eyes."
+        },
+        {
+          "id": "elena-voss-21",
+          "title": "Unstoppable",
+          "description": "Momentum that keeps building."
+        },
+        {
+          "id": "elena-voss-22",
+          "title": "Late Arrival",
+          "description": "Showing up exactly when you’re ready."
+        },
+        {
+          "id": "elena-voss-23",
+          "title": "Fireworks",
+          "description": "Moments that feel bigger than they should."
+        },
+        {
+          "id": "elena-voss-24",
+          "title": "Forever Young",
+          "description": "Holding onto the feeling of being fully alive."
+        }
+      ]
+    },
+    {
+      "id": "max-calder",
+      "name": "Max Calder",
+      "genre": "Pop Music",
+      "description": "Mid-tempo pop with emotional ballads and polished radio sound.",
+      "songs": [
+        {
+          "id": "max-calder-01",
+          "title": "Almost",
+          "description": "Getting close to something real and watching it slip."
+        },
+        {
+          "id": "max-calder-02",
+          "title": "Still Love You",
+          "description": "Feelings that didn’t leave when the relationship did."
+        },
+        {
+          "id": "max-calder-03",
+          "title": "Late Night Call",
+          "description": "Reaching out when you know you shouldn’t."
+        },
+        {
+          "id": "max-calder-04",
+          "title": "Half of Me",
+          "description": "Trying to function after losing someone important."
+        },
+        {
+          "id": "max-calder-05",
+          "title": "Quiet Storm",
+          "description": "Emotions that build without much warning."
+        },
+        {
+          "id": "max-calder-06",
+          "title": "Used To",
+          "description": "Missing the way things were."
+        },
+        {
+          "id": "max-calder-07",
+          "title": "Open Wound",
+          "description": "Hurt that hasn’t fully closed."
+        },
+        {
+          "id": "max-calder-08",
+          "title": "Stay",
+          "description": "Asking for more time even when you know the answer."
+        },
+        {
+          "id": "max-calder-09",
+          "title": "Fading",
+          "description": "Watching connection slowly disappear."
+        },
+        {
+          "id": "max-calder-10",
+          "title": "One More Time",
+          "description": "Wanting a final chance."
+        },
+        {
+          "id": "max-calder-11",
+          "title": "Empty Space",
+          "description": "The absence that takes up the most room."
+        },
+        {
+          "id": "max-calder-12",
+          "title": "Soft Landing",
+          "description": "Hoping the end doesn’t hurt as much as you expect."
+        },
+        {
+          "id": "max-calder-13",
+          "title": "Missed You",
+          "description": "Realizing how much someone mattered after they’re gone."
+        },
+        {
+          "id": "max-calder-14",
+          "title": "Low",
+          "description": "The heavy days that follow a breakup."
+        },
+        {
+          "id": "max-calder-15",
+          "title": "Remember",
+          "description": "Small details that keep coming back."
+        },
+        {
+          "id": "max-calder-16",
+          "title": "Letting Go",
+          "description": "The slow process of releasing someone."
+        },
+        {
+          "id": "max-calder-17",
+          "title": "After You",
+          "description": "Life continuing once the main chapter ends."
+        },
+        {
+          "id": "max-calder-18",
+          "title": "Heavy Heart",
+          "description": "Carrying feelings that are hard to put down."
+        },
+        {
+          "id": "max-calder-19",
+          "title": "Last Song",
+          "description": "Saying goodbye through music instead of words."
+        },
+        {
+          "id": "max-calder-20",
+          "title": "Better Days",
+          "description": "Believing things will improve even if they haven’t yet."
+        },
+        {
+          "id": "max-calder-21",
+          "title": "Silent Treatment",
+          "description": "Distance that says more than an argument."
+        },
+        {
+          "id": "max-calder-22",
+          "title": "Old Photograph",
+          "description": "Proof that things were once different."
+        },
+        {
+          "id": "max-calder-23",
+          "title": "Slow Fade",
+          "description": "A relationship ending without a clear breaking point."
+        },
+        {
+          "id": "max-calder-24",
+          "title": "Still Here",
+          "description": "Remaining even after everything changed."
+        }
+      ]
+    },
+    {
+      "id": "aria-bloom",
+      "name": "Aria Bloom",
+      "genre": "Pop Music",
+      "description": "Upbeat, colorful pop with retro influences and empowering themes.",
+      "songs": [
+        {
+          "id": "aria-bloom-01",
+          "title": "Shine",
+          "description": "Refusing to dim yourself for anyone."
+        },
+        {
+          "id": "aria-bloom-02",
+          "title": "Own It",
+          "description": "Claiming your space without apology."
+        },
+        {
+          "id": "aria-bloom-03",
+          "title": "Color Me",
+          "description": "Living loudly and unapologetically."
+        },
+        {
+          "id": "aria-bloom-04",
+          "title": "Good Energy",
+          "description": "Protecting your peace and your vibe."
+        },
+        {
+          "id": "aria-bloom-05",
+          "title": "Retro Heart",
+          "description": "Love that feels classic and new at the same time."
+        },
+        {
+          "id": "aria-bloom-06",
+          "title": "Level Up",
+          "description": "Becoming the version of yourself you wanted."
+        },
+        {
+          "id": "aria-bloom-07",
+          "title": "Bright Future",
+          "description": "Looking ahead with confidence."
+        },
+        {
+          "id": "aria-bloom-08",
+          "title": "No Permission",
+          "description": "Moving forward without waiting for approval."
+        },
+        {
+          "id": "aria-bloom-09",
+          "title": "Glow Up",
+          "description": "The visible result of quiet work."
+        },
+        {
+          "id": "aria-bloom-10",
+          "title": "Main Character",
+          "description": "Treating your life like it matters."
+        },
+        {
+          "id": "aria-bloom-11",
+          "title": "Sunny Side",
+          "description": "Choosing light even on harder days."
+        },
+        {
+          "id": "aria-bloom-12",
+          "title": "Free",
+          "description": "Letting go of what was holding you back."
+        },
+        {
+          "id": "aria-bloom-13",
+          "title": "Bold",
+          "description": "Saying and doing the thing you used to hesitate on."
+        },
+        {
+          "id": "aria-bloom-14",
+          "title": "New Era",
+          "description": "Stepping into a different chapter on purpose."
+        },
+        {
+          "id": "aria-bloom-15",
+          "title": "Confidence",
+          "description": "Trusting yourself out loud."
+        },
+        {
+          "id": "aria-bloom-16",
+          "title": "Electric Love",
+          "description": "Connection that feels exciting and alive."
+        },
+        {
+          "id": "aria-bloom-17",
+          "title": "Stand Tall",
+          "description": "Holding your ground."
+        },
+        {
+          "id": "aria-bloom-18",
+          "title": "Good Vibes Only",
+          "description": "Curating the energy around you."
+        },
+        {
+          "id": "aria-bloom-19",
+          "title": "Rise Up",
+          "description": "Coming back after being underestimated."
+        },
+        {
+          "id": "aria-bloom-20",
+          "title": "Limitless",
+          "description": "Refusing to accept old ceilings."
+        },
+        {
+          "id": "aria-bloom-21",
+          "title": "Pretty Powerful",
+          "description": "Strength that doesn’t hide."
+        },
+        {
+          "id": "aria-bloom-22",
+          "title": "Weekend Mood",
+          "description": "Living like the good days can last."
+        },
+        {
+          "id": "aria-bloom-23",
+          "title": "Own the Night",
+          "description": "Taking up space after dark."
+        },
+        {
+          "id": "aria-bloom-24",
+          "title": "Forever Bright",
+          "description": "Keeping your light even when things get heavy."
+        }
+      ]
+    },
+    {
+      "id": "julian-hart",
+      "name": "Julian Hart",
+      "genre": "Pop Music",
+      "description": "Smooth contemporary pop with R&B-tinged vocals.",
+      "songs": [
+        {
+          "id": "julian-hart-01",
+          "title": "Close",
+          "description": "Wanting someone near without rushing it."
+        },
+        {
+          "id": "julian-hart-02",
+          "title": "Slow Dance",
+          "description": "Taking your time with someone who matters."
+        },
+        {
+          "id": "julian-hart-03",
+          "title": "Midnight",
+          "description": "The hours when everything feels more honest."
+        },
+        {
+          "id": "julian-hart-04",
+          "title": "Soft Touch",
+          "description": "Intimacy that doesn’t need to be loud."
+        },
+        {
+          "id": "julian-hart-05",
+          "title": "Stay With Me",
+          "description": "Asking for presence more than promises."
+        },
+        {
+          "id": "julian-hart-06",
+          "title": "Body Language",
+          "description": "Understanding someone without many words."
+        },
+        {
+          "id": "julian-hart-07",
+          "title": "Late",
+          "description": "Showing up after you’ve already been thinking about them."
+        },
+        {
+          "id": "julian-hart-08",
+          "title": "Warm",
+          "description": "The feeling of being comfortable with someone."
+        },
+        {
+          "id": "julian-hart-09",
+          "title": "No Rush",
+          "description": "Letting things develop naturally."
+        },
+        {
+          "id": "julian-hart-10",
+          "title": "Eyes on You",
+          "description": "Attention that feels intentional."
+        },
+        {
+          "id": "julian-hart-11",
+          "title": "After Hours",
+          "description": "The version of the night that belongs to just the two of you."
+        },
+        {
+          "id": "julian-hart-12",
+          "title": "Gentle",
+          "description": "Handling someone with care."
+        },
+        {
+          "id": "julian-hart-13",
+          "title": "Pull You Close",
+          "description": "Closing the distance on purpose."
+        },
+        {
+          "id": "julian-hart-14",
+          "title": "Low Light",
+          "description": "Preferring the dark when you’re with them."
+        },
+        {
+          "id": "julian-hart-15",
+          "title": "Smooth",
+          "description": "Everything feeling easy for once."
+        },
+        {
+          "id": "julian-hart-16",
+          "title": "Hold On",
+          "description": "Not wanting the moment to end."
+        },
+        {
+          "id": "julian-hart-17",
+          "title": "Quiet Night",
+          "description": "Being together without needing to fill the silence."
+        },
+        {
+          "id": "julian-hart-18",
+          "title": "Feel You",
+          "description": "Physical and emotional closeness at the same time."
+        },
+        {
+          "id": "julian-hart-19",
+          "title": "Slow",
+          "description": "Moving at a pace that actually feels good."
+        },
+        {
+          "id": "julian-hart-20",
+          "title": "Right Here",
+          "description": "Choosing to stay present."
+        },
+        {
+          "id": "julian-hart-21",
+          "title": "Soft Focus",
+          "description": "Everything else fading when they’re around."
+        },
+        {
+          "id": "julian-hart-22",
+          "title": "Night In",
+          "description": "Preferring their company over going out."
+        },
+        {
+          "id": "julian-hart-23",
+          "title": "Closer",
+          "description": "The gradual way two people start to overlap."
+        },
+        {
+          "id": "julian-hart-24",
+          "title": "Stay",
+          "description": "Wanting them to remain even after the song ends."
+        }
+      ]
+    },
+    {
+      "id": "haneul",
+      "name": "Haneul",
+      "genre": "K-Pop",
+      "description": "Solo artist with elegant, emotional vocals and refined choreography-focused concepts.",
+      "songs": [
+        {
+          "id": "haneul-01",
+          "title": "달빛 (Moonlight)",
+          "description": "Quiet longing under a soft night sky."
+        },
+        {
+          "id": "haneul-02",
+          "title": "숨 (Breath)",
+          "description": "The space between words when feelings are too heavy."
+        },
+        {
+          "id": "haneul-03",
+          "title": "하얀 밤 (White Night)",
+          "description": "A sleepless evening spent thinking of someone."
+        },
+        {
+          "id": "haneul-04",
+          "title": "잔상 (Afterimage)",
+          "description": "The shape of a person that stays after they’re gone."
+        },
+        {
+          "id": "haneul-05",
+          "title": "천천히 (Slowly)",
+          "description": "Letting emotions unfold without forcing them."
+        },
+        {
+          "id": "haneul-06",
+          "title": "유리심장 (Glass Heart)",
+          "description": "Fragile but still willing to feel."
+        },
+        {
+          "id": "haneul-07",
+          "title": "밤의 온도 (Temperature of the Night)",
+          "description": "Warmth that only exists after dark."
+        },
+        {
+          "id": "haneul-08",
+          "title": "너에게 (To You)",
+          "description": "Words meant for one person."
+        },
+        {
+          "id": "haneul-09",
+          "title": "고요 (Silence)",
+          "description": "Comfort found in the absence of noise."
+        },
+        {
+          "id": "haneul-10",
+          "title": "꽃잎 (Petal)",
+          "description": "Something beautiful that doesn’t last long."
+        },
+        {
+          "id": "haneul-11",
+          "title": "마지막 춤 (Last Dance)",
+          "description": "Holding on for one final moment."
+        },
+        {
+          "id": "haneul-12",
+          "title": "별 (Star)",
+          "description": "Someone who shines even from far away."
+        },
+        {
+          "id": "haneul-13",
+          "title": "기억의 끝 (End of Memory)",
+          "description": "Trying to let go of what keeps returning."
+        },
+        {
+          "id": "haneul-14",
+          "title": "부드러운 이별 (Soft Goodbye)",
+          "description": "Leaving without sharpness."
+        },
+        {
+          "id": "haneul-15",
+          "title": "혼자 (Alone)",
+          "description": "Being by yourself and learning how it feels."
+        },
+        {
+          "id": "haneul-16",
+          "title": "새벽 (Dawn)",
+          "description": "The quiet hours before the day begins."
+        },
+        {
+          "id": "haneul-17",
+          "title": "마음 (Heart)",
+          "description": "What remains when everything else is stripped away."
+        },
+        {
+          "id": "haneul-18",
+          "title": "비 (Rain)",
+          "description": "Emotions that fall without warning."
+        },
+        {
+          "id": "haneul-19",
+          "title": "가까운 거리 (Close Distance)",
+          "description": "Near someone but still apart."
+        },
+        {
+          "id": "haneul-20",
+          "title": "하얀 소음 (White Noise)",
+          "description": "Background feelings that never fully leave."
+        },
+        {
+          "id": "haneul-21",
+          "title": "마지막 페이지 (Last Page)",
+          "description": "Closing a chapter carefully."
+        },
+        {
+          "id": "haneul-22",
+          "title": "숨결 (Breath of You)",
+          "description": "The small traces someone leaves behind."
+        },
+        {
+          "id": "haneul-23",
+          "title": "빛 (Light)",
+          "description": "Holding onto something gentle."
+        },
+        {
+          "id": "haneul-24",
+          "title": "여전히 (Still)",
+          "description": "Feelings that haven’t faded."
+        }
+      ]
+    },
+    {
+      "id": "lumina",
+      "name": "LUMINA",
+      "genre": "K-Pop",
+      "description": "Girl group known for powerful performances and bright, catchy tracks.",
+      "songs": [
+        {
+          "id": "lumina-01",
+          "title": "Shine",
+          "description": "Owning the stage and the moment."
+        },
+        {
+          "id": "lumina-02",
+          "title": "불꽃 (Spark)",
+          "description": "Energy that catches instantly."
+        },
+        {
+          "id": "lumina-03",
+          "title": "We Go Up",
+          "description": "Rising together no matter what."
+        },
+        {
+          "id": "lumina-04",
+          "title": "태양 (Sun)",
+          "description": "Bright, warm, and impossible to ignore."
+        },
+        {
+          "id": "lumina-05",
+          "title": "Runway",
+          "description": "Walking like the world is watching."
+        },
+        {
+          "id": "lumina-06",
+          "title": "반짝 (Twinkle)",
+          "description": "Small moments that still light everything up."
+        },
+        {
+          "id": "lumina-07",
+          "title": "Higher",
+          "description": "Pushing past every limit."
+        },
+        {
+          "id": "lumina-08",
+          "title": "오늘 밤 (Tonight)",
+          "description": "Living fully once the sun goes down."
+        },
+        {
+          "id": "lumina-09",
+          "title": "Power",
+          "description": "Strength shown through performance."
+        },
+        {
+          "id": "lumina-10",
+          "title": "꽃 (Bloom)",
+          "description": "Growing into who you’re meant to be."
+        },
+        {
+          "id": "lumina-11",
+          "title": "Lights",
+          "description": "Turning everything on at once."
+        },
+        {
+          "id": "lumina-12",
+          "title": "우리 (Us)",
+          "description": "Moving as one."
+        },
+        {
+          "id": "lumina-13",
+          "title": "Dream",
+          "description": "Chasing something bigger than the present."
+        },
+        {
+          "id": "lumina-14",
+          "title": "불타 (Burn)",
+          "description": "Passion that doesn’t cool down."
+        },
+        {
+          "id": "lumina-15",
+          "title": "Sky",
+          "description": "Refusing to stay on the ground."
+        },
+        {
+          "id": "lumina-16",
+          "title": "시작 (Start)",
+          "description": "The first step into something new."
+        },
+        {
+          "id": "lumina-17",
+          "title": "Golden",
+          "description": "A moment that feels perfect."
+        },
+        {
+          "id": "lumina-18",
+          "title": "Dance",
+          "description": "Letting the body say what words can’t."
+        },
+        {
+          "id": "lumina-19",
+          "title": "Forever",
+          "description": "Wanting the feeling to last."
+        },
+        {
+          "id": "lumina-20",
+          "title": "Bright",
+          "description": "Refusing to dim."
+        },
+        {
+          "id": "lumina-21",
+          "title": "우리만 (Only Us)",
+          "description": "A world that belongs to the group."
+        },
+        {
+          "id": "lumina-22",
+          "title": "Fire",
+          "description": "Heat that spreads through the room."
+        },
+        {
+          "id": "lumina-23",
+          "title": "New Day",
+          "description": "Waking up ready."
+        },
+        {
+          "id": "lumina-24",
+          "title": "Lumina",
+          "description": "Becoming the light itself."
+        }
+      ]
+    },
+    {
+      "id": "kaien",
+      "name": "Kaien",
+      "genre": "K-Pop",
+      "description": "Male soloist blending dark concepts with intricate dance and strong vocals.",
+      "songs": [
+        {
+          "id": "kaien-01",
+          "title": "그림자 (Shadow)",
+          "description": "The parts of yourself you keep hidden."
+        },
+        {
+          "id": "kaien-02",
+          "title": "Black",
+          "description": "Moving through darkness on purpose."
+        },
+        {
+          "id": "kaien-03",
+          "title": "악마 (Devil)",
+          "description": "Temptation that feels too good to refuse."
+        },
+        {
+          "id": "kaien-04",
+          "title": "Night",
+          "description": "The hours when the real self appears."
+        },
+        {
+          "id": "kaien-05",
+          "title": "붉은 (Crimson)",
+          "description": "Intensity that borders on dangerous."
+        },
+        {
+          "id": "kaien-06",
+          "title": "Alone",
+          "description": "Choosing solitude over false company."
+        },
+        {
+          "id": "kaien-07",
+          "title": "칼날 (Blade)",
+          "description": "Sharp, precise, and cutting."
+        },
+        {
+          "id": "kaien-08",
+          "title": "Monster",
+          "description": "Embracing the version of you others fear."
+        },
+        {
+          "id": "kaien-09",
+          "title": "침묵 (Silence)",
+          "description": "Power in what isn’t said."
+        },
+        {
+          "id": "kaien-10",
+          "title": "Dark",
+          "description": "Comfort found in the absence of light."
+        },
+        {
+          "id": "kaien-11",
+          "title": "피 (Blood)",
+          "description": "Ties and choices that can’t be undone."
+        },
+        {
+          "id": "kaien-12",
+          "title": "Cold",
+          "description": "Detachment as a form of control."
+        },
+        {
+          "id": "kaien-13",
+          "title": "밤길 (Night Road)",
+          "description": "Walking paths most people avoid."
+        },
+        {
+          "id": "kaien-14",
+          "title": "Fallen",
+          "description": "What happens after the fall."
+        },
+        {
+          "id": "kaien-15",
+          "title": "독 (Poison)",
+          "description": "Something beautiful that hurts."
+        },
+        {
+          "id": "kaien-16",
+          "title": "Void",
+          "description": "Emptiness that feels intentional."
+        },
+        {
+          "id": "kaien-17",
+          "title": "검은 달 (Black Moon)",
+          "description": "Light that doesn’t illuminate."
+        },
+        {
+          "id": "kaien-18",
+          "title": "Control",
+          "description": "Holding everything in place."
+        },
+        {
+          "id": "kaien-19",
+          "title": "상처 (Scar)",
+          "description": "Marks that prove you survived."
+        },
+        {
+          "id": "kaien-20",
+          "title": "End",
+          "description": "Closing something permanently."
+        },
+        {
+          "id": "kaien-21",
+          "title": "저주 (Curse)",
+          "description": "Feelings that won’t leave."
+        },
+        {
+          "id": "kaien-22",
+          "title": "Shadow Play",
+          "description": "Performing the darker version of yourself."
+        },
+        {
+          "id": "kaien-23",
+          "title": "Final",
+          "description": "The last move."
+        },
+        {
+          "id": "kaien-24",
+          "title": "Kaien",
+          "description": "Owning the name and the concept."
+        }
+      ]
+    },
+    {
+      "id": "nova9",
+      "name": "NOVA9",
+      "genre": "K-Pop",
+      "description": "Boy group with synchronized choreography and dual soft/hard concepts.",
+      "songs": [
+        {
+          "id": "nova9-01",
+          "title": "Nova",
+          "description": "Exploding into view."
+        },
+        {
+          "id": "nova9-02",
+          "title": "Soft",
+          "description": "The gentler side shown on purpose."
+        },
+        {
+          "id": "nova9-03",
+          "title": "Hard",
+          "description": "Switching into full intensity."
+        },
+        {
+          "id": "nova9-04",
+          "title": "우리 (We)",
+          "description": "Moving as a unit."
+        },
+        {
+          "id": "nova9-05",
+          "title": "별빛 (Starlight)",
+          "description": "Shining even in the dark."
+        },
+        {
+          "id": "nova9-06",
+          "title": "Switch",
+          "description": "Changing energy mid-performance."
+        },
+        {
+          "id": "nova9-07",
+          "title": "Close",
+          "description": "Intimacy in the softer concept."
+        },
+        {
+          "id": "nova9-08",
+          "title": "Break",
+          "description": "Shattering expectations."
+        },
+        {
+          "id": "nova9-09",
+          "title": "달 (Moon)",
+          "description": "Calm, reflective moments."
+        },
+        {
+          "id": "nova9-10",
+          "title": "Fire",
+          "description": "The harder, sharper side."
+        },
+        {
+          "id": "nova9-11",
+          "title": "One",
+          "description": "Nine members functioning as a single force."
+        },
+        {
+          "id": "nova9-12",
+          "title": "밤 (Night)",
+          "description": "Dual moods that both belong after dark."
+        },
+        {
+          "id": "nova9-13",
+          "title": "Rise",
+          "description": "Coming up together."
+        },
+        {
+          "id": "nova9-14",
+          "title": "Touch",
+          "description": "Soft concept centered on closeness."
+        },
+        {
+          "id": "nova9-15",
+          "title": "Power",
+          "description": "Synchronized strength."
+        },
+        {
+          "id": "nova9-16",
+          "title": "꿈 (Dream)",
+          "description": "Shared ambition."
+        },
+        {
+          "id": "nova9-17",
+          "title": "Edge",
+          "description": "Walking the line between soft and hard."
+        },
+        {
+          "id": "nova9-18",
+          "title": "Light",
+          "description": "Illuminating the stage."
+        },
+        {
+          "id": "nova9-19",
+          "title": "우리만의 (Ours)",
+          "description": "A world built by the group."
+        },
+        {
+          "id": "nova9-20",
+          "title": "Impact",
+          "description": "Hitting at full force."
+        },
+        {
+          "id": "nova9-21",
+          "title": "조용히 (Quietly)",
+          "description": "Strength that doesn’t need to shout."
+        },
+        {
+          "id": "nova9-22",
+          "title": "Explode",
+          "description": "The moment everything peaks."
+        },
+        {
+          "id": "nova9-23",
+          "title": "Stay",
+          "description": "Asking the audience (and each other) to remain."
+        },
+        {
+          "id": "nova9-24",
+          "title": "NOVA9",
+          "description": "The name as the final statement."
+        }
+      ]
+    },
+    {
+      "id": "hikari-aoi",
+      "name": "Hikari Aoi",
+      "genre": "J-Pop",
+      "description": "Bright, energetic J-pop singer with cute concepts and catchy melodies.",
+      "songs": [
+        {
+          "id": "hikari-aoi-01",
+          "title": "きらきら (Kirakira)",
+          "description": "Sparkling energy that lights up the whole room."
+        },
+        {
+          "id": "hikari-aoi-02",
+          "title": "Sunny Day",
+          "description": "Pure, cheerful feelings under a clear sky."
+        },
+        {
+          "id": "hikari-aoi-03",
+          "title": "ハートビート (Heartbeat)",
+          "description": "Excitement that won’t slow down."
+        },
+        {
+          "id": "hikari-aoi-04",
+          "title": "Cute Cute",
+          "description": "Embracing sweetness without holding back."
+        },
+        {
+          "id": "hikari-aoi-05",
+          "title": "Jump!",
+          "description": "Bouncing forward with zero hesitation."
+        },
+        {
+          "id": "hikari-aoi-06",
+          "title": "いちごミルク (Strawberry Milk)",
+          "description": "Soft, sweet, and a little playful."
+        },
+        {
+          "id": "hikari-aoi-07",
+          "title": "Shining",
+          "description": "Becoming the brightest version of yourself."
+        },
+        {
+          "id": "hikari-aoi-08",
+          "title": "ドキドキ (Dokidoki)",
+          "description": "The flutter of a crush."
+        },
+        {
+          "id": "hikari-aoi-09",
+          "title": "Happy End",
+          "description": "Believing the story finishes well."
+        },
+        {
+          "id": "hikari-aoi-10",
+          "title": "カラフル (Colorful)",
+          "description": "Life in every shade at once."
+        },
+        {
+          "id": "hikari-aoi-11",
+          "title": "Smile",
+          "description": "Choosing to grin even on ordinary days."
+        },
+        {
+          "id": "hikari-aoi-12",
+          "title": "ふわふわ (Fluffy)",
+          "description": "Light feelings that float."
+        },
+        {
+          "id": "hikari-aoi-13",
+          "title": "Dreaming",
+          "description": "Chasing something cute and big."
+        },
+        {
+          "id": "hikari-aoi-14",
+          "title": "ラブソング (Love Song)",
+          "description": "Simple, direct affection."
+        },
+        {
+          "id": "hikari-aoi-15",
+          "title": "Party Time",
+          "description": "Turning any moment into a celebration."
+        },
+        {
+          "id": "hikari-aoi-16",
+          "title": "星屑 (Stardust)",
+          "description": "Small bits of magic everywhere."
+        },
+        {
+          "id": "hikari-aoi-17",
+          "title": "Go Go",
+          "description": "Nonstop forward motion."
+        },
+        {
+          "id": "hikari-aoi-18",
+          "title": "甘い (Sweet)",
+          "description": "Sugar-coated emotions."
+        },
+        {
+          "id": "hikari-aoi-19",
+          "title": "Bright Eyes",
+          "description": "Looking at the world with wonder."
+        },
+        {
+          "id": "hikari-aoi-20",
+          "title": "はじまり (Beginning)",
+          "description": "The exciting start of something new."
+        },
+        {
+          "id": "hikari-aoi-21",
+          "title": "Lucky",
+          "description": "Feeling like good things are coming."
+        },
+        {
+          "id": "hikari-aoi-22",
+          "title": "Dance Dance",
+          "description": "Moving just because it feels good."
+        },
+        {
+          "id": "hikari-aoi-23",
+          "title": "永遠 (Forever)",
+          "description": "Wanting the happy feeling to last."
+        },
+        {
+          "id": "hikari-aoi-24",
+          "title": "Hikari",
+          "description": "Becoming the light itself."
+        }
+      ]
+    },
+    {
+      "id": "yuzu-kage",
+      "name": "Yuzu Kage",
+      "genre": "J-Pop",
+      "description": "Alternative J-pop artist with rock influences and introspective lyrics.",
+      "songs": [
+        {
+          "id": "yuzu-kage-01",
+          "title": "影 (Kage)",
+          "description": "Living with the parts of yourself you don’t show."
+        },
+        {
+          "id": "yuzu-kage-02",
+          "title": "Night Drive",
+          "description": "Thinking too much while the city passes by."
+        },
+        {
+          "id": "yuzu-kage-03",
+          "title": "割れない (Unbreakable)",
+          "description": "Holding together even when it hurts."
+        },
+        {
+          "id": "yuzu-kage-04",
+          "title": "Grey",
+          "description": "Existing in the space between extremes."
+        },
+        {
+          "id": "yuzu-kage-05",
+          "title": "遠い (Far)",
+          "description": "Distance that grew without anyone noticing."
+        },
+        {
+          "id": "yuzu-kage-06",
+          "title": "Static",
+          "description": "Noise in your head that won’t clear."
+        },
+        {
+          "id": "yuzu-kage-07",
+          "title": "余白 (Blank Space)",
+          "description": "The empty parts of a day."
+        },
+        {
+          "id": "yuzu-kage-08",
+          "title": "Cold Coffee",
+          "description": "Moments that have already gone lukewarm."
+        },
+        {
+          "id": "yuzu-kage-09",
+          "title": "Alone",
+          "description": "Choosing solitude on purpose."
+        },
+        {
+          "id": "yuzu-kage-10",
+          "title": "傷跡 (Scar)",
+          "description": "Marks that prove something happened."
+        },
+        {
+          "id": "yuzu-kage-11",
+          "title": "Low",
+          "description": "Days that stay close to the ground."
+        },
+        {
+          "id": "yuzu-kage-12",
+          "title": "Mirror",
+          "description": "Looking at yourself and not fully recognizing the reflection."
+        },
+        {
+          "id": "yuzu-kage-13",
+          "title": "終わり (End)",
+          "description": "Accepting that something is over."
+        },
+        {
+          "id": "yuzu-kage-14",
+          "title": "Rain Song",
+          "description": "Feelings that match the weather."
+        },
+        {
+          "id": "yuzu-kage-15",
+          "title": "薄明 (Twilight)",
+          "description": "The unclear hour between day and night."
+        },
+        {
+          "id": "yuzu-kage-16",
+          "title": "Heavy",
+          "description": "Weight that doesn’t have a clear source."
+        },
+        {
+          "id": "yuzu-kage-17",
+          "title": "No Answer",
+          "description": "Questions that stay open."
+        },
+        {
+          "id": "yuzu-kage-18",
+          "title": "破片 (Fragment)",
+          "description": "Pieces of a feeling that don’t fit back together."
+        },
+        {
+          "id": "yuzu-kage-19",
+          "title": "Quiet",
+          "description": "Preferring silence over forced conversation."
+        },
+        {
+          "id": "yuzu-kage-20",
+          "title": "古い靴 (Old Shoes)",
+          "description": "Things you’ve outgrown but still wear."
+        },
+        {
+          "id": "yuzu-kage-21",
+          "title": "Fade",
+          "description": "Watching interest leave slowly."
+        },
+        {
+          "id": "yuzu-kage-22",
+          "title": "Underground",
+          "description": "Thoughts that stay beneath the surface."
+        },
+        {
+          "id": "yuzu-kage-23",
+          "title": "最後 (Last)",
+          "description": "The final version of a feeling."
+        },
+        {
+          "id": "yuzu-kage-24",
+          "title": "Yuzu",
+          "description": "Claiming the name and the mood."
+        }
+      ]
+    },
+    {
+      "id": "rin-momo",
+      "name": "Rin & Momo",
+      "genre": "J-Pop",
+      "description": "Duo specializing in cheerful, anime-adjacent pop with tight harmonies.",
+      "songs": [
+        {
+          "id": "rin-momo-01",
+          "title": "ふたり (Futari)",
+          "description": "Two people moving as one."
+        },
+        {
+          "id": "rin-momo-02",
+          "title": "Adventure",
+          "description": "Treating ordinary days like a quest."
+        },
+        {
+          "id": "rin-momo-03",
+          "title": "きらめき (Sparkle)",
+          "description": "Shared excitement."
+        },
+        {
+          "id": "rin-momo-04",
+          "title": "Best Friends",
+          "description": "The comfort of knowing someone has your back."
+        },
+        {
+          "id": "rin-momo-05",
+          "title": "魔法 (Magic)",
+          "description": "Small wonders that feel bigger together."
+        },
+        {
+          "id": "rin-momo-06",
+          "title": "Go!",
+          "description": "Encouraging each other to start."
+        },
+        {
+          "id": "rin-momo-07",
+          "title": "にこにこ (Smile Smile)",
+          "description": "Matching grins."
+        },
+        {
+          "id": "rin-momo-08",
+          "title": "Side by Side",
+          "description": "Staying next to each other no matter what."
+        },
+        {
+          "id": "rin-momo-09",
+          "title": "Dream Team",
+          "description": "Believing you’re stronger as a pair."
+        },
+        {
+          "id": "rin-momo-10",
+          "title": "お菓子 (Sweets)",
+          "description": "Light, happy, sugar-rush energy."
+        },
+        {
+          "id": "rin-momo-11",
+          "title": "Forever Friends",
+          "description": "Promising the bond lasts."
+        },
+        {
+          "id": "rin-momo-12",
+          "title": "ジャンプ (Jump)",
+          "description": "Leaping into the next thing together."
+        },
+        {
+          "id": "rin-momo-13",
+          "title": "Bright",
+          "description": "Doubling the light."
+        },
+        {
+          "id": "rin-momo-14",
+          "title": "なかよし (Close Friends)",
+          "description": "Easy closeness."
+        },
+        {
+          "id": "rin-momo-15",
+          "title": "Our Song",
+          "description": "Something that only belongs to the two of them."
+        },
+        {
+          "id": "rin-momo-16",
+          "title": "きらきら星 (Twinkle Star)",
+          "description": "Shining as a duo."
+        },
+        {
+          "id": "rin-momo-17",
+          "title": "Happy",
+          "description": "Simple joy amplified."
+        },
+        {
+          "id": "rin-momo-18",
+          "title": "手を繋いで (Holding Hands)",
+          "description": "Staying connected."
+        },
+        {
+          "id": "rin-momo-19",
+          "title": "New Day",
+          "description": "Starting fresh side by side."
+        },
+        {
+          "id": "rin-momo-20",
+          "title": "fun fun",
+          "description": "Pure, unfiltered playfulness."
+        },
+        {
+          "id": "rin-momo-21",
+          "title": "約束 (Promise)",
+          "description": "Words meant to be kept."
+        },
+        {
+          "id": "rin-momo-22",
+          "title": "Together",
+          "description": "The core of everything they do."
+        },
+        {
+          "id": "rin-momo-23",
+          "title": "笑顔 (Smile)",
+          "description": "The expression they share most."
+        },
+        {
+          "id": "rin-momo-24",
+          "title": "RinMomo",
+          "description": "The name as the final harmony."
+        }
+      ]
+    },
+    {
+      "id": "sora-natsu",
+      "name": "Sora Natsu",
+      "genre": "J-Pop",
+      "description": "Mid-tempo J-pop with city-pop revival elements and smooth production.",
+      "songs": [
+        {
+          "id": "sora-natsu-01",
+          "title": "夜の街 (Night City)",
+          "description": "Driving through glowing streets."
+        },
+        {
+          "id": "sora-natsu-02",
+          "title": "Summer Night",
+          "description": "Warm air and slow feelings."
+        },
+        {
+          "id": "sora-natsu-03",
+          "title": "海岸通り (Coastal Road)",
+          "description": "Windows down, city behind you."
+        },
+        {
+          "id": "sora-natsu-04",
+          "title": "Velvet",
+          "description": "Smooth and a little luxurious."
+        },
+        {
+          "id": "sora-natsu-05",
+          "title": "夕方 (Evening)",
+          "description": "The soft hour before night fully arrives."
+        },
+        {
+          "id": "sora-natsu-06",
+          "title": "City Lights",
+          "description": "Reflections on wet pavement."
+        },
+        {
+          "id": "sora-natsu-07",
+          "title": "ゆっくり (Slowly)",
+          "description": "Taking time on purpose."
+        },
+        {
+          "id": "sora-natsu-08",
+          "title": "Midnight Blue",
+          "description": "The color of late hours."
+        },
+        {
+          "id": "sora-natsu-09",
+          "title": "波 (Wave)",
+          "description": "Emotions that come and go gently."
+        },
+        {
+          "id": "sora-natsu-10",
+          "title": "Lounge",
+          "description": "Low lights and easy conversation."
+        },
+        {
+          "id": "sora-natsu-11",
+          "title": "夏の終わり (End of Summer)",
+          "description": "Holding onto the last warm days."
+        },
+        {
+          "id": "sora-natsu-12",
+          "title": "Smooth",
+          "description": "Everything feeling effortless."
+        },
+        {
+          "id": "sora-natsu-13",
+          "title": "ネオン (Neon)",
+          "description": "Soft glow instead of harsh light."
+        },
+        {
+          "id": "sora-natsu-14",
+          "title": "Drive",
+          "description": "Moving without a strict destination."
+        },
+        {
+          "id": "sora-natsu-15",
+          "title": "甘い夜 (Sweet Night)",
+          "description": "Gentle romance after dark."
+        },
+        {
+          "id": "sora-natsu-16",
+          "title": "Blue Hour",
+          "description": "The strange, beautiful time between day and night."
+        },
+        {
+          "id": "sora-natsu-17",
+          "title": "Rest",
+          "description": "Allowing yourself to slow down."
+        },
+        {
+          "id": "sora-natsu-18",
+          "title": "都会 (City)",
+          "description": "Finding calm inside the noise."
+        },
+        {
+          "id": "sora-natsu-19",
+          "title": "Afterglow",
+          "description": "The feeling that lingers once the main moment passes."
+        },
+        {
+          "id": "sora-natsu-20",
+          "title": "静かな (Quiet)",
+          "description": "Preferring understated moments."
+        },
+        {
+          "id": "sora-natsu-21",
+          "title": "Moonlight Drive",
+          "description": "Night roads and soft thoughts."
+        },
+        {
+          "id": "sora-natsu-22",
+          "title": "温度 (Temperature)",
+          "description": "The exact warmth of a late evening."
+        },
+        {
+          "id": "sora-natsu-23",
+          "title": "Stay",
+          "description": "Wanting the night to last a little longer."
+        },
+        {
+          "id": "sora-natsu-24",
+          "title": "Sora",
+          "description": "Open sky and open feeling."
+        }
+      ]
+    },
+    {
+      "id": "lin-yue",
+      "name": "Lin Yue",
+      "genre": "Mandopop",
+      "description": "Emotional Mandopop balladeer with rich vocals and cinematic arrangements.",
+      "songs": [
+        {
+          "id": "lin-yue-01",
+          "title": "月光 (Moonlight)",
+          "description": "Quiet longing under a soft night sky."
+        },
+        {
+          "id": "lin-yue-02",
+          "title": "未说出口 (Unspoken)",
+          "description": "Words that stayed inside until it was too late."
+        },
+        {
+          "id": "lin-yue-03",
+          "title": "回忆 (Memory)",
+          "description": "Moments that return without warning."
+        },
+        {
+          "id": "lin-yue-04",
+          "title": "慢慢 (Slowly)",
+          "description": "Letting go at a careful pace."
+        },
+        {
+          "id": "lin-yue-05",
+          "title": "心伤 (Heartache)",
+          "description": "Pain that settles deep."
+        },
+        {
+          "id": "lin-yue-06",
+          "title": "最后一次 (One Last Time)",
+          "description": "Asking for a final moment."
+        },
+        {
+          "id": "lin-yue-07",
+          "title": "雨夜 (Rainy Night)",
+          "description": "Emotions that match the weather."
+        },
+        {
+          "id": "lin-yue-08",
+          "title": "距离 (Distance)",
+          "description": "Space that grew between two people."
+        },
+        {
+          "id": "lin-yue-09",
+          "title": "遗憾 (Regret)",
+          "description": "The things left unfinished."
+        },
+        {
+          "id": "lin-yue-10",
+          "title": "温柔 (Gentle)",
+          "description": "Handling fragile feelings with care."
+        },
+        {
+          "id": "lin-yue-11",
+          "title": "旧梦 (Old Dream)",
+          "description": "A future that never arrived."
+        },
+        {
+          "id": "lin-yue-12",
+          "title": "沉默 (Silence)",
+          "description": "What remains when talking stops."
+        },
+        {
+          "id": "lin-yue-13",
+          "title": "落叶 (Falling Leaves)",
+          "description": "Watching something end naturally."
+        },
+        {
+          "id": "lin-yue-14",
+          "title": "还在 (Still Here)",
+          "description": "Feelings that refuse to leave."
+        },
+        {
+          "id": "lin-yue-15",
+          "title": "夜色 (Night Color)",
+          "description": "The mood that only exists after dark."
+        },
+        {
+          "id": "lin-yue-16",
+          "title": "分手 (Breakup)",
+          "description": "The quiet after the decision."
+        },
+        {
+          "id": "lin-yue-17",
+          "title": "想念 (Missing)",
+          "description": "Carrying someone even when they’re gone."
+        },
+        {
+          "id": "lin-yue-18",
+          "title": "结局 (Ending)",
+          "description": "Accepting how the story closed."
+        },
+        {
+          "id": "lin-yue-19",
+          "title": "眼泪 (Tears)",
+          "description": "Release that finally comes."
+        },
+        {
+          "id": "lin-yue-20",
+          "title": "远方 (Far Away)",
+          "description": "Someone who feels out of reach."
+        },
+        {
+          "id": "lin-yue-21",
+          "title": "余温 (Afterglow)",
+          "description": "Warmth that lingers after they’re gone."
+        },
+        {
+          "id": "lin-yue-22",
+          "title": "独自 (Alone)",
+          "description": "Learning how solitude feels."
+        },
+        {
+          "id": "lin-yue-23",
+          "title": "时光 (Time)",
+          "description": "Watching moments slip."
+        },
+        {
+          "id": "lin-yue-24",
+          "title": "依然爱你 (Still Love You)",
+          "description": "Affection that outlasted the relationship."
+        }
+      ]
+    },
+    {
+      "id": "chen-wei",
+      "name": "Chen Wei",
+      "genre": "Mandopop",
+      "description": "Modern Mandopop artist blending electronic elements with traditional Chinese instrumentation.",
+      "songs": [
+        {
+          "id": "chen-wei-01",
+          "title": "电子古筝 (Electric Guzheng)",
+          "description": "Old strings meeting new beats."
+        },
+        {
+          "id": "chen-wei-02",
+          "title": "城市夜 (City Night)",
+          "description": "Traditional melody over modern lights."
+        },
+        {
+          "id": "chen-wei-03",
+          "title": "流水 (Flowing Water)",
+          "description": "Emotions that move like a current."
+        },
+        {
+          "id": "chen-wei-04",
+          "title": "霓虹 (Neon)",
+          "description": "Ancient feeling inside a new city."
+        },
+        {
+          "id": "chen-wei-05",
+          "title": "鼓点 (Drum Beat)",
+          "description": "Rhythm that pulls past and present together."
+        },
+        {
+          "id": "chen-wei-06",
+          "title": "数字江湖 (Digital Jianghu)",
+          "description": "Old-world wandering in a connected age."
+        },
+        {
+          "id": "chen-wei-07",
+          "title": "月光电子 (Moonlight Electronic)",
+          "description": "Soft traditional tone with electronic pulse."
+        },
+        {
+          "id": "chen-wei-08",
+          "title": "回响 (Echo)",
+          "description": "Sounds that travel between eras."
+        },
+        {
+          "id": "chen-wei-09",
+          "title": "丝路 (Silk Road)",
+          "description": "Connection across distance and time."
+        },
+        {
+          "id": "chen-wei-10",
+          "title": "未来古典 (Future Classical)",
+          "description": "What tradition becomes next."
+        },
+        {
+          "id": "chen-wei-11",
+          "title": "夜行 (Night Walk)",
+          "description": "Moving through the city with old melodies in your head."
+        },
+        {
+          "id": "chen-wei-12",
+          "title": "合成器 (Synthesizer)",
+          "description": "Machines carrying traditional feeling."
+        },
+        {
+          "id": "chen-wei-13",
+          "title": "山水 (Mountains and Water)",
+          "description": "Nature remembered inside electronic space."
+        },
+        {
+          "id": "chen-wei-14",
+          "title": "节拍 (Tempo)",
+          "description": "Finding balance between old and new."
+        },
+        {
+          "id": "chen-wei-15",
+          "title": "光影 (Light and Shadow)",
+          "description": "Contrast of eras."
+        },
+        {
+          "id": "chen-wei-16",
+          "title": "古韵新声 (Old Rhyme, New Sound)",
+          "description": "Tradition rewritten."
+        },
+        {
+          "id": "chen-wei-17",
+          "title": "都市民谣 (Urban Folk)",
+          "description": "Stories of now told with older tools."
+        },
+        {
+          "id": "chen-wei-18",
+          "title": "脉冲 (Pulse)",
+          "description": "The heartbeat of mixed worlds."
+        },
+        {
+          "id": "chen-wei-19",
+          "title": "长街 (Long Street)",
+          "description": "Walking while instruments from different times play."
+        },
+        {
+          "id": "chen-wei-20",
+          "title": "融合 (Fusion)",
+          "description": "The meeting point."
+        },
+        {
+          "id": "chen-wei-21",
+          "title": "夜色电子 (Night Electronic)",
+          "description": "Darkness scored with both old and new."
+        },
+        {
+          "id": "chen-wei-22",
+          "title": "传承 (Inheritance)",
+          "description": "Carrying something forward."
+        },
+        {
+          "id": "chen-wei-23",
+          "title": "声场 (Sound Field)",
+          "description": "Space filled with layered histories."
+        },
+        {
+          "id": "chen-wei-24",
+          "title": "陈伟 (Chen Wei)",
+          "description": "The name as the bridge."
+        }
+      ]
+    },
+    {
+      "id": "xiao-lan",
+      "name": "Xiao Lan",
+      "genre": "Mandopop",
+      "description": "Soft, introspective singer-songwriter known for poetic Mandarin lyrics.",
+      "songs": [
+        {
+          "id": "xiao-lan-01",
+          "title": "诗 (Poem)",
+          "description": "Life written in small, careful lines."
+        },
+        {
+          "id": "xiao-lan-02",
+          "title": "安静 (Quiet)",
+          "description": "Preferring stillness."
+        },
+        {
+          "id": "xiao-lan-03",
+          "title": "纸页 (Paper Page)",
+          "description": "Thoughts that only exist when written."
+        },
+        {
+          "id": "xiao-lan-04",
+          "title": "微光 (Faint Light)",
+          "description": "Small hope that stays."
+        },
+        {
+          "id": "xiao-lan-05",
+          "title": "窗外 (Outside the Window)",
+          "description": "Watching the world from a distance."
+        },
+        {
+          "id": "xiao-lan-06",
+          "title": "低语 (Whisper)",
+          "description": "Words said softly."
+        },
+        {
+          "id": "xiao-lan-07",
+          "title": "空白 (Blank)",
+          "description": "Space left on purpose."
+        },
+        {
+          "id": "xiao-lan-08",
+          "title": "慢步 (Slow Walk)",
+          "description": "Moving without rush."
+        },
+        {
+          "id": "xiao-lan-09",
+          "title": "旧信 (Old Letter)",
+          "description": "Words from a different time."
+        },
+        {
+          "id": "xiao-lan-10",
+          "title": "薄雾 (Thin Mist)",
+          "description": "Feelings that aren’t fully clear."
+        },
+        {
+          "id": "xiao-lan-11",
+          "title": "独处 (Solitude)",
+          "description": "Being alone and noticing it."
+        },
+        {
+          "id": "xiao-lan-12",
+          "title": "夜读 (Night Reading)",
+          "description": "Hours spent with thoughts and pages."
+        },
+        {
+          "id": "xiao-lan-13",
+          "title": "淡 (Faint)",
+          "description": "Emotions kept light."
+        },
+        {
+          "id": "xiao-lan-14",
+          "title": "小路 (Small Path)",
+          "description": "Choosing the quieter route."
+        },
+        {
+          "id": "xiao-lan-15",
+          "title": "未完成 (Unfinished)",
+          "description": "Things left open."
+        },
+        {
+          "id": "xiao-lan-16",
+          "title": "软风 (Soft Wind)",
+          "description": "Gentle movement."
+        },
+        {
+          "id": "xiao-lan-17",
+          "title": "日记 (Diary)",
+          "description": "Private observations."
+        },
+        {
+          "id": "xiao-lan-18",
+          "title": "远看 (Looking from Afar)",
+          "description": "Observing without stepping in."
+        },
+        {
+          "id": "xiao-lan-19",
+          "title": "浅 (Shallow)",
+          "description": "Staying near the surface on purpose."
+        },
+        {
+          "id": "xiao-lan-20",
+          "title": "夜灯 (Night Lamp)",
+          "description": "Small light in a dark room."
+        },
+        {
+          "id": "xiao-lan-21",
+          "title": "留白 (Leave Blank)",
+          "description": "Not filling every space."
+        },
+        {
+          "id": "xiao-lan-22",
+          "title": "低声 (Low Voice)",
+          "description": "Speaking carefully."
+        },
+        {
+          "id": "xiao-lan-23",
+          "title": "片刻 (A Moment)",
+          "description": "Brief stillness."
+        },
+        {
+          "id": "xiao-lan-24",
+          "title": "小兰 (Xiao Lan)",
+          "description": "The quiet name."
+        }
+      ]
+    },
+    {
+      "id": "mei-xuan",
+      "name": "Mei Xuan",
+      "genre": "Mandopop",
+      "description": "Upbeat Mandopop with danceable tracks and youthful energy.",
+      "songs": [
+        {
+          "id": "mei-xuan-01",
+          "title": "跳舞 (Dance)",
+          "description": "Moving because the feeling demands it."
+        },
+        {
+          "id": "mei-xuan-02",
+          "title": "青春 (Youth)",
+          "description": "Living in the bright part of life."
+        },
+        {
+          "id": "mei-xuan-03",
+          "title": "今晚 (Tonight)",
+          "description": "Making the night count."
+        },
+        {
+          "id": "mei-xuan-04",
+          "title": "开心 (Happy)",
+          "description": "Choosing joy on purpose."
+        },
+        {
+          "id": "mei-xuan-05",
+          "title": "节奏 (Rhythm)",
+          "description": "Letting the beat lead."
+        },
+        {
+          "id": "mei-xuan-06",
+          "title": "发光 (Shine)",
+          "description": "Refusing to stay dim."
+        },
+        {
+          "id": "mei-xuan-07",
+          "title": "一起 (Together)",
+          "description": "Energy multiplied by company."
+        },
+        {
+          "id": "mei-xuan-08",
+          "title": "自由 (Free)",
+          "description": "Moving without heavy rules."
+        },
+        {
+          "id": "mei-xuan-09",
+          "title": "派对 (Party)",
+          "description": "Turning ordinary time into celebration."
+        },
+        {
+          "id": "mei-xuan-10",
+          "title": "阳光 (Sunshine)",
+          "description": "Bright mood that spreads."
+        },
+        {
+          "id": "mei-xuan-11",
+          "title": "奔跑 (Run)",
+          "description": "Forward motion with a smile."
+        },
+        {
+          "id": "mei-xuan-12",
+          "title": "可爱 (Cute)",
+          "description": "Playful confidence."
+        },
+        {
+          "id": "mei-xuan-13",
+          "title": "音乐 (Music)",
+          "description": "Letting sound take over."
+        },
+        {
+          "id": "mei-xuan-14",
+          "title": "周末 (Weekend)",
+          "description": "The feeling of time that belongs to you."
+        },
+        {
+          "id": "mei-xuan-15",
+          "title": "闪耀 (Sparkle)",
+          "description": "Catching light and keeping it."
+        },
+        {
+          "id": "mei-xuan-16",
+          "title": "朋友 (Friends)",
+          "description": "Shared energy."
+        },
+        {
+          "id": "mei-xuan-17",
+          "title": "心动 (Heartbeat)",
+          "description": "Excitement that shows."
+        },
+        {
+          "id": "mei-xuan-18",
+          "title": "出发 (Depart)",
+          "description": "Starting the fun."
+        },
+        {
+          "id": "mei-xuan-19",
+          "title": "彩色 (Colorful)",
+          "description": "Life in full saturation."
+        },
+        {
+          "id": "mei-xuan-20",
+          "title": "大笑 (Laugh)",
+          "description": "Sound that fills the room."
+        },
+        {
+          "id": "mei-xuan-21",
+          "title": "现在 (Now)",
+          "description": "Living in the current moment."
+        },
+        {
+          "id": "mei-xuan-22",
+          "title": "热血 (Hot Blood)",
+          "description": "Youthful drive."
+        },
+        {
+          "id": "mei-xuan-23",
+          "title": "不停 (Nonstop)",
+          "description": "Keeping the energy going."
+        },
+        {
+          "id": "mei-xuan-24",
+          "title": "梅萱 (Mei Xuan)",
+          "description": "The name as the final burst."
+        }
+      ]
+    },
+    {
+      "id": "valentina-cruz",
+      "name": "Valentina Cruz",
+      "genre": "Latin",
+      "description": "Reggaeton and Latin trap artist with sensual vocals and club-ready beats.",
+      "songs": [
+        {
+          "id": "valentina-cruz-01",
+          "title": "Perreo",
+          "description": "Body-to-body movement once the beat drops."
+        },
+        {
+          "id": "valentina-cruz-02",
+          "title": "Noche Loca",
+          "description": "A night with no plans and no brakes."
+        },
+        {
+          "id": "valentina-cruz-03",
+          "title": "Baila",
+          "description": "Commanding the floor."
+        },
+        {
+          "id": "valentina-cruz-04",
+          "title": "Calor",
+          "description": "Heat that builds between two people."
+        },
+        {
+          "id": "valentina-cruz-05",
+          "title": "Después de Medianoche",
+          "description": "Everything that happens after 12."
+        },
+        {
+          "id": "valentina-cruz-06",
+          "title": "Tentación",
+          "description": "Wanting someone you know you shouldn’t."
+        },
+        {
+          "id": "valentina-cruz-07",
+          "title": "Duro",
+          "description": "Hard-hitting rhythm and harder intentions."
+        },
+        {
+          "id": "valentina-cruz-08",
+          "title": "Soltera",
+          "description": "Enjoying the freedom."
+        },
+        {
+          "id": "valentina-cruz-09",
+          "title": "En la Disco",
+          "description": "Lights, bass, and no responsibilities."
+        },
+        {
+          "id": "valentina-cruz-10",
+          "title": "Peligrosa",
+          "description": "Dangerous in the best way."
+        },
+        {
+          "id": "valentina-cruz-11",
+          "title": "Mueve",
+          "description": "Nonstop motion."
+        },
+        {
+          "id": "valentina-cruz-12",
+          "title": "Fuego",
+          "description": "Chemistry that burns fast."
+        },
+        {
+          "id": "valentina-cruz-13",
+          "title": "Privado",
+          "description": "What stays off the main floor."
+        },
+        {
+          "id": "valentina-cruz-14",
+          "title": "Adicto",
+          "description": "Hooked on the feeling and the person."
+        },
+        {
+          "id": "valentina-cruz-15",
+          "title": "Rumores",
+          "description": "Talk that only makes it more interesting."
+        },
+        {
+          "id": "valentina-cruz-16",
+          "title": "Sin Filtro",
+          "description": "Saying and doing exactly what you want."
+        },
+        {
+          "id": "valentina-cruz-17",
+          "title": "VIP",
+          "description": "Access most people don’t get."
+        },
+        {
+          "id": "valentina-cruz-18",
+          "title": "Sudor",
+          "description": "The physical proof of a good night."
+        },
+        {
+          "id": "valentina-cruz-19",
+          "title": "Otra Vez",
+          "description": "Going back for more."
+        },
+        {
+          "id": "valentina-cruz-20",
+          "title": "Reina",
+          "description": "Owning the room."
+        },
+        {
+          "id": "valentina-cruz-21",
+          "title": "Bajo",
+          "description": "Low lights and lower inhibitions."
+        },
+        {
+          "id": "valentina-cruz-22",
+          "title": "No Pares",
+          "description": "Refusing to stop the energy."
+        },
+        {
+          "id": "valentina-cruz-23",
+          "title": "Secreto",
+          "description": "Something only the two of you know."
+        },
+        {
+          "id": "valentina-cruz-24",
+          "title": "Valentina",
+          "description": "The name as the final statement."
+        }
+      ]
+    },
+    {
+      "id": "mateo-sol",
+      "name": "Mateo Sol",
+      "genre": "Latin",
+      "description": "Romantic Latin pop/ballad singer with guitar-driven tracks.",
+      "songs": [
+        {
+          "id": "mateo-sol-01",
+          "title": "Tu Nombre",
+          "description": "Saying it like it still matters."
+        },
+        {
+          "id": "mateo-sol-02",
+          "title": "Guitarra",
+          "description": "Feelings carried by six strings."
+        },
+        {
+          "id": "mateo-sol-03",
+          "title": "Te Extraño",
+          "description": "Missing someone in ordinary moments."
+        },
+        {
+          "id": "mateo-sol-04",
+          "title": "Promesa",
+          "description": "Words you meant at the time."
+        },
+        {
+          "id": "mateo-sol-05",
+          "title": "Luna",
+          "description": "Talking to the night about them."
+        },
+        {
+          "id": "mateo-sol-06",
+          "title": "Corazón",
+          "description": "What keeps pulling you back."
+        },
+        {
+          "id": "mateo-sol-07",
+          "title": "Si Volvieras",
+          "description": "Imagining them walking through the door again."
+        },
+        {
+          "id": "mateo-sol-08",
+          "title": "Serenata",
+          "description": "A song meant for one person."
+        },
+        {
+          "id": "mateo-sol-09",
+          "title": "Distancia",
+          "description": "Love stretched across miles."
+        },
+        {
+          "id": "mateo-sol-10",
+          "title": "Todavía",
+          "description": "Feelings that didn’t end when the relationship did."
+        },
+        {
+          "id": "mateo-sol-11",
+          "title": "Carta",
+          "description": "Writing what you couldn’t say out loud."
+        },
+        {
+          "id": "mateo-sol-12",
+          "title": "Beso",
+          "description": "Remembering the exact feeling."
+        },
+        {
+          "id": "mateo-sol-13",
+          "title": "Esperando",
+          "description": "Still holding space for them."
+        },
+        {
+          "id": "mateo-sol-14",
+          "title": "Herida",
+          "description": "The mark they left."
+        },
+        {
+          "id": "mateo-sol-15",
+          "title": "Volver",
+          "description": "Wanting to rewind."
+        },
+        {
+          "id": "mateo-sol-16",
+          "title": "Poema",
+          "description": "Turning pain into something softer."
+        },
+        {
+          "id": "mateo-sol-17",
+          "title": "Noche",
+          "description": "Hours spent thinking of them."
+        },
+        {
+          "id": "mateo-sol-18",
+          "title": "Siempre",
+          "description": "The word you used too easily."
+        },
+        {
+          "id": "mateo-sol-19",
+          "title": "Adiós",
+          "description": "Saying it even if you don’t fully mean it."
+        },
+        {
+          "id": "mateo-sol-20",
+          "title": "Recuerdo",
+          "description": "Small details that refuse to fade."
+        },
+        {
+          "id": "mateo-sol-21",
+          "title": "Solo",
+          "description": "Learning the shape of absence."
+        },
+        {
+          "id": "mateo-sol-22",
+          "title": "Amor",
+          "description": "What it was, even if it changed."
+        },
+        {
+          "id": "mateo-sol-23",
+          "title": "Última Canción",
+          "description": "The final dedication."
+        },
+        {
+          "id": "mateo-sol-24",
+          "title": "Mateo",
+          "description": "Signing the feeling with his name."
+        }
+      ]
+    },
+    {
+      "id": "luna-reyes",
+      "name": "Luna Reyes",
+      "genre": "Latin",
+      "description": "Bilingual Latin artist mixing urbano and traditional rhythms.",
+      "songs": [
+        {
+          "id": "luna-reyes-01",
+          "title": "Dos Mundos",
+          "description": "Living between languages and sounds."
+        },
+        {
+          "id": "luna-reyes-02",
+          "title": "Raíces",
+          "description": "Honoring where you come from while moving forward."
+        },
+        {
+          "id": "luna-reyes-03",
+          "title": "Spanglish",
+          "description": "Switching mid-sentence and mid-feeling."
+        },
+        {
+          "id": "luna-reyes-04",
+          "title": "Calle",
+          "description": "Stories from the block told with older rhythms underneath."
+        },
+        {
+          "id": "luna-reyes-05",
+          "title": "Herencia",
+          "description": "What gets passed down in music and memory."
+        },
+        {
+          "id": "luna-reyes-06",
+          "title": "Noche y Día",
+          "description": "Urbano energy meeting traditional soul."
+        },
+        {
+          "id": "luna-reyes-07",
+          "title": "Bilingual Heart",
+          "description": "Loving in two languages at once."
+        },
+        {
+          "id": "luna-reyes-08",
+          "title": "Barrio",
+          "description": "Home, even when you’re far from it."
+        },
+        {
+          "id": "luna-reyes-09",
+          "title": "Fusión",
+          "description": "Letting the styles collide on purpose."
+        },
+        {
+          "id": "luna-reyes-10",
+          "title": "Canto",
+          "description": "Singing the way your people always have."
+        },
+        {
+          "id": "luna-reyes-11",
+          "title": "Nuevo Ritmo",
+          "description": "Old bones, new beat."
+        },
+        {
+          "id": "luna-reyes-12",
+          "title": "Puente",
+          "description": "Building connection between worlds."
+        },
+        {
+          "id": "luna-reyes-13",
+          "title": "Sangre",
+          "description": "What runs deeper than trends."
+        },
+        {
+          "id": "luna-reyes-14",
+          "title": "Ciudad",
+          "description": "Urban life scored with ancestral sounds."
+        },
+        {
+          "id": "luna-reyes-15",
+          "title": "Tradición",
+          "description": "Keeping pieces alive."
+        },
+        {
+          "id": "luna-reyes-16",
+          "title": "Flow",
+          "description": "Modern delivery over classic feeling."
+        },
+        {
+          "id": "luna-reyes-17",
+          "title": "Orgullo",
+          "description": "Carrying identity without apology."
+        },
+        {
+          "id": "luna-reyes-18",
+          "title": "Mezcla",
+          "description": "The blend as the point."
+        },
+        {
+          "id": "luna-reyes-19",
+          "title": "Voces",
+          "description": "Hearing both generations in one track."
+        },
+        {
+          "id": "luna-reyes-20",
+          "title": "Camino",
+          "description": "Walking forward without dropping the past."
+        },
+        {
+          "id": "luna-reyes-21",
+          "title": "Latido",
+          "description": "The shared pulse."
+        },
+        {
+          "id": "luna-reyes-22",
+          "title": "Entre",
+          "description": "Existing in the space between."
+        },
+        {
+          "id": "luna-reyes-23",
+          "title": "Legado",
+          "description": "What you leave in the music."
+        },
+        {
+          "id": "luna-reyes-24",
+          "title": "Luna",
+          "description": "The name that holds both sides."
+        }
+      ]
+    },
+    {
+      "id": "diego-navarro",
+      "name": "Diego Navarro",
+      "genre": "Latin",
+      "description": "High-energy Latin trap and dembow artist.",
+      "songs": [
+        {
+          "id": "diego-navarro-01",
+          "title": "Dembow",
+          "description": "The rhythm that doesn’t let anyone stand still."
+        },
+        {
+          "id": "diego-navarro-02",
+          "title": "Full",
+          "description": "Maximum energy from the first second."
+        },
+        {
+          "id": "diego-navarro-03",
+          "title": "Prende",
+          "description": "Lighting the whole place up."
+        },
+        {
+          "id": "diego-navarro-04",
+          "title": "Trap Latino",
+          "description": "Heavy 808s with Caribbean bounce."
+        },
+        {
+          "id": "diego-navarro-05",
+          "title": "Dale",
+          "description": "Pushing the crowd harder."
+        },
+        {
+          "id": "diego-navarro-06",
+          "title": "Fuego",
+          "description": "Heat that spreads through the speakers."
+        },
+        {
+          "id": "diego-navarro-07",
+          "title": "No Pare",
+          "description": "Refusing to drop the pace."
+        },
+        {
+          "id": "diego-navarro-08",
+          "title": "Perreo Intenso",
+          "description": "Closer, faster, louder."
+        },
+        {
+          "id": "diego-navarro-09",
+          "title": "Modo",
+          "description": "Locked into full performance."
+        },
+        {
+          "id": "diego-navarro-10",
+          "title": "Bass",
+          "description": "The low end that moves bodies."
+        },
+        {
+          "id": "diego-navarro-11",
+          "title": "Noche Completa",
+          "description": "Going until the lights come on."
+        },
+        {
+          "id": "diego-navarro-12",
+          "title": "Rápido",
+          "description": "Verses and energy that don’t slow down."
+        },
+        {
+          "id": "diego-navarro-13",
+          "title": "Club",
+          "description": "Owning every corner of the room."
+        },
+        {
+          "id": "diego-navarro-14",
+          "title": "Explota",
+          "description": "The moment everything peaks."
+        },
+        {
+          "id": "diego-navarro-15",
+          "title": "Sin Freno",
+          "description": "No brakes once it starts."
+        },
+        {
+          "id": "diego-navarro-16",
+          "title": "Alto",
+          "description": "Volume and presence turned all the way up."
+        },
+        {
+          "id": "diego-navarro-17",
+          "title": "Movimiento",
+          "description": "Constant motion."
+        },
+        {
+          "id": "diego-navarro-18",
+          "title": "Pegao",
+          "description": "Stuck to the beat and each other."
+        },
+        {
+          "id": "diego-navarro-19",
+          "title": "Turn Up",
+          "description": "The switch that changes the night."
+        },
+        {
+          "id": "diego-navarro-20",
+          "title": "Duro",
+          "description": "Hitting with full force."
+        },
+        {
+          "id": "diego-navarro-21",
+          "title": "Energía",
+          "description": "What he brings every time."
+        },
+        {
+          "id": "diego-navarro-22",
+          "title": "Final",
+          "description": "Saving the biggest drop for last."
+        },
+        {
+          "id": "diego-navarro-23",
+          "title": "Rey",
+          "description": "Running the night."
+        },
+        {
+          "id": "diego-navarro-24",
+          "title": "Diego",
+          "description": "The name that closes the set."
+        }
+      ]
+    },
+    {
+      "id": "elias-kane",
+      "name": "Elias Kane",
+      "genre": "Blues",
+      "description": "Traditional electric blues guitarist and vocalist with raw, soulful delivery.",
+      "songs": [
+        {
+          "id": "elias-kane-01",
+          "title": "Crossroads",
+          "description": "Standing at the place where choices get permanent."
+        },
+        {
+          "id": "elias-kane-02",
+          "title": "Broken String",
+          "description": "Playing through something that’s already falling apart."
+        },
+        {
+          "id": "elias-kane-03",
+          "title": "Midnight Train",
+          "description": "Leaving town with nothing but a guitar and regret."
+        },
+        {
+          "id": "elias-kane-04",
+          "title": "Whiskey Talk",
+          "description": "Conversations that only happen after a few drinks."
+        },
+        {
+          "id": "elias-kane-05",
+          "title": "Empty Bed",
+          "description": "Coming home to silence."
+        },
+        {
+          "id": "elias-kane-06",
+          "title": "Old Amplifier",
+          "description": "Sound that’s worn but still cuts through."
+        },
+        {
+          "id": "elias-kane-07",
+          "title": "Walking Blues",
+          "description": "Moving because staying still hurts more."
+        },
+        {
+          "id": "elias-kane-08",
+          "title": "Last Call",
+          "description": "One more song before the night ends."
+        },
+        {
+          "id": "elias-kane-09",
+          "title": "Rusty Frets",
+          "description": "Hands that have played too many hard nights."
+        },
+        {
+          "id": "elias-kane-10",
+          "title": "Cold Shoulder",
+          "description": "Distance that showed up without warning."
+        },
+        {
+          "id": "elias-kane-11",
+          "title": "Neon Sign",
+          "description": "Light that promises more than it delivers."
+        },
+        {
+          "id": "elias-kane-12",
+          "title": "Heavy Rain",
+          "description": "Weather that matches the mood."
+        },
+        {
+          "id": "elias-kane-13",
+          "title": "Pawn Shop",
+          "description": "Trading pieces of your life for temporary relief."
+        },
+        {
+          "id": "elias-kane-14",
+          "title": "Long Road",
+          "description": "Miles that don’t bring you any closer to peace."
+        },
+        {
+          "id": "elias-kane-15",
+          "title": "Smoke Filled",
+          "description": "Rooms where the air is thick and the truth is thicker."
+        },
+        {
+          "id": "elias-kane-16",
+          "title": "No Answer",
+          "description": "Calling out and hearing nothing back."
+        },
+        {
+          "id": "elias-kane-17",
+          "title": "Worn Out Shoes",
+          "description": "Evidence of how far you’ve walked."
+        },
+        {
+          "id": "elias-kane-18",
+          "title": "Blue Light",
+          "description": "The color of late hours and low feelings."
+        },
+        {
+          "id": "elias-kane-19",
+          "title": "One More Bend",
+          "description": "Hoping the next turn changes something."
+        },
+        {
+          "id": "elias-kane-20",
+          "title": "Silent Crowd",
+          "description": "Playing for people who aren’t really listening."
+        },
+        {
+          "id": "elias-kane-21",
+          "title": "Debt",
+          "description": "Owing more than money."
+        },
+        {
+          "id": "elias-kane-22",
+          "title": "Fading Signal",
+          "description": "Connection that keeps cutting out."
+        },
+        {
+          "id": "elias-kane-23",
+          "title": "Final Verse",
+          "description": "Saying what needs to be said before you stop."
+        },
+        {
+          "id": "elias-kane-24",
+          "title": "Still Playing",
+          "description": "Continuing even when the song feels finished."
+        }
+      ]
+    },
+    {
+      "id": "marla-voss",
+      "name": "Marla Voss",
+      "genre": "Blues",
+      "description": "Acoustic blues singer with deep, weathered voice and storytelling focus.",
+      "songs": [
+        {
+          "id": "marla-voss-01",
+          "title": "Front Porch",
+          "description": "Stories told where the light is low and the night is long."
+        },
+        {
+          "id": "marla-voss-02",
+          "title": "Old Photograph",
+          "description": "Faces that don’t look the same anymore."
+        },
+        {
+          "id": "marla-voss-03",
+          "title": "River Song",
+          "description": "Letting the water carry what you can’t say."
+        },
+        {
+          "id": "marla-voss-04",
+          "title": "Mother’s Hands",
+          "description": "Remembering the work that raised you."
+        },
+        {
+          "id": "marla-voss-05",
+          "title": "Dusty Road",
+          "description": "Paths that lead back to the same places."
+        },
+        {
+          "id": "marla-voss-06",
+          "title": "Kitchen Table",
+          "description": "Conversations that happened over cheap coffee."
+        },
+        {
+          "id": "marla-voss-07",
+          "title": "Worn Bible",
+          "description": "Faith that has been handled too many times."
+        },
+        {
+          "id": "marla-voss-08",
+          "title": "Empty Chair",
+          "description": "The space someone used to fill."
+        },
+        {
+          "id": "marla-voss-09",
+          "title": "Cotton Fields",
+          "description": "Labor and memory tied to the land."
+        },
+        {
+          "id": "marla-voss-10",
+          "title": "Slow Train",
+          "description": "Watching opportunities pass without stopping."
+        },
+        {
+          "id": "marla-voss-11",
+          "title": "Grandmother’s Voice",
+          "description": "Advice that still echoes."
+        },
+        {
+          "id": "marla-voss-12",
+          "title": "Screen Door",
+          "description": "The sound of coming and going."
+        },
+        {
+          "id": "marla-voss-13",
+          "title": "Hard Ground",
+          "description": "Knees and backs that paid for survival."
+        },
+        {
+          "id": "marla-voss-14",
+          "title": "Sunday Morning",
+          "description": "Quiet after a loud week."
+        },
+        {
+          "id": "marla-voss-15",
+          "title": "Tin Roof",
+          "description": "Rain that sounds different when you’re underneath it."
+        },
+        {
+          "id": "marla-voss-16",
+          "title": "Lost Brother",
+          "description": "Someone who left and never fully returned."
+        },
+        {
+          "id": "marla-voss-17",
+          "title": "Patchwork",
+          "description": "Holding life together with what you have."
+        },
+        {
+          "id": "marla-voss-18",
+          "title": "Low Ceiling",
+          "description": "Rooms that never felt big enough."
+        },
+        {
+          "id": "marla-voss-19",
+          "title": "Walking Stick",
+          "description": "Support that becomes necessary."
+        },
+        {
+          "id": "marla-voss-20",
+          "title": "Old Hymn",
+          "description": "Songs that outlast the people who sang them."
+        },
+        {
+          "id": "marla-voss-21",
+          "title": "Bare Feet",
+          "description": "Remembering when things were simpler."
+        },
+        {
+          "id": "marla-voss-22",
+          "title": "Night Watch",
+          "description": "Staying up because sleep won’t come."
+        },
+        {
+          "id": "marla-voss-23",
+          "title": "Final Letter",
+          "description": "Words written when speaking was too hard."
+        },
+        {
+          "id": "marla-voss-24",
+          "title": "Still Standing",
+          "description": "Remaining after everything else has shifted."
+        }
+      ]
+    },
+    {
+      "id": "jonah-reed",
+      "name": "Jonah Reed",
+      "genre": "Blues",
+      "description": "Modern blues-rock artist blending classic riffs with contemporary grit.",
+      "songs": [
+        {
+          "id": "jonah-reed-01",
+          "title": "Dirty Riff",
+          "description": "Guitar that doesn’t apologize."
+        },
+        {
+          "id": "jonah-reed-02",
+          "title": "City Blues",
+          "description": "Old feeling in a new skyline."
+        },
+        {
+          "id": "jonah-reed-03",
+          "title": "Overdrive",
+          "description": "Pushing the amp and the emotion past clean."
+        },
+        {
+          "id": "jonah-reed-04",
+          "title": "Concrete",
+          "description": "Hard surfaces and harder nights."
+        },
+        {
+          "id": "jonah-reed-05",
+          "title": "Feedback",
+          "description": "Noise that becomes part of the song."
+        },
+        {
+          "id": "jonah-reed-06",
+          "title": "Late Shift",
+          "description": "Working when most people are done."
+        },
+        {
+          "id": "jonah-reed-07",
+          "title": "Broken Amp",
+          "description": "Making it work even when it’s damaged."
+        },
+        {
+          "id": "jonah-reed-08",
+          "title": "Highway 61",
+          "description": "Revisited with modern weight."
+        },
+        {
+          "id": "jonah-reed-09",
+          "title": "Grit",
+          "description": "Texture that comes from living it."
+        },
+        {
+          "id": "jonah-reed-10",
+          "title": "No Polish",
+          "description": "Leaving the rough edges on purpose."
+        },
+        {
+          "id": "jonah-reed-11",
+          "title": "Electric Mud",
+          "description": "Classic form dragged through the present."
+        },
+        {
+          "id": "jonah-reed-12",
+          "title": "Burnout",
+          "description": "Running hot until something gives."
+        },
+        {
+          "id": "jonah-reed-13",
+          "title": "Steel Toe",
+          "description": "Protection that still lets you feel the impact."
+        },
+        {
+          "id": "jonah-reed-14",
+          "title": "After Hours Club",
+          "description": "Music that starts when the regulars leave."
+        },
+        {
+          "id": "jonah-reed-15",
+          "title": "Scuffed",
+          "description": "Evidence of use."
+        },
+        {
+          "id": "jonah-reed-16",
+          "title": "Low End",
+          "description": "Bass and feeling that sit heavy."
+        },
+        {
+          "id": "jonah-reed-17",
+          "title": "Rewired",
+          "description": "Old circuits running new current."
+        },
+        {
+          "id": "jonah-reed-18",
+          "title": "Smoke Machine",
+          "description": "Atmosphere you can taste."
+        },
+        {
+          "id": "jonah-reed-19",
+          "title": "One Take",
+          "description": "Capturing it before it gets cleaned up."
+        },
+        {
+          "id": "jonah-reed-20",
+          "title": "Hard Light",
+          "description": "Illumination that doesn’t flatter."
+        },
+        {
+          "id": "jonah-reed-21",
+          "title": "Residue",
+          "description": "What sticks after the set ends."
+        },
+        {
+          "id": "jonah-reed-22",
+          "title": "Volume",
+          "description": "Turning it up until the room changes."
+        },
+        {
+          "id": "jonah-reed-23",
+          "title": "Last Encore",
+          "description": "Giving more even when you’re spent."
+        },
+        {
+          "id": "jonah-reed-24",
+          "title": "Still Loud",
+          "description": "Refusing to quiet down."
+        }
+      ]
+    },
+    {
+      "id": "clara-moon",
+      "name": "Clara Moon",
+      "genre": "Blues",
+      "description": "Delta-style blues vocalist known for haunting, sparse arrangements.",
+      "songs": [
+        {
+          "id": "clara-moon-01",
+          "title": "Delta Dirt",
+          "description": "Ground that holds old stories."
+        },
+        {
+          "id": "clara-moon-02",
+          "title": "Moon on Water",
+          "description": "Reflection that doesn’t stay still."
+        },
+        {
+          "id": "clara-moon-03",
+          "title": "Empty Cabin",
+          "description": "Space that feels larger at night."
+        },
+        {
+          "id": "clara-moon-04",
+          "title": "Cypress",
+          "description": "Trees that have watched everything."
+        },
+        {
+          "id": "clara-moon-05",
+          "title": "Low Voice",
+          "description": "Singing just above a whisper."
+        },
+        {
+          "id": "clara-moon-06",
+          "title": "Riverbed",
+          "description": "What remains when the water drops."
+        },
+        {
+          "id": "clara-moon-07",
+          "title": "Haunting",
+          "description": "Melodies that follow you home."
+        },
+        {
+          "id": "clara-moon-08",
+          "title": "Bare Floor",
+          "description": "Nothing between you and the sound."
+        },
+        {
+          "id": "clara-moon-09",
+          "title": "Night Bird",
+          "description": "Calls that only happen after dark."
+        },
+        {
+          "id": "clara-moon-10",
+          "title": "Faded Dress",
+          "description": "Fabric that has seen too many washings."
+        },
+        {
+          "id": "clara-moon-11",
+          "title": "Still Water",
+          "description": "Surface that hides depth."
+        },
+        {
+          "id": "clara-moon-12",
+          "title": "Old Road",
+          "description": "Paths worn by feet that are gone."
+        },
+        {
+          "id": "clara-moon-13",
+          "title": "Lantern",
+          "description": "Small light against a large dark."
+        },
+        {
+          "id": "clara-moon-14",
+          "title": "Whisper",
+          "description": "Words carried on little air."
+        },
+        {
+          "id": "clara-moon-15",
+          "title": "Graveyard Shift",
+          "description": "Hours that belong to the restless."
+        },
+        {
+          "id": "clara-moon-16",
+          "title": "Mud",
+          "description": "What clings after the flood."
+        },
+        {
+          "id": "clara-moon-17",
+          "title": "Distant Bell",
+          "description": "Sound that arrives late."
+        },
+        {
+          "id": "clara-moon-18",
+          "title": "Hollow",
+          "description": "Emptiness with an echo."
+        },
+        {
+          "id": "clara-moon-19",
+          "title": "Slow Current",
+          "description": "Movement you barely notice."
+        },
+        {
+          "id": "clara-moon-20",
+          "title": "Ash",
+          "description": "What’s left after the fire."
+        },
+        {
+          "id": "clara-moon-21",
+          "title": "Porch Light",
+          "description": "Left on for someone who may not return."
+        },
+        {
+          "id": "clara-moon-22",
+          "title": "Thin Air",
+          "description": "Notes that almost disappear."
+        },
+        {
+          "id": "clara-moon-23",
+          "title": "Final Hymn",
+          "description": "The last song before silence."
+        },
+        {
+          "id": "clara-moon-24",
+          "title": "Clara",
+          "description": "The name spoken softly."
+        }
+      ]
+    },
+    {
+      "id": "wyatt-hale",
+      "name": "Wyatt Hale",
+      "genre": "Country",
+      "description": "Traditional country storyteller with fiddle-driven tracks and small-town themes.",
+      "songs": [
+        {
+          "id": "wyatt-hale-01",
+          "title": "Fiddle on the Porch",
+          "description": "Music that starts once the work is done."
+        },
+        {
+          "id": "wyatt-hale-02",
+          "title": "Main Street",
+          "description": "Knowing every face and every story."
+        },
+        {
+          "id": "wyatt-hale-03",
+          "title": "County Line",
+          "description": "The edge of where you grew up."
+        },
+        {
+          "id": "wyatt-hale-04",
+          "title": "Sunday Best",
+          "description": "Clothes saved for church and funerals."
+        },
+        {
+          "id": "wyatt-hale-05",
+          "title": "Grandpa’s Truck",
+          "description": "Miles and memories in the same cab."
+        },
+        {
+          "id": "wyatt-hale-06",
+          "title": "Harvest",
+          "description": "What the land gives back."
+        },
+        {
+          "id": "wyatt-hale-07",
+          "title": "Small Town Girl",
+          "description": "Someone who knows the same roads you do."
+        },
+        {
+          "id": "wyatt-hale-08",
+          "title": "Barn Light",
+          "description": "Working after the sun goes down."
+        },
+        {
+          "id": "wyatt-hale-09",
+          "title": "Old Hymnal",
+          "description": "Pages worn thin from use."
+        },
+        {
+          "id": "wyatt-hale-10",
+          "title": "Dirt Road",
+          "description": "The way home."
+        },
+        {
+          "id": "wyatt-hale-11",
+          "title": "Family Name",
+          "description": "Carrying what came before you."
+        },
+        {
+          "id": "wyatt-hale-12",
+          "title": "First Dance",
+          "description": "The song that still gets played at weddings."
+        },
+        {
+          "id": "wyatt-hale-13",
+          "title": "Weathered",
+          "description": "Faces and fences that show their years."
+        },
+        {
+          "id": "wyatt-hale-14",
+          "title": "Supper Bell",
+          "description": "The sound that brings everyone in."
+        },
+        {
+          "id": "wyatt-hale-15",
+          "title": "Hand-Me-Down",
+          "description": "Things passed along because they still work."
+        },
+        {
+          "id": "wyatt-hale-16",
+          "title": "County Fair",
+          "description": "One night a year when the whole town shows up."
+        },
+        {
+          "id": "wyatt-hale-17",
+          "title": "Front Pew",
+          "description": "Where the family has always sat."
+        },
+        {
+          "id": "wyatt-hale-18",
+          "title": "Slow Lane",
+          "description": "Life that doesn’t rush."
+        },
+        {
+          "id": "wyatt-hale-19",
+          "title": "Tin Roof Rain",
+          "description": "Sound that means you’re home."
+        },
+        {
+          "id": "wyatt-hale-20",
+          "title": "Neighbor",
+          "description": "Someone who shows up without being asked."
+        },
+        {
+          "id": "wyatt-hale-21",
+          "title": "Old Boots",
+          "description": "Footwear that has walked every acre."
+        },
+        {
+          "id": "wyatt-hale-22",
+          "title": "Closing Time",
+          "description": "The last song at the only bar in town."
+        },
+        {
+          "id": "wyatt-hale-23",
+          "title": "Roots",
+          "description": "What keeps you from leaving for good."
+        },
+        {
+          "id": "wyatt-hale-24",
+          "title": "Wyatt",
+          "description": "The name on the mailbox."
+        }
+      ]
+    },
+    {
+      "id": "harper-lane",
+      "name": "Harper Lane",
+      "genre": "Country",
+      "description": "Modern country-pop artist with anthemic choruses and personal lyrics.",
+      "songs": [
+        {
+          "id": "harper-lane-01",
+          "title": "Small Town, Big Dreams",
+          "description": "Wanting more without forgetting where you started."
+        },
+        {
+          "id": "harper-lane-02",
+          "title": "Rearview",
+          "description": "Watching the past get smaller."
+        },
+        {
+          "id": "harper-lane-03",
+          "title": "Heart on My Sleeve",
+          "description": "Feelings worn where everyone can see them."
+        },
+        {
+          "id": "harper-lane-04",
+          "title": "Golden",
+          "description": "Moments that feel like they were meant to be remembered."
+        },
+        {
+          "id": "harper-lane-05",
+          "title": "Break the Mold",
+          "description": "Doing it differently than expected."
+        },
+        {
+          "id": "harper-lane-06",
+          "title": "Homecoming",
+          "description": "Returning even after you’ve changed."
+        },
+        {
+          "id": "harper-lane-07",
+          "title": "Loud and Clear",
+          "description": "Saying what you mean."
+        },
+        {
+          "id": "harper-lane-08",
+          "title": "New Boots",
+          "description": "Stepping into the next chapter."
+        },
+        {
+          "id": "harper-lane-09",
+          "title": "Radio",
+          "description": "Songs that soundtrack real life."
+        },
+        {
+          "id": "harper-lane-10",
+          "title": "Stronger",
+          "description": "Coming out the other side."
+        },
+        {
+          "id": "harper-lane-11",
+          "title": "Open Road",
+          "description": "Possibility stretched out in front of you."
+        },
+        {
+          "id": "harper-lane-12",
+          "title": "Love Like This",
+          "description": "The kind that shows up in the chorus."
+        },
+        {
+          "id": "harper-lane-13",
+          "title": "Rise Up",
+          "description": "Refusing to stay down."
+        },
+        {
+          "id": "harper-lane-14",
+          "title": "Small Town Saturday",
+          "description": "Nights that still feel big."
+        },
+        {
+          "id": "harper-lane-15",
+          "title": "Unapologetic",
+          "description": "Owning who you are."
+        },
+        {
+          "id": "harper-lane-16",
+          "title": "Better Days",
+          "description": "Believing they’re coming."
+        },
+        {
+          "id": "harper-lane-17",
+          "title": "Spotlight",
+          "description": "Taking the stage you’ve earned."
+        },
+        {
+          "id": "harper-lane-18",
+          "title": "Roots and Wings",
+          "description": "Staying connected while still flying."
+        },
+        {
+          "id": "harper-lane-19",
+          "title": "Heartbreak Anthem",
+          "description": "Pain turned into something you can sing along to."
+        },
+        {
+          "id": "harper-lane-20",
+          "title": "Full Volume",
+          "description": "Living without turning yourself down."
+        },
+        {
+          "id": "harper-lane-21",
+          "title": "Chapter",
+          "description": "Closing one and starting another."
+        },
+        {
+          "id": "harper-lane-22",
+          "title": "Shine",
+          "description": "Letting people see you."
+        },
+        {
+          "id": "harper-lane-23",
+          "title": "Still Me",
+          "description": "Changing without losing yourself."
+        },
+        {
+          "id": "harper-lane-24",
+          "title": "Harper",
+          "description": "Signing the song with her name."
+        }
+      ]
+    },
+    {
+      "id": "boone-carter",
+      "name": "Boone Carter",
+      "genre": "Country",
+      "description": "Outlaw-leaning country with rough vocals and road-weary storytelling.",
+      "songs": [
+        {
+          "id": "boone-carter-01",
+          "title": "Outlaw Mile",
+          "description": "Roads that don’t appear on polite maps."
+        },
+        {
+          "id": "boone-carter-02",
+          "title": "Whiskey Bent",
+          "description": "Decisions made after the bottle is open."
+        },
+        {
+          "id": "boone-carter-03",
+          "title": "Worn Leather",
+          "description": "Jackets and lives that show their miles."
+        },
+        {
+          "id": "boone-carter-04",
+          "title": "No Fixed Address",
+          "description": "Moving because staying brings trouble."
+        },
+        {
+          "id": "boone-carter-05",
+          "title": "Barstool",
+          "description": "The office for certain kinds of thinking."
+        },
+        {
+          "id": "boone-carter-06",
+          "title": "Dust",
+          "description": "What you leave behind when you pull out."
+        },
+        {
+          "id": "boone-carter-07",
+          "title": "Hard Living",
+          "description": "Choices that cost more than money."
+        },
+        {
+          "id": "boone-carter-08",
+          "title": "Midnight Rider",
+          "description": "Covering ground while others sleep."
+        },
+        {
+          "id": "boone-carter-09",
+          "title": "Scarred",
+          "description": "Proof of the nights that went wrong."
+        },
+        {
+          "id": "boone-carter-10",
+          "title": "Cash Only",
+          "description": "Transactions that don’t leave a trail."
+        },
+        {
+          "id": "boone-carter-11",
+          "title": "Broken Taillight",
+          "description": "Small problems that signal bigger ones."
+        },
+        {
+          "id": "boone-carter-12",
+          "title": "Last Exit",
+          "description": "The turn you almost didn’t take."
+        },
+        {
+          "id": "boone-carter-13",
+          "title": "Rough Hands",
+          "description": "Work and fights that left marks."
+        },
+        {
+          "id": "boone-carter-14",
+          "title": "No Regrets",
+          "description": "Said even when it isn’t fully true."
+        },
+        {
+          "id": "boone-carter-15",
+          "title": "Open Bottle",
+          "description": "Company that doesn’t ask questions."
+        },
+        {
+          "id": "boone-carter-16",
+          "title": "County Jail",
+          "description": "A stop some people know too well."
+        },
+        {
+          "id": "boone-carter-17",
+          "title": "Faded Tattoo",
+          "description": "Ink that outlasted the reason."
+        },
+        {
+          "id": "boone-carter-18",
+          "title": "Two-Lane",
+          "description": "Highways where you can still disappear."
+        },
+        {
+          "id": "boone-carter-19",
+          "title": "Debt Collector",
+          "description": "Owing people who don’t forget."
+        },
+        {
+          "id": "boone-carter-20",
+          "title": "Smoke",
+          "description": "Cigarettes and the haze of bad decisions."
+        },
+        {
+          "id": "boone-carter-21",
+          "title": "One More Town",
+          "description": "Always heading somewhere else."
+        },
+        {
+          "id": "boone-carter-22",
+          "title": "Outlaw Heart",
+          "description": "Loyalty that doesn’t follow rules."
+        },
+        {
+          "id": "boone-carter-23",
+          "title": "Final Ride",
+          "description": "The last stretch before something ends."
+        },
+        {
+          "id": "boone-carter-24",
+          "title": "Boone",
+          "description": "The name they use when they talk about you."
+        }
+      ]
+    },
+    {
+      "id": "lila-brooks",
+      "name": "Lila Brooks",
+      "genre": "Country",
+      "description": "Soft, acoustic country singer with heartfelt ballads about love and home.",
+      "songs": [
+        {
+          "id": "lila-brooks-01",
+          "title": "Front Porch Swing",
+          "description": "Evenings that don’t need much talking."
+        },
+        {
+          "id": "lila-brooks-02",
+          "title": "Kitchen Light",
+          "description": "The glow that means someone’s still up."
+        },
+        {
+          "id": "lila-brooks-03",
+          "title": "Love Like Home",
+          "description": "Feeling safe with someone."
+        },
+        {
+          "id": "lila-brooks-04",
+          "title": "Soft Spoken",
+          "description": "Words said gently."
+        },
+        {
+          "id": "lila-brooks-05",
+          "title": "Hand in Hand",
+          "description": "Simple closeness."
+        },
+        {
+          "id": "lila-brooks-06",
+          "title": "Old Quilt",
+          "description": "Warmth passed down."
+        },
+        {
+          "id": "lila-brooks-07",
+          "title": "Rain on the Roof",
+          "description": "Sound that makes you want to stay in."
+        },
+        {
+          "id": "lila-brooks-08",
+          "title": "Promise",
+          "description": "Something said and meant."
+        },
+        {
+          "id": "lila-brooks-09",
+          "title": "Wildflowers",
+          "description": "Beauty that grows without being asked."
+        },
+        {
+          "id": "lila-brooks-10",
+          "title": "Stay Awhile",
+          "description": "Not wanting the visit to end."
+        },
+        {
+          "id": "lila-brooks-11",
+          "title": "Heartbeats",
+          "description": "The quiet rhythm of being together."
+        },
+        {
+          "id": "lila-brooks-12",
+          "title": "Morning Coffee",
+          "description": "Ordinary moments that matter."
+        },
+        {
+          "id": "lila-brooks-13",
+          "title": "Gentle",
+          "description": "Handling love with care."
+        },
+        {
+          "id": "lila-brooks-14",
+          "title": "Backroads",
+          "description": "Drives with no destination."
+        },
+        {
+          "id": "lila-brooks-15",
+          "title": "Forever Home",
+          "description": "The place and person you choose."
+        },
+        {
+          "id": "lila-brooks-16",
+          "title": "Whisper",
+          "description": "Secrets shared in low voices."
+        },
+        {
+          "id": "lila-brooks-17",
+          "title": "Sunlight",
+          "description": "Warmth that finds you."
+        },
+        {
+          "id": "lila-brooks-18",
+          "title": "Hold Me",
+          "description": "Asking without making it complicated."
+        },
+        {
+          "id": "lila-brooks-19",
+          "title": "Simple",
+          "description": "Love that doesn’t need grand gestures."
+        },
+        {
+          "id": "lila-brooks-20",
+          "title": "Night Sky",
+          "description": "Looking up from the same porch."
+        },
+        {
+          "id": "lila-brooks-21",
+          "title": "Roots",
+          "description": "Growing where you are."
+        },
+        {
+          "id": "lila-brooks-22",
+          "title": "Soft Landing",
+          "description": "Coming back to something steady."
+        },
+        {
+          "id": "lila-brooks-23",
+          "title": "Always",
+          "description": "The word that feels true."
+        },
+        {
+          "id": "lila-brooks-24",
+          "title": "Lila",
+          "description": "The name sung like a lullaby."
+        }
+      ]
+    }
+  ]
+}

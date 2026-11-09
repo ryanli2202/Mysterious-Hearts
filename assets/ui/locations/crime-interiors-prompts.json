@@ -1,0 +1,53 @@
+{
+  "generator": "Built-in image_gen",
+  "assets": [
+    {
+      "key": "site_01",
+      "prompt": "Generate ONE landscape 3:2 interior game background for Mysterious Hearts. Detailed painterly anime/manhwa environment, refined linework and atmospheric architectural illustration, matching contemporary 2050 US city visual novel. No people, readable text, logos, UI, watermarks or panels. Dark slate interior surfaces, muted warm lighting, no white walls. Public reception at eye level with clear foreground for character overlays and closed secure doors. Do not reveal criminal affiliations, secrets or occupants. Kestrel contractor reception: imposing charcoal concrete, dark steel checkpoint counter, amber strip lights, opaque secure doors and a closed glass visitor gate. No visible command screens.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b9ee-6e14-7be2-9215-cf2e6f073577\\exec-89964412-39f3-456e-93fd-623a1a055a71.png",
+      "destination": "assets/ui/locations/site_01_interior.png"
+    },
+    {
+      "key": "site_02",
+      "prompt": "Generate ONE landscape 3:2 interior game background for Mysterious Hearts. Detailed painterly anime/manhwa environment, refined linework and atmospheric architectural illustration, matching contemporary 2050 US city visual novel. No people, readable text, logos, UI, watermarks or panels. Dark slate interior surfaces, muted warm lighting, no white walls. Public reception at eye level with clear foreground for character overlays and closed secure doors. Do not reveal criminal affiliations, secrets or occupants. Pacific Relay depot dispatch office: indigo steel window frames, dark timber counter, parcel cubbies with blank labels, glazed view into an empty warehouse, closed badge-controlled staff door.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b9ee-6e14-7be2-9215-cf2e6f073577\\exec-e7c2c579-bed9-46cb-9e96-3dc38ad47fec.png",
+      "destination": "assets/ui/locations/site_02_interior.png"
+    },
+    {
+      "key": "site_03",
+      "prompt": "Generate ONE landscape 3:2 interior game background for Mysterious Hearts. Detailed painterly anime/manhwa environment, refined linework and atmospheric architectural illustration, matching contemporary 2050 US city visual novel. No people, readable text, logos, UI, watermarks or panels. Dark slate interior surfaces, muted warm lighting, no white walls. Public reception at eye level with clear foreground for character overlays and closed secure doors. Do not reveal criminal affiliations, secrets or occupants. Stillwater contract-research reception: graphite surfaces, frosted teal glass partitions, tidy dark upholstered waiting chairs, sealed laboratory corridor behind an opaque door. No medical procedures or experiments visible.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b9ee-6e14-7be2-9215-cf2e6f073577\\exec-df2bc1c1-9a59-4274-ac17-7def940d033e.png",
+      "destination": "assets/ui/locations/site_03_interior.png"
+    },
+    {
+      "key": "site_04",
+      "prompt": "Generate ONE landscape 3:2 interior game background for Mysterious Hearts. Detailed painterly anime/manhwa environment, refined linework and atmospheric architectural illustration, matching contemporary 2050 US city visual novel. No people, readable text, logos, UI, watermarks or panels. Dark slate interior surfaces, muted warm lighting, no white walls. Public reception at eye level with clear foreground for character overlays and closed secure doors. Do not reveal criminal affiliations, secrets or occupants. Breakwater security depot briefing reception: old brick and blue steel, dark leather bench, equipment lockers closed, visitor counter and secure staff door. No weapons visible.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b9ee-6e14-7be2-9215-cf2e6f073577\\exec-c1ab0892-2e58-4e9b-b15d-1269a900da82.png",
+      "destination": "assets/ui/locations/site_04_interior.png"
+    },
+    {
+      "key": "site_05",
+      "prompt": "Generate ONE landscape 3:2 interior game background for Mysterious Hearts. Detailed painterly anime/manhwa environment, refined linework and atmospheric architectural illustration, matching contemporary 2050 US city visual novel. No people, readable text, logos, UI, watermarks or panels. Dark slate interior surfaces, muted warm lighting, no white walls. Public reception at eye level with clear foreground for character overlays and closed secure doors. Do not reveal criminal affiliations, secrets or occupants. Aster Media agency reception: elegant brick arches, burgundy upholstery, amber lighting, dark brass desk, abstract framed artwork, soundproof smoked-glass meeting-room doors.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b9ee-6e14-7be2-9215-cf2e6f073577\\exec-a854f716-f323-46e0-84db-052f8da1becc.png",
+      "destination": "assets/ui/locations/site_05_interior.png"
+    },
+    {
+      "key": "site_06",
+      "prompt": "Generate ONE landscape 3:2 interior game background for Mysterious Hearts. Detailed painterly anime/manhwa environment, refined linework and atmospheric architectural illustration, matching contemporary 2050 US city visual novel. No people, readable text, logos, UI, watermarks or panels. Dark slate interior surfaces, muted warm lighting, no white walls. Public reception at eye level with clear foreground for character overlays and closed secure doors. Do not reveal criminal affiliations, secrets or occupants. Meridian Capital reception: charcoal marble, walnut panelling, bronze fixtures, dark upholstered chairs, discreet reception desk, closed frosted-glass boardroom doors.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b9ee-6e14-7be2-9215-cf2e6f073577\\exec-34e201e2-401f-43ea-852b-d737d03c6d76.png",
+      "destination": "assets/ui/locations/site_06_interior.png"
+    },
+    {
+      "key": "site_07",
+      "prompt": "Generate ONE landscape 3:2 interior game background for Mysterious Hearts. Detailed painterly anime/manhwa environment, refined linework and atmospheric architectural illustration, matching contemporary 2050 US city visual novel. No people, readable text, logos, UI, watermarks or panels. Dark slate interior surfaces, muted warm lighting, no white walls. Public reception at eye level with clear foreground for character overlays and closed secure doors. Do not reveal criminal affiliations, secrets or occupants. Oculus corporate visitor centre: sweeping blue-green glass, charcoal floor and ceiling, elegant dark reception island, plants, soft amber lighting and discreet gated elevator lobby. Ordinary prestigious technology campus, no sinister clues.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b9ee-6e14-7be2-9215-cf2e6f073577\\exec-83e1f148-89c7-4776-bbff-efe09735a103.png",
+      "destination": "assets/ui/locations/site_07_interior.png"
+    },
+    {
+      "key": "site_08",
+      "prompt": "Generate ONE landscape 3:2 interior game background for Mysterious Hearts. Detailed painterly anime/manhwa environment, refined linework and atmospheric architectural illustration, matching contemporary 2050 US city visual novel. No people, readable text, logos, UI, watermarks or panels. Dark slate interior surfaces, muted warm lighting, no white walls. Public reception at eye level with clear foreground for character overlays and closed secure doors. Do not reveal criminal affiliations, secrets or occupants. Greyglass service office: weathered grey brick, dark green painted woodwork, old sturdy counter, closed tool cabinets, a frosted door into the workshop and warm task lamps. Modest believable equipment repair business.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1b9ee-6e14-7be2-9215-cf2e6f073577\\exec-ecd6747e-6046-407c-8a8d-1ea15e5f8e77.png",
+      "destination": "assets/ui/locations/site_08_interior.png"
+    }
+  ]
+}

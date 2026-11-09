@@ -1,0 +1,65 @@
+[
+  {
+    "name": "sky",
+    "file": "sky.png",
+    "parallax": 0,
+    "size": [
+      384,
+      320
+    ]
+  },
+  {
+    "name": "distant-hills",
+    "file": "distant-hills.png",
+    "parallax": 0.16,
+    "size": [
+      2048,
+      320
+    ]
+  },
+  {
+    "name": "woodland",
+    "file": "woodland.png",
+    "parallax": 0.35,
+    "size": [
+      2048,
+      320
+    ]
+  },
+  {
+    "name": "pond-and-shrubs",
+    "file": "pond-and-shrubs.png",
+    "parallax": 0.7,
+    "size": [
+      2048,
+      320
+    ]
+  },
+  {
+    "name": "near-trees",
+    "file": "near-trees.png",
+    "parallax": 0.9,
+    "size": [
+      2048,
+      320
+    ]
+  },
+  {
+    "name": "playable-path",
+    "file": "playable-path.png",
+    "parallax": 1,
+    "size": [
+      2048,
+      320
+    ]
+  },
+  {
+    "name": "foreground-grass",
+    "file": "foreground-grass.png",
+    "parallax": 1.12,
+    "size": [
+      2048,
+      320
+    ]
+  }
+]

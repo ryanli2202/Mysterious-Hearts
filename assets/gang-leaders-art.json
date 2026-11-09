@@ -1,0 +1,132 @@
+{
+  "tool": "built-in image_gen",
+  "style_reference": "assets/portraits/keisuke-hachimura-selection.png",
+  "files": [
+    {
+      "name": "Mara Voss",
+      "kind": "portrait",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ba86-a9d5-79a3-a704-1bbf5a924255\\exec-1a238da9-c64f-471d-b96f-0bfc11393eb9.png",
+      "file": "assets/portraits/mara-voss-selection.png",
+      "prompt": "Style-transfer edit. Image 1 is the character identity to preserve: same age, ethnicity, hair, outfit and facial identity. Image 2 is STYLE REFERENCE ONLY: match the game's Korean manhwa/webtoon aesthetic precisely, crisp confident ink outlines, stylised angular facial planes and eyes, clean flat colour regions with sharp cel shadow shapes, minimal painterly skin texture. Do NOT copy image 2's person, hair or outfit. Create the same head-to-mid-thigh upright game character sprite, isolated on true transparent background. Fully opaque subject, remove every halo, glow, backdrop and outside shadow. No text, no watermark. The first reference's soft semi-realistic rendering must be replaced by the second reference's recognisable manhwa drawing style."
+    },
+    {
+      "name": "Mara Voss",
+      "kind": "contact",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ba86-a9d5-79a3-a704-1bbf5a924255\\exec-3b536c67-74fb-42d8-b1b7-1c3e360ae17f.png",
+      "file": "assets/profiles/Mara Voss.png",
+      "prompt": "Style-transfer edit. Image 1 is the character identity to preserve: same age, ethnicity, hair, outfit and facial identity. Image 2 is STYLE REFERENCE ONLY: match the game's Korean manhwa/webtoon aesthetic precisely, crisp confident ink outlines, stylised angular facial planes and eyes, clean flat colour regions with sharp cel shadow shapes, minimal painterly skin texture. Do NOT copy image 2's person, hair or outfit. Create a square head-and-shoulders contact photo of the same person against flat dark slate, full hair visible and face centered for a round small avatar. No text, no watermark. The first reference's soft semi-realistic rendering must be replaced by the second reference's recognisable manhwa drawing style."
+    },
+    {
+      "name": "Darius Cole",
+      "kind": "portrait",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ba86-a9d5-79a3-a704-1bbf5a924255\\exec-b1dfe0db-2039-4168-8e35-c2131cde8aef.png",
+      "file": "assets/portraits/darius-cole-selection.png",
+      "prompt": "Style-transfer edit. Image 1 is the character identity to preserve: same age, ethnicity, hair, outfit and facial identity. Image 2 is STYLE REFERENCE ONLY: match the game's Korean manhwa/webtoon aesthetic precisely, crisp confident ink outlines, stylised angular facial planes and eyes, clean flat colour regions with sharp cel shadow shapes, minimal painterly skin texture. Do NOT copy image 2's person, hair or outfit. Create the same head-to-mid-thigh upright game character sprite, isolated on true transparent background. Fully opaque subject, remove every halo, glow, backdrop and outside shadow. No text, no watermark. The first reference's soft semi-realistic rendering must be replaced by the second reference's recognisable manhwa drawing style."
+    },
+    {
+      "name": "Darius Cole",
+      "kind": "contact",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ba86-a9d5-79a3-a704-1bbf5a924255\\exec-063738ca-b490-4997-98fe-fc3af9eb548d.png",
+      "file": "assets/profiles/Darius Cole.png",
+      "prompt": "Style-transfer edit. Image 1 is the character identity to preserve: same age, ethnicity, hair, outfit and facial identity. Image 2 is STYLE REFERENCE ONLY: match the game's Korean manhwa/webtoon aesthetic precisely, crisp confident ink outlines, stylised angular facial planes and eyes, clean flat colour regions with sharp cel shadow shapes, minimal painterly skin texture. Do NOT copy image 2's person, hair or outfit. Create a square head-and-shoulders contact photo of the same person against flat dark slate, full hair visible and face centered for a round small avatar. No text, no watermark. The first reference's soft semi-realistic rendering must be replaced by the second reference's recognisable manhwa drawing style."
+    },
+    {
+      "name": "Rafe Calder",
+      "kind": "portrait",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ba86-a9d5-79a3-a704-1bbf5a924255\\exec-ca8667dc-f124-40ef-b313-9e38a20f6647.png",
+      "file": "assets/portraits/rafe-calder-selection.png",
+      "prompt": "Style-transfer edit. Image 1 is the character identity to preserve: same age, ethnicity, hair, outfit and facial identity. Image 2 is STYLE REFERENCE ONLY: match the game's Korean manhwa/webtoon aesthetic precisely, crisp confident ink outlines, stylised angular facial planes and eyes, clean flat colour regions with sharp cel shadow shapes, minimal painterly skin texture. Do NOT copy image 2's person, hair or outfit. Create the same head-to-mid-thigh upright game character sprite, isolated on true transparent background. Fully opaque subject, remove every halo, glow, backdrop and outside shadow. No text, no watermark. The first reference's soft semi-realistic rendering must be replaced by the second reference's recognisable manhwa drawing style."
+    },
+    {
+      "name": "Rafe Calder",
+      "kind": "contact",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ba86-a9d5-79a3-a704-1bbf5a924255\\exec-5930cc45-022c-4b98-90c9-c9c3afa83abe.png",
+      "file": "assets/profiles/Rafe Calder.png",
+      "prompt": "Style-transfer edit. Image 1 is the character identity to preserve: same age, ethnicity, hair, outfit and facial identity. Image 2 is STYLE REFERENCE ONLY: match the game's Korean manhwa/webtoon aesthetic precisely, crisp confident ink outlines, stylised angular facial planes and eyes, clean flat colour regions with sharp cel shadow shapes, minimal painterly skin texture. Do NOT copy image 2's person, hair or outfit. Create a square head-and-shoulders contact photo of the same person against flat dark slate, full hair visible and face centered for a round small avatar. No text, no watermark. The first reference's soft semi-realistic rendering must be replaced by the second reference's recognisable manhwa drawing style."
+    },
+    {
+      "name": "Daichi Kurose",
+      "kind": "portrait",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ba86-a9d5-79a3-a704-1bbf5a924255\\exec-8d174c36-1a2a-47f8-a92a-df2eed262282.png",
+      "file": "assets/portraits/daichi-kurose-selection.png",
+      "prompt": "Style-transfer edit. Image 1 is the character identity to preserve: same age, ethnicity, hair, outfit and facial identity. Image 2 is STYLE REFERENCE ONLY: match the game's Korean manhwa/webtoon aesthetic precisely, crisp confident ink outlines, stylised angular facial planes and eyes, clean flat colour regions with sharp cel shadow shapes, minimal painterly skin texture. Do NOT copy image 2's person, hair or outfit. Create the same head-to-mid-thigh upright game character sprite, isolated on true transparent background. Fully opaque subject, remove every halo, glow, backdrop and outside shadow. No text, no watermark. The first reference's soft semi-realistic rendering must be replaced by the second reference's recognisable manhwa drawing style."
+    },
+    {
+      "name": "Daichi Kurose",
+      "kind": "contact",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ba86-a9d5-79a3-a704-1bbf5a924255\\exec-26d47310-a11a-41ea-aa1c-44157751aa61.png",
+      "file": "assets/profiles/Daichi Kurose.png",
+      "prompt": "Style-transfer edit. Image 1 is the character identity to preserve: same age, ethnicity, hair, outfit and facial identity. Image 2 is STYLE REFERENCE ONLY: match the game's Korean manhwa/webtoon aesthetic precisely, crisp confident ink outlines, stylised angular facial planes and eyes, clean flat colour regions with sharp cel shadow shapes, minimal painterly skin texture. Do NOT copy image 2's person, hair or outfit. Create a square head-and-shoulders contact photo of the same person against flat dark slate, full hair visible and face centered for a round small avatar. No text, no watermark. The first reference's soft semi-realistic rendering must be replaced by the second reference's recognisable manhwa drawing style."
+    },
+    {
+      "name": "Isabel Vega",
+      "kind": "portrait",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ba86-a9d5-79a3-a704-1bbf5a924255\\exec-afae25b3-1697-46d8-b719-d6f4b1718fbb.png",
+      "file": "assets/portraits/isabel-vega-selection.png",
+      "prompt": "Style-transfer edit. Image 1 is the character identity to preserve: same age, ethnicity, hair, outfit and facial identity. Image 2 is STYLE REFERENCE ONLY: match the game's Korean manhwa/webtoon aesthetic precisely, crisp confident ink outlines, stylised angular facial planes and eyes, clean flat colour regions with sharp cel shadow shapes, minimal painterly skin texture. Do NOT copy image 2's person, hair or outfit. Create the same head-to-mid-thigh upright game character sprite, isolated on true transparent background. Fully opaque subject, remove every halo, glow, backdrop and outside shadow. No text, no watermark. The first reference's soft semi-realistic rendering must be replaced by the second reference's recognisable manhwa drawing style."
+    },
+    {
+      "name": "Isabel Vega",
+      "kind": "contact",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ba86-a9d5-79a3-a704-1bbf5a924255\\exec-14e99120-9b16-4069-b61b-4b1869d1dcea.png",
+      "file": "assets/profiles/Isabel Vega.png",
+      "prompt": "Style-transfer edit. Image 1 is the character identity to preserve: same age, ethnicity, hair, outfit and facial identity. Image 2 is STYLE REFERENCE ONLY: match the game's Korean manhwa/webtoon aesthetic precisely, crisp confident ink outlines, stylised angular facial planes and eyes, clean flat colour regions with sharp cel shadow shapes, minimal painterly skin texture. Do NOT copy image 2's person, hair or outfit. Create a square head-and-shoulders contact photo of the same person against flat dark slate, full hair visible and face centered for a round small avatar. No text, no watermark. The first reference's soft semi-realistic rendering must be replaced by the second reference's recognisable manhwa drawing style."
+    },
+    {
+      "name": "Evelyn Mercer",
+      "kind": "portrait",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ba86-a9d5-79a3-a704-1bbf5a924255\\exec-47eab498-32e6-4f2b-bc64-4136a28bb82e.png",
+      "file": "assets/portraits/evelyn-mercer-selection.png",
+      "prompt": "Style-transfer edit. Image 1 is the character identity to preserve: same age, ethnicity, hair, outfit and facial identity. Image 2 is STYLE REFERENCE ONLY: match the game's Korean manhwa/webtoon aesthetic precisely, crisp confident ink outlines, stylised angular facial planes and eyes, clean flat colour regions with sharp cel shadow shapes, minimal painterly skin texture. Do NOT copy image 2's person, hair or outfit. Create the same head-to-mid-thigh upright game character sprite, isolated on true transparent background. Fully opaque subject, remove every halo, glow, backdrop and outside shadow. No text, no watermark. The first reference's soft semi-realistic rendering must be replaced by the second reference's recognisable manhwa drawing style."
+    },
+    {
+      "name": "Evelyn Mercer",
+      "kind": "contact",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ba86-a9d5-79a3-a704-1bbf5a924255\\exec-7b00ac99-ff7b-4496-ada2-94446305649d.png",
+      "file": "assets/profiles/Evelyn Mercer.png",
+      "prompt": "Style-transfer edit. Image 1 is the character identity to preserve: same age, ethnicity, hair, outfit and facial identity. Image 2 is STYLE REFERENCE ONLY: match the game's Korean manhwa/webtoon aesthetic precisely, crisp confident ink outlines, stylised angular facial planes and eyes, clean flat colour regions with sharp cel shadow shapes, minimal painterly skin texture. Do NOT copy image 2's person, hair or outfit. Create a square head-and-shoulders contact photo of the same person against flat dark slate, full hair visible and face centered for a round small avatar. No text, no watermark. The first reference's soft semi-realistic rendering must be replaced by the second reference's recognisable manhwa drawing style."
+    },
+    {
+      "name": "lantern_house",
+      "kind": "location",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ba86-a9d5-79a3-a704-1bbf5a924255\\exec-fed2a343-8683-4cb0-84cd-120f3aa368cf.png",
+      "file": "assets/ui/locations/lantern_house.png",
+      "prompt": "Use case: stylized-concept. Wide landscape 16:9 in-person visual novel background in polished Korean manhwa/webtoon style, clear ink lines, controlled cel-shaded colour and architectural detail, compatible with crisp manhwa character sprites. Lantern House, intimate upstairs night-market crew meeting room: amber paper lanterns, dark timber, old radios on shelves, a worn central table, market windows, discreet stairs to the resident leader's flat. Small-time street crew, lived-in, not a palace. Eye-level view from one side of the room, open clear foreground on left and right for two waist-up character sprites; important furniture and architectural identity in the middle distance. Atmospheric dusk but legible, dark slate and rich coloured accents. No people, no silhouettes, no text, no watermark, no interface."
+    },
+    {
+      "name": "saints_depot",
+      "kind": "location",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ba86-a9d5-79a3-a704-1bbf5a924255\\exec-1c2c5b8d-fbb9-40af-ba3a-f8c2476b22f6.png",
+      "file": "assets/ui/locations/saints_depot.png",
+      "prompt": "Use case: stylized-concept. Wide landscape 16:9 in-person visual novel background in polished Korean manhwa/webtoon style, clear ink lines, controlled cel-shaded colour and architectural detail, compatible with crisp manhwa character sprites. Saints Rail Depot, converted old railway depot office: industrial brick, steel rafters, mechanical railway clocks, navy filing cabinets, a sturdy meeting table, rain-streaked windows overlooking disused tracks, door to modest residential quarters. Eye-level view from one side of the room, open clear foreground on left and right for two waist-up character sprites; important furniture and architectural identity in the middle distance. Atmospheric dusk but legible, dark slate and rich coloured accents. No people, no silhouettes, no text, no watermark, no interface."
+    },
+    {
+      "name": "purple_clubhouse",
+      "kind": "location",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ba86-a9d5-79a3-a704-1bbf5a924255\\exec-8cc6566c-4a0d-4c1f-9cde-fdf953c4e24d.png",
+      "file": "assets/ui/locations/purple_clubhouse.png",
+      "prompt": "Use case: stylized-concept. Wide landscape 16:9 in-person visual novel background in polished Korean manhwa/webtoon style, clear ink lines, controlled cel-shaded colour and architectural detail, compatible with crisp manhwa character sprites. Purple Skulls motorcycle clubhouse: black leather benches, purple accent light, motorcycle helmets and tools, garage visible through glass, broad meeting table, stairs to the chapter president's upstairs living quarters. No people. Eye-level view from one side of the room, open clear foreground on left and right for two waist-up character sprites; important furniture and architectural identity in the middle distance. Atmospheric dusk but legible, dark slate and rich coloured accents. No people, no silhouettes, no text, no watermark, no interface."
+    },
+    {
+      "name": "hamayashi_house",
+      "kind": "location",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ba86-a9d5-79a3-a704-1bbf5a924255\\exec-af53f64f-5157-4130-a79b-9d89991ee3c7.png",
+      "file": "assets/ui/locations/hamayashi_house.png",
+      "prompt": "Use case: stylized-concept. Wide landscape 16:9 in-person visual novel background in polished Korean manhwa/webtoon style, clear ink lines, controlled cel-shaded colour and architectural detail, compatible with crisp manhwa character sprites. Kurose House, successor Hamayashi-kai residence and meeting room: contemporary Japanese timber and dark stone interior, low formal meeting table, bonsai, shoji panels, small enclosed courtyard and private residence doorway. Restrained burgundy and navy details, quiet intimidating symmetry. Eye-level view from one side of the room, open clear foreground on left and right for two waist-up character sprites; important furniture and architectural identity in the middle distance. Atmospheric dusk but legible, dark slate and rich coloured accents. No people, no silhouettes, no text, no watermark, no interface."
+    },
+    {
+      "name": "rojos_courtyard",
+      "kind": "location",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ba86-a9d5-79a3-a704-1bbf5a924255\\exec-ada43dec-7e30-47f9-84b0-206cca7e4899.png",
+      "file": "assets/ui/locations/rojos_courtyard.png",
+      "prompt": "Use case: stylized-concept. Wide landscape 16:9 in-person visual novel background in polished Korean manhwa/webtoon style, clear ink lines, controlled cel-shaded colour and architectural detail, compatible with crisp manhwa character sprites. Los Rojos Courtyard, cartel leader's residential office overlooking a terracotta courtyard: deep-red upholstery, dark wood table, ironwork windows, warm stone arches, a classical guitar in a corner, staircase toward private rooms. Modern criminal boardroom, grounded rather than ostentatious. Eye-level view from one side of the room, open clear foreground on left and right for two waist-up character sprites; important furniture and architectural identity in the middle distance. Atmospheric dusk but legible, dark slate and rich coloured accents. No people, no silhouettes, no text, no watermark, no interface."
+    },
+    {
+      "name": "consortium_house",
+      "kind": "location",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ba86-a9d5-79a3-a704-1bbf5a924255\\exec-4a499579-7924-40ba-b6d0-98d4910c75a2.png",
+      "file": "assets/ui/locations/consortium_house.png",
+      "prompt": "Use case: stylized-concept. Wide landscape 16:9 in-person visual novel background in polished Korean manhwa/webtoon style, clear ink lines, controlled cel-shaded colour and architectural detail, compatible with crisp manhwa character sprites. Waterfront Consortium House, sophisticated harbour-facing residence and boardroom: teal and charcoal furnishings, maritime charts, long dark negotiation table, tall windows over dock cranes and water at dusk, subtle brass details, private apartment corridor. Eye-level view from one side of the room, open clear foreground on left and right for two waist-up character sprites; important furniture and architectural identity in the middle distance. Atmospheric dusk but legible, dark slate and rich coloured accents. No people, no silhouettes, no text, no watermark, no interface."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "tool": "Built-in image_gen",
+  "provided": {
+    "syndicate": "Unmodified copy of user-provided 1Syndicate.png",
+    "shinokami": "Unmodified copy of user-provided 1Shinokami.png"
+  },
+  "assets": [
+    {
+      "key": "dragons",
+      "prompt": "Use case: logo-brand. Asset type: finished organisation emblem for Bubblegram in a fictional crime RPG, displayed on a dark slate phone UI. Create ONE isolated emblem, centered, bold silhouette readable at 72px, refined vector-like illustration with restrained depth, square composition and modest transparent margin. No text, letters, words, watermark, mockup, backing rectangle, or extra variations. Genuine transparent background. Red Dragons: a powerful coiled crimson East Asian dragon forming a near-circle, angular horned head and flowing tail, restrained antique-gold edges and charcoal interior details. An elegant formidable gang insignia."
+    },
+    {
+      "key": "joker",
+      "prompt": "Use case: logo-brand. Asset type: finished organisation emblem for Bubblegram in a fictional crime RPG, displayed on a dark slate phone UI. Create ONE isolated emblem, centered, bold silhouette readable at 72px, refined vector-like illustration with restrained depth, square composition and modest transparent margin. No text, letters, words, watermark, mockup, backing rectangle, or extra variations. Genuine transparent background. Black and White Joker network: a perfectly balanced split-tone jester mask, black and silver halves, two curved pointed crown tips, subtle violet accent, geometric sharp eyes, enigmatic and executive. Keep silver outlines so black shapes read on dark slate. No playing cards or suits; this is distinct from the Syndicate's card logo."
+    },
+    {
+      "key": "lantern",
+      "prompt": "Use case: logo-brand. Asset type: finished organisation emblem for Bubblegram in a fictional crime RPG, displayed on a dark slate phone UI. Create ONE isolated emblem, centered, bold silhouette readable at 72px, refined vector-like illustration with restrained depth, square composition and modest transparent margin. No text, letters, words, watermark, mockup, backing rectangle, or extra variations. Genuine transparent background. Lantern Crew: a single amber lantern enclosing a small warm flame, its metal frame forming a compact angular shield. Deep teal and antique gold, bold negative space, street-crew identity."
+    },
+    {
+      "key": "rail",
+      "prompt": "Use case: logo-brand. Asset type: finished organisation emblem for Bubblegram in a fictional crime RPG, displayed on a dark slate phone UI. Create ONE isolated emblem, centered, bold silhouette readable at 72px, refined vector-like illustration with restrained depth, square composition and modest transparent margin. No text, letters, words, watermark, mockup, backing rectangle, or extra variations. Genuine transparent background. Rail Yard Saints: crossed railroad rails beneath a compact iron halo, a centered rail spike, brushed steel blue with copper accents. Industrial railway gang crest, strong geometric symmetry, no religious text."
+    },
+    {
+      "key": "purple",
+      "prompt": "Use case: logo-brand. Asset type: finished organisation emblem for Bubblegram in a fictional crime RPG, displayed on a dark slate phone UI. Create ONE isolated emblem, centered, bold silhouette readable at 72px, refined vector-like illustration with restrained depth, square composition and modest transparent margin. No text, letters, words, watermark, mockup, backing rectangle, or extra variations. Genuine transparent background. Purple Skulls motorcycle gang: one stylised violet skull above two short symmetrical swept motorcycle wings, dark plum with bright amethyst and silver outlines. Compact aggressive biker crest, no lettering, no gore."
+    },
+    {
+      "key": "hamayashi",
+      "prompt": "Use case: logo-brand. Asset type: finished organisation emblem for Bubblegram in a fictional crime RPG, displayed on a dark slate phone UI. Create ONE isolated emblem, centered, bold silhouette readable at 72px, refined vector-like illustration with restrained depth, square composition and modest transparent margin. No text, letters, words, watermark, mockup, backing rectangle, or extra variations. Genuine transparent background. Reborn Hamayashi-kai successor yakuza organisation: a minimal Japanese-inspired circular crest containing an angular pine tree emerging above a small ember, with a broken outer ring joined by the new growth. Ink-black, muted crimson and antique gold edging readable on dark background. An original fictional crest, not a real family mon; rebirth from ashes, no kanji."
+    },
+    {
+      "key": "rojos",
+      "prompt": "Use case: logo-brand. Asset type: finished organisation emblem for Bubblegram in a fictional crime RPG, displayed on a dark slate phone UI. Create ONE isolated emblem, centered, bold silhouette readable at 72px, refined vector-like illustration with restrained depth, square composition and modest transparent margin. No text, letters, words, watermark, mockup, backing rectangle, or extra variations. Genuine transparent background. Los Rojos cartel: a crimson sun seal with a bold central jaguar head and a few broad geometric rays, dark charcoal shadows and warm copper edging. Sophisticated menacing original fictional cartel emblem, no text, no gore."
+    },
+    {
+      "key": "waterfront",
+      "prompt": "Use case: logo-brand. Asset type: finished organisation emblem for Bubblegram in a fictional crime RPG, displayed on a dark slate phone UI. Create ONE isolated emblem, centered, bold silhouette readable at 72px, refined vector-like illustration with restrained depth, square composition and modest transparent margin. No text, letters, words, watermark, mockup, backing rectangle, or extra variations. Genuine transparent background. Waterfront Consortium: a refined maritime anchor interlocked with three abstract shipping-pier pillars and two broad flowing wave strokes, navy teal, sea-green and cool silver outlines. Discreet corporate criminal consortium seal, strong symmetry."
+    },
+    {
+      "key": "custom-crew",
+      "prompt": "Use case: logo-brand. Asset type: finished organisation emblem for Bubblegram in a fictional crime RPG, displayed on a dark slate phone UI. Create ONE isolated emblem, centered, bold silhouette readable at 72px, refined vector-like illustration with restrained depth, square composition and modest transparent margin. No text, letters, words, watermark, mockup, backing rectangle, or extra variations. Genuine transparent background. Player-founded criminal crew: a neutral original crest of three interlocking angular links within an open charcoal shield, muted cyan and silver outlines. Unity and organisation, deliberately distinct from established gang emblems, no crown or text."
+    }
+  ]
+}
