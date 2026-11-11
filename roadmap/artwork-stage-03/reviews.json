@@ -1,0 +1,1769 @@
+{
+  "amy-beach-daisy": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed the returned full-size generation and complete wardrobe sheets against the Stage 2 master. Ginger bob, hazel eyes, freckles, face scale, composed expression, slim adult build and clasped hands remain consistent. Connected upper thighs end at the master crop; no knees/lower legs. Complete hands and clear hair/arm gaps; no visible backdrop on slate, middle and light diagnostic backgrounds. Costume reviewed: slate-blue triangle bikini printed with small white daisies with yellow centres, slim adjustable shoulder straps, matching moderate-coverage bottom",
+    "evidence": [
+      "reviews/amy-set-01.jpg",
+      "reviews/amy-set-02.jpg",
+      "reviews/amy-alpha.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "b5227ad613c56267d812d5b1951121d39aa0ecd5d0da2dce5a8bcb7eea178789"
+  },
+  "amy-beach-sage": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed the returned full-size generation and complete wardrobe sheets against the Stage 2 master. Ginger bob, hazel eyes, freckles, face scale, composed expression, slim adult build and clasped hands remain consistent. Connected upper thighs end at the master crop; no knees/lower legs. Complete hands and clear hair/arm gaps; no visible backdrop on slate, middle and light diagnostic backgrounds. Costume reviewed: sage-green finely ribbed sports bikini: wide-strap scoop-neck cropped swim top with broad underbust band and matching plain moderate-coverage briefs",
+    "evidence": [
+      "reviews/amy-set-01.jpg",
+      "reviews/amy-set-02.jpg",
+      "reviews/amy-alpha.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "420372dda25bc5be0946e9f8113ff3d6b27dd4e9fb0a078b0f5ccf36ade36ea0"
+  },
+  "amy-beach-terracotta": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed the returned full-size generation and complete wardrobe sheets against the Stage 2 master. Ginger bob, hazel eyes, freckles, face scale, composed expression, slim adult build and clasped hands remain consistent. Connected upper thighs end at the master crop; no knees/lower legs. Complete hands and clear hair/arm gaps; no visible backdrop on slate, middle and light diagnostic backgrounds. Costume reviewed: terracotta gathered triangle halterneck bikini with narrow cream piping and cream neck ties, matching moderate-coverage bottom with thin cream-edged double side straps",
+    "evidence": [
+      "reviews/amy-set-01.jpg",
+      "reviews/amy-set-02.jpg",
+      "reviews/amy-alpha.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "f79b38326db1884d1ffdb77c7bef69db38c11f7332d1a49268e29a00ee064e5a"
+  },
+  "amy-floral-dress": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed the returned full-size generation and complete wardrobe sheets against the Stage 2 master. Ginger bob, hazel eyes, freckles, face scale, composed expression, slim adult build and clasped hands remain consistent. Connected upper thighs end at the master crop; no knees/lower legs. Complete hands and clear hair/arm gaps; no visible backdrop on slate, middle and light diagnostic backgrounds. Costume reviewed: dusty blue small cream-and-yellow floral dress with square neckline, short double flutter sleeves, fitted gathered waist and tied fabric belt, loose skirt",
+    "evidence": [
+      "reviews/amy-set-01.jpg",
+      "reviews/amy-set-02.jpg",
+      "reviews/amy-alpha.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "b54f07318ffcc9b343fd28c9d8d3c6a047b38ca532ffdc663b91b80d36a0dc87"
+  },
+  "amy-formal-plum": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed the returned full-size generation and complete wardrobe sheets against the Stage 2 master. Ginger bob, hazel eyes, freckles, face scale, composed expression, slim adult build and clasped hands remain consistent. Connected upper thighs end at the master crop; no knees/lower legs. Complete hands and clear hair/arm gaps; no visible backdrop on slate, middle and light diagnostic backgrounds. Costume reviewed: deep plum satin dress, draped boat neckline, short cap sleeves, softly gathered waist, flowing skirt; restrained satin highlights",
+    "evidence": [
+      "reviews/amy-set-01.jpg",
+      "reviews/amy-set-02.jpg",
+      "reviews/amy-alpha.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "028d66aab81bcf2113587e118a19797623c427a0eb0c7ede39b2347e38ae4fd3"
+  },
+  "amy-formal-tweed": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed the returned full-size generation and complete wardrobe sheets against the Stage 2 master. Ginger bob, hazel eyes, freckles, face scale, composed expression, slim adult build and clasped hands remain consistent. Connected upper thighs end at the master crop; no knees/lower legs. Complete hands and clear hair/arm gaps; no visible backdrop on slate, middle and light diagnostic backgrounds. Costume reviewed: warm brown tweed two-button fitted blazer and matching high-waist pleated trousers, cream satin button blouse with tied neck bow",
+    "evidence": [
+      "reviews/amy-set-01.jpg",
+      "reviews/amy-set-02.jpg",
+      "reviews/amy-alpha.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "f35276ce1c810b28ed268bc5dadcf7edce3abf56780ea19575d6cb7d79bec42a"
+  },
+  "amy-gym-training": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed the returned full-size generation and complete wardrobe sheets against the Stage 2 master. Ginger bob, hazel eyes, freckles, face scale, composed expression, slim adult build and clasped hands remain consistent. Connected upper thighs end at the master crop; no knees/lower legs. Complete hands and clear hair/arm gaps; no visible backdrop on slate, middle and light diagnostic backgrounds. Costume reviewed: plum racerback scoop-neck training tank with curved seams, charcoal running shorts with thin pale piping and curved side slits",
+    "evidence": [
+      "reviews/amy-set-01.jpg",
+      "reviews/amy-set-02.jpg",
+      "reviews/amy-alpha.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "d9800f1ac484db51d3f323c6be9453f0c48410d01c025c64477348a780f291ca"
+  },
+  "amy-gym-yoga": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed the returned full-size generation and complete wardrobe sheets against the Stage 2 master. Ginger bob, hazel eyes, freckles, face scale, composed expression, slim adult build and clasped hands remain consistent. Connected upper thighs end at the master crop; no knees/lower legs. Complete hands and clear hair/arm gaps; no visible backdrop on slate, middle and light diagnostic backgrounds. Costume reviewed: sage-green scoop-neck wide-strap sports crop top with underbust band and matching high-waist fitted yoga leggings with curved seam panels",
+    "evidence": [
+      "reviews/amy-set-01.jpg",
+      "reviews/amy-set-02.jpg",
+      "reviews/amy-alpha.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "10d13ab0e04ab47e99c26cc4b3518e06d6e4eb4f36963101d5d0d8faa4c3c2eb"
+  },
+  "amy-library-knit": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed the returned full-size generation and complete wardrobe sheets against the Stage 2 master. Ginger bob, hazel eyes, freckles, face scale, composed expression, slim adult build and clasped hands remain consistent. Connected upper thighs end at the master crop; no knees/lower legs. Complete hands and clear hair/arm gaps; no visible backdrop on slate, middle and light diagnostic backgrounds. Costume reviewed: olive-green cable-knit V-neck sweater vest over an ivory collared long-sleeve blouse with gathered cuffs, high-waisted dark brown pleated trousers with brown belt",
+    "evidence": [
+      "reviews/amy-set-01.jpg",
+      "reviews/amy-set-02.jpg",
+      "reviews/amy-alpha.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "7c9455e6e7841a5b420fa0ef4e0d9ce7bbb7d83683d310e3f5f0b25cc2a3744c"
+  },
+  "amy-sleep": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed the returned full-size generation and complete wardrobe sheets against the Stage 2 master. Ginger bob, hazel eyes, freckles, face scale, composed expression, slim adult build and clasped hands remain consistent. Connected upper thighs end at the master crop; no knees/lower legs. Complete hands and clear hair/arm gaps; no visible backdrop on slate, middle and light diagnostic backgrounds. Costume reviewed: covered white cotton sleepwear: opaque relaxed camisole with modest neckline, delicate floral lace trim at neckline and a small centre bow, matching loose mid-upper-thigh pyjama shorts with a drawstring waist; practical comfortable nightwear",
+    "evidence": [
+      "reviews/amy-set-01.jpg",
+      "reviews/amy-set-02.jpg",
+      "reviews/amy-alpha.jpg"
+    ],
+    "exceptions": "Covered white camisole and loose shorts replace original lace underwear with explicit user authorization.",
+    "accepted_sha256": "ae7dc827c40bc8c44c76f3573edc2d2e591b0cc1803159158556ffdf0ee434f7"
+  },
+  "amy-studio-overalls": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed the returned full-size generation and complete wardrobe sheets against the Stage 2 master. Ginger bob, hazel eyes, freckles, face scale, composed expression, slim adult build and clasped hands remain consistent. Connected upper thighs end at the master crop; no knees/lower legs. Complete hands and clear hair/arm gaps; no visible backdrop on slate, middle and light diagnostic backgrounds. Costume reviewed: beige canvas bib overalls with brass buckles, central bib pocket and small blue/rust paint marks, over a dark blue denim button shirt with rolled sleeves",
+    "evidence": [
+      "reviews/amy-set-01.jpg",
+      "reviews/amy-set-02.jpg",
+      "reviews/amy-alpha.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "e1cdcf6fc30a143d5e40b2196be17a1fc7ea0c29df790046fae891b77ca1153a"
+  },
+  "amy-summer-linen": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed the returned full-size generation and complete wardrobe sheets against the Stage 2 master. Ginger bob, hazel eyes, freckles, face scale, composed expression, slim adult build and clasped hands remain consistent. Connected upper thighs end at the master crop; no knees/lower legs. Complete hands and clear hair/arm gaps; no visible backdrop on slate, middle and light diagnostic backgrounds. Costume reviewed: sage-green linen short-sleeve collared button shirt with rolled cuffs tucked into cream high-waisted cuffed shorts with a narrow brown belt",
+    "evidence": [
+      "reviews/amy-set-01.jpg",
+      "reviews/amy-set-02.jpg",
+      "reviews/amy-alpha.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "75809d17c96970e321212e433aa4e9566890b061b94f1a7cff29ed71136d0fc2"
+  },
+  "amy-weekend-denim": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed the returned full-size generation and complete wardrobe sheets against the Stage 2 master. Ginger bob, hazel eyes, freckles, face scale, composed expression, slim adult build and clasped hands remain consistent. Connected upper thighs end at the master crop; no knees/lower legs. Complete hands and clear hair/arm gaps; no visible backdrop on slate, middle and light diagnostic backgrounds. Costume reviewed: dark blue denim jacket with brass buttons over a cream and rusty-orange narrow horizontal striped tee, high-waisted olive-green trousers",
+    "evidence": [
+      "reviews/amy-set-01.jpg",
+      "reviews/amy-set-02.jpg",
+      "reviews/amy-alpha.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "99d8a867cd6beff0636e25a089c977236abc75bcd291ef8b4d99729032457c6e"
+  },
+  "amy-winter-coat": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed the returned full-size generation and complete wardrobe sheets against the Stage 2 master. Ginger bob, hazel eyes, freckles, face scale, composed expression, slim adult build and clasped hands remain consistent. Connected upper thighs end at the master crop; no knees/lower legs. Complete hands and clear hair/arm gaps; no visible backdrop on slate, middle and light diagnostic backgrounds. Costume reviewed: camel wool single-breasted coat with notched lapels and dark buttons over a cream ribbed turtleneck, dark green knitted scarf loosely wrapped with two ends, charcoal pleated trousers",
+    "evidence": [
+      "reviews/amy-set-01.jpg",
+      "reviews/amy-set-02.jpg",
+      "reviews/amy-alpha.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "a78a305fe78a8476f6af5c444b5519f4a20e203b273d4a13f61b55eb13da6898"
+  },
+  "april-beach-bikini": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size returned generation, master/set comparison and three-background alpha sheets reviewed. The brown bob/eyes, composed adult face, small silver studs/oval pendant, crossed arms, fine hands and petite master proportions remain consistent. Upper thighs use the existing master crop with lower thighs/legs off-image; no knees. No visible background/fringe on review sheets. Costume reviewed: plain deep-teal bikini with structured seamed cups and slim shoulder straps, matching moderate-coverage briefs; retain silver stud earrings and small silver pendant necklace",
+    "evidence": [
+      "reviews/april-set-01.jpg",
+      "reviews/april-set-02.jpg",
+      "reviews/april-alpha-01.jpg",
+      "reviews/april-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "d9e0e7ccc6063aabbbd247076b43b90f05228b4b8753a7da4f2637d45fe82111"
+  },
+  "april-beach-swimsuit": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size returned generation, master/set comparison and three-background alpha sheets reviewed. The brown bob/eyes, composed adult face, small silver studs/oval pendant, crossed arms, fine hands and petite master proportions remain consistent. Upper thighs use the existing master crop with lower thighs/legs off-image; no knees. No visible background/fringe on review sheets. Costume reviewed: navy one-piece swimsuit with broad straps, square neckline and slim white piping around neckline, straps and leg openings; retain silver pendant necklace",
+    "evidence": [
+      "reviews/april-set-01.jpg",
+      "reviews/april-set-02.jpg",
+      "reviews/april-alpha-01.jpg",
+      "reviews/april-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "2334fd5a7c6e563740a4ef804e3b2b4893424899c8f14f783984efc646c85adf"
+  },
+  "april-blue-oxford": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size returned generation, master/set comparison and three-background alpha sheets reviewed. The brown bob/eyes, composed adult face, small silver studs/oval pendant, crossed arms, fine hands and petite master proportions remain consistent. Upper thighs use the existing master crop with lower thighs/legs off-image; no knees. No visible background/fringe on review sheets. Costume reviewed: pale blue collared Oxford button shirt, sleeves rolled to elbows, tucked into charcoal pleated tailored trousers with narrow black belt and brass buckle",
+    "evidence": [
+      "reviews/april-set-01.jpg",
+      "reviews/april-set-02.jpg",
+      "reviews/april-alpha-01.jpg",
+      "reviews/april-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "b38155a00a68837c60ea598848985dc0878d81a4ece693115a2fae0a414af246"
+  },
+  "april-burgundy-dress": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size returned generation, master/set comparison and three-background alpha sheets reviewed. The brown bob/eyes, composed adult face, small silver studs/oval pendant, crossed arms, fine hands and petite master proportions remain consistent. Upper thighs use the existing master crop with lower thighs/legs off-image; no knees. No visible background/fringe on review sheets. Costume reviewed: burgundy three-quarter-sleeve wrap dress with overlapping V neckline, gathered waist and fabric side tie, flowing skirt",
+    "evidence": [
+      "reviews/april-set-01.jpg",
+      "reviews/april-set-02.jpg",
+      "reviews/april-alpha-01.jpg",
+      "reviews/april-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "bce210080b5e3767f81e7e31eb0229998268d8fa3275e4e30475eda8419d7545"
+  },
+  "april-camel-trench": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size returned generation, master/set comparison and three-background alpha sheets reviewed. The brown bob/eyes, composed adult face, small silver studs/oval pendant, crossed arms, fine hands and petite master proportions remain consistent. Upper thighs use the existing master crop with lower thighs/legs off-image; no knees. No visible background/fringe on review sheets. Costume reviewed: camel double-breasted trench coat with shoulder epaulettes, notched lapels, dark buttons and buckled sleeve tabs, worn open over a dark desaturated teal ribbed crew-neck top and charcoal belted trousers",
+    "evidence": [
+      "reviews/april-set-01.jpg",
+      "reviews/april-set-02.jpg",
+      "reviews/april-alpha-01.jpg",
+      "reviews/april-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "a3ae893479232b86b8a97970c2c6a37d3f9dd7066e913ed4c842d19ab3cb571a"
+  },
+  "april-cream-cable-knit": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size returned generation, master/set comparison and three-background alpha sheets reviewed. The brown bob/eyes, composed adult face, small silver studs/oval pendant, crossed arms, fine hands and petite master proportions remain consistent. Upper thighs use the existing master crop with lower thighs/legs off-image; no knees. No visible background/fringe on review sheets. Costume reviewed: cream cable-knit crew-neck sweater with ribbed cuffs and hem, dark indigo denim jeans with brass button and contrast stitching",
+    "evidence": [
+      "reviews/april-set-01.jpg",
+      "reviews/april-set-02.jpg",
+      "reviews/april-alpha-01.jpg",
+      "reviews/april-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "a2f967a267c9c376dc03bb63bd8925c6714492065eaf6ef9162fb6fb01a6f071"
+  },
+  "april-denim-weekend": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size returned generation, master/set comparison and three-background alpha sheets reviewed. The brown bob/eyes, composed adult face, small silver studs/oval pendant, crossed arms, fine hands and petite master proportions remain consistent. Upper thighs use the existing master crop with lower thighs/legs off-image; no knees. No visible background/fringe on review sheets. Costume reviewed: medium blue denim button jacket over a white crew-neck tee, olive-green pleated trousers with a slim dark belt and brass buckle",
+    "evidence": [
+      "reviews/april-set-01.jpg",
+      "reviews/april-set-02.jpg",
+      "reviews/april-alpha-01.jpg",
+      "reviews/april-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "87ebabfc7ad72f2c002b86a5667a3673fd29d59520f738ead0f3f0c3c2fd3783"
+  },
+  "april-formal-emerald": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size returned generation, master/set comparison and three-background alpha sheets reviewed. The brown bob/eyes, composed adult face, small silver studs/oval pendant, crossed arms, fine hands and petite master proportions remain consistent. Upper thighs use the existing master crop with lower thighs/legs off-image; no knees. No visible background/fringe on review sheets. Costume reviewed: deep emerald satin dress with draped boat neckline, short cap sleeves, fitted ruched waist and flowing skirt, restrained satin sheen",
+    "evidence": [
+      "reviews/april-set-01.jpg",
+      "reviews/april-set-02.jpg",
+      "reviews/april-alpha-01.jpg",
+      "reviews/april-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "4094091fd12bc0ff6cfafe66a89ddeaeb4e91307152f0361f74abc3c238736fe"
+  },
+  "april-formal-ivory-suit": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size returned generation, master/set comparison and three-background alpha sheets reviewed. The brown bob/eyes, composed adult face, small silver studs/oval pendant, crossed arms, fine hands and petite master proportions remain consistent. Upper thighs use the existing master crop with lower thighs/legs off-image; no knees. No visible background/fringe on review sheets. Costume reviewed: ivory tailored single-breasted blazer and matching pleated trousers over a champagne satin collared button blouse; retain silver pendant necklace",
+    "evidence": [
+      "reviews/april-set-01.jpg",
+      "reviews/april-set-02.jpg",
+      "reviews/april-alpha-01.jpg",
+      "reviews/april-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "b784989379181d57faa82f43ae6804cce600d4d22a98125aacc0c7f550ba7664"
+  },
+  "april-gym-plum": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size returned generation, master/set comparison and three-background alpha sheets reviewed. The brown bob/eyes, composed adult face, small silver studs/oval pendant, crossed arms, fine hands and petite master proportions remain consistent. Upper thighs use the existing master crop with lower thighs/legs off-image; no knees. No visible background/fringe on review sheets. Costume reviewed: plum racerback sports crop top with scoop neckline and broad underbust band, charcoal high-waisted fitted training leggings with curved seam panels",
+    "evidence": [
+      "reviews/april-set-01.jpg",
+      "reviews/april-set-02.jpg",
+      "reviews/april-alpha-01.jpg",
+      "reviews/april-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "4dec3ab6c9fc602d4f66c2aec678d5338ef73d57f88505fa59f276fe046f3596"
+  },
+  "april-plaid-blazer": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size returned generation, master/set comparison and three-background alpha sheets reviewed. The brown bob/eyes, composed adult face, small silver studs/oval pendant, crossed arms, fine hands and petite master proportions remain consistent. Upper thighs use the existing master crop with lower thighs/legs off-image; no knees. No visible background/fringe on review sheets. Costume reviewed: brown fine checked blazer with notched lapels over an ivory turtleneck, dark brown pleated tailored trousers with matching slim brown belt",
+    "evidence": [
+      "reviews/april-set-01.jpg",
+      "reviews/april-set-02.jpg",
+      "reviews/april-alpha-01.jpg",
+      "reviews/april-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "4684c535ed1697c07e8a6a265180a429e25ed9c0a65f22b522ee4422cb4a41ee"
+  },
+  "april-rose-cardigan": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size returned generation, master/set comparison and three-background alpha sheets reviewed. The brown bob/eyes, composed adult face, small silver studs/oval pendant, crossed arms, fine hands and petite master proportions remain consistent. Upper thighs use the existing master crop with lower thighs/legs off-image; no knees. No visible background/fringe on review sheets. Costume reviewed: dusty rose cardigan with pearl buttons, ribbed cuffs and hem, open over an ivory scoop-neck top, muted taupe pleated skirt",
+    "evidence": [
+      "reviews/april-set-01.jpg",
+      "reviews/april-set-02.jpg",
+      "reviews/april-alpha-01.jpg",
+      "reviews/april-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "d6d057aa19d3cfe60638ec3eec03f864cead5a182fad456ec9b91706e4f9537e"
+  },
+  "april-sage-knit": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size returned generation, master/set comparison and three-background alpha sheets reviewed. The brown bob/eyes, composed adult face, small silver studs/oval pendant, crossed arms, fine hands and petite master proportions remain consistent. Upper thighs use the existing master crop with lower thighs/legs off-image; no knees. No visible background/fringe on review sheets. Costume reviewed: sage-green long-sleeve fine-knit mockneck sweater tucked into cream pleated trousers with narrow brown belt; silver pendant visible over knit",
+    "evidence": [
+      "reviews/april-set-01.jpg",
+      "reviews/april-set-02.jpg",
+      "reviews/april-alpha-01.jpg",
+      "reviews/april-alpha-02.jpg"
+    ],
+    "corrections": "Enlarged pendant replaced with original tiny smooth oval.",
+    "exceptions": null,
+    "accepted_sha256": "0bc80450a0ff98c132de82921190f4abc46bfc9b49cf4514fa401675c16d6c43"
+  },
+  "april-sleep": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size returned generation, master/set comparison and three-background alpha sheets reviewed. The brown bob/eyes, composed adult face, small silver studs/oval pendant, crossed arms, fine hands and petite master proportions remain consistent. Upper thighs use the existing master crop with lower thighs/legs off-image; no knees. No visible background/fringe on review sheets. Costume reviewed: covered black sleepwear: opaque soft black camisole with modest neckline and delicate black floral lace trim, matching loose black pyjama shorts; comfortable nightwear, silver pendant necklace",
+    "evidence": [
+      "reviews/april-set-01.jpg",
+      "reviews/april-set-02.jpg",
+      "reviews/april-alpha-01.jpg",
+      "reviews/april-alpha-02.jpg"
+    ],
+    "corrections": "Enlarged pendant replaced with original tiny smooth oval.",
+    "exceptions": "Covered black camisole and loose shorts under user-approved sleepwear direction.",
+    "accepted_sha256": "f4680fe653146cddfc638a28880e9756d0f7dc151811758fe46ad88c079e6bc8"
+  },
+  "emily-beach-bikini": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size output, master/set comparison and three-background alpha sheets reviewed. Blonde hair detail, blue eyes, glasses, clasped hands and petite master proportions consistent. Mid-thigh picture crop excludes lower thighs and legs. Costume: periwinkle-blue bikini with small white five-petal floral print, shaped cups and slim straps, matching high-waisted moderate-coverage bottom; keep round glasses, remove the master bow and pendant",
+    "evidence": [
+      "reviews/emily-set-01.jpg",
+      "reviews/emily-set-02.jpg",
+      "reviews/emily-alpha-01.jpg",
+      "reviews/emily-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "b040670bb7dd6f17953d3340d4bb0309693d65c702f849dca32c5dd7b3b190ac"
+  },
+  "emily-beach-swimsuit": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size output, master/set comparison and three-background alpha sheets reviewed. Blonde hair detail, blue eyes, glasses, clasped hands and petite master proportions consistent. Mid-thigh picture crop excludes lower thighs and legs. Costume: deep teal one-piece swimsuit with broad straps, rounded scoop neckline and narrow cream trim along straps, neckline and leg openings; keep round glasses, remove the master bow and pendant",
+    "evidence": [
+      "reviews/emily-set-01.jpg",
+      "reviews/emily-set-02.jpg",
+      "reviews/emily-alpha-01.jpg",
+      "reviews/emily-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "260fe068cb9cff2ecb4549454351546f9b595d642518780d0da65b59425ccce4"
+  },
+  "emily-cafe": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size output, master/set comparison and three-background alpha sheets reviewed. Blonde hair detail, blue eyes, glasses, clasped hands and petite master proportions consistent. Mid-thigh picture crop excludes lower thighs and legs. Costume: dusty rose cable-knit button cardigan over a cream blouse with rounded floral-lace Peter Pan collar, brown pleated skirt; replace the master ribbon/bib entirely",
+    "evidence": [
+      "reviews/emily-set-01.jpg",
+      "reviews/emily-set-02.jpg",
+      "reviews/emily-alpha-01.jpg",
+      "reviews/emily-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "109ebef1e0a31564b0e870137380765a7ed6c35bd099ca5b7c3350f198976a82"
+  },
+  "emily-florist": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size output, master/set comparison and three-background alpha sheets reviewed. Blonde hair detail, blue eyes, glasses, clasped hands and petite master proportions consistent. Mid-thigh picture crop excludes lower thighs and legs. Costume: olive-green canvas bib apron with small white daisy badge on chest and practical patch pockets, tied waist, over a cream collared button shirt with sleeves rolled to elbows and a brown skirt; no master bow or bib insignia",
+    "evidence": [
+      "reviews/emily-set-01.jpg",
+      "reviews/emily-set-02.jpg",
+      "reviews/emily-alpha-01.jpg",
+      "reviews/emily-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "9ed3ebd1f3c22b5964ff8610c4f1b1ac9dae2910daf59dec579939bd3f8646d0"
+  },
+  "emily-formal-satin": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size output, master/set comparison and three-background alpha sheets reviewed. Blonde hair detail, blue eyes, glasses, clasped hands and petite master proportions consistent. Mid-thigh picture crop excludes lower thighs and legs. Costume: midnight navy satin off-shoulder dress with broad folded neckline, fitted waist and flowing skirt; small silver cross pendant, round glasses, no black neck bow",
+    "evidence": [
+      "reviews/emily-set-01.jpg",
+      "reviews/emily-set-02.jpg",
+      "reviews/emily-alpha-01.jpg",
+      "reviews/emily-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "6242cae014c6520256aae326adf42839e7ebf197a44401adb45c3e28482c20f2"
+  },
+  "emily-formal-tailoring": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size output, master/set comparison and three-background alpha sheets reviewed. Blonde hair detail, blue eyes, glasses, clasped hands and petite master proportions consistent. Mid-thigh picture crop excludes lower thighs and legs. Costume: ivory single-breasted tailored blazer and matching continuous pleated SKIRT over a muted dusty-mauve satin draped-neck camisole; skirt has one uninterrupted hem and continuous fabric across front, no crotch seam or separate leg openings; small silver cross pendant, round glasses, no neck bow; explicit user correction: the skirt must not resemble shorts",
+    "evidence": [
+      "reviews/emily-set-01.jpg",
+      "reviews/emily-set-02.jpg",
+      "reviews/emily-alpha-01.jpg",
+      "reviews/emily-alpha-02.jpg"
+    ],
+    "corrections": "User-requested continuous ivory pleated skirt replaces shorts-like lower garment.",
+    "accepted_sha256": "7db8a2a965881d2cc6e7405312f5378a24c82cd393bcdfd974cfa0cc21f28236"
+  },
+  "emily-garden": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size output, master/set comparison and three-background alpha sheets reviewed. Blonde hair detail, blue eyes, glasses, clasped hands and petite master proportions consistent. Mid-thigh picture crop excludes lower thighs and legs. Costume: sage-green wrap dress with delicate cream botanical flower print, overlapping V neckline, sheer loose double flutter sleeves over an opaque lined bodice, sash tied at side waist and flowing skirt; no master ribbon or bib",
+    "evidence": [
+      "reviews/emily-set-01.jpg",
+      "reviews/emily-set-02.jpg",
+      "reviews/emily-alpha-01.jpg",
+      "reviews/emily-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "2e11e895eb4099c8977335a0d5af83d580ad437390158637b03ea334090a7229"
+  },
+  "emily-gym": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size output, master/set comparison and three-background alpha sheets reviewed. Blonde hair detail, blue eyes, glasses, clasped hands and petite master proportions consistent. Mid-thigh picture crop excludes lower thighs and legs. Costume: lavender sports crop top with scoop neckline and broad straps, charcoal high-waisted FULL-LENGTH fitted leggings with lavender side stripes; fabric runs past the mid-thigh picture cutoff, no hem or bare skin underneath; round glasses, no master ribbon or pendant",
+    "evidence": [
+      "reviews/emily-set-01.jpg",
+      "reviews/emily-set-02.jpg",
+      "reviews/emily-alpha-01.jpg",
+      "reviews/emily-alpha-02.jpg"
+    ],
+    "corrections": "Full-length leggings fabric continues to crop. Stray outer alpha pixels removed and three-background composite rechecked.",
+    "accepted_sha256": "9b05591fa0682055b96a4a769d9671e09834832d64623fbeea64bf83a00b8047"
+  },
+  "emily-picnic": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size output, master/set comparison and three-background alpha sheets reviewed. Blonde hair detail, blue eyes, glasses, clasped hands and petite master proportions consistent. Mid-thigh picture crop excludes lower thighs and legs. Costume: pale yellow and cream gingham dress with square neckline, short puff sleeves with gathered cuffs, fitted waist and a narrow cream bow belt, gently flared skirt; no master ribbon/bib",
+    "evidence": [
+      "reviews/emily-set-01.jpg",
+      "reviews/emily-set-02.jpg",
+      "reviews/emily-alpha-01.jpg",
+      "reviews/emily-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "30f10fd74d1e42dff198cf1c3524227ae8504726dd2721dfa6f2f0c961c39948"
+  },
+  "emily-rainy": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size output, master/set comparison and three-background alpha sheets reviewed. Blonde hair detail, blue eyes, glasses, clasped hands and petite master proportions consistent. Mid-thigh picture crop excludes lower thighs and legs. Costume: slate blue hooded raincoat worn open with silver snap buttons and drawstrings, cream tee with narrow navy horizontal stripes, dark navy pleated skirt; no master ribbon/bib",
+    "evidence": [
+      "reviews/emily-set-01.jpg",
+      "reviews/emily-set-02.jpg",
+      "reviews/emily-alpha-01.jpg",
+      "reviews/emily-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "e5a6315cfad6a3d4ace1b1a21ea135a21859f19d4ff9aa6b8307312c6f3095fd"
+  },
+  "emily-sleep": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size output, master/set comparison and three-background alpha sheets reviewed. Blonde hair detail, blue eyes, glasses, clasped hands and petite master proportions consistent. Mid-thigh picture crop excludes lower thighs and legs. Costume: covered blush-pink opaque cotton sleep camisole with modest neckline, delicate lace trim and a small centre bow, matching loose blush-pink pyjama shorts with drawstring; comfortable nightwear, round glasses, no master ribbon or pendant",
+    "evidence": [
+      "reviews/emily-set-01.jpg",
+      "reviews/emily-set-02.jpg",
+      "reviews/emily-alpha-01.jpg",
+      "reviews/emily-alpha-02.jpg"
+    ],
+    "corrections": "User-authorized covered blush pink camisole and pyjama shorts.",
+    "accepted_sha256": "0cc2679bb1b5caa50c9923848c30f3e6e7ee0fd4ff0ea4292187101bc4375604"
+  },
+  "emily-velvet": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size output, master/set comparison and three-background alpha sheets reviewed. Blonde hair detail, blue eyes, glasses, clasped hands and petite master proportions consistent. Mid-thigh picture crop excludes lower thighs and legs. Costume: deep burgundy velvet long-sleeve dress with boat neckline, gently ruched waist and softly flared skirt; small silver cross pendant, round glasses, no neck bow",
+    "evidence": [
+      "reviews/emily-set-01.jpg",
+      "reviews/emily-set-02.jpg",
+      "reviews/emily-alpha-01.jpg",
+      "reviews/emily-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "0e876798b3ca8c36d30fe9b08e4cf304641eae5723ee77d4480be4fa4539a6c9"
+  },
+  "emily-winter": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size output, master/set comparison and three-background alpha sheets reviewed. Blonde hair detail, blue eyes, glasses, clasped hands and petite master proportions consistent. Mid-thigh picture crop excludes lower thighs and legs. Costume: camel wool coat with broad notched lapels and dark buttons, cream ribbed turtleneck, burgundy cable-knit scarf wrapped once with two long ends; dark skirt cropped at the same thigh line, no master bow/bib",
+    "evidence": [
+      "reviews/emily-set-01.jpg",
+      "reviews/emily-set-02.jpg",
+      "reviews/emily-alpha-01.jpg",
+      "reviews/emily-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "76673c2ea437e92f958127ed6089ccf592b57ce50f66a9d7b94278abdeeb8aba"
+  },
+  "emily-workshop": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size output, master/set comparison and three-background alpha sheets reviewed. Blonde hair detail, blue eyes, glasses, clasped hands and petite master proportions consistent. Mid-thigh picture crop excludes lower thighs and legs. Costume: beige canvas bib overalls with brass adjustable buckles and small muted lavender/blue paint marks, over a lavender collared button shirt with rolled sleeves; full trouser legs continue off the mid-thigh crop, no master bow/bib insignia",
+    "evidence": [
+      "reviews/emily-set-01.jpg",
+      "reviews/emily-set-02.jpg",
+      "reviews/emily-alpha-01.jpg",
+      "reviews/emily-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "5681e7d465bfdb909b5f05652bbd3a639b669eaff0a0744da854118dad7c9347"
+  },
+  "garrett-beach-shorts": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed against master and source tattoo map. Consistent blond hair, gold eyes, master physique, pocketed hands and mid-thigh crop. Matching dragon sleeves and branching chest/left neck marks where exposed; winter collar covers neck naturally. Costume: teal swim shorts with elastic waistband and white drawstring, shirtless upper body, existing gold hoops and fine gold necklace; hands naturally in the short pockets exactly as the master; preserve the source dragon tattoo sleeves and branching chest/neck ink, adult athletic build with restrained natural muscle shading",
+    "evidence": [
+      "reviews/garrett-alpha-01.jpg",
+      "reviews/garrett-alpha-02.jpg",
+      "reviews/garrett-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "cd75a72b6170bf5b51d91c80b932fc7ead4c99bd77e1971a00306209eb4e0f65"
+  },
+  "garrett-fashion-asymmetric": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed against master and source tattoo map. Consistent blond hair, gold eyes, master physique, pocketed hands and mid-thigh crop. Matching dragon sleeves and branching chest/left neck marks where exposed; winter collar covers neck naturally. Costume: black asymmetric cropped tailored jacket with oversized diagonal lapels, gold pin and small draped gold lapel chain, black deep V-neck shirt, high-waisted black pleated trousers and black belt; existing gold jewellery",
+    "evidence": [
+      "reviews/garrett-alpha-01.jpg",
+      "reviews/garrett-alpha-02.jpg",
+      "reviews/garrett-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "10871f25f83c88ff7645e476cbd84b4b0ece4a8eeda327bd0110ca84b829585a"
+  },
+  "garrett-fashion-pearl": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed against master and source tattoo map. Consistent blond hair, gold eyes, master physique, pocketed hands and mid-thigh crop. Matching dragon sleeves and branching chest/left neck marks where exposed; winter collar covers neck naturally. Costume: ivory structured cropped cape jacket with layered shoulder panels and gold shoulder buttons over a draped pearl-grey satin open-neck shirt, black tailored trousers and black belt with gold buckle; existing gold jewellery",
+    "evidence": [
+      "reviews/garrett-alpha-01.jpg",
+      "reviews/garrett-alpha-02.jpg",
+      "reviews/garrett-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "3b900299ab9d92a432ad03b1d0004442e924f25b85c1915e47ad86a039432ebe"
+  },
+  "garrett-formal-burgundy": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed against master and source tattoo map. Consistent blond hair, gold eyes, master physique, pocketed hands and mid-thigh crop. Matching dragon sleeves and branching chest/left neck marks where exposed; winter collar covers neck naturally. Costume: burgundy velvet double-breasted blazer with gold buttons, small gold lapel brooch and dark pocket square, open black shirt and black tailored trousers with gold-buckle belt; retain layered gold necklaces",
+    "evidence": [
+      "reviews/garrett-alpha-01.jpg",
+      "reviews/garrett-alpha-02.jpg",
+      "reviews/garrett-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "c404f2d65994f947473bb6f331ab4dcf1509f8c2c88ca16b96a38e75bccd3375"
+  },
+  "garrett-formal-tuxedo": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed against master and source tattoo map. Consistent blond hair, gold eyes, master physique, pocketed hands and mid-thigh crop. Matching dragon sleeves and branching chest/left neck marks where exposed; winter collar covers neck naturally. Costume: midnight navy tuxedo with black satin shawl lapels, white dress shirt buttoned to collar, black bow tie and gold pocket square, matching navy trousers and black belt; neck jewellery concealed by shirt, retain gold hoops and cuff jewellery",
+    "evidence": [
+      "reviews/garrett-alpha-01.jpg",
+      "reviews/garrett-alpha-02.jpg",
+      "reviews/garrett-alpha-03.jpg"
+    ],
+    "corrections": "Restored exposed left neck tattoo after generation omitted it.",
+    "accepted_sha256": "128367783046594d67b9a3e581a7052275e38464e1406f19e9395c64e0e89c2c"
+  },
+  "garrett-gym-compression": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed against master and source tattoo map. Consistent blond hair, gold eyes, master physique, pocketed hands and mid-thigh crop. Matching dragon sleeves and branching chest/left neck marks where exposed; winter collar covers neck naturally. Costume: slate navy fitted short-sleeve athletic compression tee with pale curved seams, black drawstring training trousers continuing off the mid-thigh crop; exposed forearm dragon tattoos, neck ink above collar; no necklace on top of the tee",
+    "evidence": [
+      "reviews/garrett-alpha-01.jpg",
+      "reviews/garrett-alpha-02.jpg",
+      "reviews/garrett-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "0933bbbc9498c01ffee332e273aebcc99f276e78d45c47daf4e496d094503c1f"
+  },
+  "garrett-gym-tank": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed against master and source tattoo map. Consistent blond hair, gold eyes, master physique, pocketed hands and mid-thigh crop. Matching dragon sleeves and branching chest/left neck marks where exposed; winter collar covers neck naturally. Costume: black racerback athletic tank with fine gold side piping, black drawstring training shorts; existing arm dragon tattoo sleeves and chest/neck markings naturally exposed above neckline, retain gold hoops",
+    "evidence": [
+      "reviews/garrett-alpha-01.jpg",
+      "reviews/garrett-alpha-02.jpg",
+      "reviews/garrett-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "bb08496f59679001d8685f913f578ca67959c905d321cdc7042691327cf3f011"
+  },
+  "garrett-home": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed against master and source tattoo map. Consistent blond hair, gold eyes, master physique, pocketed hands and mid-thigh crop. Matching dragon sleeves and branching chest/left neck marks where exposed; winter collar covers neck naturally. Costume: white ribbed scoop-neck tank tucked into black belted trousers; gold hoops, layered gold necklaces and wrist bracelets; exact exposed arm dragon tattoo sleeves and chest/neck ink",
+    "evidence": [
+      "reviews/garrett-alpha-01.jpg",
+      "reviews/garrett-alpha-02.jpg",
+      "reviews/garrett-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "ff65eb10585c2e1015c423ae733f27219bc7cb71be86c00168de43ebc0211c7b"
+  },
+  "garrett-ivory": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed against master and source tattoo map. Consistent blond hair, gold eyes, master physique, pocketed hands and mid-thigh crop. Matching dragon sleeves and branching chest/left neck marks where exposed; winter collar covers neck naturally. Costume: ivory double-breasted tailored suit with gold buttons and gold pocket square, dark chocolate open-neck shirt, matching ivory trousers with dark belt and gold buckle; existing gold jewellery",
+    "evidence": [
+      "reviews/garrett-alpha-01.jpg",
+      "reviews/garrett-alpha-02.jpg",
+      "reviews/garrett-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "66684ae79bb1b6618d75ea36f6d4f910c35f37d9ef11fcbe0ee09be83d891423"
+  },
+  "garrett-sleep": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed against master and source tattoo map. Consistent blond hair, gold eyes, master physique, pocketed hands and mid-thigh crop. Matching dragon sleeves and branching chest/left neck marks where exposed; winter collar covers neck naturally. Costume: loose black drawstring cotton pyjama shorts with practical pockets, shirtless adult torso, existing gold hoops and layered gold necklaces, exact chest/neck branching tattoos and dragon sleeves; relaxed ordinary sleepwear portrait with master hands in pockets and natural restrained muscle shading",
+    "evidence": [
+      "reviews/garrett-alpha-01.jpg",
+      "reviews/garrett-alpha-02.jpg",
+      "reviews/garrett-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "47a180c3a5d5b0bf5b3373aa7ce591cc0d07a87db26a13e015a4fee059067f26"
+  },
+  "garrett-street-ink": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed against master and source tattoo map. Consistent blond hair, gold eyes, master physique, pocketed hands and mid-thigh crop. Matching dragon sleeves and branching chest/left neck marks where exposed; winter collar covers neck naturally. Costume: cropped black stand-collar street jacket with Chinese frog fasteners, contrast stitching and pale grey ink-brush graphics on the sleeves, dark charcoal layered asymmetric tee beneath, black cargo trousers with black utility belt and metal buckle; existing gold jewellery",
+    "evidence": [
+      "reviews/garrett-alpha-01.jpg",
+      "reviews/garrett-alpha-02.jpg",
+      "reviews/garrett-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "f1e76b504db33d616f46ea0d8364a2b41c0093176d8032f5d3d473bc00e8fd1a"
+  },
+  "garrett-street-jade": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed against master and source tattoo map. Consistent blond hair, gold eyes, master physique, pocketed hands and mid-thigh crop. Matching dragon sleeves and branching chest/left neck marks where exposed; winter collar covers neck naturally. Costume: dark jade-green utility jacket with pale green cloud embroidery on shoulders and sleeves, flap chest pockets and sleeve zip, open over ivory crew-neck tee, black trousers, small black crossbody pouch and diagonal strap; existing gold jewellery",
+    "evidence": [
+      "reviews/garrett-alpha-01.jpg",
+      "reviews/garrett-alpha-02.jpg",
+      "reviews/garrett-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "73e029c4f909db28cf5acae42851f0068cefac1338b7a4456d2a9db736f18279"
+  },
+  "garrett-summer-linen": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed against master and source tattoo map. Consistent blond hair, gold eyes, master physique, pocketed hands and mid-thigh crop. Matching dragon sleeves and branching chest/left neck marks where exposed; winter collar covers neck naturally. Costume: light powder-blue linen collared short-sleeve shirt worn open at upper chest, cream trousers, existing gold hoops and layered necklaces, exposed dragon tattoos on forearms; master hands stay in pockets",
+    "evidence": [
+      "reviews/garrett-alpha-01.jpg",
+      "reviews/garrett-alpha-02.jpg",
+      "reviews/garrett-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "9ed893bf75a1c2a6f3a8dd6c4fca28d260c6eb9534e9a0a0003b9290d763c0e1"
+  },
+  "garrett-traditional-changshan": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed against master and source tattoo map. Consistent blond hair, gold eyes, master physique, pocketed hands and mid-thigh crop. Matching dragon sleeves and branching chest/left neck marks where exposed; winter collar covers neck naturally. Costume: deep burgundy silk changshan with mandarin collar, matching frog fasteners and subtle gold cloud embroidery, dark trousers beneath; long robe fabric continues beyond the mid-thigh picture crop, hands naturally hidden in original pocket position, gold hoops remain",
+    "evidence": [
+      "reviews/garrett-alpha-01.jpg",
+      "reviews/garrett-alpha-02.jpg",
+      "reviews/garrett-alpha-03.jpg"
+    ],
+    "corrections": "Restored exposed left neck tattoo after generation omitted it.",
+    "accepted_sha256": "c2205db91f59b4e11d06a5e0fedaca7d70a1f0aa09da4a5663fae5f4b794c653"
+  },
+  "garrett-traditional-hanfu": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed against master and source tattoo map. Consistent blond hair, gold eyes, master physique, pocketed hands and mid-thigh crop. Matching dragon sleeves and branching chest/left neck marks where exposed; winter collar covers neck naturally. Costume: dark teal hanfu outer robe embroidered with gold flowering branches and clouds, layered ivory crossed inner robes, wide patterned teal-and-gold waist sash with jade pendant and hanging tassel; existing gold hoops and layered necklace, natural hands at waist pockets concealed by robe; fabric continues off crop",
+    "evidence": [
+      "reviews/garrett-alpha-01.jpg",
+      "reviews/garrett-alpha-02.jpg",
+      "reviews/garrett-alpha-03.jpg"
+    ],
+    "corrections": "Restored exposed left neck tattoo after generation omitted it.",
+    "accepted_sha256": "5494d01654adfeb4b1cb1dd6599cb14b6b46acfb04c450c6dbf12ca66455420c"
+  },
+  "garrett-winter-coat": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed against master and source tattoo map. Consistent blond hair, gold eyes, master physique, pocketed hands and mid-thigh crop. Matching dragon sleeves and branching chest/left neck marks where exposed; winter collar covers neck naturally. Costume: camel double-breasted wool overcoat with dark buttons and shoulder epaulettes over a charcoal cable-knit turtleneck, brown and burgundy checked fringed scarf, dark tailored trousers; hands in pockets and gold hoops visible, necklaces concealed",
+    "evidence": [
+      "reviews/garrett-alpha-01.jpg",
+      "reviews/garrett-alpha-02.jpg",
+      "reviews/garrett-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "eb7a6b1486fc9b7438db21a6e3328fc3396f1b94965560378045899bd1e8b799"
+  },
+  "ivan-beach": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Master face, ash brown hair, freckles, grey-green eyes, silver studs and pocketed hands retained. Lean athletic proportions, clean alpha and mid-thigh crop with no lower legs. Costume: coral salmon swim shorts with navy side panels, narrow white piping and a white waist drawstring; bare chest and arms, no tattoos; keep lean athletic master anatomy, master silver stud earrings",
+    "evidence": [
+      "reviews/ivan-alpha-01.jpg",
+      "reviews/ivan-alpha-02.jpg"
+    ],
+    "corrections": "Original beach outfit succeeded on user-requested identical retry.",
+    "accepted_sha256": "9ddacdeb8851ac0b396cb8d47bb49f88e6936468f7d68f68a3a29b5f3278284c"
+  },
+  "ivan-fashion-burgundy": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Master face, ash brown hair, freckles, grey-green eyes, silver studs and pocketed hands retained. Lean athletic proportions, clean alpha and mid-thigh crop with no lower legs. Costume: burgundy wine satin long-sleeved draped cowl-neck blouse with a gold clasp gathering the drape near the left shoulder (viewer right), black tailored trousers and black belt with small gold buckle",
+    "evidence": [
+      "reviews/ivan-alpha-01.jpg",
+      "reviews/ivan-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "d611fc0259a9963d97f1d093efc558e7ceaa47237d24415c70aeba56623a17ac"
+  },
+  "ivan-fashion-ivory": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Master face, ash brown hair, freckles, grey-green eyes, silver studs and pocketed hands retained. Lean athletic proportions, clean alpha and mid-thigh crop with no lower legs. Costume: ivory sculptural cropped double-breasted jacket with large asymmetrical layered lapels and muted gold buttons over a beige crewneck shirt, fine gold chain, ivory pleated trousers and matching ivory belt",
+    "evidence": [
+      "reviews/ivan-alpha-01.jpg",
+      "reviews/ivan-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "f8de64e6268c44dea89070f60d525b7e0b498b9bc3cccc743546dfb54ec51d0c"
+  },
+  "ivan-fashion-pearl": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Master face, ash brown hair, freckles, grey-green eyes, silver studs and pocketed hands retained. Lean athletic proportions, clean alpha and mid-thigh crop with no lower legs. Costume: pearl grey cropped collared zip jacket with small silver geometric lapel pin, black turtleneck, black pleated tailored trousers",
+    "evidence": [
+      "reviews/ivan-alpha-01.jpg",
+      "reviews/ivan-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "b6074d386bcb071f2a5cd32febecd8ef9e3480d6f3a30670daf2827145f932f9"
+  },
+  "ivan-gym-tank": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Master face, ash brown hair, freckles, grey-green eyes, silver studs and pocketed hands retained. Lean athletic proportions, clean alpha and mid-thigh crop with no lower legs. Costume: plain charcoal fitted athletic tank top and navy drawstring athletic shorts with narrow pale grey side stripes; no tattoos, lean master physique",
+    "evidence": [
+      "reviews/ivan-alpha-01.jpg",
+      "reviews/ivan-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "6b618789cc90b8f63760a3fcc546c40f5242b52db88d96657bc7cfa6fc49480d"
+  },
+  "ivan-gym-training": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Master face, ash brown hair, freckles, grey-green eyes, silver studs and pocketed hands retained. Lean athletic proportions, clean alpha and mid-thigh crop with no lower legs. Costume: slate blue fitted short-sleeved crewneck training T-shirt, black drawstring training trousers, no tattoos",
+    "evidence": [
+      "reviews/ivan-alpha-01.jpg",
+      "reviews/ivan-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "d8e1e8749e26bb7ff0f4de9e9a8e29db2055f024fff5374e50a13a9e09724f4c"
+  },
+  "ivan-idol-crimson": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Master face, ash brown hair, freckles, grey-green eyes, silver studs and pocketed hands retained. Lean athletic proportions, clean alpha and mid-thigh crop with no lower legs. Costume: glossy crimson cropped leather stage jacket with tiny silver studs along shoulder seams, lapels and hems, black turtleneck, layered fine silver necklaces, black tailored trousers with silver waist chains",
+    "evidence": [
+      "reviews/ivan-alpha-01.jpg",
+      "reviews/ivan-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "620312d55fc151b9433effbfbdccbc362e23042dbf892414ba14a23801daa955"
+  },
+  "ivan-idol-midnight": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Master face, ash brown hair, freckles, grey-green eyes, silver studs and pocketed hands retained. Lean athletic proportions, clean alpha and mid-thigh crop with no lower legs. Costume: midnight navy tailored stage suit with ornate silver botanical embroidery on shoulders and lapels, black open-collar shirt, fine draped silver chest chains and silver jacket buttons",
+    "evidence": [
+      "reviews/ivan-alpha-01.jpg",
+      "reviews/ivan-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "c44ca90ab522719d79efe88c8939794a6daa80874654f9a3dbf70e35282dc70e"
+  },
+  "ivan-idol-white": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Master face, ash brown hair, freckles, grey-green eyes, silver studs and pocketed hands retained. Lean athletic proportions, clean alpha and mid-thigh crop with no lower legs. Costume: white stand-collar stage jacket with gold edging and ornate gold botanical embroidery on chest, shoulders and cuffs, white open-neck button shirt, fine gold chain, white tailored trousers and white belt with gold buckle",
+    "evidence": [
+      "reviews/ivan-alpha-01.jpg",
+      "reviews/ivan-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "976605a0f4dd5860ab5efd1b514f3e518a8d2daf550a571fc0607736b1930f0b"
+  },
+  "ivan-street-denim": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Master face, ash brown hair, freckles, grey-green eyes, silver studs and pocketed hands retained. Lean athletic proportions, clean alpha and mid-thigh crop with no lower legs. Costume: washed medium blue denim jacket with flap chest pockets and pale contrast stitching over cream hooded sweatshirt with drawstrings, charcoal trousers",
+    "evidence": [
+      "reviews/ivan-alpha-01.jpg",
+      "reviews/ivan-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "2000ed006ea4e6727c1d535de78c5c8747e848ae784a1c003e87fba077cb58df"
+  },
+  "ivan-street-knit": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Master face, ash brown hair, freckles, grey-green eyes, silver studs and pocketed hands retained. Lean athletic proportions, clean alpha and mid-thigh crop with no lower legs. Costume: sage green knitted V-neck cardigan with brown buttons and patch pockets, plain ivory T-shirt and taupe pleated trousers",
+    "evidence": [
+      "reviews/ivan-alpha-01.jpg",
+      "reviews/ivan-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "b7b99d405c71b84a141d0c4cd2702c459481a9fe7db375378dae7cfcb405b6e3"
+  },
+  "ivan-street-monochrome": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Master face, ash brown hair, freckles, grey-green eyes, silver studs and pocketed hands retained. Lean athletic proportions, clean alpha and mid-thigh crop with no lower legs. Costume: black cropped technical zip jacket with stand collar, silver zip chest pocket, small utility sleeve pocket and adjustable hem buckles, white crewneck T-shirt, black cargo trousers and black belt",
+    "evidence": [
+      "reviews/ivan-alpha-01.jpg",
+      "reviews/ivan-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "3b255c744173502a6995161caa94a47cc548c1928bcb1b78d35758766ade32f3"
+  },
+  "ivan-street-varsity": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Master face, ash brown hair, freckles, grey-green eyes, silver studs and pocketed hands retained. Lean athletic proportions, clean alpha and mid-thigh crop with no lower legs. Costume: navy varsity jacket with cream sleeves and navy/cream striped collar cuffs and hem, silver snap buttons and cream-trimmed pockets, grey T-shirt and dark denim jeans",
+    "evidence": [
+      "reviews/ivan-alpha-01.jpg",
+      "reviews/ivan-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "93915212d99ab3768c84e2d95a4f5e7faa92756131c5a5c31f90534020e676a2"
+  },
+  "minsu-beach-shorts": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Consistent detailed black hair, warm eyes, master smile and physique, pocketed hands and mid-thigh picture crop. No knees or lower legs. Study glasses and outfit-specific accessories retained. Costume: muted ocean blue swim shorts with a slight teal undertone with narrow white side stripes and white drawstring; bare chest and arms, no tattoos, ordinary adult swimwear catalogue pose; retain master lean athletic physique",
+    "evidence": [
+      "reviews/minsu-alpha-01.jpg",
+      "reviews/minsu-alpha-02.jpg",
+      "reviews/minsu-alpha-03.jpg"
+    ],
+    "corrections": "Restored original muted ocean blue with slight teal undertone.",
+    "accepted_sha256": "73e90d3c7c97909b85d8c9ee985a609c64e24e3c6adca059656b7cf79dd16200"
+  },
+  "minsu-college-knit": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Consistent detailed black hair, warm eyes, master smile and physique, pocketed hands and mid-thigh picture crop. No knees or lower legs. Study glasses and outfit-specific accessories retained. Costume: light powder blue short-sleeved knitted polo shirt with three small pale buttons, ivory pleated trousers, slim black wristwatch on left wrist",
+    "evidence": [
+      "reviews/minsu-alpha-01.jpg",
+      "reviews/minsu-alpha-02.jpg",
+      "reviews/minsu-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "a8f4c8b839cae8356c89d56ee124753142add1c567cdacc4dd6ff4fc711878b1"
+  },
+  "minsu-college-overshirt": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Consistent detailed black hair, warm eyes, master smile and physique, pocketed hands and mid-thigh picture crop. No knees or lower legs. Study glasses and outfit-specific accessories retained. Costume: olive green and beige plaid button overshirt with rolled forearm cuffs, white crewneck T-shirt and tan chino trousers",
+    "evidence": [
+      "reviews/minsu-alpha-01.jpg",
+      "reviews/minsu-alpha-02.jpg",
+      "reviews/minsu-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "a7c522e6f51865329410a80ca792c78ee07ee206b5852608eac01dd4c83d9a2e"
+  },
+  "minsu-college-rugby": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Consistent detailed black hair, warm eyes, master smile and physique, pocketed hands and mid-thigh picture crop. No knees or lower legs. Study glasses and outfit-specific accessories retained. Costume: burgundy and cream broad horizontal striped long-sleeved rugby shirt with white collar and short white button placket, blue jeans; dark backpack worn over his left shoulder (viewer right)",
+    "evidence": [
+      "reviews/minsu-alpha-01.jpg",
+      "reviews/minsu-alpha-02.jpg",
+      "reviews/minsu-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "93a1da61fe689ffe43947f80f173cfca3cbe493bf59e98097fd8d924ddbe2471"
+  },
+  "minsu-gym-compression": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Consistent detailed black hair, warm eyes, master smile and physique, pocketed hands and mid-thigh picture crop. No knees or lower legs. Study glasses and outfit-specific accessories retained. Costume: navy fitted short-sleeved athletic compression shirt with fine grey seam piping, charcoal drawstring training trousers, black sports watch on left wrist",
+    "evidence": [
+      "reviews/minsu-alpha-01.jpg",
+      "reviews/minsu-alpha-02.jpg",
+      "reviews/minsu-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "66c6a33ac33bb6b0056deb1de5cee84331c7aa211e4de9863d51e65850114939"
+  },
+  "minsu-gym-tank": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Consistent detailed black hair, warm eyes, master smile and physique, pocketed hands and mid-thigh picture crop. No knees or lower legs. Study glasses and outfit-specific accessories retained. Costume: forest green athletic tank with fine light seam lines, black drawstring gym shorts and black sports watch on left wrist, no tattoos",
+    "evidence": [
+      "reviews/minsu-alpha-01.jpg",
+      "reviews/minsu-alpha-02.jpg",
+      "reviews/minsu-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "255827417a83ecbfbc67d7ec516dde05f76f569309331247e9329ed7015831b4"
+  },
+  "minsu-home": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Consistent detailed black hair, warm eyes, master smile and physique, pocketed hands and mid-thigh picture crop. No knees or lower legs. Study glasses and outfit-specific accessories retained. Costume: plain black fitted crewneck short-sleeved T-shirt and charcoal loose drawstring lounge trousers",
+    "evidence": [
+      "reviews/minsu-alpha-01.jpg",
+      "reviews/minsu-alpha-02.jpg",
+      "reviews/minsu-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "93de9d62e7bcbe779a20b2a77969cc0889401d669bb768f413c93de61b03bb78"
+  },
+  "minsu-med-scrubs": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Consistent detailed black hair, warm eyes, master smile and physique, pocketed hands and mid-thigh picture crop. No knees or lower legs. Study glasses and outfit-specific accessories retained. Costume: teal V-neck short-sleeved medical scrub top and matching drawstring scrub trousers, small blank white ID badge clipped near neckline, slim pen in left chest pocket, black wristwatch on left wrist",
+    "evidence": [
+      "reviews/minsu-alpha-01.jpg",
+      "reviews/minsu-alpha-02.jpg",
+      "reviews/minsu-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "62ab16ea177cd00ca446232c653fbbfa6bc213f6aeffaf1bd062392e3ce583fb"
+  },
+  "minsu-med-white-coat": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Consistent detailed black hair, warm eyes, master smile and physique, pocketed hands and mid-thigh picture crop. No knees or lower legs. Study glasses and outfit-specific accessories retained. Costume: short-sleeved white medical coat worn open over pale blue button-up collared shirt, dark navy trousers with black belt, black stethoscope around neck, blank white ID card with blue rim and pens clipped to left chest pocket",
+    "evidence": [
+      "reviews/minsu-alpha-01.jpg",
+      "reviews/minsu-alpha-02.jpg",
+      "reviews/minsu-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "ba740596727793ffe6cc367b88c55094c166aa68182092884d27aaab759d7fb2"
+  },
+  "minsu-sleep": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Consistent detailed black hair, warm eyes, master smile and physique, pocketed hands and mid-thigh picture crop. No knees or lower legs. Study glasses and outfit-specific accessories retained. Costume: opaque charcoal short-sleeved button-front pyjama shirt with a relaxed collar and subtle grey piping, worn with matching loose charcoal drawstring pyjama shorts; fully covered ordinary adult sleepwear",
+    "evidence": [
+      "reviews/minsu-alpha-01.jpg",
+      "reviews/minsu-alpha-02.jpg",
+      "reviews/minsu-alpha-03.jpg"
+    ],
+    "corrections": "User-authorized covered charcoal pyjama top and shorts. User flagged missing legs; restored upper thighs below shortened hems through the master picture crop, leaving lower thighs and legs outside.",
+    "accepted_sha256": "95490ce1bf792e757ead88fc45571a757821392c5818eb24ee8011f0ad4fb0a5"
+  },
+  "minsu-street-denim": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Consistent detailed black hair, warm eyes, master smile and physique, pocketed hands and mid-thigh picture crop. No knees or lower legs. Study glasses and outfit-specific accessories retained. Costume: washed blue denim jacket with flap chest pockets and contrast stitching, white T-shirt, dark charcoal cargo trousers, small black crossbody pouch slung from his left shoulder to his right hip",
+    "evidence": [
+      "reviews/minsu-alpha-01.jpg",
+      "reviews/minsu-alpha-02.jpg",
+      "reviews/minsu-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "61e37476256e41329fcf23e1c39ca550f796f73437cd404f1fade1eec5ba13eb"
+  },
+  "minsu-street-monochrome": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Consistent detailed black hair, warm eyes, master smile and physique, pocketed hands and mid-thigh picture crop. No knees or lower legs. Study glasses and outfit-specific accessories retained. Costume: black collared cropped zip jacket over black T-shirt, charcoal pleated trousers and black belt with silver buckle",
+    "evidence": [
+      "reviews/minsu-alpha-01.jpg",
+      "reviews/minsu-alpha-02.jpg",
+      "reviews/minsu-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "84e88e85f7a560b817a5df49e5c93ec59bc5009d27a4e4f107882be5a2975819"
+  },
+  "minsu-street-track": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Consistent detailed black hair, warm eyes, master smile and physique, pocketed hands and mid-thigh picture crop. No knees or lower legs. Study glasses and outfit-specific accessories retained. Costume: royal blue retro zip track jacket with cream chevron band across chest and cream sleeve stripes, white T-shirt and black drawstring cargo trousers",
+    "evidence": [
+      "reviews/minsu-alpha-01.jpg",
+      "reviews/minsu-alpha-02.jpg",
+      "reviews/minsu-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "cade79b2f767366acfeeb7de94a6da044c6591d6a7d6c373d3562c8a7776703b"
+  },
+  "minsu-study-cardigan": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Consistent detailed black hair, warm eyes, master smile and physique, pocketed hands and mid-thigh picture crop. No knees or lower legs. Study glasses and outfit-specific accessories retained. Costume: cream cable-knit V-neck cardigan with dark buttons, sage green T-shirt, charcoal trousers; add the established small rectangular black reading glasses on his unchanged face",
+    "evidence": [
+      "reviews/minsu-alpha-01.jpg",
+      "reviews/minsu-alpha-02.jpg",
+      "reviews/minsu-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "1c3a2b211f64b32683b6237e4b09f9dcf823ae6512651ec966f458816b961a82"
+  },
+  "minsu-study-hoodie": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Consistent detailed black hair, warm eyes, master smile and physique, pocketed hands and mid-thigh picture crop. No knees or lower legs. Study glasses and outfit-specific accessories retained. Costume: muted lavender loose hooded sweatshirt with drawstrings and kangaroo pocket, charcoal drawstring trousers",
+    "evidence": [
+      "reviews/minsu-alpha-01.jpg",
+      "reviews/minsu-alpha-02.jpg",
+      "reviews/minsu-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "1f30d2ca608a93ca58210b80f4d9709913abdeb5e604026172d2136e133a8563"
+  },
+  "minsu-varsity": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background alpha sheets reviewed. Consistent detailed black hair, warm eyes, master smile and physique, pocketed hands and mid-thigh picture crop. No knees or lower legs. Study glasses and outfit-specific accessories retained. Costume: forest green varsity jacket with cream sleeves, green/cream striped ribbed collar cuffs and hem, silver snap buttons, grey hoodie underneath, charcoal trousers",
+    "evidence": [
+      "reviews/minsu-alpha-01.jpg",
+      "reviews/minsu-alpha-02.jpg",
+      "reviews/minsu-alpha-03.jpg"
+    ],
+    "corrections": null,
+    "accepted_sha256": "626e38b111520b6768c252b986d2cddb359c7aa37f104c283cc2af2a6bffc7b7"
+  },
+  "rei-beach": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size generations and three-background cutout sheets reviewed. Stage 2 face, black hair, pose and proportions preserved; tattoos follow exposed neck, chest and arms with natural collar occlusion. Connected upper thighs reach the mid-thigh crop without knees or lower legs. Clean alpha around hair, arms and hands on all three backgrounds. Costume: deep teal swim shorts with cream side piping and cream drawstring, bare chest and arms; retain the established branching neck/chest tattoos, paired rib-side dragon motifs and dragon sleeves exactly from the tattoo map; short hems above the body crop with visible upper thighs beneath, no knees",
+    "evidence": [
+      "reviews/rei-alpha-01.jpg",
+      "reviews/rei-alpha-02.jpg",
+      "reviews/rei-alpha-03.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "b2c7f4370153032a912f991de28f89c522d0091e1d7b83840d1ae9507a8eebcb"
+  },
+  "rei-black-sweater": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size generations and three-background cutout sheets reviewed. Stage 2 face, black hair, pose and proportions preserved; tattoos follow exposed neck, chest and arms with natural collar occlusion. Connected upper thighs reach the mid-thigh crop without knees or lower legs. Clean alpha around hair, arms and hands on all three backgrounds. Costume: plain black long-sleeved crewneck knitted sweater, fine silver chain necklace, black tailored trousers and black belt with silver buckle plus silver waist chain; neck tattoos remain visible on exposed skin above neckline",
+    "evidence": [
+      "reviews/rei-alpha-01.jpg",
+      "reviews/rei-alpha-02.jpg",
+      "reviews/rei-alpha-03.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "24893ab14df09ca5457fa849fbbd07c69783bac63cd9a4147ff3408e02e59786"
+  },
+  "rei-burgundy-shirt": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size generations and three-background cutout sheets reviewed. Stage 2 face, black hair, pose and proportions preserved; tattoos follow exposed neck, chest and arms with natural collar occlusion. Connected upper thighs reach the mid-thigh crop without knees or lower legs. Clean alpha around hair, arms and hands on all three backgrounds. Costume: wine burgundy satin open-neck long-sleeved button shirt tucked into black tailored trousers, black belt and silver waist chain; preserve visible neck and chest tattoos within open neckline",
+    "evidence": [
+      "reviews/rei-alpha-01.jpg",
+      "reviews/rei-alpha-02.jpg",
+      "reviews/rei-alpha-03.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "4c80a6d483d0e2b89c2c68c8e4c0e43ebfe078084ccb6aeac55f7f0282b24080"
+  },
+  "rei-camel-overcoat": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size generations and three-background cutout sheets reviewed. Stage 2 face, black hair, pose and proportions preserved; tattoos follow exposed neck, chest and arms with natural collar occlusion. Connected upper thighs reach the mid-thigh crop without knees or lower legs. Clean alpha around hair, arms and hands on all three backgrounds. Costume: camel tan tailored wool overcoat over black turtleneck and black trousers, black belt and silver waist chain; collar covers tattoos only on covered skin, any exposed neck tattoo near jaw must remain",
+    "evidence": [
+      "reviews/rei-alpha-01.jpg",
+      "reviews/rei-alpha-02.jpg",
+      "reviews/rei-alpha-03.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "de0447d5b167538eea936943b804e0799763cfee2788a2fb9d6a36f73383cd52"
+  },
+  "rei-charcoal-hoodie": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size generations and three-background cutout sheets reviewed. Stage 2 face, black hair, pose and proportions preserved; tattoos follow exposed neck, chest and arms with natural collar occlusion. Connected upper thighs reach the mid-thigh crop without knees or lower legs. Clean alpha around hair, arms and hands on all three backgrounds. Costume: charcoal zip hoodie worn open over black crewneck T-shirt, black cargo trousers with subtle utility buckles and silver waist chain; visible neck tattoos remain",
+    "evidence": [
+      "reviews/rei-alpha-01.jpg",
+      "reviews/rei-alpha-02.jpg",
+      "reviews/rei-alpha-03.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "d6e865c299a1252c820cc96d1ff81cfbdd3deab062a91106ea2128ec35aac5aa"
+  },
+  "rei-cream-cardigan": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size generations and three-background cutout sheets reviewed. Stage 2 face, black hair, pose and proportions preserved; tattoos follow exposed neck, chest and arms with natural collar occlusion. Connected upper thighs reach the mid-thigh crop without knees or lower legs. Clean alpha around hair, arms and hands on all three backgrounds. Costume: cream cable-knit V-neck cardigan with black buttons and patch pockets, black T-shirt and black trousers with black belt and silver waist chain; visible neck tattoos remain",
+    "evidence": [
+      "reviews/rei-alpha-01.jpg",
+      "reviews/rei-alpha-02.jpg",
+      "reviews/rei-alpha-03.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "dc905f82998e1c0a518a810f0c50046525bc74b6e773e629b825320a97cb53f5"
+  },
+  "rei-denim-jacket": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size generations and three-background cutout sheets reviewed. Stage 2 face, black hair, pose and proportions preserved; tattoos follow exposed neck, chest and arms with natural collar occlusion. Connected upper thighs reach the mid-thigh crop without knees or lower legs. Clean alpha around hair, arms and hands on all three backgrounds. Costume: dark washed blue denim jacket with flap chest pockets, cream contrast stitching and silver buttons over plain white T-shirt, black jeans and black belt with silver waist chain; visible neck tattoos remain",
+    "evidence": [
+      "reviews/rei-alpha-01.jpg",
+      "reviews/rei-alpha-02.jpg",
+      "reviews/rei-alpha-03.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "0be8998afd670ed7df6ce14083cf0defcea42222b37da20c9126a1e61260c325"
+  },
+  "rei-gym": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size generations and three-background cutout sheets reviewed. Stage 2 face, black hair, pose and proportions preserved; tattoos follow exposed neck, chest and arms with natural collar occlusion. Connected upper thighs reach the mid-thigh crop without knees or lower legs. Clean alpha around hair, arms and hands on all three backgrounds. Costume: plain fitted black athletic tank and charcoal drawstring training trousers; established exact sleeve and neck tattoos exposed, chest tattoos naturally occluded below the tank neckline",
+    "evidence": [
+      "reviews/rei-alpha-01.jpg",
+      "reviews/rei-alpha-02.jpg",
+      "reviews/rei-alpha-03.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "677d41bd3242ce8dc8383ef8e8fb2e188d6593532faab34fa8241b8d75718f25"
+  },
+  "rei-haori-hakama": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size generations and three-background cutout sheets reviewed. Stage 2 face, black hair, pose and proportions preserved; tattoos follow exposed neck, chest and arms with natural collar occlusion. Connected upper thighs reach the mid-thigh crop without knees or lower legs. Clean alpha around hair, arms and hands on all three backgrounds. Costume: black traditional haori with wide sleeves over slate blue wrap-front kimono, white decorative haori cord and twin tassels across chest, charcoal vertically pleated hakama and wide dark waist sash; preserve all neck and upper chest tattoos visible inside the wrap neckline",
+    "evidence": [
+      "reviews/rei-alpha-01.jpg",
+      "reviews/rei-alpha-02.jpg",
+      "reviews/rei-alpha-03.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "f9bfdcabae0d7804203a2442e9c984585a8d415a12075c2a6342a28f98fe82f9"
+  },
+  "rei-home": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size generations and three-background cutout sheets reviewed. Stage 2 face, black hair, pose and proportions preserved; tattoos follow exposed neck, chest and arms with natural collar occlusion. Connected upper thighs reach the mid-thigh crop without knees or lower legs. Clean alpha around hair, arms and hands on all three backgrounds. Costume: plain black ribbed tank and loose light grey drawstring lounge trousers; exact neck, upper chest and dragon sleeve tattoos exposed",
+    "evidence": [
+      "reviews/rei-alpha-01.jpg",
+      "reviews/rei-alpha-02.jpg",
+      "reviews/rei-alpha-03.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "6d58f26ca4a1273001c350a4f6355132e62f60c7c197c65c9f69dedfb2181130"
+  },
+  "rei-moto": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size generations and three-background cutout sheets reviewed. Stage 2 face, black hair, pose and proportions preserved; tattoos follow exposed neck, chest and arms with natural collar occlusion. Connected upper thighs reach the mid-thigh crop without knees or lower legs. Clean alpha around hair, arms and hands on all three backgrounds. Costume: black leather motorcycle jacket with asymmetric silver zipper, wide snap lapels and zip pockets, black deep scoop-neck T-shirt, black trousers with black belt and silver waist chain; preserve exposed neck and upper chest tattoos",
+    "evidence": [
+      "reviews/rei-alpha-01.jpg",
+      "reviews/rei-alpha-02.jpg",
+      "reviews/rei-alpha-03.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "0f3163f426a574df59a4d76007de08fdb25a03cb4db4143c9769768abdc32fbb"
+  },
+  "rei-navy-yukata": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size generations and three-background cutout sheets reviewed. Stage 2 face, black hair, pose and proportions preserved; tattoos follow exposed neck, chest and arms with natural collar occlusion. Connected upper thighs reach the mid-thigh crop without knees or lower legs. Clean alpha around hair, arms and hands on all three backgrounds. Costume: deep navy textured wrap-front yukata with wide sleeves and charcoal obi sash; long robe fabric continues past bottom picture crop; preserve exposed neck and chest tattoos inside V neckline",
+    "evidence": [
+      "reviews/rei-alpha-01.jpg",
+      "reviews/rei-alpha-02.jpg",
+      "reviews/rei-alpha-03.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "fd7badb83fdca8844ab4cea2fae5911b8871025bd3fd2529ac56df3268db50bc"
+  },
+  "rei-olive-bomber": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size generations and three-background cutout sheets reviewed. Stage 2 face, black hair, pose and proportions preserved; tattoos follow exposed neck, chest and arms with natural collar occlusion. Connected upper thighs reach the mid-thigh crop without knees or lower legs. Clean alpha around hair, arms and hands on all three backgrounds. Costume: olive green zip bomber jacket with ribbed collar cuffs and hem, small sleeve zip pocket, black T-shirt, black cargo trousers with black belt and silver waist chain; visible neck tattoos remain",
+    "evidence": [
+      "reviews/rei-alpha-01.jpg",
+      "reviews/rei-alpha-02.jpg",
+      "reviews/rei-alpha-03.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "d571b1185dca65bab486aa837ffaeb927e03214f0c5d19fe980875ec0f90c012"
+  },
+  "rei-sleep": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size generations and three-background cutout sheets reviewed. Stage 2 face, black hair, pose and proportions preserved; tattoos follow exposed neck, chest and arms with natural collar occlusion. Connected upper thighs reach the mid-thigh crop without knees or lower legs. Clean alpha around hair, arms and hands on all three backgrounds. Costume: opaque charcoal sleeveless pyjama tank and matching loose drawstring pyjama shorts, ordinary covered sleepwear in original charcoal colour; exact neck and arm tattoos visible and chest ink only where neckline exposes skin; visible upper thighs extend below both shorts hems to the body crop",
+    "evidence": [
+      "reviews/rei-alpha-01.jpg",
+      "reviews/rei-alpha-02.jpg",
+      "reviews/rei-alpha-03.jpg"
+    ],
+    "exceptions": "Covered charcoal tank and shorts sleepwear in original colour, authorized by user.",
+    "accepted_sha256": "d5da20c3ed257f673b100e72f3f1d0d906f0e29433dfc1098cf5841c4ad608a0"
+  },
+  "rei-streetwear-sukajan": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size generations and three-background cutout sheets reviewed. Stage 2 face, black hair, pose and proportions preserved; tattoos follow exposed neck, chest and arms with natural collar occlusion. Connected upper thighs reach the mid-thigh crop without knees or lower legs. Clean alpha around hair, arms and hands on all three backgrounds. Costume: dark forest green satin sukajan bomber jacket with ivory satin raglan sleeves, matching green/cream striped ribbed collar cuffs and hem, embroidered pale cranes on both chest panels, white T-shirt and dark indigo jeans; visible neck tattoos remain",
+    "evidence": [
+      "reviews/rei-alpha-01.jpg",
+      "reviews/rei-alpha-02.jpg",
+      "reviews/rei-alpha-03.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "37dbd1bd76f682c1036e9dd4ee31709ae44043030182def9447b190484557bcc"
+  },
+  "rei-streetwear-techwear": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size generations and three-background cutout sheets reviewed. Stage 2 face, black hair, pose and proportions preserved; tattoos follow exposed neck, chest and arms with natural collar occlusion. Connected upper thighs reach the mid-thigh crop without knees or lower legs. Clean alpha around hair, arms and hands on all three backgrounds. Costume: black technical cropped zip jacket with stand collar, utility chest and sleeve pockets and small hem buckles, black longline T-shirt, fine layered silver necklaces, black cargo trousers and silver waist chain; visible neck tattoos remain",
+    "evidence": [
+      "reviews/rei-alpha-01.jpg",
+      "reviews/rei-alpha-02.jpg",
+      "reviews/rei-alpha-03.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "383d282783a89c521775802329a4d410f91b113475eb7cc492bbe1b44d922db3"
+  },
+  "rei-tailored-waistcoat": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size generations and three-background cutout sheets reviewed. Stage 2 face, black hair, pose and proportions preserved; tattoos follow exposed neck, chest and arms with natural collar occlusion. Connected upper thighs reach the mid-thigh crop without knees or lower legs. Clean alpha around hair, arms and hands on all three backgrounds. Costume: fitted charcoal buttoned waistcoat with small silver pocket-watch chain over white long-sleeved open-collar shirt, black trousers and black belt; exact neck and upper chest tattoos remain visible inside shirt opening",
+    "evidence": [
+      "reviews/rei-alpha-01.jpg",
+      "reviews/rei-alpha-02.jpg",
+      "reviews/rei-alpha-03.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "83cec6347e116e291ed2805c0226ffc33d5c49ba291d4de0b30091ae0ac9acfa"
+  },
+  "samantha-beach-black-bikini": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed full-size generated artwork and all fourteen on slate, middle and light diagnostic backgrounds. Stage 2 face, short dark hair, earrings, floral arm/collarbone tattoos, adult athletic build and thigh crop remain consistent. Both hands stay within the image; visible fingers are complete and remaining pocketed hands have natural fabric occlusion. No knees/lower legs. No visible alpha haze or fringe. Costume: plain black athletic scoop-neck bikini top with wide straps, matching moderate-coverage black swim bottom; preserve all master floral arm and collarbone tattoos",
+    "evidence": [
+      "reviews/samantha-alpha-01.jpg",
+      "reviews/samantha-alpha-02.jpg"
+    ],
+    "corrections": "User identified cut-off fingers. Reconstructed hip hand with all five digits and removed false pocket; restored continuous sleeves where applicable.",
+    "exceptions": null,
+    "accepted_sha256": "31655e94865cce74c43a42e01cee0c55f16e7296ae4beb01db2308b6cfa21d0b"
+  },
+  "samantha-beach-red-bikini": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed full-size generated artwork and all fourteen on slate, middle and light diagnostic backgrounds. Stage 2 face, short dark hair, earrings, floral arm/collarbone tattoos, adult athletic build and thigh crop remain consistent. Both hands stay within the image; visible fingers are complete and remaining pocketed hands have natural fabric occlusion. No knees/lower legs. No visible alpha haze or fringe. Costume: deep crimson red triangle bikini top and matching side-tie swim bottom, moderate coverage; preserve all master floral arm and collarbone tattoos",
+    "evidence": [
+      "reviews/samantha-alpha-01.jpg",
+      "reviews/samantha-alpha-02.jpg"
+    ],
+    "corrections": "User identified cut-off fingers. Reconstructed hip hand with all five digits and removed false pocket; restored continuous sleeves where applicable.",
+    "exceptions": null,
+    "accepted_sha256": "eb147785413ebd66092e3d0a31f3e5c77ceb888a983b103ab0a85140fc8dd371"
+  },
+  "samantha-beach-teal-bikini": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed full-size generated artwork and all fourteen on slate, middle and light diagnostic backgrounds. Stage 2 face, short dark hair, earrings, floral arm/collarbone tattoos, adult athletic build and thigh crop remain consistent. Both hands stay within the image; visible fingers are complete and remaining pocketed hands have natural fabric occlusion. No knees/lower legs. No visible alpha haze or fringe. Costume: deep teal triangle bikini top and matching high-waisted swim bottom, moderate coverage; preserve all master floral arm and collarbone tattoos",
+    "evidence": [
+      "reviews/samantha-alpha-01.jpg",
+      "reviews/samantha-alpha-02.jpg"
+    ],
+    "corrections": "User identified cut-off fingers. Reconstructed hip hand with all five digits and removed false pocket; restored continuous sleeves where applicable.",
+    "exceptions": null,
+    "accepted_sha256": "0528e2648347234b338658b66fdbae39f5c48ec5d6b3e1aab02ac845e2633f9f"
+  },
+  "samantha-black-mockneck": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed full-size generated artwork and all fourteen on slate, middle and light diagnostic backgrounds. Stage 2 face, short dark hair, earrings, floral arm/collarbone tattoos, adult athletic build and thigh crop remain consistent. Both hands stay within the image; visible fingers are complete and remaining pocketed hands have natural fabric occlusion. No knees/lower legs. No visible alpha haze or fringe. Costume: black sleeveless fitted mock-neck top with an oval upper-chest cutout exposing the collarbone tattoo; charcoal pleated tailored trousers and black belt with silver rectangular buckle; trousers continue to picture crop",
+    "evidence": [
+      "reviews/samantha-alpha-01.jpg",
+      "reviews/samantha-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "d9697790fad0f24e17924333aca89e5811c20fea6f3f7806fad62871cdadebd1"
+  },
+  "samantha-charcoal-hoodie": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed full-size generated artwork and all fourteen on slate, middle and light diagnostic backgrounds. Stage 2 face, short dark hair, earrings, floral arm/collarbone tattoos, adult athletic build and thigh crop remain consistent. Both hands stay within the image; visible fingers are complete and remaining pocketed hands have natural fabric occlusion. No knees/lower legs. No visible alpha haze or fringe. Costume: open charcoal zip hoodie over burgundy scoop-neck tank, charcoal drawstring jogger trousers that continue to picture crop; retain tattoos wherever visible",
+    "evidence": [
+      "reviews/samantha-alpha-01.jpg",
+      "reviews/samantha-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "0a66d7c2c5cb01e0762760be8fb66d63e3131b7d7604ea2e1f8dcfcb6c326efb"
+  },
+  "samantha-denim-cargo": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed full-size generated artwork and all fourteen on slate, middle and light diagnostic backgrounds. Stage 2 face, short dark hair, earrings, floral arm/collarbone tattoos, adult athletic build and thigh crop remain consistent. Both hands stay within the image; visible fingers are complete and remaining pocketed hands have natural fabric occlusion. No knees/lower legs. No visible alpha haze or fringe. Costume: sleeveless cropped black washed-denim button vest over plain white fitted scoop-neck tank; olive cargo trousers, black belt with rectangular silver buckle; trousers continue to picture crop; preserve arm and collarbone tattoos",
+    "evidence": [
+      "reviews/samantha-alpha-01.jpg",
+      "reviews/samantha-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "26495090b86447c7a674384d9979dfccceb0ac66025c4a70e0f53f0b0b292106"
+  },
+  "samantha-formal-black-suit": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed full-size generated artwork and all fourteen on slate, middle and light diagnostic backgrounds. Stage 2 face, short dark hair, earrings, floral arm/collarbone tattoos, adult athletic build and thigh crop remain consistent. Both hands stay within the image; visible fingers are complete and remaining pocketed hands have natural fabric occlusion. No knees/lower legs. No visible alpha haze or fringe. Costume: fitted black formal trouser suit with satin lapels, deep plum satin cowl-neck blouse; black belt with silver buckle, tailored black trousers continue to picture crop; collarbone tattoos remain above neckline",
+    "evidence": [
+      "reviews/samantha-alpha-01.jpg",
+      "reviews/samantha-alpha-02.jpg"
+    ],
+    "corrections": "User identified cut-off fingers. Reconstructed hip hand with all five digits and removed false pocket; restored continuous sleeves where applicable.",
+    "exceptions": null,
+    "accepted_sha256": "3af3bcbbae949d7af67370c59c5b7f00dc964d6dd322280f88b2edbb85570cd8"
+  },
+  "samantha-formal-burgundy-dress": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed full-size generated artwork and all fourteen on slate, middle and light diagnostic backgrounds. Stage 2 face, short dark hair, earrings, floral arm/collarbone tattoos, adult athletic build and thigh crop remain consistent. Both hands stay within the image; visible fingers are complete and remaining pocketed hands have natural fabric occlusion. No knees/lower legs. No visible alpha haze or fringe. Costume: deep burgundy satin fitted square-neck sleeveless formal dress with broad shoulder straps and gathered diagonal waist folds; dress fabric continues below frame with no added short hem; preserve exposed arm and collarbone tattoos",
+    "evidence": [
+      "reviews/samantha-alpha-01.jpg",
+      "reviews/samantha-alpha-02.jpg"
+    ],
+    "corrections": "User identified cut-off fingers. Reconstructed hip hand with all five digits and removed false pocket; restored continuous sleeves where applicable.",
+    "exceptions": null,
+    "accepted_sha256": "dd585dfd2265b17ee7280c140631f050d46644dc980d907e4343e7fecd92be19"
+  },
+  "samantha-gym-charcoal": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed full-size generated artwork and all fourteen on slate, middle and light diagnostic backgrounds. Stage 2 face, short dark hair, earrings, floral arm/collarbone tattoos, adult athletic build and thigh crop remain consistent. Both hands stay within the image; visible fingers are complete and remaining pocketed hands have natural fabric occlusion. No knees/lower legs. No visible alpha haze or fringe. Costume: charcoal racerback sports crop top with broad straps and underbust band, matching full-length charcoal panelled gym leggings; leggings continue to picture crop with no lower hem or bare thigh strip; preserve tattoos",
+    "evidence": [
+      "reviews/samantha-alpha-01.jpg",
+      "reviews/samantha-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "6d73d3c1c0bf5f3f68fa3ab7075cd853964393a0d48d5668d20e02bdbbd2b942"
+  },
+  "samantha-gym-olive": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed full-size generated artwork and all fourteen on slate, middle and light diagnostic backgrounds. Stage 2 face, short dark hair, earrings, floral arm/collarbone tattoos, adult athletic build and thigh crop remain consistent. Both hands stay within the image; visible fingers are complete and remaining pocketed hands have natural fabric occlusion. No knees/lower legs. No visible alpha haze or fringe. Costume: olive-green racerback sports crop top with broad straps and underbust band, black athletic running shorts with olive waistband and piping; connected upper thighs visible below short hems to master mid-thigh crop; preserve tattoos",
+    "evidence": [
+      "reviews/samantha-alpha-01.jpg",
+      "reviews/samantha-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "7869e57a99c7ddcf2e585bb2acdd3b01e5253003461a9ad46bb3bbc53d395e01"
+  },
+  "samantha-olive-bomber": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed full-size generated artwork and all fourteen on slate, middle and light diagnostic backgrounds. Stage 2 face, short dark hair, earrings, floral arm/collarbone tattoos, adult athletic build and thigh crop remain consistent. Both hands stay within the image; visible fingers are complete and remaining pocketed hands have natural fabric occlusion. No knees/lower legs. No visible alpha haze or fringe. Costume: olive-green satin bomber jacket worn open with sleeves pushed to elbows over a fitted black scoop-neck tank; washed black jeans and black belt with rectangular silver buckle, jeans continue to crop; visible forearm and collarbone tattoos retained",
+    "evidence": [
+      "reviews/samantha-alpha-01.jpg",
+      "reviews/samantha-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "fc5198d5405740666796fce009b719119ae7fb36e889bc1505f0baf7957ec1ec"
+  },
+  "samantha-red-flannel": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed full-size generated artwork and all fourteen on slate, middle and light diagnostic backgrounds. Stage 2 face, short dark hair, earrings, floral arm/collarbone tattoos, adult athletic build and thigh crop remain consistent. Both hands stay within the image; visible fingers are complete and remaining pocketed hands have natural fabric occlusion. No knees/lower legs. No visible alpha haze or fringe. Costume: open red-and-black buffalo-check flannel shirt, sleeves rolled to elbows, over charcoal fitted scoop-neck tank; washed black jeans, black belt with rectangular silver buckle; jeans continue to crop; visible tattoos retained",
+    "evidence": [
+      "reviews/samantha-alpha-01.jpg",
+      "reviews/samantha-alpha-02.jpg"
+    ],
+    "corrections": "User identified cut-off fingers. Reconstructed hip hand with all five digits and removed false pocket; restored continuous sleeves where applicable.",
+    "exceptions": null,
+    "accepted_sha256": "3cb8cd170f3eee2da87bc18647f57ec7938484b18b2a6a060f8d658c1c518e52"
+  },
+  "samantha-red-moto": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed full-size generated artwork and all fourteen on slate, middle and light diagnostic backgrounds. Stage 2 face, short dark hair, earrings, floral arm/collarbone tattoos, adult athletic build and thigh crop remain consistent. Both hands stay within the image; visible fingers are complete and remaining pocketed hands have natural fabric occlusion. No knees/lower legs. No visible alpha haze or fringe. Costume: dark burgundy leather motorcycle jacket, asymmetrical silver zip and lapels, over charcoal scoop-neck tank; washed black jeans and black belt with rectangular silver buckle; jeans continue to crop; exposed collarbone tattoos retained",
+    "evidence": [
+      "reviews/samantha-alpha-01.jpg",
+      "reviews/samantha-alpha-02.jpg"
+    ],
+    "corrections": "User identified cut-off fingers. Reconstructed hip hand with all five digits and removed false pocket; restored continuous sleeves where applicable.",
+    "exceptions": null,
+    "accepted_sha256": "f1b48c29ddfaae0fcfcba306cff084a5b3e833876b8ddb94fd2540e935ba7751"
+  },
+  "samantha-sleep": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Reviewed full-size generated artwork and all fourteen on slate, middle and light diagnostic backgrounds. Stage 2 face, short dark hair, earrings, floral arm/collarbone tattoos, adult athletic build and thigh crop remain consistent. Both hands stay within the image; visible fingers are complete and remaining pocketed hands have natural fabric occlusion. No knees/lower legs. No visible alpha haze or fringe. Costume: covered opaque burgundy sleep camisole with wide straps and subtle tonal lace trim, matching loose burgundy pyjama shorts, ordinary comfortable sleepwear; connected upper thighs below both short hems through the master mid-thigh crop; preserve arm and collarbone tattoos",
+    "evidence": [
+      "reviews/samantha-alpha-01.jpg",
+      "reviews/samantha-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": "Covered burgundy camisole and shorts sleepwear authorized by user.",
+    "accepted_sha256": "139c67f8781e859f2af866ee3afb08fd8e0d0abf37111c961412a17d0a5fd473"
+  },
+  "sophie-autumn-knit": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and all fourteen three-background previews checked. Brown ponytail, green eyes, adult athletic build, hand-on-hip pose, complete fingers and master crop retained. Dresses form continuous skirts; trousers and leggings continue to cutoff, short hems expose connected upper thighs with no knees/lower legs. Clean hair and arm-gap alpha on slate, middle and light backgrounds. Costume: rust-orange ribbed crew-neck sweater with sleeves pushed to forearms, tucked into dark indigo high-waisted jeans with brown belt and small brass rectangular buckle. Jeans continue to picture crop",
+    "evidence": [
+      "reviews/sophie-alpha-01.jpg",
+      "reviews/sophie-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "ab26cf897711d311af5c91a33d1ae902fa47728a61fbf6c4f058f10b53144320"
+  },
+  "sophie-beach-cobalt": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and all fourteen three-background previews checked. Brown ponytail, green eyes, adult athletic build, hand-on-hip pose, complete fingers and master crop retained. Dresses form continuous skirts; trousers and leggings continue to cutoff, short hems expose connected upper thighs with no knees/lower legs. Clean hair and arm-gap alpha on slate, middle and light backgrounds. Costume: cobalt blue triangle bikini top with narrow adjustable straps, matching moderate-coverage blue swim bottom with tiny silver ring connectors at hips",
+    "evidence": [
+      "reviews/sophie-alpha-01.jpg",
+      "reviews/sophie-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "a14641c295b2677a2fd027e59ec3026ce2a57940a1fe23aaf15c4b1c3658004e"
+  },
+  "sophie-beach-coral": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and all fourteen three-background previews checked. Brown ponytail, green eyes, adult athletic build, hand-on-hip pose, complete fingers and master crop retained. Dresses form continuous skirts; trousers and leggings continue to cutoff, short hems expose connected upper thighs with no knees/lower legs. Clean hair and arm-gap alpha on slate, middle and light backgrounds. Costume: coral-red athletic scoop-neck swim crop top with wide straps and cream piping around neck and arm openings, matching moderate-coverage coral swim bottom with cream edging",
+    "evidence": [
+      "reviews/sophie-alpha-01.jpg",
+      "reviews/sophie-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "6aae1b9e87e854b12bbe708f2a3751def62cc6501802a496a562790d7656a52d"
+  },
+  "sophie-beach-tropical": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and all fourteen three-background previews checked. Brown ponytail, green eyes, adult athletic build, hand-on-hip pose, complete fingers and master crop retained. Dresses form continuous skirts; trousers and leggings continue to cutoff, short hems expose connected upper thighs with no knees/lower legs. Clean hair and arm-gap alpha on slate, middle and light backgrounds. Costume: deep teal-green halter triangle bikini printed with pale cream-green tropical leaves, matching high-waisted moderate-coverage swim bottom with same leaf pattern",
+    "evidence": [
+      "reviews/sophie-alpha-01.jpg",
+      "reviews/sophie-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "b4b077c1b6854eded239b874e1785ff989bb684ddb143e4997955ee48ea4d3d4"
+  },
+  "sophie-casual-denim": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and all fourteen three-background previews checked. Brown ponytail, green eyes, adult athletic build, hand-on-hip pose, complete fingers and master crop retained. Dresses form continuous skirts; trousers and leggings continue to cutoff, short hems expose connected upper thighs with no knees/lower legs. Clean hair and arm-gap alpha on slate, middle and light backgrounds. Costume: cropped medium-blue washed denim jacket, rolled sleeves at forearms, over plain white crew-neck T-shirt tucked into black high-waisted jeans; jeans continue to picture crop",
+    "evidence": [
+      "reviews/sophie-alpha-01.jpg",
+      "reviews/sophie-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "2f4db62d82a118f4a5d394aca235f649e748f9da959ca1c6a3d20e791ccb6e71"
+  },
+  "sophie-casual-varsity": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and all fourteen three-background previews checked. Brown ponytail, green eyes, adult athletic build, hand-on-hip pose, complete fingers and master crop retained. Dresses form continuous skirts; trousers and leggings continue to cutoff, short hems expose connected upper thighs with no knees/lower legs. Clean hair and arm-gap alpha on slate, middle and light backgrounds. Costume: burgundy varsity jacket with ivory sleeves, burgundy-and-ivory striped ribbed collar/cuffs/waist and silver snaps, worn open over charcoal scoop-neck tank, blue jeans continuing to picture crop",
+    "evidence": [
+      "reviews/sophie-alpha-01.jpg",
+      "reviews/sophie-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "503990563cff0245b1e8083125332a720488c112ffbac4cfbf7ce1d90808fb0f"
+  },
+  "sophie-formal-emerald": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and all fourteen three-background previews checked. Brown ponytail, green eyes, adult athletic build, hand-on-hip pose, complete fingers and master crop retained. Dresses form continuous skirts; trousers and leggings continue to cutoff, short hems expose connected upper thighs with no knees/lower legs. Clean hair and arm-gap alpha on slate, middle and light backgrounds. Costume: emerald-green satin one-shoulder formal gown, strap on image-right shoulder, softly draped diagonal bodice folds and gathered hip skirt. The gown fabric continues past the picture crop; do not make it a short dress. Keep arms and hands complete",
+    "evidence": [
+      "reviews/sophie-alpha-01.jpg",
+      "reviews/sophie-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "3aeb79348ed0c5d990c43ba993340dce0a84bb24cda8cd64aeb56bae18f3ebc5"
+  },
+  "sophie-formal-suit": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and all fourteen three-background previews checked. Brown ponytail, green eyes, adult athletic build, hand-on-hip pose, complete fingers and master crop retained. Dresses form continuous skirts; trousers and leggings continue to cutoff, short hems expose connected upper thighs with no knees/lower legs. Clean hair and arm-gap alpha on slate, middle and light backgrounds. Costume: tailored dark navy trouser suit, blazer with gold buttons and sleeves pushed to forearms, ivory satin cowl-neck blouse, tiny plain gold pendant necklace; navy trousers continue to picture crop",
+    "evidence": [
+      "reviews/sophie-alpha-01.jpg",
+      "reviews/sophie-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "d648c17262df89b900898da1fbf1711a6386f389386fc9e7f3f71693fc13a6b6"
+  },
+  "sophie-gym-cardio": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and all fourteen three-background previews checked. Brown ponytail, green eyes, adult athletic build, hand-on-hip pose, complete fingers and master crop retained. Dresses form continuous skirts; trousers and leggings continue to cutoff, short hems expose connected upper thighs with no knees/lower legs. Clean hair and arm-gap alpha on slate, middle and light backgrounds. Costume: cobalt blue racerback athletic tank covering torso, black running shorts with white piping and cobalt-blue drawstring; visible connected upper thighs below shorts to master mid-thigh crop",
+    "evidence": [
+      "reviews/sophie-alpha-01.jpg",
+      "reviews/sophie-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "b341ba8b5401acadf32d539ada2916ff371ec9b693e9c41e11178a04f92c5494"
+  },
+  "sophie-gym-strength": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and all fourteen three-background previews checked. Brown ponytail, green eyes, adult athletic build, hand-on-hip pose, complete fingers and master crop retained. Dresses form continuous skirts; trousers and leggings continue to cutoff, short hems expose connected upper thighs with no knees/lower legs. Clean hair and arm-gap alpha on slate, middle and light backgrounds. Costume: deep plum racerback sports crop top with broad underbust band, high-waisted black full-length gym leggings with plum outer-side panels; leggings continue to picture cutoff, no finished hem or bare thigh strip",
+    "evidence": [
+      "reviews/sophie-alpha-01.jpg",
+      "reviews/sophie-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "4aeea19a48e0dd4977cf68198742bcd198a04ea1fcbe0eca27e6fe78b8b00515"
+  },
+  "sophie-picnic-dress": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and all fourteen three-background previews checked. Brown ponytail, green eyes, adult athletic build, hand-on-hip pose, complete fingers and master crop retained. Dresses form continuous skirts; trousers and leggings continue to cutoff, short hems expose connected upper thighs with no knees/lower legs. Clean hair and arm-gap alpha on slate, middle and light backgrounds. Costume: sunflower-yellow square-neck sundress with broad straps and small white daisy print with golden centres, fitted button bodice and softly gathered continuous skirt. Skirt continues to picture crop as original length; no crotch divide or shorts",
+    "evidence": [
+      "reviews/sophie-alpha-01.jpg",
+      "reviews/sophie-alpha-02.jpg"
+    ],
+    "corrections": "Extended yellow picnic skirt through bottom picture cutoff to preserve garment length.",
+    "exceptions": null,
+    "accepted_sha256": "152e2e47e3f48e10983da408c758cda442a30dcc4528600e33502dd9f6b297e1"
+  },
+  "sophie-sleep": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and all fourteen three-background previews checked. Brown ponytail, green eyes, adult athletic build, hand-on-hip pose, complete fingers and master crop retained. Dresses form continuous skirts; trousers and leggings continue to cutoff, short hems expose connected upper thighs with no knees/lower legs. Clean hair and arm-gap alpha on slate, middle and light backgrounds. Costume: covered opaque cobalt-blue sleep camisole with broad straps and subtle matching blue lace trim, matching comfortable blue pyjama shorts; visible connected upper thighs below both shorts hems to master mid-thigh crop",
+    "evidence": [
+      "reviews/sophie-alpha-01.jpg",
+      "reviews/sophie-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": "Covered blue camisole and pyjama shorts in original colour, authorized by user.",
+    "accepted_sha256": "33c179c40af0dde527102fe19ec800112a376e0c883b2916ebfa61af43c17e77"
+  },
+  "sophie-summer-linen": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and all fourteen three-background previews checked. Brown ponytail, green eyes, adult athletic build, hand-on-hip pose, complete fingers and master crop retained. Dresses form continuous skirts; trousers and leggings continue to cutoff, short hems expose connected upper thighs with no knees/lower legs. Clean hair and arm-gap alpha on slate, middle and light backgrounds. Costume: white linen short-sleeve button shirt worn open and tied at waist over cream cropped tank, olive-green high-waisted tailored shorts with pleats and brown belt with brass buckle; connected upper thighs visible below shorts to mid-thigh crop",
+    "evidence": [
+      "reviews/sophie-alpha-01.jpg",
+      "reviews/sophie-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "6c2aaa6036adca88290ecbbb5ad91f3ccfbf5f4e517910241df4d9642932ff5c"
+  },
+  "sophie-winter-puffer": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and all fourteen three-background previews checked. Brown ponytail, green eyes, adult athletic build, hand-on-hip pose, complete fingers and master crop retained. Dresses form continuous skirts; trousers and leggings continue to cutoff, short hems expose connected upper thighs with no knees/lower legs. Clean hair and arm-gap alpha on slate, middle and light backgrounds. Costume: ivory quilted short puffer jacket worn open over forest-green ribbed turtleneck sweater; charcoal high-waisted pleated trousers with dark belt; trousers continue to picture crop",
+    "evidence": [
+      "reviews/sophie-alpha-01.jpg",
+      "reviews/sophie-alpha-02.jpg"
+    ],
+    "corrections": null,
+    "exceptions": null,
+    "accepted_sha256": "759d82dfc673253e987cdbd9c618f7bce7845d4e2702afbbe0148930f6f3b7fe"
+  },
+  "yuriko-bikini-floral": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background sheets reviewed. Master face, cheek mole, short dark hair, gold hair clip, proportions and mid-thigh composition retained. Complete open hands on pocketless outfits, natural fabric occlusion for pockets. Outfit-specific reading glasses, earrings, sport watch and theatre pencil retained. Short dress is a continuous skirt, long garments and trousers continue through crop, no knees/lower legs. Alpha clean on all backgrounds. Costume: coral-red halter triangle bikini with small cream five-petal flower print and matching moderate-coverage floral swim bottom",
+    "evidence": [
+      "reviews/yuriko-alpha-01.jpg",
+      "reviews/yuriko-alpha-02.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "1e57894893566180373ced955d1f69780b657429f379e7106a964c3fc9a028f5"
+  },
+  "yuriko-bikini-navy": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background sheets reviewed. Master face, cheek mole, short dark hair, gold hair clip, proportions and mid-thigh composition retained. Complete open hands on pocketless outfits, natural fabric occlusion for pockets. Outfit-specific reading glasses, earrings, sport watch and theatre pencil retained. Short dress is a continuous skirt, long garments and trousers continue through crop, no knees/lower legs. Alpha clean on all backgrounds. Costume: navy-blue square-neck athletic swim crop top with broad straps and thin white edging; matching high-waisted moderate-coverage navy swim bottom with white piping",
+    "evidence": [
+      "reviews/yuriko-alpha-01.jpg",
+      "reviews/yuriko-alpha-02.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "27e94bed3a72bb28d1f8c8e7f3a527ee12634fc7f14fe2091bb1efe6dda9cb98"
+  },
+  "yuriko-bikini-teal": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background sheets reviewed. Master face, cheek mole, short dark hair, gold hair clip, proportions and mid-thigh composition retained. Complete open hands on pocketless outfits, natural fabric occlusion for pockets. Outfit-specific reading glasses, earrings, sport watch and theatre pencil retained. Short dress is a continuous skirt, long garments and trousers continue through crop, no knees/lower legs. Alpha clean on all backgrounds. Costume: deep teal scoop-neck athletic bikini top with broad straps and underbust band; matching plain moderate-coverage teal swim bottom",
+    "evidence": [
+      "reviews/yuriko-alpha-01.jpg",
+      "reviews/yuriko-alpha-02.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "d3a4a677ca2f09360635a181aa1627cb52c3a05b61a47c87835c0007e85b0f20"
+  },
+  "yuriko-campus-cardigan": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background sheets reviewed. Master face, cheek mole, short dark hair, gold hair clip, proportions and mid-thigh composition retained. Complete open hands on pocketless outfits, natural fabric occlusion for pockets. Outfit-specific reading glasses, earrings, sport watch and theatre pencil retained. Short dress is a continuous skirt, long garments and trousers continue through crop, no knees/lower legs. Alpha clean on all backgrounds. Costume: mustard yellow button-front V-neck cardigan with patch pockets worn open over an ivory ribbed crew-neck T-shirt; dark indigo jeans and brown belt with brass buckle, jeans continue to picture crop; no pencil",
+    "evidence": [
+      "reviews/yuriko-alpha-01.jpg",
+      "reviews/yuriko-alpha-02.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "58cff10c2548a101a9c7931f250598f8ec44cabe92705b9bfdeb71bcb69202ee"
+  },
+  "yuriko-evening-dress": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background sheets reviewed. Master face, cheek mole, short dark hair, gold hair clip, proportions and mid-thigh composition retained. Complete open hands on pocketless outfits, natural fabric occlusion for pockets. Outfit-specific reading glasses, earrings, sport watch and theatre pencil retained. Short dress is a continuous skirt, long garments and trousers continue through crop, no knees/lower legs. Alpha clean on all backgrounds. Costume: dark burgundy satin boat-neck formal dress with short cap sleeves, fitted waist band and diagonal gathered skirt folds, small gold drop earrings; continuous dress fabric runs past bottom picture crop with NO mini hem; no pencil",
+    "evidence": [
+      "reviews/yuriko-alpha-01.jpg",
+      "reviews/yuriko-alpha-02.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "137ee76883905b20039a85e683a2a0d4d5bf3756758fb1d5ada350fc36cf9e4e"
+  },
+  "yuriko-festival-yukata": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background sheets reviewed. Master face, cheek mole, short dark hair, gold hair clip, proportions and mid-thigh composition retained. Complete open hands on pocketless outfits, natural fabric occlusion for pockets. Outfit-specific reading glasses, earrings, sport watch and theatre pencil retained. Short dress is a continuous skirt, long garments and trousers continue through crop, no knees/lower legs. Alpha clean on all backgrounds. Costume: dark navy yukata with large pale blue morning-glory flowers and light blue vines, traditional wide elbow-length sleeves and wrapped neckline; mustard-gold broad obi with fine cord bow at front; robe fabric continues past bottom crop, no short hem; no pencil",
+    "evidence": [
+      "reviews/yuriko-alpha-01.jpg",
+      "reviews/yuriko-alpha-02.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "0eda7252c6ad879252687ee8c4286a2c90202334317ccc5cb4816bc1537d1071"
+  },
+  "yuriko-gym-lavender": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background sheets reviewed. Master face, cheek mole, short dark hair, gold hair clip, proportions and mid-thigh composition retained. Complete open hands on pocketless outfits, natural fabric occlusion for pockets. Outfit-specific reading glasses, earrings, sport watch and theatre pencil retained. Short dress is a continuous skirt, long garments and trousers continue through crop, no knees/lower legs. Alpha clean on all backgrounds. Costume: white lightweight zip athletic jacket with lavender shoulder stripes, open over lavender crew-neck T-shirt; dark plum running shorts with drawstring waist and subtle pale side piping; connected upper thighs below shorts through master mid-thigh crop; no pencil",
+    "evidence": [
+      "reviews/yuriko-alpha-01.jpg",
+      "reviews/yuriko-alpha-02.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "40a92afc25c3d77215b663f94081a5408a513c2793a231bf2644901657ea3b81"
+  },
+  "yuriko-gym-sage": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background sheets reviewed. Master face, cheek mole, short dark hair, gold hair clip, proportions and mid-thigh composition retained. Complete open hands on pocketless outfits, natural fabric occlusion for pockets. Outfit-specific reading glasses, earrings, sport watch and theatre pencil retained. Short dress is a continuous skirt, long garments and trousers continue through crop, no knees/lower legs. Alpha clean on all backgrounds. Costume: sage-green racerback sports crop top with wide underbust band, high-waisted charcoal full-length gym leggings with subtle panel seams, small black sport watch on her left wrist (image right); leggings continue to picture crop with no hem or bare skin below; no pencil",
+    "evidence": [
+      "reviews/yuriko-alpha-01.jpg",
+      "reviews/yuriko-alpha-02.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "e972359c01204338e5f90e7b8e83d460d86f732cd928c21f403f74f69d5062f0"
+  },
+  "yuriko-home": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background sheets reviewed. Master face, cheek mole, short dark hair, gold hair clip, proportions and mid-thigh composition retained. Complete open hands on pocketless outfits, natural fabric occlusion for pockets. Outfit-specific reading glasses, earrings, sport watch and theatre pencil retained. Short dress is a continuous skirt, long garments and trousers continue through crop, no knees/lower legs. Alpha clean on all backgrounds. Costume: loose muted dusty-plum crew-neck sweatshirt with sleeves pushed to forearms, charcoal drawstring lounge trousers with pockets; trousers continue to picture cutoff; no pencil",
+    "evidence": [
+      "reviews/yuriko-alpha-01.jpg",
+      "reviews/yuriko-alpha-02.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "b8886acc4d8d81b264eb21903cb22bec7740e98d05ae05139e0c427c9cb2d7d9"
+  },
+  "yuriko-street-denim": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background sheets reviewed. Master face, cheek mole, short dark hair, gold hair clip, proportions and mid-thigh composition retained. Complete open hands on pocketless outfits, natural fabric occlusion for pockets. Outfit-specific reading glasses, earrings, sport watch and theatre pencil retained. Short dress is a continuous skirt, long garments and trousers continue through crop, no knees/lower legs. Alpha clean on all backgrounds. Costume: cropped medium-blue washed denim jacket with sleeves rolled to forearms over black-and-ivory horizontal striped crew-neck T-shirt; black cargo trousers with patch pockets continuing to picture crop; no pencil",
+    "evidence": [
+      "reviews/yuriko-alpha-01.jpg",
+      "reviews/yuriko-alpha-02.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "2648db3dc83be27a10f9759f3b40e758bb6c87bfcb8fde27b239f37be674c1e7"
+  },
+  "yuriko-study-knit": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background sheets reviewed. Master face, cheek mole, short dark hair, gold hair clip, proportions and mid-thigh composition retained. Complete open hands on pocketless outfits, natural fabric occlusion for pockets. Outfit-specific reading glasses, earrings, sport watch and theatre pencil retained. Short dress is a continuous skirt, long garments and trousers continue through crop, no knees/lower legs. Alpha clean on all backgrounds. Costume: dusty-rose ribbed crew-neck sweater with loose sleeves pushed to forearms, beige pleated high-waisted trousers continuing to picture crop. Add her outfit-specific thin dark round reading glasses with transparent lenses, preserving exact facial proportions underneath; no pencil",
+    "evidence": [
+      "reviews/yuriko-alpha-01.jpg",
+      "reviews/yuriko-alpha-02.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "2bc53a474c56b4b0d07934c5b5827fd4a77b1c72765965431d09db6bbf734f46"
+  },
+  "yuriko-summer-dress": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background sheets reviewed. Master face, cheek mole, short dark hair, gold hair clip, proportions and mid-thigh composition retained. Complete open hands on pocketless outfits, natural fabric occlusion for pockets. Outfit-specific reading glasses, earrings, sport watch and theatre pencil retained. Short dress is a continuous skirt, long garments and trousers continue through crop, no knees/lower legs. Alpha clean on all backgrounds. Costume: sage-green sleeveless square-neck sundress with broad straps, tiny off-white botanical flower print, elastic gathered waist and a continuous short skirt ending slightly above the mid-thigh crop, connected upper thighs visible underneath; no pencil",
+    "evidence": [
+      "reviews/yuriko-alpha-01.jpg",
+      "reviews/yuriko-alpha-02.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "70235079fd97a5d6e2a251540eabefb28a60e1ee247acd864b2d80da71c3dee3"
+  },
+  "yuriko-theatre-overalls": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background sheets reviewed. Master face, cheek mole, short dark hair, gold hair clip, proportions and mid-thigh composition retained. Complete open hands on pocketless outfits, natural fabric occlusion for pockets. Outfit-specific reading glasses, earrings, sport watch and theatre pencil retained. Short dress is a continuous skirt, long garments and trousers continue through crop, no knees/lower legs. Alpha clean on all backgrounds. Costume: dark indigo denim bib overalls over ivory short-sleeved crew-neck T-shirt, brass strap buckles and white/yellow/pink paint flecks on bib and trousers; single yellow pencil with pink eraser in bib chest pocket. Full-length overall trousers continue to picture crop",
+    "evidence": [
+      "reviews/yuriko-alpha-01.jpg",
+      "reviews/yuriko-alpha-02.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "2dd836c2c23c3c61a2af5799a2beb3c8f68394948b9165bd6df5e65982e06063"
+  },
+  "yuriko-winter-coat": {
+    "accepted": true,
+    "scope": "Offline full-size/alpha review and staged real-loader normal/compact presentation; live installation pending",
+    "findings": "Full-size outputs and three-background sheets reviewed. Master face, cheek mole, short dark hair, gold hair clip, proportions and mid-thigh composition retained. Complete open hands on pocketless outfits, natural fabric occlusion for pockets. Outfit-specific reading glasses, earrings, sport watch and theatre pencil retained. Short dress is a continuous skirt, long garments and trousers continue through crop, no knees/lower legs. Alpha clean on all backgrounds. Costume: camel-brown hooded duffle coat with three cream toggles and dark brown leather tabs, broad burgundy/brown/cream tartan scarf and ivory ribbed turtleneck; black trousers continue to picture crop; coat runs below hips; no pencil",
+    "evidence": [
+      "reviews/yuriko-alpha-01.jpg",
+      "reviews/yuriko-alpha-02.jpg"
+    ],
+    "exceptions": null,
+    "accepted_sha256": "c17f501eb5165d2cc97de858e946f6bbf19b39f520458a77a8219eaf614569af"
+  }
+}

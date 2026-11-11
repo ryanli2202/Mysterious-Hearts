@@ -1,0 +1,8 @@
+{
+  "emily": {
+    "source": "assets/portraits/emily-selection.png",
+    "sha256": "969e183053b74d0c9c18ec47785da5bc70ddd612f45ace733b0ba60bee972f70",
+    "evidence": "../artwork-batch-01/emily-style-refinement/change.json",
+    "reason": "Carry forward the separately published Emily refinement observed during Stage 2; retain frozen turn-start source and before-state."
+  }
+}

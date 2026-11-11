@@ -5,6 +5,7 @@ import tkinter as tk
 from PIL import Image, ImageOps, ImageTk, ImageEnhance
 import phone_personalization as personal
 import phone_icons
+import winterfield_ui as ui
 
 
 def page_layout(width, height, count):
@@ -99,10 +100,15 @@ def home(phone, frame, s):
             canvas.background_art=art
             canvas.wallpaper=ImageTk.PhotoImage(art,master=canvas)
             canvas.create_image(0,0,image=canvas.wallpaper,anchor='nw')
+        # A textured information panel keeps clock and alerts legible on any wallpaper.
+        canvas.header_texture = ImageTk.PhotoImage(ui.surface_texture(width-24, 94, '#192533'), master=canvas)
+        canvas.create_image(12, 7, image=canvas.header_texture, anchor='nw')
+        canvas.create_rectangle(12, 7, width-12, 101, outline='#3b4a60')
+        canvas.create_line(28, 100, width-28, 100, fill='#709e99')
         minute=s['world']['minute']%1440
         canvas.create_text(width/2,32,text=f'{minute//60:02}:{minute%60:02}',fill='#dce4ed',font=('Segoe UI',32,'bold'))
         canvas.create_text(width/2,66,text='Select app, then slot · arrows change page' if editing else f'{custom_protagonist.display_name(s["player"])}’s phone',fill='#dce4ed',font=('Segoe UI',9 if editing else 11))
-        control = canvas.create_text(width-8,18,text='Done' if editing else 'Edit',anchor='ne',
+        control = canvas.create_text(width-24,18,text='Done' if editing else 'Edit',anchor='ne',
                                      fill='#80c6ba',font=('Segoe UI',11,'bold'),tags='edit')
         canvas.tag_bind(control,'<ButtonRelease-1>',lambda e: toggle_edit())
         phone.home_unread_item=canvas.create_text(width/2,87,text='',fill='#dce4ed',font=('Segoe UI',9))

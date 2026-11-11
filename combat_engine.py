@@ -6,6 +6,8 @@ import random
 import re
 import combat_moves as moves
 import combat_path as path
+import combat_states as states
+from combat_balance import expression
 
 
 def ensure_arena(f):
@@ -19,6 +21,7 @@ def ensure_arena(f):
         f['arena']=dict(positions={'player':1,'enemy':4},objects=props,rubble=[],hazards=[],light='normal')
     for side in ('player','enemy'):
         r=f[side]
+        states.ensure(r)
         for key,value in dict(cover=None,restrained=0,staggered=0,marks=0,heat=0,focus=0).items(): r.setdefault(key,value)
     f.setdefault('exchanges',[])
     moves.initialise(f['opponent_profile'],f['opponent'])
@@ -38,35 +41,87 @@ def preview(s):
         spec=path.form_spec(f['opponent_profile'],choice)
         f['enemy'].update(active_form=spec,form_used=True,form_until=f['elapsed']+spec['duration'])
         f['enemy']['energy']-=spec['cost']
+    f['enemy']['protocol_locked']=not states.protocol_available(s,f,'enemy',f['opponent_profile'])
+    if states.protocol_choice(s,f,'enemy',f['opponent_profile']):
+        f['enemy']['protocol_left']=4; f['enemy']['protocol_used']=True; f['enemy']['stamina']-=20
+    q=f['opponent_profile']; r=f['enemy']
+    options=states.channels(q)
+    if options and r['energy']>=12 and f['turn']%3==0:
+        channel=options[1+(f['turn']//3)%(len(options)-1)]
+        if channel!=r['channel']: r['energy']-=8; r['channel']=channel; r['tranquility']=channel=='Ice'
+    if r['energy']<4: r['channel']=''; r['tranquility']=False
+    if options and r['health']<r['max_health']*.5 and not r['misanthropy_used'] and r['energy']>=22:
+        r['energy']-=18; r['misanthropy']=True; r['misanthropy_used']=True; r['endurance_left']=4; r['endurance_reserve']=round(r['max_health']*.18)
     path.upkeep(f)
     return f,choice
 
 
 def choose_action(p,r,f,side,rng):
     """Intent depends on saved circumstances, not on the player's current draft."""
+    boss_intent=__import__('combat_boss').intent(p,f)
+    if boss_intent:
+        ident='boss:richter:'+boss_intent
+        action=moves.selection(p,ident)
+        return dict(move_id=ident if moves.can_pay(r,action) else 'utility:recover',amp_id=None,target='opponent')
+    if r.get('channel') and r['energy']<4: r['channel']=''; r['tranquility']=False
+    if (states.trait(p,'Shinigami Protocol') and r.get('protocol_ready',0)>=4 and not r.get('protocol_used')
+            and not r.get('protocol_locked') and r['stamina']<55):
+        return dict(move_id='utility:recover',amp_id=None,target='opponent')
     if r['stamina']<15: return dict(move_id='utility:recover',amp_id=None,target='opponent')
-    unique=[a for a in moves.actions(p) if a['kind'] in ('unique','signature')]
+    unique=[a for a in moves.actions(p) if a['kind'] in ('unique','signature','equipment')]
     martial=[a for a in moves.actions(p) if a['kind']=='martial']
     # Include counters and positioning, but maintain offensive initiative most turns.
     pool=unique if unique and f['turn']%3!=1 else martial
+    if r.get('protocol_left'): pool=moves.actions(p)
     if not pool: pool=martial or moves.UTILITIES[:1]
     affordable=[]
     for a in pool:
-        move=moves.selection(p,a['id'])
+        move=states.prepare_action(p,r,moves.selection(p,a['id']))
         if moves.can_pay(r,move): affordable.append(move)
     if not affordable:
-        affordable=[moves.selection(p,a['id']) for a in martial if moves.can_pay(r,moves.selection(p,a['id']))]
+        affordable=[states.prepare_action(p,r,moves.selection(p,a['id'])) for a in martial
+                    if moves.can_pay(r,states.prepare_action(p,r,moves.selection(p,a['id'])))]
     if not affordable: return dict(move_id='utility:recover',amp_id=None,target='opponent')
     def weight(a):
         n=3 if a['role'] in ('attack','break','combo','throw') else 1
+        identity=p.get('combat_id','')
+        if identity in ('takeo','martos','thirteen','daniel') and a['role'] in ('break','control','combo'): n+=3
+        if identity in ('crow','camila','neo','sylvanis') and r.get('observations') and a['role']=='counter': n+=3
+        if identity in ('minsu','mavis','elias') and 'speed' in a['tags']: n+=3
+        if identity in ('gordon','valentina') and a['range']>=3: n+=3
+        if identity=='april' and a['role'] in ('setup','defence','mobility'): n+=5
         if r['health']<r['max_health']*.35 and a['role'] in ('defence','counter'): n+=2
         if r.get('stored',0)>15 and 'stored' in a['tags']: n+=4
         if r.get('momentum',0)>1 and 'momentum' in a['tags']: n+=2
         return n*(.5+p['arts'].get(a['art'],p['stats']['martial_skill'])/100)
-    move=rng.choices(affordable,weights=[weight(a) for a in affordable])[0]
+    if r.get('protocol_left'):
+        other='enemy' if side=='player' else 'player'
+        distance=abs(f['arena']['positions'][side]-f['arena']['positions'][other])
+        def score(a):
+            roles=r.get('observed_roles',{})
+            attack_rate=sum(roles.get(role,0) for role in ('attack','combo','break','throw','control'))/max(1,sum(roles.values()))
+            force=raw_damage(p,a,r,f,side)
+            pressure=r.get('observed_pressure',force)
+            if a['role']=='counter':
+                value=min(force*2,pressure*1.5)*.45*attack_rate+force*.12
+            elif a['role'] in ('attack','combo','break','throw','control'):
+                value=force*.70*(.65 if r.get('last_observed_role')=='counter' else 1)
+                if a['range']+2<distance: value*=.2
+            elif a['role']=='recovery':
+                value=min(25,100-r['stamina'])*1.1+min(15,r['max_energy']-r['energy'])*.1-pressure*.5*attack_rate
+            elif a['role']=='defence': value=pressure*.45*attack_rate+min(5,100-r['stamina'])
+            else: value=force*.2
+            reserve_pressure=max(.15,(r['protocol_left']*12-r['stamina'])*.1)
+            return value-a['stamina']*reserve_pressure-a['mana']*.12
+        move=max(affordable,key=score)
+    else:
+        move=rng.choices(affordable,weights=[weight(a) for a in affordable])[0]
     amp=None
-    options=[a for a in moves.amps(p,move) if moves.can_pay(r,moves.selection(p,move['id'],a['id']))]
-    if options and f['turn']%4!=3: amp=rng.choice(options)['id']
+    options=[a for a in moves.amps(p,move) if moves.can_pay(r,states.prepare_action(p,r,moves.selection(p,move['id'],a['id'])))]
+    if options and r.get('protocol_left'):
+        best=max(options,key=lambda a:score(states.prepare_action(p,r,moves.selection(p,move['id'],a['id']))))
+        if score(states.prepare_action(p,r,moves.selection(p,move['id'],best['id'])))>score(move): amp=best['id']
+    elif options and f['turn']%4!=3: amp=rng.choice(options)['id']
     target='opponent'
     other='enemy' if side=='player' else 'player'
     cover=f[other].get('cover')
@@ -79,14 +134,28 @@ def opponent_plan(s):
     rng=random.Random(f"{f['seed']}:{f['turn']}:catalogue")
     selected=choose_action(f['opponent_profile'],f['enemy'],f,'enemy',rng)
     move=moves.selection(f['opponent_profile'],selected['move_id'],selected['amp_id'])
-    return dict(**selected,activate_form=choice,name=move['name'],role=move['role'],
+    original=s['combat']['active']['enemy']
+    return dict(**selected,activate_protocol=bool(f['enemy']['protocol_left'] and not original.get('protocol_left')),
+                channel=f['enemy']['channel'],activate_endurance=bool(f['enemy']['misanthropy_used'] and not original.get('misanthropy_used')),
+                activate_form=choice,name=move['name'],role=move['role'],
                 amplification=(move.get('amplification') or {}).get('name',''),kind=move['kind'])
 
 
 def describe_plan(s):
     plan=opponent_plan(s); f=s['combat']['active']
     prefix=('Preparing '+path.form_spec(f['opponent_profile'],plan['activate_form'])['name']+' · ') if plan['activate_form'] else ''
-    return prefix+plan['name']+(' + '+plan['amplification'] if plan['amplification'] else '')+' · '+plan['role']
+    if plan.get('activate_protocol'): prefix+='Preparing Shinigami Protocol · '
+    if plan.get('activate_endurance'): prefix+='Preparing Misanthropy · '
+    if plan.get('channel'): prefix+=plan['channel']+' · '
+    assistance=s.get('combat',{}).get('assistance','Standard')
+    if assistance=='Minimal': return 'Committed '+plan['role']+' intent'
+    text=prefix+plan['name']+(' + '+plan['amplification'] if plan['amplification'] else '')+' · '+plan['role']
+    if assistance=='Guided':
+        text+=' · '+{'counter':'Bait the counter or reposition.', 'recovery':'Recovery leaves an opening.',
+                    'attack':'Consider guard, cover, distance or an in-range counter.',
+                    'break':'Committed force can be evaded; ordinary guard is less effective.',
+                    'setup':'An opening is being prepared; pressure or change position.'}.get(plan['role'],'Check range and resources before committing.')
+    return text
 
 
 def request(s,move_id,amp_id=None,target='opponent'):
@@ -126,13 +195,14 @@ def displace_object(f,obj,side,record):
 
 def terrain_force(p,m,damage):
     # Awakened strength is present in ordinary attacks, not reserved for masters.
-    power=p['stats']['awakened_power'] if p['awakened'] else 0
+    power=p['stats']['awakened_power'] if p['awakened'] or p.get('guard_kind') in ('robotic','cyborg') else 0
     return (damage+power*1.7)*m['force']*(1.4 if 'breach' in m['tags'] else 1)
 
 
 def movement(f,side,p,m,target_pos,retreat=False):
     arena=f['arena']; r=f[side]; old=arena['positions'][side]
-    steps=1+(p['stats']['awakened_power']//35 if p['awakened'] else 0)+('speed' in m['tags'])
+    steps=1+(p['stats']['awakened_power']//35 if p['awakened'] or p.get('guard_kind') in ('robotic','cyborg') else 0)+('speed' in m['tags'])
+    if r.get('protocol_left'): steps+=1
     if r['restrained']: steps=max(0,steps-2)
     if old in arena['rubble'] and 'speed' not in m['tags'] and steps: steps=max(1,steps-1)
     for obj in arena['objects']:
@@ -153,21 +223,35 @@ def pay(r,m):
 
 def raw_damage(p,m,r,f,side):
     a=p['stats']; art=p['arts'].get(m['art'],a['martial_skill'])
-    power=a['awakened_power'] if p['awakened'] else 0
+    power=a['awakened_power'] if p['awakened'] or p.get('guard_kind') in ('robotic','cyborg') else 0
     value=(8+power*.52+(a['martial_skill']+art)*.065)*m['force']
     if m['mana']: value*=1.12+a['trait_refinement']*.001
     tags=m['tags']
     if 'momentum' in tags: value*=1+r.get('momentum',0)*.1
+    value*=1+r.get('war_momentum',0)*.06
+    if r.get('protocol_left'): value*=1.35
+    if states.trait(p,'True Sight'): value*=1.08
     if 'heat' in tags: value+=r.get('heat',0)*.6
     if 'stored' in tags: value+=min(65,r.get('stored',0)*.6)
     if (p.get('trait') or {}).get('effect')=='rage' and m['mana']: value*=1+(1-r['health']/r['max_health'])*.45
     form=active_form(f,side)
     if form: value*=form['damage']*(1.1 if form['expression']=='offence' else 1)
-    return value
+    if f.get('kind')=='spar': value*=.55
+    # Exchanges must leave room for observation, finite resources and four-exchange states.
+    return value*expression(p)[0]*.60
 
 
 def hurt(f,side,amount,record):
-    r=f[side]; actual=min(r['health'],max(0,round(amount)))
+    r=f[side]; incoming=max(0,round(amount)); actual=min(r['health'],incoming)
+    if r.get('misanthropy') and incoming>=r['health']:
+        reserve=max(0,r.get('endurance_reserve',0)-r.get('endurance_debt',0))
+        required=incoming-r['health']+1
+        if reserve>=required:
+            r['endurance_debt']=r.get('endurance_debt',0)+required
+            record['endurance_debt']=record.get('endurance_debt',0)+required
+            actual=max(0,r['health']-1)
+        else:
+            r['misanthropy']=False
     r['health']-=actual; r['stored']=min(120,r['stored']+actual)
     f['score'][0 if side=='enemy' else 1]+=actual
     record['damage']+=actual
@@ -191,9 +275,17 @@ def attack(f,side,p,q,m,defence,rng,record,counter_record=None):
     if 'adapt' in tags: chance+=min(.16,f['turn']*.025)
     if 'conceal' in tags and 'precision' not in dtags: chance+=.08
     if 'evade' in dtags: chance-=.16
+    # Perception helps only when physical response can keep up.
+    response=(b['awakened_power']+b['martial_skill']*.5)*expression(q)[0]
+    incoming_force=(a['awakened_power']+a['martial_skill']*.5)*expression(p)[0]
+    feasible=response>=incoming_force*.55
+    if t.get('protocol_left') and feasible: chance-=.15+min(.12,t.get('observations',{}).get(m['id'],0)*.03)
+    if defence.get('instant_reaction') and feasible: chance-=.12
+    if states.trait(q,'True Sight') and feasible: chance-=.08
+    if states.trait(q,'Analysis') and t.get('observations',{}).get(m['id']): chance-=.07
     if 'conceal' in dtags and 'precision' not in tags: chance-=.1
     if defence['role']=='defence': chance-=.1
-    chance+=r.get('focus',0)*.04
+    chance+=r.get('focus',0)*.04+expression(p)[3]
     if r.get('staggered'): chance-=.13
     if arena['positions'][side] in arena['rubble'] and 'stability' not in tags: chance-=.06
     if active_form(f,side): chance+=active_form(f,side)['accuracy']
@@ -219,13 +311,20 @@ def attack(f,side,p,q,m,defence,rng,record,counter_record=None):
             elif roll<clash: multiplier=.5; counter_record['outcome']='partial counter'
             else: counter_record['outcome']='counter missed'
             if multiplier<1:
-                returned=raw*(.85 if multiplier==0 else .4)+raw_damage(q,defence,t,f,other)*.3
+                capacity=raw_damage(q,defence,t,f,other)
+                returned=min(capacity*2,raw*(.85 if multiplier==0 else .4)+capacity*.3)
                 hurt(f,side,returned*(1-a['awakened_power']*.003),counter_record)
                 counter_record['hits']=1
                 if 'knockback' in dtags: arena['positions'][side]=max(0,min(6,arena['positions'][side]+(-1 if side=='player' else 1)))
         else: counter_record['outcome']='counter out of range'
     if r['health']<=0 or multiplier==0: record['outcome']='countered'; return
-    damage_per=raw/m['hits']*(1-b['awakened_power']*.0035)*multiplier
+    soul=m.get('soul_fraction',0) if q['awakened'] or not q.get('guard_kind')=='robotic' else 0
+    # Soul injury partially avoids physical reinforcement; cover and guard still apply.
+    damage_per=raw/m['hits']*(1-b['awakened_power']*.0035*(1-soul))*multiplier
+    if t.get('protocol_left') and feasible:
+        damage_per*=.60
+        record['reactive_defence']='Shinigami partial block after feasible response'
+    if q.get('boss')=='richter' and defence['role']=='recovery': damage_per*=1.3
     if defence['role']=='defence' or 'guard' in dtags: damage_per*=.55 if 'breach' not in tags else .8
     defending=active_form(f,other)
     if defending: damage_per*=defending['mitigation']*(.85 if defending['expression']=='defence' else 1)
@@ -239,12 +338,16 @@ def attack(f,side,p,q,m,defence,rng,record,counter_record=None):
         if cover and cover['integrity']>0:
             damage_object(f,cover,terrain_force(p,m,raw)/m['hits'],record['terrain'])
             portion*=.65 if 'breach' in tags else .25
-        hurt(f,other,portion,record)
+        dealt=hurt(f,other,portion,record)
+        if soul:
+            wound=round(dealt*soul); t['soul_damage']+=wound
+            record['soul_damage']=record.get('soul_damage',0)+wound
     record['outcome']='landed' if record['hits']==m['hits'] else 'partial' if record['hits'] else 'missed'
     if record['hits']:
         if 'mark' in tags: t['marks']=min(3,t['marks']+1)
-        if 'stagger' in tags and 'stability' not in dtags: t['staggered']=2; t['momentum']=0
-        if 'restrain' in tags or m['role']=='control': t['restrained']=2; t['momentum']=0
+        if not t.get('control_immunity'):
+            if 'stagger' in tags and 'stability' not in dtags: t['staggered']=2; t['momentum']=0; t['control_immunity']=3
+            if 'restrain' in tags or m['role']=='control': t['restrained']=2; t['momentum']=0; t['control_immunity']=3
         if 'momentum' in tags: r['momentum']=min(5,r['momentum']+1)
         if 'heat' in tags: r['heat']=min(40,r['heat']+8)
         if 'collect' in dtags: t['stored']=min(120,t['stored']+round(record['damage']*.5))
@@ -254,7 +357,7 @@ def attack(f,side,p,q,m,defence,rng,record,counter_record=None):
             collision=next((o for o in arena['objects'] if o['integrity']>0 and min(old,arena['positions'][other])<=o['position']<=max(old,arena['positions'][other]) and o['material']!='ground'),None)
             if collision:
                 damage_object(f,collision,terrain_force(p,m,raw),record['terrain'])
-                hurt(f,other,raw*.15,record)
+                hurt(f,other,raw*.15*(.6 if t.get('protocol_left') and feasible else 1),record)
         if ('area' in tags or m['role']=='throw') and p['awakened']:
             ground=object_at(f,'ground'); damage_object(f,ground,terrain_force(p,m,raw)*.7,record['terrain'])
         if 'ice' in tags or 'heat' in tags:
@@ -282,7 +385,7 @@ def form_action(f,side,p,action):
 def utility(f,side,p,m,record):
     other='enemy' if side=='player' else 'player'; r=f[side]; a=f['arena']; tags=m['tags']
     if m['role']=='recovery':
-        r['stamina']=min(100,r['stamina']+25); r['energy']=min(r['max_energy'],r['energy']+15)
+        r['stamina']=min(100,r['stamina']+(12 if r.get('protocol_strain') else 25)); r['energy']=min(r['max_energy'],r['energy']+max(3,15-r.get('soul_damage',0)//10))
         r['momentum']=0; r['heat']=max(0,r['heat']-10); record['outcome']='recovered'; return
     if m['role']=='mobility':
         movement(f,side,p,m,a['positions'][other],retreat='retreat' in tags or 'evade' in tags)
@@ -311,7 +414,7 @@ def utility(f,side,p,m,record):
             else: record['outcome']='out of range'
         else: r['focus']=min(3,r['focus']+2); record['outcome']='prepared an opening'
         return
-    r['stamina']=min(100,r['stamina']+5); record['outcome']='guarded'
+    r['stamina']=min(100,r['stamina']+(2 if r.get('protocol_strain') else 5)); record['outcome']='guarded'
 
 
 def fallback(records):
@@ -338,14 +441,23 @@ def resolve(s,chosen):
     if not f or f['status']!='active' or (chosen.get('fight_id'),chosen.get('turn'))!=(f['id'],f['turn']):
         raise ValueError('This selection belongs to an old exchange.')
     ensure_arena(f); p=profile(s,s['player']); q=f['opponent_profile']
-    m=moves.selection(p,chosen['move_id'],chosen.get('amp_id'))
+    m=states.prepare_action(p,f['player'],moves.selection(p,chosen['move_id'],chosen.get('amp_id')))
     target=chosen.get('target','opponent'); obj=object_at(f,target)
     if target!='opponent' and not obj: raise ValueError('Choose an arena object.')
     if 'cover' in m['tags'] and (not obj or not obj['cover'] or obj['integrity']<=0): raise ValueError('Choose an intact cover object.')
     projected,choice=preview(s)
     if not moves.can_pay(projected['player'],m): raise ValueError('Insufficient stamina, mana or blood after form upkeep. Recover or choose another move.')
-    plan=opponent_plan(s); enemy=moves.selection(q,plan['move_id'],plan['amp_id'])
+    plan=opponent_plan(s); enemy=states.prepare_action(q,projected['enemy'],moves.selection(q,plan['move_id'],plan['amp_id']))
+    if not moves.can_pay(projected['enemy'],enemy):
+        enemy=states.prepare_action(q,projected['enemy'],moves.selection(q,'utility:recover'))
+    if projected['enemy']['protocol_left'] and not f['enemy']['protocol_left']:
+        states.activate_protocol(s,'enemy')
+    if projected['enemy']['misanthropy_used'] and not f['enemy']['misanthropy_used']:
+        states.activate_endurance(s,'enemy')
     if choice: combat.activate_form(s,'enemy',choice)
+    if projected['enemy']['channel']!=f['enemy']['channel']:
+        if projected['enemy']['channel']: f['enemy']['energy']-=8
+        f['enemy']['channel']=projected['enemy']['channel']; f['enemy']['tranquility']=projected['enemy']['tranquility']
     path.upkeep(f)
     m=form_action(f,'player',p,m); enemy=form_action(f,'enemy',q,enemy)
     rng=random.Random(f"{f['seed']}:{f['turn']}:resolve")
@@ -353,12 +465,20 @@ def resolve(s,chosen):
     for side in ('player','enemy'):
         action=selected[side]; pay(f[side],action)
         records[side]=dict(side=side,name=profiles[side]['name'],move=action['name'],move_id=action['id'],
-            description=action['description'],aspects=action['aspects'],role=action['role'],
+            description=action['description'],aspects=action['aspects'],role=action['role'],protocol_active=bool(f[side]['protocol_left']),
             amplification=(action.get('amplification') or {}).get('name',''),target=target if side=='player' else plan['target'],
             hits=0,beats=action['hits'],damage=0,terrain=[],outcome='waiting',mana=action['mana'],stamina=action['stamina'])
         if action['role'] in ('defence','mobility','setup','recovery'): utility(f,side,profiles[side],action,records[side])
     # Reaction stances are committed before initiative; each counter triggers at most once.
-    initiative={side:profiles[side]['stats']['fight_iq']+rng.randrange(40)+(15 if 'speed' in selected[side]['tags'] else 0) for side in selected}
+    initiative={}
+    for side in selected:
+        actor=profiles[side]; action=selected[side]
+        distance=abs(f['arena']['positions']['player']-f['arena']['positions']['enemy'])
+        # Tranquility removes reaction latency, not the travel time of an attack.
+        latency=0 if action.get('instant_reaction') else max(35,180-actor['stats']['fight_iq'])
+        travel=max(0,distance-action['range'])*100/(1+actor['stats']['awakened_power']/50+('speed' in action['tags']))
+        records[side]['reaction_latency_ms']=latency; records[side]['approach_time_ms']=round(travel)
+        initiative[side]=actor['stats']['fight_iq']+expression(actor)[2]+rng.randrange(40)-latency*.2-travel*.2+(15 if 'speed' in action['tags'] else 0)
     order=sorted(selected,key=lambda side:initiative[side],reverse=True)
     for side in order:
         other='enemy' if side=='player' else 'player'; action=selected[side]
@@ -378,15 +498,33 @@ def resolve(s,chosen):
                     source=records[hazard['owner']]; hurt(f,side,4,source)
                     source['terrain'].append('the hot ground scorches the opposing footing')
     f['arena']['hazards']=[h for h in f['arena']['hazards'] if h['expires']>f['turn']]
+    import combat_identity
+    if not s.get('creator_sandbox'):
+        combat_identity.observe(s,s['player'],f['opponent'],records['enemy']['move_id'])
+        combat_identity.observe(s,f['opponent'],s['player'],records['player']['move_id'])
+    if records['player']['damage']>0 or (selected['player']['role'] in ('defence','counter') and abs(f['arena']['positions']['player']-f['arena']['positions']['enemy'])<=2):
+        f['delay_progress']=f.get('delay_progress',0)+1
+    states.end_exchange(f,profiles,selected,records)
     record=dict(id=f['id']+':'+str(f['turn']),turn=f['turn'],records=[records[x] for x in order],
                 narration='',log_index=len(f['log']))
+    import organisation_guards
+    appearance=organisation_guards.appearance_for_profile(q)
+    if appearance:
+        record['opponent_appearance']=dict(name=q['name'],description=appearance,
+            presentation=organisation_guards.presentation_for(q.get('portrait') or str(q.get('combat_id','')).removeprefix('guard:')))
     record['narration']=fallback(record['records'])
     record['summary']=' · '.join(r['name']+f": {r['damage']} damage, {r['hits']}/{r['beats']} hits, {r['stamina']} stamina / {r['mana']} mana" for r in record['records'])
     f['log'].append(record['narration']+'\n'+record['summary']); f['exchanges'].append(record)
+    __import__('campaign_prose').resolved_reaction(s,f)
     f['enhanced_rules']=True
     import interpol
-    interpol.support_turn(s,f,rng)
-    combat.complete_exchange(s)
+    if s.get('creator_sandbox'):
+        f['turn']+=1; f['elapsed']+=6
+        if min(f['player']['health'],f['enemy']['health'])<=0 or f['turn']>=40:
+            f['status']='complete'; f['result']='Practice finished'
+    else:
+        interpol.support_turn(s,f,rng)
+        combat.complete_exchange(s)
     return copy.deepcopy(record)
 
 
@@ -397,8 +535,10 @@ def narrate(record):
     result=combat.ask_ai('Write 2–3 concise narrative sentences, 35–65 words, for this RESOLVED fictional superhuman combat exchange. '
         'Use the named moves, actual hits/misses/counters and destroyed terrain exactly as recorded. '
         'Describe action and outcome together in past/present narrative prose. No advice, rules lecture, probability, new powers or future actions. '
+        'Follow supplied opponent appearance and presentation instructions; equipment appearance never changes the recorded outcome. '
         'Never claim an unrecorded hit or destroyed object. Return the supplied outcome token unchanged. Data: '+
-        json.dumps(dict(outcome_token=digest,resolution=record['records']),ensure_ascii=False),
+        json.dumps(dict(outcome_token=digest,resolution=record['records'],
+                        opponent_appearance=record.get('opponent_appearance')),ensure_ascii=False),
         combat.schema({'outcome_token':{'type':'string'},'narration':{'type':'string'}}))
     text=result.get('narration','')
     if (result.get('outcome_token')!=digest or not isinstance(text,str) or not 15<=len(text.split())<=65 or len(text)>600
@@ -423,31 +563,72 @@ def support_turn(s,f,rng):
     if min(r['health'],f['enemy']['health'],f['player']['health'])<=0: return
     moves.initialise(p,f['ally'])
     arena=copy.deepcopy(f['arena'])
-    arena['positions']['player']=f['arena']['positions']['player']
+    arena['positions']['player']=f['arena']['positions'].get('ally',f['arena']['positions']['player'])
     scene=dict(f,player=r,arena=arena,entity_ids={'player':f['ally']})
     ensure_arena(scene)
+    # Run the same NPC activation/upkeep policy on a mirrored snapshot. Only
+    # commit the partner resources: the main opponent already paid its upkeep.
+    mirrored=dict(scene,opponent=f['ally'],opponent_profile=p,player=copy.deepcopy(f['enemy']),enemy=r)
+    context=dict(s,combat=dict(s['combat'],active=mirrored))
+    projected,_=preview(context)
+    if projected['enemy']['protocol_used'] and not r['protocol_used']:
+        s['combat'].setdefault('protocol_spent',{})[f['ally']]=dict(recover_at=s['world']['minute']+60)
+        f['log'].append(p['name']+' activates Shinigami Protocol; 20 stamina, four exchanges.')
+    if projected['enemy']['misanthropy_used'] and not r['misanthropy_used']:
+        f['log'].append(p['name']+' activates Misanthropy; 18 mana, four exchanges, no healing.')
+    if projected['enemy']['form_used'] and not r['form_used']:
+        spec=projected['enemy'].get('active_form') or {}
+        if spec.get('name')=='Conduit State':
+            s['combat'].setdefault('form_cooldowns',{})[f['ally']]=s['world']['minute']+1440
+        f['log'].append(p['name']+' activates '+spec.get('name','an earned form')+'.')
+    r.update(projected['enemy'])
     chosen=choose_action(p,r,scene,'player',rng)
-    ally=moves.selection(p,chosen['move_id'],chosen['amp_id'])
+    if f.get('objective')=='Rescue ally':
+        chosen=dict(move_id='utility:guard',amp_id=None,target='opponent')
+    if p.get('combat_id')=='april' and r['stamina']>=7 and f.get('turn',0)>=2:
+        chosen=dict(move_id='utility:guard',amp_id=None,target='opponent')
+        r['stamina']-=7
+        f['player']['focus']=min(3,f['player'].get('focus',0)+1)
+        f['log'].append('April uses observed patterns to call an opening; 7 stamina spent. Her position remains vulnerable to retaliation.')
+    ally=states.prepare_action(p,r,moves.selection(p,chosen['move_id'],chosen['amp_id']))
+    if not moves.can_pay(r,ally):
+        ally=states.prepare_action(p,r,moves.selection(p,'utility:recover'))
+    ally=form_action(scene,'player',p,ally)
     retaliation=f['turn']%2==0
     reply=choose_action(q,f['enemy'],scene,'enemy',rng) if retaliation else dict(move_id='utility:guard',amp_id=None,target='opponent')
-    enemy=form_action(scene,'enemy',q,moves.selection(q,reply['move_id'],reply['amp_id']))
+    enemy=states.prepare_action(q,f['enemy'],moves.selection(q,reply['move_id'],reply['amp_id']))
+    if not moves.can_pay(f['enemy'],enemy):
+        enemy=states.prepare_action(q,f['enemy'],moves.selection(q,'utility:recover'))
+    enemy=form_action(scene,'enemy',q,enemy)
     actions={'player':ally,'enemy':enemy}; people={'player':p,'enemy':q}; records={}
     for side,action in actions.items():
-        if side=='enemy' and not retaliation: continue
-        pay(scene[side],action)
+        if side!='enemy' or retaliation: pay(scene[side],action)
         records[side]=dict(side=side,name=people[side]['name'],move=action['name'],amplification=(action.get('amplification') or {}).get('name',''),
+            move_id=action['id'],role=action['role'],protocol_active=bool(scene[side]['protocol_left']),
             target=chosen['target'] if side=='player' else reply['target'],damage=0,hits=0,beats=action['hits'],terrain=[],outcome='waiting')
-        if action['role'] in ('defence','mobility','setup','recovery'): utility(scene,side,people[side],action,records[side])
+        if (side!='enemy' or retaliation) and action['role'] in ('defence','mobility','setup','recovery'): utility(scene,side,people[side],action,records[side])
     for side in records:
+        if side=='enemy' and not retaliation: continue
         other='enemy' if side=='player' else 'player'; action=actions[side]
         if min(scene[side]['health'],scene[other]['health'])<=0: records[side]['outcome']='interrupted'; continue
         if action['role'] in ('attack','combo','break','throw','control'):
             attack(scene,side,people[side],people[other],action,actions[other],rng,records[side],records.get(other) if actions[other]['role']=='counter' else None)
     f['arena']['objects']=arena['objects']; f['arena']['rubble']=arena['rubble']; f['arena']['hazards']=arena['hazards']
     f['arena']['positions']['enemy']=arena['positions']['enemy']
+    f['arena']['positions']['ally']=arena['positions']['player']
+    if f.get('objective')=='Rescue ally' and not r.get('restrained'):
+        # A living escort follows one space per exchange, never teleports.
+        here=f['arena']['positions']['ally']; destination=f['arena']['positions']['player']
+        f['arena']['positions']['ally']=here+(1 if destination>here else -1 if destination<here else 0)
     cover=object_at(f,f['player'].get('cover'))
     if cover and cover['integrity']<=0: f['player']['cover']=None
+    states.end_exchange(scene,people,actions,records,sides=('player',))
+    import combat_identity
+    combat_identity.observe(s,s['player'],f['ally'],records['player']['move_id'])
+    combat_identity.observe(s,f['opponent'],f['ally'],records['player']['move_id'])
+    f['score'][0]+=records['player']['damage']; f['score'][1]+=records['enemy']['damage']
     for key in ('restrained','staggered','focus'): r[key]=max(0,r.get(key,0)-1)
+    f.setdefault('support_exchanges',[]).append(dict(turn=f['turn'],ally=f['ally'],records=copy.deepcopy(list(records.values()))))
     f['log'].append(fallback(list(records.values()))+'\nField partner exchange · '+str(records['player']['damage'])+' damage dealt.')
     if r['health']<=0:
         s['combat']['recovery'][f['ally']]=s['world']['minute']+1440

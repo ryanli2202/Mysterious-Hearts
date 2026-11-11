@@ -189,7 +189,7 @@ class Screen:
             old.destroy()
         try:
             with Image.open(path) as source:
-                photo = ImageTk.PhotoImage(ImageOps.contain(source.convert('RGB'), (310, 330)), master=self.body)
+                photo = ImageTk.PhotoImage(ImageOps.contain(source.convert('RGBA'), (310, 330)), master=self.body)
             label = ttk.Label(self.body, image=photo)
             label.image = photo
             label.pack(pady=8)

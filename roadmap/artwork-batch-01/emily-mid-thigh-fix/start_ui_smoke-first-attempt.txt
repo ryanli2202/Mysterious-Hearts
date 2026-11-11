@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\ryanl\Documents\Mysterious Hearts\tests\start_ui_smoke.py", line 33, in <module>
+    assert widget.winfo_ismapped()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

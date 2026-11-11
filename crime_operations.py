@@ -52,6 +52,7 @@ def authority(who, key):
 
 
 def permitted(s, who, key):
+    if who==s['player'] and __import__('organisation_guards').breach(s,key): return True
     if who==s['player'] and sites.SITES[key]['faction'].lower() in s.get('combat',{}).get('expelled',[]): return False
     import thirteen
     if key=='site_02' and (who=='thirteen' or who==s['player'] and thirteen.number_allowed(s)): return True
@@ -84,6 +85,10 @@ def access_text(s,key):
 
 
 def can_enter(s,who,destination):
+    import organisation_guards as security
+    key,area=ROOMS.get(destination,(None,None))
+    actor=s['world']['cast'].get(who,{})
+    if key and who==s['player'] and site_of(actor.get('location'))==key and not actor.get('journey') and security.slots(s,key) and not security.remaining(s,key): return True
     if destination not in ROOMS: return True
     key,area=ROOMS[destination]
     actor=s['world']['cast'].get(who,{})
@@ -222,7 +227,7 @@ def reconcile(s):
         location=actor.get('location')
         if location in ROOMS and ROOMS[location][1]=='briefing':
             key=ROOMS[location][0]
-            if not permitted(s,who,key):
+            if not permitted(s,who,key) and not (who==s['player'] and __import__('organisation_guards').slots(s,key) and not __import__('organisation_guards').remaining(s,key)):
                 actor.update(location=key+'_reception',journey=None,activity='Clearance expired · reception')
                 if who==s['player']: world['location']=actor['location']
 

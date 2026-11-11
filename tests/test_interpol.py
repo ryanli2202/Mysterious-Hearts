@@ -121,6 +121,8 @@ class InterpolTests(unittest.TestCase):
     def test_operation_support_uses_real_trait_resources(self):
         s=core.fresh('fox');locate(s,'interpol_hq','gordon');law.begin(s,'blackhaven')
         law.travel_objective(s);law.advance(s);law.advance(s);law.advance(s)
+        while combat.active(s) and combat.active(s)['kind']=='guard':
+            combat.finish(s,'Victory — guard defeated');combat.close(s);law.advance(s)
         f=combat.active(s);self.assertEqual(f['ally'],'gordon')
         before=f['ally_resources']['energy']
         plan,_=combat.tactics.prepare(s)
@@ -142,12 +144,13 @@ class InterpolTests(unittest.TestCase):
             locate(s,'interpol_hq','gordon',minute=max(s['world']['minute'],8*60))
             law.begin(s,key)
             while law.read(s)['active']:
+                if law.regroup_delay(s):law.regroup(s)
                 step=law.objective(s)
                 if s['world']['location']!=step['venue']:law.travel_objective(s)
                 law.advance(s)
                 if step['kind']=='combat':
                     f=combat.active(s)
-                    if step.get('opponent'):
+                    if step.get('opponent') and f['kind']=='interpol':
                         self.assertTrue(law.here(s,step['opponent']))
                         self.assertEqual(f['opponent_profile']['name'],step['enemy'])
                     combat.finish(s,'Victory — secured objective.')
@@ -159,7 +162,10 @@ class InterpolTests(unittest.TestCase):
                 self.assertTrue(law.known_identity(s,'gordon',spec['reveal']))
                 self.assertFalse(law.known_identity(s,'emily',spec['reveal']))
         self.assertTrue(four_aces.knows_identities(s,'fox'))
-        self.assertEqual(law.read(s)['custody']['crow']['location'],'interpol_containment')
+        self.assertNotIn('crow',law.read(s)['custody'])
+        self.assertEqual(law.read(s)['syndicate_outcome'],'ongoing resistance')
+        self.assertTrue(law.read(s)['files']['crow_operation']['crow_defeated_team'])
+        self.assertTrue(any(f['opponent']=='crow' and f['result'].startswith('Defeat') for f in s['combat']['history']))
         self.assertFalse(core.hidden.hq_access(s,'fox'))
         self.assertEqual(law.debt(s),0)
         self.assertEqual(len(law.read(s)['files']),9)

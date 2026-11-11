@@ -1,0 +1,25 @@
+[
+  {
+    "id": "amy-sleep",
+    "tool": "built-in image_gen",
+    "result": "No image produced; output moderation blocked, sexual category, HTTP 400",
+    "request_id": "bdbfb33f-ff92-4b47-be09-bc8bdb2e9b14",
+    "original_brief": "White lace bra and briefs matching the original outfit.",
+    "resolution": "User explicitly approved covered camisole-and-shorts or pyjama sleepwear in original colours. Use an opaque white camisole and loose shorts with restrained lace trim. This is a substantive covered costume change, not a retry of the blocked underwear design."
+  },
+  {
+    "id": "ivan-beach",
+    "tool": "built-in image_gen",
+    "result": "Output moderation rejected first attempt, HTTP 400 sexual category",
+    "request_id": "21c82f58-55e8-4e91-8ffa-5a75ce74cfbf",
+    "resolution": "User instructed retry original beach outfit. Identical request succeeded; original coral swim shorts retained."
+  },
+  {
+    "id": "minsu-sleep",
+    "tool": "built-in image_gen",
+    "result": "Output moderation rejected, HTTP 400 sexual category",
+    "request_id": "d88e0757-f179-40b5-b01d-73ad60e998ae",
+    "original_brief": "plain loose charcoal drawstring pyjama shorts, bare chest and arms, no tattoos; relaxed adult sleepwear catalogue pose with unchanged master physique",
+    "resolution": "Use user-authorized covered sleepwear in original charcoal colour: pyjama top and loose shorts."
+  }
+]

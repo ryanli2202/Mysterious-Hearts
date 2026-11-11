@@ -1,0 +1,14 @@
+{
+  "id": "emily-selection-mid-thigh",
+  "prompt": "Use case: identity-preserve / precise-object-edit. COMPOSITION-ONLY CORRECTION. The sole input is the current finished Emily portrait. It is framed TOO LOW and shows her knees. Deliver the SAME artwork, same face, same hair, same glasses, same clothes, same hands, same body pose and exact illustration style, with a TRUE MID-THIGH CROP. Crop the frame through the MIDDLE of the thighs, well ABOVE both knee shapes. No knee, kneecap, knee crease, calf or shin may appear. Preserve TWO visibly connected upper thighs under the skirt hem; leave just a short band of exposed upper thigh between hem and the bottom crop, about 70-110 pixels in the original reference scale. Do NOT remove the legs entirely and do NOT shorten or redesign the skirt. Simply move the camera closer uniformly, keeping full hairstyle and both shoulders/hands inside frame. Equivalent composition target in the existing 1024x1536 reference: crop approximately x=50 to974 and y=0 to1386, then fit uniformly to the final vertical 2:3 1024x1536 output; no stretching or changing anatomical proportions. Full head must remain visible with safe headroom. Do not recreate/redesign identity, outfit, jewellery, embroidery, hair, skin tone, expression or hands. Genuine transparent RGBA background around her silhouette, no scenery, halo, text, watermark. The final lower edge cuts both thighs at their midpoint: legs connected, KNEES COMPLETELY OUTSIDE FRAME.",
+  "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c4bb-5097-79c3-9260-13655e32323c/exec-4632fef8-4cb9-49dc-bc08-b62246909c32.png",
+  "input_images": [
+    {
+      "role": "composition edit target",
+      "path": "roadmap/artwork-batch-01/emily-mid-thigh-fix/before.png"
+    }
+  ],
+  "disposition": "installed",
+  "runtime_id": "emily-selection",
+  "tool": "built-in image_gen"
+}

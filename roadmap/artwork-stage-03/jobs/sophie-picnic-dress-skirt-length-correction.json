@@ -1,0 +1,8 @@
+{
+  "id": "sophie-picnic-dress",
+  "prompt": "Edit ONLY the lower skirt in this exact adult character portrait. Keep every part of face, hair, neck, bodice, arms, hands, waist, proportions and pose identical. The yellow daisy sundress is meant to be a longer picnic dress, not a mini. Extend the current gathered continuous yellow daisy skirt down across the small visible thigh strip to the very bottom picture edge. Continue its same folds, white daisy pattern and yellow cloth naturally. There must be NO finished lower hem visible and no bare thighs: the skirt continues beyond the picture crop. Do not zoom out, move the body or add any legs. Lower thighs, knees, lower legs and feet remain outside the frame. Same 1024x1536 RGBA transparent cutout, true alpha around silhouette and arm gaps, no backdrop, haze, glow, text or watermark. Change nothing else.",
+  "referenced_image_paths": [
+    "C:\\Users\\ryanl\\Documents\\Mysterious Hearts\\roadmap\\artwork-stage-03\\candidates\\sophie-picnic-dress.png"
+  ],
+  "transparent_background": true
+}

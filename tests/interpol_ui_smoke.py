@@ -14,6 +14,7 @@ import interpol_ui
 import combat
 import combat_ui
 import phone_theme
+from campaign_ui_helpers import finish_script
 
 
 def audit(w):
@@ -49,11 +50,14 @@ with patch.object(game.Game,'check'),patch.object(game.Game,'begin_incoming'),pa
         view.act(core.town.travel,'interpol_hq')
         s['world']['cast']['gordon'].update(location='interpol_hq',journey=None,activity='Receiving reports')
         view.act(law.begin,'blackhaven');view.act(law.travel_objective);view.act(law.advance)
+        finish_script(app);interpol_ui.open_in_person(app)
         shot('casework');audit(view)
-        view.act(law.advance);view.act(law.advance);app.update()
+        view.act(law.advance);finish_script(app);interpol_ui.open_in_person(app)
+        view.act(law.advance);finish_script(app);app.update()
         assert combat.active(s) and app.combat_view.winfo_viewable()
         shot('field-combat')
         combat.concede(s);combat.close(s);app.combat_view.place_forget()
+        interpol_ui.open_in_person(app)
         view.change('Law & fines');shot('law')
         s['world']['cast']['emily'].update(location=s['world']['location'],journey=None,activity='Walking')
         law.record_offence(s,'assault','emily',event_id='ui-smoke-assault')

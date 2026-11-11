@@ -67,7 +67,7 @@ ABILITY = ('Awakened Trait: Nanoengine. Takeo generates and controls nanomachine
     'limitless regeneration, omniscience or an automatic victory over every opponent. '
     'This is his current power, not an unlock or a hypothetical future awakening. It supersedes earlier '
     'guidance excluding Nanoengine or treating him as merely trained human strength.')
-BOUNDARY = ('His MBTI, exact age and birthday are unknown. Keep dealings nonromantic. He resides permanently '
+BOUNDARY = ('He is 42. His MBTI and birthday are unknown. Keep dealings nonromantic. He resides permanently '
     'inside Shinokami headquarters at Kestrel Operations Centre; he never joins outings or accepts summons elsewhere. '
     'His private number requires current Shinokami Regional commander rank or higher with sponsorship in good standing. '
     'Friendship, reputation alone, Syndicate rank and family ties grant no exception. His family and programme history '
@@ -77,13 +77,13 @@ BOUNDARY = ('His MBTI, exact age and birthday are unknown. Keep dealings nonroma
     'incidents are not automatically completed story events. Preserve the existing 211 cm appearance. '
     'His own Nanoengine does not give Neo implants or alter Neo’s established abilities. '
     'His expertise grants no knowledge of unseen player actions or rival secrets; reputation guarantees no victory.')
-CAST = dict(name='Takeo Mishima', role='antagonist', height=211, age='Unknown', mbti='Unknown',
+CAST = dict(name='Takeo Mishima', role='antagonist', height=211, age=42, mbti='Unknown',
     birthday='Unknown', hobbies=[], likes=['strength', 'domination'], dislikes=['weakness', 'mercy'],
     occupation='Supreme leader of the Shinokami', attraction=0, area=HQ, area_name='Shinokami headquarters',
     activity='Receiving command reports at headquarters', home='Shinokami headquarters',
     interior='A guarded headquarters command room with regional reports and a heavy briefing table.',
     personality=PERSONALITY, texting_style=VOICE, followup='State the result.', appearance=APPEARANCE)
-PROFILE = 'Takeo Mishima · The Human Siege Engine\n211 cm · MBTI: Unknown · Reputation: 100\nLikes: strength, domination\nDislikes: weakness, mercy\n' + PERSONALITY
+PROFILE = 'Takeo Mishima · The Human Siege Engine\n42 years · 211 cm · MBTI: Unknown · Reputation: 100\nLikes: strength, domination\nDislikes: weakness, mercy\n' + PERSONALITY
 
 def number_allowed(s):
     m = s.get('job_apps', {}).get('membership') or {}

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "tyler_home__father_bedroom",
+    "prompt": "Edit only the visible hall floor beyond the open bedroom door: remove the patterned rug so the hallway has continuous bare smooth timber flooring, matching the planned level hall. Keep this same comfortable father bedroom, normal bed, furniture, open wide door, warm dusk lighting, illustrated style and all framing. No people, text, medical equipment or new objects. Opaque 1536x1024 landscape.",
+    "reference_paths": [
+      "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c9d7-d510-72c0-8525-e3e66bf1b1bf\\exec-7779cfcb-9945-4012-aeaa-c6e9ca2f0fdc.png"
+    ],
+    "rejected_attempts": [
+      {
+        "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create father bedroom for Tyler's East Ward duplex. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: dark navy painted timber trim and cabinetry, warm brown timber floors and ceilings, brass globe sconces, muted plaster, burgundy and plaid domestic textiles, warm dusk and historic East Ward homes outside. Room brief: Separate comfortable adult bedroom for Tyler's co-resident father. A normal wooden bed toward one side with muted navy coverlet, roomy clear approach, armchair, accessible-height bedside table, wardrobe and warm reading lamp. Wide doorway with lever handle and smooth level timber floor. A home, with no hospital bed, medical machinery, diagnosis cues, person or new care routine. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+        "reference_paths": [
+          "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/tyler_home.png"
+        ],
+        "source_path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c9d7-d510-72c0-8525-e3e66bf1b1bf\\exec-7779cfcb-9945-4012-aeaa-c6e9ca2f0fdc.png",
+        "reason": "Visible hall rug conflicted with accepted clear level hall."
+      }
+    ]
+  },
+  {
+    "id": "tyler_home__accessible_bathroom",
+    "prompt": "Edit only bathroom accessibility/privacy fittings in this image: change the large window to softly translucent/frosted privacy glass, retaining its black grid and warm dusk glow without a clear exterior view. Replace the basin's two twist/cross taps with ONE easy lever mixer tap. Add a practical fold-up grab rail beside the toilet, without obstructing the wide central turning floor. Keep the existing flush roll-in shower, fold-down seat, shower rails, open knee space under basin, warm navy/timber domestic styling, perspective and all other fixtures. No people, text or medical machinery. Opaque 1536x1024 landscape.",
+    "reference_paths": [
+      "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c9d7-d510-72c0-8525-e3e66bf1b1bf\\exec-12057793-a72d-4018-beb0-a04ff41b2319.png"
+    ],
+    "rejected_attempts": [
+      {
+        "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create accessible bathroom for Tyler's East Ward duplex. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: dark navy painted timber trim and cabinetry, warm brown timber floors and ceilings, brass globe sconces, muted plaster, burgundy and plaid domestic textiles, warm dusk and historic East Ward homes outside. Room brief: A domestic accessible bathroom on the same level as the hall. Wide doorway with lever handle, completely flush wet-room entry, spacious roll-in shower with fold-down seat, unobtrusive grab rails at shower and toilet, wall-mounted basin with open knee space, lever taps. Clear turning area with slip-resistant warm-grey tile. Navy accents, warm brass-toned light. Correct continuous floor drainage; NO bath rim or step into shower. No people or medical apparatus. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+        "reference_paths": [
+          "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/tyler_home.png"
+        ],
+        "source_path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c9d7-d510-72c0-8525-e3e66bf1b1bf\\exec-12057793-a72d-4018-beb0-a04ff41b2319.png",
+        "reason": "Clear large bathroom window and twist taps needed privacy and lever correction."
+      }
+    ]
+  },
+  {
+    "id": "tyler_home__accessible_porch",
+    "prompt": "Edit only the entrance details in this same accessible porch illustration: remove the patterned doormat and leave smooth continuous wooden floor at the doorway; replace the round brass doorknob with an easy brass lever handle; make the doorway threshold visibly flush with the porch deck. Keep the broad clear porch and gently sloped ramp with its rails, seating placed at edges, navy trim, East Ward dusk exterior, architecture, lighting and illustrated style. No other changes, no people or words. Opaque 1536x1024 landscape.",
+    "reference_paths": [
+      "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c9d7-d510-72c0-8525-e3e66bf1b1bf\\exec-68040b8d-7bb5-4168-8fe3-0bea5d900b03.png"
+    ],
+    "rejected_attempts": [
+      {
+        "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create accessible porch for Tyler's East Ward duplex. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: dark navy painted timber trim and cabinetry, warm brown timber floors and ceilings, brass globe sconces, muted plaster, burgundy and plaid domestic textiles, warm dusk and historic East Ward homes outside. Room brief: EXTERIOR covered porch viewed from near the front doorway, continuous step-free threshold and broad clear timber floor. A gently sloping access ramp with continuous sturdy rails leads down toward the pavement, visibly replacing any stair-only access route. Bench and porch chair against wall, warm hanging lantern, navy front door and trim. East Ward homes and autumn trees at dusk. Keep dry clear passage, no snow or objects blocking ramp. Plausible accessible slope, not steep stairs. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+        "reference_paths": [
+          "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/tyler_home.png"
+        ],
+        "source_path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c9d7-d510-72c0-8525-e3e66bf1b1bf\\exec-68040b8d-7bb5-4168-8fe3-0bea5d900b03.png",
+        "reason": "Porch mat and round knob did not support the intended clear accessible entrance."
+      }
+    ]
+  }
+]

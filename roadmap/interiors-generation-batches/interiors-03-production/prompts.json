@@ -1,0 +1,67 @@
+{
+  "batch_id": "interiors-03",
+  "tool": "built-in image_gen",
+  "model": "Not exposed by built-in tool",
+  "requested_size": [
+    1536,
+    1024
+  ],
+  "prompts": [
+    {
+      "id": "rosa_home__entrance",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts. Create a distinct single room view, never a collage. Supplied image is an architectural/material and painterly illustration reference only; do not copy its composition. Rosa's market terrace: warm honey sandstone, dark stained timber, black arched window/door frames, brass lamps, muted burgundy and dusty rose fabric, homely plants and warm amber light against purple-blue dusk. The reference is an outdoor covered dining terrace, used for materials only; this requested scene is fully indoors unless explicitly courtyard. Room brief: Enclosed domestic entrance vestibule with ceiling, closed dark timber front door, brass latch, slim shoe bench and coat hooks. Inner arch leads toward the sitting room. Keep courtyard and dining table out of this view. Richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view with lower central foreground largely clear for live character overlays. Permanent furnishings only, empty of people, silhouettes and live animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No snow or rain indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/rosa_home.png"
+      ]
+    },
+    {
+      "id": "rosa_home__sitting_room",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts. Create a distinct single room view, never a collage. Supplied image is an architectural/material and painterly illustration reference only; do not copy its composition. Rosa's market terrace: warm honey sandstone, dark stained timber, black arched window/door frames, brass lamps, muted burgundy and dusty rose fabric, homely plants and warm amber light against purple-blue dusk. The reference is an outdoor covered dining terrace, used for materials only; this requested scene is fully indoors unless explicitly courtyard. Room brief: Enclosed sitting room with burgundy sofa and two modest timber chairs to the sides, small side table and reading lamp, bookcase, potted plant, black arched window. Separate doorway toward communal dining at rear and a door toward stair hall. Clear middle floor, no dining banquet. Richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view with lower central foreground largely clear for live character overlays. Permanent furnishings only, empty of people, silhouettes and live animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No snow or rain indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/rosa_home.png"
+      ]
+    },
+    {
+      "id": "rosa_home__kitchen",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts. Create a distinct single room view, never a collage. Supplied image is an architectural/material and painterly illustration reference only; do not copy its composition. Rosa's market terrace: warm honey sandstone, dark stained timber, black arched window/door frames, brass lamps, muted burgundy and dusty rose fabric, homely plants and warm amber light against purple-blue dusk. The reference is an outdoor covered dining terrace, used for materials only; this requested scene is fully indoors unless explicitly courtyard. Room brief: Enclosed domestic kitchen beyond the communal dining area. Dark green lower cabinetry, timber counter, sink and brass tap under an arched window, separate visible hob/oven with extractor properly above the hob, ceramic shelves and vegetable basket. Open doorway back toward dining, no commercial restaurant equipment. Richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view with lower central foreground largely clear for live character overlays. Permanent furnishings only, empty of people, silhouettes and live animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No snow or rain indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/rosa_home.png"
+      ]
+    },
+    {
+      "id": "rosa_home__stairway",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts. Create a distinct single room view, never a collage. Supplied image is an architectural/material and painterly illustration reference only; do not copy its composition. Rosa's market terrace: warm honey sandstone, dark stained timber, black arched window/door frames, brass lamps, muted burgundy and dusty rose fabric, homely plants and warm amber light against purple-blue dusk. The reference is an outdoor covered dining terrace, used for materials only; this requested scene is fully indoors unless explicitly courtyard. Room brief: Dedicated enclosed stair hall linking the downstairs sitting room to the upstairs landing. One coherent timber flight with sturdy handrail, sandstone walls, brass sconces, small arched stair window and dry steps. Clear approach, no room collage. Richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view with lower central foreground largely clear for live character overlays. Permanent furnishings only, empty of people, silhouettes and live animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No snow or rain indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/rosa_home.png"
+      ]
+    },
+    {
+      "id": "rosa_home__landing",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts. Create a distinct single room view, never a collage. Supplied image is an architectural/material and painterly illustration reference only; do not copy its composition. Rosa's market terrace: warm honey sandstone, dark stained timber, black arched window/door frames, brass lamps, muted burgundy and dusty rose fabric, homely plants and warm amber light against purple-blue dusk. The reference is an outdoor covered dining terrace, used for materials only; this requested scene is fully indoors unless explicitly courtyard. Room brief: Upstairs enclosed landing with matching timber balustrade around the stair opening on one side and two closed distinct timber doors serving bedroom and bathroom, a narrow console and brass lamp against wall. Keep safe continuous rail and broad clear walking space. Richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view with lower central foreground largely clear for live character overlays. Permanent furnishings only, empty of people, silhouettes and live animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No snow or rain indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/rosa_home.png"
+      ]
+    },
+    {
+      "id": "rosa_home__bedroom",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts. Create a distinct single room view, never a collage. Supplied image is an architectural/material and painterly illustration reference only; do not copy its composition. Rosa's market terrace: warm honey sandstone, dark stained timber, black arched window/door frames, brass lamps, muted burgundy and dusty rose fabric, homely plants and warm amber light against purple-blue dusk. The reference is an outdoor covered dining terrace, used for materials only; this requested scene is fully indoors unless explicitly courtyard. Room brief: Private enclosed upstairs bedroom with a modest timber double bed to one side, burgundy quilt and rose cushions, wardrobe, bedside brass reading light and black arched window with drapes. One closed private door; generous clear floor, no outdoor terrace. Richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view with lower central foreground largely clear for live character overlays. Permanent furnishings only, empty of people, silhouettes and live animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No snow or rain indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/rosa_home.png"
+      ]
+    },
+    {
+      "id": "rosa_home__bathroom",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts. Create a distinct single room view, never a collage. Supplied image is an architectural/material and painterly illustration reference only; do not copy its composition. Rosa's market terrace: warm honey sandstone, dark stained timber, black arched window/door frames, brass lamps, muted burgundy and dusty rose fabric, homely plants and warm amber light against purple-blue dusk. The reference is an outdoor covered dining terrace, used for materials only; this requested scene is fully indoors unless explicitly courtyard. Room brief: Private enclosed upstairs bathroom, warm grey stone floor, sandstone walls outside wet areas, dark timber vanity with basin and brass tap, clearly separate toilet, practical enclosed shower with tiled waterproof walls. Small high fully frosted arched window and closed door for privacy. No rugs in wet area. Richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view with lower central foreground largely clear for live character overlays. Permanent furnishings only, empty of people, silhouettes and live animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No snow or rain indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/rosa_home.png"
+      ]
+    },
+    {
+      "id": "rosa_home__shared_courtyard",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts. Create a distinct single room view, never a collage. Supplied image is an architectural/material and painterly illustration reference only; do not copy its composition. Rosa's market terrace: warm honey sandstone, dark stained timber, black arched window/door frames, brass lamps, muted burgundy and dusty rose fabric, homely plants and warm amber light against purple-blue dusk. The reference is an outdoor covered dining terrace, used for materials only; this requested scene is fully indoors unless explicitly courtyard. Room brief: OUTDOOR shared courtyard beyond the dining area. Small enclosed sandstone terrace courtyard open to the dusk sky with a central clear stone-paved area, herb planters at edges, shared bench, climbing rose trellis and warm wall lanterns. Matching dark arched domestic doors back toward dining, no public market plaza, no large banquet table, no crowd. Richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view with lower central foreground largely clear for live character overlays. Permanent furnishings only, empty of people, silhouettes and live animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No snow or rain indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/rosa_home.png"
+      ]
+    }
+  ]
+}

@@ -77,7 +77,7 @@ Current scene descriptions and selected outfits take precedence over portrait st
 | Field | Description |
 | --- | --- |
 | Recognisable features | 154 cm; petite, light-skinned, with very long straight blonde hair, blunt bangs, blue eyes behind round glasses, a delicate face and a gentle smile. |
-| Usual portrait styling, not today’s outfit | Cream ruffled blouse with a black ribbon, blue pinafore dress with white decorative details and lace trim; soft, carefully coordinated styling. The waist-up portrait does not establish today’s shoes. |
+| Usual portrait styling, not today’s outfit | Cream ruffled blouse with a black ribbon, blue pinafore dress with white decorative details and lace trim; soft, carefully coordinated styling. The refreshed portrait ends at mid-thigh, with a short visible section of connected legs beneath the skirt and no knees; it does not establish today’s shoes. |
 | hair | blonde; long; straight; blunt bangs |
 | eyes | blue |
 | facial_features | delicate; round glasses |

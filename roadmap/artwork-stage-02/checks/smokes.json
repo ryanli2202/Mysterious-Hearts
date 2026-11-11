@@ -1,0 +1,8 @@
+[
+  {
+    "check": "phone_dark_theme_smoke",
+    "command": "python tests/phone_dark_theme_smoke.py",
+    "returncode": 0,
+    "log": "checks/phone_dark_theme_smoke.txt"
+  }
+]

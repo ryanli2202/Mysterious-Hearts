@@ -1,0 +1,6 @@
+{
+  "command": "python tests/artwork_stage_02_ui_smoke.py --live --variation",
+  "exit_code": 0,
+  "log": "artwork_stage_02_ui_smoke-final.txt",
+  "note": "Corrected custom robotic fixture to use a saved custom type; initial fixture failure preserved in smokes.json."
+}

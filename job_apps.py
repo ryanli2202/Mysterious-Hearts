@@ -126,7 +126,7 @@ def promote(s):
     p=profile(s,key)
     if p['rank']>=3: return civilian.review(s)
     shifts,craft,reliability=LADDER[p['rank']+1]
-    if p['shifts']<shifts or p['craft']<craft or p['reliability']<reliability:
+    if p['shifts']+p.get('origin_experience',0)<shifts or p['craft']<craft or p['reliability']<reliability:
         raise ValueError(f'Review requires {shifts} shifts, {craft} craft and {reliability} reliability.')
     p['rank']+=1
     s['world']['job']=civilian.titles(key)[p['rank']]
@@ -327,7 +327,7 @@ def review(s):
         return log(s,'Sponsor restored after rehabilitation. Rank retained; promotion requires a separate review.',True)
     if m['rank']>=len(BRANCHES[m['branch']][2])-1: raise ValueError('You reached the playable rank ceiling. Story leadership remains reserved.')
     target=m['rank']+1; count,rep=progression.REVIEWS[target]
-    if m['assignments']<count or d['reputation']<rep or d['heat']>=30:
+    if m['assignments']+m.get('origin_experience',0)<count or d['reputation']<rep or d['heat']>=30:
         raise ValueError(f'Review requires {count} successful sponsor assignments, reputation {rep} and heat below 30.')
     m['rank']=target
     if m['faction']=='Shinokami' and target>=4:

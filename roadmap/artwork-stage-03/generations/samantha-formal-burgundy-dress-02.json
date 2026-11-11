@@ -1,0 +1,13 @@
+{
+  "id": "samantha-formal-burgundy-dress",
+  "tool": "built-in image_gen",
+  "model": "not exposed",
+  "generated_source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c7d2-0cc6-74f2-ba9f-981788fc8cd9\\exec-5f97e57e-c466-4519-ab1a-ce571f4d8bd1.png",
+  "sha256": "dd585dfd2265b17ee7280c140631f050d46644dc980d907e4343e7fecd92be19",
+  "prompt": "Make a precise local correction to this adult character wardrobe illustration. Preserve her EXACT face, hair, head size, expression, body dimensions, tattoos on exposed skin, outfit colours/materials, and picture framing. Repair her RIGHT hand on the LEFT side of the image: it currently has fingers disappearing into a false pocket or body. Keep the bent elbow and wrist near the same hip, but draw the complete hand resting gently FLAT on the outside of her hip/upper thigh, with four naturally separated complete fingers pointing diagonally downward and the complete thumb visible. The hand must sit on the surface, not enter skin or fabric; show every fingertip, natural joints, correct palm and five digits total. Remove the false pocket opening immediately underneath this hand. Keep the other hanging hand complete and unchanged. Keep complete head through MID-THIGH, with the same connected upper thighs and crop. Lower thighs, knees, lower legs and feet stay outside the image. Same 1024x1536 RGBA, true transparent background around silhouette and inside arm gaps. No backdrop, glow, haze, shadow, text, signature, or watermark. Do not change any other feature.",
+  "referenced_image_paths": [
+    "C:\\Users\\ryanl\\Documents\\Mysterious Hearts\\roadmap\\artwork-stage-03\\candidates\\samantha-formal-burgundy-dress.png"
+  ],
+  "transparent_background": true,
+  "pixel_postprocessing": false
+}

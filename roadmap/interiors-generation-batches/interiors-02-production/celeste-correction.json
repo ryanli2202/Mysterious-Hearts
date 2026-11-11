@@ -1,0 +1,17 @@
+{
+  "id": "celeste_home__kitchen_dining",
+  "prompt": "Edit this cottage kitchen image to provide its essential baking/cooking area. Replace the base cupboard section immediately to the RIGHT of the farmhouse sink, beneath the copper pans, with a compact dark navy cooking range: a visible oven door below and a four-ring hob above. Remove flowers, plants, lantern or counter objects only from the range's required footprint so the hob is unobstructed. Keep the sink, blue door, windows, table, chairs, jar shelf, hanging copper pans, beams, piano glimpse, foreground, lighting and illustration style unchanged. No text, logos or people. Opaque 1536x1024 landscape.",
+  "reference_paths": [
+    "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c9d7-d510-72c0-8525-e3e66bf1b1bf\\exec-187bcc3c-8f7d-449f-be9e-ef1051280124.png"
+  ],
+  "rejected_attempts": [
+    {
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create kitchen dining for Celeste's blue-door cottage. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: navy blue painted doors and trim, exposed dark wooden ceiling beams, warm plaster, timber floorboards, brass pendant and globe lights, cosy plum and plaid textiles, plants and dusk cottage garden light. Room brief: Closer dedicated view of the existing cottage kitchen and dining area. Navy base cabinets, white farmhouse sink, brass taps, timber counters, copper pans neatly hung, closed baking jars and a wooden table for two to four off to one side. No active flour mess or transient prepared food. Exposed beams, blue-framed garden window, warm light. Open connection to piano sitting room. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/celeste_home.png"
+      ],
+      "source_path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c9d7-d510-72c0-8525-e3e66bf1b1bf\\exec-187bcc3c-8f7d-449f-be9e-ef1051280124.png",
+      "reason": "Kitchen lacked visible oven/hob needed for the planned home baking activity."
+    }
+  ]
+}

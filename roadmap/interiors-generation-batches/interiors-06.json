@@ -1,0 +1,501 @@
+{
+  "batch_id": "interiors-06",
+  "title": "University, creative work and learning",
+  "status": "planned",
+  "images": [
+    {
+      "id": "campus__main_lobby",
+      "room": "Main lobby",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/campus/main_lobby.png",
+      "building_id": "campus",
+      "building_name": "Winterfield University",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "campus__teaching_corridor",
+      "room": "Teaching corridor",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/campus/teaching_corridor.png",
+      "building_id": "campus",
+      "building_name": "Winterfield University",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "campus__lecture_room",
+      "room": "Lecture room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/campus/lecture_room.png",
+      "building_id": "campus",
+      "building_name": "Winterfield University",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "campus__seminar_room",
+      "room": "Seminar room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/campus/seminar_room.png",
+      "building_id": "campus",
+      "building_name": "Winterfield University",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "campus__study_room",
+      "room": "Study room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/campus/study_room.png",
+      "building_id": "campus",
+      "building_name": "Winterfield University",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "campus__theatre_workshop",
+      "room": "Theatre workshop",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/campus/theatre_workshop.png",
+      "building_id": "campus",
+      "building_name": "Winterfield University",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "campus__rehearsal_room",
+      "room": "Rehearsal room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/campus/rehearsal_room.png",
+      "building_id": "campus",
+      "building_name": "Winterfield University",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "campus__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/campus/restroom.png",
+      "building_id": "campus",
+      "building_name": "Winterfield University",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "studio__reception",
+      "room": "Reception",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/studio/reception.png",
+      "building_id": "studio",
+      "building_name": "Downtown modelling and recording studio",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "studio__corridor",
+      "room": "Corridor",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/studio/corridor.png",
+      "building_id": "studio",
+      "building_name": "Downtown modelling and recording studio",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "studio__dressing_fitting_room",
+      "room": "Dressing fitting room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/studio/dressing_fitting_room.png",
+      "building_id": "studio",
+      "building_name": "Downtown modelling and recording studio",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "studio__recording_booth",
+      "room": "Recording booth",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/studio/recording_booth.png",
+      "building_id": "studio",
+      "building_name": "Downtown modelling and recording studio",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "studio__choreography_room",
+      "room": "Choreography room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/studio/choreography_room.png",
+      "building_id": "studio",
+      "building_name": "Downtown modelling and recording studio",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "studio__review_room",
+      "room": "Review room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/studio/review_room.png",
+      "building_id": "studio",
+      "building_name": "Downtown modelling and recording studio",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "studio__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/studio/restroom.png",
+      "building_id": "studio",
+      "building_name": "Downtown modelling and recording studio",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "library__lobby_desk",
+      "room": "Lobby desk",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/library/lobby_desk.png",
+      "building_id": "library",
+      "building_name": "Public library",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "library__reading_room",
+      "room": "Reading room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/library/reading_room.png",
+      "building_id": "library",
+      "building_name": "Public library",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "library__stacks",
+      "room": "Stacks",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/library/stacks.png",
+      "building_id": "library",
+      "building_name": "Public library",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "library__reservable_study_room",
+      "room": "Reservable study room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/library/reservable_study_room.png",
+      "building_id": "library",
+      "building_name": "Public library",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "library__staff_catalogue_office",
+      "room": "Staff catalogue office",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/library/staff_catalogue_office.png",
+      "building_id": "library",
+      "building_name": "Public library",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "library__desk_corridor",
+      "room": "Desk corridor",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/library/desk_corridor.png",
+      "building_id": "library",
+      "building_name": "Public library",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "library__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/library/restroom.png",
+      "building_id": "library",
+      "building_name": "Public library",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "archive__public_desk",
+      "room": "Public desk",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/archive/public_desk.png",
+      "building_id": "archive",
+      "building_name": "Old town archive",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "archive__conservation_workshop",
+      "room": "Conservation workshop",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/archive/conservation_workshop.png",
+      "building_id": "archive",
+      "building_name": "Old town archive",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "archive__restricted_storage",
+      "room": "Restricted storage",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/archive/restricted_storage.png",
+      "building_id": "archive",
+      "building_name": "Old town archive",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "archive__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/archive/restroom.png",
+      "building_id": "archive",
+      "building_name": "Old town archive",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "makerspace__welcome_room",
+      "room": "Welcome room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/makerspace/welcome_room.png",
+      "building_id": "makerspace",
+      "building_name": "Station makerspace",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "makerspace__electronics_room",
+      "room": "Electronics room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/makerspace/electronics_room.png",
+      "building_id": "makerspace",
+      "building_name": "Station makerspace",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "makerspace__tool_store",
+      "room": "Tool store",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/makerspace/tool_store.png",
+      "building_id": "makerspace",
+      "building_name": "Station makerspace",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "makerspace__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/makerspace/restroom.png",
+      "building_id": "makerspace",
+      "building_name": "Station makerspace",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "cycle_shop__repair_room",
+      "room": "Repair room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/cycle_shop/repair_room.png",
+      "building_id": "cycle_shop",
+      "building_name": "Riverside cycle workshop",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "cycle_shop__parts_store",
+      "room": "Parts store",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/cycle_shop/parts_store.png",
+      "building_id": "cycle_shop",
+      "building_name": "Riverside cycle workshop",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "cycle_shop__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/cycle_shop/restroom.png",
+      "building_id": "cycle_shop",
+      "building_name": "Riverside cycle workshop",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "planetarium__dome_theatre",
+      "room": "Dome theatre",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/planetarium/dome_theatre.png",
+      "building_id": "planetarium",
+      "building_name": "Hilltop planetarium",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "planetarium__staff_corridor",
+      "room": "Staff corridor",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/planetarium/staff_corridor.png",
+      "building_id": "planetarium",
+      "building_name": "Hilltop planetarium",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "planetarium__preparation_room",
+      "room": "Preparation room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/planetarium/preparation_room.png",
+      "building_id": "planetarium",
+      "building_name": "Hilltop planetarium",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "planetarium__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/planetarium/restroom.png",
+      "building_id": "planetarium",
+      "building_name": "Hilltop planetarium",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "cinema__auditorium",
+      "room": "Auditorium",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/cinema/auditorium.png",
+      "building_id": "cinema",
+      "building_name": "Bijou cinema",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "cinema__staff_corridor",
+      "room": "Staff corridor",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/cinema/staff_corridor.png",
+      "building_id": "cinema",
+      "building_name": "Bijou cinema",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "cinema__projection_room",
+      "room": "Projection room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/cinema/projection_room.png",
+      "building_id": "cinema",
+      "building_name": "Bijou cinema",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "cinema__staff_office",
+      "room": "Staff office",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/cinema/staff_office.png",
+      "building_id": "cinema",
+      "building_name": "Bijou cinema",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "cinema__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/cinema/restroom.png",
+      "building_id": "cinema",
+      "building_name": "Bijou cinema",
+      "generation_status": "not_started"
+    }
+  ],
+  "existing_references": [
+    {
+      "building_id": "studio",
+      "room": "Photo studio",
+      "path": "assets/ui/locations/studio.png"
+    },
+    {
+      "building_id": "archive",
+      "room": "Reading records room",
+      "path": "assets/ui/locations/archive.png"
+    },
+    {
+      "building_id": "makerspace",
+      "room": "Shared workshop",
+      "path": "assets/ui/locations/makerspace.png"
+    },
+    {
+      "building_id": "cycle_shop",
+      "room": "Customer counter room",
+      "path": "assets/ui/locations/cycle_shop.png"
+    },
+    {
+      "building_id": "planetarium",
+      "room": "Lobby exhibits",
+      "path": "assets/ui/locations/planetarium.png"
+    },
+    {
+      "building_id": "cinema",
+      "room": "Ticket foyer",
+      "path": "assets/ui/locations/cinema.png"
+    }
+  ]
+}

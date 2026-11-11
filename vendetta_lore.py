@@ -20,17 +20,18 @@ import takeo
 # These descriptions establish qualitative powers, not an unimplemented combat simulator.
 PROFILES = {
     'takeo': ('Awakened', takeo.ABILITY),
-    'neo': ('Awakened', 'Enhanced physical capacity, reflexes and combat processing. His Shinigami past remains coercive conditioning in this AU; do not add hidden implants, a neural HUD or Nanoengine. No named Trait is established.'),
+    'thirteen': ('Awakened', 'Trait: Shinigami Protocol. Reactive combat processing and adaptation with specialised martial training. Available evidence, feasible movement and resources limit choices; no guaranteed victory, hidden implants or Nanoengine.'),
+    'neo': ('Awakened', 'Trait: Shinigami Protocol. Reactive combat processing, adaptation and informed choices within physical limits. His Shinigami past remains coercive conditioning in this AU; do not add hidden implants, a neural HUD or Nanoengine.'),
     'tyler': ('Awakened', 'Can store absorbed impact and return it through a strike. Absorbing impact does not cancel injury; storage is finite, not invulnerability. No formal Trait name is established.'),
-    'daniel': ('Awakened', 'Enhanced strength, reflexes and combat aptitude alongside trained judo. Already Awakened in this AU, without a named Trait or an inherited obligation to repeat his parents’ lives.'),
-    'garrett': ('Awakened', 'True Sight supports immediate combat perception and anticipation, not omniscience or mind-reading. Golden Flame amplifies martial striking and pressure. Fa Jin remains a trained technique; flame is not a cure or proof of someone’s identity.'),
-    'april': ('Awakened', 'Enhanced cognition, pattern recognition and tactical processing. She still needs evidence, time and collaborators; she cannot know an unseen plan or automatically solve a case. No named Trait is established.'),
+    'daniel': ('Awakened', 'Trait: War God, like his father. Coordinated physical pressure, instinctive transitions and contact reading alongside trained martial arts; not mind-reading, automatic takedowns or an inherited obligation to repeat his parents’ lives.'),
+    'garrett': ('Awakened', 'True Sight perceives pure mana and magical flow, enabling near-perfect Awakened application efficiency, precognition and heightened reflexes; not omniscience, infinite energy or mind-reading. Golden Flame amplifies martial striking and pressure. Fa Jin remains a trained technique; flame is not a cure or proof of someone’s identity.'),
+    'april': ('Awakened', 'Trait: Polymath. Enhanced cognition, pattern recognition and tactical processing. She still needs evidence, time and collaborators; she cannot know an unseen plan or automatically solve a case.'),
     'rei': ('Awakened', 'Flowing Tempest redirects kinetic energy and builds speed and force through continued movement, with green wind and lightning manifestations. Disruption, fatigue and injury remain relevant; no unlimited accumulation or automatic victory. His starting Iron Circle rank remains #1.'),
     'samantha': ('Awakened', 'Hemokinesis shapes her own blood and accessible blood into weapons. Blood loss remains dangerous. No automatic control of intact bodies, remote killing or limitless blood supply.'),
-    'emily': ('Possible awakening; not awakened', 'Critical Hit is a possible future Trait: creating weak points and suppressing pain, not preventing damage. It is not active and she has no memory of awakening, fighting Blackstone or rising through the Iron Circle. An authored future event must establish any change; conversation and romance cannot unlock it.'),
+    'emily': ('Awakened', 'Critical Hit creates weak points and suppresses pain without preventing damage or knockout. She begins awakened; this does not invent memories of fighting Blackstone or rising through the Iron Circle. Conversation and romance do not grant extra powers.'),
     'sylvanis': ('Awakened; Blisk', 'Umbrakinesis, enhanced speed and reflexes, True Sight and Polymath. These do not grant omniscience or every Blisk the same abilities. Source endgame Transcendence and victories are not automatically current AU feats.'),
     'ivan': ('Awakened', 'Conduit channels elemental affinities: fire, wind, ice and lightning with physical amplification. His source five-minute Conduit State is limited to once per twenty-four hours; this is lore, not a usable timed combat action. Power does not erase responsibility or free him from the Syndicate.'),
-    'valentina': ('Awakened', 'Queen of Wind; Trait: Deathwind. In this AU Deathwind shapes dangerous cutting wind and controlled gusts, requiring concentration and risking collateral injury. It is not automatic death, soul control or limitless weather control. She is one of Ivan’s five generals with real command responsibility, alongside her sailing work and independent personal life.'),
+    'valentina': ('Awakened', 'Queen of Wind; Trait: Deathwind. Ivan provided Deathwind as an extension of his wind, including soul injury and Misanthropy continued-function endurance. It shapes dangerous cutting wind and controlled gusts, requiring concentration and risking collateral injury. It is not automatic death, soul control or limitless weather control. She is one of Ivan’s five generals with real command responsibility, alongside her sailing work and independent personal life.'),
     'alyssa': ('Awakened; Blisk', 'Umbrakinesis with enhanced speed and reflexes. Shadow manipulation does not grant teleportation, intangibility, True Sight, Polymath or Sylvanis’s entire repertoire. Her archive work, botanical art and relationship with Neo remain her own life.'),
     'minsu': ('Awakened', 'A speed-and-reflexes Trait improves short-burst movement, reactions and coordination. Its formal name is not established. No time stopping, teleportation, limitless stamina or automatic sporting victories; training, rest and fair competition still matter.'),
 }
@@ -38,6 +39,10 @@ PROFILES = {
 
 def speaker_context(who, listeners, state=None):
     result = {'World rules': WORLD}
+    if state is not None:
+        import rei_story
+        outcome=rei_story.context(state,who,listeners)
+        if outcome: result['Authored story outcome overrides earlier assumptions']=outcome
     import four_aces
     result.update(four_aces.private_context(who, listeners, state))
     if who in PROFILES:
@@ -61,8 +66,10 @@ def speaker_context(who, listeners, state=None):
             'No named victim, abduction, contract, current pursuit, link to Charles or completed source-story attack '
             'is established. Do not invent one or confess the remit merely because a visitor asks.')
     if state is not None:
-        from combat_profiles import make
-        p=state.get('combat',{}).get('profiles',{}).get(who) or make(who,state.get('custom_protagonist',{}) if who==state.get('player') else None)
+        import copy
+        from combat_profiles import make, reconcile_identity
+        p=copy.deepcopy(state.get('combat',{}).get('profiles',{}).get(who)) or make(who,state.get('custom_protagonist',{}) if who==state.get('player') else None)
+        reconcile_identity(p,who)
         result['Combat continuity override']='Peak source-story powers are available now for combat; source deaths, romances and victories are not imported. Mechanical actions occur only in the in-person combat controls.'
         result['Own ability (private self-knowledge)'] = ('Awakened. ' if p['awakened'] else 'Unawakened. ') + (p['trait']['name']+': '+p['trait']['description'] if p['trait'] else 'No named Trait.')+' '+p.get('abilities','')
         result['Own martial knowledge']=list(p['arts'])

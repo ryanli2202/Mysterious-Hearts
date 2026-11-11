@@ -1,0 +1,64 @@
+[
+  {
+    "id": "emily-selection-style-simplified-draft",
+    "prompt": "Use case: style-transfer, identity-preserve. Refine ONLY the rendering of EMILY in IMAGE 1 to match the restrained illustrated MANHWA drawing language of IVAN in IMAGE 2 and CHARLES in IMAGE 3. The current Emily is TOO PAINTERLY, TOO GLOSSY AND TOO FINELY RENDERED. Reduce surface detail and airbrushed modelling visibly. Aim for the SAME level of rendering simplification as images 2/3, while keeping her delicate adult feminine face. Clean selective ink contours; broad simple base colour areas with 2-3 purposeful shadow tones; mostly crisp designed cel-shadow shapes with only small controlled soft transitions. Skin: simple matte planes on nose/cheeks/chin, no skin grain, pores, blush bloom, cosmetic shine, glossy lips or soft photographic contouring. Hair: larger grouped blonde locks, fewer internal strand lines, broad restrained highlight shapes, no hundreds of shiny individual strands. Clothes: matte cloth with fewer broader fold shadows, remove fabric grain, pearly/satin gloss and microtexture; keep actual ruffles, ribbon, fasteners, lace edge and white bib embroidery recognizable but draw their shapes simply without hyper-detailed lace rendering. Jewellery and glasses have small plain highlights rather than elaborate polished reflections. NOT flat chibi/anime: retain dimensional nose/lip construction, natural adult eye proportions, readable eyelids and original facial likeness. Do not transfer the male anchors' facial features, complexion or clothes. LOCK EVERY OTHER ATTRIBUTE from image1: Emily is adult20, fair complexion, blue eyes, silver round glasses, long pale blonde hair and blunt bangs, gentle closed-mouth smile, cream high-neck ruffled blouse, black bow, pendant, blue embroidered pinafore, complete clasped hands and her same pose/body. CRITICAL COMPOSITION LOCK: use the exact current FULL HEAD TO MID-THIGH framing of IMAGE1; keep both connected thighs visible as a short band below skirt; no knees, no longer crop, no missing legs, no outfit redesign/shortening. Preserve current silhouette and figure scale with intact hair/hands. Output one vertical 2:3 1024x1536 RGBA character cutout, genuinely transparent background through all gaps; no scenery/halo/ground shadow/text/watermark. This is a modest reduction of rendering complexity to fit the anchor set, not a new character design.",
+    "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c4bb-5097-79c3-9260-13655e32323c/exec-ce662671-9939-44ce-a2d3-648f9af50cdd.png",
+    "input_images": [
+      {
+        "role": "identity, outfit and framing",
+        "path": "roadmap/artwork-batch-01/emily-style-refinement/before.png"
+      },
+      {
+        "role": "rendering anchor only",
+        "path": "assets/portraits/ivan-selection.png"
+      },
+      {
+        "role": "rendering anchor only",
+        "path": "assets/portraits/charles-selection-v2.png"
+      }
+    ],
+    "disposition": "superseded: face too flat relative to anchors",
+    "runtime_id": "emily-selection",
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "emily-selection-style-face-refinement-draft",
+    "prompt": "Use case: style-transfer / identity-preserve. Make a small targeted refinement to IMAGE1, the newly simplified Emily illustration. IMAGE2 Ivan and IMAGE3 Charles are the desired final drawing/rendering level ONLY. IMAGE1's clothing is now at the right simple, clean cel-shaded level, but her face has become TOO FLAT: the nose is a tiny shorthand mark and her hair is a little too graphic. Restore just enough semi-realistic manhwa STRUCTURE to her face to match Ivan/Charles: understated readable nose bridge/side plane, small natural nose tip and nostril, softly turned cheek plane and subtly defined upper/lower lips, fine eyelid construction. Add at most a few soft transitions inside simple shadow shapes, still matte and clearly drawn, NOT airbrushed or photoreal. Keep the existing gentle adult feminine likeness; don't copy the male faces or make her older/stern. Hair: preserve broad simple grouped locks and restrained highlights but add a few selective thin strand lines; avoid shiny metallic bands. Keep the simpler matte dress/blouse rendering, broad tidy fold shadows and clean linework from IMAGE1; no fabric grain, intricate micro-lace, pores, glitter, high gloss, waxy skin or cosmetic blush bloom. This should be between flat anime and painterly realism, at the restrained level of the two male anchors. LOCK everything else from IMAGE1: exact full-head-to-MID-THIGH composition, short visible band of both connected thighs under blue skirt, NO KNEES, same pose and full clasped hands, adult20 petite body, fair complexion, blonde hair with bangs, blue eyes, silver round glasses, cream ruffled blouse, black bow, pendant, white embroidered blue bib and silver fasteners. No shortening or redesigning clothes, no new accessories, no anatomy or framing changes. One vertical 2:3 1024x1536 PNG with genuine alpha transparency around silhouette and gaps; no background, halo, text or watermark.",
+    "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c4bb-5097-79c3-9260-13655e32323c/exec-028d80e6-056f-4625-9550-4951a5963142.png",
+    "input_images": [
+      {
+        "role": "style draft edit target",
+        "path": "roadmap/artwork-batch-01/emily-style-refinement/too-flat-draft.png"
+      },
+      {
+        "role": "rendering anchor",
+        "path": "assets/portraits/ivan-selection.png"
+      },
+      {
+        "role": "rendering anchor",
+        "path": "assets/portraits/charles-selection-v2.png"
+      }
+    ],
+    "disposition": "superseded: user requested detailed hair be preserved",
+    "runtime_id": "emily-selection",
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "emily-selection-style-detailed-hair",
+    "prompt": "Use case: precise-object-edit / compositing. IMAGE1 is Emily's simplified manhwa portrait: KEEP its face, matte skin, restrained facial modelling, cleaner blouse/dress cel shading, jewellery, glasses, hands, pose and composition exactly. IMAGE2 is the PREVIOUS Emily portrait and is a reference for HAIR DETAIL ONLY. The user explicitly requires that her HAIR REMAIN DETAILED. Restore the beautiful intricately drawn pale-blonde hair from IMAGE2 onto IMAGE1: same original level of fine flowing individual strands, multiple delicate directional locks, nuanced blonde strand colour variation, separated fine bangs, fine wispy tips and layered lustrous highlights. Preserve the original hair's rich strand detail and soft flowing volume, not broad empty flat vector blocks. Do NOT simplify or flatten the hair. Copy image2's hair drawing/rendering faithfully, adjusting only enough to meet the exact same head and silhouette in image1. Only the hair receives this detailed rendering: keep IMAGE1's simpler matte SKIN and CLOTHING and restrained shadows, with no return of fabric microtexture, heavy airbrushing, waxy skin, elaborate glossy cloth, or hyper-realistic facial rendering. Maintain Emily's adult20 delicate feminine likeness, blue eyes and gentle expression. Preserve full head through MID-THIGH crop, two short connected visible thigh sections below skirt, NO KNEES, no missing legs, and complete clasped hands. Do not alter dress hem, outfit design, body proportions, facial proportions, pose, image framing or accessories. Transparent RGBA 1024x1536 2:3 portrait, clean alpha exterior and gaps; no background/halo/text/watermark. The intended final balance is DETAILED HAIR combined with more restrained illustrated skin and fabric.",
+    "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c4bb-5097-79c3-9260-13655e32323c/exec-0fd499f0-44b4-4a0a-9f0d-c3ab067da5e4.png",
+    "input_images": [
+      {
+        "role": "restrained skin and clothing edit target",
+        "path": "roadmap/artwork-batch-01/emily-style-refinement/face-refinement-draft.png"
+      },
+      {
+        "role": "detailed hair reference only",
+        "path": "roadmap/artwork-batch-01/emily-style-refinement/before.png"
+      }
+    ],
+    "disposition": "installed",
+    "runtime_id": "emily-selection",
+    "tool": "built-in image_gen"
+  }
+]

@@ -1,0 +1,680 @@
+{
+  "batch_id": "interiors-03",
+  "title": "Remaining private homes",
+  "status": "unfinished",
+  "images": [
+    {
+      "id": "rosa_home__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/rosa_home/entrance.png",
+      "building_id": "rosa_home",
+      "building_name": "Rosa's market terrace",
+      "generation_status": "accepted",
+      "generated_date": "2026-11-11",
+      "output_path": "assets/ui/locations/interiors/rosa_home/entrance.png",
+      "source_path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ca07-6137-78e0-a83d-798ee4358386\\exec-4d8b3785-cd7d-4fcd-9b5b-ccde3e0ee5f7.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "10e3de2afae70c8760933091eecb77b34227d3f2bb8795cae9667ec35d701aa9",
+      "tool": "built-in image_gen",
+      "model": "Not exposed by built-in tool",
+      "prompt_manifest": "roadmap/interiors-generation-batches/interiors-03-production/prompts.json",
+      "prompt_id": "rosa_home__entrance",
+      "visual_review": "Enclosed sandstone entrance with coherent arch into sitting room, closed front door, shoe bench and hooks; warm brass/burgundy continuity, clear central floor, no people or text. Static acceptance only.",
+      "integration_status": "pending; no runtime room mapping added",
+      "rendered_verification": "pending in-person room implementation"
+    },
+    {
+      "id": "rosa_home__sitting_room",
+      "room": "Sitting room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/rosa_home/sitting_room.png",
+      "building_id": "rosa_home",
+      "building_name": "Rosa's market terrace",
+      "generation_status": "generated",
+      "generated_date": "2026-11-11",
+      "source_path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ca07-6137-78e0-a83d-798ee4358386\\exec-8f0e1469-91e6-432f-8758-b040a48d60a8.png",
+      "staged_path": "media-workspace/interiors-03-paused/rosa_home__sitting_room.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "2d041ba24dc2a3c5ecfa5b8a1a76df24d0db15649d5823e75cefdc6ad325450d",
+      "tool": "built-in image_gen",
+      "model": "Not exposed by built-in tool",
+      "prompt_manifest": "roadmap/interiors-generation-batches/interiors-03-production/prompts.json",
+      "prompt_id": "rosa_home__sitting_room",
+      "visual_review": "Returned image was displayed; acceptance and installation deferred when user paused generation.",
+      "integration_status": "pending; no runtime room mapping added"
+    },
+    {
+      "id": "rosa_home__kitchen",
+      "room": "Kitchen",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/rosa_home/kitchen.png",
+      "building_id": "rosa_home",
+      "building_name": "Rosa's market terrace",
+      "generation_status": "generated",
+      "generated_date": "2026-11-11",
+      "source_path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ca07-6137-78e0-a83d-798ee4358386\\exec-4e2b910f-16ab-4f36-953d-12ee3bdf000b.png",
+      "staged_path": "media-workspace/interiors-03-paused/rosa_home__kitchen.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "fa9453c97c9190504007b426bb0f84eadb2a2cb8d1a77be6711bb1d423dc8ab9",
+      "tool": "built-in image_gen",
+      "model": "Not exposed by built-in tool",
+      "prompt_manifest": "roadmap/interiors-generation-batches/interiors-03-production/prompts.json",
+      "prompt_id": "rosa_home__kitchen",
+      "visual_review": "Returned image was displayed; acceptance and installation deferred when user paused generation.",
+      "integration_status": "pending; no runtime room mapping added"
+    },
+    {
+      "id": "rosa_home__stairway",
+      "room": "Stairway",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/rosa_home/stairway.png",
+      "building_id": "rosa_home",
+      "building_name": "Rosa's market terrace",
+      "generation_status": "generated",
+      "generated_date": "2026-11-11",
+      "source_path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ca07-6137-78e0-a83d-798ee4358386\\exec-0ff2268c-7bdb-4d2e-ab2f-f02dae1ea56f.png",
+      "staged_path": "media-workspace/interiors-03-paused/rosa_home__stairway.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "3e71818f2ea0de82f66d3af1811d4838260dde0c221563cdcc2cb952d014787f",
+      "tool": "built-in image_gen",
+      "model": "Not exposed by built-in tool",
+      "prompt_manifest": "roadmap/interiors-generation-batches/interiors-03-production/prompts.json",
+      "prompt_id": "rosa_home__stairway",
+      "visual_review": "Returned image was displayed; acceptance and installation deferred when user paused generation.",
+      "integration_status": "pending; no runtime room mapping added"
+    },
+    {
+      "id": "rosa_home__landing",
+      "room": "Landing",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/rosa_home/landing.png",
+      "building_id": "rosa_home",
+      "building_name": "Rosa's market terrace",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "rosa_home__bedroom",
+      "room": "Bedroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/rosa_home/bedroom.png",
+      "building_id": "rosa_home",
+      "building_name": "Rosa's market terrace",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "rosa_home__bathroom",
+      "room": "Bathroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/rosa_home/bathroom.png",
+      "building_id": "rosa_home",
+      "building_name": "Rosa's market terrace",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "rosa_home__shared_courtyard",
+      "room": "Shared courtyard",
+      "kind": "outdoor",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/rosa_home/shared_courtyard.png",
+      "building_id": "rosa_home",
+      "building_name": "Rosa's market terrace",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "elliot_home__kitchenette",
+      "room": "Kitchenette",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/elliot_home/kitchenette.png",
+      "building_id": "elliot_home",
+      "building_name": "Elliot's willow cabin",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "elliot_home__bedroom",
+      "room": "Bedroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/elliot_home/bedroom.png",
+      "building_id": "elliot_home",
+      "building_name": "Elliot's willow cabin",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "elliot_home__bathroom",
+      "room": "Bathroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/elliot_home/bathroom.png",
+      "building_id": "elliot_home",
+      "building_name": "Elliot's willow cabin",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "elliot_home__covered_porch",
+      "room": "Covered porch",
+      "kind": "outdoor",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/elliot_home/covered_porch.png",
+      "building_id": "elliot_home",
+      "building_name": "Elliot's willow cabin",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "daniel_home__stair_entrance",
+      "room": "Stair entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/daniel_home/stair_entrance.png",
+      "building_id": "daniel_home",
+      "building_name": "Daniel's flat above the Bijou",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "daniel_home__living_drawing_room",
+      "room": "Living drawing room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/daniel_home/living_drawing_room.png",
+      "building_id": "daniel_home",
+      "building_name": "Daniel's flat above the Bijou",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "daniel_home__kitchen",
+      "room": "Kitchen",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/daniel_home/kitchen.png",
+      "building_id": "daniel_home",
+      "building_name": "Daniel's flat above the Bijou",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "daniel_home__bedroom",
+      "room": "Bedroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/daniel_home/bedroom.png",
+      "building_id": "daniel_home",
+      "building_name": "Daniel's flat above the Bijou",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "daniel_home__bathroom",
+      "room": "Bathroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/daniel_home/bathroom.png",
+      "building_id": "daniel_home",
+      "building_name": "Daniel's flat above the Bijou",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "fox_home__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/fox_home/entrance.png",
+      "building_id": "fox_home",
+      "building_name": "Fox's Blackhaven hideout",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "fox_home__living_kettle_room",
+      "room": "Living kettle room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/fox_home/living_kettle_room.png",
+      "building_id": "fox_home",
+      "building_name": "Fox's Blackhaven hideout",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "fox_home__private_evidence_room",
+      "room": "Private evidence room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/fox_home/private_evidence_room.png",
+      "building_id": "fox_home",
+      "building_name": "Fox's Blackhaven hideout",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "fox_home__hall",
+      "room": "Hall",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/fox_home/hall.png",
+      "building_id": "fox_home",
+      "building_name": "Fox's Blackhaven hideout",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "fox_home__bedroom",
+      "room": "Bedroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/fox_home/bedroom.png",
+      "building_id": "fox_home",
+      "building_name": "Fox's Blackhaven hideout",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "fox_home__bathroom",
+      "room": "Bathroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/fox_home/bathroom.png",
+      "building_id": "fox_home",
+      "building_name": "Fox's Blackhaven hideout",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "gordon_home__entrance_uniform_locker",
+      "room": "Entrance uniform locker",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/gordon_home/entrance_uniform_locker.png",
+      "building_id": "gordon_home",
+      "building_name": "Gordon's Civic Court apartment",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "gordon_home__kitchen",
+      "room": "Kitchen",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/gordon_home/kitchen.png",
+      "building_id": "gordon_home",
+      "building_name": "Gordon's Civic Court apartment",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "gordon_home__hall",
+      "room": "Hall",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/gordon_home/hall.png",
+      "building_id": "gordon_home",
+      "building_name": "Gordon's Civic Court apartment",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "gordon_home__bedroom",
+      "room": "Bedroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/gordon_home/bedroom.png",
+      "building_id": "gordon_home",
+      "building_name": "Gordon's Civic Court apartment",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "gordon_home__bathroom",
+      "room": "Bathroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/gordon_home/bathroom.png",
+      "building_id": "gordon_home",
+      "building_name": "Gordon's Civic Court apartment",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "sylvanis_home__bell_entrance",
+      "room": "Bell entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/sylvanis_home/bell_entrance.png",
+      "building_id": "sylvanis_home",
+      "building_name": "Sylvanis's shuttered flat",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "sylvanis_home__kitchen",
+      "room": "Kitchen",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/sylvanis_home/kitchen.png",
+      "building_id": "sylvanis_home",
+      "building_name": "Sylvanis's shuttered flat",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "sylvanis_home__private_notes_room",
+      "room": "Private notes room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/sylvanis_home/private_notes_room.png",
+      "building_id": "sylvanis_home",
+      "building_name": "Sylvanis's shuttered flat",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "sylvanis_home__bedroom",
+      "room": "Bedroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/sylvanis_home/bedroom.png",
+      "building_id": "sylvanis_home",
+      "building_name": "Sylvanis's shuttered flat",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "sylvanis_home__bathroom",
+      "room": "Bathroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/sylvanis_home/bathroom.png",
+      "building_id": "sylvanis_home",
+      "building_name": "Sylvanis's shuttered flat",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "martos_home__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/martos_home/entrance.png",
+      "building_id": "martos_home",
+      "building_name": "Martos's apartment",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "martos_home__kitchen",
+      "room": "Kitchen",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/martos_home/kitchen.png",
+      "building_id": "martos_home",
+      "building_name": "Martos's apartment",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "martos_home__watch_workroom",
+      "room": "Watch workroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/martos_home/watch_workroom.png",
+      "building_id": "martos_home",
+      "building_name": "Martos's apartment",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "martos_home__hall",
+      "room": "Hall",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/martos_home/hall.png",
+      "building_id": "martos_home",
+      "building_name": "Martos's apartment",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "martos_home__bedroom",
+      "room": "Bedroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/martos_home/bedroom.png",
+      "building_id": "martos_home",
+      "building_name": "Martos's apartment",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "martos_home__bathroom",
+      "room": "Bathroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/martos_home/bathroom.png",
+      "building_id": "martos_home",
+      "building_name": "Martos's apartment",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "elias_home__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/elias_home/entrance.png",
+      "building_id": "elias_home",
+      "building_name": "Elias's penthouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "elias_home__kitchen",
+      "room": "Kitchen",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/elias_home/kitchen.png",
+      "building_id": "elias_home",
+      "building_name": "Elias's penthouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "elias_home__script_study",
+      "room": "Script study",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/elias_home/script_study.png",
+      "building_id": "elias_home",
+      "building_name": "Elias's penthouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "elias_home__hall",
+      "room": "Hall",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/elias_home/hall.png",
+      "building_id": "elias_home",
+      "building_name": "Elias's penthouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "elias_home__bedroom",
+      "room": "Bedroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/elias_home/bedroom.png",
+      "building_id": "elias_home",
+      "building_name": "Elias's penthouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "elias_home__bathroom",
+      "room": "Bathroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/elias_home/bathroom.png",
+      "building_id": "elias_home",
+      "building_name": "Elias's penthouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "camila_home__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/camila_home/entrance.png",
+      "building_id": "camila_home",
+      "building_name": "Camila's apartment",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "camila_home__kitchen",
+      "room": "Kitchen",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/camila_home/kitchen.png",
+      "building_id": "camila_home",
+      "building_name": "Camila's apartment",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "camila_home__private_study",
+      "room": "Private study",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/camila_home/private_study.png",
+      "building_id": "camila_home",
+      "building_name": "Camila's apartment",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "camila_home__hall",
+      "room": "Hall",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/camila_home/hall.png",
+      "building_id": "camila_home",
+      "building_name": "Camila's apartment",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "camila_home__bedroom",
+      "room": "Bedroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/camila_home/bedroom.png",
+      "building_id": "camila_home",
+      "building_name": "Camila's apartment",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "camila_home__bathroom",
+      "room": "Bathroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/camila_home/bathroom.png",
+      "building_id": "camila_home",
+      "building_name": "Camila's apartment",
+      "generation_status": "not_started"
+    }
+  ],
+  "existing_references": [
+    {
+      "building_id": "rosa_home",
+      "room": "Communal dining room",
+      "path": "assets/ui/locations/rosa_home.png"
+    },
+    {
+      "building_id": "elliot_home",
+      "room": "Living workroom",
+      "path": "assets/ui/locations/elliot_home.png"
+    },
+    {
+      "building_id": "daniel_home",
+      "room": "Poster hall",
+      "path": "assets/ui/locations/daniel_home.png"
+    },
+    {
+      "building_id": "fox_home",
+      "room": "Equipment workshop",
+      "path": "assets/ui/locations/fox_home.png"
+    },
+    {
+      "building_id": "gordon_home",
+      "room": "Living reading room",
+      "path": "assets/ui/locations/gordon_home.png"
+    },
+    {
+      "building_id": "sylvanis_home",
+      "room": "Bare sitting room",
+      "path": "assets/ui/locations/sylvanis_home.png"
+    },
+    {
+      "building_id": "martos_home",
+      "room": "Living room",
+      "path": "assets/ui/locations/martos_home.png"
+    },
+    {
+      "building_id": "elias_home",
+      "room": "Sitting rehearsal room",
+      "path": "assets/ui/locations/elias_home.png"
+    },
+    {
+      "building_id": "camila_home",
+      "room": "Living chess room",
+      "path": "assets/ui/locations/camila_home.png"
+    }
+  ],
+  "production_started": "2026-11-11",
+  "accepted_count": 1,
+  "generation_paused": true,
+  "paused_date": "2026-11-11",
+  "pause_reason": "User requested all image generation pause.",
+  "generated_count": 4,
+  "status_reason": "User clarified that batch 03, not batch 02, is unfinished. Generation remains paused."
+}

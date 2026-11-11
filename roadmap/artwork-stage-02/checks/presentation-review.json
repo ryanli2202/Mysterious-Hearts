@@ -1,0 +1,323 @@
+{
+  "accepted": true,
+  "scope": "Stage 2 master-art presentation in isolated previews; live integration is not approved or installed by this record.",
+  "assets": [
+    "april",
+    "arthur-finch",
+    "beatrice-cole",
+    "amy",
+    "garrett",
+    "rei",
+    "sophie",
+    "samantha",
+    "yuriko",
+    "maya",
+    "leo",
+    "noah",
+    "iris",
+    "june",
+    "theo",
+    "ada-mensah",
+    "alyssa",
+    "anton-bellamy",
+    "ben-okafor",
+    "callum-webb",
+    "camila",
+    "celeste",
+    "celia-brooks",
+    "charles",
+    "crow",
+    "daichi-kurose",
+    "dana-lin",
+    "daniel",
+    "dante-brooks",
+    "darius-cole",
+    "dev",
+    "elias",
+    "elliot",
+    "emi-suda",
+    "emily",
+    "euan-marsh",
+    "evelyn-mercer",
+    "farah-haddad",
+    "felix-ward",
+    "fox",
+    "gabe-turner",
+    "gordon",
+    "greta-shaw",
+    "hazel-reed",
+    "imani-price",
+    "isabel-vega",
+    "ivan",
+    "jace-mercer",
+    "jonah-price",
+    "joseph-richter",
+    "jules-navarro",
+    "keiko-tan",
+    "keira-shaw",
+    "keisuke-hachimura",
+    "lena",
+    "lucia-serrano",
+    "luz-moreno",
+    "malik-reed",
+    "malik-torres",
+    "mara-voss",
+    "mario-romano",
+    "marta-silva",
+    "martos",
+    "mateo-cruz",
+    "mavis",
+    "mina-cho",
+    "minsu",
+    "nadia-flores",
+    "naomi",
+    "neo",
+    "nessa-quinn",
+    "otis-bell",
+    "owen-pike",
+    "priya-shah",
+    "rafe-calder",
+    "ravi-menon",
+    "ren-aoki",
+    "rina-vale",
+    "robin-vale",
+    "rosa",
+    "samir-dutta",
+    "sasha-quinn",
+    "sylvanis",
+    "takeo",
+    "tess-morgan",
+    "thirteen",
+    "tyler",
+    "valentina",
+    "wren-park",
+    "guard-affiliate",
+    "guard-clubs",
+    "guard-crew_enforcer",
+    "guard-custom_awakened",
+    "guard-custom_robotic",
+    "guard-custom_unawakened",
+    "guard-headhunter",
+    "guard-interpol",
+    "guard-kai_guard",
+    "guard-kai_sentinel",
+    "guard-lookout",
+    "guard-oni",
+    "guard-pmc",
+    "guard-seeker",
+    "guard-spades",
+    "guard-team9",
+    "guard-tengu",
+    "guard-yokai"
+  ],
+  "screenshots": [
+    "selection-garrett-1280x900.png",
+    "selection-rei-1280x900.png",
+    "selection-emily-1280x900.png",
+    "selection-sophie-1280x900.png",
+    "selection-neo-1280x900.png",
+    "selection-garrett-1000x800.png",
+    "selection-rei-1000x800.png",
+    "selection-emily-1000x800.png",
+    "selection-sophie-1000x800.png",
+    "selection-neo-1000x800.png",
+    "loader-roster-01.png",
+    "loader-roster-02.png",
+    "loader-roster-03.png",
+    "loader-roster-04.png",
+    "loader-roster-05.png",
+    "loader-roster-06.png",
+    "loader-roster-07.png",
+    "loader-roster-08.png",
+    "loader-roster-09.png",
+    "solo-1280x900.png",
+    "solo-1000x800.png",
+    "group-1280x900.png",
+    "group-1000x800.png",
+    "resident-arthur-finch.png",
+    "resident-keiko-tan.png",
+    "resident-jonah-price.png",
+    "wardrobe-preview.png",
+    "combat-spades-1280x900.png",
+    "combat-spades-1000x800.png",
+    "combat-team9-1280x900.png",
+    "combat-team9-1000x800.png",
+    "combat-yokai-1280x900.png",
+    "combat-yokai-1000x800.png"
+  ],
+  "findings": [
+    "All 107 masters inspected in nine labelled Game.portrait loader galleries at 150x225 and 86x129. Full heads, complete visible hands, connected thighs, distinct ages/builds and role gear remain readable; no alpha rectangles.",
+    "Ten normal/compact selection and dossier captures preserve readable faces, clothing and labels, including Neo scene routing and current Emily refinement.",
+    "Solo and four-person cafe scenes keep complete silhouettes, speech controls and in-person routing. Preview-only 2:3 fitting improves Garrett/Rei relative stature; legacy captures retained for comparison.",
+    "Arthur Finch, Keiko Tan and Jonah Price render in actual local conversation views at their routines.",
+    "Spades, Team 9 and Yokai render in normal/compact in-person combat; masks stay opaque, local effects do not dominate body fitting, action controls remain visible.",
+    "Wardrobe baseline discards alpha. A preview-only RGBA change displays the complete Ivan cutout on the existing dark slate surface; both captures inspected.",
+    "Headroom varies: every silhouette clears top/sides at alpha>=16, although many margins are tighter than preferred 3-5%. Bottom cutoff may coincide with image edge. No knees, clipped crowns, elbows or fingers accepted."
+  ],
+  "integration_followups": [
+    "At Stage 5, extend path-specific 2:3 known-height fitting to garrett-selection.png (188) and rei-selection.png (184), using reference stature 193; preserve legacy variant fitting. Evaluate final mixed-wardrobe sets then.",
+    "At Stage 5, change lifestyle_ui.Screen.preview to retain RGBA instead of dropping alpha before ImageTk rendering. Preview-only proof is in tests/artwork_stage_02_ui_smoke.py.",
+    "Only install candidates after wardrobe/context stages and path/save checks. Current archives, custom portraits, historical overrides and Richter cybernetic form remain outside Stage 2."
+  ],
+  "comparison_screenshots": [
+    "legacy-wardrobe-preview.png",
+    "legacy-fitting-solo-1280x900.png",
+    "legacy-fitting-solo-1000x800.png",
+    "legacy-fitting-group-1280x900.png",
+    "legacy-fitting-group-1000x800.png"
+  ],
+  "capture_sizes": {
+    "selection-garrett-1280x900.png": [
+      1280,
+      845
+    ],
+    "selection-rei-1280x900.png": [
+      1280,
+      845
+    ],
+    "selection-emily-1280x900.png": [
+      1280,
+      845
+    ],
+    "selection-sophie-1280x900.png": [
+      1280,
+      845
+    ],
+    "selection-neo-1280x900.png": [
+      1280,
+      845
+    ],
+    "selection-garrett-1000x800.png": [
+      1000,
+      800
+    ],
+    "selection-rei-1000x800.png": [
+      1000,
+      800
+    ],
+    "selection-emily-1000x800.png": [
+      1000,
+      800
+    ],
+    "selection-sophie-1000x800.png": [
+      1000,
+      800
+    ],
+    "selection-neo-1000x800.png": [
+      1000,
+      800
+    ],
+    "loader-roster-01.png": [
+      1220,
+      800
+    ],
+    "loader-roster-02.png": [
+      1220,
+      800
+    ],
+    "loader-roster-03.png": [
+      1220,
+      800
+    ],
+    "loader-roster-04.png": [
+      1220,
+      800
+    ],
+    "loader-roster-05.png": [
+      1220,
+      800
+    ],
+    "loader-roster-06.png": [
+      1220,
+      800
+    ],
+    "loader-roster-07.png": [
+      1220,
+      800
+    ],
+    "loader-roster-08.png": [
+      1220,
+      800
+    ],
+    "loader-roster-09.png": [
+      1220,
+      800
+    ],
+    "solo-1280x900.png": [
+      1280,
+      845
+    ],
+    "solo-1000x800.png": [
+      1000,
+      800
+    ],
+    "group-1280x900.png": [
+      1280,
+      845
+    ],
+    "group-1000x800.png": [
+      1000,
+      800
+    ],
+    "resident-arthur-finch.png": [
+      1000,
+      800
+    ],
+    "resident-keiko-tan.png": [
+      1000,
+      800
+    ],
+    "resident-jonah-price.png": [
+      1000,
+      800
+    ],
+    "wardrobe-preview.png": [
+      432,
+      768
+    ],
+    "combat-spades-1280x900.png": [
+      1280,
+      845
+    ],
+    "combat-spades-1000x800.png": [
+      1000,
+      800
+    ],
+    "combat-team9-1280x900.png": [
+      1280,
+      845
+    ],
+    "combat-team9-1000x800.png": [
+      1000,
+      800
+    ],
+    "combat-yokai-1280x900.png": [
+      1280,
+      845
+    ],
+    "combat-yokai-1000x800.png": [
+      1000,
+      800
+    ],
+    "legacy-wardrobe-preview.png": [
+      432,
+      768
+    ],
+    "legacy-fitting-solo-1280x900.png": [
+      1280,
+      845
+    ],
+    "legacy-fitting-solo-1000x800.png": [
+      1000,
+      800
+    ],
+    "legacy-fitting-group-1280x900.png": [
+      1280,
+      845
+    ],
+    "legacy-fitting-group-1000x800.png": [
+      1000,
+      800
+    ]
+  }
+}

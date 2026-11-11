@@ -164,6 +164,7 @@ def initialise(p,who='',custom=None):
 def actions(p):
     book=initialise(p)
     result=copy.deepcopy(UTILITIES)
+    result += copy.deepcopy(p.get('equipment_moves', []))
     result += [MOVES[x] for x in book['learned'] if x in MOVES and (MOVES[x]['tier']!='master' or p['awakened'])]
     if p['awakened']:
         result += [x for x in book['unique'] if x['kind']=='signature' or p.get('trait')]

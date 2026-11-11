@@ -1,0 +1,75 @@
+{
+  "method": "Selected authored route inventory: normal Garrett reunion, Rei leadership before Richter, current Crow defeat; all eligible social prose with sharing/help and April follow-through. Counts each selected paragraph once. Excludes UI, generated text, guard/retry boilerplate and reflection responses. Reading estimates at 200 words/minute exclude gameplay and are not measured playtime.",
+  "routes": {
+    "garrett": {
+      "sections": 42,
+      "words": 10115,
+      "minutes_at_200_wpm": 50.6,
+      "chapters": {
+        "Chapter 1 — The people still at the table": 1384,
+        "Chapter 2 — What a record can prove": 926,
+        "Chapter 3 — A name in Winterfield": 1273,
+        "Chapter 4 — A question only family can answer": 945,
+        "Chapter 5 — The brother behind the door": 1984,
+        "Chapter 6 — Protection is not ownership": 1155,
+        "Chapter 7 — Keeping the exit open": 627,
+        "Chapter 8 — Our own colours": 614,
+        "Chapter 9 — A brother, not a weapon": 632,
+        "Chapter 10 — A meal after closing": 575
+      }
+    },
+    "rei": {
+      "sections": 33,
+      "words": 8299,
+      "minutes_at_200_wpm": 41.5,
+      "chapters": {
+        "Chapter 1 — Two pages on the table": 950,
+        "Chapter 2 — What the paper remembers": 1147,
+        "Chapter 3 — Marcus, beyond what happened": 2556,
+        "Chapter 4 — What is happening now": 652,
+        "Chapter 5 — A name is not an answer": 954,
+        "Resolution A — What to do with the name": 252,
+        "Resolution B — Before the executive door": 1118,
+        "Final chapter — A place in the present": 670
+      }
+    },
+    "fox": {
+      "sections": 40,
+      "words": 8284,
+      "minutes_at_200_wpm": 41.4,
+      "chapters": {
+        "Chapter 1 — The street before the file": 821,
+        "Chapter 2 — A trace is not a person": 880,
+        "Chapter 3 — The number on the crate": 556,
+        "Chapter 4 — The witness is not the bait": 859,
+        "Chapter 5 — The escort that changed hands": 508,
+        "Chapter 6 — The face everyone knows": 518,
+        "Chapter 7 — The clean account": 512,
+        "Chapter 8 — A trace through the crowd": 500,
+        "Chapter 9 — An address is not control": 555,
+        "Chapter 10 — Night Ledger": 891,
+        "Chapter 11 — Account for the living": 1026,
+        "Chapter 12 — The street after the file": 658
+      }
+    },
+    "gordon": {
+      "sections": 40,
+      "words": 7979,
+      "minutes_at_200_wpm": 39.9,
+      "chapters": {
+        "Chapter 1 — The street before the file": 810,
+        "Chapter 2 — A trace is not a person": 865,
+        "Chapter 3 — The number on the crate": 574,
+        "Chapter 4 — The witness is not the bait": 850,
+        "Chapter 5 — The escort that changed hands": 493,
+        "Chapter 6 — The face everyone knows": 525,
+        "Chapter 7 — The clean account": 509,
+        "Chapter 8 — A trace through the crowd": 481,
+        "Chapter 9 — An address is not control": 555,
+        "Chapter 10 — Night Ledger": 855,
+        "Chapter 11 — Account for the living": 839,
+        "Chapter 12 — The street after the file": 623
+      }
+    }
+  }
+}

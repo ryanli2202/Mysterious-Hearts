@@ -1,0 +1,291 @@
+{
+  "roadmap_id": "MH-001",
+  "batch": 2,
+  "created": "2026-11-10",
+  "status": "8 local sprite sheets and GIFs assembled and structurally verified; runtime integration pending.",
+  "generation_tool": "built-in image_gen",
+  "model_verification": "Tool does not expose a model selector or verified model identifier.",
+  "workflow": "Generate sprite sheets first, then slice and encode locally using Pillow.",
+  "grid": {
+    "columns": 3,
+    "rows": 2
+  },
+  "frame_duration_ms": 80,
+  "blank_hold_ms": 720,
+  "background": "opaque dark slate; not transparent",
+  "assets": [
+    {
+      "asset_id": "MH-001-B02-block",
+      "name": "block",
+      "prompt": "Use case: stylized-concept. Production sprite sheet for Mysterious Hearts illustrated RPG combat VFX matching a polished hand-painted anime style, crisp edges, restrained bloom. EXACTLY SIX chronological frames in a precise THREE COLUMN, TWO ROW grid, row-major reading order. Canvas 1536x1024. Each cell 512x512 with fixed camera and no camera shake. Flat opaque dark slate #101824 background. No panels, gutters, borders, labels, words, symbols, UI, scenery or watermark. Keep ALL artwork within each cell's central 75%, leaving generous margins; no overlapping neighbouring cells. Finite 480ms animation, six poses, one pose per cell. A physical guard contact effect, no people or weapons. Steel-blue curved upright guard arc fixed just right of centre. Frame 1 short incoming thin streak approaches from left; 2 streak meets arc; 3 small amber contact sparks deflect upward and downward from the intact guard; 4 incoming trail is gone while deflected sparks shorten; 5 arc and sparks dim; 6 near-blank faint arc. No full shield dome, explosion, damage, cracks or lightning.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-72cf98ac-93ef-4639-a18d-fd0a4b849b21.png",
+      "sheet": "spritesheets/block.png",
+      "gif": "gifs/block.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1200,
+        "action_duration_ms": 480,
+        "frame_durations_ms": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "c8b4333ffefc9d745ea091aa3b558e87b308bad9b242392da49ef9b0e1c81b0f",
+        "sha256_gif": "82e74011826dbe3cb8b665576a42c97a1ab15ae8b7c5665de8ae3f4d012f1060"
+      }
+    },
+    {
+      "asset_id": "MH-001-B02-dodge",
+      "name": "dodge",
+      "prompt": "Use case: stylized-concept. Production sprite sheet for Mysterious Hearts illustrated RPG combat VFX matching a polished hand-painted anime style, crisp edges, restrained bloom. EXACTLY SIX chronological frames in a precise THREE COLUMN, TWO ROW grid, row-major reading order. Canvas 1536x1024. Each cell 512x512 with fixed camera and no camera shake. Flat opaque dark slate #101824 background. No panels, gutters, borders, labels, words, symbols, UI, scenery or watermark. Keep ALL artwork within each cell's central 75%, leaving generous margins; no overlapping neighbouring cells. Finite 480ms animation, six poses, one pose per cell. A neutral faceless blue-grey adult martial artist action silhouette makes one quick sideways evasive lean to the right, feet grounded. This is a generic ephemeral pose cue, not a named character or portrait. Frame 1 upright compact guard pose at centre; 2 starts leaning right; 3 strongest sideways lean with short pale blue air smear behind; 4 settles at right; 5 silhouette and smear fade; 6 almost gone. Full body comfortably within each cell. No incoming weapon, hit spark, teleport magic, duplicate solid bodies or environmental destruction.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-2f3a3764-b737-4698-a4de-201456179c31.png",
+      "sheet": "spritesheets/dodge.png",
+      "gif": "gifs/dodge.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1200,
+        "action_duration_ms": 480,
+        "frame_durations_ms": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "e38a98cdff4878a340143d80e361f5db14f26d2ced128c082570eeb7c33a8630",
+        "sha256_gif": "d4ad924c07aeccf73cf0b83aa3f87cd5f0ccc0aceddeed1767bee55fec5f3511"
+      }
+    },
+    {
+      "asset_id": "MH-001-B02-miss",
+      "name": "miss",
+      "prompt": "Use case: stylized-concept. Production sprite sheet for Mysterious Hearts illustrated RPG combat VFX matching a polished hand-painted anime style, crisp edges, restrained bloom. EXACTLY SIX chronological frames in a precise THREE COLUMN, TWO ROW grid, row-major reading order. Canvas 1536x1024. Each cell 512x512 with fixed camera and no camera shake. Flat opaque dark slate #101824 background. No panels, gutters, borders, labels, words, symbols, UI, scenery or watermark. Keep ALL artwork within each cell's central 75%, leaving generous margins; no overlapping neighbouring cells. Finite 480ms animation, six poses, one pose per cell. An empty-space attack whiff, pale steel-blue thin diagonal slashing air trail travels past an empty target centre toward upper right without contact. Frame 1 small streak lower left; 2 thin growing streak crosses centre; 3 strongest slender sweep beyond centre; 4 broken trails toward upper right; 5 faint wisp; 6 almost blank. No person, target icon, contact burst, impact ring, sparks or lettering. Clearly a harmless passing trail, not a successful hit.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-56fd89e1-fb80-4ef4-989e-e7722bf68445.png",
+      "sheet": "spritesheets/miss.png",
+      "gif": "gifs/miss.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1200,
+        "action_duration_ms": 480,
+        "frame_durations_ms": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "13956fe15a86d69925a042ec52d3b5a0256dc7618c4dc162c80ecfb0970d9a4a",
+        "sha256_gif": "87fbb4b3e0412b9712ee0efd408488c8628f51e4cc00ca3f18e5849cb40693b5"
+      }
+    },
+    {
+      "asset_id": "MH-001-B02-critical-emphasis",
+      "name": "critical-emphasis",
+      "prompt": "Use case: stylized-concept. Production sprite sheet for Mysterious Hearts illustrated RPG combat VFX matching a polished hand-painted anime style, crisp edges, restrained bloom. EXACTLY SIX chronological frames in a precise THREE COLUMN, TWO ROW grid, row-major reading order. Canvas 1536x1024. Each cell 512x512 with fixed camera and no camera shake. Flat opaque dark slate #101824 background. No panels, gutters, borders, labels, words, symbols, UI, scenery or watermark. Keep ALL artwork within each cell's central 75%, leaving generous margins; no overlapping neighbouring cells. Finite 480ms animation, six poses, one pose per cell. One compact golden-orange physical critical-impact emphasis at identical centre in every cell, no people. Frame 1 tiny four-point compression; 2 builds sharp angular rays; 3 one strong compact four-point starburst encircled by a narrow broken pressure ring; 4 star collapses and short sparks radiate outward; 5 tiny fading sparks; 6 almost blank. Controlled warm gold glow, no fullscreen flash, lightning, fire, debris, repeated hits or text.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-0e8ed2f4-a6c1-45c3-9e07-ed17e392cafd.png",
+      "sheet": "spritesheets/critical-emphasis.png",
+      "gif": "gifs/critical-emphasis.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1200,
+        "action_duration_ms": 480,
+        "frame_durations_ms": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "6fa70f8f2f0a41c2c2ecc639d5e17845777c0373b81f8b8d82db554cd401a3c9",
+        "sha256_gif": "e8c1f7be2a088fe6203f7df460b1455c5cabb8d9ab01eb5fdd4f76c19cb59494"
+      }
+    },
+    {
+      "asset_id": "MH-001-B02-casting-glow",
+      "name": "casting-glow",
+      "prompt": "Use case: stylized-concept. Production sprite sheet for Mysterious Hearts illustrated RPG combat VFX matching a polished hand-painted anime style, crisp edges, restrained bloom. EXACTLY SIX chronological frames in a precise THREE COLUMN, TWO ROW grid, row-major reading order. Canvas 1536x1024. Each cell 512x512 with fixed camera and no camera shake. Flat opaque dark slate #101824 background. No panels, gutters, borders, labels, words, symbols, UI, scenery or watermark. Keep ALL artwork within each cell's central 75%, leaving generous margins; no overlapping neighbouring cells. Finite 480ms animation, six poses, one pose per cell. A violet casting anticipation effect centred in every cell, a gathering light rather than an impact. Frame 1 three dim violet motes; 2 motes curl inward; 3 two curved wisps orbit a small softly glowing core; 4 light compresses to a compact bright pearl; 5 wisps and core dim; 6 almost gone. No outward explosion, readable runes, magic circle text, person, hands or projectile. Restrained violet bloom.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-5ed59345-a100-46b3-9d7f-4361cd1cd2c0.png",
+      "sheet": "spritesheets/casting-glow.png",
+      "gif": "gifs/casting-glow.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1200,
+        "action_duration_ms": 480,
+        "frame_durations_ms": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "b8a155a4baca8267b412b6fd2c957535b510b3d2bd0e743770dfbe63132c0835",
+        "sha256_gif": "6738c8654700d08642f1f4970596ba6c7850cf288eca8378dacc6c73d7dd2f4d"
+      }
+    },
+    {
+      "asset_id": "MH-001-B02-buff-particles",
+      "name": "buff-particles",
+      "prompt": "Use case: stylized-concept. Production sprite sheet for Mysterious Hearts illustrated RPG combat VFX matching a polished hand-painted anime style, crisp edges, restrained bloom. EXACTLY SIX chronological frames in a precise THREE COLUMN, TWO ROW grid, row-major reading order. Canvas 1536x1024. Each cell 512x512 with fixed camera and no camera shake. Flat opaque dark slate #101824 background. No panels, gutters, borders, labels, words, symbols, UI, scenery or watermark. Keep ALL artwork within each cell's central 75%, leaving generous margins; no overlapping neighbouring cells. Finite 480ms animation, six poses, one pose per cell. A positive temporary enhancement cue: warm golden motes rise in two parallel loose columns around an empty central space, no body. Frame 1 small low golden dots; 2 dots rise and brighten; 3 small diamond-shaped glints gather at midheight; 4 glints drift upward; 5 fewer dim glints near upper area; 6 almost blank. No green leaves, healing ribbons, arrows, lettering, explosion or full-screen light.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-98f9a2a6-67db-420f-a995-f50f0ac3eec6.png",
+      "sheet": "spritesheets/buff-particles.png",
+      "gif": "gifs/buff-particles.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1200,
+        "action_duration_ms": 480,
+        "frame_durations_ms": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "173647f87c7cfb83cdd7c14985c48f58d91f29bee7bcf8ab8ffd691457a1b3ac",
+        "sha256_gif": "7326627a1a20c471f82f7a4904354181b8e5c515c27a69dd83070173f43ded81"
+      }
+    },
+    {
+      "asset_id": "MH-001-B02-recoil",
+      "name": "recoil",
+      "prompt": "Use case: stylized-concept. Production sprite sheet for Mysterious Hearts illustrated RPG combat VFX matching a polished hand-painted anime style, crisp edges, restrained bloom. EXACTLY SIX chronological frames in a precise THREE COLUMN, TWO ROW grid, row-major reading order. Canvas 1536x1024. Each cell 512x512 with fixed camera and no camera shake. Flat opaque dark slate #101824 background. No panels, gutters, borders, labels, words, symbols, UI, scenery or watermark. Keep ALL artwork within each cell's central 75%, leaving generous margins; no overlapping neighbouring cells. Finite 480ms animation, six poses, one pose per cell. A neutral faceless blue-grey adult martial artist silhouette reacts to one resolved physical hit, generic ephemeral full-body pose cue with no identity. Six frames: 1 upright guarded stance at centre; 2 shoulders and torso jerk slightly right; 3 strongest backward lean to right, feet remain grounded with two short pale-blue motion ticks near left shoulder; 4 torso starts returning toward centre; 5 upright ghosted silhouette fades; 6 nearly gone. No attacker, extra hit, blood, injury, fall, explosion or supernatural glow. Keep full body within central 70% of every cell.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-469d1513-7d96-4928-ac03-20689ffd92ce.png",
+      "sheet": "spritesheets/recoil.png",
+      "gif": "gifs/recoil.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1200,
+        "action_duration_ms": 480,
+        "frame_durations_ms": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "2b549df50095ccc03ec39b14e739f59c6052d1122d3bb1dfc807b4a2186643d1",
+        "sha256_gif": "5fdd6a52388bc25e59c44eeb37ceeeafddfc24f473b37f09c4a461efe6cbefe1"
+      }
+    },
+    {
+      "asset_id": "MH-001-B02-weapon-trails",
+      "name": "weapon-trails",
+      "prompt": "Use case: stylized-concept. Production sprite sheet for Mysterious Hearts illustrated RPG combat VFX matching a polished hand-painted anime style, crisp edges, restrained bloom. EXACTLY SIX chronological frames in a precise THREE COLUMN, TWO ROW grid, row-major reading order. Canvas 1536x1024. Each cell 512x512 with fixed camera and no camera shake. Flat opaque dark slate #101824 background. No panels, gutters, borders, labels, words, symbols, UI, scenery or watermark. Keep ALL artwork within each cell's central 75%, leaving generous margins; no overlapping neighbouring cells. Finite 480ms animation, six poses, one pose per cell. A single physical weapon follow-through ribbon, pale steel-blue, thin tapered curved stroke. Six frames: 1 short stroke at lower left; 2 lengthens into ascending diagonal arc; 3 narrow long curved ribbon sweeps through upper right; 4 trailing two parallel tapered wisps continue same direction; 5 short dim leftover wisp; 6 almost blank. No weapon itself, person, contact burst, thick slash blade, magic, lightning or explosion. This is the lighter trailing layer behind a weapon swing, not an impact.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-34c7dffa-d277-419b-bc07-f94d842eee55.png",
+      "sheet": "spritesheets/weapon-trails.png",
+      "gif": "gifs/weapon-trails.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1200,
+        "action_duration_ms": 480,
+        "frame_durations_ms": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "d45939bea78228c50788ee1c5a4d688941eed872eebb8dbe2ba5c0258a3e45aa",
+        "sha256_gif": "9bd6ec3feb3b12637c0d46648fa77611d1cf3cdd33b5d612e2c27ac39f1d438f"
+      }
+    }
+  ],
+  "validation_command": "python tools/build_combat_batch_gifs.py --batch 2"
+}

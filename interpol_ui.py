@@ -64,51 +64,16 @@ def bubblegram_header(parent,game):
     RecordPanel(parent,game,compact=True)
 
 
-class InterpolView(tk.Frame):
-    def __init__(self,parent,game):
-        super().__init__(parent,bg=ui.INK,padx=16,pady=12)
-        self.game=game;self.page='Cases';self.notice='';self.selection=None
-        ttk.Label(self,text='INTERPOL · AWAKENED OPERATIONS',font=('Segoe UI',20,'bold')).pack(anchor='w')
-        label(self,'IN PERSON · Regional casework, enforcement and field operations')
-        nav=ttk.Frame(self);nav.pack(fill='x',pady=4)
-        for name in ('Cases','Operations','Law & fines','Organisation'):
-            ttk.Button(nav,text=name,command=lambda n=name:self.change(n)).pack(side='left',padx=3)
-        ttk.Button(nav,text='Return to location',command=self.leave).pack(side='right')
-        self.canvas=tk.Canvas(self,bg=ui.INK,highlightthickness=0)
-        scroll=ttk.Scrollbar(self,command=self.canvas.yview);scroll.pack(side='right',fill='y')
-        self.canvas.pack(fill='both',expand=True);self.canvas.configure(yscrollcommand=scroll.set)
-        self.body=ttk.Frame(self.canvas,padding=8);item=self.canvas.create_window(0,0,window=self.body,anchor='nw')
-        self.body.bind('<Configure>',lambda e:self.canvas.configure(scrollregion=self.canvas.bbox('all')))
-        self.canvas.bind('<Configure>',lambda e:self.canvas.itemconfigure(item,width=e.width))
-        self.canvas.bind('<MouseWheel>',lambda e:self.canvas.yview_scroll(-int(e.delta/120),'units'))
-
-    def change(self,name):self.page=name;self.draw();self.canvas.yview_moveto(0)
+class CaseBoard:
+    """Shared case controls for the Interpol window and protagonist Story tab."""
+    def __init__(self,parent,game,act):
+        self.body=parent;self.game=game;self.act=act
 
     def button(self,text,fn,*args,enabled=True):
-        b=ttk.Button(self.body,text=text,command=lambda:self.act(fn,*args),state='normal' if enabled and not self.game.busy else 'disabled')
-        b.pack(fill='x',pady=4);return b
-
-    def act(self,fn,*args):
-        if self.game.busy:return
-        try:self.notice=fn(self.game.state_data,*args) or '';self.game.persist()
-        except ValueError as exc:self.notice=str(exc)
-        self.game.clock_label.configure(text=town.loop.clock(self.game.state_data)+f' · ${self.game.state_data["world"]["money"]:,}')
-        self.draw()
-        import combat
-        if combat.active(self.game.state_data):
-            import combat_ui
-            combat_ui.open_combat(self.game)
-
-    def draw(self):
-        for w in self.body.winfo_children():w.destroy()
-        s=self.game.state_data;d=law.ensure(s)
-        label(self.body,town.loop.clock(s)+' · '+town.location_name(s,s['world']['location']),True)
-        if self.notice:label(self.body,self.notice,True)
-        if self.page=='Law & fines':self.enforcement(s,d)
-        elif self.page=='Organisation':self.organisation(s,d)
-        elif self.page=='Operations':self.operations(s,d)
-        else:self.cases(s,d)
-        phone_theme.apply_tree(self)
+        b=ttk.Button(self.body,text=text,command=lambda:self.act(fn,*args),
+                     state='normal' if enabled and not self.game.busy else 'disabled')
+        b.pack(fill='x',pady=4)
+        return b
 
     def desk(self,s):
         if s['world']['location']!='interpol_hq':self.button('Travel to Interpol public desk',town.travel,'interpol_hq')
@@ -134,6 +99,7 @@ class InterpolView(tk.Frame):
             for entry in file['evidence']:label(self.body,entry['title']+'\n'+entry['finding'])
 
     def cases(self,s,d):
+        __import__('campaign_prose_ui').board(self.body,self.game,self.act)
         if d['active']:self.active(s,d);return
         self.desk(s)
         for key,spec in law.CASES.items():
@@ -146,11 +112,66 @@ class InterpolView(tk.Frame):
             elif ready:self.button('Resume case' if file else 'Assemble this case team',law.begin,key)
             else:label(self.body,'Requires: '+', '.join(law.CASES[k]['title'] for k in spec['requires']))
 
+
+
+class InterpolView(tk.Frame, CaseBoard):
+    def __init__(self,parent,game):
+        super().__init__(parent,bg=ui.INK,padx=16,pady=12)
+        self.game=game;self.page='Cases';self.notice='';self.selection=None
+        ttk.Label(self,text='INTERPOL · AWAKENED OPERATIONS',font=('Segoe UI',20,'bold')).pack(anchor='w')
+        label(self,'IN PERSON · Regional casework, enforcement and field operations')
+        nav=ttk.Frame(self);nav.pack(fill='x',pady=4)
+        for name in ('Cases','Operations','Law & fines','Organisation'):
+            ttk.Button(nav,text=name,command=lambda n=name:self.change(n)).pack(side='left',padx=3)
+        ttk.Button(nav,text='Return to location',command=self.leave).pack(side='right')
+        self.canvas=tk.Canvas(self,bg=ui.INK,highlightthickness=0)
+        scroll=ttk.Scrollbar(self,command=self.canvas.yview);scroll.pack(side='right',fill='y')
+        self.canvas.pack(fill='both',expand=True);self.canvas.configure(yscrollcommand=scroll.set)
+        self.body=ttk.Frame(self.canvas,padding=8);item=self.canvas.create_window(0,0,window=self.body,anchor='nw')
+        self.body.bind('<Configure>',lambda e:self.canvas.configure(scrollregion=self.canvas.bbox('all')))
+        self.canvas.bind('<Configure>',lambda e:self.canvas.itemconfigure(item,width=e.width))
+        self.canvas.bind('<MouseWheel>',lambda e:self.canvas.yview_scroll(-int(e.delta/120),'units'))
+
+    def change(self,name):self.page=name;self.draw();self.canvas.yview_moveto(0)
+
+    def button(self,text,fn,*args,enabled=True):
+        b=ttk.Button(self.body,text=text,command=lambda:self.act(fn,*args),state='normal' if enabled and not self.game.busy else 'disabled')
+        b.pack(fill='x',pady=4);return b
+
+    def act(self,fn,*args):
+        if self.game.busy:return
+        try:
+            if __import__('campaign_dialogue').maybe_open(self.game,fn,args):return
+            self.notice=fn(self.game.state_data,*args) or '';self.game.persist()
+        except ValueError as exc:self.notice=str(exc)
+        self.game.clock_label.configure(text=town.loop.clock(self.game.state_data)+f' · ${self.game.state_data["world"]["money"]:,}')
+        self.draw()
+        import combat
+        if combat.active(self.game.state_data):
+            import combat_ui
+            combat_ui.open_combat(self.game)
+
+    def draw(self):
+        for w in self.body.winfo_children():w.destroy()
+        s=self.game.state_data;d=law.ensure(s)
+        label(self.body,town.loop.clock(s)+' · '+town.location_name(s,s['world']['location']),True)
+        if self.notice:label(self.body,self.notice,True)
+        if self.page=='Law & fines':self.enforcement(s,d)
+        elif self.page=='Organisation':self.organisation(s,d)
+        elif self.page=='Operations':self.operations(s,d)
+        else:self.cases(s,d)
+        phone_theme.apply_tree(self)
+
     def operations(self,s,d):
         if d['active']:self.active(s,d);return
         self.desk(s)
         label(self.body,'Repeatable field operations unlock after the Blackhaven case. One successful operation of each type per story day. Combat outcomes are real; failure retains the objective for a later attempt.')
         for key,spec in law.OPERATIONS.items():
+            if spec.get('post_story'):
+                label(self.body,spec['title']+'\n'+spec['brief'])
+                if s['player'] not in ('fox','gordon') or not d['files'].get('crow_operation',{}).get('complete'):
+                    label(self.body,'Requires completing Night Ledger as Fox or Gordon.');continue
+                label(self.body,'Repeatable local disruption. No Crow rematch, new Ace reveal or permanent Syndicate defeat.')
             self.button(spec['title']+' · assemble at public desk',law.begin,key,True)
         for faction,until in d['disruption'].items():
             if until>s['world']['minute']:label(self.body,f'{faction.title()} commissions disrupted for {until-s["world"]["minute"]} more story minutes.')

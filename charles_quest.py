@@ -16,6 +16,9 @@ STEPS = (
  ('Choose what comes next',LAB,'You know the truth now. Charles asks you not to expose his cover. You can support him without pretending his silence was fair.',('Protect the cover and agree to keep in touch','Protect the cover, but demand honest boundaries'),'You agree to private direct texts. Brief written check-ins through the existing document channel remain an optional fallback. He remains at the lab. The search is resolved: he is alive, and you know why he disappeared. His mission remains unfinished and private.'),
 )
 
+import garrett_chapters
+STEPS += garrett_chapters.STEPS
+
 
 def read(s):
     if 'charles_quest' in s: return s['charles_quest']
@@ -40,14 +43,20 @@ def reunited(s):
 
 
 def objective(s):
+    import campaign_flashbacks
+    memory=campaign_flashbacks.pending(s)
+    if memory:
+        scene=campaign_flashbacks.SCENES[memory]
+        return scene['title'],campaign_flashbacks.venue(s,memory),'Read this chapter memory in the in-person window before continuing.'
     d=read(s)
-    if d['step']>=len(STEPS): return ('Written check-in','noodle_shop','The search is complete. Read a new note here once per story day.')
+    if d['step']>=len(STEPS): return ('An anchor in Winterfield','noodle_shop','Garrett’s story is complete. The Red Dragons’ civilian-protection commitment continues. Read a new family note once per story day.')
     title,venue,question,*_=STEPS[d['step']]
     return title,venue,question
 
 
-def guard(s,venue,private=False):
+def guard(s,venue,private=False,memories=True):
     if s['player']!='garrett': raise ValueError('This investigation belongs to Garrett’s story.')
+    if memories:__import__('campaign_flashbacks').require(s)
     actor=s['world']['cast']['garrett']
     if s['world']['location']!=venue or actor['location']!=venue or actor.get('journey'):
         raise ValueError('Visit the current objective in person before proceeding.')
@@ -55,7 +64,7 @@ def guard(s,venue,private=False):
     if private:
         now=s['world']['minute']%1440
         if not 19*60<=now<23*60: raise ValueError('Charles’s private visitor window is 19:00–23:00.')
-        if s['world'].get('party') or s['world'].get('npcs') or any(who not in ('garrett','charles') and a['location']==LAB and not a.get('journey') for who,a in s['world']['cast'].items()):
+        if s['world'].get('party') or any(not n.startswith('Post guard · ') for n in s['world'].get('npcs',[])) or any(who not in ('garrett','charles') and a['location']==LAB and not a.get('journey') for who,a in s['world']['cast'].items()):
             raise ValueError('Wait until you and Charles are alone. No sensitive discussion with other listeners.')
         charles=s['world']['cast']['charles']
         if charles['location']!=LAB or charles.get('journey'): raise ValueError('Charles must be here.')
@@ -66,7 +75,17 @@ def advance(s,choice):
     if step>=len(STEPS): raise ValueError('The search is already resolved.')
     if type(choice) is not int or choice not in (0,1): raise ValueError('Choose one of the current responses.')
     title,venue,question,options,finding=STEPS[step]
-    guard(s,venue,step>=9)
+    guard(s,venue,venue==LAB)
+    import combat, organisation_guards as security
+    combat.guard(s)
+    if step in (6,9) and security.remaining(s,venue,'charles:search'):
+        raise ValueError('Defeat the Syndicate guards at this location before continuing the search.')
+    if step in garrett_chapters.BATTLES and garrett_chapters.remaining(s,step):
+        raise ValueError('Defeat the civilian-protection mission detail before resolving this chapter.')
+    if step==11 and s['world'].get('party'):
+        raise ValueError('Take this private moment at home alone.')
+    if step==9 and 'charles' not in security.data(s)['victories'].get('charles:finale',[]):
+        raise ValueError('Charles refuses to return to your life. Defeat him in the private confrontation before reconciliation.')
     day=s['world']['minute']//1440
     if day<d.get('retry_day',-1): raise ValueError('The contact needs until the next story day before another enquiry.')
     if 2<=step<=8 and day<=d['last_day']: raise ValueError('The next document response arrives on the next story day.')
@@ -76,6 +95,9 @@ def advance(s,choice):
         d['choices'].append(dict(step=step,choice=options[choice],day=day,outcome='unverified'))
         return ('That does not establish the connection. The enquiry pauses; retry tomorrow with the document evidence.' if step!=8 else 'The reply cannot authenticate you. Review the family memory and try again tomorrow.')
     if step==9:
+        finding += (' You defeated Charles after he tried to force you away for your protection. '
+                    '“You do not have to carry my safety alone,” Garrett says. Charles accepts that his brother can stand beside him. '
+                    'Only now does he share his private number.')
         finding += ('\n\nCharles sets down the file. “I thought keeping you out of it would keep you safe. It left you searching instead.” '
                     'He looks at the old slip. “I came here deliberately. Sylvanis thinks I work for him. I needed to get close enough to understand what happened to our parents.” '
                     'He offers no proof against a named killer and no promise of a quick end.')
@@ -84,6 +106,7 @@ def advance(s,choice):
     if step==10:
         finding += ('\n\n“I will keep your cover,” you say. “But you write. Even if all you can say is that you are still here.” Charles agrees. A quiet alliance replaces the silence.' if choice==0 else
                     '\n\n“I will not expose you. That does not make the silence all right.” Charles accepts that forgiveness cannot be demanded. The reunion ends with firm boundaries and a promise to write.')
+    finding += garrett_chapters.consequences(d,step,choice)
     d['evidence'].append(dict(title=title,finding=finding,day=day))
     d['choices'].append(dict(step=step,choice=options[choice],day=day,outcome='verified'))
     d.update(step=step+1,last_day=day,retry_day=-1)
@@ -102,7 +125,7 @@ def advance(s,choice):
 def check_in(s):
     guard(s,'noodle_shop')
     d=read(s);day=s['world']['minute']//1440
-    if d['step']<len(STEPS): raise ValueError('Finish the reunion first.')
+    if d['step']<11: raise ValueError('Finish the reunion first.')
     if d['checkins'] and d['checkins'][-1]['day']==day: raise ValueError('No further note has arrived today.')
     notes=('“Still here. I have not forgotten our agreement.” Charles gives no operational details.',
            '“You were right about the broth. Toast them first.” A small ordinary answer, after so much silence.',
@@ -121,13 +144,14 @@ def knowledge(s,who,listeners=()):
         return ('Garrett’s verified search evidence: '+ ' '.join(r['finding'] for r in d['evidence']) + ' His brother’s true purpose is still unknown to Garrett.') if who=='garrett' else ''
     shared=bool(listeners) and set(listeners)<= {'garrett','charles'}
     return ('Authoritative completed reunion overrides earlier missing-brother assumptions: Garrett has met Charles alive in the lab. '+
+            ('Saved Red Dragons commitments: '+str(d.get('red_dragons',{}))+'. ' if shared else '')+
             ('The brothers privately discussed Charles’s undercover mission to avenge their parents. ' if shared else 'Do not disclose the location, infiltration, revenge motive or cover to these listeners. ')+
             'Charles shares his private number only with Sylvanis and, after this reunion, Garrett. Direct private texts are allowed; no group messages. He remains in the laboratory. No death, extraction or completed revenge occurred. Ending: '+str(d.get('ending') or 'reunion in progress')+'.')
 
 
 def recognise(s):
     """A legitimate early lab visitor need not pretend not to see his brother."""
-    guard(s,LAB,True)
+    guard(s,LAB,True,memories=False)
     import criminal_dynamics, hidden_cast
     if not criminal_dynamics.lab_access('garrett',s): raise ValueError('You need existing laboratory clearance.')
     if read(s)['step']>=9: raise ValueError('The reunion is already available.')
@@ -135,3 +159,24 @@ def recognise(s):
     d['evidence'].append(dict(title='Direct encounter',finding='You saw Charles alive in the Glasshouse. The unvisited documentary trail is not treated as completed.',day=s['world']['minute']//1440))
     hidden_cast.mark_met(s,'charles')
     return 'You recognise your brother. Ask him privately why he disappeared.'
+
+
+def security_action(s):
+    """Unfinished saves gain combat gates; already shared contacts remain valid."""
+    import combat, organisation_guards as security
+    step=read(s)['step']
+    if step in garrett_chapters.BATTLES:
+        guard(s,STEPS[step][1]); combat.guard(s)
+        return garrett_chapters.fight(s,step)
+    if step not in (6,9): raise ValueError('No combat objective in this chapter.')
+    venue=STEPS[step][1]; guard(s,venue,step==9)
+    if security.remaining(s,venue,'charles:search'):
+        return security.begin(s,venue,'charles:search')
+    if step==9 and 'charles' not in security.data(s)['victories'].get('charles:finale',[]):
+        text=('Charles blocks the doorway. “If you stay in my life, they can use you against me. Go home.” '
+              'Garrett refuses. “Let me prove I do not need you to disappear to keep me safe.” '
+              'Charles takes his stance, fighting to drive Garrett away. Reconciliation requires Garrett to win.')
+        result=security.start(s,'charles',copy.deepcopy(combat.profile(s,'charles')),'charles:finale')
+        combat.active(s)['log'].append(text)
+        return text+' '+result
+    raise ValueError('The guards and confrontation are resolved. Continue the conversation.')

@@ -1,0 +1,16 @@
+{
+  "shot_id": "RD01-S01",
+  "tool": "built-in image_gen",
+  "steps": [
+    {
+      "prompt": "Use case: illustration-story. Create ONE complete landscape 16:9 visual-novel scene illustration for Mysterious Hearts, Rei campaign shot RD01-S01, 'The notebook he already owned'. The supplied local portrait is an IDENTITY AND DRAWING-STYLE REFERENCE ONLY; create an entirely new full scene, not a portrait cutout. Adult Japanese man Rei Takamura, 21, shaggy layered black hair, grey-dark eyes, silver paired lip piercings and ear piercings, intricate black neck tattoos; black open-collar shirt. At home in his quiet contemporary apartment at a wooden drawing table, he carefully opens an old plain school notebook already in his possession; fingertip hovering beside faint childhood handwriting, face thoughtful, slightly tense. A second sketch lies closed beside him, pencil nearby. Three-quarter side-view medium-wide composition, Rei left of center, notebook and hands clearly readable in the middle, simple warm apartment with window at right, subdued cool afternoon daylight balanced with a small warm desk lamp. Emphasize the physical action of recognition and his present room; show no childhood abuse, no ghosts, no memory montage, no extra people. Polished semi-realistic illustrated manhwa matching reference identity, natural proportions and restrained eyes, fine tapered contour lines, designed soft shadows, detailed hair, painterly room depth, never photographic or 3D. Full scenic opaque background, horizontal wide shot, all important action above bottom 18% which stays visually quiet for future narration overlay. No UI, captions, readable writing, logos, signature, watermark, frame or panel divisions. Text on paper only indistinct marks. No new story facts.",
+      "source": "C:/Users/ryanl/.codex/generated_images/01a1c7d8-b9fd-7903-9cf1-56e2202a90ff/exec-e12feed8-5c4f-48d9-80e3-bcc5c1c585a7.png",
+      "status": "rejected: exposed forearms missing tattoos"
+    },
+    {
+      "prompt": "Edit image 1 only. Correct Rei's missing arm tattoos. Reference image 2 defines his actual intricate black dragon/floral/thorn tattoos and their placement on BOTH arms, right and left upper arms and forearms down almost to the wrists. In image 1, BOTH exposed forearms must visibly carry this fine dark winding thorn/dragon/floral ink, following their cylindrical anatomy, foreshortening and existing scene lighting. Preserve his face, hair, paired lip piercings, neck and chest tattoos, pose, hands, bracelets, clothing, notebook, room, image dimensions, composition and style exactly. Apply ink to exposed arm skin only, never to the black sleeves, hand surfaces or jewellery. Keep organic linework and skin gaps matching reference 2; no generic tribal black bands. Do not copy reference 2's bare torso, shorts, background or pose. No added text or watermark.",
+      "source": "C:/Users/ryanl/.codex/generated_images/01a1c7d8-b9fd-7903-9cf1-56e2202a90ff/exec-f39431c9-8531-4a9e-bbd1-c9e81bd97147.png",
+      "status": "accepted: both exposed forearms now carry reference-matched winding dark ink"
+    }
+  ]
+}

@@ -96,6 +96,16 @@ def saves(game):
         if game.state_data: game.persist()
         win.destroy()
         activate_story(game, state)
+    def preview():
+        path = selected()
+        if not path: return
+        # Raw snapshot only: core.load performs gameplay migrations and registry
+        # installation, neither of which belongs to a read-only library preview.
+        import character_dossier
+        state = json.loads(path.read_text(encoding='utf-8'))
+        dossier = character_dossier.saved(state, path.relative_to(core.SAVE.parent).as_posix())
+        text_window(win, 'Saved progress · '+dossier['name'],
+                    '\n\n'.join(character_dossier.text(dossier, tab) for tab in ('Overview','Details','Awakened')))
     def rename():
         path = selected()
         if not path: return
@@ -140,7 +150,7 @@ def saves(game):
         if source:
             save_system.import_story(source, core.ROOT, core.SAVE.parent); refresh()
     bar = ttk.Frame(win); bar.pack(fill='x', padx=12, pady=6)
-    for title, fn in [('Save named copy',snapshot),('Load / restore',load),('Rename',rename),('Export with photos',export),('Import',import_bundle)]:
+    for title, fn in [('Save named copy',snapshot),('Load / restore',load),('Saved progress',preview),('Rename',rename),('Export with photos',export),('Import',import_bundle)]:
         ttk.Button(bar,text=title,command=lambda f=fn:guarded(f)).pack(side='left',padx=4)
     danger = ttk.Frame(win); danger.pack(fill='x', padx=12, pady=6)
     for title, fn in [('Delete selected story',remove),('Clear all saves',lambda:remove(True))]:

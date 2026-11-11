@@ -1,0 +1,1 @@
+PASS: phone modes, romance wheel, preferences, reference request, app switching, auto-gallery, preview, compact layout

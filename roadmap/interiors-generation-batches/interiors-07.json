@@ -1,0 +1,560 @@
+{
+  "batch_id": "interiors-07",
+  "title": "Outskirts, waterfront and crew properties",
+  "status": "planned",
+  "images": [
+    {
+      "id": "hill_tea_room__entrance_counter_view",
+      "room": "Entrance counter view",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/hill_tea_room/entrance_counter_view.png",
+      "building_id": "hill_tea_room",
+      "building_name": "Hillside Tea Room",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "hill_tea_room__staff_kitchen",
+      "room": "Staff kitchen",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/hill_tea_room/staff_kitchen.png",
+      "building_id": "hill_tea_room",
+      "building_name": "Hillside Tea Room",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "hill_tea_room__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/hill_tea_room/restroom.png",
+      "building_id": "hill_tea_room",
+      "building_name": "Hillside Tea Room",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "farm_shop__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/farm_shop/entrance.png",
+      "building_id": "farm_shop",
+      "building_name": "Westbrook farm shop",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "farm_shop__staff_store",
+      "room": "Staff store",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/farm_shop/staff_store.png",
+      "building_id": "farm_shop",
+      "building_name": "Westbrook farm shop",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "farm_shop__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/farm_shop/restroom.png",
+      "building_id": "farm_shop",
+      "building_name": "Westbrook farm shop",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "pottery_studio__entrance_display_room",
+      "room": "Entrance display room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/pottery_studio/entrance_display_room.png",
+      "building_id": "pottery_studio",
+      "building_name": "Old Mill pottery studio",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "pottery_studio__kiln_room",
+      "room": "Kiln room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/pottery_studio/kiln_room.png",
+      "building_id": "pottery_studio",
+      "building_name": "Old Mill pottery studio",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "pottery_studio__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/pottery_studio/restroom.png",
+      "building_id": "pottery_studio",
+      "building_name": "Old Mill pottery studio",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "marine_centre__lobby",
+      "room": "Lobby",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/marine_centre/lobby.png",
+      "building_id": "marine_centre",
+      "building_name": "Marine discovery centre",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "marine_centre__education_room",
+      "room": "Education room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/marine_centre/education_room.png",
+      "building_id": "marine_centre",
+      "building_name": "Marine discovery centre",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "marine_centre__staff_service_room",
+      "room": "Staff service room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/marine_centre/staff_service_room.png",
+      "building_id": "marine_centre",
+      "building_name": "Marine discovery centre",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "marine_centre__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/marine_centre/restroom.png",
+      "building_id": "marine_centre",
+      "building_name": "Marine discovery centre",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "harbour_market__vendor_storage",
+      "room": "Vendor storage",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/harbour_market/vendor_storage.png",
+      "building_id": "harbour_market",
+      "building_name": "South Harbour covered market",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "harbour_market__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/harbour_market/restroom.png",
+      "building_id": "harbour_market",
+      "building_name": "South Harbour covered market",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "harbour_market__sheltered_entrance",
+      "room": "Sheltered entrance",
+      "kind": "outdoor",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/harbour_market/sheltered_entrance.png",
+      "building_id": "harbour_market",
+      "building_name": "South Harbour covered market",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "harbour_market__public_seating",
+      "room": "Public seating",
+      "kind": "outdoor",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/harbour_market/public_seating.png",
+      "building_id": "harbour_market",
+      "building_name": "South Harbour covered market",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "railway_museum__ticket_lobby",
+      "room": "Ticket lobby",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/railway_museum/ticket_lobby.png",
+      "building_id": "railway_museum",
+      "building_name": "Railway museum",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "railway_museum__archive_education_room",
+      "room": "Archive education room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/railway_museum/archive_education_room.png",
+      "building_id": "railway_museum",
+      "building_name": "Railway museum",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "railway_museum__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/railway_museum/restroom.png",
+      "building_id": "railway_museum",
+      "building_name": "Railway museum",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "southbank_diner__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/southbank_diner/entrance.png",
+      "building_id": "southbank_diner",
+      "building_name": "Riverside diner",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "southbank_diner__staff_kitchen",
+      "room": "Staff kitchen",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/southbank_diner/staff_kitchen.png",
+      "building_id": "southbank_diner",
+      "building_name": "Riverside diner",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "southbank_diner__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/southbank_diner/restroom.png",
+      "building_id": "southbank_diner",
+      "building_name": "Riverside diner",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "sailing_club__rigging_workshop",
+      "room": "Rigging workshop",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/sailing_club/rigging_workshop.png",
+      "building_id": "sailing_club",
+      "building_name": "Municipal boathouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "sailing_club__equipment_store",
+      "room": "Equipment store",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/sailing_club/equipment_store.png",
+      "building_id": "sailing_club",
+      "building_name": "Municipal boathouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "sailing_club__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/sailing_club/restroom.png",
+      "building_id": "sailing_club",
+      "building_name": "Municipal boathouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "sailing_club__launch",
+      "room": "Launch",
+      "kind": "outdoor",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/sailing_club/launch.png",
+      "building_id": "sailing_club",
+      "building_name": "Municipal boathouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "market__community_dining_room",
+      "room": "Community dining room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/market/community_dining_room.png",
+      "building_id": "market",
+      "building_name": "Lantern community market",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "market__staff_kitchen_store",
+      "room": "Staff kitchen store",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/market/staff_kitchen_store.png",
+      "building_id": "market",
+      "building_name": "Lantern community market",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "market__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/market/restroom.png",
+      "building_id": "market",
+      "building_name": "Lantern community market",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "crew_lot_west__entry",
+      "room": "Entry",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/crew_lot_west/entry.png",
+      "building_id": "crew_lot_west",
+      "building_name": "West workshop",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "crew_lot_west__workshop",
+      "room": "Workshop",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/crew_lot_west/workshop.png",
+      "building_id": "crew_lot_west",
+      "building_name": "West workshop",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "crew_lot_west__office",
+      "room": "Office",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/crew_lot_west/office.png",
+      "building_id": "crew_lot_west",
+      "building_name": "West workshop",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "crew_lot_west__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/crew_lot_west/restroom.png",
+      "building_id": "crew_lot_west",
+      "building_name": "West workshop",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "crew_lot_docks__entry",
+      "room": "Entry",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/crew_lot_docks/entry.png",
+      "building_id": "crew_lot_docks",
+      "building_name": "Dock warehouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "crew_lot_docks__warehouse",
+      "room": "Warehouse",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/crew_lot_docks/warehouse.png",
+      "building_id": "crew_lot_docks",
+      "building_name": "Dock warehouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "crew_lot_docks__meeting_office",
+      "room": "Meeting office",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/crew_lot_docks/meeting_office.png",
+      "building_id": "crew_lot_docks",
+      "building_name": "Dock warehouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "crew_lot_docks__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/crew_lot_docks/restroom.png",
+      "building_id": "crew_lot_docks",
+      "building_name": "Dock warehouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "crew_lot_north__reception",
+      "room": "Reception",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/crew_lot_north/reception.png",
+      "building_id": "crew_lot_north",
+      "building_name": "Northern offices",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "crew_lot_north__meeting_room",
+      "room": "Meeting room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/crew_lot_north/meeting_room.png",
+      "building_id": "crew_lot_north",
+      "building_name": "Northern offices",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "crew_lot_north__workroom",
+      "room": "Workroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/crew_lot_north/workroom.png",
+      "building_id": "crew_lot_north",
+      "building_name": "Northern offices",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "crew_lot_north__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/crew_lot_north/restroom.png",
+      "building_id": "crew_lot_north",
+      "building_name": "Northern offices",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "crew_lot_south__entry",
+      "room": "Entry",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/crew_lot_south/entry.png",
+      "building_id": "crew_lot_south",
+      "building_name": "South garage",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "crew_lot_south__garage",
+      "room": "Garage",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/crew_lot_south/garage.png",
+      "building_id": "crew_lot_south",
+      "building_name": "South garage",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "crew_lot_south__office",
+      "room": "Office",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/crew_lot_south/office.png",
+      "building_id": "crew_lot_south",
+      "building_name": "South garage",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "crew_lot_south__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/crew_lot_south/restroom.png",
+      "building_id": "crew_lot_south",
+      "building_name": "South garage",
+      "generation_status": "not_started"
+    }
+  ],
+  "existing_references": [
+    {
+      "building_id": "hill_tea_room",
+      "room": "Tea room",
+      "path": "assets/ui/locations/hill_tea_room.png"
+    },
+    {
+      "building_id": "farm_shop",
+      "room": "Produce counter hall",
+      "path": "assets/ui/locations/farm_shop.png"
+    },
+    {
+      "building_id": "pottery_studio",
+      "room": "Pottery workshop",
+      "path": "assets/ui/locations/pottery_studio.png"
+    },
+    {
+      "building_id": "marine_centre",
+      "room": "Exhibit hall",
+      "path": "assets/ui/locations/marine_centre.png"
+    },
+    {
+      "building_id": "harbour_market",
+      "room": "Stall aisles",
+      "path": "assets/ui/locations/harbour_market.png"
+    },
+    {
+      "building_id": "railway_museum",
+      "room": "Collection hall",
+      "path": "assets/ui/locations/railway_museum.png"
+    },
+    {
+      "building_id": "southbank_diner",
+      "room": "Dining counter room",
+      "path": "assets/ui/locations/southbank_diner.png"
+    },
+    {
+      "building_id": "sailing_club",
+      "room": "Reception",
+      "path": "assets/ui/locations/sailing_club.png"
+    },
+    {
+      "building_id": "market",
+      "room": "Public stalls",
+      "path": "assets/ui/locations/market.png"
+    }
+  ]
+}

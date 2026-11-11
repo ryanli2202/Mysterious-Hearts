@@ -33,6 +33,11 @@ class HangoutSceneTests(unittest.TestCase):
         self.assertEqual((action.player, action.narration), ('', 'I smile.'))
         self.assertFalse(current_exchange(self.state, self.group, core.SCENE_DIRECTIONS[0]).player)
 
+    def test_legacy_prefixed_action_is_narration(self):
+        self.add('Rei Takamura (You)', core.ACTION_PREFIX+'I wave.')
+        scene=current_exchange(self.state,self.group)
+        self.assertEqual((scene.player,scene.narration),('', 'I wave.'))
+
     def test_new_session_never_replays_previous_hangout_or_phone_text(self):
         self.add('Emily Fields', 'Old hangout.')
         self.group['journal_offset'] = 1

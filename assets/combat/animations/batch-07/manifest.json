@@ -1,0 +1,292 @@
+{
+  "roadmap_id": "MH-001",
+  "batch": 7,
+  "created": "2026-11-10",
+  "status": "8 local sprite sheets and GIFs assembled and structurally verified; runtime integration pending.",
+  "generation_tool": "built-in image_gen",
+  "model_verification": "Tool does not expose a model selector or verified model identifier.",
+  "workflow": "Generate sprite sheets first, then slice and encode locally using Pillow.",
+  "grid": {
+    "columns": 3,
+    "rows": 2
+  },
+  "frame_duration_ms": 150,
+  "blank_hold_ms": 720,
+  "timing_reason": "900ms action matches the plan's 700\u20131100ms martial master range.",
+  "background": "opaque dark slate; not transparent",
+  "assets": [
+    {
+      "asset_id": "MH-001-B07-eight-limbed-tempest",
+      "name": "eight-limbed-tempest",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet matching previous batches. Polished hand-painted anime style; faceless adult martial artists, steel-blue attacker and charcoal-grey defender in plain unbranded training shirts and trousers, silver physical air trails. EXACTLY SIX chronological keyframes in THREE COLUMNS by TWO ROWS, row-major order on a landscape 1536x1024 canvas. Six equal 512x512 square cells. Fixed three-quarter side camera, consistent figure size and identity between frames. Opaque uniform dark slate #101824 background. No borders, grid lines, gutters, text, labels, scenery, UI or watermark. Entire bodies and effects must fit inside each cell with generous margins; do not cross cell boundaries. Anatomically clear separate bodies, only two arms and two legs per solid person. Physical martial arts, no magic, lightning, fire, gore. Six frames depict one finite 900ms action; frame 6 fades nearly to blank. Two figures, blue attacker left and grey defender right. Frame 1 guarded ready stance; 2 compact straight punch with a narrow silver line toward guard; 3 short bent-arm elbow strike with small wedge-shaped trail at upper guard; 4 rising bent-knee strike with compact burst at torso height, defender bracing; 5 roundhouse kick with broad curved air wake at waist height, previous elbow and knee marks fading; 6 figures and trails nearly faded. Distinct punch, elbow, knee and kick beats, never literal eight limbs.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2f9-d6f5-71d2-a321-edb23f3f95be/exec-2f5184c3-27d1-49ad-bab4-7fc19cfeccea.png",
+      "sheet": "spritesheets/eight-limbed-tempest.png",
+      "gif": "gifs/eight-limbed-tempest.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "26256b1e182ce45c1262d1c17a5b148211241160bba6cd469fbe8874a1e8d87a",
+        "sha256_gif": "eddebcae6fe4eaf932d36298dc20e4e73ea857f0f4b3847f112968fe1a0af366"
+      }
+    },
+    {
+      "asset_id": "MH-001-B07-meteor-knee",
+      "name": "meteor-knee",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet matching previous batches. Polished hand-painted anime style; faceless adult martial artists, steel-blue attacker and charcoal-grey defender in plain unbranded training shirts and trousers, silver physical air trails. EXACTLY SIX chronological keyframes in THREE COLUMNS by TWO ROWS, row-major order on a landscape 1536x1024 canvas. Six equal 512x512 square cells. Fixed three-quarter side camera, consistent figure size and identity between frames. Opaque uniform dark slate #101824 background. No borders, grid lines, gutters, text, labels, scenery, UI or watermark. Entire bodies and effects must fit inside each cell with generous margins; do not cross cell boundaries. Anatomically clear separate bodies, only two arms and two legs per solid person. Physical martial arts, no magic, lightning, fire, gore. Six frames depict one finite 900ms action; frame 6 fades nearly to blank. Two figures. Frame 1 blue attacker left low spring-loaded stance facing grey defender right; 2 drives off rear leg diagonally up and forward, hands guarding; 3 leading knee bent sharply up at torso level with dense tapered silver air wake behind moving body; 4 peak forward knee against defender's forearm guard, trailing leg tucked and whole body contained; 5 blue lands balanced, silver wake dissolves; 6 nearly faded figures. Rising knee, not a straight kick, no actual meteor, no fire.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2f9-d6f5-71d2-a321-edb23f3f95be/exec-e058eb66-c3cf-498c-a611-914f3b309163.png",
+      "sheet": "spritesheets/meteor-knee.png",
+      "gif": "gifs/meteor-knee.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "e32f6dd5f236bd778d780867deac919d83454c1a9f1261db1c698b013e554aed",
+        "sha256_gif": "0a6167bcb2d44fdf642cf9037c676e3c7bda9ee6c770872f3f15005581208aae"
+      }
+    },
+    {
+      "asset_id": "MH-001-B07-titan-clinch",
+      "name": "titan-clinch",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet matching previous batches. Polished hand-painted anime style; faceless adult martial artists, steel-blue attacker and charcoal-grey defender in plain unbranded training shirts and trousers, silver physical air trails. EXACTLY SIX chronological keyframes in THREE COLUMNS by TWO ROWS, row-major order on a landscape 1536x1024 canvas. Six equal 512x512 square cells. Fixed three-quarter side camera, consistent figure size and identity between frames. Opaque uniform dark slate #101824 background. No borders, grid lines, gutters, text, labels, scenery, UI or watermark. Entire bodies and effects must fit inside each cell with generous margins; do not cross cell boundaries. Anatomically clear separate bodies, only two arms and two legs per solid person. Physical martial arts, no magic, lightning, fire, gore. Six frames depict one finite 900ms action; frame 6 fades nearly to blank. Two standing figures in close Muay Thai clinch. Frame 1 hands reaching toward upper-body contact; 2 blue and grey establish opposing shoulder/forearm grips, two small curved silver contact brackets at shoulder height; 3 blue leans forward with feet planted as grey resists upright, brackets tighten; 4 grey shifts stance and pushes back, blue adjusts leverage, short silver pulses around shoulder contact; 5 both settle in contested braced clinch, markers fading; 6 figures nearly faded. Both remain standing, contested posture pressure rather than a successful throw or choke; no literal metal brackets.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2f9-d6f5-71d2-a321-edb23f3f95be/exec-9be37eed-f9b6-4716-a12d-37c1135d495f.png",
+      "sheet": "spritesheets/titan-clinch.png",
+      "gif": "gifs/titan-clinch.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "cf6ac7805639f7c49e25e5afcadde2c7e0fd14aefe2d2b4deebe58e93099ab56",
+        "sha256_gif": "e81507ac0f5fb3a84f4476c9b9520b21df9d398018e61a1e8cc17d9f1c8ef6c6"
+      }
+    },
+    {
+      "asset_id": "MH-001-B07-thunder-pillar",
+      "name": "thunder-pillar",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet matching previous batches. Polished hand-painted anime style; faceless adult martial artists, steel-blue attacker and charcoal-grey defender in plain unbranded training shirts and trousers, silver physical air trails. EXACTLY SIX chronological keyframes in THREE COLUMNS by TWO ROWS, row-major order on a landscape 1536x1024 canvas. Six equal 512x512 square cells. Fixed three-quarter side camera, consistent figure size and identity between frames. Opaque uniform dark slate #101824 background. No borders, grid lines, gutters, text, labels, scenery, UI or watermark. Entire bodies and effects must fit inside each cell with generous margins; do not cross cell boundaries. Anatomically clear separate bodies, only two arms and two legs per solid person. Physical martial arts, no magic, lightning, fire, gore. Six frames depict one finite 900ms action; frame 6 fades nearly to blank. Two figures blue left, grey right. Frame 1 blue plants lead foot and coils hips; 2 pivots support foot and chambers bent kicking knee; 3 broad waist-to-chest-height roundhouse kick begins, leg extending with wide curved silver wake; 4 kick meets defender's raised forearm guard with broad HORIZONTAL column of compressed silver air, wholly contained; 5 leg retracts and blue returns balanced, air disperses; 6 figures nearly faded. Roundhouse, no vertical beam, no lightning, no pillar object.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2f9-d6f5-71d2-a321-edb23f3f95be/exec-737f8f6c-103a-435e-a4b4-5edb950a5c1f.png",
+      "sheet": "spritesheets/thunder-pillar.png",
+      "gif": "gifs/thunder-pillar.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "8660f012199fe9e1b92c2ebc0a3102ea953381bc4e57954cb5fd7fcf7a08d2b6",
+        "sha256_gif": "14312ffcef484cdb30a5da7fe62af9a099b0c31ab78a9450146ee8ec49cc3fc9"
+      }
+    },
+    {
+      "asset_id": "MH-001-B07-riot-engine",
+      "name": "riot-engine",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet matching previous batches. Polished hand-painted anime style; faceless adult martial artists, steel-blue attacker and charcoal-grey defender in plain unbranded training shirts and trousers, silver physical air trails. EXACTLY SIX chronological keyframes in THREE COLUMNS by TWO ROWS, row-major order on a landscape 1536x1024 canvas. Six equal 512x512 square cells. Fixed three-quarter side camera, consistent figure size and identity between frames. Opaque uniform dark slate #101824 background. No borders, grid lines, gutters, text, labels, scenery, UI or watermark. Entire bodies and effects must fit inside each cell with generous margins; do not cross cell boundaries. Anatomically clear separate bodies, only two arms and two legs per solid person. Physical martial arts, no magic, lightning, fire, gore. Six frames depict one finite 900ms action; frame 6 fades nearly to blank. Two figures in streetfighting-style physical action wearing plain training clothes. Frame 1 blue left hunched uneven guard facing grey right; 2 abrupt short lunge with rough straight-punch trail toward grey guard; 3 shifted stance and body punch at lower height, uneven short silver streak; 4 blue changes angle with heavy bent-arm strike and compact silver impact at guard; 5 final close punch with an untidy cluster of fading impact flecks at distinct heights, one solid attacker; 6 figures and flecks nearly faded. Grounded rough rhythm, no weapons, no crowd, no explosion.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2f9-d6f5-71d2-a321-edb23f3f95be/exec-4693509c-ce69-4c5f-b9dc-6211f8ccb378.png",
+      "sheet": "spritesheets/riot-engine.png",
+      "gif": "gifs/riot-engine.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "dcaccdc8e4be5cc1ac7a137f255ea55193d5c50a37cd090bd0601c88c928940d",
+        "sha256_gif": "cc9d1bc4b172e89fdbdffbe430c587d3bb32d4ef796cd65d7e4a8388e52e8c15"
+      }
+    },
+    {
+      "asset_id": "MH-001-B07-backstreet-phantom",
+      "name": "backstreet-phantom",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet matching previous batches. Polished hand-painted anime style; faceless adult martial artists, steel-blue attacker and charcoal-grey defender in plain unbranded training shirts and trousers, silver physical air trails. EXACTLY SIX chronological keyframes in THREE COLUMNS by TWO ROWS, row-major order on a landscape 1536x1024 canvas. Six equal 512x512 square cells. Fixed three-quarter side camera, consistent figure size and identity between frames. Opaque uniform dark slate #101824 background. No borders, grid lines, gutters, text, labels, scenery, UI or watermark. Entire bodies and effects must fit inside each cell with generous margins; do not cross cell boundaries. Anatomically clear separate bodies, only two arms and two legs per solid person. Physical martial arts, no magic, lightning, fire, gore. Six frames depict one finite 900ms action; frame 6 fades nearly to blank. Two figures: blue attacker moves around a grey guarded target, no strike connects. Frame 1 blue left low oblique stance and grey right in guard; 2 blue quick low sidestep toward foreground with short angular silver movement trail; 3 blue shifts diagonally toward target's flank, one faint prior-position afterimage connected by visible trail; 4 blue changes approach angle again toward farther side, TWO faint prior poses and one solid body connected by jagged silver paths; 5 blue settles poised beside target at a new angle, grey turning to track, afterimages dissipate; 6 almost faded. All afterimages are blue translucent whole poses, never extra solid people. Visible footwork, no teleportation, street scenery or ghost monster.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2f9-d6f5-71d2-a321-edb23f3f95be/exec-0cb3bd36-6995-46a1-a043-4625c71e84ba.png",
+      "sheet": "spritesheets/backstreet-phantom.png",
+      "gif": "gifs/backstreet-phantom.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "bc06a39f1a006991a1f4ad398aca2281b89075a2e8969785e5e5d68fe7d80321",
+        "sha256_gif": "0cfd25af6dd9dd1c777caac994a4e0dfca9c486148b711f860ef1e12a77b4ce1"
+      }
+    },
+    {
+      "asset_id": "MH-001-B07-concrete-verdict",
+      "name": "concrete-verdict",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet matching previous batches. Polished hand-painted anime style; faceless adult martial artists, steel-blue attacker and charcoal-grey defender in plain unbranded training shirts and trousers, silver physical air trails. EXACTLY SIX chronological keyframes in THREE COLUMNS by TWO ROWS, row-major order on a landscape 1536x1024 canvas. Six equal 512x512 square cells. Fixed three-quarter side camera, consistent figure size and identity between frames. Opaque uniform dark slate #101824 background. No borders, grid lines, gutters, text, labels, scenery, UI or watermark. Entire bodies and effects must fit inside each cell with generous margins; do not cross cell boundaries. Anatomically clear separate bodies, only two arms and two legs per solid person. Physical martial arts, no magic, lightning, fire, gore. Six frames depict one finite 900ms action; frame 6 fades nearly to blank. Two figures blue attacker left and grey guarded target right. Frame 1 planted blue stance with rear fist drawn back; 2 torso rotates into one blunt straight punch; 3 extended fist reaches target forearm guard with compact square-edged silver compression graphic; 4 square-edged graphic expands slightly with a few tiny neutral-grey dust chips beneath impact, target recoils mildly; 5 fist retracts to guard and chips fall and fade; 6 figures nearly faded. Single straight punch, graphic feels heavy and blunt; no actual concrete wall, no crater, no giant rubble or injury.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2f9-d6f5-71d2-a321-edb23f3f95be/exec-af53628f-d34e-463d-8452-2500e942256a.png",
+      "sheet": "spritesheets/concrete-verdict.png",
+      "gif": "gifs/concrete-verdict.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "212efce766f87b9c92cf9a0aca5386d8fcecfbba0df856497560794abcef28ce",
+        "sha256_gif": "ccb17fd970b9972f0579def00e77549dfc3c5b2eba2981959c5be35a79535faa"
+      }
+    },
+    {
+      "asset_id": "MH-001-B07-chaos-rhythm",
+      "name": "chaos-rhythm",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet matching previous batches. Polished hand-painted anime style; faceless adult martial artists, steel-blue attacker and charcoal-grey defender in plain unbranded training shirts and trousers, silver physical air trails. EXACTLY SIX chronological keyframes in THREE COLUMNS by TWO ROWS, row-major order on a landscape 1536x1024 canvas. Six equal 512x512 square cells. Fixed three-quarter side camera, consistent figure size and identity between frames. Opaque uniform dark slate #101824 background. No borders, grid lines, gutters, text, labels, scenery, UI or watermark. Entire bodies and effects must fit inside each cell with generous margins; do not cross cell boundaries. Anatomically clear separate bodies, only two arms and two legs per solid person. Physical martial arts, no magic, lightning, fire, gore. Six frames depict one finite 900ms action; frame 6 fades nearly to blank. Two figures blue attacker left and grey defender right. Frame 1 blue makes short high feint with thin silver trail; 2 blue freezes withdrawn fist in guard, previous trail visibly cuts short; 3 hold same guard pose for an intentional quiet pause with almost no trail, grey still bracing; 4 sudden low torso punch with short dense silver streak; 5 high opposite-hand punch restarts quickly at a different height with a longer silver trail, low streak still fading; 6 figures nearly faded. Clear stop-start timing, high feint then quiet hold then low-to-high restart. No magical rings or extra arms.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2f9-d6f5-71d2-a321-edb23f3f95be/exec-032820d0-6bea-46fc-914a-b34f135ec2e2.png",
+      "sheet": "spritesheets/chaos-rhythm.png",
+      "gif": "gifs/chaos-rhythm.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "2e43f866c5f7196840207768236119db3a525335777d45ea3d9f9e06a20cbfa4",
+        "sha256_gif": "3087420eed614e6a3711229ff545dd2e9d9a585af4e678a71675c10730430779"
+      }
+    }
+  ],
+  "validation_command": "python tools/build_combat_batch_gifs.py --batch 7"
+}

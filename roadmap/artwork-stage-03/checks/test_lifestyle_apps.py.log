@@ -1,0 +1,13 @@
+test_booking_validation_refund_and_no_double_refund (test_lifestyle_apps.LifestyleTests.test_booking_validation_refund_and_no_double_refund) ... ok
+test_cooking_and_campus_require_actual_location (test_lifestyle_apps.LifestyleTests.test_cooking_and_campus_require_actual_location) ... ok
+test_courses_and_new_apps_survive_real_save_load (test_lifestyle_apps.LifestyleTests.test_courses_and_new_apps_survive_real_save_load) ... ok
+test_design_reference_commit_camera_and_wearing (test_lifestyle_apps.LifestyleTests.test_design_reference_commit_camera_and_wearing) ... ok
+test_exchange_collection_requires_arrival_and_is_once (test_lifestyle_apps.LifestyleTests.test_exchange_collection_requires_arrival_and_is_once) ... ok
+test_playlist_snapshot_and_privacy_survive_save (test_lifestyle_apps.LifestyleTests.test_playlist_snapshot_and_privacy_survive_save) ... ok
+test_postcard_has_photo_message_and_private_share (test_lifestyle_apps.LifestyleTests.test_postcard_has_photo_message_and_private_share) ... ok
+test_wallet_split_and_insufficient_funds (test_lifestyle_apps.LifestyleTests.test_wallet_split_and_insufficient_funds) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.232s
+
+OK

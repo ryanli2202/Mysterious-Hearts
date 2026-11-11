@@ -1,0 +1,56 @@
+[
+  {
+    "check": "test_portrait_framing",
+    "command": "python -m unittest discover -s tests -p test_portrait_framing.py -v",
+    "returncode": 0,
+    "log": "checks/test_portrait_framing.txt"
+  },
+  {
+    "check": "test_combat_portraits",
+    "command": "python -m unittest discover -s tests -p test_combat_portraits.py -v",
+    "returncode": 0,
+    "log": "checks/test_combat_portraits.txt"
+  },
+  {
+    "check": "test_guard_portraits",
+    "command": "python -m unittest discover -s tests -p test_guard_portraits.py -v",
+    "returncode": 0,
+    "log": "checks/test_guard_portraits.txt"
+  },
+  {
+    "check": "test_character_selection",
+    "command": "python -m unittest discover -s tests -p test_character_selection.py -v",
+    "returncode": 0,
+    "log": "checks/test_character_selection.txt"
+  },
+  {
+    "check": "test_campaign_flashbacks",
+    "command": "python -m unittest discover -s tests -p test_campaign_flashbacks.py -v",
+    "returncode": 0,
+    "log": "checks/test_campaign_flashbacks.txt"
+  },
+  {
+    "check": "test_flashback_visits",
+    "command": "python -m unittest discover -s tests -p test_flashback_visits.py -v",
+    "returncode": 0,
+    "log": "checks/test_flashback_visits.txt"
+  },
+  {
+    "check": "test_syndicate_cast",
+    "command": "python -m unittest discover -s tests -p test_syndicate_cast.py -v",
+    "returncode": 0,
+    "log": "checks/test_syndicate_cast.txt"
+  },
+  {
+    "check": "test_hangout_scene",
+    "command": "python -m unittest discover -s tests -p test_hangout_scene.py -v",
+    "returncode": 0,
+    "log": "checks/test_hangout_scene.txt"
+  },
+  {
+    "check": "test_camera",
+    "command": "python -m unittest discover -s tests -p test_camera.py -v",
+    "returncode": 1,
+    "log": "checks/test_camera.txt"
+  }
+]

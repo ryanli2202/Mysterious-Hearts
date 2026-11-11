@@ -1,0 +1,321 @@
+{
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111
+  ],
+  "assumptions": "Healthy solo baseline, identical policies on both sides, no forms in tier comparisons. Forms enabled for four-exchange Protocol window comparisons. No provider, persistent saves or campaign outcomes. Criteria declared before holdout run; exploratory tuning used seeds 0\u20135.",
+  "groups": {
+    "S+ versus S": {
+      "criteria": [
+        0.55,
+        0.95
+      ],
+      "rate": 0.8958333333333334,
+      "passed": true,
+      "pairs": [
+        {
+          "a": "sylvanis",
+          "b": "takeo",
+          "wins": 19,
+          "runs": 24,
+          "mean_turns": 14.67
+        },
+        {
+          "a": "sylvanis",
+          "b": "crow",
+          "wins": 24,
+          "runs": 24,
+          "mean_turns": 11.33
+        }
+      ]
+    },
+    "S versus A+": {
+      "criteria": [
+        0.65,
+        1.0
+      ],
+      "rate": 0.8958333333333334,
+      "passed": true,
+      "pairs": [
+        {
+          "a": "takeo",
+          "b": "ivan",
+          "wins": 24,
+          "runs": 24,
+          "mean_turns": 11.04
+        },
+        {
+          "a": "crow",
+          "b": "charles",
+          "wins": 19,
+          "runs": 24,
+          "mean_turns": 12.38
+        }
+      ]
+    },
+    "A+ versus A": {
+      "criteria": [
+        0.55,
+        0.95
+      ],
+      "rate": 0.7916666666666666,
+      "passed": true,
+      "pairs": [
+        {
+          "a": "ivan",
+          "b": "rei",
+          "wins": 20,
+          "runs": 24,
+          "mean_turns": 9.25
+        },
+        {
+          "a": "charles",
+          "b": "garrett",
+          "wins": 18,
+          "runs": 24,
+          "mean_turns": 9.33
+        }
+      ]
+    },
+    "A versus B": {
+      "criteria": [
+        0.8,
+        1.0
+      ],
+      "rate": 0.9583333333333334,
+      "passed": true,
+      "pairs": [
+        {
+          "a": "rei",
+          "b": "tyler",
+          "wins": 18,
+          "runs": 24,
+          "mean_turns": 11.29
+        },
+        {
+          "a": "neo",
+          "b": "samantha",
+          "wins": 24,
+          "runs": 24,
+          "mean_turns": 12.46
+        },
+        {
+          "a": "thirteen",
+          "b": "Keisuke Hachimura",
+          "wins": 24,
+          "runs": 24,
+          "mean_turns": 11.75
+        },
+        {
+          "a": "elias",
+          "b": "tyler",
+          "wins": 22,
+          "runs": 24,
+          "mean_turns": 12.04
+        },
+        {
+          "a": "camila",
+          "b": "emily",
+          "wins": 24,
+          "runs": 24,
+          "mean_turns": 12.33
+        },
+        {
+          "a": "fox",
+          "b": "alyssa",
+          "wins": 24,
+          "runs": 24,
+          "mean_turns": 8.88
+        },
+        {
+          "a": "mavis",
+          "b": "samantha",
+          "wins": 24,
+          "runs": 24,
+          "mean_turns": 10.38
+        },
+        {
+          "a": "daniel",
+          "b": "emily",
+          "wins": 24,
+          "runs": 24,
+          "mean_turns": 6.79
+        }
+      ]
+    },
+    "Apex versus B": {
+      "criteria": [
+        0.95,
+        1.0
+      ],
+      "rate": 1.0,
+      "passed": true,
+      "pairs": [
+        {
+          "a": "takeo",
+          "b": "tyler",
+          "wins": 24,
+          "runs": 24,
+          "mean_turns": 5.25
+        },
+        {
+          "a": "crow",
+          "b": "minsu",
+          "wins": 24,
+          "runs": 24,
+          "mean_turns": 6.21
+        },
+        {
+          "a": "sylvanis",
+          "b": "valentina",
+          "wins": 24,
+          "runs": 24,
+          "mean_turns": 6.38
+        }
+      ]
+    },
+    "B versus C": {
+      "criteria": [
+        0.65,
+        1.0
+      ],
+      "rate": 1.0,
+      "passed": true,
+      "pairs": [
+        {
+          "a": "samantha",
+          "b": "guard:yokai",
+          "wins": 24,
+          "runs": 24,
+          "mean_turns": 12
+        },
+        {
+          "a": "minsu",
+          "b": "arena:200",
+          "wins": 24,
+          "runs": 24,
+          "mean_turns": 10.58
+        },
+        {
+          "a": "valentina",
+          "b": "guard:headhunter",
+          "wins": 24,
+          "runs": 24,
+          "mean_turns": 10.67
+        }
+      ]
+    },
+    "C versus D": {
+      "criteria": [
+        0.8,
+        1.0
+      ],
+      "rate": 1.0,
+      "passed": true,
+      "pairs": [
+        {
+          "a": "guard:yokai",
+          "b": "guard:pmc",
+          "wins": 24,
+          "runs": 24,
+          "mean_turns": 9.04
+        }
+      ]
+    },
+    "Rei versus equipped Richter": {
+      "criteria": [
+        0.6,
+        0.95
+      ],
+      "rate": 0.75,
+      "passed": true,
+      "pairs": [
+        {
+          "a": "rei",
+          "b": "richter:enhanced",
+          "wins": 18,
+          "runs": 24,
+          "mean_turns": 12.88
+        }
+      ]
+    },
+    "Rei versus contender": {
+      "criteria": [
+        0.6,
+        1.0
+      ],
+      "rate": 1.0,
+      "passed": true,
+      "pairs": [
+        {
+          "a": "rei",
+          "b": "arena:2",
+          "wins": 24,
+          "runs": 24,
+          "mean_turns": 8.96
+        }
+      ]
+    },
+    "Adjacent bands": {
+      "criteria": [
+        0.25,
+        0.75
+      ],
+      "rate": 0.5277777777777778,
+      "passed": true,
+      "pairs": [
+        {
+          "a": "arena:300",
+          "b": "arena:301",
+          "wins": 14,
+          "runs": 24,
+          "mean_turns": 35.96
+        },
+        {
+          "a": "arena:100",
+          "b": "arena:101",
+          "wins": 12,
+          "runs": 24,
+          "mean_turns": 21.71
+        },
+        {
+          "a": "arena:10",
+          "b": "arena:11",
+          "wins": 12,
+          "runs": 24,
+          "mean_turns": 12.96
+        }
+      ]
+    }
+  },
+  "protocol_windows": [
+    {
+      "a": "neo",
+      "b": "ivan",
+      "activation_rate": 1.0,
+      "window_damage_ratio": 1.8690640848317197,
+      "criteria": "activation >= 0.75; active-window dealt/received >= 0.8",
+      "passed": true
+    },
+    {
+      "a": "thirteen",
+      "b": "charles",
+      "activation_rate": 1.0,
+      "window_damage_ratio": 1.1852820321255135,
+      "criteria": "activation >= 0.75; active-window dealt/received >= 0.8",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "failed": []
+}

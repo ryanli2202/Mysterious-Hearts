@@ -28,6 +28,18 @@ with tempfile.TemporaryDirectory(dir=scratch) as folder:
                 if child.winfo_class() == 'TButton': yield child
                 yield from buttons(child)
         controls={b.cget('text'): b for b in buttons(win)}
+        listing=next(w for w in win.winfo_children() if isinstance(w,tk.Listbox))
+        listing.selection_set(0)
+        before={p:p.read_bytes() for p in active.parent.rglob('*.json')}
+        with patch.object(core,'load',side_effect=AssertionError('preview must not load gameplay')):
+            controls['Saved progress'].invoke(); app.update()
+        preview=next(w for w in win.winfo_children() if isinstance(w,tk.Toplevel))
+        text=next(w for w in preview.winfo_children() if isinstance(w,tk.Text)).get('1.0','end')
+        assert 'Saved progress' in text and 'Current funds' in text
+        assert before=={p:p.read_bytes() for p in before}
+        from PIL import ImageGrab
+        ImageGrab.grab(window=preview.winfo_id()).save(core.ROOT/'tests'/'screenshots'/'mh002-saved-progress.png')
+        preview.destroy()
         with patch.object(qol_ui.simpledialog, 'askstring', return_value='Checkpoint'):
             controls['Save named copy'].invoke(); app.update()
         assert len(list(active.parent.rglob('slot-*.json'))) == 1

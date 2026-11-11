@@ -1,0 +1,13 @@
+{
+  "id": "amy-beach-daisy",
+  "tool": "built-in image_gen",
+  "model": "not exposed",
+  "generated_source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c7d2-0cc6-74f2-ba9f-981788fc8cd9\\exec-af6b2a6a-e7bb-4104-8e8c-eae671e5c926.png",
+  "sha256": "b5227ad613c56267d812d5b1951121d39aa0ecd5d0da2dce5a8bcb7eea178789",
+  "prompt": "Edit this EXACT image, preserving face, hair, head size and position, body proportions, hand position, pose and mid-thigh framing. This is Amy's accepted Stage 2 master, 163 cm full stature. Change ONLY the clothes: replace rust cardigan, white tee and grey trousers with a slate-blue triangle bikini decorated with small white daisies with yellow centres, slim adjustable shoulder straps, matching moderate-coverage bikini bottom. The character is an adult woman in an ordinary neutral wardrobe catalogue pose. Uncover arms and upper thighs naturally without changing the same underlying body or moving the hands. Do not redraw, enlarge or change her face or hair. Keep her exact eye-line, chin, shoulders, hips, crotch and thigh cutoff at their current positions. Her lower thighs, knees, lower legs and feet remain OUTSIDE the frame. Same 1024x1536 2:3 transparent RGBA canvas. Keep manhwa shading and delicate linework. Genuine alpha everywhere outside the character and in the arm gaps; no background, haze, glow, shadow, text, watermark or signature.",
+  "referenced_image_paths": [
+    "C:\\Users\\ryanl\\Documents\\Mysterious Hearts\\roadmap\\artwork-stage-03\\masters\\amy.png"
+  ],
+  "transparent_background": true,
+  "pixel_postprocessing": false
+}

@@ -95,6 +95,8 @@ class JobBoard:
         if self.criminal:
             import interpol_ui
             interpol_ui.bubblegram_header(self.body,self.game)
+            if self.section in ('Network','My gang'):
+                __import__('campaign_ui').phone_directory(self.body,self.game)
         if self.section=='Journal':
             self.label('Private contract journal. No messages or faction identities are shared automatically.' if self.criminal else 'Your employment history and promotion reviews.')
             for event in reversed(d['history'][-80:]):
@@ -110,6 +112,7 @@ class JobBoard:
             gang_icons_ui.draw(self,s)
         elif self.section=='Reputation': self.reputation(s,d)
         elif self.section=='Leadership': self.leadership(s,d)
+        elif self.section=='Hamayashi administration': __import__('post_story_ui').management(self,s)
         else: self.network(s,d)
         phone_theme.apply_tree(self.parent)
 
@@ -245,10 +248,13 @@ class JobBoard:
             self.label(f'Department budget ${p["budget"]} · Morale {p["morale"]}/100\nLeadership {p["leadership"]} · Initiatives {p["initiatives"]}')
             self.label('Each initiative takes 30 minutes, costs $100 department budget and adds 3 leadership. One per workplace per day. Project delivery funds this separate budget; personal money is never spent by management.')
             for choice,text in (('quality','Quality review · craft +4'),('team','Team planning · morale +10, reliability +3'),('outreach','Community outreach · standing +4')):
-                self.button(text,jobs.civilian.manage,choice,enabled=p['rank']>=3 and bool(p['portfolio']))
+                self.button(text,jobs.civilian.manage,choice,enabled=p['rank']>=3 and bool(p['portfolio'] or p.get('origin_portfolio')))
 
     def contracts(self,s,d):
         import bubblegram_roles
+        if s.get('custom_protagonist'):
+            from character_identity import visible
+            self.label('Your underworld identity: '+visible(s['custom_protagonist'],context='underworld')['name'],True)
         role = bubblegram_roles.ROLES.get(s['player'])
         if role:
             self.label(role['role'] + '\n' + role['authority'], True)
@@ -273,6 +279,8 @@ class JobBoard:
         if d['membership']: self.button('Request sponsor assignment',jobs.faction_assignment)
 
     def network(self,s,d):
+        if s['player']=='rei' and s.get('rei_story',{}).get('hamayashi')=='lead':
+            ttk.Button(self.body,text='Hamayashi administration',command=lambda:self.change('Hamayashi administration')).pack(fill='x',pady=3)
         for section in ('My gang','Leadership','Gangs','Reputation'):
             ttk.Button(self.body,text=section,command=lambda v=section:self.change(v)).pack(fill='x',pady=3)
         self.label('Established story roles retain their mandate; newcomers progress from street contracts through sponsorship.',True)

@@ -1,0 +1,474 @@
+{
+  "batch_id": "interiors-10",
+  "title": "Local faction bases and residences",
+  "status": "planned",
+  "images": [
+    {
+      "id": "lantern_house__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/lantern_house/entrance.png",
+      "building_id": "lantern_house",
+      "building_name": "Lantern House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "lantern_house__waiting_room",
+      "room": "Waiting room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/lantern_house/waiting_room.png",
+      "building_id": "lantern_house",
+      "building_name": "Lantern House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "lantern_house__office",
+      "room": "Office",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/lantern_house/office.png",
+      "building_id": "lantern_house",
+      "building_name": "Lantern House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "lantern_house__stairway",
+      "room": "Stairway",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/lantern_house/stairway.png",
+      "building_id": "lantern_house",
+      "building_name": "Lantern House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "lantern_house__private_flat_living_repair_room",
+      "room": "Private flat living repair room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/lantern_house/private_flat_living_repair_room.png",
+      "building_id": "lantern_house",
+      "building_name": "Lantern House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "lantern_house__private_bedroom",
+      "room": "Private bedroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/lantern_house/private_bedroom.png",
+      "building_id": "lantern_house",
+      "building_name": "Lantern House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "lantern_house__private_bathroom",
+      "room": "Private bathroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/lantern_house/private_bathroom.png",
+      "building_id": "lantern_house",
+      "building_name": "Lantern House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "lantern_house__visitor_restroom",
+      "room": "Visitor restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/lantern_house/visitor_restroom.png",
+      "building_id": "lantern_house",
+      "building_name": "Lantern House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "saints_depot__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/saints_depot/entrance.png",
+      "building_id": "saints_depot",
+      "building_name": "Saints Rail Depot",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "saints_depot__waiting_room",
+      "room": "Waiting room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/saints_depot/waiting_room.png",
+      "building_id": "saints_depot",
+      "building_name": "Saints Rail Depot",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "saints_depot__dispatch_workshop",
+      "room": "Dispatch workshop",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/saints_depot/dispatch_workshop.png",
+      "building_id": "saints_depot",
+      "building_name": "Saints Rail Depot",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "saints_depot__private_converted_office_living_sleeping_room",
+      "room": "Private converted office living sleeping room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/saints_depot/private_converted_office_living_sleeping_room.png",
+      "building_id": "saints_depot",
+      "building_name": "Saints Rail Depot",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "saints_depot__private_bathroom",
+      "room": "Private bathroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/saints_depot/private_bathroom.png",
+      "building_id": "saints_depot",
+      "building_name": "Saints Rail Depot",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "saints_depot__visitor_restroom",
+      "room": "Visitor restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/saints_depot/visitor_restroom.png",
+      "building_id": "saints_depot",
+      "building_name": "Saints Rail Depot",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "purple_clubhouse__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/purple_clubhouse/entrance.png",
+      "building_id": "purple_clubhouse",
+      "building_name": "Purple Skulls clubhouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "purple_clubhouse__waiting_room",
+      "room": "Waiting room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/purple_clubhouse/waiting_room.png",
+      "building_id": "purple_clubhouse",
+      "building_name": "Purple Skulls clubhouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "purple_clubhouse__members_lounge",
+      "room": "Members lounge",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/purple_clubhouse/members_lounge.png",
+      "building_id": "purple_clubhouse",
+      "building_name": "Purple Skulls clubhouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "purple_clubhouse__garage",
+      "room": "Garage",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/purple_clubhouse/garage.png",
+      "building_id": "purple_clubhouse",
+      "building_name": "Purple Skulls clubhouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "purple_clubhouse__stairway",
+      "room": "Stairway",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/purple_clubhouse/stairway.png",
+      "building_id": "purple_clubhouse",
+      "building_name": "Purple Skulls clubhouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "purple_clubhouse__private_residence_living_room",
+      "room": "Private residence living room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/purple_clubhouse/private_residence_living_room.png",
+      "building_id": "purple_clubhouse",
+      "building_name": "Purple Skulls clubhouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "purple_clubhouse__private_bedroom",
+      "room": "Private bedroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/purple_clubhouse/private_bedroom.png",
+      "building_id": "purple_clubhouse",
+      "building_name": "Purple Skulls clubhouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "purple_clubhouse__private_bathroom",
+      "room": "Private bathroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/purple_clubhouse/private_bathroom.png",
+      "building_id": "purple_clubhouse",
+      "building_name": "Purple Skulls clubhouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "purple_clubhouse__visitor_restroom",
+      "room": "Visitor restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/purple_clubhouse/visitor_restroom.png",
+      "building_id": "purple_clubhouse",
+      "building_name": "Purple Skulls clubhouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "rojos_courtyard__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/rojos_courtyard/entrance.png",
+      "building_id": "rojos_courtyard",
+      "building_name": "Los Rojos base",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "rojos_courtyard__waiting_room",
+      "room": "Waiting room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/rojos_courtyard/waiting_room.png",
+      "building_id": "rojos_courtyard",
+      "building_name": "Los Rojos base",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "rojos_courtyard__office",
+      "room": "Office",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/rojos_courtyard/office.png",
+      "building_id": "rojos_courtyard",
+      "building_name": "Los Rojos base",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "rojos_courtyard__stairway",
+      "room": "Stairway",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/rojos_courtyard/stairway.png",
+      "building_id": "rojos_courtyard",
+      "building_name": "Los Rojos base",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "rojos_courtyard__upstairs_living_guitar_room",
+      "room": "Upstairs living guitar room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/rojos_courtyard/upstairs_living_guitar_room.png",
+      "building_id": "rojos_courtyard",
+      "building_name": "Los Rojos base",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "rojos_courtyard__private_bedroom",
+      "room": "Private bedroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/rojos_courtyard/private_bedroom.png",
+      "building_id": "rojos_courtyard",
+      "building_name": "Los Rojos base",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "rojos_courtyard__private_bathroom",
+      "room": "Private bathroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/rojos_courtyard/private_bathroom.png",
+      "building_id": "rojos_courtyard",
+      "building_name": "Los Rojos base",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "rojos_courtyard__visitor_restroom",
+      "room": "Visitor restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/rojos_courtyard/visitor_restroom.png",
+      "building_id": "rojos_courtyard",
+      "building_name": "Los Rojos base",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "rojos_courtyard__courtyard",
+      "room": "Courtyard",
+      "kind": "outdoor",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/rojos_courtyard/courtyard.png",
+      "building_id": "rojos_courtyard",
+      "building_name": "Los Rojos base",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "consortium_house__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/consortium_house/entrance.png",
+      "building_id": "consortium_house",
+      "building_name": "Waterfront Consortium House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "consortium_house__waiting_room",
+      "room": "Waiting room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/consortium_house/waiting_room.png",
+      "building_id": "consortium_house",
+      "building_name": "Waterfront Consortium House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "consortium_house__office",
+      "room": "Office",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/consortium_house/office.png",
+      "building_id": "consortium_house",
+      "building_name": "Waterfront Consortium House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "consortium_house__stairway",
+      "room": "Stairway",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/consortium_house/stairway.png",
+      "building_id": "consortium_house",
+      "building_name": "Waterfront Consortium House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "consortium_house__upper_apartment_living_chart_room",
+      "room": "Upper apartment living chart room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/consortium_house/upper_apartment_living_chart_room.png",
+      "building_id": "consortium_house",
+      "building_name": "Waterfront Consortium House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "consortium_house__private_bedroom",
+      "room": "Private bedroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/consortium_house/private_bedroom.png",
+      "building_id": "consortium_house",
+      "building_name": "Waterfront Consortium House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "consortium_house__private_bathroom",
+      "room": "Private bathroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/consortium_house/private_bathroom.png",
+      "building_id": "consortium_house",
+      "building_name": "Waterfront Consortium House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "consortium_house__visitor_restroom",
+      "room": "Visitor restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/consortium_house/visitor_restroom.png",
+      "building_id": "consortium_house",
+      "building_name": "Waterfront Consortium House",
+      "generation_status": "not_started"
+    }
+  ],
+  "existing_references": [
+    {
+      "building_id": "lantern_house",
+      "room": "Meeting room",
+      "path": "assets/ui/locations/lantern_house.png"
+    },
+    {
+      "building_id": "saints_depot",
+      "room": "Meeting room",
+      "path": "assets/ui/locations/saints_depot.png"
+    },
+    {
+      "building_id": "purple_clubhouse",
+      "room": "Meeting room",
+      "path": "assets/ui/locations/purple_clubhouse.png"
+    },
+    {
+      "building_id": "rojos_courtyard",
+      "room": "Meeting room",
+      "path": "assets/ui/locations/rojos_courtyard.png"
+    },
+    {
+      "building_id": "consortium_house",
+      "room": "Boardroom",
+      "path": "assets/ui/locations/consortium_house.png"
+    }
+  ]
+}

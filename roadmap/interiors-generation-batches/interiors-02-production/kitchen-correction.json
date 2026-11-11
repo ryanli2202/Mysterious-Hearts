@@ -1,0 +1,17 @@
+{
+  "id": "neo_home__kitchen_dining",
+  "prompt": "Edit target: the supplied kitchen illustration. Produce one 1536x1024 opaque landscape image. Correct ONLY the cooking fixtures in this same modest apartment: put a clearly visible two-ring black induction hob on the LEFT counter section, replacing the rice cooker and leftmost counter clutter, and relocate the extractor hood directly above that hob. Keep the stainless sink on the right-hand return, away from the hob. Shift the rice cooker to a small free section of counter if it fits, otherwise omit it. Keep the brown cabinets, cream tile, refrigerator, table for two, mugs, railway window, sofa edge, warm sunset lighting, illustrated style and clear foreground. No text, labels, people or watermarks.",
+  "reference_paths": [
+    "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c9d7-d510-72c0-8525-e3e66bf1b1bf\\exec-8d36bbdc-c187-4051-8962-7db6929f275e.png"
+  ],
+  "rejected_attempts": [
+    {
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create kitchen dining for Neo and Alyssa's station apartment. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: modest warm plaster walls, medium brown timber trim and floorboards, dark brown simple cabinetry, brass pendant lamps, warm sunset light and a distant small railway station outside. Room brief: A closer distinct view of the EXISTING kitchen and dining area, continuous with the living room. Match dark brown wall and base cabinets, cream square-tile splashback, stainless sink, compact refrigerator, rice cooker, vintage radio on open shelf and brass pendant. Simple wooden table for two placed to one side, clear and ready for meals, with two ceramic mugs. Small partial grey sofa at far edge only; no new island or large luxury room. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/neo_home.png"
+      ],
+      "source_path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c9d7-d510-72c0-8525-e3e66bf1b1bf\\exec-8d36bbdc-c187-4051-8962-7db6929f275e.png",
+      "reason": "Extractor hood positioned over sink and no visible hob; cooking function needs an actual cooking surface."
+    }
+  ]
+}

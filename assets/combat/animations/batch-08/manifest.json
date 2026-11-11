@@ -1,0 +1,292 @@
+{
+  "roadmap_id": "MH-001",
+  "batch": 8,
+  "created": "2026-11-10",
+  "status": "8 local sprite sheets and GIFs assembled and structurally verified; runtime integration pending.",
+  "generation_tool": "built-in image_gen",
+  "model_verification": "Tool does not expose a model selector or verified model identifier.",
+  "workflow": "Generate sprite sheets first, then slice and encode locally using Pillow.",
+  "grid": {
+    "columns": 3,
+    "rows": 2
+  },
+  "frame_duration_ms": 150,
+  "blank_hold_ms": 720,
+  "timing_reason": "900ms action matches the plan's 700\u20131100ms martial master range.",
+  "background": "opaque dark slate; not transparent",
+  "assets": [
+    {
+      "asset_id": "MH-001-B08-storm-bridge",
+      "name": "storm-bridge",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet matching previous batches. Polished hand-painted anime style, two generic faceless adult martial artists with dark hair, steel-blue actor and charcoal-grey opponent in plain unbranded training shirts and trousers; silver physical air trails. EXACTLY SIX chronological keyframes arranged THREE COLUMNS by TWO ROWS, row-major order on landscape 1536x1024 canvas; six equal square 512x512 cells. Fixed three-quarter side camera, consistent figure size and appearance between frames. Uniform opaque dark slate #101824 background. No borders, grid lines, gutters, text, labels, scenery, UI or watermark. All bodies and effects contained within each cell with generous margins. Anatomically clear separate bodies, only two arms and two legs per solid person. Physical martial arts, no magic, lightning, fire or gore. One finite 900ms action; sixth frame fades almost to blank. Sanda strike-to-throw sequence. Frame 1 blue actor left poised at distance from grey right; 2 blue extends a long straight strike with thin silver trail bridging the gap toward grey guard; 3 blue steps close and turns the strike into forearm-and-shoulder grip, trail curls tightly at contact; 4 blue pivots hips and redirects grey into a compact throwing arc, grey feet lifting, separate bodies; 5 grey lands low on side while blue stays balanced above, arc dissipating; 6 both figures nearly faded. Clear long strike, grip and throw beats; no literal bridge or storm.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2f9-d6f5-71d2-a321-edb23f3f95be/exec-d5439b35-dd6c-4bf7-8408-ecfd2758ac18.png",
+      "sheet": "spritesheets/storm-bridge.png",
+      "gif": "gifs/storm-bridge.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "abe51e10e5566f23582f390a593c6a6c7da9b0abaaf134afe3c8ddb468366120",
+        "sha256_gif": "233c95f86538606c65b45f57565f6d03805751ebaf07d01e5879954183a501b8"
+      }
+    },
+    {
+      "asset_id": "MH-001-B08-sky-catch-reversal",
+      "name": "sky-catch-reversal",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet matching previous batches. Polished hand-painted anime style, two generic faceless adult martial artists with dark hair, steel-blue actor and charcoal-grey opponent in plain unbranded training shirts and trousers; silver physical air trails. EXACTLY SIX chronological keyframes arranged THREE COLUMNS by TWO ROWS, row-major order on landscape 1536x1024 canvas; six equal square 512x512 cells. Fixed three-quarter side camera, consistent figure size and appearance between frames. Uniform opaque dark slate #101824 background. No borders, grid lines, gutters, text, labels, scenery, UI or watermark. All bodies and effects contained within each cell with generous margins. Anatomically clear separate bodies, only two arms and two legs per solid person. Physical martial arts, no magic, lightning, fire or gore. One finite 900ms action; sixth frame fades almost to blank. Sanda aerial catch and reversal. Frame 1 grey opponent right begins a low forward jump toward blue left, blue braced; 2 grey airborne with bent knee and forward silver trajectory, blue reaches toward torso and thigh; 3 blue catches grey's airborne body in a stable two-arm grip, grey horizontal/diagonal, blue planted; 4 blue pivots and lowers, existing incoming silver trajectory bends downward in one compact arc, never lifts grey overhead; 5 grey lands safely on side at blue's feet with small silver air puff, blue crouched and balanced; 6 figures nearly faded. Whole aerial figure inside each cell, no head-first impact, injury, crater or explosion.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2f9-d6f5-71d2-a321-edb23f3f95be/exec-81a20915-acb7-49f8-bc47-499a024015b3.png",
+      "sheet": "spritesheets/sky-catch-reversal.png",
+      "gif": "gifs/sky-catch-reversal.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "79d2866573620c155899ca6ab6f729986d7d12ce910988b1f08641825bdd2e33",
+        "sha256_gif": "a7b4323105da6eca988558a3aae7262fb3a154d0f6f4abe66d838ae372f3f6b1"
+      }
+    },
+    {
+      "asset_id": "MH-001-B08-horizon-breaker",
+      "name": "horizon-breaker",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet matching previous batches. Polished hand-painted anime style, two generic faceless adult martial artists with dark hair, steel-blue actor and charcoal-grey opponent in plain unbranded training shirts and trousers; silver physical air trails. EXACTLY SIX chronological keyframes arranged THREE COLUMNS by TWO ROWS, row-major order on landscape 1536x1024 canvas; six equal square 512x512 cells. Fixed three-quarter side camera, consistent figure size and appearance between frames. Uniform opaque dark slate #101824 background. No borders, grid lines, gutters, text, labels, scenery, UI or watermark. All bodies and effects contained within each cell with generous margins. Anatomically clear separate bodies, only two arms and two legs per solid person. Physical martial arts, no magic, lightning, fire or gore. One finite 900ms action; sixth frame fades almost to blank. Sanda side kick, two standing figures. Frame 1 blue left adopts sideways planted stance facing grey right; 2 blue chambers one knee across torso with support foot grounded; 3 blue drives horizontal side kick with heel leading toward grey's forearm guard, torso leaning slightly away; 4 leg fully extended sideways and broad horizontal silver pressure front compresses against guard; 5 blue retracts leg to chamber and pressure thins; 6 figures nearly faded. Clearly side kick not roundhouse, no actual horizon or energy beam, keep heel and pressure inside cell.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2f9-d6f5-71d2-a321-edb23f3f95be/exec-6f929a7e-de14-4efb-9505-d25a0ae0d43b.png",
+      "sheet": "spritesheets/horizon-breaker.png",
+      "gif": "gifs/horizon-breaker.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "3914bd4ef3681b1ee5f6f9c22cb0fed492db041f96f14129f122a2ef62038d31",
+        "sha256_gif": "5275cc84551156d265f6133158c3ec1453a0b0b7f3611596e337d77427626e6c"
+      }
+    },
+    {
+      "asset_id": "MH-001-B08-cyclone-sweep",
+      "name": "cyclone-sweep",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet matching previous batches. Polished hand-painted anime style, two generic faceless adult martial artists with dark hair, steel-blue actor and charcoal-grey opponent in plain unbranded training shirts and trousers; silver physical air trails. EXACTLY SIX chronological keyframes arranged THREE COLUMNS by TWO ROWS, row-major order on landscape 1536x1024 canvas; six equal square 512x512 cells. Fixed three-quarter side camera, consistent figure size and appearance between frames. Uniform opaque dark slate #101824 background. No borders, grid lines, gutters, text, labels, scenery, UI or watermark. All bodies and effects contained within each cell with generous margins. Anatomically clear separate bodies, only two arms and two legs per solid person. Physical martial arts, no magic, lightning, fire or gore. One finite 900ms action; sixth frame fades almost to blank. Sanda low sweeping takedown. Frame 1 blue left lowers stance beside grey right; 2 blue crouches and pivots, one sweeping leg extends low with thin circular silver trail near grey ankles; 3 sweep contacts grey lower leg while blue remains low on bent support leg, trail curls around target feet; 4 grey tips sideways into compact tumbling fall, feet lifted and arms naturally reaching, blue follows through low; 5 grey lands on side at floor level beside crouched blue, circular trail disperses; 6 figures nearly faded. No tornado, no head-first impact, no multiple solid bodies.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2f9-d6f5-71d2-a321-edb23f3f95be/exec-f0ce412c-199e-4688-8c11-3950f16ec8eb.png",
+      "sheet": "spritesheets/cyclone-sweep.png",
+      "gif": "gifs/cyclone-sweep.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "801b3cbe5ba7accd5c768cd2472a8f81bf7e1a6abb9334a58d1b4fa59dc930e1",
+        "sha256_gif": "5ae8ba23cbb4a9019147cfd96a8cc52a69529e7583b1503dba51f0ee7b130379"
+      }
+    },
+    {
+      "asset_id": "MH-001-B08-stillpoint-intercept",
+      "name": "stillpoint-intercept",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet matching previous batches. Polished hand-painted anime style, two generic faceless adult martial artists with dark hair, steel-blue actor and charcoal-grey opponent in plain unbranded training shirts and trousers; silver physical air trails. EXACTLY SIX chronological keyframes arranged THREE COLUMNS by TWO ROWS, row-major order on landscape 1536x1024 canvas; six equal square 512x512 cells. Fixed three-quarter side camera, consistent figure size and appearance between frames. Uniform opaque dark slate #101824 background. No borders, grid lines, gutters, text, labels, scenery, UI or watermark. All bodies and effects contained within each cell with generous margins. Anatomically clear separate bodies, only two arms and two legs per solid person. Physical martial arts, no magic, lightning, fire or gore. One finite 900ms action; sixth frame fades almost to blank. Jeet Kune Do early interception, blue left and grey right. Frame 1 both close poised guards, quiet space between; 2 grey starts extending straight punch toward blue, only tiny short incoming line; 3 blue sends compact lead-hand intercept to grey wrist/forearm on same incoming line, TINY silver contact dot appears halfway between them while neither arm is fully extended; 4 grey strike stalls on blue forearm contact, blue balanced with minimal movement, tiny contact spark fading; 5 both retract to poised guard with no long trails; 6 nearly faded. Emphasize precise early contact, no big impact burst, no full punch exchange.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2f9-d6f5-71d2-a321-edb23f3f95be/exec-5b57f8c2-3ccd-412b-bc64-63d341d98efd.png",
+      "sheet": "spritesheets/stillpoint-intercept.png",
+      "gif": "gifs/stillpoint-intercept.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "1e80b6d5517e6e80bf52c1be58f34827489948bf8b93e329218595c120c4e023",
+        "sha256_gif": "70c1fc026a50b31935bc8456b85cbc850ff19abd6c862a84acf7c448d82af93c"
+      }
+    },
+    {
+      "asset_id": "MH-001-B08-vanishing-line",
+      "name": "vanishing-line",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet matching previous batches. Polished hand-painted anime style, two generic faceless adult martial artists with dark hair, steel-blue actor and charcoal-grey opponent in plain unbranded training shirts and trousers; silver physical air trails. EXACTLY SIX chronological keyframes arranged THREE COLUMNS by TWO ROWS, row-major order on landscape 1536x1024 canvas; six equal square 512x512 cells. Fixed three-quarter side camera, consistent figure size and appearance between frames. Uniform opaque dark slate #101824 background. No borders, grid lines, gutters, text, labels, scenery, UI or watermark. All bodies and effects contained within each cell with generous margins. Anatomically clear separate bodies, only two arms and two legs per solid person. Physical martial arts, no magic, lightning, fire or gore. One finite 900ms action; sixth frame fades almost to blank. Jeet Kune Do diagonal evasion. Frame 1 blue left and grey right face each other in guard; 2 grey begins straight punch horizontally into blue's original head-height position; 3 blue takes one clean diagonal sidestep toward foreground and slightly left, ONE faint blue previous-position silhouette remains in attack corridor, connected to solid body by ONE silver diagonal line; 4 grey fully extended punch passes through empty original position, blue is distinctly below/outside corridor with no contact; 5 blue settles outside attack line as afterimage disappears, grey retracts; 6 nearly faded. Single diagonal exit, no teleport, no hit flash, no retaliatory strike.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2f9-d6f5-71d2-a321-edb23f3f95be/exec-620eeb9b-e66d-4b64-8d26-8f63d3274124.png",
+      "sheet": "spritesheets/vanishing-line.png",
+      "gif": "gifs/vanishing-line.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "d0b3ca05c8e6ba35980353a0b96cf2068f7eaac5fba33822c39517ba13966ed3",
+        "sha256_gif": "13b454bfeb32fb8029f7e3b0ef74b30ea2f947e97d21c0cf5099573962c8e635"
+      }
+    },
+    {
+      "asset_id": "MH-001-B08-one-beat-thunder",
+      "name": "one-beat-thunder",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet matching previous batches. Polished hand-painted anime style, two generic faceless adult martial artists with dark hair, steel-blue actor and charcoal-grey opponent in plain unbranded training shirts and trousers; silver physical air trails. EXACTLY SIX chronological keyframes arranged THREE COLUMNS by TWO ROWS, row-major order on landscape 1536x1024 canvas; six equal square 512x512 cells. Fixed three-quarter side camera, consistent figure size and appearance between frames. Uniform opaque dark slate #101824 background. No borders, grid lines, gutters, text, labels, scenery, UI or watermark. All bodies and effects contained within each cell with generous margins. Anatomically clear separate bodies, only two arms and two legs per solid person. Physical martial arts, no magic, lightning, fire or gore. One finite 900ms action; sixth frame fades almost to blank. Jeet Kune Do minimal-windup short strike. Frame 1 blue left relaxed close guard facing grey right at short range; 2 blue holds nearly same poised posture, no backswing or charge; 3 blue lead fist snaps a short distance forward into grey forearm guard with one very short straight silver line; 4 compact contact generates a strong distinct circular silver compression ring at guard, much wider than the tiny punch trail, blue body barely shifts; 5 hand retracts and ring expands faintly then fades, grey small recoil; 6 nearly faded. No lightning, no magic, no giant explosion, little windup is central.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2f9-d6f5-71d2-a321-edb23f3f95be/exec-5c64ddec-2e58-48e9-aea6-4792564775dc.png",
+      "sheet": "spritesheets/one-beat-thunder.png",
+      "gif": "gifs/one-beat-thunder.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "cf7f73a999ea4ed51aafa9e63cfa5ce89da8f70bda58f69570af88c4543ba1f7",
+        "sha256_gif": "c73c3cc4a344fd4f74f964521a3c37594bec212a40dbd38b05cb82ef6f550263"
+      }
+    },
+    {
+      "asset_id": "MH-001-B08-empty-rhythm",
+      "name": "empty-rhythm",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet matching previous batches. Polished hand-painted anime style, two generic faceless adult martial artists with dark hair, steel-blue actor and charcoal-grey opponent in plain unbranded training shirts and trousers; silver physical air trails. EXACTLY SIX chronological keyframes arranged THREE COLUMNS by TWO ROWS, row-major order on landscape 1536x1024 canvas; six equal square 512x512 cells. Fixed three-quarter side camera, consistent figure size and appearance between frames. Uniform opaque dark slate #101824 background. No borders, grid lines, gutters, text, labels, scenery, UI or watermark. All bodies and effects contained within each cell with generous margins. Anatomically clear separate bodies, only two arms and two legs per solid person. Physical martial arts, no magic, lightning, fire or gore. One finite 900ms action; sixth frame fades almost to blank. Jeet Kune Do sparse stop-start strikes between defensive movements. Frame 1 blue left high probing jab with a single thin short silver trail toward grey right raising guard; 2 blue withdraws into still guard while grey continues moving forearms high, obvious empty space with no trail; 3 blue sends small low body jab into the gap below grey high guard with one sparse silver line; 4 blue holds withdrawn hand still again while grey lowers guard late, no trail, conspicuous pause; 5 blue restarts high straight jab over now-low grey guard with one clean thin trail; 6 nearly faded. Alternate attack/pause/attack/pause/attack, no dense flurry or giant impact. Two distinct quiet frames.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2f9-d6f5-71d2-a321-edb23f3f95be/exec-30a0677b-2fda-4caa-bbba-5c5be0acc8d9.png",
+      "sheet": "spritesheets/empty-rhythm.png",
+      "gif": "gifs/empty-rhythm.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "e97094b00d68cf8cb81256b9d1299fb1b98a147d30e7ec5f71c67b6b16696f7e",
+        "sha256_gif": "cda2126659c002e7aebaeec71ad5fa57265daf5d4423e08bb000bb6d1f69ace3"
+      }
+    }
+  ],
+  "validation_command": "python tools/build_combat_batch_gifs.py --batch 8"
+}

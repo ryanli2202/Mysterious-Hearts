@@ -1,0 +1,23 @@
+test_all_24_ace_orders_both_viewpoints_and_reveal_before_guard (test_campaign_prose.CampaignProseTests.test_all_24_ace_orders_both_viewpoints_and_reveal_before_guard) ... ok
+test_boss_failure_has_no_apology_or_release (test_campaign_prose.CampaignProseTests.test_boss_failure_has_no_apology_or_release) ... ok
+test_compiler_matches_shipping_content_and_has_no_directions (test_campaign_prose.CampaignProseTests.test_compiler_matches_shipping_content_and_has_no_directions) ... ok
+test_current_crow_defeat_and_legacy_capture_remain_distinct (test_campaign_prose.CampaignProseTests.test_current_crow_defeat_and_legacy_capture_remain_distinct) ... ok
+test_direct_route_does_not_gain_documents (test_campaign_prose.CampaignProseTests.test_direct_route_does_not_gain_documents) ... ok
+test_disclosures_only_in_authorised_audience_and_pending_scene_preserved (test_campaign_prose.CampaignProseTests.test_disclosures_only_in_authorised_audience_and_pending_scene_preserved) ... ok
+test_every_optional_scene_has_an_executable_cast_variant (test_campaign_prose.CampaignProseTests.test_every_optional_scene_has_an_executable_cast_variant) ... ok
+test_fight_reactions_require_resolved_events_and_do_not_repeat (test_campaign_prose.CampaignProseTests.test_fight_reactions_require_resolved_events_and_do_not_repeat) ... ok
+test_garrett_entire_route_two_reconciliation_policies (test_campaign_prose.CampaignProseTests.test_garrett_entire_route_two_reconciliation_policies) ... ok
+test_hypotheses_and_recaps_do_not_leak_future_findings (test_campaign_prose.CampaignProseTests.test_hypotheses_and_recaps_do_not_leak_future_findings) ... ok
+test_interview_and_operation_phases_never_borrow_the_outcome (test_campaign_prose.CampaignProseTests.test_interview_and_operation_phases_never_borrow_the_outcome) ... ok
+test_old_active_scene_completes_without_new_choices_or_gate (test_campaign_prose.CampaignProseTests.test_old_active_scene_completes_without_new_choices_or_gate) ... ok
+test_reading_choice_and_reload_do_not_commit_early (test_campaign_prose.CampaignProseTests.test_reading_choice_and_reload_do_not_commit_early) ... ok
+test_rei_all_endings_both_resolution_orders (test_campaign_prose.CampaignProseTests.test_rei_all_endings_both_resolution_orders) ... ok
+test_shared_first_meeting_dialogue_identical_and_drawings_distinct (test_campaign_prose.CampaignProseTests.test_shared_first_meeting_dialogue_identical_and_drawings_distinct) ... ok
+test_single_friend_and_empty_gathering_do_not_summon_cast (test_campaign_prose.CampaignProseTests.test_single_friend_and_empty_gathering_do_not_summon_cast) ... ok
+test_social_availability_privacy_disclosure_and_no_cross_progress (test_campaign_prose.CampaignProseTests.test_social_availability_privacy_disclosure_and_no_cross_progress) ... ok
+test_wrong_authentication_never_promises_invitation (test_campaign_prose.CampaignProseTests.test_wrong_authentication_never_promises_invitation) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 129.317s
+
+OK

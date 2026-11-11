@@ -14,7 +14,9 @@ class DialogueTests(unittest.TestCase):
             self.s['world']['cast'][who].update(location='park',journey=None)
 
     def reply(self,who,kind,accepted=True,art=None):
-        with patch.object(combat,'ask_ai',return_value=dict(dialogue='Stay back.' if kind=='attack' else 'All right.',narration='She steps back.',accepted=accepted)):
+        replies=[] if kind=='attack' else [dict(intent=kind,player_line=('Would you teach me '+art+'?' if kind=='learn' else 'Care for a friendly spar?' if kind=='spar' else 'Will you agree to a fight?'))]
+        replies.append(dict(dialogue='Stay back.' if kind=='attack' else 'All right.',narration='She steps back.',accepted=accepted))
+        with patch.object(combat,'ask_ai',side_effect=replies):
             return dialogue.generate(copy.deepcopy(self.s),who,kind,art)
 
     def test_acceptance_then_fight(self):
@@ -77,8 +79,56 @@ class DialogueTests(unittest.TestCase):
         self.s['groups']['test']=dict(members=['emily'],history=[],open=True,channel='in_person')
         self.s['active_group']='test'
         dialogue.commit(self.s,self.reply('emily','attack'))
+        self.assertEqual(self.s['groups']['test']['history'][-3]['kind'],'action')
         self.assertIsNone(self.s['active_group'])
         self.assertFalse(self.s['groups']['test']['open'])
         self.assertTrue(any(row.get('text')=='Stay back.' for row in self.s['hangout_journal'][-1]['history']))
+
+class GeneratedInvitationTests(unittest.TestCase):
+    setUp=DialogueTests.setUp
+    reply=DialogueTests.reply
+    def test_recipient_answers_exact_generated_line_and_history_retains_it(self):
+        line='Rei, got room for a friendly spar?'
+        calls=[]
+        def provider(prompt,schema,*args,**kwargs):
+            calls.append(prompt)
+            return dict(intent='spar',player_line=line) if len(calls)==1 else dict(dialogue='Yes.',narration='Rei nods.',accepted=False)
+        with patch.object(combat,'ask_ai',side_effect=provider):
+            result=dialogue.generate(copy.deepcopy(self.s),'rei','spar')
+        self.assertIn(line,calls[1])
+        record=dialogue.commit(self.s,result)
+        self.assertEqual(record['player_line'],line)
+        self.assertEqual(self.s['combat']['dialogue'][-1]['player_line'],line)
+
+    def test_lesson_art_cannot_be_swapped_by_generation(self):
+        before=copy.deepcopy(self.s)
+        with patch.object(combat,'ask_ai',return_value=dict(intent='learn',player_line='Teach me Boxing?')):
+            with self.assertRaises(ValueError): dialogue.generate(copy.deepcopy(self.s),'rei','learn','Judo')
+        self.assertEqual(self.s,before)
+
+    def test_challenge_reply_cannot_convert_to_spar(self):
+        with patch.object(combat,'ask_ai',side_effect=[dict(intent='challenge',player_line='Will you agree to a fight?'),
+                dict(dialogue='If you mean a spar, yes.',narration='Rei nods.',accepted=True)]):
+            with self.assertRaises(ValueError): dialogue.generate(copy.deepcopy(self.s),'rei','challenge')
+
+    def test_changed_protagonist_rejects_pending_invitation(self):
+        result=self.reply('rei','spar')
+        self.s['player']='daniel'
+        with self.assertRaises(ValueError): dialogue.commit(self.s,result)
+
+    def test_custom_protagonist_uses_saved_authored_identity(self):
+        import custom_protagonist
+        from test_custom_protagonist import PROFILE
+        with patch.object(custom_protagonist,'verify_portrait'):
+            self.s=custom_protagonist.create(PROFILE,'assets/generated/combat-test.png')
+        self.s['world']['location']='park'
+        for who in (self.s['player'],'rei'): self.s['world']['cast'][who].update(location='park',journey=None)
+        calls=[]
+        def provider(prompt,schema,*args,**kwargs):
+            calls.append(prompt)
+            return dict(intent='spar',player_line='Could we try a friendly spar, Rei?') if len(calls)==1 else dict(dialogue='Yes.',narration='Rei nods.',accepted=True)
+        with patch.object(combat,'ask_ai',side_effect=provider): result=dialogue.generate(copy.deepcopy(self.s),'rei','spar')
+        self.assertIn('Alex Rivers',calls[0]); self.assertIn('Illustrator',calls[0])
+        self.assertEqual(dialogue.commit(self.s,result)['player_line'],'Could we try a friendly spar, Rei?')
 
 if __name__=='__main__': unittest.main()

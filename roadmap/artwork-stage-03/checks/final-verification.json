@@ -1,0 +1,29 @@
+{
+  "compiled_files": 3,
+  "unchanged_live_assets": 306,
+  "height_table_unchanged": true,
+  "accepted_candidate_hashes": 146,
+  "review_evidence_exists": true,
+  "document_links_checked": 37,
+  "patch_note_sources_exist": true,
+  "publication": [
+    {
+      "command": [
+        "python",
+        "patch_notes.py",
+        "validate"
+      ],
+      "exit_code": 0,
+      "output": "Valid catalogue: 498 entries\n"
+    },
+    {
+      "command": [
+        "python",
+        "patch_notes.py",
+        "export"
+      ],
+      "exit_code": 0,
+      "output": "C:\\Users\\ryanl\\Documents\\Mysterious Hearts\\patch_notes\\PATCH_NOTES.md\n"
+    }
+  ]
+}

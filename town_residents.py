@@ -146,6 +146,8 @@ def refresh(state):
     gang_leaders.refresh(state)
     import gang_members
     gang_members.refresh(state)
+    import organisation_guards
+    organisation_guards.refresh(state)
 
 
 def context(name, minute):

@@ -1,0 +1,8 @@
+test_legacy_outfits_keep_existing_scale (test_portrait_framing.PortraitFramingTests.test_legacy_outfits_keep_existing_scale) ... ok
+test_mid_thigh_masters_fill_scene_and_keep_relative_stature (test_portrait_framing.PortraitFramingTests.test_mid_thigh_masters_fill_scene_and_keep_relative_stature) ... ok
+test_petite_emily_and_tall_charles_keep_canonical_stature (test_portrait_framing.PortraitFramingTests.test_petite_emily_and_tall_charles_keep_canonical_stature) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.366s
+
+OK

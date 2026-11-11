@@ -1,0 +1,44 @@
+[
+  {
+    "check": "assets",
+    "command": "python tools/verify_artwork_batch_01.py --installed",
+    "returncode": 0,
+    "log": "assets.txt"
+  },
+  {
+    "check": "portrait_framing",
+    "command": "python -m unittest discover -s tests -p test_portrait_framing.py -v",
+    "returncode": 0,
+    "log": "portrait_framing.txt"
+  },
+  {
+    "check": "character_selection",
+    "command": "python -m unittest discover -s tests -p test_character_selection.py -v",
+    "returncode": 0,
+    "log": "character_selection.txt"
+  },
+  {
+    "check": "artwork_batch_01_ui_smoke",
+    "command": "python tests/artwork_batch_01_ui_smoke.py",
+    "returncode": 0,
+    "log": "artwork_batch_01_ui_smoke.txt"
+  },
+  {
+    "check": "character_selection_ui_smoke",
+    "command": "python tests/character_selection_ui_smoke.py",
+    "returncode": 0,
+    "log": "character_selection_ui_smoke.txt"
+  },
+  {
+    "check": "start_ui_smoke",
+    "command": "python tests/start_ui_smoke.py",
+    "returncode": 0,
+    "log": "start_ui_smoke.txt"
+  },
+  {
+    "check": "phone_dark_theme_smoke",
+    "command": "python tests/phone_dark_theme_smoke.py",
+    "returncode": 0,
+    "log": "phone_dark_theme_smoke.txt"
+  }
+]

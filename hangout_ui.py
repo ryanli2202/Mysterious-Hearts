@@ -37,7 +37,8 @@ def current_exchange(state, group, pending=None):
         if speaker == 'Status update':
             result = Exchange()
         elif speaker in (player, player + ' (You)'):
-            result = Exchange(narration=text) if line.get('kind') == 'action' else Exchange(player=text)
+            is_action = line.get('kind') == 'action' or text.startswith(core.ACTION_PREFIX)
+            result = Exchange(narration=text.removeprefix(core.ACTION_PREFIX)) if is_action else Exchange(player=text)
         elif speaker == 'Narrator':
             # A continuation can have no new player line. Do not repeat old speech.
             if result.speeches:
@@ -193,6 +194,10 @@ class HangoutCanvas(ArtCanvas):
             return
         state = self.game.state_data
         world = state['world']
+        historical = (state.get('campaign_dialogue') or {}).get('portraits', {})
+        historical = historical or __import__('flashback_visits').portraits(state)
+        def character_name(who):
+            return 'Marcus' if who=='marcus' and historical else core.contact_name(state,who)
         floor = h - self.controls_height - 112
         portrait_h = max(170, min(620, floor - 125))
         count = len(self.members)
@@ -202,21 +207,26 @@ class HangoutCanvas(ArtCanvas):
         self.portraits = []
         self.portrait_items = {}
         active = self.exchange.speeches[self.speech_index][0] if self.exchange.speeches else None
+        cells = {who: w * (.30 if who == state['player'] or count == 1 else min(.27, .52/count))
+                 for who in positions}
+        photos = self.game.portrait_group(
+            {who: (max(48, int(cell)//16*16), int(portrait_h)//16*16)
+             for who, cell in cells.items()}, world['location'], world['minute'])
         for who, x in positions.items():
-            cell = w * (.30 if who == state['player'] or count == 1 else min(.27, .52/count))
+            cell = cells[who]
             x = max(cell/2+4, min(w-cell/2-4, x))
             positions[who] = x
-            photo = self.game.portrait(who, (max(48, int(cell)//16*16), int(portrait_h)//16*16),
-                                       world['location'], world['minute'])
+            photo = photos[who]
             self.portraits.append(photo)
             item = self.create_image(x, floor, image=photo, anchor='s', tags='scene')
             self.portrait_items[who] = item
             # Clicking a group portrait selects that character's delivered line.
             self.tag_bind(item, '<Button-1>', lambda e, key=who: self.select_speaker(key))
-            self.tag_bind(item, '<Button-3>', lambda e, key=who: self.game.open_profiles(key))
-            name = core.contact_name(state, who) + (' · You' if who == state['player'] else '')
+            if not historical:
+                self.tag_bind(item, '<Button-3>', lambda e, key=who: self.game.open_profiles(key))
+            name = character_name(who) + (' · You' if who == state['player'] else '')
             if cell < 100:
-                name = ''.join(part[0] for part in core.contact_name(state, who).split())
+                name = ''.join(part[0] for part in character_name(who).split())
             width = min(cell + 20, max(95, len(name)*7+18))
             self.rounded_box(x-width/2, floor-1, width, 27, ui.PANEL,
                              ui.GOLD if who == active else ui.EDGE)
@@ -230,7 +240,7 @@ class HangoutCanvas(ArtCanvas):
                         w*.24, bubble_y, bubble_width, positions[state['player']], floor-portrait_h*.65, max_lines)
         if self.exchange.speeches:
             who, speech = self.exchange.speeches[self.speech_index]
-            self.bubble('speech', core.contact_name(state, who), speech, w*.53, bubble_y,
+            self.bubble('speech', character_name(who), speech, w*.53, bubble_y,
                         bubble_width, positions[who], floor-portrait_h*.65, max_lines)
         narration = self.exchange.narration
         if not narration:
@@ -261,7 +271,8 @@ class HangoutView(tk.Frame):
         self.game = game
         self.canvas = HangoutCanvas(self, game)
         self.canvas.pack(fill='both', expand=True)
-        self.header = tk.Frame(self.canvas, bg=ui.PANEL, padx=12, pady=6)
+        self.header = ui.TextureFrame(self.canvas, bg=ui.PANEL, padx=12, pady=8,
+                                      highlightthickness=1, highlightbackground=ui.EDGE)
         self.header_item = self.canvas.create_window(12, 12, anchor='nw', window=self.header)
         self.location = ttk.Label(self.header, font=('Segoe UI', 12, 'bold'), foreground=ui.GOLD, wraplength=230)
         self.location.pack(side='left', padx=(0, 18))
@@ -272,10 +283,13 @@ class HangoutView(tk.Frame):
         self.fullscreen = ttk.Button(self.header, text='Full screen', command=self.toggle_fullscreen)
         self.fullscreen.pack(side='right')
         ttk.Button(self.header, text='Journal', command=game.journal).pack(side='right', padx=4)
+        if __import__('flashback_visits').area_for(game.state_data['player']):
+            ttk.Button(self.header,text='Visit flashback area',command=lambda:__import__('flashback_visit_ui').open_in_person(game)).pack(side='right',padx=4)
         self.combat_button=ttk.Button(self.header, text='Spar / fight / train', command=lambda:__import__('hangout_combat_ui').open_dialogue(game))
         self.combat_button.pack(side='right', padx=4)
         game.wardrobe_menu(self.header).pack(side='right', padx=4)
-        self.controls = tk.Frame(self.canvas, bg=ui.PANEL, padx=14, pady=8)
+        self.controls = ui.TextureFrame(self.canvas, bg=ui.PANEL, padx=18, pady=10,
+                                        highlightthickness=1, highlightbackground=ui.EDGE)
         self.controls_item = self.canvas.create_window(0, 0, anchor='sw', window=self.controls)
         self.meeting_panel = tk.Frame(self.controls, bg=ui.PANEL)
         bar = tk.Frame(self.controls, bg=ui.PANEL)
@@ -321,12 +335,12 @@ class HangoutView(tk.Frame):
                              disabledbackground=ui.PANEL, disabledforeground=ui.MUTED,
                              font=('Segoe UI', 12), relief='flat')
         game.entry.bind('<Return>', lambda e:game.custom())
-        game.send = ttk.Button(self.composer, text='Say', command=game.custom)
+        game.send = ttk.Button(self.composer, text='Say', style='SceneAccent.TButton', command=game.custom)
         game.action_entry = tk.Entry(self.composer, bg=ui.CARD, fg=ui.CREAM, insertbackground=ui.CREAM,
                                     disabledbackground=ui.PANEL, disabledforeground=ui.MUTED,
                                     font=('Segoe UI', 12), relief='flat')
         game.action_entry.bind('<Return>', lambda e:game.custom_action())
-        game.action_send = ttk.Button(self.composer, text='Do action · 20 min', command=game.custom_action)
+        game.action_send = ttk.Button(self.composer, text='Do action', style='SceneAccent.TButton', command=game.custom_action)
         game.status = tk.Label(self.controls, text=game.model_status, bg=ui.PANEL, fg=ui.MUTED,
                                font=('Segoe UI', 9), anchor='w')
         game.status.pack(fill='x')
@@ -339,6 +353,11 @@ class HangoutView(tk.Frame):
 
     def position_controls(self):
         w, h = self.canvas.winfo_width(), self.canvas.winfo_height()
+        if getattr(self,'script_mode',False):
+            self.canvas.coords(self.script_item,0,h)
+            self.canvas.itemconfigure(self.script_item,width=w)
+            self.canvas.tag_raise(self.script_item)
+            return
         self.canvas.coords(self.controls_item, 0, h)
         self.canvas.itemconfigure(self.controls_item, width=w)
         self.canvas.itemconfigure(self.header_item, width=max(1, w-24))
@@ -377,8 +396,8 @@ class HangoutView(tk.Frame):
         send.pack(side='right', padx=(8, 0))
         entry.pack(side='left', fill='x', expand=True, ipady=8)
         suggest.pack(side='left', padx=4)
-        self.reply_tab.configure(style='TButton' if action else 'Accent.TButton')
-        self.action_tab.configure(style='Accent.TButton' if action else 'TButton')
+        self.reply_tab.configure(style='Scene.TButton' if action else 'SceneAccent.TButton')
+        self.action_tab.configure(style='SceneAccent.TButton' if action else 'Scene.TButton')
         self.update_drawer()
 
     def update_drawer(self):
@@ -417,6 +436,10 @@ class HangoutView(tk.Frame):
                 button.pack(side='left', padx=3)
 
     def refresh(self, group):
+        if self.game.state_data.get('campaign_dialogue'):
+            __import__('campaign_dialogue').show(self.game)
+            return
+        __import__('campaign_dialogue').restore(self)
         import combat
         offers=combat.pending_offers(self.game.state_data)
         self.combat_button.configure(text='Fight proposal · review' if offers else 'Spar / fight / train')

@@ -1,0 +1,111 @@
+{
+  "generator": "OpenAI built-in image_gen.imagegen",
+  "created": "2026-11-10",
+  "transparent_background": true,
+  "portraits": [
+    {
+      "id": "yokai",
+      "path": "assets/portraits/guards/yokai.png",
+      "prompt": "Edit target: referenced existing guard portrait. Preserve face/head identity, gender, build and polished Korean manhwa cel-shaded art style. Replace martial/ninja clothing with contemporary yakuza fashion: Shinokami male Yokai: powerful muscular yakuza enforcer wearing luxurious black pinstripe suit, open burgundy silk shirt with subtle dragon pattern, gold chain necklace, rings, watch, lapel chain, black leather belt and discreet communications earpiece, slim protective underlayer visible beneath open jacket. Black fingerless gloves, compact translucent red energy around one fist. No gun or sword. Show full head, both arms and hands, torso through upper thighs, centered upright three-quarter portrait, generous clear margin around entire silhouette. Single character. Genuine transparent alpha background: remove ALL existing backdrop, haze and gradient. No scenery, floor, checkerboard, text or watermark. Vertical 1024x1536.",
+      "updated": "2026-11-10"
+    },
+    {
+      "id": "oni",
+      "path": "assets/portraits/guards/oni.png",
+      "prompt": "Edit target: referenced existing guard portrait. Preserve face/head identity, gender, build and polished Korean manhwa cel-shaded art style. Replace martial/ninja clothing with contemporary yakuza fashion: Shinokami Oni fully robotic heavy guard: retain mechanical horned oni head, red optics, mechanical hands and integrated forearm weapon systems, no human skin. Wear luxurious structured black tailored suit jacket with broad satin lapels over armored torso, burgundy waistcoat, gold lapel chain, pocket square and tailored dark trousers adapted around robotic joints. Stylish yakuza security automaton with clearly visible mechanical gear. Show full head, both arms and hands, torso through upper thighs, centered upright three-quarter portrait, generous clear margin around entire silhouette. Single character. Genuine transparent alpha background: remove ALL existing backdrop, haze and gradient. No scenery, floor, checkerboard, text or watermark. Vertical 1024x1536.",
+      "updated": "2026-11-10"
+    },
+    {
+      "id": "tengu",
+      "path": "assets/portraits/guards/tengu.png",
+      "prompt": "Edit target: referenced existing guard portrait. Preserve face/head identity, gender, build and polished Korean manhwa cel-shaded art style. Replace martial/ninja clothing with contemporary yakuza fashion: Shinokami male Tengu: lean stylish yakuza guard in tailored charcoal suit with open blazer, black silk shirt with muted red floral pattern, silver necklace, silver rings and watch, pocket square, communications earpiece, leather belt with small radio pouch, discreet protective underlayer beneath suit. No magic, gun or sword. Show full head, both arms and hands, torso through upper thighs, centered upright three-quarter portrait, generous clear margin around entire silhouette. Single character. Genuine transparent alpha background: remove ALL existing backdrop, haze and gradient. No scenery, floor, checkerboard, text or watermark. Vertical 1024x1536.",
+      "updated": "2026-11-10"
+    },
+    {
+      "id": "clubs",
+      "path": "assets/portraits/guards/clubs.png",
+      "prompt": "Use case: precise-object-edit. Edit target: existing Clubs portrait. Update this game portrait in the same polished Korean manhwa cel-shaded style. Broad adult Clubs enforcer wearing a BLACK HOOD over a full-face BLACK MILITARY HELMET and black face mask; entire face and hair concealed, opaque visor. Bold WHITE CLUBS suit insignia centered on face mask. Black jacket open over a visibly bulletproof tactical vest. Wield a gun muzzle down in one gloved hand and compact green Awakened energy in the other. Head through upper thighs, both hands and weapon completely in frame, generous empty margins. Preserve strong build and art quality. Replace entire backdrop with genuine transparent alpha, no background, haze, gradient, floor or checkerboard. Single character, no text or watermark.",
+      "updated": "2026-11-10"
+    },
+    {
+      "id": "spades",
+      "path": "assets/portraits/guards/spades.png",
+      "prompt": "Use case: precise-object-edit. Edit target first image: Spades assassin game portrait. Same polished Korean manhwa cel-shaded style and athletic adult build. Replace visible face and hair with a full-face black assassin mask, no exposed skin or eyes, bold WHITE SPADE suit insignia centered on mask. Wear a black hooded jacket with hood up, layered black cloak with draped cloth panels, scarf folds, straps, buckles and utility accessories. Wield a clearly visible knife in one gloved hand. Head to upper thighs, both hands and entire knife in frame with generous margins. Black and charcoal outfit, restrained deep-violet accents. Single character isolated on genuinely transparent alpha background. Remove ALL original backdrop and atmospheric haze; no opaque background, checkerboard, text or watermark.",
+      "updated": "2026-11-10"
+    },
+    {
+      "id": "affiliate",
+      "path": "assets/portraits/guards/affiliate.png",
+      "prompt": "Use case: precise-object-edit. First reference is edit target affiliate portrait, second reference is Syndicate chest insignia design. Redesign affiliate into adult full-face military soldier: black ballistic helmet, opaque dark goggles and face mask completely conceal face and hair, black military fatigues and protective plate carrier, full gloves, utility belt and cargo trousers. Wield a gun clearly visible held low. Prominent chest patch depicting the Syndicate emblem from second reference: fan of playing cards, front ace of spades with skull in spade. Same polished Korean manhwa cel-shaded visual novel style. Single unawakened guard, no magic. Show entire head, both arms and hands, torso and upper thighs, all weapon in frame, generous margins. Isolated cutout on genuinely transparent alpha background. No scenery, gradient, haze or checkerboard. No watermark.",
+      "updated": "2026-11-10"
+    },
+    {
+      "id": "headhunter",
+      "path": "assets/portraits/guards/headhunter.png",
+      "prompt": "Create a single transparent-background character portrait sprite for Mysterious Hearts, matching polished Korean manhwa / cel-shaded anime visual-novel art. Blackstone Headhunter: adult male combat cyborg, human square face partly covered by gunmetal cheek and jaw armour, heavy graphite armoured torso, exposed mechanical forearms with integrated weapon housings, amber targeting optic, imposing hunter stance; dark corporate-security equipment, visibly distinct from a robot. Entire head, shoulders, both arms and hands, torso and upper thighs; centered upright three-quarter view. Vertical 1024x1536 composition, generous clear transparent margin around hair, elbows and equipment, no cut-off head or hands. Clean ink lines, detailed expressive face, cohesive soft cel shading, crisp isolated silhouette, readable small on screen. One adult guard only. No setting, no ground, no background gradients, no text, no watermark, no border, no checkerboard. True transparent alpha background. Compact translucent effects only."
+    },
+    {
+      "id": "seeker",
+      "path": "assets/portraits/guards/seeker.png",
+      "prompt": "Create a single transparent-background character portrait sprite for Mysterious Hearts, matching polished Korean manhwa / cel-shaded anime visual-novel art. Blackstone Seeker: adult female reconnaissance cyborg, human face with a narrow amber optical implant and a dark bob haircut, slim graphite plated armour, visible articulated mechanical left forearm, compact sensor equipment and forearm weapon system, amber accent strips, alert watchful pose. Entire head, shoulders, both arms and hands, torso and upper thighs; centered upright three-quarter view. Vertical 1024x1536 composition, generous clear transparent margin around hair, elbows and equipment, no cut-off head or hands. Clean ink lines, detailed expressive face, cohesive soft cel shading, crisp isolated silhouette, readable small on screen. One adult guard only. No setting, no ground, no background gradients, no text, no watermark, no border, no checkerboard. True transparent alpha background. Compact translucent effects only."
+    },
+    {
+      "id": "pmc",
+      "path": "assets/portraits/guards/pmc.png",
+      "prompt": "Create a single transparent-background character portrait sprite for Mysterious Hearts, polished Korean manhwa / cel-shaded anime visual-novel art. Blackstone PMC: adult unawakened male private military contractor, medium brown skin, short hair and stubble, slate-grey tactical shirt and plate carrier, dark cargo trousers, professional compact gun held muzzle-down, practical helmet clipped at belt, amber identification patch without readable text, no cybernetics or magic. Show full head, shoulders, both arms and hands, torso and upper thighs, centered upright three-quarter view. Vertical 1024x1536 composition, generous transparent margin around silhouette and equipment, no cropped head or hands. Clean expressive linework and soft cel shading, detailed face. One adult only, no setting, no ground, no shadow backdrop, no background gradient, no text, no watermark, no border, no checkerboard. Genuine transparent alpha. Any energy is compact and translucent."
+    },
+    {
+      "id": "team9",
+      "path": "assets/portraits/guards/team9.png",
+      "prompt": "Create a single transparent-background character portrait sprite for Mysterious Hearts, polished Korean manhwa / cel-shaded anime visual-novel art. Interpol Team 9 specialist: adult elite Awakened female field officer, athletic build, dark skin, tightly tied hair, dark navy uniform with blue armoured panels and small shield insignia without text, military CQC stance, compact service gun held muzzle-down, restrained blue energy on the free hand, professional reassuring authority. Show full head, shoulders, both arms and hands, torso and upper thighs, centered upright three-quarter view. Vertical 1024x1536 composition, generous transparent margin around silhouette and equipment, no cropped head or hands. Clean expressive linework and soft cel shading, detailed face. One adult only, no setting, no ground, no shadow backdrop, no background gradient, no text, no watermark, no border, no checkerboard. Genuine transparent alpha. Any energy is compact and translucent."
+    },
+    {
+      "id": "interpol",
+      "path": "assets/portraits/guards/interpol.png",
+      "prompt": "Create a single transparent-background character portrait sprite for Mysterious Hearts, polished Korean manhwa / cel-shaded anime visual-novel art. Interpol protection officer: adult unawakened male officer, medium build, short dark hair, navy uniform and protective vest with blue trim, small shield insignia without text, holstered service gun and radio, calm upright public-desk security posture, no magical effects. Show full head, shoulders, both arms and hands, torso and upper thighs, centered upright three-quarter view. Vertical 1024x1536 composition, generous transparent margin around silhouette and equipment, no cropped head or hands. Clean expressive linework and soft cel shading, detailed face. One adult only, no setting, no ground, no shadow backdrop, no background gradient, no text, no watermark, no border, no checkerboard. Genuine transparent alpha. Any energy is compact and translucent."
+    },
+    {
+      "id": "kai_sentinel",
+      "path": "assets/portraits/guards/kai_sentinel.png",
+      "prompt": "Edit target: referenced existing guard portrait. Preserve face/head identity, gender, build and polished Korean manhwa cel-shaded art style. Replace martial/ninja clothing with contemporary yakuza fashion: Hamayashi-kai male sentinel: navy tailored two-piece business suit with open jacket, charcoal open-collar dress shirt, leather belt, modest gold lapel pin and wristwatch, black gloves, compact translucent gold energy at one fist. Understated yakuza enforcer. Show full head, both arms and hands, torso through upper thighs, centered upright three-quarter portrait, generous clear margin around entire silhouette. Single character. Genuine transparent alpha background: remove ALL existing backdrop, haze and gradient. No scenery, floor, checkerboard, text or watermark. Vertical 1024x1536.",
+      "updated": "2026-11-10"
+    },
+    {
+      "id": "kai_guard",
+      "path": "assets/portraits/guards/kai_guard.png",
+      "prompt": "Edit target: referenced existing guard portrait. Preserve face/head identity, gender, build and polished Korean manhwa cel-shaded art style. Replace martial/ninja clothing with contemporary yakuza fashion: Hamayashi-kai female house guard: tailored navy pantsuit with fitted open blazer, burgundy open-collar blouse, leather belt, small gold lapel pin and understated gold stud earrings. Relaxed ready hands, no magic or weapons. Understated yakuza bodyguard. Show full head, both arms and hands, torso through upper thighs, centered upright three-quarter portrait, generous clear margin around entire silhouette. Single character. Genuine transparent alpha background: remove ALL existing backdrop, haze and gradient. No scenery, floor, checkerboard, text or watermark. Vertical 1024x1536.",
+      "updated": "2026-11-10"
+    },
+    {
+      "id": "lookout",
+      "path": "assets/portraits/guards/lookout.png",
+      "prompt": "Create one transparent-background character portrait sprite for Mysterious Hearts, polished Korean manhwa / cel-shaded anime visual-novel art. Local gang crew lookout: adult male with brown skin and short curly hair, dark burgundy hooded work jacket, layered charcoal shirt, cargo trousers and a small radio, lean streetwise build, vigilant sideways glance, arms relaxed, practical modest neighbourhood crew clothing, no magic or overt weapons. Full head, shoulders, both arms and hands, torso and upper thighs, centered upright three-quarter view. Vertical 1024x1536 image, clear transparent margins around silhouette, no cropped head or hands. Clean ink lines, detailed expressive face, refined soft cel shading, crisp isolated silhouette. One adult only, no setting, no ground, no shadow backdrop, no background gradient, no text, no watermark, no border, no checkerboard. Genuine transparent alpha background. Energy if any is a compact translucent effect."
+    },
+    {
+      "id": "crew_enforcer",
+      "path": "assets/portraits/guards/crew_enforcer.png",
+      "prompt": "Create one transparent-background character portrait sprite for Mysterious Hearts, polished Korean manhwa / cel-shaded anime visual-novel art. Local gang crew enforcer: adult Awakened male, sturdy athletic build, light skin and cropped auburn hair, dark leather-and-canvas jacket over slate shirt, fingerless gloves and dark jeans, MMA stance, restrained copper energy at one fist. Less militarised than elite faction guards. Full head, shoulders, both arms and hands, torso and upper thighs, centered upright three-quarter view. Vertical 1024x1536 image, clear transparent margins around silhouette, no cropped head or hands. Clean ink lines, detailed expressive face, refined soft cel shading, crisp isolated silhouette. One adult only, no setting, no ground, no shadow backdrop, no background gradient, no text, no watermark, no border, no checkerboard. Genuine transparent alpha background. Energy if any is a compact translucent effect."
+    },
+    {
+      "id": "custom_awakened",
+      "path": "assets/portraits/guards/custom_awakened.png",
+      "prompt": "Create one transparent-background character portrait sprite for Mysterious Hearts, polished Korean manhwa / cel-shaded anime visual-novel art. Custom-gang Awakened guard archetype: adult athletic male with medium brown skin and close-cropped hair, neutral charcoal tactical vest over dark teal shirt, dark trousers, blank unbranded insignia panel, restrained cyan energy around hands, balanced MMA-ready stance, no named faction emblem. Full head, shoulders, both arms and hands, torso and upper thighs, centered upright three-quarter view. Vertical 1024x1536 image, clear transparent margins around silhouette, no cropped head or hands. Clean ink lines, detailed expressive face, refined soft cel shading, crisp isolated silhouette. One adult only, no setting, no ground, no shadow backdrop, no background gradient, no text, no watermark, no border, no checkerboard. Genuine transparent alpha background. Energy if any is a compact translucent effect."
+    },
+    {
+      "id": "custom_unawakened",
+      "path": "assets/portraits/guards/custom_unawakened.png",
+      "prompt": "Create one transparent-background character portrait sprite for Mysterious Hearts, polished Korean manhwa / cel-shaded anime visual-novel art. Custom-gang unawakened guard archetype: adult athletic female with olive skin and tied dark hair, neutral slate protective vest over charcoal shirt, dark trousers, blank unbranded insignia panel, practical MMA stance, no magic, no faction emblem. Full head, shoulders, both arms and hands, torso and upper thighs, centered upright three-quarter view. Vertical 1024x1536 image, clear transparent margins around silhouette, no cropped head or hands. Clean ink lines, detailed expressive face, refined soft cel shading, crisp isolated silhouette. One adult only, no setting, no ground, no shadow backdrop, no background gradient, no text, no watermark, no border, no checkerboard. Genuine transparent alpha background. Energy if any is a compact translucent effect."
+    },
+    {
+      "id": "custom_robotic",
+      "path": "assets/portraits/guards/custom_robotic.png",
+      "prompt": "Create one transparent-background character portrait sprite for Mysterious Hearts, polished Korean manhwa / cel-shaded anime visual-novel art. Custom-gang robotic guard archetype: fully robotic humanoid security unit, neutral slate and gunmetal segmented armour, smooth compact head with cyan optical slit, integrated forearm weapon housing, mechanical hands, broad but agile build, blank unbranded panels, no human flesh, no faction emblem. Full head, shoulders, both arms and hands, torso and upper thighs, centered upright three-quarter view. Vertical 1024x1536 image, clear transparent margins around silhouette, no cropped head or hands. Clean ink lines, detailed expressive face, refined soft cel shading, crisp isolated silhouette. One adult only, no setting, no ground, no shadow backdrop, no background gradient, no text, no watermark, no border, no checkerboard. Genuine transparent alpha background. Energy if any is a compact translucent effect."
+    },
+    {
+      "id": "richter_cybernetic",
+      "path": "assets/portraits/guards/richter_cybernetic.png",
+      "prompt": "Create one transparent-background character portrait sprite for Mysterious Hearts, polished Korean manhwa / cel-shaded anime visual-novel art. Create a cybernetically enhanced boss variant of Joseph Richter from the reference portrait. Preserve this exact adult man's recognizable face, swept blond side-part hair, light grey eyes, short blond stubble, strong jaw and confident severe expression. Retain recognizable charcoal waistcoat, burgundy tie and torn white rolled-sleeve dress shirt, now integrated with substantial graphite and brushed-steel cybernetic shoulder and spinal harness, articulated mechanical forearms and hands, a compact built-in forearm weapon housing, reinforced chest armour and subtle amber power lights. Clearly visible sophisticated machine enhancements on both arms and shoulders; his head and face remain mostly human and unmistakably the reference character. He stands ready to confront Rei in a final boss battle. Match the reference's polished manhwa linework and shading. Full head, shoulders, both arms and hands, torso and upper thighs, centered upright three-quarter view. Vertical 1024x1536 image, clear transparent margins around silhouette, no cropped head or hands. Clean ink lines, detailed expressive face, refined soft cel shading, crisp isolated silhouette. One adult only, no setting, no ground, no shadow backdrop, no background gradient, no text, no watermark, no border, no checkerboard. Genuine transparent alpha background. Energy if any is a compact translucent effect.",
+      "reference": "assets/portraits/joseph-richter-selection.png"
+    }
+  ]
+}

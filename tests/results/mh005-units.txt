@@ -1,0 +1,179 @@
+test_campaign_prose.py: PASS
+test_all_24_ace_orders_both_viewpoints_and_reveal_before_guard (test_campaign_prose.CampaignProseTests.test_all_24_ace_orders_both_viewpoints_and_reveal_before_guard) ... ok
+test_boss_failure_has_no_apology_or_release (test_campaign_prose.CampaignProseTests.test_boss_failure_has_no_apology_or_release) ... ok
+test_compiler_matches_shipping_content_and_has_no_directions (test_campaign_prose.CampaignProseTests.test_compiler_matches_shipping_content_and_has_no_directions) ... ok
+test_current_crow_defeat_and_legacy_capture_remain_distinct (test_campaign_prose.CampaignProseTests.test_current_crow_defeat_and_legacy_capture_remain_distinct) ... ok
+test_direct_route_does_not_gain_documents (test_campaign_prose.CampaignProseTests.test_direct_route_does_not_gain_documents) ... ok
+test_disclosures_only_in_authorised_audience_and_pending_scene_preserved (test_campaign_prose.CampaignProseTests.test_disclosures_only_in_authorised_audience_and_pending_scene_preserved) ... ok
+test_every_optional_scene_has_an_executable_cast_variant (test_campaign_prose.CampaignProseTests.test_every_optional_scene_has_an_executable_cast_variant) ... ok
+test_fight_reactions_require_resolved_events_and_do_not_repeat (test_campaign_prose.CampaignProseTests.test_fight_reactions_require_resolved_events_and_do_not_repeat) ... ok
+test_garrett_entire_route_two_reconciliation_policies (test_campaign_prose.CampaignProseTests.test_garrett_entire_route_two_reconciliation_policies) ... ok
+test_hypotheses_and_recaps_do_not_leak_future_findings (test_campaign_prose.CampaignProseTests.test_hypotheses_and_recaps_do_not_leak_future_findings) ... ok
+test_interview_and_operation_phases_never_borrow_the_outcome (test_campaign_prose.CampaignProseTests.test_interview_and_operation_phases_never_borrow_the_outcome) ... ok
+test_old_active_scene_completes_without_new_choices_or_gate (test_campaign_prose.CampaignProseTests.test_old_active_scene_completes_without_new_choices_or_gate) ... ok
+test_reading_choice_and_reload_do_not_commit_early (test_campaign_prose.CampaignProseTests.test_reading_choice_and_reload_do_not_commit_early) ... ok
+test_rei_all_endings_both_resolution_orders (test_campaign_prose.CampaignProseTests.test_rei_all_endings_both_resolution_orders) ... ok
+test_shared_first_meeting_dialogue_identical_and_drawings_distinct (test_campaign_prose.CampaignProseTests.test_shared_first_meeting_dialogue_identical_and_drawings_distinct) ... ok
+test_single_friend_and_empty_gathering_do_not_summon_cast (test_campaign_prose.CampaignProseTests.test_single_friend_and_empty_gathering_do_not_summon_cast) ... ok
+test_social_availability_privacy_disclosure_and_no_cross_progress (test_campaign_prose.CampaignProseTests.test_social_availability_privacy_disclosure_and_no_cross_progress) ... ok
+test_wrong_authentication_never_promises_invitation (test_campaign_prose.CampaignProseTests.test_wrong_authentication_never_promises_invitation) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 135.465s
+
+OK
+
+test_major_campaigns.py: PASS
+test_active_mission_roundtrip_and_record_once (test_major_campaigns.MajorCampaignTests.test_active_mission_roundtrip_and_record_once) ... ok
+test_all_rei_endings_and_reload (test_major_campaigns.MajorCampaignTests.test_all_rei_endings_and_reload) ... ok
+test_charles_requires_guard_and_boss_victories (test_major_campaigns.MajorCampaignTests.test_charles_requires_guard_and_boss_victories) ... ok
+test_former_crew_cannot_steal_guards (test_major_campaigns.MajorCampaignTests.test_former_crew_cannot_steal_guards) ... ok
+test_gates_and_private_context (test_major_campaigns.MajorCampaignTests.test_gates_and_private_context) ... ok
+test_interpol_guards_precede_original_target (test_major_campaigns.MajorCampaignTests.test_interpol_guards_precede_original_target) ... ok
+test_patrol_respawn_and_campaign_no_respawn (test_major_campaigns.MajorCampaignTests.test_patrol_respawn_and_campaign_no_respawn) ... ok
+test_recruitment_purchase_and_duplicate_protection (test_major_campaigns.MajorCampaignTests.test_recruitment_purchase_and_duplicate_protection) ... ok
+test_tiers_equipment_and_real_combat (test_major_campaigns.MajorCampaignTests.test_tiers_equipment_and_real_combat) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.409s
+
+OK
+
+test_campaign_dialogue.py: PASS
+test_action_choices_and_legacy_saves_are_not_speech (test_campaign_dialogue.CampaignDialogueTests.test_action_choices_and_legacy_saves_are_not_speech) ... ok
+test_async_narration_caches_and_discards_stale_results (test_campaign_dialogue.CampaignDialogueTests.test_async_narration_caches_and_discards_stale_results) ... ok
+test_clock_and_travel_pause_during_script (test_campaign_dialogue.CampaignDialogueTests.test_clock_and_travel_pause_during_script) ... ok
+test_failed_preflight_never_reveals_reconciliation (test_campaign_dialogue.CampaignDialogueTests.test_failed_preflight_never_reveals_reconciliation) ... ok
+test_gamemaster_schema_and_invalid_response (test_campaign_dialogue.CampaignDialogueTests.test_gamemaster_schema_and_invalid_response) ... ok
+test_narration_failure_keeps_action_without_committing_outcome (test_campaign_dialogue.CampaignDialogueTests.test_narration_failure_keeps_action_without_committing_outcome) ... ok
+test_richter_portrait_dialogue_then_real_fight_then_apology (test_campaign_dialogue.CampaignDialogueTests.test_richter_portrait_dialogue_then_real_fight_then_apology) ... ok
+test_scene_only_commits_after_final_line_and_reload (test_campaign_dialogue.CampaignDialogueTests.test_scene_only_commits_after_final_line_and_reload) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.103s
+
+OK
+
+test_campaign_flashbacks.py: PASS
+test_artwork_and_authored_story_contract (test_campaign_flashbacks.FlashbackTests.test_artwork_and_authored_story_contract) ... ok
+test_garrett_gate_resume_and_world_isolation (test_campaign_flashbacks.FlashbackTests.test_garrett_gate_resume_and_world_isolation) ... ok
+test_legacy_catchup_preserves_progress_and_contacts (test_campaign_flashbacks.FlashbackTests.test_legacy_catchup_preserves_progress_and_contacts) ... ok
+test_location_party_and_wrong_player_rejected (test_campaign_flashbacks.FlashbackTests.test_location_party_and_wrong_player_rejected) ... ok
+test_old_inflight_conversation_finishes_before_catchup (test_campaign_flashbacks.FlashbackTests.test_old_inflight_conversation_finishes_before_catchup) ... ok
+test_rei_gate_and_exactly_three_ordered_memories (test_campaign_flashbacks.FlashbackTests.test_rei_gate_and_exactly_three_ordered_memories) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.394s
+
+OK
+
+test_charles_quest.py: PASS
+test_full_chain_both_endings_and_saved_resume (test_charles_quest.CharlesQuestTests.test_full_chain_both_endings_and_saved_resume) ... ok
+test_genuine_early_lab_encounter (test_charles_quest.CharlesQuestTests.test_genuine_early_lab_encounter) ... ok
+test_legacy_projection_read_only_and_setback_recovery (test_charles_quest.CharlesQuestTests.test_legacy_projection_read_only_and_setback_recovery) ... ok
+test_no_number_in_old_or_new_saves_or_groups (test_charles_quest.CharlesQuestTests.test_no_number_in_old_or_new_saves_or_groups) ... ok
+test_physical_and_private_reunion_gates (test_charles_quest.CharlesQuestTests.test_physical_and_private_reunion_gates) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 1.198s
+
+OK
+
+test_interpol.py: PASS
+test_attacking_the_commander_revokes_field_clearance (test_interpol.InterpolTests.test_attacking_the_commander_revokes_field_clearance) ... ok
+test_biocreation_and_senses_have_distinct_costs (test_interpol.InterpolTests.test_biocreation_and_senses_have_distinct_costs) ... ok
+test_combat_attack_hook_but_not_spar (test_interpol.InterpolTests.test_combat_attack_hook_but_not_spar) ... ok
+test_delayed_review_and_partial_payment (test_interpol.InterpolTests.test_delayed_review_and_partial_payment) ... ok
+test_discoveries_do_not_grant_insider_history (test_interpol.InterpolTests.test_discoveries_do_not_grant_insider_history) ... ok
+test_fox_cannot_queue_public_reactions (test_interpol.InterpolTests.test_fox_cannot_queue_public_reactions) ... ok
+test_fox_discretion_and_civilian_limit (test_interpol.InterpolTests.test_fox_discretion_and_civilian_limit) ... ok
+test_full_campaign_reveals_in_order_and_roundtrips (test_interpol.InterpolTests.test_full_campaign_reveals_in_order_and_roundtrips) ... ok
+test_gordon_spot_fine_and_deduplication (test_interpol.InterpolTests.test_gordon_spot_fine_and_deduplication) ... ok
+test_gordon_team_travel_and_reload (test_interpol.InterpolTests.test_gordon_team_travel_and_reload) ... ok
+test_new_character_art_and_appearance_paths (test_interpol.InterpolTests.test_new_character_art_and_appearance_paths) ... ok
+test_old_save_additive_migration (test_interpol.InterpolTests.test_old_save_additive_migration) ... ok
+test_one_reveal_does_not_leak_other_aces (test_interpol.InterpolTests.test_one_reveal_does_not_leak_other_aces) ... ok
+test_operation_support_uses_real_trait_resources (test_interpol.InterpolTests.test_operation_support_uses_real_trait_resources) ... ok
+test_playable_profiles_and_stable_numbers (test_interpol.InterpolTests.test_playable_profiles_and_stable_numbers) ... ok
+test_pre_update_save_loads_without_reseeding_progress (test_interpol.InterpolTests.test_pre_update_save_loads_without_reseeding_progress) ... ok
+test_presence_gates_and_restricted_rooms (test_interpol.InterpolTests.test_presence_gates_and_restricted_rooms) ... ok
+test_support_recovers_low_mana_and_respects_player_knockout (test_interpol.InterpolTests.test_support_recovers_low_mana_and_respects_player_knockout) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 11.576s
+
+OK
+
+test_story_expansion.py: PASS
+test_crow_cannot_be_awarded_victory_or_knockout (test_story_expansion.StoryExpansionTests.test_crow_cannot_be_awarded_victory_or_knockout) ... ok
+test_crow_ends_after_four_real_exchanges (test_story_expansion.StoryExpansionTests.test_crow_ends_after_four_real_exchanges) ... ok
+test_new_charles_scene_remains_private (test_story_expansion.StoryExpansionTests.test_new_charles_scene_remains_private) ... ok
+test_old_reunion_continues_without_erasing_it (test_story_expansion.StoryExpansionTests.test_old_reunion_continues_without_erasing_it) ... ok
+test_previously_earned_crow_capture_is_preserved (test_story_expansion.StoryExpansionTests.test_previously_earned_crow_capture_is_preserved) ... ok
+test_protection_defeat_requires_retry_and_victories_persist (test_story_expansion.StoryExpansionTests.test_protection_defeat_requires_retry_and_victories_persist) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 13.188s
+
+OK
+
+test_enhanced_combat.py: PASS
+test_complete_catalogues_and_ids (test_enhanced_combat.CatalogueTests.test_complete_catalogues_and_ids) ... ok
+test_learning_thresholds_and_first_lesson (test_enhanced_combat.CatalogueTests.test_learning_thresholds_and_first_lesson) ... ok
+test_legacy_migration_does_not_grant_untrained_masters (test_enhanced_combat.CatalogueTests.test_legacy_migration_does_not_grant_untrained_masters) ... ok
+test_trait_skills_have_no_stat_gate_and_no_extra_amp (test_enhanced_combat.CatalogueTests.test_trait_skills_have_no_stat_gate_and_no_extra_amp) ... ok
+test_all_catalogued_actions_resolve_with_bounded_resources (test_enhanced_combat.ResolutionTests.test_all_catalogued_actions_resolve_with_bounded_resources) ... ok
+test_environment_breaks_cover_and_roundtrips (test_enhanced_combat.ResolutionTests.test_environment_breaks_cover_and_roundtrips) ... ok
+test_flowing_stream_counters_ranged_with_full_partial_and_failure (test_enhanced_combat.ResolutionTests.test_flowing_stream_counters_ranged_with_full_partial_and_failure) ... ok
+test_form_expiry_and_no_unearned_upgrade (test_enhanced_combat.ResolutionTests.test_form_expiry_and_no_unearned_upgrade) ... ok
+test_interpol_partner_uses_catalogue_and_paid_resources (test_enhanced_combat.ResolutionTests.test_interpol_partner_uses_catalogue_and_paid_resources) ... ok
+test_narration_failure_never_rerolls_and_stale_result_rejected (test_enhanced_combat.ResolutionTests.test_narration_failure_never_rerolls_and_stale_result_rejected) ... ok
+test_no_double_turn_and_insufficient_cost_is_atomic (test_enhanced_combat.ResolutionTests.test_no_double_turn_and_insufficient_cost_is_atomic) ... ok
+test_opponent_attacks_recovery_and_uses_form (test_enhanced_combat.ResolutionTests.test_opponent_attacks_recovery_and_uses_form) ... ok
+test_partial_combo_and_knockout_interrupt (test_enhanced_combat.ResolutionTests.test_partial_combo_and_knockout_interrupt) ... ok
+test_successful_narration_only_replaces_text (test_enhanced_combat.ResolutionTests.test_successful_narration_only_replaces_text) ... ok
+test_trait_amplifications_change_actual_roles (test_enhanced_combat.ResolutionTests.test_trait_amplifications_change_actual_roles) ... ok
+test_wreckage_movement_changes_footing (test_enhanced_combat.ResolutionTests.test_wreckage_movement_changes_footing) ... ok
+test_generate_absorb_cooldown_save_and_no_reset (test_enhanced_combat.WorkshopTests.test_generate_absorb_cooldown_save_and_no_reset) ... ok
+test_generated_effects_stay_within_reviewed_trait (test_enhanced_combat.WorkshopTests.test_generated_effects_stay_within_reviewed_trait) ... ok
+test_invalid_generation_preserves_saved_candidates (test_enhanced_combat.WorkshopTests.test_invalid_generation_preserves_saved_candidates) ... ok
+test_real_save_roundtrip_preserves_skill_and_absolute_timer (test_enhanced_combat.WorkshopTests.test_real_save_roundtrip_preserves_skill_and_absolute_timer) ... ok
+test_reviewed_amp_validation_and_old_custom_bootstrap (test_enhanced_combat.WorkshopTests.test_reviewed_amp_validation_and_old_custom_bootstrap) ... ok
+test_skill_identity_survives_growth (test_enhanced_combat.WorkshopTests.test_skill_identity_survives_growth) ... ok
+test_stale_generation_stats_or_batch_no_cooldown (test_enhanced_combat.WorkshopTests.test_stale_generation_stats_or_batch_no_cooldown) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 1.098s
+
+OK
+
+test_combat_completion.py: PASS
+test_april_observed_support_is_bounded_and_not_free (test_combat_completion.CompletionTests.test_april_observed_support_is_bounded_and_not_free) ... ok
+test_crow_campaign_forces_defeat_at_four_exchanges (test_combat_completion.CompletionTests.test_crow_campaign_forces_defeat_at_four_exchanges) ... ok
+test_earned_disclosures_cover_non_ace_operatives (test_combat_completion.CompletionTests.test_earned_disclosures_cover_non_ace_operatives) ... ok
+test_escort_follows_one_space_without_charging_the_enemy (test_combat_completion.CompletionTests.test_escort_follows_one_space_without_charging_the_enemy) ... ok
+test_exhausted_partner_recovers_without_negative_resources (test_combat_completion.CompletionTests.test_exhausted_partner_recovers_without_negative_resources) ... ok
+test_generated_review_contains_current_force_forecast (test_combat_completion.CompletionTests.test_generated_review_contains_current_force_forecast) ... ok
+test_no_absent_or_recovering_patrol_partner (test_combat_completion.CompletionTests.test_no_absent_or_recovering_patrol_partner) ... ok
+test_operational_reputation_does_not_link_civilian_identity (test_combat_completion.CompletionTests.test_operational_reputation_does_not_link_civilian_identity) ... ok
+test_partner_channels_costs_and_endurance_expire (test_combat_completion.CompletionTests.test_partner_channels_costs_and_endurance_expire) ... ok
+test_partner_protocol_four_clocks_without_double_ticking_enemy (test_combat_completion.CompletionTests.test_partner_protocol_four_clocks_without_double_ticking_enemy) ... ok
+test_recovery_does_not_heal_and_resources_stay_capped (test_combat_completion.CompletionTests.test_recovery_does_not_heal_and_resources_stay_capped) ... ok
+test_reflection_and_stored_force_are_capped (test_combat_completion.CompletionTests.test_reflection_and_stored_force_are_capped) ... ok
+test_repeated_control_cannot_refresh_immunity_or_infinite_lock (test_combat_completion.CompletionTests.test_repeated_control_cannot_refresh_immunity_or_infinite_lock) ... ok
+test_rescue_requires_escort_position_alive_and_unrestrained (test_combat_completion.CompletionTests.test_rescue_requires_escort_position_alive_and_unrestrained) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.145s
+
+OK
+
+test_charles_disclosure.py: PASS
+test_bystander_and_appointment_privacy (test_charles_disclosure.DisclosureTests.test_bystander_and_appointment_privacy) ... ok
+test_direct_number_permission_and_group_privacy (test_charles_disclosure.DisclosureTests.test_direct_number_permission_and_group_privacy) ... ok
+test_report_reunion_and_saved_response (test_charles_disclosure.DisclosureTests.test_report_reunion_and_saved_response) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.699s
+
+OK

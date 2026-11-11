@@ -63,9 +63,11 @@ def transition(p,target,minute):
     path=p['path']; previous=path['stage']
     if target not in STAGES or STAGES.index(target)!=STAGES.index(previous)+1:
         raise ValueError('The Path must be progressed one stage at a time.')
+    before=dict(p['stats'])
     add_stats(p,BOOSTS[target]); p['awakened']=True
     path.update(stage=target,entered=minute,stage_encounters=0)
-    path['history'].append(dict(previous=previous,stage=target,minute=minute))
+    path['history'].append(dict(previous=previous,stage=target,minute=minute,
+        balance_review=__import__('combat_review').progression_review(before,p['stats'],target)))
     return previous+' → '+target
 
 def advance_early(p,minute):
@@ -87,7 +89,7 @@ def award_encounter(s,f):
     from combat_profiles import profile
     for side,who in (('player',s['player']),('enemy',f['opponent'])):
         # Generated opponents keep their progression in the saved encounter only.
-        p=profile(s,who) if side=='player' or f['kind']!='circle' else f['opponent_profile']
+        p=profile(s,who) if side=='player' or f['kind'] not in ('circle','guard') or (f.get('title_bout') and who in s.get('combat',{}).get('profiles',{})) else f['opponent_profile']
         path=initialise(p,who,s['world']['minute'])
         old=path['stage']; path['encounters']+=1; path['stage_encounters']+=1
         notes=[]

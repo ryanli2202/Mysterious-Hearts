@@ -1,0 +1,6127 @@
+{
+  "recorded": "2026-11-10",
+  "method": "File metadata and complete-canvas slate inspection sheets; visual findings are in PORTRAIT_AUDIT.md.",
+  "count": 306,
+  "assets": [
+    {
+      "id": "A001",
+      "path": "assets/portraits/ada-mensah-selection.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5552,
+      "partial_alpha_fraction": 0.4448,
+      "alpha_bbox": [
+        0,
+        0,
+        988,
+        1536
+      ],
+      "sha256": "bf26be5cc08965a89e62510986aa9146cd66b92a300e9aa4108ed2b94503ca10",
+      "sheet": "review-01.jpg"
+    },
+    {
+      "id": "A002",
+      "path": "assets/portraits/alyssa-selection.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4976,
+      "partial_alpha_fraction": 0.5024,
+      "alpha_bbox": [
+        0,
+        0,
+        1008,
+        1536
+      ],
+      "sha256": "91928559324ec33309420f8c72bbc65bc81bb0fb952572713cdb1a39ae11e434",
+      "sheet": "review-01.jpg"
+    },
+    {
+      "id": "A003",
+      "path": "assets/portraits/amy-beach-daisy.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5976,
+      "partial_alpha_fraction": 0.4019,
+      "alpha_bbox": [
+        31,
+        0,
+        1121,
+        1374
+      ],
+      "sha256": "3aa8413172095673cb0201466b62ed0bfb704fe8a828c2d44e1f89766c842f31",
+      "sheet": "review-01.jpg"
+    },
+    {
+      "id": "A004",
+      "path": "assets/portraits/amy-beach-sage.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5908,
+      "partial_alpha_fraction": 0.409,
+      "alpha_bbox": [
+        108,
+        0,
+        1125,
+        1374
+      ],
+      "sha256": "5dd956bea08826151dcefc2458b0cbe60e6c3839327387e8fac7c79496814dea",
+      "sheet": "review-01.jpg"
+    },
+    {
+      "id": "A005",
+      "path": "assets/portraits/amy-beach-terracotta.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5903,
+      "partial_alpha_fraction": 0.4093,
+      "alpha_bbox": [
+        33,
+        0,
+        1028,
+        1374
+      ],
+      "sha256": "9febf455564641aaf756d4772a8f0987338ef3e4cd48c4861cb2d59af8e7fb2d",
+      "sheet": "review-01.jpg"
+    },
+    {
+      "id": "A006",
+      "path": "assets/portraits/amy-floral-dress.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.585,
+      "partial_alpha_fraction": 0.4146,
+      "alpha_bbox": [
+        41,
+        0,
+        1099,
+        1374
+      ],
+      "sha256": "f821e76b1007f9306c76208f74079223ddb32a6611455a34eec10523612bc1f5",
+      "sheet": "review-01.jpg"
+    },
+    {
+      "id": "A007",
+      "path": "assets/portraits/amy-formal-plum.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5897,
+      "partial_alpha_fraction": 0.4098,
+      "alpha_bbox": [
+        0,
+        0,
+        1113,
+        1374
+      ],
+      "sha256": "1bb751a3d4a385be63172e42a90ce9723df3f0f80bd91629c531c7f5cb931e17",
+      "sheet": "review-01.jpg"
+    },
+    {
+      "id": "A008",
+      "path": "assets/portraits/amy-formal-tweed.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.557,
+      "partial_alpha_fraction": 0.4427,
+      "alpha_bbox": [
+        59,
+        0,
+        1121,
+        1374
+      ],
+      "sha256": "0576e359d2359030c6451a4441cf47113aa95230144f75c9a16b8c2f250fdf3c",
+      "sheet": "review-01.jpg"
+    },
+    {
+      "id": "A009",
+      "path": "assets/portraits/amy-gym-training.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.6019,
+      "partial_alpha_fraction": 0.3978,
+      "alpha_bbox": [
+        65,
+        0,
+        1101,
+        1374
+      ],
+      "sha256": "cd248f7f3e04f3904ec6950824e17f910efa5830f9400f9140b2bc88f4d55c8d",
+      "sheet": "review-01.jpg"
+    },
+    {
+      "id": "A010",
+      "path": "assets/portraits/amy-gym-yoga.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.6034,
+      "partial_alpha_fraction": 0.3962,
+      "alpha_bbox": [
+        0,
+        0,
+        1085,
+        1374
+      ],
+      "sha256": "a6256a688ea2236922da48c18d8d11120823c883036b422a9519983204efa3f3",
+      "sheet": "review-01.jpg"
+    },
+    {
+      "id": "A011",
+      "path": "assets/portraits/amy-library-knit.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5583,
+      "partial_alpha_fraction": 0.4415,
+      "alpha_bbox": [
+        0,
+        0,
+        1144,
+        1374
+      ],
+      "sha256": "bc8cfa81b96fa1584ae74600a2ce452b519895f1fd39623492bd36b7b256dcf4",
+      "sheet": "review-01.jpg"
+    },
+    {
+      "id": "A012",
+      "path": "assets/portraits/amy-selection.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5501,
+      "partial_alpha_fraction": 0.4497,
+      "alpha_bbox": [
+        0,
+        0,
+        1125,
+        1374
+      ],
+      "sha256": "b74d0349705b8da3edc37bb267ee43cd7753dea8a6498b92d6d35b3aab9c7c52",
+      "sheet": "review-01.jpg"
+    },
+    {
+      "id": "A013",
+      "path": "assets/portraits/amy-sleep.png",
+      "size": [
+        1280,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.6223,
+      "partial_alpha_fraction": 0.0042,
+      "alpha_bbox": [
+        335,
+        0,
+        1267,
+        1536
+      ],
+      "sha256": "a22286d410e8620891f1ee57a2f0101654684ca7f37140742212c7c7bd29c6a0",
+      "sheet": "review-02.jpg"
+    },
+    {
+      "id": "A014",
+      "path": "assets/portraits/amy-studio-overalls.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5724,
+      "partial_alpha_fraction": 0.4274,
+      "alpha_bbox": [
+        138,
+        0,
+        1097,
+        1374
+      ],
+      "sha256": "b5db42369a532e58b6770f30c79e846e37945ed53186c595d429d0ac28befda6",
+      "sheet": "review-02.jpg"
+    },
+    {
+      "id": "A015",
+      "path": "assets/portraits/amy-summer-linen.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5912,
+      "partial_alpha_fraction": 0.4085,
+      "alpha_bbox": [
+        0,
+        0,
+        1093,
+        1374
+      ],
+      "sha256": "c10e2a6b2b90e64d9370b2cdcb7d76709faa78dc156f17cb7c2605d3e6e51bde",
+      "sheet": "review-02.jpg"
+    },
+    {
+      "id": "A016",
+      "path": "assets/portraits/amy-weekend-denim.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5434,
+      "partial_alpha_fraction": 0.4563,
+      "alpha_bbox": [
+        41,
+        0,
+        1117,
+        1374
+      ],
+      "sha256": "b80552dad4d42172b897a3f2c1104f92832e1438a4f854cae2e04c33ace0fbfc",
+      "sheet": "review-02.jpg"
+    },
+    {
+      "id": "A017",
+      "path": "assets/portraits/amy-winter-coat.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5297,
+      "partial_alpha_fraction": 0.47,
+      "alpha_bbox": [
+        0,
+        0,
+        1085,
+        1374
+      ],
+      "sha256": "e68906a6a23e73e9dec7e9a73eb35f96cbefa942c9255ac32fb369413d8eb10c",
+      "sheet": "review-02.jpg"
+    },
+    {
+      "id": "A018",
+      "path": "assets/portraits/anton-bellamy-selection.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4989,
+      "partial_alpha_fraction": 0.5011,
+      "alpha_bbox": [
+        0,
+        34,
+        988,
+        1536
+      ],
+      "sha256": "c05646a15fd19846fe93e826c319882f4f25f2631d3c595102bd6f928e21c169",
+      "sheet": "review-02.jpg"
+    },
+    {
+      "id": "A019",
+      "path": "assets/portraits/april-beach-bikini.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.6051,
+      "partial_alpha_fraction": 0.3945,
+      "alpha_bbox": [
+        0,
+        0,
+        1066,
+        1374
+      ],
+      "sha256": "d3a7c2c16849d56ea95801b8c76c37f021e8bbe645e21e3d3084ab1ec266b30c",
+      "sheet": "review-02.jpg"
+    },
+    {
+      "id": "A020",
+      "path": "assets/portraits/april-beach-swimsuit.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.6011,
+      "partial_alpha_fraction": 0.3986,
+      "alpha_bbox": [
+        0,
+        0,
+        1123,
+        1374
+      ],
+      "sha256": "1c64ef531b1e5358d9f33bb074acbd4d6c988fa2adc3b5040215fb4d72bc9bb7",
+      "sheet": "review-02.jpg"
+    },
+    {
+      "id": "A021",
+      "path": "assets/portraits/april-blue-oxford.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5893,
+      "partial_alpha_fraction": 0.4105,
+      "alpha_bbox": [
+        0,
+        0,
+        1101,
+        1374
+      ],
+      "sha256": "8ba6fd8b6e20c39402720ef6ccd52f73d3e4d0696e06b00fe60a5b9b9dc898eb",
+      "sheet": "review-02.jpg"
+    },
+    {
+      "id": "A022",
+      "path": "assets/portraits/april-burgundy-dress.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5909,
+      "partial_alpha_fraction": 0.4087,
+      "alpha_bbox": [
+        39,
+        0,
+        1058,
+        1374
+      ],
+      "sha256": "3775fca68e6daf312065ad22057e3dbc7e0dfdfc46d58b2a1fb0d330fc12656c",
+      "sheet": "review-02.jpg"
+    },
+    {
+      "id": "A023",
+      "path": "assets/portraits/april-camel-trench.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5666,
+      "partial_alpha_fraction": 0.4331,
+      "alpha_bbox": [
+        0,
+        0,
+        1117,
+        1374
+      ],
+      "sha256": "d6d2a321001737f0d9d9fb9b6211d0c4048bfe09b362640a67e26f5e6580c844",
+      "sheet": "review-02.jpg"
+    },
+    {
+      "id": "A024",
+      "path": "assets/portraits/april-cream-cable-knit.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.581,
+      "partial_alpha_fraction": 0.4189,
+      "alpha_bbox": [
+        75,
+        0,
+        1032,
+        1374
+      ],
+      "sha256": "69690ebc5b57e639aa0f8f14cd5671852660cc60d1ac3410bb5b4cb4c529982e",
+      "sheet": "review-02.jpg"
+    },
+    {
+      "id": "A025",
+      "path": "assets/portraits/april-denim-weekend.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5762,
+      "partial_alpha_fraction": 0.4236,
+      "alpha_bbox": [
+        49,
+        0,
+        1097,
+        1374
+      ],
+      "sha256": "af5166eeb6c9e4a2653baa2ff3de28d83afc49daf1cee2b01d7e8e47db6790db",
+      "sheet": "review-03.jpg"
+    },
+    {
+      "id": "A026",
+      "path": "assets/portraits/april-formal-emerald.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5982,
+      "partial_alpha_fraction": 0.4014,
+      "alpha_bbox": [
+        33,
+        0,
+        1131,
+        1374
+      ],
+      "sha256": "e5f303621116bf230bb4163349f90e13ad99cacefe15ede63fb651b1ff674b41",
+      "sheet": "review-03.jpg"
+    },
+    {
+      "id": "A027",
+      "path": "assets/portraits/april-formal-ivory-suit.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5832,
+      "partial_alpha_fraction": 0.4165,
+      "alpha_bbox": [
+        90,
+        0,
+        1013,
+        1374
+      ],
+      "sha256": "428fd45e1d5aa91efca271b95f5dd2e84558d39bcd01005001a5abc835957e40",
+      "sheet": "review-03.jpg"
+    },
+    {
+      "id": "A028",
+      "path": "assets/portraits/april-gym-plum.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.6035,
+      "partial_alpha_fraction": 0.3961,
+      "alpha_bbox": [
+        57,
+        0,
+        1093,
+        1374
+      ],
+      "sha256": "356209f5e56def732567d64da9f3ce341f8b79f539026adb7a514a61c3bab2ca",
+      "sheet": "review-03.jpg"
+    },
+    {
+      "id": "A029",
+      "path": "assets/portraits/april-plaid-blazer.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5789,
+      "partial_alpha_fraction": 0.4209,
+      "alpha_bbox": [
+        53,
+        0,
+        1123,
+        1374
+      ],
+      "sha256": "e0ef3087aca3d4ee157e131469184c7f871d0c15840a09948484e5f7c018f1da",
+      "sheet": "review-03.jpg"
+    },
+    {
+      "id": "A030",
+      "path": "assets/portraits/april-rose-cardigan.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5864,
+      "partial_alpha_fraction": 0.4133,
+      "alpha_bbox": [
+        0,
+        0,
+        1066,
+        1374
+      ],
+      "sha256": "9daad1478739dd6f08a2ea0df96dae2f36dfc9b781a700898cba2fc973e2d94e",
+      "sheet": "review-03.jpg"
+    },
+    {
+      "id": "A031",
+      "path": "assets/portraits/april-sage-knit.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5851,
+      "partial_alpha_fraction": 0.4147,
+      "alpha_bbox": [
+        0,
+        0,
+        1083,
+        1374
+      ],
+      "sha256": "970dafdb549b2e2c03c606371c4efeb279f3307d29fb9a9769f52c714179fd11",
+      "sheet": "review-03.jpg"
+    },
+    {
+      "id": "A032",
+      "path": "assets/portraits/april-selection.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5806,
+      "partial_alpha_fraction": 0.4192,
+      "alpha_bbox": [
+        0,
+        0,
+        1123,
+        1374
+      ],
+      "sha256": "89a27e37fc040a7d6bbfd3fe953ac5c3cfb977f08d7af43ec7ae19de23e6161f",
+      "sheet": "review-03.jpg"
+    },
+    {
+      "id": "A033",
+      "path": "assets/portraits/april-sleep.png",
+      "size": [
+        1280,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.6001,
+      "partial_alpha_fraction": 0.0043,
+      "alpha_bbox": [
+        279,
+        5,
+        1267,
+        1536
+      ],
+      "sha256": "1be8a24eb09349f54013164319a30987ddea361507db15752ccd04d94f02a015",
+      "sheet": "review-03.jpg"
+    },
+    {
+      "id": "A034",
+      "path": "assets/portraits/arthur-finch-selection.png",
+      "size": [
+        1261,
+        1247
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.434,
+      "partial_alpha_fraction": 0.5657,
+      "alpha_bbox": [
+        25,
+        0,
+        1229,
+        1247
+      ],
+      "sha256": "d555f935ffc426218bb0a8756753d658c09ed4edd5200f7db40edc7597457d18",
+      "sheet": "review-03.jpg"
+    },
+    {
+      "id": "A035",
+      "path": "assets/portraits/beatrice-cole-selection.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4205,
+      "partial_alpha_fraction": 0.5794,
+      "alpha_bbox": [
+        33,
+        3,
+        1163,
+        1312
+      ],
+      "sha256": "d3a67ea708855b62c136c4172f228386ad466948e590a78d29decdf0a3cbb879",
+      "sheet": "review-03.jpg"
+    },
+    {
+      "id": "A036",
+      "path": "assets/portraits/ben-okafor-selection.png",
+      "size": [
+        1217,
+        1293
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4036,
+      "partial_alpha_fraction": 0.5961,
+      "alpha_bbox": [
+        14,
+        8,
+        1187,
+        1293
+      ],
+      "sha256": "85e5f9e76faba50638891fa71dbe30795478923b6ebcbaa5b87472e5f5084d0b",
+      "sheet": "review-03.jpg"
+    },
+    {
+      "id": "A037",
+      "path": "assets/portraits/callum-webb-selection.png",
+      "size": [
+        1190,
+        1322
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3984,
+      "partial_alpha_fraction": 0.6014,
+      "alpha_bbox": [
+        0,
+        0,
+        1190,
+        1322
+      ],
+      "sha256": "ae7d103b76ac64798b71bdeb46fbdde6a76828b38640032f96eccebd195e7c4d",
+      "sheet": "review-04.jpg"
+    },
+    {
+      "id": "A038",
+      "path": "assets/portraits/camila-selection.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5416,
+      "partial_alpha_fraction": 0.4577,
+      "alpha_bbox": [
+        181,
+        0,
+        989,
+        1312
+      ],
+      "sha256": "3799e75c5d64e54fac02629a55ca1958524443c0c36c55eb0c2c474b3e2e0435",
+      "sheet": "review-04.jpg"
+    },
+    {
+      "id": "A039",
+      "path": "assets/portraits/camila-syndicate.png",
+      "size": [
+        1183,
+        1330
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.421,
+      "partial_alpha_fraction": 0.5786,
+      "alpha_bbox": [
+        42,
+        0,
+        1107,
+        1330
+      ],
+      "sha256": "40fefaf0c4a8a722cff47b48badd8f2f01f43bd6ecdec20b54832adf2b886c05",
+      "sheet": "review-04.jpg"
+    },
+    {
+      "id": "A040",
+      "path": "assets/portraits/celeste-selection.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5323,
+      "partial_alpha_fraction": 0.4675,
+      "alpha_bbox": [
+        0,
+        0,
+        1117,
+        1374
+      ],
+      "sha256": "669a51a0babb48f037a66f82066545514c4baf629b1401fac67412f60955a7ed",
+      "sheet": "review-04.jpg"
+    },
+    {
+      "id": "A041",
+      "path": "assets/portraits/celia-brooks-selection.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.497,
+      "partial_alpha_fraction": 0.5028,
+      "alpha_bbox": [
+        0,
+        0,
+        1191,
+        1312
+      ],
+      "sha256": "c62ca497c873b7c652d49c7950fd89a53ab1e47212f21f750a92baadc8391e33",
+      "sheet": "review-04.jpg"
+    },
+    {
+      "id": "A042",
+      "path": "assets/portraits/charles-selection-v2.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3815,
+      "partial_alpha_fraction": 0.6185,
+      "alpha_bbox": [
+        0,
+        0,
+        1000,
+        1536
+      ],
+      "sha256": "21843ff458551b80b96c156f1386841af1cbfa0688dfa8eda09dd339e4e2c60e",
+      "sheet": "review-04.jpg"
+    },
+    {
+      "id": "A043",
+      "path": "assets/portraits/charles-selection.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "source_mode": "RGB",
+      "alpha_min": 255,
+      "transparent_fraction": 0.0,
+      "partial_alpha_fraction": 0.0,
+      "alpha_bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "sha256": "33264b628f45ac3b2a75b75da5d9c93833f5ba98fbc1f6a8a45b56101f8f678e",
+      "sheet": "review-04.jpg"
+    },
+    {
+      "id": "A044",
+      "path": "assets/portraits/charles-young-adult.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4069,
+      "partial_alpha_fraction": 0.5931,
+      "alpha_bbox": [
+        81,
+        0,
+        960,
+        1536
+      ],
+      "sha256": "54c295247521e881d26e30cde896298b43f56bf1872d944cc53c9518b187fe70",
+      "sheet": "review-04.jpg"
+    },
+    {
+      "id": "A045",
+      "path": "assets/portraits/combat/alyssa.png",
+      "size": [
+        1312,
+        1199
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4103,
+      "partial_alpha_fraction": 0.5893,
+      "alpha_bbox": [
+        0,
+        19,
+        1294,
+        1183
+      ],
+      "sha256": "9280704df277e55118d4e6b0eaacd17be575819a11afd412f37b82a848b02cc9",
+      "sheet": "review-04.jpg"
+    },
+    {
+      "id": "A046",
+      "path": "assets/portraits/combat/april.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3533,
+      "partial_alpha_fraction": 0.6465,
+      "alpha_bbox": [
+        0,
+        0,
+        1133,
+        1374
+      ],
+      "sha256": "787df9a05c3abef02774b759e098fc63a6da67120032e9191ec8e204049c0d24",
+      "sheet": "review-04.jpg"
+    },
+    {
+      "id": "A047",
+      "path": "assets/portraits/combat/camila.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.2939,
+      "partial_alpha_fraction": 0.706,
+      "alpha_bbox": [
+        0,
+        0,
+        1199,
+        1312
+      ],
+      "sha256": "08b34c2bf1aa4cf204059e9183b8cb78b2ed63e901b5e3c3bfaeaaf928aa3dd2",
+      "sheet": "review-04.jpg"
+    },
+    {
+      "id": "A048",
+      "path": "assets/portraits/combat/charles.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.1594,
+      "partial_alpha_fraction": 0.8405,
+      "alpha_bbox": [
+        0,
+        0,
+        1145,
+        1374
+      ],
+      "sha256": "2467120cd300ee862d3f9230af1b68d8572f51c37d7746e5b9545fbbb74962ea",
+      "sheet": "review-04.jpg"
+    },
+    {
+      "id": "A049",
+      "path": "assets/portraits/combat/crow.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.2586,
+      "partial_alpha_fraction": 0.7412,
+      "alpha_bbox": [
+        0,
+        0,
+        1199,
+        1312
+      ],
+      "sha256": "135a682c4e7cdc7953bdb327472089de1d19868e5dafbbfd45bcba8ebc9fe685",
+      "sheet": "review-05.jpg"
+    },
+    {
+      "id": "A050",
+      "path": "assets/portraits/combat/daniel.png",
+      "size": [
+        1086,
+        1448
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.2993,
+      "partial_alpha_fraction": 0.7006,
+      "alpha_bbox": [
+        0,
+        7,
+        1086,
+        1448
+      ],
+      "sha256": "9a2f262443ffd0e302152c5b47bbb5914eb4ad5217ab70a391f2086a4d36f5b3",
+      "sheet": "review-05.jpg"
+    },
+    {
+      "id": "A051",
+      "path": "assets/portraits/combat/elias.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3213,
+      "partial_alpha_fraction": 0.6787,
+      "alpha_bbox": [
+        0,
+        0,
+        1199,
+        1312
+      ],
+      "sha256": "10f0aadf934ba6ff433b5f2a0d22b9f99048a805deea969285878b74502a3d66",
+      "sheet": "review-05.jpg"
+    },
+    {
+      "id": "A052",
+      "path": "assets/portraits/combat/emily.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3084,
+      "partial_alpha_fraction": 0.6914,
+      "alpha_bbox": [
+        0,
+        0,
+        1145,
+        1374
+      ],
+      "sha256": "dd4f2009a83030f96b5770a3ba0e4893f61243b366cabcd6e0ca4737c145d589",
+      "sheet": "review-05.jpg"
+    },
+    {
+      "id": "A053",
+      "path": "assets/portraits/combat/fox.png",
+      "size": [
+        1145,
+        1373
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.2538,
+      "partial_alpha_fraction": 0.7461,
+      "alpha_bbox": [
+        0,
+        0,
+        1144,
+        1373
+      ],
+      "sha256": "b106e8d60ca59aa5d917d4c5efb49eb58a35829fa06570160301277593128a1f",
+      "sheet": "review-05.jpg"
+    },
+    {
+      "id": "A054",
+      "path": "assets/portraits/combat/garrett.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.2522,
+      "partial_alpha_fraction": 0.7477,
+      "alpha_bbox": [
+        0,
+        0,
+        1145,
+        1374
+      ],
+      "sha256": "f9bd47c0f28da475b5cfa36808f84918804e63ac44c2470f30500fb484020d43",
+      "sheet": "review-05.jpg"
+    },
+    {
+      "id": "A055",
+      "path": "assets/portraits/combat/gordon.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.2587,
+      "partial_alpha_fraction": 0.7411,
+      "alpha_bbox": [
+        0,
+        0,
+        1145,
+        1374
+      ],
+      "sha256": "6fc9f18912fccaca03821e5ca6cf6491995d2a7de37fccde44279ff10ef02c66",
+      "sheet": "review-05.jpg"
+    },
+    {
+      "id": "A056",
+      "path": "assets/portraits/combat/ivan.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.1778,
+      "partial_alpha_fraction": 0.8221,
+      "alpha_bbox": [
+        0,
+        0,
+        1122,
+        1402
+      ],
+      "sha256": "845413bb1e8c17706c74b119395b0e392d15f894fc9cf4343d1c95c861e34a40",
+      "sheet": "review-05.jpg"
+    },
+    {
+      "id": "A057",
+      "path": "assets/portraits/combat/keisuke-hachimura.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3699,
+      "partial_alpha_fraction": 0.6299,
+      "alpha_bbox": [
+        0,
+        0,
+        1086,
+        1402
+      ],
+      "sha256": "26caa88890d1a3089df674a735d289920a5a887e8f42c0069206e9bde9d34767",
+      "sheet": "review-05.jpg"
+    },
+    {
+      "id": "A058",
+      "path": "assets/portraits/combat/martos.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.2182,
+      "partial_alpha_fraction": 0.7817,
+      "alpha_bbox": [
+        0,
+        0,
+        1145,
+        1374
+      ],
+      "sha256": "d01e997cd8a650906ec54630aef3802f436e74561237c45261f644b87eb1a293",
+      "sheet": "review-05.jpg"
+    },
+    {
+      "id": "A059",
+      "path": "assets/portraits/combat/mavis.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3054,
+      "partial_alpha_fraction": 0.6945,
+      "alpha_bbox": [
+        0,
+        0,
+        1198,
+        1312
+      ],
+      "sha256": "176376f6bc7a62dd19d2794762582d61ffc4d973273237cc5dfa0a2e6b2125bf",
+      "sheet": "review-05.jpg"
+    },
+    {
+      "id": "A060",
+      "path": "assets/portraits/combat/minsu.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.1986,
+      "partial_alpha_fraction": 0.8012,
+      "alpha_bbox": [
+        0,
+        0,
+        1122,
+        1402
+      ],
+      "sha256": "46b93fe9e9fcffb0b5dae5531ef4a57ef1f350807c21bbbae991ff3cf7f55215",
+      "sheet": "review-05.jpg"
+    },
+    {
+      "id": "A061",
+      "path": "assets/portraits/combat/neo.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.298,
+      "partial_alpha_fraction": 0.7019,
+      "alpha_bbox": [
+        0,
+        0,
+        1145,
+        1374
+      ],
+      "sha256": "7f5158030ef2b657fbe12805f1140c686b4b0c402415ee992b8adb21b24b7caa",
+      "sheet": "review-06.jpg"
+    },
+    {
+      "id": "A062",
+      "path": "assets/portraits/combat/rei.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.2095,
+      "partial_alpha_fraction": 0.7904,
+      "alpha_bbox": [
+        0,
+        0,
+        1145,
+        1374
+      ],
+      "sha256": "a707ea53d02cb419c4f898782ea711304d77a6fe2336177a7f04dd3f855f0585",
+      "sheet": "review-06.jpg"
+    },
+    {
+      "id": "A063",
+      "path": "assets/portraits/combat/samantha.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3373,
+      "partial_alpha_fraction": 0.6621,
+      "alpha_bbox": [
+        0,
+        0,
+        1145,
+        1374
+      ],
+      "sha256": "1c4506345c4fc6dc1ed3ea6565f5046253dbf5e26c75074b7d61ae855e50a11e",
+      "sheet": "review-06.jpg"
+    },
+    {
+      "id": "A064",
+      "path": "assets/portraits/combat/sylvanis.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.1908,
+      "partial_alpha_fraction": 0.8088,
+      "alpha_bbox": [
+        0,
+        0,
+        1122,
+        1402
+      ],
+      "sha256": "1f4751944b3af0e9ac1b1006d908a03135a1be5df527683e40a37206007736cd",
+      "sheet": "review-06.jpg"
+    },
+    {
+      "id": "A065",
+      "path": "assets/portraits/combat/takeo.png",
+      "size": [
+        1086,
+        1448
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.2511,
+      "partial_alpha_fraction": 0.7488,
+      "alpha_bbox": [
+        0,
+        0,
+        1086,
+        1448
+      ],
+      "sha256": "a39c18783064775403f734095a881cee2cc24af0c84af75de0dfc443659a22d6",
+      "sheet": "review-06.jpg"
+    },
+    {
+      "id": "A066",
+      "path": "assets/portraits/combat/thirteen.png",
+      "size": [
+        1129,
+        1393
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.2715,
+      "partial_alpha_fraction": 0.7284,
+      "alpha_bbox": [
+        0,
+        0,
+        1129,
+        1393
+      ],
+      "sha256": "34edad3df65246214f8892970f6a637728a4ba0662548070b9acbda1a34e5933",
+      "sheet": "review-06.jpg"
+    },
+    {
+      "id": "A067",
+      "path": "assets/portraits/combat/tyler.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3823,
+      "partial_alpha_fraction": 0.6174,
+      "alpha_bbox": [
+        59,
+        0,
+        1095,
+        1374
+      ],
+      "sha256": "f5f25977be193f7a5669f79b1d77a18ea95678eb656b58543ab23e3ba00345ad",
+      "sheet": "review-06.jpg"
+    },
+    {
+      "id": "A068",
+      "path": "assets/portraits/combat/valentina.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.2606,
+      "partial_alpha_fraction": 0.7393,
+      "alpha_bbox": [
+        0,
+        0,
+        1145,
+        1374
+      ],
+      "sha256": "5ab256c6315cd43690300b772b2127e0d1ef162ae8b86e2cf5bc0b4b9bd4c551",
+      "sheet": "review-06.jpg"
+    },
+    {
+      "id": "A069",
+      "path": "assets/portraits/crow-selection.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3747,
+      "partial_alpha_fraction": 0.6251,
+      "alpha_bbox": [
+        23,
+        0,
+        1169,
+        1312
+      ],
+      "sha256": "aa981738b249148853432e0abeba74fd480034885e6b1d00f4626245caedf12d",
+      "sheet": "review-06.jpg"
+    },
+    {
+      "id": "A070",
+      "path": "assets/portraits/crow-syndicate.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3747,
+      "partial_alpha_fraction": 0.6251,
+      "alpha_bbox": [
+        23,
+        0,
+        1169,
+        1312
+      ],
+      "sha256": "aa981738b249148853432e0abeba74fd480034885e6b1d00f4626245caedf12d",
+      "sheet": "review-06.jpg"
+    },
+    {
+      "id": "A071",
+      "path": "assets/portraits/daichi-kurose-selection.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4371,
+      "partial_alpha_fraction": 0.5629,
+      "alpha_bbox": [
+        0,
+        13,
+        988,
+        1536
+      ],
+      "sha256": "f9b01a4cbe8ffa9a7dabac5d9dfbffab01ebc6fbef17cc199959b3ef551e21ae",
+      "sheet": "review-06.jpg"
+    },
+    {
+      "id": "A072",
+      "path": "assets/portraits/dana-lin-selection.png",
+      "size": [
+        1144,
+        1375
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.58,
+      "partial_alpha_fraction": 0.4196,
+      "alpha_bbox": [
+        65,
+        8,
+        1076,
+        1375
+      ],
+      "sha256": "eb45cb0736e6d7d74ed70f5c7e2a8e0d8348fbea322c47f71085441f8b3c62b4",
+      "sheet": "review-06.jpg"
+    },
+    {
+      "id": "A073",
+      "path": "assets/portraits/daniel-selection.png",
+      "size": [
+        1086,
+        1448
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4807,
+      "partial_alpha_fraction": 0.5188,
+      "alpha_bbox": [
+        0,
+        0,
+        1070,
+        1448
+      ],
+      "sha256": "93f50f544ca62527310e55d52b86bf1490a60b9d9cbdefb0e9248edcaa251004",
+      "sheet": "review-07.jpg"
+    },
+    {
+      "id": "A074",
+      "path": "assets/portraits/dante-brooks-selection.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3854,
+      "partial_alpha_fraction": 0.6143,
+      "alpha_bbox": [
+        0,
+        0,
+        1199,
+        1312
+      ],
+      "sha256": "c89edfb8bceb37eaaed9feaafdc34160ce1d0decf034a7220d775e97c460588c",
+      "sheet": "review-07.jpg"
+    },
+    {
+      "id": "A075",
+      "path": "assets/portraits/darius-cole-selection.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3428,
+      "partial_alpha_fraction": 0.6572,
+      "alpha_bbox": [
+        0,
+        16,
+        978,
+        1536
+      ],
+      "sha256": "dc1ea6e6e6e82f9c6e0b132194f2b00907f361107cfbb969f1f21402a0053c1b",
+      "sheet": "review-07.jpg"
+    },
+    {
+      "id": "A076",
+      "path": "assets/portraits/dev-selection.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5303,
+      "partial_alpha_fraction": 0.4692,
+      "alpha_bbox": [
+        0,
+        0,
+        1171,
+        1312
+      ],
+      "sha256": "d831becfe64baf566dea7ec5580686223c5b321fb24aeb1b66d4c266a33a4dd5",
+      "sheet": "review-07.jpg"
+    },
+    {
+      "id": "A077",
+      "path": "assets/portraits/elias-selection.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4111,
+      "partial_alpha_fraction": 0.5887,
+      "alpha_bbox": [
+        0,
+        0,
+        1168,
+        1312
+      ],
+      "sha256": "76c135c0cdab8c187b7b8ea9b31b6b2e0930ba78934c73f0f71f11e2346a1810",
+      "sheet": "review-07.jpg"
+    },
+    {
+      "id": "A078",
+      "path": "assets/portraits/elias-syndicate.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4179,
+      "partial_alpha_fraction": 0.582,
+      "alpha_bbox": [
+        77,
+        0,
+        1124,
+        1312
+      ],
+      "sha256": "c6cd8cb52bb93486bcadcf26db579cdd715a4ad3b29ce03f040f54be274876a3",
+      "sheet": "review-07.jpg"
+    },
+    {
+      "id": "A079",
+      "path": "assets/portraits/elliot-selection.png",
+      "size": [
+        1086,
+        1448
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4351,
+      "partial_alpha_fraction": 0.5645,
+      "alpha_bbox": [
+        0,
+        0,
+        1046,
+        1448
+      ],
+      "sha256": "14b7399c8246bf4ec9143d7d2aaeade8f158b7f1141eb6f1557c386fdc145ca2",
+      "sheet": "review-07.jpg"
+    },
+    {
+      "id": "A080",
+      "path": "assets/portraits/emi-suda-selection.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5472,
+      "partial_alpha_fraction": 0.4528,
+      "alpha_bbox": [
+        89,
+        38,
+        972,
+        1536
+      ],
+      "sha256": "c78e1e053c52fe2360d407128b1788142a781f417360b41238389ab8775c5d5e",
+      "sheet": "review-07.jpg"
+    },
+    {
+      "id": "A081",
+      "path": "assets/portraits/emily-beach-bikini.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5339,
+      "partial_alpha_fraction": 0.466,
+      "alpha_bbox": [
+        21,
+        0,
+        1089,
+        1374
+      ],
+      "sha256": "1621ec192f1adae86bd609111d496414e5821fcb166ec96e08fc5457056f3f0e",
+      "sheet": "review-07.jpg"
+    },
+    {
+      "id": "A082",
+      "path": "assets/portraits/emily-beach-swimsuit.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5277,
+      "partial_alpha_fraction": 0.4721,
+      "alpha_bbox": [
+        55,
+        0,
+        1081,
+        1374
+      ],
+      "sha256": "cc96905fb23a1b46fa5ddac97c95472e6a1a7b6da153ed8c659b1dba035bd0a2",
+      "sheet": "review-07.jpg"
+    },
+    {
+      "id": "A083",
+      "path": "assets/portraits/emily-cafe.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4999,
+      "partial_alpha_fraction": 0.4999,
+      "alpha_bbox": [
+        33,
+        0,
+        1117,
+        1374
+      ],
+      "sha256": "9ae1bef37700b8d49bdcc1014ba3b3ad877a75a0868f7b541ac2e2cb6b9763ba",
+      "sheet": "review-07.jpg"
+    },
+    {
+      "id": "A084",
+      "path": "assets/portraits/emily-florist.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5123,
+      "partial_alpha_fraction": 0.4875,
+      "alpha_bbox": [
+        0,
+        0,
+        1115,
+        1374
+      ],
+      "sha256": "52664225ef53b6fc1b347aa14c15050821bbfbbf9b3e75d80d978dea1b3c066c",
+      "sheet": "review-07.jpg"
+    },
+    {
+      "id": "A085",
+      "path": "assets/portraits/emily-formal-satin.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5148,
+      "partial_alpha_fraction": 0.485,
+      "alpha_bbox": [
+        0,
+        0,
+        1123,
+        1374
+      ],
+      "sha256": "3a7d1b56bd2a71521bbb96a9afc2655e786d8953520d8ab130d0a34155c676fd",
+      "sheet": "review-08.jpg"
+    },
+    {
+      "id": "A086",
+      "path": "assets/portraits/emily-formal-tailoring.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.506,
+      "partial_alpha_fraction": 0.4938,
+      "alpha_bbox": [
+        0,
+        0,
+        1131,
+        1374
+      ],
+      "sha256": "2f9248c56fab559efce7dce1405dd8cd09fd34c34da6ad91187bd3007c67fc0c",
+      "sheet": "review-08.jpg"
+    },
+    {
+      "id": "A087",
+      "path": "assets/portraits/emily-garden.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5036,
+      "partial_alpha_fraction": 0.4963,
+      "alpha_bbox": [
+        0,
+        0,
+        1109,
+        1374
+      ],
+      "sha256": "ebf0c7450cfe7db67d3ad1d887dcc7afb1c088377f01796e5b1257f3e917d943",
+      "sheet": "review-08.jpg"
+    },
+    {
+      "id": "A088",
+      "path": "assets/portraits/emily-gym.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5287,
+      "partial_alpha_fraction": 0.4711,
+      "alpha_bbox": [
+        49,
+        0,
+        1131,
+        1374
+      ],
+      "sha256": "ce2a1d103453a35ee2f92bcacc41b47187a49067fc1136edca921a3290230dd3",
+      "sheet": "review-08.jpg"
+    },
+    {
+      "id": "A089",
+      "path": "assets/portraits/emily-high-school.png",
+      "size": [
+        1055,
+        1491
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4164,
+      "partial_alpha_fraction": 0.5835,
+      "alpha_bbox": [
+        0,
+        0,
+        1035,
+        1491
+      ],
+      "sha256": "545e4c5bfaa2c720edea6b2bd9547c7f4615bcf06923f42bc1ba25739bd1c079",
+      "sheet": "review-08.jpg"
+    },
+    {
+      "id": "A090",
+      "path": "assets/portraits/emily-picnic.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5063,
+      "partial_alpha_fraction": 0.4935,
+      "alpha_bbox": [
+        0,
+        0,
+        1123,
+        1374
+      ],
+      "sha256": "5f536664f9b21c6a791c378f04b4a48446baa8bc87821941dc1e3bae40989044",
+      "sheet": "review-08.jpg"
+    },
+    {
+      "id": "A091",
+      "path": "assets/portraits/emily-rainy.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4883,
+      "partial_alpha_fraction": 0.5115,
+      "alpha_bbox": [
+        0,
+        0,
+        1113,
+        1374
+      ],
+      "sha256": "5202767967eecaa2409b4f2330eab297fa7cc3c8ad6b6da9346dc2c6bbf0ff7f",
+      "sheet": "review-08.jpg"
+    },
+    {
+      "id": "A092",
+      "path": "assets/portraits/emily-selection.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5044,
+      "partial_alpha_fraction": 0.4954,
+      "alpha_bbox": [
+        0,
+        0,
+        1089,
+        1374
+      ],
+      "sha256": "e2f4a2575cadad86da4f5ed2d564469037425d6e34a8623eba70618e33b8dfa2",
+      "sheet": "review-08.jpg"
+    },
+    {
+      "id": "A093",
+      "path": "assets/portraits/emily-sleep.png",
+      "size": [
+        1280,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5458,
+      "partial_alpha_fraction": 0.0058,
+      "alpha_bbox": [
+        267,
+        7,
+        1267,
+        1536
+      ],
+      "sha256": "a6eccc3d1327fa43f6f690c5c5d2702de56ad1e2f55fd7716bdb59bb08b3b8a1",
+      "sheet": "review-08.jpg"
+    },
+    {
+      "id": "A094",
+      "path": "assets/portraits/emily-velvet.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5173,
+      "partial_alpha_fraction": 0.4826,
+      "alpha_bbox": [
+        41,
+        0,
+        1095,
+        1374
+      ],
+      "sha256": "412bd3fa59e1a3482e070ff815944db4793aae9611d038cd3c007e5767ccff74",
+      "sheet": "review-08.jpg"
+    },
+    {
+      "id": "A095",
+      "path": "assets/portraits/emily-winter.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4925,
+      "partial_alpha_fraction": 0.5073,
+      "alpha_bbox": [
+        0,
+        0,
+        1079,
+        1374
+      ],
+      "sha256": "38fc0537021fc63f5a59b370856e8a79a9eb3dee4bcc608371e77246907c2162",
+      "sheet": "review-08.jpg"
+    },
+    {
+      "id": "A096",
+      "path": "assets/portraits/emily-workshop.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5054,
+      "partial_alpha_fraction": 0.4945,
+      "alpha_bbox": [
+        0,
+        0,
+        1064,
+        1374
+      ],
+      "sha256": "66beed85795a8b18db08a87fddfb3acb242c3a0bdb7f93431471c3cde348de28",
+      "sheet": "review-08.jpg"
+    },
+    {
+      "id": "A097",
+      "path": "assets/portraits/euan-marsh-selection.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4229,
+      "partial_alpha_fraction": 0.5767,
+      "alpha_bbox": [
+        20,
+        0,
+        1181,
+        1312
+      ],
+      "sha256": "6e864dc6c74a602cbb124e297dfa84d9fe9ef9ca8c1c55802ebb12eb926a9d66",
+      "sheet": "review-09.jpg"
+    },
+    {
+      "id": "A098",
+      "path": "assets/portraits/evelyn-mercer-selection.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4494,
+      "partial_alpha_fraction": 0.5506,
+      "alpha_bbox": [
+        0,
+        22,
+        1002,
+        1536
+      ],
+      "sha256": "af314f6c7af4da8189c079c7766c5818904adbe8ad1e979e5557591f4ec3cd46",
+      "sheet": "review-09.jpg"
+    },
+    {
+      "id": "A099",
+      "path": "assets/portraits/farah-haddad-selection.png",
+      "size": [
+        1163,
+        1352
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4054,
+      "partial_alpha_fraction": 0.5943,
+      "alpha_bbox": [
+        0,
+        1,
+        1105,
+        1352
+      ],
+      "sha256": "5f08e507daba3ae1e735b2a653b8bd6eabbaad511767c5f4ee3078bc03134a6d",
+      "sheet": "review-09.jpg"
+    },
+    {
+      "id": "A100",
+      "path": "assets/portraits/felix-ward-selection.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.52,
+      "partial_alpha_fraction": 0.48,
+      "alpha_bbox": [
+        0,
+        18,
+        1008,
+        1536
+      ],
+      "sha256": "eecc6f2f9b8d096b5c491994665beb7571969f84c86c8119d87595f4af4a5a49",
+      "sheet": "review-09.jpg"
+    },
+    {
+      "id": "A101",
+      "path": "assets/portraits/fox-contact.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "alpha_min": 255,
+      "transparent_fraction": 0.0,
+      "partial_alpha_fraction": 0.0,
+      "alpha_bbox": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "sha256": "c73d0d698bee217be4b9b4d352c375395bd305b2b726b423c51981b5aeb0dcdd",
+      "sheet": "review-09.jpg"
+    },
+    {
+      "id": "A102",
+      "path": "assets/portraits/fox-selection.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3318,
+      "partial_alpha_fraction": 0.6682,
+      "alpha_bbox": [
+        20,
+        0,
+        1011,
+        1536
+      ],
+      "sha256": "f59009a9ecfc2d75740bc33d9bbe411d0b963059a8794af904e9cc3a3424a05a",
+      "sheet": "review-09.jpg"
+    },
+    {
+      "id": "A103",
+      "path": "assets/portraits/gabe-turner-selection.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4221,
+      "partial_alpha_fraction": 0.5776,
+      "alpha_bbox": [
+        43,
+        0,
+        1163,
+        1312
+      ],
+      "sha256": "0d5e989bbd5295897c9a3ae2cfd75802d7010e2f9a16b6d255a14d023a1b68ae",
+      "sheet": "review-09.jpg"
+    },
+    {
+      "id": "A104",
+      "path": "assets/portraits/garrett-beach-shorts.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4818,
+      "partial_alpha_fraction": 0.518,
+      "alpha_bbox": [
+        33,
+        0,
+        1121,
+        1374
+      ],
+      "sha256": "ec72d4b6bdaa7f0a8ebc0e7d84b516ecdb969999ad2806801ef66740d4047bc2",
+      "sheet": "review-09.jpg"
+    },
+    {
+      "id": "A105",
+      "path": "assets/portraits/garrett-fashion-asymmetric.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.445,
+      "partial_alpha_fraction": 0.5546,
+      "alpha_bbox": [
+        0,
+        0,
+        1091,
+        1374
+      ],
+      "sha256": "109a0e7e0ce8fcc914ba8e3c90e041c63e44d37ff607d2d93c45c79d959024c0",
+      "sheet": "review-09.jpg"
+    },
+    {
+      "id": "A106",
+      "path": "assets/portraits/garrett-fashion-pearl.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4312,
+      "partial_alpha_fraction": 0.5685,
+      "alpha_bbox": [
+        33,
+        0,
+        1125,
+        1374
+      ],
+      "sha256": "fff15fd602033d39de97c1117ca28eb344b6ba239a223c1a5aafc5cf895f59a7",
+      "sheet": "review-09.jpg"
+    },
+    {
+      "id": "A107",
+      "path": "assets/portraits/garrett-formal-burgundy.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.429,
+      "partial_alpha_fraction": 0.5706,
+      "alpha_bbox": [
+        0,
+        0,
+        1109,
+        1374
+      ],
+      "sha256": "42e4ba97edaeb79608939bed9d6505512eca610ed1f28907fbd897f76598d353",
+      "sheet": "review-09.jpg"
+    },
+    {
+      "id": "A108",
+      "path": "assets/portraits/garrett-formal-tuxedo.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4319,
+      "partial_alpha_fraction": 0.5678,
+      "alpha_bbox": [
+        0,
+        0,
+        1086,
+        1374
+      ],
+      "sha256": "be2bfcdb535d20a9bebaaec9fb438bad618bb64b4f929eb752bbf9701a913e7b",
+      "sheet": "review-09.jpg"
+    },
+    {
+      "id": "A109",
+      "path": "assets/portraits/garrett-gym-compression.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5024,
+      "partial_alpha_fraction": 0.4972,
+      "alpha_bbox": [
+        0,
+        0,
+        1107,
+        1374
+      ],
+      "sha256": "728cb46807b3884716d39bf55f5a41090d9a57cc72087d6bca8379d740457980",
+      "sheet": "review-10.jpg"
+    },
+    {
+      "id": "A110",
+      "path": "assets/portraits/garrett-gym-tank.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4783,
+      "partial_alpha_fraction": 0.5214,
+      "alpha_bbox": [
+        0,
+        0,
+        1121,
+        1374
+      ],
+      "sha256": "f56e6bc83159526b78b316f455ecdc7a7fc1721997cdf2df79322630591ff97a",
+      "sheet": "review-10.jpg"
+    },
+    {
+      "id": "A111",
+      "path": "assets/portraits/garrett-high-school.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5125,
+      "partial_alpha_fraction": 0.4871,
+      "alpha_bbox": [
+        0,
+        0,
+        1129,
+        1374
+      ],
+      "sha256": "1eb095e5b4292218127dba97cca176a9df7f07097bd45177d7ae44ba1c5a4e8d",
+      "sheet": "review-10.jpg"
+    },
+    {
+      "id": "A112",
+      "path": "assets/portraits/garrett-home.png",
+      "size": [
+        1280,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4936,
+      "partial_alpha_fraction": 0.0042,
+      "alpha_bbox": [
+        190,
+        7,
+        1267,
+        1536
+      ],
+      "sha256": "9929445aca2156ca81fc7b5795f18092c3ed018f612a29db01fafa34f76ad905",
+      "sheet": "review-10.jpg"
+    },
+    {
+      "id": "A113",
+      "path": "assets/portraits/garrett-ivory.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.429,
+      "partial_alpha_fraction": 0.5708,
+      "alpha_bbox": [
+        0,
+        0,
+        1125,
+        1374
+      ],
+      "sha256": "b736e5e7772f99fbd86fc65e014a9f2db104c7ca7043b1890311b47a389a4354",
+      "sheet": "review-10.jpg"
+    },
+    {
+      "id": "A114",
+      "path": "assets/portraits/garrett-selection.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4333,
+      "partial_alpha_fraction": 0.5664,
+      "alpha_bbox": [
+        0,
+        0,
+        1095,
+        1374
+      ],
+      "sha256": "009139b0e832dc828cc0b12a6e44821d9e738107ae569d17f8a3973a6e6a7958",
+      "sheet": "review-10.jpg"
+    },
+    {
+      "id": "A115",
+      "path": "assets/portraits/garrett-sleep.png",
+      "size": [
+        1280,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4952,
+      "partial_alpha_fraction": 0.0034,
+      "alpha_bbox": [
+        191,
+        4,
+        1267,
+        1536
+      ],
+      "sha256": "eb7cb149a11197c44a6734816e53989724b07caea5826b6c33fcedf195d2fad9",
+      "sheet": "review-10.jpg"
+    },
+    {
+      "id": "A116",
+      "path": "assets/portraits/garrett-street-ink.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4268,
+      "partial_alpha_fraction": 0.573,
+      "alpha_bbox": [
+        0,
+        0,
+        1079,
+        1374
+      ],
+      "sha256": "3ee11860d47c4aa69b69706fc6cd5438f76d6c800ed6f6a86b57a192fd96736f",
+      "sheet": "review-10.jpg"
+    },
+    {
+      "id": "A117",
+      "path": "assets/portraits/garrett-street-jade.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4156,
+      "partial_alpha_fraction": 0.5842,
+      "alpha_bbox": [
+        25,
+        0,
+        1125,
+        1374
+      ],
+      "sha256": "b22671bc1b12f9644260379c7c2242340dd838c86967f338bc3d851e740af5dd",
+      "sheet": "review-10.jpg"
+    },
+    {
+      "id": "A118",
+      "path": "assets/portraits/garrett-summer-linen.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4636,
+      "partial_alpha_fraction": 0.536,
+      "alpha_bbox": [
+        0,
+        0,
+        1137,
+        1374
+      ],
+      "sha256": "4c946d45a774c2a8e8ecf3925fca96f6e9063a1b221b7e78a7a7d716c54e9099",
+      "sheet": "review-10.jpg"
+    },
+    {
+      "id": "A119",
+      "path": "assets/portraits/garrett-traditional-changshan.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.445,
+      "partial_alpha_fraction": 0.5548,
+      "alpha_bbox": [
+        0,
+        0,
+        1085,
+        1374
+      ],
+      "sha256": "b6e81b85810ac6c64189e8d3c2ec53259f93f37b43ad2aa9d804006ff1f904e6",
+      "sheet": "review-10.jpg"
+    },
+    {
+      "id": "A120",
+      "path": "assets/portraits/garrett-traditional-hanfu.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3976,
+      "partial_alpha_fraction": 0.6022,
+      "alpha_bbox": [
+        0,
+        0,
+        1128,
+        1374
+      ],
+      "sha256": "7e2af4f4b6acd9a648242b41ebbe1239ee88e2624919d4231f41b8d8e0615cab",
+      "sheet": "review-10.jpg"
+    },
+    {
+      "id": "A121",
+      "path": "assets/portraits/garrett-winter-coat.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4048,
+      "partial_alpha_fraction": 0.595,
+      "alpha_bbox": [
+        0,
+        0,
+        1129,
+        1374
+      ],
+      "sha256": "61c549322ca6024dc40164bcf57bd539395ef2dd65196732deb8254734186fa2",
+      "sheet": "review-11.jpg"
+    },
+    {
+      "id": "A122",
+      "path": "assets/portraits/gordon-contact.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "alpha_min": 255,
+      "transparent_fraction": 0.0,
+      "partial_alpha_fraction": 0.0,
+      "alpha_bbox": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "sha256": "69de2718469bc6562df846aa130c3b7d69356c8d0ce29d36f8a69a338fb72939",
+      "sheet": "review-11.jpg"
+    },
+    {
+      "id": "A123",
+      "path": "assets/portraits/gordon-selection.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3858,
+      "partial_alpha_fraction": 0.6142,
+      "alpha_bbox": [
+        0,
+        0,
+        986,
+        1536
+      ],
+      "sha256": "88a2f4a51d89b412e7605317deac838284433e72851c2989251f806f2a2e317d",
+      "sheet": "review-11.jpg"
+    },
+    {
+      "id": "A124",
+      "path": "assets/portraits/greta-shaw-selection.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.6003,
+      "partial_alpha_fraction": 0.399,
+      "alpha_bbox": [
+        25,
+        16,
+        1086,
+        1402
+      ],
+      "sha256": "c2ca254d1caa83bf5c73a9302e9b6952dc394b190a011b7526db58d8c49e9641",
+      "sheet": "review-11.jpg"
+    },
+    {
+      "id": "A125",
+      "path": "assets/portraits/guards/affiliate.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3976,
+      "partial_alpha_fraction": 0.6024,
+      "alpha_bbox": [
+        0,
+        0,
+        1008,
+        1536
+      ],
+      "sha256": "296922bdc05e5bcadeaed3f0a7a4f05288c802ca002aa7b08121e82da92781b7",
+      "sheet": "review-11.jpg"
+    },
+    {
+      "id": "A126",
+      "path": "assets/portraits/guards/clubs.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3175,
+      "partial_alpha_fraction": 0.6825,
+      "alpha_bbox": [
+        0,
+        5,
+        1024,
+        1536
+      ],
+      "sha256": "7e46f8a4468c6405a1259e005c6811c1b2b9983d50f5cb618997e8054a92adf3",
+      "sheet": "review-11.jpg"
+    },
+    {
+      "id": "A127",
+      "path": "assets/portraits/guards/crew_enforcer.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4049,
+      "partial_alpha_fraction": 0.5951,
+      "alpha_bbox": [
+        0,
+        0,
+        1006,
+        1536
+      ],
+      "sha256": "808a99de35543ec48b8281d4fa68cda43acfb0b0d3e2e3d5cf38a0acf1732d81",
+      "sheet": "review-11.jpg"
+    },
+    {
+      "id": "A128",
+      "path": "assets/portraits/guards/custom_awakened.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4218,
+      "partial_alpha_fraction": 0.5782,
+      "alpha_bbox": [
+        0,
+        0,
+        1023,
+        1536
+      ],
+      "sha256": "4235cbfa63d2e49c0eaf6505d15ef2f8823e0139b98b28a3b0bda8e543cae046",
+      "sheet": "review-11.jpg"
+    },
+    {
+      "id": "A129",
+      "path": "assets/portraits/guards/custom_robotic.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4052,
+      "partial_alpha_fraction": 0.5948,
+      "alpha_bbox": [
+        18,
+        0,
+        992,
+        1536
+      ],
+      "sha256": "70b0501922063abcbdeb787b985210e6ae842ec1a579fa7b21f20b72d4181d3d",
+      "sheet": "review-11.jpg"
+    },
+    {
+      "id": "A130",
+      "path": "assets/portraits/guards/custom_unawakened.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4602,
+      "partial_alpha_fraction": 0.5398,
+      "alpha_bbox": [
+        0,
+        0,
+        958,
+        1536
+      ],
+      "sha256": "ead57664a6f379e2359de288d272d4d37d0faa8e99d8211483b60ba4ff632b1d",
+      "sheet": "review-11.jpg"
+    },
+    {
+      "id": "A131",
+      "path": "assets/portraits/guards/headhunter.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3749,
+      "partial_alpha_fraction": 0.6251,
+      "alpha_bbox": [
+        0,
+        0,
+        1000,
+        1536
+      ],
+      "sha256": "62bac4012af1188d6c51d1eef1d033cd88b47930ec68013e4e6a1da37cdcd4d1",
+      "sheet": "review-11.jpg"
+    },
+    {
+      "id": "A132",
+      "path": "assets/portraits/guards/interpol.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4852,
+      "partial_alpha_fraction": 0.5148,
+      "alpha_bbox": [
+        92,
+        0,
+        1005,
+        1536
+      ],
+      "sha256": "15cc1c0dec4b946e8f5598ebd80a1fd05c988f5b837644e9230bb1be3159e3ff",
+      "sheet": "review-11.jpg"
+    },
+    {
+      "id": "A133",
+      "path": "assets/portraits/guards/kai_guard.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5283,
+      "partial_alpha_fraction": 0.4717,
+      "alpha_bbox": [
+        69,
+        0,
+        1004,
+        1536
+      ],
+      "sha256": "a73d0ea77f9c7531d85e3bc8c432912ed13dc514eab828cdbcde4a33d9b2c7a9",
+      "sheet": "review-12.jpg"
+    },
+    {
+      "id": "A134",
+      "path": "assets/portraits/guards/kai_sentinel.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4308,
+      "partial_alpha_fraction": 0.5692,
+      "alpha_bbox": [
+        0,
+        0,
+        998,
+        1536
+      ],
+      "sha256": "feb6ecde1ab00255eda7ddca7e86fbd246509b777ae97860f2766ec00b9bf384",
+      "sheet": "review-12.jpg"
+    },
+    {
+      "id": "A135",
+      "path": "assets/portraits/guards/lookout.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4065,
+      "partial_alpha_fraction": 0.5935,
+      "alpha_bbox": [
+        37,
+        0,
+        1008,
+        1536
+      ],
+      "sha256": "37447ebe57f2942d12acb5f3b382df6aed453fb67eb3fd5c3bc6359c8cee7fcb",
+      "sheet": "review-12.jpg"
+    },
+    {
+      "id": "A136",
+      "path": "assets/portraits/guards/oni.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3319,
+      "partial_alpha_fraction": 0.6681,
+      "alpha_bbox": [
+        0,
+        0,
+        1015,
+        1536
+      ],
+      "sha256": "3d060a371823ec108f657b2bf5448616d3dc9e88341b8396cd16ba7224323d4a",
+      "sheet": "review-12.jpg"
+    },
+    {
+      "id": "A137",
+      "path": "assets/portraits/guards/pmc.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4682,
+      "partial_alpha_fraction": 0.5318,
+      "alpha_bbox": [
+        0,
+        0,
+        1010,
+        1536
+      ],
+      "sha256": "eb7029d10ce42b150db6ab3a9bf2874c60865cd2beb10a214f3781fde2002416",
+      "sheet": "review-12.jpg"
+    },
+    {
+      "id": "A138",
+      "path": "assets/portraits/guards/richter_cybernetic.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3998,
+      "partial_alpha_fraction": 0.6002,
+      "alpha_bbox": [
+        0,
+        0,
+        1008,
+        1536
+      ],
+      "sha256": "588e94c1dc99827fe5637c4eb7a9d2bef71a5c62ffdfee436b5b47e859056622",
+      "sheet": "review-12.jpg"
+    },
+    {
+      "id": "A139",
+      "path": "assets/portraits/guards/seeker.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5021,
+      "partial_alpha_fraction": 0.4979,
+      "alpha_bbox": [
+        57,
+        0,
+        1008,
+        1536
+      ],
+      "sha256": "558de67ce07cab9663ee3f92589de55caf5d8bd54dceb333a2a770044124a122",
+      "sheet": "review-12.jpg"
+    },
+    {
+      "id": "A140",
+      "path": "assets/portraits/guards/spades.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3824,
+      "partial_alpha_fraction": 0.6176,
+      "alpha_bbox": [
+        0,
+        26,
+        1013,
+        1536
+      ],
+      "sha256": "80d7ad5fba3c48173207e1ad92723aa762f82d169c0b4c23fde10d1cf0f4033e",
+      "sheet": "review-12.jpg"
+    },
+    {
+      "id": "A141",
+      "path": "assets/portraits/guards/team9.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4986,
+      "partial_alpha_fraction": 0.5014,
+      "alpha_bbox": [
+        0,
+        0,
+        1021,
+        1536
+      ],
+      "sha256": "2c2b41017ffaebd90a7dfaad41f309c8e1b53a7ac642f929c68aee2c79492eaf",
+      "sheet": "review-12.jpg"
+    },
+    {
+      "id": "A142",
+      "path": "assets/portraits/guards/tengu.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4512,
+      "partial_alpha_fraction": 0.5488,
+      "alpha_bbox": [
+        0,
+        0,
+        1016,
+        1536
+      ],
+      "sha256": "fa06cd71911833abea8dfa8bd2e339d81408edd378a263ac293b10d9dd877c15",
+      "sheet": "review-12.jpg"
+    },
+    {
+      "id": "A143",
+      "path": "assets/portraits/guards/yokai.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3897,
+      "partial_alpha_fraction": 0.6103,
+      "alpha_bbox": [
+        0,
+        0,
+        1004,
+        1536
+      ],
+      "sha256": "e624957d57b3c1ac0a21883393ed7537574b560dada7d64bd286715224fa04dd",
+      "sheet": "review-12.jpg"
+    },
+    {
+      "id": "A144",
+      "path": "assets/portraits/hazel-reed-selection.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.397,
+      "partial_alpha_fraction": 0.6026,
+      "alpha_bbox": [
+        0,
+        0,
+        1118,
+        1312
+      ],
+      "sha256": "09acf9321c5e6979c3fe9509a8ed16d8026f9b722a83eae818d6e2e2da0c9e36",
+      "sheet": "review-12.jpg"
+    },
+    {
+      "id": "A145",
+      "path": "assets/portraits/imani-price-selection.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5742,
+      "partial_alpha_fraction": 0.425,
+      "alpha_bbox": [
+        47,
+        16,
+        1080,
+        1402
+      ],
+      "sha256": "b7e17749f12f7e1564651b9909dac5422d6fda15bbadc4fe11020cc0ea7ff43a",
+      "sheet": "review-13.jpg"
+    },
+    {
+      "id": "A146",
+      "path": "assets/portraits/iris-selection.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5435,
+      "partial_alpha_fraction": 0.4563,
+      "alpha_bbox": [
+        0,
+        0,
+        1061,
+        1374
+      ],
+      "sha256": "b0a6db8d6d53190c835e1f7eeb867399020a6b91ecb559b3a55be9c57b69886c",
+      "sheet": "review-13.jpg"
+    },
+    {
+      "id": "A147",
+      "path": "assets/portraits/isabel-vega-selection.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4277,
+      "partial_alpha_fraction": 0.5723,
+      "alpha_bbox": [
+        101,
+        0,
+        978,
+        1536
+      ],
+      "sha256": "679b7893c7fc49ce673a87f6041a78e9db5fb851054c622513a640a4ea6511d7",
+      "sheet": "review-13.jpg"
+    },
+    {
+      "id": "A148",
+      "path": "assets/portraits/ivan-beach.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5073,
+      "partial_alpha_fraction": 0.4923,
+      "alpha_bbox": [
+        0,
+        0,
+        1100,
+        1402
+      ],
+      "sha256": "079761cdb42766e0f07dbaf16f6126f90c02f85b863ed908b9e8d62ba90951a4",
+      "sheet": "review-13.jpg"
+    },
+    {
+      "id": "A149",
+      "path": "assets/portraits/ivan-fashion-burgundy.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4681,
+      "partial_alpha_fraction": 0.5314,
+      "alpha_bbox": [
+        0,
+        0,
+        1106,
+        1402
+      ],
+      "sha256": "794c9c88490161084174808fd3c2ae357badbd15ce7b7ba9123071aa503a994e",
+      "sheet": "review-13.jpg"
+    },
+    {
+      "id": "A150",
+      "path": "assets/portraits/ivan-fashion-ivory.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4636,
+      "partial_alpha_fraction": 0.536,
+      "alpha_bbox": [
+        0,
+        0,
+        1086,
+        1402
+      ],
+      "sha256": "f001c7f3f789c2bad50bfa013d27fe8e5313d4182dba7ec57ffbfbd7ed757607",
+      "sheet": "review-13.jpg"
+    },
+    {
+      "id": "A151",
+      "path": "assets/portraits/ivan-fashion-pearl.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4715,
+      "partial_alpha_fraction": 0.5277,
+      "alpha_bbox": [
+        41,
+        0,
+        1026,
+        1402
+      ],
+      "sha256": "e70b6df6b1953d48d2c801f2a434bbbccda3c9bacfaf6244946f5ef5b42fac4f",
+      "sheet": "review-13.jpg"
+    },
+    {
+      "id": "A152",
+      "path": "assets/portraits/ivan-gym-tank.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5159,
+      "partial_alpha_fraction": 0.4836,
+      "alpha_bbox": [
+        33,
+        0,
+        1044,
+        1402
+      ],
+      "sha256": "06b9cd76ce355eaf812bdc0d5578446d174174c9fc88ecddb24af9368e48b78d",
+      "sheet": "review-13.jpg"
+    },
+    {
+      "id": "A153",
+      "path": "assets/portraits/ivan-gym-training.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5181,
+      "partial_alpha_fraction": 0.4813,
+      "alpha_bbox": [
+        25,
+        0,
+        1056,
+        1402
+      ],
+      "sha256": "4660745f0698c67da8a81cf70f922dfe631fa3a72c10b5cb23623f64c892de16",
+      "sheet": "review-13.jpg"
+    },
+    {
+      "id": "A154",
+      "path": "assets/portraits/ivan-idol-crimson.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.474,
+      "partial_alpha_fraction": 0.5255,
+      "alpha_bbox": [
+        41,
+        0,
+        1095,
+        1402
+      ],
+      "sha256": "7b0c52e059a7673bc9bfc0fd51694c1555febe8ffb3530b00e13212eb97b803b",
+      "sheet": "review-13.jpg"
+    },
+    {
+      "id": "A155",
+      "path": "assets/portraits/ivan-idol-midnight.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4579,
+      "partial_alpha_fraction": 0.5417,
+      "alpha_bbox": [
+        0,
+        0,
+        1114,
+        1402
+      ],
+      "sha256": "b1db017ca362dae14d00787e0ab6d7f49ad85e4470ba79256ccf67ebdf00c520",
+      "sheet": "review-13.jpg"
+    },
+    {
+      "id": "A156",
+      "path": "assets/portraits/ivan-idol-white.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4584,
+      "partial_alpha_fraction": 0.5414,
+      "alpha_bbox": [
+        111,
+        0,
+        1118,
+        1402
+      ],
+      "sha256": "6ab1a472c655a99d879e01164fd101960f60767c3391e626184483f4ed5e79ad",
+      "sheet": "review-13.jpg"
+    },
+    {
+      "id": "A157",
+      "path": "assets/portraits/ivan-selection.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4575,
+      "partial_alpha_fraction": 0.5419,
+      "alpha_bbox": [
+        41,
+        0,
+        1090,
+        1402
+      ],
+      "sha256": "eb4a72a0fdceb16239ffd1853a9024c1620360f6fb0f9f1e1ee643199fd7f107",
+      "sheet": "review-14.jpg"
+    },
+    {
+      "id": "A158",
+      "path": "assets/portraits/ivan-street-denim.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4292,
+      "partial_alpha_fraction": 0.5705,
+      "alpha_bbox": [
+        90,
+        0,
+        1050,
+        1402
+      ],
+      "sha256": "3b485c937dddeb2b8a7be315cbc6930081606a3dfe341d1f3d17ad72fdb7b850",
+      "sheet": "review-14.jpg"
+    },
+    {
+      "id": "A159",
+      "path": "assets/portraits/ivan-street-knit.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4505,
+      "partial_alpha_fraction": 0.5493,
+      "alpha_bbox": [
+        0,
+        0,
+        1070,
+        1402
+      ],
+      "sha256": "6a9d816ac4ecc54e4bc9a2f5ceb7ff57ed42c3b18ec67a07f594b38b1a801903",
+      "sheet": "review-14.jpg"
+    },
+    {
+      "id": "A160",
+      "path": "assets/portraits/ivan-street-monochrome.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4768,
+      "partial_alpha_fraction": 0.5227,
+      "alpha_bbox": [
+        0,
+        0,
+        1102,
+        1402
+      ],
+      "sha256": "39f69a983a89c4be146a155bce849f0007c785c45d594161113015dc6586aecc",
+      "sheet": "review-14.jpg"
+    },
+    {
+      "id": "A161",
+      "path": "assets/portraits/ivan-street-varsity.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4707,
+      "partial_alpha_fraction": 0.529,
+      "alpha_bbox": [
+        47,
+        0,
+        1054,
+        1402
+      ],
+      "sha256": "138b4bfcf22383e9cac4bab1432ce5edd0a034505d1054a38537b69f1aa71cfc",
+      "sheet": "review-14.jpg"
+    },
+    {
+      "id": "A162",
+      "path": "assets/portraits/ivan-syndicate.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3857,
+      "partial_alpha_fraction": 0.6138,
+      "alpha_bbox": [
+        52,
+        0,
+        1162,
+        1312
+      ],
+      "sha256": "3696f9b07102e9a878dd928cc34979acdd1e44ee2f71eac65439e21ea6dff33e",
+      "sheet": "review-14.jpg"
+    },
+    {
+      "id": "A163",
+      "path": "assets/portraits/jace-mercer-selection.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3797,
+      "partial_alpha_fraction": 0.62,
+      "alpha_bbox": [
+        18,
+        16,
+        1130,
+        1374
+      ],
+      "sha256": "078f2ca7d6c3fc455003e2e670c35e951a51a11e42979e5d9309def4362cfebf",
+      "sheet": "review-14.jpg"
+    },
+    {
+      "id": "A164",
+      "path": "assets/portraits/jonah-price-selection.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4091,
+      "partial_alpha_fraction": 0.5907,
+      "alpha_bbox": [
+        0,
+        0,
+        1150,
+        1312
+      ],
+      "sha256": "270ba819998f104bcb1e8ff29c1ca689be986733a21585d2a51999bf39ddcf82",
+      "sheet": "review-14.jpg"
+    },
+    {
+      "id": "A165",
+      "path": "assets/portraits/joseph-richter-high-school.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5135,
+      "partial_alpha_fraction": 0.4859,
+      "alpha_bbox": [
+        49,
+        0,
+        1080,
+        1402
+      ],
+      "sha256": "156894bfa4b734c1431d63dec75265a79bfd8f6bd99a39082f92aeb4b5bd8f70",
+      "sheet": "review-14.jpg"
+    },
+    {
+      "id": "A166",
+      "path": "assets/portraits/joseph-richter-selection.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.462,
+      "partial_alpha_fraction": 0.5377,
+      "alpha_bbox": [
+        81,
+        0,
+        1102,
+        1402
+      ],
+      "sha256": "ab22f7482b5eb7178649d2b45adb0f66321e8ef3d0966e694b4e391535e25939",
+      "sheet": "review-14.jpg"
+    },
+    {
+      "id": "A167",
+      "path": "assets/portraits/jules-navarro-selection.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5126,
+      "partial_alpha_fraction": 0.4874,
+      "alpha_bbox": [
+        0,
+        0,
+        1004,
+        1536
+      ],
+      "sha256": "514ec6bf80ec765f5ec18b2eef1ac620201e41277d3d2b47ad04e84eef2d5072",
+      "sheet": "review-14.jpg"
+    },
+    {
+      "id": "A168",
+      "path": "assets/portraits/june-selection.png",
+      "size": [
+        1143,
+        1376
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5245,
+      "partial_alpha_fraction": 0.4752,
+      "alpha_bbox": [
+        0,
+        0,
+        1137,
+        1376
+      ],
+      "sha256": "6461e542d655b38f3f8b0a5c29a4dc509b63816abf23d395195d9ab222f6a17a",
+      "sheet": "review-14.jpg"
+    },
+    {
+      "id": "A169",
+      "path": "assets/portraits/keiko-tan-selection.png",
+      "size": [
+        1222,
+        1287
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4994,
+      "partial_alpha_fraction": 0.5003,
+      "alpha_bbox": [
+        0,
+        8,
+        1219,
+        1287
+      ],
+      "sha256": "1595b7721d77749bd4d75b210b2867871f6c9a6509efbdc94907d5b5b5398571",
+      "sheet": "review-15.jpg"
+    },
+    {
+      "id": "A170",
+      "path": "assets/portraits/keira-shaw-selection.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3311,
+      "partial_alpha_fraction": 0.6685,
+      "alpha_bbox": [
+        0,
+        22,
+        1122,
+        1402
+      ],
+      "sha256": "611d3d2b98feb69bb51ed6dccf791007136c1f290c8b7d6ba395292106998351",
+      "sheet": "review-15.jpg"
+    },
+    {
+      "id": "A171",
+      "path": "assets/portraits/keisuke-hachimura-selection.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4277,
+      "partial_alpha_fraction": 0.572,
+      "alpha_bbox": [
+        0,
+        6,
+        1080,
+        1402
+      ],
+      "sha256": "225512ef845949fd352f24b2799c2a682d5912d43bfbbe81ea3eece0e74ae075",
+      "sheet": "review-15.jpg"
+    },
+    {
+      "id": "A172",
+      "path": "assets/portraits/lena-selection-v1.png",
+      "size": [
+        1086,
+        1448
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4655,
+      "partial_alpha_fraction": 0.5342,
+      "alpha_bbox": [
+        70,
+        8,
+        1031,
+        1448
+      ],
+      "sha256": "df87bdd81f592fdf0147a2c98f8682bb54157ea7dc9bfda603dbe4fba5907ca7",
+      "sheet": "review-15.jpg"
+    },
+    {
+      "id": "A173",
+      "path": "assets/portraits/lena-selection-v2.png",
+      "size": [
+        1086,
+        1448
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.461,
+      "partial_alpha_fraction": 0.5382,
+      "alpha_bbox": [
+        39,
+        0,
+        1048,
+        1448
+      ],
+      "sha256": "9884dfbb1d0e1fcf52bcff3fc1f3c68ef1215408f71bc297328a103294ba5fca",
+      "sheet": "review-15.jpg"
+    },
+    {
+      "id": "A174",
+      "path": "assets/portraits/lena-selection.png",
+      "size": [
+        1086,
+        1448
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4408,
+      "partial_alpha_fraction": 0.5589,
+      "alpha_bbox": [
+        0,
+        0,
+        1074,
+        1448
+      ],
+      "sha256": "c7230a0644c55691a764bbf76f537d0d045d7ea10267fb62b88d49ba2ca649e5",
+      "sheet": "review-15.jpg"
+    },
+    {
+      "id": "A175",
+      "path": "assets/portraits/leo-selection.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.51,
+      "partial_alpha_fraction": 0.4897,
+      "alpha_bbox": [
+        0,
+        5,
+        1106,
+        1402
+      ],
+      "sha256": "03cce4ce2073e229927dbf2a9cefded3a3b0cec4b8f524396ab63f8749357292",
+      "sheet": "review-15.jpg"
+    },
+    {
+      "id": "A176",
+      "path": "assets/portraits/lucia-serrano-selection.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5018,
+      "partial_alpha_fraction": 0.4982,
+      "alpha_bbox": [
+        0,
+        14,
+        924,
+        1536
+      ],
+      "sha256": "f2df09078ba7848a8f944f8d66c5ecd580c009e2166e0d525af33ba8ee00ac63",
+      "sheet": "review-15.jpg"
+    },
+    {
+      "id": "A177",
+      "path": "assets/portraits/luz-moreno-selection.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4031,
+      "partial_alpha_fraction": 0.5964,
+      "alpha_bbox": [
+        0,
+        0,
+        1140,
+        1312
+      ],
+      "sha256": "073f189a341230f722ac396cda346362f3abd3fabdec15305031c9bb081765a2",
+      "sheet": "review-15.jpg"
+    },
+    {
+      "id": "A178",
+      "path": "assets/portraits/malik-reed-selection.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5036,
+      "partial_alpha_fraction": 0.4964,
+      "alpha_bbox": [
+        0,
+        54,
+        1010,
+        1536
+      ],
+      "sha256": "152eca4d32a9ba9b17c511e339436b7c56a919bd6b0a923d734fa9eaa7ce021b",
+      "sheet": "review-15.jpg"
+    },
+    {
+      "id": "A179",
+      "path": "assets/portraits/malik-torres-selection.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3571,
+      "partial_alpha_fraction": 0.6425,
+      "alpha_bbox": [
+        0,
+        3,
+        1145,
+        1374
+      ],
+      "sha256": "727c9d2b44baf1d0f6d7daeba608df10c2b06abc1fce8c019cc8798cf6ddd279",
+      "sheet": "review-15.jpg"
+    },
+    {
+      "id": "A180",
+      "path": "assets/portraits/mara-voss-selection.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4767,
+      "partial_alpha_fraction": 0.5233,
+      "alpha_bbox": [
+        39,
+        0,
+        1006,
+        1536
+      ],
+      "sha256": "d159e38dded107427583bd74c1564bd9fdb2a81526b8e788fb153580f724f765",
+      "sheet": "review-15.jpg"
+    },
+    {
+      "id": "A181",
+      "path": "assets/portraits/marcus-high-school.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5556,
+      "partial_alpha_fraction": 0.4439,
+      "alpha_bbox": [
+        0,
+        0,
+        1131,
+        1374
+      ],
+      "sha256": "500b04db1b0df24194b8a836b39f36a13dca5f8b7f5ff93085e57cc09cf2f888",
+      "sheet": "review-16.jpg"
+    },
+    {
+      "id": "A182",
+      "path": "assets/portraits/mario-romano-selection.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4312,
+      "partial_alpha_fraction": 0.5683,
+      "alpha_bbox": [
+        30,
+        0,
+        1096,
+        1402
+      ],
+      "sha256": "db1f4dc16dc173b7bd597bdf5f1cee623a64b425ceb9eb5894e5b8afd65bc3d4",
+      "sheet": "review-16.jpg"
+    },
+    {
+      "id": "A183",
+      "path": "assets/portraits/marta-silva-selection.png",
+      "size": [
+        1196,
+        1315
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4334,
+      "partial_alpha_fraction": 0.5661,
+      "alpha_bbox": [
+        67,
+        10,
+        1178,
+        1315
+      ],
+      "sha256": "ba3b869a1114d4e4d6a788a36bd2e0cc654393e2086385f8679617dbbd913d5d",
+      "sheet": "review-16.jpg"
+    },
+    {
+      "id": "A184",
+      "path": "assets/portraits/martos-selection.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3715,
+      "partial_alpha_fraction": 0.6282,
+      "alpha_bbox": [
+        0,
+        0,
+        1199,
+        1312
+      ],
+      "sha256": "a38916cb2eb7bf9780189487df988aa765842be5e8e7e3e4047eb0a54c0aea5d",
+      "sheet": "review-16.jpg"
+    },
+    {
+      "id": "A185",
+      "path": "assets/portraits/martos-syndicate.png",
+      "size": [
+        1312,
+        1199
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3331,
+      "partial_alpha_fraction": 0.6669,
+      "alpha_bbox": [
+        0,
+        0,
+        1312,
+        1199
+      ],
+      "sha256": "925cae1263f60929dddde546d387bf1a896d778c805b9e1ce8a315d7c7b71707",
+      "sheet": "review-16.jpg"
+    },
+    {
+      "id": "A186",
+      "path": "assets/portraits/mateo-cruz-selection.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5395,
+      "partial_alpha_fraction": 0.4605,
+      "alpha_bbox": [
+        0,
+        41,
+        986,
+        1536
+      ],
+      "sha256": "0f0622914f4013232aa0bcedf881bdd24379d9aef5c9d420ff8d2db42ef17af2",
+      "sheet": "review-16.jpg"
+    },
+    {
+      "id": "A187",
+      "path": "assets/portraits/mavis-selection.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3947,
+      "partial_alpha_fraction": 0.605,
+      "alpha_bbox": [
+        0,
+        0,
+        1183,
+        1312
+      ],
+      "sha256": "a64c1f8fcdae9cab974bee2532158fac511ac3bc1a672dcf85e5d32517dbffcc",
+      "sheet": "review-16.jpg"
+    },
+    {
+      "id": "A188",
+      "path": "assets/portraits/mavis-syndicate.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.533,
+      "partial_alpha_fraction": 0.4667,
+      "alpha_bbox": [
+        0,
+        0,
+        1124,
+        1312
+      ],
+      "sha256": "6c713a7b9d003134141f83a3df492bb28964cad777016dd0903b1790509b76fd",
+      "sheet": "review-16.jpg"
+    },
+    {
+      "id": "A189",
+      "path": "assets/portraits/maya-selection.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5189,
+      "partial_alpha_fraction": 0.4808,
+      "alpha_bbox": [
+        0,
+        0,
+        1034,
+        1402
+      ],
+      "sha256": "d52faf6427ebd88dd672d275608c35bdc1699a5442363a2f7318e5ee34541a3d",
+      "sheet": "review-16.jpg"
+    },
+    {
+      "id": "A190",
+      "path": "assets/portraits/mina-cho-selection.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5574,
+      "partial_alpha_fraction": 0.4426,
+      "alpha_bbox": [
+        0,
+        24,
+        984,
+        1536
+      ],
+      "sha256": "877560992463458745a7d1ae9e412a3072a420ba6bbf344822823912dfb16f5d",
+      "sheet": "review-16.jpg"
+    },
+    {
+      "id": "A191",
+      "path": "assets/portraits/minsu-beach-shorts.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5043,
+      "partial_alpha_fraction": 0.4952,
+      "alpha_bbox": [
+        77,
+        0,
+        1060,
+        1402
+      ],
+      "sha256": "f29cc9a8a98b7a8e994c01f0e176eda43b268710407834ef7d9ef523d498f9c0",
+      "sheet": "review-16.jpg"
+    },
+    {
+      "id": "A192",
+      "path": "assets/portraits/minsu-college-knit.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4963,
+      "partial_alpha_fraction": 0.5029,
+      "alpha_bbox": [
+        113,
+        0,
+        997,
+        1402
+      ],
+      "sha256": "7309fecd77e54e96713e9ace192d5d224ccbff84e2a33195a280197b1c1af35f",
+      "sheet": "review-16.jpg"
+    },
+    {
+      "id": "A193",
+      "path": "assets/portraits/minsu-college-overshirt.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4565,
+      "partial_alpha_fraction": 0.5431,
+      "alpha_bbox": [
+        131,
+        0,
+        1048,
+        1402
+      ],
+      "sha256": "bc78834f6d4cafc45581858057839537b64ce44589952b1d62039d036355be4a",
+      "sheet": "review-17.jpg"
+    },
+    {
+      "id": "A194",
+      "path": "assets/portraits/minsu-college-rugby.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4363,
+      "partial_alpha_fraction": 0.5631,
+      "alpha_bbox": [
+        101,
+        0,
+        1087,
+        1402
+      ],
+      "sha256": "5eac91374ba21f7181de7444c798f2eaf1254080a08ddd99a44fdd11d316a129",
+      "sheet": "review-17.jpg"
+    },
+    {
+      "id": "A195",
+      "path": "assets/portraits/minsu-gym-compression.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5055,
+      "partial_alpha_fraction": 0.4935,
+      "alpha_bbox": [
+        0,
+        0,
+        1052,
+        1402
+      ],
+      "sha256": "91eae011d7d8ec0b538097e9f49ad06bc7210fb0fa3335b8535fff8dc8e8036c",
+      "sheet": "review-17.jpg"
+    },
+    {
+      "id": "A196",
+      "path": "assets/portraits/minsu-gym-tank.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5056,
+      "partial_alpha_fraction": 0.4934,
+      "alpha_bbox": [
+        0,
+        0,
+        1108,
+        1402
+      ],
+      "sha256": "93d18cbe8f66fb5228e204d6003e9ddfd682e6a19491042f122aaaf773eff357",
+      "sheet": "review-17.jpg"
+    },
+    {
+      "id": "A197",
+      "path": "assets/portraits/minsu-home.png",
+      "size": [
+        1264,
+        1568
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5061,
+      "partial_alpha_fraction": 0.0029,
+      "alpha_bbox": [
+        220,
+        0,
+        1251,
+        1568
+      ],
+      "sha256": "f076d2ad8e76d83eabdac480c213351ff00ceda18180675ec6feceeae56282a8",
+      "sheet": "review-17.jpg"
+    },
+    {
+      "id": "A198",
+      "path": "assets/portraits/minsu-med-scrubs.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5134,
+      "partial_alpha_fraction": 0.4857,
+      "alpha_bbox": [
+        0,
+        0,
+        1070,
+        1402
+      ],
+      "sha256": "720d56ae8e4569b846185c5df5eaa789b954e11c7b0d56d452284c8352b8dbb6",
+      "sheet": "review-17.jpg"
+    },
+    {
+      "id": "A199",
+      "path": "assets/portraits/minsu-med-white-coat.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4745,
+      "partial_alpha_fraction": 0.525,
+      "alpha_bbox": [
+        0,
+        0,
+        1098,
+        1402
+      ],
+      "sha256": "1247c6b8f70729543a2bdc91bf64c0abbaa38fded8e407e5ff76a26fb9111dd8",
+      "sheet": "review-17.jpg"
+    },
+    {
+      "id": "A200",
+      "path": "assets/portraits/minsu-selection-v1.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4052,
+      "partial_alpha_fraction": 0.5945,
+      "alpha_bbox": [
+        48,
+        0,
+        1077,
+        1402
+      ],
+      "sha256": "ee2d5e6b647803e561a14d71da51879d82113533a14cb2ae09e6be2cbb407225",
+      "sheet": "review-17.jpg"
+    },
+    {
+      "id": "A201",
+      "path": "assets/portraits/minsu-selection.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3994,
+      "partial_alpha_fraction": 0.6001,
+      "alpha_bbox": [
+        0,
+        0,
+        1086,
+        1402
+      ],
+      "sha256": "b8d7fd4d0d58668a7bfd5cd6cf3426f70fa8e839f3e308d310af6f6700a2ea21",
+      "sheet": "review-17.jpg"
+    },
+    {
+      "id": "A202",
+      "path": "assets/portraits/minsu-sleep.png",
+      "size": [
+        1264,
+        1568
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5099,
+      "partial_alpha_fraction": 0.003,
+      "alpha_bbox": [
+        224,
+        0,
+        1251,
+        1568
+      ],
+      "sha256": "17e57d8276fc4bcd79cc02388daf65713291825ec1a9525ed7d2df83bcf0d41b",
+      "sheet": "review-17.jpg"
+    },
+    {
+      "id": "A203",
+      "path": "assets/portraits/minsu-street-denim.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5026,
+      "partial_alpha_fraction": 0.4967,
+      "alpha_bbox": [
+        105,
+        0,
+        1036,
+        1402
+      ],
+      "sha256": "03acec9dd8c52e8915b616a976194070979418653603cd17dfb47acf997aaed1",
+      "sheet": "review-17.jpg"
+    },
+    {
+      "id": "A204",
+      "path": "assets/portraits/minsu-street-monochrome.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.409,
+      "partial_alpha_fraction": 0.5906,
+      "alpha_bbox": [
+        56,
+        0,
+        1092,
+        1402
+      ],
+      "sha256": "f6a09864b7431343cec43772c30b148d06de97df18af011a9abce83a290f6639",
+      "sheet": "review-17.jpg"
+    },
+    {
+      "id": "A205",
+      "path": "assets/portraits/minsu-street-track.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4319,
+      "partial_alpha_fraction": 0.5677,
+      "alpha_bbox": [
+        75,
+        0,
+        1070,
+        1402
+      ],
+      "sha256": "51a559d6a6a0aa05bf1503b0fd3392d8091c9302faebf428b9597fecee051f97",
+      "sheet": "review-18.jpg"
+    },
+    {
+      "id": "A206",
+      "path": "assets/portraits/minsu-study-cardigan.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4248,
+      "partial_alpha_fraction": 0.5749,
+      "alpha_bbox": [
+        0,
+        0,
+        1049,
+        1402
+      ],
+      "sha256": "14a231c9bccbd0e61db6c29e2bc57ea98b6ef2fd206614df39495fd31ef3e050",
+      "sheet": "review-18.jpg"
+    },
+    {
+      "id": "A207",
+      "path": "assets/portraits/minsu-study-hoodie.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4394,
+      "partial_alpha_fraction": 0.56,
+      "alpha_bbox": [
+        0,
+        0,
+        1100,
+        1402
+      ],
+      "sha256": "caeaebbf8267d45679ed2a6181f5a6bfff49150b70342cc7db0b43c5fd8dba51",
+      "sheet": "review-18.jpg"
+    },
+    {
+      "id": "A208",
+      "path": "assets/portraits/minsu-varsity.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3972,
+      "partial_alpha_fraction": 0.6025,
+      "alpha_bbox": [
+        35,
+        0,
+        1096,
+        1402
+      ],
+      "sha256": "24e88a3c37180cadd897f0eb4e4474d835917d5a31e70e378ee6732116843ea8",
+      "sheet": "review-18.jpg"
+    },
+    {
+      "id": "A209",
+      "path": "assets/portraits/nadia-flores-selection.png",
+      "size": [
+        1200,
+        1310
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3678,
+      "partial_alpha_fraction": 0.6321,
+      "alpha_bbox": [
+        0,
+        0,
+        1183,
+        1310
+      ],
+      "sha256": "65c448128f4110e08b584b8b473ac90574e95f9d255bf8aa96035fe02438a54d",
+      "sheet": "review-18.jpg"
+    },
+    {
+      "id": "A210",
+      "path": "assets/portraits/naomi-selection.png",
+      "size": [
+        1086,
+        1448
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5089,
+      "partial_alpha_fraction": 0.4907,
+      "alpha_bbox": [
+        76,
+        11,
+        1064,
+        1448
+      ],
+      "sha256": "37755b317964cf92127ff2f9eb83ebaf26e58890166db6cc46ec09c1a04782e4",
+      "sheet": "review-18.jpg"
+    },
+    {
+      "id": "A211",
+      "path": "assets/portraits/neo-scene.png",
+      "size": [
+        1086,
+        1448
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.526,
+      "partial_alpha_fraction": 0.4737,
+      "alpha_bbox": [
+        0,
+        0,
+        1072,
+        1448
+      ],
+      "sha256": "beec3650797928c3d3e65cb267331fbcaf2f0cd242467d8a1826a7fce879fc63",
+      "sheet": "review-18.jpg"
+    },
+    {
+      "id": "A212",
+      "path": "assets/portraits/neo-selection.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "alpha_min": 255,
+      "transparent_fraction": 0.0,
+      "partial_alpha_fraction": 0.0,
+      "alpha_bbox": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "sha256": "699fb3252f72c34a268788aa47e152b9d1378258fc8acb6e6110635723c7ba56",
+      "sheet": "review-18.jpg"
+    },
+    {
+      "id": "A213",
+      "path": "assets/portraits/nessa-quinn-selection.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5589,
+      "partial_alpha_fraction": 0.4403,
+      "alpha_bbox": [
+        41,
+        11,
+        1044,
+        1402
+      ],
+      "sha256": "3ff8ae48d631bd45da301fb61039f0a9cbd234f73c66206ecc8e23b7896d35e0",
+      "sheet": "review-18.jpg"
+    },
+    {
+      "id": "A214",
+      "path": "assets/portraits/noah-selection.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4432,
+      "partial_alpha_fraction": 0.5563,
+      "alpha_bbox": [
+        50,
+        0,
+        1028,
+        1402
+      ],
+      "sha256": "ff1517e0ef85629d0e7132ab6100c6287e45e87b8cc792bce964926f34efc6eb",
+      "sheet": "review-18.jpg"
+    },
+    {
+      "id": "A215",
+      "path": "assets/portraits/otis-bell-selection.png",
+      "size": [
+        1278,
+        1230
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.395,
+      "partial_alpha_fraction": 0.6048,
+      "alpha_bbox": [
+        0,
+        0,
+        1278,
+        1230
+      ],
+      "sha256": "c22617c8efa8a98a6c45ea502f53934e1dc269077743a4359ea5a4ef28f44fd5",
+      "sheet": "review-18.jpg"
+    },
+    {
+      "id": "A216",
+      "path": "assets/portraits/owen-pike-selection.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5215,
+      "partial_alpha_fraction": 0.4785,
+      "alpha_bbox": [
+        55,
+        21,
+        1004,
+        1536
+      ],
+      "sha256": "718cd26699d98d38444e2eeaf7b4b10789fc0e055e6735811af16c5a63a3331e",
+      "sheet": "review-18.jpg"
+    },
+    {
+      "id": "A217",
+      "path": "assets/portraits/priya-shah-selection.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4881,
+      "partial_alpha_fraction": 0.5114,
+      "alpha_bbox": [
+        0,
+        0,
+        1163,
+        1312
+      ],
+      "sha256": "c8fc796af65b43cca33695839d75e87e93bf355ee0c4e2c0d97c5fcf0b4c6ae9",
+      "sheet": "review-19.jpg"
+    },
+    {
+      "id": "A218",
+      "path": "assets/portraits/rafe-calder-selection.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3923,
+      "partial_alpha_fraction": 0.6077,
+      "alpha_bbox": [
+        94,
+        0,
+        956,
+        1536
+      ],
+      "sha256": "490844e7e84ea960066c686f9e8dd3ec21c1313ab373a2e1090e602741af93a6",
+      "sheet": "review-19.jpg"
+    },
+    {
+      "id": "A219",
+      "path": "assets/portraits/ravi-menon-selection.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3953,
+      "partial_alpha_fraction": 0.6044,
+      "alpha_bbox": [
+        18,
+        0,
+        1199,
+        1312
+      ],
+      "sha256": "9700fdc62567f6eb45db08103dc865f552df701c4a90ea79bbb3e65d5ce7be57",
+      "sheet": "review-19.jpg"
+    },
+    {
+      "id": "A220",
+      "path": "assets/portraits/rei-beach.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5819,
+      "partial_alpha_fraction": 0.4176,
+      "alpha_bbox": [
+        33,
+        5,
+        1091,
+        1374
+      ],
+      "sha256": "69d2e3860cfd0891699159ce5f9177879a565232074f1c6ba585f1d232a69b5d",
+      "sheet": "review-19.jpg"
+    },
+    {
+      "id": "A221",
+      "path": "assets/portraits/rei-black-sweater.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4306,
+      "partial_alpha_fraction": 0.5691,
+      "alpha_bbox": [
+        0,
+        12,
+        1115,
+        1374
+      ],
+      "sha256": "b2c1fc07b3ce8fbafa73da31dc0144743465580046d2cb9f97d3b0c9b7a1e7f2",
+      "sheet": "review-19.jpg"
+    },
+    {
+      "id": "A222",
+      "path": "assets/portraits/rei-burgundy-shirt.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4356,
+      "partial_alpha_fraction": 0.564,
+      "alpha_bbox": [
+        82,
+        12,
+        1080,
+        1374
+      ],
+      "sha256": "b6a999e52b01651bda4b07c669589dc8a16f95e76cdf37df2bd37f0ec5a462da",
+      "sheet": "review-19.jpg"
+    },
+    {
+      "id": "A223",
+      "path": "assets/portraits/rei-camel-overcoat.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4187,
+      "partial_alpha_fraction": 0.5809,
+      "alpha_bbox": [
+        57,
+        11,
+        1107,
+        1374
+      ],
+      "sha256": "33c7d5c974ed9e9b6218ad69a28d1d947a7024a9f645bb137d5d656d41e1624e",
+      "sheet": "review-19.jpg"
+    },
+    {
+      "id": "A224",
+      "path": "assets/portraits/rei-charcoal-hoodie.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4338,
+      "partial_alpha_fraction": 0.5656,
+      "alpha_bbox": [
+        57,
+        0,
+        1091,
+        1374
+      ],
+      "sha256": "310e8c8f8afe1353c372c8ccaabaa21af456edcad5b2b500cb6da63439f844cb",
+      "sheet": "review-19.jpg"
+    },
+    {
+      "id": "A225",
+      "path": "assets/portraits/rei-cream-cardigan.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4259,
+      "partial_alpha_fraction": 0.5738,
+      "alpha_bbox": [
+        0,
+        13,
+        1117,
+        1374
+      ],
+      "sha256": "48fc716eee5e9561e3fb5d65aa4610da71189520c352ab24cbfe4d649ecdaf13",
+      "sheet": "review-19.jpg"
+    },
+    {
+      "id": "A226",
+      "path": "assets/portraits/rei-denim-jacket.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4285,
+      "partial_alpha_fraction": 0.5712,
+      "alpha_bbox": [
+        104,
+        12,
+        1066,
+        1374
+      ],
+      "sha256": "600da4e9d6ee2cebb3bee03b6acecd97d15466cd7a7e8e0bfea489241011334f",
+      "sheet": "review-19.jpg"
+    },
+    {
+      "id": "A227",
+      "path": "assets/portraits/rei-gym.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5146,
+      "partial_alpha_fraction": 0.485,
+      "alpha_bbox": [
+        0,
+        0,
+        1121,
+        1374
+      ],
+      "sha256": "c53c0a0c0c8511cc801bc16be2690426f621be2088ea5f1b151078ca09d01581",
+      "sheet": "review-19.jpg"
+    },
+    {
+      "id": "A228",
+      "path": "assets/portraits/rei-haori-hakama.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4315,
+      "partial_alpha_fraction": 0.5681,
+      "alpha_bbox": [
+        0,
+        0,
+        1105,
+        1374
+      ],
+      "sha256": "cf6ef484ecf1bbf597cd31b962c948a17da6eb268532862cd131f1f55ab58480",
+      "sheet": "review-19.jpg"
+    },
+    {
+      "id": "A229",
+      "path": "assets/portraits/rei-high-school.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4682,
+      "partial_alpha_fraction": 0.5316,
+      "alpha_bbox": [
+        49,
+        0,
+        1052,
+        1374
+      ],
+      "sha256": "a77630e06370c4d88b28beefacdd24407cbc4228a5a7b05c4664072d28889050",
+      "sheet": "review-20.jpg"
+    },
+    {
+      "id": "A230",
+      "path": "assets/portraits/rei-home.png",
+      "size": [
+        1280,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5165,
+      "partial_alpha_fraction": 0.0037,
+      "alpha_bbox": [
+        206,
+        14,
+        1267,
+        1536
+      ],
+      "sha256": "94488ab61d26c425a4e9af4bf604256f309a4c5bb9a67c05dde300128d5ec3c9",
+      "sheet": "review-20.jpg"
+    },
+    {
+      "id": "A231",
+      "path": "assets/portraits/rei-moto.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4202,
+      "partial_alpha_fraction": 0.5795,
+      "alpha_bbox": [
+        0,
+        0,
+        1113,
+        1374
+      ],
+      "sha256": "0be061a42d4f3958bd9c2b46c9ff8820f52fe206e891c39cbc867ba1a4274b77",
+      "sheet": "review-20.jpg"
+    },
+    {
+      "id": "A232",
+      "path": "assets/portraits/rei-navy-yukata.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4287,
+      "partial_alpha_fraction": 0.571,
+      "alpha_bbox": [
+        41,
+        0,
+        1097,
+        1374
+      ],
+      "sha256": "a90a491654fff2ba91b3cd1a433d6849f93c1d3658b28ba9d3eceebc2c90e019",
+      "sheet": "review-20.jpg"
+    },
+    {
+      "id": "A233",
+      "path": "assets/portraits/rei-olive-bomber.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4491,
+      "partial_alpha_fraction": 0.5506,
+      "alpha_bbox": [
+        0,
+        10,
+        1117,
+        1374
+      ],
+      "sha256": "283fdf53ee6720690b59290242a2f813024a21a293638558230cb7fb000bbb47",
+      "sheet": "review-20.jpg"
+    },
+    {
+      "id": "A234",
+      "path": "assets/portraits/rei-selection.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4281,
+      "partial_alpha_fraction": 0.5716,
+      "alpha_bbox": [
+        39,
+        12,
+        1091,
+        1374
+      ],
+      "sha256": "fc0108ced94c3908f1a9ad25564c7fc8c93d8011e44a20fd54cc4e0f1f9c29a9",
+      "sheet": "review-20.jpg"
+    },
+    {
+      "id": "A235",
+      "path": "assets/portraits/rei-sleep.png",
+      "size": [
+        1280,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5206,
+      "partial_alpha_fraction": 0.0037,
+      "alpha_bbox": [
+        209,
+        11,
+        1267,
+        1536
+      ],
+      "sha256": "f7464c3431bc1400de1b43e5154c887e5dbc7b4485564ff6ed4f5311bf7a432a",
+      "sheet": "review-20.jpg"
+    },
+    {
+      "id": "A236",
+      "path": "assets/portraits/rei-streetwear-sukajan.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4836,
+      "partial_alpha_fraction": 0.5162,
+      "alpha_bbox": [
+        132,
+        4,
+        1127,
+        1374
+      ],
+      "sha256": "ec454096b15d4ea4a7bc9c4eedf4d3a071e3ec32ee43f44139d5ca139ad25b88",
+      "sheet": "review-20.jpg"
+    },
+    {
+      "id": "A237",
+      "path": "assets/portraits/rei-streetwear-techwear.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5275,
+      "partial_alpha_fraction": 0.4722,
+      "alpha_bbox": [
+        73,
+        0,
+        1077,
+        1374
+      ],
+      "sha256": "59090c576622d05c891a087f5f5c2094c1ae6c0554286cf3d1f39e61b45f49b1",
+      "sheet": "review-20.jpg"
+    },
+    {
+      "id": "A238",
+      "path": "assets/portraits/rei-tailored-waistcoat.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4505,
+      "partial_alpha_fraction": 0.5491,
+      "alpha_bbox": [
+        73,
+        9,
+        1064,
+        1374
+      ],
+      "sha256": "44a73ff467630e154061399efbb52dc6248526dec061e1b2a2ea390665d9b0f6",
+      "sheet": "review-20.jpg"
+    },
+    {
+      "id": "A239",
+      "path": "assets/portraits/ren-aoki-selection.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4972,
+      "partial_alpha_fraction": 0.5028,
+      "alpha_bbox": [
+        0,
+        24,
+        1008,
+        1536
+      ],
+      "sha256": "9f45474ec44a11eb2f21ff03fc9528949e88db3dadfdac9f95b4bd87150d2c5c",
+      "sheet": "review-20.jpg"
+    },
+    {
+      "id": "A240",
+      "path": "assets/portraits/rina-vale-selection.png",
+      "size": [
+        1086,
+        1448
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3524,
+      "partial_alpha_fraction": 0.6472,
+      "alpha_bbox": [
+        0,
+        3,
+        1086,
+        1448
+      ],
+      "sha256": "d574447c6e0fa0425d662752d1edb536411b418dcde07cdc58d8067783c7828e",
+      "sheet": "review-20.jpg"
+    },
+    {
+      "id": "A241",
+      "path": "assets/portraits/robin-vale-selection.png",
+      "size": [
+        1117,
+        1408
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5394,
+      "partial_alpha_fraction": 0.4603,
+      "alpha_bbox": [
+        0,
+        0,
+        1062,
+        1408
+      ],
+      "sha256": "b6a08903733ddba7978caa42777445fcf94bd2e304fc20367f95561fb2974692",
+      "sheet": "review-21.jpg"
+    },
+    {
+      "id": "A242",
+      "path": "assets/portraits/rosa-selection.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5304,
+      "partial_alpha_fraction": 0.4692,
+      "alpha_bbox": [
+        41,
+        0,
+        1117,
+        1374
+      ],
+      "sha256": "10cc7d628a5a5dc192243739fb042064424dde929bf59b5844a44d6f256894b9",
+      "sheet": "review-21.jpg"
+    },
+    {
+      "id": "A243",
+      "path": "assets/portraits/samantha-beach-black-bikini.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5469,
+      "partial_alpha_fraction": 0.4524,
+      "alpha_bbox": [
+        61,
+        0,
+        1125,
+        1374
+      ],
+      "sha256": "a2e956fb53695e1586e7fd4ba76ba06a31bc426bcbafa055618ddd13b93ad063",
+      "sheet": "review-21.jpg"
+    },
+    {
+      "id": "A244",
+      "path": "assets/portraits/samantha-beach-red-bikini.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5439,
+      "partial_alpha_fraction": 0.4555,
+      "alpha_bbox": [
+        0,
+        0,
+        1119,
+        1374
+      ],
+      "sha256": "059e4453414589d70227b460911d1e6a53460b7953f5b4b1d0d282790261e9af",
+      "sheet": "review-21.jpg"
+    },
+    {
+      "id": "A245",
+      "path": "assets/portraits/samantha-beach-teal-bikini.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5439,
+      "partial_alpha_fraction": 0.4557,
+      "alpha_bbox": [
+        0,
+        0,
+        1131,
+        1374
+      ],
+      "sha256": "d2d01047ccfc935502ded79db4a80b1b647e0fbd35ea1430e86dd478e5cb32e4",
+      "sheet": "review-21.jpg"
+    },
+    {
+      "id": "A246",
+      "path": "assets/portraits/samantha-black-mockneck.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5458,
+      "partial_alpha_fraction": 0.4537,
+      "alpha_bbox": [
+        33,
+        0,
+        1127,
+        1374
+      ],
+      "sha256": "950c2f9c4a882d2aa00f163807085f14ddba0bf7b8cefdc590abbc08512007f9",
+      "sheet": "review-21.jpg"
+    },
+    {
+      "id": "A247",
+      "path": "assets/portraits/samantha-charcoal-hoodie.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5057,
+      "partial_alpha_fraction": 0.4941,
+      "alpha_bbox": [
+        0,
+        0,
+        1048,
+        1374
+      ],
+      "sha256": "ca15bae1ec907ea3b95beb33b1dbacb4a12a7c775779cbbea7b2f91e5b6e545d",
+      "sheet": "review-21.jpg"
+    },
+    {
+      "id": "A248",
+      "path": "assets/portraits/samantha-denim-cargo.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5277,
+      "partial_alpha_fraction": 0.4719,
+      "alpha_bbox": [
+        0,
+        0,
+        1116,
+        1374
+      ],
+      "sha256": "28dad6bf617ce0e19e93c3b6cb83c0710e0d4e168aef7198d8698878c9eef1db",
+      "sheet": "review-21.jpg"
+    },
+    {
+      "id": "A249",
+      "path": "assets/portraits/samantha-formal-black-suit.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5286,
+      "partial_alpha_fraction": 0.471,
+      "alpha_bbox": [
+        0,
+        0,
+        1103,
+        1374
+      ],
+      "sha256": "62ca63c0cb3ed5bb470620bbcecc5b040f32cb9faeb2f59f8a457739a57d22b5",
+      "sheet": "review-21.jpg"
+    },
+    {
+      "id": "A250",
+      "path": "assets/portraits/samantha-formal-burgundy-dress.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5409,
+      "partial_alpha_fraction": 0.4586,
+      "alpha_bbox": [
+        0,
+        0,
+        1129,
+        1374
+      ],
+      "sha256": "3ed17fed5420122b230ad42adc6115a4cec4a1adb9d5d3756b168936ada5c4fb",
+      "sheet": "review-21.jpg"
+    },
+    {
+      "id": "A251",
+      "path": "assets/portraits/samantha-gym-charcoal.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5469,
+      "partial_alpha_fraction": 0.4526,
+      "alpha_bbox": [
+        53,
+        0,
+        1115,
+        1374
+      ],
+      "sha256": "bb9dc85699a261eaba08b297d797acfb8453717c50cd95e5f23c169d11e3762c",
+      "sheet": "review-21.jpg"
+    },
+    {
+      "id": "A252",
+      "path": "assets/portraits/samantha-gym-olive.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5454,
+      "partial_alpha_fraction": 0.4541,
+      "alpha_bbox": [
+        41,
+        0,
+        1142,
+        1374
+      ],
+      "sha256": "82ae3ec841de779d94cc464f9f099f370833f4b4629f7b15a498f10d2a25af8c",
+      "sheet": "review-21.jpg"
+    },
+    {
+      "id": "A253",
+      "path": "assets/portraits/samantha-olive-bomber.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5144,
+      "partial_alpha_fraction": 0.4851,
+      "alpha_bbox": [
+        0,
+        0,
+        1115,
+        1374
+      ],
+      "sha256": "943f915f24542f18182d0f9cc78b5343061fe6baac22bd20ae9f361675f437c3",
+      "sheet": "review-22.jpg"
+    },
+    {
+      "id": "A254",
+      "path": "assets/portraits/samantha-red-flannel.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5111,
+      "partial_alpha_fraction": 0.4887,
+      "alpha_bbox": [
+        0,
+        0,
+        1075,
+        1374
+      ],
+      "sha256": "8ea36b486bb24a785953efd071a24afa32e68bb11c24879d257452eb87dbac3e",
+      "sheet": "review-22.jpg"
+    },
+    {
+      "id": "A255",
+      "path": "assets/portraits/samantha-red-moto.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5174,
+      "partial_alpha_fraction": 0.4824,
+      "alpha_bbox": [
+        0,
+        0,
+        1095,
+        1374
+      ],
+      "sha256": "a7e904fa8aab1e7e71c88ced37e30e0b01472582bf03029a8cd7c56a02cd7a2d",
+      "sheet": "review-22.jpg"
+    },
+    {
+      "id": "A256",
+      "path": "assets/portraits/samantha-selection.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5274,
+      "partial_alpha_fraction": 0.4723,
+      "alpha_bbox": [
+        0,
+        0,
+        1117,
+        1374
+      ],
+      "sha256": "a7fa9bb71cd8334f581e07c43a1da42ee9055d044d3df7898f0af1e3b3ef667d",
+      "sheet": "review-22.jpg"
+    },
+    {
+      "id": "A257",
+      "path": "assets/portraits/samantha-sleep.png",
+      "size": [
+        1280,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.56,
+      "partial_alpha_fraction": 0.0048,
+      "alpha_bbox": [
+        163,
+        6,
+        1267,
+        1536
+      ],
+      "sha256": "eebbb762ebc742cb543620d07c9805efa84ee3021a5de785d35355ca9b836df0",
+      "sheet": "review-22.jpg"
+    },
+    {
+      "id": "A258",
+      "path": "assets/portraits/samir-dutta-selection.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4013,
+      "partial_alpha_fraction": 0.5984,
+      "alpha_bbox": [
+        0,
+        0,
+        1199,
+        1312
+      ],
+      "sha256": "023bff7a41741c1354ee7be0d18bccec83f7bd632a1046e829aeb83d6aebca49",
+      "sheet": "review-22.jpg"
+    },
+    {
+      "id": "A259",
+      "path": "assets/portraits/sasha-quinn-selection.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3584,
+      "partial_alpha_fraction": 0.6413,
+      "alpha_bbox": [
+        0,
+        0,
+        1145,
+        1374
+      ],
+      "sha256": "ac77fd41c988533c0c066cc8f529ed7acc129b8cc22c4f237342f94cfa7509e4",
+      "sheet": "review-22.jpg"
+    },
+    {
+      "id": "A260",
+      "path": "assets/portraits/sophie-autumn-knit.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5254,
+      "partial_alpha_fraction": 0.4743,
+      "alpha_bbox": [
+        158,
+        0,
+        1105,
+        1374
+      ],
+      "sha256": "31891d6623d689ad05062dc5733c1388f6ca129bb90efe45cd8b22edd1c14acf",
+      "sheet": "review-22.jpg"
+    },
+    {
+      "id": "A261",
+      "path": "assets/portraits/sophie-beach-cobalt.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5394,
+      "partial_alpha_fraction": 0.4603,
+      "alpha_bbox": [
+        49,
+        0,
+        1107,
+        1374
+      ],
+      "sha256": "4badab175b0fb585c7fa2a91be736b420488a4869ba8708b2be467a52ed4b7e0",
+      "sheet": "review-22.jpg"
+    },
+    {
+      "id": "A262",
+      "path": "assets/portraits/sophie-beach-coral.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5449,
+      "partial_alpha_fraction": 0.4546,
+      "alpha_bbox": [
+        57,
+        0,
+        1060,
+        1374
+      ],
+      "sha256": "bb2a6e5ab548f3daad679dcfa5106a3ed710eaf3416c10f00a75e3e4c01a4950",
+      "sheet": "review-22.jpg"
+    },
+    {
+      "id": "A263",
+      "path": "assets/portraits/sophie-beach-tropical.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5417,
+      "partial_alpha_fraction": 0.4577,
+      "alpha_bbox": [
+        162,
+        0,
+        1099,
+        1374
+      ],
+      "sha256": "bffa5151f0bb895e13c61620959a181a397a0b86ee640fb8ca6d270a1b339ec9",
+      "sheet": "review-22.jpg"
+    },
+    {
+      "id": "A264",
+      "path": "assets/portraits/sophie-casual-denim.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5135,
+      "partial_alpha_fraction": 0.486,
+      "alpha_bbox": [
+        61,
+        0,
+        1139,
+        1374
+      ],
+      "sha256": "086c5addbf3134af8f56a84af4c534bf38cf85bc8f36f1eab3d0f76ec2ed7be9",
+      "sheet": "review-22.jpg"
+    },
+    {
+      "id": "A265",
+      "path": "assets/portraits/sophie-casual-varsity.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.515,
+      "partial_alpha_fraction": 0.4847,
+      "alpha_bbox": [
+        122,
+        0,
+        1107,
+        1374
+      ],
+      "sha256": "4062ab2dca7cef0dc4fd2373338ada0cad4c8c76d5f18692bc2fae4364f02ffa",
+      "sheet": "review-23.jpg"
+    },
+    {
+      "id": "A266",
+      "path": "assets/portraits/sophie-formal-emerald.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5351,
+      "partial_alpha_fraction": 0.4644,
+      "alpha_bbox": [
+        0,
+        0,
+        1139,
+        1374
+      ],
+      "sha256": "2e17585bf1459903c339250481f375130156d81c7c8b835cc6bbf542ff62b76e",
+      "sheet": "review-23.jpg"
+    },
+    {
+      "id": "A267",
+      "path": "assets/portraits/sophie-formal-suit.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5278,
+      "partial_alpha_fraction": 0.4719,
+      "alpha_bbox": [
+        59,
+        0,
+        1125,
+        1374
+      ],
+      "sha256": "9a16997e7103a34e907925f3cc3cb2aaa179a22967f1c85cf82e59ae6a24b814",
+      "sheet": "review-23.jpg"
+    },
+    {
+      "id": "A268",
+      "path": "assets/portraits/sophie-gym-cardio.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5421,
+      "partial_alpha_fraction": 0.4576,
+      "alpha_bbox": [
+        0,
+        0,
+        1131,
+        1374
+      ],
+      "sha256": "1479d9d645bf8af1ec0164911ca4cb204ac1de137802607bb777506848eba905",
+      "sheet": "review-23.jpg"
+    },
+    {
+      "id": "A269",
+      "path": "assets/portraits/sophie-gym-strength.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5432,
+      "partial_alpha_fraction": 0.4564,
+      "alpha_bbox": [
+        57,
+        0,
+        1113,
+        1374
+      ],
+      "sha256": "e3f3f33b676d4742ceebfaa525dfd2234df9de2ae3a43875b1525e979559233f",
+      "sheet": "review-23.jpg"
+    },
+    {
+      "id": "A270",
+      "path": "assets/portraits/sophie-high-school.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5067,
+      "partial_alpha_fraction": 0.4931,
+      "alpha_bbox": [
+        0,
+        0,
+        1121,
+        1374
+      ],
+      "sha256": "036f72b4cf8f8d9635380d659c1d194308913e741180459e3ec1d66f10607cb7",
+      "sheet": "review-23.jpg"
+    },
+    {
+      "id": "A271",
+      "path": "assets/portraits/sophie-picnic-dress.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5327,
+      "partial_alpha_fraction": 0.4669,
+      "alpha_bbox": [
+        49,
+        0,
+        1135,
+        1374
+      ],
+      "sha256": "95232ef5069a2e04d3c122a782759a469a840a257c6e693defd8da22db5111ca",
+      "sheet": "review-23.jpg"
+    },
+    {
+      "id": "A272",
+      "path": "assets/portraits/sophie-selection.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5156,
+      "partial_alpha_fraction": 0.4841,
+      "alpha_bbox": [
+        15,
+        0,
+        1064,
+        1374
+      ],
+      "sha256": "abc22daf95898d9fbdc5f748c1a8b92fbd1a104d3180d3b5c26fa5d797aa04f8",
+      "sheet": "review-23.jpg"
+    },
+    {
+      "id": "A273",
+      "path": "assets/portraits/sophie-sleep.png",
+      "size": [
+        1280,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5673,
+      "partial_alpha_fraction": 0.0066,
+      "alpha_bbox": [
+        211,
+        0,
+        1267,
+        1536
+      ],
+      "sha256": "d3ca88be6c838a716c927f38c4ba67a08367fa9b1ed72a3c4d2a4c5bfd515edd",
+      "sheet": "review-23.jpg"
+    },
+    {
+      "id": "A274",
+      "path": "assets/portraits/sophie-summer-linen.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5265,
+      "partial_alpha_fraction": 0.4732,
+      "alpha_bbox": [
+        0,
+        0,
+        1129,
+        1374
+      ],
+      "sha256": "7509addfb0efd6fd5bc2343903504ad6e176fe118a984e15a5a8e698f2141528",
+      "sheet": "review-23.jpg"
+    },
+    {
+      "id": "A275",
+      "path": "assets/portraits/sophie-winter-puffer.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5057,
+      "partial_alpha_fraction": 0.494,
+      "alpha_bbox": [
+        53,
+        0,
+        1123,
+        1374
+      ],
+      "sha256": "057189311db33242b4a8eda86d9355bc49e1c8e052f552ef58d9cfcc495fc9a5",
+      "sheet": "review-23.jpg"
+    },
+    {
+      "id": "A276",
+      "path": "assets/portraits/sylvanis-selection.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3981,
+      "partial_alpha_fraction": 0.6011,
+      "alpha_bbox": [
+        0,
+        0,
+        1061,
+        1402
+      ],
+      "sha256": "bc41b9a1461a326dc54aef112fc0af3c259a8933f8032748fd95944668e5f501",
+      "sheet": "review-23.jpg"
+    },
+    {
+      "id": "A277",
+      "path": "assets/portraits/sylvanis-syndicate.png",
+      "size": [
+        1216,
+        1293
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4261,
+      "partial_alpha_fraction": 0.5738,
+      "alpha_bbox": [
+        0,
+        0,
+        1180,
+        1293
+      ],
+      "sha256": "8c111ff44799a7494b91c60becf25094ff7185115d5629e44960763eb01fe32b",
+      "sheet": "review-24.jpg"
+    },
+    {
+      "id": "A278",
+      "path": "assets/portraits/takeo-selection.png",
+      "size": [
+        1086,
+        1448
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3167,
+      "partial_alpha_fraction": 0.6827,
+      "alpha_bbox": [
+        0,
+        0,
+        1086,
+        1448
+      ],
+      "sha256": "8b831fd88ea0b0cfade255bbe08aa50aedd9f9d7bfb86d07e9ae48a4fede9bff",
+      "sheet": "review-24.jpg"
+    },
+    {
+      "id": "A279",
+      "path": "assets/portraits/tess-morgan-selection.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.483,
+      "partial_alpha_fraction": 0.5166,
+      "alpha_bbox": [
+        66,
+        0,
+        1179,
+        1312
+      ],
+      "sha256": "4cf486508ffc78af332be36d837e73a8255326090e869a7ce58855f5a51092f9",
+      "sheet": "review-24.jpg"
+    },
+    {
+      "id": "A280",
+      "path": "assets/portraits/theo-selection.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4875,
+      "partial_alpha_fraction": 0.5121,
+      "alpha_bbox": [
+        33,
+        0,
+        1104,
+        1402
+      ],
+      "sha256": "abad3b2d80279e1ea25f73532378f00655307f57029ab6645fc431f362e74185",
+      "sheet": "review-24.jpg"
+    },
+    {
+      "id": "A281",
+      "path": "assets/portraits/thirteen-selection.png",
+      "size": [
+        1129,
+        1393
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3545,
+      "partial_alpha_fraction": 0.6447,
+      "alpha_bbox": [
+        0,
+        0,
+        1117,
+        1393
+      ],
+      "sha256": "fd364b4e013019484e350068ad93c9298f1437ffbf47035b0b8fccaeb03323e1",
+      "sheet": "review-24.jpg"
+    },
+    {
+      "id": "A282",
+      "path": "assets/portraits/town-residents-preview.png",
+      "size": [
+        774,
+        684
+      ],
+      "source_mode": "RGB",
+      "alpha_min": 255,
+      "transparent_fraction": 0.0,
+      "partial_alpha_fraction": 0.0,
+      "alpha_bbox": [
+        0,
+        0,
+        774,
+        684
+      ],
+      "sha256": "eb50d702c4b4cce635fdcf2606f20b9a53a101c7cf7bbd3691141d055faf0777",
+      "sheet": "review-24.jpg"
+    },
+    {
+      "id": "A283",
+      "path": "assets/portraits/tyler-selection.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4826,
+      "partial_alpha_fraction": 0.517,
+      "alpha_bbox": [
+        0,
+        0,
+        1019,
+        1374
+      ],
+      "sha256": "68ca3ccd03e2695ff52c351a491c52901e0f72d4dc09909cbe73c963a8ce2e46",
+      "sheet": "review-24.jpg"
+    },
+    {
+      "id": "A284",
+      "path": "assets/portraits/valentina-selection.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5691,
+      "partial_alpha_fraction": 0.4306,
+      "alpha_bbox": [
+        0,
+        10,
+        1123,
+        1374
+      ],
+      "sha256": "d4fabfce721b0cd2e84e08ddcc4ffe22a815080428d3b5d2f4b6f64dde566186",
+      "sheet": "review-24.jpg"
+    },
+    {
+      "id": "A285",
+      "path": "assets/portraits/wren-park-selection.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5036,
+      "partial_alpha_fraction": 0.4961,
+      "alpha_bbox": [
+        25,
+        10,
+        1195,
+        1312
+      ],
+      "sha256": "db25d3d33d04fcf9bd04c663d6ae2e22df3cabb395a0f604125c848ec2772aca",
+      "sheet": "review-24.jpg"
+    },
+    {
+      "id": "A286",
+      "path": "assets/portraits/yuriko-bikini-floral.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4697,
+      "partial_alpha_fraction": 0.5303,
+      "alpha_bbox": [
+        0,
+        0,
+        1002,
+        1536
+      ],
+      "sha256": "0e3000ef71a83739d9d6384b255a7a22b95b485fe2246db4d166bc090d4805b3",
+      "sheet": "review-24.jpg"
+    },
+    {
+      "id": "A287",
+      "path": "assets/portraits/yuriko-bikini-navy.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.478,
+      "partial_alpha_fraction": 0.522,
+      "alpha_bbox": [
+        0,
+        0,
+        986,
+        1536
+      ],
+      "sha256": "52a69ea98496d1de0c7e01950e4e737f855fca68ee4bf1d3fa1243fed2baec41",
+      "sheet": "review-24.jpg"
+    },
+    {
+      "id": "A288",
+      "path": "assets/portraits/yuriko-bikini-teal.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4861,
+      "partial_alpha_fraction": 0.5139,
+      "alpha_bbox": [
+        0,
+        12,
+        994,
+        1536
+      ],
+      "sha256": "1bad4feac7de1ad80245d2a0999ea67938e8921eba2951184f3980ced8ebcdcf",
+      "sheet": "review-24.jpg"
+    },
+    {
+      "id": "A289",
+      "path": "assets/portraits/yuriko-campus-cardigan.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4612,
+      "partial_alpha_fraction": 0.5388,
+      "alpha_bbox": [
+        0,
+        0,
+        1008,
+        1536
+      ],
+      "sha256": "46252716e1e1128e1bdb17d7fdfe62493d0e128b5ae231031a578ce7ca3710c0",
+      "sheet": "review-25.jpg"
+    },
+    {
+      "id": "A290",
+      "path": "assets/portraits/yuriko-evening-dress.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4793,
+      "partial_alpha_fraction": 0.5207,
+      "alpha_bbox": [
+        0,
+        0,
+        998,
+        1536
+      ],
+      "sha256": "3b0ab1e7c068cf1eee918ef5541735844ef764ca5dcac04d956957df8cdcd2a1",
+      "sheet": "review-25.jpg"
+    },
+    {
+      "id": "A291",
+      "path": "assets/portraits/yuriko-festival-yukata.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4393,
+      "partial_alpha_fraction": 0.5607,
+      "alpha_bbox": [
+        19,
+        0,
+        1004,
+        1536
+      ],
+      "sha256": "5da36d63d5ba22e98435fe96fe9abb2a9b49900f93c7351f8e680cb57637dffd",
+      "sheet": "review-25.jpg"
+    },
+    {
+      "id": "A292",
+      "path": "assets/portraits/yuriko-gym-lavender.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4419,
+      "partial_alpha_fraction": 0.5581,
+      "alpha_bbox": [
+        129,
+        0,
+        908,
+        1536
+      ],
+      "sha256": "8b42e5950536c93577feca4083711de12e122b79757f5d1dd6671fdb39ea33ef",
+      "sheet": "review-25.jpg"
+    },
+    {
+      "id": "A293",
+      "path": "assets/portraits/yuriko-gym-sage.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.48,
+      "partial_alpha_fraction": 0.52,
+      "alpha_bbox": [
+        0,
+        0,
+        984,
+        1536
+      ],
+      "sha256": "ecf3c6f358a4d939b783df1b6adf4d20e01dd369ccf3cf8e56e66a0dc1cc260d",
+      "sheet": "review-25.jpg"
+    },
+    {
+      "id": "A294",
+      "path": "assets/portraits/yuriko-home.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4217,
+      "partial_alpha_fraction": 0.5783,
+      "alpha_bbox": [
+        0,
+        0,
+        1008,
+        1536
+      ],
+      "sha256": "998ee2459f4b88eadee2e8c180d4f4f8ded879a8ed7f80c2f93cc09ec9098e12",
+      "sheet": "review-25.jpg"
+    },
+    {
+      "id": "A295",
+      "path": "assets/portraits/yuriko-selection.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3722,
+      "partial_alpha_fraction": 0.6278,
+      "alpha_bbox": [
+        0,
+        0,
+        941,
+        1536
+      ],
+      "sha256": "3316a1fc5230b8c4eeed83df9b04c561062d3e6d850a0a21fa22027e5842f0e9",
+      "sheet": "review-25.jpg"
+    },
+    {
+      "id": "A296",
+      "path": "assets/portraits/yuriko-street-denim.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4656,
+      "partial_alpha_fraction": 0.5344,
+      "alpha_bbox": [
+        0,
+        0,
+        1010,
+        1536
+      ],
+      "sha256": "869f5d299430b0afbbc7435fe86150b3d71eebe16336acbae01f6515a769a5c8",
+      "sheet": "review-25.jpg"
+    },
+    {
+      "id": "A297",
+      "path": "assets/portraits/yuriko-study-knit.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4445,
+      "partial_alpha_fraction": 0.5555,
+      "alpha_bbox": [
+        77,
+        0,
+        962,
+        1536
+      ],
+      "sha256": "7d38d98ff64bd610cb1e99def6629f9b64249f98c97fda3af1094a8210ca8152",
+      "sheet": "review-25.jpg"
+    },
+    {
+      "id": "A298",
+      "path": "assets/portraits/yuriko-summer-dress.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4834,
+      "partial_alpha_fraction": 0.5166,
+      "alpha_bbox": [
+        19,
+        1,
+        1010,
+        1536
+      ],
+      "sha256": "56c4036b15f856a381a123799c126288edee467018ad86c27723a258c5f59f02",
+      "sheet": "review-25.jpg"
+    },
+    {
+      "id": "A299",
+      "path": "assets/portraits/yuriko-theatre-overalls.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4628,
+      "partial_alpha_fraction": 0.5372,
+      "alpha_bbox": [
+        0,
+        0,
+        1023,
+        1536
+      ],
+      "sha256": "069257f7f8c02695fbf691b015689f3a18eb3ca9564e023761595701149bf2be",
+      "sheet": "review-25.jpg"
+    },
+    {
+      "id": "A300",
+      "path": "assets/portraits/yuriko-winter-coat.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4295,
+      "partial_alpha_fraction": 0.5705,
+      "alpha_bbox": [
+        0,
+        1,
+        1018,
+        1536
+      ],
+      "sha256": "d4b285122c50591d0e572b56267048e9e4b8e53c277d88aa71f94b3b10af5eba",
+      "sheet": "review-25.jpg"
+    },
+    {
+      "id": "A301",
+      "path": "assets/profiles/charles-v2.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3815,
+      "partial_alpha_fraction": 0.6185,
+      "alpha_bbox": [
+        0,
+        0,
+        1000,
+        1536
+      ],
+      "sha256": "21843ff458551b80b96c156f1386841af1cbfa0688dfa8eda09dd339e4e2c60e",
+      "sheet": "review-26.jpg"
+    },
+    {
+      "id": "A302",
+      "path": "assets/profiles/crow.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.3747,
+      "partial_alpha_fraction": 0.6251,
+      "alpha_bbox": [
+        23,
+        0,
+        1169,
+        1312
+      ],
+      "sha256": "aa981738b249148853432e0abeba74fd480034885e6b1d00f4626245caedf12d",
+      "sheet": "review-26.jpg"
+    },
+    {
+      "id": "A303",
+      "path": "assets/grove/garrett/appearance-reference.png",
+      "size": [
+        1280,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4952,
+      "partial_alpha_fraction": 0.0034,
+      "alpha_bbox": [
+        191,
+        4,
+        1267,
+        1536
+      ],
+      "sha256": "eb7cb149a11197c44a6734816e53989724b07caea5826b6c33fcedf195d2fad9",
+      "sheet": "review-26.jpg"
+    },
+    {
+      "id": "A304",
+      "path": "assets/grove/garrett/arm-tattoo-reference.png",
+      "size": [
+        1280,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.4936,
+      "partial_alpha_fraction": 0.0042,
+      "alpha_bbox": [
+        190,
+        7,
+        1267,
+        1536
+      ],
+      "sha256": "9929445aca2156ca81fc7b5795f18092c3ed018f612a29db01fafa34f76ad905",
+      "sheet": "review-26.jpg"
+    },
+    {
+      "id": "A305",
+      "path": "assets/grove/rei/appearance-reference.png",
+      "size": [
+        1280,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5206,
+      "partial_alpha_fraction": 0.0037,
+      "alpha_bbox": [
+        209,
+        11,
+        1267,
+        1536
+      ],
+      "sha256": "f7464c3431bc1400de1b43e5154c887e5dbc7b4485564ff6ed4f5311bf7a432a",
+      "sheet": "review-26.jpg"
+    },
+    {
+      "id": "A306",
+      "path": "assets/grove/rei/tattoo-reference.png",
+      "size": [
+        1280,
+        1536
+      ],
+      "source_mode": "RGBA",
+      "alpha_min": 0,
+      "transparent_fraction": 0.5206,
+      "partial_alpha_fraction": 0.0037,
+      "alpha_bbox": [
+        209,
+        11,
+        1267,
+        1536
+      ],
+      "sha256": "f7464c3431bc1400de1b43e5154c887e5dbc7b4485564ff6ed4f5311bf7a432a",
+      "sheet": "review-26.jpg"
+    }
+  ]
+}

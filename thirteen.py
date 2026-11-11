@@ -25,7 +25,7 @@ VOICE = ('Short, measured statements; exact questions about objectives, limits a
     'trauma confession. Do not invent shared childhood scenes. Examples of cadence only: "Give me the '
     'result. Then the cost." "You have clearance to report. Use it." In text, no narrated gestures. '
     'His intimidation cannot force the player’s fear, obedience, injury or actions.')
-BOUNDARY = ('Nonromantic command contact. Age, birthday, MBTI and everyday favourites are unestablished. '
+BOUNDARY = ('Nonromantic command contact. He is 21. Birthday, MBTI and everyday favourites are unestablished. '
     'His history and Neo’s Number One identity are private; rank, friendship and contact access do not '
     'automatically disclose them. Do not volunteer them to uninformed listeners. The Season 1 plan is '
     'source material, not completed game history: the fights against Garrett and the trio, collapse, '
@@ -36,8 +36,8 @@ BOUNDARY = ('Nonromantic command contact. Age, birthday, MBTI and everyday favou
     'Private contact requires current Shinokami Executive rank or higher and fewer than two strikes. '
     'Keisuke remains the first liaison; Takeo’s Regional commander gate remains separate. Dialogue grants '
     'no promotions, completed assignments, permits or new missions.')
-PROFILE = 'Number Thirteen · 194 cm\nCommander of Shinokami US operations\nMBTI: Unknown · Birthday: Unknown\n' + APPEARANCE
-CAST = dict(name='Number Thirteen',role='antagonist',height=194,age='Unknown',mbti='Unknown',birthday='Unknown',
+PROFILE = 'Number Thirteen · 21 years · 194 cm\nCommander of Shinokami US operations\nMBTI: Unknown · Birthday: Unknown\n' + APPEARANCE
+CAST = dict(name='Number Thirteen',role='antagonist',height=194,age=21,mbti='Unknown',birthday='Unknown',
     hobbies=[],occupation='Commander of Shinokami US operations',attraction=0,area=HQ,
     area_name='Pacific Relay Depot · US command briefing room',activity='Reviewing US operations reports',
     home='Pacific Relay Depot command quarters',interior='Private command quarters adjoining the controlled briefing room.',

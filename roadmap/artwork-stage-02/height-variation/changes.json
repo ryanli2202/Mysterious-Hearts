@@ -1,0 +1,504 @@
+{
+  "date": "2026-11-11",
+  "roadmap_id": "MH-013",
+  "preserved_authored": 29,
+  "user_specified": {
+    "gordon": 183,
+    "fox": 184,
+    "crow": 180,
+    "keisuke-hachimura": 183,
+    "joseph-richter": 190,
+    "guard-oni": 198,
+    "guard-custom_robotic": 198
+  },
+  "varied_fallbacks": 71,
+  "changed_numeric_values": 67,
+  "distributions": {
+    "male": {
+      "175": 7,
+      "176": 7,
+      "177": 7,
+      "178": 6,
+      "179": 6,
+      "180": 6
+    },
+    "female": {
+      "160": 6,
+      "161": 6,
+      "162": 5,
+      "163": 5,
+      "164": 5,
+      "165": 5
+    }
+  },
+  "changes": [
+    {
+      "id": "ada-mensah",
+      "before": 163,
+      "after": 164,
+      "basis": "display fallback"
+    },
+    {
+      "id": "anton-bellamy",
+      "before": 178,
+      "after": 176,
+      "basis": "display fallback"
+    },
+    {
+      "id": "arthur-finch",
+      "before": 178,
+      "after": 178,
+      "basis": "display fallback"
+    },
+    {
+      "id": "beatrice-cole",
+      "before": 163,
+      "after": 160,
+      "basis": "display fallback"
+    },
+    {
+      "id": "ben-okafor",
+      "before": 178,
+      "after": 179,
+      "basis": "display fallback"
+    },
+    {
+      "id": "callum-webb",
+      "before": 178,
+      "after": 178,
+      "basis": "display fallback"
+    },
+    {
+      "id": "celia-brooks",
+      "before": 163,
+      "after": 163,
+      "basis": "display fallback"
+    },
+    {
+      "id": "crow",
+      "before": 178,
+      "after": 180,
+      "basis": "user specified"
+    },
+    {
+      "id": "daichi-kurose",
+      "before": 178,
+      "after": 177,
+      "basis": "display fallback"
+    },
+    {
+      "id": "dana-lin",
+      "before": 163,
+      "after": 165,
+      "basis": "display fallback"
+    },
+    {
+      "id": "dante-brooks",
+      "before": 178,
+      "after": 179,
+      "basis": "display fallback"
+    },
+    {
+      "id": "darius-cole",
+      "before": 178,
+      "after": 180,
+      "basis": "display fallback"
+    },
+    {
+      "id": "emi-suda",
+      "before": 163,
+      "after": 161,
+      "basis": "display fallback"
+    },
+    {
+      "id": "euan-marsh",
+      "before": 178,
+      "after": 176,
+      "basis": "display fallback"
+    },
+    {
+      "id": "evelyn-mercer",
+      "before": 163,
+      "after": 163,
+      "basis": "display fallback"
+    },
+    {
+      "id": "farah-haddad",
+      "before": 163,
+      "after": 165,
+      "basis": "display fallback"
+    },
+    {
+      "id": "felix-ward",
+      "before": 178,
+      "after": 178,
+      "basis": "display fallback"
+    },
+    {
+      "id": "fox",
+      "before": 178,
+      "after": 184,
+      "basis": "user specified"
+    },
+    {
+      "id": "gabe-turner",
+      "before": 178,
+      "after": 179,
+      "basis": "display fallback"
+    },
+    {
+      "id": "gordon",
+      "before": 178,
+      "after": 183,
+      "basis": "user specified"
+    },
+    {
+      "id": "greta-shaw",
+      "before": 163,
+      "after": 164,
+      "basis": "display fallback"
+    },
+    {
+      "id": "guard-affiliate",
+      "before": 178,
+      "after": 177,
+      "basis": "display fallback"
+    },
+    {
+      "id": "guard-clubs",
+      "before": 178,
+      "after": 179,
+      "basis": "display fallback"
+    },
+    {
+      "id": "guard-crew_enforcer",
+      "before": 178,
+      "after": 175,
+      "basis": "display fallback"
+    },
+    {
+      "id": "guard-custom_awakened",
+      "before": 178,
+      "after": 180,
+      "basis": "display fallback"
+    },
+    {
+      "id": "guard-custom_robotic",
+      "before": 178,
+      "after": 198,
+      "basis": "user specified"
+    },
+    {
+      "id": "guard-custom_unawakened",
+      "before": 163,
+      "after": 160,
+      "basis": "display fallback"
+    },
+    {
+      "id": "guard-headhunter",
+      "before": 178,
+      "after": 177,
+      "basis": "display fallback"
+    },
+    {
+      "id": "guard-interpol",
+      "before": 178,
+      "after": 175,
+      "basis": "display fallback"
+    },
+    {
+      "id": "guard-kai_guard",
+      "before": 163,
+      "after": 161,
+      "basis": "display fallback"
+    },
+    {
+      "id": "guard-kai_sentinel",
+      "before": 178,
+      "after": 176,
+      "basis": "display fallback"
+    },
+    {
+      "id": "guard-lookout",
+      "before": 178,
+      "after": 177,
+      "basis": "display fallback"
+    },
+    {
+      "id": "guard-oni",
+      "before": 178,
+      "after": 198,
+      "basis": "user specified"
+    },
+    {
+      "id": "guard-pmc",
+      "before": 178,
+      "after": 178,
+      "basis": "display fallback"
+    },
+    {
+      "id": "guard-seeker",
+      "before": 163,
+      "after": 163,
+      "basis": "display fallback"
+    },
+    {
+      "id": "guard-spades",
+      "before": 178,
+      "after": 175,
+      "basis": "display fallback"
+    },
+    {
+      "id": "guard-team9",
+      "before": 163,
+      "after": 160,
+      "basis": "display fallback"
+    },
+    {
+      "id": "guard-tengu",
+      "before": 178,
+      "after": 176,
+      "basis": "display fallback"
+    },
+    {
+      "id": "guard-yokai",
+      "before": 178,
+      "after": 177,
+      "basis": "display fallback"
+    },
+    {
+      "id": "hazel-reed",
+      "before": 163,
+      "after": 161,
+      "basis": "display fallback"
+    },
+    {
+      "id": "imani-price",
+      "before": 163,
+      "after": 165,
+      "basis": "display fallback"
+    },
+    {
+      "id": "iris",
+      "before": 163,
+      "after": 162,
+      "basis": "display fallback"
+    },
+    {
+      "id": "isabel-vega",
+      "before": 163,
+      "after": 160,
+      "basis": "display fallback"
+    },
+    {
+      "id": "jace-mercer",
+      "before": 178,
+      "after": 180,
+      "basis": "display fallback"
+    },
+    {
+      "id": "jonah-price",
+      "before": 178,
+      "after": 175,
+      "basis": "display fallback"
+    },
+    {
+      "id": "joseph-richter",
+      "before": 178,
+      "after": 190,
+      "basis": "user specified"
+    },
+    {
+      "id": "jules-navarro",
+      "before": 178,
+      "after": 175,
+      "basis": "display fallback"
+    },
+    {
+      "id": "june",
+      "before": 163,
+      "after": 164,
+      "basis": "display fallback"
+    },
+    {
+      "id": "keiko-tan",
+      "before": 163,
+      "after": 162,
+      "basis": "display fallback"
+    },
+    {
+      "id": "keira-shaw",
+      "before": 163,
+      "after": 160,
+      "basis": "display fallback"
+    },
+    {
+      "id": "keisuke-hachimura",
+      "before": 178,
+      "after": 183,
+      "basis": "user specified"
+    },
+    {
+      "id": "leo",
+      "before": 178,
+      "after": 179,
+      "basis": "display fallback"
+    },
+    {
+      "id": "lucia-serrano",
+      "before": 163,
+      "after": 162,
+      "basis": "display fallback"
+    },
+    {
+      "id": "luz-moreno",
+      "before": 163,
+      "after": 163,
+      "basis": "display fallback"
+    },
+    {
+      "id": "malik-reed",
+      "before": 178,
+      "after": 179,
+      "basis": "display fallback"
+    },
+    {
+      "id": "malik-torres",
+      "before": 178,
+      "after": 180,
+      "basis": "display fallback"
+    },
+    {
+      "id": "mara-voss",
+      "before": 163,
+      "after": 161,
+      "basis": "display fallback"
+    },
+    {
+      "id": "mario-romano",
+      "before": 178,
+      "after": 180,
+      "basis": "display fallback"
+    },
+    {
+      "id": "marta-silva",
+      "before": 163,
+      "after": 160,
+      "basis": "display fallback"
+    },
+    {
+      "id": "mateo-cruz",
+      "before": 178,
+      "after": 176,
+      "basis": "display fallback"
+    },
+    {
+      "id": "maya",
+      "before": 163,
+      "after": 164,
+      "basis": "display fallback"
+    },
+    {
+      "id": "mina-cho",
+      "before": 163,
+      "after": 165,
+      "basis": "display fallback"
+    },
+    {
+      "id": "nadia-flores",
+      "before": 163,
+      "after": 162,
+      "basis": "display fallback"
+    },
+    {
+      "id": "nessa-quinn",
+      "before": 163,
+      "after": 161,
+      "basis": "display fallback"
+    },
+    {
+      "id": "noah",
+      "before": 178,
+      "after": 177,
+      "basis": "display fallback"
+    },
+    {
+      "id": "otis-bell",
+      "before": 178,
+      "after": 176,
+      "basis": "display fallback"
+    },
+    {
+      "id": "owen-pike",
+      "before": 178,
+      "after": 178,
+      "basis": "display fallback"
+    },
+    {
+      "id": "priya-shah",
+      "before": 163,
+      "after": 162,
+      "basis": "display fallback"
+    },
+    {
+      "id": "rafe-calder",
+      "before": 178,
+      "after": 176,
+      "basis": "display fallback"
+    },
+    {
+      "id": "ravi-menon",
+      "before": 178,
+      "after": 178,
+      "basis": "display fallback"
+    },
+    {
+      "id": "ren-aoki",
+      "before": 178,
+      "after": 177,
+      "basis": "display fallback"
+    },
+    {
+      "id": "rina-vale",
+      "before": 163,
+      "after": 161,
+      "basis": "display fallback"
+    },
+    {
+      "id": "robin-vale",
+      "before": 178,
+      "after": 175,
+      "basis": "display fallback"
+    },
+    {
+      "id": "samir-dutta",
+      "before": 178,
+      "after": 175,
+      "basis": "display fallback"
+    },
+    {
+      "id": "sasha-quinn",
+      "before": 163,
+      "after": 165,
+      "basis": "display fallback"
+    },
+    {
+      "id": "tess-morgan",
+      "before": 163,
+      "after": 164,
+      "basis": "display fallback"
+    },
+    {
+      "id": "theo",
+      "before": 178,
+      "after": 180,
+      "basis": "display fallback"
+    },
+    {
+      "id": "wren-park",
+      "before": 163,
+      "after": 163,
+      "basis": "display fallback"
+    }
+  ]
+}

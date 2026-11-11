@@ -1,0 +1,541 @@
+{
+  "batch_id": "interiors-08",
+  "title": "Syndicate and Red Dragons operations",
+  "status": "planned",
+  "images": [
+    {
+      "id": "syndicate_office__public_lobby",
+      "room": "Public lobby",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/syndicate_office/public_lobby.png",
+      "building_id": "syndicate_office",
+      "building_name": "Waterfront executive offices",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "syndicate_office__guarded_access_passage",
+      "room": "Guarded access passage",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/syndicate_office/guarded_access_passage.png",
+      "building_id": "syndicate_office",
+      "building_name": "Waterfront executive offices",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "syndicate_office__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/syndicate_office/restroom.png",
+      "building_id": "syndicate_office",
+      "building_name": "Waterfront executive offices",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "syndicate_hq__security_foyer",
+      "room": "Security foyer",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/syndicate_hq/security_foyer.png",
+      "building_id": "syndicate_hq",
+      "building_name": "Syndicate underground HQ",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "syndicate_hq__internal_corridor",
+      "room": "Internal corridor",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/syndicate_hq/internal_corridor.png",
+      "building_id": "syndicate_hq",
+      "building_name": "Syndicate underground HQ",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "syndicate_hq__executive_meeting_room",
+      "room": "Executive meeting room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/syndicate_hq/executive_meeting_room.png",
+      "building_id": "syndicate_hq",
+      "building_name": "Syndicate underground HQ",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "syndicate_hq__cross_branch_operations_room",
+      "room": "Cross-branch operations room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/syndicate_hq/cross_branch_operations_room.png",
+      "building_id": "syndicate_hq",
+      "building_name": "Syndicate underground HQ",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "syndicate_hq__members_lounge",
+      "room": "Members lounge",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/syndicate_hq/members_lounge.png",
+      "building_id": "syndicate_hq",
+      "building_name": "Syndicate underground HQ",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "syndicate_hq__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/syndicate_hq/restroom.png",
+      "building_id": "syndicate_hq",
+      "building_name": "Syndicate underground HQ",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "syndicate__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/syndicate/entrance.png",
+      "building_id": "syndicate",
+      "building_name": "Red Dragons lounge",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "syndicate__council_meeting_room",
+      "room": "Council meeting room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/syndicate/council_meeting_room.png",
+      "building_id": "syndicate",
+      "building_name": "Red Dragons lounge",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "syndicate__community_liaison_room",
+      "room": "Community liaison room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/syndicate/community_liaison_room.png",
+      "building_id": "syndicate",
+      "building_name": "Red Dragons lounge",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "syndicate__office",
+      "room": "Office",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/syndicate/office.png",
+      "building_id": "syndicate",
+      "building_name": "Red Dragons lounge",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "syndicate__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/syndicate/restroom.png",
+      "building_id": "syndicate",
+      "building_name": "Red Dragons lounge",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_04__secure_corridor",
+      "room": "Secure corridor",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_04/secure_corridor.png",
+      "building_id": "site_04",
+      "building_name": "Breakwater Security Depot",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_04__equipment_room",
+      "room": "Equipment room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_04/equipment_room.png",
+      "building_id": "site_04",
+      "building_name": "Breakwater Security Depot",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_04__maintenance_bay",
+      "room": "Maintenance bay",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_04/maintenance_bay.png",
+      "building_id": "site_04",
+      "building_name": "Breakwater Security Depot",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_04__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_04/restroom.png",
+      "building_id": "site_04",
+      "building_name": "Breakwater Security Depot",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_05__secure_corridor",
+      "room": "Secure corridor",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_05/secure_corridor.png",
+      "building_id": "site_05",
+      "building_name": "Aster Media House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_05__production_room",
+      "room": "Production room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_05/production_room.png",
+      "building_id": "site_05",
+      "building_name": "Aster Media House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_05__editing_room",
+      "room": "Editing room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_05/editing_room.png",
+      "building_id": "site_05",
+      "building_name": "Aster Media House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_05__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_05/restroom.png",
+      "building_id": "site_05",
+      "building_name": "Aster Media House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_06__secure_corridor",
+      "room": "Secure corridor",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_06/secure_corridor.png",
+      "building_id": "site_06",
+      "building_name": "Meridian Capital Offices",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_06__accounts_office",
+      "room": "Accounts office",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_06/accounts_office.png",
+      "building_id": "site_06",
+      "building_name": "Meridian Capital Offices",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_06__restricted_records_room",
+      "room": "Restricted records room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_06/restricted_records_room.png",
+      "building_id": "site_06",
+      "building_name": "Meridian Capital Offices",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_06__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_06/restroom.png",
+      "building_id": "site_06",
+      "building_name": "Meridian Capital Offices",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_07__controlled_corridor",
+      "room": "Controlled corridor",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_07/controlled_corridor.png",
+      "building_id": "site_07",
+      "building_name": "Oculus Winterfield Campus",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_07__corporate_office",
+      "room": "Corporate office",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_07/corporate_office.png",
+      "building_id": "site_07",
+      "building_name": "Oculus Winterfield Campus",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_07__data_wing",
+      "room": "Data wing",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_07/data_wing.png",
+      "building_id": "site_07",
+      "building_name": "Oculus Winterfield Campus",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_07__security_room",
+      "room": "Security room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_07/security_room.png",
+      "building_id": "site_07",
+      "building_name": "Oculus Winterfield Campus",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_07__public_service_supervisor_room",
+      "room": "Public-service supervisor room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_07/public_service_supervisor_room.png",
+      "building_id": "site_07",
+      "building_name": "Oculus Winterfield Campus",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_07__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_07/restroom.png",
+      "building_id": "site_07",
+      "building_name": "Oculus Winterfield Campus",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_08__secure_corridor",
+      "room": "Secure corridor",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_08/secure_corridor.png",
+      "building_id": "site_08",
+      "building_name": "Greyglass Service House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_08__equipment_workshop",
+      "room": "Equipment workshop",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_08/equipment_workshop.png",
+      "building_id": "site_08",
+      "building_name": "Greyglass Service House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_08__restricted_store",
+      "room": "Restricted store",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_08/restricted_store.png",
+      "building_id": "site_08",
+      "building_name": "Greyglass Service House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_08__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_08/restroom.png",
+      "building_id": "site_08",
+      "building_name": "Greyglass Service House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "glasshouse_lab__cleared_entrance",
+      "room": "Cleared entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/glasshouse_lab/cleared_entrance.png",
+      "building_id": "glasshouse_lab",
+      "building_name": "Glasshouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "glasshouse_lab__internal_corridor",
+      "room": "Internal corridor",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/glasshouse_lab/internal_corridor.png",
+      "building_id": "glasshouse_lab",
+      "building_name": "Glasshouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "glasshouse_lab__private_review_reunion_room",
+      "room": "Private review reunion room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/glasshouse_lab/private_review_reunion_room.png",
+      "building_id": "glasshouse_lab",
+      "building_name": "Glasshouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "glasshouse_lab__records_room",
+      "room": "Records room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/glasshouse_lab/records_room.png",
+      "building_id": "glasshouse_lab",
+      "building_name": "Glasshouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "glasshouse_lab__rest_room",
+      "room": "Rest room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/glasshouse_lab/rest_room.png",
+      "building_id": "glasshouse_lab",
+      "building_name": "Glasshouse",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "glasshouse_lab__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/glasshouse_lab/restroom.png",
+      "building_id": "glasshouse_lab",
+      "building_name": "Glasshouse",
+      "generation_status": "not_started"
+    }
+  ],
+  "existing_references": [
+    {
+      "building_id": "syndicate_office",
+      "room": "Appointment room",
+      "path": "assets/ui/locations/syndicate_office.png"
+    },
+    {
+      "building_id": "syndicate_hq",
+      "room": "Council chamber",
+      "path": "assets/ui/locations/syndicate_hq.png"
+    },
+    {
+      "building_id": "syndicate",
+      "room": "Members lounge",
+      "path": "assets/ui/locations/syndicate.png"
+    },
+    {
+      "building_id": "site_04",
+      "room": "Reception",
+      "path": "assets/ui/locations/site_04_reception.png"
+    },
+    {
+      "building_id": "site_04",
+      "room": "Briefing room",
+      "path": "assets/ui/locations/site_04_briefing.png"
+    },
+    {
+      "building_id": "site_05",
+      "room": "Reception",
+      "path": "assets/ui/locations/site_05_reception.png"
+    },
+    {
+      "building_id": "site_05",
+      "room": "Briefing room",
+      "path": "assets/ui/locations/site_05_briefing.png"
+    },
+    {
+      "building_id": "site_06",
+      "room": "Reception",
+      "path": "assets/ui/locations/site_06_reception.png"
+    },
+    {
+      "building_id": "site_06",
+      "room": "Briefing room",
+      "path": "assets/ui/locations/site_06_briefing.png"
+    },
+    {
+      "building_id": "site_07",
+      "room": "Reception public displays",
+      "path": "assets/ui/locations/site_07_reception.png"
+    },
+    {
+      "building_id": "site_07",
+      "room": "Briefing room",
+      "path": "assets/ui/locations/site_07_briefing.png"
+    },
+    {
+      "building_id": "site_08",
+      "room": "Reception",
+      "path": "assets/ui/locations/site_08_reception.png"
+    },
+    {
+      "building_id": "site_08",
+      "room": "Briefing room",
+      "path": "assets/ui/locations/site_08_briefing.png"
+    },
+    {
+      "building_id": "glasshouse_lab",
+      "room": "Laboratory workroom",
+      "path": "assets/ui/locations/glasshouse_lab.png"
+    }
+  ]
+}

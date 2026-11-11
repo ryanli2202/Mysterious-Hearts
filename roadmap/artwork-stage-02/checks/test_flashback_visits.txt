@@ -1,0 +1,14 @@
+test_clock_pauses_without_fraction_or_catchup (test_flashback_visits.FlashbackVisitTests.test_clock_pauses_without_fraction_or_catchup) ... ok
+test_exact_access_and_cast (test_flashback_visits.FlashbackVisitTests.test_exact_access_and_cast) ... ok
+test_portrait_override_clears_on_exit (test_flashback_visits.FlashbackVisitTests.test_portrait_override_clears_on_exit) ... ok
+test_prompt_contains_only_historical_context (test_flashback_visits.FlashbackVisitTests.test_prompt_contains_only_historical_context) ... ok
+test_provider_adapter_and_invalid_output_are_atomic (test_flashback_visits.FlashbackVisitTests.test_provider_adapter_and_invalid_output_are_atomic) ... ok
+test_real_save_resume_and_independent_campaign (test_flashback_visits.FlashbackVisitTests.test_real_save_resume_and_independent_campaign) ... ok
+test_stale_duplicate_cancelled_and_changed_group_responses (test_flashback_visits.FlashbackVisitTests.test_stale_duplicate_cancelled_and_changed_group_responses) ... ok
+test_talk_action_and_exit_never_change_live_story (test_flashback_visits.FlashbackVisitTests.test_talk_action_and_exit_never_change_live_story) ... ok
+test_validation_blocks_wrong_members_and_interrupted_campaign (test_flashback_visits.FlashbackVisitTests.test_validation_blocks_wrong_members_and_interrupted_campaign) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.126s
+
+OK

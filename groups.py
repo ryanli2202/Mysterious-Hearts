@@ -13,6 +13,9 @@ def hanging_out_with(s):
 
 
 def require_text_available(s, members):
+    import guard_dialogue
+    if any(not guard_dialogue.eligible(s, m) for m in members):
+        raise ValueError("Guards can only be spoken to in person; they have no personal phone contact.")
     if 'charles' in members:
         import charles_han
         if len(members)!=1 or not charles_han.number_allowed(s): raise ValueError('Charles accepts authorised private direct texts only.')
@@ -39,6 +42,7 @@ def archive_hangout(s, group):
 
 
 def create_text(s, name, members):
+    require_text_available(s, members)
     if 'charles' in members: raise ValueError('Charles cannot be added to group chats.')
     name = name.strip()
     if not name or len(name) > 50:
@@ -55,12 +59,17 @@ def create_text(s, name, members):
 
 def sync_contacts(s):
     """Keep met locals' phone threads available, including in older saves."""
+    import guard_dialogue
+    guard_dialogue.migrate(s)
     for name in s.get('npc_chats', {}):
+        if not guard_dialogue.eligible(s, name): continue
         s['groups'].setdefault('npc:' + name, dict(channel='text', name=name,
             members=[name], choices=[], history=[], direct=True))
 
 
 def open_local(s, name):
+    import guard_dialogue
+    if guard_dialogue.is_guard(name): return guard_dialogue.open_session(s, name)
     town.npc_details(s, name)
     chat = s.setdefault('npc_chats', {}).setdefault(name, {'history': []})
     chat.setdefault('connection', dict(status='acquaintances', trust=35, closeness=0))
@@ -167,6 +176,10 @@ def reconcile(s):
     gid=s.get('active_group')
     if gid:
         group=s['groups'][gid]
+        if group.get('guard_session'):
+            try: __import__('guard_dialogue').active(s, group['local'])
+            except ValueError: close_active(s, 'The guard shift or post changed.')
+            return
         if group.get('local'):
             if group['local'] not in w['npcs'] or group['location'] != w['location']:
                 close_active(s, 'The hangout ended.')
@@ -229,7 +242,7 @@ def generate(s, gid, text, progress=None):
     context={'world':json.loads(town.context(s, viewer='group')), 'recent_group':group['history'][-20:], 'player_input':text}
     if not texting and text.startswith(core.ACTION_PREFIX):
         context['player_action'] = context.pop('player_input')[len(core.ACTION_PREFIX):]
-        system += ' The player performed the supplied physical action. Narrate its observable result and let the participants respond.'
+        system += ' The player performed the supplied physical action. As Game Master, describe that action and its observable result in narration, never in spoken lines. Do not invent additional player decisions. Let the participants respond with speech only.'
     if 'yuriko' in members and (s['player'] == 'rei' or 'rei' in members):
         system += '\nRei and Yuriko are siblings. Keep their interactions and suggestions strictly familial. Direct any flirtatious option toward an unrelated participant.'
     if {'ivan', 'valentina'} <= {s['player'], *members}:
@@ -302,7 +315,8 @@ def generate_exchange(names, system, context, *, state, members, kiss_targets=()
         schema['required'].append('bond_moments')
         system += '\n' + town.BOND_GUIDE
     system += social_world.knowledge_direction(state, members, cue, texting=texting)
-    system += '\nPublic player background for suggestions: ' + core.lore.character_tables()[state['player']]['Public life']
+    custom_context=__import__('character_identity').audience(state,members)
+    system += '\nPublic player background for suggestions: ' + (json.dumps(custom_context,ensure_ascii=False) if custom_context else core.lore.character_tables()[state['player']]['Public life'])
     nickname = None
     if {'rei', 'garrett'} <= {state['player'], *members}:
         nickname = 0 if any(core.BRO.search(line) for line in [*recent, action]) else 1
@@ -445,6 +459,8 @@ def commit(s,gid,text,data, *, mark_read=True):
         group['suggestions_deferred'] = data.get('suggestions_deferred', False)
         memory_store.sync(s)
         return
+    if group.get('guard_session'):
+        return __import__('guard_dialogue').commit(s, group['local'], None if text in core.SCENE_DIRECTIONS else text, data)
     if group.get('local'):
         town.commit_npc(s, group['local'], None if text in core.SCENE_DIRECTIONS else text, data)
         chat = s['npc_chats'][group['local']]

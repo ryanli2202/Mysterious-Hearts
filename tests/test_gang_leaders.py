@@ -41,7 +41,8 @@ class GangLeaderTests(unittest.TestCase):
             self.assertEqual(history,s['npc_chats'][p['name']]['history'])
             town.travel(s,p['base'])
             import gang_members
-            self.assertEqual(s['world']['npcs'],[p['name'], *gang_members.coworkers(s)])
+            import organisation_guards
+            self.assertEqual(s['world']['npcs'],[p['name'], *gang_members.coworkers(s), *organisation_guards.npc_rows(s)])
             self.assertIn(p['base'],phone_map.POINTS)
             self.assertEqual(character_types.kind(p['name']),character_types.TOWN)
             self.assertNotIn(p['name'],s['routes'])

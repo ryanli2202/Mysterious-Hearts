@@ -1,0 +1,37 @@
+[
+  {
+    "command": "python tests/artwork_stage_02_ui_smoke.py --live",
+    "exit_code": 0,
+    "log": "artwork_stage_02_ui_smoke.txt"
+  },
+  {
+    "command": "python tests/phone_dark_theme_smoke.py",
+    "exit_code": 0,
+    "log": "phone_dark_theme_smoke.txt"
+  },
+  {
+    "command": "python tests/start_ui_smoke.py",
+    "exit_code": 0,
+    "log": "start_ui_smoke.txt"
+  },
+  {
+    "command": "python tests/combat_portraits_ui_smoke.py",
+    "exit_code": 0,
+    "log": "combat_portraits_ui_smoke.txt"
+  },
+  {
+    "command": "python tests/campaign_prose_ui_smoke.py",
+    "exit_code": 0,
+    "log": "campaign_prose_ui_smoke.txt"
+  },
+  {
+    "command": "python tests/flashback_visits_ui_smoke.py",
+    "exit_code": 0,
+    "log": "flashback_visits_ui_smoke.txt"
+  },
+  {
+    "command": "python tests/patch_notes_ui_smoke.py",
+    "exit_code": 0,
+    "log": "patch_notes_ui_smoke.txt"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-10",
+  "path": "assets/portraits/emily-selection.png",
+  "before_sha256": "75123423140a893b7e3cca1f4f40aabace5eaefb773393dc13b73d9d51a68413",
+  "after_sha256": "969e183053b74d0c9c18ec47785da5bc70ddd612f45ace733b0ba60bee972f70",
+  "changed_assets": [
+    "emily-selection"
+  ]
+}

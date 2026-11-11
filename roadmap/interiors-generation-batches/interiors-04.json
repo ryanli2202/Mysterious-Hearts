@@ -1,0 +1,554 @@
+{
+  "batch_id": "interiors-04",
+  "title": "Custom homes and everyday shops",
+  "status": "planned",
+  "images": [
+    {
+      "id": "vacant_downtown_home__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/vacant_downtown_home/entrance.png",
+      "building_id": "vacant_downtown_home",
+      "building_name": "Downtown apartment",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "vacant_downtown_home__hall",
+      "room": "Hall",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/vacant_downtown_home/hall.png",
+      "building_id": "vacant_downtown_home",
+      "building_name": "Downtown apartment",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "vacant_downtown_home__bedroom",
+      "room": "Bedroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/vacant_downtown_home/bedroom.png",
+      "building_id": "vacant_downtown_home",
+      "building_name": "Downtown apartment",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "vacant_downtown_home__bathroom",
+      "room": "Bathroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/vacant_downtown_home/bathroom.png",
+      "building_id": "vacant_downtown_home",
+      "building_name": "Downtown apartment",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "vacant_suburbs_home__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/vacant_suburbs_home/entrance.png",
+      "building_id": "vacant_suburbs_home",
+      "building_name": "Suburban house",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "vacant_suburbs_home__kitchen",
+      "room": "Kitchen",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/vacant_suburbs_home/kitchen.png",
+      "building_id": "vacant_suburbs_home",
+      "building_name": "Suburban house",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "vacant_suburbs_home__hall",
+      "room": "Hall",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/vacant_suburbs_home/hall.png",
+      "building_id": "vacant_suburbs_home",
+      "building_name": "Suburban house",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "vacant_suburbs_home__bedroom_1",
+      "room": "Bedroom 1",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/vacant_suburbs_home/bedroom_1.png",
+      "building_id": "vacant_suburbs_home",
+      "building_name": "Suburban house",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "vacant_suburbs_home__bedroom_2",
+      "room": "Bedroom 2",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/vacant_suburbs_home/bedroom_2.png",
+      "building_id": "vacant_suburbs_home",
+      "building_name": "Suburban house",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "vacant_suburbs_home__bathroom",
+      "room": "Bathroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/vacant_suburbs_home/bathroom.png",
+      "building_id": "vacant_suburbs_home",
+      "building_name": "Suburban house",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "vacant_suburbs_home__garden",
+      "room": "Garden",
+      "kind": "outdoor",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/vacant_suburbs_home/garden.png",
+      "building_id": "vacant_suburbs_home",
+      "building_name": "Suburban house",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "vacant_beach_home__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/vacant_beach_home/entrance.png",
+      "building_id": "vacant_beach_home",
+      "building_name": "Beach cottage",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "vacant_beach_home__kitchen",
+      "room": "Kitchen",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/vacant_beach_home/kitchen.png",
+      "building_id": "vacant_beach_home",
+      "building_name": "Beach cottage",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "vacant_beach_home__hall",
+      "room": "Hall",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/vacant_beach_home/hall.png",
+      "building_id": "vacant_beach_home",
+      "building_name": "Beach cottage",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "vacant_beach_home__bedroom",
+      "room": "Bedroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/vacant_beach_home/bedroom.png",
+      "building_id": "vacant_beach_home",
+      "building_name": "Beach cottage",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "vacant_beach_home__bathroom",
+      "room": "Bathroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/vacant_beach_home/bathroom.png",
+      "building_id": "vacant_beach_home",
+      "building_name": "Beach cottage",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "vacant_beach_home__dune_deck",
+      "room": "Dune deck",
+      "kind": "outdoor",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/vacant_beach_home/dune_deck.png",
+      "building_id": "vacant_beach_home",
+      "building_name": "Beach cottage",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "vacant_university_home__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/vacant_university_home/entrance.png",
+      "building_id": "vacant_university_home",
+      "building_name": "University apartment",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "vacant_university_home__bedroom",
+      "room": "Bedroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/vacant_university_home/bedroom.png",
+      "building_id": "vacant_university_home",
+      "building_name": "University apartment",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "vacant_university_home__bathroom",
+      "room": "Bathroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/vacant_university_home/bathroom.png",
+      "building_id": "vacant_university_home",
+      "building_name": "University apartment",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "cafe__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/cafe/entrance.png",
+      "building_id": "cafe",
+      "building_name": "Campus café",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "cafe__quiet_study_room",
+      "room": "Quiet study room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/cafe/quiet_study_room.png",
+      "building_id": "cafe",
+      "building_name": "Campus café",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "cafe__staff_kitchen",
+      "room": "Staff kitchen",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/cafe/staff_kitchen.png",
+      "building_id": "cafe",
+      "building_name": "Campus café",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "cafe__staff_office",
+      "room": "Staff office",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/cafe/staff_office.png",
+      "building_id": "cafe",
+      "building_name": "Campus café",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "cafe__service_corridor",
+      "room": "Service corridor",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/cafe/service_corridor.png",
+      "building_id": "cafe",
+      "building_name": "Campus café",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "cafe__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/cafe/restroom.png",
+      "building_id": "cafe",
+      "building_name": "Campus café",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "noodle_shop__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/noodle_shop/entrance.png",
+      "building_id": "noodle_shop",
+      "building_name": "Golden Dragon",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "noodle_shop__service_counter_view",
+      "room": "Service counter view",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/noodle_shop/service_counter_view.png",
+      "building_id": "noodle_shop",
+      "building_name": "Golden Dragon",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "noodle_shop__kitchen",
+      "room": "Kitchen",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/noodle_shop/kitchen.png",
+      "building_id": "noodle_shop",
+      "building_name": "Golden Dragon",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "noodle_shop__staff_office_store",
+      "room": "Staff office store",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/noodle_shop/staff_office_store.png",
+      "building_id": "noodle_shop",
+      "building_name": "Golden Dragon",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "noodle_shop__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/noodle_shop/restroom.png",
+      "building_id": "noodle_shop",
+      "building_name": "Golden Dragon",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "marios_pizza__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/marios_pizza/entrance.png",
+      "building_id": "marios_pizza",
+      "building_name": "Mario's Pizza",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "marios_pizza__staff_kitchen_store",
+      "room": "Staff kitchen store",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/marios_pizza/staff_kitchen_store.png",
+      "building_id": "marios_pizza",
+      "building_name": "Mario's Pizza",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "marios_pizza__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/marios_pizza/restroom.png",
+      "building_id": "marios_pizza",
+      "building_name": "Mario's Pizza",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "chess__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/chess/entrance.png",
+      "building_id": "chess",
+      "building_name": "Chess café",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "chess__caf_room",
+      "room": "Café room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/chess/caf_room.png",
+      "building_id": "chess",
+      "building_name": "Chess café",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "chess__lesson_alcove_view",
+      "room": "Lesson alcove view",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/chess/lesson_alcove_view.png",
+      "building_id": "chess",
+      "building_name": "Chess café",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "chess__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/chess/restroom.png",
+      "building_id": "chess",
+      "building_name": "Chess café",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "flowers__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/flowers/entrance.png",
+      "building_id": "flowers",
+      "building_name": "Petal & Stem",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "flowers__arrangement_workroom",
+      "room": "Arrangement workroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/flowers/arrangement_workroom.png",
+      "building_id": "flowers",
+      "building_name": "Petal & Stem",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "flowers__stockroom",
+      "room": "Stockroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/flowers/stockroom.png",
+      "building_id": "flowers",
+      "building_name": "Petal & Stem",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "flowers__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/flowers/restroom.png",
+      "building_id": "flowers",
+      "building_name": "Petal & Stem",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "boutique__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/boutique/entrance.png",
+      "building_id": "boutique",
+      "building_name": "Gift boutique",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "boutique__staff_store",
+      "room": "Staff store",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/boutique/staff_store.png",
+      "building_id": "boutique",
+      "building_name": "Gift boutique",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "boutique__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/boutique/restroom.png",
+      "building_id": "boutique",
+      "building_name": "Gift boutique",
+      "generation_status": "not_started"
+    }
+  ],
+  "existing_references": [
+    {
+      "building_id": "vacant_downtown_home",
+      "room": "Open living kitchen",
+      "path": "assets/ui/locations/vacant_downtown_home.png"
+    },
+    {
+      "building_id": "vacant_suburbs_home",
+      "room": "Living room",
+      "path": "assets/ui/locations/vacant_suburbs_home.png"
+    },
+    {
+      "building_id": "vacant_beach_home",
+      "room": "Living room",
+      "path": "assets/ui/locations/vacant_beach_home.png"
+    },
+    {
+      "building_id": "vacant_university_home",
+      "room": "Living study kitchenette",
+      "path": "assets/ui/locations/vacant_university_home.png"
+    },
+    {
+      "building_id": "cafe",
+      "room": "Counter seating room",
+      "path": "assets/ui/cafe-evening.png"
+    },
+    {
+      "building_id": "noodle_shop",
+      "room": "Dining room",
+      "path": "assets/ui/locations/noodle_shop.png"
+    },
+    {
+      "building_id": "marios_pizza",
+      "room": "Dining counter room",
+      "path": "assets/ui/locations/marios_pizza.png"
+    },
+    {
+      "building_id": "chess",
+      "room": "Playing room",
+      "path": "assets/ui/locations/chess.png"
+    },
+    {
+      "building_id": "flowers",
+      "room": "Shop floor",
+      "path": "assets/ui/locations/flowers.png"
+    },
+    {
+      "building_id": "boutique",
+      "room": "Display counter room",
+      "path": "assets/ui/locations/boutique.png"
+    }
+  ]
+}

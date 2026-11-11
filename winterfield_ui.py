@@ -1,10 +1,44 @@
 """Shared palette and typography for Winterfield's native windows."""
 import tkinter as tk
 from tkinter import ttk
+from functools import lru_cache
+from PIL import Image, ImageDraw, ImageTk
 
 INK, PANEL, CARD, EDGE = '#131823', '#1c2433', '#293447', '#3b4a60'
 CREAM, MUTED, GOLD, MINT = '#f5eedf', '#b2c1cd', '#edc786', '#99d9c6'
 SERIF = 'Georgia'
+
+
+@lru_cache(maxsize=16)
+def surface_texture(width, height, color=INK):
+    """Quiet woven slate, generated locally; no random flicker on redraw."""
+    art = Image.new('RGB', (max(1, width), max(1, height)), color)
+    r, g, b = art.getpixel((0, 0))
+    draw = ImageDraw.Draw(art)
+    lighter = tuple(min(255, v + 4) for v in (r, g, b))
+    darker = tuple(max(0, v - 3) for v in (r, g, b))
+    for y in range(0, height, 4):
+        draw.line((0, y, width, y), fill=darker)
+    for x in range(0, width, 6):
+        draw.line((x, 0, x, height), fill=lighter)
+    return art
+
+
+class TextureFrame(tk.Frame):
+    """A normal layout container with a non-interactive woven backing."""
+    def __init__(self, parent, **kwargs):
+        super().__init__(parent, **kwargs)
+        self._backing = tk.Label(self, bd=0, highlightthickness=0, takefocus=0)
+        self._backing.place(x=0, y=0, relwidth=1, relheight=1)
+        self._backing.lower()
+        self.bind('<Configure>', self._texture, add='+')
+
+    def _texture(self, event):
+        if event.widget is not self:
+            return
+        self._texture_photo = ImageTk.PhotoImage(
+            surface_texture(event.width, event.height, self.cget('bg')), master=self)
+        self._backing.configure(image=self._texture_photo)
 
 
 def install(root):
@@ -28,6 +62,11 @@ def install(root):
     style.configure('Title.TLabel', font=(SERIF, 23), foreground=CREAM)
     style.configure('Section.TLabel', font=('Segoe UI', 10, 'bold'), foreground=GOLD)
     style.configure('Muted.TLabel', foreground=MUTED)
+    style.configure('Scene.TButton', padding=(10, 7), background=CARD)
+    style.configure('SceneAccent.TButton', padding=(10, 7), background='#304b4c',
+                    foreground=MINT, font=('Segoe UI', 10, 'bold'))
+    style.map('SceneAccent.TButton', background=[('pressed', '#365e5b'), ('active', '#3a5558')],
+              foreground=[('disabled', MUTED)])
     style.configure('TNotebook', background=INK, borderwidth=0, tabmargins=(0, 0, 0, 5))
     style.configure('TNotebook.Tab', background=INK, foreground=MUTED, padding=(9, 7))
     style.map('TNotebook.Tab', background=[('selected', CARD)], foreground=[('selected', GOLD)])

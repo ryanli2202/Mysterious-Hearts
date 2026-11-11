@@ -55,18 +55,20 @@ class PhoneWindow(PersonalPhone, tk.Toplevel):
         self.personal_messages = False
         self.arcade_sessions = {}
         self.map_memory = {}
-        shell = tk.Frame(self, bg='#08080a', padx=8, pady=8)
+        shell = ui.TextureFrame(self, bg='#101823', padx=8, pady=8)
         shell.pack(fill='both', expand=True)
         self.clock = tk.Label(shell, bg='#08080a', fg='#dce4ed', font=('Segoe UI', 10,'bold'))
         self.clock.configure(text=self.phone_status())
         self.clock.pack(fill='x', pady=(0, 6))
-        self.chrome = ttk.Frame(shell, padding=8)
+        self.chrome = ttk.Frame(shell, padding=(6, 8))
         self.chrome.pack(fill='x')
         PhoneButton(self.chrome, text='‹', width=3, command=self.back).pack(side='left')
         self.app_title = ttk.Label(self.chrome, text=selected, font=('Segoe UI', 14, 'bold'))
-        self.app_title.pack(side='left', padx=15)
         PhoneButton(self.chrome, text='×', width=3, command=self.close_phone).pack(side='right')
         PhoneButton(self.chrome, text='Lock', command=lambda: self.open_app('Lock')).pack(side='right')
+        self.home_button = PhoneButton(self.chrome, text='⌂', width=3, command=lambda: self.open_app('Home'))
+        self.home_button.pack(side='right')
+        self.app_title.pack(side='left', padx=8, fill='x', expand=True)
         self.screen = ttk.Frame(shell)
         self.screen.pack(fill='both', expand=True)
         home_bar=tk.Canvas(shell,height=22,bg='#08080a',highlightthickness=0,takefocus=True)
@@ -298,6 +300,7 @@ class PhoneWindow(PersonalPhone, tk.Toplevel):
 
     def resize_wrapping(self, event):
         if event.widget is self and hasattr(self,'screen'):
+            self.app_title.configure(wraplength=max(80, self.winfo_width()-210))
             self.after_idle(lambda: self.fit_wrapping(self.screen) if self.winfo_exists() else None)
 
     def fit_wrapping(self, widget):
@@ -649,6 +652,9 @@ class PhoneWindow(PersonalPhone, tk.Toplevel):
                     child.configure(wraplength=max(100,event.width-10),justify='left')
                     child.pack_configure(fill='x')
         body.bind('<Configure>',fit_contact,add='+')
+        # Contact details bypass open_app's idle traversal. Theme even hidden
+        # or not-yet-mapped children before they can expose native state colours.
+        phone_theme.apply_tree(frame)
 
     def maps_page(self, frame, s):
         from phone_map import MapView

@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-11",
+  "passed": true,
+  "assigned_images": 48,
+  "accepted_images": 48,
+  "kinds": {
+    "interior": 44,
+    "outdoor": 4
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "unique_file_hashes": 48,
+  "unique_decoded_pixel_hashes": 48,
+  "original_references_verified_unchanged": [
+    "assets/ui/locations/rei_home.png",
+    "assets/ui/locations/emily_home.png",
+    "assets/ui/locations/sophie_home.png",
+    "assets/ui/locations/amy_home.png",
+    "assets/ui/locations/minsu_home.png",
+    "assets/ui/locations/samantha_home.png",
+    "assets/ui/locations/april_home.png",
+    "assets/ui/locations/garrett_home.png"
+  ],
+  "exact_prompt_coverage": 48,
+  "rejected_attempts": 3,
+  "ten_batch_unique_coverage": 438,
+  "total_bytes": 127799383,
+  "errors": [],
+  "planning_overwrite_guards": [
+    {
+      "script": "tools/build_interiors_art_inventory.py",
+      "expected_refusal": true,
+      "exit_code": 1,
+      "message": "Refusing to overwrite interiors production records; revise the existing inventory explicitly."
+    },
+    {
+      "script": "tools/build_interiors_generation_batches.py",
+      "expected_refusal": true,
+      "exit_code": 1,
+      "message": "Refusing to overwrite interiors production records; revise the existing manifests explicitly."
+    }
+  ],
+  "protected_record_files_unchanged": true,
+  "limitations": [
+    "Static artwork only; no runtime room mappings or save changes.",
+    "In-person rendered verification and final reuse approval remain pending.",
+    "Garrett existing living-room reuse candidate is an exterior; replacement requires explicit inventory/batch revision."
+  ]
+}

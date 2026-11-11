@@ -8,7 +8,9 @@ import combat
 import combat_path as path
 from combat_profiles import ARTS, TEACHERS, STATS, profile
 import winterfield_ui as ui
+import combat_style as style
 from combat_selection_ui import EnhancedCombat
+from combat_rpg_ui import RPGCombat
 
 def open_combat(game, dialogue=False):
     if game.busy: return
@@ -22,18 +24,21 @@ def open_combat(game, dialogue=False):
     view.place(x=0,y=0,relwidth=1,relheight=1)
     view.lift(); view.refresh()
 
-class CombatView(EnhancedCombat,tk.Frame):
+class CombatView(RPGCombat,EnhancedCombat,tk.Frame):
     def __init__(self,parent,game):
-        super().__init__(parent,bg=ui.INK,padx=18,pady=12)
+        super().__init__(parent,bg=ui.INK,padx=14,pady=8)
         self.game=game; self.working=False; self.mail=queue.Queue(); self.error=''
-        self.title=ttk.Label(self,text='COMBAT · IN PERSON',font=('Segoe UI',20,'bold'))
+        self.banner=style.Panel(self,padx=12,pady=0)
+        self.banner.pack(fill='x')
+        self.title=tk.Label(self.banner,text='COMBAT · IN PERSON',bg=ui.PANEL,fg=ui.GOLD,font=('Georgia',20,'bold'))
         self.title.pack(anchor='w')
-        self.body=tk.Frame(self,bg=ui.INK); self.body.pack(fill='both',expand=True,pady=8)
+        self.content_host=tk.Frame(self,bg=ui.INK); self.content_host.pack(fill='both',expand=True,pady=2)
+        self.body=self.content_host
         self.status=tk.Label(self,bg=ui.INK,fg=ui.GOLD,anchor='w',wraplength=900)
         self.status.pack(fill='x')
 
     def label(self,parent,text):
-        widget=ttk.Label(parent,text=text,wraplength=850,justify='left')
+        widget=tk.Label(parent,text=text,bg=parent.cget('bg'),fg=ui.CREAM,font=('Segoe UI',10),anchor='w',wraplength=850,justify='left')
         widget.bind('<Configure>',lambda event:widget.configure(wraplength=max(100,event.width-8)))
         widget.pack(fill='x',pady=4); return widget
 
@@ -52,6 +57,9 @@ class CombatView(EnhancedCombat,tk.Frame):
             self.game.persist()
         except (ValueError,RuntimeError) as exc: self.error=str(exc)
         self.refresh()
+        if not combat.active(self.game.state_data):
+            __import__('campaign_dialogue').activate_epilogue(self.game.state_data)
+            if self.game.state_data.get('campaign_dialogue'):__import__('campaign_dialogue').show(self.game)
 
     def async_job(self,work,commit,resolved=False):
         if self.working or self.game.busy: return
@@ -78,8 +86,12 @@ class CombatView(EnhancedCombat,tk.Frame):
 
     def refresh(self):
         if self.working: return
-        for child in self.body.winfo_children(): child.destroy()
+        for child in self.content_host.winfo_children(): child.destroy()
         s=self.game.state_data; d=combat.ensure(s); f=d['active']
+        if not f and not getattr(self,'path_who',None) and not getattr(self,'training_page',None):
+            self.body=style.scrolling_body(self.content_host)
+        else:
+            self.body=tk.Frame(self.content_host,bg=ui.INK); self.body.pack(fill='both',expand=True)
         self.status.configure(text=self.error)
         if f: self.fight(s,f)
         elif getattr(self,'path_who',None): self.render_path()
@@ -90,10 +102,16 @@ class CombatView(EnhancedCombat,tk.Frame):
     def hub(self,s,d):
         self.title.configure(text='COMBAT · TRAINING & CHALLENGES')
         p=profile(s,s['player'])
-        self.label(self.body,'Combat stats · '+ '   |   '.join(k.replace('_',' ').title()+': '+str(p['stats'][k]) for k in STATS))
+        style.stats(self.body,p)
         self.label(self.body,'The Path · '+p['path']['stage']+' · Awakened power = mana potency')
-        self.button(self.row(),'The Path · progression & breakthroughs',lambda:self.path_page(s['player']))
-        self.button(self.row(),'Training · moves, combos & Trait workshop',lambda:self.set_page('academy'))
+        row=self.row(); assistance=tk.StringVar(value=d.get('assistance','Standard'))
+        tk.Label(row,text='Assistance · explanations only',bg=ui.INK,fg=ui.MUTED).pack(side='left',padx=(0,12))
+        self.picker(row,assistance,['Guided','Standard','Minimal'],lambda:self.run(lambda:d.update(assistance=assistance.get())),16)
+        if __import__('combat_states').trait(p,'Shinigami Protocol'):
+            self.button(self.row(),'Recover Protocol · rest 60 min',lambda:__import__('combat_states').rest(s))
+        navigation=self.row()
+        self.button(navigation,'The Path · progression & breakthroughs',lambda:self.path_page(s['player']))
+        self.button(navigation,'Training · moves, combos & Trait workshop',lambda:self.set_page('academy'))
         if p['trait']: self.label(self.body,p['trait']['name']+' — '+p['trait']['description'])
         if p.get('abilities'): self.label(self.body,p['abilities'])
         self.label(self.body,'Martial arts: '+(', '.join(f'{k} {v}' for k,v in p['arts'].items()) or 'None yet; meet a teacher.'))
@@ -106,9 +124,9 @@ class CombatView(EnhancedCombat,tk.Frame):
             self.button(row,'Study fight IQ · 30 min',lambda:combat.train(s,'Combat analysis'))
         columns=self.row(); columns.pack_configure(fill='both',expand=True)
         columns.columnconfigure((0,1),weight=1,uniform='combat-columns'); columns.rowconfigure(0,weight=1)
-        left=tk.Frame(columns,bg=ui.INK); left.grid(row=0,column=0,sticky='nsew',padx=(0,16))
-        right=tk.Frame(columns,bg=ui.INK); right.grid(row=0,column=1,sticky='nsew')
-        self.label(left,'Nearby opponents / teachers')
+        left=style.Panel(columns,padx=9,pady=7); left.grid(row=0,column=0,sticky='nsew',padx=(0,16))
+        right=style.Panel(columns,padx=9,pady=7); right.grid(row=0,column=1,sticky='nsew')
+        style.heading(left,'01  /  NEARBY FIGHTERS')
         people=[who for who in s['world']['cast'] if combat.present(s,who)]
         people+= [who for who in s['world'].get('npcs',[]) if who not in people and who!=s['player']]
         self.people=people
@@ -125,7 +143,7 @@ class CombatView(EnhancedCombat,tk.Frame):
         self.button(row,'View Path',lambda:self.path_page(self.selected()))
         ttk.Button(row,text='Attack…',command=self.attack_warning).pack(side='left',padx=4)
         self.attack_panel=tk.Frame(left,bg=ui.INK)
-        self.label(right,'Learn with selected teacher / practise known art')
+        style.heading(right,'02  /  MARTIAL ARTS & LESSONS')
         self.styles=tk.Listbox(right,bg=ui.CARD,fg=ui.CREAM,selectbackground=ui.EDGE,
             selectforeground=ui.CREAM,highlightthickness=0,exportselection=False,height=5)
         self.styles.pack(fill='both',expand=True)
@@ -151,7 +169,7 @@ class CombatView(EnhancedCombat,tk.Frame):
                 due=ledger['next']; date=story_calendar.story_date(due)
                 self.label(self.body,f"Iron Circle rank {ledger['rank']} · {ledger['wins']} wins / {ledger['losses']} losses · Next card {date:%a %d %b}, 18:00–21:00")
                 row=self.row()
-                self.button(row,'Generate opponent & enter card' if ready else 'Next card not open',self.circle)
+                self.button(row,('Challenge current champion' if ledger['rank']==2 else 'Defend championship' if ledger['rank']==1 else 'Generate opponent & enter card') if ready else 'Next card not open',self.circle)
                 if not ready: self.button(row,'Wait until the next card',lambda:combat.wait_for_card(s))
         self.button(self.row(),'Return to location',self.leave)
 
@@ -168,6 +186,7 @@ class CombatView(EnhancedCombat,tk.Frame):
         for child in self.body.winfo_children(): child.destroy()
         s=self.game.state_data; who=self.path_who; p=profile(s,who); record=p['path']
         self.title.configure(text='THE PATH · '+p['name'])
+        style.stats(self.body,p)
         self.label(self.body,path.summary(s,who))
         self.label(self.body,'Mana potency: '+str(p['stats']['awakened_power'])+' / 100 · Trait refinement: '+str(p['stats']['trait_refinement'])+' / 100')
         text=(path.LORE+'\n\nDormancy → Awakening: 30 strenuous encounters with latent mana. Awakening grants +18 power, +5 martial skill and +5 fight IQ; a Trait is not guaranteed.\n\n'
@@ -184,7 +203,7 @@ class CombatView(EnhancedCombat,tk.Frame):
         if p.get('form')=='Conduit State': text+='Conduit State is Ivan’s Trait technique, not Transcendence. Its five-minute, once-per-day rules remain.\n\n'
         text+='Stage history:\n'+('\n'.join(x['previous']+' → '+x['stage']+' · game minute '+str(x['minute']) for x in record['history']) or 'Seeded at '+record['stage']+'; no retrospective progression awards.')
         panel=self.row(); panel.pack_configure(fill='both',expand=True)
-        box=tk.Text(panel,bg=ui.PANEL,fg=ui.CREAM,wrap='word',relief='flat',font=('Segoe UI',11),height=10)
+        box=tk.Text(panel,bg=ui.PANEL,fg=ui.CREAM,wrap='word',relief='flat',font=('Segoe UI',11),height=10,padx=14,pady=10,spacing3=5)
         scroll=ttk.Scrollbar(panel,command=box.yview); scroll.pack(side='right',fill='y')
         box.configure(yscrollcommand=scroll.set); box.pack(fill='both',expand=True)
         box.insert('end',text); box.configure(state='disabled')
@@ -252,14 +271,33 @@ class CombatView(EnhancedCombat,tk.Frame):
         s=self.game.state_data
         if not combat.card_ready(s): raise ValueError('Return during the next card, 18:00–21:00.')
         snapshot=copy.deepcopy(s)
-        self.async_job(lambda:combat.generate_opponent(snapshot),lambda p:combat.start(s,'circle:'+p['name'],'circle',p))
+        self.async_job(lambda:combat.generate_opponent(snapshot),lambda p:self.circle_preview(p))
 
+
+    def circle_preview(self,p):
+        overlay=tk.Frame(self,bg=ui.INK,padx=20,pady=20)
+        overlay.place(x=0,y=0,relwidth=1,relheight=1); overlay.lift()
+        self.label(overlay,('CHAMPIONSHIP · ' if p.get('title_bout') else 'IRON CIRCLE · ')+p['name'])
+        self.label(overlay,' / '.join(k.replace('_',' ')+': '+str(v) for k,v in p['stats'].items()))
+        preview=p.get('arena_preview',{})
+        self.label(overlay,'\n'.join(preview.values()) or 'Current champion. This bout is required to earn the title; rank alone does not determine strength.')
+        if p.get('trait'): self.label(overlay,p['trait']['name']+' — '+p['trait']['description'])
+        row=tk.Frame(overlay,bg=ui.INK); row.pack(fill='x')
+        def enter():
+            try:
+                combat.start(self.game.state_data,'circle:'+p['name'],'circle',p)
+                self.game.persist(); overlay.destroy(); self.refresh()
+            except (ValueError,RuntimeError) as exc: self.label(overlay,str(exc))
+        ttk.Button(row,text='Enter this bout',command=enter).pack(side='left',padx=5)
+        ttk.Button(row,text='Back without entering',command=overlay.destroy).pack(side='left',padx=5)
 
     def recover(self,s):
         import world_loop
         world_loop.advance(s,combat.recovering(s))
+        s['combat'].setdefault('protocol_spent',{}).pop(s['player'],None)
         return 'Recovery complete.'
 
     def leave(self):
         if combat.active(self.game.state_data): raise ValueError('Finish this fight first.')
         self.place_forget(); self.game.render()
+

@@ -16,10 +16,16 @@ def ensure(s):
     for key, value in dict(version=1, profiles={}, active=None, history=[], recovery={},
                            ruptures=[], expelled=[], diplomacy={}, ledger=None, training={}, offers={}).items():
         d.setdefault(key, value)
+    import combat_circle
+    combat_circle.ensure(s,d['ledger'])
     profile(s, s['player'])
     for who in list(d['profiles']): profile(s,who)
     if d['active']:
         f=d['active']
+        from combat_profiles import reconcile_identity
+        reconcile_identity(f['opponent_profile'],f['opponent'])
+        if f['opponent']=='Joseph Richter' and f['opponent_profile'].get('portrait')=='richter_cybernetic' and not f['opponent_profile'].get('boss'):
+            __import__('combat_boss').install(f['opponent_profile'])
         path.initialise(f['opponent_profile'],f['opponent'],d['path_epoch'])
         # Old indefinite forms must not bypass the new mana rules after reload.
         if not f.get('path_form_rules'):
@@ -38,6 +44,8 @@ def recovering(s, who=None):
     return max(0, s.get('combat', {}).get('recovery', {}).get(who or s['player'], 0)-s['world']['minute'])
 
 def guard(s, who=None, *, fighting=False):
+    __import__('flashback_visits').require_present(s)
+    if s.get('campaign_dialogue'): raise ValueError('Finish the scripted conversation first.')
     who = who or s['player']
     if recovering(s, who): raise ValueError('Recovering from a knockout; physical activity is unavailable for 24 in-game hours.')
     if active(s) and not fighting: raise ValueError('Finish the current fight before another activity.')
@@ -152,7 +160,8 @@ def sign_ledger(s,signature):
     if not isinstance(signature,str) or not signature.strip() or len(signature)>100: raise ValueError('Sign your name in the ledger.')
     d['ledger']=dict(signature=signature.strip(),joined=s['world']['minute'],rank=450,
                      next=next_card(s['world']['minute']),wins=0,losses=0,missed=0)
-    return 'Ledger signed. Rank 450. Cards run twice per game week at 18:00.'
+    __import__('combat_circle').ensure(s,d['ledger'])
+    return 'Ledger signed. Rank '+str(d['ledger']['rank'])+'. Cards run twice per game week at 18:00.'
 
 def card_ready(s):
     ledger=ensure(s)['ledger']
@@ -193,22 +202,30 @@ def train(s,discipline,teacher=None):
 
 def resources(p):
     power=p['stats']['awakened_power']
-    return dict(health=round(100+power*2),max_health=round(100+power*2),stamina=100,
+    from combat_balance import expression
+    health=round((100+power*2)*expression(p)[1])
+    return dict(health=health,max_health=health,stamina=100,
                 energy=round(40+power*1.6) if p['awakened'] else 0,
                 max_energy=round(40+power*1.6) if p['awakened'] else 0,momentum=0,stored=0,
                 form_until=0,form_used=False,trait_uses=0,active_form=None)
 
 def start(s,who,kind,generated=None):
+    if who.startswith('Post guard · '):
+        raise ValueError('Use Stories, guards & gang properties to confront this rotating guard post.')
     guard(s); d=ensure(s)
     if s.get('careers',{}).get('active') or s.get('crime_operations',{}).get('people',{}).get(s['player'],{}).get('active'):
         raise ValueError('Finish your current work event before starting a fight.')
-    if kind=='interpol':
+    if kind=='guard':
+        import organisation_guards
+        opponent=organisation_guards.validate(s,who)
+    elif kind=='interpol':
         import interpol
         opponent=interpol.validate_encounter(s,who)
     elif kind=='circle':
         if s['world']['location']!='iron_circle' or not card_ready(s): raise ValueError('Attend the next card at the Iron Circle, 18:00–21:00.')
         if generated is None: raise ValueError('Generate an opponent first.')
         opponent=validate_opponent(s,generated)
+        if opponent.get('title_bout'): who=opponent['champion_id']
     else:
         accepted,reason=consent(s,who,kind)
         if not accepted: raise ValueError(reason)
@@ -235,9 +252,17 @@ def start(s,who,kind,generated=None):
            elapsed=0,turn=0,log=[note] if note else [],status='active',result=None,
            score=[0,0],seed=random.randrange(2**31),path_form_rules=True)
     d['active']=f
+    import combat_identity
+    known=combat_identity.public(s,who,[s['player']],opponent)
+    if known.get('title'): f['log'].append(known['title']+' — '+known['reputation'])
+    if kind=='spar': f['log'].append('Restrained practice: both sides limit striking output; no winner or full-strength comparison.')
     import combat_engine
     combat_engine.ensure_arena(f)
-    if kind=='circle': d['ledger']['next']=next_card(s['world']['minute'])
+    if kind=='circle':
+        f['title_bout']=bool(opponent.get('title_bout'))
+        f['title_defence']=d['ledger']['rank']==1
+        d['ledger']['next']=next_card(s['world']['minute'])
+        if f['title_bout']: f['log'].append('Championship bout against the current champion: '+opponent['name'])
     return f
 
 def attack_reaction(s,who):
@@ -259,6 +284,11 @@ def finish(s,result,knocked=None):
     d=ensure(s); f=d['active']
     if not f: raise ValueError('No active fight.')
     if f['status']=='finished': return f['result']
+    if __import__('interpol').crow_story_fight(s,f):
+        result='Defeat — the Crow overwhelms the field team. Survive, withdraw and carry the evidence forward.'
+        knocked=s['player']
+        f['enemy']['health']=max(1,f['enemy']['health'])
+        f['log'].append('The Crow breaks the containment attempt and forces a retreat. This authored confrontation cannot end in his capture.')
     if knocked:
         d['recovery'][knocked]=s['world']['minute']+1440
         f['player' if knocked==s['player'] else 'enemy']['health']=0
@@ -269,18 +299,27 @@ def finish(s,result,knocked=None):
         ledger=d['ledger']
         win=result.startswith('Victory')
         ledger['wins' if win else 'losses']+=1
-        ledger['rank']=max(1,ledger['rank']-10) if win else min(450,ledger['rank']+5)
+        import combat_circle
+        combat_circle.finish(s,f,win)
     path.award_encounter(s,f)
+    if f['kind']=='circle' and d['ledger'].get('champion')==f['opponent'] and d['ledger'].get('champion_profile'):
+        d['ledger']['champion_profile']=copy.deepcopy(f['opponent_profile'])
     return result
 
 def close(s):
     d=ensure(s); f=d['active']
     if f and f['status']=='active': raise ValueError('Finish or concede this fight first.')
-    if f: d['history'].append(copy.deepcopy(f)); d['history']=d['history'][-30:]
+    if f:
+        spent=d.get('protocol_spent',{})
+        for who in (f['opponent'],f.get('ally')):
+            if who in spent: spent[who]=dict(recover_at=s['world']['minute']+60)
+        d['history'].append(copy.deepcopy(f)); d['history']=d['history'][-30:]
     d['active']=None
     if f:
         import interpol
         interpol.resolve_fight(s,f)
+        import organisation_guards
+        organisation_guards.resolve(s,f)
 
 def concede(s):
     f=active(s)
@@ -303,8 +342,9 @@ def activate_form(s,side='player',form_choice=None):
     f['log'].append(p['name']+' activates '+spec['name']+f" ({spec['duration']} seconds; {spec['cost']} mana activation, {spec['upkeep']} per exchange).")
 
 def tier(s):
-    rank=ensure(s)['ledger']['rank']
-    return ('unawakened',8,30) if rank>300 else ('awakened',30,60) if rank>100 else ('trait',60,90)
+    from combat_balance import arena_profile
+    _, category, values=arena_profile(ensure(s)['ledger']['rank'])
+    return category, min(values[2:]), max(values[2:])
 
 def ask_ai(prompt,schema,max_tokens=1800):
     import game_core as core
@@ -323,28 +363,38 @@ def schema(fields):
 def generate_opponent(s):
     guard(s)
     if s['world']['location']!='iron_circle' or not card_ready(s): raise ValueError('The next card is not open here yet.')
+    import combat_circle
+    champion=combat_circle.candidate(s)
+    if champion: return champion
     band,lo,hi=tier(s)
     data=ask_ai('Create one original fictional Iron Circle opponent. Tier '+band+
-        f'; ratings {lo}–{hi}. Low tiers unawakened; middle awakened without Traits; high awakened with one bounded Trait. '
+        f'; martial ratings {lo}–{hi}. D is unawakened; C awakened without Traits; B and low-A contenders have one bounded Trait. '
+        'Low-A contenders are below Rei; do not claim championship status. Statistics are assigned by the game, not your prose. '
         'Use a martial art from '+json.dumps(list(ARTS))+'. Give an individual name, style, Trait and limitations (empty trait fields below high tier).',
         schema({k:{'type':'string'} for k in ('name','art','trait','limitations')}))
     return validate_opponent(s,data)
 
 def validate_opponent(s,data):
+    import combat_circle
+    combat_circle.ensure(s,ensure(s)['ledger'])
+    title=combat_circle.validate_title(s,data)
+    if title: return title
+    if combat_circle.candidate(s): raise ValueError('Rank two requires an explicit bout against the current champion.')
     band,lo,hi=tier(s)
+    from combat_balance import arena_profile
+    combat_band, _, values=arena_profile(ensure(s)['ledger']['rank'])
+    has_trait=band in ('trait','contender')
     # Already validated candidates are still reconstructed within the current tier.
     name=data.get('name'); art=data.get('art') or next(iter(data.get('arts',{})),None)
     if not isinstance(name,str) or not 1<=len(name.strip())<=80 or art not in ARTS: raise ValueError('Invalid opponent name or martial art; regenerate.')
     trait=data.get('trait'); limits=data.get('limitations','')
     if isinstance(trait,dict): limits=trait.get('description',''); trait=trait.get('name','')
-    if band=='trait' and (not isinstance(trait,str) or not trait.strip() or not isinstance(limits,str) or not limits.strip()): raise ValueError('High-rank opponent needs a bounded Trait.')
-    rng=random.Random(name+str(ensure(s)['ledger']['rank']))
-    vals=[rng.randint(lo,hi) for _ in STATS]
-    if band=='unawakened': vals[0]=0
-    if band!='trait': vals[1]=0
+    if has_trait and (not isinstance(trait,str) or not trait.strip() or not isinstance(limits,str) or not limits.strip()): raise ValueError('High-rank opponent needs a bounded Trait.')
+    vals=list(values)
     result=dict(name=name.strip(),awakened=band!='unawakened',stats=dict(zip(STATS,vals)),arts={art:vals[2]},
-                trait=dict(name=trait[:100],description=limits[:1200],effect='custom') if band=='trait' else None,form=None)
-    path.initialise(result,minute=s['world']['minute'],stage=path.DORMANCY if band=='unawakened' else path.TOTALITY if band=='trait' else path.AWAKENING)
+                trait=dict(name=trait[:100],description=limits[:1200],effect='custom') if has_trait else None,form=None,
+                arena_band=combat_band,arena_balance_version=1)
+    path.initialise(result,minute=s['world']['minute'],stage=path.DORMANCY if band=='unawakened' else path.TOTALITY if has_trait else path.AWAKENING)
     return result
 
 def adjudicate(s,action,style,mode):
@@ -481,7 +531,11 @@ def complete_exchange(s):
     if f['turn']%2==0:
         import world_loop
         world_loop.advance(s,1,combat_turn=True)
-    if f['enemy']['health']<=0: finish(s,'Victory — opponent knocked out.',f['opponent'])
+    # Authored campaign exception: The Crow breaks containment after four exchanges.
+    if __import__('interpol').crow_story_fight(s,f) and f['turn']>=4:
+        finish(s,'Defeat — containment broken.',s['player'])
+    elif __import__('combat_objectives').success(f): finish(s,'Objective achieved — '+f['objective']+'. This is not a duel victory.')
+    elif f['enemy']['health']<=0: finish(s,'Victory — opponent knocked out.',f['opponent'])
     elif f['player']['health']<=0: finish(s,'Defeat — knocked out. Recover for 24 in-game hours.',s['player'])
     elif f['kind']=='circle' and f['elapsed']>=900:
         win=f['score'][0]>f['score'][1]

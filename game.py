@@ -143,7 +143,8 @@ class Game(tk.Tk):
         self.notification_popups.dismiss(show_next=False)
         for widget in self.winfo_children(): widget.destroy()
 
-    def portrait(self, key, size, location=None, minute=None, outfit=None):
+    def portrait_path(self, key, location=None, minute=None, outfit=None):
+        special_portrait=__import__('guard_portraits').resolve(getattr(self,'state_data',None),key,location)
         if key in {person[0] for person in (*core.town.NPCS, *core.town.VENUE_STAFF.values(), core.town.HQ_EXECUTIVE)}:
             key = key.lower().replace(' ', '-')
         variant = 'home' if key in core.town.HOMES and location == core.town.HOMES[key] else 'selection'
@@ -202,7 +203,35 @@ class Game(tk.Tk):
             path = core.ROOT / 'assets' / 'portraits' / 'charles-selection-v2.png'
         if core.custom_protagonist.is_custom(key):
             path = core.custom_protagonist.portrait_path(core.custom_protagonist._profiles[key])
-        cache = (key, size, str(path))
+        if special_portrait is not None and special_portrait.is_file():path=special_portrait
+        # Scene-only historical art wins over wardrobes, sleepwear and combat art.
+        if location is not None:
+            historical=__import__('campaign_flashbacks').portrait_path(self.state_data,key)
+            if historical is None and key=='joseph-richter':
+                historical=__import__('campaign_flashbacks').portrait_path(self.state_data,'Joseph Richter')
+            if historical is not None:path=historical
+        return key, path
+
+    def portrait_group(self, sizes, location=None, minute=None):
+        """Fit participants at one scale even when the player's slot is wider."""
+        import character_stature
+        import portrait_framing
+        entries = []
+        for who, size in sizes.items():
+            key, path = Game.portrait_path(self, who, location, minute)
+            if path.is_file():
+                entries.append((portrait_framing.load(path), size,
+                                character_stature.height_cm(key, path)))
+        scale = portrait_framing.shared_scale(entries) if entries else None
+        return {who: Game.portrait(self, who, size, location, minute, scale=scale)
+                for who, size in sizes.items()}
+
+    def portrait(self, key, size, location=None, minute=None, outfit=None, *, scale=None):
+        import character_stature
+        import portrait_framing
+        key, path = Game.portrait_path(self, key, location, minute, outfit)
+        height = character_stature.height_cm(key, path)
+        cache = (key, size, str(path), height, scale)
         if cache not in self.photos:
             if not path.exists():
                 im = Image.new('RGBA', size, CARD)
@@ -211,21 +240,8 @@ class Game(tk.Tk):
                 draw.text((size[0]//2, size[1]//2), ''.join(part[0] for part in name.split()), fill=GOLD, anchor='mm', font_size=max(18, size[0]//4))
                 self.photos[cache] = ImageTk.PhotoImage(im)
                 return self.photos[cache]
-            with Image.open(path) as source:
-                im = source.convert('RGBA')
-                heights = {'garrett': 188, 'rei': 184, 'minsu': 177, 'ivan': 193}
-                if key in heights:
-                    # Use Garrett's framing as the common scale, rather than letting
-                    # different source aspect ratios change the apparent height.
-                    reference_height = min(size[1], size[0] * 1374 / 1145)
-                    target_height = min(size[1], round(reference_height * heights[key] / 188))
-                    im.thumbnail((size[0], target_height), Image.Resampling.LANCZOS)
-                    frame = Image.new('RGBA', size, (0, 0, 0, 0))
-                    frame.alpha_composite(im, ((size[0] - im.width) // 2, size[1] - im.height))
-                    im = frame
-                else:
-                    im.thumbnail(size, Image.Resampling.LANCZOS)
-                self.photos[cache] = ImageTk.PhotoImage(im)
+            im = portrait_framing.fit(portrait_framing.load(path), size, height, scale)
+            self.photos[cache] = ImageTk.PhotoImage(im)
         return self.photos[cache]
 
     def home(self):
@@ -341,9 +357,12 @@ class Game(tk.Tk):
         self.personal_panel = False
         self.navigation = []
         self.contact_buttons = {}
-        top = tk.Frame(self, bg=BG, padx=20, pady=12)
+        masthead = ui.TextureFrame(self, bg=BG, padx=20, pady=10)
+        masthead.pack(fill='x')
+        self.label(masthead, 'MYSTERIOUS HEARTS', 17, GOLD).pack(side='left')
+        self.label(masthead, 'W I N T E R F I E L D', 9, MUTED).pack(side='right')
+        top = tk.Frame(self, bg=PANEL, padx=18, pady=6)
         top.pack(fill='x')
-        self.label(top, 'MYSTERIOUS HEARTS', 17, GOLD).pack(side='left')
         tools = tk.Menubutton(top, text='Tools ▾', bg=CARD, fg=TEXT, padx=12, pady=8)
         menu = tk.Menu(tools, tearoff=False)
         menu.add_command(label='Daily agenda', command=lambda:qol_ui.overview(self))
@@ -351,10 +370,12 @@ class Game(tk.Tk):
         menu.add_command(label='Saves & recovery', command=lambda:qol_ui.saves(self))
         menu.add_command(label='Patch notes & update history', command=lambda:__import__('patch_notes_ui').open_window(self))
         menu.add_command(label='Interpol · cases, fines & operations', command=lambda:__import__('interpol_ui').open_in_person(self))
+        menu.add_command(label='Stories, guards & gang properties', command=lambda:__import__('campaign_ui').open_in_person(self,'Story'))
         menu.add_command(label='Search conversations', command=lambda:qol_ui.journal(self))
+        menu.add_command(label='Trait applications & identity disclosure · in person', command=lambda:__import__('trait_activities').open_in_person(self))
         tools.configure(menu=menu); tools.pack(side='right', padx=4)
         self.clock_label = self.label(top, '', 11, MUTED)
-        self.clock_label.pack(side='left', padx=24)
+        self.clock_label.pack(side='left', padx=(0, 14))
         import simulation_clock
         self.time_mode = tk.StringVar(value=simulation_clock.mode(self.state_data))
         self.time_button = tk.Menubutton(top, text='Time ▾', bg=CARD, fg=TEXT, padx=8, pady=8)
@@ -418,7 +439,7 @@ class Game(tk.Tk):
         self.hangout_view = HangoutView(main, self)
         self.hangout_view.pack(fill='both', expand=True)
         self.bind('<F11>', lambda e: self.hangout_view.toggle_fullscreen())
-        self.bind('<Escape>', lambda e: self.hangout_view.set_fullscreen(False))
+        self.bind('<Escape>', self.escape_in_person)
         from presence_ui import PresenceView
         self.presence_view = PresenceView(body, self)
         self.open_phone_button = self.button(top, 'Open phone', self.phone_window, True)
@@ -500,6 +521,9 @@ class Game(tk.Tk):
 
     def render(self):
         state = self.state_data
+        if __import__('flashback_visits').active(state):
+            __import__('flashback_visit_ui').open_in_person(self)
+            return
         groups.sync_contacts(state)
         # Migrate an older save's current spoken conversation into Hangouts.
         if not state.get('active_group'):
@@ -594,6 +618,17 @@ class Game(tk.Tk):
 
     def layout_presence(self):
         if not hasattr(self, 'presence_view') or not self.presence_view.winfo_exists(): return
+        reader=getattr(self.hangout_view,'prose_reader',None)
+        if reader is not None and reader.winfo_exists() and reader.history_mode and reader.archive_state is self.state_data:
+            self.presence_view.pack_forget();self.in_person_chat.pack(side='left',fill='both',expand=True)
+            return
+        if __import__('flashback_visits').active(self.state_data):
+            __import__('flashback_visit_ui').open_in_person(self)
+            return
+        __import__('campaign_dialogue').activate_epilogue(self.state_data)
+        if self.state_data.get('campaign_dialogue'):
+            __import__('campaign_dialogue').show(self)
+            return
         response=self.hangout_view.combat_actions.response
         if response:
             view=getattr(self,'combat_view',None)
@@ -631,6 +666,12 @@ class Game(tk.Tk):
 
     def show_in_person(self, hide_phone=True):
         if self.busy: return
+        if __import__('flashback_visits').active(self.state_data):
+            __import__('flashback_visit_ui').open_in_person(self)
+            return
+        if self.state_data.get('campaign_dialogue'):
+            __import__('campaign_dialogue').show(self)
+            return
         self.close_main_area()
         if hide_phone:self.hide_phone_for_location()
         s = self.state_data
@@ -646,6 +687,11 @@ class Game(tk.Tk):
         self.persist()
         self.render()
 
+
+    def escape_in_person(self, event=None):
+        view=getattr(self,'flashback_view',None)
+        if view is not None and view.winfo_exists():view.escape()
+        else:self.hangout_view.set_fullscreen(False)
 
     def chat_blocks(self, pane=None):
         if not self.group_selected:
@@ -815,6 +861,7 @@ class Game(tk.Tk):
         self.render()
 
     def submit(self, action, photo_id=None):
+        if self.state_data.get('flashback_visit'):return
         import combat
         if combat.active(self.state_data) or combat.recovering(self.state_data):
             self.status.configure(text='Finish combat or recover before interacting.'); return
@@ -885,10 +932,16 @@ class Game(tk.Tk):
         self.render()
 
     def poll(self):
+        if self.in_game and self.state_data and self.state_data.get('flashback_visit'):
+            self.simulation_clock.tick(self.state_data)
+            self.after(100,self.poll)
+            return
         hangout=getattr(self,'hangout_view',None)
         interaction=getattr(hangout,'combat_actions',None)
         reading_combat=bool(interaction and (interaction.working or interaction.response))
-        elapsed = self.simulation_clock.tick(self.state_data, self.in_game and not reading_combat)
+        reader=getattr(hangout,'prose_reader',None)
+        reading_archive=bool(reader and reader.winfo_exists() and reader.winfo_viewable() and reader.history_mode)
+        elapsed = self.simulation_clock.tick(self.state_data, self.in_game and not reading_combat and not reading_archive)
         import supafast
         supafast.tick(self)
         if elapsed:
@@ -1063,6 +1116,9 @@ class Game(tk.Tk):
         self.layout_presence()
 
     def phone_window(self, selected='Home'):
+        if self.state_data and __import__('flashback_visits').active(self.state_data):
+            __import__('flashback_visit_ui').open_in_person(self)
+            return
         import combat
         if self.state_data and (combat.active(self.state_data) or combat.recovering(self.state_data)):
             __import__('combat_ui').open_combat(self); return

@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "installed_on": "2026-11-11",
+  "marketplace": "mysterious-hearts-tools",
+  "scope": "Installed locally; enabled in this project; disabled at user scope",
+  "plugins": [
+    {
+      "name": "story-skills",
+      "plugin_id": "story-skills@mysterious-hearts-tools",
+      "version": "0.24.1",
+      "repository": "https://github.com/danjdewhurst/story-skills",
+      "source_path": "C:\\Users\\ryanl\\.codex\\community-sources\\mysterious-hearts\\story-skills",
+      "installed_path": "C:\\Users\\ryanl\\.codex\\plugins\\cache\\mysterious-hearts-tools\\story-skills\\0.24.1",
+      "manifest_sha256": "e79da621d11702898fe3809fc0a2c205eb3e718a0e0da9583e95f57672bdff75",
+      "commit": "3c0e0346ee09ded32546d9481ac18ec5324f02c3"
+    },
+    {
+      "name": "context-guard",
+      "plugin_id": "context-guard@mysterious-hearts-tools",
+      "version": "0.17.2",
+      "repository": "https://github.com/GreenLv/codex-context-guard",
+      "source_path": "C:\\Users\\ryanl\\.codex\\community-sources\\mysterious-hearts\\context-guard-release",
+      "installed_path": "C:\\Users\\ryanl\\.codex\\plugins\\cache\\mysterious-hearts-tools\\context-guard\\0.17.2",
+      "manifest_sha256": "6c76bb93bf3e362bee99f34cd03f82b3aec989d5b4494f671469d07c986f00b9",
+      "release_tag": "v0.17.2",
+      "release_archive_sha256": "e4640cc14880e88817efef6db9f7d006f64b6281229715f5972d492c84b81230",
+      "hooks": "nine enabled and trusted via native Codex API on 2026-11-11; exact reviewed hashes; automatic activation and recovery replay passed"
+    },
+    {
+      "name": "falsegreen-skill",
+      "plugin_id": "falsegreen-skill@mysterious-hearts-tools",
+      "version": "0.8.2",
+      "repository": "https://github.com/vinicq/falsegreen-skill",
+      "source_path": "C:\\Users\\ryanl\\.codex\\community-sources\\mysterious-hearts\\falsegreen-skill",
+      "installed_path": "C:\\Users\\ryanl\\.codex\\plugins\\cache\\mysterious-hearts-tools\\falsegreen-skill\\0.8.2",
+      "manifest_sha256": "baf8333481286dc08b2c9eba3e0cd1237e30c45b242e1d51c7b76377f2ff5d1f",
+      "commit": "2256250b32388bc834f352c90019074a848826ef"
+    },
+    {
+      "name": "writers-loop",
+      "plugin_id": "writers-loop@mysterious-hearts-tools",
+      "version": "0.1.0",
+      "repository": "https://github.com/xxsang/writers-loop",
+      "source_path": "C:\\Users\\ryanl\\.codex\\community-sources\\mysterious-hearts\\writers-loop",
+      "installed_path": "C:\\Users\\ryanl\\.codex\\plugins\\cache\\mysterious-hearts-tools\\writers-loop\\0.1.0",
+      "manifest_sha256": "eff6f47850e584af3fd33011fa6959a1d310ce8bd5990c749f87aa4c1a3ee674",
+      "commit": "e5a233cd2ac03e993636a6b81f512534f86c3fb8"
+    },
+    {
+      "name": "sfxmint",
+      "plugin_id": "sfxmint@mysterious-hearts-tools",
+      "version": "1.0.9",
+      "repository": "https://github.com/sfxmint/sfxmint-mcp",
+      "source_path": "C:\\Users\\ryanl\\.codex\\community-sources\\mysterious-hearts\\sfxmint-mcp",
+      "installed_path": "C:\\Users\\ryanl\\.codex\\plugins\\cache\\mysterious-hearts-tools\\sfxmint\\1.0.9",
+      "manifest_sha256": "f23518c10caa9dc42d14c8d83882c4fc4d7bb0a21c35f4df9caaa61bdc1ff8a3",
+      "commit": "bcbd0e97a4fe206d196ac9c614abf3e179c82eab"
+    },
+    {
+      "name": "bulk-bg-remove",
+      "plugin_id": "bulk-bg-remove@mysterious-hearts-tools",
+      "version": "0.1.3",
+      "repository": "https://github.com/Btike/bulk-bg-remove",
+      "source_path": "C:\\Users\\ryanl\\.codex\\community-sources\\mysterious-hearts\\bulk-bg-remove",
+      "installed_path": "C:\\Users\\ryanl\\.codex\\plugins\\cache\\mysterious-hearts-tools\\bulk-bg-remove\\0.1.3",
+      "manifest_sha256": "0ab44adc8b583b991cb8f2c73bf930a3feea343f578f932982d4b9110ce86093",
+      "commit": "54417c9650bfe9c193c1e29a64faf809c0fceddf",
+      "local_adaptations": "tools/prepare_media_plugins.py; free-only policy and Windows runtime",
+      "scope": "project only; user default disabled",
+      "local_file_sha256": {
+        "skills/bulk-bg-remove/SKILL.md": "f6ff439cd805af9148716e29b5b004ecc6bc64da844ecb875376d18d9744bd96"
+      }
+    },
+    {
+      "name": "pro-motion",
+      "plugin_id": "pro-motion@mysterious-hearts-tools",
+      "version": "1.3.0",
+      "repository": "https://github.com/jack-reson8/pro-motion",
+      "source_path": "C:\\Users\\ryanl\\.codex\\community-sources\\mysterious-hearts\\pro-motion\\plugins\\pro-motion",
+      "installed_path": "C:\\Users\\ryanl\\.codex\\plugins\\cache\\mysterious-hearts-tools\\pro-motion\\1.3.0",
+      "manifest_sha256": "47a48d568c5c00c0001adf59c3defe26381286702cf4d774a04e82a5fead24b4",
+      "commit": "f4b5821af19ad685d78ce5d67eab2abb62e41069",
+      "local_adaptations": "tools/prepare_media_plugins.py; free-only policy and Windows runtime",
+      "scope": "project only; user default disabled",
+      "local_file_sha256": {
+        "skills/pro-motion/SKILL.md": "2ea19be72036bfdb3d10104a56ec548477984c46f53cb06a0fa0c527b8a1a3a3",
+        "skills/pro-motion/scripts/render-fast.js": "9bc70fe980bc3ed63a815a83e15975412ac51972dcf94047decbb4dff5893016"
+      }
+    },
+    {
+      "name": "design-os-svg-animation",
+      "plugin_id": "design-os-svg-animation@mysterious-hearts-tools",
+      "version": "1.0.0",
+      "repository": "https://github.com/jangtrinh/design-os-svg-animation",
+      "source_path": "C:\\Users\\ryanl\\.codex\\community-sources\\mysterious-hearts\\design-os-svg-animation",
+      "installed_path": "C:\\Users\\ryanl\\.codex\\plugins\\cache\\mysterious-hearts-tools\\design-os-svg-animation\\1.0.0",
+      "manifest_sha256": "c940b9e0a40c825e2f562427e1105803a54cff684f7c30455904d6aacc4616b8",
+      "commit": "6af91563a11813bd6aa669841e962cc85bd51fa0",
+      "local_adaptations": "tools/prepare_media_plugins.py; free-only policy and Windows runtime",
+      "scope": "project only; user default disabled",
+      "local_file_sha256": {
+        "skills/es-tutorial-video/SKILL.md": "4140bdb586faa94d1eb48079b0a36d82d4e05a6bf28b3336c759e5c0eb3bd4ec",
+        "skills/line-art-motion/SKILL.md": "24b8285d169ce783c262dc2ece18ad4884c1a5668227dccf953eb19b685b8acc",
+        "skills/motion-video-recreation/SKILL.md": "ea1f222b0c4578af2fbf6b9a737569be6cfd1fe60a129b6666fbc96828237b35",
+        "skills/product-designer/SKILL.md": "53889e67497f9524741f319f75289e4eff7b35fc007c1e9099e97edce1c7519a",
+        "scripts/export-60fps-video.mjs": "747fd460100fdcad60cbcb269387e3fe5bb567ad936badc9dc09310fe6b395be",
+        "skills/es-tutorial-video/contract.json": "1c1684466f33ab0cb8362ebb6e8de4427eac74ba92e7d2bdad8a8712e6adf5a1"
+      }
+    },
+    {
+      "name": "launch-film",
+      "plugin_id": "launch-film@mysterious-hearts-tools",
+      "version": "0.2.1",
+      "repository": "https://github.com/EminBudak/launch-film",
+      "source_path": "C:\\Users\\ryanl\\.codex\\community-sources\\mysterious-hearts\\launch-film",
+      "installed_path": "C:\\Users\\ryanl\\.codex\\plugins\\cache\\mysterious-hearts-tools\\launch-film\\0.2.1",
+      "manifest_sha256": "d407f11025795d574e7c3d61a9217cf8b3475d2b3fba3cd2e59ce6e48b403819",
+      "commit": "7b20fa804b6f80aa0e4d44156b724c586be02e5e",
+      "local_adaptations": "tools/prepare_media_plugins.py; free-only policy and Windows runtime",
+      "scope": "project only; user default disabled",
+      "local_file_sha256": {
+        "skills/launch-film/SKILL.md": "0e458fada3fdb93128d31759df6002089415e8658446fd6b2a42edaf9b2210b0",
+        "src/chrome.js": "1ab2cc1d554db000fd843494a2c410896f8461a219cb26149b5fb45eac894638"
+      }
+    },
+    {
+      "name": "prompt-to-asset",
+      "plugin_id": "prompt-to-asset@mysterious-hearts-tools",
+      "version": "0.1.0",
+      "repository": "https://github.com/MohamedAbdallah-14/prompt-to-asset",
+      "source_path": "C:\\Users\\ryanl\\.codex\\community-sources\\mysterious-hearts\\prompt-to-asset\\plugins\\prompt-to-asset",
+      "installed_path": "C:\\Users\\ryanl\\.codex\\plugins\\cache\\mysterious-hearts-tools\\prompt-to-asset\\0.1.0",
+      "manifest_sha256": "1f439634b7cd9e8240f4f03de926aca6d557abb611cfe3c5a0a9d71d3dff206d",
+      "commit": "1e66880c2a2a34f35bf9bc55ad64194f8185109f",
+      "local_adaptations": "tools/prepare_media_plugins.py; free-only policy and Windows runtime",
+      "scope": "project only; user default disabled",
+      "local_file_sha256": {
+        "skills/app-icon/SKILL.md": "fcdff6d9805f0d0fd99d471b60065580ccda80f48b0b8fb551d0f70904683bd0",
+        "skills/asset-enhancer/SKILL.md": "8f0499d42c03f2fb49d94f156111b9b0a2075b1f52b1a1fd5fd4ba7e54f16b9c",
+        "skills/asset-validation-debug/SKILL.md": "855a8e016b262a159a89c2c7aac4aeb132c0e35290fd6af6ee97987c930b1daf",
+        "skills/brand-consistency/SKILL.md": "5eee3c0b22bbcd0b27c77b802b6a23090b29eb7b78e6d47dff127c42d92a7981",
+        "skills/favicon/SKILL.md": "8bee38b301a5f6f74abdc6ee3477e596f4816400dd1cb917d513a188184cbbb3",
+        "skills/illustration/SKILL.md": "30115f4f83ee182e71f418e3508259c64b5d7af209fb3954f8f604ef6b499565",
+        "skills/logo/SKILL.md": "dbbebc75db74f7af8fc9dc4b7c5ea84c7aa8ff130f629f6d643bc29d61045b36",
+        "skills/og-image/SKILL.md": "9871de9cc222d2fc3b0906ae6b0d500a61606957a15a2eccff7de1a795d727f6",
+        "skills/svg-authoring/SKILL.md": "acee54a15cad6119015f15130068f80c23de36475337fc063f3d68d4349f2364",
+        "skills/t2i-prompt-dialect/SKILL.md": "18801f35cbbeb314b0149ce17eac4ac832ae7ed875ea8e3cd36874b3f57b405e",
+        "skills/transparent-bg/SKILL.md": "872d3295aeea91d51142361e17f5d5cd6f2fdd744f13b78cf9fc62ff4a9abdd7",
+        "skills/ui-mockup-prompt/SKILL.md": "01d90393f2bde68f812fb21286193bab245440e263501b529cc5a70d6bffc515",
+        "skills/vectorize/SKILL.md": "45fbe05dc0809fbdeed3dfa70b6623630761e8de22bfcc3fc5e78a845edfcefa",
+        ".codex-plugin/plugin.json": "1f439634b7cd9e8240f4f03de926aca6d557abb611cfe3c5a0a9d71d3dff206d",
+        ".codex.mcp.json": "2227be4244031339ebc3d0ea1f4c47f0f694e5aee82d5fedc812b202a571c57a"
+      }
+    }
+  ]
+}

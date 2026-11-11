@@ -10,10 +10,13 @@ def generate(state, names, context, *, texting=False, opening=False):
     import emotions
     profiles = {}
     for name in names:
-        detail = next(p for p in (*town.NPCS, *town.VENUE_STAFF.values(), town.HQ_EXECUTIVE) if p[0] == name)
+        detail = (__import__('organisation_guards').npc_detail(state,name) if name.startswith('Post guard · ') else
+                  next(p for p in (*town.NPCS, *town.VENUE_STAFF.values(), town.HQ_EXECUTIVE) if p[0] == name))
         profiles[name] = dict(role=detail[1], background=detail[2],
             today=town.town_residents.context(name, state['world']['minute']),
             familiarity=state.get('npc_chats', {}).get(name, {}).get('connection', {}).get('status', 'strangers'))
+        outcome=__import__('rei_story').context(state,name,[state['player'],*names])
+        if outcome: profiles[name]['Authored story outcome']=outcome
         import criminal_dynamics
         profiles[name]['Criminal dynamics'] = criminal_dynamics.context(name, [state['player'], *[n for n in names if n != name]], state)
         import keisuke
@@ -54,6 +57,8 @@ def generate(state, names, context, *, texting=False, opening=False):
         location=None if texting else town.loop.place_name(state), clock=town.loop.clock(state),
         channel='text' if texting else 'in_person')
     participants = [state['player'], *names]
+    custom_context=__import__('character_identity').audience(state,names)
+    if custom_context: payload['player_background']=custom_context
     schema = {'type': 'object', 'properties': {
         'narration': {'type':'string'},
         'lines': {'type':'array', 'minItems':len(names) if texting else 1, 'maxItems':len(names) if texting else core.dialogue_craft.line_limit(names), 'items': {

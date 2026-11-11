@@ -1,0 +1,19 @@
+test_archive_coverage_and_sources (test_patch_notes.PatchNotesTests.test_archive_coverage_and_sources) ... FAIL
+test_atomic_failure_preserves_prior_file (test_patch_notes.PatchNotesTests.test_atomic_failure_preserves_prior_file) ... ok
+test_bad_schema_duplicates_and_dates_rejected (test_patch_notes.PatchNotesTests.test_bad_schema_duplicates_and_dates_rejected) ... ok
+test_export_selected_only_and_provenance (test_patch_notes.PatchNotesTests.test_export_selected_only_and_provenance) ... ok
+test_preferences_roundtrip_and_revision_unread (test_patch_notes.PatchNotesTests.test_preferences_roundtrip_and_revision_unread) ... ok
+test_search_filters_and_date_order (test_patch_notes.PatchNotesTests.test_search_filters_and_date_order) ... ok
+
+======================================================================
+FAIL: test_archive_coverage_and_sources (test_patch_notes.PatchNotesTests.test_archive_coverage_and_sources)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\ryanl\Documents\Mysterious Hearts\tests\test_patch_notes.py", line 23, in test_archive_coverage_and_sources
+    self.assertTrue((notes.ROOT/source.split(' � ')[0]).exists(), source)
+AssertionError: False is not true : tests/screenshots/mixtape-art-review-0.jpg
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.177s
+
+FAILED (failures=1)

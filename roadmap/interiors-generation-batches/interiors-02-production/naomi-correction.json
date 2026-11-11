@@ -1,0 +1,17 @@
+{
+  "id": "naomi_home__bathroom",
+  "prompt": "Edit this bathroom illustration ONLY by replacing every clear pane of the large right-hand window with translucent textured/frosted privacy glass. Preserve the dark mullion grid and warm dusk colour, but no outside buildings, river or trees should be discernible through the frosted glass. Keep the small high frosted window, shower, navy vanity, toilet, slate-tile floor, lighting, plants, framing and illustrated style exactly as they are. One opaque 1536x1024 landscape image, no text or people.",
+  "reference_paths": [
+    "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c9d7-d510-72c0-8525-e3e66bf1b1bf\\exec-e94092a9-cd7d-4a90-82e6-3091dc06addf.png"
+  ],
+  "rejected_attempts": [
+    {
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create bathroom for Naomi's riverside maisonette. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: dark navy timber paneling and trim, warm brown wood floors, black metal rails, brass globe lamps, deep burgundy textiles, trailing plants, warm dusk and riverfront town views. Room brief: Private upstairs bathroom: navy vanity, pale stone basin, plain mirror, warm brass lights, shower enclosure, toilet and neat towels. Muted slate floor tiles and warm pale wet-wall tiles; small high frosted window. Closed timber door to landing. Clear central floor and domestic proportions, no balcony inside. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/naomi_home.png"
+      ],
+      "source_path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c9d7-d510-72c0-8525-e3e66bf1b1bf\\exec-e94092a9-cd7d-4a90-82e6-3091dc06addf.png",
+      "reason": "Unrequested large clear window gave a private bathroom a clear exterior sightline."
+    }
+  ]
+}

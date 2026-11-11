@@ -41,7 +41,7 @@ class SimulationClock:
         elapsed = max(0., now - self.last)
         self.last = now
         world = state['world']
-        if state.get('combat',{}).get('active'): return 0
+        if state.get('combat',{}).get('active') or state.get('campaign_dialogue') or state.get('flashback_visit'): return 0
         selected = mode(state)
         if selected == 'paused': return 0
         base_rate = 1440 / (DAY_LENGTHS[selected] * 60)

@@ -45,7 +45,8 @@ class PatchNotesTests(unittest.TestCase):
     def test_preferences_roundtrip_and_revision_unread(self):
         with tempfile.TemporaryDirectory() as folder:
             path=Path(folder)/'prefs.json'; prefs=notes.preferences(path)
-            item=self.entries[0]
+            # Default reader filters exclude staged Development reports.
+            item=notes.select(self.entries)[0]
             prefs['read'][item['id']]=notes.revision(item); prefs['bookmarks']=[item['id']]
             notes.save_preferences(prefs,path)
             self.assertEqual(notes.preferences(path),prefs)

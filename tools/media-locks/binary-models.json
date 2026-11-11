@@ -1,0 +1,8 @@
+{
+  "ffmpeg": "9.0.2-essentials",
+  "ffmpeg_archive_sha256": "60F467265B1E312373DBCD92200C2618A74850F98D3D078E94296BB3FA2047BA",
+  "source": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip",
+  "models": {
+    "models\\silueta\\silueta.onnx": "75da6c8d2f8096ec743d071951be73b4a8bc7b3e51d9a6625d63644f90ffeedb"
+  }
+}

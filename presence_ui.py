@@ -36,7 +36,10 @@ class PresenceView(ttk.Frame):
         ttk.Label(activities, text='What would you like to do?', font=('Segoe UI', 14, 'bold')).pack(anchor='w', pady=8)
         actions = [('Open phone', lambda: self.game.phone_window()),
                    ('Maps · travel somewhere', lambda: self.game.phone_window('Maps'))]
+        if __import__('flashback_visits').area_for(s['player']):
+            actions.insert(0,('Visit flashback area',lambda:__import__('flashback_visit_ui').open_in_person(self.game)))
         actions.insert(0, ('Interpol · cases, fines & field operations', lambda:__import__('interpol_ui').open_in_person(self.game)))
+        actions.insert(0, ('Stories, guards & gang properties', lambda:__import__('campaign_ui').open_in_person(self.game,'Story')))
         actions.insert(0, ('Combat · Iron Circle / training / challenges', lambda:__import__('combat_ui').open_combat(self.game)))
         import job_apps
         employed=s.get('job_apps',{}).get('employment')

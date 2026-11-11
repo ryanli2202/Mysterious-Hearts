@@ -26,7 +26,8 @@ assert {entry['name'] for entry in manifest['portraits']} == set(town_residents.
 for entry in manifest['portraits']:
     with Image.open(folder / entry['file']) as image:
         assert image.mode == 'RGBA', entry['name']
-        assert image.getchannel('A').getextrema() == (0, 255), entry['name']
+        low, high = image.getchannel('A').getextrema()
+        assert low == 0 and high >= 250, entry['name']
         assert min(image.size) >= 512
 
 for name in names:

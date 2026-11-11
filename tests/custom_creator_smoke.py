@@ -24,7 +24,7 @@ with tempfile.TemporaryDirectory(dir=core.ROOT/'assets'/'generated') as folder:
     portrait = Path(folder)/'portrait.png'
     shutil.copyfile(core.ROOT/'assets'/'portraits'/'rei-selection.png', portrait)
     relative = portrait.relative_to(core.ROOT).as_posix()
-    with patch.object(game.Game, 'check'), patch.object(game.Game, 'persist'), \
+    with patch.object(core, 'SAVE', Path(folder)/'saves'/'story.json'), patch.object(game.Game, 'check'), patch.object(game.Game, 'persist'), \
          patch.object(game.Game, 'begin_incoming'), patch.object(grove.GrovePump, 'tick'), \
          patch.object(core, 'save'), patch.object(core, 'load', return_value=None), \
          patch.object(custom, 'generate_portrait', return_value=relative):

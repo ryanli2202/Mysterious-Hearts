@@ -308,6 +308,10 @@ def start_trip(s, who, destination, passengers=()):
         raise ValueError('The Glasshouse requires personal clearance or Syndicate Jack rank in good standing for every traveller.')
     import interpol
     interpol.check_trip(s,who,destination,passengers)
+    if s.get('campaign_dialogue') and who==s['player']:
+        raise ValueError('Finish the scripted conversation before travelling.')
+    import organisation_guards
+    organisation_guards.check_trip(s,who,destination,passengers)
     crime_operations.check_trip(s,who,destination,passengers)
     w=ensure(s); actor=w['cast'][who]
     if destination == hidden.HQ and any(not hidden.hq_access(s, person) for person in (who, *passengers)):
@@ -359,6 +363,7 @@ def followups(s):
 
 
 def advance(s, minutes, *, finish_day=False, combat_turn=False):
+    __import__('flashback_visits').require_present(s)
     import combat
     if combat.active(s) and not combat_turn: raise ValueError('Finish the fight before advancing time elsewhere.')
     if combat.active(s) and combat_turn:
@@ -537,5 +542,5 @@ def idle_messages(s):
 
 
 def conversation_time(s, action, dialogue=''):
-    """Dialogue never charges time; the active-play clock drives the world."""
+    """Dialogue and physical actions never charge time; the active-play clock does."""
     return

@@ -1,0 +1,711 @@
+{
+  "scope": "Deterministic resolver evidence; no providers, campaign awards or persistent saves.",
+  "boss": [
+    {
+      "condition": "fresh",
+      "wins": 9,
+      "runs": 12,
+      "results": [
+        {
+          "protocol_windows": {
+            "player": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            },
+            "enemy": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            }
+          },
+          "winner": "richter:enhanced",
+          "turns": 12,
+          "damage": [
+            160,
+            348
+          ],
+          "stamina": [
+            24,
+            76
+          ],
+          "mana": [
+            60,
+            0
+          ]
+        },
+        {
+          "protocol_windows": {
+            "player": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            },
+            "enemy": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            }
+          },
+          "winner": "rei",
+          "turns": 21,
+          "damage": [
+            391,
+            335
+          ],
+          "stamina": [
+            13,
+            94
+          ],
+          "mana": [
+            68,
+            0
+          ]
+        },
+        {
+          "protocol_windows": {
+            "player": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            },
+            "enemy": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            }
+          },
+          "winner": "richter:enhanced",
+          "turns": 12,
+          "damage": [
+            372,
+            348
+          ],
+          "stamina": [
+            35,
+            76
+          ],
+          "mana": [
+            114,
+            0
+          ]
+        },
+        {
+          "protocol_windows": {
+            "player": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            },
+            "enemy": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            }
+          },
+          "winner": "rei",
+          "turns": 14,
+          "damage": [
+            391,
+            197
+          ],
+          "stamina": [
+            19,
+            78
+          ],
+          "mana": [
+            55,
+            0
+          ]
+        },
+        {
+          "protocol_windows": {
+            "player": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            },
+            "enemy": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            }
+          },
+          "winner": "rei",
+          "turns": 10,
+          "damage": [
+            391,
+            73
+          ],
+          "stamina": [
+            12,
+            100
+          ],
+          "mana": [
+            109,
+            0
+          ]
+        },
+        {
+          "protocol_windows": {
+            "player": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            },
+            "enemy": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            }
+          },
+          "winner": "rei",
+          "turns": 11,
+          "damage": [
+            391,
+            211
+          ],
+          "stamina": [
+            32,
+            94
+          ],
+          "mana": [
+            82,
+            0
+          ]
+        },
+        {
+          "protocol_windows": {
+            "player": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            },
+            "enemy": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            }
+          },
+          "winner": "rei",
+          "turns": 12,
+          "damage": [
+            391,
+            229
+          ],
+          "stamina": [
+            23,
+            76
+          ],
+          "mana": [
+            105,
+            0
+          ]
+        },
+        {
+          "protocol_windows": {
+            "player": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            },
+            "enemy": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            }
+          },
+          "winner": "rei",
+          "turns": 10,
+          "damage": [
+            391,
+            284
+          ],
+          "stamina": [
+            5,
+            100
+          ],
+          "mana": [
+            56,
+            0
+          ]
+        },
+        {
+          "protocol_windows": {
+            "player": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            },
+            "enemy": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            }
+          },
+          "winner": "rei",
+          "turns": 10,
+          "damage": [
+            391,
+            138
+          ],
+          "stamina": [
+            20,
+            100
+          ],
+          "mana": [
+            103,
+            0
+          ]
+        },
+        {
+          "protocol_windows": {
+            "player": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            },
+            "enemy": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            }
+          },
+          "winner": "richter:enhanced",
+          "turns": 19,
+          "damage": [
+            368,
+            348
+          ],
+          "stamina": [
+            1,
+            78
+          ],
+          "mana": [
+            32,
+            0
+          ]
+        },
+        {
+          "protocol_windows": {
+            "player": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            },
+            "enemy": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            }
+          },
+          "winner": "rei",
+          "turns": 21,
+          "damage": [
+            391,
+            339
+          ],
+          "stamina": [
+            10,
+            94
+          ],
+          "mana": [
+            25,
+            0
+          ]
+        },
+        {
+          "protocol_windows": {
+            "player": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            },
+            "enemy": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            }
+          },
+          "winner": "rei",
+          "turns": 14,
+          "damage": [
+            391,
+            215
+          ],
+          "stamina": [
+            25,
+            78
+          ],
+          "mana": [
+            85,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "depleted",
+      "wins": 3,
+      "runs": 12,
+      "results": [
+        {
+          "protocol_windows": {
+            "player": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            },
+            "enemy": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            }
+          },
+          "winner": "richter:enhanced",
+          "turns": 7,
+          "damage": [
+            160,
+            209
+          ],
+          "stamina": [
+            34,
+            76
+          ],
+          "mana": [
+            58,
+            0
+          ]
+        },
+        {
+          "protocol_windows": {
+            "player": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            },
+            "enemy": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            }
+          },
+          "winner": "richter:enhanced",
+          "turns": 9,
+          "damage": [
+            190,
+            209
+          ],
+          "stamina": [
+            5,
+            78
+          ],
+          "mana": [
+            49,
+            0
+          ]
+        },
+        {
+          "protocol_windows": {
+            "player": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            },
+            "enemy": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            }
+          },
+          "winner": "richter:enhanced",
+          "turns": 7,
+          "damage": [
+            170,
+            209
+          ],
+          "stamina": [
+            31,
+            76
+          ],
+          "mana": [
+            54,
+            0
+          ]
+        },
+        {
+          "protocol_windows": {
+            "player": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            },
+            "enemy": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            }
+          },
+          "winner": "rei",
+          "turns": 13,
+          "damage": [
+            391,
+            142
+          ],
+          "stamina": [
+            3,
+            100
+          ],
+          "mana": [
+            1,
+            0
+          ]
+        },
+        {
+          "protocol_windows": {
+            "player": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            },
+            "enemy": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            }
+          },
+          "winner": "rei",
+          "turns": 14,
+          "damage": [
+            391,
+            146
+          ],
+          "stamina": [
+            9,
+            78
+          ],
+          "mana": [
+            54,
+            0
+          ]
+        },
+        {
+          "protocol_windows": {
+            "player": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            },
+            "enemy": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            }
+          },
+          "winner": "richter:enhanced",
+          "turns": 7,
+          "damage": [
+            208,
+            209
+          ],
+          "stamina": [
+            37,
+            76
+          ],
+          "mana": [
+            47,
+            0
+          ]
+        },
+        {
+          "protocol_windows": {
+            "player": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            },
+            "enemy": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            }
+          },
+          "winner": "richter:enhanced",
+          "turns": 7,
+          "damage": [
+            152,
+            209
+          ],
+          "stamina": [
+            26,
+            76
+          ],
+          "mana": [
+            62,
+            0
+          ]
+        },
+        {
+          "protocol_windows": {
+            "player": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            },
+            "enemy": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            }
+          },
+          "winner": "richter:enhanced",
+          "turns": 7,
+          "damage": [
+            284,
+            209
+          ],
+          "stamina": [
+            37,
+            76
+          ],
+          "mana": [
+            43,
+            0
+          ]
+        },
+        {
+          "protocol_windows": {
+            "player": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            },
+            "enemy": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            }
+          },
+          "winner": "rei",
+          "turns": 11,
+          "damage": [
+            391,
+            138
+          ],
+          "stamina": [
+            10,
+            94
+          ],
+          "mana": [
+            46,
+            0
+          ]
+        },
+        {
+          "protocol_windows": {
+            "player": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            },
+            "enemy": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            }
+          },
+          "winner": "richter:enhanced",
+          "turns": 19,
+          "damage": [
+            340,
+            209
+          ],
+          "stamina": [
+            14,
+            78
+          ],
+          "mana": [
+            1,
+            0
+          ]
+        },
+        {
+          "protocol_windows": {
+            "player": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            },
+            "enemy": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            }
+          },
+          "winner": "richter:enhanced",
+          "turns": 12,
+          "damage": [
+            126,
+            209
+          ],
+          "stamina": [
+            15,
+            76
+          ],
+          "mana": [
+            3,
+            0
+          ]
+        },
+        {
+          "protocol_windows": {
+            "player": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            },
+            "enemy": {
+              "exchanges": 0,
+              "dealt": 0,
+              "received": 0
+            }
+          },
+          "winner": "richter:enhanced",
+          "turns": 7,
+          "damage": [
+            231,
+            209
+          ],
+          "stamina": [
+            26,
+            76
+          ],
+          "mana": [
+            48,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "combinations": {
+    "cases": 41040,
+    "maximum_raw_damage": {
+      "neo": 142.75,
+      "thirteen": 152.54,
+      "daniel": 201.97,
+      "ivan": 235.62,
+      "valentina": 118.85,
+      "charles": 213.44,
+      "garrett": 199.99,
+      "camila": 132.76,
+      "sylvanis": 295.8,
+      "takeo": 272.18,
+      "rei": 167.52,
+      "april": 42.36
+    },
+    "passed": true,
+    "limits": "Exhaustive over this finite matrix of current learned actions, compatible amplifications, five awakened stages and baseline/loaded stress states for twelve representative profiles. Stress states deliberately combine counters beyond normal eligibility. Not a proof about arbitrary future generated prose or every matchup."
+  },
+  "passed": true
+}

@@ -1,0 +1,213 @@
+{
+  "version": 1,
+  "id": "d8b0da1ad8c04b699de5c011d414bbf0",
+  "generation": 4,
+  "current": {
+    "origin": {
+      "version": 1,
+      "experience": "Exceptional Veteran",
+      "job": null,
+      "job_rank": 0,
+      "crime": "Faction field leader",
+      "organisation": "Spades",
+      "arts": [
+        "Krav Maga",
+        "Japanese Jujutsu",
+        "Military CQC",
+        "Jeet Kune Do"
+      ],
+      "moves": []
+    },
+    "values": {
+      "name": "",
+      "gender": "Woman",
+      "age": "25",
+      "height": "170",
+      "sexuality": "Bisexual",
+      "hairstyle": "Medium length",
+      "mbti": "INFP",
+      "occupation": "",
+      "interests": "",
+      "home": "vacant_downtown_home",
+      "awakening_trait": ""
+    },
+    "home_choice": "Vacant downtown apartment",
+    "appearance": "",
+    "awakened": false,
+    "awakening_description": "",
+    "extra": {
+      "preferred_name": "",
+      "pronunciation": "",
+      "hometown": "",
+      "biography": "",
+      "motivation": "",
+      "private_history": ""
+    },
+    "portrait": null,
+    "generated_signature": null,
+    "trait_signature": null,
+    "trait_amplifications": [],
+    "trait_reviewed": false,
+    "step": 0.0
+  },
+  "autosave": {
+    "snapshot": {
+      "origin": {
+        "version": 1,
+        "experience": "Exceptional Veteran",
+        "job": null,
+        "job_rank": 0,
+        "crime": "Faction field leader",
+        "organisation": "Spades",
+        "arts": [
+          "Krav Maga",
+          "Japanese Jujutsu",
+          "Military CQC",
+          "Jeet Kune Do"
+        ],
+        "moves": []
+      },
+      "values": {
+        "name": "",
+        "gender": "Woman",
+        "age": "25",
+        "height": "170",
+        "sexuality": "Bisexual",
+        "hairstyle": "Medium length",
+        "mbti": "INFP",
+        "occupation": "",
+        "interests": "",
+        "home": "vacant_downtown_home",
+        "awakening_trait": ""
+      },
+      "home_choice": "Vacant downtown apartment",
+      "appearance": "",
+      "awakened": false,
+      "awakening_description": "",
+      "extra": {
+        "preferred_name": "",
+        "pronunciation": "",
+        "hometown": "",
+        "biography": "",
+        "motivation": "",
+        "private_history": ""
+      },
+      "portrait": null,
+      "generated_signature": null,
+      "trait_signature": null,
+      "trait_amplifications": [],
+      "trait_reviewed": false,
+      "step": 0.0
+    },
+    "at": "2026-11-10T05:25:25+00:00",
+    "generation": 4
+  },
+  "revisions": [
+    {
+      "id": "6f7e2eeef5b6494b81b54d18c9a34134",
+      "at": "2026-11-10T05:24:46+00:00",
+      "label": "Before preset replacement",
+      "pinned": false,
+      "snapshot": {
+        "origin": {
+          "version": 1,
+          "experience": "Newcomer",
+          "job": null,
+          "job_rank": 0,
+          "crime": "Clean slate",
+          "organisation": null,
+          "arts": [],
+          "moves": []
+        },
+        "values": {
+          "name": "",
+          "gender": "Woman",
+          "age": "25",
+          "height": "170",
+          "sexuality": "Bisexual",
+          "hairstyle": "Medium length",
+          "mbti": "INFP",
+          "occupation": "",
+          "interests": "",
+          "home": "vacant_downtown_home",
+          "awakening_trait": ""
+        },
+        "home_choice": "Vacant downtown apartment",
+        "appearance": "",
+        "awakened": false,
+        "awakening_description": "",
+        "extra": {
+          "preferred_name": "",
+          "pronunciation": "",
+          "hometown": "",
+          "biography": "",
+          "motivation": "",
+          "private_history": ""
+        },
+        "portrait": null,
+        "generated_signature": null,
+        "trait_signature": null,
+        "trait_amplifications": [],
+        "trait_reviewed": false,
+        "step": 0.0
+      }
+    },
+    {
+      "id": "b1b9101b9eb6422a8e878965859bf966",
+      "at": "2026-11-10T05:24:58+00:00",
+      "label": "Before preset replacement",
+      "pinned": false,
+      "snapshot": {
+        "origin": {
+          "version": 1,
+          "experience": "Exceptional Veteran",
+          "job": null,
+          "job_rank": 0,
+          "crime": "Faction field leader",
+          "organisation": "Spades",
+          "arts": [
+            "Krav Maga",
+            "Japanese Jujutsu",
+            "Military CQC",
+            "Jeet Kune Do"
+          ],
+          "moves": []
+        },
+        "values": {
+          "name": "",
+          "gender": "Woman",
+          "age": "25",
+          "height": "170",
+          "sexuality": "Bisexual",
+          "hairstyle": "Medium length",
+          "mbti": "INFP",
+          "occupation": "",
+          "interests": "",
+          "home": "vacant_downtown_home",
+          "awakening_trait": ""
+        },
+        "home_choice": "Vacant downtown apartment",
+        "appearance": "",
+        "awakened": false,
+        "awakening_description": "",
+        "extra": {
+          "preferred_name": "",
+          "pronunciation": "",
+          "hometown": "",
+          "biography": "",
+          "motivation": "",
+          "private_history": ""
+        },
+        "portrait": null,
+        "generated_signature": null,
+        "trait_signature": null,
+        "trait_amplifications": [],
+        "trait_reviewed": false,
+        "step": 0.0
+      }
+    }
+  ],
+  "ideas": [],
+  "locks": [],
+  "updated": "2026-11-10T05:25:25+00:00"
+}

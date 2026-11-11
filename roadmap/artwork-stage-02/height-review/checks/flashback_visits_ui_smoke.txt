@@ -1,0 +1,1 @@
+PASS: main-window visits and journal without new top-level windows; both entry buttons; four protagonists; historical cast, selection, speaking/actions, paging, compact layout, cancel/error drafts, unchanged time, saved resume, rebuild cleanup, Escape/return and excluded-player access. Provider mocked.

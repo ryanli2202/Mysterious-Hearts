@@ -23,7 +23,7 @@ def source_image(name):
         outdoor = outdoor or base in {'locations/' + place for place in outskirts.OUTDOORS}
         import crime_sites
         outdoor = outdoor or base in {'locations/' + place for place in crime_sites.SITES}
-        outdoor = outdoor or base in {'locations/blackhaven','locations/fox_hideout','locations/gordon_apartments'}
+        outdoor = outdoor or base in {'locations/blackhaven','locations/fox_hideout','locations/gordon_apartments','locations/blackstone_loading'}
         if outdoor and condition in ('Rain','Snow'):
             draw=ImageDraw.Draw(image)
             for x in range(10,image.width,47):
@@ -39,10 +39,6 @@ def source_image(name):
 
 
 def scene_art(location, texting=False, minute=None):
-    if location == 'glasshouse_lab': return 'locations/site_03_interior'
-    import crime_operations
-    if location in crime_operations.ROOMS and not texting:
-        return 'locations/'+crime_operations.ROOMS[location][0]+'_interior'
     if minute is not None and not texting:
         import weather
         w=weather.at(minute)

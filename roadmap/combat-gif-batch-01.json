@@ -1,0 +1,261 @@
+{
+  "roadmap_id": "MH-001",
+  "batch": 1,
+  "created": "2026-11-10",
+  "model": "gpt-image-2-6-sunburst",
+  "mode": "text2image",
+  "project_id": "1wPspogEerl5EI7zzvJg",
+  "quoted_credits_per_asset": 50,
+  "assets": [
+    {
+      "asset_id": "MH-001-B01-slash",
+      "name": "Slash",
+      "status": "COMPLETED",
+      "params": {
+        "imageCount": 1,
+        "aspectRatio": "1:1",
+        "resolutionTier": "1k",
+        "quality": "high",
+        "outputFormat": "gif",
+        "autoEnhancePrompt": false,
+        "variant": "sunburst",
+        "prompt": "Create one animated GIF game VFX asset for Mysterious Hearts, a polished illustrated RPG combat arena. Fixed orthographic camera, square canvas, uniform dark slate background #101824, no scenery, text, UI, border, character portraits or watermark. Crisp hand-painted anime effect with controlled bloom and clear silhouette at small size. All movement contained inside central 70 percent with generous clean margins. One simple finite action: approximately 0.5 seconds of action then a quiet blank hold before repeat, identical blank starting and ending state. No camera shake, full-screen flash, environmental damage or extra hits. This is a single animated effect, not a sprite sheet or montage. A single pale steel-blue curved blade trail sweeps from lower-left to upper-right, briefly thickens at mid-swing and dissolves into three small streaks. One clean crescent, no weapon or magic runes."
+      },
+      "history_id": "bfKYAH0CCLt4QkTzETc8",
+      "result": {
+        "status": "COMPLETED",
+        "historyId": "bfKYAH0CCLt4QkTzETc8",
+        "projectId": "1wPspogEerl5EI7zzvJg",
+        "capabilityId": "gpt-image-2-6-sunburst:text2image",
+        "modelDisplayName": "GPT Image 2.6 Sunburst",
+        "aspectRatio": "1:1",
+        "prompt": "Create one animated GIF game VFX asset for Mysterious Hearts, a polished illustrated RPG combat arena. Fixed orthographic camera, square canvas, uniform dark slate background #101824, no scenery, text, UI, border, character portraits or watermark. Crisp hand-painted anime effect with controlled bloom and clear silhouette at small size. All movement contained inside central 70 percent with generous clean margins. One simple finite action: approximately 0.5 seconds of action then a quiet blank hold before repeat, identical blank starting and ending state. No camera shake, full-screen flash, environmental damage or extra hits. This is a single animated effect, not a sprite sheet or montage. A single pale steel-blue curved blade trail sweeps from lower-left to upper-right, briefly thickens at mid-swing and dissolves into three small streaks. One clean crescent, no weapon or magic runes.",
+        "resources": [
+          {
+            "id": "3HdoqiWUDh09vjWQGgpj",
+            "mediaType": "image",
+            "url": "https://cdn.openart.ai/openart-ai/production/2026-11/create-image/AMHKy4q8wM8Pd3BcDE6M/gpt-image-2-6-sunburst-1_1794269642557_0bd9aba3.gif",
+            "status": "completed",
+            "aspectRatio": "1:1",
+            "thumbnailUrl": "https://cdn.openart.ai/openart/thumbnail/production/2026-11/create-image/AMHKy4q8wM8Pd3BcDE6M/gpt-image-2-6-sunburst-1_1794269642895_2b30968e.webp",
+            "metadata": {
+              "width": 480,
+              "height": 480,
+              "format": "gif"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "asset_id": "MH-001-B01-blunt-impact",
+      "name": "Heavy impact",
+      "status": "COMPLETED",
+      "params": {
+        "imageCount": 1,
+        "aspectRatio": "1:1",
+        "resolutionTier": "1k",
+        "quality": "high",
+        "outputFormat": "gif",
+        "autoEnhancePrompt": false,
+        "variant": "sunburst",
+        "prompt": "Create one animated GIF game VFX asset for Mysterious Hearts, a polished illustrated RPG combat arena. Fixed orthographic camera, square canvas, uniform dark slate background #101824, no scenery, text, UI, border, character portraits or watermark. Crisp hand-painted anime effect with controlled bloom and clear silhouette at small size. All movement contained inside central 70 percent with generous clean margins. One simple finite action: approximately 0.5 seconds of action then a quiet blank hold before repeat, identical blank starting and ending state. No camera shake, full-screen flash, environmental damage or extra hits. This is a single animated effect, not a sprite sheet or montage. One compact pale steel-blue physical impact at centre: a compressed starburst pops into a thick short expanding air ring with a few blunt radial speed strokes, then fades. No lightning or fire; no rubble or crater."
+      },
+      "result": {
+        "status": "COMPLETED",
+        "historyId": "yalIcyIkT6cpqBrJJ11O",
+        "projectId": "1wPspogEerl5EI7zzvJg",
+        "capabilityId": "gpt-image-2-6-sunburst:text2image",
+        "modelDisplayName": "GPT Image 2.6 Sunburst",
+        "aspectRatio": "1:1",
+        "prompt": "Create one animated GIF game VFX asset for Mysterious Hearts, a polished illustrated RPG combat arena. Fixed orthographic camera, square canvas, uniform dark slate background #101824, no scenery, text, UI, border, character portraits or watermark. Crisp hand-painted anime effect with controlled bloom and clear silhouette at small size. All movement contained inside central 70 percent with generous clean margins. One simple finite action: approximately 0.5 seconds of action then a quiet blank hold before repeat, identical blank starting and ending state. No camera shake, full-screen flash, environmental damage or extra hits. This is a single animated effect, not a sprite sheet or montage. One compact pale steel-blue physical impact at centre: a compressed starburst pops into a thick short expanding air ring with a few blunt radial speed strokes, then fades. No lightning or fire; no rubble or crater.",
+        "resources": [
+          {
+            "id": "nU35Pnb3kbU8Oia2ceyA",
+            "mediaType": "image",
+            "url": "https://cdn.openart.ai/openart-ai/production/2026-11/create-image/AMHKy4q8wM8Pd3BcDE6M/gpt-image-2-6-sunburst-1_1794269650799_5875da9c.gif",
+            "status": "completed",
+            "aspectRatio": "1:1",
+            "thumbnailUrl": "https://cdn.openart.ai/openart/thumbnail/production/2026-11/create-image/AMHKy4q8wM8Pd3BcDE6M/gpt-image-2-6-sunburst-1_1794269651295_ff03b4ca.webp",
+            "metadata": {
+              "width": 480,
+              "height": 480,
+              "format": "gif"
+            }
+          }
+        ]
+      },
+      "history_id": "yalIcyIkT6cpqBrJJ11O"
+    },
+    {
+      "asset_id": "MH-001-B01-projectile",
+      "name": "Projectile",
+      "status": "COMPLETED",
+      "params": {
+        "imageCount": 1,
+        "aspectRatio": "1:1",
+        "resolutionTier": "1k",
+        "quality": "high",
+        "outputFormat": "gif",
+        "autoEnhancePrompt": false,
+        "variant": "sunburst",
+        "prompt": "Create one animated GIF game VFX asset for Mysterious Hearts, a polished illustrated RPG combat arena. Fixed orthographic camera, square canvas, uniform dark slate background #101824, no scenery, text, UI, border, character portraits or watermark. Crisp hand-painted anime effect with controlled bloom and clear silhouette at small size. All movement contained inside central 70 percent with generous clean margins. One simple finite action: approximately 0.5 seconds of action then a quiet blank hold before repeat, identical blank starting and ending state. No camera shake, full-screen flash, environmental damage or extra hits. This is a single animated effect, not a sprite sheet or montage. One small steel-blue physical projectile streak travels horizontally from the left inner margin to the right inner margin, with a thin tapering motion trail, then exits and clears completely. No impact baked into the flight, no gun, no casing, no second projectile."
+      },
+      "result": {
+        "status": "COMPLETED",
+        "historyId": "Xza4N5T571aKfKuTqwNV",
+        "projectId": "1wPspogEerl5EI7zzvJg",
+        "capabilityId": "gpt-image-2-6-sunburst:text2image",
+        "modelDisplayName": "GPT Image 2.6 Sunburst",
+        "aspectRatio": "1:1",
+        "prompt": "Create one animated GIF game VFX asset for Mysterious Hearts, a polished illustrated RPG combat arena. Fixed orthographic camera, square canvas, uniform dark slate background #101824, no scenery, text, UI, border, character portraits or watermark. Crisp hand-painted anime effect with controlled bloom and clear silhouette at small size. All movement contained inside central 70 percent with generous clean margins. One simple finite action: approximately 0.5 seconds of action then a quiet blank hold before repeat, identical blank starting and ending state. No camera shake, full-screen flash, environmental damage or extra hits. This is a single animated effect, not a sprite sheet or montage. One small steel-blue physical projectile streak travels horizontally from the left inner margin to the right inner margin, with a thin tapering motion trail, then exits and clears completely. No impact baked into the flight, no gun, no casing, no second projectile.",
+        "resources": [
+          {
+            "id": "lU4x1DzEff3AIoEOZ3Jc",
+            "mediaType": "image",
+            "url": "https://cdn.openart.ai/openart-ai/production/2026-11/create-image/AMHKy4q8wM8Pd3BcDE6M/gpt-image-2-6-sunburst-1_1794269654232_6ee8d556.gif",
+            "status": "completed",
+            "aspectRatio": "1:1",
+            "thumbnailUrl": "https://cdn.openart.ai/openart/thumbnail/production/2026-11/create-image/AMHKy4q8wM8Pd3BcDE6M/gpt-image-2-6-sunburst-1_1794269654860_d2ceed9b.webp",
+            "metadata": {
+              "width": 480,
+              "height": 480,
+              "format": "gif"
+            }
+          }
+        ]
+      },
+      "history_id": "Xza4N5T571aKfKuTqwNV"
+    },
+    {
+      "asset_id": "MH-001-B01-magic",
+      "name": "Magic impact",
+      "status": "COMPLETED",
+      "params": {
+        "imageCount": 1,
+        "aspectRatio": "1:1",
+        "resolutionTier": "1k",
+        "quality": "high",
+        "outputFormat": "gif",
+        "autoEnhancePrompt": false,
+        "variant": "sunburst",
+        "prompt": "Create one animated GIF game VFX asset for Mysterious Hearts, a polished illustrated RPG combat arena. Fixed orthographic camera, square canvas, uniform dark slate background #101824, no scenery, text, UI, border, character portraits or watermark. Crisp hand-painted anime effect with controlled bloom and clear silhouette at small size. All movement contained inside central 70 percent with generous clean margins. One simple finite action: approximately 0.5 seconds of action then a quiet blank hold before repeat, identical blank starting and ending state. No camera shake, full-screen flash, environmental damage or extra hits. This is a single animated effect, not a sprite sheet or montage. A single cyan-blue magical mote gathers briefly at centre and blooms into one compact luminous circular pulse with a few curling blue sparks, then dissipates completely. One clear impact beat, no lightning storm or full-screen glow."
+      },
+      "result": {
+        "status": "COMPLETED",
+        "historyId": "7z1qUb5uO35USI8HOPJ6",
+        "projectId": "1wPspogEerl5EI7zzvJg",
+        "capabilityId": "gpt-image-2-6-sunburst:text2image",
+        "modelDisplayName": "GPT Image 2.6 Sunburst",
+        "aspectRatio": "1:1",
+        "prompt": "Create one animated GIF game VFX asset for Mysterious Hearts, a polished illustrated RPG combat arena. Fixed orthographic camera, square canvas, uniform dark slate background #101824, no scenery, text, UI, border, character portraits or watermark. Crisp hand-painted anime effect with controlled bloom and clear silhouette at small size. All movement contained inside central 70 percent with generous clean margins. One simple finite action: approximately 0.5 seconds of action then a quiet blank hold before repeat, identical blank starting and ending state. No camera shake, full-screen flash, environmental damage or extra hits. This is a single animated effect, not a sprite sheet or montage. A single cyan-blue magical mote gathers briefly at centre and blooms into one compact luminous circular pulse with a few curling blue sparks, then dissipates completely. One clear impact beat, no lightning storm or full-screen glow.",
+        "resources": [
+          {
+            "id": "wq0ryBgwi206h5dDc0eJ",
+            "mediaType": "image",
+            "url": "https://cdn.openart.ai/openart-ai/production/2026-11/create-image/AMHKy4q8wM8Pd3BcDE6M/gpt-image-2-6-sunburst-1_1794269657507_170a1e4f.gif",
+            "status": "completed",
+            "aspectRatio": "1:1",
+            "thumbnailUrl": "https://cdn.openart.ai/openart/thumbnail/production/2026-11/create-image/AMHKy4q8wM8Pd3BcDE6M/gpt-image-2-6-sunburst-1_1794269657825_01ec7500.webp",
+            "metadata": {
+              "width": 480,
+              "height": 480,
+              "format": "gif"
+            }
+          }
+        ]
+      },
+      "history_id": "7z1qUb5uO35USI8HOPJ6"
+    },
+    {
+      "asset_id": "MH-001-B01-heal",
+      "name": "Heal",
+      "status": "COMPLETED",
+      "params": {
+        "imageCount": 1,
+        "aspectRatio": "1:1",
+        "resolutionTier": "1k",
+        "quality": "high",
+        "outputFormat": "gif",
+        "autoEnhancePrompt": false,
+        "variant": "sunburst",
+        "prompt": "Create one animated GIF game VFX asset for Mysterious Hearts, a polished illustrated RPG combat arena. Fixed orthographic camera, square canvas, uniform dark slate background #101824, no scenery, text, UI, border, character portraits or watermark. Crisp hand-painted anime effect with controlled bloom and clear silhouette at small size. All movement contained inside central 70 percent with generous clean margins. One simple finite action: approximately 0.5 seconds of action then a quiet blank hold before repeat, identical blank starting and ending state. No camera shake, full-screen flash, environmental damage or extra hits. This is a single animated effect, not a sprite sheet or montage. One mint-green restorative bloom at centre: three soft curved petal-shaped light ribbons rise together around a small luminous core, open gently, then dissolve into a few upward motes. Calm positive energy, no medical text, no cross icon, no attack burst."
+      },
+      "result": {
+        "status": "COMPLETED",
+        "historyId": "rJUieKaycxBDe6Nvu4Fu",
+        "projectId": "1wPspogEerl5EI7zzvJg",
+        "capabilityId": "gpt-image-2-6-sunburst:text2image",
+        "modelDisplayName": "GPT Image 2.6 Sunburst",
+        "aspectRatio": "1:1",
+        "prompt": "Create one animated GIF game VFX asset for Mysterious Hearts, a polished illustrated RPG combat arena. Fixed orthographic camera, square canvas, uniform dark slate background #101824, no scenery, text, UI, border, character portraits or watermark. Crisp hand-painted anime effect with controlled bloom and clear silhouette at small size. All movement contained inside central 70 percent with generous clean margins. One simple finite action: approximately 0.5 seconds of action then a quiet blank hold before repeat, identical blank starting and ending state. No camera shake, full-screen flash, environmental damage or extra hits. This is a single animated effect, not a sprite sheet or montage. One mint-green restorative bloom at centre: three soft curved petal-shaped light ribbons rise together around a small luminous core, open gently, then dissolve into a few upward motes. Calm positive energy, no medical text, no cross icon, no attack burst.",
+        "resources": [
+          {
+            "id": "jyEEjwqrVwkNcyfOlgig",
+            "mediaType": "image",
+            "url": "https://cdn.openart.ai/openart-ai/production/2026-11/create-image/AMHKy4q8wM8Pd3BcDE6M/gpt-image-2-6-sunburst-1_1794269731604_b18acbff.gif",
+            "status": "completed",
+            "aspectRatio": "1:1",
+            "thumbnailUrl": "https://cdn.openart.ai/openart/thumbnail/production/2026-11/create-image/AMHKy4q8wM8Pd3BcDE6M/gpt-image-2-6-sunburst-1_1794269731937_4be15b7c.webp",
+            "metadata": {
+              "width": 480,
+              "height": 480,
+              "format": "gif"
+            }
+          }
+        ]
+      },
+      "history_id": "rJUieKaycxBDe6Nvu4Fu"
+    },
+    {
+      "asset_id": "MH-001-B01-shield",
+      "name": "Guard",
+      "status": "COMPLETED",
+      "params": {
+        "imageCount": 1,
+        "aspectRatio": "1:1",
+        "resolutionTier": "1k",
+        "quality": "high",
+        "outputFormat": "gif",
+        "autoEnhancePrompt": false,
+        "variant": "sunburst",
+        "prompt": "Create one animated GIF game VFX asset for Mysterious Hearts, a polished illustrated RPG combat arena. Fixed orthographic camera, square canvas, uniform dark slate background #101824, no scenery, text, UI, border, character portraits or watermark. Crisp hand-painted anime effect with controlled bloom and clear silhouette at small size. All movement contained inside central 70 percent with generous clean margins. One simple finite action: approximately 0.5 seconds of action then a quiet blank hold before repeat, identical blank starting and ending state. No camera shake, full-screen flash, environmental damage or extra hits. This is a single animated effect, not a sprite sheet or montage. One pale steel-blue translucent shield-shaped contour materializes at centre, gently brightens once along its rim, then fades completely. A restrained hexagonal protective lattice inside the shield; no incoming attack, no shattering and no weapon."
+      },
+      "result": {
+        "status": "COMPLETED",
+        "historyId": "jMi547pT3AQVXYSSxvqT",
+        "projectId": "1wPspogEerl5EI7zzvJg",
+        "capabilityId": "gpt-image-2-6-sunburst:text2image",
+        "modelDisplayName": "GPT Image 2.6 Sunburst",
+        "aspectRatio": "1:1",
+        "prompt": "Create one animated GIF game VFX asset for Mysterious Hearts, a polished illustrated RPG combat arena. Fixed orthographic camera, square canvas, uniform dark slate background #101824, no scenery, text, UI, border, character portraits or watermark. Crisp hand-painted anime effect with controlled bloom and clear silhouette at small size. All movement contained inside central 70 percent with generous clean margins. One simple finite action: approximately 0.5 seconds of action then a quiet blank hold before repeat, identical blank starting and ending state. No camera shake, full-screen flash, environmental damage or extra hits. This is a single animated effect, not a sprite sheet or montage. One pale steel-blue translucent shield-shaped contour materializes at centre, gently brightens once along its rim, then fades completely. A restrained hexagonal protective lattice inside the shield; no incoming attack, no shattering and no weapon.",
+        "resources": [
+          {
+            "id": "rkj45janHY8xVsrrakdT",
+            "mediaType": "image",
+            "url": "https://cdn.openart.ai/openart-ai/production/2026-11/create-image/AMHKy4q8wM8Pd3BcDE6M/gpt-image-2-6-sunburst-1_1794269728819_d72151b6.gif",
+            "status": "completed",
+            "aspectRatio": "1:1",
+            "thumbnailUrl": "https://cdn.openart.ai/openart/thumbnail/production/2026-11/create-image/AMHKy4q8wM8Pd3BcDE6M/gpt-image-2-6-sunburst-1_1794269729543_ffc2c9df.webp",
+            "metadata": {
+              "width": 480,
+              "height": 480,
+              "format": "gif"
+            }
+          }
+        ]
+      },
+      "history_id": "jMi547pT3AQVXYSSxvqT"
+    }
+  ],
+  "verification": {
+    "generation": "Six completed GIF resources reported by OpenArt, each 480x480 despite requested 1K tier.",
+    "download": "CDN returned HTTP 403 Forbidden. No GIF downloaded; no retry to bypass access denial.",
+    "visual_review": "Pending. Frame count, duration, transparency, motion and loop boundaries not verified.",
+    "runtime": "Not integrated or released. No code/save/phone changes.",
+    "checks": [
+      "python patch_notes.py validate: passed, 461 entries",
+      "python patch_notes.py export: completed"
+    ]
+  }
+}

@@ -190,8 +190,11 @@ def remembered_passage(who, level, cue):
 
 def speaker_reference(who, listeners, level, cue, state=None):
     import vendetta_lore
+    import the_crow
     guide = character_tables()[who]
     reference = {field: guide[field] for field in LAYERS[:level + 1]}
+    if address := the_crow.address_direction(who):
+        reference['Private Crow address and deference canon'] = address
     reference['Vendetta AU'] = vendetta_lore.speaker_context(who, listeners, state)
     import criminal_dynamics
     reference['Criminal dynamics'] = criminal_dynamics.context(who, listeners, state)
@@ -200,6 +203,8 @@ def speaker_reference(who, listeners, level, cue, state=None):
     import charles_quest
     if search := charles_quest.knowledge(state,who,listeners):
         reference['Authoritative Charles search progression'] = search
+    if narrative := __import__('campaign_prose').knowledge(state,who,listeners):
+        reference['Shared campaign conversations'] = narrative
     import four_aces
     if who in four_aces.CAST:
         reference['Individual personality and voice'] = four_aces.CHARACTER_DIRECTION[who]
@@ -316,8 +321,9 @@ ESCAPE = re.compile(r"\b(?:yakuza|clan|hamayashi(?:-kai)?|escap\w*|got (?:us |yo
 def turn_focus(state, who, listeners, level, cue):
     """Put just the relevant playable beat beside the actual line, after old history."""
     import four_aces
+    import the_crow
     if who in four_aces.CAST:
-        return (four_aces.CHARACTER_DIRECTION[who] +
+        return (the_crow.address_direction(who) + ' ' + four_aces.CHARACTER_DIRECTION[who] +
                 ' Show the disposition through the answer to the current subject; do not recite the profile. '
                 'Respect audience clearance and actual history. With Ivan, retain this individual voice '
                 'while keeping the conversation professional and deflecting personal questions.')
@@ -333,7 +339,7 @@ def turn_focus(state, who, listeners, level, cue):
     if who == 'takeo':
         import takeo
         return takeo.direction()
-    beats = []
+    beats = [the_crow.address_direction(who)] if the_crow.address_direction(who) else []
     if who == 'garrett' and CHARLES.search(cue):
         beats.append(charles_context(state, who, level))
         beats.append(CHARLES_NEWS)

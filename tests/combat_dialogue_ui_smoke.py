@@ -21,7 +21,9 @@ with patch.object(game.Game,'check'), patch.object(game.Game,'begin_incoming'), 
     def shot(name):
         app.update(); ImageGrab.grab(window=app.winfo_id()).save(out/name)
     def respond(kind,accepted=True):
-        with patch.object(combat,'ask_ai',return_value=dict(dialogue='All right. Keep your guard up.' if accepted else 'Not today. I need some space.',narration='She takes a step back.',accepted=accepted)):
+        responses=[] if kind=='attack' else [dict(intent=kind,player_line='Care for a friendly spar?')]
+        responses.append(dict(dialogue='All right. Keep your guard up.' if accepted else 'Not today. I need some space.',narration='Garrett steps forward; she takes a step back.',accepted=accepted))
+        with patch.object(combat,'ask_ai',side_effect=responses):
             view.request(kind)
             deadline=time.monotonic()+5
             while view.working and time.monotonic()<deadline: app.update(); time.sleep(.02)
@@ -34,7 +36,7 @@ with patch.object(game.Game,'check'), patch.object(game.Game,'begin_incoming'), 
     view.continue_scene(); hangout_combat_ui.open_dialogue(app,'rei'); respond('spar')
     shot('combat-dialogue-agreement.png')
     assert combat.active(s) and not hub.winfo_ismapped()
-    assert app.hangout_view.canvas.exchange.player == 'Would you like to spar with me?'
+    assert app.hangout_view.canvas.exchange.player == 'Care for a friendly spar?'
     assert app.hangout_view.canvas.exchange.speeches == [('rei','All right. Keep your guard up.')]
     view.continue_scene(); app.update(); assert hub.title.cget('text').startswith('SPAR')
     assert hub.winfo_ismapped()
@@ -44,6 +46,8 @@ with patch.object(game.Game,'check'), patch.object(game.Game,'begin_incoming'), 
     shot('combat-dialogue-attack.png')
     respond('attack'); assert not combat.active(s) and not combat.present(s,'emily')
     assert app.in_person_chat.winfo_ismapped() and app.hangout_view.canvas.exchange.speeches
+    assert app.hangout_view.canvas.exchange.player == ''
+    assert 'player' not in app.hangout_view.canvas.bubble_bounds
     shot('combat-dialogue-flee.png')
     view.continue_scene(); app.update(); assert not app.in_person_chat.winfo_ismapped()
     app.geometry('1000x800'); hangout_combat_ui.open_dialogue(app,'samantha')
@@ -56,7 +60,7 @@ with patch.object(game.Game,'check'), patch.object(game.Game,'begin_incoming'), 
     assert not app.busy and not view.response and 'offline' in view.error
     import relationship_dynamics
     relationship_dynamics.stats(s,'samantha')['trust']=60
-    with patch.object(combat,'ask_ai',return_value=dict(dialogue='Watch my stance.',narration='Samantha demonstrates her footwork.',accepted=True)):
+    with patch.object(combat,'ask_ai',side_effect=[dict(intent='learn',player_line='Would you teach me Streetfighting?'),dict(dialogue='Watch my stance.',narration='Samantha demonstrates her footwork.',accepted=True)]):
         view.request('learn','Streetfighting')
         deadline=time.monotonic()+5
         while view.working and time.monotonic()<deadline: app.update(); time.sleep(.02)

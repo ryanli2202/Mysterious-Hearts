@@ -1,0 +1,3398 @@
+{
+  "unchanged_live_assets": 306,
+  "height_table_unchanged": true,
+  "accepted_hashes": 146,
+  "paired_height_checks": [
+    {
+      "id": "amy-beach-daisy",
+      "size": [
+        192,
+        352
+      ],
+      "span": 297,
+      "master_span": 297,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-beach-daisy",
+      "size": [
+        108,
+        210
+      ],
+      "span": 177,
+      "master_span": 177,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-beach-sage",
+      "size": [
+        192,
+        352
+      ],
+      "span": 297,
+      "master_span": 297,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-beach-sage",
+      "size": [
+        108,
+        210
+      ],
+      "span": 177,
+      "master_span": 177,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-beach-terracotta",
+      "size": [
+        192,
+        352
+      ],
+      "span": 297,
+      "master_span": 297,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-beach-terracotta",
+      "size": [
+        108,
+        210
+      ],
+      "span": 177,
+      "master_span": 177,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-floral-dress",
+      "size": [
+        192,
+        352
+      ],
+      "span": 297,
+      "master_span": 297,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-floral-dress",
+      "size": [
+        108,
+        210
+      ],
+      "span": 177,
+      "master_span": 177,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-formal-plum",
+      "size": [
+        192,
+        352
+      ],
+      "span": 297,
+      "master_span": 297,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-formal-plum",
+      "size": [
+        108,
+        210
+      ],
+      "span": 177,
+      "master_span": 177,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-formal-tweed",
+      "size": [
+        192,
+        352
+      ],
+      "span": 297,
+      "master_span": 297,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-formal-tweed",
+      "size": [
+        108,
+        210
+      ],
+      "span": 177,
+      "master_span": 177,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-gym-training",
+      "size": [
+        192,
+        352
+      ],
+      "span": 297,
+      "master_span": 297,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-gym-training",
+      "size": [
+        108,
+        210
+      ],
+      "span": 177,
+      "master_span": 177,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-gym-yoga",
+      "size": [
+        192,
+        352
+      ],
+      "span": 297,
+      "master_span": 297,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-gym-yoga",
+      "size": [
+        108,
+        210
+      ],
+      "span": 177,
+      "master_span": 177,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-library-knit",
+      "size": [
+        192,
+        352
+      ],
+      "span": 297,
+      "master_span": 297,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-library-knit",
+      "size": [
+        108,
+        210
+      ],
+      "span": 177,
+      "master_span": 177,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-sleep",
+      "size": [
+        192,
+        352
+      ],
+      "span": 297,
+      "master_span": 297,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-sleep",
+      "size": [
+        108,
+        210
+      ],
+      "span": 177,
+      "master_span": 177,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-studio-overalls",
+      "size": [
+        192,
+        352
+      ],
+      "span": 297,
+      "master_span": 297,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-studio-overalls",
+      "size": [
+        108,
+        210
+      ],
+      "span": 177,
+      "master_span": 177,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-summer-linen",
+      "size": [
+        192,
+        352
+      ],
+      "span": 297,
+      "master_span": 297,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-summer-linen",
+      "size": [
+        108,
+        210
+      ],
+      "span": 177,
+      "master_span": 177,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-weekend-denim",
+      "size": [
+        192,
+        352
+      ],
+      "span": 297,
+      "master_span": 297,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-weekend-denim",
+      "size": [
+        108,
+        210
+      ],
+      "span": 177,
+      "master_span": 177,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-winter-coat",
+      "size": [
+        192,
+        352
+      ],
+      "span": 297,
+      "master_span": 297,
+      "height_cm": 163
+    },
+    {
+      "id": "amy-winter-coat",
+      "size": [
+        108,
+        210
+      ],
+      "span": 177,
+      "master_span": 177,
+      "height_cm": 163
+    },
+    {
+      "id": "april-beach-bikini",
+      "size": [
+        192,
+        352
+      ],
+      "span": 274,
+      "master_span": 274,
+      "height_cm": 150
+    },
+    {
+      "id": "april-beach-bikini",
+      "size": [
+        108,
+        210
+      ],
+      "span": 163,
+      "master_span": 163,
+      "height_cm": 150
+    },
+    {
+      "id": "april-beach-swimsuit",
+      "size": [
+        192,
+        352
+      ],
+      "span": 274,
+      "master_span": 274,
+      "height_cm": 150
+    },
+    {
+      "id": "april-beach-swimsuit",
+      "size": [
+        108,
+        210
+      ],
+      "span": 163,
+      "master_span": 163,
+      "height_cm": 150
+    },
+    {
+      "id": "april-blue-oxford",
+      "size": [
+        192,
+        352
+      ],
+      "span": 274,
+      "master_span": 274,
+      "height_cm": 150
+    },
+    {
+      "id": "april-blue-oxford",
+      "size": [
+        108,
+        210
+      ],
+      "span": 163,
+      "master_span": 163,
+      "height_cm": 150
+    },
+    {
+      "id": "april-burgundy-dress",
+      "size": [
+        192,
+        352
+      ],
+      "span": 274,
+      "master_span": 274,
+      "height_cm": 150
+    },
+    {
+      "id": "april-burgundy-dress",
+      "size": [
+        108,
+        210
+      ],
+      "span": 163,
+      "master_span": 163,
+      "height_cm": 150
+    },
+    {
+      "id": "april-camel-trench",
+      "size": [
+        192,
+        352
+      ],
+      "span": 274,
+      "master_span": 274,
+      "height_cm": 150
+    },
+    {
+      "id": "april-camel-trench",
+      "size": [
+        108,
+        210
+      ],
+      "span": 163,
+      "master_span": 163,
+      "height_cm": 150
+    },
+    {
+      "id": "april-cream-cable-knit",
+      "size": [
+        192,
+        352
+      ],
+      "span": 274,
+      "master_span": 274,
+      "height_cm": 150
+    },
+    {
+      "id": "april-cream-cable-knit",
+      "size": [
+        108,
+        210
+      ],
+      "span": 163,
+      "master_span": 163,
+      "height_cm": 150
+    },
+    {
+      "id": "april-denim-weekend",
+      "size": [
+        192,
+        352
+      ],
+      "span": 274,
+      "master_span": 274,
+      "height_cm": 150
+    },
+    {
+      "id": "april-denim-weekend",
+      "size": [
+        108,
+        210
+      ],
+      "span": 163,
+      "master_span": 163,
+      "height_cm": 150
+    },
+    {
+      "id": "april-formal-emerald",
+      "size": [
+        192,
+        352
+      ],
+      "span": 274,
+      "master_span": 274,
+      "height_cm": 150
+    },
+    {
+      "id": "april-formal-emerald",
+      "size": [
+        108,
+        210
+      ],
+      "span": 163,
+      "master_span": 163,
+      "height_cm": 150
+    },
+    {
+      "id": "april-formal-ivory-suit",
+      "size": [
+        192,
+        352
+      ],
+      "span": 274,
+      "master_span": 274,
+      "height_cm": 150
+    },
+    {
+      "id": "april-formal-ivory-suit",
+      "size": [
+        108,
+        210
+      ],
+      "span": 163,
+      "master_span": 163,
+      "height_cm": 150
+    },
+    {
+      "id": "april-gym-plum",
+      "size": [
+        192,
+        352
+      ],
+      "span": 274,
+      "master_span": 274,
+      "height_cm": 150
+    },
+    {
+      "id": "april-gym-plum",
+      "size": [
+        108,
+        210
+      ],
+      "span": 163,
+      "master_span": 163,
+      "height_cm": 150
+    },
+    {
+      "id": "april-plaid-blazer",
+      "size": [
+        192,
+        352
+      ],
+      "span": 274,
+      "master_span": 274,
+      "height_cm": 150
+    },
+    {
+      "id": "april-plaid-blazer",
+      "size": [
+        108,
+        210
+      ],
+      "span": 163,
+      "master_span": 163,
+      "height_cm": 150
+    },
+    {
+      "id": "april-rose-cardigan",
+      "size": [
+        192,
+        352
+      ],
+      "span": 274,
+      "master_span": 274,
+      "height_cm": 150
+    },
+    {
+      "id": "april-rose-cardigan",
+      "size": [
+        108,
+        210
+      ],
+      "span": 163,
+      "master_span": 163,
+      "height_cm": 150
+    },
+    {
+      "id": "april-sage-knit",
+      "size": [
+        192,
+        352
+      ],
+      "span": 274,
+      "master_span": 274,
+      "height_cm": 150
+    },
+    {
+      "id": "april-sage-knit",
+      "size": [
+        108,
+        210
+      ],
+      "span": 163,
+      "master_span": 163,
+      "height_cm": 150
+    },
+    {
+      "id": "april-sleep",
+      "size": [
+        192,
+        352
+      ],
+      "span": 274,
+      "master_span": 274,
+      "height_cm": 150
+    },
+    {
+      "id": "april-sleep",
+      "size": [
+        108,
+        210
+      ],
+      "span": 163,
+      "master_span": 163,
+      "height_cm": 150
+    },
+    {
+      "id": "emily-beach-bikini",
+      "size": [
+        192,
+        352
+      ],
+      "span": 281,
+      "master_span": 281,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-beach-bikini",
+      "size": [
+        108,
+        210
+      ],
+      "span": 168,
+      "master_span": 168,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-beach-swimsuit",
+      "size": [
+        192,
+        352
+      ],
+      "span": 281,
+      "master_span": 281,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-beach-swimsuit",
+      "size": [
+        108,
+        210
+      ],
+      "span": 168,
+      "master_span": 168,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-cafe",
+      "size": [
+        192,
+        352
+      ],
+      "span": 281,
+      "master_span": 281,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-cafe",
+      "size": [
+        108,
+        210
+      ],
+      "span": 168,
+      "master_span": 168,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-florist",
+      "size": [
+        192,
+        352
+      ],
+      "span": 281,
+      "master_span": 281,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-florist",
+      "size": [
+        108,
+        210
+      ],
+      "span": 168,
+      "master_span": 168,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-formal-satin",
+      "size": [
+        192,
+        352
+      ],
+      "span": 281,
+      "master_span": 281,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-formal-satin",
+      "size": [
+        108,
+        210
+      ],
+      "span": 168,
+      "master_span": 168,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-formal-tailoring",
+      "size": [
+        192,
+        352
+      ],
+      "span": 281,
+      "master_span": 281,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-formal-tailoring",
+      "size": [
+        108,
+        210
+      ],
+      "span": 168,
+      "master_span": 168,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-garden",
+      "size": [
+        192,
+        352
+      ],
+      "span": 281,
+      "master_span": 281,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-garden",
+      "size": [
+        108,
+        210
+      ],
+      "span": 168,
+      "master_span": 168,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-gym",
+      "size": [
+        192,
+        352
+      ],
+      "span": 281,
+      "master_span": 281,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-gym",
+      "size": [
+        108,
+        210
+      ],
+      "span": 168,
+      "master_span": 168,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-picnic",
+      "size": [
+        192,
+        352
+      ],
+      "span": 281,
+      "master_span": 281,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-picnic",
+      "size": [
+        108,
+        210
+      ],
+      "span": 168,
+      "master_span": 168,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-rainy",
+      "size": [
+        192,
+        352
+      ],
+      "span": 281,
+      "master_span": 281,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-rainy",
+      "size": [
+        108,
+        210
+      ],
+      "span": 168,
+      "master_span": 168,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-sleep",
+      "size": [
+        192,
+        352
+      ],
+      "span": 281,
+      "master_span": 281,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-sleep",
+      "size": [
+        108,
+        210
+      ],
+      "span": 168,
+      "master_span": 168,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-velvet",
+      "size": [
+        192,
+        352
+      ],
+      "span": 281,
+      "master_span": 281,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-velvet",
+      "size": [
+        108,
+        210
+      ],
+      "span": 168,
+      "master_span": 168,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-winter",
+      "size": [
+        192,
+        352
+      ],
+      "span": 281,
+      "master_span": 281,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-winter",
+      "size": [
+        108,
+        210
+      ],
+      "span": 168,
+      "master_span": 168,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-workshop",
+      "size": [
+        192,
+        352
+      ],
+      "span": 281,
+      "master_span": 281,
+      "height_cm": 154
+    },
+    {
+      "id": "emily-workshop",
+      "size": [
+        108,
+        210
+      ],
+      "span": 168,
+      "master_span": 168,
+      "height_cm": 154
+    },
+    {
+      "id": "garrett-beach-shorts",
+      "size": [
+        192,
+        352
+      ],
+      "span": 343,
+      "master_span": 343,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-beach-shorts",
+      "size": [
+        108,
+        210
+      ],
+      "span": 205,
+      "master_span": 205,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-fashion-asymmetric",
+      "size": [
+        192,
+        352
+      ],
+      "span": 343,
+      "master_span": 343,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-fashion-asymmetric",
+      "size": [
+        108,
+        210
+      ],
+      "span": 205,
+      "master_span": 205,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-fashion-pearl",
+      "size": [
+        192,
+        352
+      ],
+      "span": 343,
+      "master_span": 343,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-fashion-pearl",
+      "size": [
+        108,
+        210
+      ],
+      "span": 205,
+      "master_span": 205,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-formal-burgundy",
+      "size": [
+        192,
+        352
+      ],
+      "span": 343,
+      "master_span": 343,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-formal-burgundy",
+      "size": [
+        108,
+        210
+      ],
+      "span": 205,
+      "master_span": 205,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-formal-tuxedo",
+      "size": [
+        192,
+        352
+      ],
+      "span": 343,
+      "master_span": 343,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-formal-tuxedo",
+      "size": [
+        108,
+        210
+      ],
+      "span": 205,
+      "master_span": 205,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-gym-compression",
+      "size": [
+        192,
+        352
+      ],
+      "span": 343,
+      "master_span": 343,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-gym-compression",
+      "size": [
+        108,
+        210
+      ],
+      "span": 205,
+      "master_span": 205,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-gym-tank",
+      "size": [
+        192,
+        352
+      ],
+      "span": 343,
+      "master_span": 343,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-gym-tank",
+      "size": [
+        108,
+        210
+      ],
+      "span": 205,
+      "master_span": 205,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-home",
+      "size": [
+        192,
+        352
+      ],
+      "span": 343,
+      "master_span": 343,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-home",
+      "size": [
+        108,
+        210
+      ],
+      "span": 205,
+      "master_span": 205,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-ivory",
+      "size": [
+        192,
+        352
+      ],
+      "span": 343,
+      "master_span": 343,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-ivory",
+      "size": [
+        108,
+        210
+      ],
+      "span": 205,
+      "master_span": 205,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-sleep",
+      "size": [
+        192,
+        352
+      ],
+      "span": 343,
+      "master_span": 343,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-sleep",
+      "size": [
+        108,
+        210
+      ],
+      "span": 205,
+      "master_span": 205,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-street-ink",
+      "size": [
+        192,
+        352
+      ],
+      "span": 343,
+      "master_span": 343,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-street-ink",
+      "size": [
+        108,
+        210
+      ],
+      "span": 205,
+      "master_span": 205,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-street-jade",
+      "size": [
+        192,
+        352
+      ],
+      "span": 343,
+      "master_span": 343,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-street-jade",
+      "size": [
+        108,
+        210
+      ],
+      "span": 205,
+      "master_span": 205,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-summer-linen",
+      "size": [
+        192,
+        352
+      ],
+      "span": 343,
+      "master_span": 343,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-summer-linen",
+      "size": [
+        108,
+        210
+      ],
+      "span": 205,
+      "master_span": 205,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-traditional-changshan",
+      "size": [
+        192,
+        352
+      ],
+      "span": 343,
+      "master_span": 343,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-traditional-changshan",
+      "size": [
+        108,
+        210
+      ],
+      "span": 205,
+      "master_span": 205,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-traditional-hanfu",
+      "size": [
+        192,
+        352
+      ],
+      "span": 325,
+      "master_span": 325,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-traditional-hanfu",
+      "size": [
+        108,
+        210
+      ],
+      "span": 183,
+      "master_span": 183,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-winter-coat",
+      "size": [
+        192,
+        352
+      ],
+      "span": 343,
+      "master_span": 343,
+      "height_cm": 188
+    },
+    {
+      "id": "garrett-winter-coat",
+      "size": [
+        108,
+        210
+      ],
+      "span": 205,
+      "master_span": 205,
+      "height_cm": 188
+    },
+    {
+      "id": "ivan-beach",
+      "size": [
+        192,
+        352
+      ],
+      "span": 352,
+      "master_span": 352,
+      "height_cm": 193
+    },
+    {
+      "id": "ivan-beach",
+      "size": [
+        108,
+        210
+      ],
+      "span": 210,
+      "master_span": 210,
+      "height_cm": 193
+    },
+    {
+      "id": "ivan-fashion-burgundy",
+      "size": [
+        192,
+        352
+      ],
+      "span": 352,
+      "master_span": 352,
+      "height_cm": 193
+    },
+    {
+      "id": "ivan-fashion-burgundy",
+      "size": [
+        108,
+        210
+      ],
+      "span": 210,
+      "master_span": 210,
+      "height_cm": 193
+    },
+    {
+      "id": "ivan-fashion-ivory",
+      "size": [
+        192,
+        352
+      ],
+      "span": 352,
+      "master_span": 352,
+      "height_cm": 193
+    },
+    {
+      "id": "ivan-fashion-ivory",
+      "size": [
+        108,
+        210
+      ],
+      "span": 210,
+      "master_span": 210,
+      "height_cm": 193
+    },
+    {
+      "id": "ivan-fashion-pearl",
+      "size": [
+        192,
+        352
+      ],
+      "span": 352,
+      "master_span": 352,
+      "height_cm": 193
+    },
+    {
+      "id": "ivan-fashion-pearl",
+      "size": [
+        108,
+        210
+      ],
+      "span": 210,
+      "master_span": 210,
+      "height_cm": 193
+    },
+    {
+      "id": "ivan-gym-tank",
+      "size": [
+        192,
+        352
+      ],
+      "span": 352,
+      "master_span": 352,
+      "height_cm": 193
+    },
+    {
+      "id": "ivan-gym-tank",
+      "size": [
+        108,
+        210
+      ],
+      "span": 210,
+      "master_span": 210,
+      "height_cm": 193
+    },
+    {
+      "id": "ivan-gym-training",
+      "size": [
+        192,
+        352
+      ],
+      "span": 352,
+      "master_span": 352,
+      "height_cm": 193
+    },
+    {
+      "id": "ivan-gym-training",
+      "size": [
+        108,
+        210
+      ],
+      "span": 210,
+      "master_span": 210,
+      "height_cm": 193
+    },
+    {
+      "id": "ivan-idol-crimson",
+      "size": [
+        192,
+        352
+      ],
+      "span": 352,
+      "master_span": 352,
+      "height_cm": 193
+    },
+    {
+      "id": "ivan-idol-crimson",
+      "size": [
+        108,
+        210
+      ],
+      "span": 210,
+      "master_span": 210,
+      "height_cm": 193
+    },
+    {
+      "id": "ivan-idol-midnight",
+      "size": [
+        192,
+        352
+      ],
+      "span": 352,
+      "master_span": 352,
+      "height_cm": 193
+    },
+    {
+      "id": "ivan-idol-midnight",
+      "size": [
+        108,
+        210
+      ],
+      "span": 210,
+      "master_span": 210,
+      "height_cm": 193
+    },
+    {
+      "id": "ivan-idol-white",
+      "size": [
+        192,
+        352
+      ],
+      "span": 352,
+      "master_span": 352,
+      "height_cm": 193
+    },
+    {
+      "id": "ivan-idol-white",
+      "size": [
+        108,
+        210
+      ],
+      "span": 210,
+      "master_span": 210,
+      "height_cm": 193
+    },
+    {
+      "id": "ivan-street-denim",
+      "size": [
+        192,
+        352
+      ],
+      "span": 352,
+      "master_span": 352,
+      "height_cm": 193
+    },
+    {
+      "id": "ivan-street-denim",
+      "size": [
+        108,
+        210
+      ],
+      "span": 210,
+      "master_span": 210,
+      "height_cm": 193
+    },
+    {
+      "id": "ivan-street-knit",
+      "size": [
+        192,
+        352
+      ],
+      "span": 352,
+      "master_span": 352,
+      "height_cm": 193
+    },
+    {
+      "id": "ivan-street-knit",
+      "size": [
+        108,
+        210
+      ],
+      "span": 210,
+      "master_span": 210,
+      "height_cm": 193
+    },
+    {
+      "id": "ivan-street-monochrome",
+      "size": [
+        192,
+        352
+      ],
+      "span": 352,
+      "master_span": 352,
+      "height_cm": 193
+    },
+    {
+      "id": "ivan-street-monochrome",
+      "size": [
+        108,
+        210
+      ],
+      "span": 210,
+      "master_span": 210,
+      "height_cm": 193
+    },
+    {
+      "id": "ivan-street-varsity",
+      "size": [
+        192,
+        352
+      ],
+      "span": 352,
+      "master_span": 352,
+      "height_cm": 193
+    },
+    {
+      "id": "ivan-street-varsity",
+      "size": [
+        108,
+        210
+      ],
+      "span": 210,
+      "master_span": 210,
+      "height_cm": 193
+    },
+    {
+      "id": "minsu-beach-shorts",
+      "size": [
+        192,
+        352
+      ],
+      "span": 323,
+      "master_span": 323,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-beach-shorts",
+      "size": [
+        108,
+        210
+      ],
+      "span": 193,
+      "master_span": 193,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-college-knit",
+      "size": [
+        192,
+        352
+      ],
+      "span": 323,
+      "master_span": 323,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-college-knit",
+      "size": [
+        108,
+        210
+      ],
+      "span": 193,
+      "master_span": 193,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-college-overshirt",
+      "size": [
+        192,
+        352
+      ],
+      "span": 323,
+      "master_span": 323,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-college-overshirt",
+      "size": [
+        108,
+        210
+      ],
+      "span": 193,
+      "master_span": 193,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-college-rugby",
+      "size": [
+        192,
+        352
+      ],
+      "span": 323,
+      "master_span": 323,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-college-rugby",
+      "size": [
+        108,
+        210
+      ],
+      "span": 193,
+      "master_span": 193,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-gym-compression",
+      "size": [
+        192,
+        352
+      ],
+      "span": 323,
+      "master_span": 323,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-gym-compression",
+      "size": [
+        108,
+        210
+      ],
+      "span": 193,
+      "master_span": 193,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-gym-tank",
+      "size": [
+        192,
+        352
+      ],
+      "span": 323,
+      "master_span": 323,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-gym-tank",
+      "size": [
+        108,
+        210
+      ],
+      "span": 193,
+      "master_span": 193,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-home",
+      "size": [
+        192,
+        352
+      ],
+      "span": 323,
+      "master_span": 323,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-home",
+      "size": [
+        108,
+        210
+      ],
+      "span": 193,
+      "master_span": 193,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-med-scrubs",
+      "size": [
+        192,
+        352
+      ],
+      "span": 323,
+      "master_span": 323,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-med-scrubs",
+      "size": [
+        108,
+        210
+      ],
+      "span": 193,
+      "master_span": 193,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-med-white-coat",
+      "size": [
+        192,
+        352
+      ],
+      "span": 323,
+      "master_span": 323,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-med-white-coat",
+      "size": [
+        108,
+        210
+      ],
+      "span": 193,
+      "master_span": 193,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-sleep",
+      "size": [
+        192,
+        352
+      ],
+      "span": 323,
+      "master_span": 323,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-sleep",
+      "size": [
+        108,
+        210
+      ],
+      "span": 193,
+      "master_span": 193,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-street-denim",
+      "size": [
+        192,
+        352
+      ],
+      "span": 323,
+      "master_span": 323,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-street-denim",
+      "size": [
+        108,
+        210
+      ],
+      "span": 193,
+      "master_span": 193,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-street-monochrome",
+      "size": [
+        192,
+        352
+      ],
+      "span": 323,
+      "master_span": 323,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-street-monochrome",
+      "size": [
+        108,
+        210
+      ],
+      "span": 193,
+      "master_span": 193,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-street-track",
+      "size": [
+        192,
+        352
+      ],
+      "span": 323,
+      "master_span": 323,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-street-track",
+      "size": [
+        108,
+        210
+      ],
+      "span": 193,
+      "master_span": 193,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-study-cardigan",
+      "size": [
+        192,
+        352
+      ],
+      "span": 323,
+      "master_span": 323,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-study-cardigan",
+      "size": [
+        108,
+        210
+      ],
+      "span": 193,
+      "master_span": 193,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-study-hoodie",
+      "size": [
+        192,
+        352
+      ],
+      "span": 323,
+      "master_span": 323,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-study-hoodie",
+      "size": [
+        108,
+        210
+      ],
+      "span": 193,
+      "master_span": 193,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-varsity",
+      "size": [
+        192,
+        352
+      ],
+      "span": 323,
+      "master_span": 323,
+      "height_cm": 177
+    },
+    {
+      "id": "minsu-varsity",
+      "size": [
+        108,
+        210
+      ],
+      "span": 193,
+      "master_span": 193,
+      "height_cm": 177
+    },
+    {
+      "id": "rei-beach",
+      "size": [
+        192,
+        352
+      ],
+      "span": 336,
+      "master_span": 336,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-beach",
+      "size": [
+        108,
+        210
+      ],
+      "span": 200,
+      "master_span": 200,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-black-sweater",
+      "size": [
+        192,
+        352
+      ],
+      "span": 336,
+      "master_span": 336,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-black-sweater",
+      "size": [
+        108,
+        210
+      ],
+      "span": 200,
+      "master_span": 200,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-burgundy-shirt",
+      "size": [
+        192,
+        352
+      ],
+      "span": 336,
+      "master_span": 336,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-burgundy-shirt",
+      "size": [
+        108,
+        210
+      ],
+      "span": 200,
+      "master_span": 200,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-camel-overcoat",
+      "size": [
+        192,
+        352
+      ],
+      "span": 336,
+      "master_span": 336,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-camel-overcoat",
+      "size": [
+        108,
+        210
+      ],
+      "span": 200,
+      "master_span": 200,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-charcoal-hoodie",
+      "size": [
+        192,
+        352
+      ],
+      "span": 336,
+      "master_span": 336,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-charcoal-hoodie",
+      "size": [
+        108,
+        210
+      ],
+      "span": 200,
+      "master_span": 200,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-cream-cardigan",
+      "size": [
+        192,
+        352
+      ],
+      "span": 336,
+      "master_span": 336,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-cream-cardigan",
+      "size": [
+        108,
+        210
+      ],
+      "span": 200,
+      "master_span": 200,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-denim-jacket",
+      "size": [
+        192,
+        352
+      ],
+      "span": 336,
+      "master_span": 336,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-denim-jacket",
+      "size": [
+        108,
+        210
+      ],
+      "span": 200,
+      "master_span": 200,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-gym",
+      "size": [
+        192,
+        352
+      ],
+      "span": 336,
+      "master_span": 336,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-gym",
+      "size": [
+        108,
+        210
+      ],
+      "span": 200,
+      "master_span": 200,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-haori-hakama",
+      "size": [
+        192,
+        352
+      ],
+      "span": 331,
+      "master_span": 331,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-haori-hakama",
+      "size": [
+        108,
+        210
+      ],
+      "span": 186,
+      "master_span": 186,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-home",
+      "size": [
+        192,
+        352
+      ],
+      "span": 336,
+      "master_span": 336,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-home",
+      "size": [
+        108,
+        210
+      ],
+      "span": 200,
+      "master_span": 200,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-moto",
+      "size": [
+        192,
+        352
+      ],
+      "span": 336,
+      "master_span": 336,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-moto",
+      "size": [
+        108,
+        210
+      ],
+      "span": 200,
+      "master_span": 200,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-navy-yukata",
+      "size": [
+        192,
+        352
+      ],
+      "span": 336,
+      "master_span": 336,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-navy-yukata",
+      "size": [
+        108,
+        210
+      ],
+      "span": 190,
+      "master_span": 190,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-olive-bomber",
+      "size": [
+        192,
+        352
+      ],
+      "span": 336,
+      "master_span": 336,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-olive-bomber",
+      "size": [
+        108,
+        210
+      ],
+      "span": 200,
+      "master_span": 200,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-sleep",
+      "size": [
+        192,
+        352
+      ],
+      "span": 336,
+      "master_span": 336,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-sleep",
+      "size": [
+        108,
+        210
+      ],
+      "span": 200,
+      "master_span": 200,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-streetwear-sukajan",
+      "size": [
+        192,
+        352
+      ],
+      "span": 336,
+      "master_span": 336,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-streetwear-sukajan",
+      "size": [
+        108,
+        210
+      ],
+      "span": 200,
+      "master_span": 200,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-streetwear-techwear",
+      "size": [
+        192,
+        352
+      ],
+      "span": 336,
+      "master_span": 336,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-streetwear-techwear",
+      "size": [
+        108,
+        210
+      ],
+      "span": 200,
+      "master_span": 200,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-tailored-waistcoat",
+      "size": [
+        192,
+        352
+      ],
+      "span": 336,
+      "master_span": 336,
+      "height_cm": 184
+    },
+    {
+      "id": "rei-tailored-waistcoat",
+      "size": [
+        108,
+        210
+      ],
+      "span": 200,
+      "master_span": 200,
+      "height_cm": 184
+    },
+    {
+      "id": "samantha-beach-black-bikini",
+      "size": [
+        192,
+        352
+      ],
+      "span": 306,
+      "master_span": 306,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-beach-black-bikini",
+      "size": [
+        108,
+        210
+      ],
+      "span": 183,
+      "master_span": 183,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-beach-red-bikini",
+      "size": [
+        192,
+        352
+      ],
+      "span": 306,
+      "master_span": 306,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-beach-red-bikini",
+      "size": [
+        108,
+        210
+      ],
+      "span": 183,
+      "master_span": 183,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-beach-teal-bikini",
+      "size": [
+        192,
+        352
+      ],
+      "span": 306,
+      "master_span": 306,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-beach-teal-bikini",
+      "size": [
+        108,
+        210
+      ],
+      "span": 183,
+      "master_span": 183,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-black-mockneck",
+      "size": [
+        192,
+        352
+      ],
+      "span": 306,
+      "master_span": 306,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-black-mockneck",
+      "size": [
+        108,
+        210
+      ],
+      "span": 183,
+      "master_span": 183,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-charcoal-hoodie",
+      "size": [
+        192,
+        352
+      ],
+      "span": 306,
+      "master_span": 306,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-charcoal-hoodie",
+      "size": [
+        108,
+        210
+      ],
+      "span": 183,
+      "master_span": 183,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-denim-cargo",
+      "size": [
+        192,
+        352
+      ],
+      "span": 306,
+      "master_span": 306,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-denim-cargo",
+      "size": [
+        108,
+        210
+      ],
+      "span": 183,
+      "master_span": 183,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-formal-black-suit",
+      "size": [
+        192,
+        352
+      ],
+      "span": 306,
+      "master_span": 306,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-formal-black-suit",
+      "size": [
+        108,
+        210
+      ],
+      "span": 183,
+      "master_span": 183,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-formal-burgundy-dress",
+      "size": [
+        192,
+        352
+      ],
+      "span": 306,
+      "master_span": 306,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-formal-burgundy-dress",
+      "size": [
+        108,
+        210
+      ],
+      "span": 183,
+      "master_span": 183,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-gym-charcoal",
+      "size": [
+        192,
+        352
+      ],
+      "span": 306,
+      "master_span": 306,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-gym-charcoal",
+      "size": [
+        108,
+        210
+      ],
+      "span": 183,
+      "master_span": 183,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-gym-olive",
+      "size": [
+        192,
+        352
+      ],
+      "span": 306,
+      "master_span": 306,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-gym-olive",
+      "size": [
+        108,
+        210
+      ],
+      "span": 183,
+      "master_span": 183,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-olive-bomber",
+      "size": [
+        192,
+        352
+      ],
+      "span": 306,
+      "master_span": 306,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-olive-bomber",
+      "size": [
+        108,
+        210
+      ],
+      "span": 183,
+      "master_span": 183,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-red-flannel",
+      "size": [
+        192,
+        352
+      ],
+      "span": 306,
+      "master_span": 306,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-red-flannel",
+      "size": [
+        108,
+        210
+      ],
+      "span": 183,
+      "master_span": 183,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-red-moto",
+      "size": [
+        192,
+        352
+      ],
+      "span": 306,
+      "master_span": 306,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-red-moto",
+      "size": [
+        108,
+        210
+      ],
+      "span": 183,
+      "master_span": 183,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-sleep",
+      "size": [
+        192,
+        352
+      ],
+      "span": 306,
+      "master_span": 306,
+      "height_cm": 168
+    },
+    {
+      "id": "samantha-sleep",
+      "size": [
+        108,
+        210
+      ],
+      "span": 183,
+      "master_span": 183,
+      "height_cm": 168
+    },
+    {
+      "id": "sophie-autumn-knit",
+      "size": [
+        192,
+        352
+      ],
+      "span": 310,
+      "master_span": 310,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-autumn-knit",
+      "size": [
+        108,
+        210
+      ],
+      "span": 185,
+      "master_span": 185,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-beach-cobalt",
+      "size": [
+        192,
+        352
+      ],
+      "span": 310,
+      "master_span": 310,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-beach-cobalt",
+      "size": [
+        108,
+        210
+      ],
+      "span": 185,
+      "master_span": 185,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-beach-coral",
+      "size": [
+        192,
+        352
+      ],
+      "span": 310,
+      "master_span": 310,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-beach-coral",
+      "size": [
+        108,
+        210
+      ],
+      "span": 185,
+      "master_span": 185,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-beach-tropical",
+      "size": [
+        192,
+        352
+      ],
+      "span": 310,
+      "master_span": 310,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-beach-tropical",
+      "size": [
+        108,
+        210
+      ],
+      "span": 185,
+      "master_span": 185,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-casual-denim",
+      "size": [
+        192,
+        352
+      ],
+      "span": 310,
+      "master_span": 310,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-casual-denim",
+      "size": [
+        108,
+        210
+      ],
+      "span": 185,
+      "master_span": 185,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-casual-varsity",
+      "size": [
+        192,
+        352
+      ],
+      "span": 310,
+      "master_span": 310,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-casual-varsity",
+      "size": [
+        108,
+        210
+      ],
+      "span": 185,
+      "master_span": 185,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-formal-emerald",
+      "size": [
+        192,
+        352
+      ],
+      "span": 310,
+      "master_span": 310,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-formal-emerald",
+      "size": [
+        108,
+        210
+      ],
+      "span": 185,
+      "master_span": 185,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-formal-suit",
+      "size": [
+        192,
+        352
+      ],
+      "span": 310,
+      "master_span": 310,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-formal-suit",
+      "size": [
+        108,
+        210
+      ],
+      "span": 185,
+      "master_span": 185,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-gym-cardio",
+      "size": [
+        192,
+        352
+      ],
+      "span": 310,
+      "master_span": 310,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-gym-cardio",
+      "size": [
+        108,
+        210
+      ],
+      "span": 185,
+      "master_span": 185,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-gym-strength",
+      "size": [
+        192,
+        352
+      ],
+      "span": 310,
+      "master_span": 310,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-gym-strength",
+      "size": [
+        108,
+        210
+      ],
+      "span": 185,
+      "master_span": 185,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-picnic-dress",
+      "size": [
+        192,
+        352
+      ],
+      "span": 310,
+      "master_span": 310,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-picnic-dress",
+      "size": [
+        108,
+        210
+      ],
+      "span": 185,
+      "master_span": 185,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-sleep",
+      "size": [
+        192,
+        352
+      ],
+      "span": 310,
+      "master_span": 310,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-sleep",
+      "size": [
+        108,
+        210
+      ],
+      "span": 185,
+      "master_span": 185,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-summer-linen",
+      "size": [
+        192,
+        352
+      ],
+      "span": 310,
+      "master_span": 310,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-summer-linen",
+      "size": [
+        108,
+        210
+      ],
+      "span": 185,
+      "master_span": 185,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-winter-puffer",
+      "size": [
+        192,
+        352
+      ],
+      "span": 310,
+      "master_span": 310,
+      "height_cm": 170
+    },
+    {
+      "id": "sophie-winter-puffer",
+      "size": [
+        108,
+        210
+      ],
+      "span": 185,
+      "master_span": 185,
+      "height_cm": 170
+    },
+    {
+      "id": "yuriko-bikini-floral",
+      "size": [
+        192,
+        352
+      ],
+      "span": 290,
+      "master_span": 290,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-bikini-floral",
+      "size": [
+        108,
+        210
+      ],
+      "span": 173,
+      "master_span": 173,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-bikini-navy",
+      "size": [
+        192,
+        352
+      ],
+      "span": 290,
+      "master_span": 290,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-bikini-navy",
+      "size": [
+        108,
+        210
+      ],
+      "span": 173,
+      "master_span": 173,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-bikini-teal",
+      "size": [
+        192,
+        352
+      ],
+      "span": 290,
+      "master_span": 290,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-bikini-teal",
+      "size": [
+        108,
+        210
+      ],
+      "span": 173,
+      "master_span": 173,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-campus-cardigan",
+      "size": [
+        192,
+        352
+      ],
+      "span": 290,
+      "master_span": 290,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-campus-cardigan",
+      "size": [
+        108,
+        210
+      ],
+      "span": 173,
+      "master_span": 173,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-evening-dress",
+      "size": [
+        192,
+        352
+      ],
+      "span": 290,
+      "master_span": 290,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-evening-dress",
+      "size": [
+        108,
+        210
+      ],
+      "span": 173,
+      "master_span": 173,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-festival-yukata",
+      "size": [
+        192,
+        352
+      ],
+      "span": 290,
+      "master_span": 290,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-festival-yukata",
+      "size": [
+        108,
+        210
+      ],
+      "span": 173,
+      "master_span": 173,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-gym-lavender",
+      "size": [
+        192,
+        352
+      ],
+      "span": 290,
+      "master_span": 290,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-gym-lavender",
+      "size": [
+        108,
+        210
+      ],
+      "span": 173,
+      "master_span": 173,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-gym-sage",
+      "size": [
+        192,
+        352
+      ],
+      "span": 290,
+      "master_span": 290,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-gym-sage",
+      "size": [
+        108,
+        210
+      ],
+      "span": 173,
+      "master_span": 173,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-home",
+      "size": [
+        192,
+        352
+      ],
+      "span": 290,
+      "master_span": 290,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-home",
+      "size": [
+        108,
+        210
+      ],
+      "span": 173,
+      "master_span": 173,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-street-denim",
+      "size": [
+        192,
+        352
+      ],
+      "span": 290,
+      "master_span": 290,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-street-denim",
+      "size": [
+        108,
+        210
+      ],
+      "span": 173,
+      "master_span": 173,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-study-knit",
+      "size": [
+        192,
+        352
+      ],
+      "span": 290,
+      "master_span": 290,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-study-knit",
+      "size": [
+        108,
+        210
+      ],
+      "span": 173,
+      "master_span": 173,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-summer-dress",
+      "size": [
+        192,
+        352
+      ],
+      "span": 290,
+      "master_span": 290,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-summer-dress",
+      "size": [
+        108,
+        210
+      ],
+      "span": 173,
+      "master_span": 173,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-theatre-overalls",
+      "size": [
+        192,
+        352
+      ],
+      "span": 290,
+      "master_span": 290,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-theatre-overalls",
+      "size": [
+        108,
+        210
+      ],
+      "span": 173,
+      "master_span": 173,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-winter-coat",
+      "size": [
+        192,
+        352
+      ],
+      "span": 290,
+      "master_span": 290,
+      "height_cm": 159
+    },
+    {
+      "id": "yuriko-winter-coat",
+      "size": [
+        108,
+        210
+      ],
+      "span": 173,
+      "master_span": 173,
+      "height_cm": 159
+    }
+  ],
+  "saved_wardrobe_roundtrips": [
+    {
+      "character": "ivan",
+      "label": "Gym tank and shorts",
+      "path": "assets\\portraits\\ivan-gym-tank.png"
+    },
+    {
+      "character": "ivan",
+      "label": "Gym performance set",
+      "path": "assets\\portraits\\ivan-gym-training.png"
+    },
+    {
+      "character": "ivan",
+      "label": "Ivory sculptural tailoring",
+      "path": "assets\\portraits\\ivan-fashion-ivory.png"
+    },
+    {
+      "character": "ivan",
+      "label": "Burgundy silk couture",
+      "path": "assets\\portraits\\ivan-fashion-burgundy.png"
+    },
+    {
+      "character": "ivan",
+      "label": "Pearl grey runway",
+      "path": "assets\\portraits\\ivan-fashion-pearl.png"
+    },
+    {
+      "character": "ivan",
+      "label": "Midnight crystal stagewear",
+      "path": "assets\\portraits\\ivan-idol-midnight.png"
+    },
+    {
+      "character": "ivan",
+      "label": "White and gold stagewear",
+      "path": "assets\\portraits\\ivan-idol-white.png"
+    },
+    {
+      "character": "ivan",
+      "label": "Crimson stagewear",
+      "path": "assets\\portraits\\ivan-idol-crimson.png"
+    },
+    {
+      "character": "ivan",
+      "label": "Layered denim streetwear",
+      "path": "assets\\portraits\\ivan-street-denim.png"
+    },
+    {
+      "character": "ivan",
+      "label": "Navy varsity streetwear",
+      "path": "assets\\portraits\\ivan-street-varsity.png"
+    },
+    {
+      "character": "ivan",
+      "label": "Monochrome streetwear",
+      "path": "assets\\portraits\\ivan-street-monochrome.png"
+    },
+    {
+      "character": "ivan",
+      "label": "Sage knit streetwear",
+      "path": "assets\\portraits\\ivan-street-knit.png"
+    },
+    {
+      "character": "ivan",
+      "label": "Shirtless beachwear",
+      "path": "assets\\portraits\\ivan-beach.png"
+    },
+    {
+      "character": "garrett",
+      "label": "Ivory linen suit",
+      "path": "assets\\portraits\\garrett-ivory.png"
+    },
+    {
+      "character": "garrett",
+      "label": "Midnight tuxedo",
+      "path": "assets\\portraits\\garrett-formal-tuxedo.png"
+    },
+    {
+      "character": "garrett",
+      "label": "Burgundy evening suit",
+      "path": "assets\\portraits\\garrett-formal-burgundy.png"
+    },
+    {
+      "character": "garrett",
+      "label": "Jade streetwear",
+      "path": "assets\\portraits\\garrett-street-jade.png"
+    },
+    {
+      "character": "garrett",
+      "label": "Ink streetwear",
+      "path": "assets\\portraits\\garrett-street-ink.png"
+    },
+    {
+      "character": "garrett",
+      "label": "Brocade changshan",
+      "path": "assets\\portraits\\garrett-traditional-changshan.png"
+    },
+    {
+      "character": "garrett",
+      "label": "Jade hanfu",
+      "path": "assets\\portraits\\garrett-traditional-hanfu.png"
+    },
+    {
+      "character": "garrett",
+      "label": "Asymmetric runway",
+      "path": "assets\\portraits\\garrett-fashion-asymmetric.png"
+    },
+    {
+      "character": "garrett",
+      "label": "Pearl couture",
+      "path": "assets\\portraits\\garrett-fashion-pearl.png"
+    },
+    {
+      "character": "garrett",
+      "label": "Summer linen shirt",
+      "path": "assets\\portraits\\garrett-summer-linen.png"
+    },
+    {
+      "character": "garrett",
+      "label": "Winter wool coat",
+      "path": "assets\\portraits\\garrett-winter-coat.png"
+    },
+    {
+      "character": "garrett",
+      "label": "Gym training tank",
+      "path": "assets\\portraits\\garrett-gym-tank.png"
+    },
+    {
+      "character": "garrett",
+      "label": "Gym compression shirt",
+      "path": "assets\\portraits\\garrett-gym-compression.png"
+    },
+    {
+      "character": "garrett",
+      "label": "Shirtless beach shorts",
+      "path": "assets\\portraits\\garrett-beach-shorts.png"
+    },
+    {
+      "character": "garrett",
+      "label": "Home clothes",
+      "path": "assets\\portraits\\garrett-home.png"
+    },
+    {
+      "character": "garrett",
+      "label": "Sleepwear",
+      "path": "assets\\portraits\\garrett-sleep.png"
+    },
+    {
+      "character": "rei",
+      "label": "Black leather moto jacket",
+      "path": "assets\\portraits\\rei-moto.png"
+    },
+    {
+      "character": "rei",
+      "label": "Black knit sweater",
+      "path": "assets\\portraits\\rei-black-sweater.png"
+    },
+    {
+      "character": "rei",
+      "label": "Charcoal hoodie",
+      "path": "assets\\portraits\\rei-charcoal-hoodie.png"
+    },
+    {
+      "character": "rei",
+      "label": "Washed denim jacket",
+      "path": "assets\\portraits\\rei-denim-jacket.png"
+    },
+    {
+      "character": "rei",
+      "label": "Burgundy satin shirt",
+      "path": "assets\\portraits\\rei-burgundy-shirt.png"
+    },
+    {
+      "character": "rei",
+      "label": "Cream cardigan",
+      "path": "assets\\portraits\\rei-cream-cardigan.png"
+    },
+    {
+      "character": "rei",
+      "label": "Olive bomber jacket",
+      "path": "assets\\portraits\\rei-olive-bomber.png"
+    },
+    {
+      "character": "rei",
+      "label": "Tailored waistcoat",
+      "path": "assets\\portraits\\rei-tailored-waistcoat.png"
+    },
+    {
+      "character": "rei",
+      "label": "Camel overcoat",
+      "path": "assets\\portraits\\rei-camel-overcoat.png"
+    },
+    {
+      "character": "rei",
+      "label": "Japanese techwear",
+      "path": "assets\\portraits\\rei-streetwear-techwear.png"
+    },
+    {
+      "character": "rei",
+      "label": "Sukajan streetwear",
+      "path": "assets\\portraits\\rei-streetwear-sukajan.png"
+    },
+    {
+      "character": "rei",
+      "label": "Navy yukata",
+      "path": "assets\\portraits\\rei-navy-yukata.png"
+    },
+    {
+      "character": "rei",
+      "label": "Haori and hakama",
+      "path": "assets\\portraits\\rei-haori-hakama.png"
+    },
+    {
+      "character": "rei",
+      "label": "Gym tank and shorts",
+      "path": "assets\\portraits\\rei-gym.png"
+    },
+    {
+      "character": "rei",
+      "label": "Shirtless beachwear",
+      "path": "assets\\portraits\\rei-beach.png"
+    },
+    {
+      "character": "rei",
+      "label": "Home clothes",
+      "path": "assets\\portraits\\rei-home.png"
+    },
+    {
+      "character": "rei",
+      "label": "Sleepwear",
+      "path": "assets\\portraits\\rei-sleep.png"
+    },
+    {
+      "character": "minsu",
+      "label": "Forest varsity jacket",
+      "path": "assets\\portraits\\minsu-varsity.png"
+    },
+    {
+      "character": "minsu",
+      "label": "Seoul denim layers",
+      "path": "assets\\portraits\\minsu-street-denim.png"
+    },
+    {
+      "character": "minsu",
+      "label": "Monochrome streetwear",
+      "path": "assets\\portraits\\minsu-street-monochrome.png"
+    },
+    {
+      "character": "minsu",
+      "label": "Retro track streetwear",
+      "path": "assets\\portraits\\minsu-street-track.png"
+    },
+    {
+      "character": "minsu",
+      "label": "Gym training tank",
+      "path": "assets\\portraits\\minsu-gym-tank.png"
+    },
+    {
+      "character": "minsu",
+      "label": "Gym compression shirt",
+      "path": "assets\\portraits\\minsu-gym-compression.png"
+    },
+    {
+      "character": "minsu",
+      "label": "College rugby shirt",
+      "path": "assets\\portraits\\minsu-college-rugby.png"
+    },
+    {
+      "character": "minsu",
+      "label": "College plaid overshirt",
+      "path": "assets\\portraits\\minsu-college-overshirt.png"
+    },
+    {
+      "character": "minsu",
+      "label": "College knit polo",
+      "path": "assets\\portraits\\minsu-college-knit.png"
+    },
+    {
+      "character": "minsu",
+      "label": "Library cardigan",
+      "path": "assets\\portraits\\minsu-study-cardigan.png"
+    },
+    {
+      "character": "minsu",
+      "label": "Late-night study hoodie",
+      "path": "assets\\portraits\\minsu-study-hoodie.png"
+    },
+    {
+      "character": "minsu",
+      "label": "Medical student white coat",
+      "path": "assets\\portraits\\minsu-med-white-coat.png"
+    },
+    {
+      "character": "minsu",
+      "label": "Medical student scrubs",
+      "path": "assets\\portraits\\minsu-med-scrubs.png"
+    },
+    {
+      "character": "minsu",
+      "label": "Shirtless beach shorts",
+      "path": "assets\\portraits\\minsu-beach-shorts.png"
+    },
+    {
+      "character": "minsu",
+      "label": "Home clothes",
+      "path": "assets\\portraits\\minsu-home.png"
+    },
+    {
+      "character": "minsu",
+      "label": "Sleepwear",
+      "path": "assets\\portraits\\minsu-sleep.png"
+    }
+  ],
+  "automatic_routes": [
+    {
+      "character": "april",
+      "location": "beach",
+      "minute": 1080,
+      "path": "april-beach-bikini.png"
+    },
+    {
+      "character": "april",
+      "location": "track",
+      "minute": 1080,
+      "path": "april-gym-plum.png"
+    },
+    {
+      "character": "april",
+      "location": "bar",
+      "minute": 1080,
+      "path": "april-formal-emerald.png"
+    },
+    {
+      "character": "april",
+      "location": "beach",
+      "minute": 2520,
+      "path": "april-beach-swimsuit.png"
+    },
+    {
+      "character": "april",
+      "location": "track",
+      "minute": 2520,
+      "path": "april-gym-plum.png"
+    },
+    {
+      "character": "april",
+      "location": "bar",
+      "minute": 2520,
+      "path": "april-formal-ivory-suit.png"
+    },
+    {
+      "character": "april",
+      "location": "beach",
+      "minute": 3960,
+      "path": "april-beach-bikini.png"
+    },
+    {
+      "character": "april",
+      "location": "track",
+      "minute": 3960,
+      "path": "april-gym-plum.png"
+    },
+    {
+      "character": "april",
+      "location": "bar",
+      "minute": 3960,
+      "path": "april-formal-emerald.png"
+    },
+    {
+      "character": "samantha",
+      "location": "beach",
+      "minute": 1080,
+      "path": "samantha-beach-black-bikini.png"
+    },
+    {
+      "character": "samantha",
+      "location": "track",
+      "minute": 1080,
+      "path": "samantha-gym-charcoal.png"
+    },
+    {
+      "character": "samantha",
+      "location": "bar",
+      "minute": 1080,
+      "path": "samantha-formal-black-suit.png"
+    },
+    {
+      "character": "samantha",
+      "location": "beach",
+      "minute": 2520,
+      "path": "samantha-beach-red-bikini.png"
+    },
+    {
+      "character": "samantha",
+      "location": "track",
+      "minute": 2520,
+      "path": "samantha-gym-olive.png"
+    },
+    {
+      "character": "samantha",
+      "location": "bar",
+      "minute": 2520,
+      "path": "samantha-formal-burgundy-dress.png"
+    },
+    {
+      "character": "samantha",
+      "location": "beach",
+      "minute": 3960,
+      "path": "samantha-beach-teal-bikini.png"
+    },
+    {
+      "character": "samantha",
+      "location": "track",
+      "minute": 3960,
+      "path": "samantha-gym-charcoal.png"
+    },
+    {
+      "character": "samantha",
+      "location": "bar",
+      "minute": 3960,
+      "path": "samantha-formal-black-suit.png"
+    },
+    {
+      "character": "amy",
+      "location": "home asleep",
+      "minute": 0,
+      "path": "amy-sleep.png"
+    },
+    {
+      "character": "april",
+      "location": "home asleep",
+      "minute": 0,
+      "path": "april-sleep.png"
+    },
+    {
+      "character": "emily",
+      "location": "home asleep",
+      "minute": 0,
+      "path": "emily-sleep.png"
+    },
+    {
+      "character": "garrett",
+      "location": "home asleep",
+      "minute": 0,
+      "path": "garrett-sleep.png"
+    },
+    {
+      "character": "minsu",
+      "location": "home asleep",
+      "minute": 0,
+      "path": "minsu-sleep.png"
+    },
+    {
+      "character": "rei",
+      "location": "home asleep",
+      "minute": 0,
+      "path": "rei-sleep.png"
+    },
+    {
+      "character": "samantha",
+      "location": "home asleep",
+      "minute": 0,
+      "path": "samantha-sleep.png"
+    },
+    {
+      "character": "sophie",
+      "location": "home asleep",
+      "minute": 0,
+      "path": "sophie-sleep.png"
+    }
+  ],
+  "scope": "Staged Image.open substitution; existing portrait resolution and stature fitting; no installation or save writes"
+}

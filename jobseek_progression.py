@@ -226,7 +226,7 @@ def review(s):
     leadership = (p['rank']-2)*12
     if p['leadership'] < leadership or p['morale'] < 50:
         raise ValueError(f'Senior review requires leadership {leadership} and team morale 50.')
-    if (p['shifts'] < shifts or p['craft'] < craft or p['reliability'] < reliability
+    if (p['shifts'] + p.get('origin_experience', 0) < shifts or p['craft'] < craft or p['reliability'] < reliability
             or len(p['certificates']) < certs or len(p['portfolio']) < projects
             or p['standing'] < standing or not p['specialty']):
         raise ValueError(f'Review requires {shifts} shifts, craft {craft}, reliability {reliability}, '
@@ -241,7 +241,7 @@ def manage(s, choice):
     if choice not in ('quality', 'team', 'outreach'):
         raise ValueError('Choose an available department initiative.')
     d, key, p, now = available(s, 30)
-    if p['rank'] < 3 or not p['portfolio']:
+    if p['rank'] < 3 or not (p['portfolio'] or p.get('origin_portfolio')):
         raise ValueError('The management desk requires rank 4 and a delivered project.')
     if p['management_day'] == now//1440:
         raise ValueError('One department initiative per workplace per day.')

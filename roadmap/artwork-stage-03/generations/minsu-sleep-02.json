@@ -1,0 +1,13 @@
+{
+  "id": "minsu-sleep",
+  "tool": "built-in image_gen",
+  "model": "not exposed",
+  "generated_source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c7d2-0cc6-74f2-ba9f-981788fc8cd9\\exec-f2277e98-b11c-4d68-b8b0-05919a5c584b.png",
+  "sha256": "95490ce1bf792e757ead88fc45571a757821392c5818eb24ee8011f0ad4fb0a5",
+  "prompt": "Edit this EXACT image to fix only the missing upper thighs below the pyjama shorts. The man has legs, but the previous output mistakenly ends at the shorts hem. Keep his face, hair, head size, torso, shirt, arms, hands, pose and entire body scale exactly unchanged. Shorten the charcoal shorts to end around y=1380 on this 1024x1536 image, preserving their grey piping, and draw the anatomically continuous exposed UPPER THIGHS from both shorts openings down to a straight shared picture crop around y=1510, matching the underlying hips and leg directions. Show the same modest upper-thigh strips as ordinary mid-thigh-cropped shorts portraits. Both thighs must visibly emerge from inside the shorts and continue to the bottom body cutoff. No floating shorts, no hollow leg openings, no finished body edge at the hem. Preserve correct leg width; do not lengthen torso or move hips. LOWER THIGHS, KNEES, LOWER LEGS AND FEET remain off-image. Do not zoom out. Retain opaque charcoal covered pyjama top and loose shorts, fully clothed neutral adult catalogue portrait. Same 1024x1536 transparent RGBA canvas, no backdrop or haze, fully clear alpha outside his silhouette.",
+  "referenced_image_paths": [
+    "C:/Users/ryanl/Documents/Mysterious Hearts/roadmap/artwork-stage-03/candidates/minsu-sleep.png"
+  ],
+  "transparent_background": true,
+  "pixel_postprocessing": false
+}

@@ -43,6 +43,8 @@ POINTS = {
     'daniel_home': (485, 810), 'sylvanis_home': (750, 950),
 }
 POINTS.update({key: v[1] for key, v in public_venues.VENUES.items()})
+import organisation_guards
+POINTS.update(organisation_guards.POINTS)
 POINTS['glasshouse_lab'] = (330, 1030)
 POINTS.update({key: data['point'] for key, data in vacant_homes.HOMES.items()})
 POINTS.update({key: data['point'] for key, data in crime_sites.SITES.items()})

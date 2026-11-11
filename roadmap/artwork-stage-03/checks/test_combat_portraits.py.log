@@ -1,0 +1,9 @@
+test_damaged_art_falls_back (test_combat_portraits.CombatPortraitTests.test_damaged_art_falls_back) ... ok
+test_entire_awakened_roster_has_transparent_art (test_combat_portraits.CombatPortraitTests.test_entire_awakened_roster_has_transparent_art) ... ok
+test_shared_fighter_scale_includes_saved_female_guard (test_combat_portraits.CombatPortraitTests.test_shared_fighter_scale_includes_saved_female_guard) ... ok
+test_unknown_and_custom_keep_existing_portrait (test_combat_portraits.CombatPortraitTests.test_unknown_and_custom_keep_existing_portrait) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 1.343s
+
+OK

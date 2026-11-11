@@ -76,6 +76,8 @@ def stage(d):
 
 
 def join(s,key):
+    if key in s.get('organisation_guards',{}).get('disabled',[]):
+        raise ValueError('This organisation has been dismantled in this story.')
     import job_apps as j
     d=j.ensure(s)
     if key not in GANGS: raise ValueError('Choose a listed gang.')
@@ -118,6 +120,7 @@ def review_gang(s):
 
 
 def gang_title(g):
+    if g.get('id')=='hamayashi' and g.get('role')=='Leader': return 'Leader · voluntary successor charter'
     if g.get('mission_desk'): return g['role'] + ' · Established mandate'
     if g.get('established'): return 'Established leader · large organisation'
     if g['role']=='Founder': return ('New crew','Established crew','District network','City network')[g.get('rank',0)]+' · Founder'

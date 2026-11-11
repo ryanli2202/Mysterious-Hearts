@@ -1,0 +1,11 @@
+test_custom_name_does_not_change_archetype (test_guard_portraits.GuardPortraitTests.test_custom_name_does_not_change_archetype) ... ok
+test_every_type_has_a_transparent_asset (test_guard_portraits.GuardPortraitTests.test_every_type_has_a_transparent_asset) ... ok
+test_named_posts_and_old_saved_encounters (test_guard_portraits.GuardPortraitTests.test_named_posts_and_old_saved_encounters) ... ok
+test_richter_form_only_at_boss_scene_fight_and_aftermath (test_guard_portraits.GuardPortraitTests.test_richter_form_only_at_boss_scene_fight_and_aftermath) ... ok
+test_syndicate_posts_conversations_and_combat_use_current_assets (test_guard_portraits.GuardPortraitTests.test_syndicate_posts_conversations_and_combat_use_current_assets) ... ok
+test_syndicate_scripted_fights_without_deployment_slots (test_guard_portraits.GuardPortraitTests.test_syndicate_scripted_fights_without_deployment_slots) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.756s
+
+OK

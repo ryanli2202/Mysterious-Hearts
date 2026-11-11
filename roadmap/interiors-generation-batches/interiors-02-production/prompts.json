@@ -1,0 +1,368 @@
+{
+  "batch_id": "interiors-02",
+  "tool": "built-in image_gen",
+  "model": "Not exposed by built-in tool",
+  "requested_size": [
+    1536,
+    1024
+  ],
+  "prompts": [
+    {
+      "id": "valentina_home__entrance",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create entrance for Yeuns' Ferry Signal House. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: whitewashed brick, honey-brown structural timber and plank floors, slim black iron railings and black-framed harbour windows, brass ship-style lamps, navy/teal details, warm lights against a blue dusk harbour. Room brief: Entrance foyer just inside the house. A closed charcoal timber front door with brass latch, coat hooks and a slim shoe bench to one side. A broad open timber-framed doorway leads into the established harbour living room, with only a partial glimpse of its black window grid and blue window seat. Compact domestic scale, dry floor. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/valentina_home.png"
+      ]
+    },
+    {
+      "id": "valentina_home__kitchen_dining",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create kitchen dining for Yeuns' Ferry Signal House. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: whitewashed brick, honey-brown structural timber and plank floors, slim black iron railings and black-framed harbour windows, brass ship-style lamps, navy/teal details, warm lights against a blue dusk harbour. Room brief: Separate compact kitchen and dining room adjoining the harbour living room. Navy painted cupboards, timber counters, brass tap, practical range, open ceramic shelves and a wooden dining table for two to four toward one side. Clear central route to a timber-framed opening toward the living room. A black-grid harbour window. No banquet setting. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/valentina_home.png"
+      ]
+    },
+    {
+      "id": "valentina_home__piano_alcove_view",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create piano alcove view for Yeuns' Ferry Signal House. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: whitewashed brick, honey-brown structural timber and plank floors, slim black iron railings and black-framed harbour windows, brass ship-style lamps, navy/teal details, warm lights against a blue dusk harbour. Room brief: Dedicated closer alternate view of the existing piano alcove, which is a zone of the harbour living room, NOT a new enclosed music room. Preserve the dark upright piano and padded dark bench against vertical timber slats, brass task lamp and small bookshelves with trailing greenery. View diagonally past the piano toward a partial harbour window at the side. Piano stays to one side, central foreground floor clear. No extra piano. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/valentina_home.png"
+      ]
+    },
+    {
+      "id": "valentina_home__sail_workroom",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create sail workroom for Yeuns' Ferry Signal House. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: whitewashed brick, honey-brown structural timber and plank floors, slim black iron railings and black-framed harbour windows, brass ship-style lamps, navy/teal details, warm lights against a blue dusk harbour. Room brief: Dedicated sail workroom connected to the harbour living room. A substantial worn timber sailmaking bench to one side with neatly folded pale sailcloth, a spool rack and hand tools stored on wall pegs; a practical sewing machine at the far end. Wall cupboards and black-grid harbour window. Functional workspace with an unobstructed central standing aisle. Not a ship deck. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/valentina_home.png"
+      ]
+    },
+    {
+      "id": "valentina_home__mezzanine_stairway",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create mezzanine stairway for Yeuns' Ferry Signal House. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: whitewashed brick, honey-brown structural timber and plank floors, slim black iron railings and black-framed harbour windows, brass ship-style lamps, navy/teal details, warm lights against a blue dusk harbour. Room brief: Dedicated architectural view of the existing STRAIGHT open wooden staircase rising along whitewashed brick from harbour living room to reading mezzanine. Match thin black metal handrails, warm timber treads and exposed mezzanine beam. Show both the clear foot of the stairs and the upper landing meeting the black-railed book-lined mezzanine. Large black-grid harbour window to right, glimpse of blue window seat. No spirals, extra flights or impossible stairs. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/valentina_home.png"
+      ]
+    },
+    {
+      "id": "valentina_home__reading_mezzanine",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create reading mezzanine for Yeuns' Ferry Signal House. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: whitewashed brick, honey-brown structural timber and plank floors, slim black iron railings and black-framed harbour windows, brass ship-style lamps, navy/teal details, warm lights against a blue dusk harbour. Room brief: View from ON the reading mezzanine above the harbour living room. Built-in bookcases and two comfortable reading chairs placed along the timber/brick wall, small brass reading lamps, thin black metal railing along the open edge; harbour windows visible beyond. The straight wooden stair arrives at one end behind a safe railing opening. Three separate plain closed doors along rear wall lead to Ivan bedroom, Valentina bedroom and bathroom, without labels. Keep clear circulation between stair and doors. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/valentina_home.png"
+      ]
+    },
+    {
+      "id": "valentina_home__ivan_bedroom",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create ivan bedroom for Yeuns' Ferry Signal House. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: whitewashed brick, honey-brown structural timber and plank floors, slim black iron railings and black-framed harbour windows, brass ship-style lamps, navy/teal details, warm lights against a blue dusk harbour. Room brief: Ivan's individual private adult bedroom off the reading mezzanine. Navy bedding on a timber bed to one side, a compact songwriting desk with closed notebook and headphones, modest bookshelf, wardrobe, warm brass bedside lamp and harbour window. Calm personal room. One closed timber door to the mezzanine. No second bed, musical performance, weapons or faction insignia. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/valentina_home.png"
+      ]
+    },
+    {
+      "id": "valentina_home__valentina_bedroom",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create valentina bedroom for Yeuns' Ferry Signal House. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: whitewashed brick, honey-brown structural timber and plank floors, slim black iron railings and black-framed harbour windows, brass ship-style lamps, navy/teal details, warm lights against a blue dusk harbour. Room brief: Valentina's separate private adult bedroom off the reading mezzanine. A timber bed to one side with muted teal bedding, a cosy reading chair and small bookshelf, practical wardrobe, a framed unlettered sailing illustration and a few folded textiles neatly stored. Black-grid harbour window, warm brass lamp. One closed timber door to the mezzanine. No second bed, weapons or faction insignia. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/valentina_home.png"
+      ]
+    },
+    {
+      "id": "valentina_home__bathroom",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create bathroom for Yeuns' Ferry Signal House. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: whitewashed brick, honey-brown structural timber and plank floors, slim black iron railings and black-framed harbour windows, brass ship-style lamps, navy/teal details, warm lights against a blue dusk harbour. Room brief: A complete private household bathroom off the reading mezzanine. Navy vanity with pale stone basin, brass wall lights and plumbing, large mirror reflecting only room surfaces, enclosed shower with textured privacy glass, toilet and folded towels. Timber ceiling beams and whitewashed brick outside wet areas; muted slate small-format floor tile. One closed timber door, no clear exterior sightline into private space. Distinct bathroom, no sofa or piano. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/valentina_home.png"
+      ]
+    },
+    {
+      "id": "neo_home__entrance",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create entrance for Neo and Alyssa's station apartment. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: modest warm plaster walls, medium brown timber trim and floorboards, dark brown simple cabinetry, brass pendant lamps, warm sunset light and a distant small railway station outside. Room brief: Small apartment entrance vestibule with closed brown front door, narrow shoe storage and two coat hooks at edge. An open interior doorway gives a partial glimpse of the existing modest grey sofa. Clear walking floor, plausible compact apartment scale. No stairs. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/neo_home.png"
+      ]
+    },
+    {
+      "id": "neo_home__kitchen_dining",
+      "prompt": "Edit target: the supplied kitchen illustration. Produce one 1536x1024 opaque landscape image. Correct ONLY the cooking fixtures in this same modest apartment: put a clearly visible two-ring black induction hob on the LEFT counter section, replacing the rice cooker and leftmost counter clutter, and relocate the extractor hood directly above that hob. Keep the stainless sink on the right-hand return, away from the hob. Shift the rice cooker to a small free section of counter if it fits, otherwise omit it. Keep the brown cabinets, cream tile, refrigerator, table for two, mugs, railway window, sofa edge, warm sunset lighting, illustrated style and clear foreground. No text, labels, people or watermarks.",
+      "reference_paths": [
+        "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c9d7-d510-72c0-8525-e3e66bf1b1bf\\exec-8d36bbdc-c187-4051-8962-7db6929f275e.png"
+      ],
+      "rejected_attempts": [
+        {
+          "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create kitchen dining for Neo and Alyssa's station apartment. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: modest warm plaster walls, medium brown timber trim and floorboards, dark brown simple cabinetry, brass pendant lamps, warm sunset light and a distant small railway station outside. Room brief: A closer distinct view of the EXISTING kitchen and dining area, continuous with the living room. Match dark brown wall and base cabinets, cream square-tile splashback, stainless sink, compact refrigerator, rice cooker, vintage radio on open shelf and brass pendant. Simple wooden table for two placed to one side, clear and ready for meals, with two ceramic mugs. Small partial grey sofa at far edge only; no new island or large luxury room. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+          "reference_paths": [
+            "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/neo_home.png"
+          ],
+          "source_path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c9d7-d510-72c0-8525-e3e66bf1b1bf\\exec-8d36bbdc-c187-4051-8962-7db6929f275e.png",
+          "reason": "Extractor hood positioned over sink and no visible hob; cooking function needs an actual cooking surface."
+        }
+      ]
+    },
+    {
+      "id": "neo_home__hall",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create hall for Neo and Alyssa's station apartment. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: modest warm plaster walls, medium brown timber trim and floorboards, dark brown simple cabinetry, brass pendant lamps, warm sunset light and a distant small railway station outside. Room brief: Compact private hall connecting living room to exactly two closed brown doors, shared bedroom and bathroom. Medium timber floor and trim, warm plaster, one modest wall sconce and a botanical print without text. Short realistic hallway; open glimpse toward living room at the near end. No staircase or extra bedroom doors. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/neo_home.png"
+      ]
+    },
+    {
+      "id": "neo_home__shared_bedroom",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create shared bedroom for Neo and Alyssa's station apartment. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: modest warm plaster walls, medium brown timber trim and floorboards, dark brown simple cabinetry, brass pendant lamps, warm sunset light and a distant small railway station outside. Room brief: Neo and Alyssa's shared private adult bedroom. ONE double bed with muted charcoal and soft moss bedding, two small bedside surfaces, a simple shared wardrobe and modest shelf of unlettered books. A closed sketchbook and small potted plant on a side desk; brown-framed window showing distant station rooftops. One closed door to hall. Warm, modest, tidy room for two; no separate twin beds or electronics workshop. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/neo_home.png"
+      ]
+    },
+    {
+      "id": "neo_home__bathroom",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create bathroom for Neo and Alyssa's station apartment. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: modest warm plaster walls, medium brown timber trim and floorboards, dark brown simple cabinetry, brass pendant lamps, warm sunset light and a distant small railway station outside. Room brief: Compact apartment bathroom: simple tiled shower enclosure, toilet, dark-brown vanity and basin, plain mirror, warm practical lighting and two towels. Muted warm-grey tiled floor, cream square wall tiles, brown door to hall. No clear window sightline, no plants obstructing fittings, realistic modest proportions. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/neo_home.png"
+      ]
+    },
+    {
+      "id": "neo_home__herb_balcony",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create herb balcony for Neo and Alyssa's station apartment. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: modest warm plaster walls, medium brown timber trim and floorboards, dark brown simple cabinetry, brass pendant lamps, warm sunset light and a distant small railway station outside. Room brief: EXTERIOR small private herb balcony accessed from the apartment living room through a brown-framed glazed door. Safe dark metal railing, terracotta pots of ordinary kitchen herbs on a narrow shelf along the edge, compact folding chair. Sunset view of small station platforms and neighbourhood rooftops, no readable signage. Clear floor circulation; balcony is elevated outdoors, no glass enclosure or roof mistaken for a room. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/neo_home.png"
+      ]
+    },
+    {
+      "id": "tyler_home__kitchen_dining",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create kitchen dining for Tyler's East Ward duplex. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: dark navy painted timber trim and cabinetry, warm brown timber floors and ceilings, brass globe sconces, muted plaster, burgundy and plaid domestic textiles, warm dusk and historic East Ward homes outside. Room brief: Accessible level kitchen adjoining the established living room. Navy cupboards, pale tile splashback, farmhouse sink, practical stove, brass lighting and wood dining table off to one side with chairs spaced for a clear broad path. Some lower work surface space open underneath, utensils reachable. Same floor level throughout, no thresholds, steps or island bottleneck. Glimpse of brown leather living-room sofa at doorway only. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/tyler_home.png"
+      ]
+    },
+    {
+      "id": "tyler_home__level_hall",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create level hall for Tyler's East Ward duplex. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: dark navy painted timber trim and cabinetry, warm brown timber floors and ceilings, brass globe sconces, muted plaster, burgundy and plaid domestic textiles, warm dusk and historic East Ward homes outside. Room brief: A broad entirely LEVEL residential hall connecting living room to three separate closed doors: Tyler bedroom, father's bedroom, accessible bathroom. Wide doorways, lever handles, smooth timber floor, no loose runner, steps or raised thresholds. Navy trim and warm sconces, minimal wall decoration. Perspective makes wide unobstructed central circulation clear. Not a hospital corridor. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/tyler_home.png"
+      ]
+    },
+    {
+      "id": "tyler_home__tyler_bedroom",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create tyler bedroom for Tyler's East Ward duplex. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: dark navy painted timber trim and cabinetry, warm brown timber floors and ceilings, brass globe sconces, muted plaster, burgundy and plaid domestic textiles, warm dusk and historic East Ward homes outside. Room brief: Tyler's own adult bedroom. Wood bed toward one side with navy and burgundy plaid bedding, wardrobe, modest desk, neatly stored ordinary boxing gloves on a shelf rather than a training gym, warm lamp. Wide closed lever-handled door to level hall, unobstructed timber walking route. No trophies with words, no medical equipment. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/tyler_home.png"
+      ]
+    },
+    {
+      "id": "tyler_home__father_bedroom",
+      "prompt": "Edit only the visible hall floor beyond the open bedroom door: remove the patterned rug so the hallway has continuous bare smooth timber flooring, matching the planned level hall. Keep this same comfortable father bedroom, normal bed, furniture, open wide door, warm dusk lighting, illustrated style and all framing. No people, text, medical equipment or new objects. Opaque 1536x1024 landscape.",
+      "reference_paths": [
+        "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c9d7-d510-72c0-8525-e3e66bf1b1bf\\exec-7779cfcb-9945-4012-aeaa-c6e9ca2f0fdc.png"
+      ],
+      "rejected_attempts": [
+        {
+          "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create father bedroom for Tyler's East Ward duplex. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: dark navy painted timber trim and cabinetry, warm brown timber floors and ceilings, brass globe sconces, muted plaster, burgundy and plaid domestic textiles, warm dusk and historic East Ward homes outside. Room brief: Separate comfortable adult bedroom for Tyler's co-resident father. A normal wooden bed toward one side with muted navy coverlet, roomy clear approach, armchair, accessible-height bedside table, wardrobe and warm reading lamp. Wide doorway with lever handle and smooth level timber floor. A home, with no hospital bed, medical machinery, diagnosis cues, person or new care routine. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+          "reference_paths": [
+            "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/tyler_home.png"
+          ],
+          "source_path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c9d7-d510-72c0-8525-e3e66bf1b1bf\\exec-7779cfcb-9945-4012-aeaa-c6e9ca2f0fdc.png",
+          "reason": "Visible hall rug conflicted with accepted clear level hall."
+        }
+      ]
+    },
+    {
+      "id": "tyler_home__accessible_bathroom",
+      "prompt": "Edit only bathroom accessibility/privacy fittings in this image: change the large window to softly translucent/frosted privacy glass, retaining its black grid and warm dusk glow without a clear exterior view. Replace the basin's two twist/cross taps with ONE easy lever mixer tap. Add a practical fold-up grab rail beside the toilet, without obstructing the wide central turning floor. Keep the existing flush roll-in shower, fold-down seat, shower rails, open knee space under basin, warm navy/timber domestic styling, perspective and all other fixtures. No people, text or medical machinery. Opaque 1536x1024 landscape.",
+      "reference_paths": [
+        "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c9d7-d510-72c0-8525-e3e66bf1b1bf\\exec-12057793-a72d-4018-beb0-a04ff41b2319.png"
+      ],
+      "rejected_attempts": [
+        {
+          "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create accessible bathroom for Tyler's East Ward duplex. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: dark navy painted timber trim and cabinetry, warm brown timber floors and ceilings, brass globe sconces, muted plaster, burgundy and plaid domestic textiles, warm dusk and historic East Ward homes outside. Room brief: A domestic accessible bathroom on the same level as the hall. Wide doorway with lever handle, completely flush wet-room entry, spacious roll-in shower with fold-down seat, unobtrusive grab rails at shower and toilet, wall-mounted basin with open knee space, lever taps. Clear turning area with slip-resistant warm-grey tile. Navy accents, warm brass-toned light. Correct continuous floor drainage; NO bath rim or step into shower. No people or medical apparatus. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+          "reference_paths": [
+            "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/tyler_home.png"
+          ],
+          "source_path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c9d7-d510-72c0-8525-e3e66bf1b1bf\\exec-12057793-a72d-4018-beb0-a04ff41b2319.png",
+          "reason": "Clear large bathroom window and twist taps needed privacy and lever correction."
+        }
+      ]
+    },
+    {
+      "id": "tyler_home__accessible_porch",
+      "prompt": "Edit only the entrance details in this same accessible porch illustration: remove the patterned doormat and leave smooth continuous wooden floor at the doorway; replace the round brass doorknob with an easy brass lever handle; make the doorway threshold visibly flush with the porch deck. Keep the broad clear porch and gently sloped ramp with its rails, seating placed at edges, navy trim, East Ward dusk exterior, architecture, lighting and illustrated style. No other changes, no people or words. Opaque 1536x1024 landscape.",
+      "reference_paths": [
+        "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c9d7-d510-72c0-8525-e3e66bf1b1bf\\exec-68040b8d-7bb5-4168-8fe3-0bea5d900b03.png"
+      ],
+      "rejected_attempts": [
+        {
+          "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create accessible porch for Tyler's East Ward duplex. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: dark navy painted timber trim and cabinetry, warm brown timber floors and ceilings, brass globe sconces, muted plaster, burgundy and plaid domestic textiles, warm dusk and historic East Ward homes outside. Room brief: EXTERIOR covered porch viewed from near the front doorway, continuous step-free threshold and broad clear timber floor. A gently sloping access ramp with continuous sturdy rails leads down toward the pavement, visibly replacing any stair-only access route. Bench and porch chair against wall, warm hanging lantern, navy front door and trim. East Ward homes and autumn trees at dusk. Keep dry clear passage, no snow or objects blocking ramp. Plausible accessible slope, not steep stairs. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+          "reference_paths": [
+            "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/tyler_home.png"
+          ],
+          "source_path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c9d7-d510-72c0-8525-e3e66bf1b1bf\\exec-68040b8d-7bb5-4168-8fe3-0bea5d900b03.png",
+          "reason": "Porch mat and round knob did not support the intended clear accessible entrance."
+        }
+      ]
+    },
+    {
+      "id": "lena_home__entrance",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create entrance for Lena's clocktower flat. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: old red brick walls, dark exposed arched timber beams, iron and brass fittings, warm wood floorboards, arched black-framed windows, burgundy textiles and warm sunset/practical light. Room brief: Domestic entrance vestibule inside the clocktower flat: closed heavy timber door, small boot bench and coat hooks, warm brass light, red brick arch opening toward the living/record room. A small partial glimpse of record shelving, not a shop. No street storefront, no new business access or stairs. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/lena_home.png"
+      ]
+    },
+    {
+      "id": "lena_home__kitchen",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create kitchen for Lena's clocktower flat. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: old red brick walls, dark exposed arched timber beams, iron and brass fittings, warm wood floorboards, arched black-framed windows, burgundy textiles and warm sunset/practical light. Room brief: Compact fitted home kitchen off the living/record room, nestled under old brick and timber arch. Dark wooden cabinets, pale stone worktop, small cooking range, brass sink tap, open shelves with plain jars and crockery, small table at edge. Arched black-framed window to dusk rooftops. Practical cooking space, not clock repair workshop. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/lena_home.png"
+      ]
+    },
+    {
+      "id": "lena_home__photo_workroom",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create photo workroom for Lena's clocktower flat. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: old red brick walls, dark exposed arched timber beams, iron and brass fittings, warm wood floorboards, arched black-framed windows, burgundy textiles and warm sunset/practical light. Room brief: Dedicated photographic workroom with a sturdy worktable to one side, camera and closed equipment cases, flat print drawers, a drying line of small black-and-white landscape photographs with NO people and no text, warm adjustable task lamps. Red brick, arched timber, high black-framed window. Photo sorting/drying room, not a chemical darkroom or commercial shop. Large clear central floor, no dangling cords across passage. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/lena_home.png"
+      ]
+    },
+    {
+      "id": "lena_home__hall",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create hall for Lena's clocktower flat. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: old red brick walls, dark exposed arched timber beams, iron and brass fittings, warm wood floorboards, arched black-framed windows, burgundy textiles and warm sunset/practical light. Room brief: Short private residential hall in the clocktower flat connecting living room to bedroom and bathroom. Two closed plain dark wooden doors beneath brick arches, warm brass wall lamps, a few unlettered landscape photographs. Old timber floor and exposed timber structure, clear level passage. No shop door, no extra stairs. Do not copy the huge clock face into every room. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/lena_home.png"
+      ]
+    },
+    {
+      "id": "lena_home__bedroom",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create bedroom for Lena's clocktower flat. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: old red brick walls, dark exposed arched timber beams, iron and brass fittings, warm wood floorboards, arched black-framed windows, burgundy textiles and warm sunset/practical light. Room brief: Private adult bedroom off the flat's hall. Wood bed to one side with burgundy coverlet and pale linen, antique wardrobe, bedside lamp, a few landscape photographs and books. Red brick and curved timber structure, small arched window to town roofs. Quiet contained bedroom, no second kitchen or workbench. One closed door to hall. Preserve clocktower architectural character without inserting another giant clock. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/lena_home.png"
+      ]
+    },
+    {
+      "id": "lena_home__bathroom",
+      "prompt": "Edit target: this clocktower bathroom illustration. Change ONLY two material treatments: make all panes of the large main arched window softly frosted privacy glass, preserving the black mullions and warm sunset glow but removing the clear town view; replace the main room wooden floor with warm-grey small-format stone tiles, continuing coherently into the shower's tiled wet area. Keep every fixture, brick arch, timber beam, vanity, mirror, brass lamp, towel, toilet, door, composition and illustrated style unchanged. Opaque 1536x1024 landscape; no people or text.",
+      "reference_paths": [
+        "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c9d7-d510-72c0-8525-e3e66bf1b1bf\\exec-94a403b6-4a22-4fe6-8d36-c771e2cc1cc3.png"
+      ],
+      "rejected_attempts": [
+        {
+          "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create bathroom for Lena's clocktower flat. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: old red brick walls, dark exposed arched timber beams, iron and brass fittings, warm wood floorboards, arched black-framed windows, burgundy textiles and warm sunset/practical light. Room brief: Private home bathroom in the clocktower conversion. Dark wood vanity, simple basin, oval mirror reflecting masonry, brass practical lights, enclosed shower, toilet, neatly folded towels. Red brick and timber details outside wet areas, warm-grey tile floor and wet walls. Small high frosted arched window, closed timber door. No readable clocks or labels. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+          "reference_paths": [
+            "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/lena_home.png"
+          ],
+          "source_path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c9d7-d510-72c0-8525-e3e66bf1b1bf\\exec-94a403b6-4a22-4fe6-8d36-c771e2cc1cc3.png",
+          "reason": "Added clear large bathroom window and main wooden floor did not match privacy-glazing and tiled-floor brief."
+        }
+      ]
+    },
+    {
+      "id": "naomi_home__entrance",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create entrance for Naomi's riverside maisonette. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: dark navy timber paneling and trim, warm brown wood floors, black metal rails, brass globe lamps, deep burgundy textiles, trailing plants, warm dusk and riverfront town views. Room brief: Small entrance vestibule with closed navy door, low shoe bench and minimal hooks, open doorway toward the existing living room. Small glimpse of burgundy sofa and a black-grid river window beyond. Clear wooden floor, warm globe sconce. No bicycle repair workshop, no extra stair. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/naomi_home.png"
+      ]
+    },
+    {
+      "id": "naomi_home__kitchen",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create kitchen for Naomi's riverside maisonette. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: dark navy timber paneling and trim, warm brown wood floors, black metal rails, brass globe lamps, deep burgundy textiles, trailing plants, warm dusk and riverfront town views. Room brief: Closer distinct view of the existing kitchen under the mezzanine, with navy cabinets, warm tile splashback, stainless refrigerator, kettle, handmade ceramic mugs and small brown-topped island off to one side. An open connection toward living room, limited glimpse of established wooden stair at far edge. Clear central floor for standing characters. Not a new vast kitchen. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/naomi_home.png"
+      ]
+    },
+    {
+      "id": "naomi_home__stairway",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create stairway for Naomi's riverside maisonette. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: dark navy timber paneling and trim, warm brown wood floors, black metal rails, brass globe lamps, deep burgundy textiles, trailing plants, warm dusk and riverfront town views. Room brief: Architectural view of the existing wooden stair from living level to upper landing. Match broad illuminated lower treads rising away, turning left to narrower upper run with slim black metal railing, navy adjacent wall and existing timber construction. Show a believable continuous walkable turn and safe top connection. Glimpse of living-room plant shelf and high river window only; no floating treads, extra branches or spiral. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/naomi_home.png"
+      ]
+    },
+    {
+      "id": "naomi_home__landing",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create landing for Naomi's riverside maisonette. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: dark navy timber paneling and trim, warm brown wood floors, black metal rails, brass globe lamps, deep burgundy textiles, trailing plants, warm dusk and riverfront town views. Room brief: View ON upper landing at top of the existing turning wooden staircase. Slim black railing overlooks living room at one side, navy panels, warm timber floor and globe lights. Two separate closed timber doors lead to bedroom and bathroom. A small book shelf on the wall, clear circulation and guarded stair opening. Partial river window at far edge. Not another living room. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/naomi_home.png"
+      ]
+    },
+    {
+      "id": "naomi_home__bedroom",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create bedroom for Naomi's riverside maisonette. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: dark navy timber paneling and trim, warm brown wood floors, black metal rails, brass globe lamps, deep burgundy textiles, trailing plants, warm dusk and riverfront town views. Room brief: Private adult bedroom off upper landing. Wooden bed placed to one side with burgundy and warm neutral bedding, bedside handmade mug and closed mystery novel, wardrobe and a reading chair near a river-facing black-framed window. Navy trim, timber floor, warm brass lamp. One closed door to landing. No repair bench, no additional climbing wall. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/naomi_home.png"
+      ]
+    },
+    {
+      "id": "naomi_home__bathroom",
+      "prompt": "Edit this bathroom illustration ONLY by replacing every clear pane of the large right-hand window with translucent textured/frosted privacy glass. Preserve the dark mullion grid and warm dusk colour, but no outside buildings, river or trees should be discernible through the frosted glass. Keep the small high frosted window, shower, navy vanity, toilet, slate-tile floor, lighting, plants, framing and illustrated style exactly as they are. One opaque 1536x1024 landscape image, no text or people.",
+      "reference_paths": [
+        "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c9d7-d510-72c0-8525-e3e66bf1b1bf\\exec-e94092a9-cd7d-4a90-82e6-3091dc06addf.png"
+      ],
+      "rejected_attempts": [
+        {
+          "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create bathroom for Naomi's riverside maisonette. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: dark navy timber paneling and trim, warm brown wood floors, black metal rails, brass globe lamps, deep burgundy textiles, trailing plants, warm dusk and riverfront town views. Room brief: Private upstairs bathroom: navy vanity, pale stone basin, plain mirror, warm brass lights, shower enclosure, toilet and neat towels. Muted slate floor tiles and warm pale wet-wall tiles; small high frosted window. Closed timber door to landing. Clear central floor and domestic proportions, no balcony inside. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+          "reference_paths": [
+            "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/naomi_home.png"
+          ],
+          "source_path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c9d7-d510-72c0-8525-e3e66bf1b1bf\\exec-e94092a9-cd7d-4a90-82e6-3091dc06addf.png",
+          "reason": "Unrequested large clear window gave a private bathroom a clear exterior sightline."
+        }
+      ]
+    },
+    {
+      "id": "naomi_home__balcony",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create balcony for Naomi's riverside maisonette. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: dark navy timber paneling and trim, warm brown wood floors, black metal rails, brass globe lamps, deep burgundy textiles, trailing plants, warm dusk and riverfront town views. Room brief: EXTERIOR narrow riverside balcony viewed from outside the black-framed glazed living-room doors. Black metal rail, terracotta herb pots and a few flowering plants along edge, small folding chair and tiny tea table placed aside. Open central standing space, river and arched bridge with distant town roofs at dusk. No climbing ropes, bicycle workshop, people, snow or glass enclosure. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/naomi_home.png"
+      ]
+    },
+    {
+      "id": "celeste_home__entrance",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create entrance for Celeste's blue-door cottage. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: navy blue painted doors and trim, exposed dark wooden ceiling beams, warm plaster, timber floorboards, brass pendant and globe lights, cosy plum and plaid textiles, plants and dusk cottage garden light. Room brief: Inside entrance area of the cottage centred on its distinctive closed BLUE front door with brass handle and small arched glazed pane. Narrow boot bench and hook rail off to one side. Open connection to the piano sitting room, with only the edge of its dark upright piano visible. No invented vestibule maze, no second blue front door, clear timber foreground. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/celeste_home.png"
+      ]
+    },
+    {
+      "id": "celeste_home__kitchen_dining",
+      "prompt": "Edit this cottage kitchen image to provide its essential baking/cooking area. Replace the base cupboard section immediately to the RIGHT of the farmhouse sink, beneath the copper pans, with a compact dark navy cooking range: a visible oven door below and a four-ring hob above. Remove flowers, plants, lantern or counter objects only from the range's required footprint so the hob is unobstructed. Keep the sink, blue door, windows, table, chairs, jar shelf, hanging copper pans, beams, piano glimpse, foreground, lighting and illustration style unchanged. No text, logos or people. Opaque 1536x1024 landscape.",
+      "reference_paths": [
+        "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c9d7-d510-72c0-8525-e3e66bf1b1bf\\exec-187bcc3c-8f7d-449f-be9e-ef1051280124.png"
+      ],
+      "rejected_attempts": [
+        {
+          "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create kitchen dining for Celeste's blue-door cottage. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: navy blue painted doors and trim, exposed dark wooden ceiling beams, warm plaster, timber floorboards, brass pendant and globe lights, cosy plum and plaid textiles, plants and dusk cottage garden light. Room brief: Closer dedicated view of the existing cottage kitchen and dining area. Navy base cabinets, white farmhouse sink, brass taps, timber counters, copper pans neatly hung, closed baking jars and a wooden table for two to four off to one side. No active flour mess or transient prepared food. Exposed beams, blue-framed garden window, warm light. Open connection to piano sitting room. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+          "reference_paths": [
+            "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/celeste_home.png"
+          ],
+          "source_path": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c9d7-d510-72c0-8525-e3e66bf1b1bf\\exec-187bcc3c-8f7d-449f-be9e-ef1051280124.png",
+          "reason": "Kitchen lacked visible oven/hob needed for the planned home baking activity."
+        }
+      ]
+    },
+    {
+      "id": "celeste_home__hall",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create hall for Celeste's blue-door cottage. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: navy blue painted doors and trim, exposed dark wooden ceiling beams, warm plaster, timber floorboards, brass pendant and globe lights, cosy plum and plaid textiles, plants and dusk cottage garden light. Room brief: Short level cottage hall connecting the piano sitting room to exactly two closed navy doors: bedroom and bathroom. Exposed timber beams, warm plaster and timber floor, small brass globe sconce, a framed bird illustration and an unlettered star map. No stairs or extra rooms, central walking space clear. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/celeste_home.png"
+      ]
+    },
+    {
+      "id": "celeste_home__bedroom",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create bedroom for Celeste's blue-door cottage. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: navy blue painted doors and trim, exposed dark wooden ceiling beams, warm plaster, timber floorboards, brass pendant and globe lights, cosy plum and plaid textiles, plants and dusk cottage garden light. Room brief: Private adult cottage bedroom with a wooden bed to one side, muted plum quilt and linen, small reading chair, bedside lamp and a closed bird guide, modest wardrobe. Exposed beams, blue-framed window to garden, warm dusk light. One closed navy door to hall. No second piano or people; intimate domestic scale. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/celeste_home.png"
+      ]
+    },
+    {
+      "id": "celeste_home__bathroom",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create bathroom for Celeste's blue-door cottage. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: navy blue painted doors and trim, exposed dark wooden ceiling beams, warm plaster, timber floorboards, brass pendant and globe lights, cosy plum and plaid textiles, plants and dusk cottage garden light. Room brief: Compact cottage bathroom: navy vanity and pale basin, simple brass-framed mirror, bathtub with shower fitting and practical glass splash screen to one side, toilet and neat towels, warm globe light. Exposed timber ceiling beams, warm-grey tiled floor, muted cream wet-area tiles, small frosted blue-framed window. One closed navy door. Clear central floor, no plants in bath. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image. ALL bathroom window panes must be translucent frosted privacy glass; no clear outdoor scenery through any bathroom window. Keep the whole main bathroom floor tiled.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/celeste_home.png"
+      ]
+    },
+    {
+      "id": "dev_home__entrance",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create entrance for Dev's station studio. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: dark navy timber paneled walls and trim, warm medium brown floorboards, black-framed town windows, brass task and pendant lights, cosy amber dusk. Room brief: Compact domestic studio entrance with closed navy front door, small shoe cubby and hooks off to one side. Open connection straight into the SINGLE existing studio, partial glimpse of component drawers and desk at the side, not an extra separate living room or new bedroom. Clear central floor, realistic small home scale. No commercial signs, no readable component labels. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/dev_home.png"
+      ]
+    },
+    {
+      "id": "dev_home__bathroom",
+      "prompt": "Use case: stylized-concept. Asset: one finished 1536x1024 landscape illustrated visual-novel background for Mysterious Hearts, one scene, never a collage. Create bathroom for Dev's station studio. The supplied image is an architectural and illustration-style reference only. Create the requested distinct view; do not copy its whole living-room composition. Continuity: dark navy timber paneled walls and trim, warm medium brown floorboards, black-framed town windows, brass task and pendant lights, cosy amber dusk. Room brief: Small separate bathroom adjoining the single studio: navy vanity and simple basin, plain mirror, enclosed shower, toilet, two towels and warm brass light. Warm-grey floor tile and muted pale wet-wall tiles, one closed navy door back to studio, high frosted window. Practical uncluttered room, no electronics, soldering tools or additional rooms. Style: richly detailed painterly semi-realistic illustrated game environment, coherent perspective and residential scale. Single eye-level wide view; leave the lower central foreground largely clear for live character overlays. Permanent furnishings only. Empty of people, silhouettes and animals. No words, letters, numbers, labels, logos, UI, watermark, faction symbols or transient event props. No rain or snow indoors. Opaque image. ALL bathroom window panes must be translucent frosted privacy glass; no clear outdoor scenery through any bathroom window. Keep the whole main bathroom floor tiled.",
+      "reference_paths": [
+        "C:/Users/ryanl/Documents/Mysterious Hearts/assets/ui/locations/dev_home.png"
+      ]
+    }
+  ]
+}

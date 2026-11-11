@@ -1,0 +1,1 @@
+PASS: pilot, shared memory/return, reflection, instant text, previous/next, 24pt compact layout, optional generated description, history/recap and deferred/available visit controls.

@@ -140,6 +140,7 @@ def validate_skills(raws,p):
         if counter_kind=='universal': skill['universal_counter']=True
         if role!='combo': skill['hits']=1
         skill['id']='unique:custom:'+fingerprint({k:v for k,v in skill.items() if k!='id'})[:24]
+        skill['balance_review']=__import__('combat_review').move_review(skill,p)
         result.append(skill)
     return result
 

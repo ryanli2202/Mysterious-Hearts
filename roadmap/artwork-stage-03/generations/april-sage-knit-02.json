@@ -1,0 +1,13 @@
+{
+  "id": "april-sage-knit",
+  "tool": "built-in image_gen",
+  "model": "not exposed",
+  "generated_source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c7d2-0cc6-74f2-ba9f-981788fc8cd9\\exec-0557cfbe-c758-46e2-92c1-2f4a26bcf4e7.png",
+  "sha256": "0bc80450a0ff98c132de82921190f4abc46bfc9b49cf4514fa401675c16d6c43",
+  "prompt": "Edit this exact existing wardrobe image. Change ONLY the necklace pendant: replace the oversized round engraved medallion with April's original tiny plain oval silver pendant, approximately 8 pixels wide and 11 pixels tall on this 1024x1536 canvas, attached to the same fine silver chain. Plain smooth small oval, no engraving or starburst. Keep every other part unchanged: face, hair, clothes, pose, body, hand anatomy, image dimensions and mid-thigh crop. Lower thighs and legs remain cropped out. Preserve genuine RGBA transparency; no backdrop or shadow.",
+  "referenced_image_paths": [
+    "C:/Users/ryanl/Documents/Mysterious Hearts/roadmap/artwork-stage-03/candidates/april-sage-knit.png"
+  ],
+  "transparent_background": true,
+  "pixel_postprocessing": false
+}

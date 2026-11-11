@@ -1,0 +1,9 @@
+{
+  "id": "arthur-finch-02",
+  "prompt": "Use case: identity-preserve. COMPOSITION CORRECTION ONLY to this character portrait of arthur-finch. Preserve exact face, identity, age, skin, hair, expression, clothing, pose, hands and semi-realistic illustrated manhwa rendering. Current draft is STILL TOO CLOSE: crotch is too near bottom so only a sliver of thighs is visible. Reframe visibly WIDER/ZOOM OUT and construct both full upper legs down to a genuine MID-THIGH cutoff. Keep head/torso anatomically normal, no stretched torso. Need substantial thigh length BELOW CROTCH: place crown around y=60, chin around y=330, waist around y=900, crotch around y=1120, thigh cutoff at y=1490 on 1024x1536 canvas. Anatomical correctness first. This requires a SMALLER HEAD AND TORSO IN FRAME, not adding empty background or shortening legs. Both hands and elbows remain complete. Keep original outfit entirely unchanged; extend existing trousers with correctly connected pelvis and leg anatomy. Do not add belt/accessories or redesign. Vertical 2:3 1024x1536 RGBA, clear 3-4% headroom and small transparent bottom margin, clean transparent alpha background/gaps, no glow/halo/scenery/text/watermark. Final shows full hairstyle through MIDDLE of both thighs, VISIBLY MORE LEG than reference. No knees.",
+  "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c4e0-54f1-7c43-a56b-2d10502a12a6/exec-960c396d-be09-483e-932b-4cda8d9aa797.png",
+  "input_images": [
+    "C:/Users/ryanl/Documents/Mysterious Hearts/roadmap/artwork-stage-02/candidates/arthur-finch.png"
+  ],
+  "disposition": "candidate"
+}

@@ -1,0 +1,11 @@
+test_all_affiliate_interiors_without_command_or_guest_transfer (test_syndicate_cast.SyndicateCastTests.test_all_affiliate_interiors_without_command_or_guest_transfer) ... ok
+test_business_focus_and_mixed_group_secrecy (test_syndicate_cast.SyndicateCastTests.test_business_focus_and_mixed_group_secrecy) ... ok
+test_exact_initial_roster (test_syndicate_cast.SyndicateCastTests.test_exact_initial_roster) ... ok
+test_legacy_seed_cleanup_preserves_earned_connections (test_syndicate_cast.SyndicateCastTests.test_legacy_seed_cleanup_preserves_earned_connections) ... ok
+test_player_ivan_changes_at_headquarters_and_restores_saved_outfit (test_syndicate_cast.SyndicateCastTests.test_player_ivan_changes_at_headquarters_and_restores_saved_outfit) ... ok
+test_uniform_visibility_and_alpha (test_syndicate_cast.SyndicateCastTests.test_uniform_visibility_and_alpha) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.311s
+
+OK

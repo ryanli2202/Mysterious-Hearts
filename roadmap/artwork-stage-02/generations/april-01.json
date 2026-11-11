@@ -1,0 +1,20 @@
+{
+  "id": "april-01",
+  "prompt": "Use case: identity-preserve. Create the MH-013 Stage 2 contemporary character master for April Xu. Image 1 is the identity/outfit edit target; images 2 and 3 are Ivan and Charles for semi-realistic ILLUSTRATED MANHWA rendering only, never their male face, body or clothes. April is a 21-year-old petite slim 150cm adult woman with light skin, straight dark-brown shoulder-length side-parted hair tucked behind one ear, brown eyes, fine composed facial features, a subtle knowing smile. Preserve April's face likeness, stud earrings, delicate pendant, navy cardigan with gold buttons over pale collared blouse, belt and charcoal trousers, loosely crossed arms with complete natural visible fingers. Refine her face into softly dimensional nose bridge/tip, eyelids, cheek/lip planes, restrained eye scale and natural jaw. Keep young adult proportions and petite build, never childlike or a male idol face. Construct complete head through TRUE MID-THIGH: visible pelvis/crotch and substantial connected length of both trouser thighs, no knees. No stretched torso. Vertical 2:3 1024x1536 RGBA portrait, full hair with 4% clear headroom, entire shoulders/elbows/hands inside canvas, clean thigh cutoff just above bottom transparent margin. Genuine clear alpha around and inside silhouette. Only one figure, no scenery, glow, ambient rectangle, floor, checkerboard, text, watermark, signature, or white outline. Tapered selective linework, soft plus controlled shaped shading and restrained material highlights like the anchors; illustrated, not photo/3D. This is a new anatomical composition, not a resized old hip crop.",
+  "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c4e0-54f1-7c43-a56b-2d10502a12a6/exec-e56f96d8-63f9-4f37-bd80-af758cff6e29.png",
+  "input_images": [
+    {
+      "role": "identity/outfit",
+      "path": "originals/april.png"
+    },
+    {
+      "role": "style only",
+      "path": "../artwork-batch-01/candidates/ivan-selection.png"
+    },
+    {
+      "role": "style only",
+      "path": "../artwork-batch-01/candidates/charles-selection-v2.png"
+    }
+  ],
+  "disposition": "candidate"
+}

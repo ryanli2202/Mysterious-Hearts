@@ -1,0 +1,149 @@
+{
+  "assumptions": "Healthy, symmetric six seeds per side, 50 exchanges, ordinary resolver policies; advanced temporary forms disabled. Representative contact Trait and four-style kits, not exhaustive generated powers. Wins at timeout use remaining health fraction.",
+  "pairs": [
+    {
+      "a": "origin:1:1",
+      "b": "origin:0:1",
+      "a_wins": 11,
+      "runs": 12
+    },
+    {
+      "a": "origin:2:1",
+      "b": "origin:1:1",
+      "a_wins": 12,
+      "runs": 12
+    },
+    {
+      "a": "origin:3:1",
+      "b": "origin:2:1",
+      "a_wins": 12,
+      "runs": 12
+    },
+    {
+      "a": "origin:4:1",
+      "b": "origin:3:1",
+      "a_wins": 9,
+      "runs": 12
+    },
+    {
+      "a": "origin:5:1",
+      "b": "origin:4:1",
+      "a_wins": 11,
+      "runs": 12
+    },
+    {
+      "a": "origin:6:1",
+      "b": "origin:5:1",
+      "a_wins": 8,
+      "runs": 12
+    },
+    {
+      "a": "origin:1:0",
+      "b": "origin:0:0",
+      "a_wins": 12,
+      "runs": 12
+    },
+    {
+      "a": "origin:2:0",
+      "b": "origin:1:0",
+      "a_wins": 12,
+      "runs": 12
+    },
+    {
+      "a": "origin:3:0",
+      "b": "origin:2:0",
+      "a_wins": 12,
+      "runs": 12
+    },
+    {
+      "a": "origin:4:0",
+      "b": "origin:3:0",
+      "a_wins": 11,
+      "runs": 12
+    },
+    {
+      "a": "origin:5:0",
+      "b": "origin:4:0",
+      "a_wins": 11,
+      "runs": 12
+    },
+    {
+      "a": "origin:6:0",
+      "b": "origin:5:0",
+      "a_wins": 9,
+      "runs": 12
+    },
+    {
+      "a": "origin:6:0",
+      "b": "arena:10",
+      "a_wins": 11,
+      "runs": 12
+    },
+    {
+      "a": "origin:6:0",
+      "b": "arena:2",
+      "a_wins": 10,
+      "runs": 12
+    },
+    {
+      "a": "origin:6:0",
+      "b": "richter:enhanced",
+      "a_wins": 5,
+      "runs": 12
+    },
+    {
+      "a": "origin:6:0",
+      "b": "rei",
+      "a_wins": 0,
+      "runs": 12
+    },
+    {
+      "a": "origin:6:1",
+      "b": "arena:10",
+      "a_wins": 12,
+      "runs": 12
+    },
+    {
+      "a": "origin:6:1",
+      "b": "arena:2",
+      "a_wins": 11,
+      "runs": 12
+    },
+    {
+      "a": "origin:6:1",
+      "b": "richter:enhanced",
+      "a_wins": 3,
+      "runs": 12
+    },
+    {
+      "a": "origin:6:1",
+      "b": "rei",
+      "a_wins": 0,
+      "runs": 12
+    },
+    {
+      "a": "origin:6:signature",
+      "b": "arena:10",
+      "a_wins": 12,
+      "runs": 12
+    },
+    {
+      "a": "origin:6:signature",
+      "b": "arena:2",
+      "a_wins": 12,
+      "runs": 12
+    },
+    {
+      "a": "origin:6:signature",
+      "b": "richter:enhanced",
+      "a_wins": 8,
+      "runs": 12
+    },
+    {
+      "a": "origin:6:signature",
+      "b": "rei",
+      "a_wins": 1,
+      "runs": 12
+    }
+  ]
+}

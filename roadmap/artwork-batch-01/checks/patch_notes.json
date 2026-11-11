@@ -1,0 +1,20 @@
+[
+  {
+    "check": "patch_notes_validate",
+    "command": "python patch_notes.py validate",
+    "returncode": 0,
+    "log": "checks/patch_notes_validate.txt"
+  },
+  {
+    "check": "test_patch_notes",
+    "command": "python -m unittest discover -s tests -p test_patch_notes.py -v",
+    "returncode": 1,
+    "log": "checks/test_patch_notes.txt"
+  },
+  {
+    "check": "patch_notes_export",
+    "command": "python patch_notes.py export",
+    "returncode": 0,
+    "log": "checks/patch_notes_export.txt"
+  }
+]

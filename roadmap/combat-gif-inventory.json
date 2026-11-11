@@ -1,0 +1,2280 @@
+{
+  "source": "COMBAT_WINDOW_UPDATE_PLAN.md",
+  "counts": {
+    "Martial master moves": 88,
+    "Trait-exclusive skills": 124,
+    "Awakened signatures without Traits": 15
+  },
+  "actions": [
+    {
+      "category": "Martial master moves",
+      "group": "Boxing — compact impacts, rhythm, and precise footwork",
+      "name": "Hurricane punches",
+      "treatment": "A tightening spiral of fist silhouettes becomes a rapid, finite barrage of compact impact rings.",
+      "production_id": "MH-001-B04-01",
+      "batch": 4,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Boxing — compact impacts, rhythm, and precise footwork",
+      "name": "Ghost step",
+      "treatment": "The portrait compresses into a narrow motion smear; a floor-level dust streak traces the approach.",
+      "production_id": "MH-001-B04-02",
+      "batch": 4,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Boxing — compact impacts, rhythm, and precise footwork",
+      "name": "Unseen spectre",
+      "treatment": "Afterimages circle the target, with successive strikes emerging from different positions before the images reunite.",
+      "production_id": "MH-001-B04-03",
+      "batch": 4,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Boxing — compact impacts, rhythm, and precise footwork",
+      "name": "Power-breaker",
+      "treatment": "A drawn-back fist silhouette launches one thick pressure cone; the guard buckles at the contact point.",
+      "production_id": "MH-001-B04-04",
+      "batch": 4,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Boxing — compact impacts, rhythm, and precise footwork",
+      "name": "Phantom cadence",
+      "treatment": "Two quick impacts, a deliberate pause, then an unexpected burst using differently spaced trails.",
+      "production_id": "MH-001-B04-05",
+      "batch": 4,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Boxing — compact impacts, rhythm, and precise footwork",
+      "name": "Thunderclap counter",
+      "treatment": "The incoming trail slips past; one returning punch produces an expanding air ring at contact.",
+      "production_id": "MH-001-B04-06",
+      "batch": 4,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Boxing — compact impacts, rhythm, and precise footwork",
+      "name": "Iron constellation",
+      "treatment": "Body and head impacts leave brief points of light connected into a constellation-like strike pattern.",
+      "production_id": "MH-001-B04-07",
+      "batch": 4,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Boxing — compact impacts, rhythm, and precise footwork",
+      "name": "Vanishing bell",
+      "treatment": "A sharp sideways afterimage evades the attack; a hooked return lands with a bell-shaped shock ring.",
+      "production_id": "MH-001-B04-08",
+      "batch": 4,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Taekwondo — long arcs and aerial movement",
+      "name": "Skywheel barrage",
+      "treatment": "An airborne silhouette rotates above the engagement, tracing several overlapping kick crescents.",
+      "production_id": "MH-001-B05-01",
+      "batch": 5,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Taekwondo — long arcs and aerial movement",
+      "name": "Horizon step",
+      "treatment": "A low horizontal streak crosses the arena and rises into a poised kicking silhouette.",
+      "production_id": "MH-001-B05-02",
+      "batch": 5,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Taekwondo — long arcs and aerial movement",
+      "name": "Falling star",
+      "treatment": "A silhouette climbs briefly, then a heel-shaped streak drops steeply into a concentrated ground impact.",
+      "production_id": "MH-001-B05-03",
+      "batch": 5,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Taekwondo — long arcs and aerial movement",
+      "name": "Mirage wheel",
+      "treatment": "Kick afterimages alternate high and low around the target, resolving into one clear finishing arc.",
+      "production_id": "MH-001-B05-04",
+      "batch": 5,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Judo — weight, balance, and rotation",
+      "name": "World-turner",
+      "treatment": "Two contact silhouettes rotate around a shared centre before the target follows a broad throwing arc.",
+      "production_id": "MH-001-B05-05",
+      "batch": 5,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Judo — weight, balance, and rotation",
+      "name": "Falling mountain",
+      "treatment": "The attacker settles low; the target silhouette drops heavily with a wide, grounded dust burst.",
+      "production_id": "MH-001-B05-06",
+      "batch": 5,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Judo — weight, balance, and rotation",
+      "name": "Zero-point reversal",
+      "treatment": "The apparent throw briefly hangs at its balance point, then reverses direction into the counterthrow.",
+      "production_id": "MH-001-B05-07",
+      "batch": 5,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Judo — weight, balance, and rotation",
+      "name": "Iron orbit",
+      "treatment": "Small circular trails repeatedly tilt the target’s balance, keeping them moving around the attacker’s centre.",
+      "production_id": "MH-001-B05-08",
+      "batch": 5,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Kyokushin — rooted force and relentless contact",
+      "name": "Mountain-splitter",
+      "treatment": "A planted stance sends a wedge-shaped pressure trail into the guard, splitting the impact graphic vertically.",
+      "production_id": "MH-001-B06-01",
+      "batch": 6,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Kyokushin — rooted force and relentless contact",
+      "name": "Adamant advance",
+      "treatment": "The portrait advances in firm increments while incoming impacts visibly strike its braced silhouette.",
+      "production_id": "MH-001-B06-02",
+      "batch": 6,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Kyokushin — rooted force and relentless contact",
+      "name": "Hundred-beat barrage",
+      "treatment": "Alternating body impacts and low kick sweeps build a dense, percussive pattern.",
+      "production_id": "MH-001-B06-03",
+      "batch": 6,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Kyokushin — rooted force and relentless contact",
+      "name": "Thunder heel",
+      "treatment": "A high heel silhouette falls in a nearly vertical line, ending in a compact circular shockwave.",
+      "production_id": "MH-001-B06-04",
+      "batch": 6,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "MMA — transitions between combat phases",
+      "name": "Apex chain",
+      "treatment": "Punch trails lead into a level change, a takedown arc, and a final ground-control silhouette.",
+      "production_id": "MH-001-B06-05",
+      "batch": 6,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "MMA — transitions between combat phases",
+      "name": "Predator switch",
+      "treatment": "An attack begins on one line, then abruptly changes height and direction as the opponent defends.",
+      "production_id": "MH-001-B06-06",
+      "batch": 6,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "MMA — transitions between combat phases",
+      "name": "Gravity crash",
+      "treatment": "A low entry pulls both silhouettes toward a single heavy landing point.",
+      "production_id": "MH-001-B06-07",
+      "batch": 6,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "MMA — transitions between combat phases",
+      "name": "Total control",
+      "treatment": "Overlapping positional silhouettes transition around the target, with pressure markers shifting between contested holds.",
+      "production_id": "MH-001-B06-08",
+      "batch": 6,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Muay Thai — elbows, knees, and close-range power",
+      "name": "Eight-limbed tempest",
+      "treatment": "Distinct punch lines, elbow wedges, knee bursts, and kick arcs alternate in a tight sequence.",
+      "production_id": "MH-001-B07-01",
+      "batch": 7,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Muay Thai — elbows, knees, and close-range power",
+      "name": "Meteor knee",
+      "treatment": "A rising knee silhouette surges diagonally forward behind a dense, tapered air trail.",
+      "production_id": "MH-001-B07-02",
+      "batch": 7,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Muay Thai — elbows, knees, and close-range power",
+      "name": "Titan clinch",
+      "treatment": "Paired contact brackets close around the upper silhouette; short pulses show contested posture pressure.",
+      "production_id": "MH-001-B07-03",
+      "batch": 7,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Muay Thai — elbows, knees, and close-range power",
+      "name": "Thunder pillar",
+      "treatment": "A broad roundhouse trail strikes the guard like a horizontal column of compressed air.",
+      "production_id": "MH-001-B07-04",
+      "batch": 7,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Streetfighting — irregular and abrasive",
+      "name": "Riot engine",
+      "treatment": "Uneven punch trails and abrupt lunges build into an untidy burst of heavy impacts.",
+      "production_id": "MH-001-B07-05",
+      "batch": 7,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Streetfighting — irregular and abrasive",
+      "name": "Backstreet phantom",
+      "treatment": "Jagged footwork afterimages jump between unexpected approach angles, connected by visible movement trails.",
+      "production_id": "MH-001-B07-06",
+      "batch": 7,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Streetfighting — irregular and abrasive",
+      "name": "Concrete verdict",
+      "treatment": "One blunt straight-punch silhouette lands with a square-edged compression burst and appropriate surface debris.",
+      "production_id": "MH-001-B07-07",
+      "batch": 7,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Streetfighting — irregular and abrasive",
+      "name": "Chaos rhythm",
+      "treatment": "Trails stall abruptly, then restart at different speeds and heights around the target’s defence.",
+      "production_id": "MH-001-B07-08",
+      "batch": 7,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Sanda — striking flowing into throws",
+      "name": "Storm bridge",
+      "treatment": "A long strike trail bridges the gap, curls into a grip, then becomes a throwing arc.",
+      "production_id": "MH-001-B08-01",
+      "batch": 8,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Sanda — striking flowing into throws",
+      "name": "Sky-catch reversal",
+      "treatment": "An incoming aerial silhouette is caught; its existing trajectory bends into a forceful downward throw.",
+      "production_id": "MH-001-B08-02",
+      "batch": 8,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Sanda — striking flowing into throws",
+      "name": "Horizon breaker",
+      "treatment": "A side-kick silhouette drives a broad horizontal pressure front into the guard.",
+      "production_id": "MH-001-B08-03",
+      "batch": 8,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Sanda — striking flowing into throws",
+      "name": "Cyclone sweep",
+      "treatment": "A low circular trail gathers around the target’s feet and carries their silhouette into a tumbling fall.",
+      "production_id": "MH-001-B08-04",
+      "batch": 8,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Jeet Kune Do — minimal motion and interception",
+      "name": "Stillpoint intercept",
+      "treatment": "A tiny contact point appears directly on the incoming attack line before either trail fully extends.",
+      "production_id": "MH-001-B08-05",
+      "batch": 8,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Jeet Kune Do — minimal motion and interception",
+      "name": "Vanishing line",
+      "treatment": "One clean diagonal afterimage exits the attack corridor, leaving the incoming strike to pass through.",
+      "production_id": "MH-001-B08-06",
+      "batch": 8,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Jeet Kune Do — minimal motion and interception",
+      "name": "One-beat thunder",
+      "treatment": "Almost no windup: a short line snaps outward and becomes a disproportionately strong contact ring.",
+      "production_id": "MH-001-B08-07",
+      "batch": 8,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Jeet Kune Do — minimal motion and interception",
+      "name": "Empty rhythm",
+      "treatment": "Sparse attack trails alternate with conspicuous gaps, landing between the opponent’s defensive movements.",
+      "production_id": "MH-001-B08-08",
+      "batch": 8,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Military CQC — economical and controlled",
+      "name": "Breach sequence",
+      "treatment": "A narrow entry streak leads into a disruption impact and sharply defined positional-control silhouettes.",
+      "production_id": "MH-001-B09-01",
+      "batch": 9,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Military CQC — economical and controlled",
+      "name": "Lockdown engine",
+      "treatment": "Contact markers transfer rapidly between holds, tightening only when the corresponding control succeeds.",
+      "production_id": "MH-001-B09-02",
+      "batch": 9,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Military CQC — economical and controlled",
+      "name": "Silent vector",
+      "treatment": "A subdued, low trail crosses the gap with minimal particles and a crisp arrival silhouette.",
+      "production_id": "MH-001-B09-03",
+      "batch": 9,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Military CQC — economical and controlled",
+      "name": "Titan restraint",
+      "treatment": "Heavy contact brackets brace around the target while opposing tension lines show the struggle.",
+      "production_id": "MH-001-B09-04",
+      "batch": 9,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Kickboxing — alternating hands and feet",
+      "name": "Tempest circuit",
+      "treatment": "Straight punch trails and broad kick crescents form a repeating circuit around the engagement.",
+      "production_id": "MH-001-B09-05",
+      "batch": 9,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Kickboxing — alternating hands and feet",
+      "name": "Sonic crescent",
+      "treatment": "A thin kick arc arrives first, followed a moment later by its wider air-distortion wake.",
+      "production_id": "MH-001-B09-06",
+      "batch": 9,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Kickboxing — alternating hands and feet",
+      "name": "Iron comet",
+      "treatment": "A concentrated punch impact leads immediately into a heavier driving kick and elongated shock cone.",
+      "production_id": "MH-001-B09-07",
+      "batch": 9,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Kickboxing — alternating hands and feet",
+      "name": "Phantom relay",
+      "treatment": "Afterimages alternate between close punching range and longer kicking range, passing the attack between positions.",
+      "production_id": "MH-001-B09-08",
+      "batch": 9,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Silat — low angles and deceptive direction changes",
+      "name": "Serpent lattice",
+      "treatment": "Curving contact trails weave around the guard into a shifting lattice of restricted angles.",
+      "production_id": "MH-001-B10-01",
+      "batch": 10,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Silat — low angles and deceptive direction changes",
+      "name": "Phantom crescent",
+      "treatment": "A faint upper afterimage distracts while a sharp low crescent sweeps beneath the target.",
+      "production_id": "MH-001-B10-02",
+      "batch": 10,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Silat — low angles and deceptive direction changes",
+      "name": "Falling canopy",
+      "treatment": "The attacker silhouette dips under a strike, rises inside the guard, and folds into a close throw.",
+      "production_id": "MH-001-B10-03",
+      "batch": 10,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Silat — low angles and deceptive direction changes",
+      "name": "Mirror snare",
+      "treatment": "A mirrored pair of trails suggests one direction, then the actual reversal snaps along the other.",
+      "production_id": "MH-001-B10-04",
+      "batch": 10,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Aikido — continuous redirection",
+      "name": "Still-water reversal",
+      "treatment": "The incoming line becomes a smooth circular ripple and curves back through a close-range reversal.",
+      "production_id": "MH-001-B10-05",
+      "batch": 10,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Aikido — continuous redirection",
+      "name": "World-axis turn",
+      "treatment": "A clear pivot point anchors a rapid rotation, sending the target through a wide throwing arc.",
+      "production_id": "MH-001-B10-06",
+      "batch": 10,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Aikido — continuous redirection",
+      "name": "Orbit of silence",
+      "treatment": "Thin, uninterrupted circular trails show continuous balance pressure without explosive impact flashes.",
+      "production_id": "MH-001-B10-07",
+      "batch": 10,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Aikido — continuous redirection",
+      "name": "Returning mountain",
+      "treatment": "The incoming rush compresses against a rooted silhouette, then rolls back into a heavy grounded throw.",
+      "production_id": "MH-001-B10-08",
+      "batch": 10,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Taido — unusual body axes",
+      "name": "Axis phantom",
+      "treatment": "A silhouette rotates between upright, tilted, and inverted orientations while leaving the expected attack line.",
+      "production_id": "MH-001-B11-01",
+      "batch": 11,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Taido — unusual body axes",
+      "name": "Sky spiral",
+      "treatment": "A rising corkscrew of kick trails wraps around an airborne silhouette.",
+      "production_id": "MH-001-B11-02",
+      "batch": 11,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Taido — unusual body axes",
+      "name": "Inverted comet",
+      "treatment": "An inverted silhouette delivers a steep diagonal kick, with its trail clearly following the changed body axis.",
+      "production_id": "MH-001-B11-03",
+      "batch": 11,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Taido — unusual body axes",
+      "name": "Nine-angle mirage",
+      "treatment": "Afterimages occupy changing heights and angles; only resolved strikes receive contact effects.",
+      "production_id": "MH-001-B11-04",
+      "batch": 11,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Lethwei — dense, forceful close exchanges",
+      "name": "Nine-limbed thunder",
+      "treatment": "Tight elbow, knee, fist, kick, and head-strike silhouettes combine into a compact collision sequence.",
+      "production_id": "MH-001-B11-05",
+      "batch": 11,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Lethwei — dense, forceful close exchanges",
+      "name": "Iron monsoon",
+      "treatment": "Repeated heavy impacts crowd the engagement while visible returning hits preserve the sense of risk.",
+      "production_id": "MH-001-B11-06",
+      "batch": 11,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Lethwei — dense, forceful close exchanges",
+      "name": "Falling bell",
+      "treatment": "A short close-range collision produces a heavy bell-shaped compression wave and pronounced recovery beat.",
+      "production_id": "MH-001-B11-07",
+      "batch": 11,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Lethwei — dense, forceful close exchanges",
+      "name": "Unbroken advance",
+      "treatment": "The attacker keeps stepping forward through visible impact jolts, maintaining pressure without suggesting invulnerability.",
+      "production_id": "MH-001-B11-08",
+      "batch": 11,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Japanese Jujutsu — linked grips and positional traps",
+      "name": "Thousand-link bind",
+      "treatment": "A chain of contact markers transfers rapidly between holds around paired silhouettes.",
+      "production_id": "MH-001-B12-01",
+      "batch": 12,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Japanese Jujutsu — linked grips and positional traps",
+      "name": "Earthfall reversal",
+      "treatment": "The incoming commitment tips past its balance point and drops into a hard counterthrow.",
+      "production_id": "MH-001-B12-02",
+      "batch": 12,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Japanese Jujutsu — linked grips and positional traps",
+      "name": "Iron labyrinth",
+      "treatment": "Angular positional paths repeatedly close around the opponent’s attempted escape routes.",
+      "production_id": "MH-001-B12-03",
+      "batch": 12,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Japanese Jujutsu — linked grips and positional traps",
+      "name": "Silent avalanche",
+      "treatment": "A subdued entry flows directly into a sudden throw and a compact restraint finish.",
+      "production_id": "MH-001-B12-04",
+      "batch": 12,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Wing Chun — centre-line speed",
+      "name": "Thousand-point rain",
+      "treatment": "Closely packed straight punches form a narrow stream of small, rapid contact bursts.",
+      "production_id": "MH-001-B12-05",
+      "batch": 12,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Wing Chun — centre-line speed",
+      "name": "Centre-line collapse",
+      "treatment": "Parallel guard lines compress inward as a concentrated straight attack contests the central opening.",
+      "production_id": "MH-001-B12-06",
+      "batch": 12,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Wing Chun — centre-line speed",
+      "name": "Mirror hands",
+      "treatment": "Paired hand trails deflect incoming lines outward while short returning strikes travel through the middle.",
+      "production_id": "MH-001-B12-07",
+      "batch": 12,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Wing Chun — centre-line speed",
+      "name": "Inch thunder",
+      "treatment": "A tiny gap separates fist and target; a minimal movement creates a large local compression ring.",
+      "production_id": "MH-001-B12-08",
+      "batch": 12,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Shinokami martial arts — restrained precision",
+      "name": "Eclipse intercept",
+      "treatment": "The incoming and intercepting trails overlap briefly, forming an eclipse-shaped contact ring.",
+      "production_id": "MH-001-B13-01",
+      "batch": 13,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Shinokami martial arts — restrained precision",
+      "name": "Null cadence",
+      "treatment": "The opponent’s rhythmic motion trails are interrupted by deliberately mistimed physical pressure beats.",
+      "production_id": "MH-001-B13-02",
+      "batch": 13,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Shinokami martial arts — restrained precision",
+      "name": "Shinigami crossing",
+      "treatment": "Two sharp movement lines cross; the attacker emerges at a new angle beyond the expected strike.",
+      "production_id": "MH-001-B13-03",
+      "batch": 13,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Shinokami martial arts — restrained precision",
+      "name": "Iron eclipse",
+      "treatment": "Small interception rings alternate with dense returning impacts, using very little excess movement.",
+      "production_id": "MH-001-B13-04",
+      "batch": 13,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Krav Maga — abrupt responses and escape",
+      "name": "Zero-window response",
+      "treatment": "Defensive contact and the returning strike occur almost together in one abrupt visual beat.",
+      "production_id": "MH-001-B13-05",
+      "batch": 13,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Krav Maga — abrupt responses and escape",
+      "name": "Breakout surge",
+      "treatment": "Close pressure markers separate as a forceful movement trail pushes toward the available escape route.",
+      "production_id": "MH-001-B13-06",
+      "batch": 13,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Krav Maga — abrupt responses and escape",
+      "name": "Iron corridor",
+      "treatment": "Protective forearm silhouettes frame a narrow advancing route punctuated by short counterstrikes.",
+      "production_id": "MH-001-B13-07",
+      "batch": 13,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Krav Maga — abrupt responses and escape",
+      "name": "Last-light reversal",
+      "treatment": "A narrowly deflected attack skims past before both silhouettes sharply exchange positional advantage.",
+      "production_id": "MH-001-B13-08",
+      "batch": 13,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Systema — relaxed movement, sudden force",
+      "name": "Quiet thunder",
+      "treatment": "A relaxed silhouette makes a small movement; the impact expands unexpectedly after contact.",
+      "production_id": "MH-001-B14-01",
+      "batch": 14,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Systema — relaxed movement, sudden force",
+      "name": "Flowing void",
+      "treatment": "Soft, continuous body afterimages bend around incoming trajectories, with hits shown whenever evasion fails.",
+      "production_id": "MH-001-B14-02",
+      "batch": 14,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Systema — relaxed movement, sudden force",
+      "name": "Pulse cascade",
+      "treatment": "Compact circular impacts travel across the target in an uneven, accelerating rhythm.",
+      "production_id": "MH-001-B14-03",
+      "batch": 14,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Systema — relaxed movement, sudden force",
+      "name": "Unbroken current",
+      "treatment": "One continuous curved trail connects evasion, repositioning, and the returning strike.",
+      "production_id": "MH-001-B14-04",
+      "batch": 14,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Kudo — compact mixed combat",
+      "name": "Tempest clinch",
+      "treatment": "Short impact wedges fold inward into gripping silhouettes, followed by a quick throwing entry.",
+      "production_id": "MH-001-B14-05",
+      "batch": 14,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Kudo — compact mixed combat",
+      "name": "Meteor wheel",
+      "treatment": "Secured contact becomes a tight rotating arc ending in a heavy diagonal landing.",
+      "production_id": "MH-001-B14-06",
+      "batch": 14,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Kudo — compact mixed combat",
+      "name": "Crashing tide",
+      "treatment": "Repeated broad pressure waves alternate with close-grip tension, suggesting sustained mixed offence.",
+      "production_id": "MH-001-B14-07",
+      "batch": 14,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Martial master moves",
+      "group": "Kudo — compact mixed combat",
+      "name": "Seamless storm",
+      "treatment": "A single flowing trail changes from strike lines to clinch circles to a final throwing arc.",
+      "production_id": "MH-001-B14-08",
+      "batch": 14,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Garrett Han — golden flame, dragon-like curves, precise gold sight lines",
+      "name": "Dragon Kick",
+      "treatment": "Golden flame erupts behind a flying kick, forming a dragon-head impression at the explosive impact.",
+      "production_id": "MH-001-B15-01",
+      "batch": 15,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Garrett Han — golden flame, dragon-like curves, precise gold sight lines",
+      "name": "Sunbreaker Fist",
+      "treatment": "Gold light compresses around a fist, then punches forward as a short, intensely focused flame core.",
+      "production_id": "MH-001-B15-02",
+      "batch": 15,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Garrett Han — golden flame, dragon-like curves, precise gold sight lines",
+      "name": "Golden Dragon Spiral",
+      "treatment": "Two rising flame coils follow the rotating kicks, lifting debris only where the impacts break terrain.",
+      "production_id": "MH-001-B15-03",
+      "batch": 15,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Garrett Han — golden flame, dragon-like curves, precise gold sight lines",
+      "name": "Solar Wake",
+      "treatment": "A blazing movement streak crosses the arena, leaving a low burning wake behind the finishing impact.",
+      "production_id": "MH-001-B15-04",
+      "batch": 15,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Garrett Han — golden flame, dragon-like curves, precise gold sight lines",
+      "name": "True-Sight Reversal",
+      "treatment": "A fine gold line identifies the incoming trajectory; Garrett slips aside and strikes along a newly revealed opening.",
+      "production_id": "MH-001-B15-05",
+      "batch": 15,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Garrett Han — golden flame, dragon-like curves, precise gold sight lines",
+      "name": "Dragon’s Descent",
+      "treatment": "A rising flame column curls overhead before a dragon-shaped plunge ends in a radial golden blast.",
+      "production_id": "MH-001-B15-06",
+      "batch": 15,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Garrett Han — golden flame, dragon-like curves, precise gold sight lines",
+      "name": "Phoenix Wheel",
+      "treatment": "A broad, feather-like wheel of fire sweeps through the engagement and carries displaced debris outward.",
+      "production_id": "MH-001-B15-07",
+      "batch": 15,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Garrett Han — golden flame, dragon-like curves, precise gold sight lines",
+      "name": "Dawnfall Breaker",
+      "treatment": "A tiny gold targeting glint precedes a narrow penetrating strike; flame blooms outward after contact.",
+      "production_id": "MH-001-B15-08",
+      "batch": 15,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Rei Takamura — emerald electricity, pale wind ribbons, continuous momentum",
+      "name": "Descending Tempest",
+      "treatment": "A green lightning trail rises, then an axe-kick silhouette drops through a funnel of wind into impact.",
+      "production_id": "MH-001-B16-01",
+      "batch": 16,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Rei Takamura — emerald electricity, pale wind ribbons, continuous momentum",
+      "name": "Flowing Stream",
+      "treatment": "Curved wind ribbons catch the incoming effect and redirect it toward its source, partially or fully according to resolution.",
+      "production_id": "MH-001-B16-02",
+      "batch": 16,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Rei Takamura — emerald electricity, pale wind ribbons, continuous momentum",
+      "name": "Thousand Sparks",
+      "treatment": "Green movement trails loop faster around the arena, condense into a spinning kick, and release their stored momentum.",
+      "production_id": "MH-001-B16-03",
+      "batch": 16,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Rei Takamura — emerald electricity, pale wind ribbons, continuous momentum",
+      "name": "Emerald Rift",
+      "treatment": "A thin green wind crescent tears across the arena, leaving a brief split-air distortion behind it.",
+      "production_id": "MH-001-B16-04",
+      "batch": 16,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Rei Takamura — emerald electricity, pale wind ribbons, continuous momentum",
+      "name": "Cyclone Crash",
+      "treatment": "A throwing silhouette winds the opponent into a compact cyclone before driving them into the resolved collision surface.",
+      "production_id": "MH-001-B16-05",
+      "batch": 16,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Rei Takamura — emerald electricity, pale wind ribbons, continuous momentum",
+      "name": "Storm Rail",
+      "treatment": "Two narrow green rails frame an almost instantaneous dash, ending in one concentrated electrical impact.",
+      "production_id": "MH-001-B16-06",
+      "batch": 16,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Rei Takamura — emerald electricity, pale wind ribbons, continuous momentum",
+      "name": "Tempest Mantle",
+      "treatment": "Wind ribbons orbit the guard, catching incoming pressure and tightening into a visible retained-momentum accent.",
+      "production_id": "MH-001-B16-07",
+      "batch": 16,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Rei Takamura — emerald electricity, pale wind ribbons, continuous momentum",
+      "name": "Eye of the Tempest",
+      "treatment": "A calm centre forms around Rei while wind, sparks, and available debris circulate, then sweep outward.",
+      "production_id": "MH-001-B16-08",
+      "batch": 16,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Ivan Yeun — clearly separated elemental channels",
+      "name": "Furnace Knee",
+      "treatment": "Fire gathers tightly around a knee silhouette, then vents downward and outward through the impact.",
+      "production_id": "MH-001-B17-01",
+      "batch": 17,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Ivan Yeun — clearly separated elemental channels",
+      "name": "Whiteout Crash",
+      "treatment": "Frost plates build over a charging shoulder; contact bursts into angular ice shards and a cold mist wake.",
+      "production_id": "MH-001-B17-02",
+      "batch": 17,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Ivan Yeun — clearly separated elemental channels",
+      "name": "Gale Cutter",
+      "treatment": "A nearly transparent blade of wind crosses the arena with sharp edge glints and displaced dust.",
+      "production_id": "MH-001-B17-03",
+      "batch": 17,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Ivan Yeun — clearly separated elemental channels",
+      "name": "Crimson Break",
+      "treatment": "Thick red lightning branches converge at contact, then erupt outward in a heavy knockback burst.",
+      "production_id": "MH-001-B17-04",
+      "batch": 17,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Ivan Yeun — clearly separated elemental channels",
+      "name": "Azure Blink",
+      "treatment": "A hair-thin blue trail traces the actual movement route before a small, precise blue contact flash.",
+      "production_id": "MH-001-B17-05",
+      "batch": 17,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Ivan Yeun — clearly separated elemental channels",
+      "name": "Flashfreeze Snare",
+      "treatment": "Frost races across the ground and grows into ice teeth around the target’s movement path.",
+      "production_id": "MH-001-B17-06",
+      "batch": 17,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Ivan Yeun — clearly separated elemental channels",
+      "name": "Thunderhead Drop",
+      "treatment": "An upward gust lifts the silhouette; red lightning gathers below it before the descending collision.",
+      "production_id": "MH-001-B17-07",
+      "batch": 17,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Ivan Yeun — clearly separated elemental channels",
+      "name": "Winterstorm Ring",
+      "treatment": "Ice shards orbit inside a horizontal wind ring, then scatter across the affected ground.",
+      "production_id": "MH-001-B17-08",
+      "batch": 17,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Ivan Yeun — clearly separated elemental channels",
+      "name": "Arc Split",
+      "treatment": "A blue arc carries Ivan around the guard; a distinctly heavier red burst marks the finishing blow.",
+      "production_id": "MH-001-B18-01",
+      "batch": 18,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Ivan Yeun — clearly separated elemental channels",
+      "name": "Fivefold Ruin",
+      "treatment": "Fire, wind, ice, blue movement, and red impact appear in a readable sequence, culminating in a combined collision.",
+      "production_id": "MH-001-B18-02",
+      "batch": 18,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Sylvanis — dense black-violet constructs, sharp sight lines, deliberate geometry",
+      "name": "Nightfall Hammer",
+      "treatment": "A huge shadow fist grows behind the physical strike and overtakes it at contact.",
+      "production_id": "MH-001-B18-03",
+      "batch": 18,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Sylvanis — dense black-violet constructs, sharp sight lines, deliberate geometry",
+      "name": "Midnight Coil",
+      "treatment": "Thick shadow bands close in layered spirals, tightening or breaking according to the restraint contest.",
+      "production_id": "MH-001-B18-04",
+      "batch": 18,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Sylvanis — dense black-violet constructs, sharp sight lines, deliberate geometry",
+      "name": "Umbral Rush",
+      "treatment": "A low shadow veil conceals a visible movement streak; a reinforced silhouette emerges at the impact.",
+      "production_id": "MH-001-B18-05",
+      "batch": 18,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Sylvanis — dense black-violet constructs, sharp sight lines, deliberate geometry",
+      "name": "True-Sight Intercept",
+      "treatment": "One pale violet prediction line finds the attack’s opening; a narrow counter cuts directly through it.",
+      "production_id": "MH-001-B18-06",
+      "batch": 18,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Sylvanis — dense black-violet constructs, sharp sight lines, deliberate geometry",
+      "name": "Polymath Rupture",
+      "treatment": "Several schematic strike patterns appear briefly, then one changes rhythm and breaks through the observed weak opening.",
+      "production_id": "MH-001-B18-07",
+      "batch": 18,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Sylvanis — dense black-violet constructs, sharp sight lines, deliberate geometry",
+      "name": "Eclipse Convergence",
+      "treatment": "Distinct shadow constructs attack from separate directions, visually narrowing the target’s available space.",
+      "production_id": "MH-001-B18-08",
+      "batch": 18,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Sylvanis — dense black-violet constructs, sharp sight lines, deliberate geometry",
+      "name": "Black Sun Collapse",
+      "treatment": "A dense, dark orb with a violet rim descends and flattens into a crushing radial impact.",
+      "production_id": "MH-001-B19-01",
+      "batch": 19,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Sylvanis — dense black-violet constructs, sharp sight lines, deliberate geometry",
+      "name": "Shadow Requiem",
+      "treatment": "Shadow barriers cut across predicted escape routes before a rapid, precisely spaced finishing sequence.",
+      "production_id": "MH-001-B19-02",
+      "batch": 19,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Charles Han — white flame with cool blue edges and tiger-shaped accents",
+      "name": "White Tiger Pounce",
+      "treatment": "A white-flame tiger outline accompanies a short pouncing arc and bursts apart at contact.",
+      "production_id": "MH-001-B19-03",
+      "batch": 19,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Charles Han — white flame with cool blue edges and tiger-shaped accents",
+      "name": "Fangbreaker Fist",
+      "treatment": "Two narrow fang-shaped flame wedges close around the punch’s concentrated impact point.",
+      "production_id": "MH-001-B19-04",
+      "batch": 19,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Charles Han — white flame with cool blue edges and tiger-shaped accents",
+      "name": "Tiger Wheel",
+      "treatment": "White claw-like arcs rotate around the engagement before sweeping outward.",
+      "production_id": "MH-001-B19-05",
+      "batch": 19,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Charles Han — white flame with cool blue edges and tiger-shaped accents",
+      "name": "White-Flame Roar",
+      "treatment": "A tiger-jaw impression opens within a short, broad forward flame burst.",
+      "production_id": "MH-001-B19-06",
+      "batch": 19,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Charles Han — white flame with cool blue edges and tiger-shaped accents",
+      "name": "Twin-Fang Return",
+      "treatment": "A defensive flame curl becomes two sharp returning fang-shaped impacts on different guard lines.",
+      "production_id": "MH-001-B19-07",
+      "batch": 19,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Charles Han — white flame with cool blue edges and tiger-shaped accents",
+      "name": "Snowfire Mantle",
+      "treatment": "Close-fitting white flame streams backward during the guarded advance, then surges through the returning strike.",
+      "production_id": "MH-001-B19-08",
+      "batch": 19,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Takeo Mishima — graphite armour, mechanical assembly, amber engine light",
+      "name": "Siege Fist",
+      "treatment": "Small metallic segments assemble into a reinforced fist silhouette before a broad battering impact.",
+      "production_id": "MH-001-B20-01",
+      "batch": 20,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Takeo Mishima — graphite armour, mechanical assembly, amber engine light",
+      "name": "Bunker Rush",
+      "treatment": "Armour plates lock across a charging silhouette, leaving a heavy dust wake and displaced fragments.",
+      "production_id": "MH-001-B20-02",
+      "batch": 20,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Takeo Mishima — graphite armour, mechanical assembly, amber engine light",
+      "name": "Adaptive Bulwark",
+      "treatment": "Hexagonal plates slide toward the incoming contact point and visibly flex, hold, or fracture.",
+      "production_id": "MH-001-B20-03",
+      "batch": 20,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Takeo Mishima — graphite armour, mechanical assembly, amber engine light",
+      "name": "Monolith Blade",
+      "treatment": "A segmented arm blade extends outward, locks into shape, and sweeps through a single heavy cutting arc.",
+      "production_id": "MH-001-B20-04",
+      "batch": 20,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Takeo Mishima — graphite armour, mechanical assembly, amber engine light",
+      "name": "Engine Overdrive",
+      "treatment": "Amber seams brighten in sequence; a dense acceleration trail ends in a piston-like impact.",
+      "production_id": "MH-001-B20-05",
+      "batch": 20,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Takeo Mishima — graphite armour, mechanical assembly, amber engine light",
+      "name": "Iron Meteor",
+      "treatment": "Armour segments compress around an airborne silhouette before a heavy descent and low radial debris burst.",
+      "production_id": "MH-001-B20-06",
+      "batch": 20,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "The Crow — monochrome analysis, chess-like composition, precise physical attacks",
+      "name": "Checkmate Sequence",
+      "treatment": "Faint route lines close off escape options as successive physical impacts guide the target toward the finishing position.",
+      "production_id": "MH-001-B20-07",
+      "batch": 20,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "The Crow — monochrome analysis, chess-like composition, precise physical attacks",
+      "name": "Perfect Counter",
+      "treatment": "Several faint possible trajectories disappear, leaving one clean returning line and a precise contact flash.",
+      "production_id": "MH-001-B20-08",
+      "batch": 20,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "The Crow — monochrome analysis, chess-like composition, precise physical attacks",
+      "name": "Black Rook Breach",
+      "treatment": "Rectangular structural outlines identify a weak section; a straight impact drives through its centre.",
+      "production_id": "MH-001-B21-01",
+      "batch": 21,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "The Crow — monochrome analysis, chess-like composition, precise physical attacks",
+      "name": "Hundred-Style Sequence",
+      "treatment": "Distinct striking and grappling silhouettes replace one another rapidly, each with a different rhythm and range.",
+      "production_id": "MH-001-B21-02",
+      "batch": 21,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "The Crow — monochrome analysis, chess-like composition, precise physical attacks",
+      "name": "Queen’s Gambit",
+      "treatment": "An inviting opening is briefly outlined; the opponent’s commitment triggers a returning sequence around it.",
+      "production_id": "MH-001-B21-03",
+      "batch": 21,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "The Crow — monochrome analysis, chess-like composition, precise physical attacks",
+      "name": "King in Motion",
+      "treatment": "Predicted attack lanes appear faintly while the movement silhouette follows a narrow safe route between them.",
+      "production_id": "MH-001-B21-04",
+      "batch": 21,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Martos Cabrera — deep crimson pressure, heavy mass, rough impacts",
+      "name": "Juggernaut Charge",
+      "treatment": "A broad rushing silhouette pushes a bow wave of dust and actual broken obstacles ahead of it.",
+      "production_id": "MH-001-B21-05",
+      "batch": 21,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Martos Cabrera — deep crimson pressure, heavy mass, rough impacts",
+      "name": "Ruin Hammer",
+      "treatment": "A massive downward strike produces a compressed impact disc followed by outward-running ground fractures.",
+      "production_id": "MH-001-B21-06",
+      "batch": 21,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Martos Cabrera — deep crimson pressure, heavy mass, rough impacts",
+      "name": "Colossus Grip",
+      "treatment": "Large gripping silhouettes close around the target, with visible tension before the resolved crush or throw.",
+      "production_id": "MH-001-B21-07",
+      "batch": 21,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Martos Cabrera — deep crimson pressure, heavy mass, rough impacts",
+      "name": "Aftershock Stamp",
+      "treatment": "A heel stamp sends successive low shock rings through the ground, lifting nearby loose rubble.",
+      "production_id": "MH-001-B21-08",
+      "batch": 21,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Martos Cabrera — deep crimson pressure, heavy mass, rough impacts",
+      "name": "Redline Surge",
+      "treatment": "Crimson pulses accelerate around the portrait while oversized, increasingly rough strike trails batter the target.",
+      "production_id": "MH-001-B22-01",
+      "batch": 22,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Martos Cabrera — deep crimson pressure, heavy mass, rough impacts",
+      "name": "Siege Reversal",
+      "treatment": "Incoming force visibly compresses his braced stance, then releases through a thick returning impact cone.",
+      "production_id": "MH-001-B22-02",
+      "batch": 22,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Elias Braun — orange heat, ember trails, dance-like rhythm",
+      "name": "Heatstep Engine",
+      "treatment": "Alternating footfall sparks grow into glowing trails and heat shimmer as movement accelerates.",
+      "production_id": "MH-001-B22-03",
+      "batch": 22,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Elias Braun — orange heat, ember trails, dance-like rhythm",
+      "name": "Ignition Carousel",
+      "treatment": "A rotating kick pulls accumulated embers into a wide blazing carousel arc.",
+      "production_id": "MH-001-B22-04",
+      "batch": 22,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Elias Braun — orange heat, ember trails, dance-like rhythm",
+      "name": "Cinder Rail",
+      "treatment": "A narrow heated movement line brightens into a straight rushing strike and a fiery contact burst.",
+      "production_id": "MH-001-B22-05",
+      "batch": 22,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Elias Braun — orange heat, ember trails, dance-like rhythm",
+      "name": "Ember Encore",
+      "treatment": "Successive kick arcs increase in ember density and intensity as heat builds through the sequence.",
+      "production_id": "MH-001-B22-06",
+      "batch": 22,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Elias Braun — orange heat, ember trails, dance-like rhythm",
+      "name": "Scorched Stage",
+      "treatment": "Crossing movement trails remain as glowing ground paths, clearly marking the affected routes.",
+      "production_id": "MH-001-B22-07",
+      "batch": 22,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Elias Braun — orange heat, ember trails, dance-like rhythm",
+      "name": "Curtainfall Kick",
+      "treatment": "Heat trails rise behind the airborne silhouette, then fall like a fiery curtain around the descending kick.",
+      "production_id": "MH-001-B22-08",
+      "batch": 22,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Mavis Kuro — charcoal vapour with silver edges",
+      "name": "Black-Vapour Slip",
+      "treatment": "Her silhouette breaks into wisps around the incoming attack and reforms visibly off its line.",
+      "production_id": "MH-001-B23-01",
+      "batch": 23,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Mavis Kuro — charcoal vapour with silver edges",
+      "name": "Hollow Counter",
+      "treatment": "The struck silhouette caves into smoke; a new silhouette reforms beside it and delivers the return.",
+      "production_id": "MH-001-B23-02",
+      "batch": 23,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Mavis Kuro — charcoal vapour with silver edges",
+      "name": "Veilbreaker Palm",
+      "treatment": "A hand condenses from mist immediately before contact, producing a dense palm-shaped pressure burst.",
+      "production_id": "MH-001-B23-03",
+      "batch": 23,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Mavis Kuro — charcoal vapour with silver edges",
+      "name": "Shrouded Sweep",
+      "treatment": "Low vapour obscures the feet while a silver-edged sweep cuts through the target’s footing.",
+      "production_id": "MH-001-B23-04",
+      "batch": 23,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Mavis Kuro — charcoal vapour with silver edges",
+      "name": "Smokebreak Traverse",
+      "treatment": "Mist threads through a real opening in broken cover and gathers into her silhouette beyond it.",
+      "production_id": "MH-001-B23-05",
+      "batch": 23,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Mavis Kuro — charcoal vapour with silver edges",
+      "name": "Midnight Curtain",
+      "treatment": "A broad sheet of dark vapour rolls across the arena as her position changes behind it.",
+      "production_id": "MH-001-B23-06",
+      "batch": 23,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Camila Lopez — teal analytical lines, structural diagrams, controlled movement",
+      "name": "Faultline Palm",
+      "treatment": "Fine teal lines trace the barrier’s weakness before a palm impact breaks along the identified structure.",
+      "production_id": "MH-001-B23-07",
+      "batch": 23,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Camila Lopez — teal analytical lines, structural diagrams, controlled movement",
+      "name": "Pattern Lock",
+      "treatment": "Ghosted repetitions of an observed movement overlap until one recurring opening receives a clear timing marker.",
+      "production_id": "MH-001-B23-08",
+      "batch": 23,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Camila Lopez — teal analytical lines, structural diagrams, controlled movement",
+      "name": "Checkmate Turn",
+      "treatment": "A curved trajectory diagram appears around the incoming entry, then becomes the actual reversal and throw.",
+      "production_id": "MH-001-B24-01",
+      "batch": 24,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Camila Lopez — teal analytical lines, structural diagrams, controlled movement",
+      "name": "Tempo Theft",
+      "treatment": "A small timing pulse marks the opponent’s weight shift; Camila’s movement cuts into that exact beat.",
+      "production_id": "MH-001-B24-02",
+      "batch": 24,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Camila Lopez — teal analytical lines, structural diagrams, controlled movement",
+      "name": "Glassboard Feint",
+      "treatment": "A translucent outlined opening draws the attack, then the diagram pivots into the returning strike path.",
+      "production_id": "MH-001-B24-03",
+      "batch": 24,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Camila Lopez — teal analytical lines, structural diagrams, controlled movement",
+      "name": "Cascade Reversal",
+      "treatment": "Linked grip markers and directional arrows flow through successive turns into one heavy throwing finish.",
+      "production_id": "MH-001-B24-04",
+      "batch": 24,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Samantha Kim — glossy crimson forms with dark red shadows",
+      "name": "Crimson Lance",
+      "treatment": "Crimson droplets gather into a long rigid lance, which fires with a thin trailing filament.",
+      "production_id": "MH-001-B24-05",
+      "batch": 24,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Samantha Kim — glossy crimson forms with dark red shadows",
+      "name": "Red-Thread Snare",
+      "treatment": "Fine red strands travel around the target externally, tighten, and pull along the resolved restraint direction.",
+      "production_id": "MH-001-B24-06",
+      "batch": 24,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Samantha Kim — glossy crimson forms with dark red shadows",
+      "name": "Scarlet Crescent",
+      "treatment": "A liquid ribbon hardens into a broad crescent as it sweeps across the engagement.",
+      "production_id": "MH-001-B24-07",
+      "batch": 24,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Samantha Kim — glossy crimson forms with dark red shadows",
+      "name": "Bloodbloom Burst",
+      "treatment": "A compact blood mass unfolds into striking petal-like forms that hit from several short-range angles.",
+      "production_id": "MH-001-B24-08",
+      "batch": 24,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Samantha Kim — glossy crimson forms with dark red shadows",
+      "name": "Coagulated Aegis",
+      "treatment": "Overlapping dark-crimson plates assemble into a shield and visibly crack under sufficient incoming force.",
+      "production_id": "MH-001-B25-01",
+      "batch": 25,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Samantha Kim — glossy crimson forms with dark red shadows",
+      "name": "Returning Fang",
+      "treatment": "A hooked blood projectile crosses the target, curves around, and returns along a visibly different route.",
+      "production_id": "MH-001-B25-02",
+      "batch": 25,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Tyler Harding — compressed impact rings and visible force reserves",
+      "name": "Debt Collector",
+      "treatment": "Stored rings around the attacking arm collapse into one punch, then expand violently at the target.",
+      "production_id": "MH-001-B25-03",
+      "batch": 25,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Tyler Harding — compressed impact rings and visible force reserves",
+      "name": "Rebound Crash",
+      "treatment": "An incoming impact compresses a circular reserve graphic; its energy immediately reverses through the returning punch.",
+      "production_id": "MH-001-B25-04",
+      "batch": 25,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Tyler Harding — compressed impact rings and visible force reserves",
+      "name": "Breakwater Guard",
+      "treatment": "A broad impact washes over a braced guard while part of the shockwave coils into stored rings.",
+      "production_id": "MH-001-B25-05",
+      "batch": 25,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Tyler Harding — compressed impact rings and visible force reserves",
+      "name": "Avalanche Hook",
+      "treatment": "Several dense reserve bands unwind through a sweeping hook and become a broad displacement wave.",
+      "production_id": "MH-001-B25-06",
+      "batch": 25,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Tyler Harding — compressed impact rings and visible force reserves",
+      "name": "Redline Barrage",
+      "treatment": "Separate reserve segments discharge one by one, each feeding a distinct punch impact.",
+      "production_id": "MH-001-B25-07",
+      "batch": 25,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Tyler Harding — compressed impact rings and visible force reserves",
+      "name": "Aftershock Uppercut",
+      "treatment": "Compressed rings launch upward with the punch; a second impact marks the target’s resolved landing.",
+      "production_id": "MH-001-B25-08",
+      "batch": 25,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Minsu Park — silver-blue speed trails and crisp afterimages",
+      "name": "Vanishing Kick",
+      "treatment": "A thin movement streak reaches the opponent before the trailing kick afterimage catches up.",
+      "production_id": "MH-001-B26-01",
+      "batch": 26,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Minsu Park — silver-blue speed trails and crisp afterimages",
+      "name": "Hundred-Frame Step",
+      "treatment": "A fan of closely spaced afterimages bends around the incoming trajectory and resolves at the new position.",
+      "production_id": "MH-001-B26-02",
+      "batch": 26,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Minsu Park — silver-blue speed trails and crisp afterimages",
+      "name": "Blink Chain",
+      "treatment": "Kick traces alternate high and low in sharply separated beats, preserving the number of resolved hits.",
+      "production_id": "MH-001-B26-03",
+      "batch": 26,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Minsu Park — silver-blue speed trails and crisp afterimages",
+      "name": "Racing Intercept",
+      "treatment": "Two movement lines cross at a clearly marked interception point where the stopping kick lands.",
+      "production_id": "MH-001-B26-04",
+      "batch": 26,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Minsu Park — silver-blue speed trails and crisp afterimages",
+      "name": "Comet Run",
+      "treatment": "A lengthening speed trail builds behind the run-up, then funnels into the driving kick.",
+      "production_id": "MH-001-B26-05",
+      "batch": 26,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Minsu Park — silver-blue speed trails and crisp afterimages",
+      "name": "Afterimage Relay",
+      "treatment": "Short movement bursts pass around the guard in sequence before one solid silhouette delivers the final kick.",
+      "production_id": "MH-001-B26-06",
+      "batch": 26,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Valentina Yeun — blade-like grey-green wind and severe pressure distortion",
+      "name": "Guillotine Gale",
+      "treatment": "A tall, thin cutting gust drops across the target like an angled guillotine blade.",
+      "production_id": "MH-001-B26-07",
+      "batch": 26,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Valentina Yeun — blade-like grey-green wind and severe pressure distortion",
+      "name": "Cyclone Vault",
+      "treatment": "A rising corkscrew gust lifts the silhouette before unfurling around the returning acrobatic kick.",
+      "production_id": "MH-001-B26-08",
+      "batch": 26,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Valentina Yeun — blade-like grey-green wind and severe pressure distortion",
+      "name": "Pressure Coffin",
+      "treatment": "Opposing translucent wind planes compress around the target, distorting the background inside the contested zone.",
+      "production_id": "MH-001-B27-01",
+      "batch": 27,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Valentina Yeun — blade-like grey-green wind and severe pressure distortion",
+      "name": "Horizon Sever",
+      "treatment": "A long, low wind crescent cuts across the arena, leaving a sharp horizontal distortion seam.",
+      "production_id": "MH-001-B27-02",
+      "batch": 27,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Valentina Yeun — blade-like grey-green wind and severe pressure distortion",
+      "name": "Gale Reversal",
+      "treatment": "An opposing gust bends the incoming trajectory aside, then opens into the returning attack.",
+      "production_id": "MH-001-B27-03",
+      "batch": 27,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Valentina Yeun — blade-like grey-green wind and severe pressure distortion",
+      "name": "Seventh Squall",
+      "treatment": "Successive gusts strike from changing directions, with debris following each resolved displacement.",
+      "production_id": "MH-001-B27-04",
+      "batch": 27,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Emily Fields — precise magenta weak-point marks and fracture patterns",
+      "name": "Fracture Point",
+      "treatment": "A small contact pulse leaves a distinctive diamond-shaped weak-point marker on the chosen target.",
+      "production_id": "MH-001-B27-05",
+      "batch": 27,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Emily Fields — precise magenta weak-point marks and fracture patterns",
+      "name": "Shatter Touch",
+      "treatment": "A precise touch activates the existing marker and sends sharp fractures through the affected surface.",
+      "production_id": "MH-001-B27-06",
+      "batch": 27,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Emily Fields — precise magenta weak-point marks and fracture patterns",
+      "name": "Faultline Rush",
+      "treatment": "A narrow rushing trail converges on a newly highlighted opening, ending in a tightly focused impact.",
+      "production_id": "MH-001-B27-07",
+      "batch": 27,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Emily Fields — precise magenta weak-point marks and fracture patterns",
+      "name": "Painless Advance",
+      "treatment": "A steady outline holds around her advancing portrait while damage effects and health loss remain visible.",
+      "production_id": "MH-001-B27-08",
+      "batch": 27,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Emily Fields — precise magenta weak-point marks and fracture patterns",
+      "name": "Chain Fracture",
+      "treatment": "Successive marks appear and rupture in sequence, forming a growing chain of local fractures.",
+      "production_id": "MH-001-B28-01",
+      "batch": 28,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Emily Fields — precise magenta weak-point marks and fracture patterns",
+      "name": "Critical Verdict",
+      "treatment": "The established marker contracts to a point, then bursts into a large radial fracture pattern as it is consumed.",
+      "production_id": "MH-001-B28-02",
+      "batch": 28,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Alyssa — flowing violet-black ribbons and softer-edged shadow constructs",
+      "name": "Dusk Hammer",
+      "treatment": "Flowing shadow gathers into a rounded striking mass that follows the physical blow into contact.",
+      "production_id": "MH-001-B28-03",
+      "batch": 28,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Alyssa — flowing violet-black ribbons and softer-edged shadow constructs",
+      "name": "Black-Ribbon Bind",
+      "treatment": "Long violet-edged ribbons weave around the target and pull taut along the restraint direction.",
+      "production_id": "MH-001-B28-04",
+      "batch": 28,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Alyssa — flowing violet-black ribbons and softer-edged shadow constructs",
+      "name": "Shade Mantle",
+      "treatment": "Overlapping translucent shadow layers meet the incoming attack, peeling away when damaged or broken.",
+      "production_id": "MH-001-B28-05",
+      "batch": 28,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Alyssa — flowing violet-black ribbons and softer-edged shadow constructs",
+      "name": "Twilight Step",
+      "treatment": "A curtain-like shadow fold conceals the movement trail before opening around the returning strike.",
+      "production_id": "MH-001-B28-06",
+      "batch": 28,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Alyssa — flowing violet-black ribbons and softer-edged shadow constructs",
+      "name": "Midnight Sweep",
+      "treatment": "A broad, low shadow ribbon rolls across the ground, carrying displaced loose objects sideways.",
+      "production_id": "MH-001-B28-07",
+      "batch": 28,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Alyssa — flowing violet-black ribbons and softer-edged shadow constructs",
+      "name": "Falling Shade",
+      "treatment": "Hanging shadow strands gather into a heavy overhead form and drop onto the selected area.",
+      "production_id": "MH-001-B28-08",
+      "batch": 28,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Edward Fox — amber sensory rings, vibration traces, understated physical force",
+      "name": "Blindside Verdict",
+      "treatment": "An amber sensory ripple reveals the concealed attack’s direction before a sharply angled returning strike.",
+      "production_id": "MH-001-B29-01",
+      "batch": 29,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Edward Fox — amber sensory rings, vibration traces, understated physical force",
+      "name": "Pulse Hunter",
+      "treatment": "Small heartbeat and displacement pulses briefly mark the detected route through visual obstruction.",
+      "production_id": "MH-001-B29-02",
+      "batch": 29,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Edward Fox — amber sensory rings, vibration traces, understated physical force",
+      "name": "Zero-Noise Rush",
+      "treatment": "Ground-level sensory traces identify a quiet route; a subdued movement silhouette follows it into close range.",
+      "production_id": "MH-001-B29-03",
+      "batch": 29,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Edward Fox — amber sensory rings, vibration traces, understated physical force",
+      "name": "Shockline Read",
+      "treatment": "Vibration ripples travel along the ground and air before the incoming attack; Fox moves off their convergence.",
+      "production_id": "MH-001-B29-04",
+      "batch": 29,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Edward Fox — amber sensory rings, vibration traces, understated physical force",
+      "name": "Eightfold Intercept",
+      "treatment": "Several distinct sensory traces converge on one interception point, followed by a precise physical impact.",
+      "production_id": "MH-001-B29-05",
+      "batch": 29,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Edward Fox — amber sensory rings, vibration traces, understated physical force",
+      "name": "Blackhaven Breaker",
+      "treatment": "Contact sends amber vibration lines through a barrier, revealing a weak structure before the breaching strike.",
+      "production_id": "MH-001-B29-06",
+      "batch": 29,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Jeremy Gordon — ivory biological armour, dark tissue, purposeful growth",
+      "name": "Living Cannon",
+      "treatment": "Ribbed biological segments grow into a firing channel, brace, and discharge a heavy concentrated round.",
+      "production_id": "MH-001-B29-07",
+      "batch": 29,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Jeremy Gordon — ivory biological armour, dark tissue, purposeful growth",
+      "name": "Hydra Burst",
+      "treatment": "Several smaller firing channels unfold in different directions and deliver a clearly finite sequence of shots.",
+      "production_id": "MH-001-B29-08",
+      "batch": 29,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Jeremy Gordon — ivory biological armour, dark tissue, purposeful growth",
+      "name": "Adaptive Breach",
+      "treatment": "The firing component visibly changes shape to suit the obstacle before releasing its specialised impact round.",
+      "production_id": "MH-001-B30-01",
+      "batch": 30,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Jeremy Gordon — ivory biological armour, dark tissue, purposeful growth",
+      "name": "Bone Bulwark",
+      "treatment": "Interlocking ivory plates grow across the defensive line and fracture individually under incoming force.",
+      "production_id": "MH-001-B30-02",
+      "batch": 30,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Jeremy Gordon — ivory biological armour, dark tissue, purposeful growth",
+      "name": "Regrowth Reload",
+      "treatment": "Spent components retract or shed; fresh tissue and armour assemble into a restored firing mechanism.",
+      "production_id": "MH-001-B30-03",
+      "batch": 30,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Trait-exclusive skills",
+      "group": "Jeremy Gordon — ivory biological armour, dark tissue, purposeful growth",
+      "name": "Siege Lance",
+      "treatment": "A long rifle-like growth locks into alignment and fires one narrow, forceful shot through the selected line.",
+      "production_id": "MH-001-B30-04",
+      "batch": 30,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Awakened signatures without Traits",
+      "group": "Awakened signatures without Traits",
+      "name": "Neo — Shinigami Vector",
+      "treatment": "A precise diagonal movement streak crosses the engagement and ends in one compact CQC impact.",
+      "production_id": "MH-001-B30-05",
+      "batch": 30,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Awakened signatures without Traits",
+      "group": "Awakened signatures without Traits",
+      "name": "Neo — Breakpoint Drive",
+      "treatment": "A braced close strike produces a dense pressure cone and debris from the actual collision surface.",
+      "production_id": "MH-001-B30-06",
+      "batch": 30,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Awakened signatures without Traits",
+      "group": "Awakened signatures without Traits",
+      "name": "Neo — Adaptive Intercept",
+      "treatment": "Several faint response silhouettes collapse into the chosen learned counter as the incoming attack changes.",
+      "production_id": "MH-001-B30-07",
+      "batch": 30,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Awakened signatures without Traits",
+      "group": "Awakened signatures without Traits",
+      "name": "Daniel — Perfect Transition",
+      "treatment": "A striking silhouette drops seamlessly into a takedown, carrying the target into the resolved collision.",
+      "production_id": "MH-001-B30-08",
+      "batch": 30,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Awakened signatures without Traits",
+      "group": "Awakened signatures without Traits",
+      "name": "Daniel — Concrete Driver",
+      "treatment": "A heavy close-contact silhouette drives force into the landing surface with a broad dust burst.",
+      "production_id": "MH-001-B31-01",
+      "batch": 31,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Awakened signatures without Traits",
+      "group": "Awakened signatures without Traits",
+      "name": "Daniel — Instinctive Reversal",
+      "treatment": "Contact pressure bends one way, abruptly reverses, and carries the counter along a short curved trail.",
+      "production_id": "MH-001-B31-02",
+      "batch": 31,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Awakened signatures without Traits",
+      "group": "Awakened signatures without Traits",
+      "name": "April — Accelerated Calculation",
+      "treatment": "Observed attack trajectories briefly separate into clear alternatives before the selected defensive line brightens.",
+      "production_id": "MH-001-B31-03",
+      "batch": 31,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Awakened signatures without Traits",
+      "group": "Awakened signatures without Traits",
+      "name": "April — Pattern Map",
+      "treatment": "Repeated movement traces overlap into a compact map, highlighting probable routes without implying certainty.",
+      "production_id": "MH-001-B31-04",
+      "batch": 31,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Awakened signatures without Traits",
+      "group": "Awakened signatures without Traits",
+      "name": "April — Predictive Escape",
+      "treatment": "A narrowing gap receives a subtle outline; her movement trail passes through before the pressure closes.",
+      "production_id": "MH-001-B31-05",
+      "batch": 31,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Awakened signatures without Traits",
+      "group": "Awakened signatures without Traits",
+      "name": "Thirteen — Suppression Rush",
+      "treatment": "A tight approach streak leads into successive short impacts that maintain continuous positional pressure.",
+      "production_id": "MH-001-B31-06",
+      "batch": 31,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Awakened signatures without Traits",
+      "group": "Awakened signatures without Traits",
+      "name": "Thirteen — Iron Reversal",
+      "treatment": "A braced contact silhouette absorbs the collision’s direction and folds it into a powerful return.",
+      "production_id": "MH-001-B31-07",
+      "batch": 31,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Awakened signatures without Traits",
+      "group": "Awakened signatures without Traits",
+      "name": "Thirteen — Vanishing Entry",
+      "treatment": "A sudden lateral burst crosses the expected attack line and resolves into a close striking stance.",
+      "production_id": "MH-001-B31-08",
+      "batch": 31,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Awakened signatures without Traits",
+      "group": "Awakened signatures without Traits",
+      "name": "Keisuke — Crushing Body Blow",
+      "treatment": "A dense body-level impact compresses the target silhouette before any resolved backward collision.",
+      "production_id": "MH-001-B32-01",
+      "batch": 32,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Awakened signatures without Traits",
+      "group": "Awakened signatures without Traits",
+      "name": "Keisuke — Groundsplitter Throw",
+      "treatment": "A secure grip leads into a strong throwing arc, with ground fractures appearing at the actual landing.",
+      "production_id": "MH-001-B32-02",
+      "batch": 32,
+      "status": "planned",
+      "runtime_action_id": null
+    },
+    {
+      "category": "Awakened signatures without Traits",
+      "group": "Awakened signatures without Traits",
+      "name": "Keisuke — Relentless Storm",
+      "treatment": "Body punches, kicks, and control silhouettes alternate in a sustained sequence with distinct defensive-response beats.",
+      "production_id": "MH-001-B32-03",
+      "batch": 32,
+      "status": "planned",
+      "runtime_action_id": null
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "test": "phone_dark_theme_smoke.py",
+    "exit_code": 0,
+    "tail": "Checking Home\nChecking Mysterious Hearts\nChecking Messages\nChecking Camera\nChecking Gallery\nChecking Grove\nChecking Contacts\nChecking Weather\nChecking Winterfield\nChecking Maps\nChecking Calendar\nChecking Journal\nChecking Supafast\nChecking Doober Eats\nChecking Deliveries\nChecking Mini Games\nChecking Settings\nChecking More\nChecking Notes\nChecking Pinned messages\nChecking Mixtape\nChecking Wardrobe\nChecking Out & About\nChecking Pocket Wallet\nChecking Winterfield Exchange\nChecking Recipe Box\nChecking Postcards\nChecking Campus Portal\nChecking Meet-Cute\nChecking Jobseek\nChecking Bubblegram\nChecking Customise\nChecking Lock\nChecking Keepsake\nDark surfaces verified across 34 phone pages, chat, contact details, and embedded controls.\n"
+  },
+  {
+    "test": "lifestyle_ui_smoke.py",
+    "exit_code": 0,
+    "tail": "Eight app screens, saved drafts, outfit generation, switching apps, failure and cancellation passed.\n"
+  },
+  {
+    "test": "start_ui_smoke.py",
+    "exit_code": 0,
+    "tail": "Start UI passed: 28 previews, paging, explicit begin, default and minimum layouts.\n"
+  }
+]

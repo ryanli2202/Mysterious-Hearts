@@ -1,0 +1,11 @@
+test_artwork_and_authored_story_contract (test_campaign_flashbacks.FlashbackTests.test_artwork_and_authored_story_contract) ... ok
+test_garrett_gate_resume_and_world_isolation (test_campaign_flashbacks.FlashbackTests.test_garrett_gate_resume_and_world_isolation) ... ok
+test_legacy_catchup_preserves_progress_and_contacts (test_campaign_flashbacks.FlashbackTests.test_legacy_catchup_preserves_progress_and_contacts) ... ok
+test_location_party_and_wrong_player_rejected (test_campaign_flashbacks.FlashbackTests.test_location_party_and_wrong_player_rejected) ... ok
+test_old_inflight_conversation_finishes_before_catchup (test_campaign_flashbacks.FlashbackTests.test_old_inflight_conversation_finishes_before_catchup) ... ok
+test_rei_gate_and_exactly_three_ordered_memories (test_campaign_flashbacks.FlashbackTests.test_rei_gate_and_exactly_three_ordered_memories) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.348s
+
+OK

@@ -1,0 +1,8 @@
+python -m unittest discover -s tests -p test_portrait_framing.py -v
+
+All seven checks passed: full installed/staged roster with unequal slots, canonical/default data, tall individual thumbnails, aliases/custom/unknown heights, player-slot ratios, padding/aspect/cropped-body fraction, wardrobe/historical path precedence.
+
+Ran 7 tests in 14.545s
+OK
+
+This final run supersedes the six-test framing result in units.json after adding the tall-thumbnail cap regression and changing the individual reference stature to 211 cm.

@@ -81,7 +81,7 @@ def ensure(s):
 def refresh(s):
     names = s['world']['npcs']
     names[:] = [name for name in names if name not in MEMBERS]
-    names.extend(name for name, p in MEMBERS.items() if p['base'] == s['world']['location'])
+    names.extend(name for name, p in MEMBERS.items() if p['base'] == s['world']['location'] and p['gang'] not in s.get('organisation_guards',{}).get('disabled',[]))
 
 
 def contract(s, spec):

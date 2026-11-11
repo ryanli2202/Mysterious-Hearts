@@ -1,0 +1,857 @@
+{
+  "date": "2026-11-11",
+  "roadmap_id": "MH-013",
+  "scope": "107 accepted Stage 2 default masters; no alternate wardrobe, history or combat variant installation",
+  "changed": 100,
+  "assets": [
+    {
+      "id": "april",
+      "path": "assets/portraits/april-selection.png",
+      "before_sha256": "89a27e37fc040a7d6bbfd3fe953ac5c3cfb977f08d7af43ec7ae19de23e6161f",
+      "installed_sha256": "a8f989a6fab00081d9eab1dd6f3d96bec3b703c5a7003708417cf960f1f49f9e",
+      "candidate": "candidates/april.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/april.png"
+    },
+    {
+      "id": "arthur-finch",
+      "path": "assets/portraits/arthur-finch-selection.png",
+      "before_sha256": "d555f935ffc426218bb0a8756753d658c09ed4edd5200f7db40edc7597457d18",
+      "installed_sha256": "42479ed8f5cde6c8e82ceba71a4577832ace1a880825f154cdb7eec21ef205a4",
+      "candidate": "candidates/arthur-finch.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/arthur-finch.png"
+    },
+    {
+      "id": "beatrice-cole",
+      "path": "assets/portraits/beatrice-cole-selection.png",
+      "before_sha256": "d3a67ea708855b62c136c4172f228386ad466948e590a78d29decdf0a3cbb879",
+      "installed_sha256": "fcd981195a5ac5eea2f2c183cb32d61451c2d33603edf639dfe5d06104bcb8cb",
+      "candidate": "candidates/beatrice-cole.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/beatrice-cole.png"
+    },
+    {
+      "id": "amy",
+      "path": "assets/portraits/amy-selection.png",
+      "before_sha256": "b74d0349705b8da3edc37bb267ee43cd7753dea8a6498b92d6d35b3aab9c7c52",
+      "installed_sha256": "03f5aecaaa6564afd7d7f8cff1be8d1923f5084aaba0537eb7fc291fc91708bd",
+      "candidate": "candidates/amy.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/amy.png"
+    },
+    {
+      "id": "garrett",
+      "path": "assets/portraits/garrett-selection.png",
+      "before_sha256": "009139b0e832dc828cc0b12a6e44821d9e738107ae569d17f8a3973a6e6a7958",
+      "installed_sha256": "86b6e2e4bfb84c6a3d8133a765a7af2905148c9eb6216814f82aa86141f07c39",
+      "candidate": "candidates/garrett.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/garrett.png"
+    },
+    {
+      "id": "rei",
+      "path": "assets/portraits/rei-selection.png",
+      "before_sha256": "fc0108ced94c3908f1a9ad25564c7fc8c93d8011e44a20fd54cc4e0f1f9c29a9",
+      "installed_sha256": "5edfb2e6e35db5dd005c14269cedd07fd9e121215fca7b9239e7ff6577b30982",
+      "candidate": "candidates/rei.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/rei.png"
+    },
+    {
+      "id": "sophie",
+      "path": "assets/portraits/sophie-selection.png",
+      "before_sha256": "abc22daf95898d9fbdc5f748c1a8b92fbd1a104d3180d3b5c26fa5d797aa04f8",
+      "installed_sha256": "1c91d1cbf0adec726955f838c65bcb95382d988b09c92052fdb9e151d255a091",
+      "candidate": "candidates/sophie.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/sophie.png"
+    },
+    {
+      "id": "samantha",
+      "path": "assets/portraits/samantha-selection.png",
+      "before_sha256": "a7fa9bb71cd8334f581e07c43a1da42ee9055d044d3df7898f0af1e3b3ef667d",
+      "installed_sha256": "195f782a9f9e02d701893f2b77fec08b71d859a1d83f1628f1510a5bdc683c4c",
+      "candidate": "candidates/samantha.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/samantha.png"
+    },
+    {
+      "id": "yuriko",
+      "path": "assets/portraits/yuriko-selection.png",
+      "before_sha256": "3316a1fc5230b8c4eeed83df9b04c561062d3e6d850a0a21fa22027e5842f0e9",
+      "installed_sha256": "2dd18b5d8a640662edc4dbf97ce8934489363177bd45dd76cc4e963f8b872e43",
+      "candidate": "candidates/yuriko.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/yuriko.png"
+    },
+    {
+      "id": "maya",
+      "path": "assets/portraits/maya-selection.png",
+      "before_sha256": "d52faf6427ebd88dd672d275608c35bdc1699a5442363a2f7318e5ee34541a3d",
+      "installed_sha256": "afc4c5ec5c178eaed9322eb738e81cfb40f43aedb3868b76746e9cd3d1d74777",
+      "candidate": "candidates/maya.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/maya.png"
+    },
+    {
+      "id": "leo",
+      "path": "assets/portraits/leo-selection.png",
+      "before_sha256": "03cce4ce2073e229927dbf2a9cefded3a3b0cec4b8f524396ab63f8749357292",
+      "installed_sha256": "28b838048a2cce3a9b950062900380481c87df5cfbfccbb0b33f464440a196f0",
+      "candidate": "candidates/leo.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/leo.png"
+    },
+    {
+      "id": "noah",
+      "path": "assets/portraits/noah-selection.png",
+      "before_sha256": "ff1517e0ef85629d0e7132ab6100c6287e45e87b8cc792bce964926f34efc6eb",
+      "installed_sha256": "6fb87d28e1b7be6e1f2fafc99d5aa01dbafc8323a22ce9aabf96af8f88748141",
+      "candidate": "candidates/noah.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/noah.png"
+    },
+    {
+      "id": "iris",
+      "path": "assets/portraits/iris-selection.png",
+      "before_sha256": "b0a6db8d6d53190c835e1f7eeb867399020a6b91ecb559b3a55be9c57b69886c",
+      "installed_sha256": "4c254fe1ca5cf4167282a106ce0514e5e6d1a71f65db8e69f5a040fa66c12107",
+      "candidate": "candidates/iris.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/iris.png"
+    },
+    {
+      "id": "june",
+      "path": "assets/portraits/june-selection.png",
+      "before_sha256": "6461e542d655b38f3f8b0a5c29a4dc509b63816abf23d395195d9ab222f6a17a",
+      "installed_sha256": "2a4f24dacf5235e9a884012d4ce102b6dd0023373ffbd7275ddccfc469d9b26e",
+      "candidate": "candidates/june.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/june.png"
+    },
+    {
+      "id": "theo",
+      "path": "assets/portraits/theo-selection.png",
+      "before_sha256": "abad3b2d80279e1ea25f73532378f00655307f57029ab6645fc431f362e74185",
+      "installed_sha256": "9cce50854164295cf8714328b0075884201d7490d4d864989ccb9f3231e33d77",
+      "candidate": "candidates/theo.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/theo.png"
+    },
+    {
+      "id": "ada-mensah",
+      "path": "assets/portraits/ada-mensah-selection.png",
+      "before_sha256": "bf26be5cc08965a89e62510986aa9146cd66b92a300e9aa4108ed2b94503ca10",
+      "installed_sha256": "6f90a973055bdc00730245d62879407e72636f03b4f4777f9ca720c796de79cf",
+      "candidate": "candidates/ada-mensah.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/ada-mensah.png"
+    },
+    {
+      "id": "alyssa",
+      "path": "assets/portraits/alyssa-selection.png",
+      "before_sha256": "91928559324ec33309420f8c72bbc65bc81bb0fb952572713cdb1a39ae11e434",
+      "installed_sha256": "5e7f3ee93faeaed048ed07ef52583dc6d7ab7dd1841466a42737944aaddbe9a2",
+      "candidate": "candidates/alyssa.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/alyssa.png"
+    },
+    {
+      "id": "anton-bellamy",
+      "path": "assets/portraits/anton-bellamy-selection.png",
+      "before_sha256": "c05646a15fd19846fe93e826c319882f4f25f2631d3c595102bd6f928e21c169",
+      "installed_sha256": "2ada03d2bd8f62fd2a437d43d5cd71233526c654ca08972daf93a1f86c15a735",
+      "candidate": "candidates/anton-bellamy.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/anton-bellamy.png"
+    },
+    {
+      "id": "ben-okafor",
+      "path": "assets/portraits/ben-okafor-selection.png",
+      "before_sha256": "85e5f9e76faba50638891fa71dbe30795478923b6ebcbaa5b87472e5f5084d0b",
+      "installed_sha256": "08d58d36334412fc7d29551b394964bce49460889ab9dc35f357e9b3f367c2c1",
+      "candidate": "candidates/ben-okafor.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/ben-okafor.png"
+    },
+    {
+      "id": "callum-webb",
+      "path": "assets/portraits/callum-webb-selection.png",
+      "before_sha256": "ae7d103b76ac64798b71bdeb46fbdde6a76828b38640032f96eccebd195e7c4d",
+      "installed_sha256": "ac99f5a568ff9e132a520f02614aff503cd7f503d701a5deee5989fe366b89de",
+      "candidate": "candidates/callum-webb.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/callum-webb.png"
+    },
+    {
+      "id": "camila",
+      "path": "assets/portraits/camila-selection.png",
+      "before_sha256": "3799e75c5d64e54fac02629a55ca1958524443c0c36c55eb0c2c474b3e2e0435",
+      "installed_sha256": "37dd94cf16f87cc375dd7d8fcc0832ee684b0dd7a34d05ca9b363517335a42f8",
+      "candidate": "candidates/camila.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/camila.png"
+    },
+    {
+      "id": "celeste",
+      "path": "assets/portraits/celeste-selection.png",
+      "before_sha256": "669a51a0babb48f037a66f82066545514c4baf629b1401fac67412f60955a7ed",
+      "installed_sha256": "323b2eab7ce60262528157eebc9d5f214ad39a7bcef11f6ad22a9adadd8f10ee",
+      "candidate": "candidates/celeste.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/celeste.png"
+    },
+    {
+      "id": "celia-brooks",
+      "path": "assets/portraits/celia-brooks-selection.png",
+      "before_sha256": "c62ca497c873b7c652d49c7950fd89a53ab1e47212f21f750a92baadc8391e33",
+      "installed_sha256": "5756194bf8409c41270a44ee4852c2d085fe057f0611f3cb04b6b898bf52666a",
+      "candidate": "candidates/celia-brooks.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/celia-brooks.png"
+    },
+    {
+      "id": "charles",
+      "path": "assets/portraits/charles-selection-v2.png",
+      "before_sha256": "f79e659b15567b75c54be3f328121e39c15c2818d3b6244c7f15fc24285e77ab",
+      "installed_sha256": "f79e659b15567b75c54be3f328121e39c15c2818d3b6244c7f15fc24285e77ab",
+      "candidate": "candidates/charles.png"
+    },
+    {
+      "id": "crow",
+      "path": "assets/portraits/crow-selection.png",
+      "before_sha256": "aa981738b249148853432e0abeba74fd480034885e6b1d00f4626245caedf12d",
+      "installed_sha256": "b9b7649287c3b880a498f1b4ac0a242c96f9018e9d48fde2b39bf004f4f8db5f",
+      "candidate": "candidates/crow.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/crow.png"
+    },
+    {
+      "id": "daichi-kurose",
+      "path": "assets/portraits/daichi-kurose-selection.png",
+      "before_sha256": "f9b01a4cbe8ffa9a7dabac5d9dfbffab01ebc6fbef17cc199959b3ef551e21ae",
+      "installed_sha256": "609b1fb57cfc5e04e92af8cc8a75279efbf0c68cfcf3bea68ac883684e2fe315",
+      "candidate": "candidates/daichi-kurose.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/daichi-kurose.png"
+    },
+    {
+      "id": "dana-lin",
+      "path": "assets/portraits/dana-lin-selection.png",
+      "before_sha256": "eb45cb0736e6d7d74ed70f5c7e2a8e0d8348fbea322c47f71085441f8b3c62b4",
+      "installed_sha256": "654360f96e9a97ed78428b378ad3cef7fec8e695e9432e439a6fc85bfa241497",
+      "candidate": "candidates/dana-lin.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/dana-lin.png"
+    },
+    {
+      "id": "daniel",
+      "path": "assets/portraits/daniel-selection.png",
+      "before_sha256": "93f50f544ca62527310e55d52b86bf1490a60b9d9cbdefb0e9248edcaa251004",
+      "installed_sha256": "18ec1fd61dba9271b93c281cfce1aacefe52ce8ea86eb3fe0d3f60e506c39863",
+      "candidate": "candidates/daniel.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/daniel.png"
+    },
+    {
+      "id": "dante-brooks",
+      "path": "assets/portraits/dante-brooks-selection.png",
+      "before_sha256": "c89edfb8bceb37eaaed9feaafdc34160ce1d0decf034a7220d775e97c460588c",
+      "installed_sha256": "f1d72b8786e289954fdb1491af8a45511f14990837afceb9c5b4079eacf38e71",
+      "candidate": "candidates/dante-brooks.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/dante-brooks.png"
+    },
+    {
+      "id": "darius-cole",
+      "path": "assets/portraits/darius-cole-selection.png",
+      "before_sha256": "dc1ea6e6e6e82f9c6e0b132194f2b00907f361107cfbb969f1f21402a0053c1b",
+      "installed_sha256": "e882536d9e3dbc30436fb6d04dbc917c00bae63fc762c65602f649f8620e237c",
+      "candidate": "candidates/darius-cole.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/darius-cole.png"
+    },
+    {
+      "id": "dev",
+      "path": "assets/portraits/dev-selection.png",
+      "before_sha256": "d831becfe64baf566dea7ec5580686223c5b321fb24aeb1b66d4c266a33a4dd5",
+      "installed_sha256": "6aa1ebd0b7d3f1be93ed25f8540717aec97600bfc9a8bfb8aeeaa5ca991621d6",
+      "candidate": "candidates/dev.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/dev.png"
+    },
+    {
+      "id": "elias",
+      "path": "assets/portraits/elias-selection.png",
+      "before_sha256": "76c135c0cdab8c187b7b8ea9b31b6b2e0930ba78934c73f0f71f11e2346a1810",
+      "installed_sha256": "c8d24f01020d901e6df496a5955a636c703917c78dd31c273fbcce6b5d164205",
+      "candidate": "candidates/elias.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/elias.png"
+    },
+    {
+      "id": "elliot",
+      "path": "assets/portraits/elliot-selection.png",
+      "before_sha256": "14b7399c8246bf4ec9143d7d2aaeade8f158b7f1141eb6f1557c386fdc145ca2",
+      "installed_sha256": "a7ef2efa256246a5c33db9ce4c1bf82f8b147670880161ed05d78e4b5a2a9b0a",
+      "candidate": "candidates/elliot.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/elliot.png"
+    },
+    {
+      "id": "emi-suda",
+      "path": "assets/portraits/emi-suda-selection.png",
+      "before_sha256": "c78e1e053c52fe2360d407128b1788142a781f417360b41238389ab8775c5d5e",
+      "installed_sha256": "24b8c36271f8fae6bc152b2455cb4079e42507e4847da3d88464bd61cf9e0f45",
+      "candidate": "candidates/emi-suda.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/emi-suda.png"
+    },
+    {
+      "id": "emily",
+      "path": "assets/portraits/emily-selection.png",
+      "before_sha256": "969e183053b74d0c9c18ec47785da5bc70ddd612f45ace733b0ba60bee972f70",
+      "installed_sha256": "969e183053b74d0c9c18ec47785da5bc70ddd612f45ace733b0ba60bee972f70",
+      "candidate": "candidates/emily.png"
+    },
+    {
+      "id": "euan-marsh",
+      "path": "assets/portraits/euan-marsh-selection.png",
+      "before_sha256": "6e864dc6c74a602cbb124e297dfa84d9fe9ef9ca8c1c55802ebb12eb926a9d66",
+      "installed_sha256": "83640ca94f3c995890bcbf7fed09e3ce448ec56559e4b8a423f32627ba535f1f",
+      "candidate": "candidates/euan-marsh.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/euan-marsh.png"
+    },
+    {
+      "id": "evelyn-mercer",
+      "path": "assets/portraits/evelyn-mercer-selection.png",
+      "before_sha256": "af314f6c7af4da8189c079c7766c5818904adbe8ad1e979e5557591f4ec3cd46",
+      "installed_sha256": "60ef6476a86d5bbef2d9d26967d3037d0cfa5e8563480d7e5e24628d9221a67c",
+      "candidate": "candidates/evelyn-mercer.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/evelyn-mercer.png"
+    },
+    {
+      "id": "farah-haddad",
+      "path": "assets/portraits/farah-haddad-selection.png",
+      "before_sha256": "5f08e507daba3ae1e735b2a653b8bd6eabbaad511767c5f4ee3078bc03134a6d",
+      "installed_sha256": "2956d404e3b22f1fae3b007829a0dcbf23edf3c428b56e83abc69a73bfb8075c",
+      "candidate": "candidates/farah-haddad.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/farah-haddad.png"
+    },
+    {
+      "id": "felix-ward",
+      "path": "assets/portraits/felix-ward-selection.png",
+      "before_sha256": "eecc6f2f9b8d096b5c491994665beb7571969f84c86c8119d87595f4af4a5a49",
+      "installed_sha256": "21ab66f686ad9c9b8df91942c487350df484dd4a17712015153ef0288c75da67",
+      "candidate": "candidates/felix-ward.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/felix-ward.png"
+    },
+    {
+      "id": "fox",
+      "path": "assets/portraits/fox-selection.png",
+      "before_sha256": "f59009a9ecfc2d75740bc33d9bbe411d0b963059a8794af904e9cc3a3424a05a",
+      "installed_sha256": "256655cc5a4931c3336af8355f5e58a40f955853c21ebbbbcac98d6bc0af2912",
+      "candidate": "candidates/fox.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/fox.png"
+    },
+    {
+      "id": "gabe-turner",
+      "path": "assets/portraits/gabe-turner-selection.png",
+      "before_sha256": "0d5e989bbd5295897c9a3ae2cfd75802d7010e2f9a16b6d255a14d023a1b68ae",
+      "installed_sha256": "a4a69229e82b578aae42a56bf8b6940047b2b8accdee2c2f1d3b07ee4d57504c",
+      "candidate": "candidates/gabe-turner.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/gabe-turner.png"
+    },
+    {
+      "id": "gordon",
+      "path": "assets/portraits/gordon-selection.png",
+      "before_sha256": "88a2f4a51d89b412e7605317deac838284433e72851c2989251f806f2a2e317d",
+      "installed_sha256": "2450356102b233a9cb187814324cb710405308a8260eae2bedf3b402c02e59fc",
+      "candidate": "candidates/gordon.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/gordon.png"
+    },
+    {
+      "id": "greta-shaw",
+      "path": "assets/portraits/greta-shaw-selection.png",
+      "before_sha256": "c2ca254d1caa83bf5c73a9302e9b6952dc394b190a011b7526db58d8c49e9641",
+      "installed_sha256": "23f975d50d6d99d383d29f9b434761737760bfca9734f5d6faa7f538677b9b26",
+      "candidate": "candidates/greta-shaw.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/greta-shaw.png"
+    },
+    {
+      "id": "hazel-reed",
+      "path": "assets/portraits/hazel-reed-selection.png",
+      "before_sha256": "09acf9321c5e6979c3fe9509a8ed16d8026f9b722a83eae818d6e2e2da0c9e36",
+      "installed_sha256": "5acd07d363925e3afda5f070efb51568be15ae8b7b00d75db07a5fa10996d0f5",
+      "candidate": "candidates/hazel-reed.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/hazel-reed.png"
+    },
+    {
+      "id": "imani-price",
+      "path": "assets/portraits/imani-price-selection.png",
+      "before_sha256": "b7e17749f12f7e1564651b9909dac5422d6fda15bbadc4fe11020cc0ea7ff43a",
+      "installed_sha256": "93ea14c595f21492bc6e486c04d3a02afc611da4242f967dc0384ff624e2699d",
+      "candidate": "candidates/imani-price.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/imani-price.png"
+    },
+    {
+      "id": "isabel-vega",
+      "path": "assets/portraits/isabel-vega-selection.png",
+      "before_sha256": "679b7893c7fc49ce673a87f6041a78e9db5fb851054c622513a640a4ea6511d7",
+      "installed_sha256": "f36ccad03bdc5ab335a8515400fb25b552891c2e8faf3fcae6f6de5fa08f413c",
+      "candidate": "candidates/isabel-vega.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/isabel-vega.png"
+    },
+    {
+      "id": "ivan",
+      "path": "assets/portraits/ivan-selection.png",
+      "before_sha256": "e38a31e1cad42e03fc9152f75de29b667bb0f8ece6aebe65cea9516059f670fb",
+      "installed_sha256": "e38a31e1cad42e03fc9152f75de29b667bb0f8ece6aebe65cea9516059f670fb",
+      "candidate": "candidates/ivan.png"
+    },
+    {
+      "id": "jace-mercer",
+      "path": "assets/portraits/jace-mercer-selection.png",
+      "before_sha256": "078f2ca7d6c3fc455003e2e670c35e951a51a11e42979e5d9309def4362cfebf",
+      "installed_sha256": "45e49b55fa987767b1264ebe87c8226980012f645e4fbee1594dec3933d1cbc2",
+      "candidate": "candidates/jace-mercer.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/jace-mercer.png"
+    },
+    {
+      "id": "jonah-price",
+      "path": "assets/portraits/jonah-price-selection.png",
+      "before_sha256": "270ba819998f104bcb1e8ff29c1ca689be986733a21585d2a51999bf39ddcf82",
+      "installed_sha256": "0d93e30c5e15fb47719e866e47a6fc6d6fb520afd2b6cebb74a6e0ba4ee4423d",
+      "candidate": "candidates/jonah-price.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/jonah-price.png"
+    },
+    {
+      "id": "joseph-richter",
+      "path": "assets/portraits/joseph-richter-selection.png",
+      "before_sha256": "ab22f7482b5eb7178649d2b45adb0f66321e8ef3d0966e694b4e391535e25939",
+      "installed_sha256": "5d825b0bf27a5e6908967e0d31e9cf6aa834da7bee917af8cfd1851956bc7d5b",
+      "candidate": "candidates/joseph-richter.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/joseph-richter.png"
+    },
+    {
+      "id": "jules-navarro",
+      "path": "assets/portraits/jules-navarro-selection.png",
+      "before_sha256": "514ec6bf80ec765f5ec18b2eef1ac620201e41277d3d2b47ad04e84eef2d5072",
+      "installed_sha256": "d23bdf943003979ece521d1fa71303e680b1a259ee39e126d813ded6cd729132",
+      "candidate": "candidates/jules-navarro.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/jules-navarro.png"
+    },
+    {
+      "id": "keiko-tan",
+      "path": "assets/portraits/keiko-tan-selection.png",
+      "before_sha256": "1595b7721d77749bd4d75b210b2867871f6c9a6509efbdc94907d5b5b5398571",
+      "installed_sha256": "a2e334d60fd515b6bb2c6e000f6e4675e3bbd8d9b1095a0419ccb4bb6bfc5874",
+      "candidate": "candidates/keiko-tan.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/keiko-tan.png"
+    },
+    {
+      "id": "keira-shaw",
+      "path": "assets/portraits/keira-shaw-selection.png",
+      "before_sha256": "611d3d2b98feb69bb51ed6dccf791007136c1f290c8b7d6ba395292106998351",
+      "installed_sha256": "b2401fd8dbb0324f2a5fe55c3fef741032c5042cb2638062d1c3ec6f645149a1",
+      "candidate": "candidates/keira-shaw.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/keira-shaw.png"
+    },
+    {
+      "id": "keisuke-hachimura",
+      "path": "assets/portraits/keisuke-hachimura-selection.png",
+      "before_sha256": "225512ef845949fd352f24b2799c2a682d5912d43bfbbe81ea3eece0e74ae075",
+      "installed_sha256": "c1e1b721dff013eecce42accae0601bd405d698c4514b3fa4653944d3faf3600",
+      "candidate": "candidates/keisuke-hachimura.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/keisuke-hachimura.png"
+    },
+    {
+      "id": "lena",
+      "path": "assets/portraits/lena-selection.png",
+      "before_sha256": "c7230a0644c55691a764bbf76f537d0d045d7ea10267fb62b88d49ba2ca649e5",
+      "installed_sha256": "1ed321acc67697d7aaa6ddfb7b1fd60e47a05be3765187b679f1a85f1c2affe9",
+      "candidate": "candidates/lena.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/lena.png"
+    },
+    {
+      "id": "lucia-serrano",
+      "path": "assets/portraits/lucia-serrano-selection.png",
+      "before_sha256": "f2df09078ba7848a8f944f8d66c5ecd580c009e2166e0d525af33ba8ee00ac63",
+      "installed_sha256": "a4835d78afd5c78ba1d6746584d4e1dd847e73d6962ae5e54d441aeee391b4e3",
+      "candidate": "candidates/lucia-serrano.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/lucia-serrano.png"
+    },
+    {
+      "id": "luz-moreno",
+      "path": "assets/portraits/luz-moreno-selection.png",
+      "before_sha256": "073f189a341230f722ac396cda346362f3abd3fabdec15305031c9bb081765a2",
+      "installed_sha256": "1f1ee4d844112ff3e1f64772d9a807940cebbe3967eef5bd76511ae555132c6b",
+      "candidate": "candidates/luz-moreno.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/luz-moreno.png"
+    },
+    {
+      "id": "malik-reed",
+      "path": "assets/portraits/malik-reed-selection.png",
+      "before_sha256": "152eca4d32a9ba9b17c511e339436b7c56a919bd6b0a923d734fa9eaa7ce021b",
+      "installed_sha256": "c88313308ec6d75fe985317439a766d2be22de0a877400f44ff8fdb432da11c4",
+      "candidate": "candidates/malik-reed.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/malik-reed.png"
+    },
+    {
+      "id": "malik-torres",
+      "path": "assets/portraits/malik-torres-selection.png",
+      "before_sha256": "727c9d2b44baf1d0f6d7daeba608df10c2b06abc1fce8c019cc8798cf6ddd279",
+      "installed_sha256": "5e5076cf2f9611262f342bb3613bb595cec0da51093dab845f8893459e594707",
+      "candidate": "candidates/malik-torres.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/malik-torres.png"
+    },
+    {
+      "id": "mara-voss",
+      "path": "assets/portraits/mara-voss-selection.png",
+      "before_sha256": "d159e38dded107427583bd74c1564bd9fdb2a81526b8e788fb153580f724f765",
+      "installed_sha256": "57a3612ae35eb2fde4310b402488a7566d3c3e6a0b63f5f6031297519bd6d09e",
+      "candidate": "candidates/mara-voss.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/mara-voss.png"
+    },
+    {
+      "id": "mario-romano",
+      "path": "assets/portraits/mario-romano-selection.png",
+      "before_sha256": "db1f4dc16dc173b7bd597bdf5f1cee623a64b425ceb9eb5894e5b8afd65bc3d4",
+      "installed_sha256": "5df5078bb3ad4d0f5cd39a08339ced097a997435d91260f1d76bdd4041296829",
+      "candidate": "candidates/mario-romano.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/mario-romano.png"
+    },
+    {
+      "id": "marta-silva",
+      "path": "assets/portraits/marta-silva-selection.png",
+      "before_sha256": "ba3b869a1114d4e4d6a788a36bd2e0cc654393e2086385f8679617dbbd913d5d",
+      "installed_sha256": "99f999468ec740e45610d2a38893cb88fd495c8fbc92ace931eab5d83cc85c94",
+      "candidate": "candidates/marta-silva.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/marta-silva.png"
+    },
+    {
+      "id": "martos",
+      "path": "assets/portraits/martos-selection.png",
+      "before_sha256": "a38916cb2eb7bf9780189487df988aa765842be5e8e7e3e4047eb0a54c0aea5d",
+      "installed_sha256": "b075214e0e517393a77e975a49f4118f8bffe9411981a640e26c5cac867298fa",
+      "candidate": "candidates/martos.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/martos.png"
+    },
+    {
+      "id": "mateo-cruz",
+      "path": "assets/portraits/mateo-cruz-selection.png",
+      "before_sha256": "0f0622914f4013232aa0bcedf881bdd24379d9aef5c9d420ff8d2db42ef17af2",
+      "installed_sha256": "79c9de6d88d641f6ef7764410f28da2ceca5febb4c0bca3933f663c3eee36dbf",
+      "candidate": "candidates/mateo-cruz.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/mateo-cruz.png"
+    },
+    {
+      "id": "mavis",
+      "path": "assets/portraits/mavis-selection.png",
+      "before_sha256": "a64c1f8fcdae9cab974bee2532158fac511ac3bc1a672dcf85e5d32517dbffcc",
+      "installed_sha256": "84d66fde39c3a9bc1a7a2a717366aaea3edcd840fce60357b109b11a10cbc6ae",
+      "candidate": "candidates/mavis.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/mavis.png"
+    },
+    {
+      "id": "mina-cho",
+      "path": "assets/portraits/mina-cho-selection.png",
+      "before_sha256": "877560992463458745a7d1ae9e412a3072a420ba6bbf344822823912dfb16f5d",
+      "installed_sha256": "497dc65e9c908e3a79a3b53db46a85b568ff174880ae83b3be4f102083bba3ff",
+      "candidate": "candidates/mina-cho.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/mina-cho.png"
+    },
+    {
+      "id": "minsu",
+      "path": "assets/portraits/minsu-selection.png",
+      "before_sha256": "682146270645d8a26187490d54c8e91a71ffdb47bc9857696c34826ea07a29fb",
+      "installed_sha256": "682146270645d8a26187490d54c8e91a71ffdb47bc9857696c34826ea07a29fb",
+      "candidate": "candidates/minsu.png"
+    },
+    {
+      "id": "nadia-flores",
+      "path": "assets/portraits/nadia-flores-selection.png",
+      "before_sha256": "65c448128f4110e08b584b8b473ac90574e95f9d255bf8aa96035fe02438a54d",
+      "installed_sha256": "6893b43f489383e573bf669121963d7c71d71cbb81e930f6f4f8801d3a6f48a9",
+      "candidate": "candidates/nadia-flores.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/nadia-flores.png"
+    },
+    {
+      "id": "naomi",
+      "path": "assets/portraits/naomi-selection.png",
+      "before_sha256": "37755b317964cf92127ff2f9eb83ebaf26e58890166db6cc46ec09c1a04782e4",
+      "installed_sha256": "37015100c2859d9794b6670c27a68d60e3ddecbee200778359884fc26146db41",
+      "candidate": "candidates/naomi.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/naomi.png"
+    },
+    {
+      "id": "neo",
+      "path": "assets/portraits/neo-scene.png",
+      "before_sha256": "beec3650797928c3d3e65cb267331fbcaf2f0cd242467d8a1826a7fce879fc63",
+      "installed_sha256": "c72db6466dda25f2f58ebee507c58372d61acf7253b4ef03d17faceeb921deb8",
+      "candidate": "candidates/neo.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/neo.png"
+    },
+    {
+      "id": "nessa-quinn",
+      "path": "assets/portraits/nessa-quinn-selection.png",
+      "before_sha256": "3ff8ae48d631bd45da301fb61039f0a9cbd234f73c66206ecc8e23b7896d35e0",
+      "installed_sha256": "0f20f96b8185b029534b265d1803006305fdaf0ac927937e24b55fef563bdfc1",
+      "candidate": "candidates/nessa-quinn.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/nessa-quinn.png"
+    },
+    {
+      "id": "otis-bell",
+      "path": "assets/portraits/otis-bell-selection.png",
+      "before_sha256": "4e4a12b9de889058e75b0bf25fbeaccc727d38a9fd4da42babb138812dae416d",
+      "installed_sha256": "4e4a12b9de889058e75b0bf25fbeaccc727d38a9fd4da42babb138812dae416d",
+      "candidate": "candidates/otis-bell.png"
+    },
+    {
+      "id": "owen-pike",
+      "path": "assets/portraits/owen-pike-selection.png",
+      "before_sha256": "718cd26699d98d38444e2eeaf7b4b10789fc0e055e6735811af16c5a63a3331e",
+      "installed_sha256": "8dd1345583b78abd39d5baf22f7075712cb1410c687f4902dbe486bb4aec896e",
+      "candidate": "candidates/owen-pike.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/owen-pike.png"
+    },
+    {
+      "id": "priya-shah",
+      "path": "assets/portraits/priya-shah-selection.png",
+      "before_sha256": "e3f843e9c247b4ec533205faff3e1c943381f299b18b0a8d8255a9feec04ce89",
+      "installed_sha256": "e3f843e9c247b4ec533205faff3e1c943381f299b18b0a8d8255a9feec04ce89",
+      "candidate": "candidates/priya-shah.png"
+    },
+    {
+      "id": "rafe-calder",
+      "path": "assets/portraits/rafe-calder-selection.png",
+      "before_sha256": "490844e7e84ea960066c686f9e8dd3ec21c1313ab373a2e1090e602741af93a6",
+      "installed_sha256": "15ba3e9c172ebd524d90ea2a618c00724b4a9c2cb3d2bc97893cf5f9107ddb53",
+      "candidate": "candidates/rafe-calder.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/rafe-calder.png"
+    },
+    {
+      "id": "ravi-menon",
+      "path": "assets/portraits/ravi-menon-selection.png",
+      "before_sha256": "9700fdc62567f6eb45db08103dc865f552df701c4a90ea79bbb3e65d5ce7be57",
+      "installed_sha256": "e65e3c5b0b633e44b78da5d7c35f094eb44700eb371b7292fe44b0a7db4dd912",
+      "candidate": "candidates/ravi-menon.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/ravi-menon.png"
+    },
+    {
+      "id": "ren-aoki",
+      "path": "assets/portraits/ren-aoki-selection.png",
+      "before_sha256": "9f45474ec44a11eb2f21ff03fc9528949e88db3dadfdac9f95b4bd87150d2c5c",
+      "installed_sha256": "ea0ad785241b2982f9f6ca41477cb2e8a9cb6de612bd88c108a541692e48c192",
+      "candidate": "candidates/ren-aoki.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/ren-aoki.png"
+    },
+    {
+      "id": "rina-vale",
+      "path": "assets/portraits/rina-vale-selection.png",
+      "before_sha256": "d574447c6e0fa0425d662752d1edb536411b418dcde07cdc58d8067783c7828e",
+      "installed_sha256": "5df8c2a8f228379154e198f00b04eb332b960385eb3ef13fc56e25fcf1e60ca7",
+      "candidate": "candidates/rina-vale.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/rina-vale.png"
+    },
+    {
+      "id": "robin-vale",
+      "path": "assets/portraits/robin-vale-selection.png",
+      "before_sha256": "b6a08903733ddba7978caa42777445fcf94bd2e304fc20367f95561fb2974692",
+      "installed_sha256": "e80699813174ce6de11996b9919667c822ae5620e11c401bebf6138a88b7b31e",
+      "candidate": "candidates/robin-vale.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/robin-vale.png"
+    },
+    {
+      "id": "rosa",
+      "path": "assets/portraits/rosa-selection.png",
+      "before_sha256": "10cc7d628a5a5dc192243739fb042064424dde929bf59b5844a44d6f256894b9",
+      "installed_sha256": "07937429e9571ec964efc0688af49ea6a2354a1267f71fd61f554482d791de0b",
+      "candidate": "candidates/rosa.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/rosa.png"
+    },
+    {
+      "id": "samir-dutta",
+      "path": "assets/portraits/samir-dutta-selection.png",
+      "before_sha256": "023bff7a41741c1354ee7be0d18bccec83f7bd632a1046e829aeb83d6aebca49",
+      "installed_sha256": "1f57a3e85535d3c9010086467e33034ae28c8deec5ef1f242a962fe0c69b23aa",
+      "candidate": "candidates/samir-dutta.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/samir-dutta.png"
+    },
+    {
+      "id": "sasha-quinn",
+      "path": "assets/portraits/sasha-quinn-selection.png",
+      "before_sha256": "ac77fd41c988533c0c066cc8f529ed7acc129b8cc22c4f237342f94cfa7509e4",
+      "installed_sha256": "6fdcbbbc316db4304fbda5c9e67bd067cd0da7580e80dde3655cd587a3fb8172",
+      "candidate": "candidates/sasha-quinn.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/sasha-quinn.png"
+    },
+    {
+      "id": "sylvanis",
+      "path": "assets/portraits/sylvanis-selection.png",
+      "before_sha256": "bc41b9a1461a326dc54aef112fc0af3c259a8933f8032748fd95944668e5f501",
+      "installed_sha256": "a2b3a440ad4dc0a1fbf253a3b1c3bb8f6f080df59fee91b047daa29a46f44872",
+      "candidate": "candidates/sylvanis.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/sylvanis.png"
+    },
+    {
+      "id": "takeo",
+      "path": "assets/portraits/takeo-selection.png",
+      "before_sha256": "8b831fd88ea0b0cfade255bbe08aa50aedd9f9d7bfb86d07e9ae48a4fede9bff",
+      "installed_sha256": "e98233b45d721f78a7ec164286e55308a1a8a6717a4e8ec4990dc32a26e8bc04",
+      "candidate": "candidates/takeo.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/takeo.png"
+    },
+    {
+      "id": "tess-morgan",
+      "path": "assets/portraits/tess-morgan-selection.png",
+      "before_sha256": "4cf486508ffc78af332be36d837e73a8255326090e869a7ce58855f5a51092f9",
+      "installed_sha256": "1d65e9ccc6ae523f7b3788f300c5c6d8fe5b24cb5af861caf71ae44e53d6d812",
+      "candidate": "candidates/tess-morgan.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/tess-morgan.png"
+    },
+    {
+      "id": "thirteen",
+      "path": "assets/portraits/thirteen-selection.png",
+      "before_sha256": "fd364b4e013019484e350068ad93c9298f1437ffbf47035b0b8fccaeb03323e1",
+      "installed_sha256": "255ef49d02a7dd2c5f97a94357cdb92216e50954bf18fefd35deabb67a0f5685",
+      "candidate": "candidates/thirteen.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/thirteen.png"
+    },
+    {
+      "id": "tyler",
+      "path": "assets/portraits/tyler-selection.png",
+      "before_sha256": "68ca3ccd03e2695ff52c351a491c52901e0f72d4dc09909cbe73c963a8ce2e46",
+      "installed_sha256": "c718526b24047e688b6a504859d59f9413fa71d3b11c60c56f3dccab5d7eeebe",
+      "candidate": "candidates/tyler.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/tyler.png"
+    },
+    {
+      "id": "valentina",
+      "path": "assets/portraits/valentina-selection.png",
+      "before_sha256": "d4fabfce721b0cd2e84e08ddcc4ffe22a815080428d3b5d2f4b6f64dde566186",
+      "installed_sha256": "978a972fd488124707f933293ca6a9bbbb5159161be16201e5ed096a87eb91f9",
+      "candidate": "candidates/valentina.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/valentina.png"
+    },
+    {
+      "id": "wren-park",
+      "path": "assets/portraits/wren-park-selection.png",
+      "before_sha256": "db25d3d33d04fcf9bd04c663d6ae2e22df3cabb395a0f604125c848ec2772aca",
+      "installed_sha256": "d8ae30baa7cb3b55ff421e3e6c92dbbceacf6312a4347286c15b4ffacebad0d0",
+      "candidate": "candidates/wren-park.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/wren-park.png"
+    },
+    {
+      "id": "guard-affiliate",
+      "path": "assets/portraits/guards/affiliate.png",
+      "before_sha256": "296922bdc05e5bcadeaed3f0a7a4f05288c802ca002aa7b08121e82da92781b7",
+      "installed_sha256": "25e788a04aa5746bda6ee962c8d65be464b29ff3ec903375a492d3a8cc1d1346",
+      "candidate": "candidates/guard-affiliate.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/guard-affiliate.png"
+    },
+    {
+      "id": "guard-clubs",
+      "path": "assets/portraits/guards/clubs.png",
+      "before_sha256": "7b6e1875b1eba047c2a6c25b1543a6a24e81146363a341c663a7f02a7df26e2d",
+      "installed_sha256": "7b6e1875b1eba047c2a6c25b1543a6a24e81146363a341c663a7f02a7df26e2d",
+      "candidate": "candidates/guard-clubs.png"
+    },
+    {
+      "id": "guard-crew_enforcer",
+      "path": "assets/portraits/guards/crew_enforcer.png",
+      "before_sha256": "808a99de35543ec48b8281d4fa68cda43acfb0b0d3e2e3d5cf38a0acf1732d81",
+      "installed_sha256": "eb675e450b7eae896a70cc59035bc24e9e7ab4a38427a89da02f716125993983",
+      "candidate": "candidates/guard-crew_enforcer.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/guard-crew_enforcer.png"
+    },
+    {
+      "id": "guard-custom_awakened",
+      "path": "assets/portraits/guards/custom_awakened.png",
+      "before_sha256": "4235cbfa63d2e49c0eaf6505d15ef2f8823e0139b98b28a3b0bda8e543cae046",
+      "installed_sha256": "b477aed5317efd28681230cdb32e074decaf4457ba59a9275e3c43a6af8672cc",
+      "candidate": "candidates/guard-custom_awakened.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/guard-custom_awakened.png"
+    },
+    {
+      "id": "guard-custom_robotic",
+      "path": "assets/portraits/guards/custom_robotic.png",
+      "before_sha256": "70b0501922063abcbdeb787b985210e6ae842ec1a579fa7b21f20b72d4181d3d",
+      "installed_sha256": "61e8e41a281ec266ba5c9a7cfd8efad1d58a5722ba4b32b1f971c26ee0190ca2",
+      "candidate": "candidates/guard-custom_robotic.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/guard-custom_robotic.png"
+    },
+    {
+      "id": "guard-custom_unawakened",
+      "path": "assets/portraits/guards/custom_unawakened.png",
+      "before_sha256": "ead57664a6f379e2359de288d272d4d37d0faa8e99d8211483b60ba4ff632b1d",
+      "installed_sha256": "23614395cf586389fe6b32d60529f25d79ca64b64250f066b16220d030f7be5f",
+      "candidate": "candidates/guard-custom_unawakened.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/guard-custom_unawakened.png"
+    },
+    {
+      "id": "guard-headhunter",
+      "path": "assets/portraits/guards/headhunter.png",
+      "before_sha256": "62bac4012af1188d6c51d1eef1d033cd88b47930ec68013e4e6a1da37cdcd4d1",
+      "installed_sha256": "b0a69cde80445ea1b5a0c309cc35c0fa7a8460be5e7fbb87be507fb8f8ba2b1d",
+      "candidate": "candidates/guard-headhunter.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/guard-headhunter.png"
+    },
+    {
+      "id": "guard-interpol",
+      "path": "assets/portraits/guards/interpol.png",
+      "before_sha256": "15cc1c0dec4b946e8f5598ebd80a1fd05c988f5b837644e9230bb1be3159e3ff",
+      "installed_sha256": "2199beb9dee2068cedaedc8f52c41155b91d766cc8458ed769c355ac79edc8f8",
+      "candidate": "candidates/guard-interpol.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/guard-interpol.png"
+    },
+    {
+      "id": "guard-kai_guard",
+      "path": "assets/portraits/guards/kai_guard.png",
+      "before_sha256": "a73d0ea77f9c7531d85e3bc8c432912ed13dc514eab828cdbcde4a33d9b2c7a9",
+      "installed_sha256": "5e579af9dd739b7bafc7b92c861c90f0925ae641d1fc372bca419c14489be852",
+      "candidate": "candidates/guard-kai_guard.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/guard-kai_guard.png"
+    },
+    {
+      "id": "guard-kai_sentinel",
+      "path": "assets/portraits/guards/kai_sentinel.png",
+      "before_sha256": "feb6ecde1ab00255eda7ddca7e86fbd246509b777ae97860f2766ec00b9bf384",
+      "installed_sha256": "09e535221e662c7a4ca5f74fdd8f3ae61e020546693d4eefd91d669b42c2466d",
+      "candidate": "candidates/guard-kai_sentinel.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/guard-kai_sentinel.png"
+    },
+    {
+      "id": "guard-lookout",
+      "path": "assets/portraits/guards/lookout.png",
+      "before_sha256": "37447ebe57f2942d12acb5f3b382df6aed453fb67eb3fd5c3bc6359c8cee7fcb",
+      "installed_sha256": "f46218c0a0b260ea9579c98c082126f473f3f6d062ad4a980f3a72ea880f8d69",
+      "candidate": "candidates/guard-lookout.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/guard-lookout.png"
+    },
+    {
+      "id": "guard-oni",
+      "path": "assets/portraits/guards/oni.png",
+      "before_sha256": "3d060a371823ec108f657b2bf5448616d3dc9e88341b8396cd16ba7224323d4a",
+      "installed_sha256": "ccb559e9435ae2c954839104ace4a49ae1d56cbead8a1bb0f24586c4f6d5e3ec",
+      "candidate": "candidates/guard-oni.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/guard-oni.png"
+    },
+    {
+      "id": "guard-pmc",
+      "path": "assets/portraits/guards/pmc.png",
+      "before_sha256": "eb7029d10ce42b150db6ab3a9bf2874c60865cd2beb10a214f3781fde2002416",
+      "installed_sha256": "f52cb58416ec468d2a958eef3823fa1cda1b5be115910b42d1e6d883f47eb700",
+      "candidate": "candidates/guard-pmc.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/guard-pmc.png"
+    },
+    {
+      "id": "guard-seeker",
+      "path": "assets/portraits/guards/seeker.png",
+      "before_sha256": "558de67ce07cab9663ee3f92589de55caf5d8bd54dceb333a2a770044124a122",
+      "installed_sha256": "dc12b7331331c2e3ed27db9becda1c4f580b19cade7239ece9c47df4d6517482",
+      "candidate": "candidates/guard-seeker.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/guard-seeker.png"
+    },
+    {
+      "id": "guard-spades",
+      "path": "assets/portraits/guards/spades.png",
+      "before_sha256": "80d7ad5fba3c48173207e1ad92723aa762f82d169c0b4c23fde10d1cf0f4033e",
+      "installed_sha256": "4b1fb0c9b6eac09d449ea6ec6621b4852b655c5c6015874ed6988082f9c1b873",
+      "candidate": "candidates/guard-spades.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/guard-spades.png"
+    },
+    {
+      "id": "guard-team9",
+      "path": "assets/portraits/guards/team9.png",
+      "before_sha256": "2c2b41017ffaebd90a7dfaad41f309c8e1b53a7ac642f929c68aee2c79492eaf",
+      "installed_sha256": "afb2f8354c61e980927543d96d590058e2362deb7b3f0c03d153397b52f37d9e",
+      "candidate": "candidates/guard-team9.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/guard-team9.png"
+    },
+    {
+      "id": "guard-tengu",
+      "path": "assets/portraits/guards/tengu.png",
+      "before_sha256": "fa06cd71911833abea8dfa8bd2e339d81408edd378a263ac293b10d9dd877c15",
+      "installed_sha256": "e63abddfd3a45a5cf13bf5e0696856671e00ec3ccd0d2320a1b61ebd2e2c1274",
+      "candidate": "candidates/guard-tengu.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/guard-tengu.png"
+    },
+    {
+      "id": "guard-yokai",
+      "path": "assets/portraits/guards/yokai.png",
+      "before_sha256": "e624957d57b3c1ac0a21883393ed7537574b560dada7d64bd286715224fa04dd",
+      "installed_sha256": "befa2efe49d71fcc46f2b469d2dc53865408f524f2badec106c313ab62b4267e",
+      "candidate": "candidates/guard-yokai.png",
+      "backup": "roadmap/artwork-stage-02/height-review/before-install/guard-yokai.png"
+    }
+  ]
+}

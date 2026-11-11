@@ -12,10 +12,10 @@ BOUNDARY = ('Private case facts come only from saved Interpol evidence and discl
     'fines, warrants, discoveries, arrests, victories or identity reveals in conversation. Interpol is a legal '
     'organisation, not a gang. Geneva remains global headquarters; this deployment is to Winterfield regional '
     'headquarters. Nine Awakened squads exist; Gordon leads Team 9. The source story is not a predetermined future. '
-    'Both are adult major characters with platonic relationships; ages, heights, birthdays and romantic orientations '
+    'Both are adult major characters with platonic relationships; heights, birthdays and romantic orientations '
     'are unspecified. Home addresses require personal discovery. Phone portraits do not disclose live locations.')
 CAST = {
-    'fox': dict(name='Edward Fox', role='friend', height='Unspecified', age='Adult', mbti='Unspecified', birthday='Unknown',
+    'fox': dict(name='Edward Fox', role='friend', height='Unspecified', age=36, mbti='Unspecified', birthday='Unknown',
         occupation='Licensed vigilante · Interpol associate', attraction=0,
         area='blackhaven', area_name=LOCATIONS['blackhaven'], activity='Patrolling Blackhaven and checking physical leads',
         home='Fox’s Blackhaven hideout', interior='A converted workshop with dark brick walls, repaired furniture, a kettle, field equipment and a private evidence desk.',
@@ -26,7 +26,7 @@ CAST = {
         personality='A hardened, cynical vigilante and former mercenary with a deeply negative view of crime. Blunt, watchful and practical; dry humour cuts through excuses. He distrusts institutions but respects Gordon’s competence. He helps through action, not reassuring speeches. His impatience and willingness to use force create friction with procedure. Quiet ordinary moments remain possible; he does not threaten everyone he meets.',
         texting_style='Short direct sentences, dry understatement and rare punctuation flourishes. No performative threats, emoji chains or automatic flirting.',
         followup='Still around. Leave the details if it matters.'),
-    'gordon': dict(name='Jeremy Gordon', role='friend', height='Unspecified', age='Adult', mbti='Unspecified', birthday='Unknown',
+    'gordon': dict(name='Jeremy Gordon', role='friend', height='Unspecified', age=31, mbti='Unspecified', birthday='Unknown',
         occupation='Interpol premier operative · Team 9 leader', attraction=0,
         area='interpol_hq', area_name='Interpol Regional Headquarters', activity='Reviewing reports and receiving witnesses',
         home='Gordon’s Civic Court apartment', interior='An orderly apartment a short walk from regional headquarters, with a small kitchen, books, a uniform locker and a quiet reading chair.',
@@ -46,7 +46,7 @@ TRAIT_LORE = {
 
 def profile(who):
     p = CAST[who]
-    return p['name'] + ' · Main character · Adult\n' + p['occupation'] + '\n' + p['appearance']
+    return p['name'] + f" · Main character · {p['age']} years\n" + p['occupation'] + '\n' + p['appearance']
 
 
 def reference(who):

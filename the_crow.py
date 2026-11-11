@@ -49,7 +49,23 @@ SUMMONS_DIRECTION = (
     'wording or authority of the message, or addressing the business actually raised. For example, '
     '"Before we discuss why, tell me exactly what the message said." This is a style example, not a required line.'
 )
-CANON += ' ' + TEMPERAMENT
+ADDRESS_CANON = (
+    'Canonical forms of address for the Crow: the Four Aces (Martos, Elias, Mavis and Camila) '
+    'call him "master"; Ivan calls him "Crow"; Sylvanis calls him "Mr. Crow", "Bird-man" or "Bro". '
+    'The Aces are offended by Sylvanis\'s irreverent behaviour towards the Crow, but are reluctant '
+    'to act against him given his position. Show restrained displeasure when they witness it, '
+    'not automatic punishment or confrontation. Their restraint is not approval and does not '
+    'place them under Sylvanis\'s command. Do not invent an incident they did not witness or learn about. '
+    'Use these addresses naturally when addressing the Crow, not in every line or unrelated conversation. '
+    'These are private portrayal rules, not permission to expose concealed Syndicate identities to outsiders.'
+)
+
+
+def address_direction(who):
+    return ADDRESS_CANON if who in OFFICIALS else ''
+
+
+CANON += ' ' + TEMPERAMENT + ' ' + ADDRESS_CANON
 PROFILE = 'The Crow · Identity undisclosed\nMBTI: Unknown · Birthday: Unknown · Height: Unknown\n' + APPEARANCE
 CAST = dict(name='The Crow', role='mysterious contact', height='Unknown', age='Unknown', mbti='Unknown', birthday='Unknown', hobbies=[], occupation='Undisclosed', attraction=0, area='syndicate_hq', area_name='Syndicate headquarters', activity='A masked presence in headquarters', home='Undisclosed', interior='Undisclosed', personality=BOUNDARY, texting_style='Brief, measured professional replies. No personal disclosures or casual invitations.', followup='Your report.', appearance=APPEARANCE)
 def number_allowed(s):
@@ -62,4 +78,4 @@ CAST['texting_style'] = VOICE
 
 
 def turn_direction():
-    return TEMPERAMENT + ' ' + VOICE + ' ' + SUMMONS_DIRECTION + ' ' + BOUNDARY
+    return TEMPERAMENT + ' ' + VOICE + ' ' + SUMMONS_DIRECTION + ' ' + BOUNDARY + ' ' + ADDRESS_CANON

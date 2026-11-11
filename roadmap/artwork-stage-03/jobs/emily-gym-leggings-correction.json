@@ -1,0 +1,8 @@
+{
+  "id": "emily-gym",
+  "prompt": "Edit this exact image. Correct ONLY the charcoal and lavender lower garment: these must be FULL-LENGTH LEGGINGS, not cycling shorts. Keep the present body and picture crop exactly. Continue the charcoal fabric and lavender side stripes over the small bare-thigh strip at the very bottom so the fabric reaches the bottom picture cutoff. Remove the horizontal shorts hem; there must be NO finished hem and NO bare skin below the leggings in this cropped image. Do not extend the image, zoom out, reveal knees or add legs. Keep face, glasses, hair, top, hands, pose and all anatomy unchanged. Same 1024x1536 transparent RGBA, true mid-thigh crop with lower thighs and legs off-image. No backdrop or shadow.",
+  "referenced_image_paths": [
+    "C:/Users/ryanl/Documents/Mysterious Hearts/roadmap/artwork-stage-03/candidates/emily-gym.png"
+  ],
+  "transparent_background": true
+}

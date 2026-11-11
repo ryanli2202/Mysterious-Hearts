@@ -39,9 +39,9 @@ for suit,(who,venue,title,finding,trait) in ACE_LINES.items():
         brief='Corroborate one coded specialist’s role. A public job or a familiar face alone proves nothing.',
         steps=[
             step('Obtain the relevant original record', 'archive', 'The archived original establishes dates and a signature for the '+suit+' enquiry.', 'records'),
-            step('Corroborate the field handover', venue, finding, sensory='Fox matches a previously recorded movement and scent trace; independent observation is still required.'),
+            step('Corroborate and reveal the Ace', venue, finding, 'reveal', sensory='Fox matches a previously recorded movement and scent trace; independent observation is still required.'),
             step('Confront the masked specialist', venue, 'The operation secures a direct observation and matching operational material.', 'combat', enemy='Masked '+suit.title()+' specialist', opponent=who),
-            step('Verify the identity connection', 'interpol_briefing', 'Evidence and the recorded field encounter are reconciled before this identity is disclosed to the investigation team.', 'reveal')])
+            step('Review the defeated Ace’s command record', 'interpol_briefing', 'The previously corroborated identity, the victory and the recovered command material are entered together. The specialist was defeated in this operation; this does not destroy the Suit or imply permanent custody.', 'reveal')])
 
 CASES['crow_trail'] = dict(title='The Cardmaster’s command trail',
     requires=tuple('ace_'+s for s in ACE_LINES), faction='syndicate', district='waterfront',
@@ -52,15 +52,30 @@ CASES['crow_trail'] = dict(title='The Cardmaster’s command trail',
         step('Stop the command courier', 'syndicate_office', 'The courier is stopped with an authenticated summons to the underground command site.', 'combat', enemy='Cardmaster’s courier', power=80),
         step('Approve a scoped headquarters operation', 'interpol_briefing', 'The summons, timing and prior records establish the Crow’s command location. Temporary case-specific entry is authorised.', 'locate')])
 CASES['crow_operation'] = dict(title='Operation Night Ledger', requires=('crow_trail',), faction='syndicate', district='waterfront',
-    brief='Reach the located command site, confront the Crow and secure his operational records. His birth identity remains unconfirmed.',
+    brief='Enter the located headquarters, find the Crow and attempt containment. This story confrontation ends in defeat; the final objectives address survival and the ongoing fight. His birth identity remains unconfirmed.',
     steps=[
         step('Brief the containment plan', 'interpol_briefing', 'The team agrees an entry route, witness protection and a nonlethal containment objective.', 'review'),
         step('Verify the command entrance', 'syndicate_hq', 'The authenticated summons matches the physical command entrance and current deployment.'),
-        step('Confront the Crow', 'syndicate_hq', 'The Crow is defeated in this operation; the team secures the command records.', 'combat', enemy='The Crow', opponent='crow'),
-        step('Secure the regional case', 'interpol_containment', 'The operation secures the located Cardmaster and his command records for regional custody. His legal identity and the wider Syndicate remain unresolved; no source-story massacre is forced.', 'close')])
+        step('Confront the Crow', 'syndicate_hq', 'The Crow breaks the containment attempt and defeats the field team. Fox keeps the withdrawal route in sight while Gordon covers the retreat. They retain the evidence copied before entry, but obtain neither custody nor a new command archive. The Crow remains at headquarters; his birth identity is unknown.', 'combat', enemy='The Crow', opponent='crow', scripted_outcome='crow_defeat'),
+        step('Account for the living', 'interpol_containment', 'At the recovery station, Gordon counts the returning team rather than suspects in cells. Fox asks him to stop saying the plan almost worked. Gordon records it plainly: the Crow defeated them. The witnesses were not taken on the raid and remain protected. No arrest, civilian massacre or new identity is invented.', 'review'),
+        step('Name what the defeat did not erase', 'interpol_briefing', 'Fox lays out four completed files: Martos Cabrera, Ace of Clubs; Elias Braun, Ace of Hearts; Camila Lopez, Ace of Diamonds; Mavis Kuro, Ace of Spades. Each connection was independently established and each specialist was defeated in the field. Those victories did not make the Crow beatable. The HQ location remains verified; a known address is not control of the organisation.', 'review'),
+        step('Return to the people behind the case', 'blackhaven', 'The team checks the protected contact route from the first case. Gordon asks what the residents need now, rather than asking them to celebrate the raid. Fox stays at the exit while a shopkeeper closes without paying the old collector. A local victory is real even when the organisation behind it survives.', 'interview'),
+        step('Accept the unfinished fight', 'interpol_briefing', 'Fox admits he wanted one final target to make the street safe. Gordon accepts responsibility for treating a successful investigation as proof that the team could win the confrontation. Neither offers a promise of a decisive rematch. They commit to witness protection, disrupting specific operations and sharing only verified evidence. The Aces are exposed to the investigation team, HQ is found, and the Crow has been faced and survived. This campaign is complete; the fight against the Syndicate will be ongoing. Repeatable protection and interception operations remain available from the public desk.', 'ongoing')])
 
 OPERATIONS = {
     'patrol': dict(title='Blackhaven witness-protection patrol', venue='blackhaven', faction='lantern', district='blackhaven', enemy='Witness intimidator', power=40),
     'intercept': dict(title='Depot consignment interception', venue='site_02', faction='shinokami', district='west', enemy='Armed consignment escort', power=60),
     'protect': dict(title='Waterfront witness extraction', venue='syndicate_office', faction='syndicate', district='waterfront', enemy='Syndicate interception team', power=70),
 }
+
+OPERATIONS.update({
+ 'syndicate_witness': dict(title='After Night Ledger · protect a threatened witness',venue='blackhaven',faction='syndicate',district='blackhaven',enemy='Syndicate witness-removal specialist',power=76,post_story=True,
+    brief='A willing witness reports a fresh Syndicate threat. The team protects their departure without exposing the protected contact network.',
+    finding='The witness reaches a protected contact. This removal attempt is stopped; the Crow’s saved status and the wider Syndicate remain unchanged.'),
+ 'syndicate_supply': dict(title='After Night Ledger · interrupt an armed supply run',venue='syndicate_office',faction='syndicate',district='waterfront',enemy='Syndicate supply-run commander',power=82,post_story=True,
+    brief='Verified freight records identify a new armed Syndicate supply run. Intercept the specific shipment and preserve its records.',
+    finding='The identified supply run is interrupted and its records secured. A local operation is disrupted, not the Syndicate itself; this is not a Crow rematch.'),
+ 'syndicate_coercion': dict(title='After Night Ledger · break a collection detail',venue='market',faction='syndicate',district='central',enemy='Syndicate coercion detail leader',power=72,post_story=True,
+    brief='Consenting traders provide matching demands from a new Syndicate collection detail. Stop the armed collectors and protect the traders.',
+    finding='The documented collection attempt is stopped. Traders retain their property and protected reporting route. The team accepts that further Syndicate operations will require continued work.'),
+})

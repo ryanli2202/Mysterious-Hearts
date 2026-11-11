@@ -1,0 +1,26 @@
+test_album_is_save_scoped_dated_and_snapshot_is_stable (test_camera.CameraTests.test_album_is_save_scoped_dated_and_snapshot_is_stable) ... ok
+test_custom_outfits_and_reference_identity (test_camera.CameraTests.test_custom_outfits_and_reference_identity) ... ok
+test_custom_selections_persist_and_reach_photo_prompt (test_camera.CameraTests.test_custom_selections_persist_and_reach_photo_prompt) ... ok
+test_delivered_food_enables_activity_photo (test_camera.CameraTests.test_delivered_food_enables_activity_photo) ... ok
+test_edit_delete_custom_presets_updates_active_choices (test_camera.CameraTests.test_edit_delete_custom_presets_updates_active_choices) ... ok
+test_group_only_with_present_hangout_members (test_camera.CameraTests.test_group_only_with_present_hangout_members) ... ok
+test_local_date_partner_can_join_photo (test_camera.CameraTests.test_local_date_partner_can_join_photo) ... FAIL
+test_location_modes_and_activity_gating (test_camera.CameraTests.test_location_modes_and_activity_gating) ... ok
+test_recent_activity_expires_and_does_not_follow_player (test_camera.CameraTests.test_recent_activity_expires_and_does_not_follow_player) ... ok
+test_reference_args_keep_subscription_lock (test_camera.CameraTests.test_reference_args_keep_subscription_lock) ... ok
+test_romance_poses_only_for_present_partners (test_camera.CameraTests.test_romance_poses_only_for_present_partners) ... ok
+test_saved_outfits_and_bedroom_access (test_camera.CameraTests.test_saved_outfits_and_bedroom_access) ... ok
+test_studio_portrait_options_are_location_gated (test_camera.CameraTests.test_studio_portrait_options_are_location_gated) ... ok
+
+======================================================================
+FAIL: test_local_date_partner_can_join_photo (test_camera.CameraTests.test_local_date_partner_can_join_photo)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\ryanl\Documents\Mysterious Hearts\tests\test_camera.py", line 89, in test_local_date_partner_can_join_photo
+    self.assertIn('Theo', context['companions'])
+AssertionError: 'Theo' not found in []
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.323s
+
+FAILED (failures=1)

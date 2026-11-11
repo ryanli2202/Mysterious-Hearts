@@ -10,6 +10,20 @@ import town
 
 
 class ConversationLoreTests(unittest.TestCase):
+    def test_crow_addresses_and_aces_restraint_reach_dialogue_guidance(self):
+        import the_crow
+        s = core.fresh('ivan')
+        for who in the_crow.OFFICIALS:
+            with self.subTest(who=who):
+                reference = lore.speaker_reference(who, ['crow', 'sylvanis'], 0, 'Bro', s)
+                self.assertEqual(reference['Private Crow address and deference canon'], the_crow.ADDRESS_CANON)
+                focus = lore.turn_focus(s, who, ['crow', 'sylvanis'], 0, 'Bro')
+                for phrase in ('"master"', '"Crow"', '"Mr. Crow"', '"Bird-man"', '"Bro"',
+                               'reluctant', 'given his position', 'not approval', 'concealed Syndicate identities'):
+                    self.assertIn(phrase, focus)
+        self.assertNotIn('Private Crow address and deference canon',
+                         lore.speaker_reference('emily', ['ivan'], 0, '', s))
+
     def test_charles_news_matters_at_low_trust_and_in_pronoun_followups(self):
         s = core.fresh('ivan')
         s['active'] = 'garrett'

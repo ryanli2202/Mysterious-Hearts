@@ -1,0 +1,1 @@
+{"type": "object", "properties": {"status": {"type": "string", "enum": ["complete", "failed"]}, "path": {"type": "string"}, "error": {"type": "string"}}, "required": ["status", "path", "error"], "additionalProperties": false}

@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "id": "bb79025b681a4acb8f89c1aae8aa84bf",
+  "generation": 0,
+  "current": {},
+  "autosave": {
+    "snapshot": {
+      "origin": {
+        "version": 1,
+        "experience": "Newcomer",
+        "job": null,
+        "job_rank": 0,
+        "crime": "Clean slate",
+        "organisation": null,
+        "arts": [],
+        "moves": []
+      },
+      "values": {
+        "name": "",
+        "gender": "Woman",
+        "age": "25",
+        "height": "170",
+        "sexuality": "Bisexual",
+        "hairstyle": "Medium length",
+        "mbti": "INFP",
+        "occupation": "",
+        "interests": "",
+        "home": "vacant_downtown_home",
+        "awakening_trait": ""
+      },
+      "home_choice": "Vacant downtown apartment",
+      "creator_step": "Identity & Appearance",
+      "edit_profile_id": null,
+      "edit_profile_baseline": null,
+      "appearance": "",
+      "awakened": false,
+      "awakening_description": "",
+      "extra": {
+        "preferred_name": "",
+        "pronunciation": "",
+        "hometown": "",
+        "biography": "",
+        "motivation": "",
+        "private_history": ""
+      },
+      "portrait": null,
+      "generated_signature": null,
+      "trait_signature": null,
+      "trait_amplifications": [],
+      "trait_reviewed": false,
+      "step": 0.46183699870633893
+    },
+    "at": "2026-11-10T05:47:22+00:00",
+    "generation": 0
+  },
+  "revisions": [],
+  "ideas": [],
+  "locks": [],
+  "updated": "2026-11-10T05:47:22+00:00"
+}

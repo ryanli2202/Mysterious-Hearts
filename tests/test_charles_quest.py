@@ -6,9 +6,24 @@ import unittest
 import game_core as core
 import charles_quest as quest
 import town,hidden_cast,phone_numbers,criminal_dynamics,groups,messaging
+import combat, organisation_guards
+
+def clear_security(s):
+    step=quest.read(s)['step']
+    if step in quest.garrett_chapters.BATTLES:
+        while quest.garrett_chapters.remaining(s,step):
+            quest.security_action(s);combat.finish(s,'Victory — civilian detail defeated');combat.close(s)
+        return
+    if step not in (6,9):return
+    venue=quest.STEPS[step][1]
+    while organisation_guards.remaining(s,venue,'charles:search'):
+        quest.security_action(s);combat.finish(s,'Victory — guard defeated');combat.close(s)
+    if step==9:
+        quest.security_action(s);combat.finish(s,'Victory — Charles defeated');combat.close(s)
 
 
 def arrive(s,index,day=None):
+    __import__('flashback_helpers').finish_memories(s)
     s['world']['minute']=(day if day is not None else index+2)*1440+20*60
     place=quest.STEPS[index][1]
     s['world']['location']=place
@@ -24,7 +39,7 @@ class CharlesQuestTests(unittest.TestCase):
             s=core.fresh('garrett')
             self.assertFalse(criminal_dynamics.lab_access('garrett',s))
             for i in range(len(quest.STEPS)):
-                arrive(s,i);quest.advance(s,ending if i==10 else 0)
+                arrive(s,i);clear_security(s);quest.advance(s,ending if i==10 else 0)
                 with tempfile.TemporaryDirectory(dir=core.ROOT/'.test-tmp') as folder:
                     p=Path(folder)/'quest.json';core.save(s,p);s=core.load(p)
                 if i<8:self.assertFalse(criminal_dynamics.lab_access('garrett',s))
@@ -67,7 +82,7 @@ class CharlesQuestTests(unittest.TestCase):
         before=copy.deepcopy(s)
         with self.assertRaises(ValueError):quest.advance(s,0)
         self.assertEqual(before,s)
-        s['world']['cast']['ivan']['location']='square';quest.advance(s,0)
+        s['world']['cast']['ivan']['location']='square';clear_security(s);quest.advance(s,0)
         self.assertTrue(quest.reunited(s))
         s['player']='ivan'
         self.assertFalse(quest.reunited(s));self.assertFalse(quest.guest(s,'garrett'))
@@ -80,6 +95,8 @@ class CharlesQuestTests(unittest.TestCase):
         quest.recognise(s)
         self.assertEqual(quest.read(s)['step'],9)
         self.assertEqual(len(quest.read(s)['evidence']),1)
+        __import__('flashback_helpers').finish_memories(s)
+        clear_security(s)
         quest.advance(s,0)
         self.assertTrue(quest.reunited(s))
 

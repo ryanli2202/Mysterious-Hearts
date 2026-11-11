@@ -24,13 +24,15 @@ with patch.object(game.Game, 'check'), patch.object(game.Game, 'begin_incoming')
     screen.begin.invoke(); start.assert_called_once_with('gordon')
     screen.change_page(1); assert screen.selected == 'garrett'
     screen.change_page(-1); assert screen.selected == 'mavis'
-    for size, who in [('1220x940','rei'), ('1000x800','garrett')]:
+    for size, who in [('1220x940','rei'), ('1000x800','garrett'),
+                      ('1000x800','daniel'), ('1000x800','neo'),
+                      ('1000x800','sylvanis'), ('1220x940','celeste')]:
         app.geometry(size); screen.select(who); app.update()
         screen.preview.render(); app.update()
         for widget in [screen.begin, screen.sound, *[w for w in screen.choices.values() if w.winfo_ismapped()]]:
             assert widget.winfo_ismapped()
             assert widget.winfo_rooty()+widget.winfo_height() <= app.winfo_rooty()+app.winfo_height()
-        ImageGrab.grab(window=app.winfo_id()).save(out/f'start-{size}.png')
+        ImageGrab.grab(window=app.winfo_id()).save(out/f'start-{who}-{size}.png')
     assert not errors, errors
     import custom_library
     from test_custom_protagonist import PROFILE

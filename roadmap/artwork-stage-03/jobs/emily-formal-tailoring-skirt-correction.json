@@ -1,0 +1,8 @@
+{
+  "id": "emily-formal-tailoring",
+  "prompt": "Edit this exact image of Emily in the ivory formal jacket. Correct ONLY the lower garment: it must be an IVORY PLEATED SKIRT, not shorts or trousers. Draw one continuous A-line skirt with clear elegant vertical pleats, uninterrupted fabric across the front and a single gently curved hem. Remove the trouser fly, crotch seam, central notch and all separate leg openings. The continuous hem sits at the existing garment's lower edge, with the same short sliver of connected upper thighs visible beneath it. Keep head, face, glasses, detailed hair, silver cross necklace, ivory blazer, mauve satin camisole, hands, pose, stature and composition unchanged. Keep the same 1024x1536 transparent RGBA canvas and existing head-to-mid-thigh picture crop. Lower thighs, knees, lower legs and feet remain OUTSIDE the frame. Do not extend the body or zoom out. Keep genuine transparency around the character, no backdrop or shadow.",
+  "referenced_image_paths": [
+    "C:/Users/ryanl/Documents/Mysterious Hearts/roadmap/artwork-stage-03/candidates/emily-formal-tailoring.png"
+  ],
+  "transparent_background": true
+}

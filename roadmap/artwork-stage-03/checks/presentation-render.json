@@ -1,0 +1,28 @@
+{
+  "scope": "146 staged wardrobe paths via real portrait loader; fixture outfits via original resolver; no installation/save writes",
+  "rendered_assets": 146,
+  "screenshots": [
+    "loader-wardrobes-01.png",
+    "loader-wardrobes-02.png",
+    "loader-wardrobes-03.png",
+    "loader-wardrobes-04.png",
+    "loader-wardrobes-05.png",
+    "loader-wardrobes-06.png",
+    "loader-wardrobes-07.png",
+    "loader-wardrobes-08.png",
+    "loader-wardrobes-09.png",
+    "loader-wardrobes-10.png",
+    "loader-wardrobes-11.png",
+    "loader-wardrobes-12.png",
+    "loader-wardrobes-13.png",
+    "solo-1280x900.png",
+    "solo-1000x800.png",
+    "group-1280x900.png",
+    "group-1000x800.png",
+    "phone-minsu-sleep.png",
+    "phone-emily-formal-tailoring.png",
+    "phone-samantha-beach-black-bikini.png"
+  ],
+  "callback_errors": [],
+  "visual_review": "Passed: all thirteen normal/compact loader gallery screenshots inspected, plus both solo/group sizes and all three dark-phone correction previews. Master faces, crop, relative stature, complete visible hands and transparent edges remain readable. Normal 1280x900 window capture can include an outer desktop strip below the client on this display; client art/layout is intact."
+}

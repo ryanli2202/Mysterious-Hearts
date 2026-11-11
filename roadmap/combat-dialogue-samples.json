@@ -1,0 +1,29 @@
+[
+  {
+    "player": "garrett",
+    "who": "rei",
+    "kind": "spar",
+    "art": null,
+    "player_line": "Rei, fancy a friendly spar? Nice and easy—let’s keep each other sharp.",
+    "dialogue": "Sure, Garrett. Light contact, and either of us can call a stop. I’d like to keep that friendly part.",
+    "accepted": true
+  },
+  {
+    "player": "daniel",
+    "who": "rei",
+    "kind": "learn",
+    "art": "Judo",
+    "player_line": "Rei, would you be willing to teach me Judo? I'd like to sharpen my technique.",
+    "dialogue": "Sure. I can give you thirty minutes on Judo. Let’s start with your stance and balance, then see what needs adjusting. No throws on hard ground.",
+    "accepted": true
+  },
+  {
+    "player": "neo",
+    "who": "rei",
+    "kind": "challenge",
+    "art": null,
+    "player_line": "Rei, are you up for a fight?",
+    "dialogue": "All right. A fight, then. Keep clear of the people walking through.",
+    "accepted": true
+  }
+]

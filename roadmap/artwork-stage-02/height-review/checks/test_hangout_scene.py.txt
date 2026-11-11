@@ -1,0 +1,11 @@
+test_actions_are_narration_and_pending_replies_are_immediate (test_hangout_scene.HangoutSceneTests.test_actions_are_narration_and_pending_replies_are_immediate) ... ok
+test_continuation_replaces_old_response_and_player_bubble (test_hangout_scene.HangoutSceneTests.test_continuation_replaces_old_response_and_player_bubble) ... ok
+test_latest_exchange_keeps_speaker_order_and_player (test_hangout_scene.HangoutSceneTests.test_latest_exchange_keeps_speaker_order_and_player) ... ok
+test_legacy_prefixed_action_is_narration (test_hangout_scene.HangoutSceneTests.test_legacy_prefixed_action_is_narration) ... ok
+test_new_session_never_replays_previous_hangout_or_phone_text (test_hangout_scene.HangoutSceneTests.test_new_session_never_replays_previous_hangout_or_phone_text) ... ok
+test_paging_preserves_all_text_even_unbroken_unicode (test_hangout_scene.HangoutSceneTests.test_paging_preserves_all_text_even_unbroken_unicode) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.035s
+
+OK

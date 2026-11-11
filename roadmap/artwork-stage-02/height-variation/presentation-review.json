@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-11",
+  "accepted": true,
+  "reviewed": [
+    "Updated loader gallery 04 (Fox/Gordon and male/female fallback variation)",
+    "Oni combat at 1000x800",
+    "Custom Robotic combat at 1280x900",
+    "Compact group retains original Ivan/Garrett/Rei/Emily heights",
+    "Wardrobe RGBA on dark phone surface",
+    "Current phone dark control-state composite"
+  ],
+  "findings": "Updated portraits retain whole heads/hands and clean crop edges. Oni and Custom Robotic are slightly taller than Ivan at 198 vs 193 cm; robot gear and action controls fit. Existing aspect-preserving mid-thigh presentation is retained."
+}

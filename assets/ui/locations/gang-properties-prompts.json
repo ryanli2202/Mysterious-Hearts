@@ -1,0 +1,28 @@
+{
+  "images": [
+    {
+      "id": "crew_lot_west",
+      "path": "assets/ui/locations/crew_lot_west.png",
+      "generator": "Built-in image_gen",
+      "prompt": "Create one finished landscape game location background, 1536x1024 composition, for Mysterious Hearts, a contemporary illustrated manhwa visual novel set in Winterfield. A vacant west-district repair workshop: low red-brick industrial building, broad steel rolling door, tall factory windows, fenced side yard, weathered loading canopy, weeds at the edge of a clean empty forecourt. Polished hand-painted anime architectural environment, precise clean linework, softly shaded rich materials, cinematic natural daylight, dark slate and warm brick tones with restrained colored accents. Eye-level three-quarter view, building in middle distance, wide clear foreground for two full-height character portrait overlays and dialogue bubbles. No people, no vehicles in the foreground, no signage lettering, no UI, no logo, no watermark. Standalone full-bleed environment, not a collage or concept sheet. The building is available for purchase and can later serve as a gang property, but do not depict weapons or crime activity."
+    },
+    {
+      "id": "crew_lot_docks",
+      "path": "assets/ui/locations/crew_lot_docks.png",
+      "generator": "Built-in image_gen",
+      "prompt": "Create one finished landscape game location background, 1536x1024 composition, for Mysterious Hearts, a contemporary illustrated manhwa visual novel set in Winterfield. A vacant dock warehouse: tall corrugated steel warehouse with brick lower walls, broad cargo doors, concrete loading apron, distant cranes and harbour water, a modest fenced yard. Clearly distinct from a small garage. Polished hand-painted anime architectural environment, precise clean linework, softly shaded rich materials, cinematic natural daylight, dark slate and warm brick tones with restrained colored accents. Eye-level three-quarter view, building in middle distance, wide clear foreground for two full-height character portrait overlays and dialogue bubbles. No people, no vehicles in the foreground, no signage lettering, no UI, no logo, no watermark. Standalone full-bleed environment, not a collage or concept sheet. The building is available for purchase and can later serve as a gang property, but do not depict weapons or crime activity."
+    },
+    {
+      "id": "crew_lot_north",
+      "path": "assets/ui/locations/crew_lot_north.png",
+      "generator": "Built-in image_gen",
+      "prompt": "Create one finished landscape game location background, 1536x1024 composition, for Mysterious Hearts, a contemporary illustrated manhwa visual novel set in Winterfield. Vacant northern district offices: two-storey modernist office block, charcoal stone and teal glazing, recessed entrance, quiet tree-lined northern street, empty forecourt and enclosed side yard. A plausible independent organisation affiliate office. Polished hand-painted anime architectural environment, precise clean linework, softly shaded rich materials, cinematic natural daylight, dark slate and warm brick tones with restrained colored accents. Eye-level three-quarter view, building in middle distance, wide clear foreground for two full-height character portrait overlays and dialogue bubbles. No people, no vehicles in the foreground, no signage lettering, no UI, no logo, no watermark. Standalone full-bleed environment, not a collage or concept sheet. The building is available for purchase and can later serve as a gang property, but do not depict weapons or crime activity."
+    },
+    {
+      "id": "crew_lot_south",
+      "path": "assets/ui/locations/crew_lot_south.png",
+      "generator": "Built-in image_gen",
+      "prompt": "Create one finished landscape game location background, 1536x1024 composition, for Mysterious Hearts, a contemporary illustrated manhwa visual novel set in Winterfield. A vacant south-district garage: compact brick auto garage with two shuttered service bays, flat roof, faded painted trim without readable text, cracked asphalt courtyard, low residential-industrial surroundings and a small side office. Polished hand-painted anime architectural environment, precise clean linework, softly shaded rich materials, cinematic natural daylight, dark slate and warm brick tones with restrained colored accents. Eye-level three-quarter view, building in middle distance, wide clear foreground for two full-height character portrait overlays and dialogue bubbles. No people, no vehicles in the foreground, no signage lettering, no UI, no logo, no watermark. Standalone full-bleed environment, not a collage or concept sheet. The building is available for purchase and can later serve as a gang property, but do not depict weapons or crime activity."
+    }
+  ]
+}

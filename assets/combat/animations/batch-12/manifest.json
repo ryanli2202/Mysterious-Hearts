@@ -1,0 +1,300 @@
+{
+  "roadmap_id": "MH-001",
+  "batch": 12,
+  "created": "2026-11-10",
+  "status": "8 local sprite sheets and GIFs assembled and structurally verified; runtime integration pending.",
+  "generation_tool": "built-in image_gen",
+  "model_verification": "Tool does not expose a model selector or verified model identifier.",
+  "workflow": "Generate sprite sheets first, then slice and encode locally using Pillow.",
+  "grid": {
+    "columns": 3,
+    "rows": 2
+  },
+  "frame_duration_ms": 150,
+  "blank_hold_ms": 720,
+  "timing_reason": "900ms action matches the plan's 700\u20131100ms martial master range.",
+  "background": "opaque dark slate; not transparent",
+  "assets": [
+    {
+      "asset_id": "MH-001-B12-thousand-link-bind",
+      "production_id": "MH-001-B12-01",
+      "name": "thousand-link-bind",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet matching previous batches. Polished hand-painted anime style; generic faceless adult martial artists with dark hair, steel-blue actor and charcoal-grey opponent in plain unbranded training shirts and trousers. Silver physical motion/contact trails. EXACTLY SIX chronological keyframes in THREE COLUMNS by TWO ROWS, row-major order, landscape 1536x1024 canvas, six equal 512x512 square cells. Fixed three-quarter side camera, consistent identities and scale within sequence. Uniform opaque dark slate #101824 background. No borders, grid lines, gutters, text, labels, scenery, UI or watermark. Keep whole bodies, ghost poses and effects inside each cell with generous margins. Clear separate bodies, two arms and two legs per solid person. Physical martial arts, no weapons, magic, electricity, gore or injury. One finite 900ms action, sixth frame fades almost to blank. Japanese Jujutsu linked holds. Frame 1 blue left and grey right establish close forearm contact; 2 blue grips grey wrist with tiny silver marker, grey braces; 3 grey attempts to turn out, blue changes to elbow-and-wrist control, old marker fades as new marker appears; 4 blue steps to grey flank and transfers to shoulder-and-upper-arm grip, a short chain of three fading silver contact dots traces prior contact positions; 5 grey remains standing in contested close hold with blue balanced, markers settle at actual hands; 6 nearly faded. Show rapid transitions around paired silhouettes, no actual chain, shackles, ropes, joint damage or guaranteed submission.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2f9-d6f5-71d2-a321-edb23f3f95be/exec-9d61a92b-c238-422c-847c-1dae6e359bb7.png",
+      "sheet": "spritesheets/thousand-link-bind.png",
+      "gif": "gifs/thousand-link-bind.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "3e4b8b1e36f778ed291ed289cf21d82a2e54c17f146ba7bc4614477a8168c0d9",
+        "sha256_gif": "ac8083b85e880d9768446e97e394322c1c43554fe2ae5e0d2581b9344966a1ed"
+      }
+    },
+    {
+      "asset_id": "MH-001-B12-earthfall-reversal",
+      "production_id": "MH-001-B12-02",
+      "name": "earthfall-reversal",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet matching previous batches. Polished hand-painted anime style; generic faceless adult martial artists with dark hair, steel-blue actor and charcoal-grey opponent in plain unbranded training shirts and trousers. Silver physical motion/contact trails. EXACTLY SIX chronological keyframes in THREE COLUMNS by TWO ROWS, row-major order, landscape 1536x1024 canvas, six equal 512x512 square cells. Fixed three-quarter side camera, consistent identities and scale within sequence. Uniform opaque dark slate #101824 background. No borders, grid lines, gutters, text, labels, scenery, UI or watermark. Keep whole bodies, ghost poses and effects inside each cell with generous margins. Clear separate bodies, two arms and two legs per solid person. Physical martial arts, no weapons, magic, electricity, gore or injury. One finite 900ms action, sixth frame fades almost to blank. Japanese Jujutsu heavy commitment counterthrow. Frame 1 grey right lunges with extended punch toward planted blue left; 2 blue steps just outside line and catches forearm with shoulder support, grey momentum still forward; 3 grey torso tips past planted feet, blue lowers hips and guides him beyond balance point, thin curved silver trail; 4 blue pivots into compact downward counterthrow, grey sideways in a low falling arc, no overhead lift; 5 grey lands on side beside crouched blue with small flat silver landing ellipse; 6 nearly faded. Clear incoming commitment then balance loss and counterthrow, no rocks, crater, gore or head-first impact.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2f9-d6f5-71d2-a321-edb23f3f95be/exec-d95ec810-6309-4bec-8c0d-89e5ca7d0114.png",
+      "sheet": "spritesheets/earthfall-reversal.png",
+      "gif": "gifs/earthfall-reversal.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "f9c34da475379c7295b2522690f9bed44160851e36284e1f9ae6c51897cd91b9",
+        "sha256_gif": "e1ca444fde74c7db5ee3ce55a4f4f48bf115b263f20acaff7a6a2f251e171898"
+      }
+    },
+    {
+      "asset_id": "MH-001-B12-iron-labyrinth",
+      "production_id": "MH-001-B12-03",
+      "name": "iron-labyrinth",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet matching previous batches. Polished hand-painted anime style; generic faceless adult martial artists with dark hair, steel-blue actor and charcoal-grey opponent in plain unbranded training shirts and trousers. Silver physical motion/contact trails. EXACTLY SIX chronological keyframes in THREE COLUMNS by TWO ROWS, row-major order, landscape 1536x1024 canvas, six equal 512x512 square cells. Fixed three-quarter side camera, consistent identities and scale within sequence. Uniform opaque dark slate #101824 background. No borders, grid lines, gutters, text, labels, scenery, UI or watermark. Keep whole bodies, ghost poses and effects inside each cell with generous margins. Clear separate bodies, two arms and two legs per solid person. Physical martial arts, no weapons, magic, electricity, gore or injury. One finite 900ms action, sixth frame fades almost to blank. Japanese Jujutsu changing positional pressure, both remain standing. Frame 1 blue left holds grey right at wrist and upper arm; 2 grey steps diagonally back to escape while blue follows with angular footwork trail; 3 blue changes grip and closes that angle with an L-shaped thin silver path near feet, grey turns another way; 4 grey tries opposite side and blue pivots to maintain control, second short angular path closes around feet; 5 blue settles beside grey in contested standing hold, overlapping fading angular paths show closed routes without a literal enclosure; 6 nearly faded. No maze walls, chains, iron bars, magic net or throw; routes are graphic movement cues.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2f9-d6f5-71d2-a321-edb23f3f95be/exec-af12916d-e94f-41a1-9d78-3dd141e6070f.png",
+      "sheet": "spritesheets/iron-labyrinth.png",
+      "gif": "gifs/iron-labyrinth.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "2d2f3cdf701bcc75fd13943f713a3acbcb5a1fea46151e68352ee8e27e20cc75",
+        "sha256_gif": "3f9d95bf43a370eb2fd3c64981a834b94b52be9f627382b55211732e64043422"
+      }
+    },
+    {
+      "asset_id": "MH-001-B12-silent-avalanche",
+      "production_id": "MH-001-B12-04",
+      "name": "silent-avalanche",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet matching previous batches. Polished hand-painted anime style; generic faceless adult martial artists with dark hair, steel-blue actor and charcoal-grey opponent in plain unbranded training shirts and trousers. Silver physical motion/contact trails. EXACTLY SIX chronological keyframes in THREE COLUMNS by TWO ROWS, row-major order, landscape 1536x1024 canvas, six equal 512x512 square cells. Fixed three-quarter side camera, consistent identities and scale within sequence. Uniform opaque dark slate #101824 background. No borders, grid lines, gutters, text, labels, scenery, UI or watermark. Keep whole bodies, ghost poses and effects inside each cell with generous margins. Clear separate bodies, two arms and two legs per solid person. Physical martial arts, no weapons, magic, electricity, gore or injury. One finite 900ms action, sixth frame fades almost to blank. Japanese Jujutsu quiet entry, sudden throw, restraint. Frame 1 blue left low poised guard opposite grey right; 2 subdued close entry with very faint low silver trail and no particles; 3 blue establishes compact torso-and-upper-arm grip and pivots; 4 grey rotates through low fast throw arc as blue lowers with him, clear separate bodies; 5 grey on side at floor and blue kneeling beside in compact wrist-and-upper-arm restraint, no choking or injury, tiny silver contact marks; 6 nearly faded. Quiet approach then throw and grounded control, no snow, rocks, explosion or literal avalanche.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2f9-d6f5-71d2-a321-edb23f3f95be/exec-671e114d-ca7c-4384-923a-3d77bdba5ed8.png",
+      "sheet": "spritesheets/silent-avalanche.png",
+      "gif": "gifs/silent-avalanche.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "be8982ef2ac5ba9de84869257d103018a7d2d4cd332aeb48d7cd192eb70dfb37",
+        "sha256_gif": "12576930b72e76f151a40fde731c2c3a22b7d328daecd065d8cac22d67e8a10f"
+      }
+    },
+    {
+      "asset_id": "MH-001-B12-thousand-point-rain",
+      "production_id": "MH-001-B12-05",
+      "name": "thousand-point-rain",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet matching previous batches. Polished hand-painted anime style; generic faceless adult martial artists with dark hair, steel-blue actor and charcoal-grey opponent in plain unbranded training shirts and trousers. Silver physical motion/contact trails. EXACTLY SIX chronological keyframes in THREE COLUMNS by TWO ROWS, row-major order, landscape 1536x1024 canvas, six equal 512x512 square cells. Fixed three-quarter side camera, consistent identities and scale within sequence. Uniform opaque dark slate #101824 background. No borders, grid lines, gutters, text, labels, scenery, UI or watermark. Keep whole bodies, ghost poses and effects inside each cell with generous margins. Clear separate bodies, two arms and two legs per solid person. Physical martial arts, no weapons, magic, electricity, gore or injury. One finite 900ms action, sixth frame fades almost to blank. Wing Chun finite compact chain punches. Frame 1 blue left close upright centre-line guard facing grey right guarded; 2 compact left straight punch into central forearm guard with tiny silver contact burst; 3 compact right straight punch on same narrow centre line, left hand retracting, one fading prior trail; 4 left straight punch repeats with TWO faint prior fist trails but only two solid arms, small closely packed contact dots; 5 final right straight punch with narrow stream of fading small silver bursts at guard, not giant impact; 6 nearly faded. Alternate hands, elbows close, finite flurry, no literal thousand fists, rain, extra solid arms or laser beam.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2f9-d6f5-71d2-a321-edb23f3f95be/exec-f38e53c7-dd24-43ae-9274-61a64fad7071.png",
+      "sheet": "spritesheets/thousand-point-rain.png",
+      "gif": "gifs/thousand-point-rain.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "d5898bcec9a549d2975e5925db1c775245d81a6f799bd98f666065d0933ecdf5",
+        "sha256_gif": "9d5f185e3c36e4e1b0f644be29cd3ac08ec4732f5279d989d1ea5f4ca6536f72"
+      }
+    },
+    {
+      "asset_id": "MH-001-B12-centre-line-collapse",
+      "production_id": "MH-001-B12-06",
+      "name": "centre-line-collapse",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet matching previous batches. Polished hand-painted anime style; generic faceless adult martial artists with dark hair, steel-blue actor and charcoal-grey opponent in plain unbranded training shirts and trousers. Silver physical motion/contact trails. EXACTLY SIX chronological keyframes in THREE COLUMNS by TWO ROWS, row-major order, landscape 1536x1024 canvas, six equal 512x512 square cells. Fixed three-quarter side camera, consistent identities and scale within sequence. Uniform opaque dark slate #101824 background. No borders, grid lines, gutters, text, labels, scenery, UI or watermark. Keep whole bodies, ghost poses and effects inside each cell with generous margins. Clear separate bodies, two arms and two legs per solid person. Physical martial arts, no weapons, magic, electricity, gore or injury. One finite 900ms action, sixth frame fades almost to blank. Wing Chun contested central opening. Frame 1 grey right forms compact parallel forearm guard opposite blue left, TWO thin silver parallel lines mark guard; 2 blue brings lead forearm and fist close to centre, grey braces; 3 blue compact straight punch presses centrally between grey forearms, parallel graphic lines compress inward; 4 concentrated short attack contests opening with small dense silver contact wedge between compressed lines, grey remains braced and arms distinguishable; 5 blue retracts slightly with contact and lines fading, grey guard still present, no guaranteed break; 6 nearly faded. No shattered limbs, glass, walls, giant energy beam or explosion.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2f9-d6f5-71d2-a321-edb23f3f95be/exec-32cb2e9e-eaac-458e-9e5b-a96526062354.png",
+      "sheet": "spritesheets/centre-line-collapse.png",
+      "gif": "gifs/centre-line-collapse.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "9c2157bc115bd064b0ec4413956b601cc3d3b942cc7857387f8aa38ce0631c9b",
+        "sha256_gif": "2653b1fd6aef67b5b62cf2c5fb835443b70cb929e7ef4948703be552f5c6a760"
+      }
+    },
+    {
+      "asset_id": "MH-001-B12-mirror-hands",
+      "production_id": "MH-001-B12-07",
+      "name": "mirror-hands",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet matching previous batches. Polished hand-painted anime style; generic faceless adult martial artists with dark hair, steel-blue actor and charcoal-grey opponent in plain unbranded training shirts and trousers. Silver physical motion/contact trails. EXACTLY SIX chronological keyframes in THREE COLUMNS by TWO ROWS, row-major order, landscape 1536x1024 canvas, six equal 512x512 square cells. Fixed three-quarter side camera, consistent identities and scale within sequence. Uniform opaque dark slate #101824 background. No borders, grid lines, gutters, text, labels, scenery, UI or watermark. Keep whole bodies, ghost poses and effects inside each cell with generous margins. Clear separate bodies, two arms and two legs per solid person. Physical martial arts, no weapons, magic, electricity, gore or injury. One finite 900ms action, sixth frame fades almost to blank. Wing Chun deflection and returning strikes, two figures. Frame 1 grey right begins straight punch toward blue left; 2 blue open lead hand deflects incoming wrist outward with thin curved silver trail while other hand guards centre; 3 blue opposite fist returns a short straight punch down middle with thin straight trail, grey retracting; 4 grey begins other-hand punch and blue switches hand to deflect outward on opposite side, paired arcs show alternating deflections, only two solid arms; 5 blue returns another short central strike with opposite hand, prior arcs fading; 6 nearly faded. Alternating outward deflection and central return, no mirror objects, clones or extra hands.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2f9-d6f5-71d2-a321-edb23f3f95be/exec-5a32405a-4441-4598-b058-e9db05a06298.png",
+      "sheet": "spritesheets/mirror-hands.png",
+      "gif": "gifs/mirror-hands.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "085f26df8ada0bec4f7a579878743eae078f87b1a418fb32aa732998b9153a49",
+        "sha256_gif": "6f7cce91beef9d502034caf1052d0d1446776fea74fea2753b843a022f6e7798"
+      }
+    },
+    {
+      "asset_id": "MH-001-B12-inch-thunder",
+      "production_id": "MH-001-B12-08",
+      "name": "inch-thunder",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet matching previous batches. Polished hand-painted anime style; generic faceless adult martial artists with dark hair, steel-blue actor and charcoal-grey opponent in plain unbranded training shirts and trousers. Silver physical motion/contact trails. EXACTLY SIX chronological keyframes in THREE COLUMNS by TWO ROWS, row-major order, landscape 1536x1024 canvas, six equal 512x512 square cells. Fixed three-quarter side camera, consistent identities and scale within sequence. Uniform opaque dark slate #101824 background. No borders, grid lines, gutters, text, labels, scenery, UI or watermark. Keep whole bodies, ghost poses and effects inside each cell with generous margins. Clear separate bodies, two arms and two legs per solid person. Physical martial arts, no weapons, magic, electricity, gore or injury. One finite 900ms action, sixth frame fades almost to blank. Wing Chun very short range strike. Frame 1 blue left stands close to grey right, lead fist held just a tiny finger-width from grey forearm guard, other hand near torso; 2 same close held pose with almost no windup, visibly tiny gap; 3 lead fist shifts only a small distance forward to contact guard, blue body hardly moves, tiny silver short line; 4 LARGE LOCAL circular silver compression ring blooms only around contact at upper torso height, bodies remain stable with grey slight recoil; 5 blue withdraws fist a small distance as ring thins and fades; 6 nearly faded. Tiny movement and large local ring, no long punch, backswing, charge, electricity or explosion.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2f9-d6f5-71d2-a321-edb23f3f95be/exec-02fb1fb9-9ae0-4b70-9224-09095fc9bec2.png",
+      "sheet": "spritesheets/inch-thunder.png",
+      "gif": "gifs/inch-thunder.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "55ba2544a9e797a22611ea46c5f65aba628c7f43d5676723bc4bc9ec8807a0a2",
+        "sha256_gif": "269c93155f6642f6b2e4439a5de10db8d76cd904fabc948acb0f16541b058067"
+      }
+    }
+  ],
+  "validation_command": "python tools/build_combat_batch_gifs.py --batch 12"
+}

@@ -1,0 +1,68 @@
+charles_quest_ui_smoke.py: PASS
+PASS: phone-to-main-window quest, twenty chapters, evidence scroll, completion and private-number profile.
+
+major_campaigns_ui_smoke.py: PASS
+Campaign screens, guard combat, property recruitment, compact layout and dark phone handoff passed.
+
+player_story_ui_smoke.py: PASS
+Player Story tab passed: Rei, Garrett, Fox, Gordon, empty state, travel, action routing, active cases and compact layout.
+
+interpol_ui_smoke.py: PASS
+Interpol UI smoke passed: portraits, casework, combat, records, compact layout, dark phone states and contact photos. No provider calls or story writes.
+
+story_expansion_ui_smoke.py: FAIL
+Traceback (most recent call last):
+  File "C:\Users\ryanl\Documents\Mysterious Hearts\tests\story_expansion_ui_smoke.py", line 32, in <module>
+    while s.get('campaign_dialogue'):dialogue.next_line(s)
+                                     ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ryanl\Documents\Mysterious Hearts\campaign_dialogue.py", line 217, in next_line
+    if b.get('reflection') and b.get('selected') is None:raise ValueError('Choose a reflection before continuing.')
+                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Choose a reflection before continuing.
+
+phone_dark_theme_smoke.py: PASS
+Checking Home
+Checking Mysterious Hearts
+Checking Messages
+Checking Camera
+Checking Gallery
+Checking Grove
+Checking Contacts
+Checking Weather
+Checking Winterfield
+Checking Maps
+Checking Calendar
+Checking Journal
+Checking Supafast
+Checking Doober Eats
+Checking Deliveries
+Checking Mini Games
+Checking Settings
+Checking More
+Checking Notes
+Checking Pinned messages
+Checking Mixtape
+Checking Wardrobe
+Checking Out & About
+Checking Pocket Wallet
+Checking Winterfield Exchange
+Checking Recipe Box
+Checking Postcards
+Checking Campus Portal
+Checking Meet-Cute
+Checking Jobseek
+Checking Bubblegram
+Checking Customise
+Checking Lock
+Checking Keepsake
+Dark surfaces verified across 34 phone pages, chat, contact details, and embedded controls.
+
+FINAL FOLLOW-UP AFTER CORRECTIONS
+story_expansion_ui_smoke.py: PASS
+PASS: Crow combat, withdrawal, four debrief scenes and ongoing ending on the in-person stage at compact size.
+
+patch_notes_ui_smoke.py: PASS
+Patch notes UI passed: search, filters, state, export, empty/error states and two sizes.
+
+start_ui_smoke.py: PASS
+Start UI passed: 28 previews, paging, explicit begin, default and minimum layouts.

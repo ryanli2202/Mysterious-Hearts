@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-10",
+  "scenario": "Isolated fresh Fox at Interpol HQ; configured provider; no player save writes",
+  "exchanges": [
+    {
+      "player": "I need files.",
+      "guard": "Which files, Officer Fox?",
+      "narration": ""
+    },
+    {
+      "player": "The witness interview records for the case I am assigned to.",
+      "guard": "You'll need to request those through the records desk, Officer Fox. Have the case number ready; they'll need to confirm your access.",
+      "narration": ""
+    }
+  ]
+}

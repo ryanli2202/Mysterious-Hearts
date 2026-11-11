@@ -1,0 +1,549 @@
+{
+  "batch_id": "interiors-09",
+  "title": "Shinokami, Interpol and campaign facilities",
+  "status": "planned",
+  "images": [
+    {
+      "id": "site_01__secure_corridor",
+      "room": "Secure corridor",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_01/secure_corridor.png",
+      "building_id": "site_01",
+      "building_name": "Kestrel Operations Centre",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_01__operations_office",
+      "room": "Operations office",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_01/operations_office.png",
+      "building_id": "site_01",
+      "building_name": "Kestrel Operations Centre",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_01__guarded_service_room",
+      "room": "Guarded service room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_01/guarded_service_room.png",
+      "building_id": "site_01",
+      "building_name": "Kestrel Operations Centre",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_01__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_01/restroom.png",
+      "building_id": "site_01",
+      "building_name": "Kestrel Operations Centre",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_02__secure_corridor",
+      "room": "Secure corridor",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_02/secure_corridor.png",
+      "building_id": "site_02",
+      "building_name": "Pacific Relay Depot",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_02__dispatch_room",
+      "room": "Dispatch room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_02/dispatch_room.png",
+      "building_id": "site_02",
+      "building_name": "Pacific Relay Depot",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_02__warehouse",
+      "room": "Warehouse",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_02/warehouse.png",
+      "building_id": "site_02",
+      "building_name": "Pacific Relay Depot",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_02__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_02/restroom.png",
+      "building_id": "site_02",
+      "building_name": "Pacific Relay Depot",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_03__secure_corridor",
+      "room": "Secure corridor",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_03/secure_corridor.png",
+      "building_id": "site_03",
+      "building_name": "Stillwater Research Annex",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_03__research_office",
+      "room": "Research office",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_03/research_office.png",
+      "building_id": "site_03",
+      "building_name": "Stillwater Research Annex",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_03__restricted_laboratory",
+      "room": "Restricted laboratory",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_03/restricted_laboratory.png",
+      "building_id": "site_03",
+      "building_name": "Stillwater Research Annex",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "site_03__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/site_03/restroom.png",
+      "building_id": "site_03",
+      "building_name": "Stillwater Research Annex",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "interpol_hq__secure_corridor",
+      "room": "Secure corridor",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/interpol_hq/secure_corridor.png",
+      "building_id": "interpol_hq",
+      "building_name": "Interpol Regional HQ",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "interpol_hq__case_office",
+      "room": "Case office",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/interpol_hq/case_office.png",
+      "building_id": "interpol_hq",
+      "building_name": "Interpol Regional HQ",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "interpol_hq__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/interpol_hq/restroom.png",
+      "building_id": "interpol_hq",
+      "building_name": "Interpol Regional HQ",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "blackstone_hq__controlled_corridor",
+      "room": "Controlled corridor",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/blackstone_hq/controlled_corridor.png",
+      "building_id": "blackstone_hq",
+      "building_name": "Blackstone Headquarters",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "blackstone_hq__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/blackstone_hq/restroom.png",
+      "building_id": "blackstone_hq",
+      "building_name": "Blackstone Headquarters",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "hamayashi_house__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/hamayashi_house/entrance.png",
+      "building_id": "hamayashi_house",
+      "building_name": "Kurose House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "hamayashi_house__reception_waiting_hall",
+      "room": "Reception waiting hall",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/hamayashi_house/reception_waiting_hall.png",
+      "building_id": "hamayashi_house",
+      "building_name": "Kurose House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "hamayashi_house__records_room",
+      "room": "Records room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/hamayashi_house/records_room.png",
+      "building_id": "hamayashi_house",
+      "building_name": "Kurose House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "hamayashi_house__rear_residence_living_room",
+      "room": "Rear residence living room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/hamayashi_house/rear_residence_living_room.png",
+      "building_id": "hamayashi_house",
+      "building_name": "Kurose House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "hamayashi_house__private_bedroom",
+      "room": "Private bedroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/hamayashi_house/private_bedroom.png",
+      "building_id": "hamayashi_house",
+      "building_name": "Kurose House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "hamayashi_house__private_bathroom",
+      "room": "Private bathroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/hamayashi_house/private_bathroom.png",
+      "building_id": "hamayashi_house",
+      "building_name": "Kurose House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "hamayashi_house__visitor_restroom",
+      "room": "Visitor restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/hamayashi_house/visitor_restroom.png",
+      "building_id": "hamayashi_house",
+      "building_name": "Kurose House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "hamayashi_house__bonsai_courtyard",
+      "room": "Bonsai courtyard",
+      "kind": "outdoor",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/hamayashi_house/bonsai_courtyard.png",
+      "building_id": "hamayashi_house",
+      "building_name": "Kurose House",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "hamayashi_annex__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/hamayashi_annex/entrance.png",
+      "building_id": "hamayashi_annex",
+      "building_name": "Hamayashi riverside annex",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "hamayashi_annex__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/hamayashi_annex/restroom.png",
+      "building_id": "hamayashi_annex",
+      "building_name": "Hamayashi riverside annex",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "hamayashi_store__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/hamayashi_store/entrance.png",
+      "building_id": "hamayashi_store",
+      "building_name": "Hamayashi supply house",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "hamayashi_store__office",
+      "room": "Office",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/hamayashi_store/office.png",
+      "building_id": "hamayashi_store",
+      "building_name": "Hamayashi supply house",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "hamayashi_store__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/hamayashi_store/restroom.png",
+      "building_id": "hamayashi_store",
+      "building_name": "Hamayashi supply house",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "boxing_club__entrance",
+      "room": "Entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/boxing_club/entrance.png",
+      "building_id": "boxing_club",
+      "building_name": "East Ward Boxing Club",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "boxing_club__reception_lounge",
+      "room": "Reception lounge",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/boxing_club/reception_lounge.png",
+      "building_id": "boxing_club",
+      "building_name": "East Ward Boxing Club",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "boxing_club__equipment_room",
+      "room": "Equipment room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/boxing_club/equipment_room.png",
+      "building_id": "boxing_club",
+      "building_name": "East Ward Boxing Club",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "boxing_club__changing_room",
+      "room": "Changing room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/boxing_club/changing_room.png",
+      "building_id": "boxing_club",
+      "building_name": "East Ward Boxing Club",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "boxing_club__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/boxing_club/restroom.png",
+      "building_id": "boxing_club",
+      "building_name": "East Ward Boxing Club",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "iron_circle__controlled_entrance",
+      "room": "Controlled entrance",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/iron_circle/controlled_entrance.png",
+      "building_id": "iron_circle",
+      "building_name": "Iron Circle",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "iron_circle__spectator_lounge",
+      "room": "Spectator lounge",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/iron_circle/spectator_lounge.png",
+      "building_id": "iron_circle",
+      "building_name": "Iron Circle",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "iron_circle__fighter_preparation_room",
+      "room": "Fighter preparation room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/iron_circle/fighter_preparation_room.png",
+      "building_id": "iron_circle",
+      "building_name": "Iron Circle",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "iron_circle__recovery_room",
+      "room": "Recovery room",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/iron_circle/recovery_room.png",
+      "building_id": "iron_circle",
+      "building_name": "Iron Circle",
+      "generation_status": "not_started"
+    },
+    {
+      "id": "iron_circle__restroom",
+      "room": "Restroom",
+      "kind": "interior",
+      "status": "new_image",
+      "existing": null,
+      "target": "assets/ui/locations/interiors/iron_circle/restroom.png",
+      "building_id": "iron_circle",
+      "building_name": "Iron Circle",
+      "generation_status": "not_started"
+    }
+  ],
+  "existing_references": [
+    {
+      "building_id": "site_01",
+      "room": "Reception",
+      "path": "assets/ui/locations/site_01_reception.png"
+    },
+    {
+      "building_id": "site_01",
+      "room": "Briefing room",
+      "path": "assets/ui/locations/site_01_briefing.png"
+    },
+    {
+      "building_id": "site_02",
+      "room": "Reception",
+      "path": "assets/ui/locations/site_02_reception.png"
+    },
+    {
+      "building_id": "site_02",
+      "room": "Briefing room",
+      "path": "assets/ui/locations/site_02_briefing.png"
+    },
+    {
+      "building_id": "site_03",
+      "room": "Reception",
+      "path": "assets/ui/locations/site_03_reception.png"
+    },
+    {
+      "building_id": "site_03",
+      "room": "Briefing room",
+      "path": "assets/ui/locations/site_03_briefing.png"
+    },
+    {
+      "building_id": "interpol_hq",
+      "room": "Public lobby verification desk",
+      "path": "assets/ui/locations/interpol_hq.png"
+    },
+    {
+      "building_id": "interpol_hq",
+      "room": "Awakened Operations briefing room",
+      "path": "assets/ui/locations/interpol_briefing.png"
+    },
+    {
+      "building_id": "interpol_hq",
+      "room": "Controlled training hall",
+      "path": "assets/ui/locations/interpol_training.png"
+    },
+    {
+      "building_id": "interpol_hq",
+      "room": "Interview containment wing",
+      "path": "assets/ui/locations/interpol_containment.png"
+    },
+    {
+      "building_id": "blackstone_hq",
+      "room": "Reception security",
+      "path": "assets/ui/locations/blackstone_hq.png"
+    },
+    {
+      "building_id": "blackstone_hq",
+      "room": "Research records",
+      "path": "assets/ui/locations/blackstone_records.png"
+    },
+    {
+      "building_id": "blackstone_hq",
+      "room": "Experimental wing",
+      "path": "assets/ui/locations/blackstone_lab.png"
+    },
+    {
+      "building_id": "blackstone_hq",
+      "room": "Executive command",
+      "path": "assets/ui/locations/blackstone_command.png"
+    },
+    {
+      "building_id": "blackstone_hq",
+      "room": "Loading compound",
+      "path": "assets/ui/locations/blackstone_loading.png"
+    },
+    {
+      "building_id": "hamayashi_house",
+      "room": "Meeting room",
+      "path": "assets/ui/locations/hamayashi_house.png"
+    },
+    {
+      "building_id": "hamayashi_annex",
+      "room": "Meeting office room",
+      "path": "assets/ui/locations/hamayashi_annex.png"
+    },
+    {
+      "building_id": "hamayashi_store",
+      "room": "Stock hall",
+      "path": "assets/ui/locations/hamayashi_store.png"
+    },
+    {
+      "building_id": "boxing_club",
+      "room": "Training hall",
+      "path": "assets/ui/locations/boxing_club.png"
+    },
+    {
+      "building_id": "iron_circle",
+      "room": "Ring hall",
+      "path": "assets/ui/locations/iron_circle.png"
+    }
+  ]
+}

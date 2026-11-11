@@ -1,0 +1,13 @@
+{
+  "id": "emily-gym",
+  "tool": "built-in image_gen",
+  "model": "not exposed",
+  "generated_source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c7d2-0cc6-74f2-ba9f-981788fc8cd9\\exec-5d7ffd80-241d-4f14-aedf-1beeabc65cc8.png",
+  "sha256": "9b05591fa0682055b96a4a769d9671e09834832d64623fbeea64bf83a00b8047",
+  "prompt": "Edit this exact image solely to clean up its transparency. Keep the woman, all hair strands, face, glasses, clothing, hands, proportions, pose and current mid-thigh crop unchanged. Remove ALL stray background pixels and patches at the top corners, side edges and bottom corners. Everything outside her actual silhouette must be fully transparent alpha, including all arm gaps. No haze, backdrop, black patches, glow or shadow. Preserve charcoal full-length leggings with lavender side stripes continuing to bottom picture cutoff, no hem or bare skin. Same 1024x1536 transparent RGBA image. Do not zoom or change framing.",
+  "referenced_image_paths": [
+    "C:/Users/ryanl/Documents/Mysterious Hearts/roadmap/artwork-stage-03/candidates/emily-gym.png"
+  ],
+  "transparent_background": true,
+  "pixel_postprocessing": false
+}

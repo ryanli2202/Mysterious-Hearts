@@ -129,4 +129,8 @@ def operation(s, key, success):
     if 'Envoy' in roles:
         book = s.get('crime_diplomacy', {}).get('organisations', {}).get('crew:'+g['name'].casefold(), {})
         for target in book.get('relations', {}): book['relations'][target] = min(100, book['relations'][target]+1)
+    # Staffed properties provide practical security support to crew contracts.
+    security=s.get('organisation_guards',{})
+    staffed={r['venue'] for r in security.get('roster',[]) if security.get('properties',{}).get(r['venue'],{}).get('owner')==g.get('name')}
+    if success and staffed: d['heat']=max(0,d['heat']-min(3,len(staffed)))
     return 50 * len(roles & {'Quartermaster', 'Treasurer'})

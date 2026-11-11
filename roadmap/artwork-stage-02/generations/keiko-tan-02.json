@@ -1,0 +1,10 @@
+{
+  "id": "keiko-tan-02",
+  "record_id": "keiko-tan-02",
+  "prompt": "Use case: identity-preserve. Targeted correction of keiko-tan. Image 1 is the edit target. Preserve exact individual face, identity, age, complexion, build, hair, expression, clothing design/colours, accessories, tattoo motifs/laterality, pose and illustrated semi-realistic manhwa rendering. FACE REFINEMENT ONLY: preserve this adult's specific bob haircut, eye colour/shape, complexion and welcoming expression. Model dimensional eyelids/eyeballs at natural size, a readable nose bridge/tip and nostril planes, cheek volume and softly shaped lips/teeth. Avoid huge anime irises, shorthand nose and graphic tooth-bar smile. Keep existing framing, hands, blue overshirt and charcoal clothes. Do not stretch anatomy or redesign any unaffected details. Complete all visible hands, hair and required props inside frame. Output 1024x1536 2:3 RGBA with genuine transparent background and clear gaps, no scenery, halo, outline, text or watermark. Clear headroom and side margins, small transparent bottom margin; no knees. ",
+  "input_images": [
+    "C:\\Users\\ryanl\\Documents\\Mysterious Hearts\\roadmap\\artwork-stage-02\\generations\\keiko-tan-01.png"
+  ],
+  "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c4e0-54f1-7c43-a56b-2d10502a12a6/exec-b37a0806-74b2-435b-bebd-52e43f949998.png",
+  "disposition": "candidate"
+}

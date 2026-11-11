@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\Users\ryanl\Documents\Mysterious Hearts\tests\artwork_stage_02_ui_smoke.py", line 148, in <module>
+    guards.start(s,'stage2:'+ident,guards.profile(s,ident),'stage2-art')
+                                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ryanl\Documents\Mysterious Hearts\organisation_guards.py", line 122, in profile
+    name, category, art, equipment, power, skill=spec(s,kind)
+                                                 ^^^^^^^^^^^^
+  File "C:\Users\ryanl\Documents\Mysterious Hearts\organisation_guards.py", line 118, in spec
+    return TYPES.get(kind) or tuple(data(s)['types'][kind])
+                                    ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'custom_robotic'

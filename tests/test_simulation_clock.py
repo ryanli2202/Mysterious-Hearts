@@ -196,6 +196,31 @@ class ClockTests(unittest.TestCase):
         town.travel(self.s,'cafe'); town.work(self.s)
         self.assertEqual(self.s['world']['minute'],540)
 
+    def test_hangout_actions_leave_time_to_running_or_paused_clock(self):
+        import groups
+        for mode in ('fast', 'paused'):
+            with self.subTest(mode=mode):
+                s = core.fresh('rei')
+                s['world']['time_mode'] = mode
+                for who in ('rei', 'emily', 'sophie'):
+                    s['world']['cast'][who].update(location='cafe', journey=None)
+                s['world']['location'] = 'cafe'
+                gid = groups.open_group(s, ['emily', 'sophie'])
+                clock = SimulationClock()
+                clock.reset(s, 0)
+                before = s['world']['minute']
+                result = dict(narration='Emily smiles as you lift your cup.',
+                    choices=[], suggestions_deferred=True,
+                    lines=[dict(speaker='Emily Fields', text='Cheers!')],
+                    emotions={'rei':'content', 'emily':'content', 'sophie':'content'},
+                    bond_moments={'emily':'none', 'sophie':'none'},
+                    social_target='none', social_event='none')
+                groups.commit(s, gid, core.ACTION_PREFIX+'I lift my cup.', result)
+                self.assertEqual(s['world']['minute'], before)
+                self.assertEqual(s['groups'][gid]['history'][-3]['kind'], 'action')
+                clock.tick(s, now=5)
+                self.assertEqual(s['world']['minute'], before + (3 if mode == 'fast' else 0))
+
     def test_clock_batch_matches_small_steps_for_entire_world(self):
         other=copy.deepcopy(self.s); other_clock=SimulationClock(); other_clock.reset(other,0)
         self.clock.tick(self.s,now=200)

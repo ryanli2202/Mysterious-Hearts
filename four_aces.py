@@ -55,7 +55,7 @@ CAST = {
         appearance='168 cm; adult woman with an upright slim build, warm medium tan skin, dark brown eyes, dark brown high ponytail with straight bangs, rectangular black glasses.',
         styling='Fitted charcoal business suit, muted burgundy blouse and small silver earrings.',
         suit='Diamonds', trait='Analysis', remit='Financial warfare, institutional sabotage and strategic calculation.',
-        ability='Analysis accelerates pattern recognition, system comprehension and tactical prediction. It requires evidence and observation; it cannot read minds, guarantee outcomes or reveal unseen information.',
+        ability='Analysis perceives minuscule and microscopic changes and visualises branching possibilities, supporting pattern recognition and tactical prediction. It requires evidence and observation; it cannot read minds, guarantee outcomes or reveal unseen information.',
         favourites='Breakfast: Avocado toast; Lunch: Roasted vegetable salad; Dinner: Seafood rice; Snack: Orange slices; Drink: Espresso; TV show: Architecture documentaries; Movie: The Sting; Book: The Count of Monte Cristo; Author: Alexandre Dumas.'),
 }
 # These are everyday dispositions, not public evidence of an operational identity.

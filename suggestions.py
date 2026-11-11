@@ -62,8 +62,17 @@ def generate(s,target,kind='main'):
     is_text=texting(s,target)
     if kind=='actions' and is_text: raise ValueError('Physical actions are only available in person.')
     c=chat(s,target); people=members(s,target)
+    if c.get('guard_session'):
+        import guard_dialogue
+        r,_=guard_dialogue.active(s,c['local'])
+        if kind=='actions': return ['Nod to the guard.', 'Wait beside the visitor area.', 'Step back from the entrance.', 'Indicate the public desk.']
+        if kind=='personal': return ['How has your shift been?', 'Is it usually busy here?', 'Thank you for your help.', 'I will let you get back to work.']
+        return guard_dialogue.choices(s,r)
+
     styles=json.loads((core.ROOT/'dialogue_styles.json').read_text(encoding='utf-8'))
     player=core.PLAYERS[s['player']]
+    custom_context=__import__('character_identity').audience(s,people)
+    background=json.dumps(custom_context,ensure_ascii=False) if custom_context else core.lore.character_tables()[s['player']]['Public life']
     tones=core.choice_tones(s,c if target[0]=='group' else {'members':people})
     guide=(core.ACTION_GUIDE if kind=='actions' else core.PERSONAL_GUIDE if kind=='personal' else core.reply_tone_guide(tones))
     import four_aces
@@ -76,7 +85,7 @@ def generate(s,target,kind='main'):
             'Memory records are evidence with explicit certainty and status: beliefs and proposals are not confirmed facts or completed events. '
             'Do not invent shared experiences or rewrite the character response. '
             f'Player voice: {core.playable_cast.voice(s["player"], styles)}\nPlayer public background: '
-            +core.lore.character_tables()[s['player']]['Public life']+'\n'+guide)
+            +background+'\n'+guide)
     system+='\n'+core.playable_cast.direction(s, people)
     system+='\n'+(core.PHONE_DELIVERY+' Player texting voice: '+core.TEXT_STYLES.get(s['player'],'') if is_text else core.SPOKEN_DELIVERY)
     if not is_text and kind != 'actions':

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "expected_overwrite_refusal": true,
+  "exit_code": 1,
+  "protected_files_unchanged": true,
+  "protected_sha256": {
+    "roadmap\\interiors-generation-batches\\interiors-02.json": "caf848f8550e860ac54ea233cc8cd9e065a7a94064cb4c7dc52a6a25fae6b9f9",
+    "roadmap\\INTERIORS_IMAGE_INVENTORY.json": "686efd378dd9f6d47be0a50f9cd2aa1aca5ee96f6b20b9863157b194419d3aa4",
+    "assets\\ui\\locations\\interiors\\valentina_home\\entrance.png": "ad27b0121f206cbbce743cdab8b07abb5d8392967da8ba0eea5dec43a51842ad",
+    "roadmap\\interiors-generation-batches\\interiors-01.json": "45bd949d5d2c1499b693901fe6de2a3ab219090bbce37a68279d639a879fb862"
+  }
+}

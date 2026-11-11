@@ -1,0 +1,1 @@
+PASS: four eligible protagonists, historical cast, companion selection, speaking/actions, speaker paging, compact layout, error drafts, unchanged time, saved resume and excluded-player access. Provider mocked.

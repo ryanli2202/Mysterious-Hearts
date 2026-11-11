@@ -1,0 +1,1 @@
+Existing wardrobe alpha loss and preview-only RGBA correction captured; no runtime changes.

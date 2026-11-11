@@ -343,7 +343,7 @@
   {
     "id": "charles",
     "name": "Charles Han",
-    "trait": "White Flame Tiger",
+    "trait": "True Sight / White Flame Tiger",
     "kind": "trait",
     "identity": "White flame gives Charles's precise martial pressure the impact and presence of a charging tiger.",
     "amplifications": [
@@ -1378,9 +1378,9 @@
   {
     "id": "neo",
     "name": "Neo Ishida",
-    "trait": "No established Trait",
+    "trait": "Shinigami Protocol",
     "kind": "awakened",
-    "identity": "Awakened physical ability, elite reactions and peak combat processing. These are proposed signature actions, separate from Trait amplification and Trait unique skills.",
+    "identity": "Reactive adaptation and efficient interceptions within available information, physical response and resources.",
     "amplifications": [],
     "skills": [
       [
@@ -1408,14 +1408,15 @@
       "refinement": 0,
       "martial": 98,
       "iq": 97
-    }
+    },
+    "signature_trait": "Shinigami Protocol"
   },
   {
     "id": "daniel",
     "name": "Daniel Stevens",
-    "trait": "No established Trait",
+    "trait": "War God",
     "kind": "awakened",
-    "identity": "Developed awakened strength and instinctive battle aptitude. His signature actions remain physical rather than fabricated elemental powers.",
+    "identity": "Coordinated physical pressure, instinctive transitions and contact reading. No elemental invention or automatic takedowns.",
     "amplifications": [],
     "skills": [
       [
@@ -1443,14 +1444,15 @@
       "refinement": 0,
       "martial": 97,
       "iq": 94
-    }
+    },
+    "signature_trait": "War God"
   },
   {
     "id": "april",
     "name": "April Xu",
-    "trait": "No established Trait",
+    "trait": "Polymath",
     "kind": "awakened",
-    "identity": "Superhuman cognition is her distinction. These signature suggestions express accelerated analysis without silently giving her another character's named Trait or martial mastery.",
+    "identity": "Enhanced cognition and synthesis of observed evidence; vulnerable direct combat, without inherited martial mastery.",
     "amplifications": [],
     "skills": [
       [
@@ -1478,14 +1480,15 @@
       "refinement": 0,
       "martial": 38,
       "iq": 99
-    }
+    },
+    "signature_trait": "Polymath"
   },
   {
     "id": "thirteen",
     "name": "Number Thirteen",
-    "trait": "No established Trait",
+    "trait": "Shinigami Protocol",
     "kind": "awakened",
-    "identity": "Shinigami conditioning and specialised martial training support superhuman physical suppression and interception.",
+    "identity": "Reactive adaptation with sustained suppression and specialised martial training; not a defective version of Neo.",
     "amplifications": [],
     "skills": [
       [
@@ -1513,7 +1516,8 @@
       "refinement": 0,
       "martial": 95,
       "iq": 90
-    }
+    },
+    "signature_trait": "Shinigami Protocol"
   },
   {
     "id": "Keisuke Hachimura",

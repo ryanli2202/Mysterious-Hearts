@@ -1,0 +1,301 @@
+{
+  "roadmap_id": "MH-001",
+  "batch": 3,
+  "created": "2026-11-10",
+  "status": "8 local sprite sheets and GIFs assembled and structurally verified; runtime integration pending.",
+  "generation_tool": "built-in image_gen",
+  "model_verification": "Tool does not expose a model selector or verified model identifier.",
+  "workflow": "Generate sprite sheets first, then slice and encode locally using Pillow.",
+  "grid": {
+    "columns": 3,
+    "rows": 2
+  },
+  "frame_duration_ms": 80,
+  "blank_hold_ms": 720,
+  "background": "opaque dark slate; not transparent",
+  "assets": [
+    {
+      "asset_id": "MH-001-B03-poison",
+      "name": "poison",
+      "prompt": "Use case: stylized-concept. Production sprite sheet for Mysterious Hearts illustrated RPG combat VFX, polished hand-painted anime game art, crisp silhouettes with restrained bloom. EXACTLY SIX sequential animation frames in a precise THREE COLUMN by TWO ROW grid, reading left to right then top to bottom. Landscape 1536x1024 canvas; six equal 512x512 cells. Fixed camera. Opaque dark slate #101824 background. No borders, gutters, labels, words, UI, scenery or watermarks. Keep all artwork within central 75 percent of each cell, generous clear margins. No overlapping cells, camera shake or full-screen flashes. Six frames represent one finite 480ms status or movement cue, not multiple poses inside a cell. A subtle toxic status pulse, no person. Acid-green vapor curls and three rounded green droplets suspended at centre. Frame 1 tiny low green specks; 2 a thin sickly green wisp coils upward; 3 three luminous droplets inside two soft curling vapor ribbons; 4 droplets shrink as vapor rises; 5 dim vapor dissipates; 6 almost blank. Poison should read as lingering contamination, not restorative leaves, a large cloud, skull icon, damage impact or explosion.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-23274e0e-7370-4740-938d-d5f3deff66a5.png",
+      "sheet": "spritesheets/poison.png",
+      "gif": "gifs/poison.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1200,
+        "action_duration_ms": 480,
+        "frame_durations_ms": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "6c8decff823c1798ce0cc3e811936cf1822686b3674b3d4da334aa71cc74fc0e",
+        "sha256_gif": "f9d6b577432ad3ae0f426c97a03053cc525b8307cdc3db6b7b9861b908eedbf4"
+      }
+    },
+    {
+      "asset_id": "MH-001-B03-burn",
+      "name": "burn",
+      "prompt": "Use case: stylized-concept. Production sprite sheet for Mysterious Hearts illustrated RPG combat VFX, polished hand-painted anime game art, crisp silhouettes with restrained bloom. EXACTLY SIX sequential animation frames in a precise THREE COLUMN by TWO ROW grid, reading left to right then top to bottom. Landscape 1536x1024 canvas; six equal 512x512 cells. Fixed camera. Opaque dark slate #101824 background. No borders, gutters, labels, words, UI, scenery or watermarks. Keep all artwork within central 75 percent of each cell, generous clear margins. No overlapping cells, camera shake or full-screen flashes. Six frames represent one finite 480ms status or movement cue, not multiple poses inside a cell. A small contained orange ember-and-flame status pulse with no person or scenery. Frame 1 a few red embers low at centre; 2 two tiny tongues of orange fire rise; 3 compact upward flickering flame with orange edges and warm gold centre; 4 flame narrows as embers lift; 5 faint reddish embers disperse; 6 almost blank. No smoke wall, burning body, environmental fire, impact burst or lightning. Quiet localized status cue.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-556faefa-59e3-4f2a-a92b-296fab9dfb0c.png",
+      "sheet": "spritesheets/burn.png",
+      "gif": "gifs/burn.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1200,
+        "action_duration_ms": 480,
+        "frame_durations_ms": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "d2ed0036d5c7891027f27aec2b7be32a446e63d88dc05d1f868d2d64ee4030aa",
+        "sha256_gif": "82fa5e2009344a50f7eb26d40fe8ee9606c1ab0caa2fc996360a00fadb035f07"
+      }
+    },
+    {
+      "asset_id": "MH-001-B03-stagger",
+      "name": "stagger",
+      "prompt": "Use case: stylized-concept. Production sprite sheet for Mysterious Hearts illustrated RPG combat VFX, polished hand-painted anime game art, crisp silhouettes with restrained bloom. EXACTLY SIX sequential animation frames in a precise THREE COLUMN by TWO ROW grid, reading left to right then top to bottom. Landscape 1536x1024 canvas; six equal 512x512 cells. Fixed camera. Opaque dark slate #101824 background. No borders, gutters, labels, words, UI, scenery or watermarks. Keep all artwork within central 75 percent of each cell, generous clear margins. No overlapping cells, camera shake or full-screen flashes. Six frames represent one finite 480ms status or movement cue, not multiple poses inside a cell. A generic faceless blue-grey adult martial artist full-body action silhouette briefly loses balance, distinct from leaning backward on a hit. Six frames: 1 guarded upright stance centred; 2 knees soften and shoulders dip forward; 3 crouched off-balance stance with one foot sliding slightly and arms open to catch balance; 4 attempts to steady feet while still bent; 5 recovering pose fades; 6 almost gone. Feet remain on same ground line. No attacker, hit spark, injury, stars circling head, falling down, duplicates or environment.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-3b1260ce-8105-48aa-9d86-63d6be47b7b7.png",
+      "sheet": "spritesheets/stagger.png",
+      "gif": "gifs/stagger.gif",
+      "revision": {
+        "prompt": "Edit only the final two cells of this 3-column by 2-row sprite sheet. Keep all poses, positioning, scale, six-cell layout and 1536x1024 canvas exactly unchanged. Keep first FOUR cells unchanged. In cell 5 (bottom middle), fade the existing figure and its tiny ground shadow to roughly 30% visible against the existing dark slate background. In cell 6 (bottom right), fade existing figure and ground shadow to roughly 5% visible, almost gone. Do not add anything. No borders, labels, extra imagery or other changes.",
+        "original_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-b4d635c5-acfb-4293-afd6-f9763c1724a7.png",
+        "reason": "Fade final two poses for the rest transition."
+      },
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1200,
+        "action_duration_ms": 480,
+        "frame_durations_ms": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "0e4043dd8c861834a2763ee1ac65b97e75593b2e7c493080ecf0a676d93a6bd3",
+        "sha256_gif": "112263ff20f2003a0249fa9a894d34e1ead7a4185c277f778eb36e90c58ded33"
+      }
+    },
+    {
+      "asset_id": "MH-001-B03-weak-point-mark",
+      "name": "weak-point-mark",
+      "prompt": "Use case: stylized-concept. Production sprite sheet for Mysterious Hearts illustrated RPG combat VFX, polished hand-painted anime game art, crisp silhouettes with restrained bloom. EXACTLY SIX sequential animation frames in a precise THREE COLUMN by TWO ROW grid, reading left to right then top to bottom. Landscape 1536x1024 canvas; six equal 512x512 cells. Fixed camera. Opaque dark slate #101824 background. No borders, gutters, labels, words, UI, scenery or watermarks. Keep all artwork within central 75 percent of each cell, generous clear margins. No overlapping cells, camera shake or full-screen flashes. Six frames represent one finite 480ms status or movement cue, not multiple poses inside a cell. A precision weak-point targeting cue, no person. Warm amber four short separated angular brackets around a tiny coral-red central diamond, centred exactly in every cell. Frame 1 tiny central mote; 2 widely spaced dim corner brackets appear; 3 brackets contract neatly around a bright small diamond; 4 a single restrained pulse highlights diamond; 5 brackets dim and loosen; 6 almost gone. No text, numbers, crosshair lines spanning cell, explosion, blood, damage or circular magic runes.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-eeacebb2-c32f-4c5b-bed2-d2d70f6605d7.png",
+      "sheet": "spritesheets/weak-point-mark.png",
+      "gif": "gifs/weak-point-mark.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1200,
+        "action_duration_ms": 480,
+        "frame_durations_ms": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "98a367e63c988e5644b6a24ba42b00fce4b1773d8130856959a6e69fda37dbfb",
+        "sha256_gif": "c73d9e14cdd1b3ae8d6a1c62415c0779714b013c22ae7b5ccb73a57580c21656"
+      }
+    },
+    {
+      "asset_id": "MH-001-B03-concealment",
+      "name": "concealment",
+      "prompt": "Use case: stylized-concept. Production sprite sheet for Mysterious Hearts illustrated RPG combat VFX, polished hand-painted anime game art, crisp silhouettes with restrained bloom. EXACTLY SIX sequential animation frames in a precise THREE COLUMN by TWO ROW grid, reading left to right then top to bottom. Landscape 1536x1024 canvas; six equal 512x512 cells. Fixed camera. Opaque dark slate #101824 background. No borders, gutters, labels, words, UI, scenery or watermarks. Keep all artwork within central 75 percent of each cell, generous clear margins. No overlapping cells, camera shake or full-screen flashes. Six frames represent one finite 480ms status or movement cue, not multiple poses inside a cell. A generic faceless blue-grey adult martial artist full-body silhouette becoming concealed by soft charcoal-indigo wisps. Six frames: 1 visible guarded stance centred; 2 two thin smoky ribbons pass across torso; 3 silhouette partly obscured by compact dark violet haze with subtle cool rim light; 4 figure almost invisible behind dispersing wisps; 5 faint outline and tiny smoke curls; 6 nearly blank. Keep readable against dark slate, but subtle. No skulls, eyes, teleport portal, stars, duplicated figures or environment.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-addded87-4c4c-4fbd-a5af-58d468ee3e9d.png",
+      "sheet": "spritesheets/concealment.png",
+      "gif": "gifs/concealment.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1200,
+        "action_duration_ms": 480,
+        "frame_durations_ms": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "3570ccffafe7cebbd72675e1e382de4d42e2edcc8830832f70001c5b207a8e07",
+        "sha256_gif": "aa51408aa4e04d00c67b61dee730e77691a683d32aff239c75299b38b2b34bd0"
+      }
+    },
+    {
+      "asset_id": "MH-001-B03-barrier-break",
+      "name": "barrier-break",
+      "prompt": "Use case: stylized-concept. Production sprite sheet for Mysterious Hearts illustrated RPG combat VFX, polished hand-painted anime game art, crisp silhouettes with restrained bloom. EXACTLY SIX sequential animation frames in a precise THREE COLUMN by TWO ROW grid, reading left to right then top to bottom. Landscape 1536x1024 canvas; six equal 512x512 cells. Fixed camera. Opaque dark slate #101824 background. No borders, gutters, labels, words, UI, scenery or watermarks. Keep all artwork within central 75 percent of each cell, generous clear margins. No overlapping cells, camera shake or full-screen flashes. Six frames represent one finite 480ms status or movement cue, not multiple poses inside a cell. One cyan-blue upright oval defensive barrier breaks after a resolved shield failure. Fixed oval at centre. Frame 1 intact softly glowing glass-like oval; 2 one visible branching crack across its surface; 3 oval separates into six broad curved cyan fragments with small gaps; 4 fragments drift outward a short distance and dim; 5 small dim fragments dissolve; 6 almost blank. No incoming attack, explosion, ground rubble, person, blood, text or repeated break. All fragments contained in cell.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-4561f316-b6f4-424b-91e5-37bde374a300.png",
+      "sheet": "spritesheets/barrier-break.png",
+      "gif": "gifs/barrier-break.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1200,
+        "action_duration_ms": 480,
+        "frame_durations_ms": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "4993117671c49bab609389467629f2945f8020b239ad0025d472986a68f148c5",
+        "sha256_gif": "cbcab9bf7c97531c1d65a2b5a0776c7ea1a3dfc202a82cca037bc6acb01f0479"
+      }
+    },
+    {
+      "asset_id": "MH-001-B03-recovery",
+      "name": "recovery",
+      "prompt": "Use case: stylized-concept. Production sprite sheet for Mysterious Hearts illustrated RPG combat VFX, polished hand-painted anime game art, crisp silhouettes with restrained bloom. EXACTLY SIX sequential animation frames in a precise THREE COLUMN by TWO ROW grid, reading left to right then top to bottom. Landscape 1536x1024 canvas; six equal 512x512 cells. Fixed camera. Opaque dark slate #101824 background. No borders, gutters, labels, words, UI, scenery or watermarks. Keep all artwork within central 75 percent of each cell, generous clear margins. No overlapping cells, camera shake or full-screen flashes. Six frames represent one finite 480ms status or movement cue, not multiple poses inside a cell. Generic faceless blue-grey adult martial artist full-body silhouette regains stable posture after stagger, not healing. Six frames: 1 slightly crouched unsteady stance with lowered guard; 2 feet square and knees straighten; 3 upright balanced guard returns with one short quiet steel-blue arc near feet; 4 holds stable posture; 5 upright silhouette fades; 6 almost gone. Same ground line throughout. No green healing glow, health icons, particles, injury, attack or duplicate bodies.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-2e4d9b54-7221-4dcc-b4e0-1f476fa465c1.png",
+      "sheet": "spritesheets/recovery.png",
+      "gif": "gifs/recovery.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1200,
+        "action_duration_ms": 480,
+        "frame_durations_ms": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "a369f0de52b4971e5331920e267d3f649bf280f2a82d81caa4f4869c20afd008",
+        "sha256_gif": "1ee7db8a832f9cbfc024681027485558f8a7c35a288f5784cf70eb70b64eadad"
+      }
+    },
+    {
+      "asset_id": "MH-001-B03-movement-escape",
+      "name": "movement-escape",
+      "prompt": "Use case: stylized-concept. Production sprite sheet for Mysterious Hearts illustrated RPG combat VFX, polished hand-painted anime game art, crisp silhouettes with restrained bloom. EXACTLY SIX sequential animation frames in a precise THREE COLUMN by TWO ROW grid, reading left to right then top to bottom. Landscape 1536x1024 canvas; six equal 512x512 cells. Fixed camera. Opaque dark slate #101824 background. No borders, gutters, labels, words, UI, scenery or watermarks. Keep all artwork within central 75 percent of each cell, generous clear margins. No overlapping cells, camera shake or full-screen flashes. Six frames represent one finite 480ms status or movement cue, not multiple poses inside a cell. Generic faceless blue-grey adult martial artist full-body action silhouette makes a short retreat to the right, an escape movement cue rather than a successful escape claim. Six frames: 1 light guarded stance at left of cell centre; 2 pushes off stepping right; 3 quick rightward retreat stride with short steel-blue trailing air wisps; 4 arrives toward right side but whole body remains within cell; 5 figure and trailing wisps fade; 6 almost blank. No attacker, impact, teleport portal, text, arrows, environmental damage or duplicated solid bodies.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-5c0ececb-99b9-4995-99fc-4f17a0e3b51b.png",
+      "sheet": "spritesheets/movement-escape.png",
+      "gif": "gifs/movement-escape.gif",
+      "revision": {
+        "prompt": "Edit this sprite sheet only to remove the thin black panel border/grid lines. Replace the thin lines at cell boundaries and outer edges with the adjacent dark slate background. Preserve exact canvas 1536x1024, exact 3-column 2-row layout, all six character poses and positions, colours, shading, wisps and fade progression. No other changes. No borders or gutters whatsoever.",
+        "original_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-1d620e58-dd4d-43b8-ab4e-54baa942ec97.png",
+        "reason": "Remove generated panel borders."
+      },
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1200,
+        "action_duration_ms": 480,
+        "frame_durations_ms": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "da622a6fec7ab801918c45487c2a9a8a79df4d5c2d32adf90a6fd2ed57a42c40",
+        "sha256_gif": "ba4839a012c5531683f92265ebdcb86c8d7c175223c5e8bc6e51d45aef1c5c37"
+      }
+    }
+  ],
+  "validation_command": "python tools/build_combat_batch_gifs.py --batch 3"
+}

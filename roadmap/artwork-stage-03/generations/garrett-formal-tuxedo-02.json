@@ -1,0 +1,14 @@
+{
+  "id": "garrett-formal-tuxedo",
+  "tool": "built-in image_gen",
+  "model": "not exposed",
+  "generated_source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c7d2-0cc6-74f2-ba9f-981788fc8cd9\\exec-1b0f23fd-9b9e-4e0b-a5f4-6d58c31c397a.png",
+  "sha256": "128367783046594d67b9a3e581a7052275e38464e1406f19e9395c64e0e89c2c",
+  "prompt": "Image 1 is the exact EDIT TARGET. Restore ONLY Garrett's missing black branching neck tattoo on the exposed skin on HIS LEFT neck (viewer RIGHT), matching its design, position and scale in Image 2, the accepted master. The tattoo starts under the hair behind his left jaw and extends down the neck. Draw only the portions on exposed skin above and inside the current collar; fabric must occlude the rest naturally. Do not put ink on fabric, face or the opposite side. Keep Image 1 face, hair, expression, body, outfit, jewellery, hands, pose and mid-thigh crop EXACTLY unchanged. Do not import the master's clothes. Same 1024x1536 transparent RGBA, fully clear alpha outside silhouette, no backdrop or stray edge pixels.",
+  "referenced_image_paths": [
+    "C:\\Users\\ryanl\\Documents\\Mysterious Hearts\\roadmap\\artwork-stage-03\\candidates\\garrett-formal-tuxedo.png",
+    "C:\\Users\\ryanl\\Documents\\Mysterious Hearts\\roadmap\\artwork-stage-03\\masters\\garrett.png"
+  ],
+  "transparent_background": true,
+  "pixel_postprocessing": false
+}

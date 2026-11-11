@@ -4,7 +4,8 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from unittest.mock import patch
 from PIL import ImageGrab
 import game,game_core as core,grove,town,charles_quest as quest
-from test_charles_quest import arrive
+from test_charles_quest import arrive, clear_security
+from campaign_ui_helpers import finish_script
 from careers_ui_smoke import audit
 
 with patch.object(game.Game,'check',lambda self:None),patch.object(game.Game,'persist',lambda self:None),patch.object(game.Game,'begin_incoming',lambda self:None),patch.object(grove.GrovePump,'tick',lambda self:None):
@@ -17,12 +18,13 @@ with patch.object(game.Game,'check',lambda self:None),patch.object(game.Game,'pe
         out=core.ROOT/'.test-tmp'
         for i in range(len(quest.STEPS)):
             arrive(s,i);panel.draw();app.update();audit(panel)
-            if i in (0,8,9):ImageGrab.grab(window=app.winfo_id()).save(out/f'charles-quest-stage-{i}.png')
-            panel.act(quest.advance,0);app.update()
+            if i in (0,8,9,12,14,18,19):ImageGrab.grab(window=app.winfo_id()).save(out/f'charles-quest-stage-{i}.png')
+            clear_security(s);finish_script(app);panel.act(quest.advance,0);finish_script(app);app.update()
+        assert quest.reunited(s) and quest.read(s)['ending']
         panel.canvas.yview_moveto(0);app.update()
         ImageGrab.grab(window=app.winfo_id()).save(out/'charles-quest-complete.png')
         app.phone_window('Contacts');app.phone_activity.contact_detail('charles');app.update();audit(app.phone_activity)
         ImageGrab.grab(window=app.phone_activity.winfo_id()).save(out/'charles-private-number.png')
         assert not errors,errors
-        print('PASS: phone-to-main-window quest, eleven chapters, evidence scroll, completion and private-number profile.')
+        print('PASS: phone-to-main-window quest, twenty chapters, evidence scroll, completion and private-number profile.')
     finally:app.sounds.close();app.destroy()

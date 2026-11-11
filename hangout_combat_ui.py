@@ -8,6 +8,7 @@ import combat
 import combat_dialogue
 from combat_profiles import TEACHERS
 import winterfield_ui as ui
+import combat_style as style
 
 
 def open_dialogue(game, who=None, art=None):
@@ -54,7 +55,7 @@ class HangoutCombat:
     def draw(self):
         for child in self.panel.winfo_children(): child.destroy()
         self.panel.pack(fill='x',before=self.view.composer,pady=5)
-        row=tk.Frame(self.panel,bg=ui.PANEL); row.pack(fill='x')
+        row=style.Panel(self.panel,padx=8,pady=5); row.pack(fill='x')
         if self.response:
             group=self.game.state_data['groups'].get(self.gid,{})
             label='Continue to fight' if combat.active(self.game.state_data) else 'Continue hangout' if group.get('open') else 'Return to location'
@@ -77,7 +78,7 @@ class HangoutCombat:
             self.button(row,'Close',self.panel.pack_forget)
             arts=TEACHERS.get(self.who,[])
             if arts:
-                row=tk.Frame(self.panel,bg=ui.PANEL); row.pack(fill='x')
+                row=style.Panel(self.panel,padx=8,pady=5); row.pack(fill='x')
                 selected=tk.StringVar(value=self.art if self.art in arts else arts[0])
                 ttk.Combobox(row,values=arts,textvariable=selected,state='disabled' if self.working else 'readonly',width=24).pack(side='left',padx=3)
                 self.button(row,'Ask to learn · 30 min',lambda:self.request('learn',selected.get()))

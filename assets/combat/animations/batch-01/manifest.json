@@ -1,0 +1,224 @@
+{
+  "roadmap_id": "MH-001",
+  "batch": 1,
+  "created": "2026-11-10",
+  "status": "Six local sprite sheets and six GIFs assembled and structurally verified; runtime integration pending.",
+  "requested_model": "Images 2.6",
+  "generation_tool": "built-in image_gen",
+  "model_verification": "The built-in tool does not expose a model selector or return a verified model identifier.",
+  "workflow": "Generate sprite sheets first; slice and encode locally using Pillow.",
+  "grid": {
+    "columns": 3,
+    "rows": 2
+  },
+  "frame_duration_ms": 80,
+  "blank_hold_ms": 720,
+  "background": "opaque dark slate; not transparent",
+  "assets": [
+    {
+      "asset_id": "MH-001-B01-slash",
+      "name": "slash",
+      "prompt": "Use case: stylized-concept. Create a production sprite sheet for Mysterious Hearts RPG combat VFX. EXACTLY 6 sequential animation frames in a precise 3-column by 2-row grid, reading left to right then top to bottom. Landscape canvas 1536x1024, six equal square cells. No gutters, borders, labels, letters, numbers, UI, people, scenery or watermarks. Uniform dark slate #101824 background across entire sheet. Fixed camera, consistent scale, each effect entirely inside the central 70% of its cell, no crossing cell edges. Polished hand-painted anime game effects, crisp silhouettes and restrained glow. This sheet will be sliced into six 80ms frames for a finite combat effect; do not draw multiple motion states inside any one cell. Frame 1 small anticipation; frame 2 builds; frame 3 strongest; frame 4 disperses; frame 5 fades; frame 6 nearly gone. One pale steel-blue physical blade crescent swings from lower left to upper right. Start a short curved sliver; grow the sweep; one broad clean crescent at peak; break into three thin streaks; fade. No weapon, magic, electricity or impact explosion.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-2804d78a-61b1-447f-a5d7-a267cf9103eb.png",
+      "sheet": "spritesheets/slash.png",
+      "gif": "gifs/slash.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1200,
+        "action_duration_ms": 480,
+        "frame_durations_ms": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "456b04515d913d3fc5b3fe13de1b1dee07e37889322a1b88cc57cc1a4f58de5c",
+        "sha256_gif": "5ab522da14e40f948455d4d9a88a53449c3d37a9ab5e58f08570c94d02302797"
+      }
+    },
+    {
+      "asset_id": "MH-001-B01-blunt-impact",
+      "name": "blunt-impact",
+      "prompt": "Use case: stylized-concept. Create a production sprite sheet for Mysterious Hearts RPG combat VFX. EXACTLY 6 sequential animation frames in a precise 3-column by 2-row grid, reading left to right then top to bottom. Landscape canvas 1536x1024, six equal square cells. No gutters, borders, labels, letters, numbers, UI, people, scenery or watermarks. Uniform dark slate #101824 background across entire sheet. Fixed camera, consistent scale, each effect entirely inside the central 70% of its cell, no crossing cell edges. Polished hand-painted anime game effects, crisp silhouettes and restrained glow. This sheet will be sliced into six 80ms frames for a finite combat effect; do not draw multiple motion states inside any one cell. Frame 1 small anticipation; frame 2 builds; frame 3 strongest; frame 4 disperses; frame 5 fades; frame 6 nearly gone. One compact pale steel-blue physical impact at the identical centre of every cell: small compression spark, short thick starburst at contact, expanding air shock ring with a few blunt radial speed strokes, then thinning ring and dissipating wisps. No lightning, fire, rubble, crater or second impact.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-ea56a6f5-9f0c-4d27-a314-77eefc84a97c.png",
+      "sheet": "spritesheets/blunt-impact.png",
+      "gif": "gifs/blunt-impact.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1200,
+        "action_duration_ms": 480,
+        "frame_durations_ms": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "68a0f6b7c564a8ca3ab5caed6f3b4a58dbfbe32a15afe4338241b8b4a119d94a",
+        "sha256_gif": "f44e858100d697fa26f72b77433584a5968bf97e8bb4119fa1586243e12434c6"
+      }
+    },
+    {
+      "asset_id": "MH-001-B01-projectile",
+      "name": "projectile",
+      "prompt": "Use case: stylized-concept. Create a production sprite sheet for Mysterious Hearts RPG combat VFX. EXACTLY 6 sequential animation frames in a precise 3-column by 2-row grid, reading left to right then top to bottom. Landscape canvas 1536x1024, six equal square cells. No gutters, borders, labels, letters, numbers, UI, people, scenery or watermarks. Uniform dark slate #101824 background across entire sheet. Fixed camera, consistent scale, each effect entirely inside the central 70% of its cell, no crossing cell edges. Polished hand-painted anime game effects, crisp silhouettes and restrained glow. This sheet will be sliced into six 80ms frames for a finite combat effect; do not draw multiple motion states inside any one cell. Frame 1 small anticipation; frame 2 builds; frame 3 strongest; frame 4 disperses; frame 5 fades; frame 6 nearly gone. One small steel-blue physical projectile travels left to right, horizontally at the same height. Six positions: x=20%,32%,45%,58%,70%,80% within each cell; thin tapering wake behind it, starts small, strongest in middle frames and dissolves by last. NO impact baked into flight, gun, casing, duplicate projectiles, or explosion. Keep entire streak within each cell.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-9040f26e-ddf0-4e8a-8a71-5fffd6510bfa.png",
+      "sheet": "spritesheets/projectile.png",
+      "gif": "gifs/projectile.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1200,
+        "action_duration_ms": 480,
+        "frame_durations_ms": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "7b80d4437aefa113acdafd2f49f4ba268b805d402f1c7b1b18e4e56ae2731e42",
+        "sha256_gif": "d23ed72a849f316b7276566e7b6a961995f35c17de19fe45a232dd1960b541b6"
+      }
+    },
+    {
+      "asset_id": "MH-001-B01-magic",
+      "name": "magic",
+      "prompt": "Use case: stylized-concept. Create a production sprite sheet for Mysterious Hearts RPG combat VFX. EXACTLY 6 sequential animation frames in a precise 3-column by 2-row grid, reading left to right then top to bottom. Landscape canvas 1536x1024, six equal square cells. No gutters, borders, labels, letters, numbers, UI, people, scenery or watermarks. Uniform dark slate #101824 background across entire sheet. Fixed camera, consistent scale, each effect entirely inside the central 70% of its cell, no crossing cell edges. Polished hand-painted anime game effects, crisp silhouettes and restrained glow. This sheet will be sliced into six 80ms frames for a finite combat effect; do not draw multiple motion states inside any one cell. Frame 1 small anticipation; frame 2 builds; frame 3 strongest; frame 4 disperses; frame 5 fades; frame 6 nearly gone. One violet arcane pulse centred at identical position in each cell. A tiny violet mote gathers two curved orbiting wisps, compresses into a luminous orb, blossoms into a compact violet ring, ring expands and thins, then disperses into a few dim purple motes. No readable runes or lettering, lightning or environmental destruction.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-aab84f08-84ec-4f1b-bcc4-21460ba1aff4.png",
+      "sheet": "spritesheets/magic.png",
+      "gif": "gifs/magic.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1200,
+        "action_duration_ms": 480,
+        "frame_durations_ms": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "9bbfc921323798018e7703c5fdf965521455386a1bdd65289af50f6da5c58250",
+        "sha256_gif": "4d8686617b57d1b7f7509bb89a7f6e8483ae49826d9ad70986702e94b0e9e671"
+      }
+    },
+    {
+      "asset_id": "MH-001-B01-heal",
+      "name": "heal",
+      "prompt": "Use case: stylized-concept. Create a production sprite sheet for Mysterious Hearts RPG combat VFX. EXACTLY 6 sequential animation frames in a precise 3-column by 2-row grid, reading left to right then top to bottom. Landscape canvas 1536x1024, six equal square cells. No gutters, borders, labels, letters, numbers, UI, people, scenery or watermarks. Uniform dark slate #101824 background across entire sheet. Fixed camera, consistent scale, each effect entirely inside the central 70% of its cell, no crossing cell edges. Polished hand-painted anime game effects, crisp silhouettes and restrained glow. This sheet will be sliced into six 80ms frames for a finite combat effect; do not draw multiple motion states inside any one cell. Frame 1 small anticipation; frame 2 builds; frame 3 strongest; frame 4 disperses; frame 5 fades; frame 6 nearly gone. One mint-green healing rise centred at identical position in each cell. Tiny green motes gather low, rise in two gently curling ribbons, form a soft luminous upward spiral at peak, stretch upward, separate into small glowing green leaves of light, and fade. Positive restorative visual, no medical cross, text, damage impact, person or ground.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-ef2489bf-6904-4e82-8656-d4834839cb90.png",
+      "sheet": "spritesheets/heal.png",
+      "gif": "gifs/heal.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1200,
+        "action_duration_ms": 480,
+        "frame_durations_ms": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "3c7cb2a2d88852f52893b814c7c9d1013704c1b58bd60694eec15c1e841d3757",
+        "sha256_gif": "48a9edafa5c9e48de03426f69e86fef22b93da121aa7e91a2389c476043dd043"
+      }
+    },
+    {
+      "asset_id": "MH-001-B01-shield",
+      "name": "shield",
+      "prompt": "Use case: stylized-concept. Create a production sprite sheet for Mysterious Hearts RPG combat VFX. EXACTLY 6 sequential animation frames in a precise 3-column by 2-row grid, reading left to right then top to bottom. Landscape canvas 1536x1024, six equal square cells. No gutters, borders, labels, letters, numbers, UI, people, scenery or watermarks. Uniform dark slate #101824 background across entire sheet. Fixed camera, consistent scale, each effect entirely inside the central 70% of its cell, no crossing cell edges. Polished hand-painted anime game effects, crisp silhouettes and restrained glow. This sheet will be sliced into six 80ms frames for a finite combat effect; do not draw multiple motion states inside any one cell. Frame 1 small anticipation; frame 2 builds; frame 3 strongest; frame 4 disperses; frame 5 fades; frame 6 nearly gone. One cyan-blue magical defensive barrier materialises centred at identical position in each cell. Small cyan curved strokes gather, join into an upright oval shield outline, fill with a translucent curved glass-like protective dome at peak, softly pulse once, then thin and fade. No attack hitting it, cracks, block burst, crest, emblem or text. Clearly defensive.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-d21e252f-1803-488b-9cb0-8c9a8d7cae81.png",
+      "sheet": "spritesheets/shield.png",
+      "gif": "gifs/shield.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1200,
+        "action_duration_ms": 480,
+        "frame_durations_ms": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "d4ea928b9812632d887bdc6cb89aa55799b90a45b6fed4064a328aad51057dcc",
+        "sha256_gif": "9e3d9b864a4c029eed5c57c5b2abe2e3cbb92f9fbceb31604ca0124cf0c3147c"
+      }
+    }
+  ],
+  "validation_command": "python tools/build_combat_batch_gifs.py"
+}

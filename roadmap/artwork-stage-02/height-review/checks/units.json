@@ -1,0 +1,52 @@
+[
+  {
+    "command": "python tools/audit_character_stature.py",
+    "exit_code": 0,
+    "log": "audit_character_stature.txt"
+  },
+  {
+    "command": "python -m unittest discover -s tests -p test_portrait_framing.py -v",
+    "exit_code": 0,
+    "log": "test_portrait_framing.py.txt"
+  },
+  {
+    "command": "python -m unittest discover -s tests -p test_character_selection.py -v",
+    "exit_code": 0,
+    "log": "test_character_selection.py.txt"
+  },
+  {
+    "command": "python -m unittest discover -s tests -p test_hangout_scene.py -v",
+    "exit_code": 0,
+    "log": "test_hangout_scene.py.txt"
+  },
+  {
+    "command": "python -m unittest discover -s tests -p test_guard_portraits.py -v",
+    "exit_code": 0,
+    "log": "test_guard_portraits.py.txt"
+  },
+  {
+    "command": "python -m unittest discover -s tests -p test_combat_portraits.py -v",
+    "exit_code": 0,
+    "log": "test_combat_portraits.py.txt"
+  },
+  {
+    "command": "python -m unittest discover -s tests -p test_campaign_flashbacks.py -v",
+    "exit_code": 0,
+    "log": "test_campaign_flashbacks.py.txt"
+  },
+  {
+    "command": "python -m unittest discover -s tests -p test_flashback_visits.py -v",
+    "exit_code": 0,
+    "log": "test_flashback_visits.py.txt"
+  },
+  {
+    "command": "python -m unittest discover -s tests -p test_syndicate_cast.py -v",
+    "exit_code": 0,
+    "log": "test_syndicate_cast.py.txt"
+  },
+  {
+    "command": "python -m unittest discover -s tests -p test_campaign_prose.py -v",
+    "exit_code": 0,
+    "log": "test_campaign_prose.py.txt"
+  }
+]

@@ -1,0 +1,1 @@
+8 RGBA 1024x1536 portraits verified; 15 generations; installed=True; 8 baseline files changed.

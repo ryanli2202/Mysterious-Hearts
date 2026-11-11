@@ -87,7 +87,7 @@ def refresh(s):
     if s['world']['location'] in LOCATIONS:
         names[:] = []
     names[:] = [n for n in names if n not in BY_NAME]
-    names.extend(p['name'] for p in LEADERS.values() if p['base'] == s['world']['location'])
+    names.extend(p['name'] for key,p in LEADERS.items() if p['base'] == s['world']['location'] and key not in s.get('organisation_guards',{}).get('disabled',[]))
 
 
 def context(s, name):

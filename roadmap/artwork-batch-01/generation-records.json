@@ -1,0 +1,265 @@
+[
+  {
+    "id": "ivan-selection",
+    "prompt": "Use case: identity-preserve. Create the finished MH-013 pilot replacement portrait of IVAN, editing the sole reference image. Preserve his exact face and current semi-realistic illustrated manhwa rendering: ash/light brown swept tousled hair, pale grey-green eyes, freckles across nose/cheeks, thick dark brows, pale warm complexion, silver round stud earrings, subtle relaxed smile, black tailored blazer over black high-neck knit and fine rose-gold chain. Tall 193cm adult, broad but lean athletic build. Change composition to COMPLETE HEAD THROUGH MID-THIGH, constructing pelvis, crotch and substantial length of both trouser thighs below crotch. Hands naturally in trouser pockets as reference. Preserve face likeness, head/neck proportions and clothes; do not elongate torso. This is a camera zoom out with anatomically correct lower-body extension, not more empty canvas around the old hip crop. Vertical 2:3 1024x1536 RGBA PNG, figure fills about 90% height with 4% headroom and small bottom margin; hair, elbows and pocketed hands safely inside all edges. Genuine alpha transparency, empty clear background and gaps; NO background glow/haze, white outline, scenery, text, signature, watermark. No photo or 3D style. Preserve selective tapered contours and softly constructed nose, eyelids and lips.",
+    "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c4bb-5097-79c3-9260-13655e32323c/exec-c3b406e5-e69e-486c-8e1a-a5106e285c00.png",
+    "input_images": [
+      {
+        "role": "identity/outfit edit target",
+        "path": "roadmap/artwork-batch-01/originals/ivan-selection.png"
+      }
+    ],
+    "disposition": "installed",
+    "runtime_id": "ivan-selection"
+  },
+  {
+    "id": "charles-selection-v2",
+    "prompt": "Use case: identity-preserve. Create the finished MH-013 pilot replacement portrait of CHARLES, editing the sole reference image. Preserve exact identity and semi-realistic illustrated manhwa style: warm pale complexion, black wavy curtain hair, amber eyes, dark brows, small brown mark below his right eye (viewer LEFT cheek), silver hoop earrings and silver curb chain, black zip jacket open over plain pale grey/white crew-neck tee and black trousers. Adult handsome broad athletic build, calm reserved expression. Main change: COMPLETE HEAD THROUGH MID-THIGH. Construct pelvis, crotch and substantial length of both trouser thighs below crotch, full hairstyle with 4% clear headroom. Hands naturally in pockets exactly as reference. No torso stretching. Render one coherent body; vertical 2:3 1024x1536 RGBA, figure ~90% canvas height, elbows and all clothing inside edges, small transparent margin below clean thigh cutoff. Clean genuine alpha around silhouette and through gaps: remove all ambient rectangle, halo or haze present around original; no background, ground shadow, white outline, checkerboard, text, signature. Preserve illustrated dimensional nose/lips and controlled jacket shadow planes; no photorealism or 3D.",
+    "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c4bb-5097-79c3-9260-13655e32323c/exec-fc3fcadf-4c00-4578-88ec-90194a674bf8.png",
+    "input_images": [
+      {
+        "role": "identity/outfit edit target",
+        "path": "roadmap/artwork-batch-01/originals/charles-selection-v2.png"
+      }
+    ],
+    "disposition": "installed",
+    "runtime_id": "charles-selection-v2"
+  },
+  {
+    "id": "emily-selection",
+    "prompt": "Use case: identity-preserve / style-transfer. Finished MH-013 game portrait. Image 1 locks THIS person's identity, age, clothes and colours. Images 2 and 3 define only SEMI-REALISTIC ILLUSTRATED MANHWA rendering; never copy the men's faces/builds/clothes. Construct dimensional nose bridge/tip, natural-scale eyes and eyelids, soft cheek/lip planes, selective tapered outlines and controlled soft-plus-shaped shading. No flat anime face, needle chin, oversized irises, photorealism or 3D. Mandatory COMPLETE HEAD TO MID-THIGH framing: construct pelvis and generous thigh length below crotch, anatomically proportioned, no torso stretching. Vertical 2:3 1024x1536 RGBA PNG; full hair 50 pixels below top; small clear bottom margin below mid-thigh cutoff; elbows, fingers and outfit fully within sides. Genuine transparent alpha empty around silhouette and through gaps. No backdrop, fog, halo, ground shadow, checkerboard, text, signature or watermark. Emily Fields, 20-year-old adult woman: preserve delicate fair-skinned face, long straight pale blonde hair and blunt bangs, fine round silver glasses, blue eyes, gentle shy closed-mouth smile. Preserve cream high-neck ruffled long-sleeve blouse with black ribbon bow and silver cross-like pendant; muted blue pinafore dress with silver fasteners, waist belt and detailed white embroidered snowflake/floral motif on bib. Keep her distinctly feminine delicate adult anatomy; reduce doll-like eye scale and construct nose/lips while preserving recognizability. Full hands loosely clasped naturally in front, five fingers per hand with no fused shapes. Extend the modest blue skirt naturally past pelvis to the mid-thigh composition cutoff; do not shorten garment or reveal bare legs.",
+    "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c4bb-5097-79c3-9260-13655e32323c/exec-30fd7269-4caf-4371-8423-0b06cfd57c6c.png",
+    "input_images": [
+      {
+        "role": "identity/outfit edit target",
+        "path": "roadmap/artwork-batch-01/originals/emily-selection.png"
+      },
+      {
+        "role": "rendering only",
+        "path": "roadmap/artwork-batch-01/originals/ivan-selection.png"
+      },
+      {
+        "role": "rendering only",
+        "path": "roadmap/artwork-batch-01/originals/charles-selection-v2.png"
+      }
+    ],
+    "disposition": "superseded draft",
+    "runtime_id": "emily-selection"
+  },
+  {
+    "id": "minsu-selection",
+    "prompt": "Use case: identity-preserve / style-transfer. Finished MH-013 game portrait. Image 1 locks THIS person's identity, age, clothes and colours. Images 2 and 3 define only SEMI-REALISTIC ILLUSTRATED MANHWA rendering; never copy the men's faces/builds/clothes. Construct dimensional nose bridge/tip, natural-scale eyes and eyelids, soft cheek/lip planes, selective tapered outlines and controlled soft-plus-shaped shading. No flat anime face, needle chin, oversized irises, photorealism or 3D. Mandatory COMPLETE HEAD TO MID-THIGH framing: construct pelvis and generous thigh length below crotch, anatomically proportioned, no torso stretching. Vertical 2:3 1024x1536 RGBA PNG; full hair 50 pixels below top; small clear bottom margin below mid-thigh cutoff; elbows, fingers and outfit fully within sides. Genuine transparent alpha empty around silhouette and through gaps. No backdrop, fog, halo, ground shadow, checkerboard, text, signature or watermark. Minsu, young adult Korean man, 177cm athletic build. Retain black tousled curtain hair, warm light skin, brown eyes, approachable friendly smile. Softer cheek/jaw contours than source, natural mouth with lips and subtle teeth rather than a flat outlined tooth bar. Preserve black/charcoal zip bomber jacket with ribbed collar and cuffs, plain ivory T-shirt and dark trousers. Relaxed posture with both hands naturally in trouser pockets; complete arms. Do not make his face identical to Charles or lose his youthful friendly adult expression.",
+    "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c4bb-5097-79c3-9260-13655e32323c/exec-d7b12cd8-81f0-46bb-965e-12705528d223.png",
+    "input_images": [
+      {
+        "role": "identity/outfit edit target",
+        "path": "roadmap/artwork-batch-01/originals/minsu-selection.png"
+      },
+      {
+        "role": "rendering only",
+        "path": "roadmap/artwork-batch-01/originals/ivan-selection.png"
+      },
+      {
+        "role": "rendering only",
+        "path": "roadmap/artwork-batch-01/originals/charles-selection-v2.png"
+      }
+    ],
+    "disposition": "superseded draft",
+    "runtime_id": "minsu-selection"
+  },
+  {
+    "id": "priya-shah-selection",
+    "prompt": "Use case: identity-preserve / style-transfer. Finished MH-013 game portrait. Image 1 locks THIS person's identity, age, clothes and colours. Images 2 and 3 define only SEMI-REALISTIC ILLUSTRATED MANHWA rendering; never copy the men's faces/builds/clothes. Construct dimensional nose bridge/tip, natural-scale eyes and eyelids, soft cheek/lip planes, selective tapered outlines and controlled soft-plus-shaped shading. No flat anime face, needle chin, oversized irises, photorealism or 3D. Mandatory COMPLETE HEAD TO MID-THIGH framing: construct pelvis and generous thigh length below crotch, anatomically proportioned, no torso stretching. Vertical 2:3 1024x1536 RGBA PNG; full hair 50 pixels below top; small clear bottom margin below mid-thigh cutoff; elbows, fingers and outfit fully within sides. Genuine transparent alpha empty around silhouette and through gaps. No backdrop, fog, halo, ground shadow, checkerboard, text, signature or watermark. Priya Shah, 38-year-old Indian public librarian. Preserve medium-brown skin, warm mature face, black hair in loose low bun with swept side part and stray locks, rectangular black glasses, small beauty mark on her right cheek (viewer LEFT), silver oval drop earrings, plum cardigan over teal split-neck blouse, thoughtful warm small smile. Keep natural mature cheeks, realistic nose and eye size through glasses, subtle age cues; do not turn into teen or pale idol. Extend cardigan/blouse and plain dark tailored trousers, relaxed stance with both complete hands resting loosely together near waist. Mid-thigh view.",
+    "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c4bb-5097-79c3-9260-13655e32323c/exec-b57bea66-7b7a-4ed4-98f9-4548800169a8.png",
+    "input_images": [
+      {
+        "role": "identity/outfit edit target",
+        "path": "roadmap/artwork-batch-01/originals/priya-shah-selection.png"
+      },
+      {
+        "role": "rendering only",
+        "path": "roadmap/artwork-batch-01/originals/ivan-selection.png"
+      },
+      {
+        "role": "rendering only",
+        "path": "roadmap/artwork-batch-01/originals/charles-selection-v2.png"
+      }
+    ],
+    "disposition": "installed",
+    "runtime_id": "priya-shah-selection"
+  },
+  {
+    "id": "otis-bell-selection",
+    "prompt": "Use case: identity-preserve / style-transfer. Finished MH-013 game portrait. Image 1 locks THIS person's identity, age, clothes and colours. Images 2 and 3 define only SEMI-REALISTIC ILLUSTRATED MANHWA rendering; never copy the men's faces/builds/clothes. Construct dimensional nose bridge/tip, natural-scale eyes and eyelids, soft cheek/lip planes, selective tapered outlines and controlled soft-plus-shaped shading. No flat anime face, needle chin, oversized irises, photorealism or 3D. Mandatory COMPLETE HEAD TO MID-THIGH framing: construct pelvis and generous thigh length below crotch, anatomically proportioned, no torso stretching. Vertical 2:3 1024x1536 RGBA PNG; full hair 50 pixels below top; small clear bottom margin below mid-thigh cutoff; elbows, fingers and outfit fully within sides. Genuine transparent alpha empty around silhouette and through gaps. No backdrop, fog, halo, ground shadow, checkerboard, text, signature or watermark. Otis Bell, 67-year-old retired harbour mechanic. Preserve robust broad older build, weathered warm fair skin, tousled short silver-grey hair, full neatly short grey-white beard and moustache, blue eyes and friendly mild smile. Keep forehead lines and crow's feet, render with fine selective lines and skin planes rather than harsh ink; do not erase age or turn him into young muscular idol. Preserve worn navy work jacket with two buttoned chest flap pockets, ochre seam stitching/weathering, open over rust Henley shirt with brown buttons. Extend coherent jacket waist and practical dark work trousers to mid-thigh, arms relaxed at sides and both weathered hands fully visible, five fingers each. No tools or new accessories.",
+    "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c4bb-5097-79c3-9260-13655e32323c/exec-040a2e9e-dc67-4063-8a7d-8caaade4881b.png",
+    "input_images": [
+      {
+        "role": "identity/outfit edit target",
+        "path": "roadmap/artwork-batch-01/originals/otis-bell-selection.png"
+      },
+      {
+        "role": "rendering only",
+        "path": "roadmap/artwork-batch-01/originals/ivan-selection.png"
+      },
+      {
+        "role": "rendering only",
+        "path": "roadmap/artwork-batch-01/originals/charles-selection-v2.png"
+      }
+    ],
+    "disposition": "superseded draft",
+    "runtime_id": "otis-bell-selection"
+  },
+  {
+    "id": "guard-clubs",
+    "prompt": "Use case: identity-preserve / style-transfer. Finished MH-013 game portrait. Image 1 locks THIS person's identity, age, clothes and colours. Images 2 and 3 define only SEMI-REALISTIC ILLUSTRATED MANHWA rendering; never copy the men's faces/builds/clothes. Construct dimensional nose bridge/tip, natural-scale eyes and eyelids, soft cheek/lip planes, selective tapered outlines and controlled soft-plus-shaped shading. No flat anime face, needle chin, oversized irises, photorealism or 3D. Mandatory COMPLETE HEAD TO MID-THIGH framing: construct pelvis and generous thigh length below crotch, anatomically proportioned, no torso stretching. Vertical 2:3 1024x1536 RGBA PNG; full hair 50 pixels below top; small clear bottom margin below mid-thigh cutoff; elbows, fingers and outfit fully within sides. Genuine transparent alpha empty around silhouette and through gaps. No backdrop, fog, halo, ground shadow, checkerboard, text, signature or watermark. One masked Syndicate Clubs guard, preserving MH-010 design exactly. Image1 is equipment/pose identity lock. Black hood fully covering head, black helmet, broad opaque black visor (no eyes or face visible) and fitted black mask bearing centered white club-suit symbol. Black segmented tactical chest/abdomen armour, straps, buckles, belt pouches, dark long coat with olive-green lapels/inner edges/cuffs, thin gold outlined club emblem on viewer-left lapel. Full gloved hands: viewer-left holds same pistol safely downward, finger alongside frame; viewer-right open hand with restrained green electrical threads locally around glove. Preserve pistol, thigh holster and equipment; no additional weapons, no face exposure, no changing suit emblems. Broad adult stance from full hood to MID-THIGH with generous thigh length and contained coat/pistol; two complete five-finger gloves. Effects subordinate, no giant aura. Need entirely clean alpha beyond gear and small energy threads.",
+    "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c4bb-5097-79c3-9260-13655e32323c/exec-ca4a8707-65fe-407d-8cf0-184d2e73500f.png",
+    "input_images": [
+      {
+        "role": "identity/outfit edit target",
+        "path": "roadmap/artwork-batch-01/originals/guard-clubs.png"
+      },
+      {
+        "role": "rendering only",
+        "path": "roadmap/artwork-batch-01/originals/ivan-selection.png"
+      },
+      {
+        "role": "rendering only",
+        "path": "roadmap/artwork-batch-01/originals/charles-selection-v2.png"
+      }
+    ],
+    "disposition": "installed",
+    "runtime_id": "guard-clubs"
+  },
+  {
+    "id": "combat-ivan",
+    "prompt": "Use case: identity-preserve. Finished MH-013 combat portrait derivative of accepted civilian Ivan. Image1 is accepted new civilian MASTER: exact face, proportions, complexion, grey-green eyes, freckles, ash-brown swept hair, silver studs, rose-gold chain and black blazer/high-neck knit/trousers. Image2 is original COMBAT CONTEXT reference only: same person with orange flame ribbons, cyan ice shards, pale silver wind trails and red/blue electrical arcs. Draw Ivan in confident alert fighting stance, modest 3/4 turn, two fully visible raised open hands with correct five-finger anatomy. COMPLETE HEAD THROUGH MID-THIGH, construct pelvis and both substantial trouser thighs, no waist cutoff. Keep both elbows, hands and all effects safely inside canvas. Keep body as large as civilian master with ~90% total height; effects fit tightly alongside/behind shoulders/forearms and never obscure face or hands or expand into huge aura. Match master semi-realistic illustrated manhwa shading and face exactly; no costume change or invented power. Vertical 2:3 1024x1536 PNG with genuine alpha transparency throughout surrounding space and gaps, 3% headroom and small transparent bottom margin. No background, rectangle, ground shadow, text, signature, photorealism or 3D.",
+    "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c4bb-5097-79c3-9260-13655e32323c/exec-aa553324-8bff-475a-b145-23e41cd35234.png",
+    "input_images": [
+      {
+        "role": "accepted civilian identity/style master",
+        "path": "roadmap/artwork-batch-01/candidates/ivan-selection.png"
+      },
+      {
+        "role": "original combat effects/pose reference",
+        "path": "roadmap/artwork-batch-01/originals/combat-ivan.png"
+      }
+    ],
+    "disposition": "installed",
+    "runtime_id": "combat-ivan"
+  },
+  {
+    "id": "emily-selection-corrected",
+    "prompt": "Use case: precise-object-edit. Repair this unfinished game character cutout. Image1 is Emily's current draft. Her legs are MISSING: the bottom of the dress is currently surrounded by transparency so the skirt floats. Add her TWO ANATOMICALLY CONNECTED THIGHS extending down from UNDER the blue skirt hem; skin begins seamlessly under hem, absolutely no transparent gap between hem and legs. Zoom camera out enough to show full hairstyle, the whole dress, and a meaningful visible length of BOTH bare lower thighs below hem; crop just above knees. Keep modest natural dress hem around mid-thigh (not tiny miniskirt), then show lower thighs beneath. Legs stand naturally close together, plausible hip connections, weight and width. Preserve existing face, blonde hair, blue eyes, round silver glasses, adult age 20, cream ruffle blouse, ribbon, pendant, embroidered blue pinafore, two clasped hands, fabric details and semi-realistic illustrated manhwa rendering unchanged. Vertical 2:3 1024x1536 genuine RGBA, give full hair ~50px clear top margin and small transparent bottom margin below thigh cutoff. Figure only; NO background/haze/halo/text/watermark. This is a complete human body partly covered by a dress, not a garment-only cutout. Mandatory visible connected legs below skirt.",
+    "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c4bb-5097-79c3-9260-13655e32323c/exec-30f3a1b3-53b9-44f8-80b6-69f78ace5ea0.png",
+    "input_images": [
+      {
+        "role": "edit target",
+        "path": "C:/Users/ryanl/.codex/generated_images/01a1c4bb-5097-79c3-9260-13655e32323c/exec-30fd7269-4caf-4371-8423-0b06cfd57c6c.png"
+      }
+    ],
+    "disposition": "superseded after user identified knee-length framing",
+    "runtime_id": "emily-selection"
+  },
+  {
+    "id": "minsu-selection-reframed",
+    "prompt": "Use case: identity-preserve. COMPOSITION CORRECTION ONLY to this character portrait. Preserve this exact character's face, identity, age, skin, hair, expression, clothing, pose, hands and semi-realistic manhwa rendering. Current draft is STILL TOO CLOSE: crotch is too near bottom so only a sliver of thighs is visible. Reframe visibly WIDER/ZOOM OUT and construct both full upper legs down to a genuine MID-THIGH cutoff. Keep head/torso anatomically normal, no stretched torso. Need substantial thigh length BELOW CROTCH: place crown around y=60, chin around y=330, waist around y=900, crotch around y=1150, thigh cutoff at y=1490 on 1024x1536 canvas. These are framing guides: anatomical correctness first. This requires smaller head and torso in frame, NOT adding empty background or shortening legs. Both hands and elbows remain complete. Keep original outfit entirely unchanged; extend existing trousers with correctly connected pelvis and leg anatomy. Do not add belt/accessories or redesign. Vertical 2:3 1024x1536 RGBA, clear 3-4% headroom and small transparent bottom margin, clean transparent alpha background/gaps, no glow/halo/scenery/text/watermark. Final shows full hairstyle through the MIDDLE of both thighs, visibly more leg than the reference.",
+    "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c4bb-5097-79c3-9260-13655e32323c/exec-92832f83-2220-40c1-b35f-fc11920af1b7.png",
+    "input_images": [
+      {
+        "role": "edit target",
+        "path": "C:/Users/ryanl/.codex/generated_images/01a1c4bb-5097-79c3-9260-13655e32323c/exec-d7b12cd8-81f0-46bb-965e-12705528d223.png"
+      }
+    ],
+    "disposition": "installed",
+    "runtime_id": "minsu-selection"
+  },
+  {
+    "id": "otis-bell-selection-reframed",
+    "prompt": "Use case: identity-preserve. COMPOSITION CORRECTION ONLY to this character portrait. Preserve this exact character's face, identity, age, skin, hair, expression, clothing, pose, hands and semi-realistic manhwa rendering. Current draft is STILL TOO CLOSE: crotch is too near bottom so only a sliver of thighs is visible. Reframe visibly WIDER/ZOOM OUT and construct both full upper legs down to a genuine MID-THIGH cutoff. Keep head/torso anatomically normal, no stretched torso. Need substantial thigh length BELOW CROTCH: place crown around y=60, chin around y=330, waist around y=900, crotch around y=1150, thigh cutoff at y=1490 on 1024x1536 canvas. These are framing guides: anatomical correctness first. This requires smaller head and torso in frame, NOT adding empty background or shortening legs. Both hands and elbows remain complete. Keep original outfit entirely unchanged; extend existing trousers with correctly connected pelvis and leg anatomy. Do not add belt/accessories or redesign. Vertical 2:3 1024x1536 RGBA, clear 3-4% headroom and small transparent bottom margin, clean transparent alpha background/gaps, no glow/halo/scenery/text/watermark. Final shows full hairstyle through the MIDDLE of both thighs, visibly more leg than the reference.",
+    "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c4bb-5097-79c3-9260-13655e32323c/exec-07b74835-7f31-4f39-9a1c-b1540ebef6f1.png",
+    "input_images": [
+      {
+        "role": "edit target",
+        "path": "C:/Users/ryanl/.codex/generated_images/01a1c4bb-5097-79c3-9260-13655e32323c/exec-040a2e9e-dc67-4063-8a7d-8caaade4881b.png"
+      }
+    ],
+    "disposition": "installed",
+    "runtime_id": "otis-bell-selection"
+  },
+  {
+    "id": "emily-selection-mid-thigh",
+    "prompt": "Use case: identity-preserve / precise-object-edit. COMPOSITION-ONLY CORRECTION. The sole input is the current finished Emily portrait. It is framed TOO LOW and shows her knees. Deliver the SAME artwork, same face, same hair, same glasses, same clothes, same hands, same body pose and exact illustration style, with a TRUE MID-THIGH CROP. Crop the frame through the MIDDLE of the thighs, well ABOVE both knee shapes. No knee, kneecap, knee crease, calf or shin may appear. Preserve TWO visibly connected upper thighs under the skirt hem; leave just a short band of exposed upper thigh between hem and the bottom crop, about 70-110 pixels in the original reference scale. Do NOT remove the legs entirely and do NOT shorten or redesign the skirt. Simply move the camera closer uniformly, keeping full hairstyle and both shoulders/hands inside frame. Equivalent composition target in the existing 1024x1536 reference: crop approximately x=50 to974 and y=0 to1386, then fit uniformly to the final vertical 2:3 1024x1536 output; no stretching or changing anatomical proportions. Full head must remain visible with safe headroom. Do not recreate/redesign identity, outfit, jewellery, embroidery, hair, skin tone, expression or hands. Genuine transparent RGBA background around her silhouette, no scenery, halo, text, watermark. The final lower edge cuts both thighs at their midpoint: legs connected, KNEES COMPLETELY OUTSIDE FRAME.",
+    "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c4bb-5097-79c3-9260-13655e32323c/exec-4632fef8-4cb9-49dc-bc08-b62246909c32.png",
+    "input_images": [
+      {
+        "role": "composition edit target",
+        "path": "roadmap/artwork-batch-01/emily-mid-thigh-fix/before.png"
+      }
+    ],
+    "disposition": "superseded by restrained skin/fabric rendering with detailed hair",
+    "runtime_id": "emily-selection",
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "emily-selection-style-simplified-draft",
+    "prompt": "Use case: style-transfer, identity-preserve. Refine ONLY the rendering of EMILY in IMAGE 1 to match the restrained illustrated MANHWA drawing language of IVAN in IMAGE 2 and CHARLES in IMAGE 3. The current Emily is TOO PAINTERLY, TOO GLOSSY AND TOO FINELY RENDERED. Reduce surface detail and airbrushed modelling visibly. Aim for the SAME level of rendering simplification as images 2/3, while keeping her delicate adult feminine face. Clean selective ink contours; broad simple base colour areas with 2-3 purposeful shadow tones; mostly crisp designed cel-shadow shapes with only small controlled soft transitions. Skin: simple matte planes on nose/cheeks/chin, no skin grain, pores, blush bloom, cosmetic shine, glossy lips or soft photographic contouring. Hair: larger grouped blonde locks, fewer internal strand lines, broad restrained highlight shapes, no hundreds of shiny individual strands. Clothes: matte cloth with fewer broader fold shadows, remove fabric grain, pearly/satin gloss and microtexture; keep actual ruffles, ribbon, fasteners, lace edge and white bib embroidery recognizable but draw their shapes simply without hyper-detailed lace rendering. Jewellery and glasses have small plain highlights rather than elaborate polished reflections. NOT flat chibi/anime: retain dimensional nose/lip construction, natural adult eye proportions, readable eyelids and original facial likeness. Do not transfer the male anchors' facial features, complexion or clothes. LOCK EVERY OTHER ATTRIBUTE from image1: Emily is adult20, fair complexion, blue eyes, silver round glasses, long pale blonde hair and blunt bangs, gentle closed-mouth smile, cream high-neck ruffled blouse, black bow, pendant, blue embroidered pinafore, complete clasped hands and her same pose/body. CRITICAL COMPOSITION LOCK: use the exact current FULL HEAD TO MID-THIGH framing of IMAGE1; keep both connected thighs visible as a short band below skirt; no knees, no longer crop, no missing legs, no outfit redesign/shortening. Preserve current silhouette and figure scale with intact hair/hands. Output one vertical 2:3 1024x1536 RGBA character cutout, genuinely transparent background through all gaps; no scenery/halo/ground shadow/text/watermark. This is a modest reduction of rendering complexity to fit the anchor set, not a new character design.",
+    "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c4bb-5097-79c3-9260-13655e32323c/exec-ce662671-9939-44ce-a2d3-648f9af50cdd.png",
+    "input_images": [
+      {
+        "role": "identity, outfit and framing",
+        "path": "roadmap/artwork-batch-01/emily-style-refinement/before.png"
+      },
+      {
+        "role": "rendering anchor only",
+        "path": "assets/portraits/ivan-selection.png"
+      },
+      {
+        "role": "rendering anchor only",
+        "path": "assets/portraits/charles-selection-v2.png"
+      }
+    ],
+    "disposition": "superseded: face too flat relative to anchors",
+    "runtime_id": "emily-selection",
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "emily-selection-style-face-refinement-draft",
+    "prompt": "Use case: style-transfer / identity-preserve. Make a small targeted refinement to IMAGE1, the newly simplified Emily illustration. IMAGE2 Ivan and IMAGE3 Charles are the desired final drawing/rendering level ONLY. IMAGE1's clothing is now at the right simple, clean cel-shaded level, but her face has become TOO FLAT: the nose is a tiny shorthand mark and her hair is a little too graphic. Restore just enough semi-realistic manhwa STRUCTURE to her face to match Ivan/Charles: understated readable nose bridge/side plane, small natural nose tip and nostril, softly turned cheek plane and subtly defined upper/lower lips, fine eyelid construction. Add at most a few soft transitions inside simple shadow shapes, still matte and clearly drawn, NOT airbrushed or photoreal. Keep the existing gentle adult feminine likeness; don't copy the male faces or make her older/stern. Hair: preserve broad simple grouped locks and restrained highlights but add a few selective thin strand lines; avoid shiny metallic bands. Keep the simpler matte dress/blouse rendering, broad tidy fold shadows and clean linework from IMAGE1; no fabric grain, intricate micro-lace, pores, glitter, high gloss, waxy skin or cosmetic blush bloom. This should be between flat anime and painterly realism, at the restrained level of the two male anchors. LOCK everything else from IMAGE1: exact full-head-to-MID-THIGH composition, short visible band of both connected thighs under blue skirt, NO KNEES, same pose and full clasped hands, adult20 petite body, fair complexion, blonde hair with bangs, blue eyes, silver round glasses, cream ruffled blouse, black bow, pendant, white embroidered blue bib and silver fasteners. No shortening or redesigning clothes, no new accessories, no anatomy or framing changes. One vertical 2:3 1024x1536 PNG with genuine alpha transparency around silhouette and gaps; no background, halo, text or watermark.",
+    "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c4bb-5097-79c3-9260-13655e32323c/exec-028d80e6-056f-4625-9550-4951a5963142.png",
+    "input_images": [
+      {
+        "role": "style draft edit target",
+        "path": "roadmap/artwork-batch-01/emily-style-refinement/too-flat-draft.png"
+      },
+      {
+        "role": "rendering anchor",
+        "path": "assets/portraits/ivan-selection.png"
+      },
+      {
+        "role": "rendering anchor",
+        "path": "assets/portraits/charles-selection-v2.png"
+      }
+    ],
+    "disposition": "superseded: user requested detailed hair be preserved",
+    "runtime_id": "emily-selection",
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "emily-selection-style-detailed-hair",
+    "prompt": "Use case: precise-object-edit / compositing. IMAGE1 is Emily's simplified manhwa portrait: KEEP its face, matte skin, restrained facial modelling, cleaner blouse/dress cel shading, jewellery, glasses, hands, pose and composition exactly. IMAGE2 is the PREVIOUS Emily portrait and is a reference for HAIR DETAIL ONLY. The user explicitly requires that her HAIR REMAIN DETAILED. Restore the beautiful intricately drawn pale-blonde hair from IMAGE2 onto IMAGE1: same original level of fine flowing individual strands, multiple delicate directional locks, nuanced blonde strand colour variation, separated fine bangs, fine wispy tips and layered lustrous highlights. Preserve the original hair's rich strand detail and soft flowing volume, not broad empty flat vector blocks. Do NOT simplify or flatten the hair. Copy image2's hair drawing/rendering faithfully, adjusting only enough to meet the exact same head and silhouette in image1. Only the hair receives this detailed rendering: keep IMAGE1's simpler matte SKIN and CLOTHING and restrained shadows, with no return of fabric microtexture, heavy airbrushing, waxy skin, elaborate glossy cloth, or hyper-realistic facial rendering. Maintain Emily's adult20 delicate feminine likeness, blue eyes and gentle expression. Preserve full head through MID-THIGH crop, two short connected visible thigh sections below skirt, NO KNEES, no missing legs, and complete clasped hands. Do not alter dress hem, outfit design, body proportions, facial proportions, pose, image framing or accessories. Transparent RGBA 1024x1536 2:3 portrait, clean alpha exterior and gaps; no background/halo/text/watermark. The intended final balance is DETAILED HAIR combined with more restrained illustrated skin and fabric.",
+    "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c4bb-5097-79c3-9260-13655e32323c/exec-0fd499f0-44b4-4a0a-9f0d-c3ab067da5e4.png",
+    "input_images": [
+      {
+        "role": "restrained skin and clothing edit target",
+        "path": "roadmap/artwork-batch-01/emily-style-refinement/face-refinement-draft.png"
+      },
+      {
+        "role": "detailed hair reference only",
+        "path": "roadmap/artwork-batch-01/emily-style-refinement/before.png"
+      }
+    ],
+    "disposition": "installed",
+    "runtime_id": "emily-selection",
+    "tool": "built-in image_gen"
+  }
+]

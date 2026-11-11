@@ -1,0 +1,8 @@
+test_damaged_art_falls_back (test_combat_portraits.CombatPortraitTests.test_damaged_art_falls_back) ... ok
+test_entire_awakened_roster_has_transparent_art (test_combat_portraits.CombatPortraitTests.test_entire_awakened_roster_has_transparent_art) ... ok
+test_unknown_and_custom_keep_existing_portrait (test_combat_portraits.CombatPortraitTests.test_unknown_and_custom_keep_existing_portrait) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.869s
+
+OK

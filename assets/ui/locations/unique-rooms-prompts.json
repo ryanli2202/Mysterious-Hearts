@@ -1,0 +1,143 @@
+{
+  "generator": "Built-in image_gen",
+  "assets": [
+    {
+      "key": "glasshouse_lab",
+      "prompt": "Use case: stylized-concept. Create ONE landscape 3:2 game background for Mysterious Hearts, contemporary 2050 US city visual novel. Detailed painterly anime/manhwa architectural illustration, refined linework, believable perspective, cinematic muted light, dark slate surfaces with coloured accents. Eye-level wide view, generous clear foreground for character overlays. No people, readable text, logos, UI, watermarks, collage or panels. Sylvanis's hidden Glasshouse laboratory: a secluded glass-roofed research conservatory at night, teal-lit enclosed specimen cabinets, elegant dark laboratory benches, glass instruments, plants silhouetted beyond ribbed roof, amber desk lamps. No bodies, gore or procedures.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c2a8-f050-7dd3-ab77-fb41e862c11a\\exec-e83b6ebd-ffcf-4384-8911-b414b573521b.png",
+      "destination": "assets/ui/locations/glasshouse_lab.png"
+    },
+    {
+      "key": "blackstone_loading",
+      "prompt": "Use case: stylized-concept. Create ONE landscape 3:2 game background for Mysterious Hearts, contemporary 2050 US city visual novel. Detailed painterly anime/manhwa architectural illustration, refined linework, believable perspective, cinematic muted light, dark slate surfaces with coloured accents. Eye-level wide view, generous clear foreground for character overlays. No people, readable text, logos, UI, watermarks, collage or panels. Blackstone loading compound exterior: imposing charcoal industrial loading bays, raised freight dock, shuttered doors, stacked sealed cargo cases, yellow safety markings, security booth, grey daylight. Ground-level view into enclosed yard.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c2a8-f050-7dd3-ab77-fb41e862c11a\\exec-217ee49b-a6f6-4211-aa58-c5bf920c06af.png",
+      "destination": "assets/ui/locations/blackstone_loading.png"
+    },
+    {
+      "key": "blackstone_records",
+      "prompt": "Use case: stylized-concept. Create ONE landscape 3:2 game background for Mysterious Hearts, contemporary 2050 US city visual novel. Detailed painterly anime/manhwa architectural illustration, refined linework, believable perspective, cinematic muted light, dark slate surfaces with coloured accents. Eye-level wide view, generous clear foreground for character overlays. No people, readable text, logos, UI, watermarks, collage or panels. Blackstone research records archive interior: deep rows of dark steel compact archive shelving, sealed archival boxes, secure terminal on oak desk, amber reading lamps, heavy vault door, discreet teal indicators.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c2a8-f050-7dd3-ab77-fb41e862c11a\\exec-6638252b-4501-4bf3-bf2c-b3c1a5cfff7b.png",
+      "destination": "assets/ui/locations/blackstone_records.png"
+    },
+    {
+      "key": "blackstone_lab",
+      "prompt": "Use case: stylized-concept. Create ONE landscape 3:2 game background for Mysterious Hearts, contemporary 2050 US city visual novel. Detailed painterly anime/manhwa architectural illustration, refined linework, believable perspective, cinematic muted light, dark slate surfaces with coloured accents. Eye-level wide view, generous clear foreground for character overlays. No people, readable text, logos, UI, watermarks, collage or panels. Blackstone experimental wing interior: angular graphite laboratory, enclosed instrument chambers, dark glass observation partitions, cyan work lights, clean stainless benches, empty test apparatus, no subjects or bodies.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c2a8-f050-7dd3-ab77-fb41e862c11a\\exec-0b56ef0c-e15b-47cd-9c47-5464b22a6a9e.png",
+      "destination": "assets/ui/locations/blackstone_lab.png"
+    },
+    {
+      "key": "blackstone_command",
+      "prompt": "Use case: stylized-concept. Create ONE landscape 3:2 game background for Mysterious Hearts, contemporary 2050 US city visual novel. Detailed painterly anime/manhwa architectural illustration, refined linework, believable perspective, cinematic muted light, dark slate surfaces with coloured accents. Eye-level wide view, generous clear foreground for character overlays. No people, readable text, logos, UI, watermarks, collage or panels. Blackstone executive command interior: elevated austere charcoal office, broad angular executive desk, panoramic city windows, abstract unreadable tactical displays, restrained bronze accents, empty leather chairs.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c2a8-f050-7dd3-ab77-fb41e862c11a\\exec-025f670e-7c74-4e88-a1b3-e4863b4cf847.png",
+      "destination": "assets/ui/locations/blackstone_command.png"
+    },
+    {
+      "key": "hamayashi_annex",
+      "prompt": "Use case: stylized-concept. Create ONE landscape 3:2 game background for Mysterious Hearts, contemporary 2050 US city visual novel. Detailed painterly anime/manhwa architectural illustration, refined linework, believable perspective, cinematic muted light, dark slate surfaces with coloured accents. Eye-level wide view, generous clear foreground for character overlays. No people, readable text, logos, UI, watermarks, collage or panels. Hamayashi-kai riverside annex: Japanese-influenced timber meeting interior overlooking a river, dark cedar slatted screens, low meeting table, indigo cushions, bronze lanterns, shaded veranda and reeds beyond windows.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c2a8-f050-7dd3-ab77-fb41e862c11a\\exec-7781b827-a13e-49d6-9bbb-46ba905189a2.png",
+      "destination": "assets/ui/locations/hamayashi_annex.png"
+    },
+    {
+      "key": "hamayashi_store",
+      "prompt": "Use case: stylized-concept. Create ONE landscape 3:2 game background for Mysterious Hearts, contemporary 2050 US city visual novel. Detailed painterly anime/manhwa architectural illustration, refined linework, believable perspective, cinematic muted light, dark slate surfaces with coloured accents. Eye-level wide view, generous clear foreground for character overlays. No people, readable text, logos, UI, watermarks, collage or panels. Hamayashi-kai supply house: orderly dark timber storeroom, stacked sealed wooden crates, shelves of wrapped supplies, inventory desk, sliding wooden doors, indigo fabric curtain, warm task light. No weapon display.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c2a8-f050-7dd3-ab77-fb41e862c11a\\exec-1db9191a-685f-4468-b21b-7973cffdad3c.png",
+      "destination": "assets/ui/locations/hamayashi_store.png"
+    },
+    {
+      "key": "site_01_reception",
+      "prompt": "Use case: stylized-concept. Create ONE landscape 3:2 game background for Mysterious Hearts, contemporary 2050 US city visual novel. Detailed painterly anime/manhwa architectural illustration, refined linework, believable perspective, cinematic muted light, dark slate surfaces with coloured accents. Eye-level wide view, generous clear foreground for character overlays. No people, readable text, logos, UI, watermarks, collage or panels. Kestrel Operations Centre public reception: charcoal concrete and steel, amber strips, imposing contractor checkpoint. Distinct visitor counter, waiting seats, closed badge-controlled staff entrance, clear open foreground. No visible private operational information or criminal clues.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c2a8-f050-7dd3-ab77-fb41e862c11a\\exec-c925b00d-3cc5-4021-908d-ae92194732ae.png",
+      "destination": "assets/ui/locations/site_01_reception.png"
+    },
+    {
+      "key": "site_01_briefing",
+      "prompt": "Use case: stylized-concept. Create ONE landscape 3:2 game background for Mysterious Hearts, contemporary 2050 US city visual novel. Detailed painterly anime/manhwa architectural illustration, refined linework, believable perspective, cinematic muted light, dark slate surfaces with coloured accents. Eye-level wide view, generous clear foreground for character overlays. No people, readable text, logos, UI, watermarks, collage or panels. Kestrel Operations Centre private briefing interior: charcoal concrete and steel, amber strips, imposing contractor checkpoint; regional operations conference table, wall of abstract unlabelled planning displays, secure steel door. Clearly a meeting space, no reception counter. No legible confidential information or faction symbols.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c2a8-f050-7dd3-ab77-fb41e862c11a\\exec-f71b6233-2a86-40e0-b9c7-f708efe5d7c5.png",
+      "destination": "assets/ui/locations/site_01_briefing.png"
+    },
+    {
+      "key": "site_02_reception",
+      "prompt": "Use case: stylized-concept. Create ONE landscape 3:2 game background for Mysterious Hearts, contemporary 2050 US city visual novel. Detailed painterly anime/manhwa architectural illustration, refined linework, believable perspective, cinematic muted light, dark slate surfaces with coloured accents. Eye-level wide view, generous clear foreground for character overlays. No people, readable text, logos, UI, watermarks, collage or panels. Pacific Relay Depot public reception: indigo steel, dark timber, freight warehouse glazing. Distinct visitor counter, waiting seats, closed badge-controlled staff entrance, clear open foreground. No visible private operational information or criminal clues.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c2a8-f050-7dd3-ab77-fb41e862c11a\\exec-af8d7fd0-bdea-4b5d-92e7-61e56541655e.png",
+      "destination": "assets/ui/locations/site_02_reception.png"
+    },
+    {
+      "key": "site_02_briefing",
+      "prompt": "Use case: stylized-concept. Create ONE landscape 3:2 game background for Mysterious Hearts, contemporary 2050 US city visual novel. Detailed painterly anime/manhwa architectural illustration, refined linework, believable perspective, cinematic muted light, dark slate surfaces with coloured accents. Eye-level wide view, generous clear foreground for character overlays. No people, readable text, logos, UI, watermarks, collage or panels. Pacific Relay Depot private briefing interior: indigo steel, dark timber, freight warehouse glazing; logistics planning room with a long worktable, miniature unlabelled cargo routes, dispatch screens and view of empty freight yard. Clearly a meeting space, no reception counter. No legible confidential information or faction symbols.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c2a8-f050-7dd3-ab77-fb41e862c11a\\exec-1700a2e6-7e88-400c-a9d7-e5aebd36904c.png",
+      "destination": "assets/ui/locations/site_02_briefing.png"
+    },
+    {
+      "key": "site_03_reception",
+      "prompt": "Use case: stylized-concept. Create ONE landscape 3:2 game background for Mysterious Hearts, contemporary 2050 US city visual novel. Detailed painterly anime/manhwa architectural illustration, refined linework, believable perspective, cinematic muted light, dark slate surfaces with coloured accents. Eye-level wide view, generous clear foreground for character overlays. No people, readable text, logos, UI, watermarks, collage or panels. Stillwater Research Annex public reception: graphite and frosted teal glass. Distinct visitor counter, waiting seats, closed badge-controlled staff entrance, clear open foreground. No visible private operational information or criminal clues.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c2a8-f050-7dd3-ab77-fb41e862c11a\\exec-d1a0fa16-75d5-495f-b989-79187319ebf8.png",
+      "destination": "assets/ui/locations/site_03_reception.png"
+    },
+    {
+      "key": "site_03_briefing",
+      "prompt": "Use case: stylized-concept. Create ONE landscape 3:2 game background for Mysterious Hearts, contemporary 2050 US city visual novel. Detailed painterly anime/manhwa architectural illustration, refined linework, believable perspective, cinematic muted light, dark slate surfaces with coloured accents. Eye-level wide view, generous clear foreground for character overlays. No people, readable text, logos, UI, watermarks, collage or panels. Stillwater Research Annex private briefing interior: graphite and frosted teal glass; research review conference room, oval dark table, closed sample cabinets, abstract scientific displays, sealed laboratory door. Clearly a meeting space, no reception counter. No legible confidential information or faction symbols.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c2a8-f050-7dd3-ab77-fb41e862c11a\\exec-babe99cf-73a1-4081-a94b-146e6266df86.png",
+      "destination": "assets/ui/locations/site_03_briefing.png"
+    },
+    {
+      "key": "site_04_reception",
+      "prompt": "Use case: stylized-concept. Create ONE landscape 3:2 game background for Mysterious Hearts, contemporary 2050 US city visual novel. Detailed painterly anime/manhwa architectural illustration, refined linework, believable perspective, cinematic muted light, dark slate surfaces with coloured accents. Eye-level wide view, generous clear foreground for character overlays. No people, readable text, logos, UI, watermarks, collage or panels. Breakwater Security Depot public reception: old dockside brick, blue steel and warm amber. Distinct visitor counter, waiting seats, closed badge-controlled staff entrance, clear open foreground. No visible private operational information or criminal clues.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c2a8-f050-7dd3-ab77-fb41e862c11a\\exec-d751fa3d-8368-486d-8e2e-58bb8958c00d.png",
+      "destination": "assets/ui/locations/site_04_reception.png"
+    },
+    {
+      "key": "site_04_briefing",
+      "prompt": "Use case: stylized-concept. Create ONE landscape 3:2 game background for Mysterious Hearts, contemporary 2050 US city visual novel. Detailed painterly anime/manhwa architectural illustration, refined linework, believable perspective, cinematic muted light, dark slate surfaces with coloured accents. Eye-level wide view, generous clear foreground for character overlays. No people, readable text, logos, UI, watermarks, collage or panels. Breakwater Security Depot private briefing interior: old dockside brick, blue steel and warm amber; fleet operations briefing room with rugged table, maintenance schematics without text, closed equipment lockers and dock windows. Clearly a meeting space, no reception counter. No legible confidential information or faction symbols.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c2a8-f050-7dd3-ab77-fb41e862c11a\\exec-ee1c2bb1-82df-43c3-80b4-d155e3099d2e.png",
+      "destination": "assets/ui/locations/site_04_briefing.png"
+    },
+    {
+      "key": "site_05_reception",
+      "prompt": "Use case: stylized-concept. Create ONE landscape 3:2 game background for Mysterious Hearts, contemporary 2050 US city visual novel. Detailed painterly anime/manhwa architectural illustration, refined linework, believable perspective, cinematic muted light, dark slate surfaces with coloured accents. Eye-level wide view, generous clear foreground for character overlays. No people, readable text, logos, UI, watermarks, collage or panels. Aster Media House public reception: brick arches, burgundy and dark brass. Distinct visitor counter, waiting seats, closed badge-controlled staff entrance, clear open foreground. No visible private operational information or criminal clues.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c2a8-f050-7dd3-ab77-fb41e862c11a\\exec-05db20b1-7684-41b9-b7f2-6d12c2b4daf0.png",
+      "destination": "assets/ui/locations/site_05_reception.png"
+    },
+    {
+      "key": "site_05_briefing",
+      "prompt": "Use case: stylized-concept. Create ONE landscape 3:2 game background for Mysterious Hearts, contemporary 2050 US city visual novel. Detailed painterly anime/manhwa architectural illustration, refined linework, believable perspective, cinematic muted light, dark slate surfaces with coloured accents. Eye-level wide view, generous clear foreground for character overlays. No people, readable text, logos, UI, watermarks, collage or panels. Aster Media House private briefing interior: brick arches, burgundy and dark brass; creative strategy room with round walnut table, acoustic panels, abstract storyboards, dark projection screen and velvet chairs. Clearly a meeting space, no reception counter. No legible confidential information or faction symbols.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c2a8-f050-7dd3-ab77-fb41e862c11a\\exec-74f39d4f-367e-4ebc-873b-45d4ee4a7a93.png",
+      "destination": "assets/ui/locations/site_05_briefing.png"
+    },
+    {
+      "key": "site_06_reception",
+      "prompt": "Use case: stylized-concept. Create ONE landscape 3:2 game background for Mysterious Hearts, contemporary 2050 US city visual novel. Detailed painterly anime/manhwa architectural illustration, refined linework, believable perspective, cinematic muted light, dark slate surfaces with coloured accents. Eye-level wide view, generous clear foreground for character overlays. No people, readable text, logos, UI, watermarks, collage or panels. Meridian Capital Offices public reception: charcoal marble, walnut and bronze. Distinct visitor counter, waiting seats, closed badge-controlled staff entrance, clear open foreground. No visible private operational information or criminal clues.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c2a8-f050-7dd3-ab77-fb41e862c11a\\exec-30144ce5-eb98-46f2-bb3f-9ba1f2803534.png",
+      "destination": "assets/ui/locations/site_06_reception.png"
+    },
+    {
+      "key": "site_06_briefing",
+      "prompt": "Use case: stylized-concept. Create ONE landscape 3:2 game background for Mysterious Hearts, contemporary 2050 US city visual novel. Detailed painterly anime/manhwa architectural illustration, refined linework, believable perspective, cinematic muted light, dark slate surfaces with coloured accents. Eye-level wide view, generous clear foreground for character overlays. No people, readable text, logos, UI, watermarks, collage or panels. Meridian Capital Offices private briefing interior: charcoal marble, walnut and bronze; finance boardroom with long polished dark table, abstract market graphics, bronze pendant lights and upper-floor city view. Clearly a meeting space, no reception counter. No legible confidential information or faction symbols.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c2a8-f050-7dd3-ab77-fb41e862c11a\\exec-2cc8a127-a5e8-485f-88e5-e44bf38ac486.png",
+      "destination": "assets/ui/locations/site_06_briefing.png"
+    },
+    {
+      "key": "site_07_reception",
+      "prompt": "Use case: stylized-concept. Create ONE landscape 3:2 game background for Mysterious Hearts, contemporary 2050 US city visual novel. Detailed painterly anime/manhwa architectural illustration, refined linework, believable perspective, cinematic muted light, dark slate surfaces with coloured accents. Eye-level wide view, generous clear foreground for character overlays. No people, readable text, logos, UI, watermarks, collage or panels. Oculus Winterfield Campus public reception: blue-green glass, charcoal architecture and plants. Distinct visitor counter, waiting seats, closed badge-controlled staff entrance, clear open foreground. No visible private operational information or criminal clues.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c2a8-f050-7dd3-ab77-fb41e862c11a\\exec-cfa0fd5f-b482-4f5a-8f0a-330c4f4d68c2.png",
+      "destination": "assets/ui/locations/site_07_reception.png"
+    },
+    {
+      "key": "site_07_briefing",
+      "prompt": "Use case: stylized-concept. Create ONE landscape 3:2 game background for Mysterious Hearts, contemporary 2050 US city visual novel. Detailed painterly anime/manhwa architectural illustration, refined linework, believable perspective, cinematic muted light, dark slate surfaces with coloured accents. Eye-level wide view, generous clear foreground for character overlays. No people, readable text, logos, UI, watermarks, collage or panels. Oculus Winterfield Campus private briefing interior: blue-green glass, charcoal architecture and plants; prestigious technology collaboration room with curved conference desk, abstract interface displays, landscaped campus view, ordinary legitimate corporate atmosphere. Clearly a meeting space, no reception counter. No legible confidential information or faction symbols.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c2a8-f050-7dd3-ab77-fb41e862c11a\\exec-4084fbde-0e18-447c-8768-e61e7c558b65.png",
+      "destination": "assets/ui/locations/site_07_briefing.png"
+    },
+    {
+      "key": "site_08_reception",
+      "prompt": "Use case: stylized-concept. Create ONE landscape 3:2 game background for Mysterious Hearts, contemporary 2050 US city visual novel. Detailed painterly anime/manhwa architectural illustration, refined linework, believable perspective, cinematic muted light, dark slate surfaces with coloured accents. Eye-level wide view, generous clear foreground for character overlays. No people, readable text, logos, UI, watermarks, collage or panels. Greyglass Service House public reception: weathered grey brick, dark green wood and warm task lights. Distinct visitor counter, waiting seats, closed badge-controlled staff entrance, clear open foreground. No visible private operational information or criminal clues.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c2a8-f050-7dd3-ab77-fb41e862c11a\\exec-f0f36d4c-723a-4bcd-b0de-20258315cf18.png",
+      "destination": "assets/ui/locations/site_08_reception.png"
+    },
+    {
+      "key": "site_08_briefing",
+      "prompt": "Use case: stylized-concept. Create ONE landscape 3:2 game background for Mysterious Hearts, contemporary 2050 US city visual novel. Detailed painterly anime/manhwa architectural illustration, refined linework, believable perspective, cinematic muted light, dark slate surfaces with coloured accents. Eye-level wide view, generous clear foreground for character overlays. No people, readable text, logos, UI, watermarks, collage or panels. Greyglass Service House private briefing interior: weathered grey brick, dark green wood and warm task lights; modest workshop planning room with sturdy scarred timber table, closed tool cabinets, blank pinned plans, frosted workshop windows. Clearly a meeting space, no reception counter. No legible confidential information or faction symbols.",
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c2a8-f050-7dd3-ab77-fb41e862c11a\\exec-38d40ffe-c5dd-4124-9587-1045c0cc7091.png",
+      "destination": "assets/ui/locations/site_08_briefing.png"
+    }
+  ]
+}

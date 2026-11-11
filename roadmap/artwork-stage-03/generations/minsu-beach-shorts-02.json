@@ -1,0 +1,13 @@
+{
+  "id": "minsu-beach-shorts",
+  "tool": "built-in image_gen",
+  "model": "not exposed",
+  "generated_source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c7d2-0cc6-74f2-ba9f-981788fc8cd9\\exec-a6604f20-ddbc-4d2d-a7f2-7ca19df280b5.png",
+  "sha256": "73e90d3c7c97909b85d8c9ee985a609c64e24e3c6adca059656b7cf79dd16200",
+  "prompt": "Edit this exact image ONLY to change the swim shorts fabric colour. Match the original muted ocean blue with a slight teal undertone, approximately midtone #3B7895; keep deeper blue folds and pale blue highlights. Preserve white drawstring and white side stripes. Keep all anatomy, face, hair, hands, pose, fabric shape and mid-thigh crop exactly unchanged. Adult neutral swimwear wardrobe portrait. Same transparent 1024x1536 RGBA; no background or haze; all pixels outside the silhouette fully transparent.",
+  "referenced_image_paths": [
+    "C:\\Users\\ryanl\\Documents\\Mysterious Hearts\\roadmap\\artwork-stage-03\\candidates\\minsu-beach-shorts.png"
+  ],
+  "transparent_background": true,
+  "pixel_postprocessing": false
+}

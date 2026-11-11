@@ -1,0 +1,80 @@
+[
+  {
+    "check": "artwork_batch_01_ui_smoke",
+    "command": "python tests/artwork_batch_01_ui_smoke.py",
+    "returncode": 0,
+    "log": "checks/artwork_batch_01_ui_smoke.txt"
+  },
+  {
+    "check": "character_selection_ui_smoke",
+    "command": "python tests/character_selection_ui_smoke.py",
+    "returncode": 0,
+    "log": "checks/character_selection_ui_smoke.txt"
+  },
+  {
+    "check": "start_ui_smoke",
+    "command": "python tests/start_ui_smoke.py",
+    "returncode": 0,
+    "log": "checks/start_ui_smoke.txt"
+  },
+  {
+    "check": "town_portraits_smoke",
+    "command": "python tests/town_portraits_smoke.py",
+    "returncode": 0,
+    "log": "checks/town_portraits_smoke.txt"
+  },
+  {
+    "check": "combat_portraits_ui_smoke",
+    "command": "python tests/combat_portraits_ui_smoke.py",
+    "returncode": 0,
+    "log": "checks/combat_portraits_ui_smoke.txt"
+  },
+  {
+    "check": "guard_portraits_ui_smoke",
+    "command": "python tests/guard_portraits_ui_smoke.py",
+    "returncode": 0,
+    "log": "checks/guard_portraits_ui_smoke.txt"
+  },
+  {
+    "check": "syndicate_uniform_smoke",
+    "command": "python tests/syndicate_uniform_smoke.py",
+    "returncode": 0,
+    "log": "checks/syndicate_uniform_smoke.txt"
+  },
+  {
+    "check": "syndicate_guard_encounters_smoke",
+    "command": "python tests/syndicate_guard_encounters_smoke.py",
+    "returncode": 0,
+    "log": "checks/syndicate_guard_encounters_smoke.txt"
+  },
+  {
+    "check": "campaign_flashbacks_ui_smoke",
+    "command": "python tests/campaign_flashbacks_ui_smoke.py",
+    "returncode": 0,
+    "log": "checks/campaign_flashbacks_ui_smoke.txt"
+  },
+  {
+    "check": "flashback_visits_ui_smoke",
+    "command": "python tests/flashback_visits_ui_smoke.py",
+    "returncode": 0,
+    "log": "checks/flashback_visits_ui_smoke.txt"
+  },
+  {
+    "check": "camera_smoke",
+    "command": "python tests/camera_smoke.py",
+    "returncode": 0,
+    "log": "checks/camera_smoke.txt"
+  },
+  {
+    "check": "phone_dark_theme_smoke",
+    "command": "python tests/phone_dark_theme_smoke.py",
+    "returncode": 0,
+    "log": "checks/phone_dark_theme_smoke.txt"
+  },
+  {
+    "check": "patch_notes_ui_smoke",
+    "command": "python tests/patch_notes_ui_smoke.py",
+    "returncode": 0,
+    "log": "checks/patch_notes_ui_smoke.txt"
+  }
+]

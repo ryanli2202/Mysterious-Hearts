@@ -1,0 +1,17 @@
+{
+  "python": "C:\\Users\\ryanl\\.codex\\community-sources\\mysterious-hearts\\media-runtime\\python\\Scripts\\python.exe",
+  "node": "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1104-2876-0_26.1104.2876.0_x64__3k8sg7r9htsxt\\dependencies\\node\\bin\\node.EXE",
+  "chrome": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+  "ffmpeg": "C:\\Users\\ryanl\\.codex\\community-sources\\mysterious-hearts\\media-runtime\\ffmpeg\\ffmpeg-9.0.2-essentials_build\\bin\\ffmpeg.exe",
+  "ffprobe": "C:\\Users\\ryanl\\.codex\\community-sources\\mysterious-hearts\\media-runtime\\ffmpeg\\ffmpeg-9.0.2-essentials_build\\bin\\ffprobe.exe",
+  "node_modules": "C:\\Users\\ryanl\\.codex\\community-sources\\mysterious-hearts\\media-runtime\\node\\node_modules",
+  "models": "C:\\Users\\ryanl\\.codex\\community-sources\\mysterious-hearts\\media-runtime\\models",
+  "prompt_runtime": "C:\\Users\\ryanl\\.codex\\community-sources\\mysterious-hearts\\prompt-to-asset\\packages\\mcp-server",
+  "packages": {
+    "bulk-bg-remove": "C:\\Users\\ryanl\\.codex\\community-sources\\mysterious-hearts\\bulk-bg-remove",
+    "pro-motion": "C:\\Users\\ryanl\\.codex\\community-sources\\mysterious-hearts\\pro-motion\\plugins\\pro-motion",
+    "design-os-svg-animation": "C:\\Users\\ryanl\\.codex\\community-sources\\mysterious-hearts\\design-os-svg-animation",
+    "launch-film": "C:\\Users\\ryanl\\.codex\\community-sources\\mysterious-hearts\\launch-film",
+    "prompt-to-asset": "C:\\Users\\ryanl\\.codex\\community-sources\\mysterious-hearts\\prompt-to-asset\\plugins\\prompt-to-asset"
+  }
+}

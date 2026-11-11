@@ -12,9 +12,12 @@ import world_loop
 
 class VendettaIntegrationTests(unittest.TestCase):
     def test_private_roster_does_not_become_public_directory(self):
-        self.assertEqual(len(canon.PROFILES), 14)
+        self.assertEqual(len(canon.PROFILES), 15)
+        self.assertIn('Shinigami Protocol', canon.speaker_context('thirteen', ['rei'])['Own ability (private self-knowledge)'])
+        self.assertNotIn('Shinigami Protocol', str(canon.speaker_context('rei', ['thirteen'])))
         public = lore.speaker_reference('emily', ['rei'], 0, 'Awakening')
-        self.assertIn('not awakened', str(public['Vendetta AU']))
+        self.assertIn('Awakened', str(public['Vendetta AU']))
+        self.assertNotIn('not awakened', str(public['Vendetta AU']))
         self.assertNotIn('Deathwind', str(public['Vendetta AU']))
         self.assertNotIn('Queen of Wind', str(lore.topic_reference('emily', 'Awakened')))
         self.assertIn('United Nations', str(public['Vendetta AU']))

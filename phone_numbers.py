@@ -44,6 +44,7 @@ def format_number(value):
 
 
 def ensure(s):
+    __import__("guard_dialogue").migrate(s)
     import keisuke
     keisuke.ensure(s)
     gang_leaders.ensure(s)
@@ -103,6 +104,8 @@ def add(s,value,source='Added by number'):
     # Validate before migration so invalid input cannot change the address book.
     directory={**NUMBERS,**s.get('phone_numbers',{}).get('directory',{})}
     who=next((who for who,number in directory.items() if number==canonical),None)
+    if who and not __import__('guard_dialogue').eligible(s, who):
+        raise ValueError('Guard posts do not have personal phone numbers.')
     import charles_han
     if who == 'charles' and not charles_han.number_allowed(s):
         raise ValueError('Charles has not shared his private number with you.')

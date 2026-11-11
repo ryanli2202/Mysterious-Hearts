@@ -1,0 +1,6 @@
+python tools/artwork_stage_02.py verify
+Exit code: 0
+107/107 offline accepted; 0 pending; presentation: Default masters installed with stature correction; see height-review/README.md. Wardrobe/context stages remain pending.
+101 separately evidenced live updates; generated/carried source hashes verified.
+
+The 101 differences from the frozen Stage 2 baseline are 100 default-master replacements in this follow-up plus Emily's separately published refinement carried forward before this follow-up. Seven current pilot masters were retained by this installation.

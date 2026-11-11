@@ -54,6 +54,8 @@ def validate(values):
     import vacant_homes
     if not isinstance(values, dict):
         raise ValueError('The custom character profile is missing.')
+    if values.get('profile_version', 1) not in (1, 2):
+        raise ValueError('Unsupported character profile version; keep the original file for recovery.')
     p = {}
     for field, limit in (('name', 60), ('occupation', 100), ('appearance', 1800)):
         value = values.get(field)
@@ -82,32 +84,74 @@ def validate(values):
     p['awakened'] = values.get('awakened', False)
     if not isinstance(p['awakened'], bool):
         raise ValueError('Choose whether your character is awakened.')
+    trait_enabled=values.get('trait_enabled',True)
+    if type(trait_enabled) is not bool: raise ValueError('Choose whether to start with a named Trait.')
+    if not trait_enabled: p['trait_enabled']=False
+    if 'mana_potential' in values:
+        if type(values['mana_potential']) is not bool: raise ValueError('Choose latent mana potential.')
+        p['mana_potential']=values['mana_potential']
     for field, label, limit in (('awakening_trait', 'awakening trait', 100),
                                 ('awakening_description', 'awakening description', 1800)):
-        value = values.get(field, '') if p['awakened'] else ''
-        if not isinstance(value, str) or (p['awakened'] and not 1 <= len(value.strip()) <= limit):
+        value = values.get(field, '') if p['awakened'] and trait_enabled else ''
+        if not isinstance(value, str) or (p['awakened'] and trait_enabled and not 1 <= len(value.strip()) <= limit):
             raise ValueError(f'Enter {label} (1–{limit} characters).')
         p[field] = value.strip()
-    if p['awakened'] and values.get('trait_amplifications'):
+    if p['awakened'] and trait_enabled and values.get('trait_amplifications'):
         from combat_workshop import validate_amplifications
         p['trait_amplifications']=validate_amplifications(values['trait_amplifications'])
+    if values.get('profile_id'):
+        if not isinstance(values['profile_id'], str) or not re.fullmatch(r'[0-9a-f]{32,64}', values['profile_id']):
+            raise ValueError('Invalid reusable character identity.')
+        p['profile_id'] = values['profile_id']
+        p['profile_version'] = 2
+    for field, limit in (('biography', 12000), ('hometown', 200), ('motivation', 2000),
+                         ('private_history', 12000), ('preferred_name', 60), ('pronunciation', 200)):
+        if field in values:
+            value = values[field]
+            if not isinstance(value, str) or len(value) > limit:
+                raise ValueError(f'{field.replace("_", " ").title()} must be text up to {limit} characters.')
+            p[field] = value.strip()
+    if 'origin' in values:
+        import character_origins
+        p['origin'] = character_origins.validate(values['origin'])
+        character_origins.resolve(p['origin'], p['awakened'], bool(p.get('awakening_trait')))
+    if 'identity' in values:
+        p['identity'] = __import__('character_identity').validate(values['identity'])
+    if values.get('import_provenance'):
+        provenance=values['import_provenance']
+        if not isinstance(provenance,dict) or provenance.get('format')!='MH-character v1' or not re.fullmatch('[0-9a-f]{64}',str(provenance.get('digest',''))):
+            raise ValueError('Invalid package provenance.')
+        p['import_provenance']=dict(format=provenance['format'],digest=provenance['digest'])
+    if values.get('specialisation'):
+        if values['specialisation'] not in {a['id'] for a in p.get('trait_amplifications',[])}:
+            raise ValueError('Specialisation requires its accepted Trait aspect.')
+        p['specialisation']=values['specialisation']
+    if values.get('starting_signature'):
+        p['starting_signature']=copy.deepcopy(values['starting_signature'])
+        __import__('combat_profiles').make('custom_validation',p)
     return p
 
 
 def awakening_background(p):
     if not p.get('awakened', False):
         return 'Not awakened at story creation (Dormancy). No starting awakening Trait is established. Saved Path progression determines current combat abilities.'
+    if not p.get('awakening_trait'):
+        return 'Already awakened, without a named Trait. No custom amplification or signature is granted.'
     return (f"Already Awakened. Trait: {p['awakening_trait']}. Description: {p['awakening_description']}. "
             'This is an established starting ability, not a future unlock. '
             'It does not establish prior exploits, public knowledge or automatic mechanical power use.')
 
 
 def background(p):
-    return (f"{p['name']}, {p['age']}, {p['gender']}, {p['height']} cm. Occupation: {p['occupation']}. "
+    public = __import__('character_identity').visible(p)
+    return (f"{public['name']}, {p['age']}, {p['gender']}, {p['height']} cm. Occupation: {p['occupation']}. "
             f"MBTI: {p['mbti']}. Interests: {', '.join(p['interests'])}. "
             f"Hairstyle: {p['hairstyle']}. Appearance: {p['appearance']}. "
             'Just moved into Winterfield. Home: ' + home(p)[1] + '. Has no prior acquaintances, local shared memories, family ties or established romance. '
             'Any later familiarity must come from actual saved meetings or Meet-Cute exchanges. '
+            + (' Authored public background: ' + p['biography'] if p.get('biography') else '')
+            + (' Hometown: ' + p['hometown'] if p.get('hometown') else '')
+            + (' Starting aspirations (not accomplishments): ' + p['motivation'] if p.get('motivation') else '')
             + awakening_background(p))
 
 
@@ -125,8 +169,8 @@ def install():
     import town, world_loop, sexuality, meet_cute, grove, phone_personalization, romantic_types
     def wrap(module, attr, fn):
         setattr(module, attr, Registry(getattr(module, attr), fn))
-    wrap(core, 'PLAYERS', lambda p: p['name'])
-    wrap(core, 'CONTACTS', lambda p: (p['name'], 'Winterfield', 'A new beginning.', background(p)))
+    wrap(core, 'PLAYERS', lambda p: __import__('character_identity').visible(p)['name'])
+    wrap(core, 'CONTACTS', lambda p: (__import__('character_identity').visible(p)['name'], 'Winterfield', 'A new beginning.', background(p)))
     wrap(core, 'TEXT_STYLES', lambda p: VOICE)
     wrap(world_loop, 'HOUSES', home)
     wrap(world_loop, 'GARAGES', lambda p: {'Compact car': (5, 'a compact car')})
@@ -216,8 +260,8 @@ def generate_portrait(values, cancel=None, progress=lambda text: None):
 
 def create(values, portrait):
     import game_core as core
-    p = validate(values)
-    p['portrait'] = portrait
+    import custom_library
+    p = custom_library.normalise(values | {'portrait': portrait})
     verify_portrait(portrait_path(p))
     ident = 'custom_' + uuid.uuid4().hex
     state = {'version': 1, 'calendar_start_year': core.town.loop.dates.START.year,
@@ -227,6 +271,8 @@ def create(values, portrait):
                        'last_shift_day': 0, 'npcs': [], 'log': []}}
     restore(state)
     core.town.ensure(state, start_minute=8*60)
+    import character_origins
+    character_origins.apply(state)
     return state
 
 

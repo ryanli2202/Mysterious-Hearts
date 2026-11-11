@@ -1,0 +1,10 @@
+{
+  "id": "malik-torres-02",
+  "record_id": "malik-torres-02",
+  "prompt": "Use case: identity-preserve. Targeted correction of malik-torres. Image 1 is the edit target. Preserve exact individual face, identity, age, complexion, build, hair, expression, clothing design/colours, accessories, tattoo motifs/laterality, pose and illustrated semi-realistic manhwa rendering.  SMILE CORRECTION: keep the same warm open smile, but construct real lip thickness, cheek turns and the softly shaded dental arch. Remove the heavy black rectangular tooth-bar outline and uniform white stripe; individual front teeth can be subtly indicated, teeth recede into mouth shadow naturally. Illustrated, not photoreal. Preserve current good composition and mid-thigh coverage. Do not stretch anatomy or redesign any unaffected details. Complete all visible hands, hair and required props inside frame. Output 1024x1536 2:3 RGBA with genuine transparent background and clear gaps, no scenery, halo, outline, text or watermark. Clear headroom and side margins, small transparent bottom margin; no knees. ",
+  "input_images": [
+    "C:\\Users\\ryanl\\Documents\\Mysterious Hearts\\roadmap\\artwork-stage-02\\generations\\malik-torres-01.png"
+  ],
+  "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c4e0-54f1-7c43-a56b-2d10502a12a6/exec-6ec95970-8b7f-4846-b60d-8420dbe93ba6.png",
+  "disposition": "candidate"
+}

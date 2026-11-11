@@ -1,0 +1,17 @@
+[
+  {
+    "command": "python tests/artwork_stage_02_ui_smoke.py --live",
+    "exit_code": 0,
+    "log": "artwork_stage_02_ui_smoke-final.txt"
+  },
+  {
+    "command": "python tests/start_ui_smoke.py",
+    "exit_code": 0,
+    "log": "start_ui_smoke-final.txt"
+  },
+  {
+    "command": "python tests/phone_dark_theme_smoke.py",
+    "exit_code": 0,
+    "log": "phone_dark_theme_smoke-final.txt"
+  }
+]

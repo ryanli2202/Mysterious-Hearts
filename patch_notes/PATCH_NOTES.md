@@ -2,6 +2,1844 @@
 
 Historical entries reconstruct recoverable development, not numbered releases. Unknown release dates stay unknown. Topic order is not a verified chronology. Original reports may describe superseded behavior; their test claims are historical. The 17 oversized chats were recovered from local logs; interrupted work is labelled. No complete commit history exists.
 
+# Varied character heights and specified tall guards
+
+release-2026-11-11-stage2-varied-heights | Release | Artwork
+Date: 2026-11-11
+
+Give characters individual fallback heights and apply the seven specified character/robot heights to in-game scaling.
+
+## Details
+
+Changed
+
+The 71 remaining Stage 2 display defaults now vary across 175-180 cm for male characters/roles and 160-165 cm for female characters/roles, rather than sharing 178/163 cm. All six integer values in each range are represented. Each identity has a stored value that remains stable across loading, resizing, navigation and saves. The original 29 authored height records are unchanged.
+
+Explicit heights
+
+Jeremy Gordon is 183 cm, Edward Fox 184 cm, the Crow 180 cm, Keisuke Hachimura 183 cm and Joseph Richter 190 cm. Oni and Custom Robotic are both 198 cm; these are explicit exceptions to fallback ranges. Richter's normal and cybernetic portrait paths, including the direct guard-art alias, resolve to 190 cm. Custom protagonists retain their own saved heights.
+
+Access and presentation
+
+Restart the game. Existing selection, in-person, prose, combat and phone portrait consumers read the revised shared metadata. The head-to-mid-thigh crop, 70% visible-body convention, uniform aspect-preserving fit, alpha-padding normalization and shared scene scale are retained. No missing lower legs are synthesized or stretched. No portrait PNG files were modified. Dialogue disclosure rules and gameplay attributes are unchanged.
+
+Validation
+
+The complete 107-master hash and paired-height audit passed at normal and compact sizes; all 199 non-master baseline assets remain unchanged. Twenty-nine targeted tests passed across framing, combat, guards and character selection, including exact original-record preservation, the seven overrides, varied ranges, reload stability, custom heights and aliases. The live UI smoke rendered all 107 paths at two thumbnail sizes and captured 41 screenshots without callback errors, including Fox/Gordon selection and both tall robotic roles at two window sizes. The first custom-robot smoke fixture incorrectly treated an image role ID as a built-in type; it was corrected to use a saved custom type, with both logs retained. Phone dark-theme smoke passed 34 pages and embedded controls; start smoke passed 28 previews. Updated galleries and robot combat were visually inspected. Publication checks are recorded with the follow-up evidence.
+
+Scope
+
+This refines Stage 2 rendering heights. The full artwork roadmap remains in progress; later wardrobe, historical and dedicated combat artwork production remains pending.
+
+Publication checks
+
+Catalogue validation passes with 488 entries, export is refreshed and the patch-note reader smoke passes. The patch-note unit suite has five passes and one pre-existing archive-source failure for missing tests/screenshots/mixtape-art-review-0.jpg. All five changed Python files compile.
+
+## Save compatibility
+
+Restart to clear cached height metadata/images. No migration or changes to story progress, relationships, wardrobe selections, custom saved heights, guard identities or save fields. Individual fallback heights are stable values stored in the game data.
+
+## Evidence and historical limits
+
+Implemented and verified on 2026-11-11 following the explicit request to vary unrecorded heights within the specified ranges while preserving known heights, plus seven exact character/robot heights. The previous table is preserved in before-stature.json; the earlier uniform-default release remains historical evidence.
+
+- assets/portraits/stature.json
+- character_stature.py
+- tests/test_portrait_framing.py
+- tests/test_combat_portraits.py
+- tests/artwork_stage_02_ui_smoke.py
+- tools/audit_character_stature.py
+- roadmap/artwork-stage-02/height-variation/README.md
+- roadmap/artwork-stage-02/height-variation/HEIGHTS.md
+- roadmap/artwork-stage-02/height-variation/changes.json
+- roadmap/artwork-stage-02/height-variation/height-audit.json
+
+
+---
+
+# Stage 2 portraits use consistent character heights
+
+release-2026-11-11-stage2-character-heights | Release | Artwork
+Date: 2026-11-11
+
+Install all 107 accepted default masters and correct relative stature, including Garrett and Rei beside Ivan.
+
+## Details
+
+Changed
+
+Installed the accepted MH-013 Stage 2 default masters for 89 contemporary characters and 18 guard roles. One hundred runtime files are replaced; seven pilot masters are retained. All 107 installed PNGs match their accepted candidate hashes. Original files, before/after hashes and the complete height audit are preserved under roadmap/artwork-stage-02/height-review/. All 199 other portraits/reference files in the original baseline remain unchanged.
+
+Fixed
+
+Garrett (188 cm) and Rei (184 cm) previously looked much shorter than Ivan (193 cm) because the renderer mixed legacy/pilot sizing, included unequal transparent margins and gave the player a wider group slot. All 29 recorded heights are now retained through a shared stature registry. Missing male heights use 178 cm; missing female heights use 163 cm. Generic masked/robotic roles use a 178 cm display reference unless authored female. Defaults affect rendering only: concealed dossier facts, including the Crow's height, remain undisclosed. Custom characters retain their saved heights, including menu previews before live registration.
+
+Portraits depict head to mid-thigh, with lower thighs, knees and feet off-image. Fitting models the visible crop as 70% of full stature, normalizes transparent padding and uniformly resizes both axes. It does not stretch anatomy or synthesize missing legs. Group scenes, prose compositions and combat pairs use the same pixels/cm for every participant regardless of slot width. The bottom is a picture crop rather than a foot position. Individual thumbnails reserve room for the tallest recorded master, 211 cm, so tall characters are not flattened to equal height. Character selection uses the same height data. Wardrobe previews keep RGBA transparency on the existing dark phone background.
+
+Access
+
+Restart the game and use character selection or the normal in-person conversation/combat routes. Default or Automatic portraits load at the existing filenames. Explicitly selected alternate outfits, headquarters uniforms, historical portraits and custom artwork retain their routing; select the default outfit to see a new contemporary master. In-person activities remain in the in-person window.
+
+Validation
+
+All 107 installed hashes, candidate hashes, backup hashes and paired stature ratios passed at normal and compact sizes; all 199 non-master baseline hashes remain unchanged. Stage 2 asset verification accepted 107/107, with zero pending. Seventy-three tests passed across nine relevant unit suites, including all-character ratios, individual tall thumbnails, saved custom height resolution, selection, guard/combat routing, hangouts, flashback saves and campaign prose. The installed-art smoke rendered all 107 paths at two sizes and captured 33 screens with no callback errors. Start-screen smoke covered 28 previews; combat smoke covered 24 dedicated portraits. Prose, flashback, patch-note reader and 34-page dark-phone smokes passed. Normal/compact groups, selection, all nine loader galleries, guard combat, historical scenes and dark wardrobe/control states were visually inspected. Publication checks are recorded in the follow-up evidence.
+
+Known limitations
+
+Full MH-013 remains in progress. Wardrobe, historical, masked and dedicated combat artwork production remain in later stages; their existing files were not regenerated here. Shared scaling cannot eliminate pose/effect differences or turn a legacy bust/waist composition into mid-thigh artwork. The 70% visible-body fraction is a staging convention, not a measured full-body reconstruction. Tests use fixtures/mocked providers and do not write player saves or call live AI services.
+
+Patch-note validation and export pass (487 entries), and the reader smoke passes. The patch-note unit suite has five passes and one pre-existing archive-source failure for missing tests/screenshots/mixtape-art-review-0.jpg; no historical evidence was fabricated to hide it.
+
+## Save compatibility
+
+Restart to reload Python and cached portraits. No save-schema migration or changes to story progress, relationships, unlocks, chosen wardrobes, custom artwork or stored custom heights. Existing guard and historical overrides retain their IDs and precedence. Replaced assets have rollback copies.
+
+## Evidence and historical limits
+
+Implemented and checked on 2026-11-11 in response to the requested ALL-character Stage 2 height audit, Garrett/Rei comparison and explicit reminder that lower thighs and legs are cropped. Existing accepted masters were installed byte-for-byte after a live diagnostic showed that resizing old waist crops alone distorted the comparison. No new image generation or pixel postprocessing. Earlier staged-only production reports remain historical evidence.
+
+- character_stature.py
+- portrait_framing.py
+- assets/portraits/stature.json
+- game.py
+- hangout_ui.py
+- start_ui.py
+- combat_portraits.py
+- combat_rpg_ui.py
+- combat_selection_ui.py
+- campaign_prose_ui.py
+- lifestyle_ui.py
+- tests/test_portrait_framing.py
+- tests/artwork_stage_02_ui_smoke.py
+- tools/audit_character_stature.py
+- roadmap/artwork-stage-02/height-review/README.md
+- roadmap/artwork-stage-02/height-review/installation.json
+- roadmap/artwork-stage-02/height-review/height-audit.json
+
+
+---
+
+# Emily portrait: restrained shading with detailed hair
+
+release-2026-11-10-emily-rendering-refinement | Release | Artwork
+Date: 2026-11-10
+
+Simplified Emily’s skin and fabric rendering while preserving detailed blonde hair and the corrected mid-thigh composition.
+
+## Details
+
+Changed
+
+Replaced Emily’s active default/selection portrait with cleaner matte skin and cloth shading, broader controlled shadow shapes and less fabric microtexture. Detailed blonde strands, layered locks and highlights remain, following the user’s explicit clarification that hair should stay detailed. Preserved her recognisable likeness, blue eyes, round glasses, cream ruffles, blue embroidered pinafore, pendant, clasped hands and connected thighs. The crop remains mid-thigh with no knees.
+
+The artwork guide now distinguishes reducing skin/fabric rendering from simplifying hair. The other seven Batch 1 images, all portrait-fitting code, wardrobes and game mechanics are unchanged.
+
+Access and evidence
+
+Restart to refresh image caches, then view Emily through the existing default outfit, character-selection and in-person routes. Three built-in image_gen edits produced two superseded drafts and one installed output. Exact prompts, reference roles, before/after hashes, previous-image backup, alpha comparisons and inspection findings are recorded in roadmap/artwork-batch-01/emily-style-refinement. The final PNG is copied byte-for-byte; no pixel postprocessing.
+
+Validation
+
+RGBA 1024×1536, transparency, hashes and changed-asset coverage passed. Fourteen framing/selection unit tests and four runtime UI smoke scripts passed, including the pilot scenes, selection, start screen and dark-phone checks. Visually reviewed detailed hair, restrained skin/fabric rendering, hands, framing and clear alpha on diagnostic backgrounds and in-game. Publication checks, including the patch-note reader and the existing missing historical archive-image failure, are recorded in the follow-up’s publication.json. The complete original Batch 1 regression suites were not rerun for this image-only refinement.
+
+## Save compatibility
+
+Restart to clear cached images. No save migration, schema changes or changes to selected outfits, stature, relationships, historical precedence or activity routing.
+
+## Evidence and historical limits
+
+Implemented on 2026-11-10 after the user requested less rendered detail and explicitly retained detailed hair. The final edit combines restrained skin/fabric shading with detailed blonde strands; earlier crop corrections and release IDs are preserved.
+
+- assets/portraits/emily-selection.png
+- assets/portraits/ARTSTYLE.md
+- roadmap/artwork-batch-01/emily-style-refinement/README.md
+- roadmap/artwork-batch-01/emily-style-refinement/generation-records.json
+- roadmap/artwork-batch-01/emily-style-refinement/change.json
+- roadmap/artwork-batch-01/emily-style-refinement/checks.json
+
+
+---
+
+# Flashback visits stay in the main window
+
+release-2026-11-10-flashback-main-window | Release | Interface
+Date: 2026-11-10
+
+Visit historical areas and read their memory journal inside the main in-person window.
+
+## Details
+
+Fixed
+
+Visit flashback area previously created a separate modal window. Location and hangout entry buttons now mount the historical scene in the main in-person content area. Reopening or refreshing an active visit reuses that view; loading an active visit restores it there. The phone stays hidden during visits. The main clock identifies the paused memory without changing the saved time mode.
+
+Changed
+
+The memory journal is also embedded, with Back to the memory returning to the scene. Return to the present restores the existing location or hangout; Escape closes the journal first, or returns from the visit. Companion selection, historical portraits/backgrounds, speaker paging, speech/actions, cancellation, error drafts and isolated memory history retain their existing behavior. Destroying or rebuilding a view cancels its polling and discards unfinished replies without ending the saved visit.
+
+Access
+
+Restart, play as Rei, Emily, Sophie or Garrett, and choose Visit flashback area from the location or hangout view. Existing active visits resume in the main window. Present-day time and story progress stay paused until returning.
+
+Validation
+
+16 flashback visit/lore unit tests and six campaign-flashback unit tests passed. The visit UI smoke passed for all four protagonists, both entry buttons, no additional top-level windows, embedded journal, compact layout, selection, replies/actions, cancellation/error drafts, unchanged time, resume/rebuild cleanup and restoration. Campaign flashback UI smoke, the 34-page phone dark-theme smoke, patch-note reader smoke and start-screen smoke (28 previews) passed. Normal/compact visit, journal, pending/disabled and error screens were captured and visually inspected. Escape was exercised through Tk keyboard events. The save-isolation test now compares the pending campaign before/after a visit instead of assuming an obsolete campaign order.
+
+Known limitations
+
+Dialogue generation was mocked for verification; no live provider calls. The patch-note unit suite has five passes and one existing archive-source failure for missing tests/screenshots/mixtape-art-review-0.jpg.
+
+## Save compatibility
+
+Existing saves remain compatible; restart to load the UI change. No schema migration, memory-history deletion, present-day progression change or time-mode change. Active saved visits reopen inside the main in-person window.
+
+## Evidence and historical limits
+
+Implemented and checked on 2026-11-10 for MH-015. Current screenshots and deterministic UI checks verify the embedded view; the historical patch-note archive limitation is recorded separately from this fix.
+
+- flashback_visit_ui.py
+- game.py
+- hangout_ui.py
+- presence_ui.py
+- tests/flashback_visits_ui_smoke.py
+- tests/test_flashback_visits.py
+- tests/test_flashback_lore.py
+- tests/test_campaign_flashbacks.py
+- tests/campaign_flashbacks_ui_smoke.py
+- tests/phone_dark_theme_smoke.py
+- ROADMAP.md
+- tests/screenshots/visit-rei.png
+- tests/screenshots/visit-garrett-compact.png
+- tests/screenshots/visit-rei-journal.png
+- tests/screenshots/visit-rei-error.png
+- tests/screenshots/visit-rei-pending.png
+- tests/patch_notes_ui_smoke.py
+- tests/start_ui_smoke.py
+
+
+---
+
+# Emily portrait: true mid-thigh framing
+
+release-2026-11-10-emily-mid-thigh-crop | Release | Artwork
+Date: 2026-11-10
+
+Tightened Emily's default portrait to mid-thigh, keeping both legs connected beneath the skirt and her knees outside the frame.
+
+## Details
+
+Fixed
+
+The initially installed Batch 1 revision extended too far down and showed Emily’s knees. Replaced her default/selection PNG with a closer mid-thigh composition. A short visible section of both connected thighs remains beneath the skirt; knees and knee creases are excluded. Preserved her recognisable face, blonde hair, glasses, jewellery, embroidered pinafore and clasped hands. Removed the artwork guide’s longer-crop exception and updated current appearance wording. The other seven pilot portraits and runtime fitting code are unchanged.
+
+Access
+
+Restart and use Emily’s existing default portrait in character selection and in-person scenes. No new outfit or unlock is required.
+
+Evidence and checks
+
+One built-in image_gen edit, with exact prompt, previous-image backup, old/new hashes and before/after/alpha composites under roadmap/artwork-batch-01/emily-mid-thigh-fix. Installed output and candidate match the generated PNG byte-for-byte. RGBA 1024×1536 decoding, alpha, hashes and changed-file coverage passed. Fourteen framing/selection unit tests and five relevant UI smoke scripts passed, including dark-phone control states, normal/compact pilot scenes and the patch-note reader. The first start-screen smoke attempt hit a widget mapping assertion; its unchanged rerun passed, with both logs retained. The full source, alpha composites and corrected game views were visually reviewed.
+
+Publication
+
+Patch-note validation and export passed. Five of six patch-note unit tests passed; historical archive-source coverage still fails on the previously recorded missing mixtape-art-review-0.jpg. Broader initial Batch 1 checks were not all rerun for this single-image correction.
+
+## Save compatibility
+
+Restart to clear cached images. No migration or save-schema changes; existing outfits, stature, relationships and activity routing remain unchanged.
+
+## Evidence and historical limits
+
+Corrected the installed portrait in response to the user's mid-thigh framing feedback on 2026-11-10. Supersedes the longer Emily composition described in the original Batch 1 release; preserves that record as history.
+
+- assets/portraits/emily-selection.png
+- roadmap/artwork-batch-01/emily-mid-thigh-fix/README.md
+- roadmap/artwork-batch-01/emily-mid-thigh-fix/generation.json
+- roadmap/artwork-batch-01/emily-mid-thigh-fix/change.json
+- roadmap/artwork-batch-01/emily-mid-thigh-fix/before-after.jpg
+- assets/portraits/ARTSTYLE.md
+
+
+---
+
+# MH-013 Batch 1: eight refreshed character portraits
+
+release-2026-11-10-artwork-batch-01 | Release | Artwork
+Date: 2026-11-10
+
+The first artwork pilot refreshes Ivan, Charles, Emily, Minsu, Priya, Otis, a Clubs guard and combat Ivan with cohesive manhwa rendering and complete lower-body framing.
+
+## Details
+
+Changed
+
+Installed eight 1024×1536 transparent RGBA portraits at their existing runtime paths: Ivan selection, Charles selection v2, Emily selection, Minsu selection, Priya Shah, Otis Bell, Clubs guard and combat Ivan. The other 298 files in the original 306-file audit remain byte-identical. Preserved faces, ages, complexions, costumes, markings, opaque guard identity concealment and source-backed combat effects. Each portrait now contains pelvis/thigh coverage, complete visible hands and a full hairstyle.
+
+Fixed
+
+Emily’s first pilot draft was rejected after the user identified missing legs below a floating skirt. Her installed portrait has two connected thighs beneath the hem and a slightly longer crop above the knees. Minsu and Otis received second framing passes to show meaningful thighs. Pilot-specific fitting preserves Ivan/Charles/Minsu/Emily stature (193/191/177/154 cm) without stretching images, while legacy wardrobes retain their previous fitting. Crop-dependent Emily appearance wording was updated.
+
+Access
+
+Restart, then use the existing default outfit and character-selection/in-person routes. Charles remains at the Glasshouse and uses his active v2 image; the opaque original remains unchanged. Meet Priya and Otis through current routines. Existing Syndicate Clubs posts/encounters use the refreshed guard. Ivan’s awakened portrait appears in in-person combat. No new unlocks or changed activity routing.
+
+Evidence and validation
+
+Eight original backups, exact prompts/input roles for eleven built-in image_gen generations, SHA-256 hashes, alpha statistics, before/after composites, per-asset review and fifteen pilot game screenshots are recorded in roadmap/artwork-batch-01. Generated files were copied byte-for-byte; no pixel postprocessing. Asset decoding, dimensions, transparency, changed-file coverage and installed hashes passed. Sixty-one of sixty-three related unit tests passed; all thirteen UI smoke scripts passed, including dark-phone interactive controls, selection/custom fallback, normal/compact scenes, historical precedence, wardrobe, restored guard encounters and combat. Patch-note validation/export passed; five of six patch-note tests passed.
+
+Known limits
+
+Full MH-013 remains In progress; remaining wardrobes, historical variants, guards and combat portraits are not refreshed by Batch 1. Some pilot margins are tighter than the preferred 3–5% headroom; exact bounds and accepted framing tolerances are documented. Near-opaque alpha 254 is retained as valid output. Two unchanged broader tests fail on flashback ordering and Theo’s camera-companion fixture, and historical patch-note source coverage still fails on the pre-existing missing mixtape-art-review-0.jpg. No all-tests-pass claim is made. Checks are offline; exact built-in generator model identity is not exposed.
+
+## Save compatibility
+
+Restart to load replaced assets and the pilot fitting code. No save migration or schema changes. Existing IDs, paths, relationships, outfits, campaigns, guard encounters, powers and user-created portraits are preserved. Historical and headquarters-uniform precedence remains; restored-save guard/opponent and wardrobe identity were checked.
+
+## Evidence and historical limits
+
+Implemented and visually reviewed on 2026-11-10 using built-in image_gen. User correction for Emily's missing legs incorporated before installation. Publication covers eight installed pilot portraits only; original planning and source manifests retained.
+
+- roadmap/artwork-batch-01/README.md
+- roadmap/artwork-batch-01/manifest.json
+- roadmap/artwork-batch-01/generation-records.json
+- roadmap/artwork-batch-01/contact-sheet.jpg
+- game.py
+- tests/test_portrait_framing.py
+- tests/artwork_batch_01_ui_smoke.py
+- tools/verify_artwork_batch_01.py
+- roadmap/artwork-batch-01/checks/units.json
+- roadmap/artwork-batch-01/checks/smokes.json
+
+
+---
+
+# MH-005: novel scenes and continuity across the campaigns
+
+release-2026-11-10-campaign-prose | Release | Story
+Date: 2026-11-10
+
+Read expanded Garrett, Rei, Fox and Gordon campaigns with shared memories, longer dialogue, optional friendships, reflections and a saved in-person reader.
+
+## Details
+
+Added
+
+120 authored sections cover Garrett’s ten chapters, Rei’s eight chapters/resolution modules and twelve Fox/Gordon chapters from either viewpoint. The four developed emotional passages are integrated in full. Shared Garrett/Rei memories preserve the same events, distinct perspectives and two separate drawings. Twenty-eight optional visit entries support recurring friends, privacy, quiet company, practical help and deferral through actual chapter, presence, relationship and venue checks.
+
+The dark in-person novel reader adds immediate text, 11–24 point type, previous/next pages, saved positions, required reflection choices, historical artwork, completed scene history and an earned-evidence recap. Optional Game Master action descriptions use the existing provider only when requested, with authored fallback and stale-reply protection. Authored reflection and recipient-specific disclosure records supply later continuity without relationship rewards or cross-campaign knowledge.
+
+Changed
+
+The five existing required memories now occur at their relevant story gates. Existing objective handlers still own evidence, travel, time costs, permissions, guard progress, fights and rewards. Wrong enquiries retain their retry rules; direct recognition does not acquire unearned documents. Both reconciliation policies, every Rei ending in either resolution order and all 24 Ace orders remain playable. Eight misleading leads have explicit discriminating checks and recorded corrections. Guard/Ace/Crow dialogue follows earned identities and actual outcomes, including the current Crow defeat and a distinct legacy-capture path. Repeatable-operation introductions cannot claim their eventual success.
+
+Access
+
+Restart, then open In person → Story as Garrett, Rei, Fox or Gordon. Use the existing objective buttons for main scenes, the optional visit cards for social scenes, and Story so far or Read scene history for review. Optional cast are not teleported. Main-route context remains available when a visit is skipped. History never repeats an action or reward.
+
+Validation
+
+110 campaign, save, disclosure and combat regression tests passed, including both viewpoints and all 24 Ace orders, all Rei endings/orders, Charles policy/direct-route checks, optional-cast variants, shared canon, private recipients and old saves. Nine campaign/reader/phone UI smokes passed; rendered large and compact scenes, historical/present returns, reflections, history and visit controls were inspected. The phone check covers 34 pages plus chat/contact/embedded controls. The reproducible selected-route reading inventory is 7,979–10,115 words per viewpoint before combat and UI text; estimated reading time is not measured gameplay time. Detailed evidence and exact test lists are in roadmap/CAMPAIGN_PROSE_EVIDENCE.md.
+
+Known verification limits
+
+No independent cold read by a person unfamiliar with the external lore has been performed. The original external Fox/Gordon reference files remain unavailable; approved undated partnership history is explicitly an authored Winterfield adaptation. AI checks use mocked providers, not certification of live generated prose. The wider conversation-lore suite retains three previously reported character-data failures (29/32 pass). Catalogue validation, Markdown export, patch-note reader smoke and start-screen smoke passed (eleven UI smoke scripts total). Five of six patch-note tests passed; historical archive-source coverage still fails on the pre-existing missing tests/screenshots/mixtape-art-review-0.jpg. No missing historical evidence was fabricated.
+
+## Save compatibility
+
+Restart required. Narrative state and reading preferences are additive and protagonist-specific. Existing campaign indices, choices, evidence, victories, rewards, contacts and memory IDs persist. Older active dialogue snapshots finish as saved; completed gameplay is not repeated. Old saves do not receive invented histories of optional scenes they never experienced.
+
+## Evidence and historical limits
+
+Implemented and tested on 2026-11-10 from the approved MH-005 plans and three full-route drafts. Compile-time editing resolves manuscript directions and state variants. The implementation evidence separates actual automated/visual checks from unavailable external references, live-provider evaluation and an independent human cold read.
+
+- roadmap/CAMPAIGN_PROSE_EVIDENCE.md
+- roadmap/campaign_prose_reading_inventory.json
+- campaign_prose.py
+- campaign_prose_ui.py
+- campaign_prose/catalog.json
+- tools/build_campaign_prose.py
+- campaign_dialogue.py
+- campaign_flashbacks.py
+- tests/test_campaign_prose.py
+- tests/campaign_prose_ui_smoke.py
+- tests/results/mh005-units.txt
+- tests/screenshots/mh005-pilot-opening.png
+- tests/screenshots/mh005-shared-memory.png
+- tests/screenshots/mh005-compact-large-text.png
+
+
+---
+
+# MH-002 complete: creator writing, origins, identity and Trait kits
+
+release-2026-11-10-mh002-completion | Release | Characters
+Date: 2026-11-10
+
+Finish the character-selection update with reviewed writing tools, portable profiles, private identities, complete starting origins and playable Trait-kit previews.
+
+## Details
+
+Added
+
+Creator → Writing, identity & packages now provides explicit Expand/Rewrite/Format proposals, exact/fact locks, bookmarks, selective local randomisation, import/export with private-content controls, and isolated sample conversations. Proposals require review, preserve originals and reject stale results. Packages contain only a validated profile and transparent portrait; imported Trait approvals and signature acceptance are cleared.
+
+Creator → Trait builder & practice adds structured prompts, resolver-backed kit/cost/interaction review, accepted-aspect specialisation, three role-guided signature candidates with one optional origin slot, old/new mechanics comparison, and disposable in-person practice. Awakened without a named Trait and latent-mana choices are supported. Starting signatures do not consume ordinary workshop cooldowns.
+
+Starting choices now cover small-crew founders, returning professionals, narrative backgrounds, career interests, recognised credentials and prior portfolio. Shared balance supplies profession/branch contributions, strongest-history resolution and viable unawakened conditioning. Exact origin movebooks and stage clocks are seeded once.
+
+Public/preferred names, aliases, familiar nicknames and explicit private disclosures use shared visibility rules in dialogue. Tools → Trait applications & identity disclosure opens in person. Supported aspects allow a bounded workplace check or public-surroundings survey with time/energy costs, presence checks, daily limits and repeat-action protection. No phone executes these physical activities.
+
+Validation
+
+192 relevant unit tests passed; creator-completion, character-selection, existing custom-creator, start-screen, expanded playable-cast and phone-dark-theme smokes passed. Inspected new dark pages, compact picker/creator, scaled keyboard focus, signature review and actual in-person practice/application renders. A 288-bout fixed-seed resolver matrix shows adjacent-tier growth and Exceptional Veteran below Rei in the representative comparisons. See roadmap/CHARACTER_SELECTION_COMPLETION.md for exact evidence and assumptions. Catalogue validation and Markdown export completed; patch-note reader smoke passed search, filters, reader state, export, error states and two sizes.
+
+Known verification limits
+
+AI responses are mocked in this pass; live provider output quality and latency are not certified. Semantic fact-lock review remains a player responsibility beyond explicit mechanical checks. Matchup evidence is a finite representative sample, not a universal win guarantee. Five patch-note tests passed; historical archive coverage still fails for the pre-existing missing tests/screenshots/mixtape-art-review-0.jpg. No historical evidence was fabricated.
+
+## Save compatibility
+
+Restart required. Existing stories retain their saved progression, jobs, affiliations, learned moves and history; origins are not reapplied. Future stories from reusable profiles use the current starting balance. New optional profile/draft fields have legacy defaults. Imports create independent drafts; explicit library edits do not alter existing stories.
+
+## Evidence and historical limits
+
+Implemented and verified on 2026-11-10. Completes the required remaining MH-002 feature families; prior scoped entries remain historical. Exact checks and finite-sample/provider limitations are recorded in the completion document.
+
+- roadmap/CHARACTER_SELECTION_COMPLETION.md
+- roadmap/creator-balance-results.json
+- creator_writing.py
+- creator_tools_ui.py
+- character_identity.py
+- character_packages.py
+- creator_combat.py
+- creator_combat_ui.py
+- trait_activities.py
+- character_origins.py
+- tests/test_creator_completion.py
+- tests/creator_completion_ui_smoke.py
+- tests/screenshots/mh002-origin-signature-review.png
+- tests/screenshots/mh002-in-person-trait-applications.png
+
+
+---
+
+# Canonical ways of addressing the Crow
+
+release-2026-11-10-crow-address-canon | Release | Characters
+Date: 2026-11-10
+
+The Aces call the Crow master, Ivan uses Crow, and Sylvanis uses Mr. Crow, Bird-man or Bro.
+
+## Details
+
+Changed
+
+Shared dialogue references and per-turn guidance now specify these exact forms of address. The Four Aces take offence at Sylvanis’s behaviour towards the Crow but hesitate to act given his position. This does not grant Sylvanis command over the Aces or establish unseen incidents. Concealed identities remain private.
+
+Access
+
+Restart and converse with these characters through existing conversation routes. Addresses apply naturally when addressing the Crow; no new menu or activity is added.
+
+Validation
+
+Conversation lore suite: 29 of 32 passed, including the new seven-speaker address and restraint regression. Three failures concern untouched data: Charles’s missing TV-show preference, Garrett’s missing Daniel audience entry and Nessa Quinn’s missing portrait style. Patch-note suite: five of six passed; archive coverage fails on missing tests/screenshots/mixtape-art-review-0.jpg. Generated dialogue was not sampled live; this update supplies generation guidance rather than deterministic wording.
+
+## Save compatibility
+
+Existing saves remain compatible; restart to load updated Python guidance. No migration or rewrite of saved conversation history.
+
+## Evidence and historical limits
+
+User-confirmed canon recorded and integrated on 2026-11-10. Test results are from this update.
+
+- the_crow.py
+- conversation_lore.py
+- tests/test_conversation_lore.py
+- roadmap/COMBAT_CHARACTER_LORE.md
+
+
+---
+
+# Hamayashi-kai and Shinokami yakuza guard designs
+
+release-2026-11-10-yakuza-guard-appearance | Release | Artwork
+Date: 2026-11-10
+
+Five transparent guard portraits now use tailored yakuza clothing, with richer accessories and equipment for Shinokami.
+
+## Details
+
+Changed
+
+Replaced Kai sentinel and Kai house guard martial uniforms with navy suits, open-collar shirts and restrained gold details. Yokai and Tengu wear tailored suits, patterned silk shirts, jewelry, earpieces and discreet protective equipment. Oni retains its fully robotic head, hands and integrated weapons beneath tailored outerwear, burgundy waistcoat and gold accessories. Existing faces, roles, powers and combat balance are preserved.
+
+Access
+
+Restart the game and encounter these posts in person at Hamayashi-kai house, supply house or riverside annex, or Shinokami sites. Existing guard conversations, roster portraits and combat use the same updated assets. Appearance context now matches the artwork and overrides old descriptions. Full-face mask presentation remains limited to the three Syndicate guard types.
+
+Validation
+
+Six guard portrait tests, 19 guard dialogue tests and 23 enhanced-combat tests passed. Five-portrait render inspected on dark slate; guard roster/combat/compact/hangout smoke passed. Patch-note reader and start-screen smokes passed. Patch-note suite: five passed, one existing archive-source failure for missing tests/screenshots/mixtape-art-review-0.jpg. Generated alpha preserved; no image background removal scripts used.
+
+## Save compatibility
+
+Existing saves remain compatible. Restart to clear cached artwork and load current appearance descriptions. No migration, equipment unlocks, stat changes or progression changes.
+
+## Evidence and historical limits
+
+Implemented and verified locally on 2026-11-10 using built-in image_gen portrait edits. MH-011; actual checks and pre-existing archive failure recorded.
+
+- assets/portraits/guards/manifest.json
+- assets/portraits/guards/yakuza-refresh-prompts.json
+- organisation_guards.py
+- guard_dialogue.py
+- combat_engine.py
+- tests/test_guard_dialogue.py
+- tests/yakuza_guard_art_smoke.py
+- tests/screenshots/yakuza-guard-redesign.png
+
+
+---
+
+# Syndicate guard descriptions match their masked designs
+
+release-2026-11-10-syndicate-guard-description-continuity | Release | Characters
+Date: 2026-11-10
+
+Guard descriptions, conversation context and combat narration now share the redesigned masks, insignia and equipment.
+
+## Details
+
+Changed
+
+Clubs descriptions specify a black hood, full-face black military helmet and mask, opaque visor, white clubs insignia, bulletproof vest under a jacket, gun and green Awakened energy. Spades descriptions specify a full-face assassin mask with white spades insignia, hooded black jacket, layered cloak cloths and utility accessories, gloves and knife. Affiliate descriptions specify full-face military equipment, opaque goggles, gun and the Syndicate playing-card/skull chest insignia, with no magical energy.
+
+In-person guard AI conversations receive these current descriptions and instructions to keep head coverings on, hide faces, eyes and hair, and express reactions through voice, posture, head turns and gloved gestures. Current appearance takes precedence over contradictory old chat history. Updated NPC details also supply the same facts to the local NPC path. Combat profiles carry appearance text; new resolved exchanges provide current appearance and presentation rules to combat narration, including fights loaded from older profiles. Equipment remains cosmetic and does not grant immunity, new powers or changed combat outcomes.
+
+Access and verification
+
+Restart and talk to Syndicate guards at their posts or enter their existing combat encounters. Eighteen guard-dialogue tests and 23 enhanced-combat tests passed. Regression tests inspect prompts for all three guard types, including old profiles, and actual resolved combat records. Guard dialogue UI smoke passed. Tests use mocked AI responses; model adherence to prose instructions is not guaranteed and no live generation was performed. Five patch-note tests passed; the known historical archive-source failure remains for missing tests/screenshots/mixtape-art-review-0.jpg. Catalogue validation/export passed.
+
+## Save compatibility
+
+Restart to load the shared appearance descriptions and prompt changes. No migration or save reset; existing conversations and combat history are preserved. New dialogue and exchanges use the current design context. Existing combat mechanics, recognition and authority are unchanged.
+
+## Evidence and historical limits
+
+Implemented and locally tested on 2026-11-10 following the Syndicate portrait refresh. Prompt and deterministic integration checks used mocked providers; no claim of guaranteed live model compliance.
+
+- organisation_guards.py
+- guard_dialogue.py
+- combat_engine.py
+- tests/test_guard_dialogue.py
+- tests/test_enhanced_combat.py
+- tests/guard_dialogue_ui_smoke.py
+
+
+---
+
+# Staged character creation, reusable profile editing and Ace occupations
+
+release-2026-11-10-staged-creator-and-profile-editing | Release | Interface
+Date: 2026-11-10
+
+Continue MH-002 with six creator steps, a live profile/checklist, safe reusable-character editing, recovery comparison and selected-save previews. The Four Aces now list their Syndicate roles.
+
+## Details
+
+Added
+
+After restarting, Create your own opens Identity & Appearance, Backstory, Combat, Career, Underworld and Review. Back/Next, direct step selection and Alt+Left/Right preserve inputs. Contextual help explains starting choices. Career and Underworld summaries use the shared origin resolver and open the existing starting-choice picker. Portrait and Live starting profile tabs remain reachable at compact size. Review shows the first field-validation problem plus portrait and Trait-acceptance requirements; full dossier remains available.
+
+Select a custom roster character and choose Edit selected. Save character updates that reusable profile with its stable identity; Save as new character creates a separate profile, even for duplicate names. Appearance changes still require a matching portrait, and altered Traits require evaluation/acceptance. Story snapshots are never edited by this flow. A changed or removed source profile refuses stale overwrite and leaves the draft open.
+
+Resume draft now previews manual and recovery copies, saved editor step, biography excerpt and changed sections. Stale draft autosaves/manual saves/pin updates are rejected by comparison with the last-read file. Save draft as copy preserves current inputs as a separate draft. These checks do not claim an operating-system-wide transaction lock across simultaneous processes.
+
+Story library → Saved progress shows the selected JSON snapshot without loading gameplay or applying migrations. Saved combat/Path, funds, employment title and recorded reputation/heat come from that snapshot. Missing combat remains missing; starting funds and kit claims are omitted, and canonical occupation is labelled background information.
+
+Fixed
+
+Martos, Elias, Mavis and Camila now list Syndicate Ace of Clubs, Hearts, Spades and Diamonds respectively, alongside their public occupation records. They are direct specialists for the Cardmaster, not Suit commanders. Menu display does not reveal their roles to NPCs.
+
+Validation
+
+Eleven selection tests, two custom-library tests, eleven custom-protagonist tests and nine QOL tests passed. Selection, mocked custom creator, save-library, start-screen, phone dark-theme (34 pages plus controls) and patch-note reader smokes passed. Inspected compact live Review, staged Backstory, profile editing, recovery, Ace details and saved-progress screens; corrected compact clipping. Five patch-note tests passed; historical archive coverage still fails for missing tests/screenshots/mixtape-art-review-0.jpg. No live AI was tested.
+
+Remaining MH-002 work
+
+AI writing/locks/ideas/randomisation, portable packages, disclosure-aware identity, remaining origins and balance calibration, advanced Traits and full end-to-end/accessibility coverage remain required. This entry records a delivered increment, not completion of MH-002.
+
+## Save compatibility
+
+Restart to load changed UI. No story migration or progression changes. Optional draft metadata stores creator step and reusable-profile edit baseline; old drafts use safe defaults. Explicit Save character affects future starts only. Save as new character and Save draft as copy create independent identities.
+
+## Evidence and historical limits
+
+Implemented and locally verified on 2026-11-10. Four Aces status comes from four_aces.CAST and its direct-specialist boundary. Actual checks and outstanding scope are recorded in the MH-002 implementation evidence.
+
+- character_biographies.py
+- character_dossier.py
+- creator_steps_ui.py
+- custom_creator_ui.py
+- creator_workspace_ui.py
+- creator_drafts.py
+- custom_library.py
+- start_ui.py
+- qol_ui.py
+- tests/test_character_selection.py
+- tests/character_selection_ui_smoke.py
+- tests/save_library_smoke.py
+- roadmap/CHARACTER_SELECTION_IMPLEMENTATION.md
+
+
+---
+
+# Masked Syndicate guard designs and transparent portraits
+
+release-2026-11-10-syndicate-guard-redesign | Release | Artwork
+Date: 2026-11-10
+
+Clubs, Spades and affiliate guards now wear distinct full-face equipment and faction insignia.
+
+## Details
+
+Changed
+
+Clubs enforcers now wear a black hood over a full-face black military helmet and mask with a white clubs insignia, a bulletproof vest under a jacket, and wield a gun with green Awakened energy. Spades assassins wear a black hooded jacket, full-face mask with a white spades insignia, layered cloak cloths and utility accessories, and wield a knife. Affiliates wear full-face military equipment and carry a gun, with the established Syndicate playing-card/skull insignia on the chest.
+
+The three existing portrait assets were replaced with transparent RGBA artwork generated using built-in image_gen. Exact prompts are retained in the guard manifest. Restart and visit existing Syndicate guard posts or guard encounters to see the updated art in the in-person views. Guard roles, weapons, stats and progression are unchanged.
+
+Validation
+
+Four guard portrait unit tests passed, including transparency and old saved-encounter resolution. Existing guard portrait UI smoke and the three-portrait Syndicate review smoke passed. The rendered three-portrait review was visually inspected on a dark slate background. Five patch-note unit tests passed; the existing historical archive-source test fails because tests/screenshots/mixtape-art-review-0.jpg is missing. Catalogue validation and export completed.
+
+## Save compatibility
+
+Existing saves remain compatible; no migration or reset. Restart to clear cached portraits and load the replaced artwork.
+
+## Evidence and historical limits
+
+Requested designs generated with built-in image_gen and locally verified on 2026-11-10. No gameplay or phone layout changes.
+
+- assets/portraits/guards/clubs.png
+- assets/portraits/guards/spades.png
+- assets/portraits/guards/affiliate.png
+- assets/portraits/guards/manifest.json
+- tests/test_guard_portraits.py
+- tests/guard_portraits_ui_smoke.py
+- tests/syndicate_guard_art_smoke.py
+- tests/screenshots/syndicate-guard-redesign.png
+
+
+---
+
+# Character biographies, complete known details and pinned draft revisions
+
+release-2026-11-10-character-biographies-and-revision-pins | Release | Interface
+Date: 2026-11-10
+
+All 28 canonical protagonists now have two-paragraph biographies and sourced personal details, including underground occupations. Creator history supports pinned revisions.
+
+## Details
+
+Added
+
+Restart and select a protagonist, then open Backstory for two authored paragraphs grounded in the character references and story setup. Custom characters retain their own authored biography. Details now reads the original and expanded cast records: ages, occupations, calendar birthdays, heights and MBTI replace blanket placeholders. Garrett lists Golden Dragon ownership and Red Dragons triad leadership; Rei lists modelling/art and the Iron Circle underground championship; Ivan lists singing/modelling and his Syndicate executive role. Owner-facing dossier text does not disclose information to NPCs or resolve future campaign events.
+
+MBTI is present for every canonical selection. Sylvanis (ENTP), Fox (ISTP) and Gordon (ISTJ) are explicitly labelled authored menu interpretations because their sources do not assign a type. Mavis remains Undisclosed for occupation; her birthday and those of Sylvanis, Fox and Gordon remain Unknown. Fox and Gordon heights remain Unspecified rather than invented.
+
+Creator revision history now offers Pin / unpin selected revision. Pinned revisions survive beyond the latest 40 ordinary checkpoints. Unpinning makes ordinary retention apply on a subsequent save. Pinning preserves the working and recovery snapshots; failed writes retain prior data. Restoring the oldest ordinary revision now succeeds even when adding the pre-restore checkpoint causes retention to remove that revision.
+
+Validation
+
+Nine character-selection and eleven custom-protagonist tests passed. Selection UI smoke traversed biographies/details for all 28 characters and exercised pinning. Start UI, phone dark-theme (34 pages plus controls) and patch-note reader smokes passed. Wide biography/details, compact scrolled biography and pinned history screenshots were inspected. Five patch-note unit tests passed; historical archive coverage still fails on missing tests/screenshots/mixtape-art-review-0.jpg. No live AI was tested.
+
+Remaining scope
+
+This continues MH-002; it does not complete the full staged creator, AI writing tools, portable packages, disclosure routing, origin calibration, advanced Traits or remaining integrated acceptance work. See the implementation record for outstanding work.
+
+## Save compatibility
+
+Restart to load updated menu copy and controls. Existing stories, progression, custom biographies and NPC knowledge are unchanged. Pin/unpin writes only the selected draft revision metadata; no story migration is required.
+
+## Evidence and historical limits
+
+Implemented and locally verified on 2026-11-10. Biographies use existing character lore; new menu-only MBTI interpretations are explicitly distinguished from source facts. MH-002 remains In progress.
+
+- character_biographies.py
+- character_dossier.py
+- creator_drafts.py
+- creator_workspace_ui.py
+- tests/test_character_selection.py
+- tests/character_selection_ui_smoke.py
+- roadmap/CHARACTER_SELECTION_IMPLEMENTATION.md
+
+
+---
+
+# Guards keep their AI-generated replies
+
+release-2026-11-10-guard-ai-reply-validation | Release | Characters
+Date: 2026-11-10
+
+Fixes guard replies being silently replaced by the same greeting when the AI returns dialogue without narration.
+
+## Details
+
+Fixed
+
+Guard conversations now accept an empty narration field when the AI supplies valid spoken dialogue. Previously, the common group validator rejected that response and the guard generator swallowed the error, saving a repeated stock greeting instead. This was reproduced live with Fox at Interpol HQ: the provider returned “Which files do you need?” while the game displayed the colleague greeting.
+
+All conversation topics now use the configured AI provider, including the four suggested duty questions that previously used canned replies. The initial approach greeting and explicit guard-desk controls remain authored. Prompts include the player/guard names, recent exchange, duty guide, authority and desk facts, and instruct the guard to answer the latest line rather than repeat its greeting. Narration-free turns render as spoken dialogue without a fabricated narrator line.
+
+Malformed or authority-contradicting replies receive one repair attempt. Persistent validation failures and provider errors reach the existing retry/error flow; they no longer commit a greeting disguised as an AI response. Valid command acknowledgements such as not needing clearance are no longer rejected by the overly broad phrase match. Guard command rules, contact restrictions and stale-result checks remain active.
+
+Access and verification
+
+Restart, continue the story and speak to a guard in person; existing guard conversations can continue. Sixteen guard-dialogue tests, six hangout-scene tests and three hangout-texting tests passed. The guard-dialogue UI smoke passed with a mocked narration-free provider reply through the actual asynchronous submission path; its compact conversation screenshot was inspected. Two live turns with the configured provider in an isolated fresh Fox state returned “Which files, Officer Fox?” and then a contextual response about requesting witness interview records through the records desk. The transcript is stored in tests/guard_dialogue_live_check.json. No player saves or credentials were changed. This small live sample verifies this reported failure path, not every possible generated response.
+
+Release checks: catalogue validation/export, patch-note UI smoke and start-screen smoke (28 previews) passed. Five of six patch-note unit tests passed; the historical archive-source check still fails on missing tests/screenshots/mixtape-art-review-0.jpg, unrelated to this dialogue change.
+
+## Save compatibility
+
+Restart to load the fix. Existing stories, guard histories, authority, contacts and campaign progress are preserved. Previously repeated greetings remain historical messages; new successful replies are saved normally. Failed generation does not append a substitute greeting. No save reset or new migration is required.
+
+## Evidence and historical limits
+
+User-reported repeated guard greeting reproduced against the configured live provider on 2026-11-10. Empty narration was the observed validation failure. Fixed and verified with focused regressions, asynchronous UI smoke and a two-turn live dialogue sample.
+
+- guard_dialogue.py
+- tests/test_guard_dialogue.py
+- tests/guard_dialogue_ui_smoke.py
+- tests/guard_dialogue_live_check.json
+- tests/screenshots/guard-part2-conversation-compact.png
+
+
+---
+
+# Character dossiers, reusable profiles and creator drafts
+
+release-2026-11-10-character-selection-foundation | Release | Interface
+Date: 2026-11-10
+
+Browse canonical and custom protagonists together, inspect starting profiles, save unfinished drafts and review initial career/combat origins. MH-002 remains in progress.
+
+## Details
+
+Added
+
+The main menu now has full-name portrait tiles, name search, All / Canonical / My Characters filters, and Overview / Backstory / Details / Awakened dossiers. Compact windows place the dossier below the portrait. Selecting a tile never begins a story; Begin and Continue remain independent. Invalid library entries are reported and missing portraits do not remove reusable characters. Existing reusable profiles are recovered outside preview rendering, and duplicate names retain separate identities.
+
+Open Create your own for Save draft, Resume draft, recovery copies, revision history, session Undo/Redo, optional public/private biography fields and Review. Save character returns to the selected roster entry without starting a story. Save & begin saves the reusable profile before using the protected story-start flow. Portrait generation and Trait evaluation remain explicit. Private history is visible in the owner's dossier and excluded from public biography; later disclosure routing is not yet implemented.
+
+Choose career, criminal background & combat kit opens a dark Apply/Cancel picker. Twelve civilian careers expose their four supported starting titles, pay and hours. The current criminal choices cover clean/former/independent/freelance, trusted crew/lieutenant/captain, and faction member/specialist/field leader. Seven combat histories use the shared MH-001 scale, direct starting Path stages and explicit style/move selections. Recommended kits grant basics plus bounded advanced/master selections; unawakened builds cannot use superhuman masters. Employment and criminal standing initialise only for a new story, with prior experience separated from completed shifts and assignments.
+
+Changed
+
+Reusable profile identity is independent of subsequent edits. Saving an older playthrough cannot overwrite a newer reusable profile. Unreadable Continue data leaves recovery controls available. Emily's dossier reflects the active Critical Hit and Ascension defaults already present in current combat/lore code; there is no new progression reset or invented awakening history.
+
+Known limitations / remaining MH-002 scope
+
+This is an implemented foundation, not completion of MH-002. The full staged creator, richer authored biographies, published-profile editing UI, AI writing assistance/locks/ideas/randomisation, portable import/export, sample dialogue, full identity/disclosure routing, small-crew founder and returning-professional selectors, advanced Trait/signature/practice features and complete accessibility scenarios remain pending. Career combat contributions currently use small bounded tactical bonuses; profession-specific calibration and fixed-seed matchup evidence remain pending. B/low-A unawakened variants are explicitly labelled uncalibrated. Numeric targets do not promise victories. The saved-progress adapter exists but is not yet wired into the story-library viewer.
+
+Validation
+
+Seven new data tests, eleven custom protagonist tests, two custom library tests, 96 combat tests, 23 enhanced-combat tests, eleven job-app tests, twelve JobSeek tests and seven Bubblegram tests passed. New MH-002 UI smoke, existing start and custom-creator smokes, expanded playable-cast smoke and phone dark-theme smoke passed. The dark audit covered 34 phone pages and embedded controls. Wide/compact menu, creator, custom/empty rosters, Emily dossier, origin picker, revision history and Review were rendered and inspected. Providers were mocked; no live AI was tested. Patch-note unit tests: five passed, with the existing historical-source failure for missing tests/screenshots/mixtape-art-review-0.jpg retained. Full evidence and unfinished acceptance work are recorded in roadmap/CHARACTER_SELECTION_IMPLEMENTATION.md.
+
+## Save compatibility
+
+Restart to load the new UI. Existing stories retain jobs, funds, affiliations, learned moves, Path stages and relationships; origins are never reapplied on load. New custom stories receive optional versioned profile/origin snapshots. Reusable characters remain in custom_characters outside story saves; drafts/recovery/history use character_drafts. No provider credentials or historical chat logs are changed.
+
+## Evidence and historical limits
+
+Implemented and locally verified on 2026-11-10. This entry documents only the delivered foundation; MH-002 remains In progress and all confirmed remaining features retain their scope.
+
+- start_ui.py
+- character_dossier.py
+- custom_library.py
+- custom_protagonist.py
+- custom_creator_ui.py
+- creator_workspace_ui.py
+- creator_drafts.py
+- character_origins.py
+- creator_origin_ui.py
+- combat_profiles.py
+- job_apps.py
+- jobseek_progression.py
+- tests/test_character_selection.py
+- tests/character_selection_ui_smoke.py
+- roadmap/CHARACTER_SELECTION_IMPLEMENTATION.md
+
+
+---
+
+# Textured combat panels and clearer training layouts
+
+release-2026-11-10-combat-texture-refresh | Release | Interface
+Date: 2026-11-10
+
+Woven slate combat framing, readable stat cards, a split technique library and scrollable combat hub.
+
+## Details
+
+Changed
+
+Open Combat from the in-person window to see framed woven slate headers, separate fighter and martial-art panels, and numeric stat cards. The Path uses the same stat cards with padded, scrollable progression reading. The hub scrolls when long profiles or Iron Circle ledger controls exceed the window height.
+
+Training now separates the technique library from the selected technique brief, with learning and practice actions below. The Trait workshop has a clearer laboratory heading and padded skill descriptions. The dossier and hangout combat invitation rows share the textured framing.
+
+The active and finished fight views retain location artwork and large portraits, with textured HUD/command/drawer frames, segmented resource strips and a teal Resolve Exchange action. History, breakdown, inspection, techniques, quick slots, forms and display/help drawers inherit the framing. Large-text mode uses a one-line latest narration preview to preserve HUD space; full narration remains available in History. No combat rules, costs, progression or consent behavior changed.
+
+Validation
+
+96 combat and 23 enhanced-combat unit tests passed. RPG, base combat, enhanced combat/training/workshop, Path, dialogue and partner/boss UI smokes passed. Phone dark-theme smoke passed across 34 pages and embedded controls. Rendered combat, large-text HUD, inspection, training, workshop, Path and hub screens inspected. New texture smoke passed for the compact hub, scrolled ledger, dossier and academy return navigation. Patch-note reader smoke and catalogue validation/export passed.
+
+Known limitations
+
+Start-screen smoke failed its unrelated character-selection assertion after change_page(1). Five patch-note unit tests passed; archive coverage failed on the already documented missing historical tests/screenshots/mixtape-art-review-0.jpg. UI checks mock providers and save writes; no live AI generation was tested.
+
+## Save compatibility
+
+Restart the game to load the new presentation. Existing saves, active encounters and UI preferences remain compatible. No new save fields or migration.
+
+## Evidence and historical limits
+
+Implemented for MH-009 on 2026-11-10; evidence records actual local checks and visual inspection, with unrelated validation failures disclosed.
+
+- combat_style.py
+- combat_ui.py
+- combat_rpg_ui.py
+- combat_selection_ui.py
+- hangout_combat_ui.py
+- tests/combat_texture_ui_smoke.py
+- roadmap/COMBAT_TEXTURE_REFRESH.md
+
+
+---
+
+# Woven slate textures and clearer navigation
+
+release-2026-11-10-textured-interface | Release | Interface
+Date: 2026-11-10
+
+Subtle woven surfaces, framed scenes, clearer in-person navigation and more readable phone headers.
+
+## Details
+
+Changed
+
+The start screen now has a locally generated woven slate surround and a fine border around the character preview. The in-person window separates the game masthead from the navigation toolbar so the clock, phone and menu controls have more room. Scene headers and composer panels use textured framing; Speak/Actions selection and send buttons use a muted teal accent with increased padding. Existing location artwork, portraits and in-person activity routing are preserved.
+
+On the phone, the device surround is textured and Home has a dark woven clock/identity panel that stays readable over custom wallpaper. App chrome includes a keyboard-operable Home button beside Lock; long app titles wrap so navigation stays reachable at compact widths. Open the game or phone normally after restart to see the changes. Existing home-page editing, dock placement and wallpaper preferences remain available.
+
+Validation
+
+Passed start-screen smoke (28 previews and compact layouts), in-person scene smoke (solo/group, actions, paging, suggestions, pending dialogue and full screen), phone home placement smoke, and the new compact/wide phone chrome and Home-button smoke. Dark-theme audit passed across 34 phone pages, conversation/contact details and embedded control states. Screenshots of compact start, in-person and phone layouts were inspected.
+
+Known limitations
+
+The broader phone navigation smoke stops at its legacy Writing response status assertion; current message delivery UI uses the message pump and Writing reply status instead. Messaging logic was not changed in this update. Five patch-note unit tests pass; archive coverage still fails on the missing historical tests/screenshots/mixtape-art-review-0.jpg. This refresh covers shared framing and primary screens, not an individual redesign of every app.
+
+## Save compatibility
+
+Restart the game to load changed UI code. No migration or new save fields; story progression and phone personalisation remain compatible.
+
+## Evidence and historical limits
+
+Implemented locally on 2026-11-10; fresh smoke checks and rendered-screen inspection. Known failing checks are explicitly retained.
+
+- winterfield_ui.py
+- start_ui.py
+- game.py
+- hangout_ui.py
+- phone_ui.py
+- phone_home.py
+- tests/ui_texture_refresh_smoke.py
+- roadmap/UI_TEXTURE_REFRESH.md
+
+
+---
+
+# Combat RPG interface: a larger arena and tactical command dock
+
+release-2026-11-10-combat-rpg-interface | Release | Interface
+Date: 2026-11-10
+
+Large combat portraits share the location backdrop, with RPG technique cards, readable HUDs and all eight approved MH-007 interface additions.
+
+## Details
+
+Changed
+
+Restart and enter any fight through the existing in-person combat routes. Player and opponent portraits now occupy a shared location stage, with mirrored health, stamina and mana bars, objective and exchange phase, latest narration and a fixed resolve command. Moves and category buttons open scrollable technique cards; technique, amplification and target selectors remain directly available. Selection and inspection spend nothing. Forms / rules retains form activation, elemental channels, objectives, terrain, art filtering and concession. Completed encounters return to the location.
+
+Added
+
+Pin up to six learned moves and select them through Quick slots. History and Breakdown expose prior narration and recorded exchange outcomes; new UI-resolved exchanges also retain resource/state changes. Tactics toggles distance, terrain and partner information. Revealed bosses receive distinct framing and Richter's actual committed-action cycle labels. Gold hatching previews selected costs including form upkeep, not guaranteed damage or recovery. Click portraits or their name buttons for inspection; opponent techniques are limited to observed moves and operational titles respect knowledge. Display / help offers Detailed/Cinematic density, 10/12/14-point text and a dismissible/restorable first-fight guide.
+
+Compatibility and limits
+
+Combat remains in person and both fighters act within each exchange. No combat balance or animation assets changed. Smaller windows and larger text shorten secondary HUD labels; full names, states and technique explanations remain available in drawers. Older exchanges have no before/after snapshots and say so; their recorded costs and outcomes remain readable. Quick slots select actions rather than executing them. Existing resolve guards prevent repeated actions while narration is pending.
+
+Verification
+
+96 combat tests and 23 enhanced-combat tests passed. The new MH-007 Tk smoke covers layouts, preferences, keyboard card selection, saved active-fight restoration, unavailable moves, nonmutating selections, duplicate-submit suppression, provider fallback, depleted resources and missing art. Existing combat, enhanced/opponent scenarios, portrait, Part 2, partner/boss, dialogue and Path UI smokes passed. Large/compact and interactive drawer screenshots were inspected; a large-text HUD clipping issue was corrected. Provider/save writes were mocked; no live AI prose quality claim. See the linked evidence document for release-reader checks and verification limits.
+
+## Save compatibility
+
+Restart to load the interface; existing stories and active encounters remain compatible. Additive combat.ui_preferences entries store favourites by stable move ID and protagonist, HUD settings and hint dismissal. New UI-resolved exchanges may add ui_resource_audit snapshots. No destructive migration or changes to health, resources, progression, learned moves, encounter outcomes or campaign gates.
+
+## Evidence and historical limits
+
+Implemented for standalone MH-007 on 2026-11-10, including all eight user-approved suggestions. Actual commands, screenshots and verification limits are recorded in roadmap/COMBAT_RPG_UI_EVIDENCE.md. MH-001 scope remains unchanged.
+
+- combat_rpg_ui.py
+- combat_ui.py
+- tests/test_combat_rpg_ui.py
+- tests/combat_rpg_ui_smoke.py
+- roadmap/COMBAT_RPG_UI_PLAN.md
+- roadmap/COMBAT_RPG_UI_EVIDENCE.md
+
+
+---
+
+# Guard conversations, command authority and contact cleanup
+
+release-2026-11-10-guard-dialogue-and-authority | Release | Characters
+Date: 2026-11-10
+
+Talk to guards in person with type-specific dialogue, explicit organisational authority, visitor controls and no accidental phone contacts.
+
+## Details
+
+Added
+
+Open In person → Stories, guards & gang properties → Guards. Select a local post and choose Talk to selected guard, or approach a guard from the nearby-person list. Conversations stay in the illustrated in-person hangout. Fifteen built-in guard types and three custom guard categories have authored voice, duty and knowledge guidance, with reserved, patient or brisk variation per post/shift. Suggest replies provides duty topics; personal and physical suggestions remain nonromantic. Standard directions, leadership and visiting questions work without a provider request; free speech uses the configured dialogue provider and has an offline fallback.
+
+The guard desk offers directions, leadership enquiries, credential checks, pending visit requests, written problem reports, a three-stage boundary warning ladder, command status reports/referrals and authorisation or revocation for a present visitor. Reports are stored as unverified visitor accounts shared by the post for the story day. Repeated intrusion ends in an explicit recorded refusal, not an automatic fight. Visit requests are pending records, not fabricated appointments. Visitor authorisations are local to the post and story day; they affect that post's credential/boundary response and do not unlock campaign rooms or move anyone. Referral controls record the order locally, without claiming a remote response or deployment.
+
+Changed — authority
+
+Ivan and Sylvanis have cross-Syndicate command over non-Ace subordinates; the Four Aces are explicitly exempt. Aces do not command guards and instead receive fear and undying respect. Joseph Richter retains absolute Blackstone control. The resolver also covers Takeo, Gordon, Garrett, local crew leaders, Rei's saved successor leadership, custom founders/deputies and supported branch/unit rank scopes. Expulsion, membership, ownership and story changes are re-evaluated. Combat strength does not grant rank. Rival leaders receive recognition without command; faction relations inform outside-member reactions. Conflicting orders cannot silently invent precedence between the two Jokers. Authority is enforced by action handlers, independently of generated wording.
+
+Fixed
+
+Starting a guard hangout no longer creates an NPC personal contact. Contact syncing, phone-number addition and group/direct texting reject guard posts. Load/sync migration archives accidental guard chats and pending phone work, removes guard phone recipients and repairs retired active-group references. Mixed text histories and legitimate recipients are retained. Archived old guard histories are readable at the in-person guard desk. New conversations use faction, venue, stable post/type and story-day keys, so renamed custom types preserve identity while different locations and replacement shifts do not inherit personal memories. A saved conversation continues correctly after reload. Delayed replies are checked against their original conversation, input, history revision, post, authority and daily state; duplicate or stale results are rejected.
+
+Validation
+
+101 focused regression tests passed, including 14 new guard-dialogue tests and existing guard portraits, campaigns, phone numbers, character types, saves, dialogue, message timing and hangout suites. New tests cover every deployed type, custom categories, explicit hierarchy exceptions, migration, real save/load, background snapshot delivery, provider fallback, duplicate/stale replies, warnings, reports, conflicting orders and authority changes. Guard-dialogue and guard-portrait UI smoke checks passed, including an actual asynchronous canned conversation turn, compact layout and commander/non-commander controls. Dark-phone smoke passed across 34 pages, chat, contact details and embedded control states. Visually inspected the command desk, compact conversation and dark-phone contact/control montage. Patch-note reader and start-screen UI smoke checks passed (28 start previews). Catalogue validation and Markdown export passed. Five of six patch-note unit tests passed; the archive-source test failed on the missing historical tests/screenshots/mixtape-art-review-0.jpg. Historical entries were not rewritten to hide that failure.
+
+Known limitations
+
+Live provider wording was not sampled; generation tests use simulated replies/failures. Dialogue is prompted to respect knowledge and hierarchy and rejects several direct authority contradictions, but free generated prose is not a formal proof of semantic compliance. Supported desk actions remain the authority for world-state changes. This update does not create a new remote command system, auto-complete appointments, resurrect defeated guards or override campaign access/victory requirements.
+
+## Save compatibility
+
+Restart the game and continue the existing story. Version-1 guard-social records are added lazily. Existing accidental guard phone records and pending work are archived rather than deleted; mixed text groups retain legitimate recipients and prior messages, while pending affected phone work is archived rather than replayed. Guard histories, existing normal contacts, recruitment, assignments, victories and campaign progress are preserved. Guard conversations and local post reports/permissions are scoped by faction, location and story day; no save reset is needed.
+
+## Evidence and historical limits
+
+Implemented for MH-003 with all six approved refinements and the clarified hierarchy. Focused regression and UI verification performed on 2026-11-10 using isolated states and mocked persistence/providers; no player saves or credentials were modified.
+
+- guard_dialogue.py
+- groups.py
+- town.py
+- game_core.py
+- phone_numbers.py
+- suggestions.py
+- campaign_ui.py
+- tests/test_guard_dialogue.py
+- tests/guard_dialogue_ui_smoke.py
+- tests/guard_portraits_ui_smoke.py
+- tests/phone_dark_theme_smoke.py
+- tests/screenshots/guard-part2-commands.png
+- tests/screenshots/guard-part2-conversation-compact.png
+- roadmap/GUARD_UPDATE_PART_2_PLAN.md
+
+
+---
+
+# Combat Part 2 completion: field partners, rescue and final verification
+
+release-2026-11-10-combat-part-two-completion | Release | Combat
+Date: 2026-11-10
+
+Completes partner ability states, tactical support, escort positioning, knowledge handling and the remaining Part 2 checks. Animations stay in Part 1.
+
+## Details
+
+Added
+
+In Stories & organisations > Guards, a physically present companion in your current in-person group can support an ordinary patrol fight at trust 60 or higher, provided they are recovered and not defending the post. Crow, Sylvanis, Takeo and Thirteen do not volunteer through this generic route. Entry rechecks eligibility. Authored solo missions and campaign parties keep their existing rules.
+
+Partners now activate and pay for forms, channels, Shinigami Protocol and Misanthropy through the shared NPC policy. Their clocks advance once without advancing the opponent twice, and actual support damage is recorded. April spends seven stamina to call a bounded observed opening after two exchanges, retaining ordinary guard recovery and vulnerability. Partner health, stamina, mana, position and states are visible in the compact combat HUD.
+
+Rescue now requires a living, unrestrained escort to reach the same exit as the player. The escort guards and follows one space per exchange; restraint prevents following. Player-only escape no longer awards rescue. Revealed Richter has explicit boss framing and low-A equipped assessment.
+
+Changed
+
+Operational title knowledge is stored separately from civilian identity links. Earned Interpol disclosures work for non-Ace operatives too, and mixed-audience dialogue only receives mutually known title context. Observing a move never reveals a secret identity. Generated-skill reviews now record prepared costs, affordability and current-profile raw-force forecasts with explicit limits.
+
+Preserved
+
+The Crow containment campaign still forces defeat after four exchanges and cannot end in his capture. Existing victory gates, solo campaign access, saved progression and earned titles remain intact. In-person activities stay in the in-person window; animation assets and playback remain Part 1.
+
+Verification
+
+92 combat, 23 enhanced-combat, 18 Interpol, 9 major-campaign, 8 campaign-dialogue, 5 Vendetta-lore, 4 Four-Aces and 11 custom-protagonist tests passed. Finite action/amplification/progression stress checks passed 41,040 cases. Unchanged Richter: Rei won 9/12 fresh-entry and 3/12 depleted-entry runs using seeds 200–211. These automatic-policy results do not guarantee player outcomes.
+
+A live Alex Rivers invitation and Rei response were reviewed for friendly-spar intent and lore boundaries; the initial provider connection failed and the retry succeeded without story commits. Compact state/dossier/escort, trusted-patrol entry, partner HUD, boss framing, dialogue, major-campaign, Interpol and 34-page dark-phone smoke checks passed. Rendered 1000x800 screens reviewed. The Crow contact smoke generated a fresh current screenshot.
+
+Verification bounds
+
+The finite matrix is not a proof about unlimited future generated content. Part 1 owns animation production and combined visual verification; MH-002 owns character-creator kits and UI, and MH-007 owns the subsequent interface revamp. Five patch-note unit tests pass; the archive-source test still fails on the pre-existing missing tests/screenshots/mixtape-art-review-0.jpg. The unrelated story-expansion reunion-location mismatch remains outside this change. See roadmap/COMBAT_PART_TWO_COMPLETION.md for exact evidence.
+
+Release checks
+
+Catalogue validation/export, patch-note UI smoke (empty/error states and two sizes), start UI smoke (28 previews and compact/default layouts), and compilation of changed runtime modules passed. The previously reported unrelated story-expansion suite was not rerun in this pass.
+
+## Save compatibility
+
+Restart the application; no new story required. Additive partner position, state, recognition and review records preserve existing resources, stable learned/signature IDs, earned titles, Path history and campaign progress. Legacy ally positions default to the player position. Old review metadata and dialogue remain readable.
+
+## Evidence and historical limits
+
+Implemented and verified on 2026-11-10. Completes Part 2 non-animation scope; MH-001 overall remains in progress for Part 1. Earlier release records retained without rewriting historical evidence.
+
+- combat_engine.py
+- combat_states.py
+- combat_objectives.py
+- combat_identity.py
+- combat_review.py
+- organisation_guards.py
+- campaign_ui.py
+- combat_selection_ui.py
+- tests/test_combat_completion.py
+- tests/combat_support_ui_smoke.py
+- roadmap/COMBAT_PART_TWO_COMPLETION.md
+- roadmap/combat-part-two-acceptance.json
+- roadmap/combat-custom-dialogue-sample.json
+
+
+---
+
+# Combat Part 2: ability states, championship bouts and character invitations
+
+release-2026-11-10-combat-part-two-systems | Release | Combat
+Date: 2026-11-10
+
+Adds lore-based ability states and balance, current-champion bouts, a location-art combat HUD and character-specific spar, fight and lesson requests.
+
+## Details
+
+Added
+
+In-person Combat now shows location artwork behind opposing portraits, resource bars and state counters, with ability dossiers and Guided/Standard/Minimal explanations. Neo and Thirteen can activate a four-exchange Shinigami Protocol after meaningful observation for 20 stamina, followed by recovery strain and a genuine recovery requirement. Daniel builds three War God momentum levels and spends them on stamina-consuming finishers. Conduit channels, True Sight efficiency, observed Analysis responses, Tranquility reaction timing, wind soul damage and finite Misanthropy injury debt are resolved by the engine. Custom Trait names cannot unlock canonical abilities.
+
+Iron Circle previews now explain styles and counterplay before entry. Ranks 450–301 are D, 300–101 C, 100–11 B and 10–2 low A. Ordinary wins stop at #2; defeat the actual saved champion to take the title. Earned-title history survives a lost defense. Enhanced Richter has telegraphed targeting, committed attacks and punishable recovery. Optional survival, delay, escape and existing-ally rescue objectives do not count as mission duel victories.
+
+Spar, agreed-fight and selected-art lesson requests generate the protagonist's invitation before the recipient answers that exact line. The validated line persists through display and history, retaining eligibility, refusal, stale-result protection and once-only training. Ability dossiers and 104 exported identity sheets distinguish public recognition from private identity.
+
+Changed
+
+Canonical force/endurance/tempo/precision expressions and guard/arena profiles follow the approved hierarchy. Observation and temporary peaks have room to develop through slower damage pacing. Repeated control effects and reflected force are bounded. Generated skills and Path transitions record structural balance-review metadata. The Crow containment campaign remains an authored exception: it forces defeat after four exchanges and cannot end in his capture. Part 1 animation assets/playback are separate and unchanged.
+
+Access and save impact
+
+Use the existing in-person Combat routes; review an Iron Circle contender before entering the bout. Use Ability details and state controls during encounters, and the one-hour Shinigami recovery option outside a fight. No new phone combat route is added. Restart the application to load changed code; continue existing stories.
+
+Validation
+
+78 combat, 23 enhanced-combat and 18 Interpol tests passed, including the authored Crow campaign outcome. Fresh-seed automatic-policy checks passed all ten matchup groups and both Protocol active-window criteria; these are not guaranteed player outcomes. Compact Part 2, opponent, dialogue and enhanced-combat UI smoke checks passed; rendered HUD/ability states reviewed. Phone dark-theme checks passed across 34 pages and embedded controls. Three actual configured-provider canonical invitation samples reviewed; custom-protagonist behavior covered with mocks. Patch-note unit checks: five passed, one failed on the existing missing historical tests/screenshots/crow-contact.png.
+
+Known limitations
+
+The broader Part 2 acceptance remains in progress: group/ally-state parity and specialist scenario coverage, depleted-entry boss comparisons, exhaustive generated combinations, additional recognition/disclosure coverage and live custom-protagonist dialogue review are not claimed complete. Rescue checks ally survival and player escape positioning rather than a separate escort position. Starting-scale data is a handoff to the separate character-creation update, not new creator UI. The unrelated story-expansion test has a reunion-location expectation mismatch. See the implementation review for formulas, evidence and limits; Part 1 visual integration remains separate.
+
+Release checks
+
+Patch-note catalogue validation/export, patch-note UI smoke (including empty/error states and two sizes) and start-screen smoke (28 previews and minimum/default layouts) passed.
+
+## Save compatibility
+
+Additive saved state, recognition and championship defaults; preserves learned/signature IDs, earned refinement, Path history, campaign progress and active resources. Canonical lore descriptions reconcile without renaming custom Traits. Legacy rank-one champions retain their title. Existing arena snapshots retain stats; new candidates use tuned profiles. Revealed active enhanced-Richter snapshots receive the boss moves without resetting resources. Past dialogue remains intact.
+
+## Evidence and historical limits
+
+Implemented and checked on 2026-11-10. Fresh-seed criteria declared separately from exploratory tuning. Results and limitations recorded in roadmap/COMBAT_BALANCE_REVIEW.md. This is a runtime systems release, not a claim that all MH-001 acceptance or Part 1 is complete.
+
+- combat_states.py
+- combat_engine.py
+- combat_circle.py
+- combat_boss.py
+- combat_objectives.py
+- combat_identity.py
+- combat_dialogue.py
+- combat_selection_ui.py
+- combat_review.py
+- roadmap/COMBAT_BALANCE_REVIEW.md
+- roadmap/combat-holdout-results.json
+- roadmap/combat-dialogue-samples.json
+- tests/test_combat_part_two_systems.py
+- tests/combat_part_two_ui_smoke.py
+
+
+---
+
+# One Story tab for your protagonist
+
+release-2026-11-10-player-story-tab | Release | Interface
+Date: 2026-11-10
+
+The Stories panel now shows the current player character’s campaign: Rei, Garrett, Fox or Gordon.
+
+## Details
+
+Changed
+
+Open Stories, guards & gang properties from the in-person location controls or Tools. The panel opens its single Story tab and selects your protagonist’s campaign automatically: What Remains for Rei; Find Charles and Garrett’s following chapters for Garrett; the Interpol campaign for Fox or Gordon. The tab does not list other protagonists’ stories. Characters without an implemented personal campaign see a clear empty state.
+
+Garrett’s existing objectives, travel, flashbacks, choices, mission fights, check-ins and evidence notebook are available inside the tab. Fox and Gordon use the existing case list, prerequisites, partner briefing, active objective, travel, suspension and evidence controls. Guards, Properties and After the story remain accessible. Legacy requests for the old Rei’s story page resolve to the current player’s Story tab. Existing standalone quest and Interpol entry points still work.
+
+Validation
+
+The new player-story UI smoke passed for Rei, Garrett, Fox, Gordon and the empty state, including actual travel, scripted-choice dispatch and case assembly with the correct partner. Inspected compact Garrett and Gordon renders. Nine major-campaign, five Garrett-quest and eighteen Interpol unit tests passed. Existing Garrett quest, Interpol and major-campaign UI smoke checks passed, including the twenty-chapter Garrett walkthrough. Dark phone smoke passed across 34 pages; patch-note reader and start-screen smoke checks passed. Catalogue validation and export completed. The shared scripted-scene smoke helper now suppresses optional AI narration requests.
+
+Known limitations
+
+This reorganizes existing campaigns; it does not add campaigns for other protagonists. The patch-note archive source-coverage check still reports its pre-existing missing historical screenshot, tests/screenshots/crow-contact.png.
+
+## Save compatibility
+
+Restart to load the updated UI. No migration or new story-save fields. Existing campaign progress, evidence, completed chapters and access requirements are retained.
+
+## Evidence and historical limits
+
+Implemented on 2026-11-10 and verified with isolated-state UI smoke tests, unit tests and rendered screen inspection. Existing historical source-reference failure is recorded rather than concealed.
+
+- campaign_ui.py
+- charles_quest_ui.py
+- interpol_ui.py
+- presence_ui.py
+- game.py
+- tests/player_story_ui_smoke.py
+- tests/campaign_ui_helpers.py
+- ROADMAP.md
+
+
+---
+
+# Actions belong in the narrator
+
+release-2026-11-10-action-narrator | Release | Interface
+Date: 2026-11-10
+
+Campaign actions and hangout attacks use the narrator instead of player speech bubbles, with Game Master action descriptions.
+
+## Details
+
+Changed
+
+In the in-person window, choose an investigative action in Rei’s or Garrett’s campaign and continue to its action beat. The action appears in the narrator area, where the configured AI Game Master describes it. Actual conversation and spoken answers remain speech bubbles. Generated narration is cached in the saved beat. The selected action and authored context remain visible while generation runs; if it fails, Retry narration appears. Continue to outcome remains available, and only existing game handlers change progress, evidence or combat.
+
+Fixed
+
+Legacy active campaign choice labels are recognized when displayed. Regular hangout action prompts explicitly ask the Game Master to describe the submitted action in narration, including solo, group and local-resident conversations. Prefixed legacy action rows no longer appear as player speech, and combat attacks are tagged as actions in hangout and archived history. Replies after changing the scene or loading another save are discarded.
+
+Validation
+
+Eight campaign-dialogue, six hangout-scene, ten combat-dialogue, nine major-campaign and three hangout-texting tests passed. Campaign, hangout, combat-dialogue, patch-notes and start-screen UI smoke checks passed; inspected campaign action and attack-result renders. Providers and save writes were mocked for UI checks. Updated the combat smoke provider fixture to cover its existing two-request invitation flow.
+
+Known limitations
+
+Live provider prose quality was not evaluated. AI descriptions are presentation only and may vary; authored context is the fallback. Five of six patch-note unit tests passed; the historical source-coverage test still fails on the pre-existing missing tests/screenshots/crow-contact.png. Historical evidence was not fabricated. Catalogue validation and Markdown export passed.
+
+## Save compatibility
+
+Restart the game to load changed code. Existing story progress and histories remain compatible; no destructive migration. Active legacy action beats are normalized on display and generated descriptions are saved for reuse.
+
+## Evidence and historical limits
+
+Implemented locally on 2026-11-10; deterministic regression checks and rendered UI inspection. No live AI quality claim.
+
+- campaign_dialogue.py
+- hangout_ui.py
+- combat_dialogue.py
+- game_core.py
+- groups.py
+- town.py
+- tests/test_campaign_dialogue.py
+- tests/test_hangout_scene.py
+- tests/test_combat_dialogue.py
+- tests/campaign_dialogue_ui_smoke.py
+- tests/combat_dialogue_ui_smoke.py
+- ROADMAP.md
+
+
+---
+
+# Combat Part 2 begins: Trait identities, arena calibration and resource HUD
+
+release-2026-11-10-combat-part-two-foundations | Release | Combat
+Date: 2026-11-10
+
+Opposing portraits and resource bars in in-person combat, four Iron Circle numeric bands, and the confirmed Shinigami Protocol, War God and Polymath identities.
+
+## Details
+
+Added
+
+Open Combat in the in-person window and start a spar, agreed fight or Iron Circle card. The player portrait is now on the left and the opponent on the right, with adjacent numeric health, stamina and mana bars. Path stage or active form and remaining duration appear below the bars; narration and action controls remain below the fighters. The phone remains separate.
+
+Changed
+
+Neo and Thirteen now identify Shinigami Protocol as their Trait; Daniel identifies War God, like his father; April identifies Polymath. Existing private-dialogue boundaries remain. Unsupported claims of hidden neural implants or AI-assisted movement were removed from Neo's combat description. Initial refinement defaults are 94 for Neo, 90 for Thirteen and Daniel, and 85 for April; these are initial game calibration, not measured power rankings. April's physical stats remain unchanged. Formerly traitless saved profiles receive the identity and a refinement floor once, retaining higher earned refinement. Where missing, they receive the existing bounded 8-mana precision amplification. Existing signatures and stable action IDs remain intact.
+
+Iron Circle generation and validation now share four numeric bands: D ranks 450–301, C 300–101, B 100–11 and low A 10–2. Numeric stats interpolate with at most a one-point change per adjacent rank; low-A contender stats remain below Rei's current defaults. Supplied generated stats cannot bypass this calibration. Existing entrant strength is not scaled to ladder position.
+
+Known limitations
+
+This is an initial Part 2 slice. Full matchup distributions, AI and move-strength continuity are not yet calibrated. The current championship/title flow remains unchanged and still needs the planned explicit champion bout. Existing active arena opponents retain their saved numbers. Shinigami's four-exchange trump-card state, War God momentum, revised elemental and perception mechanics, reputation recognition, broader hierarchy/Richter tuning, dialogue initiation, location artwork and the final responsive arena remain pending. Animation production and playback remain exclusively Part 1; this entry makes no animation changes or completion claim.
+
+Validation
+
+63 combat tests, 23 enhanced-combat tests, five Vendetta lore tests and five Thirteen tests passed. New checks cover every arena rank step and boundaries, untrusted generated stats, entrant preservation, versioned/idempotent migration, custom-Trait preservation and a real resolved exchange after JSON reload with spent resources. Combat, all-portrait and enhanced-combat UI smoke checks passed with providers/save writes mocked. Inspected the rendered 1000×800 post-exchange HUD. Dark-theme smoke passed across 34 phone pages; patch-notes UI and start-screen smoke passed (28 previews, default/minimum layouts).
+
+Patch-note validation and export passed. Five of six patch-note unit tests passed; the archive source-coverage test failed on the pre-existing missing tests/screenshots/crow-contact.png reference in an older entry. No historical evidence was fabricated or removed.
+
+## Save compatibility
+
+Restart the application to load the code. Canonical profiles and active canonical opponents with the old absent Trait receive additive identity version 1 reconciliation; earned refinement above the new floor, other stats, learned moves, Path history and current fight resources are retained. Existing custom Traits are preserved. New/validated arena candidates use the new numeric scale; saved active arena opponent numbers, ladder ranks, titles and history are not rewritten. No Part 1 animation assets are changed.
+
+## Evidence and historical limits
+
+Implemented and checked locally on 2026-11-10. Initial Part 2 slice only; quantitative outcome balance and the remaining plan are explicitly pending. UI tests used mocked providers and persistence.
+
+- combat_profiles.py
+- combat_balance.py
+- combat.py
+- combat_selection_ui.py
+- vendetta_lore.py
+- tests/test_combat_part_two.py
+- tests/test_vendetta_lore.py
+- COMBAT_WINDOW_UPDATE_PLAN.md
+- ROADMAP.md
+
+
+---
+
+# Separate character sheets and voices for flashbacks
+
+release-2026-11-10-independent-flashback-references | Release | Story
+Date: 2026-11-10
+
+Historical characters now have independent reference sheets, dialogue guides and era-limited conversation context instead of short inline personality summaries.
+
+## Details
+
+Changed
+
+Flashback visits now read flashback_character_references.json and flashback_dialogue_guides.json through a dedicated historical-lore loader. Each profile contains its era’s role, age where established, appearance, personality, immediate concerns, relationships and private knowledge boundaries. Each dialogue guide supplies a distinct voice, speech habits, examples, exclusions and a response pattern for things the character does not know. These files are separate from the adult character references and dialogue_styles.json and are never supplemented with present-day profiles.
+
+School-era Rei, Emily, Sophie and Marcus have their own voices, including Emily’s natural stutter and Marcus’s ordinary creative interests. Sixteen-year-old Garrett and young-adult Charles have separate school-era knowledge and speech. Joseph’s school profile and the later Garrett/April disappearance-era profiles are included for authored-scene reference; they do not become additional selectable visit companions. The fixed campaign dialogue remains authored rather than generated.
+
+The player’s historical profile and each selected companion’s historical profile and guide are included in every free-form memory prompt. Era-specific settings replace inline setting summaries. Current save relationships, present-day conversation histories, campaign evidence and adult reference loaders are excluded. The guidance instructs characters to answer unfamiliar future claims with uncertainty rather than confirming them, and treats player statements and prior generated dialogue as conversation, not amendments to the historical sheets. Missing or invalid historical references stop generation instead of falling back to adult lore.
+
+Existing memories
+
+Each new memory exchange records the revision of the historical reference set. Replies made under older or unversioned guidance remain readable in Memory journal but are not reused as model context. When an older visit resumes, its visible exchange resets to an era-appropriate greeting. This prevents old responses from carrying present-day details into the new context. Locations, time, relationships, campaign progress, saved companion selection and journal contents remain intact.
+
+Access
+
+Restart the game, then use In person → Visit flashback area as Rei, Emily, Sophie or Garrett. The access restrictions and timeless hangout behavior are unchanged. The two JSON files are the editable sources for future historical-character and dialogue changes.
+
+Validation
+
+22 targeted unit tests passed across flashback lore, flashback visits and mandatory campaign flashbacks. Tests verify complete independent voices for all nine era-specific profiles, every selectable protagonist’s prompt, exclusion of present-day save evidence, preservation but exclusion of older journal context, guide-revision changes, failure without adult fallback and source-data immutability. Flashback visit UI smoke passed for all four protagonists using mocked provider replies, including saved resume, companion selection, actions, error drafts, cancellation and journal. Patch-notes and start-screen UI smoke checks passed. The first UI runs timed out because manual update polling could not service Tk font cleanup on a worker; the harness now uses Tk’s real event loop. No live model-response claims are made. Catalogue validation and Markdown export passed. Five of six patch-note unit tests passed; the existing archive-source test still fails on the missing tests/screenshots/crow-contact.png.
+
+## Save compatibility
+
+Restart to load the new historical references. No story reset is needed. Old memory journal entries are preserved, but only exchanges made with the current reference revision are reused in prompts. Older active visits restart their visible exchange with a historical greeting while retaining companion selection and the journal. Present-day progress and mandatory flashback completion are unchanged.
+
+## Evidence and historical limits
+
+Implemented from the user’s request for separate past-self character references and dialogue guides on 10 November 2026. Historical sheets draw only on established school and family-memory details; unspecified ages in the later comfort scene remain null. Runtime checks use mocked provider responses.
+
+- flashback_character_references.json
+- flashback_dialogue_guides.json
+- flashback_lore.py
+- flashback_visits.py
+- flashback_visit_ui.py
+- tests/test_flashback_lore.py
+- tests/test_flashback_visits.py
+- tests/flashback_visits_ui_smoke.py
+
+
+---
+
+# Awakened energy portraits for the full combat cast
+
+release-2026-11-10-awakened-combat-portraits | Release | Artwork
+Date: 2026-11-10
+
+All 24 established awakened combatants have dedicated energy-infused portraits, shown for both fighters in the in-person combat window.
+
+## Details
+
+Added
+
+Start a spar, challenge or other encounter through the existing in-person Combat flow. The fight screen now shows labelled YOU and OPPONENT portraits, where previously only certain guards had an opponent portrait rail. Artwork appears automatically for Garrett, Rei, Ivan, Sylvanis, Charles, Takeo, Crow, Fox, Gordon, Neo, Daniel, Martos, Elias, Mavis, Camila, Thirteen, Keisuke Hachimura, Tyler, Samantha, Minsu, Valentina, April, Emily and Alyssa.
+
+Garrett has golden flames; Rei has green lightning and wind; Ivan combines fire, wind, ice and red/blue lightning; Sylvanis shapes violet-edged shadows; Charles manifests a white-flame tiger. The remaining portraits depict Nanoengine armour, sensory perception, biocreation, neural optimisation, physical enhancement, rage, heat trails, mist, analysis, impact storage, hemokinesis, speed, Deathwind, critical-hit targeting and Alyssa’s shadows as appropriate. These are static combat illustrations, not indicators that a paid form or ability is currently active. Existing resource and form labels remain authoritative.
+
+Implementation
+
+Separate transparent PNGs preserve the ordinary portrait assets. Combat-only loading does not alter phone, profile, wardrobe or hangout artwork. Custom characters, generated opponents, guards and Richter continue through the existing portrait loader. Missing or unreadable optional combat art falls back to the existing portrait. Art changes do not grant powers, change balance or spend resources.
+
+Validation
+
+Three portrait unit tests passed, covering all 24 roster assets with alpha transparency, unknown/custom IDs and unreadable-art fallback. The dedicated portrait UI smoke rendered every asset and checked both fighters and action controls at 1000x800. Existing combat, enhanced combat, guard portrait, patch-note reader and start-screen UI smokes passed. Compact Garrett/Rei, Ivan/Sylvanis and Samantha/Alyssa screens were visually inspected. UI checks mocked provider/save work; the dedicated portrait fixture mocked challenge consent. Initial Minsu likeness and Alyssa background problems were corrected before delivery. The default system Python lacked Pillow; successful checks used the game launcher’s bundled Python. Five of six patch-note unit tests passed; the pre-existing archive-source test fails because tests/screenshots/crow-contact.png is absent. No phone surfaces changed.
+
+## Save compatibility
+
+Restart the game to load the new combat view. Existing saves need no migration; relationships, outfits, combat stats, resources and progression are unchanged. Existing encounters use the new portraits when reopened.
+
+## Evidence and historical limits
+
+Implemented for the requested awakened combat portraits on 10 November 2026. Artwork generated with the built-in image tool using existing character references; final prompts and generation source paths are recorded in the artwork manifest. Checks listed above were run in this update.
+
+- combat_portraits.py
+- combat_selection_ui.py
+- assets/portraits/combat/generation.json
+- tests/test_combat_portraits.py
+- tests/combat_portraits_ui_smoke.py
+- tests/screenshots/awakened-combat-portraits.png
+
+
+---
+
+# Visit school memories with younger friends
+
+release-2026-11-10-visitable-school-memories | Release | Story
+Date: 2026-11-10
+
+Rei, Emily, Sophie and Garrett can open timeless, interactive school hangouts with their younger friends in a dedicated in-person window.
+
+## Details
+
+Added
+
+Choose In person → Visit flashback area, or use Visit flashback area in an active hangout header. The button is available only when playing Rei, Emily, Sophie or Garrett. Arrive and wake up first; active combat, knockout recovery and mandatory scripted scenes must be finished before entering.
+
+Rei, Emily and Sophie revisit their school courtyard as their high-school selves. Choose one or several of the other school friends, including Marcus, then press Hang out with selected. Garrett revisits his Hong Kong school as his sixteen-year-old self and can speak with young-adult Charles. Each area uses the existing school background and historical portraits. The window uses the ordinary hangout canvas, speech bubbles, narration and speaker/page controls.
+
+Type a message and choose Say, type an activity and choose Do action, or select one of four school-era activities. Free-form replies use the game’s existing configured dialogue provider. A dedicated historical prompt includes only the younger cast, setting and previous memory conversations with the selected group. Present-day campaign knowledge and adult relationships are not included. The prompt keeps school interactions age-appropriate, treats Marcus as alive in this era and does not grant the younger cast knowledge of future events.
+
+Memory journal retains the visit’s conversations separately from present-day chats. Selection and the latest exchange persist between visits. An active visit resumes after save/load. Response errors preserve the draft; Cancel discards pending work, and late responses cannot commit to a different visit or group. Return to the present or close the window to leave.
+
+Time and story isolation
+
+Entering, conversing, doing activities and leaving cost no story time. The live clock and game background pumps pause for the visit; leaving resets the real-time clock anchor so the visit cannot cause a catch-up jump. The configured time speed and fractional minute are preserved. Live actors, party membership, location, relationships, campaign progress and contacts are not rewritten. Marcus is not added to the present-day contact list. These visits neither complete nor replace the mandatory campaign flashbacks.
+
+Validation
+
+49 targeted unit tests passed across flashback visits, simulation clock, campaign flashbacks, campaign dialogue and major campaigns. Checks cover the four-character access restriction, exact cast, unchanged live state, time and fractional-minute preservation, real save/load, separate campaign gates, historical prompt isolation, invalid replies and duplicate/stale result rejection. The new UI smoke passed for all four protagonists, companion selection, speaking/actions, historical art, speaker controls, compact layouts, provider errors with retained drafts, cancellation, journal, saved resume and excluded-character access. Group and compact screens were visually inspected. Mandatory flashback, ordinary hangout, patch-notes and start-screen UI smoke checks passed. Phone dark-theme smoke passed across 34 pages. Dialogue-provider calls were mocked; live model output was not certified. Catalogue validation and Markdown export passed. Five of six patch-note unit tests passed; the pre-existing archive-source check still fails because tests/screenshots/crow-contact.png is missing.
+
+## Save compatibility
+
+Restart to load the new code. Existing saves need no migration or story reset. Memory records are created lazily and saved separately. Existing relationships, locations, groups, campaigns and mandatory memory completion remain intact. Saving in a visit resumes its paused historical hangout.
+
+## Evidence and historical limits
+
+Implemented from the user’s request for accessible, timeless school-memory areas on 10 November 2026. Reuses existing historical art and the configured dialogue-provider adapter. Testing used isolated saves and deterministic provider responses, not live model calls.
+
+- flashback_visits.py
+- flashback_visit_ui.py
+- campaign_flashbacks.py
+- hangout_ui.py
+- presence_ui.py
+- simulation_clock.py
+- world_loop.py
+- combat.py
+- game.py
+- tests/test_flashback_visits.py
+- tests/flashback_visits_ui_smoke.py
+
+
+---
+
+# Hangout actions follow the live clock
+
+release-2026-11-10-hangout-action-clock | Release | Interface
+Date: 2026-11-10
+
+The in-person action button no longer advertises an extra 20-minute time cost.
+
+## Details
+
+Fixed
+
+Open an in-person hangout and select Actions. The custom action button now reads Do action instead of Do action · 20 min. The old label was stale: the shared conversation-time handler already leaves dialogue and physical actions to the active-play clock. Completing an action adds no game minutes; the selected clock speed continues advancing the world, and paused time stays paused. Suggested and custom actions still use the existing in-person submission flow.
+
+Validation
+
+All 21 simulation-clock unit tests passed, including a new completed group-action regression under running and paused time. Hangout scene smoke passed with an explicit button-label check, and the rendered Actions screen was inspected. Patch-notes and start-screen UI smoke checks passed. Five of six patch-note unit tests passed; the pre-existing archive-source check fails because tests/screenshots/crow-contact.png is missing. The bundled runtime could not initialize Tcl for UI checks, so successful UI checks used system Python with Pillow installed in the ignored .test-tmp/ui-deps directory.
+
+## Save compatibility
+
+Restart the game to load the corrected button label. No save migration or reset is required; existing stories and clock settings are retained.
+
+## Evidence and historical limits
+
+Confirmed the existing no-time-charge handler and corrected its stale UI label in this update. Regression tests verify action completion and subsequent clock advancement without AI calls.
+
+- hangout_ui.py
+- world_loop.py
+- tests/test_simulation_clock.py
+- tests/hangout_scene_smoke.py
+
+
+---
+
+# Mandatory memories for Rei and Garrett
+
+release-2026-11-10-mandatory-campaign-flashbacks | Release | Story
+Date: 2026-11-10
+
+Five scripted hangout flashbacks add Rei’s school friendship, loss and suspension, plus Garrett’s school confrontation with Charles and April’s support after his disappearance.
+
+## Details
+
+Added
+
+Rei’s What Remains campaign now requires three separate, ordered flashbacks after the archive chapter and before Marcus, beyond what happened. Open Rei’s story in the in-person window and return to Rei’s home alone. Begin each flashback and use Continue through its final line: Rei and Marcus making a school film; Emily and Sophie telling Rei that Marcus died by suicide; and Rei angrily confronting Joseph Richter, attacking him, and receiving a suspension. Dialogue remembers Marcus as a person without inventing a suicide method or reducing his death to one cause.
+
+Garrett’s Find Charles campaign requires two ordered memories before its investigation actions. Visit the Golden Dragon alone and open Find Charles in person. Sixteen-year-old Garrett faces Charles outside his Hong Kong school after uniting the high-school crews. Charles beats him, they argue, and then speak about their parents’ deaths, an older brother’s responsibilities and the Red Dragons’ duty to the people affected by their leadership. Charles acknowledges the harm he caused. The second memory takes place years later: April comforts Garrett after Charles goes missing, without revealing Charles’s future whereabouts or motives.
+
+Artwork and presentation
+
+All memories use the existing illustrated hangout canvas, with fixed dialogue and a mandatory Continue sequence. The phone is hidden when the scene opens. Existing high-school portraits are used for Rei, Marcus, Emily and Sophie. New transparent portraits depict high-school Joseph, sixteen-year-old Garrett and young-adult Charles. Two generated backgrounds depict Rei’s school courtyard and Garrett’s Hong Kong school entrance. April’s later scene uses existing adult portraits and Golden Dragon artwork. Original assets are preserved; generated assets and their exact built-in image_gen prompts are saved in the project. Historical portrait overrides beat present-day wardrobes and clear after the scene. Historical sprites do not open present-day profiles.
+
+Progress and saves
+
+Campaign actions enforce the required memories, including direct investigation, confrontation and recognition handlers. Each memory records completion only after its last line. Saved cursors, dialogue and artwork survive reload. The simulation clock and travel pause during the scripted scene; memories do not relocate live actors, injure present-day characters or alter relationships. Existing advanced and completed campaigns retain their outcomes and receive unseen memories before further campaign actions. A scripted conversation saved before this update may finish first, then the catch-up gate applies.
+
+Validation
+
+24 targeted unit tests passed across campaign_flashbacks, campaign_dialogue, major_campaigns and charles_quest, including real save/load, completion order, location/party restrictions, legacy catch-up and existing ending/combat behavior. Flashback UI smoke passed for all five scenes using campaign launch buttons, historical portrait/background checks, normal and compact layouts, visible Continue controls and restoration. Rendered scenes were inspected. Existing campaign dialogue, major campaign, twenty-chapter Charles quest, patch-notes and start-screen UI smoke checks passed. Phone dark-theme smoke passed across 34 pages. Five of six patch-note unit tests passed; the existing archive-source test still fails because tests/screenshots/crow-contact.png is absent. The initial system-Python run lacked Pillow; successful checks used the bundled runtime.
+
+## Save compatibility
+
+Restart the game to load the code and artwork. No story reset is required. Existing campaign progress, endings, contacts and relationships are retained. New per-save memory completion and resumable scene state are added lazily. Previously completed campaigns must read the new memories before further campaign actions; previously saved in-progress conversations may finish first.
+
+## Evidence and historical limits
+
+Implemented from the user’s five requested flashbacks and artwork brief on 10 November 2026. Dialogue is authored and deterministic. New bitmap assets were generated with built-in image_gen using existing portraits as identity/style references; prompts and output paths are retained. Checks and the pre-existing archive-test limitation are recorded above.
+
+- campaign_flashbacks.py
+- campaign_dialogue.py
+- campaign_ui.py
+- charles_quest_ui.py
+- rei_story.py
+- charles_quest.py
+- game.py
+- hangout_ui.py
+- assets/flashback-art-prompts.json
+- tests/test_campaign_flashbacks.py
+- tests/campaign_flashbacks_ui_smoke.py
+
+
+---
+
+# Confirmed ages for five main characters
+
+release-2026-11-10-character-ages | Release | Characters
+Date: 2026-11-10
+
+Sylvanis is 38, Edward Fox 36, Jeremy Gordon 31, Number Thirteen 21 and Takeo Mishima 42. The Crow remains unaged.
+
+## Details
+
+Changed
+
+The five characters now have numeric ages in their cast definitions, character profile text and dialogue references instead of Undisclosed, Unknown or Adult. View their existing profiles after gaining the usual character/contact access; access requirements are unchanged. Removed conflicting instructions that their ages were unspecified. Sylvanis is explicitly Blisk: Blisk do not age like humans, and no human-equivalent age or aging rate is invented. The Crow retains his Unknown age and mystery boundaries.
+
+Validation
+
+Direct assertions passed for all five cast ages, profile text and dialogue public-life references, the Blisk aging instruction and the unchanged Crow age. Phone dark-theme smoke passed across 34 pages; Takeo, Thirteen and Interpol UI smoke checks passed. Visually inspected the compact Takeo contact screen. The broader character regression run was interrupted after making no progress and is not certified. The initial default-Python attempt lacked Pillow and the test fixture import path. Five of six patch-note tests passed; the pre-existing archive-source failure remains tests/screenshots/crow-contact.png. Catalogue validation and Markdown export passed.
+
+## Save compatibility
+
+Restart the game to load updated character data. Existing saves remain compatible; no migration or story reset is needed. Relationships, access gates and story progress are unchanged.
+
+## Evidence and historical limits
+
+Ages and the Blisk aging distinction explicitly supplied by the user on 10 November 2026; applied to current game canon and checked as described.
+
+- hidden_cast.py
+- interpol_cast.py
+- takeo.py
+- thirteen.py
+- Mysterious Hearts - Character References.md
+
+
+---
+
+# Distinct artwork for 23 previously shared locations
+
+release-2026-11-10-unique-location-backgrounds | Release | Artwork
+Date: 2026-11-10
+
+The Glasshouse, four Blackstone areas, two Hamayashi properties and all sixteen site reception and briefing rooms now have their own generated backgrounds.
+
+## Details
+
+Added
+
+23 individual 1536 x 1024 illustrated backgrounds: the Glasshouse laboratory; Blackstone loading compound, research records, experimental wing and executive command; Hamayashi riverside annex and supply house; and separate reception and briefing artwork for Sites 01–08. Each room has a distinct composition suited to its function. The full built-in image_gen prompt set and source paths are recorded in assets/ui/locations/unique-rooms-prompts.json.
+
+Access and behavior
+
+Travel to the existing locations and view them in the in-person window. Enter site receptions from their frontages; briefing rooms retain their existing clearance requirements. The scene resolver now selects each location’s own PNG instead of another room’s backdrop. Normal time-of-day handling applies, with rain and snow overlays on the outdoor Blackstone loading compound. Text conversations use the generic phone header. No activities or access permissions were added.
+
+Validation
+
+The unique-location artwork smoke check verified 23 distinct pixel hashes, image dimensions, dedicated scene mappings, text and time variants, all named location paths, and real Tk rendering at two window sizes in day and rainy-night states. Rendered gallery screens were visually inspected. The crime-operations unit suite and eight-site in-person UI smoke check passed after their old shared-image expectations were updated. Phone dark-theme verification passed across 34 pages and embedded controls; patch-notes and start-screen UI smoke checks passed. Catalogue validation and Markdown export passed. The patch-notes unit suite passed five of six tests; archive source coverage failed on the existing missing historical screenshot tests/screenshots/crow-contact.png, unrelated to these new assets.
+
+## Save compatibility
+
+Existing saves remain compatible. Restart the game to load the scene-resolver changes. Location IDs, clearance, progress and travel state are unchanged; no migration is required.
+
+## Evidence and historical limits
+
+Implemented in this update using 23 separate built-in image_gen generations, copied into project assets, inspected visually and verified with the recorded local checks.
+
+- artwork.py
+- assets/ui/locations/unique-rooms-prompts.json
+- tests/unique_location_art_smoke.py
+- tests/test_crime_operations.py
+- tests/crime_operations_ui_smoke.py
+
+
+---
+
+# Repeatable protection after the personal stories
+
+release-2026-11-10-post-story-protection | Release | Gameplay
+Date: 2026-11-10
+
+Keep protecting civilians with Garrett, oppose Syndicate operations as Fox or Gordon, and protect Awakened with ending-specific follow-ups and Bubblegram administration for Rei.
+
+## Details
+
+Added — Garrett and Rei protection missions
+
+Open In person → Stories, guards & gang properties → After the story. Garrett also has the protection board inside his completed Find Charles panel. Accept briefings at the Red Dragons lounge as Garrett or at Rei’s home as Rei. Each mission requires completing that protagonist’s personal story, travelling to the objective, verifying the willing civilian’s request, defeating two mission-specific opponents, then explicitly securing the person’s departure. Each mission type can be completed once per story day. Losing preserves the request and cleared opponents; a saved fight and midnight do not reset that mission’s victories. Withdrawing grants no rescue or reward and a new briefing uses a fresh combat scope. No personal money or civilian property is awarded.
+
+Garrett has three Red Dragons missions: protect a market escort from Shinokami collectors, release drivers targeted by Syndicate collateral seizures, and protect a complainant from a Syndicate pursuit. Dragons volunteers support voluntary transport and safe destinations; Garrett fights the detail. No forced recruitment or protection fees are introduced.
+
+Rei has two recurring Awakened-protection missions against remaining Blackstone contractor cells: stop a coercive transfer and protect a witness’s withdrawal records. The closed laboratory and Richter’s defeat stay resolved; these missions do not respawn its garrisons. His settled Hamayashi-kai outcome adds one mission: leadership enforces a voluntary departure against a disobedient detail; leaving the successor alone permits intervention against a documented charter breach without joining it; destruction permits stopping a breakaway recruitment cell without resurrecting the original clan or reopening the dissolved successor’s bases.
+
+Added — Bubblegram administration
+
+After Rei completes the leadership ending, open Bubblegram → Network → Hamayashi administration. Current Hamayashi-kai leadership is required. A separate organisation budget starts at $450; each completed protection mission adds $100 while Rei retains leadership. Issue one remote directive per story day: reserve a voluntary shelter placement for $100, audit voluntary departures with Ren for $75, or review adult-only recruitment with Emi for $75. Shelter placements are consumed by subsequent completed protection missions and recorded in their outcomes. Audits and reviews have saved counts and reports. Funds never come from or pay into the player’s wallet. This is authored administration, not an autonomous membership simulation. Physical interventions remain in the in-person window, reached through the desk’s handoff.
+
+Fixed an existing Bubblegram display crash caused by treating Rei’s Hamayashi-kai Leader rank as an ordinary four-rank gang promotion.
+
+Added — Fox and Gordon after Night Ledger
+
+Open Interpol in person → Operations after finishing Night Ledger as Fox or Gordon. Three new Syndicate operations cover witness protection in Blackhaven, an armed supply run at the waterfront, and a coercive collection detail at the market. Assemble with the other field partner at the public desk. Existing guard-and-target combat, retry/recovery, field allowance and temporary disruption rules apply, with one success per operation per story day. Completed outcomes explicitly describe local disruption. There is no Crow rematch, new identity reveal, permanent Syndicate defeat, or alteration to an already saved Crow outcome. Guard progress for repeatable Interpol operations now stays tied to the assembled operation across midnight.
+
+Validation and limitations
+
+All seven new post-story tests passed, covering every mission and ending, real save/load during a fight, daily gates, defeat/retry, withdrawal, management spending and shelter use, and both Fox/Gordon teams. The combined regression run passed 54 of 55 tests. The remaining untouched Garrett-status test expects starting Syndicate relations of 35 while current faction-baseline code supplies 15; it also fails when run alone. Five of six patch-note unit tests passed; the archive-source check still reports the previously missing historical tests/screenshots/crow-contact.png.
+
+Passed post_story_ui_smoke.py (all ending boards, retry and outcome states, two dark phone sizes, disabled and error states), charles_quest_ui_smoke.py, and phone_dark_theme_smoke.py across 34 phone pages. Interpol UI smoke had one intermittent combat-view visibility assertion; an instrumented rerun showed active combat with no callback errors, and an unmodified rerun passed. Visually inspected the compact administration screen and Rei’s destroyed-ending mission board. Tests use isolated state and mocked background providers; no player saves or credentials were modified. Extended combat difficulty and live generated dialogue were not certified.
+
+Catalogue validation and Markdown export passed, as did patch_notes_ui_smoke.py and start_ui_smoke.py.
+
+## Save compatibility
+
+Restart to load the code. Existing completed stories gain additive post_story records on first use; unfinished stories must reach their existing conclusions first. Original story evidence, endings, disabled organisations, relationships and money remain intact. New missions never reset campaign victories or restart a concluded Crow fight. Mission scopes, consent checks, victories, daily completion records, budget, directives and shelter reservations persist with the save.
+
+## Evidence and historical limits
+
+Implemented for the requested repeatable post-story civilian and Awakened protection loops and ending-dependent Hamayashi-kai administration. Behaviour is supported by saved state checks, combat gates and rendered UI smoke tests run in this update.
+
+- post_story.py
+- post_story_ui.py
+- campaign_ui.py
+- charles_quest_ui.py
+- job_apps_ui.py
+- bubblegram_progression.py
+- interpol.py
+- interpol_cases.py
+- interpol_ui.py
+- tests/test_post_story.py
+- tests/post_story_ui_smoke.py
+
+
+---
+
+# Guard portraits and cybernetic Joseph Richter
+
+release-2026-11-10-guard-portraits-and-cybernetic-richter | Release | Artwork
+Date: 2026-11-10
+
+Nineteen transparent portraits bring every guard role, custom-gang archetype and enhanced Richter into rosters, in-person conversations and combat.
+
+## Details
+
+Added
+
+Fifteen distinct organisation portraits cover Shinokami Yokai, Oni and Tengu; Syndicate Clubs enforcers, Spades assassins and affiliates; Blackstone Headhunters, Seekers and PMCs; Interpol officers and Team 9 specialists; Hamayashi-kai sentinels and guards; and local lookouts and crew enforcers. Custom gangs receive separate Awakened, unawakened and robotic archetype portraits. All are transparent PNGs generated with the built-in image tool; exact prompts and Richter's reference are recorded in the artwork manifest.
+
+Open In person → Stories, guards & gang properties → Guards to see local deployment portraits, or Properties to see recruited guards. Guard conversations use the existing in-person hangout canvas with the location behind each transparent portrait. Guard battles throughout Rei's story, Find Charles, Interpol and ordinary patrol challenges share the new combat opponent portrait panel. Its controls remain available at the 1000×800 minimum window size. Renaming a custom guard type retains its matching archetype art.
+
+Cybernetic Joseph Richter preserves his original face and adds reinforced shoulders, mechanical arms and integrated weaponry. The new form appears in the scripted Blackstone command confrontation, the mandatory boss fight and the post-victory apology. His ordinary reception portrait remains contextual to those scenes. No combat stats or campaign outcomes change in this artwork update.
+
+Validation
+
+151 focused unit tests passed across portrait assets and routing, campaigns, scripted dialogue, Charles, Interpol, combat, crime, gangs, the map and saves. All nineteen assets passed RGBA transparency checks and loaded through the game's portrait renderer. Old active encounters without portrait metadata and renamed custom roles are covered. Guard portrait, enhanced combat, campaign dialogue, dark phone, start screen and patch-note reader UI smoke checks passed. The phone check covered 34 pages plus chat, contact details and embedded controls. Inspected guard roster, compact combat, guard hangout, Richter dialogue/combat and dark-phone screenshots. Test providers and save writes were mocked.
+
+Known limitations
+
+Guard portraits represent reusable roles; guards sharing a type share its artwork. Five of six patch-note unit tests pass; the existing archive-source test still fails at the missing historical tests/screenshots/crow-contact.png. No full-repository test pass is claimed.
+
+## Save compatibility
+
+Restart the game to load the portrait routing and bundled assets. Existing stories, guard names, recruitment, victories, campaign progress and ordinary character artwork are preserved. Existing active guard battles without the new portrait field resolve artwork from their saved encounter slot. No save reset or manual migration is needed, and displaying the bundled images makes no AI requests.
+
+## Evidence and historical limits
+
+Implemented and checked in this update using the built-in image generator, supplied Joseph Richter portrait reference, local transparent PNG validation and isolated real Tk smoke checks. Generated originals are retained; the game uses copies in assets/portraits/guards.
+
+- guard_portraits.py
+- game.py
+- organisation_guards.py
+- rei_story.py
+- campaign_ui.py
+- combat_selection_ui.py
+- assets/portraits/guards/manifest.json
+- tests/test_guard_portraits.py
+- tests/guard_portraits_ui_smoke.py
+- tests/screenshots/guard-art-roster.png
+- tests/screenshots/guard-art-combat-compact.png
+- tests/screenshots/guard-art-hangout.png
+- tests/screenshots/guard-art-richter-dialogue.png
+- tests/screenshots/guard-art-richter-combat.png
+- README.md
+
+
+---
+
+# Garrett’s Red Dragons and the unfinished fight against the Syndicate
+
+release-2026-11-10-garrett-red-dragons-night-ledger | Release | Gameplay
+Date: 2026-11-10
+
+Continue Garrett’s reunion into civilian protection and accountable Red Dragons leadership; follow Fox and Gordon through the Ace reveals to a mandatory defeat against the Crow and an ongoing-resistance ending.
+
+## Details
+
+Added — Garrett: an anchor in Winterfield
+
+Open Find Charles from the in-person location controls (or its existing phone handoff). The original eleven chapters and both reunion outcomes remain; nine new chapters continue at Garrett’s home, the noodle shop, archive, Blackhaven, Red Dragons lounge, waterfront and the private laboratory. Garrett processes relief, anger and grief without inventing his parents’ killers or treating the reunion as a completed revenge story.
+
+Two separate evidenced threats lead to mandatory civilian-protection fights: three Shinokami opponents at the market and three Syndicate opponents at the waterfront. Victories persist independently of daily patrols. Losing permits a retry and cannot secure the civilians early. Rescues return documented property to its owners, not to the player’s wallet. They do not destroy either faction or grant HQ access.
+
+Garrett holds a coercive Red Dragons runner accountable, rejects protection fees, narcotics and forced recruitment, and commits the organisation to protecting civilians rather than owning territory through fear. Saved choices determine the complaint channel, disciplinary response, cooperation boundaries with Charles, and a standing escort rota or resident-led accountability council. These are authored commitments and notebook outcomes, not a new autonomous faction simulation. A final meal and Charles’s note close the personal chapter while family justice remains unfinished. Daily family check-ins remain accessible after reunion, including during the new act. Charles’s laboratory scene still requires privacy and the evening visitor window.
+
+Changed — Fox/Gordon: Night Ledger
+
+Open Interpol in person and assemble at the public desk. The existing local cases lead to four independent Ace investigations. Corroborating each field handover now reveals that Ace to the assembled team before the specialist combat; defeating each specialist and reviewing the command evidence are still mandatory before the HQ trail opens. Other contacts do not automatically learn the identities.
+
+After the command courier and scoped HQ entry, the team faces the Crow in the existing combat system. This encounter explicitly announces a scripted defeat and ends after at most four exchanges, or an earlier knockout/concession. Even a finishing strike cannot turn it into a capture. The player receives ordinary knockout recovery; closing the result evacuates the team to the Interpol recovery station and advances to the debrief rather than a retry gate. The team can travel together after recovery even if social companion state was cleared.
+
+Four aftermath objectives cover recovery, the surviving Ace evidence, returning to Blackhaven’s residents, and accepting ongoing resistance. The Crow remains free at HQ and his birth identity stays unknown. The investigation and its local victories matter, but neither the Crow nor the Syndicate is defeated. Existing repeatable protection and interception operations remain available after the campaign. Saved dialogue context reflects the loss and prevents treating this ending as a capture.
+
+Validation
+
+Passed 98 focused unit tests across story expansion, Interpol, Find Charles, campaign dialogue, major campaigns and combat/tactics/path/dialogue. Re-ran the 24 expansion and Interpol tests after adding emergency evacuation to the recovery station. Story branch tests use controlled wins; the Crow test also resolves real combat exchanges. Passed charles_quest_ui_smoke.py (all twenty chapters), story_expansion_ui_smoke.py (Crow combat and four aftermath scenes), interpol_ui_smoke.py, phone_dark_theme_smoke.py (34 phone pages and control states), patch_notes_ui_smoke.py and start_ui_smoke.py. Five of six patch-note unit tests passed; the archive-source test still fails on the previously documented missing historical tests/screenshots/crow-contact.png. No historical evidence was fabricated to satisfy that check. Catalogue validation and Markdown export were run. Rendered Garrett’s new leadership chapter and the compact Fox/Gordon acceptance scene were visually inspected. Checks use isolated state and mocked background providers; no live generated dialogue or extended difficulty balance is certified.
+
+## Save compatibility
+
+Restart the game to load the changes. Existing Garrett reunion saves resume at chapter 12 with prior evidence, relationship outcome and Charles contact intact. Existing daily check-ins are retained. Unfinished Crow fights use the new defeat arc, including active encounters loaded without the new marker. Previously completed captures, captures already awaiting their final report, and old finished victories awaiting result closure retain their earned legacy outcome; start a new Fox/Gordon story to experience the replacement ending in those cases. No player save files are rewritten by this update.
+
+## Evidence and historical limits
+
+Implemented in response to the requested Garrett, Red Dragons and Fox/Gordon story expansion on 10 November 2026. Evidence consists of authored case data, persistent mission and choice records, scoped combat resolution, automated checks and rendered screens.
+
+- garrett_chapters.py
+- charles_quest.py
+- charles_quest_ui.py
+- interpol_cases.py
+- interpol.py
+- combat.py
+- campaign_dialogue.py
+- tests/test_story_expansion.py
+- tests/test_interpol.py
+- tests/test_charles_quest.py
+- tests/story_expansion_ui_smoke.py
+- tests/charles_quest_ui_smoke.py
+
+
+---
+
+# What Remains: Rei’s campaign, organisation guards and illustrated confrontations
+
+release-2026-11-10-rei-campaign-organisation-guards | Release | Gameplay
+Date: 2026-11-10
+
+Investigate Rei’s past and Blackstone, decide the successor Hamayashi-kai’s future, fight through guarded campaigns, and build custom-gang properties with illustrated scenes.
+
+## Details
+
+Added — Rei’s What Remains
+
+Open In person → Stories, guards & gang properties → Rei’s story, or the matching Tools command. Six authored scenes connect Rei’s childhood training records and memory fragments, Marcus’s school storyboard, the successor Hamayashi-kai and Richter’s coercive Awakened experimentation in Winterfield. Marcus remains a person with interests and humour; the story does not give his death a single cause, invent final words or treat winning as a cure for grief. Evidence stays in Rei’s private saved notebook.
+
+Emi Suda, Ren Aoki and Daichi Kurose answer Rei at Kurose House. Adult rosters, departure records and testimony corroborate the successor’s adult-only, voluntary charter and rejection of coercive child training. Rei can leave it alone, accept its leadership after resolving conflicting affiliations, or attack and dismantle it. Destruction requires victories over all six guards across Kurose House, the riverside annex and supply house. Only then are operations closed and replenishment disabled. Leadership uses existing Hamayashi-kai membership, coworker contacts and the new member deployment directory.
+
+Blackstone now has five connected mission areas: headquarters frontage, loading compound, research records, experimental wing and executive command. Rei must enter alone and defeat all fifteen guards, clearing each preceding area before the next interior. The final confrontation presents Joseph’s cybernetic enhancement, then starts a mandatory fight. Defeat or concession retains evidence and cleared posts but cannot finish the story. Victory shuts down the programme, releases participants and records Joseph’s apology for his bullying and experimentation. Both a settled Hamayashi outcome and Richter’s defeat are required for completion.
+
+Added — area guards and custom-gang properties
+
+Guards appear as rotating unnamed town-NPC posts and fight using saved profiles in the existing combat engine. Shinokami has Awakened Kyokushin Yokai, robotic Oni with weapon systems, and unawakened Kyokushin Tengu. Syndicate has Awakened Military CQC/gun Clubs enforcers, Awakened Krav Maga/knife Spades assassins, and unawakened MMA/gun affiliates. Blackstone has Headhunter and Seeker cyborgs with weapon systems and unawakened gun-equipped PMCs. Interpol has protection officers and elite Team 9 specialists; local gangs and Hamayashi have lighter rosters. Mechanical fighters use their physical ratings without being labelled Awakened or gaining mana. Equipment is selectable by enemy combat logic and consumes stamina.
+
+Syndicate has 42 canonical posts and Shinokami 27, the largest canonical deployments. Their elite guards and Team 9 lead the strength tiers, followed by Blackstone, then the local crews. These are sandbox balance values. Ordinary patrols replenish each story day; campaign and operation clearance is tracked separately. Close a finished fight to record its outcome. Defeating a city-site perimeter allows temporary entry to controlled rooms without granting membership or command authority. Unauthorised patrol assaults can generate Interpol incidents. Member-only guard types and locations appear in Phone → Bubblegram → Network, which hands physical actions to the in-person stage.
+
+Four vacant map properties can be bought in person by custom-gang founders: west workshop ($18,000), dock warehouse ($32,000), northern offices ($24,000) and south garage ($16,000). Choose Hideout or Affiliate. Recruit and name unawakened ($1,500), Awakened ($6,000) or robotic ($9,000) guard types, rename existing types, and reassign guards between owned properties. Each site has twelve posts. Staffed properties reduce successful crew-contract heat by one per property, capped at three. Former-crew property and guards cannot be taken by a new crew.
+
+Changed — campaign combat and illustrated dialogue
+
+Interpol case and repeatable-operation combat now begins with faction guard encounters before the original target; Fox/Gordon partner support remains active. Garrett encounters Syndicate guard deployments during Find Charles. Charles refuses to return to Garrett’s life for fear of endangering him and fights to drive him away. Garrett must win before their reconciliation and private contact exchange. Previously completed reunions remain completed.
+
+Campaign scripts use the existing in-person HangoutCanvas with portraits, location backgrounds, narration and text bubbles. Continue advances saved beats; only the final continuation commits the response or starts the fight. The story clock and physical travel pause while a script is open. Charles and Garrett have a seven-beat emotionally heated argument before combat, followed by a victory response and reconciliation dialogue. Richter has a five-beat confrontation and a separate post-victory apology. Interpol objective exchanges and Rei’s successor conversation also use this presentation. Scripted scenes make no AI requests. Existing conversation journals are preserved; authored scripts have their own saved history and cursor.
+
+Artwork
+
+Created four distinct 1536×1024 property backgrounds using the built-in image_gen tool. They are stored under assets/ui/locations/crew_lot_*.png and loaded by the ordinary location and hangout renderer. Full prompts and generation provenance are in gang-properties-prompts.json. The west workshop, dock warehouse, northern offices and south garage retain distinct architecture and clear foregrounds for portrait overlays.
+
+Fixed
+
+The final phone audit exposed native active/disabled colours on a contact-detail frame that bypassed the usual idle theme traversal. Contact details now apply the dark theme synchronously, including not-yet-mapped children.
+
+Validation and limits
+
+Passed 147 focused unit tests covering the new campaigns/scripts, all three Hamayashi outcomes, victory and defeat gates, real combat exchanges, Interpol, Charles, equipment, Path/tactics, crime sites, custom gangs, memberships, maps and save systems. Included real save/load checks for an active mission fight and an unfinished script, duplicate-completion protection, private-context boundaries and former-crew ownership checks. Narrative route tests deliberately use controlled victory results to exercise branches; they do not certify difficulty balance.
+
+Passed major_campaigns_ui_smoke.py, campaign_dialogue_ui_smoke.py, charles_quest_ui_smoke.py, interpol_ui_smoke.py, start_ui_smoke.py and patch_notes_ui_smoke.py. Passed phone_dark_theme_smoke.py across 34 pages plus chats, contact details and embedded controls after the synchronous-theme fix. Visually inspected the new property images, opening/property/compact screens, phone handoff, Charles confrontation and Richter confrontation screenshots. These checks used isolated state and mocked background providers; no player saves or credentials were changed.
+
+The patch-note catalogue schema validates. The archive-source unit check remains blocked by 11 pre-existing missing historical screenshot files, including crow-contact.png; the other patch-note tests pass. A broad all-tests discovery attempt was stopped after stalling in older GUI-related tests, so no full-repository pass is claimed. Guard deployments are fixed rosters, not autonomous faction-war simulation. Blackstone interiors and Hamayashi annexes reuse existing backgrounds; only the four purchasable properties received new art. Live generated dialogue and extended combat difficulty were not certified.
+
+## Save compatibility
+
+Restart to load the changed code. Existing stories gain additive Rei/security/script records without resetting money, relationships, jobs or combat progression. Existing guard-free unfinished Find Charles and Interpol objectives gain the new combat gates; completed objectives and Charles contact exchanges remain valid. Guard victories, purchases, rosters, decisions, active fight tokens and unfinished dialogue cursors survive saves. No past victories, fines, recruits or discoveries are fabricated. New stories are needed only to change protagonist.
+
+## Evidence and historical limits
+
+Implemented for the requested major update and follow-up property-art/scripted-hangout requirements on 2026-11-10. Evidence is the checked-in source, generated project assets, focused test runs and inspected rendered screenshots. Historical archive-source failures are explicitly retained as limitations; no prior release dates or version numbers were invented.
+
+- rei_story.py
+- organisation_guards.py
+- campaign_dialogue.py
+- campaign_ui.py
+- charles_quest.py
+- interpol.py
+- combat_engine.py
+- hangout_ui.py
+- phone_ui.py
+- README.md
+- assets/ui/locations/gang-properties-prompts.json
+- assets/ui/locations/crew_lot_west.png
+- assets/ui/locations/crew_lot_docks.png
+- assets/ui/locations/crew_lot_north.png
+- assets/ui/locations/crew_lot_south.png
+- tests/test_major_campaigns.py
+- tests/test_campaign_dialogue.py
+- tests/major_campaigns_ui_smoke.py
+- tests/campaign_dialogue_ui_smoke.py
+- tests/screenshots/script-charles-confrontation.png
+- tests/screenshots/script-richter.png
+
+
+---
+
+# Neo's transparent selection portrait
+
+release-2026-11-10-neo-selection-cutout | Release | Interface
+Date: 2026-11-10
+
+Neo's character selection preview now displays his existing transparent portrait over the Winterfield background.
+
+## Details
+
+Fixed
+
+On the start screen, browse to cast page 5 and select Neo. His preview now loads assets/portraits/neo-scene.png, the existing transparent standing portrait, instead of the square contact photograph in neo-selection.png. The Winterfield scenery remains visible around his silhouette. His epithet, quote, interests and contact photograph are unchanged.
+
+Validation
+
+The start-screen smoke passed all 28 previews, paging, explicit Begin and default/minimum layouts. Visually inspected Neo's rendered 1000x800 preview to confirm the transparent silhouette and readable text. The patch-notes UI smoke passed. Five of six patch-note unit tests passed; the archive source-coverage test still fails on the pre-existing missing tests/screenshots/crow-contact.png reference. No AI calls or player-save writes were used.
+
+## Save compatibility
+
+Restart the game to load the portrait routing change. Existing saves are unaffected; no migration or new playthrough is required.
+
+## Evidence and historical limits
+
+Implemented from the player's report that Neo's selection preview used his contact photo. Inspected the existing assets and verified the corrected rendered preview.
+
+- start_ui.py
+- assets/portraits/neo-scene.png
+- tests/start_ui_smoke.py
+
+
+---
+
+# Consistent protagonist selection descriptions
+
+release-2026-11-10-protagonist-selection-descriptions | Release | Interface
+Date: 2026-11-10
+
+All 24 expanded protagonists now use the original cast's epithet, short quote and interests format on the character selection screen.
+
+## Details
+
+Changed
+
+On the start screen, use Previous and Next to browse the cast and select a protagonist. Expanded characters now display an uppercase epithet, a short atmospheric quote and three concise interests. These replace the job title, starting-funds/project description and home-action list previously shown in those positions. The original four descriptions and all character accent colours remain unchanged. Sylvanis is The Crazed Demon, Daniel is Blood of Legends, and Neo is The Missing Shinigami, following the player's explicit titles. Other copy draws on existing character profiles and activities.
+
+Save compatibility
+
+This is selection-screen copy only. Starting funds, careers, projects, home actions, relationships and saved stories retain their existing behaviour. Previewing a character still does not begin a story; use the Begin button.
+
+Validation
+
+The start-screen smoke passed all 28 previews, paging, explicit Begin and default/minimum layouts. Captured expanded-character previews at 1000x800 and 1220x940; visually inspected Daniel, Neo and Sylvanis at 1000x800. No AI calls or player-save writes were used. The system Python lacked Pillow, so the successful UI check used the game's bundled Python runtime.
+
+All seven playable-cast regression tests passed. Patch-note catalogue validation and the patch-notes UI smoke passed. Five of six patch-note unit tests passed; the archive source-coverage test failed on the pre-existing missing tests/screenshots/crow-contact.png reference. The Markdown export was refreshed.
+
+## Save compatibility
+
+Restart the game to load the updated selection copy. No save migration or new playthrough is required; existing story data is unchanged.
+
+## Evidence and historical limits
+
+Implemented from the player's request for matching description formats and explicit corrections to Sylvanis, Daniel and Neo's epithets. Checks and visual review performed for this update.
+
+- start_ui.py
+- playable_cast.py
+- hidden_cast.py
+- four_aces.py
+- interpol_cast.py
+- tests/start_ui_smoke.py
+
+
+---
+
 # Enhanced combat: learned combos, Trait skills and destructible arenas
 
 release-2026-11-09-enhanced-combat | Release | Gameplay

@@ -1,0 +1,756 @@
+{
+  "roadmap_id": "MH-013",
+  "recorded": "2026-11-11",
+  "scope": "89 contemporary characters and 18 guard roles. Preserve original authored heights and explicit user heights. Remaining display defaults vary within 175-180 cm male / 160-165 cm female. Dialogue disclosure rules and custom saved heights are unchanged.",
+  "characters": {
+    "ada-mensah": {
+      "height_cm": 164,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/ada-mensah-selection.png"
+    },
+    "alyssa": {
+      "height_cm": 170,
+      "basis": "authored",
+      "profile": "female",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/alyssa-selection.png"
+    },
+    "amy": {
+      "height_cm": 163,
+      "basis": "authored",
+      "profile": "female",
+      "source": "character_biographies.py:ORIGINAL_FACTS",
+      "master_path": "assets/portraits/amy-selection.png"
+    },
+    "anton-bellamy": {
+      "height_cm": 176,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/anton-bellamy-selection.png"
+    },
+    "april": {
+      "height_cm": 150,
+      "basis": "authored",
+      "profile": "female",
+      "source": "character_biographies.py:ORIGINAL_FACTS",
+      "master_path": "assets/portraits/april-selection.png"
+    },
+    "arthur-finch": {
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/arthur-finch-selection.png"
+    },
+    "beatrice-cole": {
+      "height_cm": 160,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/beatrice-cole-selection.png"
+    },
+    "ben-okafor": {
+      "height_cm": 179,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/ben-okafor-selection.png"
+    },
+    "callum-webb": {
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/callum-webb-selection.png"
+    },
+    "camila": {
+      "height_cm": 168,
+      "basis": "authored",
+      "profile": "female",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/camila-selection.png"
+    },
+    "celeste": {
+      "height_cm": 172,
+      "basis": "authored",
+      "profile": "female",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/celeste-selection.png"
+    },
+    "celia-brooks": {
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/celia-brooks-selection.png"
+    },
+    "charles": {
+      "height_cm": 191,
+      "basis": "authored",
+      "profile": "male",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/charles-selection-v2.png"
+    },
+    "crow": {
+      "height_cm": 180,
+      "basis": "user specified",
+      "profile": "male",
+      "source": "Explicit user height for MH-013 Stage 2, recorded 2026-11-11; replaces the previous display fallback.",
+      "master_path": "assets/portraits/crow-selection.png"
+    },
+    "daichi-kurose": {
+      "height_cm": 177,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/daichi-kurose-selection.png"
+    },
+    "dana-lin": {
+      "height_cm": 165,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/dana-lin-selection.png"
+    },
+    "daniel": {
+      "height_cm": 180,
+      "basis": "authored",
+      "profile": "male",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/daniel-selection.png"
+    },
+    "dante-brooks": {
+      "height_cm": 179,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/dante-brooks-selection.png"
+    },
+    "darius-cole": {
+      "height_cm": 180,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/darius-cole-selection.png"
+    },
+    "dev": {
+      "height_cm": 181,
+      "basis": "authored",
+      "profile": "male",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/dev-selection.png"
+    },
+    "elias": {
+      "height_cm": 181,
+      "basis": "authored",
+      "profile": "male",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/elias-selection.png"
+    },
+    "elliot": {
+      "height_cm": 186,
+      "basis": "authored",
+      "profile": "male",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/elliot-selection.png"
+    },
+    "emi-suda": {
+      "height_cm": 161,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/emi-suda-selection.png"
+    },
+    "emily": {
+      "height_cm": 154,
+      "basis": "authored",
+      "profile": "female",
+      "source": "character_biographies.py:ORIGINAL_FACTS",
+      "master_path": "assets/portraits/emily-selection.png"
+    },
+    "euan-marsh": {
+      "height_cm": 176,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/euan-marsh-selection.png"
+    },
+    "evelyn-mercer": {
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/evelyn-mercer-selection.png"
+    },
+    "farah-haddad": {
+      "height_cm": 165,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/farah-haddad-selection.png"
+    },
+    "felix-ward": {
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/felix-ward-selection.png"
+    },
+    "fox": {
+      "height_cm": 184,
+      "basis": "user specified",
+      "profile": "male",
+      "source": "Explicit user height for MH-013 Stage 2, recorded 2026-11-11; replaces the previous display fallback.",
+      "master_path": "assets/portraits/fox-selection.png"
+    },
+    "gabe-turner": {
+      "height_cm": 179,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/gabe-turner-selection.png"
+    },
+    "garrett": {
+      "height_cm": 188,
+      "basis": "authored",
+      "profile": "male",
+      "source": "character_biographies.py:ORIGINAL_FACTS",
+      "master_path": "assets/portraits/garrett-selection.png"
+    },
+    "gordon": {
+      "height_cm": 183,
+      "basis": "user specified",
+      "profile": "male",
+      "source": "Explicit user height for MH-013 Stage 2, recorded 2026-11-11; replaces the previous display fallback.",
+      "master_path": "assets/portraits/gordon-selection.png"
+    },
+    "greta-shaw": {
+      "height_cm": 164,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/greta-shaw-selection.png"
+    },
+    "guard-affiliate": {
+      "height_cm": 177,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/guards/affiliate.png"
+    },
+    "guard-clubs": {
+      "height_cm": 179,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/guards/clubs.png"
+    },
+    "guard-crew_enforcer": {
+      "height_cm": 175,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/guards/crew_enforcer.png"
+    },
+    "guard-custom_awakened": {
+      "height_cm": 180,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/guards/custom_awakened.png"
+    },
+    "guard-custom_robotic": {
+      "height_cm": 198,
+      "basis": "user specified",
+      "profile": "humanoid",
+      "source": "Explicit user height for MH-013 Stage 2, recorded 2026-11-11; replaces the previous display fallback.",
+      "master_path": "assets/portraits/guards/custom_robotic.png"
+    },
+    "guard-custom_unawakened": {
+      "height_cm": 160,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/guards/custom_unawakened.png"
+    },
+    "guard-headhunter": {
+      "height_cm": 177,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/guards/headhunter.png"
+    },
+    "guard-interpol": {
+      "height_cm": 175,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/guards/interpol.png"
+    },
+    "guard-kai_guard": {
+      "height_cm": 161,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/guards/kai_guard.png"
+    },
+    "guard-kai_sentinel": {
+      "height_cm": 176,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/guards/kai_sentinel.png"
+    },
+    "guard-lookout": {
+      "height_cm": 177,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/guards/lookout.png"
+    },
+    "guard-oni": {
+      "height_cm": 198,
+      "basis": "user specified",
+      "profile": "humanoid",
+      "source": "Explicit user height for MH-013 Stage 2, recorded 2026-11-11; replaces the previous display fallback.",
+      "master_path": "assets/portraits/guards/oni.png"
+    },
+    "guard-pmc": {
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/guards/pmc.png"
+    },
+    "guard-seeker": {
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/guards/seeker.png"
+    },
+    "guard-spades": {
+      "height_cm": 175,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/guards/spades.png"
+    },
+    "guard-team9": {
+      "height_cm": 160,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/guards/team9.png"
+    },
+    "guard-tengu": {
+      "height_cm": 176,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/guards/tengu.png"
+    },
+    "guard-yokai": {
+      "height_cm": 177,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/guards/yokai.png"
+    },
+    "hazel-reed": {
+      "height_cm": 161,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/hazel-reed-selection.png"
+    },
+    "imani-price": {
+      "height_cm": 165,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/imani-price-selection.png"
+    },
+    "iris": {
+      "height_cm": 162,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/iris-selection.png"
+    },
+    "isabel-vega": {
+      "height_cm": 160,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/isabel-vega-selection.png"
+    },
+    "ivan": {
+      "height_cm": 193,
+      "basis": "authored",
+      "profile": "male",
+      "source": "character_biographies.py:ORIGINAL_FACTS",
+      "master_path": "assets/portraits/ivan-selection.png"
+    },
+    "jace-mercer": {
+      "height_cm": 180,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/jace-mercer-selection.png"
+    },
+    "jonah-price": {
+      "height_cm": 175,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/jonah-price-selection.png"
+    },
+    "joseph-richter": {
+      "height_cm": 190,
+      "basis": "user specified",
+      "profile": "male",
+      "source": "Explicit user height for MH-013 Stage 2, recorded 2026-11-11; replaces the previous display fallback.",
+      "master_path": "assets/portraits/joseph-richter-selection.png"
+    },
+    "jules-navarro": {
+      "height_cm": 175,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/jules-navarro-selection.png"
+    },
+    "june": {
+      "height_cm": 164,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/june-selection.png"
+    },
+    "keiko-tan": {
+      "height_cm": 162,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/keiko-tan-selection.png"
+    },
+    "keira-shaw": {
+      "height_cm": 160,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/keira-shaw-selection.png"
+    },
+    "keisuke-hachimura": {
+      "height_cm": 183,
+      "basis": "user specified",
+      "profile": "male",
+      "source": "Explicit user height for MH-013 Stage 2, recorded 2026-11-11; replaces the previous display fallback.",
+      "master_path": "assets/portraits/keisuke-hachimura-selection.png"
+    },
+    "lena": {
+      "height_cm": 168,
+      "basis": "authored",
+      "profile": "female",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/lena-selection.png"
+    },
+    "leo": {
+      "height_cm": 179,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/leo-selection.png"
+    },
+    "lucia-serrano": {
+      "height_cm": 162,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/lucia-serrano-selection.png"
+    },
+    "luz-moreno": {
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/luz-moreno-selection.png"
+    },
+    "malik-reed": {
+      "height_cm": 179,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/malik-reed-selection.png"
+    },
+    "malik-torres": {
+      "height_cm": 180,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/malik-torres-selection.png"
+    },
+    "mara-voss": {
+      "height_cm": 161,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/mara-voss-selection.png"
+    },
+    "mario-romano": {
+      "height_cm": 180,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/mario-romano-selection.png"
+    },
+    "marta-silva": {
+      "height_cm": 160,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/marta-silva-selection.png"
+    },
+    "martos": {
+      "height_cm": 201,
+      "basis": "authored",
+      "profile": "male",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/martos-selection.png"
+    },
+    "mateo-cruz": {
+      "height_cm": 176,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/mateo-cruz-selection.png"
+    },
+    "mavis": {
+      "height_cm": 158,
+      "basis": "authored",
+      "profile": "female",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/mavis-selection.png"
+    },
+    "maya": {
+      "height_cm": 164,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/maya-selection.png"
+    },
+    "mina-cho": {
+      "height_cm": 165,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/mina-cho-selection.png"
+    },
+    "minsu": {
+      "height_cm": 177,
+      "basis": "authored",
+      "profile": "male",
+      "source": "character_biographies.py:ORIGINAL_FACTS",
+      "master_path": "assets/portraits/minsu-selection.png"
+    },
+    "nadia-flores": {
+      "height_cm": 162,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/nadia-flores-selection.png"
+    },
+    "naomi": {
+      "height_cm": 175,
+      "basis": "authored",
+      "profile": "female",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/naomi-selection.png"
+    },
+    "neo": {
+      "height_cm": 183,
+      "basis": "authored",
+      "profile": "male",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/neo-scene.png"
+    },
+    "nessa-quinn": {
+      "height_cm": 161,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/nessa-quinn-selection.png"
+    },
+    "noah": {
+      "height_cm": 177,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/noah-selection.png"
+    },
+    "otis-bell": {
+      "height_cm": 176,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/otis-bell-selection.png"
+    },
+    "owen-pike": {
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/owen-pike-selection.png"
+    },
+    "priya-shah": {
+      "height_cm": 162,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/priya-shah-selection.png"
+    },
+    "rafe-calder": {
+      "height_cm": 176,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/rafe-calder-selection.png"
+    },
+    "ravi-menon": {
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/ravi-menon-selection.png"
+    },
+    "rei": {
+      "height_cm": 184,
+      "basis": "authored",
+      "profile": "male",
+      "source": "character_biographies.py:ORIGINAL_FACTS",
+      "master_path": "assets/portraits/rei-selection.png"
+    },
+    "ren-aoki": {
+      "height_cm": 177,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/ren-aoki-selection.png"
+    },
+    "rina-vale": {
+      "height_cm": 161,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/rina-vale-selection.png"
+    },
+    "robin-vale": {
+      "height_cm": 175,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/robin-vale-selection.png"
+    },
+    "rosa": {
+      "height_cm": 160,
+      "basis": "authored",
+      "profile": "female",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/rosa-selection.png"
+    },
+    "samantha": {
+      "height_cm": 168,
+      "basis": "authored",
+      "profile": "female",
+      "source": "character_biographies.py:ORIGINAL_FACTS",
+      "master_path": "assets/portraits/samantha-selection.png"
+    },
+    "samir-dutta": {
+      "height_cm": 175,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/samir-dutta-selection.png"
+    },
+    "sasha-quinn": {
+      "height_cm": 165,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/sasha-quinn-selection.png"
+    },
+    "sophie": {
+      "height_cm": 170,
+      "basis": "authored",
+      "profile": "female",
+      "source": "character_biographies.py:ORIGINAL_FACTS",
+      "master_path": "assets/portraits/sophie-selection.png"
+    },
+    "sylvanis": {
+      "height_cm": 198,
+      "basis": "authored",
+      "profile": "male",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/sylvanis-selection.png"
+    },
+    "takeo": {
+      "height_cm": 211,
+      "basis": "authored",
+      "profile": "male",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/takeo-selection.png"
+    },
+    "tess-morgan": {
+      "height_cm": 164,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/tess-morgan-selection.png"
+    },
+    "theo": {
+      "height_cm": 180,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 175-180 cm male range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/theo-selection.png"
+    },
+    "thirteen": {
+      "height_cm": 194,
+      "basis": "authored",
+      "profile": "male",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/thirteen-selection.png"
+    },
+    "tyler": {
+      "height_cm": 184,
+      "basis": "authored",
+      "profile": "male",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/tyler-selection.png"
+    },
+    "valentina": {
+      "height_cm": 170,
+      "basis": "authored",
+      "profile": "female",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/valentina-selection.png"
+    },
+    "wren-park": {
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "Stable per-character display default assigned 2026-11-11 within the user-requested 160-165 cm female range; stored explicitly, never randomized on load.",
+      "master_path": "assets/portraits/wren-park-selection.png"
+    },
+    "yuriko": {
+      "height_cm": 159,
+      "basis": "authored",
+      "profile": "female",
+      "source": "character_biographies.py:ORIGINAL_FACTS",
+      "master_path": "assets/portraits/yuriko-selection.png"
+    }
+  }
+}

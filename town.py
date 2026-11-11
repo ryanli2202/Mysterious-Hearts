@@ -51,6 +51,8 @@ LOCATIONS.update({key: data['name'] for key, data in vacant_homes.HOMES.items()}
 LOCATIONS.update({'iron_circle': 'The Iron Circle · Underground fighting ring', 'noodle_shop': 'Golden Dragon · Garrett’s noodle shop', 'syndicate': 'Red Dragons private lounge'})
 LOCATIONS.update({'campus': 'Winterfield University', 'park': 'Riverside park', 'studio': 'Downtown modelling studio'})
 LOCATIONS.update(gang_leaders.LOCATIONS)
+import organisation_guards
+LOCATIONS.update(organisation_guards.LOCATIONS)
 LOCATIONS.update({'car:'+who: 'In transit with '+who.title() for who in loop.HOUSES})
 import criminal_dynamics
 LOCATIONS[criminal_dynamics.LAB] = criminal_dynamics.LAB_NAME
@@ -64,6 +66,8 @@ HOMES = {who: data[0] for who, data in loop.HOUSES.items()}
 
 
 def location_name(s, location):
+    owned=s.get('organisation_guards',{}).get('properties',{}).get(location)
+    if owned: return owned['owner']+' · '+owned['use']+' · '+organisation_guards.PROPERTIES[location][0].removeprefix('Vacant ')
     if location in crime_operations.ROOMS:
         key,area=crime_operations.ROOMS[location]
         return crime_sites.label(s,key)+' · '+area.title()
@@ -454,6 +458,7 @@ def wait(s, minutes=30):
 
 def npc_details(s, name):
     if name not in ensure(s)['npcs']: raise ValueError('That person has left this location.')
+    if name.startswith('Post guard · '): return organisation_guards.npc_detail(s,name)
     if name == RICHTER and s['world']['location'] == 'blackstone_hq':
         return HQ_EXECUTIVE
     staff = VENUE_STAFF.get(s['world']['location'])
@@ -462,12 +467,16 @@ def npc_details(s, name):
     return next(n for n in NPCS if n[0] == name)
 
 def generate_npc(s, name, reply):
+    import guard_dialogue
+    if guard_dialogue.is_guard(name): return guard_dialogue.generate(s, name, reply)
     import game_core as core
     import groups
     import json
     _, role, hook = npc_details(s, name)
+    outcome=__import__('rei_story').context(s,name,[s['player']])
+    if outcome: hook += ' SAVED OUTCOME OVERRIDES EARLIER BACKGROUND: '+outcome
     hook += ' ' + town_residents.context(name, s['world']['minute'])
-    if name == RICHTER and reply is None and not s.get('npc_chats', {}).get(name):
+    if name == RICHTER and reply is None and not s.get('npc_chats', {}).get(name) and not s.get('rei_story',{}).get('richter'):
         line = ('Takamura. I remember when you could walk past me without anybody asking for your picture. I preferred it.'
                 if s['player'] == 'rei' else
                 'Reception is right there. What made you think your question needed the chief executive?')
@@ -490,7 +499,7 @@ def generate_npc(s, name, reply):
               + core.DIALOGUE_DIRECTION + '\nPlayer voice: ' + styles.get(s['player']+'_player', custom_protagonist.VOICE))
     history = s.get('npc_chats', {}).get(name, {}).get('history', [])
     if reply and reply.startswith(core.ACTION_PREFIX):
-        system += '\nThe submitted player line is a physical action, not spoken dialogue. Describe its observable result and respond naturally. Never read the action aloud.'
+        system += '\nThe submitted player line is a physical action, not spoken dialogue. As Game Master, describe the action and its observable result in narration and respond naturally in dialogue. Never read the action aloud.'
     if arrival_notes(s, name) and reply is None:
         system += ' On opening, react in your own words to what you just noticed: ' + ' '.join(arrival_notes(s, name))
     import living_world
@@ -503,6 +512,8 @@ def generate_npc(s, name, reply):
                                     submitted_tone=core.selected_tone(s, reply, npc=name), opening=reply is None)
 
 def commit_npc(s, name, reply, result):
+    import guard_dialogue
+    if guard_dialogue.is_guard(name): return guard_dialogue.commit(s, name, reply, result)
     import combat
     combat.check_pair(s,name)
     if character_types.is_town(name):

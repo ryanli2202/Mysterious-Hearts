@@ -5,6 +5,7 @@ saves/
 custom_characters/
 tests/screenshots/
 node_modules/
+.pnpm-store/
 .chatgpt/
 ai_settings.json
 .lu-token
@@ -15,3 +16,10 @@ phone_preferences.tmp
 patch_notes_preferences.json
 patch_notes_preferences.json.*.tmp
 patch_notes/exports/
+
+# Private community-plugin state; the source/version lock and setup guide are tracked.
+.writers-loop/
+.context-guard/
+
+# Draft media is tracked in media-workspace/ for complete work-in-progress backups.
+# Tracking a draft does not mark it as an accepted production asset.

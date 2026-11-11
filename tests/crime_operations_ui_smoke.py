@@ -22,7 +22,7 @@ with patch.object(game.Game,'check',lambda self:None), patch.object(game.Game,'p
             window=app.presence_view.site_activities
             assert window.winfo_toplevel() is app and getattr(app,'area_view',None) is None
             assert not phone.winfo_viewable() and not phone.dialogs
-            assert scene_art(s['world']['location'])=='locations/'+key+'_interior'
+            assert scene_art(s['world']['location'])=='locations/'+key+'_reception'
             audit(window)
             ImageGrab.grab(window=app.winfo_id()).save(out/f'interior-{key}.png')
             window.act(ops.enter,key,'briefing');assert 'clearance' in window.notice

@@ -1,0 +1,3009 @@
+{
+  "roadmap_id": "MH-013",
+  "date": "2026-11-11",
+  "verified": true,
+  "total": 107,
+  "authored": 29,
+  "fallbacks": 78,
+  "installed_changes": 100,
+  "other_baseline_files_unchanged": 199,
+  "cropping": "Visible head-to-mid-thigh span uses 0.70 of full stature; picture crop is not feet. Same pixels/cm across participants, uniform resize, alpha padding excluded.",
+  "characters": [
+    {
+      "id": "april",
+      "height_cm": 150,
+      "basis": "authored",
+      "profile": "female",
+      "source": "character_biographies.py:ORIGINAL_FACTS",
+      "master_path": "assets/portraits/april-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 274,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.425
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 137,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.212
+        }
+      ]
+    },
+    {
+      "id": "arthur-finch",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/arthur-finch-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "beatrice-cole",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/beatrice-cole-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "amy",
+      "height_cm": 163,
+      "basis": "authored",
+      "profile": "female",
+      "source": "character_biographies.py:ORIGINAL_FACTS",
+      "master_path": "assets/portraits/amy-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "garrett",
+      "height_cm": 188,
+      "basis": "authored",
+      "profile": "male",
+      "source": "character_biographies.py:ORIGINAL_FACTS",
+      "master_path": "assets/portraits/garrett-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 343,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.119
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 171,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.44
+        }
+      ]
+    },
+    {
+      "id": "rei",
+      "height_cm": 184,
+      "basis": "authored",
+      "profile": "male",
+      "source": "character_biographies.py:ORIGINAL_FACTS",
+      "master_path": "assets/portraits/rei-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 336,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.415
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 168,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.207
+        }
+      ]
+    },
+    {
+      "id": "sophie",
+      "height_cm": 170,
+      "basis": "authored",
+      "profile": "female",
+      "source": "character_biographies.py:ORIGINAL_FACTS",
+      "master_path": "assets/portraits/sophie-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 310,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.052
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 155,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.026
+        }
+      ]
+    },
+    {
+      "id": "samantha",
+      "height_cm": 168,
+      "basis": "authored",
+      "profile": "female",
+      "source": "character_biographies.py:ORIGINAL_FACTS",
+      "master_path": "assets/portraits/samantha-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 306,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.404
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 153,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.202
+        }
+      ]
+    },
+    {
+      "id": "yuriko",
+      "height_cm": 159,
+      "basis": "authored",
+      "profile": "female",
+      "source": "character_biographies.py:ORIGINAL_FACTS",
+      "master_path": "assets/portraits/yuriko-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 290,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.01
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 145,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.005
+        }
+      ]
+    },
+    {
+      "id": "maya",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/maya-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "leo",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/leo-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "noah",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/noah-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "iris",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/iris-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "june",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/june-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "theo",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/theo-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "ada-mensah",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/ada-mensah-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "alyssa",
+      "height_cm": 170,
+      "basis": "authored",
+      "profile": "female",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/alyssa-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 310,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.052
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 155,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.026
+        }
+      ]
+    },
+    {
+      "id": "anton-bellamy",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/anton-bellamy-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "ben-okafor",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/ben-okafor-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "callum-webb",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/callum-webb-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "camila",
+      "height_cm": 168,
+      "basis": "authored",
+      "profile": "female",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/camila-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 306,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.404
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 153,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.202
+        }
+      ]
+    },
+    {
+      "id": "celeste",
+      "height_cm": 172,
+      "basis": "authored",
+      "profile": "female",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/celeste-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 314,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.301
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 157,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.15
+        }
+      ]
+    },
+    {
+      "id": "celia-brooks",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/celia-brooks-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "charles",
+      "height_cm": 191,
+      "basis": "authored",
+      "profile": "male",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/charles-selection-v2.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 348,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.352
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 174,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.176
+        }
+      ]
+    },
+    {
+      "id": "crow",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/crow-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 313,
+          "ivan_pixels": 340,
+          "ratio_error_pixels": 0.575
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 157,
+          "ivan_pixels": 170,
+          "ratio_error_pixels": 0.212
+        }
+      ]
+    },
+    {
+      "id": "daichi-kurose",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/daichi-kurose-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "dana-lin",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/dana-lin-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "daniel",
+      "height_cm": 180,
+      "basis": "authored",
+      "profile": "male",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/daniel-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 328,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.29
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 164,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.145
+        }
+      ]
+    },
+    {
+      "id": "dante-brooks",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/dante-brooks-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "darius-cole",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/darius-cole-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "dev",
+      "height_cm": 181,
+      "basis": "authored",
+      "profile": "male",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/dev-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 330,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.114
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 165,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.057
+        }
+      ]
+    },
+    {
+      "id": "elias",
+      "height_cm": 181,
+      "basis": "authored",
+      "profile": "male",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/elias-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 330,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.114
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 165,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.057
+        }
+      ]
+    },
+    {
+      "id": "elliot",
+      "height_cm": 186,
+      "basis": "authored",
+      "profile": "male",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/elliot-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 339,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.233
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 170,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.383
+        }
+      ]
+    },
+    {
+      "id": "emi-suda",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/emi-suda-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "emily",
+      "height_cm": 154,
+      "basis": "authored",
+      "profile": "female",
+      "source": "character_biographies.py:ORIGINAL_FACTS",
+      "master_path": "assets/portraits/emily-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 281,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.13
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 140,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.435
+        }
+      ]
+    },
+    {
+      "id": "euan-marsh",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/euan-marsh-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "evelyn-mercer",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/evelyn-mercer-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "farah-haddad",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/farah-haddad-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "felix-ward",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/felix-ward-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "fox",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/fox-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "gabe-turner",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/gabe-turner-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "gordon",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/gordon-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "greta-shaw",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/greta-shaw-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "hazel-reed",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/hazel-reed-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "imani-price",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/imani-price-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "isabel-vega",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/isabel-vega-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "ivan",
+      "height_cm": 193,
+      "basis": "authored",
+      "profile": "male",
+      "source": "character_biographies.py:ORIGINAL_FACTS",
+      "master_path": "assets/portraits/ivan-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 352,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.0
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 176,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.0
+        }
+      ]
+    },
+    {
+      "id": "jace-mercer",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/jace-mercer-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "jonah-price",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/jonah-price-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "joseph-richter",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/joseph-richter-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "jules-navarro",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/jules-navarro-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "keiko-tan",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/keiko-tan-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "keira-shaw",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/keira-shaw-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "keisuke-hachimura",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/keisuke-hachimura-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "lena",
+      "height_cm": 168,
+      "basis": "authored",
+      "profile": "female",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/lena-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 306,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.404
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 153,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.202
+        }
+      ]
+    },
+    {
+      "id": "lucia-serrano",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/lucia-serrano-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "luz-moreno",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/luz-moreno-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "malik-reed",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/malik-reed-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "malik-torres",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/malik-torres-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "mara-voss",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/mara-voss-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "mario-romano",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/mario-romano-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "marta-silva",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/marta-silva-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "martos",
+      "height_cm": 201,
+      "basis": "authored",
+      "profile": "male",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/martos-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 341,
+          "ivan_pixels": 328,
+          "ratio_error_pixels": 0.596
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 171,
+          "ivan_pixels": 164,
+          "ratio_error_pixels": 0.202
+        }
+      ]
+    },
+    {
+      "id": "mateo-cruz",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/mateo-cruz-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "mavis",
+      "height_cm": 158,
+      "basis": "authored",
+      "profile": "female",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/mavis-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 288,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.166
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 144,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.083
+        }
+      ]
+    },
+    {
+      "id": "mina-cho",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/mina-cho-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "minsu",
+      "height_cm": 177,
+      "basis": "authored",
+      "profile": "male",
+      "source": "character_biographies.py:ORIGINAL_FACTS",
+      "master_path": "assets/portraits/minsu-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 323,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.181
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 161,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.409
+        }
+      ]
+    },
+    {
+      "id": "nadia-flores",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/nadia-flores-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "naomi",
+      "height_cm": 175,
+      "basis": "authored",
+      "profile": "female",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/naomi-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 319,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.171
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 160,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.415
+        }
+      ]
+    },
+    {
+      "id": "neo",
+      "height_cm": 183,
+      "basis": "authored",
+      "profile": "male",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/neo-scene.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 334,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.238
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 167,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.119
+        }
+      ]
+    },
+    {
+      "id": "nessa-quinn",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/nessa-quinn-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "otis-bell",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/otis-bell-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "owen-pike",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/owen-pike-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "priya-shah",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/priya-shah-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "rafe-calder",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/rafe-calder-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "ravi-menon",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/ravi-menon-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "ren-aoki",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/ren-aoki-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "rina-vale",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/rina-vale-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "robin-vale",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/robin-vale-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "rosa",
+      "height_cm": 160,
+      "basis": "authored",
+      "profile": "female",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/rosa-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 292,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.187
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 146,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.093
+        }
+      ]
+    },
+    {
+      "id": "samir-dutta",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/samir-dutta-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "sasha-quinn",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/sasha-quinn-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "sylvanis",
+      "height_cm": 198,
+      "basis": "authored",
+      "profile": "male",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/sylvanis-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 352,
+          "ivan_pixels": 343,
+          "ratio_error_pixels": 0.114
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 176,
+          "ivan_pixels": 172,
+          "ratio_error_pixels": 0.456
+        }
+      ]
+    },
+    {
+      "id": "takeo",
+      "height_cm": 211,
+      "basis": "authored",
+      "profile": "male",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/takeo-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 289,
+          "ivan_pixels": 264,
+          "ratio_error_pixels": 0.378
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 145,
+          "ivan_pixels": 132,
+          "ratio_error_pixels": 0.689
+        }
+      ]
+    },
+    {
+      "id": "tess-morgan",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/tess-morgan-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "thirteen",
+      "height_cm": 194,
+      "basis": "authored",
+      "profile": "male",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/thirteen-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 341,
+          "ivan_pixels": 339,
+          "ratio_error_pixels": 0.244
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 170,
+          "ivan_pixels": 169,
+          "ratio_error_pixels": 0.124
+        }
+      ]
+    },
+    {
+      "id": "tyler",
+      "height_cm": 184,
+      "basis": "authored",
+      "profile": "male",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/tyler-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 336,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.415
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 168,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.207
+        }
+      ]
+    },
+    {
+      "id": "valentina",
+      "height_cm": 170,
+      "basis": "authored",
+      "profile": "female",
+      "source": "hidden_cast.py:CAST (including imported cast modules)",
+      "master_path": "assets/portraits/valentina-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 310,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.052
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 155,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.026
+        }
+      ]
+    },
+    {
+      "id": "wren-park",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/wren-park-selection.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "guard-affiliate",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/guards/affiliate.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 317,
+          "ivan_pixels": 344,
+          "ratio_error_pixels": 0.264
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 159,
+          "ivan_pixels": 172,
+          "ratio_error_pixels": 0.368
+        }
+      ]
+    },
+    {
+      "id": "guard-clubs",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/guards/clubs.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 305,
+          "ivan_pixels": 331,
+          "ratio_error_pixels": 0.275
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 152,
+          "ivan_pixels": 165,
+          "ratio_error_pixels": 0.176
+        }
+      ]
+    },
+    {
+      "id": "guard-crew_enforcer",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/guards/crew_enforcer.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "guard-custom_awakened",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/guards/custom_awakened.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 303,
+          "ivan_pixels": 328,
+          "ratio_error_pixels": 0.492
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 151,
+          "ivan_pixels": 164,
+          "ratio_error_pixels": 0.254
+        }
+      ]
+    },
+    {
+      "id": "guard-custom_robotic",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "humanoid",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/guards/custom_robotic.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 313,
+          "ivan_pixels": 339,
+          "ratio_error_pixels": 0.347
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 156,
+          "ivan_pixels": 170,
+          "ratio_error_pixels": 0.788
+        }
+      ]
+    },
+    {
+      "id": "guard-custom_unawakened",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/guards/custom_unawakened.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "guard-headhunter",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/guards/headhunter.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 308,
+          "ivan_pixels": 334,
+          "ratio_error_pixels": 0.041
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 154,
+          "ivan_pixels": 167,
+          "ratio_error_pixels": 0.021
+        }
+      ]
+    },
+    {
+      "id": "guard-interpol",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/guards/interpol.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "guard-kai_guard",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/guards/kai_guard.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "guard-kai_sentinel",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/guards/kai_sentinel.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "guard-lookout",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/guards/lookout.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "guard-oni",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "humanoid",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/guards/oni.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 315,
+          "ivan_pixels": 341,
+          "ratio_error_pixels": 0.503
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 157,
+          "ivan_pixels": 171,
+          "ratio_error_pixels": 0.71
+        }
+      ]
+    },
+    {
+      "id": "guard-pmc",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/guards/pmc.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "guard-seeker",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/guards/seeker.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "guard-spades",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/guards/spades.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 306,
+          "ivan_pixels": 331,
+          "ratio_error_pixels": 0.725
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 153,
+          "ivan_pixels": 166,
+          "ratio_error_pixels": 0.098
+        }
+      ]
+    },
+    {
+      "id": "guard-team9",
+      "height_cm": 163,
+      "basis": "display fallback",
+      "profile": "female",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/guards/team9.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 297,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.285
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 149,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.358
+        }
+      ]
+    },
+    {
+      "id": "guard-tengu",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/guards/tengu.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    },
+    {
+      "id": "guard-yokai",
+      "height_cm": 178,
+      "basis": "display fallback",
+      "profile": "male",
+      "source": "User-requested MH-013 Stage 2 fallback: male 175-180 cm; female 160-165 cm. Humanoid/masked role uses 178 cm display reference.",
+      "master_path": "assets/portraits/guards/yokai.png",
+      "measurements": [
+        {
+          "slot": [
+            192,
+            352
+          ],
+          "visible_pixels": 325,
+          "ivan_pixels": 352,
+          "ratio_error_pixels": 0.358
+        },
+        {
+          "slot": [
+            96,
+            176
+          ],
+          "visible_pixels": 162,
+          "ivan_pixels": 176,
+          "ratio_error_pixels": 0.321
+        }
+      ]
+    }
+  ]
+}

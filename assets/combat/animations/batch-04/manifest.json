@@ -1,0 +1,292 @@
+{
+  "roadmap_id": "MH-001",
+  "batch": 4,
+  "created": "2026-11-10",
+  "status": "8 local sprite sheets and GIFs assembled and structurally verified; runtime integration pending.",
+  "generation_tool": "built-in image_gen",
+  "model_verification": "Tool does not expose a model selector or verified model identifier.",
+  "workflow": "Generate sprite sheets first, then slice and encode locally using Pillow.",
+  "grid": {
+    "columns": 3,
+    "rows": 2
+  },
+  "frame_duration_ms": 150,
+  "blank_hold_ms": 720,
+  "timing_reason": "900ms action matches the plan's 700\u20131100ms martial master range.",
+  "background": "opaque dark slate; not transparent",
+  "assets": [
+    {
+      "asset_id": "MH-001-B04-hurricane-punches",
+      "name": "hurricane-punches",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts RPG combat animation production sprite sheet. Polished hand-painted anime VFX, restrained steel-blue and silver air trails, dark blue-grey faceless action silhouettes where requested, crisp readable shapes. EXACTLY SIX sequential frames in THREE COLUMNS and TWO ROWS, chronological row-major order. Landscape canvas 1536x1024, each cell 512x512. Fixed camera and scale. Entire background opaque dark slate #101824. NO borders, grid lines, gutters, text, labels, scenery, UI, watermark or numbers. Keep every figure and effect safely within central 75% of EACH cell. Physical boxing mastery only: no electricity, magic, fire, ghosts, craters, blood or environmental damage. Six keyframes for a finite approximately 0.9-second action, last frame dissipating. A tightening spiral of semi-transparent fist silhouettes becomes a finite barrage of compact impact rings. No full bodies. Frame 1 two faint fist silhouettes curling inward around centre; frame 2 three fists spiralling closer; frame 3 first two small contact rings at right of centre; frame 4 dense but readable cluster of four short fist trails and four compact rings; frame 5 trails vanish and thin rings expand slightly; frame 6 faint residual wisps. Fists point along their spiral trajectory, no giant hurricane funnel.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-5230bb75-14d4-4579-8afe-d325269d4189.png",
+      "sheet": "spritesheets/hurricane-punches.png",
+      "gif": "gifs/hurricane-punches.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "02c2076f0bb266e1a62acd9da1bf70937983952386ea289f268fbe1fb2d7e644",
+        "sha256_gif": "da12023516d9f3847be358056137d406414577f12b2d1fa9aea0798d1b42c3fd"
+      }
+    },
+    {
+      "asset_id": "MH-001-B04-ghost-step",
+      "name": "ghost-step",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts RPG combat animation production sprite sheet. Polished hand-painted anime VFX, restrained steel-blue and silver air trails, dark blue-grey faceless action silhouettes where requested, crisp readable shapes. EXACTLY SIX sequential frames in THREE COLUMNS and TWO ROWS, chronological row-major order. Landscape canvas 1536x1024, each cell 512x512. Fixed camera and scale. Entire background opaque dark slate #101824. NO borders, grid lines, gutters, text, labels, scenery, UI, watermark or numbers. Keep every figure and effect safely within central 75% of EACH cell. Physical boxing mastery only: no electricity, magic, fire, ghosts, craters, blood or environmental damage. Six keyframes for a finite approximately 0.9-second action, last frame dissipating. One generic faceless adult boxer silhouette in plain dark training clothes, full body. Frame 1 guarded stance left of centre; frame 2 torso compresses into a narrow horizontal movement smear toward right; frame 3 low fast smear with a thin floor-level dust streak; frame 4 same boxer reforms right of centre in low guard; frame 5 boxer and dust fade; frame 6 almost gone. Fixed foot baseline, no actual ghost, teleport circle, multiple solid bodies or strike impact.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-7a784a1c-f950-4054-93ef-af9e0a0bd531.png",
+      "sheet": "spritesheets/ghost-step.png",
+      "gif": "gifs/ghost-step.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "cad4654e0376405560dcd74316e4e59f9a7542a2815b3a8e93dd27e59329f36d",
+        "sha256_gif": "bb3c528e1b5a1f97f66a7deb239c80712eccca4c1dd63613f95bdd2a223eb203"
+      }
+    },
+    {
+      "asset_id": "MH-001-B04-unseen-spectre",
+      "name": "unseen-spectre",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts RPG combat animation production sprite sheet. Polished hand-painted anime VFX, restrained steel-blue and silver air trails, dark blue-grey faceless action silhouettes where requested, crisp readable shapes. EXACTLY SIX sequential frames in THREE COLUMNS and TWO ROWS, chronological row-major order. Landscape canvas 1536x1024, each cell 512x512. Fixed camera and scale. Entire background opaque dark slate #101824. NO borders, grid lines, gutters, text, labels, scenery, UI, watermark or numbers. Keep every figure and effect safely within central 75% of EACH cell. Physical boxing mastery only: no electricity, magic, fire, ghosts, craters, blood or environmental damage. Six keyframes for a finite approximately 0.9-second action, last frame dissipating. A small fixed muted dark-grey faceless target silhouette at centre, guarded stance, with paler blue attacker afterimages circling around it. Frame 1 one faint attacker echo at left; frame 2 left echo throws a short punch, one small ring at target torso; frame 3 attacker echo now at right delivering another short punch, previous echo faded; frame 4 attacker echo behind upper-left target delivers a third strike with small ring; frame 5 attacker echoes reunite into one guarded silhouette on left, rings gone; frame 6 all silhouettes fade. Clearly motion afterimages, not ghosts. Keep all full figures in each cell, no blood or dramatic victim injury.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-7046a406-ad34-46fe-aa19-9cdbd4c73a7a.png",
+      "sheet": "spritesheets/unseen-spectre.png",
+      "gif": "gifs/unseen-spectre.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "ef1695c2a1732fa080a5e615e191830038221b21480b8df8614f0a062b3a11cb",
+        "sha256_gif": "99d6a68eb8ea1cd6c39112a4600334529d0388318e5acd6bbe94886af416128a"
+      }
+    },
+    {
+      "asset_id": "MH-001-B04-power-breaker",
+      "name": "power-breaker",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts RPG combat animation production sprite sheet. Polished hand-painted anime VFX, restrained steel-blue and silver air trails, dark blue-grey faceless action silhouettes where requested, crisp readable shapes. EXACTLY SIX sequential frames in THREE COLUMNS and TWO ROWS, chronological row-major order. Landscape canvas 1536x1024, each cell 512x512. Fixed camera and scale. Entire background opaque dark slate #101824. NO borders, grid lines, gutters, text, labels, scenery, UI, watermark or numbers. Keep every figure and effect safely within central 75% of EACH cell. Physical boxing mastery only: no electricity, magic, fire, ghosts, craters, blood or environmental damage. Six keyframes for a finite approximately 0.9-second action, last frame dissipating. No full bodies. One drawn-back steel-blue fist silhouette on left aims at two curved upright pale guard arcs right of centre. Frame 1 fist withdrawn and guard intact; frame 2 fist moves toward centre with short dense pressure wedge; frame 3 one thick physical air-pressure cone from fist meets guard; frame 4 guard arcs bend inward at ONE contact point with compact compression burst; frame 5 cone disperses into short strokes and guard dims; frame 6 almost gone. A single powerful punch, not a beam, shield spell or multiple impacts.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-0679f457-324f-4277-8b92-a8104751772a.png",
+      "sheet": "spritesheets/power-breaker.png",
+      "gif": "gifs/power-breaker.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "54bbffd9fb1c2901af1f8ea37ed3d36706cbf3648326df52586814efd478eba4",
+        "sha256_gif": "8d2ec47fbf3eb4703ccbe9c6b903b8730c3e468d07b991b3b239f07dcf0535d0"
+      }
+    },
+    {
+      "asset_id": "MH-001-B04-phantom-cadence",
+      "name": "phantom-cadence",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts RPG combat animation production sprite sheet. Polished hand-painted anime VFX, restrained steel-blue and silver air trails, dark blue-grey faceless action silhouettes where requested, crisp readable shapes. EXACTLY SIX sequential frames in THREE COLUMNS and TWO ROWS, chronological row-major order. Landscape canvas 1536x1024, each cell 512x512. Fixed camera and scale. Entire background opaque dark slate #101824. NO borders, grid lines, gutters, text, labels, scenery, UI, watermark or numbers. Keep every figure and effect safely within central 75% of EACH cell. Physical boxing mastery only: no electricity, magic, fire, ghosts, craters, blood or environmental damage. Six keyframes for a finite approximately 0.9-second action, last frame dissipating. No people. Physical boxing rhythm shown by short fist trails and small impact rings at centre-right. Six frames: 1 one quick jab trail and one compact ring high; 2 second short jab trail and one ring low, previous ring fading; 3 deliberate quiet pause with only faint residual trails, no fresh strike; 4 unexpected burst of three differently spaced short punch trails and compact rings high-middle-low; 5 expanding thin residual rings with no fresh hits; 6 almost blank. Readable interrupted rhythm, no magic or ghost shapes.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-b14ee786-435a-4d6f-8565-7e35407cd2d3.png",
+      "sheet": "spritesheets/phantom-cadence.png",
+      "gif": "gifs/phantom-cadence.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "c80ebb6313ec4b2222887849fa6f52f63336bb05de5a0e1a1fd353510251147c",
+        "sha256_gif": "5b073a819bcd3d37403c9012223fcc9606ebe521bf9559c599b0b300360b1bc6"
+      }
+    },
+    {
+      "asset_id": "MH-001-B04-thunderclap-counter",
+      "name": "thunderclap-counter",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts RPG combat animation production sprite sheet. Polished hand-painted anime VFX, restrained steel-blue and silver air trails, dark blue-grey faceless action silhouettes where requested, crisp readable shapes. EXACTLY SIX sequential frames in THREE COLUMNS and TWO ROWS, chronological row-major order. Landscape canvas 1536x1024, each cell 512x512. Fixed camera and scale. Entire background opaque dark slate #101824. NO borders, grid lines, gutters, text, labels, scenery, UI, watermark or numbers. Keep every figure and effect safely within central 75% of EACH cell. Physical boxing mastery only: no electricity, magic, fire, ghosts, craters, blood or environmental damage. Six keyframes for a finite approximately 0.9-second action, last frame dissipating. One generic faceless adult boxer in plain dark training clothes left of centre, incoming thin grey punch trail from right. Frame 1 incoming trail approaches head height; 2 boxer dips below as trail slips over the shoulder without contact; 3 boxer returns a straight punch rightward with one small contact ring at right; 4 one broad thin expanding air ring from that contact, incoming trail gone; 5 silhouette and ring fade; 6 almost blank. No lightning, thunderbolts, supernatural aura or extra impacts. Full figure contained.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-ef446640-9cf6-4dbe-987f-967ae2235ba5.png",
+      "sheet": "spritesheets/thunderclap-counter.png",
+      "gif": "gifs/thunderclap-counter.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "d0fde7d261efbe5d6e1e47e0ce4fc1b8d8ec9407c60974389084217d37e7b4f5",
+        "sha256_gif": "3d3bc1cb4ab9609db2efe2612b84346b94666a5c90ba595cca9c8d7161bc6877"
+      }
+    },
+    {
+      "asset_id": "MH-001-B04-iron-constellation",
+      "name": "iron-constellation",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts RPG combat animation production sprite sheet. Polished hand-painted anime VFX, restrained steel-blue and silver air trails, dark blue-grey faceless action silhouettes where requested, crisp readable shapes. EXACTLY SIX sequential frames in THREE COLUMNS and TWO ROWS, chronological row-major order. Landscape canvas 1536x1024, each cell 512x512. Fixed camera and scale. Entire background opaque dark slate #101824. NO borders, grid lines, gutters, text, labels, scenery, UI, watermark or numbers. Keep every figure and effect safely within central 75% of EACH cell. Physical boxing mastery only: no electricity, magic, fire, ghosts, craters, blood or environmental damage. Six keyframes for a finite approximately 0.9-second action, last frame dissipating. A muted dark-grey faceless guarded target silhouette at centre, physical boxing contact points form a constellation across head and torso. Frame 1 one small steel-blue impact point near upper torso; frame 2 second small contact point lower on opposite torso with first dim; frame 3 third point near shoulder and a fourth near head; frame 4 four tiny luminous points connect by thin angled silver line segments into an asymmetrical constellation-like strike diagram over the silhouette; frame 5 lines and points dim; frame 6 target and marks almost gone. No text, stars in sky, galaxy, magic circle or blood.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-957070a3-fc28-4932-9324-99e4b24b8712.png",
+      "sheet": "spritesheets/iron-constellation.png",
+      "gif": "gifs/iron-constellation.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "deb4712aba34a15670cae5592083970f3623cb7dc9c8310ec66b706290c33e49",
+        "sha256_gif": "26ede5da47497d058011f6c01f697f864c32e335d57307f65a2e7db2f8e959be"
+      }
+    },
+    {
+      "asset_id": "MH-001-B04-vanishing-bell",
+      "name": "vanishing-bell",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts RPG combat animation production sprite sheet. Polished hand-painted anime VFX, restrained steel-blue and silver air trails, dark blue-grey faceless action silhouettes where requested, crisp readable shapes. EXACTLY SIX sequential frames in THREE COLUMNS and TWO ROWS, chronological row-major order. Landscape canvas 1536x1024, each cell 512x512. Fixed camera and scale. Entire background opaque dark slate #101824. NO borders, grid lines, gutters, text, labels, scenery, UI, watermark or numbers. Keep every figure and effect safely within central 75% of EACH cell. Physical boxing mastery only: no electricity, magic, fire, ghosts, craters, blood or environmental damage. Six keyframes for a finite approximately 0.9-second action, last frame dissipating. One generic faceless adult boxer in plain dark training clothes, full body, centred. Frame 1 narrow incoming physical strike trail from right at shoulder height; frame 2 boxer slips sharply sideways left with a pale motion afterimage, incoming trail misses; frame 3 boxer turns into a short hooked counterpunch toward right, tracing curved air trail; frame 4 at hook contact a single rounded bell-shaped pressure outline flares to the right, like a flared dome/rim of compressed air, no literal metal bell; frame 5 pose and shock outline fade; frame 6 nearly blank. Distinct from circular ring: flared bell silhouette made of air. No magic, lightning or ghosts.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-e0fdd63f-eca2-4dc6-b19e-3c1069612ee3.png",
+      "sheet": "spritesheets/vanishing-bell.png",
+      "gif": "gifs/vanishing-bell.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "7b3194dc10c7e4c089673c0cea44d0bfc295bc5c7030a327b06393af1a7c966b",
+        "sha256_gif": "5f9ebe67ffae7e7d607c4a3f5f876388d9538cb4bff10c96dc85adb67d624ad5"
+      }
+    }
+  ],
+  "validation_command": "python tools/build_combat_batch_gifs.py --batch 4"
+}

@@ -1,0 +1,12 @@
+{
+  "level": "integration",
+  "unit": "project media launcher and restricted prompt-to-asset MCP server",
+  "scenario": "Local SVG exports work while account-backed and remote generation routes are refused",
+  "arrange": ["Fresh temporary output directory", "Installed local runtime", "Fake inherited provider credential"],
+  "act": "Initialize MCP, discover tools, request local logo plan, try forbidden routes, export a known SVG",
+  "oracle": {
+    "source": "User requires fully free features with no external sign-in; tools/FREE_MEDIA_PLUGINS.md defines local-only prompt-to-asset",
+    "expected": "Exactly ten approved tools; inline_svg is the only advertised/default generation mode; api/external/unlisted calls produce policy errors; the known SVG exports a 32x32 PNG with magenta centre and transparent corners; outgoing fetch/HTTP are blocked"
+  },
+  "doubles": []
+}

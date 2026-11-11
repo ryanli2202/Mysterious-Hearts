@@ -1,0 +1,32 @@
+# Enable these installed community plugins only for Mysterious Hearts.
+# Versions and upstream sources: tools/community_plugins.lock.json
+
+[plugins."story-skills@mysterious-hearts-tools"]
+enabled = true
+
+[plugins."context-guard@mysterious-hearts-tools"]
+enabled = true
+
+[plugins."falsegreen-skill@mysterious-hearts-tools"]
+enabled = true
+
+[plugins."writers-loop@mysterious-hearts-tools"]
+enabled = true
+
+[plugins."sfxmint@mysterious-hearts-tools"]
+enabled = true
+
+[plugins."bulk-bg-remove@mysterious-hearts-tools"]
+enabled = true
+
+[plugins."pro-motion@mysterious-hearts-tools"]
+enabled = true
+
+[plugins."design-os-svg-animation@mysterious-hearts-tools"]
+enabled = true
+
+[plugins."launch-film@mysterious-hearts-tools"]
+enabled = true
+
+[plugins."prompt-to-asset@mysterious-hearts-tools"]
+enabled = true

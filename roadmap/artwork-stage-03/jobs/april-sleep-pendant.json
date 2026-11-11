@@ -1,0 +1,8 @@
+{
+  "id": "april-sleep",
+  "prompt": "Edit this exact existing wardrobe image. Change ONLY the necklace pendant: replace the oversized round engraved medallion with April's original tiny plain oval silver pendant, approximately 8 pixels wide and 11 pixels tall on this 1024x1536 canvas, attached to the same fine silver chain. Plain smooth small oval, no engraving or starburst. Keep every other part unchanged: face, hair, clothes, pose, body, hand anatomy, image dimensions and mid-thigh crop. Lower thighs and legs remain cropped out. Preserve genuine RGBA transparency; no backdrop or shadow.",
+  "referenced_image_paths": [
+    "C:/Users/ryanl/Documents/Mysterious Hearts/roadmap/artwork-stage-03/candidates/april-sleep.png"
+  ],
+  "transparent_background": true
+}

@@ -1,0 +1,263 @@
+{
+  "roadmap_id": "MH-013",
+  "batch": 1,
+  "recorded": "2026-11-10",
+  "installed": true,
+  "generator": "Built-in image_gen; exact model identity not exposed",
+  "generation_records": "generation-records.json",
+  "generation_count": 15,
+  "pixel_postprocessing": "None; originals from image_gen copied byte-for-byte.",
+  "baseline_count": 306,
+  "changed_baseline_paths": [
+    "assets/portraits/charles-selection-v2.png",
+    "assets/portraits/combat/ivan.png",
+    "assets/portraits/emily-selection.png",
+    "assets/portraits/guards/clubs.png",
+    "assets/portraits/ivan-selection.png",
+    "assets/portraits/minsu-selection.png",
+    "assets/portraits/otis-bell-selection.png",
+    "assets/portraits/priya-shah-selection.png"
+  ],
+  "assets": [
+    {
+      "id": "ivan-selection",
+      "audit_id": "A157",
+      "path": "assets/portraits/ivan-selection.png",
+      "original": "originals/ivan-selection.png",
+      "candidate": "candidates/ivan-selection.png",
+      "old_sha256": "eb4a72a0fdceb16239ffd1853a9024c1620360f6fb0f9f1e1ee643199fd7f107",
+      "new_sha256": "e38a31e1cad42e03fc9152f75de29b667bb0f8ece6aebe65cea9516059f670fb",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "clear_fraction": 0.53359,
+      "solid_fraction": 0.46077,
+      "visible_bbox": [
+        170,
+        11,
+        908,
+        1536
+      ],
+      "visual_review": "Freckles, grey-green eyes, ash-brown hair, studs, chain and tailoring retained. Pelvis and both trouser thighs constructed; hands naturally pocketed.",
+      "style_references": [
+        "originals/ivan-selection.png",
+        "originals/charles-selection-v2.png"
+      ]
+    },
+    {
+      "id": "charles-selection-v2",
+      "audit_id": "A042",
+      "path": "assets/portraits/charles-selection-v2.png",
+      "original": "originals/charles-selection-v2.png",
+      "candidate": "candidates/charles-selection-v2.png",
+      "old_sha256": "21843ff458551b80b96c156f1386841af1cbfa0688dfa8eda09dd339e4e2c60e",
+      "new_sha256": "f79e659b15567b75c54be3f328121e39c15c2818d3b6244c7f15fc24285e77ab",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "clear_fraction": 0.50105,
+      "solid_fraction": 0.49413,
+      "visible_bbox": [
+        151,
+        7,
+        927,
+        1528
+      ],
+      "visual_review": "Amber eyes, right-cheek mark, hoops, chain and black jacket retained. Full hairstyle and both trouser thighs; no change to opaque unversioned source.",
+      "style_references": [
+        "originals/ivan-selection.png",
+        "originals/charles-selection-v2.png"
+      ]
+    },
+    {
+      "id": "emily-selection",
+      "audit_id": "A092",
+      "path": "assets/portraits/emily-selection.png",
+      "original": "originals/emily-selection.png",
+      "candidate": "candidates/emily-selection.png",
+      "old_sha256": "e2f4a2575cadad86da4f5ed2d564469037425d6e34a8623eba70618e33b8dfa2",
+      "new_sha256": "969e183053b74d0c9c18ec47785da5bc70ddd612f45ace733b0ba60bee972f70",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "clear_fraction": 0.43723,
+      "solid_fraction": 0.55423,
+      "visible_bbox": [
+        92,
+        7,
+        972,
+        1536
+      ],
+      "visual_review": "Latest style refinement uses simpler matte skin/fabric shading while retaining detailed blonde strands and highlights per user direction. Mid-thigh framing, short connected thigh sections with no knees, round glasses, blue eyes, embroidered pinafore and complete clasped hands retained.",
+      "style_references": [
+        "originals/ivan-selection.png",
+        "originals/charles-selection-v2.png"
+      ]
+    },
+    {
+      "id": "minsu-selection",
+      "audit_id": "A201",
+      "path": "assets/portraits/minsu-selection.png",
+      "original": "originals/minsu-selection.png",
+      "candidate": "candidates/minsu-selection.png",
+      "old_sha256": "b8d7fd4d0d58668a7bfd5cd6cf3426f70fa8e839f3e308d310af6f6700a2ea21",
+      "new_sha256": "682146270645d8a26187490d54c8e91a71ffdb47bc9857696c34826ea07a29fb",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "clear_fraction": 0.57152,
+      "solid_fraction": 0.42302,
+      "visible_bbox": [
+        169,
+        43,
+        897,
+        1513
+      ],
+      "visual_review": "Friendly smile with modelled lips, softer cheeks, dark hair, bomber and tee retained. Second framing pass extends both thighs substantially below crotch; pocketed hands.",
+      "style_references": [
+        "originals/ivan-selection.png",
+        "originals/charles-selection-v2.png"
+      ]
+    },
+    {
+      "id": "priya-shah-selection",
+      "audit_id": "A217",
+      "path": "assets/portraits/priya-shah-selection.png",
+      "original": "originals/priya-shah-selection.png",
+      "candidate": "candidates/priya-shah-selection.png",
+      "old_sha256": "c8fc796af65b43cca33695839d75e87e93bf355ee0c4e2c0d97c5fcf0b4c6ae9",
+      "new_sha256": "e3f843e9c247b4ec533205faff3e1c943381f299b18b0a8d8255a9feec04ce89",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "clear_fraction": 0.51057,
+      "solid_fraction": 0.48119,
+      "visible_bbox": [
+        152,
+        8,
+        862,
+        1536
+      ],
+      "visual_review": "Age 38, medium-brown complexion, low bun, rectangular glasses, beauty mark, oval earrings, plum cardigan and teal blouse retained. Complete clasped hands and dark trouser thighs.",
+      "style_references": [
+        "originals/ivan-selection.png",
+        "originals/charles-selection-v2.png"
+      ]
+    },
+    {
+      "id": "otis-bell-selection",
+      "audit_id": "A215",
+      "path": "assets/portraits/otis-bell-selection.png",
+      "original": "originals/otis-bell-selection.png",
+      "candidate": "candidates/otis-bell-selection.png",
+      "old_sha256": "c22617c8efa8a98a6c45ea502f53934e1dc269077743a4359ea5a4ef28f44fd5",
+      "new_sha256": "4e4a12b9de889058e75b0bf25fbeaccc727d38a9fd4da42babb138812dae416d",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "clear_fraction": 0.51959,
+      "solid_fraction": 0.47441,
+      "visible_bbox": [
+        131,
+        47,
+        891,
+        1514
+      ],
+      "visual_review": "Age 67, broad build, silver hair/beard, blue eyes, weathering and rust/navy workwear retained. Complete hands. Second framing pass provides substantive trouser thighs.",
+      "style_references": [
+        "originals/ivan-selection.png",
+        "originals/charles-selection-v2.png"
+      ]
+    },
+    {
+      "id": "guard-clubs",
+      "audit_id": "A126",
+      "path": "assets/portraits/guards/clubs.png",
+      "original": "originals/guard-clubs.png",
+      "candidate": "candidates/guard-clubs.png",
+      "old_sha256": "7e46f8a4468c6405a1259e005c6811c1b2b9983d50f5cb618997e8054a92adf3",
+      "new_sha256": "7b6e1875b1eba047c2a6c25b1543a6a24e81146363a341c663a7f02a7df26e2d",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "clear_fraction": 0.35775,
+      "solid_fraction": 0.63629,
+      "visible_bbox": [
+        44,
+        9,
+        998,
+        1524
+      ],
+      "visual_review": "Opaque visor/mask, white and gold club symbols, olive trim, armour, pouches, holster, downward pistol and green hand energy retained. No face exposed; both gloves complete.",
+      "style_references": [
+        "originals/ivan-selection.png",
+        "originals/charles-selection-v2.png"
+      ]
+    },
+    {
+      "id": "combat-ivan",
+      "audit_id": "A056",
+      "path": "assets/portraits/combat/ivan.png",
+      "original": "originals/combat-ivan.png",
+      "candidate": "candidates/combat-ivan.png",
+      "old_sha256": "845413bb1e8c17706c74b119395b0e392d15f894fc9cf4343d1c95c861e34a40",
+      "new_sha256": "c4e81c67b23d95b749688f33de16ec678effff5e1f484071112089beaf503025",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "clear_fraction": 0.37385,
+      "solid_fraction": 0.59855,
+      "visible_bbox": [
+        20,
+        30,
+        1009,
+        1536
+      ],
+      "visual_review": "Accepted civilian likeness and outfit carried into fighting stance. Both open hands, pelvis and thighs intact; orange flame, cyan ice, silver wind and red/blue arcs retained and contained.",
+      "style_references": [
+        "originals/ivan-selection.png",
+        "originals/charles-selection-v2.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\ryanl\Documents\Mysterious Hearts\tests\artwork_stage_03_ui_smoke.py", line 157, in <module>
+    chosen['ivan'] = next(r['variant'] for r in ROWS if r['character']=='ivan' and 'polo' in r['variant'])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration

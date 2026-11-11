@@ -1,0 +1,13 @@
+{
+  "id": "emily-beach-bikini",
+  "tool": "built-in image_gen",
+  "model": "not exposed",
+  "generated_source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1c7d2-0cc6-74f2-ba9f-981788fc8cd9\\exec-2344fed9-8ea4-4f94-9120-2efd835c730c.png",
+  "sha256": "b040670bb7dd6f17953d3340d4bb0309693d65c702f849dca32c5dd7b3b190ac",
+  "prompt": "Edit this EXACT image, preserving face, hair, head size and position, body proportions, hand position, pose and mid-thigh framing. This is emily's accepted Stage 2 master, 154 cm full stature. Change ONLY the clothing to this established wardrobe outfit: periwinkle-blue bikini with small white five-petal floral print, shaped cups and slim straps, matching high-waisted moderate-coverage bottom; keep round glasses, remove the master bow and pendant. Replace the master clothes completely. The character is an adult in an ordinary neutral wardrobe catalogue pose. Keep the same underlying body and hand positions. Do not redraw, enlarge or change the face or hair. Keep the EXACT eye-line, chin, shoulders, hips, crotch and thigh cutoff at their current positions. Do not copy clothing bulk into the body. Preserve age, complexion, build, eye colour, glasses, hair ornaments and visible markings. Clothes occlude tattoos naturally. Preserve fine individual hair strands and the master's soft-plus-shaped illustrated manhwa rendering. The LOWER THIGHS, KNEES, LOWER LEGS AND FEET remain OUTSIDE the frame. Keep the complete head through true MID-THIGH; never lengthen torso/legs, zoom out to full body, crop at hips or add knees. The bottom is a picture crop, not feet or a floor. For long garments, crop the fabric at the same mid-thigh line without shortening the garment. For short hems retain connected upper thighs. Same 1024x1536 2:3 transparent RGBA canvas, clear top and side margins and complete hands. Genuine alpha everywhere outside the character and in the arm gaps; no background, haze, glow, ground shadow, text, watermark or signature. Do not add props or change the face expression.",
+  "referenced_image_paths": [
+    "C:\\Users\\ryanl\\Documents\\Mysterious Hearts\\roadmap\\artwork-stage-03\\masters\\emily.png"
+  ],
+  "transparent_background": true,
+  "pixel_postprocessing": false
+}

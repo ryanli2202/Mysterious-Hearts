@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-11",
+  "passed": false,
+  "assigned_images": 41,
+  "accepted_images": 34,
+  "kinds": {
+    "interior": 38,
+    "outdoor": 3
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "unique_file_hashes": 34,
+  "unique_decoded_pixel_hashes": 34,
+  "original_references_verified_unchanged": [
+    "assets/ui/locations/valentina_home.png",
+    "assets/ui/locations/neo_home.png",
+    "assets/ui/locations/tyler_home.png",
+    "assets/ui/locations/lena_home.png",
+    "assets/ui/locations/naomi_home.png",
+    "assets/ui/locations/celeste_home.png",
+    "assets/ui/locations/dev_home.png"
+  ],
+  "exact_prompt_coverage": 41,
+  "rejected_attempts": 6,
+  "ten_batch_unique_coverage": 438,
+  "total_bytes": 85056742,
+  "errors": [
+    "Missing image: celeste_home__entrance",
+    "Missing image: celeste_home__kitchen_dining",
+    "Missing image: celeste_home__hall",
+    "Missing image: celeste_home__bedroom",
+    "Missing image: celeste_home__bathroom",
+    "Missing image: dev_home__entrance",
+    "Missing image: dev_home__bathroom"
+  ],
+  "planning_overwrite_guards": [
+    {
+      "script": "tools/build_interiors_art_inventory.py",
+      "expected_refusal": true,
+      "exit_code": 1,
+      "message": "Refusing to overwrite interiors production records; revise the existing inventory explicitly."
+    },
+    {
+      "script": "tools/build_interiors_generation_batches.py",
+      "expected_refusal": true,
+      "exit_code": 1,
+      "message": "Refusing to overwrite interiors production records; revise the existing manifests explicitly."
+    }
+  ],
+  "protected_record_files_unchanged": true,
+  "limitations": [
+    "Static artwork only; no runtime room mappings or save changes.",
+    "In-person rendered verification and final reuse approval remain pending.",
+    "Lena and Naomi original living images show open sleeping areas; reconcile private-bedroom routing and original-art reuse before runtime integration."
+  ]
+}

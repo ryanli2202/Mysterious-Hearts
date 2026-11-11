@@ -1,0 +1,13 @@
+test_all_live_and_staged_characters_share_stature_despite_different_slots (test_portrait_framing.PortraitFramingTests.test_all_live_and_staged_characters_share_stature_despite_different_slots) ... ok
+test_complete_roster_known_heights_and_fallback_ranges (test_portrait_framing.PortraitFramingTests.test_complete_roster_known_heights_and_fallback_ranges) ... ok
+test_defaults_vary_stably_and_original_known_heights_are_unchanged (test_portrait_framing.PortraitFramingTests.test_defaults_vary_stably_and_original_known_heights_are_unchanged) ... ok
+test_individual_thumbnails_do_not_flatten_tall_characters (test_portrait_framing.PortraitFramingTests.test_individual_thumbnails_do_not_flatten_tall_characters) ... ok
+test_names_guard_roles_custom_and_undisclosed_heights (test_portrait_framing.PortraitFramingTests.test_names_guard_roles_custom_and_undisclosed_heights) ... ok
+test_order_and_player_slot_cannot_make_a_person_taller (test_portrait_framing.PortraitFramingTests.test_order_and_player_slot_cannot_make_a_person_taller) ... ok
+test_padding_does_not_reduce_stature_or_distort_the_body (test_portrait_framing.PortraitFramingTests.test_padding_does_not_reduce_stature_or_distort_the_body) ... ok
+test_wardrobe_and_historical_resolution_still_wins (test_portrait_framing.PortraitFramingTests.test_wardrobe_and_historical_resolution_still_wins) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 25.777s
+
+OK

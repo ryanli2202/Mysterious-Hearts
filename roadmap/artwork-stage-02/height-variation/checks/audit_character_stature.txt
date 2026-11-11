@@ -1,0 +1,1 @@
+107/107 installed hashes and height ratios passed at two sizes; 199 other baseline assets unchanged.

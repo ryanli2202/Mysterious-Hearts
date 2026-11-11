@@ -1,0 +1,10 @@
+{
+  "player_line": "Rei, would you like a friendly practice spar?",
+  "dialogue": "Sure. Light contact, and we stop if either of us asks. Is that all right?",
+  "narration": "Rei gives a small nod and rolls his shoulders, checking the grass around him for clear footing.",
+  "accepted": true,
+  "protagonist": "Alex Rivers",
+  "occupation": "Illustrator",
+  "intent": "spar",
+  "provider": "Configured game provider; portrait validation mocked only; no commit or save writes."
+}

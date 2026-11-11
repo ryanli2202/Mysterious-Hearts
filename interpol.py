@@ -95,6 +95,9 @@ def reveal(s, observers, identity, source):
         k=d['knowledge'].setdefault(observer,dict(identities=[],sources={}))
         if identity not in k['identities']: k['identities'].append(identity)
         k['sources'][identity]=dict(source=source,minute=s['world']['minute'])
+        import combat_identity
+        title=combat_identity.LORE.get(identity,{}).get('title')
+        if title: combat_identity.learn_title(s,[observer],title,source)
 
 
 def is_criminal_target(s, target):
@@ -202,6 +205,9 @@ def begin(s, key, repeatable=False):
     if d['active']: raise ValueError('Finish or suspend the current operation first.')
     if repeatable:
         if key not in OPERATIONS: raise ValueError('Unknown operation.')
+        if OPERATIONS[key].get('post_story') and (s['player'] not in ('fox','gordon') or not d['files'].get('crow_operation',{}).get('complete')):
+            raise ValueError('Complete Night Ledger as Fox or Gordon before these post-story operations.')
+        if s.get('post_story',{}).get('active'):raise ValueError('Finish your active protection mission first.')
         if not d['files'].get('blackhaven',{}).get('complete'): raise ValueError('Complete the first case before independent operations.')
         if d['operations'].get(key,-1)==s['world']['minute']//1440: raise ValueError('This operation was completed today; return tomorrow.')
     else:
@@ -229,8 +235,14 @@ def objective(s):
     if not a: return None
     if a['repeatable']:
         spec=OPERATIONS[a['key']]
-        return dict(title=spec['title'],venue=spec['venue'],kind='combat',finding='Witness and consignment safety secured.',enemy=spec['enemy'],power=spec['power'])
-    return CASES[a['key']]['steps'][read(s)['files'][a['key']]['step']]
+        return dict(title=spec['title'],venue=spec['venue'],kind='combat',finding=spec.get('finding','Witness and consignment safety secured.'),enemy=spec['enemy'],power=spec['power'])
+    file=read(s)['files'][a['key']]
+    # Preserve an already-earned pre-expansion capture awaiting its final report.
+    if a['key']=='crow_operation' and file['step']==3 and not file.get('crow_defeated_team') and any(
+            'The Crow is defeated in this operation' in e.get('finding','') for e in file['evidence']):
+        return dict(title='Secure the regional case',venue='interpol_containment',kind='close',
+                    finding='The previously completed operation secures the Crow in regional custody. His birth identity and the wider Syndicate remain unresolved.')
+    return CASES[a['key']]['steps'][file['step']]
 
 
 def travel_objective(s):
@@ -239,6 +251,9 @@ def travel_objective(s):
     if not clearance(s,s['player']): raise ValueError('Your Interpol clearance has been revoked. Suspend the operation.')
     if not here(s,a['partner']): raise ValueError('Reunite with your field partner before travelling.')
     import town
+    # Knockout recovery can clear social companions without ending the saved case team.
+    party=s['world'].setdefault('party',[])
+    if a['partner'] not in party: party.append(a['partner'])
     town.travel(s,step['venue'])  # The assembled field partner is already in the saved party.
     return 'The field team arrived at the objective.'
 
@@ -259,7 +274,21 @@ def team_guard(s):
 
 def advance(s):
     a,step=team_guard(s)
-    if step['kind']=='combat': return start_encounter(s)
+    if step['kind']=='combat':
+        import organisation_guards as guards
+        spec=(OPERATIONS if a['repeatable'] else CASES)[a['key']]
+        faction=spec['faction']
+        scope='interpol:'+a['key']+':'+str(read(s)['files'].get(a['key'],{}).get('step',0))
+        if a['repeatable']: scope+=':'+str(a['started'])
+        # Every operation has its own deployment, including street interceptions.
+        kinds={'shinokami':('yokai','oni','tengu'), 'syndicate':('clubs','spades','affiliate')}.get(faction,('lookout','crew_enforcer'))
+        won=guards.data(s)['victories'].get(scope,[])
+        for i,kind in enumerate(kinds):
+            ident=scope+':'+str(i)
+            if ident not in won:
+                return guards.start(s,ident,guards.profile(s,kind),scope,
+                    dict(id=ident,type=kind,venue=step['venue'],faction=faction),a['partner'])
+        return start_encounter(s)
     finding=step['finding']
     if step.get('sensory') and 'fox' in a['participants']:
         finding+=' '+step['sensory']
@@ -271,6 +300,7 @@ def advance(s):
 
 def record_evidence(s, step, finding):
     d=ensure(s); a=d['active']; key=a['key']; spec=CASES[key]; file=d['files'][key]
+    __import__('campaign_prose').record_hypothesis(s,key,file['step'])
     entry=dict(title=step['title'],finding=finding,minute=s['world']['minute'],venue=step['venue'],participants=a['participants'][:])
     file['evidence'].append(entry); file['step']+=1
     if step['kind']=='reveal':
@@ -280,9 +310,12 @@ def record_evidence(s, step, finding):
         entry['finding']=finding
     if step['kind']=='locate': reveal(s,a['participants'],'crow_location',key)
     if step['kind']=='close':
+        file['step']=len(spec['steps'])
         d['custody']['crow']=dict(location='interpol_containment',case=key,minute=s['world']['minute'])
         if 'crow' in s['world']['cast']:
             s['world']['cast']['crow'].update(location='interpol_containment',journey=None,activity='In regional custody after Operation Night Ledger')
+    if step['kind']=='ongoing':
+        d['syndicate_outcome']='ongoing resistance'
     # Link already discovered site notebooks; case work does not disclose unrelated fronts.
     if step['venue'].startswith('site_'):
         s.setdefault('interpol_site_evidence',{}).setdefault(step['venue'],[]).append(dict(case=key,title=step['title'],minute=s['world']['minute']))
@@ -365,6 +398,9 @@ def start_encounter(s):
         ensure(s)['encounter']=None
         raise
     f['operation_token']=token; f['ally']=a['partner']
+    if step.get('scripted_outcome')=='crow_defeat':
+        f['scripted_outcome']='crow_defeat'
+        f['log'].append('Story confrontation: the Crow will defeat the team. Your actions play out, but survival and withdrawal carry the story forward after at most four exchanges.')
     f['ally_profile']=copy.deepcopy(combat.profile(s,a['partner']))
     f['ally_resources']=combat.resources(f['ally_profile'])
     f['log'].append(a['partner'].title()+' joins the authorised operation. Its combat results determine the next evidence step.')
@@ -380,7 +416,7 @@ def validate_encounter(s, who):
 
 
 def support_turn(s,f,rng):
-    if f['kind']!='interpol' or not f.get('ally_resources'): return
+    if f['kind'] not in ('interpol','guard') or not f.get('ally_resources'): return
     if f.get('enhanced_rules'):
         import combat_engine
         return combat_engine.support_turn(s,f,rng)
@@ -399,18 +435,45 @@ def support_turn(s,f,rng):
             f['log'].append(p['name']+' is incapacitated and needs a day of recovery.')
 
 
+def crow_story_fight(s,f):
+    """Also recognise an in-progress Crow encounter loaded from an older save."""
+    if f.get('kind')!='interpol' or f.get('opponent')!='crow': return False
+    d=read(s);a=d.get('active') or {};e=d.get('encounter') or {}
+    return (a.get('key')=='crow_operation' and not a.get('repeatable')
+            and bool(e.get('token')) and e.get('token')==f.get('operation_token')
+            and (objective(s) or {}).get('scripted_outcome')=='crow_defeat')
+
+
 def resolve_fight(s,f):
     if f.get('kind')!='interpol': return
     d=ensure(s); e=d.get('encounter'); a=d.get('active')
     if not e or not a or e['token']!=f.get('operation_token'): return
     d['encounter']=None
+    step=objective(s)
+    if not a['repeatable'] and step.get('scripted_outcome')=='crow_defeat':
+        if not f.get('scripted_outcome') and f.get('result','').startswith('Victory'):
+            record_evidence(s,step,'The Crow is defeated in this operation; the team secures the command records.')
+            return
+        d['files'][a['key']]['crow_defeated_team']=True
+        record_evidence(s,step,step['finding'])
+        # Authored emergency extraction, not travel permission while knocked out.
+        s['world']['location']='interpol_containment'
+        for who in (s['player'],a['partner']):
+            s['world']['cast'][who].update(location='interpol_containment',journey=None,activity='Evacuated after Operation Night Ledger')
+        s['world']['npcs']=[]
+        __import__('organisation_guards').refresh(s)
+        note(s,'The team is evacuated to the Interpol recovery station. Rest through recovery, then follow the debrief objectives; do not retry the Crow.')
+        return
     if not f.get('result','').startswith('Victory'):
         file=d['files'].setdefault(a['key'],dict(step=0,evidence=[],attempts=0,complete=False))
         file['attempts']+=1; file['retry_after']=s['world']['minute']+120
         note(s,'The operation failed to secure its objective. Evidence retained; regroup before retrying.')
+        __import__('campaign_prose').after_interpol(s,f,a['key'],a['repeatable'])
         return
+    __import__('campaign_prose').after_interpol(s,f,a['key'],a['repeatable'])
     if a['repeatable']:
         spec=OPERATIONS[a['key']]; d['operations'][a['key']]=s['world']['minute']//1440
+        note(s,spec.get('finding','Witness and consignment safety secured.'))
         reward(s,spec); release_team(s)
     else:
         step=objective(s); record_evidence(s,step,step['finding'])
@@ -437,6 +500,8 @@ def context(s, who, listeners=()):
         result['Disclosure']='Only the supplied discoveries may be acknowledged to this audience. Do not reveal unlisted Aces or invent the Crow’s real name.'
     if read(s).get('custody',{}).get('crow') and (who=='crow' or who in IDS):
         result['Current custody']='The saved operation placed the Crow in the regional containment wing. Do not invent an escape or keep describing him as still at headquarters. His birth identity remains unverified.'
+    elif read(s).get('files',{}).get('crow_operation',{}).get('crow_defeated_team') and (who=='crow' or who in IDS):
+        result['Night Ledger outcome']='The Crow defeated the field team and remains free at Syndicate HQ. The established Ace identities and command-site evidence survive. The campaign ends in ongoing resistance, not capture, a rematch victory or the destruction of the Syndicate. His birth identity remains unknown.'
     a=read(s).get('active')
     if a and who in a['participants'] and all(p in a['participants'] for p in listeners):
         result['Current objective']=objective(s)['title']

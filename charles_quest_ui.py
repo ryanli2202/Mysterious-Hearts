@@ -23,37 +23,19 @@ class QuestPanel(ttk.Frame):
     def act(self,fn,*args):
         if self.game.busy:return
         try:
+            if __import__('campaign_dialogue').maybe_open(self.game,fn,args):return
             self.notice=fn(self.game.state_data,*args) or ''
             self.game.persist();self.game.render()
         except ValueError as exc:self.notice=str(exc)
         if self.winfo_exists():self.draw()
+        if __import__('combat').active(self.game.state_data): __import__('combat_ui').open_combat(self.game)
 
     def draw(self):
         for c in self.body.winfo_children():c.destroy()
         s=self.game.state_data
         if s['player']!='garrett':
             self.draw_report(s);return
-        d=quest.read(s);title,venue,question=quest.objective(s)
-        def label(text):ttk.Label(self.body,text=text,wraplength=760,justify='left').pack(fill='x',pady=6)
-        label(('Search resolved · '+str(d['ending']) if d['step']>=len(quest.STEPS) else f'Chapter {d["step"]+1}/{len(quest.STEPS)} · '+title))
-        label('Objective: '+town.location_name(s,venue)+'\n'+question)
-        if s['world']['location']!=venue:
-            ttk.Button(self.body,text='Travel to the current objective',command=lambda:self.act(town.travel,venue)).pack(anchor='w',pady=5)
-        elif d['step']<len(quest.STEPS):
-            for i,text in enumerate(quest.STEPS[d['step']][3]):
-                ttk.Button(self.body,text=text,command=lambda n=i:self.act(quest.advance,n)).pack(anchor='w',pady=4)
-        else:
-            ttk.Button(self.body,text='Read today’s written check-in',command=lambda:self.act(quest.check_in)).pack(anchor='w',pady=4)
-        if s['world']['location']==quest.LAB and d['step']<9:
-            ttk.Button(self.body,text='I recognise Charles · request a private explanation',command=lambda:self.act(quest.recognise)).pack(anchor='w',pady=5)
-        if 2<=d['step']<=8:label('One document response per story day. Use the story clock to wait, or return tomorrow.')
-        if d['step'] in (9,10):label('Private meeting: 19:00–23:00. Come alone and wait until other laboratory staff have left. Your invitation grants visitor access only.')
-        if d['setbacks']:label(f'Unverified approaches: {d["setbacks"]}. A setback never permanently closes the search.')
-        label(self.notice)
-        ttk.Separator(self.body).pack(fill='x',pady=8)
-        label('Evidence notebook · verified findings only')
-        for r in d['evidence']:label(r['title']+'\n'+r['finding'])
-        for r in d['checkins'][-3:]:label(r['text'])
+        story_board(self.body,self.game,self.act,self.notice)
         __import__('phone_theme').apply_tree(self)
 
     def draw_report(self,s):
@@ -72,3 +54,50 @@ class QuestPanel(ttk.Frame):
         if self.notice not in d.get('journal',[]):label(self.notice)
         for entry in d.get('journal',[]):label(entry)
         __import__('phone_theme').apply_tree(self)
+
+
+def story_board(parent,game,act,notice=""):
+    """Render Garrett’s campaign in either in-person host."""
+    s=game.state_data
+    __import__('campaign_prose_ui').board(parent,game,act)
+    d=quest.read(s);title,venue,question=quest.objective(s)
+    def label(text):ttk.Label(parent,text=text,wraplength=760,justify='left').pack(fill='x',pady=6)
+    label(('Story complete · '+str(d['ending']) if d['step']>=len(quest.STEPS) else f'Chapter {d["step"]+1}/{len(quest.STEPS)} · '+title))
+    label('Objective: '+town.location_name(s,venue)+'\n'+question)
+    import campaign_flashbacks
+    memory=campaign_flashbacks.pending(s)
+    if memory:
+        label('CHAPTER MEMORY · Take this private moment alone. Other memories appear at their own story triggers.')
+        if s['world']['location']==quest.LAB and d['step']<9:
+            ttk.Button(parent,text='I recognise Charles · request a private explanation',command=lambda:act(quest.recognise)).pack(anchor='w',pady=5)
+        if s['world']['location']!=venue:
+            ttk.Button(parent,text='Travel to the memory’s starting point',command=lambda:act(town.travel,venue)).pack(anchor='w',pady=5)
+        else:
+            ttk.Button(parent,text='Begin flashback · '+title,command=lambda:act(campaign_flashbacks.start,memory)).pack(anchor='w',pady=5)
+        label(notice)
+        __import__('phone_theme').apply_tree(parent)
+        return
+    if s['world']['location']!=venue:
+        ttk.Button(parent,text='Travel to the current objective',command=lambda:act(town.travel,venue)).pack(anchor='w',pady=5)
+    elif d['step']<len(quest.STEPS):
+        if d['step'] in (6,9) or d['step'] in quest.garrett_chapters.BATTLES:
+            ttk.Button(parent,text='Fight mission opponents' ,command=lambda:act(quest.security_action)).pack(fill='x',pady=4)
+        for i,text in enumerate(quest.STEPS[d['step']][3]):
+            ttk.Button(parent,text=text,command=lambda n=i:act(quest.advance,n)).pack(anchor='w',pady=4)
+    else:
+        ttk.Button(parent,text='Read today’s written check-in',command=lambda:act(quest.check_in)).pack(anchor='w',pady=4)
+    if 11<=d['step']<len(quest.STEPS) and s['world']['location']=='noodle_shop':
+        ttk.Button(parent,text='Read today’s family check-in',command=lambda:act(quest.check_in)).pack(anchor='w',pady=4)
+    if s['world']['location']==quest.LAB and d['step']<9:
+        ttk.Button(parent,text='I recognise Charles · request a private explanation',command=lambda:act(quest.recognise)).pack(anchor='w',pady=5)
+    if 2<=d['step']<=8:label('One document response per story day. Use the story clock to wait, or return tomorrow.')
+    if venue==quest.LAB:label('Private meeting: 19:00–23:00. Come alone and wait until other laboratory staff have left. Your invitation grants visitor access only.')
+    if d['setbacks']:label(f'Unverified approaches: {d["setbacks"]}. A setback never permanently closes the search.')
+    label(notice)
+    if d['step']>=len(quest.STEPS):
+        __import__('post_story_ui').board(parent,game,act)
+    ttk.Separator(parent).pack(fill='x',pady=8)
+    label('Evidence notebook · verified findings only')
+    for r in d['evidence']:label(r['title']+'\n'+r['finding'])
+    for r in d['checkins'][-3:]:label(r['text'])
+    __import__('phone_theme').apply_tree(parent)

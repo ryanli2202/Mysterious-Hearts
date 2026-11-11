@@ -29,9 +29,9 @@ class OperationsTests(unittest.TestCase):
         for key in sites.SITES:
             s=core.fresh('rei');visit(s,key)
             self.assertEqual(s['world']['location'],key+'_reception')
-            self.assertEqual(artwork.scene_art(s['world']['location']),'locations/'+key+'_interior')
+            self.assertEqual(artwork.scene_art(s['world']['location']),'locations/'+key+'_reception')
             from PIL import Image
-            with Image.open(core.ROOT/'assets'/'ui'/'locations'/(key+'_interior.png')) as art:
+            with Image.open(core.ROOT/'assets'/'ui'/'locations'/(key+'_reception.png')) as art:
                 self.assertEqual(art.size,(1536,1024))
             import phone_map
             class MapState:

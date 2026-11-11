@@ -1,0 +1,292 @@
+{
+  "roadmap_id": "MH-001",
+  "batch": 5,
+  "created": "2026-11-10",
+  "status": "8 local sprite sheets and GIFs assembled and structurally verified; runtime integration pending.",
+  "generation_tool": "built-in image_gen",
+  "model_verification": "Tool does not expose a model selector or verified model identifier.",
+  "workflow": "Generate sprite sheets first, then slice and encode locally using Pillow.",
+  "grid": {
+    "columns": 3,
+    "rows": 2
+  },
+  "frame_duration_ms": 150,
+  "blank_hold_ms": 720,
+  "timing_reason": "900ms action matches the plan's 700\u20131100ms martial master range.",
+  "background": "opaque dark slate; not transparent",
+  "assets": [
+    {
+      "asset_id": "MH-001-B05-skywheel-barrage",
+      "name": "skywheel-barrage",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet. Polished hand-painted anime style, simple faceless adult martial-artist silhouettes in plain training uniforms, muted steel-blue attacker and dark grey opponent when needed, silver physical air trails. EXACTLY SIX sequential keyframes in THREE COLUMNS by TWO ROWS, row-major order. Landscape 1536x1024 canvas, six equal square 512x512 cells. Fixed side three-quarter camera and consistent figure size. Opaque uniform dark slate #101824 background. NO borders, grid lines, gutters, labels, text, UI, scenery or watermark. Keep all bodies, limbs and effects entirely inside central 75 percent of every cell. Clear readable anatomy: two arms and two legs per solid figure; no merged bodies. Physical martial arts, no magic, electricity, fire, actual stars, gore or terrain damage. Six frames represent one finite 900ms action. Frame six fades to near blank. ONE attacker only, full body, spinning airborne kicks. Frame 1 compact crouched takeoff; 2 airborne tucked rotating body beginning one high kick; 3 body rotates farther and leg extends in a broad aerial kick crescent; 4 second distinct rotating kick pose with overlapping silver crescent wakes from successive kicks, one solid body; 5 descends to balanced crouch as arcs thin; 6 figure and arcs nearly faded. Keep entire airborne rotation inside each cell; no victim or impact explosion.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-64d71302-7db3-4b8f-920e-7c212a3811fe.png",
+      "sheet": "spritesheets/skywheel-barrage.png",
+      "gif": "gifs/skywheel-barrage.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "c9036241d96cac9afbd976063090a279e553f9c76952c6b6a393e20a4c656489",
+        "sha256_gif": "0f247899a2ad5d196099970d924257fb4dde388d281fabf4f4cc3da98e20b20a"
+      }
+    },
+    {
+      "asset_id": "MH-001-B05-horizon-step",
+      "name": "horizon-step",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet. Polished hand-painted anime style, simple faceless adult martial-artist silhouettes in plain training uniforms, muted steel-blue attacker and dark grey opponent when needed, silver physical air trails. EXACTLY SIX sequential keyframes in THREE COLUMNS by TWO ROWS, row-major order. Landscape 1536x1024 canvas, six equal square 512x512 cells. Fixed side three-quarter camera and consistent figure size. Opaque uniform dark slate #101824 background. NO borders, grid lines, gutters, labels, text, UI, scenery or watermark. Keep all bodies, limbs and effects entirely inside central 75 percent of every cell. Clear readable anatomy: two arms and two legs per solid figure; no merged bodies. Physical martial arts, no magic, electricity, fire, actual stars, gore or terrain damage. Six frames represent one finite 900ms action. Frame six fades to near blank. ONE attacker only. Frame 1 low guarded stance on left; 2 fast low horizontal movement smear to right with thin ground-level air streak; 3 figure emerges right of centre, knee chambered; 4 poised side kick extending right at chest height with short clean air trail; 5 retracts to balanced raised-knee guard as streak fades; 6 nearly blank. Clear low-to-high approach and poised kicking finish, no teleport, contact burst or opponent.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-71093ca6-da05-42ac-a93e-19f4d17e034c.png",
+      "sheet": "spritesheets/horizon-step.png",
+      "gif": "gifs/horizon-step.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "765d42a27e9855714f34ee9742bf5488620e2fa87909aff8d7d0f3322012959f",
+        "sha256_gif": "24b867cdf351ccc69768d4ff3512fe7392b03bee989f3f0977f8cb40b8d1389a"
+      }
+    },
+    {
+      "asset_id": "MH-001-B05-falling-star",
+      "name": "falling-star",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet. Polished hand-painted anime style, simple faceless adult martial-artist silhouettes in plain training uniforms, muted steel-blue attacker and dark grey opponent when needed, silver physical air trails. EXACTLY SIX sequential keyframes in THREE COLUMNS by TWO ROWS, row-major order. Landscape 1536x1024 canvas, six equal square 512x512 cells. Fixed side three-quarter camera and consistent figure size. Opaque uniform dark slate #101824 background. NO borders, grid lines, gutters, labels, text, UI, scenery or watermark. Keep all bodies, limbs and effects entirely inside central 75 percent of every cell. Clear readable anatomy: two arms and two legs per solid figure; no merged bodies. Physical martial arts, no magic, electricity, fire, actual stars, gore or terrain damage. Six frames represent one finite 900ms action. Frame six fades to near blank. ONE attacker only performing a descending heel kick. Frame 1 crouched preparation; 2 compact rising jump with knee tucked; 3 airborne body with ONE kicking leg raised high, heel ready to descend; 4 same leg drives steeply downward with a narrow heel-shaped silver streak ending at floor level; 5 lands in low stance beside a compact circular air-and-dust impact; 6 figure and dust almost gone. Maintain whole body inside cells, no meteor, actual star, explosion, rubble or crater.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-e105a457-748f-43cd-943b-7f181905f70d.png",
+      "sheet": "spritesheets/falling-star.png",
+      "gif": "gifs/falling-star.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "03d190f3c72a22e627c04023c5e41d070ee8586726571df2396516269e58f241",
+        "sha256_gif": "1f76802eee315db061efe8cdc3c29f12aa96ffff3d62e5029a1d3f8ac91ac226"
+      }
+    },
+    {
+      "asset_id": "MH-001-B05-mirage-wheel",
+      "name": "mirage-wheel",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet. Polished hand-painted anime style, simple faceless adult martial-artist silhouettes in plain training uniforms, muted steel-blue attacker and dark grey opponent when needed, silver physical air trails. EXACTLY SIX sequential keyframes in THREE COLUMNS by TWO ROWS, row-major order. Landscape 1536x1024 canvas, six equal square 512x512 cells. Fixed side three-quarter camera and consistent figure size. Opaque uniform dark slate #101824 background. NO borders, grid lines, gutters, labels, text, UI, scenery or watermark. Keep all bodies, limbs and effects entirely inside central 75 percent of every cell. Clear readable anatomy: two arms and two legs per solid figure; no merged bodies. Physical martial arts, no magic, electricity, fire, actual stars, gore or terrain damage. Six frames represent one finite 900ms action. Frame six fades to near blank. ONE steel-blue attacker with faint kick afterimages around a small fixed dark-grey guarded opponent at centre-right. Frame 1 attacker left in guard; 2 high roundhouse kick arc near opponent shoulder with faint previous leg wake; 3 low sweeping kick arc near opponent shin, upper wake fades; 4 high-low leg afterimages resolve into ONE clear finishing roundhouse crescent at torso height; 5 attacker lands in guard, thin crescent dissipates; 6 all figures and trails fade. One solid attacker body, echoes are clearly faint motion traces; no extra solid limbs.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-971a2729-e330-4cca-94f1-cc2e8f4e8f2a.png",
+      "sheet": "spritesheets/mirage-wheel.png",
+      "gif": "gifs/mirage-wheel.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "8656091281f49eed426cb3542a274157dd7299baa100def94791e0a1d2b38baf",
+        "sha256_gif": "0e4b98ca98bc0702dc2597243d15e43564c8cbe5074a15247df241875a780f14"
+      }
+    },
+    {
+      "asset_id": "MH-001-B05-world-turner",
+      "name": "world-turner",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet. Polished hand-painted anime style, simple faceless adult martial-artist silhouettes in plain training uniforms, muted steel-blue attacker and dark grey opponent when needed, silver physical air trails. EXACTLY SIX sequential keyframes in THREE COLUMNS by TWO ROWS, row-major order. Landscape 1536x1024 canvas, six equal square 512x512 cells. Fixed side three-quarter camera and consistent figure size. Opaque uniform dark slate #101824 background. NO borders, grid lines, gutters, labels, text, UI, scenery or watermark. Keep all bodies, limbs and effects entirely inside central 75 percent of every cell. Clear readable anatomy: two arms and two legs per solid figure; no merged bodies. Physical martial arts, no magic, electricity, fire, actual stars, gore or terrain damage. Six frames represent one finite 900ms action. Frame six fades to near blank. TWO clearly separated full-body judo figures in grip: steel-blue attacker and dark-grey target. Keep consistent colours and identities across all cells. Frame 1 standing sleeve-and-lapel grip near centre; 2 attacker pivots hips under target, target heels start lifting; 3 both figures rotate around shared hip pivot with broad curved silver motion trail, target horizontal above attacker; 4 attacker releases target along broad downward throwing arc to right; 5 target lands in safe stylized side-fall on right, attacker stays low left, small dust wisp; 6 figures and arc almost gone. Readable mechanical body rotation, no fused limbs or destructive landing.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-d58706e6-b499-4c56-bc85-5bd2232e9944.png",
+      "sheet": "spritesheets/world-turner.png",
+      "gif": "gifs/world-turner.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "e340db302ec6be5386a789e5670d55ee4826c59c0601b612c00691b2459c4932",
+        "sha256_gif": "a6e8b8fc658da6cca12fc8db5815900c2633b2946a2b6562dc854fe3f6fd34d3"
+      }
+    },
+    {
+      "asset_id": "MH-001-B05-falling-mountain",
+      "name": "falling-mountain",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet. Polished hand-painted anime style, simple faceless adult martial-artist silhouettes in plain training uniforms, muted steel-blue attacker and dark grey opponent when needed, silver physical air trails. EXACTLY SIX sequential keyframes in THREE COLUMNS by TWO ROWS, row-major order. Landscape 1536x1024 canvas, six equal square 512x512 cells. Fixed side three-quarter camera and consistent figure size. Opaque uniform dark slate #101824 background. NO borders, grid lines, gutters, labels, text, UI, scenery or watermark. Keep all bodies, limbs and effects entirely inside central 75 percent of every cell. Clear readable anatomy: two arms and two legs per solid figure; no merged bodies. Physical martial arts, no magic, electricity, fire, actual stars, gore or terrain damage. Six frames represent one finite 900ms action. Frame six fades to near blank. TWO judo figures, steel-blue attacker and dark-grey target, consistent roles. Frame 1 close standing sleeve/lapel grip; 2 attacker bends knees and settles hips low while drawing target forward; 3 target lifted just off balance over lowered attacker; 4 target drops steeply down to right while attacker stays rooted and low; 5 target side-fall on ground with a wide LOW soft dust burst, attacker kneels firmly beside; 6 figures and dust fade. Heavy downward weight, unlike a broad rotating throw. No mountain, boulder, crater, rubble, injury or explosive shock.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-97e480d8-2fe9-4c02-b2af-abcf5247f3bb.png",
+      "sheet": "spritesheets/falling-mountain.png",
+      "gif": "gifs/falling-mountain.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "5df0882a37688c7da0768703695ad6b2201b1b85e07892464343d4edf40a78e0",
+        "sha256_gif": "77deb310e9f352b681c8fb4b80d3dbee69cdd6308a1eec19f02ec46cb2aa5b02"
+      }
+    },
+    {
+      "asset_id": "MH-001-B05-zero-point-reversal",
+      "name": "zero-point-reversal",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet. Polished hand-painted anime style, simple faceless adult martial-artist silhouettes in plain training uniforms, muted steel-blue attacker and dark grey opponent when needed, silver physical air trails. EXACTLY SIX sequential keyframes in THREE COLUMNS by TWO ROWS, row-major order. Landscape 1536x1024 canvas, six equal square 512x512 cells. Fixed side three-quarter camera and consistent figure size. Opaque uniform dark slate #101824 background. NO borders, grid lines, gutters, labels, text, UI, scenery or watermark. Keep all bodies, limbs and effects entirely inside central 75 percent of every cell. Clear readable anatomy: two arms and two legs per solid figure; no merged bodies. Physical martial arts, no magic, electricity, fire, actual stars, gore or terrain damage. Six frames represent one finite 900ms action. Frame six fades to near blank. TWO judo figures with absolutely consistent identities: STEEL-BLUE is eventual counterthrower, DARK-GREY is initial aggressor. Frame 1 dark-grey initiates hip throw on steel-blue in close grip; 2 steel-blue lifted and tilted over dark-grey hip, balanced at the tipping point; 3 HOLD same precarious balance pose with thin suspended curved trail and no impact; 4 steel-blue plants a foot, reverses pivot and pulls dark-grey over its hip in opposite direction; 5 dark-grey lands on left in stylized safe side-fall while steel-blue stands braced right, reversed arc thinning; 6 both fade. Clear change of throwing direction, no magical time-stop icons or arrows.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-4d167653-9ad1-4ea3-8c09-9ff6311b619d.png",
+      "sheet": "spritesheets/zero-point-reversal.png",
+      "gif": "gifs/zero-point-reversal.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "57ab6c8f01282ab925b21558e8e30a412e5b36b2e2016b6a2bc77fbbdb8bcf26",
+        "sha256_gif": "3e1bbaa2527aa3f9a4929b7ecd591a48cf2a4a85611f963ee731cfebb374cfe3"
+      }
+    },
+    {
+      "asset_id": "MH-001-B05-iron-orbit",
+      "name": "iron-orbit",
+      "prompt": "Use case: stylized-concept. Mysterious Hearts illustrated RPG combat sprite sheet. Polished hand-painted anime style, simple faceless adult martial-artist silhouettes in plain training uniforms, muted steel-blue attacker and dark grey opponent when needed, silver physical air trails. EXACTLY SIX sequential keyframes in THREE COLUMNS by TWO ROWS, row-major order. Landscape 1536x1024 canvas, six equal square 512x512 cells. Fixed side three-quarter camera and consistent figure size. Opaque uniform dark slate #101824 background. NO borders, grid lines, gutters, labels, text, UI, scenery or watermark. Keep all bodies, limbs and effects entirely inside central 75 percent of every cell. Clear readable anatomy: two arms and two legs per solid figure; no merged bodies. Physical martial arts, no magic, electricity, fire, actual stars, gore or terrain damage. Six frames represent one finite 900ms action. Frame six fades to near blank. TWO judo figures in persistent sleeve/lapel contact: steel-blue attacker stays rooted around centre, dark-grey target is guided around attacker. Frame 1 upright grip; 2 attacker pivots a little, target leans left off balance with small curved trail near feet; 3 target steps around toward right while tilting forward, grip preserved; 4 attacker changes pivot, target tilts the opposite way with two small uninterrupted circular trails at waist and feet; 5 both settle into controlled grip, target still slightly off balance, trails thin; 6 figures fade. Positional balance control, NO completed throw, airborne opponent, impact ring or ground landing.",
+      "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c2d0-655c-7433-8ddb-2d9a5361b61d/exec-8505aed1-a0bb-4e4a-a208-beb262bf0650.png",
+      "sheet": "spritesheets/iron-orbit.png",
+      "gif": "gifs/iron-orbit.gif",
+      "verification": {
+        "sheet_dimensions": [
+          1536,
+          1024
+        ],
+        "gif_dimensions": [
+          512,
+          512
+        ],
+        "decoded_frames": 7,
+        "action_frames": 6,
+        "duration_ms": 1620,
+        "action_duration_ms": 900,
+        "frame_durations_ms": [
+          150,
+          150,
+          150,
+          150,
+          150,
+          150,
+          720
+        ],
+        "loop": "infinite preview",
+        "sha256_sheet": "81b4bdf9f500a73602404dae1686ccbd15af8999c9e9ca6c673e94de161a4ff8",
+        "sha256_gif": "ab5b6c21026d26eeeb9ca264c76ac12f58b609e58d0df7520dc535843630dd0e"
+      }
+    }
+  ],
+  "validation_command": "python tools/build_combat_batch_gifs.py --batch 5"
+}

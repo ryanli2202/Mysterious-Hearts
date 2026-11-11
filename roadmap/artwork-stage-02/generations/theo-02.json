@@ -1,0 +1,10 @@
+{
+  "id": "theo-02",
+  "record_id": "theo-02",
+  "prompt": "Use case: identity-preserve. Targeted correction of theo. Image 1 is the edit target. Preserve exact individual face, identity, age, complexion, build, hair, expression, clothing design/colours, accessories, tattoo motifs/laterality, pose and illustrated semi-realistic manhwa rendering. COMPOSITION CORRECTION: current crop has too little thigh below crotch. Reframe visibly WIDER/ZOOM OUT and construct both upper legs to genuine MID-THIGH, visibly more leg than reference. Make the head and torso smaller IN FRAME without changing bodily proportions, not merely adding empty canvas. Aim crown y60, chin y300, waist y850, crotch y1100, fingertips y1280 and thigh cutoff y1490. Show substantial 350-400px connected thigh BELOW crotch with complete hands. Retain full-length trousers cropped by frame; no shorts hem. Do not stretch anatomy or redesign any unaffected details. Complete all visible hands, hair and required props inside frame. Output 1024x1536 2:3 RGBA with genuine transparent background and clear gaps, no scenery, halo, outline, text or watermark. Clear headroom and side margins, small transparent bottom margin; no knees. ",
+  "input_images": [
+    "C:\\Users\\ryanl\\Documents\\Mysterious Hearts\\roadmap\\artwork-stage-02\\generations\\theo-01.png"
+  ],
+  "generated_source": "C:/Users/ryanl/.codex/generated_images/01a1c4e0-54f1-7c43-a56b-2d10502a12a6/exec-69aed185-98ad-45f7-b4a9-f292d38fc3f7.png",
+  "disposition": "candidate"
+}

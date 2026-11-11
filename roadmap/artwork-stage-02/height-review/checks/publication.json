@@ -1,0 +1,27 @@
+[
+  {
+    "command": "python patch_notes.py validate",
+    "exit_code": 0,
+    "output": "Valid catalogue: 487 entries\n"
+  },
+  {
+    "command": "python -m unittest discover -s tests -p test_patch_notes.py -v",
+    "exit_code": 1,
+    "output": "test_archive_coverage_and_sources (test_patch_notes.PatchNotesTests.test_archive_coverage_and_sources) ... FAIL\ntest_atomic_failure_preserves_prior_file (test_patch_notes.PatchNotesTests.test_atomic_failure_preserves_prior_file) ... ok\ntest_bad_schema_duplicates_and_dates_rejected (test_patch_notes.PatchNotesTests.test_bad_schema_duplicates_and_dates_rejected) ... ok\ntest_export_selected_only_and_provenance (test_patch_notes.PatchNotesTests.test_export_selected_only_and_provenance) ... ok\ntest_preferences_roundtrip_and_revision_unread (test_patch_notes.PatchNotesTests.test_preferences_roundtrip_and_revision_unread) ... ok\ntest_search_filters_and_date_order (test_patch_notes.PatchNotesTests.test_search_filters_and_date_order) ... ok\n\n======================================================================\nFAIL: test_archive_coverage_and_sources (test_patch_notes.PatchNotesTests.test_archive_coverage_and_sources)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\ryanl\\Documents\\Mysterious Hearts\\tests\\test_patch_notes.py\", line 23, in test_archive_coverage_and_sources\n    self.assertTrue((notes.ROOT/source.split(' \ufffd ')[0]).exists(), source)\nAssertionError: False is not true : tests/screenshots/mixtape-art-review-0.jpg\n\n----------------------------------------------------------------------\nRan 6 tests in 0.177s\n\nFAILED (failures=1)\n"
+  },
+  {
+    "command": "python patch_notes.py export",
+    "exit_code": 0,
+    "output": "patch_notes/PATCH_NOTES.md refreshed"
+  },
+  {
+    "command": "python tests/patch_notes_ui_smoke.py",
+    "exit_code": 0,
+    "output": "Patch notes UI passed: search, filters, state, export, empty/error states and two sizes."
+  },
+  {
+    "command": "python -m py_compile (all 15 changed/new Python files)",
+    "exit_code": 0,
+    "output": "All compiled successfully."
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "tool": "Built-in image_gen",
+  "assets": [
+    {
+      "path": "assets/portraits/garrett-high-school.png",
+      "reference": "C:/Users/ryanl/Documents/Mysterious Hearts/assets/portraits/garrett-selection.png",
+      "transparent_background": true,
+      "prompt": "Create ONE transparent visual novel sprite: Garrett Han aged 16 at high school in Hong Kong. Reference is adult identity and polished manhwa cel-shaded style only. Preserve tousled golden blond hair, golden eyes and recognizable face but clearly younger softer teenage features and slim teenage athletic proportions. Modest white short-sleeved school shirt buttoned appropriately, loosened dark tie, dark trousers, backpack slung over one shoulder. Defiant but vulnerable neutral expression. No tattoos, no facial hair. Head to upper thigh, entire hair and both arms inside frame. No scenery, text, watermark or additional characters. True alpha transparency."
+    },
+    {
+      "path": "assets/portraits/charles-young-adult.png",
+      "reference": "C:/Users/ryanl/Documents/Mysterious Hearts/assets/portraits/charles-selection-v2.png",
+      "transparent_background": true,
+      "prompt": "Create ONE transparent visual novel sprite: Charles Han as a young adult aged 21. Reference is identity and polished manhwa/cel-shaded style. Preserve black layered curtain hair, amber brown eyes, warm light skin, small mark below outer eye, silver hoop earrings, athletic build. Younger face, tired serious protective older brother expression, plain black casual jacket over modest grey crew neck shirt and dark trousers. Head to upper thigh, complete hair and arms inside frame. No scenery, no text, no watermark, no other characters. Genuine alpha transparent background."
+    },
+    {
+      "path": "assets/portraits/joseph-richter-high-school.png",
+      "reference": "C:/Users/ryanl/Documents/Mysterious Hearts/assets/portraits/joseph-richter-selection.png",
+      "transparent_background": true,
+      "prompt": "Create ONE transparent visual novel sprite of Joseph Richter as a 17-year-old high school student. Preserve reference identity and polished anime/manhwa linework and cel shading, swept-back blond hair, pale grey-blue eyes, strong brows, light skin. Younger softer teenage face and ordinary teenage proportions, completely clean-shaven no beard or stubble. Controlled arrogant expression. Modest burgundy school sweater over fully buttoned collared shirt, dark trousers, one hand holding backpack strap. Head to upper thigh, entire hair and shoulders and arms inside frame. No cybernetics, no weapons, no tattoos. Single figure, actual alpha transparency, no scenery, writing, watermark."
+    },
+    {
+      "path": "assets/ui/locations/rei-high-school.png",
+      "reference": null,
+      "transparent_background": false,
+      "prompt": "Use case: illustration-story. Create a polished anime/manhwa visual novel environment background, landscape 1536x1024. Rei's everyday high school courtyard, sheltered walkway beside classroom windows, brick and concrete school buildings, bench and a small planted garden, noticeboard without readable writing, visible administration entrance at rear. Contemporary plausible school, warm overcast afternoon with subtly nostalgic muted colours. Eye-level wide composition with generous clear foreground for separately composited standing character sprites. Crisp detailed linework, refined cel shading, soft painterly environment lighting. No people, no text, no logos, no UI, no watermark."
+    },
+    {
+      "path": "assets/ui/locations/garrett-hong-kong-school.png",
+      "reference": null,
+      "transparent_background": false,
+      "prompt": "Use case: illustration-story. Create a polished anime/manhwa visual novel environment background, landscape 1536x1024. Outside Garrett's secondary school in Hong Kong: school entrance gates, pale tiled multistorey school building and covered walkway, low wall, pavement and fenced basketball court, dense residential towers behind with lush subtropical hillside. Late afternoon humid golden light, understated nostalgic mood. Eye-level wide composition, clear spacious pavement foreground for two separately composited standing character sprites. Detailed clean linework, refined cel shading and softly painted environment lighting. No people, no readable signage or text, no logos, no watermark, no UI."
+    }
+  ]
+}
