@@ -7,7 +7,7 @@ ROLES = {
     'sylvanis': dict(key='coloured_joker', name='Coloured Joker network', role='Coloured Joker · second-in-command',
         authority='Senior command · cross-Suit authority', budget=60000, venue='syndicate_hq',
         title='Cross-Suit obligation review', brief='Contradictory branch reports require your decision. Challenge the accounts without treating a report as proof of a completed operation.'),
-    'valentina': dict(key='wind_general', name='Queen of Wind field command', role='Queen of Wind · Ivan’s general',
+    'valentina': dict(key='wind_general', name='Queen of Death field command', role='Queen of Death · Ivan’s general',
         authority='Clubs field command at Breakwater; no cross-Suit command', budget=30000, venue='site_04_briefing',
         title='Breakwater field review', brief='Two field teams dispute their responsibilities. Review the handover within your Clubs command; other Suits retain their own leadership.'),
     'martos': dict(key='ace_clubs', name='Ace of Clubs mission desk', role='Ace of Clubs · mission specialist',

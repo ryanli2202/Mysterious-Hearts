@@ -1,0 +1,48 @@
+{
+  "id": "CS-TK01B",
+  "type": "shot",
+  "path": "assets/campaigns/takeo/core/CS-TK01B.png",
+  "original": "media-workspace/campaign-shot-rebuild-2026-11-14/originals/CS-TK01B.png",
+  "prompt": "ONE opaque landscape 16:9 manhwa cinematic detail insert CS-TK01B, immediately following reference 1 briefing scene. Match the same worn table, warm overhead lamp/slate shadows and costumes. Camera tight from above at oblique angle: large Takeo's right hand and camouflaged sleeve enter from LEFT, just having set a dark fountain pen DOWN BETWEEN two clearly separated OPEN document folders. The nearer operational summary has a small abstract signature squiggle, the farther casualty sheet has a clearly EMPTY signature area. No readable words, names, letters or numbers. Arakawa's two ordinary-sized hands rest naturally side by side at opposite table edge upper right, dark military jacket sleeves. THREE hands total: one Takeo and two Arakawa, no floating fingers, wrong thumb orientation, merged joints or extra digits. Plausible five-finger anatomy, expressive paused fingers withdrawing from pen, clean wrist connection. Responsibility refused, quiet stillness, no handshake. Both folders and pen clearly visible, table diagonals create depth without skewed paper perspective. Render intentional tapered manhwa contours and simplified soft dimensional planes on skin; no photographic knuckle microtexture or pores. No faces, bodies, new characters, weapons, flags, emblems, bubbles, text, watermark or UI. Opaque full scene, not a collage, no borders.",
+  "references": [
+    "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK01B-1.png"
+  ],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "72410e80f49fe4b0762927c912740c392a7ad352d6df6ecd0a5965ba15ce3998",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "alpha_extrema": null,
+  "visual_review": "Full generated image and actual reader render visually inspected; affected artwork checks and route UI smoke passed. See campaign-shot-rebuild-2026-11-14/README.md.",
+  "reference_hashes_measured_at_release_review": {
+    "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK01B-1.png": "e5642a237c0d8b53d12d20de8f0b239821ee9488ceb09b0110e5b1d9fbe3bd99"
+  },
+  "revision_date": "2026-11-14",
+  "supersedes": {
+    "id": "CS-TK01B",
+    "type": "shot",
+    "path": "assets/campaigns/takeo/core/CS-TK01B.png",
+    "original": "media-workspace/takeo/originals/exec-c5a407ac-f397-47e1-900f-be5b02b861e0.png",
+    "prompt": "ONE 16:9 illustrated visual-novel sequence shot, no panel borders. Close cinematic insert in the same pre-2024 classified military briefing: Takeo's large adult hand has put down a pen between two unlabelled paper folders, one signed summary and one unsigned casualty sheet with NO readable writing. His dark military sleeve and unmarked vest edge appear at frame left; Arakawa's smaller resting hands on the opposite edge. Focus on responsibility refused, no gore or bodies. Semi-realistic illustrated manhwa, restrained linework and dimensional painted shading, natural faces, cinematic slate/amber light, not photo/3D or exaggerated cel cartoon. No captions, text, readable map labels, watermark or signature.",
+    "references": [
+      "media-workspace/takeo/originals/exec-1838f771-8da0-4730-8b21-49e3cb3ea766.png"
+    ],
+    "provider": "Built-in image_gen tool",
+    "model": "Not exposed; unverified",
+    "sha256": "0ba3da64184401aff6909b21d53bb5d2aea71856481a19d6b9e961c7597912f7",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+    "reference_hashes_measured_at_release_review": {
+      "media-workspace/takeo/originals/exec-1838f771-8da0-4730-8b21-49e3cb3ea766.png": "fdffd45b52591fd726385716394fe1711713afa76b486a0352003fc6b76fbd51"
+    }
+  },
+  "previous_production_copy": "media-workspace/campaign-shot-rebuild-2026-11-14/backups/CS-TK01B.png"
+}

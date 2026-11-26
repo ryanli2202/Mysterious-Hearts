@@ -93,5 +93,5 @@ def travel_preview(s, destination):
     for who, actor in w['cast'].items():
         if who == s['player'] or not hidden_cast.contact(s, who): continue
         place = None if actor['journey'] else actor['location']
-        if place == destination: lines.append(who.title()+' expected there')
+        if __import__('interiors').same_building(place,destination): lines.append(who.title()+' expected at the building; meet in the assigned room')
     return '\n'.join(lines)

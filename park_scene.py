@@ -23,6 +23,7 @@ class Walker:
     phase: float = 0
     moving: bool = False
     seated: bool = False
+    idle_phase: float = 0
 
     def step(self, axis, dt):
         dt = max(0, min(dt, .05))
@@ -33,8 +34,12 @@ class Walker:
         if self.moving:
             self.seated = False
             # Match the authored stance-foot speed to actual world movement.
-            self.phase = (self.phase + abs(self.x-old)/(14/.6)) % 1
-        else: self.phase = 0
+            # The supplied walk sheet contains two strides.
+            self.phase = (self.phase + abs(self.x-old)/(14/.6)) % 2
+            self.idle_phase = 0
+        else:
+            self.phase = 0
+            self.idle_phase = (self.idle_phase + dt / 2) % 1
 
     @property
     def camera(self): return max(0, min(WIDTH-VIEW, self.x-VIEW*.43))
@@ -130,9 +135,22 @@ class Renderer:
             entries=json.loads((folder/'layers.json').read_text(encoding='utf-8'))
             self.planes=[(e['name'],e['parallax'],Image.open(folder/e['file']).convert('RGBA')) for e in entries]
         else:self.planes=layers()
-        folder=ROOT/'assets/sprites/chibi-preview/garrett-v5'
-        self.sprites={side:[Image.open(folder/f'walk-{side}-{i:02}.png').convert('RGBA') for i in range(1,25)] for side in ('left','right')}
-        self.idle={side:Image.open(folder/f'idle-{side}.png').convert('RGBA') for side in self.sprites}
+        folder = ROOT / 'assets/sprites/free-roam/garrett'
+        self.animations = {}
+        for action in ('idle', 'walk'):
+            with Image.open(folder / f'{action}.png') as source:
+                sheet = source.convert('RGBA')
+            frames = []
+            for row in range(5):
+                for col in range(5):
+                    # A fixed crop retains the authored foot placement and bob.
+                    x, y = col * 256 + 48, row * 256 + 22
+                    cell = sheet.crop((x, y, x + 160, y + 213))
+                    frames.append(cell.resize((48, 64), Image.Resampling.NEAREST))
+            self.animations[action] = {
+                'right': frames,
+                'left': [frame.transpose(Image.Transpose.FLIP_LEFT_RIGHT) for frame in frames],
+            }
 
     def render(self, walker):
         canvas=self.planes[0][2].convert('RGBA').copy()
@@ -140,7 +158,10 @@ class Renderer:
             if name=='foreground-grass':continue
             offset=int(walker.camera*factor)
             canvas.alpha_composite(im.crop((offset,0,offset+VIEW,HEIGHT)))
-        sprite=self.sprites[walker.direction][int(walker.phase*24)%24] if walker.moving else self.idle[walker.direction]
+        action = 'walk' if walker.moving else 'idle'
+        progress = walker.phase / 2 if walker.moving else walker.idle_phase
+        frames = self.animations[action][walker.direction]
+        sprite = frames[int(progress * len(frames)) % len(frames)]
         canvas.alpha_composite(sprite,(round(walker.x-walker.camera-24),GROUND-61))
         name,factor,im=self.planes[-1];offset=int(walker.camera*factor)
         canvas.alpha_composite(im.crop((offset,0,offset+VIEW,HEIGHT)))

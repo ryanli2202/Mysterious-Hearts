@@ -90,6 +90,7 @@ def character_tables():
                             'Appearance': person['appearance'], 'World knowledge': person['work'] + ' ' + gang_members.BOUNDARY})
     import interpol_cast
     guides.update({who: interpol_cast.reference(who) for who in interpol_cast.IDS})
+    guides.update(__import__('ivan_generals').references())
     import character_types
     for who, guide in guides.items():
         guide['Character type'] = character_types.kind(who)
@@ -160,7 +161,7 @@ def openness(stats):
 # speaker remembers and can share here, even if the listener names it outright.
 PASSAGES = {
     'garrett': (
-        (2, 'Flaming Prince|Kit|Mrs Lau|pears|worst beating', "Seventeen, behind Mrs Lau's shop"),
+        (2, 'Flaming Prince|school crews|school confrontation|Charles.*beat|brother.*beat', 'Sixteen, outside his Hong Kong school'),
         (3, 'teacup|electricity bill|mother.s noodles|chipped cup', 'Growing up with Charles'),
         (3, 'shrimp shells|last call|Sunday calls', 'The last call from Hong Kong')),
     'rei': (
@@ -198,6 +199,14 @@ def speaker_reference(who, listeners, level, cue, state=None):
     reference['Vendetta AU'] = vendetta_lore.speaker_context(who, listeners, state)
     import criminal_dynamics
     reference['Criminal dynamics'] = criminal_dynamics.context(who, listeners, state)
+    if state is not None and (ivan_history := __import__('ivan_campaigns').knowledge(state,who,listeners)):
+        reference['Private Ivan campaign continuity'] = ivan_history
+    if state is not None and (neo_history := __import__('neo_campaigns').knowledge(state,who,listeners)):
+        reference['Private Neo campaign continuity'] = neo_history
+    if sylvanis_history := __import__('sylvanis_campaigns').knowledge(state,who,listeners):
+        reference['Private Sylvanis campaign continuity'] = sylvanis_history
+    if takeo_history := __import__('takeo_campaigns').knowledge(state,who,listeners):
+        reference['Private Takeo campaign continuity'] = takeo_history
     import interpol
     reference['Interpol case knowledge'] = interpol.context(state, who, listeners)
     import charles_quest

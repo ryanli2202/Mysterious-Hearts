@@ -2,7 +2,7 @@
   "roadmap_id": "MH-001",
   "batch": 5,
   "created": "2026-11-10",
-  "status": "8 local sprite sheets and GIFs assembled and structurally verified; runtime integration pending.",
+  "status": "Withdrawn 2026-11-13: prior review sheets, GIFs, preview and contact removed; runtime integration remains pending.",
   "generation_tool": "built-in image_gen",
   "model_verification": "Tool does not expose a model selector or verified model identifier.",
   "workflow": "Generate sprite sheets first, then slice and encode locally using Pillow.",
@@ -12,7 +12,7 @@
   },
   "frame_duration_ms": 150,
   "blank_hold_ms": 720,
-  "timing_reason": "900ms action matches the plan's 700\u20131100ms martial master range.",
+  "timing_reason": "900ms action matches the plan's 700–1100ms martial master range.",
   "background": "opaque dark slate; not transparent",
   "assets": [
     {
@@ -47,7 +47,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "c9036241d96cac9afbd976063090a279e553f9c76952c6b6a393e20a4c656489",
         "sha256_gif": "0f247899a2ad5d196099970d924257fb4dde388d281fabf4f4cc3da98e20b20a"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B05-horizon-step",
@@ -81,7 +82,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "765d42a27e9855714f34ee9742bf5488620e2fa87909aff8d7d0f3322012959f",
         "sha256_gif": "24b867cdf351ccc69768d4ff3512fe7392b03bee989f3f0977f8cb40b8d1389a"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B05-falling-star",
@@ -115,7 +117,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "03d190f3c72a22e627c04023c5e41d070ee8586726571df2396516269e58f241",
         "sha256_gif": "1f76802eee315db061efe8cdc3c29f12aa96ffff3d62e5029a1d3f8ac91ac226"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B05-mirage-wheel",
@@ -149,7 +152,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "8656091281f49eed426cb3542a274157dd7299baa100def94791e0a1d2b38baf",
         "sha256_gif": "0e4b98ca98bc0702dc2597243d15e43564c8cbe5074a15247df241875a780f14"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B05-world-turner",
@@ -183,7 +187,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "e340db302ec6be5386a789e5670d55ee4826c59c0601b612c00691b2459c4932",
         "sha256_gif": "a6e8b8fc658da6cca12fc8db5815900c2633b2946a2b6562dc854fe3f6fd34d3"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B05-falling-mountain",
@@ -217,7 +222,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "5df0882a37688c7da0768703695ad6b2201b1b85e07892464343d4edf40a78e0",
         "sha256_gif": "77deb310e9f352b681c8fb4b80d3dbee69cdd6308a1eec19f02ec46cb2aa5b02"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B05-zero-point-reversal",
@@ -251,7 +257,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "57ab6c8f01282ab925b21558e8e30a412e5b36b2e2016b6a2bc77fbbdb8bcf26",
         "sha256_gif": "3e1bbaa2527aa3f9a4929b7ecd591a48cf2a4a85611f963ee731cfebb374cfe3"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B05-iron-orbit",
@@ -285,8 +292,15 @@
         "loop": "infinite preview",
         "sha256_sheet": "81b4bdf9f500a73602404dae1686ccbd15af8999c9e9ca6c673e94de161a4ff8",
         "sha256_gif": "ab5b6c21026d26eeeb9ca264c76ac12f58b609e58d0df7520dc535843630dd0e"
-      }
+      },
+      "available": false
     }
   ],
-  "validation_command": "python tools/build_combat_batch_gifs.py --batch 5"
+  "validation_command": "python tools/build_combat_batch_gifs.py --batch 5",
+  "withdrawn": true,
+  "availability": "withdrawn",
+  "withdrawn_on": "2026-11-13",
+  "withdrawal_reason": "User-requested combat animation artwork reset; historical paths and verification are retained, files removed.",
+  "style_guide": "roadmap/COMBAT_ANIMATION_STYLE_GUIDE.md",
+  "validation_command_status": "Historical command only; this manifest is withdrawn and the builder rejects it."
 }

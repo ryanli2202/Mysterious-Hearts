@@ -38,9 +38,12 @@ class CampaignView(tk.Frame):
         w=ttk.Label(self.body,text=text,wraplength=730,justify='left');w.pack(fill='x',pady=6)
         w.bind('<Configure>',lambda e:w.configure(wraplength=max(90,e.width-12)))
     def button(self,text,fn,*args):
+        if fn is town.travel:
+            return __import__('campaign_navigation').directions(self.body,self.game,args[0])
         ttk.Button(self.body,text=text,command=lambda:self.act(fn,*args)).pack(fill='x',pady=4)
     def act(self,fn,*args):
         if self.game.busy:return
+        self.notice=''
         try:
             if __import__('campaign_dialogue').maybe_open(self.game,fn,args):return
             self.notice=fn(self.game.state_data,*args) or '';self.game.persist()
@@ -60,6 +63,33 @@ class CampaignView(tk.Frame):
         else:self.guards(s)
         phone_theme.apply_tree(self)
     def story(self,s):
+        if s['player']=='takeo':
+            __import__('takeo_campaign_ui').board(self.body,self.game,self.act)
+            return
+        if s['player']=='ivan':
+            __import__('ivan_campaign_ui').board(self.body,self.game,self.act)
+            return
+        if s['player']=='neo':
+            __import__('neo_campaign_ui').board(self.body,self.game,self.act)
+            return
+        if s['player']=='takeo':
+            __import__('takeo_campaign_ui').board(self.body,self.game,self.act)
+            return
+        if s['player']=='sylvanis':
+            __import__('sylvanis_campaign_ui').board(self.body,self.game,self.act)
+            return
+        if s['player']=='camila':
+            __import__('camila_campaign_ui').board(self.body,self.game,self.act)
+            return
+        if s['player']=='elias':
+            __import__('elias_campaign_ui').board(self.body,self.game,self.act)
+            return
+        if s['player']=='martos':
+            __import__('martos_campaign_ui').board(self.body,self.game,self.act)
+            return
+        if s['player']=='mavis':
+            __import__('ace_campaign_ui').board(self.body,self.game,self.act)
+            return
         if s['player']=='garrett':
             self.label('GARRETT’S STORY · Find Charles')
             __import__('charles_quest_ui').story_board(self.body,self.game,self.act)
@@ -149,7 +179,7 @@ class CampaignView(tk.Frame):
         self.label('Report a problem · describe what happened (up to 500 characters)')
         report=ttk.Entry(self.body);report.pack(fill='x',pady=3)
         ttk.Button(self.body,text='Record problem report',command=lambda:self.act(dialogue.act,selected.get(),'report',report.get())).pack(fill='x',pady=3)
-        present=[who for who,p in s['world']['cast'].items() if who!=s['player'] and p.get('location')==s['world']['location'] and not p.get('journey')]
+        present=[who for who in s['world']['cast'] if who!=s['player'] and __import__('world_loop').together(s,who)]
         self.label('Command · authorise a present visitor at this post for today')
         target=ttk.Combobox(self.body,state='readonly',values=present);target.pack(fill='x')
         if present:target.set(present[0])

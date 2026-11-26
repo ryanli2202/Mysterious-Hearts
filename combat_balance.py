@@ -26,6 +26,7 @@ def arena_profile(rank):
 # Independent authored expression: force, functional endurance, initiative, accuracy.
 # No win/lose test reads tiers. Physical Nanoengine exceeds Sylvanis's raw output.
 EXPRESSIONS={
+ 'sowon':(.91,.98,14,.02), 'kouji':(.98,1.06,1,0), 'paul':(.90,1.,4,.03), 'somchai':(1.,.96,2,-.01),
  'sylvanis':(1.95,2.45,24,.12), 'takeo':(2.15,2.15,8,.03), 'crow':(1.70,2.05,26,.13),
  'ivan':(1.32,1.40,12,.04), 'charles':(1.23,1.30,14,.07),
  'garrett':(1.15,1.20,10,.04), 'rei':(1.23,1.35,12,.05), 'neo':(1.12,1.20,12,.04),
@@ -39,6 +40,8 @@ EXPRESSIONS={
 
 
 def expression(p):
+    if p.get('historical_expression'):
+        return tuple(p['historical_expression'])
     if p.get('origin_conditioning'):
         return tuple(p['origin_conditioning'])
     if p.get('boss')=='richter': return (1.30,1.55,0,.02)

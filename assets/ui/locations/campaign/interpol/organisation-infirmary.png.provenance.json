@@ -1,0 +1,17 @@
+{
+  "id": "organisation-infirmary",
+  "method": "built-in image_gen",
+  "date": "2026-11-15",
+  "prompt": "Use case: illustration-story. Asset: landscape visual novel environment background, 1536x1024. A modest mercenary Organisation's infirmary and evacuation passage before its transformation into a criminal syndicate. Grounded industrial compound: dark grey plaster, low cots neatly folded along walls, a scuffed wooden bench, bandage tins and folded blankets, old enamel kettle, practical warm hanging lamps, reinforced service door opening onto a rain-damp courtyard at blue dawn. Empty room, no people, no blood or bodies, no symbols, no logos, no text. Eye-level wide composition, central lower foreground unobstructed for character portraits. Semi-realistic illustrated manhwa painting, delicate restrained lines, dimensional soft shading and textured material, cinematic but humane, amber interior versus cool slate courtyard. Not photorealistic, not neon sci-fi.",
+  "source": "C:/Users/ryanl/.codex/generated_images/01a1dcef-8bb8-7ea0-8a6c-2ad70d428146/exec-1111866e-2ef0-4d76-b0be-d5ec6bbed128.png",
+  "path": "assets/ui/locations/campaign/interpol/organisation-infirmary.png",
+  "sha256": "3a5cccc2f40f77d351f6ea958aa7fd36dc029b76cca84b9bcce6cdee59c8c10d",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "references": [],
+  "review": "Source image and actual in-person reader inspected. Fox identity/olive mercenary clothing and head-to-mid-thigh crop match. Environment paintings have clear staging space. Existing Kaden, conspirator and Sylvanis art reused; no civil identity exposed.",
+  "model_identity": "Not reported by the tool; no exact model claim.",
+  "provenance": "Generated for this requested game update; no external provider, login, API key, payment or publication workflow."
+}

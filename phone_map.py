@@ -13,9 +13,25 @@ import public_venues
 import vacant_homes
 import outskirts
 import crime_sites
+import campaign_markers
+__import__('interior_dorms').register()
 
 # Illustrative town geography, not real-world coordinates or travel distances.
 POINTS = {
+    'mavis_dispatch_exchange': (1370,840),
+    'martos_transfer_house': (1290,780),
+    'elias_theatre': (1160,700),
+    'camila_meridian': (1250,650),
+    'takeo_meridian': (1430,820),
+    'sylvanis_arena': (1260,760),
+    'neo_mariko': (1050, 780),
+    'neo_club': (1140, 780),
+    'neo_alfheim': (1230, 780),
+    'neo_refuge': (1050, 870),
+    'neo_yard': (1140, 870),
+    'neo_transport': (1230, 870),
+    'neo_annex': (1050, 960),
+    'ivan_network': (1180,730),
     'blackhaven': (-60,670), 'fox_hideout':(-180,800), 'fox_home':(-175,820),
     'gordon_apartments':(985,285), 'gordon_home':(1000,300),
     'martos_home':(1075,745), 'elias_home':(810,285),
@@ -33,7 +49,7 @@ POINTS = {
     'wetlands': (1010, 950), 'boxing_club': (880, 570),
     'sailing_club': (1150, 680), 'cinema': (485, 680),
     'emily_home': (350, 500), 'sophie_home': (200, 380),
-    'amy_home': (350, 120), 'minsu_home': (200, 120),
+    'amy_home': (350, 120), 'minsu_home': (200, 120), 'nest_dorm_corridor': (275,120),
     'samantha_home': (880, 950), 'april_home': (620, 120),
     'garrett_home': (200, 810), 'rei_home': (750, 240),
     'lena_home': (480, 240), 'naomi_home': (1010, 240),
@@ -91,12 +107,16 @@ def metropolitan_view(width, height, cx, cy, zoom, satellite=False):
 def places(state, query='', category='All'):
     """The same visibility gate is used for pins, search, and selection."""
     query = normalize(query.strip())
+    missions={t['building'] for t in campaign_markers.visible_targets(state)} if category=='Missions' else set()
     return {key: town.location_name(state, key) for key, label in town.LOCATIONS.items()
             if key in POINTS and town.hidden.visible_place(state, key)
+              and (key!='nest_dorm_corridor' or __import__('interiors').enabled(state,key))
+              and (not __import__('interiors').enabled(state,key) or key not in __import__('interior_compat').ROOMS)
             and (not query or query in normalize(town.location_name(state, key) + (' ' + key.replace('_', ' ') if key not in crime_sites.SITES else '')))
             and (category == 'All' or category == 'Food' and key in FOOD
                  or category == 'Outdoors' and key in GREEN
-                 or category == 'Homes' and key.endswith('_home'))}
+                 or category == 'Homes' and key.endswith('_home')
+                 or category == 'Missions' and key in missions)}
 
 
 class MapView(ttk.Frame):
@@ -137,10 +157,11 @@ class MapView(ttk.Frame):
         filters = ttk.Frame(self)
         filters.pack(fill='x', pady=(0, 7))
         self.filter_buttons = {}
-        for name in ('All', 'Food', 'Outdoors', 'Homes'):
-            button = ttk.Button(filters, text=name, width=9, command=lambda n=name: self.filter(n))
-            button.pack(side='left', padx=(0, 3))
+        for index,name in enumerate(('All', 'Missions', 'Food', 'Outdoors', 'Homes')):
+            button = ttk.Button(filters, text=('◆ Missions' if name=='Missions' else name), width=8, command=lambda n=name: self.filter(n))
+            button.grid(row=index//3,column=index%3,sticky='ew',padx=(0,3),pady=1)
             self.filter_buttons[name] = button
+        for index in range(3):filters.columnconfigure(index,weight=1,uniform='map-filters')
         self.filter_buttons['All'].state(['pressed'])
         self.map_area = tk.Frame(self, bg='#1c2433')
         # Reserve the detail card before giving the map the remaining space.
@@ -238,9 +259,10 @@ class MapView(ttk.Frame):
         found = places(self.state, self.query.get(), self.category)
         self.result_keys = sorted(found, key=lambda k: found[k])
         self.results.delete(0, 'end')
-        if self.query.get().strip():
-            for key in self.result_keys: self.results.insert('end', found[key])
-            if not found: self.results.insert('end', 'No matching locations')
+        if self.query.get().strip() or self.category=='Missions':
+            goals={t['building'] for t in campaign_markers.visible_targets(self.state)}
+            for key in self.result_keys: self.results.insert('end', (campaign_markers.MARK+' Mission · ' if key in goals else '')+found[key])
+            if not found:self.results.insert('end','No active mission destinations' if self.category=='Missions' and not self.query.get().strip() else 'No matching locations')
             self.results.config(height=min(3, max(1, len(found))))
             self.results.pack(before=self.filter_buttons['All'].master, fill='x', pady=(0, 6))
         else:
@@ -275,20 +297,27 @@ class MapView(ttk.Frame):
         people = apps.location_people(self.state)
         world = self.state['world']
         trip = world['cast'][self.state['player']]['journey']
-        stamp = (repr(people), repr(trip), world['minute'], world['location'],
-                 tuple(places(self.state).items()), tuple(world['party']))
+        stamp = (repr(people), repr(trip), world['minute'] if trip else None, world['location'],
+                 tuple(places(self.state).items()), tuple(world['party']),repr(campaign_markers.visible_targets(self.state)))
         if stamp == self.stamp:
             return
+        previous_places = getattr(self, '_known_places', None)
+        self._known_places = tuple(places(self.state).items())
         self.stamp, self.people = stamp, people
         if self.selected not in places(self.state):
             self.selected = None
         self.detail()
-        self.search()
+        if previous_places != self._known_places or self.query.get().strip() or self.category=='Missions':
+            self.search()
+        else:
+            self.draw()
 
     def detail(self):
         world = self.state['world']
         trip = world['cast'][self.state['player']]['journey']
         self.place_title.config(text=town.location_name(self.state, self.selected) if self.selected in town.LOCATIONS else 'Explore Winterfield')
+        if self.selected in public_venues.VENUES:
+            self.place_title.config(text=public_venues.VENUES[self.selected][0])
         self.place_status.config(text=('Your current location' if self.selected == world['location'] and not trip
                                       else 'Click a marker to see people and plan a drive.' if not self.selected
                                       else 'Live presence · arrivals shown separately'))
@@ -302,15 +331,23 @@ class MapView(ttk.Frame):
             self.place_status.config(text=vacant_homes.status(self.state, self.selected))
         if self.selected in crime_sites.SITES:
             self.place_status.config(text='Visit this location to inspect the frontage or enter reception. Restricted rooms require clearance.')
+        goals=campaign_markers.for_building(self.state,self.selected)
+        if goals:
+            import interiors
+            self.place_title.config(text=campaign_markers.MARK+' Mission · '+self.place_title.cget('text'))
+            self.place_status.config(text='\n'.join(t['title']+(' · '+interiors.ROOMS[t['room']].label if t['room'] else '') for t in goals))
         names = self.people.get(self.selected, [])
         present = [n for n in names if ' · On the way (' not in n]
         incoming = [n for n in names if ' · On the way (' in n]
         text = 'Here now: ' + (', '.join(present) or 'Nobody here right now')
         if incoming: text += '\nArriving: ' + '; '.join(incoming)
-        self.people_text.config(state='normal')
-        self.people_text.delete('1.0', 'end')
-        self.people_text.insert('1.0', text)
-        self.people_text.config(state='disabled')
+        if self.people_text.get('1.0', 'end-1c') != text:
+            position = self.people_text.yview()
+            self.people_text.config(state='normal')
+            self.people_text.delete('1.0', 'end')
+            self.people_text.insert('1.0', text)
+            self.people_text.config(state='disabled')
+            self.people_text.yview_moveto(position[0])
         party = ', '.join(core.contact_name(self.state, p) for p in world['party'])
         self.trip_label.config(text='Instant travel · With: ' + (party or 'Just you'))
         self.drive_button.config(text='You are here' if self.selected == world['location'] else 'Travel here',
@@ -318,7 +355,10 @@ class MapView(ttk.Frame):
 
     def drive(self):
         if self.selected in places(self.state):
-            self.phone.act(town.travel, self.selected)
+            before=self.state['world']['location']
+            self.phone.act(__import__('campaign_navigation').travel, self.selected)
+            if self.state['world']['location']!=before:
+                self.phone.game.show_in_person()
 
     def xy(self, x, y):
         return ((x - self.cx) * self.zoom + self.canvas.winfo_width() / 2,
@@ -401,7 +441,7 @@ class MapView(ttk.Frame):
                 return (a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t)
             return None
         import crime_operations
-        key = crime_operations.site_of(world['location'])
+        key = __import__('interiors').public_building(world['location']) if __import__('interiors').enabled(self.state) else crime_operations.site_of(world['location'])
         return POINTS.get(key) if key in places(self.state) else None
 
     def locate(self):
@@ -410,7 +450,7 @@ class MapView(ttk.Frame):
             self.cx, self.cy = point
             self.zoom = max(.9, self.zoom)
             import crime_operations
-            current = crime_operations.site_of(self.state['world']['location'])
+            current = __import__('interiors').public_building(self.state['world']['location']) if __import__('interiors').enabled(self.state) else crime_operations.site_of(self.state['world']['location'])
             if current in places(self.state): self.select(current)
             self.save_camera()
             self.draw()
@@ -433,8 +473,23 @@ class MapView(ttk.Frame):
     def draw(self):
         if not hasattr(self, 'canvas'): return
         c = self.canvas
-        c.delete('all')
         w, h = c.winfo_width(), c.winfo_height()
+        trip = self.state['world']['cast'][self.state['player']]['journey']
+        position = self.player_position()
+        goals={t['building'] for t in campaign_markers.visible_targets(self.state)}
+        stamp = (w, h, self.cx, self.cy, self.zoom, self.layer, self.selected,
+                 self.query.get(), self.category, tuple(places(self.state).items()),
+                 tuple((key, sum(' · On the way (' not in name for name in names))
+                       for key, names in self.people.items()),
+                 (trip['origin'], trip['destination']) if trip else None, bool(position),tuple(sorted(goals)))
+        if stamp == getattr(self, '_draw_stamp', None):
+            if position:
+                x, y = self.xy(*position)
+                for item, radius in zip(c.find_withtag('player-position'), (13, 7)):
+                    c.coords(item, x-radius, y-radius, x+radius, y+radius)
+            return
+        self._draw_stamp = stamp
+        c.delete('all')
         satellite = self.layer == 'Satellite'
         c.config(bg='#777c7b' if satellite else '#1c2433')
         terrain = metropolitan_view(w, h, self.cx, self.cy, self.zoom, satellite)
@@ -502,7 +557,7 @@ class MapView(ttk.Frame):
         occupied = []
         # Selected marker is drawn last, and its label takes priority.
         order = sorted(shown, key=lambda key: key == self.selected)
-        label_order = sorted(shown, key=lambda key: key != self.selected)
+        label_order = sorted(shown, key=lambda key: (key != self.selected,key not in goals))
         for key in order:
             x, y = self.xy(*POINTS[key])
             if not (-30 < x < w + 30 and -30 < y < h + 30): continue
@@ -510,6 +565,8 @@ class MapView(ttk.Frame):
             radius = 10 if key == self.selected else 7
             if key == self.selected:
                 c.create_oval(x-15, y-15, x+15, y+15, fill='#354d69', outline='#99c4ed', width=2)
+            if key in goals:
+                c.create_polygon(x,y-19,x+19,y,x,y+19,x-19,y,fill='#263247',outline='#e1bc78',width=3,tags='campaign-marker')
             c.create_oval(x-radius, y-radius, x+radius, y+radius, fill=color, outline='#a4b8d0', width=2)
             c.create_oval(x-2, y-2, x+2, y+2, fill='#a4b8d0', outline='')
             self.hitboxes.append((key, x, y))
@@ -520,13 +577,14 @@ class MapView(ttk.Frame):
         for key in label_order:
             x, y = self.xy(*POINTS[key])
             if not (15 < x < w-70 and 10 < y < h-15): continue
-            if self.zoom < .55 and key != self.selected: continue
+            if self.zoom < .55 and key != self.selected and key not in goals: continue
             label = (town.location_name(self.state, key).split(' · ')[0] if key in crime_sites.SITES
                      else SHORT.get(key, town.LOCATIONS[key].split(' · ')[0]))
             if self.state.get('custom_protagonist', {}).get('home') == key:
                 label = 'Your home'
+            if key in goals:label=campaign_markers.MARK+' Mission · '+label
             if key.endswith('_home') and key not in SHORT: label = label.split('’')[0] + '’s home'
-            item = c.create_text(x+14, y+5, text=label, anchor='nw', fill='#a4b8d0' if satellite else '#a4b8d0', font=('Segoe UI', 9, 'bold' if key == self.selected else 'normal'))
+            item = c.create_text(x+14, y+5, text=label, anchor='nw', fill='#e1bc78' if key in goals else '#a4b8d0', font=('Segoe UI', 9, 'bold' if key == self.selected or key in goals else 'normal'))
             box = c.bbox(item)
             if key != self.selected and any(box[0] < b[2]+6 and box[2] > b[0]-6 and box[1] < b[3]+5 and box[3] > b[1]-5 for b in occupied):
                 c.delete(item)
@@ -538,8 +596,8 @@ class MapView(ttk.Frame):
         position = self.player_position()
         if position:
             x, y = self.xy(*position)
-            c.create_oval(x-13, y-13, x+13, y+13, fill='#354d69', outline='')
-            c.create_oval(x-7, y-7, x+7, y+7, fill='#1a73e8', outline='#a4b8d0', width=2)
+            c.create_oval(x-13, y-13, x+13, y+13, fill='#354d69', outline='', tags='player-position')
+            c.create_oval(x-7, y-7, x+7, y+7, fill='#1a73e8', outline='#a4b8d0', width=2, tags='player-position')
         caption = 'simulated aerial' if satellite else 'illustrated map'
         c.create_text(w-8, h-7, anchor='se', text=f'Winterfield · {caption} · {round(self.zoom*100)}%',
                       fill='#edf2df' if satellite else '#b2c1cd', font=('Segoe UI', 8))

@@ -148,6 +148,9 @@ def celebrate(s, title, companion=None, activity_choice=None):
         if outing and outing.title == title:
             if s['world']['location'] != outing.venue:
                 raise ValueError('Travel to ' + town.LOCATIONS[outing.venue] + ' in Town first.')
+            __import__('interior_activities').require(s,{'noodle_shop':'noodle_shop__dining_room',
+                'sailing_club':'sailing_club__rigging_workshop' if __import__('weather').shelter(s['world']['minute']) else 'sailing_club__launch',
+                'cinema':'cinema__ticket_foyer'}.get(outing.venue))
             if companion not in outing_companions(s) or activity_choice not in outing.activities:
                 raise ValueError('Choose a friend or partner and one of the listed activities.')
             if companion in s['routes'] and hidden_cast.contact(s, companion):

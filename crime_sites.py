@@ -69,6 +69,9 @@ def _guard(s, location):
     if actor.get('journey') or s['world']['location'] != location or actor['location'] != location:
         raise ValueError('Visit '+('the public frontage' if location in SITES else
                          'the old town archive' if location == 'archive' else 'Interpol’s public desk')+' first.')
+    if __import__('interiors').enabled(s,location):
+        target=location+'__frontage' if location in SITES else 'archive__reading_records_room' if location=='archive' else 'interpol_hq__public_lobby_verification_desk'
+        __import__('interior_activities').require(s,target)
 
 
 def _entry(s, key):

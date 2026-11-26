@@ -1,19 +1,22 @@
 # MH-001 combat animation batch 08
 
+> **Withdrawn 2026-11-13.** All GIFs, sprite sheets, combined preview and contact image from this batch were removed for the combat animation reset. The manifest and this README are historical production evidence; paths below are retired, and rebuild commands are historical only. No runtime integration or release is claimed. Future work follows the [combat animation style guide](../../../../roadmap/COMBAT_ANIMATION_STYLE_GUIDE.md).
+
+
 Eight Sanda/Jeet Kune Do master sprite sheets generated first with built-in image_gen, then sliced into GIFs locally with Pillow. [The manifest](manifest.json) preserves exact prompts, source paths and source/output hashes. Exact generator model identity is unverified.
 
-Open [the combined animated preview](batch-08-preview.gif).
+Open the combined animated preview (retired path: `batch-08-preview.gif`).
 
 | Move | GIF | Sprite sheet |
 | --- | --- | --- |
-| storm bridge | [GIF](gifs/storm-bridge.gif) | [PNG](spritesheets/storm-bridge.png) |
-| sky catch reversal | [GIF](gifs/sky-catch-reversal.gif) | [PNG](spritesheets/sky-catch-reversal.png) |
-| horizon breaker | [GIF](gifs/horizon-breaker.gif) | [PNG](spritesheets/horizon-breaker.png) |
-| cyclone sweep | [GIF](gifs/cyclone-sweep.gif) | [PNG](spritesheets/cyclone-sweep.png) |
-| stillpoint intercept | [GIF](gifs/stillpoint-intercept.gif) | [PNG](spritesheets/stillpoint-intercept.png) |
-| vanishing line | [GIF](gifs/vanishing-line.gif) | [PNG](spritesheets/vanishing-line.png) |
-| one beat thunder | [GIF](gifs/one-beat-thunder.gif) | [PNG](spritesheets/one-beat-thunder.png) |
-| empty rhythm | [GIF](gifs/empty-rhythm.gif) | [PNG](spritesheets/empty-rhythm.png) |
+| storm bridge | GIF (retired path: `gifs/storm-bridge.gif`) | PNG (retired path: `spritesheets/storm-bridge.png`) |
+| sky catch reversal | GIF (retired path: `gifs/sky-catch-reversal.gif`) | PNG (retired path: `spritesheets/sky-catch-reversal.png`) |
+| horizon breaker | GIF (retired path: `gifs/horizon-breaker.gif`) | PNG (retired path: `spritesheets/horizon-breaker.png`) |
+| cyclone sweep | GIF (retired path: `gifs/cyclone-sweep.gif`) | PNG (retired path: `spritesheets/cyclone-sweep.png`) |
+| stillpoint intercept | GIF (retired path: `gifs/stillpoint-intercept.gif`) | PNG (retired path: `spritesheets/stillpoint-intercept.png`) |
+| vanishing line | GIF (retired path: `gifs/vanishing-line.gif`) | PNG (retired path: `spritesheets/vanishing-line.png`) |
+| one beat thunder | GIF (retired path: `gifs/one-beat-thunder.gif`) | PNG (retired path: `spritesheets/one-beat-thunder.png`) |
+| empty rhythm | GIF (retired path: `gifs/empty-rhythm.gif`) | PNG (retired path: `spritesheets/empty-rhythm.png`) |
 
 Each sheet is 1536x1024 with six 512x512 cells in row-major order. Each GIF uses six 150ms action frames (900ms) plus a 720ms blank review pause, repeating every 1620ms. These are opaque dark-slate keyframe previews, not transparent overlays or seamless loops.
 

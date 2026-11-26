@@ -247,6 +247,7 @@ def fresh(player='garrett'):
             'player': player, 'active': 'valentina' if player == 'ivan' else 'emily', 'turn': 0,
             'routes': {key: {'history': [], 'memory': '', 'scene': '', 'dialogue': '', 'choices': [], 'channel': 'text'} for key in CONTACTS}}
     if playable_cast.is_new(player): playable_cast.seed(__import__(__name__), state)
+    if player=='takeo':__import__('takeo_campaigns').seed(state)
     town.ensure(state, start_minute=8*60)
     __import__('combat').ensure(state)
     return state
@@ -367,6 +368,7 @@ def save(state, path=SAVE):
     import memory_store
     import save_system
     if state is None: return
+    __import__('guard_dialogue').migrate(state)
     memory_store.sync(state)
     save_system.write(state, Path(path), SAVE)
 
@@ -415,6 +417,8 @@ def load(path=SAVE):
     __import__('combat').ensure(state)
     __import__('combat').enforce(state)
     __import__('guard_dialogue').migrate(state)
+    __import__('ace_campaigns').repair_historical_kit(state)
+    __import__('historical_combat').repair(state)
     return state
 
 def request(path, body=None, timeout=300):

@@ -25,6 +25,9 @@ def resolve(s,who,location=None):
         if who=='Joseph Richter' and (e.get('scope')=='rei:richter' or f.get('opponent_profile',{}).get('portrait')=='richter_cybernetic'):
             return path('richter_cybernetic')
         ident=f.get('opponent_profile',{}).get('portrait')
+        # Older saved Interpol fights predate the role-art profile field.
+        if not ident and f.get('kind')=='interpol' and who.startswith('interpol:'):
+            ident=__import__('interpol_cases').OPPOSITION_PORTRAITS.get(who.split(':',1)[1])
         if ident in IDS:return path(ident)
         # Active encounters created before the art update still have a saved slot.
         ident=type_id(s,(e.get('slot') or {}).get('type'))

@@ -83,11 +83,13 @@ def location_people(s):
         trip = actor.get('journey')
         place = trip['destination'] if trip else actor['location']
         if not town.hidden.visible_place(s, place): place = 'private'
+        elif __import__('interiors').enabled(s,place):place=__import__('interiors').public_building(place)
         if trip:
             name += f" · On the way ({max(0, trip['arrives'] - world['minute'])} min)"
         locations.setdefault(place, []).append(name)
     for name in world.get('npcs', []):
-        locations.setdefault(world['location'], []).append(name)
+        place=__import__('interiors').public_building(world['location']) if __import__('interiors').enabled(s) else world['location']
+        locations.setdefault(place, []).append(name)
     return locations
 
 def frequency(who):

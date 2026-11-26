@@ -42,6 +42,8 @@ class SimulationClock:
         self.last = now
         world = state['world']
         if state.get('combat',{}).get('active') or state.get('campaign_dialogue') or state.get('flashback_visit'): return 0
+        if state.get('sylvanis_campaign',{}).get('session'):return 0
+        if any(state.get('ace_campaigns',{}).get(who,{}).get('session') for who in ('mavis','martos','elias')):return 0
         selected = mode(state)
         if selected == 'paused': return 0
         base_rate = 1440 / (DAY_LENGTHS[selected] * 60)

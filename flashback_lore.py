@@ -58,5 +58,8 @@ def profile(era_key,who):
 
 def display_people():
     """Names for the visit UI, sourced from the same school reference sheets."""
-    return {who:dict(name=person['name'],age=person['age'])
-        for key in ('school','hong-kong-school') for who,person in era(key)['characters'].items()}
+    people={}
+    for key in _load()[0]['eras']:
+        for who,person in era(key)['characters'].items():
+            people.setdefault(who,dict(name=person['name'],age=person['age']))
+    return people

@@ -4,7 +4,7 @@ Amounts and work rewards are sandbox balance, not claims about canonical wealth.
 Story campaigns can be attached later without changing these stable character IDs.
 """
 ORIGINAL = ('garrett', 'rei', 'minsu', 'ivan')
-EXCLUDED = frozenset(('charles', 'thirteen', 'takeo', 'crow'))
+EXCLUDED = frozenset(('charles', 'thirteen', 'crow'))
 
 
 def setup(venue, title, money, pay, hours, project, tasks, home, accent='#80c6ba', private=False):
@@ -81,6 +81,8 @@ STARTS = {
         ('Solve a chess problem', 'Read an architecture study', 'Review a personal budget'), '#9eafd2', True),
 }
 
+STARTS['takeo']=setup('site_01_briefing','Shinokami supreme command',120000,0,(0,24),'Empire of One',('Review an adverse strength return.','Inspect the independent supply ledger.','Set one feasible command objective.'),('Review private command reports','Inspect the armoury','Observe supervised training'),'#b97a82',True)
+
 STARTS.update(
     fox=setup('blackhaven','Blackhaven patrol and liaison',32000,350,(10,24),'Neighbourhood protection review',
         ('A resident has an incomplete account of an incident.','A physical trace needs independent corroboration.','Patrol coverage leaves a residential street exposed.'),
@@ -92,6 +94,7 @@ STARTS.update(
 # The three choices feed craft, collaboration and autonomy respectively, but
 # their actions belong to this person's work rather than a generic job prompt.
 DECISIONS = {
+    'takeo':('Correct the actual strength return','Require independent countersignature','Narrow the order to an achievable objective'),
     'yuriko': ('Rebuild the model at a smaller scale', 'Compare designs with the workshop group', 'Choose a simpler set that you can finish'),
     'emily': ('Rebalance the stems and colours', 'Ask the customer what matters most', 'Offer a smaller arrangement within the budget'),
     'sophie': ('Refine your stride and split targets', 'Review the session with a training partner', 'Shorten the session to protect recovery'),

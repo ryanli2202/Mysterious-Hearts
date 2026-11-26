@@ -42,6 +42,10 @@ class WorkplaceView(ttk.Frame):
         ttk.Label(self, text='Choose an activity below. Opening this workplace does not spend time or start work. '
                   'Shift decisions and reviews happen here; leaving does not pause an active shift or project deadline.',
                   wraplength=850).pack(fill='x', pady=4)
+        if __import__('interiors').enabled(game.state_data):
+            from interiors_ui import RoomPanel
+            self.rooms = RoomPanel(self, game)
+            self.rooms.refresh()
         content = ttk.Frame(self); content.pack(fill='both', expand=True)
         from job_apps_ui import JobBoard
         self.board = JobBoard(SimpleNamespace(game=game), content, in_person=True,

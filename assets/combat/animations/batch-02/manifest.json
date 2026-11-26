@@ -2,7 +2,7 @@
   "roadmap_id": "MH-001",
   "batch": 2,
   "created": "2026-11-10",
-  "status": "8 local sprite sheets and GIFs assembled and structurally verified; runtime integration pending.",
+  "status": "Withdrawn 2026-11-13: prior review sheets, GIFs, preview and contact removed; runtime integration remains pending.",
   "generation_tool": "built-in image_gen",
   "model_verification": "Tool does not expose a model selector or verified model identifier.",
   "workflow": "Generate sprite sheets first, then slice and encode locally using Pillow.",
@@ -46,7 +46,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "c8b4333ffefc9d745ea091aa3b558e87b308bad9b242392da49ef9b0e1c81b0f",
         "sha256_gif": "82e74011826dbe3cb8b665576a42c97a1ab15ae8b7c5665de8ae3f4d012f1060"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B02-dodge",
@@ -80,7 +81,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "e38a98cdff4878a340143d80e361f5db14f26d2ced128c082570eeb7c33a8630",
         "sha256_gif": "d4ad924c07aeccf73cf0b83aa3f87cd5f0ccc0aceddeed1767bee55fec5f3511"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B02-miss",
@@ -114,7 +116,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "13956fe15a86d69925a042ec52d3b5a0256dc7618c4dc162c80ecfb0970d9a4a",
         "sha256_gif": "87fbb4b3e0412b9712ee0efd408488c8628f51e4cc00ca3f18e5849cb40693b5"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B02-critical-emphasis",
@@ -148,7 +151,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "6fa70f8f2f0a41c2c2ecc639d5e17845777c0373b81f8b8d82db554cd401a3c9",
         "sha256_gif": "e8c1f7be2a088fe6203f7df460b1455c5cabb8d9ab01eb5fdd4f76c19cb59494"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B02-casting-glow",
@@ -182,7 +186,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "b8a155a4baca8267b412b6fd2c957535b510b3d2bd0e743770dfbe63132c0835",
         "sha256_gif": "6738c8654700d08642f1f4970596ba6c7850cf288eca8378dacc6c73d7dd2f4d"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B02-buff-particles",
@@ -216,7 +221,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "173647f87c7cfb83cdd7c14985c48f58d91f29bee7bcf8ab8ffd691457a1b3ac",
         "sha256_gif": "7326627a1a20c471f82f7a4904354181b8e5c515c27a69dd83070173f43ded81"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B02-recoil",
@@ -250,7 +256,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "2b549df50095ccc03ec39b14e739f59c6052d1122d3bb1dfc807b4a2186643d1",
         "sha256_gif": "5fdd6a52388bc25e59c44eeb37ceeeafddfc24f473b37f09c4a461efe6cbefe1"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B02-weapon-trails",
@@ -284,8 +291,15 @@
         "loop": "infinite preview",
         "sha256_sheet": "d45939bea78228c50788ee1c5a4d688941eed872eebb8dbe2ba5c0258a3e45aa",
         "sha256_gif": "9bd6ec3feb3b12637c0d46648fa77611d1cf3cdd33b5d612e2c27ac39f1d438f"
-      }
+      },
+      "available": false
     }
   ],
-  "validation_command": "python tools/build_combat_batch_gifs.py --batch 2"
+  "validation_command": "python tools/build_combat_batch_gifs.py --batch 2",
+  "withdrawn": true,
+  "availability": "withdrawn",
+  "withdrawn_on": "2026-11-13",
+  "withdrawal_reason": "User-requested combat animation artwork reset; historical paths and verification are retained, files removed.",
+  "style_guide": "roadmap/COMBAT_ANIMATION_STYLE_GUIDE.md",
+  "validation_command_status": "Historical command only; this manifest is withdrawn and the builder rejects it."
 }

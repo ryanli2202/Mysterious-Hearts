@@ -1,0 +1,17 @@
+{
+  "id": "fox-mourning-workbench",
+  "method": "built-in image_gen",
+  "date": "2026-11-15",
+  "prompt": "Use case: illustration-story. Asset: wide visual novel background, 1536x1024. A contemporary vigilante's converted workshop hideout in a rainy city: dark brick walls, battered wooden workbench, old plain olive mercenary coat carefully folded on a chair, solitary plain metal mug set beside a second unused mug, field equipment stored neatly, a stopped small portable radio, low warm desk lamp, rain on high windows. A room kept functional by a man mourning an old leader. No visible documents with legible words, no portraits/photos, no people, no blood, no logos. Eye-level wide composition; leave clear central foreground for two standing character portraits. Semi-realistic illustrated manhwa, restrained linework, soft dimensional shadows, deep slate and warm amber, intimate and unsentimental. Not photorealistic.",
+  "source": "C:/Users/ryanl/.codex/generated_images/01a1dcef-8bb8-7ea0-8a6c-2ad70d428146/exec-438c83e8-78bc-4841-87d4-425829b62df4.png",
+  "path": "assets/ui/locations/campaign/interpol/fox-mourning-workbench.png",
+  "sha256": "3c0d02d8f5c062df4b8c8c63406023a9065b5545164a48e85105f7bd75ada5ac",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "references": [],
+  "review": "Source image and actual in-person reader inspected. Fox identity/olive mercenary clothing and head-to-mid-thigh crop match. Environment paintings have clear staging space. Existing Kaden, conspirator and Sylvanis art reused; no civil identity exposed.",
+  "model_identity": "Not reported by the tool; no exact model claim.",
+  "provenance": "Generated for this requested game update; no external provider, login, API key, payment or publication workflow."
+}

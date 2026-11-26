@@ -1,0 +1,19 @@
+{
+  "id": "onami_courtyard",
+  "type": "location",
+  "path": "assets/ui/locations/campaign/takeo/onami_courtyard.png",
+  "original": "media-workspace/takeo/originals/exec-8261c69e-4656-40f4-bf1d-1ef609f7317e.png",
+  "prompt": "ONE 16:9 wide game location background painting: Onami military headquarters courtyard between 2024 and 2027, rain-washed stone courtyard with timber-and-concrete administration buildings, closed gates, muted morning sky, no soldiers or weapons display. Semi-realistic illustrated manhwa, restrained linework, softly dimensional painted shading, not photo/3D/cel cartoon. No people, readable text, logos or watermark. Clear room geography, open portrait staging foreground, charcoal/slate palette with restrained warm practical light.",
+  "references": [],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "8ee5ea8760784739162338770d0daea68c1d0fa88924698ec07809eb38cadd99",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "alpha_extrema": null,
+  "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+  "reference_hashes_measured_at_release_review": {}
+}

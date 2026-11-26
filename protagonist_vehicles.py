@@ -1,6 +1,7 @@
 """Player garages for the expanded cast; capacities are game passenger limits."""
 
 GARAGES = {
+    'takeo': {'Command utility vehicle': (5, 'a maintained charcoal command utility vehicle; campaign transport, not a spendable faction asset')},
     'fox': {'Unmarked utility car': (5, 'a weathered dark utility car with maintained field equipment')},
     'gordon': {'Interpol duty sedan': (5, 'a navy regional Interpol duty sedan')},
     'yuriko': {'Suzuki Swift': (5, 'the violet Swift with a theatre-model case in the boot')},

@@ -1,0 +1,8 @@
+{
+  "id": "campaign-school-track",
+  "prompt": "Create one opaque 1536x1024 landscape reusable semi-realistic manhwa game background for Mysterious Hearts. Match the supplied location reference's rendering language and compatible architecture, not its exact camera. The quiet edge of this school's modest sports ground, track lane and grass, benches, trees and a visible gate back toward the school courtyard. No people, stadium crowd, professional branding, medals or scores. An ordinary 2046-2047 school break. Eye-level stage composition, believable doors and open central floor for reusable transparent character layers; lower third quiet for runtime reading area. No UI, captions, speech bubbles, watermark, logos, baked-in writing, decorative glyphs or people.",
+  "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ceb4-8567-7891-b908-9e00449056e7\\exec-aa5d10f9-663e-413d-bc51-ff91b5e7033f.png",
+  "method": "built-in image_gen",
+  "review": "Accepted: source image and actual embedded historical room/stage rendering inspected; evidence in roadmap/CAMPAIGN_PRESENTATION_RUNTIME.md.",
+  "sha256": "31f0bd46859e71c2cb30ccd52503c045b9568e7b6c23d4df95af3a9ed38664b5"
+}

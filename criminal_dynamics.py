@@ -28,6 +28,7 @@ def research_access(who, state=None):
 
 
 def faction(who):
+    if who in __import__('ivan_generals').IDS:return 'syndicate'
     if who in INNER or who == 'valentina': return 'syndicate'
     if who in ('takeo', 'thirteen', 'Keisuke Hachimura'): return 'shinokami'
     if who == 'garrett': return 'dragons'
@@ -85,8 +86,12 @@ def laboratory_briefing(s):
     if (not research_access(s['player'], s) or s['world']['location'] != LAB
             or actor['location'] != LAB or actor.get('journey')):
         raise ValueError('Review these records in person at the Glasshouse with Jack-rank or personal clearance.')
+    import interiors
+    if interiors.enabled(s,LAB) and interiors.room(s) not in ('glasshouse_lab__private_review_reunion_room','glasshouse_lab__records_room'):
+        raise ValueError('Review the records in the private review room or cleared records room.')
     if any(not lab_access(who, s) for who, person in s['world']['cast'].items()
-           if person['location'] == LAB and not person.get('journey')):
+             if person['location'] == LAB and not person.get('journey')
+             and (not interiors.enabled(s,LAB) or interiors.same_room(s,s['player'],who))):
         raise ValueError('Defer this private briefing while an uncleared listener is present.')
     text = DRUGS + '\n\n' + SUPPLY
     present = [who for who, person in s['world']['cast'].items()
@@ -108,5 +113,10 @@ def reconcile_lab_access(s):
 def private_audience(state):
     if not state or state.get('world', {}).get('location') != LAB: return True
     world = state['world']
+    import interiors
+    if interiors.enabled(state,LAB):
+        return (interiors.room(state)=='glasshouse_lab__private_review_reunion_room'
+                and not __import__('interior_presence').count(state,interiors.room(state))
+                and all(who in INNER for who in interiors.occupants(state,interiors.room(state))))
     return not world.get('npcs') and all(who in INNER for who, actor in world['cast'].items()
         if actor['location'] == LAB and not actor.get('journey'))

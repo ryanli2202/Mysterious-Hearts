@@ -1,0 +1,19 @@
+{
+  "id": "early_gallery",
+  "type": "location",
+  "path": "assets/ui/locations/campaign/takeo/early_gallery.png",
+  "original": "media-workspace/takeo/originals/exec-e5eb6eb0-e84c-4705-a994-b005f0e39256.png",
+  "prompt": "ONE 16:9 wide game location background painting: Early Shinokami training observation gallery after 2027, elevated narrow gallery behind reinforced glass overlooking an EMPTY training hall with plain mats, no apparatus for restraint, no people or procedures, dim slate steel architecture. Semi-realistic illustrated manhwa, restrained linework, softly dimensional painted shading, not photo/3D/cel cartoon. No people, readable text, logos or watermark. Clear room geography and open portrait staging foreground.",
+  "references": [],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "a7d2c95b699f0eed5f49a1eb01f4cefb6c1874883fb581d2fde53a0f36a3a608",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "alpha_extrema": null,
+  "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+  "reference_hashes_measured_at_release_review": {}
+}

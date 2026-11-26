@@ -35,9 +35,9 @@ All three can become friends through regular conversations. Each has an optional
 
 Ivan is 24, stands 193 cm tall, and celebrates his birthday on March 4. His MBTI is ISTP. Onstage he can hold a stadium through the silence before a chorus. Offstage he would happily spend an afternoon alone, taking a sticking piano key apart. He rehearses until he can land either half of a duet, a habit Valentina exploits whenever karaoke night needs a last-minute partner.
 
-His mother used to keep the kitchen radio on while he trained. Ivan first worked out how to sing harmony by following the bass line between rounds. Years of training in striking, throws, grappling and weapons made him a master of all martial arts. Choreographers hired him to teach performers how to fall. One of them heard him sing while they reset the mats and offered him a microphone.
+A Korean company engineered Ivan from the fetal stage for a strong Awakened with Conduit, then sold him at birth to the Conclave’s Russian affiliate. Intensive martial training made him exceptional. Brief permitted intervals with Valentina mattered because they could choose something small together. Exact childhood ages, parents and adoption arrangements remain unassigned.
 
-By day he is a famous K-pop idol with rehearsals, recording sessions and modelling shoots. By night he works as the Syndicate’s Joker Card, a high executive trusted to settle disputes between its branches. He took their money to get out of an abusive early management contract. He stayed long enough to sign off on threats himself. He wants out and knows some of the people he hurt will still want answers after he leaves. His criminal work is private. Familiarity with his music gives an acquaintance no knowledge of his rank.
+At eighteen he was traded to the Syndicate and appointed its second Joker Card. His permitted daytime K-pop career is real creative work, with rehearsals, recordings and modelling, inside continuing control. He never freely chose that control and cannot simply leave it. The superseded account in which Syndicate music-contract rescue money first recruited him is not his origin. He is also responsible for threats and coercive expansion he later authorised; captivity does not excuse the harm. His criminal work and rank remain private around outsiders.
 
 Freedom matters most to him. He keeps one hour on his calendar blank and writes songs there that nobody has bought. Protecting his family can bring out his worst habit, making a decision on someone else’s behalf. His younger adoptive sister Valentina once made him sit through an entire boat repair with his hands in his pockets after he tried to dismiss the mechanic she had hired. These days he asks whether she wants him to bring tools or lunch. They trust each other deeply and share a strictly familial bond.
 
@@ -49,7 +49,7 @@ Ivan and Valentina live together in the Ferry Signal House. The old signal windo
 
 Mina Cho, Ivan’s personal driver, brings a midnight-blue Bentley Flying Spur Mulliner to the ferry steps. He usually takes the rear seat and marks up a score between appointments. A little sailboat from Valentina hangs from the mirror. Mina brings the passenger van for a larger party.
 
-Within the Syndicate, Ivan holds the Black and White Joker Card. His affiliates operate across Russia and Asia. His adoptive sister Valentina is one of his five generals, the Queen of Wind, with the Deathwind Trait. Both siblings already know their command roles; those roles remain private around outsiders. He answers to the Cardmaster and can call on all Four Suits. His fellow executive Sylvanis holds the Coloured Joker Card and serves as second-in-command. When Ivan asked to leave, Sylvanis showed him an order bearing Ivan’s signature and asked which newspaper should get the original. Ivan still has Sylvanis’s number. He would recognise that voice anywhere.
+Within the Syndicate, Ivan holds the Black and White Joker Card. His affiliates operate across Russia and Asia. His adoptive sister Valentina is one of his five generals, the Queen of Death, with the Deathwind Trait. Both siblings already know their command roles; those roles remain private around outsiders. He answers to the Cardmaster and can request support through the existing command structure; he cannot command the Four Aces. His fellow executive Sylvanis holds the Coloured Joker Card and serves as second-in-command. When Ivan asked to leave, Sylvanis showed him an order bearing Ivan’s signature and asked which newspaper should get the original. Ivan still has Sylvanis’s number. He would recognise that voice anywhere.
 
 ### Garrett Han
 
@@ -76,25 +76,13 @@ After their parents died, Charles tried to make their mother's noodles from the 
 
 Charles worked early shifts. Getting himself to school gave Garrett plenty of time to decide whether he felt like going. He loved martial arts practice and would cross Hong Kong for a chance to spar with somebody good. He also liked the ten minutes after a fight when everybody wanted to walk beside him. By sixteen he'd beaten the toughest student each school could put up. Boys he'd never met were slipping out of class to follow the Flaming Prince. His childhood friend April was still willing to beat him at chess in front of them. He once asked her to let him resign gracefully. She made him tip his own king over.
 
-#### Seventeen, behind Mrs Lau's shop
+#### Sixteen, outside his Hong Kong school
 
-The evening Charles beat him up, Garrett was sitting on an overturned drinks crate eating a free pear. Earlier that afternoon a delivery boy had asked Garrett's friends to move their bikes from the entrance to Mrs Lau's fruit shop. Garrett had hooked a foot around the boy's trolley as he pulled it past. Two trays of pears went down the kerb. His friends were still telling the story when Charles arrived in his work shirt and picked a price sticker off Garrett's sleeve.
+Garrett was sixteen. Charles, twenty-one, waited outside Garrett's Hong Kong school after hearing how he had united the school crews through violence. Garrett wanted his brother to be impressed. He enjoyed the following he had gained, and mistook frightened compliance for respect. Charles challenged him about the people he had beaten. When Garrett tried to push past, Charles caught his arm, struck him, knocked him down and hit him again before stopping.
 
-“How much do you owe her?”
+Garrett refused his offered hand. “Is that how you teach me not to fight?” Charles acknowledged plainly that he had hurt his brother and was wrong. Fear after their parents' deaths explained his need to control everything; it did not justify the assault. Garrett could want Charles beside him without approving of what he had done. Charles apologised, agreed he also had to learn responsibility without ownership, and went home with him to get the bruise looked at.
 
-Garrett looked at his audience. “Put it on my account.”
-
-Charles took the pear out of his hand. “Get up.”
-
-Garrett got up grinning. He'd spent a year waiting for somebody to give him a decent fight. He caught Charles cleanly across the cheek. Charles crowded him against the shutter, hit him twice in the ribs and put him down. Garrett scrambled up and tried again. A minute later he was back on the concrete with a split lip, one eye closing and absolutely no desire to get up a third time. Charles sat beside him, breathing hard. The boys gathered their bikes. One remembered to take the empty crate back inside.
-
-“I used to send you here with a note for groceries,” Charles said. “Today she rang me to ask if it was safe to send that kid back for his trolley.”
-
-Garrett had an excellent answer ready for anyone who called him a delinquent. He had no answer for Mrs Lau having to make that call. After a while he asked Charles where he'd learned to fight like that.
-
-“Same place you did. You think they opened the gym the day you turned up?”
-
-Garrett laughed and his lip opened again. For years afterward, whenever somebody asked who'd given the Flaming Prince his worst beating, he answered “My big brother” with unmistakable pride. Charles had walked alone into a whole crowd wearing Garrett's colours and taken him on. Garrett admired him for that. He also remembered that Charles made him go into the shop alone to settle up. Mrs Lau took his money and told him the delivery boy's name was Kit. Apologising to Kit the following morning, without Charles there to get him started, was the part Garrett found hard.
+This is the single formative confrontation used by the campaign and historical school scene. The superseded seventeen-year-old fruit-shop account is not another event. April is not established as a witness to the school assault or as knowing its private dialogue. Garrett admires Charles's strength and ability to protect people, not the beating. Charles has long been regarded as the Red Dragons' strongest member; Garrett's adult swagger conceals how often he still compares himself unfavourably with him.
 
 #### The last call from Hong Kong
 
@@ -108,7 +96,7 @@ At the Golden Dragon, Garrett gives the first bowl from a fresh batch to whichev
 
 Rei first came in after a modelling shoot and drew the one dumpling Garrett had split. These days Garrett can tell how a service went by what's on the back of Rei's receipt. His favourite sketch is of his own hand stealing a dumpling off Rei's plate. It's taped inside the till drawer. When a lead about Charles dries up, Garrett sometimes texts him three words after closing. “Hungry tonight, bro?” Rei knows Garrett keeps enough dough for two.
 
-After dark Garrett runs the Red Dragons from a private lounge. He likes being the man people come to for a decision, a pleasure he recognises from sixteen and still has trouble giving up. One evening a young runner laughed at a joke Garrett knew was lousy. Watching the boy check his face for permission to stop, Garrett heard the laugh from behind Mrs Lau's shop again. He cut the meeting short. He still went back the following night. Which parts of the Flaming Prince he is willing to leave behind is a live question for him.
+After dark Garrett runs the Red Dragons from a private lounge. He likes being the man people come to for a decision, a pleasure he recognises from sixteen and still has trouble giving up. One evening a young runner laughed at a joke Garrett knew was lousy. Watching the boy check his face for permission to stop, Garrett remembered the school followers who had watched him just as carefully. He cut the meeting short. He still went back the following night. Which parts of the Flaming Prince he is willing to leave behind is a live question for him.
 
 At home in the hills he has a garage full of beautiful cars and a kitchen drawer that sticks because the old teacup is too tall for it. He could move it. He likes having to put his thumb inside the rim to get it out.
 
@@ -409,8 +397,8 @@ Game portrait: `assets/portraits/emily-selection.png` — transparent waist-up p
 | MBTI | INFJ |
 | Personality | Highly intelligent, logical, and focused on details; rarely flirts |
 | Dating preference | Values clear intentions and trust; less open than Samantha to casual non-exclusive dating |
-| Intelligence | A genius; the smartest person on the planet, though nobody knows |
-| Family | Her parents died when she was younger |
+| Intelligence | Polymath: exceptional cognition, pattern recognition and tactical synthesis from observed evidence. Requires information, preparation and collaborators; no omniscience, instant physical mastery or established universal intelligence ranking. |
+| Family | Born in Taiwan to two enslaved parents, taken into Shinokami captivity and herself enslaved; escaped during an Interpol siege. She continues searching for her parents, whose whereabouts and fate remain unknown. Exact ages, rescuer and connection to her Hong Kong childhood remain unspecified. This private history is not automatically known to other characters. |
 | Interests | Chess and science |
 | Relationship with Garrett | His childhood friend in Hong Kong. They moved together to Winterfield when Garrett was eighteen. |
 

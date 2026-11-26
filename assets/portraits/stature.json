@@ -2,6 +2,15 @@
   "roadmap_id": "MH-013",
   "recorded": "2026-11-11",
   "scope": "89 contemporary characters and 18 guard roles. Preserve original authored heights and explicit user heights. Remaining display defaults vary within 175-180 cm male / 160-165 cm female. Dialogue disclosure rules and custom saved heights are unchanged.",
+  "historical_characters": {
+    "takeo-kazama": {
+      "height_cm": 193,
+      "basis": "explicit user height",
+      "profile": "male",
+      "source": "User correction, 2026-11-15: Shinzo Kazama is 193 cm tall.",
+      "master_path": "assets/portraits/takeo-kazama.png"
+    }
+  },
   "characters": {
     "ada-mensah": {
       "height_cm": 164,

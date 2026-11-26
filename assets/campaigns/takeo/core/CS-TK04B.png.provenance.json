@@ -1,0 +1,86 @@
+{
+  "id": "CS-TK04B",
+  "type": "shot",
+  "path": "assets/campaigns/takeo/core/CS-TK04B.png",
+  "original": "media-workspace/campaign-shot-audit-2026-11-15/originals/CS-TK04B.png",
+  "prompt": "Use case: precise-object-edit. Edit this existing 16:9 manhwa campaign detail shot CS-TK04B. Correct ONLY the hand anatomy: the current left hand has a thumb and only three fingers. Render a natural complete LEFT hand with exactly FIVE digits: one thumb, index, middle, ring and a clearly visible shorter little finger along the far upper/right edge. All four fingers need independent continuous knuckles and tips, believable lengths, attached to the same palm; fingers relaxed pressing the closed thin dark paper index. Preserve sleeve, wrist position, lighting, desk, map, lamp, framing, opaque background, illustrated style and all other content. Do not add another hand or arm, text, or objects. Keep 16:9 landscape at original resolution or higher.",
+  "references": [
+    "media-workspace/campaign-shot-audit-2026-11-15/references/CS-TK04B.png"
+  ],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "e197b79921cc49b6315136baba06ae3b29cf96a83cf95361dabfa32b99507488",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "alpha_extrema": null,
+  "visual_review": "Missing little finger corrected; five separate digits and natural contact. Full generated frame visually inspected; actual in-person reader screenshot inspected and route UI smoke passed. See audit README for the unrelated Elias test limitation.",
+  "reference_hashes_measured_at_release_review": {
+    "media-workspace/campaign-shot-audit-2026-11-15/references/CS-TK04B.png": "f7975eaf131fdb577f715cb4dfccab3c4ebb4d63a87d1243d31e229460beb967"
+  },
+  "revision_date": "2026-11-15",
+  "supersedes": {
+    "id": "CS-TK04B",
+    "type": "shot",
+    "path": "assets/campaigns/takeo/core/CS-TK04B.png",
+    "original": "media-workspace/campaign-shot-rebuild-2026-11-14/originals/CS-TK04B.png",
+    "prompt": "ONE opaque 16:9 cinematic detail insert CS-TK04B following reference 1, same Kestrel office warm lamp and desk. Tight oblique overhead view of Takeo's ONE large anatomically correct left hand in grey-black camouflage sleeve closing a thin DARK paper designation index on the desk, beside a physical regional command map of abstract coastlines. Hand has five fingers, plausible thumb orientation, wrist/elbow entering naturally from upper left, fingertips pressing cover with believable contact. The small loose paper seen in prior shot has been placed inside; no second spare index. Map remains an ordinary practical command map with no readable labels or numbers. Frame across diagonal desk edge with amber lamp near upper right and charcoal negative space, selective tapered manhwa outlines, simplified hand planes and soft dimensional shadow consistent with prior shot; no photo pores or overly sinewy knuckles. Quiet finality, not redemption or victory. No faces, additional hands, people, storage hardware, digital backups, weapons, powers, emblems, text, captions, watermark, panels or UI. The programme archive is gone; this thin paper index is not its backup.",
+    "references": [
+      "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK04B-1.png"
+    ],
+    "provider": "Built-in image_gen tool",
+    "model": "Not exposed; unverified",
+    "sha256": "f7975eaf131fdb577f715cb4dfccab3c4ebb4d63a87d1243d31e229460beb967",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "visual_review": "Full generated image and actual reader render visually inspected; affected artwork checks and route UI smoke passed. See campaign-shot-rebuild-2026-11-14/README.md.",
+    "reference_hashes_measured_at_release_review": {
+      "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK04B-1.png": "ea7e8abdab5a93c0f5d1d7622b49c810644816306bc9b242b50a824f73e0df3e"
+    },
+    "revision_date": "2026-11-14",
+    "supersedes": {
+      "id": "CS-TK04B",
+      "type": "shot",
+      "path": "assets/campaigns/takeo/core/CS-TK04B.png",
+      "original": "media-workspace/takeo/originals/exec-e678b224-317b-456d-b5e2-ddfaf25d079c.png",
+      "prompt": "ONE 16:9 wide illustrated visual-novel shot, single frame no borders. Final cinematic insert at Kestrel headquarters: Takeo's enormous adult hand in charcoal camouflage sleeve closes the thin paper designation index beside a current physical regional command map. No readable names or numbers, no digital experimental backup, no body or weapon. A wide 16:9 composition with ample negative space and a warm desk lamp fading into dark slate military room. This is the next practical order, not redemption. Semi-realistic illustrated manhwa, restrained linework, natural proportions, soft dimensional painted shading, not photo/3D/cel cartoon. No flags, emblems, captions, readable text or watermark.",
+      "references": [
+        "assets/portraits/takeo-selection.png"
+      ],
+      "provider": "Built-in image_gen tool",
+      "model": "Not exposed; unverified",
+      "sha256": "2e99b95b38188d178bbc347fd33be9a8d797b57152916efe075fe42de9b4859c",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+      "reference_hashes_measured_at_release_review": {
+        "assets/portraits/takeo-selection.png": "afc2370234f44a8550c34e3ebb9bf3c28d42d2c4ffa7513d3eb5b2b615e95849"
+      }
+    },
+    "previous_production_copy": "media-workspace/campaign-shot-rebuild-2026-11-14/backups/CS-TK04B.png"
+  },
+  "previous_production_copy": "media-workspace/campaign-shot-audit-2026-11-15/backups/CS-TK04B.png",
+  "source": "media-workspace/campaign-shot-audit-2026-11-15/originals/CS-TK04B.png",
+  "original_copy": "media-workspace/campaign-shot-audit-2026-11-15/originals/CS-TK04B.png",
+  "reference_snapshots": [
+    {
+      "source": "media-workspace/campaign-shot-audit-2026-11-15/references/CS-TK04B.png",
+      "copy": "media-workspace/campaign-shot-audit-2026-11-15/references/CS-TK04B.png",
+      "sha256": "f7975eaf131fdb577f715cb4dfccab3c4ebb4d63a87d1243d31e229460beb967"
+    }
+  ],
+  "reference_hashes": {
+    "media-workspace/campaign-shot-audit-2026-11-15/references/CS-TK04B.png": "f7975eaf131fdb577f715cb4dfccab3c4ebb4d63a87d1243d31e229460beb967"
+  },
+  "review": "Missing little finger corrected; five separate digits and natural contact. Full generated frame visually inspected; actual in-person reader screenshot inspected and route UI smoke passed. See audit README for the unrelated Elias test limitation."
+}

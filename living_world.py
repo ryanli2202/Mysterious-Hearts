@@ -60,6 +60,7 @@ def participate(s, who):
     import town
     p = project(s, who)
     if who == s['player'] or not town.present(s, who): raise ValueError('Meet them in person first.')
+    __import__('interior_activities').require(s,__import__('interior_activities').PROJECTS[who])
     if p['helped']: raise ValueError('You already helped with this project.')
     if p['stage'] == 3: raise ValueError('This project is finished. Ask them how it went.')
     result = PROJECTS[who][4]
@@ -70,7 +71,15 @@ def participate(s, who):
 def visit(s):
     import town
     place=s['world']['location']; day=s['world']['minute']//1440; d=ensure(s)
+    if place == 'cafe' and __import__('interiors').enabled(s):
+        __import__('interiors').require_activity(s, 'cafe.tea')
+        if 'Maya' not in s['world']['npcs'] or not 8 <= s['world']['minute'] % 1440 / 60 < 20:
+            raise ValueError('The counter is not staffed for service. Return during the café shift.')
     if place not in REGULARS: raise ValueError('There is no regular activity here.')
+    if __import__('interiors').enabled(s):
+        target=__import__('interior_activities').VISITS.get(place)
+        if place=='sailing_club':target='sailing_club__rigging_workshop' if weather.shelter(s['world']['minute']) else 'sailing_club__launch'
+        __import__('interior_activities').require(s,target)
     if not public_venues.suitable(place, s['world']['minute']):
         raise ValueError('This activity starts at ' + str(public_venues.EVENING[place]) + ':00.')
     if place in public_venues.OUTDOORS and weather.shelter(s['world']['minute']):
@@ -80,7 +89,9 @@ def visit(s):
     if day in previous: raise ValueError('You have already done this today.')
     if s['world']['money'] < cost: raise ValueError('Not enough spending money.')
     s['world']['money']-=cost; previous.append(day)
-    owners=[s['player'], host.lower() if host == 'Emily' else host]
+    host_id=host.lower() if host=='Emily' else host
+    owners=[s['player']]
+    if host_id in s['world']['cast'] and town.present(s,host_id) or host_id in s['world'].get('npcs',[]):owners.append(host_id)
     companions=[who for who in s['routes'] if who != s['player'] and town.present(s,who)
                 and (who in s['world']['party'] or s['routes'][who].get('channel') == 'in_person')]
     owners += companions
@@ -96,6 +107,7 @@ def visit(s):
     record(s, f'visit:{place}:{day}', text, owners, place)
     town.log(s,text)
     s['world']['camera_activity'] = dict(text=text, location=place, minute=s['world']['minute'])
+    if __import__('interiors').enabled(s):s['world']['camera_activity']['room']=__import__('interiors').room(s)
 
 def news(s):
     day=dates.story_date(s['world']['minute']); rows=[]
@@ -127,6 +139,9 @@ def investigate(s):
     if index>=len(MYSTERY): raise ValueError('All currently available leads have been examined.')
     title, place, finding, question=MYSTERY[index]
     if s['world']['location']!=place: raise ValueError('Visit '+town.LOCATIONS[place]+' to examine this lead.')
+    if __import__('interiors').enabled(s):
+        target={'archive':'archive__reading_records_room','interpol_hq':'interpol_hq__public_lobby_verification_desk','noodle_shop':'noodle_shop__dining_room'}.get(place)
+        __import__('interior_activities').require(s,target)
     if d['mystery'] and d['mystery'][-1]['day']==s['world']['minute']//1440: raise ValueError('The next response arrives on the next story day.')
     d['mystery'].append(dict(title=title, finding=finding, question=question, day=s['world']['minute']//1440))
     record(s,'mystery:'+str(index),finding+' Open question: '+question,[s['player']],place)

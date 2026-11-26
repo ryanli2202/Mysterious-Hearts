@@ -1,0 +1,253 @@
+{
+  "version": 1,
+  "route": "martos",
+  "core_shots": [
+    {
+      "id": "CS-MT01",
+      "file": "assets/campaigns/martos/core/CS-MT01.png",
+      "sha256": "a3e27019066da3c28bbd40499abc1aa623fef3b86d1b5bfa8959790818bf9f73",
+      "scene_id": "MT-F01",
+      "field": "text",
+      "beat": 0,
+      "source_id": "MT-F01:text:000",
+      "source_sha256": "d47736c1198c405375892ebdf68304a0630a1e635226f50d4018b29a336a7e53",
+      "anchor_text": "Martos’s memory — age twenty, conventional service. Rain has driven families toward a school hall used for evacuation. He has been enlisted long enough to know that good intentions do not dry blankets or tell a waiting family where its missing transport went.",
+      "resolution": "pre-resolution",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "visual_acceptance": "Full generated image and actual reader render visually inspected; affected artwork checks and route UI smoke passed. See campaign-shot-rebuild-2026-11-14/README.md.",
+      "assistant_review_evidence": [
+        "media-workspace/campaign-shot-rebuild-2026-11-14/candidates/CS-MT01.png"
+      ],
+      "supersedes": {
+        "id": "CS-MT01",
+        "file": "assets/campaigns/martos/core/CS-MT01.png",
+        "sha256": "005c0927b55ea2fce11886dc0e55108a0af743a936d8fd5347b181a8ee6aa8fa",
+        "scene_id": "MT-F01",
+        "field": "text",
+        "beat": 0,
+        "source_id": "MT-F01:text:000",
+        "source_sha256": "d47736c1198c405375892ebdf68304a0630a1e635226f50d4018b29a336a7e53",
+        "anchor_text": "Martos’s memory — age twenty, conventional service. Rain has driven families toward a school hall used for evacuation. He has been enlisted long enough to know that good intentions do not dry blankets or tell a waiting family where its missing transport went.",
+        "resolution": "pre-resolution",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "visual_acceptance": "passed assistant raw-art and in-app visual review; no user sign-off claimed",
+        "assistant_review_evidence": [
+          ".test-tmp/martos/art-review/core-shots.png",
+          ".test-tmp/martos/screenshots/CS-MT01-normal.png",
+          ".test-tmp/martos/screenshots/CS-MT01-compact-24pt.png",
+          ".test-tmp/martos/screenshots/CS-MT01-stage.png"
+        ]
+      }
+    },
+    {
+      "id": "CS-MT02",
+      "file": "assets/campaigns/martos/core/CS-MT02.png",
+      "sha256": "57c8ea898f1a389dd19294b7d8ab9e359506264e819768a5aa6df05321529e82",
+      "scene_id": "MT-F03",
+      "field": "text",
+      "beat": 0,
+      "source_id": "MT-F03:text:000",
+      "source_sha256": "b7ce49f757f84f38a02304368b2e764142d3abbb016b45c58d26daa81c06056c",
+      "anchor_text": "Martos’s memory — later deployment, age twenty-four, before desertion. The order calls the removal a protective cordon. A woman named Ilen asks to take a chair to her mother, who cannot stand in the waiting line. Martos moves it back behind the boundary. He tells her supplies will be provided at the next stop.",
+      "resolution": "pre-resolution",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "visual_acceptance": "Full generated image and actual reader render visually inspected; affected artwork checks and route UI smoke passed. See campaign-shot-rebuild-2026-11-14/README.md.",
+      "assistant_review_evidence": [
+        "media-workspace/campaign-shot-rebuild-2026-11-14/candidates/CS-MT02.png"
+      ],
+      "supersedes": {
+        "id": "CS-MT02",
+        "file": "assets/campaigns/martos/core/CS-MT02.png",
+        "sha256": "73e0df56d3ca05dcad9c6c5b9b4f3ad27e7608a403b2fee6dd7e33c8ad101697",
+        "scene_id": "MT-F03",
+        "field": "text",
+        "beat": 0,
+        "source_id": "MT-F03:text:000",
+        "source_sha256": "b7ce49f757f84f38a02304368b2e764142d3abbb016b45c58d26daa81c06056c",
+        "anchor_text": "Martos’s memory — later deployment, age twenty-four, before desertion. The order calls the removal a protective cordon. A woman named Ilen asks to take a chair to her mother, who cannot stand in the waiting line. Martos moves it back behind the boundary. He tells her supplies will be provided at the next stop.",
+        "resolution": "pre-resolution",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "visual_acceptance": "passed assistant raw-art and in-app visual review; no user sign-off claimed",
+        "assistant_review_evidence": [
+          ".test-tmp/martos/art-review/core-shots.png",
+          ".test-tmp/martos/screenshots/CS-MT02-normal.png",
+          ".test-tmp/martos/screenshots/CS-MT02-compact-24pt.png",
+          ".test-tmp/martos/screenshots/CS-MT02-stage.png"
+        ]
+      }
+    },
+    {
+      "id": "CS-MT03",
+      "file": "assets/campaigns/martos/core/CS-MT03.png",
+      "sha256": "39f9bbe7bc59ffa0723aa2156dc7061224db7148ce10abdf4b1932e98b124b43",
+      "scene_id": "MT-F05",
+      "field": "text",
+      "beat": 8,
+      "source_id": "MT-F05:text:008",
+      "source_sha256": "c7ceb9e3d4962cb97dbb591701fe5a76732aedfdeb0f53413c2c8e55dbfdcad7",
+      "anchor_text": "Martos supports wounded Sera toward the exit while the reachable group gathers beyond the open holding-room door. Behind the partition, somebody calls again. He cannot get to them before this route closes. Tomas was alive when he last saw him; he has no answer to the question Sera asks now. He keeps moving with the people he can reach.",
+      "resolution": "pre-resolution",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "visual_acceptance": "Full generated image and actual reader render visually inspected; affected artwork checks and route UI smoke passed. See campaign-shot-rebuild-2026-11-14/README.md.",
+      "assistant_review_evidence": [
+        "media-workspace/campaign-shot-rebuild-2026-11-14/candidates/CS-MT03.png"
+      ],
+      "supersedes": {
+        "id": "CS-MT03",
+        "file": "assets/campaigns/martos/core/CS-MT03.png",
+        "sha256": "2781a0f7c305cec6210fa7b9064eb40b251799a124f38b7162c617733995c7e7",
+        "scene_id": "MT-F05",
+        "field": "text",
+        "beat": 8,
+        "source_id": "MT-F05:text:008",
+        "source_sha256": "c7ceb9e3d4962cb97dbb591701fe5a76732aedfdeb0f53413c2c8e55dbfdcad7",
+        "anchor_text": "Martos supports wounded Sera toward the exit while the reachable group gathers beyond the open holding-room door. Behind the partition, somebody calls again. He cannot get to them before this route closes. Tomas was alive when he last saw him; he has no answer to the question Sera asks now. He keeps moving with the people he can reach.",
+        "resolution": "pre-resolution",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "visual_acceptance": "passed assistant raw-art and in-app visual review; no user sign-off claimed",
+        "assistant_review_evidence": [
+          ".test-tmp/martos/art-review/core-shots.png",
+          ".test-tmp/martos/screenshots/CS-MT03-normal.png",
+          ".test-tmp/martos/screenshots/CS-MT03-compact-24pt.png",
+          ".test-tmp/martos/screenshots/CS-MT03-stage.png"
+        ]
+      }
+    },
+    {
+      "id": "CS-MT04",
+      "file": "assets/campaigns/martos/core/CS-MT04.png",
+      "sha256": "b972308148baa1e621ca611708130b2ff0c2777e8a136904d276d78298016164",
+      "scene_id": "MT-F06",
+      "field": "text",
+      "beat": 4,
+      "source_id": "MT-F06:text:004",
+      "source_sha256": "2dd646d681ac3438edd5bb713a4a0a0bf4d0b19e3867d9ea2ba31c6ea455f277",
+      "anchor_text": "A Syndicate intermediary brings a bounded offer and transport for an authorised headquarters appointment. At the executive desk the Crow remains concealed. He has a dossier from that channel: known service, the refusal, capabilities and the people whose support Martos is trying to maintain. He does not know every private conversation at the refuge.",
+      "resolution": "pre-resolution",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "visual_acceptance": "Full generated image and actual reader render visually inspected; affected artwork checks and route UI smoke passed. See campaign-shot-rebuild-2026-11-14/README.md.",
+      "assistant_review_evidence": [
+        "media-workspace/campaign-shot-rebuild-2026-11-14/candidates/CS-MT04.png"
+      ],
+      "supersedes": {
+        "id": "CS-MT04",
+        "file": "assets/campaigns/martos/core/CS-MT04.png",
+        "sha256": "16135486a5cd7187a9928411d707b38ceb360e2fc279e086cb7a83ea95b53e3f",
+        "scene_id": "MT-F06",
+        "field": "text",
+        "beat": 4,
+        "source_id": "MT-F06:text:004",
+        "source_sha256": "2dd646d681ac3438edd5bb713a4a0a0bf4d0b19e3867d9ea2ba31c6ea455f277",
+        "anchor_text": "A Syndicate intermediary brings a bounded offer and transport for an authorised headquarters appointment. At the executive desk the Crow remains concealed. He has a dossier from that channel: known service, the refusal, capabilities and the people whose support Martos is trying to maintain. He does not know every private conversation at the refuge.",
+        "resolution": "pre-resolution",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "visual_acceptance": "passed assistant raw-art and in-app visual review; no user sign-off claimed",
+        "assistant_review_evidence": [
+          ".test-tmp/martos/art-review/core-shots.png",
+          ".test-tmp/martos/screenshots/CS-MT04-normal.png",
+          ".test-tmp/martos/screenshots/CS-MT04-compact-24pt.png",
+          ".test-tmp/martos/screenshots/CS-MT04-stage.png"
+        ]
+      }
+    },
+    {
+      "id": "CS-MT05",
+      "file": "assets/campaigns/martos/core/CS-MT05.png",
+      "sha256": "9965a5a5b1fd45afed9352fefc595eea9291a13d4ff4bf2f25a3f24e7bfa859e",
+      "scene_id": "MT-13",
+      "field": "briefing",
+      "beat": 0,
+      "source_id": "MT-13:briefing:000",
+      "source_sha256": "16f68314c22951053e8b61e2d3d96acf15222762812bb6c8feca80c9adcaaadf",
+      "anchor_text": "At the departure line, Voss appears beyond the route to the receiving area. Martos can see him clearly. The protected door is closer and less satisfying to watch. He checks it first.",
+      "resolution": "pre-resolution",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "visual_acceptance": "Full generated image and actual reader render visually inspected; affected artwork checks and route UI smoke passed. See campaign-shot-rebuild-2026-11-14/README.md.",
+      "assistant_review_evidence": [
+        "media-workspace/campaign-shot-rebuild-2026-11-14/candidates/CS-MT05.png"
+      ],
+      "supersedes": {
+        "id": "CS-MT05",
+        "file": "assets/campaigns/martos/core/CS-MT05.png",
+        "sha256": "810b988bb362d0d32b656ec30bc5840ca024987fbee48625e6fa2e177bd3d75e",
+        "scene_id": "MT-13",
+        "field": "briefing",
+        "beat": 0,
+        "source_id": "MT-13:briefing:000",
+        "source_sha256": "16f68314c22951053e8b61e2d3d96acf15222762812bb6c8feca80c9adcaaadf",
+        "anchor_text": "At the departure line, Voss appears beyond the route to the receiving area. Martos can see him clearly. The protected door is closer and less satisfying to watch. He checks it first.",
+        "resolution": "pre-resolution",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "visual_acceptance": "passed assistant raw-art and in-app visual review; no user sign-off claimed",
+        "assistant_review_evidence": [
+          ".test-tmp/martos/art-review/core-shots.png",
+          ".test-tmp/martos/screenshots/CS-MT05-normal.png",
+          ".test-tmp/martos/screenshots/CS-MT05-compact-24pt.png",
+          ".test-tmp/martos/screenshots/CS-MT05-stage.png"
+        ]
+      }
+    }
+  ],
+  "scope": "Current-byte source binding with completed assistant raw-art and in-app visual review; no blanket user artwork sign-off.",
+  "assistant_visual_review": {
+    "status": "Accepted: all five replacement full frames and reader renders inspected;21 tests and route UI smoke passed2026-11-14.",
+    "historical_review": {
+      "status": "passed",
+      "reviewer": "root assistant",
+      "basis": "Root reported independent final review of all static artwork and actual rendered states after the HQ uniform and historical encounter corrections.",
+      "user_approval_scope": "User explicitly approved Sera portrait style only; this record does not claim blanket user artwork approval.",
+      "static_evidence": [
+        ".test-tmp/martos/art-review/portraits-slate.png",
+        ".test-tmp/martos/art-review/portraits-light.png",
+        ".test-tmp/martos/art-review/portraits-reused.png",
+        ".test-tmp/martos/art-review/locations.png",
+        ".test-tmp/martos/art-review/core-shots.png",
+        ".test-tmp/martos/art-review/QA.json"
+      ],
+      "rendered_evidence": [
+        ".test-tmp/martos/screenshots/final-review-contact-sheet.png",
+        ".test-tmp/martos/screenshots/briefing-normal.png",
+        ".test-tmp/martos/screenshots/briefing-compact-24pt.png",
+        ".test-tmp/martos/screenshots/historical-combat.png",
+        ".test-tmp/martos/screenshots/historical-retry.png",
+        ".test-tmp/martos/screenshots/final-live-combat-control.png",
+        ".test-tmp/martos/screenshots/optional-compact.png",
+        ".test-tmp/martos/screenshots/optional-MT-B.png",
+        ".test-tmp/martos/screenshots/optional-MT-C.png",
+        ".test-tmp/martos/screenshots/optional-MT-D.png",
+        ".test-tmp/martos/screenshots/actual-receiving-handover.png",
+        ".test-tmp/martos/screenshots/actual-custody-committed.png"
+      ]
+    }
+  }
+}

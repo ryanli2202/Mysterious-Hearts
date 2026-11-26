@@ -1,5 +1,13 @@
 """Authored AU investigations: staged evidence, field objectives and earned reveals."""
 
+# Existing representative role artwork, not new named identities or ranks.
+OPPOSITION_PORTRAITS = {
+    'blackhaven': 'crew_enforcer',
+    'rail': 'crew_enforcer',
+    'shinokami': 'yokai',
+    'crow_trail': 'affiliate',
+}
+
 def step(title, venue, finding, kind='inspect', **extra):
     return dict(title=title, venue=venue, finding=finding, kind=kind, **extra)
 

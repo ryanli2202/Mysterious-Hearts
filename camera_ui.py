@@ -56,6 +56,7 @@ class CameraJobs:
             except Exception as exc:
                 self.events.put(('error', str(exc)))
         threading.Thread(target=work, daemon=False).start()
+        self.game.sounds.play('arcade_tap')
 
     def cancel(self):
         if self.cancel_event:
@@ -78,6 +79,8 @@ class CameraJobs:
                         self.last = camera.commit(state, shot, generated)
                         self.status = 'Photo saved to Gallery.'
                         self.revision += 1
+                        if state is self.game.state_data:
+                            self.game.sounds.play('arcade_score')
                     except Exception as exc:
                         self.status = 'Could not add photo to Gallery: ' + str(exc)
                 else:

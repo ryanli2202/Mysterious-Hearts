@@ -35,6 +35,7 @@ def execute(state,key,request_id):
         jobs=job_apps.ensure(s); job=jobs['employment']
         if not job: raise ValueError('A current supported job is required.')
         job_apps.guard(s,job_apps.JOBS[job]['venue'],spec['minutes'])
+        __import__('interior_work').require(s, 'shift', minutes=spec['minutes'])
         start,end=job_apps.JOBS[job]['hours']
         if not start<=now%1440/60<end: raise ValueError('Visit during workplace hours.')
     else:

@@ -2,7 +2,7 @@
   "roadmap_id": "MH-001",
   "batch": 12,
   "created": "2026-11-10",
-  "status": "8 local sprite sheets and GIFs assembled and structurally verified; runtime integration pending.",
+  "status": "Withdrawn 2026-11-13: prior review sheets, GIFs, preview and contact removed; runtime integration remains pending.",
   "generation_tool": "built-in image_gen",
   "model_verification": "Tool does not expose a model selector or verified model identifier.",
   "workflow": "Generate sprite sheets first, then slice and encode locally using Pillow.",
@@ -12,7 +12,7 @@
   },
   "frame_duration_ms": 150,
   "blank_hold_ms": 720,
-  "timing_reason": "900ms action matches the plan's 700\u20131100ms martial master range.",
+  "timing_reason": "900ms action matches the plan's 700–1100ms martial master range.",
   "background": "opaque dark slate; not transparent",
   "assets": [
     {
@@ -48,7 +48,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "3e4b8b1e36f778ed291ed289cf21d82a2e54c17f146ba7bc4614477a8168c0d9",
         "sha256_gif": "ac8083b85e880d9768446e97e394322c1c43554fe2ae5e0d2581b9344966a1ed"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B12-earthfall-reversal",
@@ -83,7 +84,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "f9c34da475379c7295b2522690f9bed44160851e36284e1f9ae6c51897cd91b9",
         "sha256_gif": "e1ca444fde74c7db5ee3ce55a4f4f48bf115b263f20acaff7a6a2f251e171898"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B12-iron-labyrinth",
@@ -118,7 +120,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "2d2f3cdf701bcc75fd13943f713a3acbcb5a1fea46151e68352ee8e27e20cc75",
         "sha256_gif": "3f9d95bf43a370eb2fd3c64981a834b94b52be9f627382b55211732e64043422"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B12-silent-avalanche",
@@ -153,7 +156,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "be8982ef2ac5ba9de84869257d103018a7d2d4cd332aeb48d7cd192eb70dfb37",
         "sha256_gif": "12576930b72e76f151a40fde731c2c3a22b7d328daecd065d8cac22d67e8a10f"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B12-thousand-point-rain",
@@ -188,7 +192,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "d5898bcec9a549d2975e5925db1c775245d81a6f799bd98f666065d0933ecdf5",
         "sha256_gif": "9d5f185e3c36e4e1b0f644be29cd3ac08ec4732f5279d989d1ea5f4ca6536f72"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B12-centre-line-collapse",
@@ -223,7 +228,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "9c2157bc115bd064b0ec4413956b601cc3d3b942cc7857387f8aa38ce0631c9b",
         "sha256_gif": "2653b1fd6aef67b5b62cf2c5fb835443b70cb929e7ef4948703be552f5c6a760"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B12-mirror-hands",
@@ -258,7 +264,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "085f26df8ada0bec4f7a579878743eae078f87b1a418fb32aa732998b9153a49",
         "sha256_gif": "6f7cce91beef9d502034caf1052d0d1446776fea74fea2753b843a022f6e7798"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B12-inch-thunder",
@@ -293,8 +300,15 @@
         "loop": "infinite preview",
         "sha256_sheet": "55ba2544a9e797a22611ea46c5f65aba628c7f43d5676723bc4bc9ec8807a0a2",
         "sha256_gif": "269c93155f6642f6b2e4439a5de10db8d76cd904fabc948acb0f16541b058067"
-      }
+      },
+      "available": false
     }
   ],
-  "validation_command": "python tools/build_combat_batch_gifs.py --batch 12"
+  "validation_command": "python tools/build_combat_batch_gifs.py --batch 12",
+  "withdrawn": true,
+  "availability": "withdrawn",
+  "withdrawn_on": "2026-11-13",
+  "withdrawal_reason": "User-requested combat animation artwork reset; historical paths and verification are retained, files removed.",
+  "style_guide": "roadmap/COMBAT_ANIMATION_STYLE_GUIDE.md",
+  "validation_command_status": "Historical command only; this manifest is withdrawn and the builder rejects it."
 }

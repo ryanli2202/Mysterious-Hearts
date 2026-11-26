@@ -121,8 +121,11 @@ def reconcile_hq_access(s):
             actor.update(location='syndicate_office',journey=None,activity='At the public waterfront offices')
             if who==s['player']: world['location']=actor['location']
 
+import ivan_generals
+CAST.update(ivan_generals.cast())
+
 ROMANCE = tuple(k for k, p in CAST.items() if p['role'] == 'love interest')
-IVAN_STARTING_CONTACTS = frozenset(('garrett', 'rei', 'minsu', 'valentina', 'sylvanis', 'crow', *four_aces.IDS))
+IVAN_STARTING_CONTACTS = frozenset(('garrett', 'rei', 'minsu', 'valentina', 'sylvanis', 'crow', *four_aces.IDS, *ivan_generals.IDS))
 
 
 def _played_connection(s, who, discovery):
@@ -144,15 +147,22 @@ def _played_connection(s, who, discovery):
                    who in g.get('members', []) for g in s.get('hangout_journal', []))
 
 def ensure(s):
+    ivan_generals.migrate(s)
     d = s.setdefault('discoveries', {})
     import custom_protagonist
     import character_types
     ivan = s.get('player') == 'ivan'
     import playable_cast
+    # A legacy discovery loss must not discard an already-saved professional
+    # number. Explicit unknown records and outsiders keep their original state.
+    if ('crow' not in d and s.get('player') in {'sylvanis', *four_aces.IDS}
+            and s.get('phone_numbers',{}).get('contacts',{}).get('crow')):
+        d.setdefault('crow',dict(met=True,contact=False,home=False))
     roster = character_types.MAJOR_CHARACTERS if ivan or custom_protagonist.is_custom(s.get('player')) or playable_cast.is_new(s.get('player')) else CAST
     if ivan and not s.get('ivan_contact_seed_v2'):
         for key in IVAN_STARTING_CONTACTS:
-            d.setdefault(key, {}).update(met=True, contact=True)
+            if key in ivan_generals.IDS:d.setdefault(key,dict(met=True,contact=True,home=False))
+            else:d.setdefault(key, {}).update(met=True, contact=True)
             d[key].setdefault('home', key == 'valentina')
         for key in roster - IVAN_STARTING_CONTACTS - {'ivan'}:
             if _played_connection(s, key, d.get(key, {})):
@@ -169,7 +179,7 @@ def ensure(s):
         introduced = ivan and key in IVAN_STARTING_CONTACTS | {'ivan'}
         d.setdefault(key, {'met': introduced, 'contact': introduced,
                            'home': introduced and key == 'valentina'})
-        if d[key]['met'] and key != 'crow':
+        if d[key]['met'] and key != 'crow' and key not in ivan_generals.IDS:
             d[key]['contact'] = True
     crow = d.setdefault('crow', dict(met=ivan, contact=ivan, home=False))
     crow['home'] = False
@@ -214,6 +224,17 @@ def contact(s, who):
     return who not in CAST or ensure(s)[who]['contact']
 
 def visible_place(s, place):
+    if place=='martos_transfer_house':return s.get('player')=='martos' and not s.get('interpol',{}).get('custody',{}).get('martos')
+    if place=='elias_theatre':return s.get('player')=='elias' and not s.get('interpol',{}).get('custody',{}).get('elias')
+    if place=='ivan_network':return s.get('player')=='ivan' and not __import__('ivan_campaigns').availability(s)
+    if place in ('neo_mariko','neo_club','neo_alfheim','neo_refuge','neo_yard','neo_transport','neo_annex'):
+        import neo_campaigns as route
+        gates={'neo_mariko':0,'neo_club':1,'neo_alfheim':2,'neo_refuge':4,'neo_yard':6,'neo_transport':7,'neo_annex':10}
+        return s.get('player')=='neo' and route.read(s).get('started',False) and route.read(s).get('chapter',0)>=gates[place] and not route.unavailable(s)
+    if place=='sylvanis_arena':return s.get('player')=='sylvanis' and __import__('sylvanis_campaigns').read(s).get('arena_revealed',False) and not __import__('sylvanis_campaigns').read(s).get('arena_closed',False) and not __import__('sylvanis_campaigns').availability(s)
+    if place=='takeo_meridian':return s.get('player')=='takeo' and not __import__('takeo_campaigns').availability(s)
+    if place=='camila_meridian':return s.get('player')=='camila' and not s.get('interpol',{}).get('custody',{}).get('camila')
+    if place=='mavis_dispatch_exchange':return __import__('ace_campaigns').exchange_visible(s)
     import playable_cast, world_loop
     if playable_cast.is_new(s.get('player')) and place == world_loop.HOUSES[s['player']][0]: return True
     import criminal_dynamics
@@ -241,6 +262,7 @@ def visible_place(s, place):
     return all(place != who+'_home' or ensure(s)[who]['home'] for who in CAST)
 
 def mark_met(s, who):
+    if __import__('neo_campaigns').suppressed(s,who):raise ValueError('Unavailable in earned Neo-campaign custody.')
     if who == s['player']: raise ValueError('You cannot meet yourself.')
     if who == 'charles' and s['world']['location'] != charles_han.LAB:
         raise ValueError('Meet Charles inside the Glasshouse.')
@@ -283,6 +305,7 @@ def discover_home(s, who):
     ensure(s)[who]['home'] = True
 
 def profile(who, sibling=False):
+    if who in ivan_generals.IDS:return ivan_generals.profile(who)
     if who in interpol_cast.IDS: return interpol_cast.profile(who)
     if who == 'charles': return charles_han.PROFILE + '\nLikes: ' + ', '.join(charles_han.LIKES) + '\nDislikes: ' + ', '.join(charles_han.DISLIKES)
     p = CAST[who]

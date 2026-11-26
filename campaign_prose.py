@@ -39,15 +39,20 @@ MEMORY_ART = {
     'GD02':('locations/noodle_shop',{'garrett':'garrett-home','april':'april-selection'}),
     'GD21':('locations/garrett-hong-kong-school',{'garrett':'garrett-high-school','charles':'charles-young-adult'}),
     'RD09':('locations/rei-high-school',{'rei':'rei-high-school','marcus':'marcus-high-school'}),
-    'RD11':('locations/rei-high-school',{'rei':'rei-high-school','emily':'emily-high-school','sophie':'sophie-high-school'}),
+    'RD11':('locations/rei-high-school',{'rei':'rei-school-grief','emily':'emily-school-grief','sophie':'sophie-school-grief'}),
     'RD13':('locations/rei-high-school',{'rei':'rei-high-school','Joseph Richter':'joseph-richter-high-school'}),
+    'RD36':('locations/hamayashi-training-hall',{'rei':'rei-child','yuriko':'yuriko-child'}),
+    'RD37':('locations/hamayashi-siblings-room',{'rei':'rei-escape','yuriko':'yuriko-escape'}),
+    'RD38':('locations/hamayashi-first-safe-room',{'rei':'rei-escape','yuriko':'yuriko-escape'}),
     'GD04':('locations/noodle_shop',{}),'RD04':('locations/noodle_shop',{}),
     'GD15':('locations/noodle_shop',{}),'RD08':('locations/noodle_shop',{}),
     # Undated family memory: keep the neutral reading panel, without assigning
     # an unsupported age or using the adult laboratory portrait as historical art.
-    'GD17':(None,{}),
-    'FM01':('locations/blackhaven',{}),'FM02':('locations/blackhaven',{}),
-    'FM03':('locations/blackhaven',{}),'FM04':('locations/interpol_briefing',{}),
+    'GD17':('locations/campaign-family-kitchen',{}),
+    'FM01':('locations/blackhaven',{'fox':'fox-early-partnership','gordon':'gordon-early-partnership'}),
+    'FM02':('locations/blackhaven',{'fox':'fox-early-partnership','gordon':'gordon-early-partnership'}),
+    'FM03':('locations/blackhaven',{'fox':'fox-early-partnership','gordon':'gordon-early-partnership'}),
+    'FM04':('locations/blackhaven',{'fox':'fox-early-partnership','gordon':'gordon-early-partnership'}),
 }
 
 # The same historical event has a separate reading record in each campaign.
@@ -63,20 +68,23 @@ def page(text, key=None, **kwargs):
 
 def pages(key, ctx):
     """Paragraph-preserving pages with explicit illustration/time transitions."""
-    spec=library()[key]; result=[]; paragraphs=[]; words=0; mode='present'
+    spec=library()[key]; result=[]; paragraphs=[]; segments=[]; words=0; mode='present'
     def flush():
-        nonlocal paragraphs,words
+        nonlocal paragraphs,segments,words
         if paragraphs:
             background,portraits=MEMORY_ART.get(key,(None,{})) if mode=='memory' else (None,{})
-            result.append(page('\n\n'.join(paragraphs),key,mode=mode,background=background,portraits=portraits))
-            paragraphs=[];words=0
-    for e in spec['elements']:
+            result.append(page('\n\n'.join(paragraphs),key,mode=mode,background=background,portraits=portraits,
+                               stage_segments=copy.deepcopy(segments),era_id=__import__('campaign_eras').SCENES.get(key) if mode=='memory' else None,
+                               **({'memory_owner':spec['memory_owner']} if mode=='memory' and spec.get('memory_owner') else {})))
+            paragraphs=[];segments=[];words=0
+    for element_index,e in enumerate(spec['elements']):
         if any(ctx.get(k)!=v for k,v in e.get('when',{}).items()):continue
         if 'mode' in e:
             flush();mode=e['mode']
         count=len(e['text'].split())
         if words and (words+count>170 or len(paragraphs)>=7):flush()
         paragraphs.append(e['text']);words+=count
+        segments.extend(__import__('campaign_staging').segments(key,element_index,e,mode))
     flush()
     if result:result[-1]['scene_end']=True
     return result
@@ -87,9 +95,6 @@ def reflection(key, prompt, options):
 
 
 REFLECTIONS = {
-    'GD07':('What does Garrett want to put into words?',[
-        ('disappointed','Admit the disappointment','He let himself write that he had hoped for more. Disappointment did not make the copy useless; it made the next question harder to ask.'),
-        ('question','Focus on the next verifiable question','He put a line beneath what the record could establish. The next question would have to begin there, even if hope had already gone farther.')]),
     'GD20':('What does Garrett hold onto before he speaks?',[
         ('relief','The need to hear his brother','Relief did not make the silence harmless. He wanted to hear Charles answer without having to hide how much he had needed it.'),
         ('anger','The right to name what hurt','He would not have to call the silence kindness. He could name what it had cost him and still be glad Charles was alive.')]),
@@ -114,7 +119,34 @@ def assembled(s, keys, ctx=None, *, reflections=True):
         lines.extend(pages(key,ctx))
         if reflections and key in REFLECTIONS:
             prompt,options=REFLECTIONS[key];lines.append(reflection(key,prompt,options))
-    return lines
+    return __import__('campaign_staging').deduplicate_core_inserts(lines)
+
+
+def interpol_recollections(s):
+    """Earned optional scenes also serve saves that passed these beats earlier."""
+    if s.get('player') not in ('fox','gordon'):return []
+    files=s.get('interpol',{}).get('files',{})
+    return [memory for memory,case in (('FM05','rail'),('FM06','crow_trail'),('FM07','crow_operation'))
+            if files.get(case,{}).get('complete')]
+
+
+def revisit_interpol(s,key):
+    import interpol,campaign_dialogue
+    if key not in interpol_recollections(s):raise ValueError('This recollection has not been reached in the investigation.')
+    if s.get('campaign_dialogue'):raise ValueError('Finish the current conversation first.')
+    interpol.guard(s,'interpol_briefing')
+    partner='gordon' if s['player']=='fox' else 'fox'
+    if not interpol.here(s,partner):raise ValueError('Meet your field partner in the briefing room first.')
+    if __import__('combat').recovering(s,partner):raise ValueError('Let your field partner recover first.')
+    if partner in s.get('combat',{}).get('ruptures',[]):raise ValueError('This partnership is not currently available.')
+    # Ambient room NPCs are not joined listeners (same rule as begin_social).
+    # An attached companion would actually be part of this private exchange.
+    if any(who!=partner for who in s['world'].get('party',[])):
+        raise ValueError('Speak privately with your field partner, without other companions.')
+    room=__import__('interior_activities').interpol_room(dict(venue='interpol_briefing',kind='review'))
+    if room:__import__('interior_activities').require(s,room)
+    campaign_dialogue.epilogue(s,assembled(s,[key],reflections=False))
+    return 'Fox begins the recollection.'
 
 
 def choose_reflection(s,index):
@@ -123,7 +155,9 @@ def choose_reflection(s,index):
     if type(index) is not int or not 0<=index<len(b['options']):raise ValueError('Choose a displayed reflection.')
     option=b['options'][index];b['selected']=index
     d.setdefault('narrative_flags',{})[b['reflection']]=option['value']
-    d['beats'].insert(d['cursor']+1,page(option['response'],b.get('scene_id')))
+    response=page(option['response'],b.get('scene_id'))
+    __import__('campaign_voice').reflection_page(response,b['reflection'],option['value'])
+    d['beats'].insert(d['cursor']+1,response)
 
 
 def finish(s,d):
@@ -133,7 +167,7 @@ def finish(s,d):
     for b in d['beats']:
         key=b.get('scene_id')
         if key:
-            record['read'].setdefault(key,dict(title=b['title'],chapter=b.get('chapter',''),minute=s['world']['minute']))
+            record['read'].setdefault(key,dict(title=b.get('title') or library().get(key,{}).get('title','Story'),chapter=b.get('chapter',''),minute=s['world']['minute']))
             if key in SHARED_EVENTS:
                 record.setdefault('shared_events',{}).setdefault(SHARED_EVENTS[key],dict(viewpoint=s['player'],scene=key,minute=s['world']['minute']))
     record['flags'].update(d.get('narrative_flags',{}))
@@ -167,7 +201,7 @@ def continuity(s,key):
 GARRETT_STEPS={0:['GD05'],1:['GD06'],2:['GD07'],3:['GD08'],4:['GD10'],5:['GD11'],6:['GD12'],7:['GD13'],
                8:['GD16','GD17'],9:['GD23'],10:['GD24'],11:['GD25'],12:['GD28'],13:['GD29'],14:['GD32','GD33'],
                15:['GD34'],16:['GD35','GD36'],17:['GD37','GD38'],18:['GD39'],19:['GD40']}
-REI_STEPS={0:['RD01'],1:['RD05'],2:['RD15'],3:['RD16'],4:['RD17'],5:['RD19','RD20']}
+REI_STEPS={0:['RD01','RD36'],1:['RD05','RD37','RD38'],2:['RD15'],3:['RD16'],4:['RD17'],5:['RD19','RD20']}
 
 
 def guard_prologue(s, case, index, count=3):
@@ -182,8 +216,8 @@ def guard_prologue(s, case, index, count=3):
     title,setting=settings.get(case,('The supported route','The team checked the supported objective before approaching the opposition.'))
     kinds=('Clubs enforcer','Spades assassin','Syndicate affiliate') if case in settings else ('first guard','next guard','remaining guard')
     line=f'{setting}\n\n{index} of {count} mission posts already cleared. The {kinds[min(index,2)]} still blocked the approach.'
-    line+='\n\n“Check before we move,” Gordon said.\n\n“I’m here,” Fox answered. The acknowledgment gave neither of them a reason to assume the next encounter was won.'
-    return [page(line,title=title)]
+    exchange='\n\n“Check before we move,” Gordon said.\n\n“I’m here,” Fox answered. The acknowledgment gave neither of them a reason to assume the next encounter was won.'
+    return [__import__('campaign_voice').fixed_page(page(line+exchange,title=title),'FG-GUARD',exchange)]
 
 
 def action_pages(s,action,args,preview=None):
@@ -248,14 +282,14 @@ def action_pages(s,action,args,preview=None):
         else:
             mapping={
                 'blackhaven':{0:['FD01','FD02','FM01','FD03'],1:['FD04'],3:['FD05','FD06','FM02']},
-                'rail':{0:[],1:['FD07','FD08'],3:['FD09']},
+                'rail':{0:['FD39'],1:['FD07','FD08'],3:['FD09','FM05']},
                 'shinokami':{0:['FD10'],1:['FD10','FD11','FM03'],3:['FD12']},
-                'ace_clubs':{0:[],1:['FD13'],3:['FD15']},
-                'ace_hearts':{0:[],1:['FD16'],3:['FD18']},
-                'ace_diamonds':{0:[],1:['FD19'],3:['FD21']},
-                'ace_spades':{0:[],1:['FD22'],3:['FD24']},
-                'crow_trail':{0:['FD25'],1:[],3:['FD26','FD27']},
-                'crow_operation':{0:['FD28','FM04'],1:['FD29'],3:['FD30','FD31'],4:['FD32','FD33'],5:['FD34'],6:['FD35','FD36']}}
+                'ace_clubs':{0:['FD40'],1:['FD13'],3:['FD15']},
+                'ace_hearts':{0:['FD41'],1:['FD16'],3:['FD18']},
+                'ace_diamonds':{0:['FD42'],1:['FD19'],3:['FD21']},
+                'ace_spades':{0:['FD43'],1:['FD22'],3:['FD24']},
+                'crow_trail':{0:['FD25','FM06'],1:['FD44'],3:['FD26','FD27']},
+                'crow_operation':{0:['FD28','FM04'],1:['FD29'],3:['FD30','FD31'],4:['FD32','FD33'],5:['FD34'],6:['FM07','FD35','FD36']}}
             keys=mapping[key].get(index,[])
             if index==3:ctx['phase']='after'
             if key=='shinokami' and index in (0,1):ctx['phase']='interview' if index==0 else 'after'
@@ -263,25 +297,21 @@ def action_pages(s,action,args,preview=None):
                 return [page('The team checked the original record at the current objective.\n\n'+step['finding']+'\n\nThe document supplied a starting point for comparison. It did not make a familiar name or a plausible story into an established identity.',title=step['title'])]
     else:return None
     lines=assembled(s,keys,ctx)
+    if action=='rei_story.confront':
+        # The authored confrontation establishes Joseph's physical attendance.
+        # He need not be a travelling town contact before the fight starts.
+        for line in lines:line['stage_cast']=['rei','Joseph Richter']
     if action=='charles_quest.advance' and __import__('charles_quest').read(s)['step']==0:
         lines.insert(0,page('The Golden Dragon had a working day to get through. April knew the unanswered-call habit; Rei knew when a late meal meant Garrett wanted someone to stay. Neither friendship could supply a missing brother. They were part of the life Garrett still had while he looked.\n\nToday he had one small thing to check. Mei’s dispatch photo was waiting on the counter. Familiar handwriting had caught his eye; hope had reached it before he could decide what it meant.','GD05'))
-    if action=='rei_story.advance' and s.get('rei_story',{}).get('stage',0)==0:
-        lines.insert(0,page('Rei had kept this book for years. Today he chose to open it. Yuriko had memories of her own; Garrett knew some of the broad history Rei had trusted him with. Neither could complete the gaps for him. He could ask for company later, or keep the page private. For now, he wanted to know what was actually there.','RD01'))
     for key in keys:
         text=continuity(s,key)
         if text:lines.insert(0,page(text,key))
     if action=='charles_quest.advance' and args and 5<=__import__('charles_quest').read(s)['step']<=8 and args[0]==1:
         lines.append(page('The enquiry has not advanced. The contact needs until the next story day before another response. The records and earned victories remain available.',title='An unresolved enquiry'))
     if action=='interpol.advance' and player in ('fox','gordon'):
-        hypothesis=hypothesis_for(s)
-        if hypothesis and hypothesis['id'] not in read(s).get('flags',{}):
-            lines.insert(0,reflection(hypothesis['id'],'Which part of the lead should they check first?',[
-                ('original','Begin with the original record','They began with the provenance, then compared the physical observation. Neither check could substitute for the other.'),
-                ('observation','Begin with the observation','They began with what had actually been observed, then tested it against the original record. Both checks belonged in the account.')]))
-        if step['kind']=='combat' and keys and keys[0] in ('FD14','FD17','FD20','FD23','FD30'):
-            lines.insert(0,reflection(keys[0]+':approach','How should the team open this confrontation?',[
-                ('finding','State the corroborated finding','Gordon stated what the evidence established. Fox kept his question to the part still unanswered.'),
-                ('request','Focus on the immediate request','Fox kept the request concrete. Gordon would not let a dispute about their motives erase the supported operation.')]))
+        # The investigation still performs both checks and records hypotheses.
+        # New reading flows use authored exchanges, not cosmetic ordering prompts.
+        # Already-saved reflection beats retain their original completion rules.
         if step.get('scripted_outcome')=='crow_defeat':
             lines.append(page('STORY CONFRONTATION\n\nThe Crow will defeat the team. Your combat actions play out, but survival and withdrawal carry this campaign forward after at most four exchanges. This encounter does not offer a capture outcome.',title='Before Night Ledger combat'))
     return lines or None
@@ -342,12 +372,15 @@ social('RD35','rei',6,6,'rei_home',[])
 def present(s,who):
     # Mei is an authored story visitor, not a roaming/contact-enabled cast member.
     # No surname or new private biography is invented for the existing supplier.
-    if who=='Mei':return s['player']=='garrett' and s['world']['location']=='noodle_shop' and 11*60<=s['world']['minute']%1440<17*60
+    if who=='Mei':
+        source=s['player']=='garrett' and s['world']['location']=='noodle_shop' and 11*60<=s['world']['minute']%1440<17*60
+        return source and (not __import__('interiors').enabled(s) or __import__('interiors').room(s)=='noodle_shop__dining_room')
     if who in s.get('combat',{}).get('ruptures',[]):return False
     if __import__('combat').recovering(s,who):return False
     if who in s['world']['cast']:
         actor=s['world']['cast'][who]
         if actor.get('location')!=s['world']['location'] or actor.get('journey') or actor.get('activity')=='Sleep':return False
+        if __import__('interiors').enabled(s) and not __import__('interiors').same_room(s, s['player'], who):return False
         if not __import__('hidden_cast').known(s,who):return False
         bond=s.get('friendships',{}).get(who,{})
         if bond.get('trust',50)<20:return False
@@ -386,6 +419,12 @@ def unavailable(s,key):
     spec=SOCIAL[key]
     if not eligible(s,key):return 'This conversation does not belong to the current chapter.'
     if s['world']['location']!=spec['venue']:return 'Meet in person at '+__import__('town').location_name(s,spec['venue'])+'.'
+    if __import__('interiors').enabled(s) and spec['venue'] == 'rei_home':
+        try: __import__('interiors').require_activity(s, 'social.' + key)
+        except ValueError as error: return str(error)
+    elif __import__('interiors').enabled(s) and spec['venue'] in ('noodle_shop','syndicate'):
+        try:__import__('interior_activities').require(s,'noodle_shop__dining_room' if spec['venue']=='noodle_shop' else 'syndicate__council_meeting_room')
+        except ValueError as error:return str(error)
     cast=scene_cast(s,key)
     if not cast and key not in ('RD33','RD35'):return 'The friend is not available here. You can return later.'
     missing=[who for who in cast if not present(s,who)]
@@ -425,12 +464,10 @@ def begin_social(s,key,disclosure='private',support='quiet'):
 
 
 def pre_mission_visit(s,cast,ctx):
-    if len(cast)==2:return assembled(s,['RD27'],ctx)
-    if cast==['emily']:
-        text='“Do you want me to ask you not to go?” Emily asked.\n\n“I don’t know.”\n\n“I don’t know whether it would help either. I don’t want to say something brave just because you’re about to leave.”\n\nRei looked at her hands, then back at her face. “I’m going alone. I don’t know how long it will take.”\n\n“Then don’t promise me a time. I’d like to see you afterward. Not for a report.”\n\n“I might not be good company.”\n\n“You can let me decide whether I want the company.”\n\nHe smiled a little. “I can tell you when I’m able.”\n\n“That would help.” She paused. “Please be careful.”\n\n“I’ll pay attention,” he said. It was the promise he could make.'
-    else:
-        text='“What can you actually tell me?” Sophie asked.\n\n“That I’m going alone. That I don’t know how long it will take.”\n\n“Then don’t give me a time you made up.”\n\nRei nodded. He had been about to give her something reassuring because he wanted to stop seeing the worry.\n\n“I’d like an ordinary evening after this,” Sophie said. “Let me know when you’re able.”\n\n“Even if I’m not good company?”\n\n“We have survived quiet evenings before.”\n\n“That sounds like an accusation.”\n\n“Only if you need it to.”\n\nHe laughed briefly. They agreed only to a check-in when he could manage one. She would not follow him into the operation.'
-    return [page(text,'RD27')]
+    elements=__import__('rei_campaign_expansion').pre_mission(cast,ctx.get('disclosure')=='share')
+    return [page(e['text'],'RD27',stage_segments=[dict(phase='dialogue' if e.get('speaker') else 'prose',
+                 speaker=e.get('speaker'),text=e['text'],source_element=i,shot_id='RD27:visit')])
+            for i,e in enumerate(elements)]
 
 
 def ending_visit(s,cast):
@@ -541,23 +578,35 @@ def resolved_reaction(s,f):
     f['prose_reaction_exchange']=marker
     event=history[-1]
     line=''
+    voice_scene=None
     player=next((r for r in event['records'] if r['side']=='player'),{})
     enemy=next((r for r in event['records'] if r['side']=='enemy'),{})
     target=f.get('opponent')
     if target=='camila' and marker>=2 and player.get('outcome')=='countered' and any(
             r.get('side')=='player' and r.get('move_id')==player.get('move_id') for r in history[-2]['records']):
         line='Camila: “You have offered me that twice.” Gordon: “Reassess.” Fox: “I heard her.”'
+        voice_scene='FG-REACT-CAMILA'
     elif target=='elias' and enemy.get('outcome') in ('countered','interrupted'):
         line='Elias: “Again, then.” Fox noticed the shorter answer. Gordon kept his attention on the encounter.'
     elif target=='mavis' and player.get('outcome')=='missed':
         line='Fox: “No clean result.” Gordon: “Keep the limit in the account.”'
+        voice_scene='FG-REACT-MAVIS'
     elif player.get('outcome')=='countered':
         line='Fox: “That held.” Gordon: “Then reassess before the next action.”'
+        voice_scene='FG-REACT-COUNTER'
     elif target=='crow' and player.get('damage',0)>0:
         line='Fox: “That reached him.” Gordon: “It has not secured the objective.”'
+        voice_scene='FG-REACT-CROW-HIT'
     elif target=='crow' and marker==1:
         line='Gordon: “Keep the route in mind.” Fox: “I am.”'
-    if line:f.setdefault('log',[]).append(line)
+        voice_scene='FG-REACT-CROW-START'
+    f.pop('fox_reaction_voice',None)
+    if line:
+        log=f.setdefault('log',[])
+        binding=__import__('campaign_voice').fixed_binding(voice_scene,line) if voice_scene else None
+        if binding:
+            f['fox_reaction_voice']=dict(binding=binding,exchange=marker,log_index=len(log))
+        log.append(line)
 
 
 def after_interpol(s,f,key,repeatable):
@@ -566,6 +615,7 @@ def after_interpol(s,f,key,repeatable):
     won=f.get('result','').startswith('Victory')
     if not won:
         lines=[page('“The objective’s still open,” Fox said.\n\n“Yes,” Gordon answered. “We keep what we established and reassess the attempt.”\n\nNeither treated a failed interception as a reason to invent a different record. The team would have to recover and regroup before returning.',title='An unresolved operation')]
+        __import__('campaign_voice').fixed_page(lines[0],'FG-FAIL',lines[0]['narration'])
     elif repeatable and key.startswith('syndicate_'):
         lines=assembled(s,['FD38'],context(s,operation=key,phase='after'))
     else:
@@ -577,4 +627,6 @@ def after_interpol(s,f,key,repeatable):
                      'camila':'“You won this encounter,” Camila said. “Be precise about what you expect that to buy.”\n\n“We secured the material attached to this operation,” Gordon answered.',
                      'mavis':'“You have the handover,” Mavis said.\n\n“And the operational record,” Gordon answered.\n\n“Then stop adding things.”'}
             if who in answers:lines=[page(answers[who],title='After the encounter')]
+            if who=='elias':
+                __import__('campaign_voice').fixed_page(lines[0],'FG-AFTER-ELIAS',answers[who])
     if lines:s.setdefault('campaign_epilogues',[]).append(dict(lines=lines,venue=s['world']['location']))

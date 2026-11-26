@@ -213,6 +213,18 @@ def conversation_knowledge(s, speaker, listeners):
         facts = contact_profiles.known_favourites(s, other, speaker)
         history = []
         if len(audience) == 1:
+            # Give the pair a reliable reference to their latest games even
+            # when many unrelated memories outrank them in general retrieval.
+            player = s['player']
+            if player in (speaker, other) and 'memory_store' in s:
+                from chess_lounge import match_history
+                opponent = other if speaker == player else speaker
+                totals, games = match_history(s, opponent)
+                if games:
+                    history.extend(games)
+                    history.append(f'Overall chess record for {player} against {opponent}: '
+                                   f'wins {totals["wins"]}, losses {totals["losses"]}, '
+                                   f'draws {totals["draws"]} (from {player}’s perspective).')
             tie = personal_ties(speaker).get(other, ())
             history.extend(fact for fact in tie if fact)
             if detail := table.get('With '+other.title()): history.append(detail)
@@ -337,7 +349,14 @@ def appearance_reference(s, who, listeners, cue, *, texting=None):
         if not texting and four_aces.uniform_at(person, actor.get('location')) and actor.get('location') == s['world']['location']:
             people[person] = {'Current visible uniform': four_aces.uniform_description(person),
                               'Concealment': 'The mask and hood conceal the civilian face. Do not describe visible eyes, hair, tattoos or facial expressions behind it.'}
-        if person == s['player'] and not texting and 'Current visible uniform' not in people[person]:
+        if (not texting and s.get('interiors', {}).get('enabled_buildings') and
+                person in s['world']['cast'] and
+                __import__('interiors').same_room(s, s['player'], person) and
+                'Current visible uniform' not in people[person]):
+            outfit = __import__('wardrobe_context').resolve(s, person)
+            if outfit:
+                people[person]['Selected outfit in this in-person scene'] = outfit
+        elif person == s['player'] and not texting and 'Current visible uniform' not in people[person]:
             outfit = s.get('world', {}).get('player_outfit')
             if outfit and outfit != 'Automatic':
                 people[person]['Selected outfit in this in-person scene'] = outfit

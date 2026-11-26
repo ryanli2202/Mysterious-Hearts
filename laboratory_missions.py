@@ -39,6 +39,12 @@ def read(s):
 
 def private(s):
     w = s['world']; actor = w['cast'][s['player']]
+    import interiors
+    if interiors.enabled(s,canon.LAB):
+        return (s['player'] in OPERATIVES and interiors.room(s)=='glasshouse_lab__private_review_reunion_room'
+                and interiors.same_building(w['location'],canon.LAB) and interiors.same_building(actor['location'],canon.LAB)
+                and interiors.available(s,s['player']) and not __import__('interior_presence').count(s,interiors.room(s))
+                and all(who in canon.INNER for who in interiors.occupants(s,interiors.room(s))))
     return (s['player'] in OPERATIVES and w['location'] == canon.LAB
             and actor['location'] == canon.LAB and not actor.get('journey')
             and not w.get('npcs')
@@ -47,6 +53,8 @@ def private(s):
 
 
 def present(s, who):
+    if __import__('interiors').enabled(s,canon.LAB):
+        return __import__('interiors').same_room(s,s['player'],who) and __import__('interiors').available(s,who)
     a = s['world']['cast'].get(who, {})
     return a.get('location') == canon.LAB and not a.get('journey') and a.get('activity') != 'Sleep'
 

@@ -215,10 +215,19 @@ def ensure(s):
         if who not in w['cast']:
             _, place, activity = appointment(who, w['minute'])
             w['cast'][who] = dict(location=place, journey=None, activity=activity)
-    w['cast']['thirteen'].update(location=hidden.thirteen.HQ,journey=None,activity=hidden.CAST['thirteen']['activity'])
-    w['cast']['takeo'].update(location=hidden.takeo.HQ, journey=None, activity=hidden.CAST['takeo']['activity'])
-    w['cast']['crow'].update(location=hidden.HQ, journey=None, activity=hidden.CAST['crow']['activity'])
-    w['cast']['charles'].update(location=hidden.charles_han.LAB, journey=None, activity=hidden.CAST['charles']['activity'])
+    thirteen_custody=s.get('interpol',{}).get('custody',{}).get('thirteen')
+    w['cast']['thirteen'].update(location=thirteen_custody['location'] if thirteen_custody else hidden.thirteen.HQ,journey=None,activity='Receiving care in secure custody' if thirteen_custody else hidden.CAST['thirteen']['activity'])
+    if s.get('player')!='takeo':w['cast']['takeo'].update(location=hidden.takeo.HQ, journey=None, activity=hidden.CAST['takeo']['activity'])
+    for fixed, domain in (('crow', hidden.HQ), ('charles', hidden.charles_han.LAB)):
+        actor=w['cast'][fixed]
+        custody=s.get('interpol',{}).get('custody',{}).get(fixed)
+        if custody:
+            actor.update(location=custody['location'],journey=None,activity='In regional custody after the Interpol operation')
+            continue
+        if fixed=='crow' and __import__('the_crow').campaign_venue(s,actor.get('journey',{}).get('destination') if actor.get('journey') else actor['location']):
+            continue
+        if not __import__('interiors').enabled(s,domain) or actor['location']!=domain:
+            actor.update(location=domain,journey=None,activity=hidden.CAST[fixed]['activity'])
     w.setdefault('journeys', [])
     w.setdefault('party', [])
     s.setdefault('groups', {})
@@ -253,6 +262,8 @@ def ensure(s):
     criminal_dynamics.reconcile_lab_access(s)
     import syndicate_council
     syndicate_council.ensure(s)
+    if s.get('interiors', {}).get('enabled_buildings'):
+        __import__('interiors').ensure(s)
     return w
 
 def clock(s):
@@ -265,6 +276,10 @@ def together(s, who):
     w=ensure(s)
     plan=s.get('autonomy',{}).get('people',{}).get(who,{}).get('plan')
     if plan and plan['kind']=='visit' and not plan.get('accepted',True): return False
+    if __import__('interiors').enabled(s):
+        if not all(__import__('interiors').available(s, person) for person in (s['player'], who)):
+            return False
+        return __import__('interiors').same_room(s, s['player'], who)
     return w['cast'][who]['location'] == w['location']
 
 def place_name(s, who=None):
@@ -299,9 +314,9 @@ def start_trip(s, who, destination, passengers=()):
         raise ValueError('Charles stays inside the Glasshouse.')
     if 'thirteen' in (who, *passengers) and destination != hidden.thirteen.HQ:
         raise ValueError('Number Thirteen receives reports at the depot command room.')
-    if 'takeo' in (who, *passengers) and destination != hidden.takeo.HQ:
+    if 'takeo' in (who, *passengers) and destination != hidden.takeo.HQ and not __import__('takeo_campaigns').travel_allowed(s,who,destination):
         raise ValueError('Takeo remains inside Shinokami headquarters.')
-    if 'crow' in (who, *passengers) and destination != hidden.HQ:
+    if 'crow' in (who, *passengers) and destination != hidden.HQ and not __import__('the_crow').campaign_venue(s,destination):
         raise ValueError('The Crow remains inside Syndicate headquarters.')
     import criminal_dynamics
     if destination == criminal_dynamics.LAB and any(not criminal_dynamics.lab_access(p, s) for p in (who, *passengers)):
@@ -323,6 +338,26 @@ def start_trip(s, who, destination, passengers=()):
     for person in passengers:
         if w['cast'][person]['location'] != actor['location'] or w['cast'][person]['journey']:
             raise ValueError('Your passenger must be here before departure.')
+        if __import__('interiors').enabled(s, actor['location']) and not __import__('interiors').same_room(s, who, person):
+            raise ValueError('Reunite in the same room before departing together.')
+    import interiors, interior_compat
+    requested_room=interior_compat.ROOMS.get(destination)
+    if interiors.enabled(s,destination):
+        place=interiors.building(destination)
+        if interiors.same_building(actor['location'],place):
+            target=requested_room or interiors.ARRIVALS[place]
+            if who==s['player']:
+                for step in interiors.route(s,target):interiors.move(s,step)
+            else:
+                for person in (who,*passengers):
+                    if not interiors.walk_actor(s,person,target):
+                        raise ValueError('The assigned room is behind a door this person cannot enter.')
+            return
+        if place in ('amy_home','minsu_home'):
+            __import__('interior_dorms').register()
+            requested_room=interiors.ARRIVALS[place]
+            destination='nest_dorm_corridor'
+        else:destination=place
     if destination == 'iron_circle' and not 20*60 <= w['minute']%1440 < 1440:
         raise ValueError('The Iron Circle opens at 20:00. Wait until night.')
     vehicle = trip_vehicle(s, who, len(passengers))
@@ -340,6 +375,14 @@ def start_trip(s, who, destination, passengers=()):
             if not recent or recent[-1]!=destination: recent.append(destination)
             needs['recent_venues']=recent[-6:]
     if s['player'] in (who,*passengers): w['location']=destination
+    if s.get('interiors', {}).get('enabled_buildings'):
+        for person in (who, *passengers):
+            __import__('interiors').arrived(s, person)
+            if requested_room:
+                w['cast'][person]['requested_room']=requested_room
+                trip['requested_room']=requested_room
+                if person!=s['player'] and requested_room in ('amy_home__dorm_room','minsu_home__dorm_room'):
+                    interiors.walk_actor(s,person,requested_room)
     if who == s['player']: w.pop('arrival_scene', None)
     w['journeys'].append(copy.deepcopy(trip)); w['journeys']=w['journeys'][-100:]
     if trip.get('chauffeur'):
@@ -348,6 +391,20 @@ def start_trip(s, who, destination, passengers=()):
         event(s, f'{custom_protagonist.display_name(who)} arrived at {town.LOCATIONS[destination]} in {vehicle}.')
     town.arrival_scene(s, {person:trip for person in (who,*passengers)})
     reconcile(s)
+
+def complete_journey(s,who,trip):
+    """Complete one saved journey before resolving a conflicting appointment."""
+    import town
+    w=s['world'];actor=w['cast'][who]
+    actor.update(location=trip['destination'],journey=None,activity='Arrived')
+    if who==s['player']:w['location']=actor['location']
+    if s.get('interiors',{}).get('enabled_buildings'):__import__('interiors').arrived(s,who)
+    if who==trip['driver']:
+        for recorded in reversed(w['journeys']):
+            if recorded['driver']==who and recorded['departed']==trip['departed']:
+                recorded['status']='arrived';break
+    event(s,custom_protagonist.display_name(who)+' arrived at '+town.LOCATIONS[actor['location']]+'.')
+
 
 def reconcile(s):
     import town
@@ -408,33 +465,57 @@ def advance(s, minutes, *, finish_day=False, combat_turn=False):
                 actor.update(journey=None,activity='Recovering from knockout')
                 continue
             fight=combat.active(s)
-            if fight and who in (s['player'],fight['opponent']):
+            if fight and who in (s['player'],fight['opponent'],fight.get('ally')):
                 actor.update(journey=None,activity='In a combat encounter')
                 continue
             custody=s.get('interpol',{}).get('custody',{}).get(who)
             if custody:
                 actor.update(location=custody['location'],journey=None,activity='In regional custody after the Interpol operation')
                 continue
+            scene = s.get('campaign_dialogue') or {}
+            if (__import__('interiors').enabled(s, actor['location'])
+                    and who in scene.get('social_cast', []) and actor['location'] == scene.get('venue')
+                    and not actor.get('journey')):
+                actor['activity'] = 'Participating in an authored scene'
+                continue
             task=s.get('interpol',{}).get('active')
             if task and who==task.get('partner') and actor['location']==w['location'] and not actor.get('journey'):
                 actor['activity']='Interpol field team'
                 continue
-            if who == 'charles':
+            if who == 'charles' and not __import__('interiors').enabled(s,hidden.charles_han.LAB):
                 actor.update(location=hidden.charles_han.LAB, journey=None, activity=hidden.CAST['charles']['activity'])
                 continue
             if who == 'thirteen':
                 actor.update(location=hidden.thirteen.HQ,journey=None,activity=hidden.CAST['thirteen']['activity'])
                 continue
-            if who == 'takeo':
+            if who == 'takeo' and s.get('player')!='takeo':
                 actor.update(location=hidden.takeo.HQ, journey=None, activity=hidden.CAST['takeo']['activity'])
                 continue
-            if who == 'crow':
+            if who == 'crow' and not __import__('interiors').enabled(s,hidden.HQ):
                 actor.update(location=hidden.HQ, journey=None, activity=hidden.CAST['crow']['activity'])
                 continue
             if who == 'garrett' and s['player']!='garrett' and __import__('charles_disclosure').hold(s): continue
             invitation = scheduled_events.active(s, who)
             if invitation and who != s['player']:
-                actor.update(location=invitation['venue'], journey=None, activity=invitation['title'])
+                if __import__('interiors').enabled(s, invitation['venue']):
+                    if actor.get('journey'):
+                        trip=actor['journey']
+                        if w['minute']>=trip['arrives']:
+                            arrivals[who]=trip;complete_journey(s,who,trip)
+                        continue
+                    asleep=(s.get('autonomy',{}).get('people',{}).get(who,{}).get('sleep_until') or 0)>w['minute']
+                    if asleep or actor.get('activity')=='Sleep' and __import__('autonomy').sleep_window(s,who):continue
+                    if actor.get('activity')=='Sleep':actor['activity']='Morning routine'
+                    if actor['location'] != invitation['venue']:
+                        try:
+                            start_trip(s, who, invitation['venue'])
+                        except ValueError:
+                            actor['activity'] = 'Unable to reach a scheduled appointment'
+                            continue
+                    reached = __import__('interiors').walk_actor(s, who, __import__('interiors').event_room(s, invitation))
+                    actor['activity'] = invitation['title'] if reached else 'Waiting outside the assigned event room'
+                else:
+                    actor.update(location=invitation['venue'], journey=None, activity=invitation['title'])
                 if who in w['party'] and w['location'] != invitation['venue']:
                     w['party'].remove(who)
                 continue
@@ -442,16 +523,27 @@ def advance(s, minutes, *, finish_day=False, combat_turn=False):
             if j:
                 if w['minute'] >= j['arrives']:
                     arrivals[who] = j
-                    actor.update(location=j['destination'],journey=None,activity='Arrived')
-                    if who==s['player']: w['location']=actor['location']
-                    if who == j['driver']:
-                        for recorded in reversed(w['journeys']):
-                            if recorded['driver'] == who and recorded['departed'] == j['departed']:
-                                recorded['status'] = 'arrived'
-                                break
-                    event(s,custom_protagonist.display_name(who)+' arrived at '+town.LOCATIONS[actor['location']]+'.')
+                    complete_journey(s,who,j)
                 continue
             if who==s['player']: continue
+            if who in ('crow','charles') and __import__('interiors').enabled(s,actor['location']):
+                actor['activity']=hidden.CAST[who]['activity']
+                continue
+            if __import__('interiors').enabled(s, actor['location']):
+                due_hour, due_place, due_activity = appointment(who, w['minute'])
+                if (w['minute'] % 1440 == due_hour * 60 and due_place != actor['location']
+                        and due_activity != 'Sleep'):
+                    if who in w['party']: w['party'].remove(who)
+                    if s['routes'].get(who, {}).get('channel') == 'in_person':
+                        town.set_channel(s, who, 'text')
+                        s['routes'][who]['history'].append(dict(role='status', content='The visit wrapped up for a scheduled commitment.'))
+                    town.dating.cancel(s, who)
+                    try:
+                        start_trip(s, who, due_place)
+                        actor['activity'] = due_activity
+                    except ValueError:
+                        actor['activity'] = 'Unable to reach a scheduled commitment'
+                    continue
             import autonomy
             if autonomy.control(s, who): continue
             if (who in w['party'] and together(s, who)) or town.dating.in_hangout(s, who):
@@ -475,6 +567,8 @@ def advance(s, minutes, *, finish_day=False, combat_turn=False):
             else: actor['activity']=activity
         if arrivals:
             town.arrival_scene(s, arrivals)
+        if s.get('interiors', {}).get('enabled_buildings'):
+            __import__('interiors').tick(s)
         town.town_residents.refresh(s)
         scheduled_events.observe(s)
         reconcile(s)
@@ -483,6 +577,8 @@ def advance(s, minutes, *, finish_day=False, combat_turn=False):
             sharing = (first['location']==second['location'] and not first['journey']
                        and first['activity']!='Sleep' and second['activity']!='Sleep'
                        and not combat.recovering(s,a) and not combat.recovering(s,b))
+            if sharing and __import__('interiors').enabled(s, first['location']):
+                sharing = __import__('interiors').same_room(s, a, b)
             bond['shared_minutes'] = bond.get('shared_minutes',0)+1 if sharing else 0
             day=w['minute']//1440
             if bond['shared_minutes'] >= 15 and bond.get('last_shared_day') != day:
@@ -522,6 +618,8 @@ def settle_journeys(s):
         arrivals[who]=trip
         actor.update(location=trip['destination'],journey=None,activity='Arrived')
         if who==s['player']: w['location']=actor['location']
+        if s.get('interiors', {}).get('enabled_buildings'):
+            __import__('interiors').arrived(s, who)
     for trip in w.get('journeys',[]):
         if trip.get('status')=='in transit': trip.update(status='arrived',arrives=w['minute'])
     if arrivals:

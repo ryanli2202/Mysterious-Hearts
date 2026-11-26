@@ -2,7 +2,7 @@
   "roadmap_id": "MH-001",
   "batch": 7,
   "created": "2026-11-10",
-  "status": "8 local sprite sheets and GIFs assembled and structurally verified; runtime integration pending.",
+  "status": "Withdrawn 2026-11-13: prior review sheets, GIFs, preview and contact removed; runtime integration remains pending.",
   "generation_tool": "built-in image_gen",
   "model_verification": "Tool does not expose a model selector or verified model identifier.",
   "workflow": "Generate sprite sheets first, then slice and encode locally using Pillow.",
@@ -12,7 +12,7 @@
   },
   "frame_duration_ms": 150,
   "blank_hold_ms": 720,
-  "timing_reason": "900ms action matches the plan's 700\u20131100ms martial master range.",
+  "timing_reason": "900ms action matches the plan's 700–1100ms martial master range.",
   "background": "opaque dark slate; not transparent",
   "assets": [
     {
@@ -47,7 +47,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "26256b1e182ce45c1262d1c17a5b148211241160bba6cd469fbe8874a1e8d87a",
         "sha256_gif": "eddebcae6fe4eaf932d36298dc20e4e73ea857f0f4b3847f112968fe1a0af366"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B07-meteor-knee",
@@ -81,7 +82,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "e32f6dd5f236bd778d780867deac919d83454c1a9f1261db1c698b013e554aed",
         "sha256_gif": "0a6167bcb2d44fdf642cf9037c676e3c7bda9ee6c770872f3f15005581208aae"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B07-titan-clinch",
@@ -115,7 +117,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "cf6ac7805639f7c49e25e5afcadde2c7e0fd14aefe2d2b4deebe58e93099ab56",
         "sha256_gif": "e81507ac0f5fb3a84f4476c9b9520b21df9d398018e61a1e8cc17d9f1c8ef6c6"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B07-thunder-pillar",
@@ -149,7 +152,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "8660f012199fe9e1b92c2ebc0a3102ea953381bc4e57954cb5fd7fcf7a08d2b6",
         "sha256_gif": "14312ffcef484cdb30a5da7fe62af9a099b0c31ab78a9450146ee8ec49cc3fc9"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B07-riot-engine",
@@ -183,7 +187,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "dcaccdc8e4be5cc1ac7a137f255ea55193d5c50a37cd090bd0601c88c928940d",
         "sha256_gif": "cc9d1bc4b172e89fdbdffbe430c587d3bb32d4ef796cd65d7e4a8388e52e8c15"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B07-backstreet-phantom",
@@ -217,7 +222,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "bc06a39f1a006991a1f4ad398aca2281b89075a2e8969785e5e5d68fe7d80321",
         "sha256_gif": "0cfd25af6dd9dd1c777caac994a4e0dfca9c486148b711f860ef1e12a77b4ce1"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B07-concrete-verdict",
@@ -251,7 +257,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "212efce766f87b9c92cf9a0aca5386d8fcecfbba0df856497560794abcef28ce",
         "sha256_gif": "ccb17fd970b9972f0579def00e77549dfc3c5b2eba2981959c5be35a79535faa"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B07-chaos-rhythm",
@@ -285,8 +292,15 @@
         "loop": "infinite preview",
         "sha256_sheet": "2e43f866c5f7196840207768236119db3a525335777d45ea3d9f9e06a20cbfa4",
         "sha256_gif": "3087420eed614e6a3711229ff545dd2e9d9a585af4e678a71675c10730430779"
-      }
+      },
+      "available": false
     }
   ],
-  "validation_command": "python tools/build_combat_batch_gifs.py --batch 7"
+  "validation_command": "python tools/build_combat_batch_gifs.py --batch 7",
+  "withdrawn": true,
+  "availability": "withdrawn",
+  "withdrawn_on": "2026-11-13",
+  "withdrawal_reason": "User-requested combat animation artwork reset; historical paths and verification are retained, files removed.",
+  "style_guide": "roadmap/COMBAT_ANIMATION_STYLE_GUIDE.md",
+  "validation_command_status": "Historical command only; this manifest is withdrawn and the builder rejects it."
 }

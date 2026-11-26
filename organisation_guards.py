@@ -97,19 +97,23 @@ def here(s, venue=None):
     a=s['world']['cast'][s['player']]
     if a.get('journey') or a['location']!=s['world']['location'] or a.get('activity')=='Sleep':
         raise ValueError('Arrive in person and wake up first.')
-    if venue and s['world']['location']!=venue: raise ValueError('Travel to the listed location first.')
+    if venue and s['world']['location']!=venue:
+        import interiors
+        if not interiors.enabled(s,venue) or not interiors.same_building(s['world']['location'],venue):
+            raise ValueError('Travel to the listed location first.')
 
 def slots(s, venue):
     d=data(s); faction, types=DEPLOYMENTS.get(venue, (None, ()))
     if faction in d['disabled']: return []
     result=[dict(id=venue+':'+str(i),type=t,faction=faction,venue=venue) for i,t in enumerate(types)]
     result += [dict(r, faction='custom') for r in d['roster'] if r['venue']==venue]
-    return result
+    return __import__('interior_security').decorate(s, venue, result)
 
 def remaining(s, venue, scope='patrol'):
     key=scope+(':'+str(s['world']['minute']//1440) if scope=='patrol' else '')
     won=data(s)['victories'].get(key, [])
-    return [r for r in slots(s,venue) if r['id'] not in won]
+    rows=__import__('interior_security').mission_rows(s,venue,slots(s,venue),scope)
+    return [r for r in rows if r['id'] not in won]
 
 def cleared(s, venues, scope):
     return all(not remaining(s,v,scope) for v in venues)
@@ -153,10 +157,18 @@ def patrol_allies(s):
 
 def begin(s, venue=None, scope='patrol', ally=None):
     venue=venue or s['world']['location']; here(s,venue)
+    import interiors
+    if interiors.enabled(s,venue) and venue not in DEPLOYMENTS and interiors.building(venue) in DEPLOYMENTS:
+        venue=interiors.building(venue)
     if scope=='patrol' and ally and ally not in patrol_allies(s):
         raise ValueError('A field partner must be a willing trusted companion present in your in-person group, able to fight and not defending this post.')
     rows=remaining(s,venue,scope)
     if not rows: raise ValueError('This deployment is cleared.')
+    import interiors
+    if interiors.enabled(s, venue):
+        local=[row for row in rows if row.get('room')==interiors.room(s)]
+        if not local: raise ValueError('No remaining guard is at this post. Follow the room doors to the next guarded post.')
+        rows=local
     result=start(s, rows[0]['id'], profile(s,rows[0]['type']), scope, rows[0], ally)
     if scope=='patrol':
         import interpol
@@ -168,6 +180,14 @@ def start(s, who, opponent, scope, slot=None, ally=None):
     here(s)
     if data(s)['encounter']: raise ValueError('Close the previous encounter first.')
     e=dict(token=uuid.uuid4().hex, who=who, profile=opponent, scope=scope, slot=slot, venue=s['world']['location'])
+    import interiors
+    if interiors.enabled(s):
+        if slot and slot.get('room') is None and scope!='patrol':
+            slot=dict(slot,room=interiors.room(s))
+            e['slot']=slot
+        if slot and slot.get('room') != interiors.room(s):
+            raise ValueError('Approach the guard at its actual room post first.')
+        e['room']=interiors.room(s)
     data(s)['encounter']=e
     try: f=combat.start(s,who,'guard')
     except Exception:
@@ -176,6 +196,7 @@ def start(s, who, opponent, scope, slot=None, ally=None):
     f['guard_token']=e['token']
     if ally:
         f['ally']=ally; f['ally_profile']=copy.deepcopy(combat.profile(s,ally)); f['ally_resources']=combat.resources(f['ally_profile'])
+        if s.get('interiors',{}).get('enabled_buildings'):f.setdefault('wardrobe_snapshot',{}).update(__import__('wardrobe_context').snapshot(s,(ally,)))
         __import__('combat_engine').ensure_arena(f)
         f['arena']['positions']['ally']=f['arena']['positions']['player']
     return 'Encounter started. Resolve it in Combat, then close the result to record progress.'
@@ -183,12 +204,15 @@ def start(s, who, opponent, scope, slot=None, ally=None):
 def validate(s,who):
     e=data(s)['encounter']
     if not e or e['who']!=who or e['venue']!=s['world']['location']: raise ValueError('No matching guard encounter.')
+    if e.get('room') and e['room']!=__import__('interiors').room(s): raise ValueError('Return to the saved encounter room.')
     return copy.deepcopy(e['profile'])
 
 def resolve(s,f):
     if f.get('kind')!='guard': return
     d=data(s); e=d['encounter']
     if not e or f.get('guard_token')!=e['token']: return
+    if e.get('room') and e['room']!=__import__('interiors').room(s):
+        raise ValueError('The encounter must resolve in its saved room.')
     d['encounter']=None
     win=f.get('result','').startswith('Victory')
     d['history'].append(dict(scope=e['scope'],venue=e['venue'],won=win,opponent=e['who'],minute=s['world']['minute']))
@@ -217,14 +241,52 @@ def member(s, faction):
     own,_=combat.affiliation(s,s['player'])
     return own==faction or (faction=='interpol' and s['player'] in ('fox','gordon'))
 
+
+def room_rows(s,ident):
+    """Authoritative physical guards, including posts not yet visited by the player."""
+    import interiors
+    target=interiors.ROOMS[ident]
+    places=[key for key in [*DEPLOYMENTS,*data(s)['properties']] if interiors.same_building(key,target.building)]
+    rows=[]
+    for place in dict.fromkeys(places):
+        scope='patrol'
+        if s['player']=='rei' and s.get('rei_story',{}).get('stage',0)>=6:
+            if place in BLACKSTONE:scope='rei:blackstone'
+            elif place in HAMAYASHI and s.get('rei_story',{}).get('hamayashi')=='destroy':scope='rei:hamayashi'
+        if s['player']=='garrett' and place in ('site_08','glasshouse_lab'):scope='charles:search'
+        selected=remaining(s,place,scope)
+        ids={row['id'] for row in selected}
+        selected.extend(row for row in remaining(s,place) if ':interior:' in row['id'] and row['id'] not in ids)
+        rows.extend(row for row in selected if row.get('room') in interiors.ROOMS
+                    and (interiors.ROOMS[row['room']].physical_space or row['room'])==(target.physical_space or ident))
+    return rows
+
 def npc_rows(s):
     venue=s['world']['location']; scope='patrol'
+    import interiors
     q=s.get('rei_story',{})
     if s['player']=='rei' and q.get('stage',0)>=6:
         if venue in BLACKSTONE: scope='rei:blackstone'
         elif venue in HAMAYASHI and q.get('hamayashi')=='destroy': scope='rei:hamayashi'
-    if s['player']=='garrett' and venue in ('site_08','glasshouse_lab'): scope='charles:search'
-    return {'Post guard · '+spec(s,r['type'])[0]+' · '+str(i+1): r for i,r in enumerate(remaining(s,venue,scope))}
+    if s['player']=='garrett' and interiors.building(venue) in ('site_08','glasshouse_lab'): scope='charles:search'
+    rows=remaining(s,venue,scope)
+    import interiors
+    if interiors.enabled(s,venue):
+        places=[key for key in DEPLOYMENTS if interiors.same_building(key,venue)]
+        if venue in data(s)['properties'] and venue not in places:places.append(venue)
+        rows=[]
+        for place in places:
+            local_scope='rei:blackstone' if s['player']=='rei' and q.get('stage',0)>=6 and place in BLACKSTONE else scope
+            rows.extend(remaining(s,place,local_scope))
+        # Mission requirements and physical security are distinct. Optional new
+        # posts remain visible, while already-cleared mission posts stay cleared.
+        ids={row['id'] for row in rows}
+        rows += [row for place in places for row in remaining(s,place) if ':interior:' in row['id'] and row['id'] not in ids]
+        rows=[row for row in rows if row.get('room')==interiors.room(s)]
+    if interiors.enabled(s,venue):
+        order={row['id']:index+1 for index,row in enumerate([row for place in places for row in slots(s,place)])}
+        return {'Post guard · '+spec(s,r['type'])[0]+' · '+str(order[r['id']]):r for r in rows}
+    return {'Post guard · '+spec(s,r['type'])[0]+' · '+str(index+1):r for index,r in enumerate(rows)}
 
 def refresh(s):
     if 'world' not in s:return
@@ -274,7 +336,7 @@ def recruit(s, name, category, venue):
     d['roster'].append(dict(id=uuid.uuid4().hex,type=key,venue=venue))
     return name+' stationed here. Cost $'+str(cost)+'.'
 
-def station(s, ident, venue):
+def station(s, ident, venue, room=None):
     crew=founder(s); here(s,venue)
     d=data(s)
     if venue not in d['properties']: raise ValueError('Buy the destination first.')
@@ -283,6 +345,15 @@ def station(s, ident, venue):
     if not r: raise ValueError('Choose one of your guards.')
     if d['properties'][r['venue']]['owner']!=crew['name']: raise ValueError('That guard belongs to your former crew.')
     if sum(r['venue']==venue for r in d['roster'])>=12: raise ValueError('Destination roster is full.')
+    import interiors
+    if interiors.enabled(s,venue):
+        room=room or interiors.room(s)
+        if room not in interiors.ROOMS or interiors.ROOMS[room].building!=interiors.building(venue):
+            raise ValueError('Choose a real room in the owned destination.')
+        if interiors.ROOMS[room].private or interiors.ROOMS[room].bathroom:
+            raise ValueError('Guards need a permitted shared post, outside private rooms and bathrooms.')
+        r['room']=room
+    else:r.pop('room',None)
     r['venue']=venue
     return 'Guard reassigned to this property.'
 
@@ -306,4 +377,5 @@ def check_trip(s,who,destination,passengers=()):
 
 def breach(s, key):
     """A cleared perimeter permits inspection, never membership or command authority."""
-    return bool(slots(s,key)) and not remaining(s,key)
+    rows=slots(s,key)
+    return bool(rows) and (__import__('interior_security').legacy_passage(s,key) or not remaining(s,key))

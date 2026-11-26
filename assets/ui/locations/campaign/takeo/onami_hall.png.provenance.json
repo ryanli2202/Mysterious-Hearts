@@ -1,0 +1,19 @@
+{
+  "id": "onami_hall",
+  "type": "location",
+  "path": "assets/ui/locations/campaign/takeo/onami_hall.png",
+  "original": "media-workspace/takeo/originals/exec-76a63609-b4eb-44f2-ac04-6758c7b6ebf4.png",
+  "prompt": "ONE 16:9 wide game location background painting. Onami command hall shortly after fictional 2024 conquest. Japanese militant headquarters with damaged plaster, heavy timber beams, dark map table and fractured high window, subdued grey daylight, no banners with readable symbols. No people, no readable text, logos or watermarks. Semi-realistic illustrated manhwa with restrained linework, softly dimensional painted shadows; not photorealism, 3D or exaggerated cartoon. Clear spatial layout and open foreground for visual novel portraits.",
+  "references": [],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "637295598b90046844a6624d28771bcb4515f3585dec30993163d2f9eefd9ae6",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "alpha_extrema": null,
+  "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+  "reference_hashes_measured_at_release_review": {}
+}

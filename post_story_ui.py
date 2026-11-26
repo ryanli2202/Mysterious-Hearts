@@ -10,6 +10,8 @@ def board(parent,game,act):
         w=ttk.Label(parent,text=text,wraplength=700,justify='left');w.pack(fill='x',pady=5)
         w.bind('<Configure>',lambda e:w.configure(wraplength=max(100,e.width-12)))
     def button(text,fn,*args):
+        if fn is town.travel:
+            return __import__('campaign_navigation').directions(parent,game,args[0])
         ttk.Button(parent,text=text,command=lambda:act(fn,*args)).pack(fill='x',pady=4)
     label('POST-STORY · CIVILIAN PROTECTION')
     if not story.complete(s):

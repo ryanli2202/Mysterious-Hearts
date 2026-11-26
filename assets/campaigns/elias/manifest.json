@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "route": "elias",
+  "title": "The Last Applause",
+  "production": "media-workspace/elias-campaign/production.json",
+  "core_shots": [
+    {
+      "id": "CS-EL01",
+      "scene": "EL-F01",
+      "field": "text",
+      "index": 0,
+      "image": "assets/campaigns/elias/core/CS-EL01.png",
+      "source_id": "EL-F01:text:000",
+      "anchor_text": "Elias is ten. In the Braun estate’s music room, Anja Keller plays a difficult phrase once and asks him to follow its shape. He plays it cleanly, then tries a variation that leaves her hand suspended over the next page. The gift is real. So is the practice that taught his fingers to offer it.",
+      "source_sha256": "ca480bda897623c84da72faba152336d99e3c69a62ccd21d5e8e8d532c98dbab",
+      "art_sha256": "cb8a05a5a2b15b5a943889facb692060ad174da209c0e4375cf84f014964c65a",
+      "resolution": "authored scene, no premature current mission result"
+    },
+    {
+      "id": "CS-EL02",
+      "scene": "EL-F04",
+      "field": "after_encounter",
+      "index": 0,
+      "image": "assets/campaigns/elias/core/CS-EL02.png",
+      "source_id": "EL-F04:after_encounter:000",
+      "anchor_text": "The final breaching team loses its leader’s weapon and its line. Elias drives the surviving attackers back through the courtyard exit himself. Johanna checks all four deployments against her report: entry force, loading approach, courtyard reserve, final breaching team. Every incoming formation has lost. The Syndicate’s losses are real; Elias has needed no rescuer.",
+      "source_sha256": "089fbcf77ec4a5b59fb5de0abfe396fd7e8a1264e88dd1a4ec8f20131b1713ad",
+      "art_sha256": "ac573484fed9d1696c8007b7466e75677e53636ee5c2d7604fe14df184c861f9",
+      "resolution": "after earned defence/duel result",
+      "production": "media-workspace/CS-EL02-cinematic-2026-11-15/production.json"
+    },
+    {
+      "id": "CS-EL03",
+      "scene": "EL-F05",
+      "field": "text",
+      "index": 4,
+      "image": "assets/campaigns/elias/core/CS-EL03.png",
+      "source_id": "EL-F05:text:004",
+      "anchor_text": "Elias hears certainty where irritation should have been. He steps forward to test it, sure of what his body can do. His first movement earns heat. The man across from him watches his planted foot and the shift of weight.",
+      "source_sha256": "db971db223551f6cf4fa9602529ccf52ca20e3c181b1f54e2c1656fc284b1371",
+      "art_sha256": "4b9763a66ea4f33d5d3a7e9b639e8df63bbab0bc6d989c36fcb1788831516495",
+      "resolution": "authored scene, no premature current mission result",
+      "production": "media-workspace/CS-EL03-cinematic-2026-11-15/production.json"
+    },
+    {
+      "id": "CS-EL04",
+      "scene": "EL-F05",
+      "field": "after_encounter",
+      "index": 0,
+      "image": "assets/campaigns/elias/core/CS-EL04.png",
+      "source_id": "EL-F05:after_encounter:000",
+      "anchor_text": "The Crow takes his balance and fixes his shoulder against the family meeting-room floor. Elias tries to rise. The counter turns that effort into a clear physical impossibility. He cannot continue. No lack of strength excuses it. For the first time, the limit in the room belongs to him.",
+      "source_sha256": "869469de4977301cf61055d7e8f14e86d4a4806d3418f28f3b4b7ca3ce3d5d26",
+      "art_sha256": "ef29218c8da984b0be93bac0a9ba7a20e03d75cab14a9c67e4b5a4ad6a4b53ac",
+      "resolution": "after earned defence/duel result",
+      "production": "media-workspace/CS-EL04-cinematic-2026-11-15/production.json"
+    },
+    {
+      "id": "CS-EL05",
+      "scene": "EL-F06",
+      "field": "text",
+      "index": 2,
+      "image": "assets/campaigns/elias/core/CS-EL05.png",
+      "source_id": "EL-F06:text:002",
+      "anchor_text": "Johanna accepts internal administration of a retained affiliate. The family keeps operating, but loses independent control of its routes and force. Elias enters the Crow’s direct personal service. He does not take the family chair. The two decisions share a room without becoming the same decision.",
+      "source_sha256": "afe13171f156f3d7e71450d490a63f9612239383bf7c82e489f4097d03d754e4",
+      "art_sha256": "d378e01a6da24fa043abcfd511c6a889852c30fb401115d7f3646d85ed7ff46f",
+      "resolution": "authored scene, no premature current mission result"
+    },
+    {
+      "id": "CS-EL06",
+      "scene": "EL-13",
+      "field": "briefing",
+      "index": 0,
+      "image": "assets/campaigns/elias/core/CS-EL06.png",
+      "source_id": "EL-13:briefing:000",
+      "anchor_text": "In the public performance, Elias takes the first entrance without greeting the audience ahead of his character. His partner reaches the difficult pause and finds him listening. The scene opens around the response. For the length of it, the room has the company’s complete attention.",
+      "source_sha256": "c31645efc056f472ca5e00c6ce65c0dbe52d1d64f773c47258bd40cc5f608574",
+      "art_sha256": "657af32cb4787bd84821a268af1d09565ff3d5a274f502355fd77bb1f7569149",
+      "resolution": "authored scene, no premature current mission result"
+    }
+  ],
+  "assets": [
+    {
+      "id": "johanna-current",
+      "path": "assets/portraits/johanna-current.png",
+      "sha256": "a23ca533489db5d59a39d6e8679e6c9edbb319986463fe67004ed27a936ac66f"
+    },
+    {
+      "id": "elias-childhood",
+      "path": "assets/portraits/elias-childhood.png",
+      "sha256": "f6138757644c8aca7b7e38bc925dc76769220d98342daa1f70267c7d50114ef3"
+    },
+    {
+      "id": "konrad-current",
+      "path": "assets/portraits/konrad-current.png",
+      "sha256": "8d88f380963b8c856483ce8438aecdb94b5233ce03262e7aa137195225925db0"
+    },
+    {
+      "id": "lotte-current",
+      "path": "assets/portraits/lotte-current.png",
+      "sha256": "84cd7f4dfbc1bb01ef8ccc37be2ae7881613d0de2d940a764cb90140a9b86994"
+    },
+    {
+      "id": "johanna-young",
+      "path": "assets/portraits/johanna-young.png",
+      "sha256": "84cd27be5dd6821b73fe0caecedab969db3e969d9812fe2e5ef93730aa8ecbf7"
+    },
+    {
+      "id": "konrad-history",
+      "path": "assets/portraits/konrad-history.png",
+      "sha256": "a40c50636bd4aebb5930c3b99192a9787e19a62084202b628168454d74ee41d1"
+    },
+    {
+      "id": "lotte-history",
+      "path": "assets/portraits/lotte-history.png",
+      "sha256": "a5fb55db2087e26712d8cd38157761e3c58edecd61fb27ba24ea046ccce71e66"
+    },
+    {
+      "id": "elias-actor",
+      "path": "assets/portraits/elias-actor.png",
+      "sha256": "05cb102ccd0d05c400a00f883c4a9348ec88ceacbb81e86ed5d95a283e2e099b"
+    },
+    {
+      "id": "konrad-childhood",
+      "path": "assets/portraits/konrad-childhood.png",
+      "sha256": "51aa7328bde3fc44e3c4a995241b785ab9b64abfa8299d64a9b84a1e9387d9b7"
+    },
+    {
+      "id": "anja-childhood",
+      "path": "assets/portraits/anja-childhood.png",
+      "sha256": "905d512db85ae7839e5fb440124f184f7134fc79e5efbdce7a1466dc260ae7ab"
+    },
+    {
+      "id": "elias-early-service",
+      "path": "assets/portraits/elias-early-service.png",
+      "sha256": "3ae8120f117a090bd25d8ea60c8bb7158d917f035b5af2467b7027e4c7d45ffe"
+    },
+    {
+      "id": "elias-historical-opposition",
+      "path": "assets/portraits/elias-historical-opposition.png",
+      "sha256": "394c3159b5391a1deed0b14129fde46dc5ad3562ef6cc08df49508c889dbe2e2"
+    },
+    {
+      "id": "family_meeting",
+      "path": "assets/ui/locations/campaign/elias/family_meeting.png",
+      "sha256": "2498f111574f0d2b0aec9ddb654ea6b24dc83acf58d245b5600da3d760af2927"
+    },
+    {
+      "id": "gallery",
+      "path": "assets/ui/locations/campaign/elias/gallery.png",
+      "sha256": "79af8d6969367fb605af93625469ab70989c93aa0de0334a697367adce4cdffb"
+    },
+    {
+      "id": "kitchen",
+      "path": "assets/ui/locations/campaign/elias/kitchen.png",
+      "sha256": "62dc8453971e443b8a475e934d3be0d312d7b21bfff112b5becd5aa97f110d1e"
+    },
+    {
+      "id": "courtyard",
+      "path": "assets/ui/locations/campaign/elias/courtyard.png",
+      "sha256": "968ce9f60e54c92c25777eb5b8f24ff7f055e0dd2f9c0c16b6555d0db147cc78"
+    },
+    {
+      "id": "stage",
+      "path": "assets/ui/locations/campaign/elias/stage.png",
+      "sha256": "46e044a6df31e3c0fb8436345d73a2b5109a2b994604876b67c0be61a11e2f71"
+    },
+    {
+      "id": "dressing",
+      "path": "assets/ui/locations/campaign/elias/dressing.png",
+      "sha256": "202c6d5ea1ea9ebc09e1afe7015b28590cf59da031b837bec202ac7d813765fa"
+    },
+    {
+      "id": "receiving",
+      "path": "assets/ui/locations/campaign/elias/receiving.png",
+      "sha256": "0dd2c2860759aa1815fae8c85f1923d7586d526888fad0720ef4f4e221506422"
+    },
+    {
+      "id": "loading",
+      "path": "assets/ui/locations/campaign/elias/loading.png",
+      "sha256": "29dcead4199a168bd9b54cb856473bfb68c47aa484451afe8082116f9af8f187"
+    },
+    {
+      "id": "stage_current",
+      "path": "assets/ui/locations/campaign/elias/stage_current.png",
+      "sha256": "348d392ad0678317e99f398e3b4632d9a5496538d0d0190ea799e343783d4eed"
+    },
+    {
+      "id": "dressing_current",
+      "path": "assets/ui/locations/campaign/elias/dressing_current.png",
+      "sha256": "dfcb692c85d8793ed787f6750184fc8a60f0af8d999a6234521edc2ff0fb461f"
+    },
+    {
+      "id": "music",
+      "path": "assets/ui/locations/campaign/elias/music.png",
+      "sha256": "a22075c1d3f537a48a601b34ca20dc9db06542806534c923b3ba06877403d5c3"
+    },
+    {
+      "id": "CS-EL01",
+      "path": "assets/campaigns/elias/core/CS-EL01.png",
+      "sha256": "cb8a05a5a2b15b5a943889facb692060ad174da209c0e4375cf84f014964c65a"
+    },
+    {
+      "id": "CS-EL02",
+      "path": "assets/campaigns/elias/core/CS-EL02.png",
+      "sha256": "ac573484fed9d1696c8007b7466e75677e53636ee5c2d7604fe14df184c861f9",
+      "production": "media-workspace/CS-EL02-cinematic-2026-11-15/production.json"
+    },
+    {
+      "id": "CS-EL03",
+      "path": "assets/campaigns/elias/core/CS-EL03.png",
+      "sha256": "4b9763a66ea4f33d5d3a7e9b639e8df63bbab0bc6d989c36fcb1788831516495",
+      "production": "media-workspace/CS-EL03-cinematic-2026-11-15/production.json"
+    },
+    {
+      "id": "CS-EL04",
+      "path": "assets/campaigns/elias/core/CS-EL04.png",
+      "sha256": "ef29218c8da984b0be93bac0a9ba7a20e03d75cab14a9c67e4b5a4ad6a4b53ac",
+      "production": "media-workspace/CS-EL04-cinematic-2026-11-15/production.json"
+    },
+    {
+      "id": "CS-EL05",
+      "path": "assets/campaigns/elias/core/CS-EL05.png",
+      "sha256": "d378e01a6da24fa043abcfd511c6a889852c30fb401115d7f3646d85ed7ff46f"
+    },
+    {
+      "id": "CS-EL06",
+      "path": "assets/campaigns/elias/core/CS-EL06.png",
+      "sha256": "657af32cb4787bd84821a268af1d09565ff3d5a274f502355fd77bb1f7569149"
+    }
+  ],
+  "reused_assets": [
+    {
+      "path": "assets/portraits/camila-syndicate.png",
+      "sha256": "7b48016b215475626598b3bab96dfbf129b71ffaff7a6617fee490fb688928e9"
+    },
+    {
+      "path": "assets/portraits/crow-mavis-history.png",
+      "sha256": "ae2aaaf225ad4981d632ba3d8720481aacbe61c02feab842f5d97a2edcdd4a6e"
+    },
+    {
+      "path": "assets/portraits/crow-selection.png",
+      "sha256": "b9b7649287c3b880a498f1b4ac0a242c96f9018e9d48fde2b39bf004f4f8db5f"
+    },
+    {
+      "path": "assets/portraits/elias-selection.png",
+      "sha256": "c8d24f01020d901e6df496a5955a636c703917c78dd31c273fbcce6b5d164205"
+    },
+    {
+      "path": "assets/portraits/elias-syndicate.png",
+      "sha256": "30d3738ba84156ded0a021c7bdc26186c23e896499bc8b40018e0202c2b580b6"
+    },
+    {
+      "path": "assets/portraits/martos-syndicate.png",
+      "sha256": "3649f0bea120cd1e517ef1cfedcd4a47845929b76764c1fb8468815b78708027"
+    },
+    {
+      "path": "assets/portraits/mavis-syndicate.png",
+      "sha256": "095b7a9912659c2f8a7bc56d62aa557ab31ffaa03634656445612c751a29eb04"
+    },
+    {
+      "path": "assets/portraits/sylvanis-syndicate.png",
+      "sha256": "28e303add04932c472df0f2f9a7aa748c6eef2b2f3cce5ddfcbb39e5b3e43afc"
+    },
+    {
+      "path": "assets/ui/locations/interiors/syndicate_hq/cross_branch_operations_room.png",
+      "sha256": "6ed5cb293c92d11d9e1ec26ba1f976a4f147a76bc9c442f6b72071f7fa95d732"
+    },
+    {
+      "path": "assets/ui/locations/interiors/syndicate_hq/executive_meeting_room.png",
+      "sha256": "9e9e99c844cf91ce4bb450642117a143edfbc00955a35f0b6229f6e3d87b3473"
+    }
+  ],
+  "scope": "Actual generated sources and text bindings; mechanical/render acceptance is separate in release evidence."
+}

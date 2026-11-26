@@ -1,0 +1,81 @@
+{
+  "id": "CS-TK02B",
+  "type": "shot",
+  "path": "assets/campaigns/takeo/core/CS-TK02B.png",
+  "original": "media-workspace/kazama-height-2026-11-15/originals/CS-TK02B.png",
+  "prompt": "Use case: identity-preserve targeted stature correction. Edit CS-TK02B reverse-angle campaign illustration (reference 1), matching newly corrected previous shot in reference 2. Shinzo Kazama (long black hair, pointed beard, purple eyes, black/purple robes) is 193 cm tall. Takeo in military coat is 211 cm, only 18 cm taller. Keep Kazama in near LEFT foreground with natural close-camera perspective; raise his shoulder/eye-line to reflect his taller 193 cm standing body and preserve his head proportions, no stretched neck or oversized head. Takeo remains beyond table with both five-digit hands naturally resting on map-table edges, standing upright. Retain reverse over-shoulder camera but make mutual gaze and modest true height difference credible. Preserve exact identities, costume, ruined command hall, map, lighting and manhwa style; exactly two men, no text, ruler, labels, effects or new objects. Opaque 16:9 image at original resolution or higher.",
+  "references": [
+    "media-workspace/kazama-height-2026-11-15/references/CS-TK02B-before.png",
+    "media-workspace/kazama-height-2026-11-15/references/CS-TK02A-corrected.png"
+  ],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "ef5ff4e2cb62d2918d1d34ea045366379627373b84ee883b18bf6babf8846cce",
+  "size": [
+    1671,
+    941
+  ],
+  "mode": "RGB",
+  "alpha_extrema": null,
+  "visual_review": "Full generated frame inspected for 193 cm Kazama / 211 cm Takeo stature, perspective, anatomy and identities; actual reader screenshot inspected; Takeo UI smoke passed.",
+  "reference_hashes_measured_at_release_review": {
+    "media-workspace/kazama-height-2026-11-15/references/CS-TK02B-before.png": "82962bdd11c5680be01062e829e1930bbedf8655019bbea0cec6b51ee3e138f8",
+    "media-workspace/kazama-height-2026-11-15/references/CS-TK02A-corrected.png": "c227a5a5fa792475f434383485515dc37b939d8acd901524465c47b1769003fd"
+  },
+  "revision_date": "2026-11-15",
+  "supersedes": {
+    "id": "CS-TK02B",
+    "type": "shot",
+    "path": "assets/campaigns/takeo/core/CS-TK02B.png",
+    "original": "media-workspace/campaign-shot-rebuild-2026-11-14/originals/CS-TK02B.png",
+    "prompt": "Rebuild ONE opaque 16:9 cinematic manhwa campaign illustration CS-TK02B. Ref 1 old shot defines ONLY location and reverse-shot composition. Ref 2 Takeo historical portrait defines his exact identity/clothes. Ref 3 defines corrected Shinzo Kazama. Ref 4 is preceding rebuilt shot: match its environment, costumes and lighting. This is the reverse angle after Kazama gives Takeo a map position in the damaged Japanese command hall, fictional 2024; Kazama asks if he can accept an order, Takeo sincerely replies. Camera over Kazama's left shoulder in near foreground toward Takeo beyond diagonal map table; Kazama must have long flowing BLACK hair, BLACK pointed beard, purple eyes, BLACK/PURPLE layered robes and ragged cloak, never short grey hair, clean shave or military jacket. Show his distinctive side profile and shoulder without obscuring Takeo. Takeo enormous 211cm muscular Japanese adult, youthful angular drawn face, close black buzzcut and compact moustache/goatee, high collared dark military coat. Takeo's two hands rest naturally on separate table edges, elbows and shoulder chains anatomically coherent, five fingers each with correct thumb positions. Stern mutual eye contact. Keep visually designed almond eyes, simplified dimensional face planes, restrained tapered contours and soft shadows like the portraits; no photographic skin/fabric pores or deep photographic eye sockets. Dramatic depth and slightly lower camera than first shot, natural undistorted anatomy. Keep no flags, emblems, text, labels, bubbles, weapons, effects, bystanders or gore. Warm window rim light/slate shadows; quieter lower strip. Exactly two figures; no portrait collage.",
+    "references": [
+      "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK02B-1.png",
+      "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK02B-2.png",
+      "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK02B-3.png",
+      "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK02B-4.png"
+    ],
+    "provider": "Built-in image_gen tool",
+    "model": "Not exposed; unverified",
+    "sha256": "82962bdd11c5680be01062e829e1930bbedf8655019bbea0cec6b51ee3e138f8",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "visual_review": "Full generated image and actual reader render visually inspected; affected artwork checks and route UI smoke passed. See campaign-shot-rebuild-2026-11-14/README.md.",
+    "reference_hashes_measured_at_release_review": {
+      "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK02B-1.png": "ac5590a06880f4616e31fb644f8775a72e9e9320c0196b0622b4e8acfae5a445",
+      "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK02B-2.png": "d47fa581600dbfd33dad52153fe9c9df844afb090355d9503a55d7c63d9d599e",
+      "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK02B-3.png": "c43e9269d53be18ceeea3b40b1eaa5d92169eb632a6faf622a6b174701505c8a",
+      "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK02B-4.png": "d510a0f14491bbcbbbf210118575fee50d013a0b83d5c4e1d9985b24d61c692f"
+    },
+    "revision_date": "2026-11-14",
+    "supersedes": {
+      "id": "CS-TK02B",
+      "type": "shot",
+      "path": "assets/campaigns/takeo/core/CS-TK02B.png",
+      "original": "media-workspace/takeo/originals/exec-c6d7c109-a22f-4cab-b018-b314fdcdae0b.png",
+      "prompt": "Edit this exact semi-realistic illustrated manhwa shot: remove the flag and its pole behind the two men, replace with the adjacent unmarked dark damaged plaster wall. Preserve both characters' exact identities, clothing, hands, poses, scale, map and lighting. No flags, emblems, text or new objects. Change nothing else.",
+      "references": [
+        "media-workspace/takeo/rejected/exec-ebfebf4a-8767-49c7-b052-fc182f2a0ca2.png"
+      ],
+      "provider": "Built-in image_gen tool",
+      "model": "Not exposed; unverified",
+      "sha256": "ac5590a06880f4616e31fb644f8775a72e9e9320c0196b0622b4e8acfae5a445",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+      "reference_hashes_measured_at_release_review": {
+        "media-workspace/takeo/rejected/exec-ebfebf4a-8767-49c7-b052-fc182f2a0ca2.png": "a7801a91b08b1fff6c98f8776cf44f7ab34f545bc72c39526fe96bc7b2eb190d"
+      }
+    },
+    "previous_production_copy": "media-workspace/campaign-shot-rebuild-2026-11-14/backups/CS-TK02B.png"
+  },
+  "previous_production_copy": "media-workspace/kazama-height-2026-11-15/backups/CS-TK02B.png"
+}

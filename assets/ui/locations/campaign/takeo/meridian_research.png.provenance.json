@@ -1,0 +1,19 @@
+{
+  "id": "meridian_research",
+  "type": "location",
+  "path": "assets/ui/locations/campaign/takeo/meridian_research.png",
+  "original": "media-workspace/takeo/originals/exec-ab427c8e-a55e-4aa3-a265-e948b4213b87.png",
+  "prompt": "A single 16:9 wide game location background painting: Meridian complex research observation room, fictional 2050 facility. Closed observation glass looks into an EMPTY examination space, dark desks with incomplete forecast charts without readable text, one locked archive door, muted cyan instruments against slate charcoal architecture. No patients, no procedures, no people, no gore. Semi-realistic illustrated manhwa, restrained linework, dimensional soft painted shading. Clear visual-novel staging, no text or logos, not photo or 3D.",
+  "references": [],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "8260c7c4b2f6135bae912efcd1dfff965bcc839b9b6bc2348b8c714f3087185a",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "alpha_extrema": null,
+  "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+  "reference_hashes_measured_at_release_review": {}
+}

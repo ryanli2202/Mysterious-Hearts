@@ -2,7 +2,7 @@
   "roadmap_id": "MH-001",
   "batch": 10,
   "created": "2026-11-10",
-  "status": "8 local sprite sheets and GIFs assembled and structurally verified; runtime integration pending.",
+  "status": "Withdrawn 2026-11-13: prior review sheets, GIFs, preview and contact removed; runtime integration remains pending.",
   "generation_tool": "built-in image_gen",
   "model_verification": "Tool does not expose a model selector or verified model identifier.",
   "workflow": "Generate sprite sheets first, then slice and encode locally using Pillow.",
@@ -12,7 +12,7 @@
   },
   "frame_duration_ms": 150,
   "blank_hold_ms": 720,
-  "timing_reason": "900ms action matches the plan's 700\u20131100ms martial master range.",
+  "timing_reason": "900ms action matches the plan's 700–1100ms martial master range.",
   "background": "opaque dark slate; not transparent",
   "assets": [
     {
@@ -47,7 +47,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "7fbdc744a9ff1ea55bd43f8609135104256e98fc27002fbbe886567692cf6f00",
         "sha256_gif": "9475a284987c57b28dd5bd50f0fcb4324308b8fc0996eb8956fc80f07c86bfbf"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B10-phantom-crescent",
@@ -81,7 +82,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "11762a122920c3d2b0237ec50acd89b5b8b5cce5f951652fcb2cf427cd469850",
         "sha256_gif": "09628d90e92e0969ef1094b6e559dc4d9a428a759a5664e30ba989b4d230668e"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B10-falling-canopy",
@@ -115,7 +117,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "6bbcf62da1b1073c0e490f82b52949d3453755b5f7d7c249ce6eb5304faba47e",
         "sha256_gif": "465e0c76fee9dc78ad7e0ee88c502011dc4713e1573a61cb8b969316ca63e7b2"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B10-mirror-snare",
@@ -149,7 +152,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "af00e155661b74b4591b4436eb585345a79df0b14d6adaf2e9dc974eefffa5fe",
         "sha256_gif": "b8f3a5a7d5386ab60452978af33c3e9aff7ec0f1c4626e9032048c75b16cede2"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B10-still-water-reversal",
@@ -183,7 +187,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "9d8815e4966c09954601831436401a54352f5593948f4bf48f629d996656ce07",
         "sha256_gif": "e95be351f483aaadf0d8c3b86644d23a8a44993da73b1f39cb5882af2a77a94d"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B10-world-axis-turn",
@@ -217,7 +222,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "ff903d761c79b37f808b526b8ab283f30b67733860c1bdb3d17adad54c2d5bea",
         "sha256_gif": "42c254fc07e405c638985b32930b3be93d2dd6a7014f6cf3da375485bb4dbcb2"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B10-orbit-of-silence",
@@ -251,7 +257,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "97957805c716348c209fe117937a630dc7e34af55d6a7d3b107b5e25efe644d5",
         "sha256_gif": "6dc5014130686a65be134c77811c322f698b44ad10f813810cfd8d98c9ff45c1"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B10-returning-mountain",
@@ -285,8 +292,15 @@
         "loop": "infinite preview",
         "sha256_sheet": "42d8a57db36cf4610e8d530f275b8c64935711be22afeef9706bcb189b0746bc",
         "sha256_gif": "ad284fef8002c7c5e0e4719c7b38e4bec8a7ddad52500c80176b23d696495925"
-      }
+      },
+      "available": false
     }
   ],
-  "validation_command": "python tools/build_combat_batch_gifs.py --batch 10"
+  "validation_command": "python tools/build_combat_batch_gifs.py --batch 10",
+  "withdrawn": true,
+  "availability": "withdrawn",
+  "withdrawn_on": "2026-11-13",
+  "withdrawal_reason": "User-requested combat animation artwork reset; historical paths and verification are retained, files removed.",
+  "style_guide": "roadmap/COMBAT_ANIMATION_STYLE_GUIDE.md",
+  "validation_command_status": "Historical command only; this manifest is withdrawn and the builder rejects it."
 }

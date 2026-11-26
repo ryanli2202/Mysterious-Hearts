@@ -50,7 +50,7 @@ def preview(s):
         channel=options[1+(f['turn']//3)%(len(options)-1)]
         if channel!=r['channel']: r['energy']-=8; r['channel']=channel; r['tranquility']=channel=='Ice'
     if r['energy']<4: r['channel']=''; r['tranquility']=False
-    if options and r['health']<r['max_health']*.5 and not r['misanthropy_used'] and r['energy']>=22:
+    if options and (states.trait(q,'Conduit') or states.trait(q,'Deathwind')) and r['health']<r['max_health']*.5 and not r['misanthropy_used'] and r['energy']>=22:
         r['energy']-=18; r['misanthropy']=True; r['misanthropy_used']=True; r['endurance_left']=4; r['endurance_reserve']=round(r['max_health']*.18)
     path.upkeep(f)
     return f,choice
@@ -77,6 +77,8 @@ def choose_action(p,r,f,side,rng):
     affordable=[]
     for a in pool:
         move=states.prepare_action(p,r,moves.selection(p,a['id']))
+        other='enemy' if side=='player' else 'player'
+        if 'corner' in move['tags'] and f['arena']['positions'][other] not in (0,6):continue
         if moves.can_pay(r,move): affordable.append(move)
     if not affordable:
         affordable=[states.prepare_action(p,r,moves.selection(p,a['id'])) for a in martial
@@ -85,6 +87,12 @@ def choose_action(p,r,f,side,rng):
     def weight(a):
         n=3 if a['role'] in ('attack','break','combo','throw') else 1
         identity=p.get('combat_id','')
+        other='enemy' if side=='player' else 'player';distance=abs(f['arena']['positions'][side]-f['arena']['positions'][other])
+        if identity=='sowon' and a['role'] in ('mobility','counter','setup'):n+=3
+        if identity=='kouji' and a['role'] in ('combo','control','defence'):n+=3 if distance<=2 else 0
+        if identity=='kouji' and a['role']=='mobility' and distance>2:n+=4
+        if identity=='paul' and a['role'] in ('counter','defence','control'):n+=4 if distance<=2 else 1
+        if identity=='somchai' and a['role'] in ('attack','break','counter') and distance<=2:n+=3
         if identity in ('takeo','martos','thirteen','daniel') and a['role'] in ('break','control','combo'): n+=3
         if identity in ('crow','camila','neo','sylvanis') and r.get('observations') and a['role']=='counter': n+=3
         if identity in ('minsu','mavis','elias') and 'speed' in a['tags']: n+=3
@@ -262,6 +270,8 @@ def attack(f,side,p,q,m,defence,rng,record,counter_record=None):
     other='enemy' if side=='player' else 'player'; r=f[side]; t=f[other]; arena=f['arena']
     target=record['target']; obj=object_at(f,target) if target!='opponent' else None
     target_pos=obj['position'] if obj else arena['positions'][other]
+    if 'corner' in m['tags'] and target_pos not in (0,6):
+        record['outcome']='no corner to close';return
     travelled=movement(f,side,p,m,target_pos)
     if m.get('build_release'): r['momentum']=min(5,r['momentum']+2+travelled)
     record['blur']=bool(travelled and p['awakened'] and (p['stats']['awakened_power']>=35 or 'speed' in m['tags']))
@@ -318,7 +328,7 @@ def attack(f,side,p,q,m,defence,rng,record,counter_record=None):
                 if 'knockback' in dtags: arena['positions'][side]=max(0,min(6,arena['positions'][side]+(-1 if side=='player' else 1)))
         else: counter_record['outcome']='counter out of range'
     if r['health']<=0 or multiplier==0: record['outcome']='countered'; return
-    soul=m.get('soul_fraction',0) if q['awakened'] or not q.get('guard_kind')=='robotic' else 0
+    soul=m.get('soul_fraction',0) if (q['awakened'] or not q.get('guard_kind')=='robotic') and f.get('kind')!='spar' else 0
     # Soul injury partially avoids physical reinforcement; cover and guard still apply.
     damage_per=raw/m['hits']*(1-b['awakened_power']*.0035*(1-soul))*multiplier
     if t.get('protocol_left') and feasible:
@@ -347,7 +357,7 @@ def attack(f,side,p,q,m,defence,rng,record,counter_record=None):
         if 'mark' in tags: t['marks']=min(3,t['marks']+1)
         if not t.get('control_immunity'):
             if 'stagger' in tags and 'stability' not in dtags: t['staggered']=2; t['momentum']=0; t['control_immunity']=3
-            if 'restrain' in tags or m['role']=='control': t['restrained']=2; t['momentum']=0; t['control_immunity']=3
+            if 'restrain' in tags or m['role']=='control' and 'footing' not in tags: t['restrained']=2; t['momentum']=0; t['control_immunity']=3
         if 'momentum' in tags: r['momentum']=min(5,r['momentum']+1)
         if 'heat' in tags: r['heat']=min(40,r['heat']+8)
         if 'collect' in dtags: t['stored']=min(120,t['stored']+round(record['damage']*.5))
@@ -364,7 +374,7 @@ def attack(f,side,p,q,m,defence,rng,record,counter_record=None):
             for kind in ('ice','heat'):
                 if kind not in tags: continue
                 arena['hazards']=[h for h in arena['hazards'] if (h['position'],h['type'])!=(target_pos,kind)]
-                arena['hazards'].append(dict(position=target_pos,type=kind,expires=f['turn']+3,owner=side))
+                arena['hazards'].append(dict(position=target_pos,type=kind,expires=f['turn']+3,owner=side,affects_owner='footing' in tags))
     elif m['role']!='counter': r['momentum']=max(0,r['momentum']-1)
     if m.get('build_release'): r['momentum']=0
 
@@ -492,7 +502,7 @@ def resolve(s,chosen):
         r=f[side]
         for key in ('restrained','staggered','focus'): r[key]=max(0,r[key]-1)
         for hazard in f['arena']['hazards']:
-            if hazard['owner']!=side and hazard['expires']>f['turn'] and hazard['position']==f['arena']['positions'][side]:
+            if (hazard['owner']!=side or hazard.get('affects_owner')) and hazard['expires']>f['turn'] and hazard['position']==f['arena']['positions'][side]:
                 if hazard['type']=='ice': r['staggered']=1
                 else:
                     source=records[hazard['owner']]; hurt(f,side,4,source)
@@ -515,6 +525,9 @@ def resolve(s,chosen):
     record['narration']=fallback(record['records'])
     record['summary']=' · '.join(r['name']+f": {r['damage']} damage, {r['hits']}/{r['beats']} hits, {r['stamina']} stamina / {r['mana']} mana" for r in record['records'])
     f['log'].append(record['narration']+'\n'+record['summary']); f['exchanges'].append(record)
+    __import__('martos_campaigns').on_exchange(s,f)
+    __import__('sylvanis_campaigns').on_exchange(s,f)
+    __import__('neo_campaigns').on_exchange(s,f)
     __import__('campaign_prose').resolved_reaction(s,f)
     f['enhanced_rules']=True
     import interpol

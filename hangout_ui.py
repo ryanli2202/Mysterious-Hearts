@@ -116,6 +116,10 @@ class HangoutCanvas(ArtCanvas):
         self.members = list(group.get('members', []))
         world = state['world']
         self.artwork = scene_art(world['location'], minute=world['minute'])
+        if __import__('interiors').enabled(state) and not state.get('campaign_dialogue'):
+            self.artwork = __import__('interiors').art(state) or self.artwork
+            self.members = [who for who in self.members if who not in world['cast'] or
+                            __import__('interiors').same_room(state, state['player'], who)]
         self.redraw()
 
     def turn_page(self, kind, delta):
@@ -182,9 +186,23 @@ class HangoutCanvas(ArtCanvas):
         self.pager(kind, x+width/2, y+height-18)
 
     def redraw(self, event=None):
-        super().redraw(event)
         if not hasattr(self, 'exchange') or not self.game.state_data:
+            super().redraw(event)
             return
+        state = self.game.state_data
+        world = state['world']
+        people = [state['player'], *self.members]
+        stamp = (self.winfo_width(), self.winfo_height(), self.controls_height,
+                 repr(self.artwork), repr(self.exchange), tuple(self.members),
+                 self.speech_index, tuple(self.page_indices.items()), self.game.busy,
+                 tuple((who, core.contact_name(state, who),
+                        repr(self.game.portrait_path(who, world['location'], world['minute']))) for who in people),
+                 repr((state.get('campaign_dialogue') or {}).get('portraits', {})),
+                 repr(__import__('flashback_visits').portraits(state)),
+                 tuple(repr(font.actual()) for font in (self.name_font, self.speech_font, self.narration_font)))
+        if stamp == getattr(self, '_scene_stamp', None):
+            return
+        super().redraw(event)
         self.delete('scene')
         for item, *_ in self.page_controls.values():
             self.itemconfigure(item, state='hidden')
@@ -192,12 +210,15 @@ class HangoutCanvas(ArtCanvas):
         w, h = self.winfo_width(), self.winfo_height()
         if w < 200 or h < 200:
             return
+        self._scene_stamp = stamp
         state = self.game.state_data
         world = state['world']
         historical = (state.get('campaign_dialogue') or {}).get('portraits', {})
         historical = historical or __import__('flashback_visits').portraits(state)
         def character_name(who):
-            return 'Marcus' if who=='marcus' and historical else core.contact_name(state,who)
+            if historical:
+                return __import__('flashback_visits').name(who)
+            return core.contact_name(state,who)
         floor = h - self.controls_height - 112
         portrait_h = max(170, min(620, floor - 125))
         count = len(self.members)
@@ -311,7 +332,7 @@ class HangoutView(tk.Frame):
         game.retry = ttk.Button(bar, text='Continue hangout', command=game.retry_or_begin)
         game.retry.pack(side='right', padx=4)
         self.drawer = tk.Canvas(self.controls, height=1, highlightthickness=0, bg=ui.PANEL)
-        self.drawer_scroll = ttk.Scrollbar(self.controls, command=self.drawer.yview)
+        self.drawer_scroll = ttk.Scrollbar(self.drawer, command=self.drawer.yview)
         self.drawer.configure(yscrollcommand=self.drawer_scroll.set)
         self.drawer_body = tk.Frame(self.drawer, bg=ui.PANEL)
         self.drawer_window = self.drawer.create_window(0, 0, anchor='nw', window=self.drawer_body)
@@ -331,6 +352,8 @@ class HangoutView(tk.Frame):
                 target.append(button)
         self.composer = tk.Frame(self.controls, bg=ui.PANEL)
         self.composer.pack(fill='x', pady=(7, 3))
+        from interiors_ui import RoomPanel
+        self.rooms = RoomPanel(self.controls, game, before=self.composer)
         game.entry = tk.Entry(self.composer, bg=ui.CARD, fg=ui.CREAM, insertbackground=ui.CREAM,
                              disabledbackground=ui.PANEL, disabledforeground=ui.MUTED,
                              font=('Segoe UI', 12), relief='flat')
@@ -366,6 +389,8 @@ class HangoutView(tk.Frame):
         self.canvas.tag_raise(self.controls_item)
 
     def resize_controls(self, event=None):
+        if self.drawer.winfo_manager():
+            self.resize_drawer()
         height = self.controls.winfo_reqheight()
         if height != self.canvas.controls_height:
             self.canvas.controls_height = height
@@ -377,9 +402,10 @@ class HangoutView(tk.Frame):
         for button in self.game.choices + self.game.action_choices:
             button.configure(wraplength=max(100, width-30))
         height = self.drawer_body.winfo_reqheight()
-        self.drawer.configure(scrollregion=(0, 0, width, height), height=min(140, height))
-        if self.drawer_scroll.winfo_manager():
-            self.drawer_scroll.place_configure(height=min(140, height))
+        other_height = self.controls.winfo_reqheight() - self.drawer.winfo_reqheight()
+        available = max(40, self.canvas.winfo_height() // 2 - other_height - 12)
+        visible_height = min(140, height, available)
+        self.drawer.configure(scrollregion=(0, 0, width, height), height=visible_height)
 
     def scroll_choices(self, event):
         self.drawer.yview_scroll(-1 if event.delta > 0 else 1, 'units')
@@ -412,7 +438,8 @@ class HangoutView(tk.Frame):
             container = g.action_panel if self.mode == 'action' else g.reply_controls
             container.pack(fill='x')
             self.drawer.pack(fill='x', before=self.composer, pady=(6, 0))
-            self.drawer_scroll.place(relx=1, x=-4, y=42, anchor='ne', height=135)
+            self.drawer_scroll.place(relx=1, x=-4, y=0, anchor='ne', relheight=1)
+            self.drawer_scroll.lift()
             if stamp != self.drawer_stamp:
                 self.drawer.yview_moveto(0)
         else:
@@ -443,27 +470,11 @@ class HangoutView(tk.Frame):
         import combat
         offers=combat.pending_offers(self.game.state_data)
         self.combat_button.configure(text='Fight proposal · review' if offers else 'Spar / fight / train')
-        import crime_diplomacy as dip
-        for child in self.meeting_panel.winfo_children(): child.destroy()
-        self.meeting_panel.pack_forget()
-        s=self.game.state_data
-        m=next((m for m in dip.commitments(s) if m.get('id')==group.get('leadership_meeting') and m['status']=='in_progress'),None)
-        if m:
-            from careers_ui import stamp
-            self.meeting_panel.pack(fill='x',before=self.composer)
-            index=m['agenda_index']; topic=m['agenda'][index] if index<len(m['agenda']) else 'Choose final terms'
-            ttk.Label(self.meeting_panel,text=f"{stamp(m['start'])} · {m['representative']} · {max(0,m['end']-s['world']['minute'])} minutes left\nAgenda {min(index+1,len(m['agenda']))}/{len(m['agenda'])}: {topic}",wraplength=680).pack(anchor='w')
-            if index==len(m['agenda']):
-                ttk.Label(self.meeting_panel,text='Measured: $1,500 capital → $2,700 revenue, heat +3. Aggressive: $4,000 → $7,200, heat +12; fails at heat 40+.\nRelationship talks commit no funds. Deals must be completed separately within three days.',wraplength=780).pack(anchor='w')
-            row=ttk.Frame(self.meeting_panel); row.pack(fill='x')
-            actions=[('Review agenda · 10 min',dip.discuss,())] if index<len(m['agenda']) else [
-                ('Relationship talks',dip.conclude,('relations',)),
-                ('Measured deal · $1,500',dip.conclude,('measured',)),
-                ('Aggressive deal · $4,000',dip.conclude,('aggressive',))]
-            for title,fn,args in actions:
-                ttk.Button(row,text=title,state='disabled' if self.game.busy else 'normal',
-                    command=lambda f=fn,a=args,ident=m['id']:self.meeting_action(f,ident,*a)).pack(side='left',padx=3)
+        self.refresh_meeting(group)
         self.location.configure(text=core.town.loop.place_name(self.game.state_data))
+        if __import__('interiors').enabled(self.game.state_data):
+            self.location.configure(text=self.location.cget('text')+' · '+__import__('interiors').label(self.game.state_data))
+        self.rooms.refresh()
         self.canvas.show(group)
         self.update_voice_controls()
         self.update_drawer()
@@ -474,6 +485,37 @@ class HangoutView(tk.Frame):
             self.game.cancel_button.pack_forget()
             self.game.retry.pack(side='right', padx=4)
         self.combat_actions.refresh()
+
+    def refresh_meeting(self, group):
+        import crime_diplomacy as dip
+        from careers_ui import stamp
+        s = self.game.state_data
+        meeting = next((m for m in dip.commitments(s) if m.get('id') == group.get('leadership_meeting')
+                        and m['status'] == 'in_progress'), None)
+        key = (meeting['id'], meeting['agenda_index'], tuple(meeting['agenda']), self.game.busy) if meeting else None
+        if key != getattr(self, '_meeting_stamp', None):
+            for child in self.meeting_panel.winfo_children(): child.destroy()
+            self.meeting_panel.pack_forget()
+            if meeting:
+                self.meeting_panel.pack(fill='x', before=self.composer)
+                self.meeting_caption = ttk.Label(self.meeting_panel, wraplength=680)
+                self.meeting_caption.pack(anchor='w')
+                finished = meeting['agenda_index'] == len(meeting['agenda'])
+                if finished:
+                    ttk.Label(self.meeting_panel,text='Measured: $1,500 capital → $2,700 revenue, heat +3. Aggressive: $4,000 → $7,200, heat +12; fails at heat 40+.\nRelationship talks commit no funds. Deals must be completed separately within three days.',wraplength=780).pack(anchor='w')
+                row = ttk.Frame(self.meeting_panel); row.pack(fill='x')
+                actions = [('Review agenda · 10 min', dip.discuss, ())] if not finished else [
+                    ('Relationship talks', dip.conclude, ('relations',)),
+                    ('Measured deal · $1,500', dip.conclude, ('measured',)),
+                    ('Aggressive deal · $4,000', dip.conclude, ('aggressive',))]
+                for title, fn, args in actions:
+                    ttk.Button(row, text=title, state='disabled' if self.game.busy else 'normal',
+                        command=lambda f=fn,a=args,ident=meeting['id']:self.meeting_action(f,ident,*a)).pack(side='left', padx=3)
+            self._meeting_stamp = key
+        if meeting:
+            index = meeting['agenda_index']
+            topic = meeting['agenda'][index] if index < len(meeting['agenda']) else 'Choose final terms'
+            self.meeting_caption.configure(text=f"{stamp(meeting['start'])} · {meeting['representative']} · {max(0,meeting['end']-s['world']['minute'])} minutes left\nAgenda {min(index+1,len(meeting['agenda']))}/{len(meeting['agenda'])}: {topic}")
 
     def meeting_action(self,fn,ident,*args):
         if self.game.busy: return

@@ -70,6 +70,9 @@ class CaseBoard:
         self.body=parent;self.game=game;self.act=act
 
     def button(self,text,fn,*args,enabled=True):
+        if fn in (town.travel,law.travel_objective):
+            destination=args[0] if args else law.objective(self.game.state_data)['venue']
+            return __import__('campaign_navigation').directions(self.body,self.game,destination)
         b=ttk.Button(self.body,text=text,command=lambda:self.act(fn,*args),
                      state='normal' if enabled and not self.game.busy else 'disabled')
         b.pack(fill='x',pady=4)

@@ -22,17 +22,45 @@ class PresenceView(ttk.Frame):
         signature = (w['location'], tuple((who,w['cast'][who]['activity']) for who in people), tuple(w['npcs']), tuple(w['party']),
                      bool(w['cast'][s['player']]['journey']), self.game.busy, s.get('active_group'),autonomy.status(s,s['player']),
                      s.get('job_apps',{}).get('employment'))
+        import interiors
+        if interiors.enabled(s):
+            signature += (interiors.room(s),)
+        signature += (s.get('story_id'),)
         if signature == self.signature:
-            self.location_title.configure(text=town.loop.place_name(s))
+            self.location_title.configure(text=town.loop.place_name(s) + (' · ' + interiors.label(s) if interiors.enabled(s) else ''))
+            if interiors.enabled(s):
+                self.rooms.refresh()
             return
         self.signature = signature
         for child in self.winfo_children(): child.destroy()
-        ArtCanvas(self, scene_art(w['location']), height=210).pack(fill='x', pady=(0, 12))
-        self.location_title = ttk.Label(self, text=town.loop.place_name(s), font=('Segoe UI', 23, 'bold'))
-        self.location_title.pack(anchor='w')
+        background = interiors.art(s) if interiors.enabled(s) else None
+        ArtCanvas(self, background or scene_art(w['location']), height=210).pack(fill='x', pady=(0, 12))
+        title = town.loop.place_name(s) + (' · ' + interiors.label(s) if interiors.enabled(s) else '')
+        self.location_title = ttk.Label(self, text=title, font=('Segoe UI', 23, 'bold'),wraplength=max(360,self.winfo_width()-36))
+        self.location_title.pack(anchor='w',fill='x')
+        self.location_title.bind('<Configure>',lambda event:self.location_title.configure(wraplength=max(360,event.width)))
         ttk.Label(self, text='IN PERSON  ·  The world outside your phone', foreground='#88cbb0').pack(anchor='w', pady=(4, 15))
+        if interiors.enabled(s):
+            from interiors_ui import RoomPanel
+            self.rooms = RoomPanel(self, self.game)
+            self.rooms.refresh()
         columns = ttk.Frame(self); columns.pack(fill='both', expand=True)
-        activities = ttk.Frame(columns, padding=(0, 0, 24, 0)); activities.pack(side='left', fill='both', expand=True)
+        if interiors.enabled(s):
+            activity_column = ttk.Frame(columns, padding=(0, 0, 24, 0))
+            activity_column.pack(side='left', fill='both', expand=True)
+            activity_canvas = tk.Canvas(activity_column, highlightthickness=0, bg='#191c2b')
+            activity_scroll = ttk.Scrollbar(activity_column, command=activity_canvas.yview)
+            activity_scroll.pack(side='right', fill='y')
+            activity_canvas.pack(fill='both', expand=True)
+            activity_canvas.configure(yscrollcommand=activity_scroll.set)
+            activities = ttk.Frame(activity_canvas)
+            activity_window = activity_canvas.create_window(0, 0, window=activities, anchor='nw')
+            activities.bind('<Configure>', lambda e: activity_canvas.configure(scrollregion=activity_canvas.bbox('all')))
+            activity_canvas.bind('<Configure>', lambda e: activity_canvas.itemconfigure(activity_window, width=e.width))
+            self.activity_canvas = activity_canvas
+        else:
+            activities = ttk.Frame(columns, padding=(0, 0, 24, 0))
+            activities.pack(side='left', fill='both', expand=True)
         ttk.Label(activities, text='What would you like to do?', font=('Segoe UI', 14, 'bold')).pack(anchor='w', pady=8)
         actions = [('Open phone', lambda: self.game.phone_window()),
                    ('Maps · travel somewhere', lambda: self.game.phone_window('Maps'))]

@@ -1,19 +1,22 @@
 # MH-001 combat animation batch 04
 
+> **Withdrawn 2026-11-13.** All GIFs, sprite sheets, combined preview and contact image from this batch were removed for the combat animation reset. The manifest and this README are historical production evidence; paths below are retired, and rebuild commands are historical only. No runtime integration or release is claimed. Future work follows the [combat animation style guide](../../../../roadmap/COMBAT_ANIMATION_STYLE_GUIDE.md).
+
+
 Eight boxing-master sprite sheets were generated first with built-in image_gen, then sliced into GIFs locally with Pillow. [The manifest](manifest.json) preserves the full prompt set, source paths and hashes. The tool does not expose a verified model version.
 
-Open [the combined animated preview](batch-04-preview.gif).
+Open the combined animated preview (retired path: `batch-04-preview.gif`).
 
 | Move | GIF | Sprite sheet |
 | --- | --- | --- |
-| hurricane punches | [GIF](gifs/hurricane-punches.gif) | [PNG](spritesheets/hurricane-punches.png) |
-| ghost step | [GIF](gifs/ghost-step.gif) | [PNG](spritesheets/ghost-step.png) |
-| unseen spectre | [GIF](gifs/unseen-spectre.gif) | [PNG](spritesheets/unseen-spectre.png) |
-| power breaker | [GIF](gifs/power-breaker.gif) | [PNG](spritesheets/power-breaker.png) |
-| phantom cadence | [GIF](gifs/phantom-cadence.gif) | [PNG](spritesheets/phantom-cadence.png) |
-| thunderclap counter | [GIF](gifs/thunderclap-counter.gif) | [PNG](spritesheets/thunderclap-counter.png) |
-| iron constellation | [GIF](gifs/iron-constellation.gif) | [PNG](spritesheets/iron-constellation.png) |
-| vanishing bell | [GIF](gifs/vanishing-bell.gif) | [PNG](spritesheets/vanishing-bell.png) |
+| hurricane punches | GIF (retired path: `gifs/hurricane-punches.gif`) | PNG (retired path: `spritesheets/hurricane-punches.png`) |
+| ghost step | GIF (retired path: `gifs/ghost-step.gif`) | PNG (retired path: `spritesheets/ghost-step.png`) |
+| unseen spectre | GIF (retired path: `gifs/unseen-spectre.gif`) | PNG (retired path: `spritesheets/unseen-spectre.png`) |
+| power breaker | GIF (retired path: `gifs/power-breaker.gif`) | PNG (retired path: `spritesheets/power-breaker.png`) |
+| phantom cadence | GIF (retired path: `gifs/phantom-cadence.gif`) | PNG (retired path: `spritesheets/phantom-cadence.png`) |
+| thunderclap counter | GIF (retired path: `gifs/thunderclap-counter.gif`) | PNG (retired path: `spritesheets/thunderclap-counter.png`) |
+| iron constellation | GIF (retired path: `gifs/iron-constellation.gif`) | PNG (retired path: `spritesheets/iron-constellation.png`) |
+| vanishing bell | GIF (retired path: `gifs/vanishing-bell.gif`) | PNG (retired path: `spritesheets/vanishing-bell.png`) |
 
 Each source is 1536x1024 with six 512x512 frames in row-major order. Each GIF uses six 150ms action frames (900ms), matching the plan's 700–1100ms master-move timing, followed by a 720ms blank review pause. Total loop duration is 1620ms. Backgrounds are opaque dark slate with original generated shading; no transparency is claimed.
 

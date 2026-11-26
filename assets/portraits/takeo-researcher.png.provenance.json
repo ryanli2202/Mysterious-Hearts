@@ -1,0 +1,22 @@
+{
+  "id": "takeo-researcher",
+  "type": "portrait",
+  "path": "assets/portraits/takeo-researcher.png",
+  "original": "media-workspace/takeo/originals/exec-f570df0a-a838-4d43-be33-a88dc5e83417.png",
+  "prompt": "ONE standalone head-to-mid-thigh game portrait, 2:3 vertical, TRUE transparent background. Dr Haruka Senda, fictional Japanese woman in her early forties in the historical Onami period. Short straight black bob, tired analytical brown eyes, oval face, compact build, graphite lab coat over practical dark clothing, holds one closed unlabelled folder, no medical procedure or equipment on a person. Semi-realistic illustrated manhwa, restrained tapered linework, softly dimensional facial planes, natural eye proportions, not photo/3D/chibi/exaggerated cel shade. Connected full head, complete hands, pelvis and meaningful thigh length below crotch, knees outside frame. Safe headroom. No scenery, ground, cast shadow, haze rectangle, text, watermark or signature. Genuine clear alpha outside silhouette.",
+  "references": [],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "ddfd08de1667a76d3b3caa441f593cb39b82f5fadde1d98cd70404b83540f9db",
+  "size": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+  "reference_hashes_measured_at_release_review": {}
+}

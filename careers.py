@@ -158,6 +158,8 @@ def guard(s, key, duration=0, booking=None, venue=None):
     get(s, key)
     if ensure(s)['active']:
         raise ValueError('Finish or abandon your current work session first.')
+    if (s.get('job_apps',{}).get('pending') or {}).get('kind')=='shift':
+        raise ValueError('Finish or withdraw the current shift before starting another work session.')
     actor = s['world']['cast'][s['player']]
     if actor.get('journey'):
         raise ValueError('Finish travelling first.')
@@ -235,6 +237,10 @@ def book(s, key, day, time, kind='shift', duration=60, replace=None):
         raise ValueError('You already have a commitment at that time.')
     item = dict(id=uuid.uuid4().hex, track=key, title=spec['title']+(' · review / competition' if kind=='finale' else ' · work'),
                 start=start, end=start+duration, venue=spec['venue'], kind=kind, status='booked', reminded=[])
+    if __import__('interiors').enabled(s,spec['venue']):
+        targets=__import__('interior_activities').career_targets(key,'finale' if kind=='finale' else 'work')
+        if not targets:raise ValueError('This indoor career booking needs an authored room mapping.')
+        item.update(room=targets[0],rooms=list(targets),room_schema=1)
     if old: old['status'] = 'rescheduled'
     ensure(s)['bookings'].append(item)
     return item
@@ -264,6 +270,7 @@ def begin(s, key, duration=60, booking_id=None):
         if b['kind'] == 'finale': return finish_project(s, key, b['id'])
     actual_duration=b['end']-now if b else duration
     guard(s, key, actual_duration, booking_id, spec['venue'])
+    __import__('interior_activities').career(s,key)
     if not spec['hours'][0]*60 <= now%1440 or now%1440+actual_duration > spec['hours'][1]*60:
         raise ValueError('The full session must fit inside workplace hours.')
     if d['last_day'] == now//1440: raise ValueError('You have already worked on this career today.')
@@ -279,6 +286,9 @@ def begin(s, key, duration=60, booking_id=None):
     d['last_day'] = now//1440
     ensure(s)['active'] = dict(track=key, start=now, end=now+actual_duration, venue=spec['venue'], duration=duration,
                               booking=booking_id, choices=[], scenario=(now//1440)%3)
+    if __import__('interiors').enabled(s):
+        ensure(s)['active']['room']=__import__('interiors').room(s)
+        __import__('interior_work').career_roles(s,key,now+actual_duration)
     if key in CRIME_SITUATIONS:
         ensure(s)['active']['situations'] = copy.deepcopy(CRIME_SITUATIONS[key])
         ensure(s)['active']['decisions'] = []
@@ -291,6 +301,7 @@ def choose(s, choice):
     actor = s['world']['cast'][s['player']]
     if actor.get('journey') or s['world']['location'] != a['venue']:
         raise ValueError('Return to your workplace to finish, or abandon the session.')
+    __import__('interior_activities').career(s,a['track'])
     if 'decisions' in a:
         scenario = current_situation(a)
         a['decisions'].append(dict(situation=scenario[0], choice=scenario[choice+1]))
@@ -351,6 +362,7 @@ def prepare(s, key, focus):
     if focus not in ('technique','feedback','recovery'): raise ValueError('Choose a preparation focus.')
     venue = 'arena' if key in ('iron','taekwondo') and focus!='recovery' else None
     guard(s,key,60,venue=venue)
+    if venue=='arena':__import__('interior_activities').require(s,'arena__training_hall')
     if focus=='recovery':
         import town
         if s['world']['location'] != town.HOMES[s['player']]: raise ValueError('Return home to recover.')
@@ -403,6 +415,8 @@ def finish_project(s,key,booking_id):
     if not b or b['kind']!='finale' or b['status']!='booked' or not b['start']<=now<=b['start']+15:
         raise ValueError('Start your scheduled review or competition at its booked time.')
     guard(s,key,b['end']-now,booking_id,spec['venue'])
+    __import__('interior_activities').career(s,key,'finale')
+    __import__('interior_work').require_career_roles(s,key)
     if not p or len(p['days'])<3: raise ValueError('Complete project work on three separate days first.')
     if d['delegation']: raise ValueError('Review the delegated report before completing this project.')
     if d['fatigue']>=85 or now<d['recovery_until']: raise ValueError('You need recovery before the finale.')
@@ -516,6 +530,11 @@ def casual_work(s):
     if w['last_shift_day']==now//1440+1: raise ValueError('You already completed a local shift today.')
     guard(s,available(s)[0],60,venue=venue)
     if not 8*60<=now%1440<=19*60: raise ValueError('Local shifts run between 08:00 and 20:00.')
+    if venue == 'cafe':
+        __import__('interiors').require_activity(s, 'cafe.casual_shift')
+    elif __import__('interiors').enabled(s):
+        __import__('interior_activities').require(s,{'flowers':'flowers__shop_floor',
+            'track':'track__outdoor_track','chess':'chess__lesson_alcove_view'}.get(venue))
     data=ensure(s).setdefault('local_jobs',{})
     job=data.setdefault(venue,dict(shifts=0,reliability=50))
     name,pay=town.JOBS[venue]

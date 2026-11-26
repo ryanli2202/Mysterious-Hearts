@@ -1,0 +1,825 @@
+{
+  "schema_version": 1,
+  "roadmap_id": "MH-016",
+  "recorded": "2026-11-12",
+  "status": "Accepted and installed",
+  "core_shots": [
+    {
+      "id": "CS-SH01",
+      "title": "The receipt Garrett keeps",
+      "path": "assets/campaigns/core/CS-SH01.png",
+      "sha256": "14fc95697c2afb6437b9fe8fc85a78e89fb9949af100ef608f8ccc77be73df2a",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "bindings": [
+        {
+          "scene_id": "RD04",
+          "source_element": 19,
+          "anchor_text": "Rei pushed the paper toward him. Garrett pinned it up rather than dropping it beside the till. Rei watched the small care with which he straightened it.",
+          "element_conditions": {},
+          "era": "memory: GR-F01",
+          "runtime_gate": "RD04 historical segment only; leave the image before PRESENT DAY.",
+          "legacy_rei_shot_id": "RD04-S03"
+        },
+        {
+          "scene_id": "GD04",
+          "source_element": 19,
+          "anchor_text": "Rei pushed the receipt toward him. Garrett pinned it up and straightened it. He wanted to keep this small encounter somewhere he could see it.",
+          "element_conditions": {},
+          "era": "memory: GR-F01",
+          "runtime_gate": "GD04 historical segment only; no cross-route completion or knowledge grant.",
+          "legacy_rei_shot_id": null
+        }
+      ],
+      "continuity_limits": "Only Garrett and Rei. GR-F01 early Golden Dragon visit, not the present meal or the later drawing of Garrett stealing a dumpling. No readable receipt text; keep separate route histories and interior narration.",
+      "prompt_record": "media-workspace/campaign-shot-rebuild-2026-11-14/CS-SH01.production.json",
+      "correction_record": null,
+      "references": [
+        {
+          "input_path": "assets/portraits/garrett-home.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-SH01-1.png",
+          "sha256": "ff65eb10585c2e1015c423ae733f27219bc7cb71be86c00168de43ebc0211c7b"
+        },
+        {
+          "input_path": "assets/portraits/rei-selection.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-SH01-2.png",
+          "sha256": "5edfb2e6e35db5dd005c14269cedd07fd9e121215fca7b9239e7ff6577b30982"
+        },
+        {
+          "input_path": "assets/ui/locations/noodle_shop.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-SH01-3.png",
+          "sha256": "d84d7854d5ddfb9b510ad9588395762c3095b4105e42c2f7852094f8f8bb0fff"
+        }
+      ],
+      "review": {
+        "source": "Current portrait, source beat, era, anatomy, camera, ability and concealment review",
+        "rendered": "accepted",
+        "rendered_sha256": "14fc95697c2afb6437b9fe8fc85a78e89fb9949af100ef608f8ccc77be73df2a",
+        "date": "2026-11-14",
+        "evidence": ".test-tmp/mh016/core-screenshots/CS-SH01-{normal,compact}.png",
+        "review_record": "media-workspace/campaign-shot-rebuild-2026-11-14/README.md"
+      }
+    },
+    {
+      "id": "CS-R01",
+      "title": "Making the pigeon film",
+      "path": "assets/campaigns/core/CS-R01.png",
+      "sha256": "0cc1097848169583f3bdb01ff5080b5a9e97d57713a2c74082dabe9f8df67ead",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "bindings": [
+        {
+          "scene_id": "RD09",
+          "source_element": 30,
+          "anchor_text": "They tried the movement again. It took longer than either of them expected. Marcus changed his mind twice and refused to change it a third time. Rei complained, then held the roof where it needed to be.",
+          "element_conditions": {},
+          "era": "memory: school",
+          "runtime_gate": "After the collaborative film beat, not during the present-day storyboard framing.",
+          "legacy_rei_shot_id": "RD09-S06"
+        }
+      ],
+      "continuity_limits": "Living Marcus only in the school memory. School Rei has no tattoos. No future-loss imagery, invented final words, funeral or later scene reuse.",
+      "prompt_record": "media-workspace/campaign-shot-rebuild-2026-11-14/CS-R01.production.json",
+      "correction_record": null,
+      "references": [
+        {
+          "input_path": "assets/portraits/rei-high-school.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-R01-1.png",
+          "sha256": "eab85646640122fa65def0b0a92a1bdb5726b8ba98f90e0175829fbd784cb6bb"
+        },
+        {
+          "input_path": "assets/portraits/marcus-high-school.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-R01-2.png",
+          "sha256": "2120c66fbb4691ca7058406121d812cd6fb459525186eec0f628bad9b0a8b100"
+        }
+      ],
+      "review": {
+        "source": "Current portrait, source beat, era, anatomy, camera, ability and concealment review",
+        "rendered": "accepted",
+        "rendered_sha256": "0cc1097848169583f3bdb01ff5080b5a9e97d57713a2c74082dabe9f8df67ead",
+        "date": "2026-11-14",
+        "evidence": ".test-tmp/mh016/core-screenshots/CS-R01-{normal,compact}.png",
+        "review_record": "media-workspace/campaign-shot-rebuild-2026-11-14/README.md"
+      }
+    },
+    {
+      "id": "CS-R02",
+      "title": "Staying on the bench",
+      "path": "assets/campaigns/core/CS-R02.png",
+      "sha256": "41a29c10aacbbb130b5f328883c723a82fe1e3ce7e155324d531c2daf9167e60",
+      "dimensions": [
+        1672,
+        940
+      ],
+      "opaque": true,
+      "bindings": [
+        {
+          "scene_id": "RD11",
+          "source_element": 27,
+          "anchor_text": "He sat. Emily sat beside him; Sophie stayed between the bench and the corridor until his gaze stopped searching past her. The storyboard lay closed on his knees. The next sob hurt more than the first because there was no anger in the way of it.",
+          "element_conditions": {},
+          "era": "memory: school",
+          "runtime_gate": "Only after Rei receives the news and asks the two friends to stay; clear on present return.",
+          "legacy_rei_shot_id": "RD11-S11"
+        }
+      ],
+      "continuity_limits": "Historical trio only; no Marcus, ghost, body, method, imagined death scene or invented explanation. Use reviewed school ages/appearances; preserve the news-before-image sequence.",
+      "prompt_record": "media-workspace/campaign-shot-rebuild-2026-11-14/CS-R02.production.json",
+      "correction_record": null,
+      "references": [
+        {
+          "input_path": "assets/portraits/rei-high-school.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-R02-1.png",
+          "sha256": "eab85646640122fa65def0b0a92a1bdb5726b8ba98f90e0175829fbd784cb6bb"
+        },
+        {
+          "input_path": "assets/portraits/emily-high-school.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-R02-2.png",
+          "sha256": "df5dfd85f1d7b452797d275f1ab0c615d34c94503f9eac9a1904f610be3a21c2"
+        },
+        {
+          "input_path": "assets/portraits/sophie-high-school.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-R02-3.png",
+          "sha256": "9318bbb8a238dc1e696a38bc979b27b82dded0150e1cb7f6dfbebb12b8f18ddb"
+        }
+      ],
+      "review": {
+        "source": "Current portrait, source beat, era, anatomy, camera, ability and concealment review",
+        "rendered": "accepted",
+        "rendered_sha256": "41a29c10aacbbb130b5f328883c723a82fe1e3ce7e155324d531c2daf9167e60",
+        "date": "2026-11-14",
+        "evidence": ".test-tmp/mh016/core-screenshots/CS-R02-{normal,compact}.png",
+        "review_record": "media-workspace/campaign-shot-rebuild-2026-11-14/README.md"
+      }
+    },
+    {
+      "id": "CS-R03",
+      "title": "Richter deploys the frame",
+      "path": "assets/campaigns/core/CS-R03.png",
+      "sha256": "0cdc8b0192657776280743f8fb972119f356c3f2a142c123bfd777964e2475ad",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "bindings": [
+        {
+          "scene_id": "RD30",
+          "source_element": 17,
+          "anchor_text": "Joseph’s sleeves parted around reinforced arms. A powered spinal frame locked into place. Targeting lights moved across the desk and found Rei. The machinery supplied the answer Joseph had been working toward: another advantage he could bring to an argument instead of listening.",
+          "element_conditions": {},
+          "era": "present",
+          "runtime_gate": "First authored pre-fight confrontation, before the combat result. Retry copy remains composed.",
+          "legacy_rei_shot_id": "RD30-S02"
+        }
+      ],
+      "continuity_limits": "Adult Rei is alone. Match existing Richter cybernetics; no invented powers, victory, apology, released participants or school-era Joseph. This is a pre-combat reveal, not a painted combat result.",
+      "prompt_record": "media-workspace/CS-R03-cinematic-2026-11-15/production.json",
+      "correction_record": null,
+      "references": [
+        {
+          "input_path": "assets/portraits/rei-selection.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-R03-1.png",
+          "sha256": "5edfb2e6e35db5dd005c14269cedd07fd9e121215fca7b9239e7ff6577b30982"
+        },
+        {
+          "input_path": "assets/portraits/guards/richter_cybernetic.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-R03-2.png",
+          "sha256": "0d2686a25c626e8f954c9c702a36fbec2ac4fd5b077c6488cbfbb4357d7d6447"
+        },
+        {
+          "input_path": "assets/ui/locations/blackstone_command.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-R03-3.png",
+          "sha256": "e86699bc0a3b56661be88707ca016097c359b9dee5fd5c33e04c6556ffd6d614"
+        }
+      ],
+      "review": {
+        "source": "Adult RD30 pre-fight reveal preserved; targeted user-requested cinematic framing, transferred opponents blood and tattered clothing",
+        "rendered": "accepted",
+        "date": "2026-11-15",
+        "evidence": ".test-tmp/CS-R03-cinematic/CS-R03-{normal,compact}.png",
+        "review_record": "media-workspace/CS-R03-cinematic-2026-11-15/README.md",
+        "rendered_sha256": "0cdc8b0192657776280743f8fb972119f356c3f2a142c123bfd777964e2475ad"
+      }
+    },
+    {
+      "id": "CS-R04",
+      "title": "Opening containment",
+      "path": "assets/campaigns/core/CS-R04.png",
+      "sha256": "70601df78e3f94df94f40c61d17afd41508357eaee7b5456c8f1fbc971294ec6",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "bindings": [
+        {
+          "scene_id": "RD31",
+          "source_element": 8,
+          "anchor_text": "Rei secured the research records and disabled the containment controls. The surviving participants could leave.",
+          "element_conditions": {
+            "phase": "after"
+          },
+          "era": "present",
+          "runtime_gate": "phase=after from authenticated rei:richter victory; never phase=failure or a preview.",
+          "legacy_rei_shot_id": "RD31-S02"
+        }
+      ],
+      "continuity_limits": "Only after actual Richter victory and programme closure. No identifiable patient portraits, invented names/counts, graphic experiments, implied forgiveness or restoration of childhood memory. Keep the successor outcome out of this frame.",
+      "prompt_record": "media-workspace/campaign-shot-rebuild-2026-11-14/CS-R04.production.json",
+      "correction_record": null,
+      "references": [
+        {
+          "input_path": "assets/portraits/rei-selection.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-R04-1.png",
+          "sha256": "5edfb2e6e35db5dd005c14269cedd07fd9e121215fca7b9239e7ff6577b30982"
+        },
+        {
+          "input_path": "assets/ui/locations/blackstone_lab.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-R04-2.png",
+          "sha256": "1d3697c6e47bf82e8e4a5a54ba7b075fb608896e001eb734ea08c859f95662f4"
+        }
+      ],
+      "review": {
+        "source": "Current portrait, source beat, era, anatomy, camera, ability and concealment review",
+        "rendered": "accepted",
+        "rendered_sha256": "70601df78e3f94df94f40c61d17afd41508357eaee7b5456c8f1fbc971294ec6",
+        "date": "2026-11-14",
+        "evidence": ".test-tmp/mh016/core-screenshots/CS-R04-{normal,compact}.png",
+        "review_record": "media-workspace/campaign-shot-rebuild-2026-11-14/README.md"
+      }
+    },
+    {
+      "id": "CS-R05",
+      "title": "Rei hits Joseph",
+      "path": "assets/campaigns/core/CS-R05.png",
+      "sha256": "231f02d8f5f831a5231b906b1368bfe57acda52eb43ca53cccb47577d9fefc11",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "bindings": [
+        {
+          "scene_id": "RD13",
+          "source_element": 18,
+          "anchor_text": "He shoved him against the wall and punched him. Joseph staggered and raised his arms. Rei lunged again before a teacher pulled him back.",
+          "element_conditions": {},
+          "era": "memory: school administration entrance",
+          "runtime_gate": "Only the historical attack, after the confrontation and before staff intervention and the later suspension meeting; clear on present return.",
+          "legacy_rei_shot_id": "RD13-S04"
+        }
+      ],
+      "continuity_limits": "School Rei is seventeen and tattoo-free; Joseph uses his historical school appearance with no adult cybernetics. Non-graphic strike, no Marcus in the frame, crowd celebration, revenge victory or implication that violence repaired the bullying or grief. Preserve the teacher's intervention and separate bullying statement in the following text.",
+      "prompt_record": "media-workspace/campaign-shot-rebuild-2026-11-14/CS-R05.production.json",
+      "correction_record": null,
+      "references": [
+        {
+          "input_path": "assets/portraits/rei-high-school.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-R05-1.png",
+          "sha256": "eab85646640122fa65def0b0a92a1bdb5726b8ba98f90e0175829fbd784cb6bb"
+        },
+        {
+          "input_path": "assets/portraits/joseph-richter-high-school.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-R05-2.png",
+          "sha256": "991dcd43f3bb3501331c24f1bc8634aad56018e69d5260ca079756ffa3875af7"
+        }
+      ],
+      "review": {
+        "source": "Current portrait, source beat, era, anatomy, camera, ability and concealment review",
+        "rendered": "accepted",
+        "rendered_sha256": "231f02d8f5f831a5231b906b1368bfe57acda52eb43ca53cccb47577d9fefc11",
+        "date": "2026-11-14",
+        "evidence": ".test-tmp/mh016/core-screenshots/CS-R05-{normal,compact}.png",
+        "review_record": "media-workspace/campaign-shot-rebuild-2026-11-14/README.md"
+      }
+    },
+    {
+      "id": "CS-R06",
+      "title": "Rei receives his suspension",
+      "path": "assets/campaigns/core/CS-R06.png",
+      "sha256": "ba70391901558714eda9d9ad2626700bab01030fa66f8497ecbab563312badde",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "bindings": [
+        {
+          "scene_id": "RD13",
+          "source_element": 24,
+          "anchor_text": "Later, the suspension decision lay between him and the headteacher. His guardian would be contacted. There would be a return meeting. The bullying report would be addressed separately.",
+          "element_conditions": {},
+          "era": "memory: later school suspension meeting",
+          "runtime_gate": "Later office meeting after the attack and staff intervention; show only for the suspension beat and clear before the outside departure/present return.",
+          "legacy_rei_shot_id": "RD13-S05"
+        }
+      ],
+      "continuity_limits": "Same school-era, tattoo-free Rei. This is suspension, not expulsion; the guardian is to be contacted and is not shown attending. No invented suspension duration, readable invented letter, new named headteacher, Joseph or Marcus in the room. Preserve the return meeting and separate bullying report; no implication that either has already happened.",
+      "prompt_record": "media-workspace/campaign-shot-rebuild-2026-11-14/CS-R06.production.json",
+      "correction_record": null,
+      "references": [
+        {
+          "input_path": "assets/portraits/rei-high-school.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-R06-1.png",
+          "sha256": "eab85646640122fa65def0b0a92a1bdb5726b8ba98f90e0175829fbd784cb6bb"
+        }
+      ],
+      "review": {
+        "source": "Current portrait, source beat, era, anatomy, camera, ability and concealment review",
+        "rendered": "accepted",
+        "rendered_sha256": "ba70391901558714eda9d9ad2626700bab01030fa66f8497ecbab563312badde",
+        "date": "2026-11-14",
+        "evidence": ".test-tmp/mh016/core-screenshots/CS-R06-{normal,compact}.png",
+        "review_record": "media-workspace/campaign-shot-rebuild-2026-11-14/README.md"
+      }
+    },
+    {
+      "id": "CS-G01",
+      "title": "The chipped cup and the broth",
+      "path": "assets/campaigns/core/CS-G01.png",
+      "sha256": "890c5acd132c162606e3107999f84ebd8a586bf5db07160d77edf0fa998909c5",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "bindings": [
+        {
+          "scene_id": "GD17",
+          "source_element": 16,
+          "anchor_text": "Charles put down the spoon. “It tastes wrong.”",
+          "element_conditions": {},
+          "era": "memory: undated family broth",
+          "runtime_gate": "Historical segment only; authenticated true/false affects the present return, not this memory.",
+          "legacy_rei_shot_id": null
+        }
+      ],
+      "continuity_limits": "Undated historical brothers, not the present laboratory. Do not invent ages, a date, a living parent in the room or a correct recipe. The historical image works for both authenticated and failed-reply returns; it must clear before the present branch text.",
+      "prompt_record": "media-workspace/campaign-shot-rebuild-2026-11-14/CS-G01.production.json",
+      "correction_record": null,
+      "references": [
+        {
+          "input_path": "assets/ui/locations/campaign-family-kitchen.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-G01-1.png",
+          "sha256": "7289e630c50b2b70248452311c998ff38dfebc640ac48a40e44da439964eb886"
+        }
+      ],
+      "review": {
+        "source": "Current portrait, source beat, era, anatomy, camera, ability and concealment review",
+        "rendered": "accepted",
+        "rendered_sha256": "890c5acd132c162606e3107999f84ebd8a586bf5db07160d77edf0fa998909c5",
+        "date": "2026-11-14",
+        "evidence": ".test-tmp/mh016/core-screenshots/CS-G01-{normal,compact}.png",
+        "review_record": "media-workspace/campaign-shot-rebuild-2026-11-14/README.md"
+      }
+    },
+    {
+      "id": "CS-G02",
+      "title": "The refused hand at the school gates",
+      "path": "assets/campaigns/core/CS-G02.png",
+      "sha256": "81d50094316678ffec65ecde13a7805385668a811654575e663aea23816957d0",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "bindings": [
+        {
+          "scene_id": "GD21",
+          "source_element": 15,
+          "anchor_text": "Charles stepped back. Garrett got to his knees without taking the offered hand.",
+          "element_conditions": {},
+          "era": "memory: Hong Kong school",
+          "runtime_gate": "After the assault has stopped, before the eventual seated conversation; clear on present return.",
+          "legacy_rei_shot_id": null
+        }
+      ],
+      "continuity_limits": "Canonical Hong Kong school event: Garrett sixteen, Charles twenty-one. Non-graphic aftermath, no triumphant punch, no fruit-shop account or April witness; no automatic forgiveness.",
+      "prompt_record": "media-workspace/campaign-shot-rebuild-2026-11-14/CS-G02.production.json",
+      "correction_record": null,
+      "references": [
+        {
+          "input_path": "assets/portraits/garrett-high-school.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-G02-1.png",
+          "sha256": "15d392aa11cef4e992efe8e272bf5fe1f468527e8f73652027526a32579fe7e4"
+        },
+        {
+          "input_path": "assets/portraits/charles-young-adult.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-G02-2.png",
+          "sha256": "8212eafa1c65677a6229fd085ba930af50f53e5131182eaf16752603e4047681"
+        },
+        {
+          "input_path": "assets/ui/locations/garrett-hong-kong-school.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-G02-3.png",
+          "sha256": "57477c8fcc8b9f2f0c258faaec154ee3234e751c89de7ce5fa0321f9b7414cc3"
+        }
+      ],
+      "review": {
+        "source": "Current portrait, source beat, era, anatomy, camera, ability and concealment review",
+        "rendered": "accepted",
+        "rendered_sha256": "81d50094316678ffec65ecde13a7805385668a811654575e663aea23816957d0",
+        "date": "2026-11-14",
+        "evidence": ".test-tmp/mh016/core-screenshots/CS-G02-{normal,compact}.png",
+        "review_record": "media-workspace/campaign-shot-rebuild-2026-11-14/README.md"
+      }
+    },
+    {
+      "id": "CS-G03",
+      "title": "Charles is alive at the laboratory",
+      "path": "assets/campaigns/core/CS-G03.png",
+      "sha256": "4b3c88e02ce04f2dc55018cae8091f4c572acb01f5af3a1893e45a2f8e409a1a",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "bindings": [
+        {
+          "scene_id": "GD22",
+          "source_element": 1,
+          "anchor_text": "Charles was standing in front of him.",
+          "element_conditions": {
+            "direct": false
+          },
+          "era": "present",
+          "runtime_gate": "Normal route, direct=false, on first recognition before their fight.",
+          "legacy_rei_shot_id": null
+        },
+        {
+          "scene_id": "GD43",
+          "source_element": 1,
+          "anchor_text": "Garrett recognised Charles before the room made sense around him.",
+          "element_conditions": {},
+          "era": "present",
+          "runtime_gate": "Direct encounter path only; use once at GD43, not again during its appended GD22 exchange.",
+          "legacy_rei_shot_id": null
+        }
+      ],
+      "continuity_limits": "Garrett and Charles only, same actual lab setting. No invitation papers, authentication clue, private number, embrace, victory or infiltration revelation baked into the image; those differ in timing or come later.",
+      "prompt_record": "media-workspace/campaign-shot-rebuild-2026-11-14/CS-G03.production.json",
+      "correction_record": null,
+      "references": [
+        {
+          "input_path": "assets/portraits/garrett-selection.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-G03-1.png",
+          "sha256": "86b6e2e4bfb84c6a3d8133a765a7af2905148c9eb6216814f82aa86141f07c39"
+        },
+        {
+          "input_path": "assets/portraits/charles-selection-v2.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-G03-2.png",
+          "sha256": "f79e659b15567b75c54be3f328121e39c15c2818d3b6244c7f15fc24285e77ab"
+        },
+        {
+          "input_path": "assets/ui/locations/interiors/glasshouse_lab/private_review_reunion_room.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-G03-3.png",
+          "sha256": "c0812e2365a1805018915b5bd039dba38358f50c0cef0fa3e92d5aef0d3a5480"
+        }
+      ],
+      "review": {
+        "source": "Current portrait, source beat, era, anatomy, camera, ability and concealment review",
+        "rendered": "accepted",
+        "rendered_sha256": "4b3c88e02ce04f2dc55018cae8091f4c572acb01f5af3a1893e45a2f8e409a1a",
+        "date": "2026-11-14",
+        "evidence": ".test-tmp/mh016/core-screenshots/CS-G03-{normal,compact}.png",
+        "review_record": "media-workspace/campaign-shot-rebuild-2026-11-14/README.md"
+      }
+    },
+    {
+      "id": "CS-G04",
+      "title": "Keeping the market exit open",
+      "path": "assets/campaigns/core/CS-G04.png",
+      "sha256": "67aeabdc60c936411d08fab4677d1c3a0a5662db296e0c4de481f6d72155afa9",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "bindings": [
+        {
+          "scene_id": "GD32",
+          "source_element": 6,
+          "anchor_text": "“No,” Garrett said. “Nobody earns their place here by standing behind me. Leave if you want to.”",
+          "element_conditions": {
+            "phase": "before"
+          },
+          "era": "present",
+          "runtime_gate": "phase=before when the market threat is active; stop displaying it for the post-victory restoration segment.",
+          "legacy_rei_shot_id": null
+        }
+      ],
+      "continuity_limits": "Before the actual market fight. No already-defeated collectors, guaranteed civilian rescue, conquered territory or ownership of takings. Do not populate the frame with optional named companions or force every civilian to leave.",
+      "prompt_record": "media-workspace/campaign-shot-rebuild-2026-11-14/CS-G04.production.json",
+      "correction_record": null,
+      "references": [
+        {
+          "input_path": "assets/portraits/garrett-selection.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-G04-1.png",
+          "sha256": "86b6e2e4bfb84c6a3d8133a765a7af2905148c9eb6216814f82aa86141f07c39"
+        },
+        {
+          "input_path": "assets/ui/locations/blackhaven.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-G04-2.png",
+          "sha256": "e4db1a90f4e3bdbd2f7ed07b451bdf70f2c2d7ec901e845dc89752b75ccd8b30"
+        }
+      ],
+      "review": {
+        "source": "Current portrait, source beat, era, anatomy, camera, ability and concealment review",
+        "rendered": "accepted",
+        "rendered_sha256": "67aeabdc60c936411d08fab4677d1c3a0a5662db296e0c4de481f6d72155afa9",
+        "date": "2026-11-14",
+        "evidence": ".test-tmp/mh016/core-screenshots/CS-G04-{normal,compact}.png",
+        "review_record": "media-workspace/campaign-shot-rebuild-2026-11-14/README.md"
+      }
+    },
+    {
+      "id": "CS-G05",
+      "title": "Garrett unites the Hong Kong school crews",
+      "path": "assets/campaigns/core/CS-G05.png",
+      "sha256": "05a6315adc595af5ccbc7815a1adb3cf86aa0c9803535cbc1198fbd60e6ae8dc",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "bindings": [
+        {
+          "scene_id": "GD21",
+          "source_element": 6,
+          "anchor_text": "“So you've heard.” Garrett tried to keep the pride out of his voice and failed. “They're together now. They're not fighting each other.”",
+          "element_conditions": {},
+          "era": "memory: earlier Hong Kong school unification, before the school-gate confrontation",
+          "runtime_gate": "Historical inset tied to the reported unification exchange. Mark the earlier event clearly, then return to the school-gate dialogue before the assault. Clear on the present-day return.",
+          "legacy_rei_shot_id": null,
+          "source_relation": "earlier_reported_event",
+          "supporting_source": [
+            {
+              "scene_id": "GD21",
+              "source_element": 7,
+              "anchor_text": "“You beat people until they agreed to follow you.”"
+            },
+            {
+              "scene_id": "GD21",
+              "source_element": 36,
+              "anchor_text": "“They stopped fighting each other.”"
+            }
+          ]
+        }
+      ],
+      "continuity_limits": "Earlier Hong Kong school-era event reported in GD21, not the school-gate confrontation itself. Preserve the established district school crews and coercive history; do not imply a peaceful unanimous mandate, citywide conquest or the later market leadership outcome. No Charles, April, invented named leaders, specific school count, crests, date or ceremony. Final historical venue and supporting-student designs remain to be reviewed.",
+      "prompt_record": "media-workspace/campaign-shot-rebuild-2026-11-14/CS-G05.production.json",
+      "correction_record": null,
+      "references": [
+        {
+          "input_path": "assets/portraits/garrett-high-school.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-G05-1.png",
+          "sha256": "15d392aa11cef4e992efe8e272bf5fe1f468527e8f73652027526a32579fe7e4"
+        },
+        {
+          "input_path": "assets/ui/locations/garrett-hong-kong-school.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-G05-2.png",
+          "sha256": "57477c8fcc8b9f2f0c258faaec154ee3234e751c89de7ce5fa0321f9b7414cc3"
+        }
+      ],
+      "review": {
+        "source": "Current portrait, source beat, era, anatomy, camera, ability and concealment review",
+        "rendered": "accepted",
+        "rendered_sha256": "05a6315adc595af5ccbc7815a1adb3cf86aa0c9803535cbc1198fbd60e6ae8dc",
+        "date": "2026-11-14",
+        "evidence": ".test-tmp/mh016/core-screenshots/CS-G05-{normal,compact}.png",
+        "review_record": "media-workspace/campaign-shot-rebuild-2026-11-14/README.md"
+      }
+    },
+    {
+      "id": "CS-G06",
+      "title": "Charles strikes Garrett",
+      "path": "assets/campaigns/core/CS-G06.png",
+      "sha256": "441b23e8c76739118002aaa68f010bd7b898d189c250e323fcef4409fd5f10f9",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "bindings": [
+        {
+          "scene_id": "GD21",
+          "source_element": 13,
+          "anchor_text": "He tried to push past. Charles caught his arm. What happened next was too quick for Garrett's anger to prepare him: Charles struck him, knocked him down and hit him again before stopping.",
+          "element_conditions": {},
+          "era": "memory: Hong Kong school",
+          "runtime_gate": "During the school-gate assault, after the unification exchange and before CS-G02 refused-hand aftermath; clear before later seated dialogue/present return.",
+          "legacy_rei_shot_id": null
+        }
+      ],
+      "continuity_limits": "Garrett sixteen, Charles twenty-one. Non-graphic school-gate assault, not mutual sparring, discipline endorsed by the story or a triumphant victory. Preserve Charles striking him again before stopping, his later acknowledgement that he was wrong and Garrett's independent response in the surrounding text. No fruit-shop version, April witness or new injuries.",
+      "prompt_record": "media-workspace/CS-G06-cinematic-2026-11-15/production.json",
+      "correction_record": null,
+      "references": [
+        {
+          "input_path": "assets/portraits/garrett-high-school.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-G06-1.png",
+          "sha256": "15d392aa11cef4e992efe8e272bf5fe1f468527e8f73652027526a32579fe7e4"
+        },
+        {
+          "input_path": "assets/portraits/charles-young-adult.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-G06-2.png",
+          "sha256": "8212eafa1c65677a6229fd085ba930af50f53e5131182eaf16752603e4047681"
+        },
+        {
+          "input_path": "assets/ui/locations/garrett-hong-kong-school.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-G06-3.png",
+          "sha256": "57477c8fcc8b9f2f0c258faaec154ee3234e751c89de7ce5fa0321f9b7414cc3"
+        }
+      ],
+      "review": {
+        "source": "User-requested anatomy and powered environmental destruction correction; original GD21 era and outcome preserved",
+        "rendered": "accepted",
+        "date": "2026-11-15",
+        "evidence": ".test-tmp/CS-G06-cinematic/CS-G06-{normal,compact}.png",
+        "review_record": "media-workspace/CS-G06-cinematic-2026-11-15/README.md",
+        "rendered_sha256": "441b23e8c76739118002aaa68f010bd7b898d189c250e323fcef4409fd5f10f9"
+      }
+    },
+    {
+      "id": "CS-I01",
+      "title": "The first shared doorway",
+      "path": "assets/campaigns/core/CS-I01.png",
+      "sha256": "643a54d90449da264517d508192ec2b34ef35001fe68e12b71a3d7d552f904f4",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "bindings": [
+        {
+          "scene_id": "FM01",
+          "source_element": 16,
+          "anchor_text": "A brief silence. Then he moved to the street-facing position rather than farther into the lane. Gordon escorted the worker clear while Fox held the street-facing position. The worker cleared the lane; that was the part Fox could see.",
+          "element_conditions": {},
+          "era": "memory: early partnership",
+          "runtime_gate": "Historical common passage, player fox or gordon; clear for present-day return.",
+          "legacy_rei_shot_id": null
+        }
+      ],
+      "continuity_limits": "Earlier Blackhaven incident, not the present shopkeeper case. No instant friendship, new clearance, named attacker, exposed witness destination or invented date/rank. Era-specific Fox/Gordon references required.",
+      "prompt_record": "media-workspace/campaign-shot-rebuild-2026-11-14/CS-I01.production.json",
+      "correction_record": null,
+      "references": [
+        {
+          "input_path": "assets/portraits/fox-early-partnership.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-I01-1.png",
+          "sha256": "42a220e329c1ac8c22268d246485abc1f9ccd365025be01522cbc3e03dc70040"
+        },
+        {
+          "input_path": "assets/portraits/gordon-early-partnership.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-I01-2.png",
+          "sha256": "a958ab2726808f00e22ef7826c40fd6aa9dd5142b294b5c455899800d65703dc"
+        },
+        {
+          "input_path": "assets/ui/locations/campaign-annex-counter.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-I01-3.png",
+          "sha256": "ac9f15bfa4406c90e6a0016ca7ba281039943f85fa6c34d41fbfc6619c647c37"
+        }
+      ],
+      "review": {
+        "source": "Current portrait, source beat, era, anatomy, camera, ability and concealment review",
+        "rendered": "accepted",
+        "rendered_sha256": "643a54d90449da264517d508192ec2b34ef35001fe68e12b71a3d7d552f904f4",
+        "date": "2026-11-14",
+        "evidence": ".test-tmp/mh016/core-screenshots/CS-I01-{normal,compact}.png",
+        "review_record": "media-workspace/campaign-shot-rebuild-2026-11-14/README.md"
+      }
+    },
+    {
+      "id": "CS-I02",
+      "title": "The Crow holds the room",
+      "path": "assets/campaigns/core/CS-I02.png",
+      "sha256": "2b1efa930b3437ecd70a20b9963f3bde4285a8689563f06c4b957bd1f28a48b6",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "bindings": [
+        {
+          "scene_id": "FD30",
+          "source_element": 1,
+          "anchor_text": "The opaque beaked mask gave them no expression to read. Robes and draped cloth concealed the person beneath.",
+          "element_conditions": {
+            "phase": "before"
+          },
+          "era": "present",
+          "runtime_gate": "phase=before, after actual access/guard and case gates; never a teaser before the confrontation.",
+          "legacy_rei_shot_id": null
+        }
+      ],
+      "continuity_limits": "Opaque mask and drapes only: no eyes, exposed skin, civil identity, anatomy/height reveal or invented ability display. No custody or defeat already shown. Keep neutral external framing shared by Fox/Gordon and compatible with historical capture saves before their actual resolution.",
+      "prompt_record": "media-workspace/campaign-shot-rebuild-2026-11-14/CS-I02.production.json",
+      "correction_record": null,
+      "references": [
+        {
+          "input_path": "assets/portraits/crow-selection.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-I02-1.png",
+          "sha256": "b9b7649287c3b880a498f1b4ac0a242c96f9018e9d48fde2b39bf004f4f8db5f"
+        },
+        {
+          "input_path": "assets/portraits/fox-selection.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-I02-2.png",
+          "sha256": "256655cc5a4931c3336af8355f5e58a40f955853c21ebbbbcac98d6bc0af2912"
+        },
+        {
+          "input_path": "assets/portraits/gordon-selection.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-I02-3.png",
+          "sha256": "2450356102b233a9cb187814324cb710405308a8260eae2bedf3b402c02e59fc"
+        },
+        {
+          "input_path": "assets/ui/locations/syndicate_hq.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-I02-4.png",
+          "sha256": "3c598e22cfc407a8001fb4da6b649887fef3a97d4206e24bc9177b18f9ae0b10"
+        }
+      ],
+      "review": {
+        "source": "Current portrait, source beat, era, anatomy, camera, ability and concealment review",
+        "rendered": "accepted",
+        "rendered_sha256": "2b1efa930b3437ecd70a20b9963f3bde4285a8689563f06c4b957bd1f28a48b6",
+        "date": "2026-11-14",
+        "evidence": ".test-tmp/mh016/core-screenshots/CS-I02-{normal,compact}.png",
+        "review_record": "media-workspace/campaign-shot-rebuild-2026-11-14/README.md"
+      }
+    },
+    {
+      "id": "CS-I03",
+      "title": "The withdrawal route",
+      "path": "assets/campaigns/core/CS-I03.png",
+      "sha256": "1f1dc0d6d3b077bdebe96f36fd3f4d87fd2b3a17a4570b9ca00818c39a47c12a",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "bindings": [
+        {
+          "scene_id": "FD30",
+          "source_element": 14,
+          "anchor_text": "Fox kept the withdrawal route in sight while Gordon covered retreat. The evidence copied before entry remained theirs. They had neither custody nor a new command archive. The Crow remained at headquarters, his birth identity unknown.",
+          "element_conditions": {
+            "phase": "after"
+          },
+          "era": "present",
+          "runtime_gate": "phase=after AND authenticated current crow_defeated_team outcome; legacy capture routes must use composed FD37 instead.",
+          "legacy_rei_shot_id": null
+        }
+      ],
+      "continuity_limits": "Current scripted defeat only. No protected witnesses on the raid, no new archive or custody, no Crow capture, no fixed player-selected combat move or invented wound pattern. Do not reuse in FD37 legacy capture, ordinary retry, FM04 or repeatable operations.",
+      "prompt_record": "media-workspace/campaign-shot-rebuild-2026-11-14/CS-I03.production.json",
+      "correction_record": null,
+      "references": [
+        {
+          "input_path": "assets/portraits/fox-selection.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-I03-1.png",
+          "sha256": "256655cc5a4931c3336af8355f5e58a40f955853c21ebbbbcac98d6bc0af2912"
+        },
+        {
+          "input_path": "assets/portraits/gordon-selection.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-I03-2.png",
+          "sha256": "2450356102b233a9cb187814324cb710405308a8260eae2bedf3b402c02e59fc"
+        },
+        {
+          "input_path": "assets/ui/locations/syndicate_hq.png",
+          "snapshot": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-I03-3.png",
+          "sha256": "3c598e22cfc407a8001fb4da6b649887fef3a97d4206e24bc9177b18f9ae0b10"
+        }
+      ],
+      "review": {
+        "source": "Current portrait, source beat, era, anatomy, camera, ability and concealment review",
+        "rendered": "accepted",
+        "rendered_sha256": "1f1dc0d6d3b077bdebe96f36fd3f4d87fd2b3a17a4570b9ca00818c39a47c12a",
+        "date": "2026-11-14",
+        "evidence": ".test-tmp/mh016/core-screenshots/CS-I03-{normal,compact}.png",
+        "review_record": "media-workspace/campaign-shot-rebuild-2026-11-14/README.md"
+      }
+    }
+  ],
+  "counts": {
+    "unique_core_images": 16,
+    "source_bindings": 18,
+    "compiled_scenes": 120,
+    "legacy_rei_records": 183
+  },
+  "reference_measurement": "Immutable input snapshots and hashes measured at packaging; exact executed prompts are separate records.",
+  "legacy_baseline": {
+    "path": "assets/campaigns/rei/manifest.json",
+    "sha256": "562d089c827cccb29932886a7e296ffbde23ab55a1b912e72ebee1b1dc0c8c7d",
+    "records": 183,
+    "accepted": 1,
+    "pending": 182,
+    "reference_snapshots_verified": 29,
+    "note": "Historical image-per-shot baseline preserved; not the current core budget."
+  }
+}

@@ -49,12 +49,14 @@ class RelationshipBars(tk.Canvas):
         self.bind('<Configure>', lambda e: self.draw())
 
     def update_stats(self, stats, *, romanceable=None):
+        previous = self.stats
         self.stats = dict(stats or {})
         if romanceable is False:
             self.stats.pop('attraction', None)
         elif romanceable and stats:
             self.stats.setdefault('attraction', 0)
-        self.draw()
+        if self.stats != previous:
+            self.draw()
 
     def draw(self):
         self.delete('all')

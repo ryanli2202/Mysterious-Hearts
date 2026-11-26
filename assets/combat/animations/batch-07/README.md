@@ -1,19 +1,22 @@
 # MH-001 combat animation batch 07
 
+> **Withdrawn 2026-11-13.** All GIFs, sprite sheets, combined preview and contact image from this batch were removed for the combat animation reset. The manifest and this README are historical production evidence; paths below are retired, and rebuild commands are historical only. No runtime integration or release is claimed. Future work follows the [combat animation style guide](../../../../roadmap/COMBAT_ANIMATION_STYLE_GUIDE.md).
+
+
 Eight Muay Thai/streetfighting master sprite sheets generated first with built-in image_gen, then sliced into GIFs locally with Pillow. [The manifest](manifest.json) preserves exact prompts, source paths and source/output hashes. Exact generator model identity is unverified.
 
-Open [the combined animated preview](batch-07-preview.gif).
+Open the combined animated preview (retired path: `batch-07-preview.gif`).
 
 | Move | GIF | Sprite sheet |
 | --- | --- | --- |
-| eight limbed tempest | [GIF](gifs/eight-limbed-tempest.gif) | [PNG](spritesheets/eight-limbed-tempest.png) |
-| meteor knee | [GIF](gifs/meteor-knee.gif) | [PNG](spritesheets/meteor-knee.png) |
-| titan clinch | [GIF](gifs/titan-clinch.gif) | [PNG](spritesheets/titan-clinch.png) |
-| thunder pillar | [GIF](gifs/thunder-pillar.gif) | [PNG](spritesheets/thunder-pillar.png) |
-| riot engine | [GIF](gifs/riot-engine.gif) | [PNG](spritesheets/riot-engine.png) |
-| backstreet phantom | [GIF](gifs/backstreet-phantom.gif) | [PNG](spritesheets/backstreet-phantom.png) |
-| concrete verdict | [GIF](gifs/concrete-verdict.gif) | [PNG](spritesheets/concrete-verdict.png) |
-| chaos rhythm | [GIF](gifs/chaos-rhythm.gif) | [PNG](spritesheets/chaos-rhythm.png) |
+| eight limbed tempest | GIF (retired path: `gifs/eight-limbed-tempest.gif`) | PNG (retired path: `spritesheets/eight-limbed-tempest.png`) |
+| meteor knee | GIF (retired path: `gifs/meteor-knee.gif`) | PNG (retired path: `spritesheets/meteor-knee.png`) |
+| titan clinch | GIF (retired path: `gifs/titan-clinch.gif`) | PNG (retired path: `spritesheets/titan-clinch.png`) |
+| thunder pillar | GIF (retired path: `gifs/thunder-pillar.gif`) | PNG (retired path: `spritesheets/thunder-pillar.png`) |
+| riot engine | GIF (retired path: `gifs/riot-engine.gif`) | PNG (retired path: `spritesheets/riot-engine.png`) |
+| backstreet phantom | GIF (retired path: `gifs/backstreet-phantom.gif`) | PNG (retired path: `spritesheets/backstreet-phantom.png`) |
+| concrete verdict | GIF (retired path: `gifs/concrete-verdict.gif`) | PNG (retired path: `spritesheets/concrete-verdict.png`) |
+| chaos rhythm | GIF (retired path: `gifs/chaos-rhythm.gif`) | PNG (retired path: `spritesheets/chaos-rhythm.png`) |
 
 Each sheet is 1536x1024 with six 512x512 cells in row-major order. Each GIF uses six 150ms action frames (900ms) plus a 720ms blank review pause, repeating every 1620ms. These are opaque dark-slate keyframe previews, not transparent overlays or seamless loops.
 

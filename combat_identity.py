@@ -9,6 +9,7 @@ TIERS={**dict.fromkeys(('sylvanis',),'S+'),**dict.fromkeys(('takeo','crow'),'S')
 NAMES=dict(zip(('Ivan Yeun','Martos Cabrera','Elias Braun','Mavis Kuro','Camila Lopez','Charles Han','Garrett Han','Rei Takamura','Neo','Thirteen','Daniel Stevens','Edward Fox','Jeremy Gordon','Tyler Harding','Samantha Kim','Keisuke Hachimura','Emily Fields','Alyssa','Minsu Park','Valentina Yeun','April Xu','Joseph Richter'),
                ('ivan','martos','elias','mavis','camila','charles','garrett','rei','neo','thirteen','daniel','fox','gordon','tyler','samantha','Keisuke Hachimura','emily','alyssa','minsu','valentina','april','Joseph Richter')))
 SOURCE='roadmap/COMBAT_CHARACTER_LORE.md'
+TIERS.update(dict.fromkeys(('sowon','kouji','paul','somchai'),'B'))
 LORE={}
 for line in (Path(__file__).parent/SOURCE).read_text(encoding='utf-8').splitlines():
     columns=[x.strip() for x in line.split('|')]
@@ -17,6 +18,7 @@ for line in (Path(__file__).parent/SOURCE).read_text(encoding='utf-8').splitline
 LORE.update(sylvanis=dict(title='The Crazed Demon',reputation='The most feared being on the planet.',presence='Complete predictive martial pressure; reputation never forces fear.'),
             takeo=dict(title='The Human Siege Engine',reputation='Capable of destroying army platoons alone.',presence='Overwhelming reinforced physical pressure; no invented completed battles.'),
             crow=dict(title='The Crow',reputation='An enigmatic apex combatant; personal identity unknown.',presence='Analysis and martial mastery; no invented civilian identity.'))
+LORE.update({who:dict(title=person['title'],reputation='Olympic taekwondo medalist.' if who=='sowon' else 'Japanese K-1 kickboxer.' if who=='kouji' else 'No separately established public combat reputation.',presence=person['voice']) for who,person in __import__('ivan_generals').DETAILS.items()})
 
 
 def sheet(who,p=None):
@@ -43,6 +45,7 @@ def sheet(who,p=None):
 
 def recognised(s,listener,who):
     if listener==who: return True
+    if who in __import__('ivan_generals').IDS and listener=='ivan':return True
     if s.get('combat',{}).get('recognition',{}).get(listener,{}).get(who,{}).get('identity'): return True
     import interpol
     if interpol.known_identity(s,listener,who): return True
@@ -71,6 +74,10 @@ def learn_title(s,listeners,title,source):
 
 
 def public(s,who,listeners,p=None):
+    history=s.get('ace_historical_context')
+    if history and who==s.get('player'):
+        return dict(name=(p or {}).get('name','Mavis · age 20'),title=history['title'],
+                    reputation='',presence='Use only this historical checkpoint’s observed actions.')
     record=sheet(who,p)
     if not listeners or not all(recognised(s,x,who) for x in listeners):
         return dict(name=record['name'],title='',reputation='',presence='Only describe observed actions; civilian identity does not disclose an operational title.')
@@ -113,7 +120,10 @@ def ability_details(p):
         parts.append('Successful varied damaging moves build Engaged / Flowing / Dominant momentum (1–3). Each level adds 6% pressure. Contact coordination stabilises stance; combinations cost +3 stamina. At Dominant, a break or counter costs +10 stamina, adds 30% force and consumes momentum. Separation or decisive disruption decays a level.')
     if st.channels(p):
         parts.append('Switch channel: 8 mana; active channel: +4 mana per action. Red lightning: +22% strike force. Blue: faster approach and evasive movement. Fire: +12% physical force and structural breach. Ice: Tranquility removes reaction latency but retains approach travel time. Wind: 22% soul component partly avoids physical reinforcement; cover and active guard still protect. Soul injury reduces mana recovery; robotic bodies have no soul component. Only Conduit has all five channels; Deathwind has wind only.')
-        parts.append('Misanthropy: 18 mana, once per encounter, lasts 4 exchanges. A finite reserve of 18% maximum health allows continued function while damage debt accumulates. No healing occurs; exceeding the reserve or ending with injury debt incapacitates the fighter.')
+        if st.trait(p,'Conduit') or st.trait(p,'Deathwind'):
+            parts.append('Misanthropy: 18 mana, once per encounter, lasts 4 exchanges. A finite reserve of 18% maximum health allows continued function while damage debt accumulates. No healing occurs; exceeding the reserve or ending with injury debt incapacitates the fighter.')
+        if p.get('combat_id') in __import__('ivan_general_combat').STATES:
+            parts.append('General state: '+__import__('ivan_general_combat').STATES[p['combat_id']]+'. Only the actually owned channel/state is available; no Full Conduit State or other general’s power.')
     if st.trait(p,'True Sight'):
         parts.append('Mana-flow perception improves precision, physical application and feasible reactions. Paid technique mana is multiplied by 0.65 after refinement, with a minimum of 1; channel upkeep remains separate. Form upkeep is not waived. Physical approach time and finite energy remain.')
     if st.trait(p,'Analysis'):

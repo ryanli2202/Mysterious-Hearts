@@ -114,6 +114,9 @@ def apply(s, key):
     profile(s,key)
     if d['employment']==key: raise ValueError('You already hold this job.')
     d['employment']=key
+    visit = s.get('interiors', {}).get('work_visits', {}).get(s['player'])
+    if visit and visit['job'] != key:
+        __import__('interior_work').cancel(s)
     s['world']['job']=civilian.titles(key)[profile(s,key)['rank']]
     return log(s,'Jobseek: hired as '+s['world']['job']+'. Previous career progress is retained.')
 
@@ -137,7 +140,9 @@ def guard(s, venue, duration=60, exclude=None):
     __import__('combat').guard(s)
     import autonomy
     w=s['world']; actor=w['cast'][s['player']]
-    if actor.get('journey') or w['location']!=venue or actor['location']!=venue:
+    import interiors
+    at_venue=(interiors.same_building(w['location'],venue) and interiors.same_building(actor['location'],venue)) if interiors.enabled(s,venue) else w['location']==venue and actor['location']==venue
+    if actor.get('journey') or not at_venue:
         raise ValueError('Travel to the assignment location and finish arriving first.')
     if (autonomy.person(s,s['player']).get('sleep_until') or 0)>w['minute']:
         raise ValueError('Wake up before working.')
@@ -156,8 +161,10 @@ def begin_shift(s):
     if d['last_shift']==now//1440: raise ValueError('One Jobseek shift per day, including job changes.')
     if not spec['hours'][0]*60<=now%1440<=spec['hours'][1]*60-60:
         raise ValueError('The entire hour must fit within workplace hours.')
+    __import__('interior_work').require(s, 'shift')
     d['pending']=dict(kind='shift', key=key, venue=spec['venue'], started=now, deadline=now+60,
                       brief=civilian.shift_brief(key,profile(s,key)))
+    __import__('interior_work').begin(s, d['pending'])
     return 'Shift briefing ready. Choose craft, teamwork or a measured pace.'
 
 
@@ -192,16 +199,21 @@ def accept(s, key):
     if s['player'] in bubblegram_roles.ROLES: d['pending']['brief'] = spec['brief']
     if spec.get('coworkers'):
         d['pending'].update(coworkers=list(spec['coworkers']), brief=spec['brief'])
+    __import__('interior_contracts').assign(s,d['pending'])
     return log(s,'Accepted '+spec['title']+'. Complete within 24 hours; reserve 60 minutes at the destination.',True)
 
 
 def resolve(s, choice):
     d=ensure(s); a=d['pending']; now=s['world']['minute']
     if not a: raise ValueError('There is no current assignment.')
+    if a.get('kind')=='faction' and (d.get('membership') or {}).get('faction')=='Shinokami' and __import__('neo_campaigns').suppressed(s,'hachimura'):raise ValueError('Shinokami liaison unavailable in earned campaign custody.')
     if choice not in (0,1,2): raise ValueError('Choose an available approach.')
     duration=a['deadline']-now if a['kind']=='shift' else 60
     if duration<=0 or now+duration>a['deadline']: raise ValueError('The assignment expired. Withdraw it before accepting another.')
     guard(s,a['venue'],duration)
+    if a['kind']!='shift':__import__('interior_contracts').require(s,a)
+    if a['kind'] == 'shift':
+        __import__('interior_work').require(s, 'shift', a)
     if a['kind']=='shift':
         if d['last_shift']==now//1440: raise ValueError('You already worked today.')
         p=profile(s,a['key']); spec=JOBS[a['key']]
@@ -255,10 +267,13 @@ def resolve(s, choice):
 def withdraw(s):
     d=ensure(s); a=d['pending']
     if not a: raise ValueError('There is no current assignment.')
+    if a.get('kind')=='faction' and (d.get('membership') or {}).get('faction')=='Shinokami' and __import__('neo_campaigns').suppressed(s,'hachimura'):raise ValueError('Shinokami liaison unavailable in earned campaign custody.')
     if a['kind']=='shift':
         p=profile(s,a['key']); p['reliability']=max(0,p['reliability']-3)
     else: d['reputation']=max(0,d['reputation']-2)
     d['pending']=None
+    if a['kind'] == 'shift':
+        __import__('interior_work').cancel(s)
     return log(s,'Assignment withdrawn; no pay. '+('Reliability −3.' if a['kind']=='shift' else 'Criminal reputation −2.'),a['kind']!='shift')
 
 
@@ -302,6 +317,7 @@ def sponsor(s, branch):
 
 
 def faction_assignment(s):
+    if (s.get('job_apps',{}).get('membership') or {}).get('faction')=='Shinokami' and __import__('neo_campaigns').suppressed(s,'hachimura'):raise ValueError('Shinokami liaison unavailable in earned campaign custody.')
     d=ensure(s); m=d['membership']
     if not m: raise ValueError('Earn sponsorship first.')
     if m['strikes']>=2: raise ValueError('Sponsorship suspended. Request rehabilitation before more assignments.')
@@ -311,6 +327,7 @@ def faction_assignment(s):
     now=s['world']['minute']
     # Public reception only. No permits, hidden cast discovery or HQ invitations.
     d['pending']=dict(kind='faction', key=m['branch'], venue=BRANCHES[m['branch']][1]+'_reception', started=now, deadline=now+1440)
+    __import__('interior_contracts').assign(s,d['pending'])
     if m['faction'] == 'Shinokami':
         import keisuke
         d['pending']['liaison'] = keisuke.NAME
@@ -319,6 +336,7 @@ def faction_assignment(s):
 
 
 def review(s):
+    if (s.get('job_apps',{}).get('membership') or {}).get('faction')=='Shinokami' and __import__('neo_campaigns').suppressed(s,'hachimura'):raise ValueError('Shinokami liaison unavailable in earned campaign custody.')
     d=ensure(s); m=d['membership']
     if not m: raise ValueError('Earn sponsorship first.')
     if m['strikes']>=2:
@@ -348,3 +366,4 @@ def travel(s, venue):
             return crime_operations.enter(s,site,'reception')
         return crime_operations.enter(s,site,area)
     return town.travel(s,venue)
+

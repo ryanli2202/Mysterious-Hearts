@@ -472,5 +472,11 @@
     "outfit": "formal-tweed",
     "title": "Gallery reception",
     "path": "assets/portraits/amy-formal-tweed.png"
+  },
+  {
+    "character": "sylvanis",
+    "outfit": "campaign",
+    "title": "The Crazed Demon — the night alley",
+    "path": "assets/campaigns/sylvanis/core/CS-SY08.png"
   }
 ]

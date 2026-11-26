@@ -1,0 +1,8 @@
+{
+  "id": "campaign-annex-counter",
+  "prompt": "Create one opaque 1536x1024 landscape reusable semi-realistic manhwa game background for Mysterious Hearts. Match the supplied location reference's rendering language and compatible architecture, not its exact camera. Inside a modest Blackhaven repair shop during Fox/Gordon's undated early partnership. Worn repair counter, small harmless tools, a lamp, rain on the window, door to a covered lane, another visible door leading to a borrowed annex table. No people, weapons, case evidence, badges, logos, screens or readable signs. Practical warm lamps and muted blue rain, ordinary business still functioning. Eye-level stage composition, believable doors and open central floor for reusable transparent character layers; lower third quiet for runtime reading area. No UI, captions, speech bubbles, watermark, logos, baked-in writing, decorative glyphs or people.",
+  "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ceb4-8567-7891-b908-9e00449056e7\\exec-388f4a98-2cd8-4dc9-9d48-b4756627d2ec.png",
+  "method": "built-in image_gen",
+  "review": "Accepted: source image and actual embedded historical room/stage rendering inspected; evidence in roadmap/CAMPAIGN_PRESENTATION_RUNTIME.md.",
+  "sha256": "ac9f15bfa4406c90e6a0016ca7ba281039943f85fa6c34d41fbfc6619c647c37"
+}

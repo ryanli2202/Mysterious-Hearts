@@ -15,7 +15,7 @@ ESTABLISHED = {
     'ivan': (98,'Black and White Joker','Syndicate · Black and White Joker network'),
     'sylvanis': (100,'Crazed Demon / Coloured Joker · most dangerous man on Earth',None),
     'crow': (100,'The Crow / Cardmaster',None),
-    'valentina': (90,'Queen of Wind',None),
+    'valentina': (90,'Queen of Death',None),
     'martos': (96,'Ace of Clubs',None), 'elias': (96,'Ace of Hearts',None),
     'camila': (96,'Ace of Diamonds',None), 'mavis': (96,'Ace of Spades',None),
 }
@@ -151,6 +151,8 @@ def reveal_hamayashi(s):
         actors=s['world']['cast']; rei=actors['rei']; actor=actors[player]
         if actor.get('journey') or rei.get('journey') or rei['location']!=s['world']['location'] or actor['location']!=rei['location']:
             raise ValueError('Meet Rei in person before showing him this evidence.')
+        if __import__('interiors').enabled(s) and not __import__('interiors').same_room(s,player,'rei'):
+            raise ValueError('Meet Rei in the same room before showing him this evidence.')
     affiliated=bool(d.get('hamayashi_affiliated') or (d.get('gang') or {}).get('id')=='hamayashi')
     if discovery['return_known'] and (not affiliated or discovery['affiliation_known']):
         raise ValueError('Rei already knows the evidence you can show him. This setback cannot be repeated.')

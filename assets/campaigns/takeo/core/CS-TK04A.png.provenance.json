@@ -1,0 +1,48 @@
+{
+  "id": "CS-TK04A",
+  "type": "shot",
+  "path": "assets/campaigns/takeo/core/CS-TK04A.png",
+  "original": "media-workspace/campaign-shot-rebuild-2026-11-14/originals/CS-TK04A.png",
+  "prompt": "ONE opaque landscape 16:9 cinematic manhwa shot CS-TK04A. Reference defines exact current Takeo, 211cm enormously muscular Japanese adult, charcoal quarterzip and grey-black camouflage sleeves, youthful angular face, black buzzcut and compact moustache/goatee. Quiet final office scene at Kestrel, alone at dark wood desk in charcoal military room under one amber desk lamp. He sits naturally in a substantial chair, large shoulders and believable torso/pelvis, holding ONE SMALL thin paper designation index open in his left hand at chest height, eyes down on it, right hand resting on desk. Three-quarter high camera looking across desk corner and shoulder space; intimate, guarded, no smile or redemption. Deliberately designed manhwa face matching portrait's almond eyes, simplified nose/lips/cheek planes, selective lines and soft dimensional shadows. Correct five finger hands and coherent elbow/wrist joints. Ordinary paper, not experimental backup, no computers or storage devices. Thin closed folder and abstract regional map lie on desk, no readable text. Composition diagonal and asymmetrical with lamp pool and dark negative space; full head safe within top border, hands visible. No other people, powers, weapons, flags, logos, text, bubbles or UI. No photorealistic skin/fabric microtexture, no cartoon exaggeration.",
+  "references": [
+    "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK04A-1.png"
+  ],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "ea7e8abdab5a93c0f5d1d7622b49c810644816306bc9b242b50a824f73e0df3e",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "alpha_extrema": null,
+  "visual_review": "Full generated image and actual reader render visually inspected; affected artwork checks and route UI smoke passed. See campaign-shot-rebuild-2026-11-14/README.md.",
+  "reference_hashes_measured_at_release_review": {
+    "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK04A-1.png": "afc2370234f44a8550c34e3ebb9bf3c28d42d2c4ffa7513d3eb5b2b615e95849"
+  },
+  "revision_date": "2026-11-14",
+  "supersedes": {
+    "id": "CS-TK04A",
+    "type": "shot",
+    "path": "assets/campaigns/takeo/core/CS-TK04A.png",
+    "original": "media-workspace/takeo/originals/exec-f47f2a88-3480-4002-8c7b-a45ac8ea8b10.png",
+    "prompt": "ONE 16:9 wide illustrated visual-novel shot, single frame no borders. Quiet medium cinematic shot at Kestrel headquarters after the campaign: Takeo exactly as reference sits alone at a dark desk, immense muscular shoulders and stern youthful face, looking down at one small high-level paper designation index. No readable writing. The small index is ordinary paper, NOT a recovered experimental archive, no storage hardware. Charcoal wood room, subdued amber lamp, guarded stillness, no sentimental smile. Semi-realistic illustrated manhwa, restrained linework, natural proportions, soft dimensional painted shading, not photo/3D/cel cartoon. No flags, emblems, captions, readable text or watermark.",
+    "references": [
+      "assets/portraits/takeo-selection.png"
+    ],
+    "provider": "Built-in image_gen tool",
+    "model": "Not exposed; unverified",
+    "sha256": "0b7921d36646ea7fce78ba81398969ec609e5e2c622bd37d9e1efca42b8e30ac",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+    "reference_hashes_measured_at_release_review": {
+      "assets/portraits/takeo-selection.png": "afc2370234f44a8550c34e3ebb9bf3c28d42d2c4ffa7513d3eb5b2b615e95849"
+    }
+  },
+  "previous_production_copy": "media-workspace/campaign-shot-rebuild-2026-11-14/backups/CS-TK04A.png"
+}

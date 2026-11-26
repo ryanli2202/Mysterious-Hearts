@@ -1,0 +1,8 @@
+{
+  "id": "campaign-school-art",
+  "prompt": "Create one opaque 1536x1024 landscape reusable semi-realistic manhwa game background for Mysterious Hearts. Match the supplied location reference's rendering language and compatible architecture, not its exact camera. A modest school art classroom connected by one door to the courtyard. Desks with blank sketch paper, cardboard miniature buildings and a paper pigeon, pencils, sink and storage. No people. 2046-2047 everyday school setting, no futuristic gear or later memorials. Eye-level stage composition, believable doors and open central floor for reusable transparent character layers; lower third quiet for runtime reading area. No UI, captions, speech bubbles, watermark, logos, baked-in writing, decorative glyphs or people.",
+  "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ceb4-8567-7891-b908-9e00449056e7\\exec-e7a5f88d-bd80-4025-bd41-5da7c79eade2.png",
+  "method": "built-in image_gen",
+  "review": "Accepted: source image and actual embedded historical room/stage rendering inspected; evidence in roadmap/CAMPAIGN_PRESENTATION_RUNTIME.md.",
+  "sha256": "74ab0f3b19839bcef81041e780e7cdc995bb83872826603f8ac4fe85f3048db2"
+}

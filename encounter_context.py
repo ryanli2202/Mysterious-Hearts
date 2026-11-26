@@ -76,6 +76,8 @@ def begin(s, group):
                          'activity_before_meeting': actor.get('activity'),
                          'arrangement': plan or ('Accepted date' if date.get('partner') == who else
                                                   'Accepted invitation to hang out' if planned else None)}
+        if __import__('interiors').enabled(s):
+            contexts[who]['room'] = __import__('interiors').room(s)
     group['meeting_context'] = contexts
 
 

@@ -286,6 +286,10 @@ def begin(s, who):
     date = session(s, who)
     if not date or date['started'] or not town.present(s, who) or s['world']['money'] < PRICE:
         return False
+    if __import__('interiors').enabled(s):
+        date.setdefault('room', __import__('interiors').event_room(s, {'venue': s['world']['location']}))
+        if __import__('interiors').room(s) != date['room']:
+            return False
     date['started'] = True
     s['world']['money'] -= PRICE
     town.betrayal(s, who, 'a date')
@@ -341,6 +345,11 @@ def accept(s, who, kind, goals):
         if who in town.LOCAL_MEN:
             place = s['world']['location']
             date['meeting_place'] = place if town.present(s, who) else ('cafe' if place == 'square' else 'square')
+        destination = date.get('meeting_place', s['world']['location'])
+        if __import__('interiors').enabled(s, destination) and (town.present(s, who) or date.get('meeting_place')):
+            options = __import__('interior_bookings').MEETING_ROOMS.get(destination, ())
+            current = __import__('interiors').room(s)
+            date['room'] = current if current in options and town.present(s, who) else __import__('interiors').event_room(s, {'venue': destination})
         if town.present(s, who):
             if route is not None:
                 town.meet(s, who)

@@ -187,8 +187,11 @@ def book(s,target,start,leader=False):
     spec=ORGANISATIONS[target]
     m=dict(id=uuid.uuid4().hex,target=target,start=start,end=start+60,venue=spec[1],
            title='Private leadership appointment',representative=spec[3 if leader else 2],leader=leader,status='booked',reminded=False)
+    if s.get('interiors',{}).get('enabled_buildings') and __import__('interior_bookings').participant_conflict(s,[s['player'],ATTENDEES[target]],start,start+60):
+        raise ValueError('A required attendee has a conflicting hard obligation.')
     b['meetings'].append(m)
     migrate_meeting(m)
+    __import__('interior_meetings').assign(s,m)
     record(s,b,'Booked a meeting with '+m['representative']+' at '+spec[1]+'. Arrive within 15 minutes; the appointment lasts one hour.')
     return m
 
@@ -346,7 +349,7 @@ def npc_appointment(s,who,now):
     for m in commitments(s):
         migrate_meeting(m)
         if m['attendee']==who and m['start']<=now<m['end']:
-            return dict(venue=m['venue'],title='Leadership meeting with '+m['representative'])
+            return dict(venue=m['venue'],room=__import__('interior_meetings').assign(s,m),title='Leadership meeting with '+m['representative'])
 
 
 def begin(s,ident):
@@ -357,6 +360,7 @@ def begin(s,ident):
     if not m['start']<=now<=m['start']+15: raise ValueError('Arrive during the first 15 minutes of the booked meeting.')
     if not access(s,m['target']): raise ValueError('Your headquarters clearance is no longer valid.')
     guard(s,m['venue'],m['end']-now,ident)
+    __import__('interior_meetings').require(s,m)
     import groups, town
     who=m['attendee']
     if who in gang_leaders.BY_NAME:
@@ -386,6 +390,7 @@ def begin(s,ident):
 
 
 def require_scene(s,m):
+    __import__('interior_meetings').require(s,m)
     import town
     group=s.get('groups',{}).get(m.get('group'),{})
     who=m['attendee']; actor=s['world']['cast'][s['player']]

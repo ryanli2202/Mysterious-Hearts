@@ -330,7 +330,7 @@ def act(s,name,action,target=None):
     if action in ('admit','revoke'):
         if not target or target==s['player'] or target not in s['world'].get('cast',{}): raise ValueError('Choose a present visitor.')
         person=s['world']['cast'][target]
-        if person.get('location')!=r['venue'] or person.get('journey'): raise ValueError('The visitor must be here in person.')
+        if person.get('location')!=r['venue'] or person.get('journey') or (__import__('interiors').enabled(s,r['venue']) and not __import__('interiors').same_room(s,s['player'],target)): raise ValueError('The visitor must be here in person.')
         old=d['visitors'].get(target)
         if old and old['by']!=s['player']:
             issuer=authority(s,old['by'],r)

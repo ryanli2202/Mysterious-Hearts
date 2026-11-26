@@ -29,6 +29,10 @@ def start_journal(s, group):
     group['journal_started'] = s['world']['minute']
     group['journal_offset'] = len(group['history'])
     group['journal_location'] = s['world']['location']
+    if __import__('interiors').enabled(s):
+        group['journal_room'] = __import__('interiors').room(s)
+    else:
+        group.pop('journal_room', None)
 
 
 def archive_hangout(s, group):
@@ -39,6 +43,8 @@ def archive_hangout(s, group):
         'location': group.get('journal_location', group.get('location', s['world']['location'])),
         'meeting_context': copy.deepcopy(group.get('meeting_context', {})),
         'history': copy.deepcopy(group['history'][group.get('journal_offset', 0):])})
+    if group.get('journal_room'):
+        s['hangout_journal'][-1]['room'] = group['journal_room']
 
 
 def create_text(s, name, members):
@@ -172,7 +178,10 @@ def disband(s):
 
 def reconcile(s):
     w=s['world']
-    w['party']=[m for m in w.get('party',[]) if town.loop.together(s,m)]
+    w['party']=[m for m in w.get('party',[]) if town.loop.together(s,m)
+                or (__import__('interiors').enabled(s) and
+                    __import__('interiors').same_building(w['cast'][m]['location'],w['location'])
+                    and not w['cast'][m].get('journey'))]
     gid=s.get('active_group')
     if gid:
         group=s['groups'][gid]
@@ -192,7 +201,7 @@ def reconcile(s):
             group['history'].append({'speaker':'Status update','text':'The group moved to '+town.loop.place_name(s)+'.'})
     date = s.get('date_session')
     if w['party'] and not (date and town.dating.in_hangout(s, date['partner'])):
-        available=list(w['party'])
+        available=[m for m in w['party'] if town.loop.together(s,m)]
         if available:
             for m in available: town.set_channel(s,m,'in_person')
             open_group(s,available)

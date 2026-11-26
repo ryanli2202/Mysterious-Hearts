@@ -18,6 +18,10 @@ class SoundSystem:
         self._typing = False
         self._voicemail = None
         self._voicemail_character = None
+        self._campaign_voice = None
+        self._campaign_volume = 70
+        self._campaign_pcm = None
+        self._campaign_cache = None
         self._arcade_wave = {}
         self._arcade_cache = None
         if sys.platform == 'win32':
@@ -97,6 +101,7 @@ class SoundSystem:
         self.enabled = not self.enabled
         if not self.enabled:
             self.stop_voicemail()
+            self.stop_campaign_voice()
             for alias in self._aliases.values():
                 self._mci(f'stop {alias}', None, 0, None)
         elif self._typing:
@@ -153,6 +158,85 @@ class SoundSystem:
             self._volume(alias, 'typing_volume')
             self._mci(f'play {alias} from 0 repeat', None, 0, None)
 
+    def play_campaign_voice(self, path, volume=70, pcm_path=None):
+        """A separate non-blocking channel; never reuse music/SFX/voicemail."""
+        self.stop_campaign_voice()
+        if not self.enabled or not volume:return False
+        if self._mci is None:raise ValueError('Voice playback is unavailable; captions remain available.')
+        root=Path(__file__).resolve().parent/'assets/sounds/campaigns'
+        path=Path(path).resolve()
+        if not path.is_relative_to(root.resolve()) or not path.is_file():
+            raise ValueError('Recording unavailable; captions remain available.')
+        alias=f'mh_campaign_{id(self)}'
+        error=self._mci(f'open "{path}" type mpegvideo alias {alias}',None,0,None)
+        if error:
+            if pcm_path is not None:
+                pcm_path=Path(pcm_path).resolve()
+                if pcm_path.is_relative_to(root.resolve()) and pcm_path.is_file():
+                    return self._play_campaign_pcm(pcm_path,volume)
+            raise ValueError('Could not open recording; captions remain available.')
+        self._campaign_voice=alias
+        self.set_campaign_volume(volume)
+        if self._mci(f'play {alias} from 0',None,0,None):
+            self.stop_campaign_voice()
+            raise ValueError('Could not play recording; captions remain available.')
+        return True
+
+    def set_campaign_volume(self, volume):
+        level=max(0,min(100,int(float(volume))))
+        previous=self._campaign_volume
+        self._campaign_volume=level
+        if self._campaign_voice:
+            if self._campaign_pcm is not None:
+                if level==previous:return
+                position=ctypes.create_unicode_buffer(32)
+                self._mci(f'status {self._campaign_voice} position',position,len(position),None)
+                playing=self.campaign_voice_playing()
+                source=self._campaign_pcm
+                if playing and source is not None:
+                    try:start=int(position.value)
+                    except ValueError:start=0
+                    self.stop_campaign_voice();self._play_campaign_pcm(source,level,start)
+            else:self._mci(f'setaudio {self._campaign_voice} volume to {level*10}',None,0,None)
+
+    def _play_campaign_pcm(self, source, volume, start=0):
+        """Waveaudio fallback with per-clip volume, never global device volume."""
+        if self._campaign_cache is None:
+            cache_root=Path(__file__).resolve().parent/'.sound-cache'
+            cache_root.mkdir(exist_ok=True)
+            self._campaign_cache=tempfile.TemporaryDirectory(prefix='campaign-',dir=cache_root,ignore_cleanup_errors=True)
+        scaled=Path(self._campaign_cache.name)/'voice.wav'
+        try:
+            with wave.open(str(source),'rb') as stream:
+                params=stream.getparams()
+                if stream.getsampwidth()!=2:raise ValueError('Unsupported PCM recording.')
+                samples=array('h',stream.readframes(stream.getnframes()))
+            samples=array('h',(int(sample*volume/100) for sample in samples))
+            with wave.open(str(scaled),'wb') as target:
+                target.setparams(params);target.writeframes(samples.tobytes())
+        except (OSError,wave.Error) as exc:raise ValueError('Could not prepare recording; captions remain available.') from exc
+        alias=f'mh_campaign_{id(self)}'
+        if self._mci(f'open "{scaled}" type waveaudio alias {alias}',None,0,None):
+            raise ValueError('Could not open recording; captions remain available.')
+        self._campaign_voice=alias;self._campaign_pcm=source;self._campaign_volume=volume
+        self._mci(f'set {alias} time format milliseconds',None,0,None)
+        if self._mci(f'play {alias} from {start}',None,0,None):
+            self.stop_campaign_voice();raise ValueError('Could not play recording; captions remain available.')
+        return True
+
+    def campaign_voice_playing(self):
+        if not self._campaign_voice:return False
+        result=ctypes.create_unicode_buffer(32)
+        error=self._mci(f'status {self._campaign_voice} mode',result,len(result),None)
+        if not error and result.value=='playing':return True
+        self.stop_campaign_voice();return False
+
+    def stop_campaign_voice(self):
+        if self._campaign_voice:
+            self._mci(f'close {self._campaign_voice}',None,0,None)
+            self._campaign_voice=None
+            self._campaign_pcm=None
+
     def set_typing(self, active):
         """Loop for the current text generation, including across mute changes."""
         if active == self._typing:
@@ -177,6 +261,7 @@ class SoundSystem:
                     for m in group.get('history', []))
         changed = [key for key, count in counts.items() if count > self._counts.get(key, 0)]
         incoming = self._state is state and bool(changed)
+        if self._state is not state:self.stop_campaign_voice()
         self._state, self._counts = state, counts
         if incoming:
             import phone_personalization
@@ -189,6 +274,13 @@ class SoundSystem:
 
     def close(self):
         self.stop_voicemail()
+        self.stop_campaign_voice()
+        if self._campaign_cache is not None:
+            cache_root=Path(__file__).resolve().parent/'.sound-cache'
+            if Path(self._campaign_cache.name).resolve().is_relative_to(cache_root.resolve()):
+                try:self._campaign_cache.cleanup()
+                except OSError:logging.warning('Campaign audio cache could not be removed.')
+            self._campaign_cache=None
         self._typing = False
         for alias in self._aliases.values():
             self._mci(f'close {alias}', None, 0, None)

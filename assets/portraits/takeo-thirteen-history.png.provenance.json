@@ -1,0 +1,26 @@
+{
+  "id": "takeo-thirteen-history",
+  "type": "portrait",
+  "path": "assets/portraits/takeo-thirteen-history.png",
+  "original": "media-workspace/takeo/originals/exec-e7b2cebd-843a-46ca-a1e4-2023dcb71631.png",
+  "prompt": "Create ONE adolescent historical version of the provided fictional Number Thirteen identity, for a non-graphic quiet interval after a raid. Preserve Japanese facial family resemblance, short black buzzcut and dark eyes, but visibly younger than the adult reference, adolescent proportions and smaller build, plain dark practical shirt and long trousers, wary restrained posture. No armour, powers, medical equipment, injury, fresh scars or bruises. Do not assert an exact historical age or scar origin. Standalone 2:3 vertical head-to-mid-thigh portrait, genuine transparent background. Semi-realistic illustrated manhwa, soft dimensional shading and restrained linework, not photo/3D/cel cartoon. Whole head and complete hands, connected pelvis and both thighs, safe margins. No scenery, shadow, rectangular haze, text or watermark.",
+  "references": [
+    "assets/portraits/thirteen-selection.png"
+  ],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "a2dbbae3c1cff4201b48f11bf087d38f2027ce3564070881427e28bb8ecad0fc",
+  "size": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+  "reference_hashes_measured_at_release_review": {
+    "assets/portraits/thirteen-selection.png": "c0da35fc7ac567f109cf4cda0b2edb154add70d0b697a01d19188b2b2853d51c"
+  }
+}

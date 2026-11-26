@@ -1,0 +1,19 @@
+{
+  "id": "directive_mess",
+  "type": "location",
+  "path": "assets/ui/locations/campaign/takeo/directive_mess.png",
+  "original": "media-workspace/takeo/originals/exec-b6152912-998b-4883-b969-13cd06069b89.png",
+  "prompt": "ONE 16:9 wide game location background painting: Directive 0 mess before 2024, small military dining room, worn tables, stacked empty trays, kettle, cool dawn light, empty and quiet. Semi-realistic illustrated manhwa, restrained linework, softly dimensional painted shading, not photo/3D/cel cartoon. No people, readable text, logos or watermark. Clear room geography, open portrait staging foreground, charcoal/slate palette with restrained warm practical light.",
+  "references": [],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "e4f447a01f0470febedf1786ea76d4dbaae6caf839316963b114f358946c2174",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "alpha_extrema": null,
+  "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+  "reference_hashes_measured_at_release_review": {}
+}

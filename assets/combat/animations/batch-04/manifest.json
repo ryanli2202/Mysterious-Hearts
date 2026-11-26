@@ -2,7 +2,7 @@
   "roadmap_id": "MH-001",
   "batch": 4,
   "created": "2026-11-10",
-  "status": "8 local sprite sheets and GIFs assembled and structurally verified; runtime integration pending.",
+  "status": "Withdrawn 2026-11-13: prior review sheets, GIFs, preview and contact removed; runtime integration remains pending.",
   "generation_tool": "built-in image_gen",
   "model_verification": "Tool does not expose a model selector or verified model identifier.",
   "workflow": "Generate sprite sheets first, then slice and encode locally using Pillow.",
@@ -12,7 +12,7 @@
   },
   "frame_duration_ms": 150,
   "blank_hold_ms": 720,
-  "timing_reason": "900ms action matches the plan's 700\u20131100ms martial master range.",
+  "timing_reason": "900ms action matches the plan's 700–1100ms martial master range.",
   "background": "opaque dark slate; not transparent",
   "assets": [
     {
@@ -47,7 +47,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "02c2076f0bb266e1a62acd9da1bf70937983952386ea289f268fbe1fb2d7e644",
         "sha256_gif": "da12023516d9f3847be358056137d406414577f12b2d1fa9aea0798d1b42c3fd"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B04-ghost-step",
@@ -81,7 +82,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "cad4654e0376405560dcd74316e4e59f9a7542a2815b3a8e93dd27e59329f36d",
         "sha256_gif": "bb3c528e1b5a1f97f66a7deb239c80712eccca4c1dd63613f95bdd2a223eb203"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B04-unseen-spectre",
@@ -115,7 +117,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "ef1695c2a1732fa080a5e615e191830038221b21480b8df8614f0a062b3a11cb",
         "sha256_gif": "99d6a68eb8ea1cd6c39112a4600334529d0388318e5acd6bbe94886af416128a"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B04-power-breaker",
@@ -149,7 +152,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "54bbffd9fb1c2901af1f8ea37ed3d36706cbf3648326df52586814efd478eba4",
         "sha256_gif": "8d2ec47fbf3eb4703ccbe9c6b903b8730c3e468d07b991b3b239f07dcf0535d0"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B04-phantom-cadence",
@@ -183,7 +187,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "c80ebb6313ec4b2222887849fa6f52f63336bb05de5a0e1a1fd353510251147c",
         "sha256_gif": "5b073a819bcd3d37403c9012223fcc9606ebe521bf9559c599b0b300360b1bc6"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B04-thunderclap-counter",
@@ -217,7 +222,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "d0fde7d261efbe5d6e1e47e0ce4fc1b8d8ec9407c60974389084217d37e7b4f5",
         "sha256_gif": "3d3bc1cb4ab9609db2efe2612b84346b94666a5c90ba595cca9c8d7161bc6877"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B04-iron-constellation",
@@ -251,7 +257,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "deb4712aba34a15670cae5592083970f3623cb7dc9c8310ec66b706290c33e49",
         "sha256_gif": "26ede5da47497d058011f6c01f697f864c32e335d57307f65a2e7db2f8e959be"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B04-vanishing-bell",
@@ -285,8 +292,15 @@
         "loop": "infinite preview",
         "sha256_sheet": "7b3194dc10c7e4c089673c0cea44d0bfc295bc5c7030a327b06393af1a7c966b",
         "sha256_gif": "5f9ebe67ffae7e7d607c4a3f5f876388d9538cb4bff10c96dc85adb67d624ad5"
-      }
+      },
+      "available": false
     }
   ],
-  "validation_command": "python tools/build_combat_batch_gifs.py --batch 4"
+  "validation_command": "python tools/build_combat_batch_gifs.py --batch 4",
+  "withdrawn": true,
+  "availability": "withdrawn",
+  "withdrawn_on": "2026-11-13",
+  "withdrawal_reason": "User-requested combat animation artwork reset; historical paths and verification are retained, files removed.",
+  "style_guide": "roadmap/COMBAT_ANIMATION_STYLE_GUIDE.md",
+  "validation_command_status": "Historical command only; this manifest is withdrawn and the builder rejects it."
 }

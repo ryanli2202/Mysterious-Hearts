@@ -4,6 +4,7 @@ import character_types
 
 
 def generate(state, names, context, *, texting=False, opening=False):
+    if any(__import__('neo_campaigns').suppressed(state,name) for name in names):raise ValueError('This person is unavailable in earned campaign custody.')
     import game_core as core
     import town
     import groups
@@ -15,6 +16,7 @@ def generate(state, names, context, *, texting=False, opening=False):
         profiles[name] = dict(role=detail[1], background=detail[2],
             today=town.town_residents.context(name, state['world']['minute']),
             familiarity=state.get('npc_chats', {}).get(name, {}).get('connection', {}).get('status', 'strangers'))
+        if neo_outcome := __import__('neo_campaigns').knowledge(state,name,[state['player'],*names]):profiles[name]['Saved Neo campaign outcome']=neo_outcome
         outcome=__import__('rei_story').context(state,name,[state['player'],*names])
         if outcome: profiles[name]['Authored story outcome']=outcome
         import criminal_dynamics
@@ -104,6 +106,7 @@ def familiarity(state, name):
 
 
 def commit(state, names, reply, data, *, group=None, texting=False, mark_read=True):
+    if any(__import__('neo_campaigns').suppressed(state,name) for name in names):raise ValueError('This person is now in earned campaign custody; discard the stale reply.')
     import combat
     if combat.active(state) or combat.recovering(state) or any(combat.recovering(state,who) for who in names):
         raise ValueError('Finish combat or recover before conversation.')

@@ -26,6 +26,7 @@ ARTS = {
     'Kudo': 'Integrated striking, clinching and throws.',
 }
 TEACHERS = {
+    'sowon':['Taekwondo'], 'kouji':['Kickboxing'], 'paul':['Judo'], 'somchai':['Streetfighting'],
     'fox': ['Military CQC','Streetfighting','Krav Maga'],
     'gordon': ['Military CQC','MMA','Combat analysis'],
     'minsu': ['Taekwondo'], 'rei': ['Judo', 'Kyokushin'],
@@ -39,6 +40,7 @@ TEACHERS = {
     'thirteen': ['Shinokami martial arts'], 'sylvanis': list(ARTS),
 }
 RATINGS = {
+    'sowon':(72,88,92,87), 'kouji':(75,86,91,87), 'paul':(72,90,90,91), 'somchai':(78,87,84,83),
     'fox': (80,97,97,97), 'gordon': (85,97,95,98),
     'sylvanis': (90,100,100,100), 'takeo': (100,80,95,90), 'crow': (80,100,100,100),
     'charles': (85,94,97,96), 'garrett': (84,96,96,96), 'ivan': (86,94,96,95),
@@ -51,6 +53,10 @@ RATINGS = {
 }
 # Learned Traits have resource costs and tactical identities, never stat unlock gates.
 TRAITS = {
+    'sowon':('Storm Channel','Ivan granted blue lightning and great movement speed. No instant perception or teleportation.','speed'),
+    'kouji':('Flame Channel','Ivan granted flame and physical strength. Not red attack amplification or Pyromovement heat accumulation.','flame'),
+    'paul':('Ice / Tranquility','Ivan granted ice and Tranquility: instant perception and reaction while active, with physically bounded travel, contact and force.','ice'),
+    'somchai':('Chaos Channel','Ivan granted red lightning and attack power. No assumed berserk penalty, speed channel or magical innocence.','red'),
     'neo': ('Shinigami Protocol', 'Reactive combat processing, adaptation and informed tactical choices within physical and resource limits. No hidden implants, neural HUD or Nanoengine.', 'analysis'),
     'thirteen': ('Shinigami Protocol', 'Reactive combat processing and adaptation paired with specialised martial training. Available information and feasible movement limit responses.', 'analysis'),
     'daniel': ('War God', 'Coordinated physical pressure, instinctive transitions and contact reading; not mind-reading or automatic takedowns. Shares his father’s Trait, not an assumed full repertoire.', 'physical'),

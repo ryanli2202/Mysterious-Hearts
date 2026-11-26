@@ -21,6 +21,9 @@ def select(s,goal):
 
 
 def description(f):
+    if f.get('neo_mission')=='evacuation':return 'Objective: cover evacuation for three actual exchanges. Hachimura is not defeated here.'
+    if f.get('neo_mission')=='formation':return 'Objective: earn three supported openings within pressure range. Guarding at a distance does not count. Keep the medical corridor open.'
+    if f.get('sylvanis_mission')=='finale':return 'Objective: contest the ledger withdrawal within four exchanges. Two successful interception openings retain it. The separate arena shutdown proceeds regardless of duel performance.'
     goal=f.get('objective','Duel')
     return {'Duel':'Objective: defeat the opponent or concede.',
         'Survive':'Objective: remain standing for six exchanges; survival is not a duel victory.',

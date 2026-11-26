@@ -78,6 +78,7 @@ def check(s,key=None):
 
 def begin(s,key):
     check(s,key);guards.here(s,base(s));d=data(s)
+    __import__('interior_activities').require(s,'syndicate__council_meeting_room' if s['player']=='garrett' else 'rei_home__library')
     if d['active']:raise ValueError('Finish the saved protection mission first. Its progress is retained.')
     if d['completed'].get(key,-1)==s['world']['minute']//1440:raise ValueError('This mission was completed today. Return next story day.')
     d['serial']+=1
@@ -89,6 +90,8 @@ def current(s):
     a=read(s).get('active')
     if not a:raise ValueError('Select a post-story protection mission first.')
     check(s,a['key']);spec=MISSIONS[a['key']];guards.here(s,spec['venue'])
+    target=__import__('interior_activities').POST_STORY[a['key']]
+    if target:__import__('interior_activities').require(s,target)
     return a,spec
 
 

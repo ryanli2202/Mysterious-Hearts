@@ -5,6 +5,7 @@ import threading
 import tkinter as tk
 from tkinter import ttk
 import combat
+import campaign_voice
 import combat_path as path
 from combat_profiles import ARTS, TEACHERS, STATS, profile
 import winterfield_ui as ui
@@ -28,6 +29,9 @@ class CombatView(RPGCombat,EnhancedCombat,tk.Frame):
     def __init__(self,parent,game):
         super().__init__(parent,bg=ui.INK,padx=14,pady=8)
         self.game=game; self.working=False; self.mail=queue.Queue(); self.error=''
+        self.fox_voice=campaign_voice.Playback(game.sounds)
+        self.bind('<Unmap>',self.stop_fox_voice,add='+')
+        self.bind('<Destroy>',self.stop_fox_voice,add='+')
         self.banner=style.Panel(self,padx=12,pady=0)
         self.banner.pack(fill='x')
         self.title=tk.Label(self.banner,text='COMBAT · IN PERSON',bg=ui.PANEL,fg=ui.GOLD,font=('Georgia',20,'bold'))
@@ -84,15 +88,37 @@ class CombatView(RPGCombat,EnhancedCombat,tk.Frame):
             self.refresh()
         self.after(100,poll)
 
+    def stop_fox_voice(self,event=None):
+        if (event is None or event.widget is self) and self.fox_voice.record:
+            self.fox_voice.enter(None,None,autoplay=False)
+
     def refresh(self):
         if self.working: return
         for child in self.content_host.winfo_children(): child.destroy()
         s=self.game.state_data; d=combat.ensure(s); f=d['active']
+        record=campaign_voice.reaction_record(s,f) if self.winfo_manager() else None
+        if record or self.fox_voice.record:
+            token=(id(s),id(f),len(f.get('exchanges',[]))) if f else None
+            campaign_voice.sync_fixed(self.fox_voice,s,token,record)
         if not f and not getattr(self,'path_who',None) and not getattr(self,'training_page',None):
             self.body=style.scrolling_body(self.content_host)
         else:
             self.body=tk.Frame(self.content_host,bg=ui.INK); self.body.pack(fill='both',expand=True)
         self.status.configure(text=self.error)
+        if f and f.get('neo_mission')=='formation' and f['status']=='active':
+            row=self.row()
+            self.label(row,'Trio openings '+str(f.get('openings',0))+'/3 - actual exchanges required')
+            self.button(row,'Coordinate a supported opening',lambda:__import__('neo_campaigns').support_opening(s))
+        if f and f.get('sylvanis_mission')=='finale' and f['status']=='active':
+            row=self.row()
+            self.label(row,'Ledger '+str(f.get('ledger_progress',0))+'/2 · shutdown after exchange 4 · interception consumes a real exchange')
+            if f.get('ledger_progress',0)<2:self.button(row,'Contest ledger withdrawal',lambda:__import__('sylvanis_campaigns').attempt_ledger(s))
+        if f and f.get('martos_mission') and f['status']=='active':
+            row=self.row()
+            ledger=f['martos_objective']
+            self.label(row,'Protected departure '+str(ledger['extraction_progress'])+'/3 · '+('strain reported' if ledger['strain_reported'] else 'strain unreported')+' · '+('handover agreed' if ledger['handover'] else 'Martos holding precision leg'))
+            self.button(row,'Report strain',lambda:__import__('martos_campaigns').combat_control(s,'report'))
+            self.button(row,'Hand over precision leg',lambda:__import__('martos_campaigns').combat_control(s,'handover'))
         if f: self.fight(s,f)
         elif getattr(self,'path_who',None): self.render_path()
         elif getattr(self,'training_page',None)=='academy': self.academy()
@@ -300,4 +326,3 @@ class CombatView(RPGCombat,EnhancedCombat,tk.Frame):
     def leave(self):
         if combat.active(self.game.state_data): raise ValueError('Finish this fight first.')
         self.place_forget(); self.game.render()
-

@@ -96,14 +96,21 @@ def scene(state):
     recent = world.get('camera_activity', {})
     activity = recent.get('text', '') if (recent.get('location') == location
                 and 0 <= world['minute'] - recent.get('minute', -9999) <= 60) else ''
+    if __import__('interiors').enabled(state) and recent.get('room') != __import__('interiors').room(state):
+        activity = ''
     home = next((h for h in town.loop.HOUSES.values() if h[0] == location), None)
     if state.get('custom_protagonist', {}).get('home') == location:
         home = town.loop.HOUSES[state['player']]
-    return dict(player=state['player'], minute=world['minute'], location=location,
+    result = dict(player=state['player'], minute=world['minute'], location=location,
                 location_name=town.LOCATIONS.get(location, location.replace('_', ' ').title()),
                 at_home=home is not None, interior=home[2] if home else '',
                 companions=companions, romance=romance, activity=activity,
                 weather=weather.summary(world['minute']))
+    if __import__('interiors').enabled(state):
+        result.update(room=__import__('interiors').room(state), room_label=__import__('interiors').label(state),
+                      physical_room=__import__('interiors').physical_room(state))
+        result['interior'] += ' Current view: ' + result['room_label'] + '. Depict this view, not the whole building.'
+    return result
 
 
 def modes(context, detail=''):
@@ -211,6 +218,7 @@ def outfits(state, who):
                 result[label] = str(path)
     for suffix, label in (('selection', 'Signature outfit'), ('home', 'Home clothes'), ('sleep', 'Sleepwear')):
         path = root / 'assets' / 'portraits' / f'{who.lower()}-{suffix}.png'
+        if who=='charles' and suffix=='selection' and (path.with_name('charles-selection-v2.png')).is_file():path=path.with_name('charles-selection-v2.png')
         if path.is_file():
             result.setdefault(label, str(path))
     import four_aces
@@ -233,11 +241,19 @@ def outfits(state, who):
             path = (root / design['path']).resolve()
             if path.is_relative_to(codex_images.STORE.resolve()) and path.is_file():
                 result[design['label']] = str(path)
+    for label,path in __import__('wardrobe_registry').options(who).items():
+        result.setdefault(label,path)
+    required=__import__('wardrobe_registry').required_combat(state,who)
+    if required:result['Required combat appearance']=required
     return result
 
 
 def default_outfit(state, who, context):
     saved = outfits(state, who)
+    if state.get('interiors', {}).get('enabled_buildings') and who in state['world']['cast']:
+        chosen = __import__('wardrobe_context').resolve(state, who)
+        if chosen in saved:
+            return chosen
     import four_aces
     if four_aces.uniform_at(who, context.get('location')) and 'Syndicate uniform' in saved:
         return 'Syndicate uniform'

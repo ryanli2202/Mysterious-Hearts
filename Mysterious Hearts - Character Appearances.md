@@ -457,12 +457,12 @@ Current scene descriptions and selected outfits take precedence over portrait st
 | --- | --- |
 | Gender | Male |
 | Height | 211 cm |
-| Appearance | Immensely muscular Japanese man with broad shoulders, short black buzzcut, moustache and goatee. Monochrome camouflage combat longsleeve shirt and dark combat trousers. |
+| Appearance | Powerfully muscular Japanese man with broad shoulders, a deep chest, substantial arms and a tapered waist. Nanoengine slows his visible ageing: his narrower angular adult face has smooth skin and few age lines. Short black buzzcut, moustache and compact goatee; cold, commanding gaze. Fitted charcoal quarter-zip military combat shirt with a raised collar, plain torso and subdued grey-black camouflage long sleeves, black belt and dark combat trousers. The usual portrait uses a composed three-quarter stance with his hands behind his back. |
 | Hairstyle | Short black buzzcut |
 | hair | black; buzzcut |
 | eyes | dark |
-| facial_features | moustache; goatee; angular |
-| body_type | very tall; muscular; broad shoulders |
+| facial_features | moustache; compact goatee; narrower angular face; youthful adult appearance from slowed ageing |
+| body_type | very tall; powerfully muscular; broad shoulders; deep chest; substantial arms; tapered waist |
 
 
 ## charles
@@ -498,3 +498,35 @@ Current scene descriptions and selected outfits take precedence over portrait st
 | Gender | Man |
 | Height | Unspecified |
 | Portrait framing | Head to upper thigh, matching Ivan and Charles; transparent scene portrait and separate square contact photo. |
+
+## sowon
+
+| Field | Description |
+| --- | --- |
+| Recognisable features | Adult Korean woman, lavender hair with dark roots in a high tied style and loose face-framing strands, brown eyes, gold hoop earrings, silver necklace, charcoal athletic shirt. |
+| Height | 167 cm |
+| Portrait framing | Head to mid-thigh, matching main portraits; clean illustrated manhwa linework and dimensional shading, transparent scene portrait. No full-body composition. |
+
+## kouji
+
+| Field | Description |
+| --- | --- |
+| Recognisable features | Adult Japanese man, tall swept-back black hair with longer nape strands, amber-brown eyes, thick dark brows, light moustache and stubble, throat script tattoo, white shirt, black tie and dark pinstripe vest. |
+| Height | 179 cm |
+| Portrait framing | Head to mid-thigh, matching main portraits; clean illustrated manhwa linework and dimensional shading, transparent scene portrait. No full-body composition. |
+
+## paul
+
+| Field | Description |
+| --- | --- |
+| Recognisable features | Adult man with dark ash-brown side-parted hair, grey-brown eyes, clean-shaven face and economical athletic build; charcoal zip jacket over a muted steel-blue shirt and dark trousers. |
+| Height | Unassigned; display defaults do not establish canon. |
+| Portrait framing | Head to mid-thigh, matching main portraits; clean illustrated manhwa linework and dimensional shading, transparent scene portrait. No full-body composition. |
+
+## somchai
+
+| Field | Description |
+| --- | --- |
+| Recognisable features | Adult Thai man with warm tan skin, tousled black hair, intense wide eyes and a crooked unsettling grin. Dense blackwork tattoos cover face, throat, chest, arms and visible hands. Charcoal overshirt, faded dark red vest and dark trousers. |
+| Height | Unassigned; display defaults do not establish canon. |
+| Portrait framing | Head to mid-thigh, matching main portraits; clean illustrated manhwa linework and dimensional shading, transparent scene portrait. No full-body composition. |

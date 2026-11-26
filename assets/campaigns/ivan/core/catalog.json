@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "sequences": [
+    {
+      "id": "IV-QUIET",
+      "title": "A chosen interval",
+      "shots": [
+        "CS-IV01",
+        "CS-IV02",
+        "CS-IV03"
+      ]
+    },
+    {
+      "id": "IV-SPARING",
+      "title": "The victory he wanted",
+      "shots": [
+        "CS-IV04",
+        "CS-IV05",
+        "CS-IV06"
+      ]
+    },
+    {
+      "id": "IV-BLOOD",
+      "title": "A little blood",
+      "shots": [
+        "CS-IV07",
+        "CS-IV08",
+        "CS-IV09"
+      ]
+    },
+    {
+      "id": "IV-PERMISSION",
+      "title": "The same rank, different freedom",
+      "shots": [
+        "CS-IV10"
+      ]
+    }
+  ],
+  "shots": {
+    "CS-IV01": {
+      "source": "IV01:briefing:000",
+      "image": "assets/campaigns/ivan/core/CS-IV01.png"
+    },
+    "CS-IV02": {
+      "source": "IV03:memory:000",
+      "image": "assets/campaigns/ivan/core/CS-IV02.png"
+    },
+    "CS-IV03": {
+      "source": "IV18:aftermath:001",
+      "image": "assets/campaigns/ivan/core/CS-IV03.png"
+    },
+    "CS-IV04": {
+      "source": "IV16:briefing:000",
+      "image": "assets/campaigns/ivan/core/CS-IV04.png",
+      "sha256": "36d392400b36b148df34c409f66b48bb8cf99cc00521b3a225d78a363ac07270",
+      "production": "media-workspace/CS-IV04-facing-2026-11-15/production.json"
+    },
+    "CS-IV05": {
+      "source": "IV16:spare:001",
+      "image": "assets/campaigns/ivan/core/CS-IV05.png",
+      "sha256": "ee908a42d272b842ace21b6029a3eca5ebab65d47ef6584595f1461a59376438",
+      "production": "media-workspace/CS-IV05-aftermath-2026-11-15/production.json"
+    },
+    "CS-IV06": {
+      "source": "IV16:aftermath:000",
+      "image": "assets/campaigns/ivan/core/CS-IV06.png",
+      "sha256": "9dff3d9dec9649e837d19ec4b0da308adde15f158f4e7b1986f6123604ccf7f6",
+      "production": "media-workspace/CS-IV06-entrance-2026-11-15/production.json"
+    },
+    "CS-IV07": {
+      "source": "IV17:aftermath:000",
+      "image": "assets/campaigns/ivan/core/CS-IV07.png",
+      "sha256": "77a30c83f221a808087c3685ba2b985641f335cd431332a5a4d6447491839e21",
+      "production": "media-workspace/ivan-defeat-sequence-2026-11-15/production.json"
+    },
+    "CS-IV08": {
+      "source": "IV17:aftermath:008",
+      "image": "assets/campaigns/ivan/core/CS-IV08.png",
+      "sha256": "9fe0973660c97ea02b832ff7e5ff1549f99327830712883fa254ad7225858b81",
+      "production": "media-workspace/ivan-defeat-sequence-2026-11-15/production.json"
+    },
+    "CS-IV09": {
+      "source": "IV17:aftermath:014",
+      "image": "assets/campaigns/ivan/core/CS-IV09.png",
+      "sha256": "e1dcb435e0cbd3307945b5627b8e96b1c3be43040bd5394b8ad4cf91f9d2e4ef",
+      "production": "media-workspace/ivan-defeat-sequence-2026-11-15/production.json"
+    },
+    "CS-IV10": {
+      "source": "IV02:briefing:005",
+      "image": "assets/campaigns/ivan/core/CS-IV10.png"
+    }
+  }
+}

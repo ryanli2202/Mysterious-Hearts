@@ -55,6 +55,8 @@ def guard(s, who=None, *, fighting=False):
 def present(s, who):
     if who == s['player']: return False
     w=s['world']; actor=w.get('cast',{}).get(who)
+    if actor and __import__('interiors').enabled(s):
+        return __import__('interiors').same_room(s, s['player'], who)
     return bool((actor and actor['location']==w['location'] and not actor.get('journey'))
                 or (actor is None and who in w.get('npcs', [])))
 
@@ -79,6 +81,7 @@ def affiliation(s, who):
         return 'interpol', 40 if who=='fox' else 90
     faction=criminal_dynamics.faction(who)
     ranks={'crow':100,'takeo':100,'sylvanis':95,'ivan':90,'charles':80,
+           'sowon':70,'kouji':70,'paul':70,'somchai':70,
            'martos':85,'elias':85,'mavis':85,'camila':85,'thirteen':80,
            'Keisuke Hachimura':60,'valentina':70,'garrett':100}
     if faction in s.get('combat',{}).get('expelled',[]) and who==s['player']: return None,0
@@ -96,7 +99,7 @@ def consent(s,who,kind):
     trust=rel.stats(s,who).get('trust',35)
     fighters=who in TEACHERS or profile(s,who)['stats']['martial_skill']>=35
     if who=='crow' or (who=='takeo' and kind=='spar'): return False,'They decline; this does not serve their interests.'
-    if kind=='spar': accepted=fighters and trust>=25 and who not in ('sylvanis','thirteen')
+    if kind=='spar': accepted=fighters and trust>=25 and who not in ('sylvanis','thirteen','somchai')
     else: accepted=fighters and (trust<30 or who in ('rei','daniel','samantha','ivan','sylvanis','takeo','tyler','garrett','thirteen'))
     return accepted, 'Agreed.' if accepted else 'They decline this invitation.'
 
@@ -156,6 +159,7 @@ def next_card(minute):
 def sign_ledger(s,signature):
     guard(s); d=ensure(s)
     if s['world']['location']!='iron_circle': raise ValueError('Visit the Iron Circle to sign its physical ledger.')
+    __import__('interior_activities').require(s,'iron_circle__controlled_entrance')
     if d['ledger']: raise ValueError('You already signed the ledger.')
     if not isinstance(signature,str) or not signature.strip() or len(signature)>100: raise ValueError('Sign your name in the ledger.')
     d['ledger']=dict(signature=signature.strip(),joined=s['world']['minute'],rank=450,
@@ -185,6 +189,7 @@ def train(s,discipline,teacher=None):
         raise ValueError('Mana potency grows through strenuous encounters in Ascension or Transcendence; it is fixed in Awakening and Totality. Train your Trait or martial arts instead.')
     if discipline in ARTS and not teacher and discipline not in p['arts']: raise ValueError('Learn this art from a teacher first.')
     if discipline not in (*ARTS,'Trait refinement','Awakened power','Combat analysis'): raise ValueError('Unknown discipline.')
+    __import__('interior_activities').training(s,discipline)
     day=s['world']['minute']//1440; key=str(day)
     if d['training'].get(key,0)>=3: raise ValueError('Three focused sessions per day; rest before training again.')
     if discipline in ARTS:
@@ -223,6 +228,7 @@ def start(s,who,kind,generated=None):
         opponent=interpol.validate_encounter(s,who)
     elif kind=='circle':
         if s['world']['location']!='iron_circle' or not card_ready(s): raise ValueError('Attend the next card at the Iron Circle, 18:00–21:00.')
+        __import__('interior_activities').require(s,'iron_circle__ring_hall')
         if generated is None: raise ValueError('Generate an opponent first.')
         opponent=validate_opponent(s,generated)
         if opponent.get('title_bout'): who=opponent['champion_id']
@@ -251,6 +257,9 @@ def start(s,who,kind,generated=None):
            location=s['world']['location'],player=resources(profile(s,s['player'])),enemy=resources(opponent),
            elapsed=0,turn=0,log=[note] if note else [],status='active',result=None,
            score=[0,0],seed=random.randrange(2**31),path_form_rules=True)
+    if s.get('interiors',{}).get('enabled_buildings'):
+        f['wardrobe_snapshot']=__import__('wardrobe_context').snapshot(s,(s['player'],who))
+        if __import__('interiors').enabled(s):f['room']=__import__('interiors').room(s)
     d['active']=f
     import combat_identity
     known=combat_identity.public(s,who,[s['player']],opponent)
@@ -289,9 +298,18 @@ def finish(s,result,knocked=None):
         knocked=s['player']
         f['enemy']['health']=max(1,f['enemy']['health'])
         f['log'].append('The Crow breaks the containment attempt and forces a retreat. This authored confrontation cannot end in his capture.')
+    if f.get('ivan_mission') and f.get('exchanges'):
+        # These are labelled tactical samples within a fixed authored confrontation.
+        # A sampled knockout closes the sample without inventing a world death or
+        # a 24-hour break between the continuous sparing/arrival story beats.
+        knocked=None
+        f['player']['health']=max(1,f['player']['health'])
+        f['enemy']['health']=max(1,f['enemy']['health'])
     if knocked:
         d['recovery'][knocked]=s['world']['minute']+1440
         f['player' if knocked==s['player'] else 'enemy']['health']=0
+    if f.get('ivan_mission'):
+        result=__import__('ivan_campaigns').fixed_result(s,f,result)
     if f['kind']=='spar': result='Practice complete — no winner or loser.'
     f.update(status='finished',result=result)
     f['log'].append(result)
@@ -308,6 +326,7 @@ def finish(s,result,knocked=None):
 
 def close(s):
     d=ensure(s); f=d['active']
+    encounter=copy.deepcopy(s.get('organisation_guards',{}).get('encounter'))
     if f and f['status']=='active': raise ValueError('Finish or concede this fight first.')
     if f:
         spent=d.get('protocol_spent',{})
@@ -320,6 +339,15 @@ def close(s):
         interpol.resolve_fight(s,f)
         import organisation_guards
         organisation_guards.resolve(s,f)
+        __import__('campaign_gauntlet').after_close(s,f,encounter)
+        __import__('ace_campaigns').after_combat_close(s,f)
+        __import__('martos_campaigns').after_combat_close(s,f)
+        __import__('elias_campaigns').after_combat_close(s,f)
+        __import__('camila_campaigns').after_combat_close(s,f)
+        __import__('sylvanis_campaigns').after_combat_close(s,f)
+        __import__('neo_campaigns').after_combat_close(s,f)
+        __import__('ivan_campaigns').after_combat_close(s,f)
+        __import__('takeo_campaigns').after_combat_close(s,f)
 
 def concede(s):
     f=active(s)
@@ -363,6 +391,7 @@ def schema(fields):
 def generate_opponent(s):
     guard(s)
     if s['world']['location']!='iron_circle' or not card_ready(s): raise ValueError('The next card is not open here yet.')
+    __import__('interior_activities').require(s,('iron_circle__fighter_preparation_room','iron_circle__ring_hall'))
     import combat_circle
     champion=combat_circle.candidate(s)
     if champion: return champion
@@ -531,6 +560,15 @@ def complete_exchange(s):
     if f['turn']%2==0:
         import world_loop
         world_loop.advance(s,1,combat_turn=True)
+    if __import__('ivan_campaigns').finish_boundary(s,f):
+        enforce(s)
+        return f
+    if __import__('neo_campaigns').finish_boundary(s,f):
+        enforce(s)
+        return f
+    if __import__('sylvanis_campaigns').finish_boundary(s,f):
+        enforce(s)
+        return f
     # Authored campaign exception: The Crow breaks containment after four exchanges.
     if __import__('interpol').crow_story_fight(s,f) and f['turn']>=4:
         finish(s,'Defeat — containment broken.',s['player'])

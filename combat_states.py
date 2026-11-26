@@ -74,6 +74,8 @@ def set_channel(s,channel):
 
 
 def channels(p):
+    general={'sowon':'Blue lightning','kouji':'Fire','paul':'Ice','somchai':'Red lightning'}.get(p.get('combat_id'))
+    if general and p.get('trait',{}).get('effect')!='custom':return ['',general]
     if trait(p,'Conduit'): return ['', 'Red lightning','Blue lightning','Wind','Fire','Ice']
     if trait(p,'Deathwind'): return ['', 'Wind']
     return []
@@ -116,10 +118,16 @@ def prepare_action(p,r,move):
                               'Wind':('wind',),'Fire':('fire',),'Ice':('ice',)}.items():
             if any(word in aspects for word in words): active.add(element)
     elif trait(p,'Deathwind') and 'wind' in aspects: active.add('Wind')
+    elif p.get('combat_id') in ('sowon','kouji','paul','somchai'):
+        # Each general owns exactly one received channel, never all of Conduit.
+        element={'sowon':'Blue lightning','kouji':'Fire','paul':'Ice','somchai':'Red lightning'}[p['combat_id']]
+        if element.lower() in aspects:active.add(element)
     if 'Red lightning' in active: m['force']*=1.22
     if 'Blue lightning' in active: tags.update(('speed','evade'))
     if 'Wind' in active: m['soul_fraction']=.22
-    if 'Fire' in active: tags.add('breach'); m['force']*=1.12
+    if 'Fire' in active:
+        tags.add('breach'); m['force']*=1.12
+        if m['role'] in ('control','throw','defence'):tags.add('stability')
     if 'Ice' in active: tags.update(('precision','stability')); m['instant_reaction']=True
     if trait(p,'Analysis') and r['observations']: tags.update(('precision','adapt'))
     m['tags']=list(sorted(tags)); return m

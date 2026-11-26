@@ -1,0 +1,52 @@
+{
+  "id": "CS-TK01A",
+  "type": "shot",
+  "path": "assets/campaigns/takeo/core/CS-TK01A.png",
+  "original": "media-workspace/campaign-shot-rebuild-2026-11-14/originals/CS-TK01A.png",
+  "prompt": "ONE opaque 16:9 wide cinematic campaign illustration CS-TK01A. Reference 1 defines Arakawa's exact younger face, black hair and dark military jacket/vest; reference 2 defines Captain Takeo Mishima's exact younger face and camouflaged sleeves, unmarked tactical vest. Rebuild a pre-2024 classified briefing room scene: enormous 211cm heavily muscular Takeo stands left at the head of a worn rectangular table, both hands naturally planted on its edge; Arakawa stands on far right side with ordinary smaller adult build, objecting with a restrained open hand. Two separate closed unlabelled casualty and operational folders on table, a pen between them. Camera from an elevated three-quarter table corner, foreground table edge strong diagonal leading toward two figures; clear floor plane, honest perspective and difference in stature, NOT two same-sized heads/body cutouts. Their faces designed in refined semi-realistic illustrated manhwa as references, simplified nose/lip/cheek planes, almond eyes, tapered selective contours and soft dimensional shade. Keep Takeo's angular black buzzcut/moustache/goatee face youthful and imposing, Arakawa distinctly clean-shaven. Physically correct elbows, shoulders, wrists, pelvis, five-finger hands. Restrained slate/amber window and hanging-lamp light, operational room with plain map shapes and file shelves; no legible text, symbols or flags. The ethical tension is quiet and grave, not triumph or battle. Exactly two visible people; no weapons, powers, injuries or logos. Faces and gestures clear above lower prose strip; no panels, borders or UI. Unified illustrated rendering, no photorealistic microtexture or excessive costume detail.",
+  "references": [
+    "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK01A-1.png",
+    "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK01A-2.png"
+  ],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "e5642a237c0d8b53d12d20de8f0b239821ee9488ceb09b0110e5b1d9fbe3bd99",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "alpha_extrema": null,
+  "visual_review": "Full generated image and actual reader render visually inspected; affected artwork checks and route UI smoke passed. See campaign-shot-rebuild-2026-11-14/README.md.",
+  "reference_hashes_measured_at_release_review": {
+    "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK01A-1.png": "98ec1e9333591b7375eaec111fa6c81ee86e5ec8f2875b15b10c91ddf1166830",
+    "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK01A-2.png": "fdffd45b52591fd726385716394fe1711713afa76b486a0352003fc6b76fbd51"
+  },
+  "revision_date": "2026-11-14",
+  "supersedes": {
+    "id": "CS-TK01A",
+    "type": "shot",
+    "path": "assets/campaigns/takeo/core/CS-TK01A.png",
+    "original": "media-workspace/takeo/originals/exec-b0464b8f-2455-432f-a80a-b1fb9503d185.png",
+    "prompt": "ONE 16:9 illustrated visual-novel sequence shot, no panel borders. Wide establishing shot, pre-2024 classified military briefing room: Takeo (reference 1) stands at the head of a worn table over two separate unlabelled casualty and objective folders. Arakawa (reference 2) stands on the far side, smaller ordinary build. Severe quiet tension, not a battle, no flags. Preserve Takeo's enormous 211cm physique and exact younger identity. Semi-realistic illustrated manhwa, restrained linework and dimensional painted shading, natural faces, cinematic slate/amber light, not photo/3D or exaggerated cel cartoon. No captions, text, readable map labels, watermark or signature.",
+    "references": [
+      "media-workspace/takeo/originals/exec-1838f771-8da0-4730-8b21-49e3cb3ea766.png",
+      "media-workspace/takeo/originals/exec-e40ebdd2-0afb-4eae-9a3d-d17b00e27f21.png"
+    ],
+    "provider": "Built-in image_gen tool",
+    "model": "Not exposed; unverified",
+    "sha256": "31fb98ed73c42ea4c804ed23a224f6afcc96e75060f64e8ba85767ce9e62b1ef",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+    "reference_hashes_measured_at_release_review": {
+      "media-workspace/takeo/originals/exec-1838f771-8da0-4730-8b21-49e3cb3ea766.png": "fdffd45b52591fd726385716394fe1711713afa76b486a0352003fc6b76fbd51",
+      "media-workspace/takeo/originals/exec-e40ebdd2-0afb-4eae-9a3d-d17b00e27f21.png": "322c42f46b2cb7e77613b76dabd76a22800134341f17363f9e59b5fc7611fae9"
+    }
+  },
+  "previous_production_copy": "media-workspace/campaign-shot-rebuild-2026-11-14/backups/CS-TK01A.png"
+}

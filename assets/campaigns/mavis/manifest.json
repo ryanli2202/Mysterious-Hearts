@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "route": "mavis",
+  "date": "2026-11-13",
+  "core_shots": [
+    {
+      "id": "CS-MV01",
+      "file": "assets/campaigns/core/CS-MV01.png",
+      "sha256": "55e065591c29be5ed753bed18f0a41132c46873b8077333028e5ab63c71d850f",
+      "scene_id": "MV-F01",
+      "field": "text",
+      "beat": 0,
+      "source_sha256": "53410ffed910162d8197cfc1d99ff1dd48c1c31b6cd4af2b85e387419842e716",
+      "anchor_text": "Mavis’s memory — age twenty, before Syndicate recruitment. In the Quiet House office a repaired desk fan clicks at each turn. The Broker has put a fee schedule beside a photograph with the face obscured. Mavis checks the exits before she sits.",
+      "resolution": "pre-resolution",
+      "supersedes_art_sha256": "5d3ffffbf6af644e48ece71474f7aa83d7a9a9e92f53b4d316eed9c96967bb6a"
+    },
+    {
+      "id": "CS-MV02",
+      "file": "assets/campaigns/core/CS-MV02.png",
+      "sha256": "dd6132e9e70c5c0af38251aaba39907049cca673d7ef2c00f42fdaf4f26003b3",
+      "scene_id": "MV-F02",
+      "field": "text",
+      "beat": 0,
+      "source_sha256": "b2264ee6f7a667e6d9798e60a3693847700adf1aaf2c5a4c4a610da2983384c3",
+      "anchor_text": "Mavis’s memory — age twenty, the predecessor contract. The service threshold is dry despite the rain outside. Someone has checked it recently. She stops before the latch, listening beyond the thin wall instead of trusting the Broker’s empty space on the plan.",
+      "resolution": "pre-resolution",
+      "supersedes_art_sha256": "709eae49facbea124a30607a18b427913687e2b14d1c5ba3d182a999de01e2c6"
+    },
+    {
+      "id": "CS-MV03",
+      "file": "assets/campaigns/core/CS-MV03.png",
+      "sha256": "2cc5dd0bdfa54781d29e978a3ec4223db4e86d386b2f759ddbc5c323f06c4341",
+      "scene_id": "MV-F03",
+      "field": "text",
+      "beat": 0,
+      "source_sha256": "a685d2cdf23c6a5a6de6f1384d6e27db44a8677c1b5c8a0a4efc54ac94f5439f",
+      "anchor_text": "Mavis’s memory — age twenty, after the predecessor’s death. A private summons grants one escorted visit to headquarters. It does not make her a member. She arrives expecting a demand for a debt she has already been paid to create.",
+      "resolution": "pre-resolution",
+      "supersedes_art_sha256": "839b604493ab5c6f33d98cee166706c3b3f514372d4e7498e97816c3d7fc9c1b"
+    },
+    {
+      "id": "CS-MV04",
+      "file": "assets/campaigns/core/CS-MV04.png",
+      "sha256": "bcf2ca17bd7f02dd8f3c0c96bf625768c9149ef9ee74eb1da3f5d5cb86c2d5d3",
+      "scene_id": "MV-11",
+      "field": "confrontation",
+      "beat": 0,
+      "source_sha256": "73c5a28f2294cdbf3c34bf07e1d57dc5ebb1aec236b87352c3fa42cff5da8bcc",
+      "anchor_text": "The authenticated transfer is contained. In the inner collection room the Broker waits behind his prepared protection. The secondary task remains with the colleague who accepted it; Mavis has reached the part of the operation she kept for herself.",
+      "resolution": "pre-resolution",
+      "supersedes_art_sha256": "5922a045e7f2270f19c3c416d784bc1dd28104b4d768d88a59d83c69a452fe99"
+    }
+  ]
+}

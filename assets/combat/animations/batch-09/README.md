@@ -1,19 +1,22 @@
 # MH-001 combat animation batch 09
 
+> **Withdrawn 2026-11-13.** All GIFs, sprite sheets, combined preview and contact image from this batch were removed for the combat animation reset. The manifest and this README are historical production evidence; paths below are retired, and rebuild commands are historical only. No runtime integration or release is claimed. Future work follows the [combat animation style guide](../../../../roadmap/COMBAT_ANIMATION_STYLE_GUIDE.md).
+
+
 Eight Military CQC/kickboxing master sprite sheets generated first with built-in image_gen, then sliced into GIFs locally with Pillow. [The manifest](manifest.json) preserves exact generation and revision prompts, original paths and source/output hashes. Exact generator model identity is unverified.
 
-Open [the combined animated preview](batch-09-preview.gif).
+Open the combined animated preview (retired path: `batch-09-preview.gif`).
 
 | Move | GIF | Sprite sheet |
 | --- | --- | --- |
-| breach sequence | [GIF](gifs/breach-sequence.gif) | [PNG](spritesheets/breach-sequence.png) |
-| lockdown engine | [GIF](gifs/lockdown-engine.gif) | [PNG](spritesheets/lockdown-engine.png) |
-| silent vector | [GIF](gifs/silent-vector.gif) | [PNG](spritesheets/silent-vector.png) |
-| titan restraint | [GIF](gifs/titan-restraint.gif) | [PNG](spritesheets/titan-restraint.png) |
-| tempest circuit | [GIF](gifs/tempest-circuit.gif) | [PNG](spritesheets/tempest-circuit.png) |
-| sonic crescent | [GIF](gifs/sonic-crescent.gif) | [PNG](spritesheets/sonic-crescent.png) |
-| iron comet | [GIF](gifs/iron-comet.gif) | [PNG](spritesheets/iron-comet.png) |
-| phantom relay | [GIF](gifs/phantom-relay.gif) | [PNG](spritesheets/phantom-relay.png) |
+| breach sequence | GIF (retired path: `gifs/breach-sequence.gif`) | PNG (retired path: `spritesheets/breach-sequence.png`) |
+| lockdown engine | GIF (retired path: `gifs/lockdown-engine.gif`) | PNG (retired path: `spritesheets/lockdown-engine.png`) |
+| silent vector | GIF (retired path: `gifs/silent-vector.gif`) | PNG (retired path: `spritesheets/silent-vector.png`) |
+| titan restraint | GIF (retired path: `gifs/titan-restraint.gif`) | PNG (retired path: `spritesheets/titan-restraint.png`) |
+| tempest circuit | GIF (retired path: `gifs/tempest-circuit.gif`) | PNG (retired path: `spritesheets/tempest-circuit.png`) |
+| sonic crescent | GIF (retired path: `gifs/sonic-crescent.gif`) | PNG (retired path: `spritesheets/sonic-crescent.png`) |
+| iron comet | GIF (retired path: `gifs/iron-comet.gif`) | PNG (retired path: `spritesheets/iron-comet.png`) |
+| phantom relay | GIF (retired path: `gifs/phantom-relay.gif`) | PNG (retired path: `spritesheets/phantom-relay.png`) |
 
 Each sheet is 1536x1024 with six 512x512 cells in row-major order. Each GIF uses six 150ms action frames (900ms) plus a 720ms blank review pause, repeating every 1620ms. These are opaque dark-slate keyframe previews, not transparent overlays or seamless loops.
 

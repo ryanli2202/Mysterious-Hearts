@@ -1,19 +1,22 @@
 # MH-001 combat animation batch 03
 
+> **Withdrawn 2026-11-13.** All GIFs, sprite sheets, combined preview and contact image from this batch were removed for the combat animation reset. The manifest and this README are historical production evidence; paths below are retired, and rebuild commands are historical only. No runtime integration or release is claimed. Future work follows the [combat animation style guide](../../../../roadmap/COMBAT_ANIMATION_STYLE_GUIDE.md).
+
+
 Eight sprite sheets were generated first with built-in image_gen and then sliced into GIFs using Pillow. [The manifest](manifest.json) preserves full generation/edit prompts, source paths and source/output hashes. The tool does not expose a verified model version.
 
-Open [the combined animated preview](batch-03-preview.gif). Individual assets:
+Open the combined animated preview (retired path: `batch-03-preview.gif`). Individual assets:
 
 | Effect | GIF | Sprite sheet |
 | --- | --- | --- |
-| Poison | [GIF](gifs/poison.gif) | [PNG](spritesheets/poison.png) |
-| Burn | [GIF](gifs/burn.gif) | [PNG](spritesheets/burn.png) |
-| Stagger | [GIF](gifs/stagger.gif) | [PNG](spritesheets/stagger.png) |
-| Weak-point mark | [GIF](gifs/weak-point-mark.gif) | [PNG](spritesheets/weak-point-mark.png) |
-| Concealment | [GIF](gifs/concealment.gif) | [PNG](spritesheets/concealment.png) |
-| Barrier break | [GIF](gifs/barrier-break.gif) | [PNG](spritesheets/barrier-break.png) |
-| Recovery | [GIF](gifs/recovery.gif) | [PNG](spritesheets/recovery.png) |
-| Movement/escape | [GIF](gifs/movement-escape.gif) | [PNG](spritesheets/movement-escape.png) |
+| Poison | GIF (retired path: `gifs/poison.gif`) | PNG (retired path: `spritesheets/poison.png`) |
+| Burn | GIF (retired path: `gifs/burn.gif`) | PNG (retired path: `spritesheets/burn.png`) |
+| Stagger | GIF (retired path: `gifs/stagger.gif`) | PNG (retired path: `spritesheets/stagger.png`) |
+| Weak-point mark | GIF (retired path: `gifs/weak-point-mark.gif`) | PNG (retired path: `spritesheets/weak-point-mark.png`) |
+| Concealment | GIF (retired path: `gifs/concealment.gif`) | PNG (retired path: `spritesheets/concealment.png`) |
+| Barrier break | GIF (retired path: `gifs/barrier-break.gif`) | PNG (retired path: `spritesheets/barrier-break.png`) |
+| Recovery | GIF (retired path: `gifs/recovery.gif`) | PNG (retired path: `spritesheets/recovery.png`) |
+| Movement/escape | GIF (retired path: `gifs/movement-escape.gif`) | PNG (retired path: `spritesheets/movement-escape.png`) |
 
 Each original sheet is 1536x1024 with six 512x512 cells in row-major order. Each GIF uses six 80ms action frames plus a 720ms blank review pause, repeating every 1200ms. Backgrounds are opaque dark slate with generated shading retained. No transparency is claimed.
 

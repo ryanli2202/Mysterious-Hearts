@@ -1,0 +1,27 @@
+{
+  "id": "fox-organisation",
+  "method": "built-in image_gen",
+  "date": "2026-11-15",
+  "prompt": "Use case: identity-preserve. Asset: transparent visual novel portrait for Mysterious Hearts. Use the supplied Edward Fox portrait as exact identity reference, same silver parted hair, narrow grey eyes, diagonal facial scar, moustache and chin stubble, neck and forearm tattoos, adult male build. Depict him during his earlier service in a mercenary Organisation, adult age unspecified, not a teenager. Replace present black hooded jacket with worn charcoal and muted olive mercenary field jacket and plain practical webbing, no logos or insignia or cards. A less weathered but still recognisably same adult face, guarded tired expression, hands relaxed and visible. Semi-realistic illustrated manhwa, restrained linework and softly dimensional shading matching reference; no photorealism, no chibi. Single subject head through mid-thigh including complete hair and elbows, no feet. Truly transparent background, no glow, no checkerboard, no text.",
+  "source": "C:/Users/ryanl/.codex/generated_images/01a1dcef-8bb8-7ea0-8a6c-2ad70d428146/exec-bb60dd15-c130-4f67-b410-e72aa0e6334f.png",
+  "path": "assets/portraits/fox-organisation.png",
+  "sha256": "278ecc7ead132eec5a58f4ade559ba800955b3603869625829ab7a3ed159b3c2",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "references": [
+    {
+      "path": "assets/portraits/fox-selection.png",
+      "sha256": "256655cc5a4931c3336af8355f5e58a40f955853c21ebbbbcac98d6bc0af2912"
+    }
+  ],
+  "review": "Source image and actual in-person reader inspected. Fox identity/olive mercenary clothing and head-to-mid-thigh crop match. Environment paintings have clear staging space. Existing Kaden, conspirator and Sylvanis art reused; no civil identity exposed.",
+  "model_identity": "Not reported by the tool; no exact model claim.",
+  "provenance": "Generated for this requested game update; no external provider, login, API key, payment or publication workflow.",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "transparent_pixels": 717402
+}

@@ -24,6 +24,8 @@ import street_recruits
 RESIDENTS += street_recruits.NAMES
 RESIDENTS += ('charles',)
 RESIDENTS += ('fox', 'gordon')  # Append only: preserve every existing number.
+import ivan_generals
+RESIDENTS += ivan_generals.IDS  # Append only; all preceding numbers stay stable.
 # Charles retains his stable private registry slot.
 NUMBERS = {who: f'1202555{100+i:04d}' for i,who in enumerate(RESIDENTS)}
 
@@ -74,6 +76,7 @@ def ensure(s):
     known=[s['player'],*[who for who in s.get('routes',{}) if hidden_cast.contact(s,who)],
            *s.get('npc_chats',{})]
     for who in known:
+        if who in ivan_generals.IDS and not hidden_cast.contact(s,who):continue
         if who == 'takeo' and not takeo.number_allowed(s): continue
         if who == 'thirteen' and not thirteen.number_allowed(s): continue
         if who in directory:

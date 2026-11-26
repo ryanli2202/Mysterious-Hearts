@@ -1,0 +1,26 @@
+{
+  "id": "takeo-one-child",
+  "type": "portrait",
+  "path": "assets/portraits/takeo-one-child.png",
+  "original": "media-workspace/takeo/originals/exec-a0ed4196-8cb6-44a9-8f93-658e7126019d.png",
+  "prompt": "Use case: identity-preserve. ONE fictional middle-childhood historical boy called One, Takeo's son, using the attached ADULT identity only for family resemblance: Japanese boy with tousled dark hair, grey-green eyes, visibly child facial and body proportions. Plain fully covering charcoal long-sleeved shirt and long trousers; small hands relaxed at sides, quiet guarded ordinary standing pose. REMOVE adult tattoos, piercings, adult musculature, stubble and workshop scenery. No abuse, injuries, medical equipment, experiments, powers or weapons. Exact childhood age is unspecified. Semi-realistic illustrated manhwa, dimensional facial planes and restrained linework, natural eyes, not photo/3D/chibi. Vertical 2:3 transparent head-to-mid-thigh portrait, whole head and hands, genuine clear alpha, safe margins, no backdrop, ground, shadow, haze, text or watermark.",
+  "references": [
+    "assets/portraits/neo-selection.png"
+  ],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "d829588f9473ba28e77b6629364081d371a2497ae5f6724a16ed85400f88b6a8",
+  "size": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+  "reference_hashes_measured_at_release_review": {
+    "assets/portraits/neo-selection.png": "699fb3252f72c34a268788aa47e152b9d1378258fc8acb6e6110635723c7ba56"
+  }
+}

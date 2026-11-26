@@ -90,12 +90,13 @@ class ProfileWindow(AppWindow):
         if self.people.get(0, 'end') != names:
             self.people.delete(0, 'end')
             self.people.insert('end', *names)
-        self.keys = keys
+        self.person_keys = keys
         if who != self.who: self.index = 0
         self.who = who
-        self.people.selection_clear(0, 'end')
-        self.people.selection_set(keys.index(who))
-        self.people.see(keys.index(who))
+        if self.people.curselection() != (keys.index(who),):
+            self.people.selection_clear(0, 'end')
+            self.people.selection_set(keys.index(who))
+            self.people.see(keys.index(who))
         self.name.config(text=self.display_name(who))
         met = who == s['player'] or core.hidden.known(s, who)
         own = who == s['player']
@@ -121,11 +122,9 @@ class ProfileWindow(AppWindow):
                               if entry['character'] == who and gallery_ui.unlocked(entry, s)]
         self.index = min(self.index, max(0, len(self.variants)-1))
         self.show_portrait()
-        self.notes.config(state='normal')
-        self.notes.delete('1.0', 'end')
+        entries = []
         def entry(label, text):
-            self.notes.insert('end', label+'\n', 'speaker')
-            self.notes.insert('end', text+'\n\n')
+            entries.append((label, text))
         if own:
             import contact_profiles
             for title, text in contact_profiles.self_reference(who, s['player']).items():
@@ -151,14 +150,25 @@ class ProfileWindow(AppWindow):
             entry(f'{self.display_name(note["source"])}  ·  {stamp:%b %d}', '“'+note['quote']+'”')
         for line in social.earlier_exchanges(s, who):
             entry('From your conversations', '“'+line+'”')
-        if not self.notes.get('1.0', 'end').strip():
+        if not entries:
             entry('Personal notes', 'Details shared in conversation will appear here.')
-        self.notes.config(state='disabled')
+        stamp = (who, tuple(entries))
+        if stamp != getattr(self, '_notes_stamp', None):
+            old = getattr(self, '_notes_stamp', None)
+            position = self.notes.yview()
+            self.notes.config(state='normal')
+            self.notes.delete('1.0', 'end')
+            for label, text in entries:
+                self.notes.insert('end', label+'\n', 'speaker')
+                self.notes.insert('end', text+'\n\n')
+            self.notes.config(state='disabled')
+            self.notes.yview_moveto(position[0] if old and old[0] == who else 0)
+            self._notes_stamp = stamp
 
     def pick(self, event=None):
         selected = self.people.curselection()
-        if selected and self.keys[selected[0]] != self.who:
-            self.refresh(self.keys[selected[0]])
+        if selected and self.person_keys[selected[0]] != self.who:
+            self.refresh(self.person_keys[selected[0]])
 
     def step(self, direction):
         if self.variants:

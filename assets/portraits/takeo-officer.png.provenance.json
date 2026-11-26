@@ -1,0 +1,22 @@
+{
+  "id": "takeo-officer",
+  "type": "portrait",
+  "path": "assets/portraits/takeo-officer.png",
+  "original": "media-workspace/takeo/originals/exec-24bdcf45-844f-4d48-8e27-1f71540c80f4.png",
+  "prompt": "ONE standalone head-to-mid-thigh portrait, vertical 2:3, genuine transparent background. New fictional Daichi Mori, adult Japanese remnant officer about thirty-five in 2027. Short neat black hair, tired watchful oval face, sturdy ordinary trained build, worn charcoal military jacket and trousers, no unit insignia, hands relaxed, practical survivor rather than heroic icon. Semi-realistic illustrated manhwa, restrained linework and soft dimensional shadows, natural eyes, not photo/3D/exaggerated anime. Whole head, complete hands and both thighs visible through true mid-thigh crop, no knees, safe margins. No background, ground, shadow, haze rectangle, text or watermark.",
+  "references": [],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "099b7794b7ec50cb180371a624cb833fdd0ee34b2fff969d240c490aecabf6e8",
+  "size": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+  "reference_hashes_measured_at_release_review": {}
+}

@@ -1,0 +1,22 @@
+{
+  "id": "takeo-kazama",
+  "type": "portrait",
+  "path": "assets/portraits/takeo-kazama.png",
+  "original": "media-workspace/takeo/originals/exec-0d2be04a-eb88-4541-9d35-e0c927deea13.png",
+  "prompt": "ONE standalone head-to-mid-thigh game portrait, 2:3 vertical, TRUE transparent background. Shinzo Kazama, fictional Japanese male militant conqueror in his forties in 2024, charismatic severe face, swept back medium black hair, strong build distinct from Takeo's enormous frame. Dark high-collared military coat over practical trousers, relaxed authoritative posture, no medals or readable insignia, morally dangerous ambition rather than a comic villain. Semi-realistic illustrated manhwa, restrained tapered linework, softly dimensional facial planes, natural eye proportions, not photo/3D/chibi/exaggerated cel shade. Connected full head, complete hands, pelvis and meaningful thigh length below crotch, knees outside frame. Safe headroom. No scenery, ground, cast shadow, haze rectangle, text, watermark or signature. Genuine clear alpha outside silhouette.",
+  "references": [],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "26959f6cb12c7e9395c4546dc1abfa444db76e11f4374c3d7dabd7ab7b37eaf5",
+  "size": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+  "reference_hashes_measured_at_release_review": {}
+}

@@ -2,6 +2,3278 @@
 
 Historical entries reconstruct recoverable development, not numbered releases. Unknown release dates stay unknown. Topic order is not a verified chronology. Original reports may describe superseded behavior; their test claims are historical. The 17 oversized chats were recovered from local logs; interrupted work is labelled. No complete commit history exists.
 
+# Hear when a photo or calendar action goes through
+
+release-2026-11-23-camera-calendar-sounds | Release | Interface
+Date: 2026-11-23
+
+Camera and Calendar now play distinct sounds when you take a photo, receive it in Gallery, schedule an event, or cancel it.
+
+## Details
+
+Open Camera and take a photo to hear a short tap when development starts. A second cue plays once the photo reaches Gallery for the active story. In Calendar, scheduling an event plays a confirmation and cancelling one plays a slide. All four effects work offline and use the existing sound toggle and notification volume.
+
+Verification
+
+Desktop playback was observed from the camera flow with simulated photo generation and from the calendar planner and cancellation controls. The camera UI smoke and phone dark-theme smoke passed. A camera companion unit test failed on Theo's availability. The broader convenience UI smoke stopped before the planner on its cancelled-generation state assertion.
+
+## Save compatibility
+
+Restart the game to load the new cues. Existing stories and sound preferences carry forward without migration.
+
+## Evidence and historical limits
+
+SFXMint's soft UI set was consulted. The four shipped effects reuse existing local arcade WAVs under the project's sign-in-free fallback.
+
+- camera_ui.py
+- calendar_ui.py
+- sound.py
+- tests/camera_smoke.py
+- tests/phone_dark_theme_smoke.py
+
+
+---
+
+# Browse your chess match history at the lounge
+
+release-2026-11-23-chess-history | Release | Activities
+Date: 2026-11-23
+
+Look up your record against each chess opponent and inspect the captures from individual games.
+
+## Details
+
+In the Chess café Playing room, open Match history. Select an opponent to see every recorded game against them, newest first, with the in-game date and time, your result and the final move. Select a game to see how it ended and which pieces each side captured. Opponents remain listed when they leave the room. Practice and unfinished matches do not count.
+
+Verification covered the in-person room button, a reloaded four-game series, a legacy match, selecting a second opponent, and both sides’ captures. The history screen was rendered and inspected.
+
+## Save compatibility
+
+Restart the game to open the new history screen. Existing recorded games appear automatically. Games played before match results were recorded are unavailable.
+
+## Evidence and historical limits
+
+Uses the existing story memory ledger. Verified with disposable story data and actual Tk selection events.
+
+- chess_lounge.py
+- chess_lounge_ui.py
+- interiors_ui.py
+- game.py
+- tests/chess_lounge_smoke.py
+
+
+---
+
+# Chess rematches and head-to-head records
+
+release-2026-11-23-chess-rematches | Release | Activities
+Date: 2026-11-23
+
+Play another game from the result screen and ask an opponent about your overall chess record.
+
+## Details
+
+At the Chess café table, select Rematch after a win, loss or draw to start a fresh board against the same available opponent at the same level. The board displays your wins, losses and draws against that character. Direct conversations and texts with your opponent can refer to the full record as well as recent games. Only completed character matches count.
+
+Verification covered three successive rematches, fresh boards and captures, independent opponent totals, a previous-format match memory, save/load and both direct conversation channels. The result screen was inspected.
+
+## Save compatibility
+
+Restart to load the changes. Existing recorded chess matches count automatically, and no migration is required.
+
+## Evidence and historical limits
+
+Verified using a disposable four-match series and the actual in-person and text prompt builders.
+
+- chess_lounge.py
+- chess_lounge_ui.py
+- social_world.py
+- tests/chess_lounge_smoke.py
+
+
+---
+
+# Chess results, captured pieces and rematch conversations
+
+release-2026-11-23-chess-match-memories | Release | Activities
+Date: 2026-11-23
+
+See which pieces each side took and bring up the result the next time you talk to your opponent.
+
+## Details
+
+In person, visit the Chess café Playing room and choose Play chess. Both sides have a running tally by piece type, including en passant captures. A finished game displays You won, You lost or Draw, the reason, and the final move.
+
+After a completed character match, ask the opponent about the game in person or by text. Both participants remember the outcome, finishing move and captures. Their recent shared games are available for direct callbacks. Practice and unfinished games do not create an opponent memory.
+
+Verification covered win, loss, draw, captures by either side, en passant, a real Stockfish reply, saved-game reload, direct text and in-person conversation prompts, and isolation from a third character. The result screen was rendered and inspected.
+
+## Save compatibility
+
+Existing saves remain compatible. Newly completed character games are recorded from this update onward. Previous unrecorded games cannot be reconstructed.
+
+## Evidence and historical limits
+
+Checked with disposable story data, real save and load, and the actual conversation prompt builders. No live dialogue provider was called.
+
+- chess_lounge.py
+- chess_lounge_ui.py
+- social_world.py
+- tests/chess_lounge_smoke.py
+
+
+---
+
+# Play chess against Winterfield characters
+
+release-2026-11-23-chess-lounge | Release | Activities
+Date: 2026-11-23
+
+Challenge someone at the Chess café to a full game against local Stockfish, or take the practice board when the room is quiet.
+
+## Details
+
+Visit the Chess café and enter the Playing room in the in-person window. Open Play chess and choose a present opponent or level 3 practice. You play White. Select a piece to highlight legal destinations, then select its destination. The board supports castling, en passant and all four promotions. It displays check, checkmate and draws, and automatically accepts claimable draws. Leave table ends the session.
+
+April, Sylvanis and the Crow share Stockfish skill level 20. Camila plays at 18 and Rei at 13. Other opponents play below Rei, using authored tiers or their established interests and traits. The Windows x64 engine runs locally.
+
+Verification exercised the in-person room menu, the five named levels and remaining playable roster cap, illegal move rejection, a real Stockfish reply, knight promotion, a drawn ending and leaving during search.
+
+## Save compatibility
+
+Restart the game to load the board. Existing story saves need no migration. An unfinished board lasts only for the current table session.
+
+## Evidence and historical limits
+
+Implemented against existing room presence and character references. The smoke check used a disposable story and the bundled Stockfish 16 Windows x64 executable.
+
+- chess_lounge.py
+- chess_lounge_ui.py
+- interiors_ui.py
+- game.py
+- tests/chess_lounge_smoke.py
+
+
+---
+
+# Garrett’s idle and walk animations in Riverside Park
+
+release-2026-11-22-garrett-park-sprites | Release | Artwork
+Date: 2026-11-22
+
+Garrett now uses the supplied 25-frame idle and walk sheets on the park trail.
+
+## Details
+
+Travel to Riverside Park and select Enter park in the in-person window. Use A and D or the arrow keys to walk. Release the control to enter the idle loop facing the last direction of travel. The right-facing artwork is mirrored for leftward movement.
+
+Verification covered all 25 frames of each sheet in both directions, source transparency and crop bounds, the three park unit tests and the park entry and controls smoke check.
+
+## Save compatibility
+
+Restart the game to load the new artwork and animation code. Existing saves require no migration.
+
+## Evidence and historical limits
+
+The project copies match the SHA-256 hashes of the two Garrett Han v1 sheets supplied by the user.
+
+- assets/sprites/free-roam/garrett/idle.png
+- assets/sprites/free-roam/garrett/walk.png
+- park_scene.py
+- tests/test_park_scene.py
+- tests/park_smoke.py
+
+
+---
+
+# Fox’s voice in the Interpol campaign
+
+release-2026-11-22-fox-campaign-voice | Release | Story
+Date: 2026-11-22
+
+Fox now speaks his authored dialogue in both Interpol viewpoints, with the same voice in present-day scenes and historical flashbacks.
+
+## Details
+
+Restart the game, then open In person → Story as Fox or Gordon. Matching Fox dialogue plays automatically. Use Replay voice to hear it again, Voice to turn it off, or Volume to adjust speech. Completed story history supports manual replay. Fox’s authored combat reactions and his greeting when Gordon visits the Blackhaven Annex also play in person. Master Sound controls speech across these views.
+
+All 374 existing takes are installed, including 52 historical lines. The files play locally and include Windows PCM fallbacks. Source bindings preserve the speaker, historical era and story conditions. Legacy snapshots without matching source metadata and dynamic dialogue remain readable as captions.
+
+All 374 recordings passed source-path coverage and decoded-PCM comparison. See the integration record for route, playback and patch-note verification.
+
+## Save compatibility
+
+Restart to load the game update. Existing saves retain dialogue, story progress and choices. New snapshots may carry additional playback metadata. No save migration is required.
+
+## Evidence and historical limits
+
+Direct user request on 2026-11-22. Installed the 374 original MH-028 Fox recordings with source bindings and locally verified PCM fallbacks.
+
+- roadmap/campaign-voice/FOX_PLAYBACK_INTEGRATION.md
+- campaign_voice.py
+- assets/sounds/campaigns/fox-SOUNDS.md
+- tests/test_fox_campaign_voice.py
+
+
+---
+
+# Adult Rei campaign voice playback and replay
+
+release-2026-11-16-campaign-voice-playback | Release | Story
+Date: 2026-11-16
+
+Adult Rei recordings now play with matching campaign dialogue, with replay, Voice and volume controls.
+
+## Details
+
+Added
+
+In person → Story now automatically plays accepted adult Rei recordings when the matching dialogue appears in Rei’s and Garrett’s campaigns. All 280 recorded bindings are installed, including adult Golden Dragon memories and the selected RD31 acknowledgement. The two historical pilot lines use their first take; all originals remain preserved. Replay voice restarts the displayed recording. Voice and Volume controls use per-story reader preferences; existing master Sound mute also stops speech. Scene history permits manual replay without repeating story effects.
+
+Compatibility and safeguards
+
+Playback uses a dedicated local sound channel and never advances dialogue or commits an outcome. Navigation, leaving, loading, disabling and closing stop the clip. Redraws, scrolling and font changes do not replay it. A first-page saved dialogue resumes from the beginning of its recording when Voice is enabled. Captions remain available. Narration, other speakers, younger Rei, unrecorded callbacks, missing assets and mismatched legacy snapshots remain text-only. Exact words, source spans, conditions, viewpoint, era and file hashes guard against unrelated playback.
+
+Windows playback
+
+The accepted MP3 originals are unchanged. Verified 16-bit PCM/WAV fallbacks support Windows installations whose MCI MP3 driver fails. Per-clip volume scaling avoids changing global device volume. No online provider, account credential, extra speech generation or additional generation credits are needed during play.
+
+Reusable framework
+
+Other approved speakers can use the same accepted manifest, source resolver, controller and reader controls. The current catalogue/reflection adapters are shared; other source formats require explicit adapters and remain silent until supported.
+
+Verification
+
+89 relevant regressions passed with zero failures/errors/skips. All 280 installed MP3 hashes, 280 PCM hashes and 280 bit-exact decoded-audio comparisons passed. Five deliberately broken variants were caught. Real Windows MCI playback, replay, volume, mute/off, narration/unvoiced/navigation stops, no redraw repeats, read-only history, JSON resume and unmap passed. Five UI smoke scripts passed; normal, compact 24pt and disabled/history states were visually inspected. Final catalogue/test/export evidence is recorded in the integration plan.
+
+Scope
+
+This is the accepted adult Rei playback release, not full campaign voicing or a release of every MH-028 milestone. No further casting, generated audio, purchase or publication. Distribution entitlement remains unverified; ElevenLabs speech is not CC0.
+
+## Save compatibility
+
+Existing story text, progress, outcomes, flags and cursors remain compatible. Matching saved source segments can play; unmatched legacy text stays silent. Only optional reader Voice/volume preferences and source-bound presentation metadata are added. No save migration/reset. Restart a running game to load the changed Python code.
+
+## Evidence and historical limits
+
+The user accepted the adult voice files and explicitly requested integration/replay and framework reuse on 2026-11-16. Existing originals were promoted locally; all PCM fallbacks match decoded originals. Tests, native Windows playback and rendered checks are actual execution evidence, with limitations and initial failures retained in the linked integration record.
+
+- campaign_voice.py
+- sound.py
+- campaign_prose_ui.py
+- campaign_prose.py
+- campaign_presentation.py
+- assets/sounds/campaigns/manifest.json
+- assets/sounds/campaigns/SOUNDS.md
+- roadmap/campaign-voice/REI_PLAYBACK_INTEGRATION.md
+- tests/test_campaign_voice.py
+- tests/campaign_voice_ui_smoke.py
+- tests/campaign_prose_ui_smoke.py
+
+
+---
+
+# The scale of the Hamayashi-kai aftermath
+
+release-2026-11-15-cs-r08-aftermath-scale | Release | Artwork
+Date: 2026-11-15
+
+Significantly more fallen clan members and extensive compound destruction surround stunned young Rei.
+
+## Details
+
+Changed
+
+CS-R08 now shows a much denser field of adult clan casualties across the courtyard, verandas, stairs and distant gate. Fractured paving, impact craters, collapsed veranda/eave sections, snapped pillars, broken doors and railings, roof tiles and debris convey the destruction throughout the compound. Fifteen-year-old Rei remains still and shocked at the center in his original clothing. The moonlit, non-graphic historical aftermath and fixed outcome remain; Yuriko is outside the frame.
+
+Access
+
+Rei campaign, in-person Story/history, RD37 / The last instruction, clan-escape aftermath. Reopen reader/restart to refresh cached artwork.
+
+Verification
+
+Full painting and actual normal/compact reader screens inspected. Seven Rei tests and full expansion UI smoke passed. Core-art resolution checks updated for cinematic landscape framing while keeping provenance and portrait/room checks; four invalid-geometry probes rejected. Restricted local image validation passed without warnings; opacity/dimensions/hashes checked. Original, exact prompt and prior records retained.
+
+## Save compatibility
+
+No migration or reset. Stable RD37 source, historical outcome and saved progress unchanged. Reopen reader/restart to reload cached art.
+
+## Evidence and historical limits
+
+Direct requested image edit using built-in imagegen; exact model unverified. Source/age/outcome and visual review, restricted local validation, focused falsegreen-guided test review and actual tests/render evidence in .test-tmp/CS-R08-scale/. No manuscript or gameplay edits.
+
+- assets/campaigns/core/CS-R08.png
+- assets/campaigns/rei-expansion/manifest.json
+- media-workspace/CS-R08-scale-2026-11-15/README.md
+- media-workspace/CS-R08-scale-2026-11-15/production.json
+- tests/test_rei_expansion.py
+- tests/rei_expansion_ui_smoke.py
+
+
+---
+
+# Dynamic Neo confrontations with Awakened energy
+
+release-2026-11-15-neo-energy-framing | Release | Artwork
+Date: 2026-11-15
+
+Two confrontation shots gain low diagonal framing, stronger depth and clearer Awakened reinforcement effects.
+
+## Details
+
+Changed
+
+CS-NE-hachimura-1 now frames Neo close in the foreground against Hachimura’s diagonal advance, with moving coat folds and restrained cool/warm energy around their guards and feet. CS-NE-formation-1 now layers Neo, Tyler and Daniel in a triangular formation against Thirteen. Compact pressure rings emphasize Tyler’s impact-storage guard, while the others show restrained physical reinforcement. Garrett remains seated and exhausted with only a faint residual hand glow; April stays behind the line and the ambulance lane remains open. These energy accents do not assign new elemental Traits, implants or HUDs. Exact identities, settings and before-result timing remain.
+
+Access
+
+Neo campaign, in-person Story, NE12 Hachimura confrontation and NE13 ambulance-bay formation. Reopen reader/restart to refresh cached art.
+
+Verification
+
+Both paintings and all four actual normal/compact 24pt reader screens inspected. All 30 Neo tests and full route UI smoke passed. Restricted local validation passed for both without warnings; opacity/dimensions/hashes checked. Both originals, exact prompts and prior frame records retained.
+
+## Save compatibility
+
+No migration or reset. Stable NE12/NE13 sources, roles, combat kits, outcomes and saved progress remain. Reopen reader/restart to reload cached art.
+
+## Evidence and historical limits
+
+Direct requested two-image edit using built-in imagegen; exact model unverified. Canonical Trait limits and generic reinforcement depiction distinguished in evidence; source/roles/visual review, local validation and actual test/render results retained in .test-tmp/neo-energy-framing/. No manuscript/gameplay edits.
+
+- assets/campaigns/neo/core/CS-NE-hachimura-1.png
+- assets/campaigns/neo/core/CS-NE-formation-1.png
+- media-workspace/neo-energy-framing-2026-11-15/README.md
+- media-workspace/neo-energy-framing-2026-11-15/production.json
+- tests/neo_campaign_ui_smoke.py
+
+
+---
+
+# A more ominous entrance for Hachimura
+
+release-2026-11-15-neo-hachimura-entrance | Release | Artwork
+Date: 2026-11-15
+
+Stronger depth and restrained doorway lighting make Hachimura’s arrival more threatening and mysterious.
+
+## Details
+
+Changed
+
+CS-NE-evacuation-1 now frames the entrance from low inside the home, behind Neo’s protective foreground stance. Hachimura stands still in the doorway, recognizable but partly shaded, with cold backlight and a long natural shadow reaching toward the family. Warm domestic light keeps Mariko’s warning phone and Tyler’s seated father readable behind Neo. Exact identities, clothes, family actions and early entrance timing remain; no new weapon, magic, attack or injury is introduced.
+
+Access
+
+Neo campaign, in-person Story, NE04 evacuation opening. Reopen reader/restart to refresh cached art.
+
+Verification
+
+Full image and actual normal/compact 24pt reader inspected. All 30 Neo tests and full route UI smoke passed. Restricted local image validation passed without warnings; opacity/dimensions/hashes checked. Original, exact prompt and prior frame record retained.
+
+## Save compatibility
+
+No migration or reset. Stable NE04 binding, family actions, later outcomes and saved progress remain. Reopen reader/restart to reload cached art.
+
+## Evidence and historical limits
+
+Direct requested framing/lighting edit using built-in imagegen; exact model unverified. Source/cast/timing and visual review, local validation and actual test/render evidence in .test-tmp/neo-evacuation-entrance/. No manuscript/gameplay changes.
+
+- assets/campaigns/neo/core/CS-NE-evacuation-1.png
+- media-workspace/neo-evacuation-entrance-2026-11-15/README.md
+- media-workspace/neo-evacuation-entrance-2026-11-15/production.json
+- tests/neo_campaign_ui_smoke.py
+
+
+---
+
+# A modern dockside aftermath
+
+release-2026-11-15-cs-sy08-modern-aftermath | Release | Artwork
+Date: 2026-11-15
+
+Contemporary clothing, firearms and industrial port buildings replace the period styling, with many more fallen attackers.
+
+## Details
+
+Fixed
+
+CS-SY08 now depicts a modern industrial port alley: concrete and metal warehouses, roller shutters, electric fixtures, security cameras, air-conditioning units, utilities and a container ship. Fallen attackers wear current tactical gear, jackets, hoodies and cargo trousers, with dropped modern semiautomatic pistols and carbines replacing antique weapons. Far more bodies fill the foreground, middle distance and far end, conveying the scale of the aftermath without graphic wounds. Sylvanis retains his early identity and palm-on-cracked-wall pose; one shocked lookout remains alive at the alley mouth. The undated history and source outcome are unchanged.
+
+Access
+
+Sylvanis campaign, in-person Story/history, reputation memory SY-M02 and gallery CS-SY08. Reopen reader/restart to refresh cached art.
+
+Verification
+
+Full painting and actual normal/compact 24pt reader inspected. All 31 Sylvanis tests and full route UI smoke passed. Restricted local image validation passed without warnings; opacity/dimensions/hashes and prompt sidecar checked. Original, exact prompt and previous manifest preserved.
+
+## Save compatibility
+
+No migration or reset. Stable SY-M02 source, reputation history, surviving lookout and saved progress remain. Reopen reader/restart to reload cached art.
+
+## Evidence and historical limits
+
+Direct requested modern-era/body-density image edit using built-in imagegen; exact model unverified. Source/era/identity and visual review, local validation and actual test/render evidence in .test-tmp/CS-SY08-modern/. No manuscript or gameplay edits.
+
+- assets/campaigns/sylvanis/core/CS-SY08.png
+- assets/campaigns/sylvanis/core/CS-SY08.prompt.txt
+- media-workspace/CS-SY08-modern-2026-11-15/README.md
+- media-workspace/CS-SY08-modern-2026-11-15/production.json
+- tests/sylvanis_campaign_ui_smoke.py
+
+
+---
+
+# A more dynamic interception
+
+release-2026-11-15-cs-sy07-dynamic-framing | Release | Artwork
+Date: 2026-11-15
+
+A low angled camera and stronger depth bring motion to the Sylvanis–Crow ledger confrontation.
+
+## Details
+
+Changed
+
+CS-SY07 now uses a low oblique camera with a controlled tilt, strong foreground Crow and diagonally advancing Sylvanis. Foreshortened stances, sweeping cloaks and directional light make the interception more dynamic. Both opaque masks, the wrist contact and the closed ledger on its case remain readable. The ledger is still contested; no winner, new injury or environmental damage is introduced.
+
+Access
+
+Sylvanis campaign, in-person Story, SY15 service-passage interception. Reopen reader/restart to refresh cached artwork.
+
+Verification
+
+Full painting and actual normal/compact 24pt reader inspected. All 31 Sylvanis tests and full route UI smoke passed after a provenance path correction. Restricted local image validation passed without warnings; opacity/dimensions/hashes and exact prompt sidecar checked. Original, prompt and prior production records retained.
+
+## Save compatibility
+
+No migration or reset. Stable SY15 source, ledger objectives, confrontation outcomes and saved progress remain. Reopen reader/restart to reload cached art.
+
+## Evidence and historical limits
+
+Direct requested framing edit using built-in imagegen; exact model unverified. Source/masks/objective review, local validation and actual tests/render evidence in .test-tmp/CS-SY07-framing/. No manuscript or gameplay edits.
+
+- assets/campaigns/sylvanis/core/CS-SY07.png
+- assets/campaigns/sylvanis/core/CS-SY07.prompt.txt
+- media-workspace/CS-SY07-framing-2026-11-15/README.md
+- media-workspace/CS-SY07-framing-2026-11-15/production.json
+- tests/sylvanis_campaign_ui_smoke.py
+
+
+---
+
+# Sylvanis overwhelms the eastern fighters
+
+release-2026-11-15-cs-sy05-powered-fight | Release | Artwork
+Date: 2026-11-15
+
+Dynamic cinematic combat shows dominating shadows, bruised/bloodied opponents and a ravaged training hall.
+
+## Details
+
+Changed
+
+CS-SY05 now uses a low diagonal action frame with Sylvanis calmly breaking both parents’ attack lines. Umbrakinesis surges through the shattered floor and around his coat; restrained unnamed martial-energy ripples surround the parents’ strikes, leaving their named Traits undefined. Both opponents have visible bruises, blood smears and torn clothing while continuing to protect the passage. Splintered flooring, broken training equipment, cracked walls and shattered latticework convey the fight’s force. Exact identities and the fixed historical outcome remain, without graphic death or additional witnesses.
+
+Access
+
+Sylvanis campaign, in-person Story/history, eastern fighters memory SY-M08 / CS-SY05. Reopen reader/restart to refresh cached artwork.
+
+Verification
+
+Full painting and actual normal/compact 24pt reader inspected. All 31 Sylvanis tests and full route UI smoke passed. Restricted local asset validation passed without warnings; opacity/dimensions/hashes and exact prompt sidecar checked. Original, prompt and prior records preserved.
+
+## Save compatibility
+
+No migration or reset. Stable SY-M08 source, fatal historical outcome and saved progress remain unchanged. Reopen reader/restart to reload cached art.
+
+## Evidence and historical limits
+
+Direct requested raster correction using built-in imagegen; exact model unverified. Conservative unnamed parent-energy depiction documented separately from established Sylvanis power. Source/identity/outcome review, local validation and actual test/render evidence in .test-tmp/CS-SY05-powered/. No manuscript or gameplay edits.
+
+- assets/campaigns/sylvanis/core/CS-SY05.png
+- assets/campaigns/sylvanis/core/CS-SY05.prompt.txt
+- media-workspace/CS-SY05-powered-2026-11-15/README.md
+- media-workspace/CS-SY05-powered-2026-11-15/production.json
+- tests/sylvanis_campaign_ui_smoke.py
+
+
+---
+
+# Sylvanis’s arrival: modern setting and corrected anatomy
+
+release-2026-11-15-cs-sy01-modern-era-anatomy | Release | Artwork
+Date: 2026-11-15
+
+Modern clothes, terminal architecture and a contemporary pistol replace the period styling; arm and hand anatomy is corrected.
+
+## Details
+
+Fixed
+
+CS-SY01 now depicts the arrival encounter in a contemporary glass-and-steel ferry/cruise terminal with modern counters, computer screens, security gates, current clothes and rolling luggage. A modern cruise ship and container cranes replace the old liner and Victorian surroundings. The collector wears contemporary security clothing and carries a compact semiautomatic pistol in a retention holster, replacing the antique revolver. Sylvanis keeps his early identity in a modern long coat and holds a zipped money pouch. The interrupted draw has distinct connected arms and a separate readable wrist grip; his pouch hand and the traveller’s reaching hand are anatomically separated. The source action and undated recollection remain intact.
+
+Access
+
+Sylvanis campaign, in-person Story/history, arrival memory SY-M01 / CS-SY01. Reopen reader/restart to refresh cached artwork.
+
+Verification
+
+Full image and actual normal/compact 24pt reader inspected. All 31 Sylvanis tests and full route UI smoke passed after fixing prompt/reference provenance metadata. Restricted local image validation passed without warnings; opacity/dimensions and hashes checked. Exact prompt, original image/sidecar and prior records retained.
+
+## Save compatibility
+
+No migration or reset. Stable arrival-memory binding, scene outcomes and saved progress remain. Reopen reader/restart to reload cached art.
+
+## Evidence and historical limits
+
+Direct user-requested era/anatomy correction using built-in imagegen; exact model unverified. Source/identity/era and visual review, restricted local asset validation and actual test/render evidence recorded in .test-tmp/CS-SY01-modern/. No manuscript or gameplay edits.
+
+- assets/campaigns/sylvanis/core/CS-SY01.png
+- assets/campaigns/sylvanis/core/CS-SY01.prompt.txt
+- media-workspace/CS-SY01-modern-2026-11-15/README.md
+- media-workspace/CS-SY01-modern-2026-11-15/production.json
+- tests/sylvanis_campaign_ui_smoke.py
+
+
+---
+
+# Ivan’s defeat: three revised aftermath shots
+
+release-2026-11-15-ivan-defeat-sequence | Release | Artwork
+Date: 2026-11-15
+
+Three cinematic frames show Ivan lying injured and emotionally shattered beneath looming Sylvanis in the ravaged practice room.
+
+## Details
+
+Changed
+
+CS-IV07, CS-IV08 and CS-IV09 now keep Ivan lying on the floor in a torn, bloodstained suit, with bruises, a split lip and visibly drained expression. Hollow lowered eyes, a limp open hand and collapsed posture show the loss of his confidence. Sylvanis stands threateningly over him, fully masked, with creeping shadows and the small glove wound Ivan earned. The sequence moves from an establishing view to an emotional close view and a reverse-angle final looming pause before Sylvanis departs. Fractured flooring, shattered harbor windows, ripped padding, broken benches, debris and a fallen lamp carry the previous destruction through all three. Ivan remains alive; his fixed defeat, the small wound and the subsequent narrated departure remain intact.
+
+Access
+
+Ivan campaign, in-person Story, IV17 / A little blood, aftermath sequence. Reopen reader/restart to refresh cached images.
+
+Verification
+
+All three full paintings and six actual normal/compact 24pt reader screens inspected. PNG opacity/dimensions and installed/production hashes checked. All 35 Ivan tests and the full route UI smoke passed. Exact prompts, originals, continuity references and prior records retained.
+
+## Save compatibility
+
+No migration or reset. Stable IV17 scene sources, combat outcomes, subsequent departure and saved progress remain. Reopen reader/restart to load refreshed art.
+
+## Evidence and historical limits
+
+Direct user-requested three-shot edit using built-in imagegen; exact model unverified. Source/cast/mask/defeat and sequence review, actual test and rendered evidence retained in .test-tmp/ivan-defeat-sequence/. No manuscript or gameplay changes.
+
+- assets/campaigns/ivan/core/CS-IV07.png
+- assets/campaigns/ivan/core/CS-IV08.png
+- assets/campaigns/ivan/core/CS-IV09.png
+- assets/campaigns/ivan/core/catalog.json
+- media-workspace/ivan-defeat-sequence-2026-11-15/README.md
+- media-workspace/ivan-defeat-sequence-2026-11-15/production.json
+- tests/ivan_campaign_ui_smoke.py
+
+
+---
+
+# Shadows announce Sylvanis’s arrival
+
+release-2026-11-15-cs-iv06-shadow-entrance | Release | Artwork
+Date: 2026-11-15
+
+Sylvanis enters the ravaged practice room with creeping Umbrakinesis, carrying forward the cast’s injuries.
+
+## Details
+
+Changed
+
+CS-IV06 now matches the preceding aftermath: bruised/bloodied friends in torn clothing, fractured flooring, torn padding, shattered harbor windows, a broken bench and fallen lamp. Sylvanis enters through the ordinary doorway with ink-dark shadows spreading across the floor and curling upward around his legs and cloak. Stronger lighting and ominous staging reinforce the threat while preserving his fully opaque decorated operational mask and costume. Ivan turns toward him; all five spared friends remain alive and conscious. This remains an entrance before combat.
+
+Access
+
+Ivan campaign, in-person Story, IV16 / The victory he wanted, aftermath when Sylvanis arrives. Reopen reader/restart to refresh loaded art.
+
+Verification
+
+Full painting and actual normal/compact 24pt reader screens inspected. PNG opacity/dimensions and hashes checked. All 35 Ivan tests and full route UI smoke passed. Exact prompt, original, prior-scene reference and prior records retained.
+
+## Save compatibility
+
+No migration or reset. Stable scene source, deliberate sparing, later confrontation outcomes and saved progress unchanged. Reopen reader/restart to reload cached artwork.
+
+## Evidence and historical limits
+
+Direct requested image edit using built-in imagegen; exact model unverified. Source/mask/power/prior-scene review and actual test/render evidence in .test-tmp/CS-IV06-entrance/. No manuscript or gameplay changes.
+
+- assets/campaigns/ivan/core/CS-IV06.png
+- assets/campaigns/ivan/core/catalog.json
+- media-workspace/CS-IV06-entrance-2026-11-15/README.md
+- media-workspace/CS-IV06-entrance-2026-11-15/production.json
+- tests/ivan_campaign_ui_smoke.py
+
+
+---
+
+# The cost of Ivan’s victory
+
+release-2026-11-15-cs-iv05-ravaged-aftermath | Release | Artwork
+Date: 2026-11-15
+
+A cinematic aftermath shows the ravaged practice room and Ivan’s visibly bruised, bloodied friends.
+
+## Details
+
+Changed
+
+CS-IV05 now uses stronger diagonal depth and dramatic practical lighting, with injured Tyler near the foreground and Ivan standing open-handed amid the aftermath. April, Garrett, Neo, Daniel and Tyler show bruises, restrained blood smears, abrasions and torn/scuffed original clothes. Torn wall padding, fractured flooring, shattered windows, broken benches, debris and a fallen lamp show the powered fight’s destruction. All five remain alive and conscious; Ivan’s deliberate sparing and empty doorway before Sylvanis remain.
+
+Access
+
+Ivan campaign, in-person Story, IV16 / The victory he wanted, after the deliberate sparing decision. Reopen reader/restart to refresh cached art.
+
+Verification
+
+Full image and actual normal/compact 24pt reader inspected. PNG opacity/dimensions and hashes checked. All 35 Ivan tests and full route UI smoke passed. Original, returned image, exact prompt and prior records retained.
+
+## Save compatibility
+
+No migration or reset. Stable sparing source, combat outcomes and campaign progress remain. Reopen reader/restart to refresh artwork.
+
+## Evidence and historical limits
+
+Direct user-requested image edit using built-in imagegen; exact model unverified. Source/cast/sparing review and actual test/render evidence in .test-tmp/CS-IV05-aftermath/. No manuscript/gameplay changes.
+
+- assets/campaigns/ivan/core/CS-IV05.png
+- assets/campaigns/ivan/core/catalog.json
+- media-workspace/CS-IV05-aftermath-2026-11-15/README.md
+- media-workspace/CS-IV05-aftermath-2026-11-15/production.json
+- tests/ivan_campaign_ui_smoke.py
+
+
+---
+
+# Ivan faces the prepared group
+
+release-2026-11-15-cs-iv04-facing-cast | Release | Artwork
+Date: 2026-11-15
+
+The group now stands in front of Ivan, both sides readying their established abilities.
+
+## Details
+
+Changed
+
+CS-IV04 now places Ivan alone on one side of a clear floor gap, facing upright Garrett, Neo, Daniel and Tyler on the other side. April coordinates from behind the four fighters. Garrett readies Golden Flame while Ivan gathers red attack-amplifying lightning and restrained blue movement lightning. Neo’s tactical focus, Daniel’s contact-ready guard and Tyler’s wrapped-fist impact guard convey their non-elemental readiness without invented powers. All six identities, clothing and private practice-room setting remain.
+
+Access
+
+Ivan campaign, in-person Story, IV16 / The victory he wanted, at the opening group confrontation. Reopen the reader or restart to reload cached art.
+
+Verification
+
+Generated frame and actual normal/compact 24pt reader inspected. PNG opacity, dimensions and hashes checked. All 35 Ivan tests and the full route UI smoke passed, including existing dark contact/thread states and all core renders. Exact prompt, original and prior records retained.
+
+## Save compatibility
+
+No migration or reset. Stable IV16 binding, combat outcomes and current campaign progress remain. Reopen reader/restart to refresh loaded art.
+
+## Evidence and historical limits
+
+Direct requested image correction using built-in imagegen; exact model unverified. Cast/source/Trait review and actual test/render evidence recorded in .test-tmp/CS-IV04-facing/. No manuscript or gameplay changes.
+
+- assets/campaigns/ivan/core/CS-IV04.png
+- assets/campaigns/ivan/core/catalog.json
+- media-workspace/CS-IV04-facing-2026-11-15/README.md
+- media-workspace/CS-IV04-facing-2026-11-15/production.json
+- tests/ivan_campaign_ui_smoke.py
+
+
+---
+
+# The Crow stands over defeated Elias
+
+release-2026-11-15-cs-el04-defeat-aftermath | Release | Artwork
+Date: 2026-11-15
+
+Revised defeat artwork shows standing Crow, bloodied/bruised Elias, fading flames and a ravaged meeting room.
+
+## Details
+
+Changed
+
+CS-EL04 now depicts the moment after the Crow releases his control: he stands upright with no hand or boot contact over Elias, who lies conscious but unable to continue. Blood smears, bruising, abrasions and a torn burgundy shirt convey Elias’s defeat, while only weak flame flickers and dying embers remain near his hand and shoes. Shattered windows, torn curtains, scorched walls, broken furniture and splintered flooring carry the battle’s destruction through the room. The Crow’s identity stays fully concealed. The narrated pin and fixed first defeat remain intact.
+
+Access
+
+Elias campaign, in-person Story/history, Someone above him (EL-F05), after the authored duel. Reopen the reader or restart to reload cached art.
+
+Verification
+
+Full image and actual normal/compact 24pt reader screens inspected. All 31 Elias tests and the route UI smoke passed. Restricted local prompt-to-asset validation passed without warnings; opacity, dimensions and installed hashes checked. Exact prompt, original and prior-scene reference retained.
+
+## Save compatibility
+
+No migration or reset. Stable aftermath source, authored duel outcome and existing progress remain. Reopen reader/restart to refresh cached artwork.
+
+## Evidence and historical limits
+
+Direct requested artwork correction using built-in imagegen; model identity unverified. Source/age/defeat/concealment review, restricted local validation and actual test/render evidence recorded in .test-tmp/CS-EL04-cinematic/. No manuscript or gameplay changes.
+
+- assets/campaigns/elias/core/CS-EL04.png
+- assets/campaigns/elias/manifest.json
+- media-workspace/CS-EL04-cinematic-2026-11-15/README.md
+- media-workspace/CS-EL04-cinematic-2026-11-15/production.json
+- tests/elias_campaign_ui_smoke.py
+
+
+---
+
+# A more ominous confrontation with the Crow
+
+release-2026-11-15-cs-el03-cinematic-confrontation | Release | Artwork
+Date: 2026-11-15
+
+Cinematic framing gives the Crow a threatening foreground presence opposite fighting-ready Elias, with lingering battle damage.
+
+## Details
+
+Changed
+
+CS-EL03 now frames the Crow close in the foreground, his identity fully hidden behind his hood and opaque beaked mask. Elias holds a balanced fighting guard across the room, with restrained heat around his limbs. Strong diagonal depth, warm window light and long shadows build anticipation. Broken panes, torn curtain edges, perimeter debris, an overturned chair and courtyard rubble reflect the previous battle while the central duel floor stays clear. Elias remains rested and capable; no strike or defeat is depicted.
+
+Access
+
+Elias campaign, in-person Story/history, Someone above him (EL-F05), immediately before the authored duel. Reopen the reader or restart to reload cached art.
+
+Verification
+
+Full image and actual normal/compact 24pt reader screens inspected. All 31 Elias tests and the route UI smoke passed. Restricted local prompt-to-asset validation passed without warnings; opacity, dimensions and installed hashes checked. Exact prompt, original and returned image retained.
+
+## Save compatibility
+
+No migration or reset. Stable source binding, duel progression, outcomes and existing saves remain unchanged. Reopen reader/restart to refresh cached artwork.
+
+## Evidence and historical limits
+
+Direct requested artwork correction using built-in imagegen; exact model unverified. Source/era/concealment review, local prompt-to-asset validation and actual test/render evidence recorded in .test-tmp/CS-EL03-cinematic/. No manuscript/gameplay changes.
+
+- assets/campaigns/elias/core/CS-EL03.png
+- assets/campaigns/elias/manifest.json
+- media-workspace/CS-EL03-cinematic-2026-11-15/README.md
+- media-workspace/CS-EL03-cinematic-2026-11-15/production.json
+- tests/elias_campaign_ui_smoke.py
+
+
+---
+
+# Elias stands among the fallen
+
+release-2026-11-15-cs-el02-cinematic-victory | Release | Artwork
+Date: 2026-11-15
+
+A cinematic courtyard aftermath shows triumphant Elias with flowing flames, more defeated Syndicate personnel and environmental destruction.
+
+## Details
+
+Changed
+
+CS-EL02 now depicts Elias standing tall with a proud open-handed pose among eight defeated tactical attackers. Flames flow around his body while two surviving attackers retreat through the estate gate. Low cinematic framing, firelit rubble, shattered stonework, cracked/scorched paving and bent gates show the scale of his victory. Bodies remain non-graphic; the image does not establish that every fallen attacker is dead. His age-23 identity and original outfit remain.
+
+Access
+
+Elias campaign, in-person Story/history, The last force falls (EL-F04), after the successful historical encounter. Reopen the reader or restart to reload cached art.
+
+Verification
+
+Full image and actual normal/compact 24pt reader screenshots inspected. All 31 Elias tests and the Elias campaign UI smoke passed. Restricted local prompt-to-asset validation passed without warnings; PNG opacity/dimensions and installed hashes checked. Exact prompt, original and output retained.
+
+## Save compatibility
+
+No save migration or reset. Existing earned victory, scene binding, progress and outcomes remain. Reopen the reader or restart to refresh cached art.
+
+## Evidence and historical limits
+
+Direct user-requested artwork correction using built-in imagegen; model identity unverified. Local prompt-to-asset validation and actual rendered/source/test review recorded in the task evidence directory; no manuscript or gameplay changes.
+
+- assets/campaigns/elias/core/CS-EL02.png
+- assets/campaigns/elias/manifest.json
+- media-workspace/CS-EL02-cinematic-2026-11-15/README.md
+- media-workspace/CS-EL02-cinematic-2026-11-15/production.json
+- tests/elias_campaign_ui_smoke.py
+
+
+---
+
+# Rei arrives battle-worn at Richter’s office
+
+release-2026-11-15-cs-r03-cinematic-correction | Release | Artwork
+Date: 2026-11-15
+
+More cinematic framing shows Rei with a tattered suit and blood transferred from earlier opponents.
+
+## Details
+
+Changed
+
+The Blackstone command-room shot now uses a lower camera, stronger foreground Rei, warm rim lighting and cool dusk depth. Rei’s original black clothing has ragged seams, frayed sleeves and a torn hem. Blood splashes and smears from previous opponents cover parts of his face, hands and clothing; no open wounds or self-originating bleeding are depicted. His tattoos, piercings and copied evidence remain, with adult Richter opposite in the established cybernetic frame. The image remains a pre-fight reveal.
+
+Access
+
+Rei campaign, in-person Story reader, RD30 / Before the executive door, when Richter deploys the frame (CS-R03). Reopen the reader or restart to refresh loaded art.
+
+Verification
+
+Generated image and actual normal/compact 24pt reader screens inspected. PNG opacity, dimensions and hashes checked. Campaign presentation: 16 tests passed. Core art UI smoke: 16 cores at two sizes, no callback failures. Exact prompt, original and production evidence retained locally.
+
+## Save compatibility
+
+No save migration or reset. Existing scene IDs, progress and outcomes remain. Reopen the reader or restart to reload cached art.
+
+## Evidence and historical limits
+
+Direct user-requested targeted edit using built-in imagegen; exact model identity unverified. Original, prompt and hashes preserved; actual test/render evidence in .test-tmp/CS-R03-cinematic/.
+
+- assets/campaigns/core/CS-R03.png
+- assets/campaigns/core/catalog.json
+- media-workspace/CS-R03-cinematic-2026-11-15/README.md
+- media-workspace/CS-R03-cinematic-2026-11-15/production.json
+- tests/campaign_core_art_ui_smoke.py
+
+
+---
+
+# Charles and Garrett: clearer powered confrontation
+
+release-2026-11-15-cs-g06-cinematic-correction | Release | Artwork
+Date: 2026-11-15
+
+Corrected the merged hand/arm in Charles's school-gate assault on Garrett, with cinematic lighting and environmental destruction.
+
+## Details
+
+Fixed
+
+Charles now visibly grips Garrett's folded shirt sleeve with a separate hand and forearm. Stronger rim lighting, dust and depth frame the powered beatdown; shattered paving, a cracked planter, displaced rubble and bent gates show its force. The two historical identities and assault outcome remain intact.
+
+Access
+
+Garrett campaign, in-person Story reader, Hong Kong school memory in An older brother's responsibility (GD21 / CS-G06). Reopen the reader or restart the game to clear a loaded image.
+
+Verification
+
+Opaque PNG and SHA-256 checked; generated image and actual normal/compact 24pt reader screens inspected. Campaign presentation suite: 16 tests passed. Core art UI smoke: 16 cores rendered at two sizes, no callback failures. Existing missing-sound warnings were logged; audio unchanged. Exact prompt, original and production evidence retained locally.
+
+## Save compatibility
+
+No migration or reset. Existing campaign progress, scene IDs and outcomes are preserved. Reopen the reader or restart to reload cached art.
+
+## Evidence and historical limits
+
+Direct user-requested correction installed with built-in imagegen; exact model identity unverified. Source, exact prompt and hashes retained. Actual test and rendered evidence in .test-tmp/CS-G06-cinematic/.
+
+- assets/campaigns/core/CS-G06.png
+- assets/campaigns/core/catalog.json
+- media-workspace/CS-G06-cinematic-2026-11-15/README.md
+- media-workspace/CS-G06-cinematic-2026-11-15/production.json
+- tests/campaign_core_art_ui_smoke.py
+
+
+---
+
+# Interpol: the men behind the case files
+
+release-2026-11-15-interpol-campaign-depth | Release | Story
+Date: 2026-11-15
+
+A fuller visual-novel campaign with longer scenes, distinct Fox/Gordon dialogue, Fox's mercenary past and three new illustrated recollections.
+
+## Details
+
+Changed
+
+All 42 original Interpol sections have expanded prose, backstory, character thought and dialogue. Six objective openings and three substantial memories bring catalogue text from 10,551 to 20,760 words across all viewpoint and outcome variants. Thirteen cosmetic lead-order and confrontation-approach prompts have been removed from newly opened scenes; meaningful evidence, travel, attendance and combat requirements remain.
+
+Fox is a pessimistic anti-hero prepared to kill anybody if he believes the greater good requires it. Gordon remains hopeful and committed to lawful, accountable action. Their disagreements develop through conversations and consequences. Fox's recollections establish his service in the Organisation alongside Kaden Mourne, Sylvanis and the conspirator who became the Crow, his survival of the coup, his continuing fight against the Syndicate and his grief for Kaden. No new compulsory killing or changed case ending is introduced. Dialogue uses character-specific written voices; this release adds no recorded voice acting.
+
+Added
+
+A mercenary-era Fox portrait with transparency, an Organisation infirmary background and a mourning-workshop background. Existing historical cast portraits and Interpol paintings remain in use. Fox owns these memories even when Gordon is hearing them; historical scenes do not place Gordon in the Organisation.
+
+Access
+
+Restart the game, load Fox or Gordon, and open In person → Story or Interpol. Continue the existing cases to read new scenes. Earned Revisit buttons let progressed saves read the three new recollections after the rail case, Crow trail and Night Ledger respectively. Meet the other protagonist in the Interpol briefing room without additional joined companions. Revisit grants no evidence, money or case progress. In-person activities stay in the in-person window.
+
+Verification
+
+100 tests across eleven focused suites passed, including both protagonists through all 24 Ace enquiry orders, saved-scene compatibility, earned replay guards, historical portraits, current fixed defeat and legacy capture. Three deliberately broken implementations were rejected by their intended assertions. Nine new rendered reader states, the existing Interpol UI smoke and the 34-page dark-phone smoke passed. Normal and compact/24pt views, real reader controls, scrolling, historical cast removal, Fox's memory ownership and the earned Story button were inspected. Detailed logs, art provenance, editorial review and final release-reader checks are linked from the delivery record.
+
+Known limitations
+
+Existing active and archived scenes retain their saved text. Newly opened scenes use the expansion; completed cases do not automatically replay. Existing startup warnings about five unavailable standard sound cues remain. This release does not claim a repository-wide regression pass or an independent external reader review.
+
+## Save compatibility
+
+Restart the application to load changed code and text. No new story, reset or migration is required. Case/scene IDs, choices, evidence, money, combat snapshots, rewards and outcomes remain compatible. Active and archived prose keeps its original snapshot, including old cosmetic choices. Completed prerequisites unlock optional in-person recollection rereading without repeating case actions.
+
+## Evidence and historical limits
+
+Directly implemented at the user's request on 2026-11-15. Story Skills and Writer's Loop supported source-grounded drafting and self-review; falsegreen-skill supported regression review and three negative controls; existing Context Guard and local Token Optimizer supported continuity and reads. Built-in Imagegen produced the three new assets. Exact prompts, sources, hashes and actual visual/test evidence are retained separately from assignments. No external provider, API key, payment, sign-in, audio generation or independent-agent review claimed.
+
+- campaign_prose/interpol_expansion.md
+- interpol_expansion.py
+- campaign_prose.py
+- campaign_prose_ui.py
+- campaign_dialogue.py
+- campaign_eras.py
+- interpol_cast.py
+- flashback_character_references.json
+- flashback_dialogue_guides.json
+- tools/author_interpol_eras.py
+- tests/test_interpol_depth.py
+- tests/interpol_depth_ui_smoke.py
+- tools/verify_interpol_depth.py
+- roadmap/INTERPOL_DEPTH_RELEASE_EVIDENCE.md
+- writing/story-skills/adaptations/interactive/interpol-depth.md
+- media-workspace/interpol-depth-2026-11-15/prompts.json
+
+
+---
+
+# Ivan: a fuller A Life on Loan
+
+release-2026-11-15-ivan-visual-novel-expansion | Release | Story
+Date: 2026-11-15
+
+A longer visual-novel campaign with deeper origins, five personal recruitments, sharper dialogue and Sylvanis confrontation, continuous recollections and safe chapter rereading.
+
+## Details
+
+Changed
+
+All eighteen chapters and eight scripted histories now contain substantially more prose, dialogue and character development. Comparable authored chapter/account/return/choice text grows from 3,755 to 13,874 words across all variants. Ivan’s engineered and sold-at-birth origins, training with Valentina nearby, trade at eighteen, idol work under permission, inner conflict and tool-like position in the Syndicate receive sustained scenes. Each general has a distinct recruitment, reason to accept, and present-day relationship. Sylvanis’s independent position, cruel amusement, small glove-seam wound and decisive victory receive a fuller confrontation and recovery. The protected captive ending remains.
+
+Reading and access
+
+Restart and play as Ivan. Open In person → Story → Continue the story. Chapter openings, recollections and returns read continuously; selecting a response continues through its aftermath. Unnecessary appointment/wait controls are hidden when everyone is already ready. Real travel, presence and private-room gates remain. Use Revisit completed chapters to read the expanded version of completed scenes with your saved choices, without repeating actions or changing progress.
+
+Artwork
+
+Added CS-IV10, a 1536×1024 illustrated executive-room confrontation using the established masked Ivan/Sylvanis identities and room design. Existing portraits and backgrounds are reused. Two existing defeat-shot mappings now follow the expanded mockery/departure text. Prompt, original, references, hashes and visual review are retained.
+
+Verification
+
+110 existing Ivan/shared tests, ten new integration/save/replay tests and 28 audience/presentation/navigation tests passed. Four deliberately broken implementations were rejected by assertions. Actual Tk Story/Continue/choice controls, eighteen chapter openings, memory disk resume, read-only rereading and normal/compact/24pt rendering passed with 29 captures. The 34-page dark-phone smoke passed. Six patch-note tests, patch-note UI and 12 start-layout cases also passed; catalogue validation and export completed. Full logs and scoped editorial diagnostics are linked from the delivery record.
+
+Known boundaries
+
+The seven optional historical periods with unresolved age/reference data remain locked. The eight scripted accounts remain available through the story; the existing age-eighteen visit remains available. No new powers, ending, identities, ages or wider historical rollout are introduced. Startup still reports five existing missing-sound warnings. Story voice diagnostics cover only the partial editorial registry; full independent reader review is not claimed.
+
+## Save compatibility
+
+Restart to load the new code/text. No reset or migration is required. Chapter/memory/choice/shot IDs, previous choices, contacts, powers, combat receipts, active page snapshots/cursors and original scene archives are preserved. Newly opened passages use the expansion. Completed-chapter rereading changes no gameplay state or disclosure.
+
+## Evidence and historical limits
+
+Immediately implemented at the user’s request on 2026-11-15. Story Skills and Writer’s Loop were used for source-grounded drafting/review; falsegreen for regression review; active Context Guard lifecycle and local Token Optimizer supported the work. Built-in Imagegen produced the new HQ shot. Actual tests, visual checks and diagnostic limitations are recorded separately from plugin assignments. No external provider setup, payment, sign-in or publication.
+
+- ivan_campaign_manuscript.py
+- ivan_campaign_content.py
+- ivan_campaigns.py
+- ivan_campaign_ui.py
+- assets/campaigns/ivan/core/catalog.json
+- tests/test_ivan_story_expansion.py
+- tests/ivan_story_expansion_ui_smoke.py
+- tools/check_ivan_story_negative_controls.py
+- roadmap/IVAN_STORY_EXPANSION_EVIDENCE.md
+- media-workspace/ivan-story-expansion/manifest.json
+
+
+---
+
+# Elias: a fuller The Last Applause
+
+release-2026-11-15-elias-narrative-depth | Release | Story
+Date: 2026-11-15
+
+Longer scenes and distinct dialogue explore Elias's backstory, narcissism, morality and obsession with the Crow, with fewer confirmation steps.
+
+## Details
+
+Changed
+
+All fourteen chapters and eight mandatory memories have expanded prose, context, inner thought and character exchanges. Their combined authored text grows from 4,849 to 14,725 words, with another 2,626 words across action/support scenes. Childhood develops genuine talent and praise becoming entitlement; acting and succession explore his contempt for other criminals; the healthy family-headquarters defeat develops fear, awe and humiliation into his need for the Crow's judgement. Present scenes deepen his warmth, condescension, moral self-justification, relationships and continuing obsession. Written voices remain character-specific; this update does not add recorded voice acting.
+
+Investigation, rehearsal, support and final-objective actions now open fuller story scenes. Assignment acceptance happens when its scene finishes, and the third specialist agreement advances without a separate confirmation. Optional private conversations remain available beneath Continue the story. Real attendance, evidence, costs, four historical victories, fixed Crow defeat and final custody requirements remain intact.
+
+Access
+
+Restart, select/load Elias and open In person → Story → The Last Applause. Newly opened scenes use the expanded text. Existing active/archived scenes preserve their saved text and page positions. A new Elias story lets you read the full revision from the beginning. All physical activity stays in the in-person window.
+
+Verification
+
+77 combined campaign, historical combat, dialogue, presentation, audience, memory and navigation tests passed. The Elias and new narrative UI smokes passed, including normal/compact/24pt reading, saved-page resume, core art, separate final objectives and optional conversations. Rendered examples were inspected. The phone dark-theme smoke passed 34 pages plus chat/contact/embedded states. A stale historical-kit test was aligned with the previously authorised capability update; combat code was not changed. Existing nonfatal missing-sound warnings remain. Detailed checks, editorial review and patch publication evidence are linked in the execution record.
+
+## Save compatibility
+
+No restart of a story or save migration is required to continue. Restart the application to load the revised modules. Active and archived conversations keep their old snapshots; subsequent scenes use the expansion. Legacy assignment and role-confirmation tasks remain finishable. Completed campaigns stay completed, and unrelated saves, resources, knowledge and outcomes are not rewritten.
+
+## Evidence and historical limits
+
+Directly requested implementation on 2026-11-15. Story Skills and Writer's Loop guidance supported authored prose and scoped editorial review; falsegreen guidance supported changed-test review. Actual local tests and rendered evidence are recorded separately from assignments. Existing artwork reused; no new audio, image generation, external service or independent-agent review claimed.
+
+- elias_campaign_manuscript.py
+- elias_campaign_content.py
+- elias_campaigns.py
+- elias_campaign_ui.py
+- tests/test_elias_narrative_expansion.py
+- tests/test_elias_campaigns.py
+- tests/test_elias_presentation.py
+- tests/elias_narrative_ui_smoke.py
+- roadmap/ELIAS_NARRATIVE_EXPANSION_EVIDENCE.md
+
+
+---
+
+# Takeo: Empire of One — expanded story and character depth
+
+release-2026-11-15-takeo-narrative-expansion | Release | Story
+Date: 2026-11-15
+
+Longer visual-novel scenes, distinct dialogue and deeper Directive 0, Kazama, Onami and Shinokami history, with fewer administrative story steps.
+
+## Details
+
+Changed
+
+Expanded all fourteen present-day chapters and all eight historical sequences. Comparable chapter briefing/aftermath and memory prose grows from 2,054 to 9,705 words, excluding the additional return/action pages. Scenes now develop setting, backstory, character conflict and Takeo’s mentality through sustained prose and dialogue.
+
+Directive 0 shows the access and freedom Takeo valued, the human costs he dismissed, and his rejection of its ethical dissolution. Onami remains an organisation he chose to serve: he respects Shinzo Kazama’s absolute strength, world-conquering ambition and willingness to pursue power at any cost. The 2024 conquest and 2027 UN defeat remain distinct. Takeo subsequently founds Shinokami from the remnants to command the surviving force, retain the research and continue expanding power under his own authority. He does not become an Onami co-founder.
+
+The research, One and Thirteen scenes establish his lack of empathy, willingness to experiment on his own son, social Darwinist convictions and treatment of people as instruments. His beliefs remain his own, not the narrator’s judgement of human worth. Kazama, Arakawa, Sylvanis, Thirteen, Keisuke and the historical supporting cast have distinct motives and speech patterns. Takeo’s tactical adaptation does not become a redemption arc.
+
+Reading flow
+
+Recollections now play through the in-person reader and return directly to the present with a scene-specific transition. The extra observation/context choice and separate return step are removed from new playthroughs. Nine non-choice command decisions commit after the relevant scene’s final page, without an additional report-confirmation action. The personnel/equipment choice still has its two material costs; combat, preservation and archive destruction still require their real objectives.
+
+Access
+
+Restart the game, select or load Takeo, and open In person → Stories, guards & gang properties → Story. Use Maps and the indicated rooms for travel. Start a new Takeo story to read the full expansion from the opening if your previous campaign is already complete. Scenes and historical activities remain in person; existing dark phone styling is retained.
+
+Continuity
+
+Fourteen chapter IDs, eight memory IDs, both transport consequences and the sole Empire of One ending are preserved. Pacific Relay and Thirteen’s command survive; Takeo personally destroys the unique contested archive, with no complete backup; Arakawa withdraws alive without it. The index is not a backup. No new Neo identity/address disclosure, reunion, named killer of Kazama or the other subjects, experimental mechanism, combat-stat change, art or audio is introduced.
+
+Verification
+
+65 focused/shared regressions pass, including eight new narrative-flow tests, saved-reader compatibility, privacy/arrival gates and real save checks. Both complete routes pass their gameplay assertions through 1,279 actual widget invocations, including five victories per route, memory/reader disk resume and equipment-route combat concede/retry. The initial personnel process encountered a test-harness cleanup error after completion; callback-owner cleanup was repaired and the equipment process exits successfully. Narrative, campaign UI and dark-theme smokes pass; expanded scenes were inspected at normal and compact 24-point sizes. All 34 phone pages pass the dark-surface audit. Story Skills maintenance passes for the represented editorial records.
+
+Known verification limitations
+
+Three unrelated shared-prose checks fail: a compiled/library mismatch and two Interpol FD39 errors. All three reproduce with pre-update Takeo modules. They are documented separately from the passing Takeo checks. Existing optional sound-load warnings remain outside this text update.
+
+## Save compatibility
+
+No reset or migration. Existing progress, completed memories, receipts, tactical choices and other protagonists remain intact. Restart to load changed code. Saved open scenes keep their stored wording and cursor; newly opened scenes use the expansion. Legacy observation sessions offer Continue the story and retain safe return; old pending command steps remain playable with participant checks. Completed campaigns are not reset or rewritten.
+
+## Evidence and historical limits
+
+Implemented directly from the 2026-11-15 request and explicit Onami-service/Shinokami-founding clarification. Story Skills and Writer’s Loop editorial review, falsegreen-skill test review, actual Python/Tk checks and their limitations are recorded separately from plugin assignments. Existing artwork reused; no independent agent review, persistent preference learning or external media generation claimed.
+
+- takeo_campaign_content.py
+- takeo_campaigns.py
+- takeo_campaign_ui.py
+- tests/test_takeo_narrative_flow.py
+- tests/takeo_narrative_ui_smoke.py
+- tests/takeo_button_playthrough.py
+- tests/test_campaign_audience_transitions.py
+- roadmap/TAKEO_NARRATIVE_EXPANSION.md
+- writing/story-skills/notes/takeo-narrative-revision.md
+
+
+---
+
+# Martos: a fuller What He Holds
+
+release-2026-11-15-martos-story-depth | Release | Story
+Date: 2026-11-15
+
+Expanded all fourteen chapters and eight memories with richer prose, distinct character voices and a deeper examination of Martos’s willing, enduring service to the Crow. The main reading path has fewer procedural interruptions.
+
+## Details
+
+Changed
+
+The main chapter and memory text grows from 5,957 to 11,655 words. New scene detail and exchanges develop conventional service, special-forces belonging, conscious complicity, the limited desertion, insecure refuge work, the Crow’s kept promises, and Martos’s willingness to carry out unethical orders for a leader he trusts. Lena and Sera retain independent lives and judgements; the ending now makes his refusal to abandon the Crow explicit without granting forgiveness or redemption. Existing outcomes remain based on actual delivery and custody receipts.
+
+The Story board uses Continue and titled Remember controls. Personal disclosures are available through an initially collapsed Optional personal conversations section. Already accepted role agreements are no longer repeated. Starting the actual mission opens combat directly instead of adding a bookkeeping page. Travel, consent, attendance, protection and custody conditions still apply.
+
+Access
+
+Restart the application, select or continue Martos, and open In person > Stories & organisations > Story. Scenes use the existing visual novel reader and accepted art. Font, previous-page, history and scrolling controls remain available. These are written character voices; no new voice recordings are included.
+
+Verification
+
+Twenty-five focused Martos tests passed, including the full fourteen-chapter/eight-memory route, saved scenes, text pagination, private-recipient routing, original core-shot bindings and historical isolation. The comprehensive Martos campaign UI smoke and the new normal/compact/24pt story-reading smoke passed, with rendered prose, speaker turns and optional-control states inspected. The dark-phone smoke verified 34 pages and embedded controls. Scoped Story Skills maintenance passed with zero errors or warnings. Shared-suite and release-tool results are recorded in the linked evidence ledger; no independent human playthrough or exhaustive combat balance claim is made. Existing missing-sound warnings remain nonfatal.
+
+## Save compatibility
+
+Restart the application to load the revised code. No new story or migration is required. Chapter/memory IDs, source slots, exact eras, artwork anchors, receipts and progress remain stable. Previously saved open scenes and archives keep their stored text and reading position; newly opened scenes use the longer text. Completed campaigns are not reset or automatically replayed.
+
+## Evidence and historical limits
+
+Directly implemented on 2026-11-15 at the user’s request. Story Skills and Writer’s Loop applied to drafting and continuity/voice review; falsegreen applied to the new and corrected tests; Context Guard lifecycle active. Actual logs and screenshots are referenced in the evidence ledger. No new media, external services or persistent preference learning.
+
+- martos_campaign_content.py
+- martos_campaign_ui.py
+- campaign_dialogue.py
+- tests/test_martos_story_reading.py
+- tests/test_martos_presentation.py
+- tests/martos_story_reading_ui_smoke.py
+- roadmap/MARTOS_STORY_EXPANSION_EVIDENCE.md
+
+
+---
+
+# Mavis: The Vacant Seat — expanded story
+
+release-2026-11-15-mavis-story-depth | Release | Story
+Date: 2026-11-15
+
+Longer scenes, fuller memories, distinct character voices and deeper motivation and moral conflict throughout Mavis’s campaign.
+
+## Details
+
+Changed
+
+Expanded all twelve main chapters and six memories. Their combined text grows from 5,253 to 11,184 words; the complete authored collection, including alternate approaches and conversations, now contains approximately 13,340 words. New passages develop the Quiet House contract, the predecessor’s death, provisional service, promotion, loyalty to the Crow, and Mavis’s responsibility for what her work does.
+
+Martos, Elias and Camila receive longer conversations and individual responses to personal boundaries. The Broker’s pressure, Sylvanis’s provocations and Mavis’s spare, dry dialogue retain their distinct voices. Final role agreements and both operation priorities now have authored story scenes. Ten approach passages replace generic confirmations; the duplicate reconnaissance explanation is removed. No additional journaling or reflection tasks are required. The existing tactical choices, combat and consequences remain.
+
+Reading and access
+
+Restart, play Mavis and open In person → Story. Follow Maps and the chapter’s participant appointments as usual. Longer passages retain short pages, readable dialogue bubbles and scrolling. Empty choice and notice rows no longer waste space in the in-person reader, with tighter spacing at compact sizes and notices restored when an error occurs. Existing artwork is reused.
+
+Continuity
+
+The previous Spade’s death, Mavis’s own Mist, historical ages, private identity, recipient-only disclosures, chosen loyalty, permanent successful Broker removal and actual combat outcomes are preserved. This is authored character voice, not recorded voice acting.
+
+Verification
+
+All 42 focused Ace/Mavis regression tests pass, including the complete route, historical isolation, outcomes, exact-era artwork anchors, saved reading, disclosures and new conversation gates. Three deliberate regressions were rejected. Dialogue/save tests and actual Mavis/shared-reader UI checks passed, with compact 24-point screens, scrolling and error recovery inspected. The phone dark-theme smoke passed across 34 pages. Story Skills workspace checks passed; their scope is the represented editorial records. Broader shared-catalog discrepancies observed during verification are documented separately in the execution ledger; no full-repository pass is claimed.
+
+## Save compatibility
+
+Restart to load changed code and prose. No reset or migration is required. Existing progress, choices, combat and completed chapters stay intact. Already-open saved conversations and archived scenes retain their saved wording and cursor; newly opened scenes use the expanded writing. Start a new Mavis story to read the full revision from the beginning.
+
+## Evidence and historical limits
+
+Implemented and reviewed directly under the 2026-11-15 request. Story Skills and Writer’s Loop applied to prose/continuity; falsegreen-skill applied to regression review with actual tests and negative controls. Local Python/Tk tests and screenshots under .test-tmp/mavis-story-depth/. No new media or independent human cold read is claimed.
+
+- ace_campaign_content.py
+- ace_campaigns.py
+- ace_campaign_ui.py
+- campaign_prose_ui.py
+- tests/test_mavis_story_depth.py
+- tests/mavis_story_depth_ui_smoke.py
+- roadmap/MAVIS_STORY_DEPTH_UPDATE.md
+- writing/story-skills/notes/mavis-manuscript-review.md
+
+
+---
+
+# Neo: A Life of His Own — expanded story and dialogue
+
+release-2026-11-15-neo-story-depth | Release | Story
+Date: 2026-11-15
+
+Longer visual-novel scenes deepen Neo's reluctance, grief, survivor guilt, bond with Alyssa, hatred of Takeo and anger at Hachimura, with fewer generic progression clicks.
+
+## Details
+
+Changed
+
+Rewritten all fourteen chapters and six memories with fuller scene-setting, interior narration and character-specific dialogue. Comparable chapter/memory/return text grows from 2,939 to 10,767 words, excluding additional choice scenes and private disclosures. Neo's ordinary life and refusal are established before the attack; Mariko's death, the continuing retrieval threat and living captives drive his decision to work with the rescue crew. He does not rejoin his father's organisation.
+
+Mariko has more ordinary life, humour, disagreements and memories before her loss. Neo's grief continues through practical arrangements, interrupted habits and remembrance. His guilt about the dead subjects and leaving Thirteen remains emotionally real without proving that a ten-year-old could have saved everyone. The historical killer remains unknown. His hatred of Takeo concerns coercion, fatherhood and being valued only for performance. Empathy for Thirteen coexists with accountability for his current command.
+
+Alyssa is developed as Neo's equal partner and anchor through shared work, humour, chosen closeness, disagreement and practical support. She retains her independent rescue work and boundaries. The Hachimura confrontation has sustained anger and aftermath: victory stops him without requiring forgiveness or making grief vanish. Named private listeners now have distinct replies to Neo's programme and parentage disclosures.
+
+Story flow
+
+New memories complete only after their final reader page, without two generic reflection selections and a separate completion button. Encounters start directly from Story after the authored scene. Tactical choices, real combat, travel, private meetings and the ten captive handoffs remain meaningful requirements. Post-combat outcome scenes precede the Hachimura/Thirteen decisions and are not repeated on continuation. Expanded spoken scenes require their actual listeners in the room.
+
+Access
+
+Restart, choose or load Neo, and open In person → Stories & organisations → Story. Start or continue A Life of His Own. Physical scenes remain in the in-person window; use Maps for earned travel destinations.
+
+Continuity
+
+Stable chapter, memory, choice, encounter and ending IDs remain. Mariko is the sole present-day death; Tyler's father survives with his existing disability. Hachimura and Thirteen survive in custody, Takeo remains at large, and Neo and Alyssa retain their home and partnership. No new artwork, audio generation, combat balance or automatic romance milestone is added.
+
+Verification
+
+60 focused route/reader tests pass, including 25 Neo campaign tests, full route progression, memory final-page completion, saved-reader and legacy-session resume, old post-combat choices, recipient privacy and actual listener presence. Neo Story/reader, phone dark-theme (34 pages), shared campaign presentation, patch-note UI and start UI (29 previews) checks pass. Normal/compact scenes, 24-point text, scrolling, memory-return controls and emotional dialogue were rendered and visually inspected. Six patch-note unit tests pass; the catalogue was validated and the archive exported.
+
+The wider suite is reported separately: its last 77-test run had 74 passes, two catalogue-size assertion failures and an Interpol FD30 core-shot mismatch. A control using pre-revision Neo modules also reproduced shared Interpol failures. Concurrent Interpol changes altered those wider results during verification; no whole-project green result is claimed. Initial temporary-folder and smoke-harness issues were corrected in local verification. Full results and limitations are in roadmap/NEO_STORY_DEPTH_EVIDENCE.md.
+
+## Save compatibility
+
+Restart to load revised code and content. Existing progress, outcomes, private disclosures and completed routes are retained. Already-open saved conversations keep their saved pages/cursor; subsequent scenes use the expanded text. Existing isolated memory sessions can finish with their original token/cursor. New memories complete at the final reader page; an additive read_outcomes marker prevents repeated post-combat prose. Completed routes are not reset; start a new Neo story to experience the entire revision from the beginning. No user-owned save was overwritten during verification.
+
+## Evidence and historical limits
+
+Implemented directly on 2026-11-15 at the user's request. Story Skills and Writer's Loop informed the actual prose and continuity review; falsegreen-skill informed focused regression review. Pre-edit source snapshots, per-scene word counts, full test logs and rendered screenshots are retained locally. No independent human playtest or whole-project green status is claimed.
+
+- neo_campaign_content.py
+- neo_campaigns.py
+- neo_campaign_ui.py
+- campaign_dialogue.py
+- tests/test_neo_campaigns.py
+- tests/neo_campaign_ui_smoke.py
+- roadmap/NEO_STORY_DEPTH_EVIDENCE.md
+
+
+---
+
+# Sylvanis: the Crazed Demon — expanded campaign
+
+release-2026-11-15-sylvanis-crazed-demon-depth | Release | Story
+Date: 2026-11-15
+
+A substantially expanded visual-novel campaign with deeper Crow tension, Blisk origins, earned fear, unfulfilled supremacy, the Martos experiment and a new illustrated night-alley scene.
+
+## Details
+
+Added
+
+Expanded all sixteen present-day chapter scenes and all ten fixed memories. Comparable chapter-opening and memory text grows from 2,359 to 10,257 words, excluding aftermaths, endings and duplicated presentation metadata. Sylvanis’s early crimes now include killings, destruction and destabilisation, showing how he became the Crazed Demon / Demon King and the most feared man on the planet. His Blisk origin explores a civilisation founded on dark magic, social Darwinism, violence and selfishness, and his contempt for its predictable ambitions. This does not make every Blisk individual alike.
+
+The Crow knowingly uses Sylvanis’s reputation, intelligence and strength despite his volatility. Sylvanis uses the Crow’s ambitions as excuses and infrastructure for his own violence. Both manipulate one another without removing Sylvanis’s choice or responsibility. His supremacy supplies little lasting fulfilment; thrill, chaos and the possibility of a satisfying opponent drive the research. In the expanded Red/Blue memory, Sylvanis asks early-service Martos to fight a Red-enhanced subject. Martos decisively kills the subject, then notices a mild nosebleed. That narrow, unexpected result intrigues Sylvanis; it does not establish a near-victory or an equal.
+
+New illustrated shot CS-SY08 shows early-era Sylvanis standing in a ravaged night alley among fallen attackers. It appears at the reputation memory’s aftermath and is also in his gallery. The original, exact prompt, reference snapshots and hashes are retained locally.
+
+Changed
+
+Routine roster, reservation, archive, programme and cancellation steps now settle after their authored scenes. Memories return directly to the story after the final page. Continuous in-person reading pauses for meaningful choices, actual fights, required travel, unavailable speakers or privacy restrictions. Older half-finished memory sessions offer one Continue the story control. The three provocation choices, real exhibition and four-exchange Crow finale retain their outcomes and costs.
+
+Access
+
+Restart, select or load Sylvanis, then open In person → Stories, guards & gang properties → Story → The Crow’s Patience. Continue at the required room and arrange actual participant arrival where needed. Scenes remain in person. Maps travel and room/privacy gates remain real requirements.
+
+Continuity
+
+Kaden’s genuine goodwill and question before death, the conspirator’s concealed identity and implied-only parentage, Charles’s cover and independent sealed evidence, Garrett’s separate investigation, Takeo’s headquarters meetings and separate territorial story, and both arena shutdown outcomes remain intact. There is no redemption arc, new permanent Awakening or combat-stat rebalance.
+
+Verification
+
+31 focused Sylvanis tests pass, including a full route traversal, both finale outcomes, disk resume, legacy sessions, exact-once costs, privacy, historical voices and image bindings. Actual Tk campaign screens pass at normal/compact sizes and 24-point text; alley and Martos scenes were visually inspected. Phone dark-theme smoke passes across 34 pages; player Story, twelve start-screen layout cases and patch-note UI smoke pass. Story Skills check and prose lint report no errors or warnings in the represented scope; that does not certify unrepresented game canon. Shared-check details and any unrelated failures are retained in the linked execution evidence.
+
+## Save compatibility
+
+Restart to load changed code and content. No reset, migration of outcomes, balance change or ordinary-wallet charge. Stable chapter/history IDs, completed progress, choices, combat settlement and existing archived text remain. Already-open saved scenes keep their exact saved text and position; newly opened scenes use the expansion. Old observation-step sessions can continue once without replaying rewards. Completed campaigns are not reset to show new prose; a new Sylvanis story is needed to replay the entire revised route.
+
+## Evidence and historical limits
+
+Implemented directly from the 2026-11-15 request. Story Skills/Writer’s Loop editorial work, falsegreen-skill regression review, built-in imagegen production and actual Python/Tk checks are recorded separately from task assignments. Built-in image model identity is unverified.
+
+- sylvanis_campaign_manuscript.py
+- sylvanis_campaign_content.py
+- sylvanis_campaigns.py
+- sylvanis_campaign_ui.py
+- sylvanis_campaign_visuals.py
+- campaign_dialogue.py
+- tests/test_sylvanis_depth.py
+- tests/test_sylvanis_campaigns.py
+- tests/test_sylvanis_art.py
+- roadmap/SYLVANIS_DEPTH_EVIDENCE.md
+- media-workspace/sylvanis-depth/manifest.json
+
+
+---
+
+# Camila: The Inheritance — a fuller personal story
+
+release-2026-11-15-camila-campaign-depth | Release | Story
+Date: 2026-11-15
+
+Longer visual-novel scenes explore Camila's upbringing, ambition, affection, uncertainty and knowing complicity, with distinct dialogue and fewer recap actions.
+
+## Details
+
+Changed
+
+Expanded all fourteen chapters, all eight memories and both endings. The chapter/memory/ending manuscript more than doubles in length. Childhood play and ordinary parental attention establish the home Camila received; education, mistakes, outsider harm, the Diamonds appointment and intended succession develop how she became the woman making the Meridian decision. Present scenes give Inez, Mara and Ansel room to challenge her. Separate specialist conversations distinguish Mavis's attention to handovers, Martos's concern for people and exits, and Elias's theatrical sense of timing. Both aftermaths include professional accountability, private father/daughter discussion, care from Mara and ordinary competitive enjoyment.
+
+New memories return to the present after reading without two compulsory recap choices, removing sixteen filler clicks from a fresh route. Optional historical activities and journals remain optional. The consequential evidence, cooperation, disclosure, combat and allocation actions remain playable. Both choices retain their actual costs, lost shifts and 40/15 reserves. Camila remains Diamonds and the intended successor; Crow remains Cardmaster. No private identity, new death, redemption or leadership transfer is introduced.
+
+Access
+
+Restart, select or load Camila, then open In person → Stories, guards & gang properties → Story → The Inheritance. Previously completed scenes are not reset; start a fresh Camila story to experience the entire revised route. Existing illustrations retain stable source cues and historical costumes.
+
+Validation
+
+The shared campaign suite passed 174 tests with no failures, errors or skips. Coverage includes both complete paths, actual combat win/loss, one-time allocation costs, disclosure boundaries, disk saves, existing reading snapshots and new/legacy memory sessions. Actual Tk smoke and visual inspection covered expanded prose at normal and compact 24pt sizes, scrolling, historical staging and the simplified return control. Story Skills maintenance passed for represented editorial records. The delivery ledger records final interface/catalogue checks and their actual results. Five missing optional sound-cue warnings were observed; no new audio or playback work is included.
+
+## Save compatibility
+
+Restart to load the update. No reset or migration is required. Already-open saved scenes retain their original text and cursor; newly opened scenes use the expansion. Older partial memories retain their original recap choices, while new memories use a saved narrative flag and return directly after reading. Completed campaigns, resources, relationships, other routes, private disclosures, custody and committed costs remain intact.
+
+## Evidence and historical limits
+
+Direct implementation requested on 2026-11-15. Story Skills and Writer's Loop informed source-grounded prose and self-review; falsegreen guided regression review. Actual execution and limitations are recorded in roadmap/CAMILA_DEPTH_EVIDENCE.md. No independent cold read or exhaustive manual playthrough is claimed.
+
+- camila_campaign_expansion.py
+- camila_campaign_content.py
+- camila_campaigns.py
+- camila_campaign_visuals.py
+- camila_campaign_ui.py
+- tests/test_camila_campaigns.py
+- tests/test_camila_presentation.py
+- tests/camila_campaign_ui_smoke.py
+- roadmap/CAMILA_DEPTH_EVIDENCE.md
+- writing/story-skills/adaptations/interactive/camila-depth-review.md
+
+
+---
+
+# Garrett: the brother behind the bravado
+
+release-2026-11-15-garrett-campaign-depth | Release | Story
+Date: 2026-11-15
+
+Longer visual-novel scenes explore Garrett's grief, swagger, school years and bond with Charles, with a new symbolic leadership handoff and emotional family catharsis.
+
+## Details
+
+Added
+
+All 43 Garrett scene sections now contain expanded authored prose and dialogue. The complete conditional catalogue grows from 11,011 to 19,875 words: 8,864 added words across all variants, not a single playthrough. Everyday memories of his parents deepen their absence without inventing a death chronology or revealing their killer. His teenage school-crew violence, enjoyment of his reputation, protective instincts, private insecurity and adult flirting receive more space. Rei raises the possibility that Charles did not survive; Garrett refuses to abandon him.
+
+Charles's protective burden-taking and Garrett's admiration for the strongest Red Dragon continue through the reunion and later protection chapters. In the late private brother visit, Charles settles Garrett's own coat over his shoulders, steps back and acknowledges him as the Red Dragons' leader. He tells Garrett their parents would be proud. The gesture is personal recognition, not an inventory reward or a promotion earned by beating Charles; neither reconciliation choice forces forgiveness.
+
+Changed
+
+Seven early quest-choice pairs now express conversational intentions instead of bookkeeping. Newly assembled GD07 scenes omit the redundant journaling reflection. Meaningful choices, documentary verification, retries, actual required victories, private disclosure and existing endings retain their effects. The conflicting fruit-shop backstory and its derivative reference passages now follow the established school confrontation at Garrett sixteen and Charles twenty-one; Charles remains responsible for his violence.
+
+Access
+
+Restart the game, choose Garrett and open Story → Find Charles in the in-person window. Optional conversations retain their attendee and privacy requirements. The mantle scene is in the later A brother, not a weapon chapter, after the protection missions. Use a new Garrett story or a save before the relevant scenes to read the whole expansion.
+
+Validation
+
+Six focused depth tests and the 35-test combined Garrett/Charles/disclosure/major-campaign/save batch passed. All 18 campaign-prose tests passed on the final run, including both Garrett reconciliation routes and exact compiler equality. Presentation integrity, the changed school-memory lore test and Story Skills' scoped check passed. The new scenes were rendered and visually inspected at normal and compact/large-text sizes; phone dark-theme checks passed across 34 pages and embedded controls. Final command, UI, editorial and publication evidence is linked below.
+
+Known limitations
+
+The broader conversation-lore suite reports five reference-coverage failures: Charles's TV-show preference, Garrett's generic visitor guidance, Nessa's portrait guidance, and two Ivan/Valentina history/relationship expectations. These are recorded separately from the passing Garrett scene tests. This is targeted route, branch, save and rendering verification, not a manual playthrough of every game campaign. Notification-sound warnings remain in the UI test environment; this text update adds no audio.
+
+## Save compatibility
+
+Restart to load changed Python code. No migration or reset is required. Existing progress, choices, endings, active dialogue snapshots and archived scenes are preserved. New wording applies to newly assembled scenes; completed scenes are not silently replayed. Later new passages do not assume that an older save saw the new coat gesture.
+
+## Evidence and historical limits
+
+Implemented directly from the 15 November 2026 Garrett campaign request using Story Skills and Writer's Loop for source-grounded drafting and review, with falsegreen-skill review of the scoped regressions. Actual execution and limitations are recorded separately from plugin assignments. Shared Rei and Neo work is not claimed as part of this update.
+
+- campaign_prose/garrett_expansion.md
+- tools/compile_garrett_expansion.py
+- campaign_prose/catalog.json
+- campaign_prose/staging.json
+- campaign_staging.py
+- charles_quest.py
+- campaign_prose.py
+- conversation_lore.py
+- tests/test_garrett_depth.py
+- tests/garrett_depth_ui_smoke.py
+- tests/charles_quest_ui_smoke.py
+- tests/test_conversation_lore.py
+- writing/story-skills/notes/garrett-depth-review.md
+- roadmap/GARRETT_DEPTH_EVIDENCE.md
+
+
+---
+
+# Rei: What Remains — a deeper personal story
+
+release-2026-11-15-rei-campaign-expansion | Release | Story
+Date: 2026-11-15
+
+Expanded visual-novel prose, childhood and escape flashbacks, personal Blackstone stakes and an angrier confrontation with Joseph Richter.
+
+## Details
+
+Added
+
+Three integrated flashback sequences show Rei and Yuriko at ten/seven, the clan's destruction and their escape at fifteen/twelve, and the first safe room afterward. Twelve new assets include four historical portraits, three school grief portraits, three locations and two illustrated shots: childhood training and the clan's aftermath. Current text retains incomplete adult recollection and does not invent his parents' fate.
+
+Changed
+
+Rei's compiled route grows from 9,193 to 13,886 words across all written variants, with more space for Marcus's creative friendship, Hamayashi-kai conditioning, the protector complex and the person Rei wants to become. A current notice gives the investigation a clear starting point; the journal separates facts from fear instead of supplying repeated filler actions. Jun and Luis, adult Iron Circle acquaintances, disappear after Blackstone assessments. Independent referral, collection and authorisation evidence makes the investigation personal.
+
+Marcus's death now provokes an immediate angry reaction that Emily and Sophie interrupt. Increasing sleeplessness, vigilance and fear culminate in Rei's breakdown at the Blackstone loading entrance and a heated executive confrontation. Fear for Awakened Emily motivates him without inventing her abduction or removing her agency. Emily retains her stutter in current and school dialogue. Only actual victory releases the detainees and closes the programme; failed attempts remain unresolved. All three successor choices, both resolution orders, solo operation and private disclosure variants remain available.
+
+Access
+
+Restart the game, choose Rei, and follow What Remains through Story and its marked destinations. Scenes run in the in-person window. The new childhood sequence accompanies the opening at Rei's home; escape and aftermath accompany the archive stage. A fresh Rei story is needed to experience already-completed early stages again; this update does not reset completed saves. Optional conversations still depend on actual attendees and selected disclosure.
+
+Validation
+
+101 distinct campaign, presentation, save, flashback and new expansion tests passed across the 78-test shared suite and final 39-test targeted batch. Inspected eight narrative checkpoints at normal and compact/large-text sizes: sixteen screens and sixteen stage rasters, including both illustrations, the historical cast, grief scene, Blackstone entrance and Joseph's executive confrontation. Phone dark-theme smoke passed across 34 pages and embedded controls. Artwork hashes and exact prose/staging coverage passed. Story Skills' scoped workspace check and Rei prose lint passed; these do not certify every game manuscript. Six patch-note tests, catalogue validation/export, patch-notes UI and start UI checks are recorded in the linked evidence.
+
+Known limitations
+
+Old in-progress dialogue keeps its saved wording and portraits. This is targeted route/state/render verification, not a new manual playthrough of every game route. Existing UI smoke logs report five unavailable notification sounds; this update adds no audio.
+
+## Save compatibility
+
+Restart to load changed Python code. Existing saves, six stage indices, reflection flags, outcomes and active dialogue snapshots remain compatible. Completed stages are not reopened and no migration or reset is required. New wording/art applies to newly assembled scenes; start a fresh Rei story to read the entire expansion from the beginning.
+
+## Evidence and historical limits
+
+Implemented directly at the user’s request on 2026-11-15. Existing route contracts preserved; generated art uses built-in imagegen with local originals, exact prompts and hashes. Actual commands, failures corrected, visual observations and review limits are documented in the evidence record; full logs remain under .test-tmp/rei-expansion/. No separate planning approval, external media provider or paid workflow was used.
+
+- rei_campaign_expansion.py
+- rei_story.py
+- campaign_prose.py
+- campaign_scene_staging.py
+- campaign_staging.py
+- campaign_prose/catalog.json
+- assets/campaigns/rei-expansion/manifest.json
+- tests/test_rei_expansion.py
+- tests/rei_expansion_ui_smoke.py
+- roadmap/REI_EXPANSION_EVIDENCE_2026_11_15.md
+
+
+---
+
+# Campaign combat portrait coverage repaired
+
+release-2026-11-15-campaign-combat-portrait-bindings | Release | Interface
+Date: 2026-11-15
+
+Restore Takeo opposition portraits and missing investigation opponents, and honour Ivan encounter artwork.
+
+## Details
+
+Fixed
+
+In-person combat now honours authored portrait bindings for every campaign kind. All five Takeo encounters display their existing opposition artwork. Four unnamed investigation opponents across Fox and Gordon use existing representative role art; older saved fights receive the same fallback without changing identity or combat values. Ivan fights now honour their authored contextual portraits. Historical and concealed identities retain their assigned art.
+
+Access
+
+Continue the relevant campaign and enter combat normally in the in-person window. No new artwork or phone feature is introduced.
+
+Validation
+
+Audited 205 encounter portrait slots and 2,370 explicit authored scene/history references: 25 affected bindings before, zero issues after; all referenced images decode. Rendered 205 Tk portrait slots and 21 full combat stages, with visual inspection of affected and historical examples. Four new coverage tests, twelve existing portrait tests and sixty-nine Interpol/Ivan/Takeo tests passed. Six patch-note tests and the patch-note and start-screen UI smokes passed. Presentation fixtures test rendering; this does not claim a new full playthrough of every campaign or coverage of arbitrary custom NPCs.
+
+## Save compatibility
+
+Restart the game to load the Python changes. Existing saves and active encounters remain compatible; no reset, migration or story-state editing is required.
+
+## Evidence and historical limits
+
+Implemented and verified 2026-11-15. Before/after inventories, complete test logs and screenshots are under .test-tmp/campaign-portrait-audit/. Existing accepted artwork reused; no generated-media claim.
+
+- combat_portraits.py
+- guard_portraits.py
+- interpol.py
+- interpol_cases.py
+- tests/campaign_portrait_cases.py
+- tests/test_campaign_portrait_coverage.py
+- tests/campaign_portrait_audit_ui_smoke.py
+- roadmap/CAMPAIGN_PORTRAIT_AUDIT.md
+
+
+---
+
+# Takeo full-button progression audit and appointment fixes
+
+release-2026-11-15-takeo-appointment-progression-audit | Release | Story
+Date: 2026-11-15
+
+Completed both Takeo campaign branches through actual UI controls and repaired two appointment-related progression gaps.
+
+## Details
+
+Fixed
+
+The Story wait control now remains available while an appointed guest has reached the building but is still moving to the meeting room. Previously it could disappear too early after Sylvanis arrived.
+
+An End supplier appointment control now returns Sylvanis to Glasshouse through normal travel. His earlier appointment could otherwise linger in the headquarters briefing room and block a later private scene. Dismissal validates before changing state and cannot interrupt reading, history or combat. Existing private-listener checks remain intact.
+
+Access
+
+Restart and load your existing save. In person > Story explains genuine appointment-room waits and offers End supplier appointment when the current scene does not require Sylvanis. Use the existing Keisuke dismissal before solo scenes. No replay of completed chapters is required.
+
+Verification
+
+Two automated actual-widget playthroughs reached the complete ending: 378 personnel-branch clicks and 384 equipment-branch clicks. Each completed all fourteen chapters, eight memories and five real victories, with normal Maps travel, connected room doors, appointment controls, reader controls, combat commands and aftermath buttons. Reader saves and every completed action boundary were reloaded. The equipment run also cancelled and retried a memory and conceded and retried a fight. Both material transport costs and the protected ending were asserted.
+
+All four optional history periods and eleven rooms were navigated through their controls, with journal/return buttons and unchanged present-day campaign, clock and location. Forty-one related tests passed. The appointment wait regression fails when its fix is disabled. Seven focused UI states rendered, and completion, appointment and history screens were visually inspected. Thirty-four phone pages plus chat/contact/embedded controls passed the dark-theme smoke.
+
+Limits
+
+These were automated Tk control invocations, not a manual mouse playthrough. External AI narration and free-form historical AI conversations were excluded; real combat used the normal offline narration fallback. Existing nonfatal missing-sound warnings remain. Two test-instance timer cleanup warnings occurred between full runs; both routes completed, and test teardown now cancels pending callbacks.
+
+## Save compatibility
+
+No migration or reset. Restart to load the UI and appointment fixes. Existing chapter progress, memories, receipts and protected outcomes remain intact; user save files were not edited.
+
+## Evidence and historical limits
+
+User-requested full actual-button audit on 2026-11-15. Story Skills path review and falsegreen-skill test review applied; Context Guard activation was evidenced for this turn. Actual branch logs, isolated saves, results and screenshots are indexed in the linked evidence record. No external media, AI provider or user-save mutation was required.
+
+- roadmap/TAKEO_BUTTON_PLAYTHROUGH.md
+- takeo_campaigns.py
+- takeo_campaign_ui.py
+- tests/takeo_button_playthrough.py
+- tests/takeo_history_buttons_smoke.py
+- tests/test_takeo_progression_ui.py
+
+
+---
+
+# Sylvanis: continue Something New with Charles at work
+
+release-2026-11-15-sylvanis-workroom-progression | Release | Campaigns
+Date: 2026-11-15
+
+Charles's normal laboratory workroom presence no longer blocks Sylvanis's seventh chapter.
+
+## Details
+
+Fixed
+
+In Sylvanis's Story, SY07 — Something New now permits Charles as the laboratory workroom's resident. Previously the chapter's private-scene check treated him as an unrelated listener, so Read the chapter scene failed during normal daytime occupancy. The scoped correction also permits the historical return, operating-account commitment and aftermath while Charles remains there. Other listeners are still rejected; private historical knowledge is not disclosed.
+
+Access
+
+Continue the existing campaign through Maps to the Glasshouse laboratory workroom, then open Story in the in-person window. No new campaign or historical period is unlocked.
+
+Verification
+
+A regression reproduced the failure before the fix and then passed through actual travel, resident occupancy, pending-reader save/reload, memory, return, the one-time 20-unit reserve commitment and progression to chapter eight. A separate unrelated-listener case verifies rejection without state changes. Actual Story-button and normal/compact reader smoke checks passed; screenshots were inspected. The existing Sylvanis reader/room-return smoke also passed. Three Charles tests passed after correcting an outdated test fixture to walk into the private review room. The final campaign/navigation/dialogue/history/laboratory/save run passed all 285 tests with no failures, errors or skips. The 34-page dark-phone smoke, six patch-note tests, patch-note reader and start-screen smoke checks also passed. Audit scope and limits are recorded in the linked evidence document. Existing optional sound-load warnings appeared in UI checks.
+
+## Save compatibility
+
+Restart to load the updated code. Existing saves retain chapter progress, reading cursors, resources, memories and outcomes. No reset or migration is needed; blocked SY07 saves can continue normally.
+
+## Evidence and historical limits
+
+Directly requested campaign progression audit, implemented and verified locally on 2026-11-15. This entry covers the SY07 workroom correction only; concurrent Takeo/Ivan audience work retains its separate evidence and release entry.
+
+- sylvanis_campaigns.py
+- tests/test_sylvanis_workroom_progression.py
+- tests/test_charles_han.py
+- roadmap/CAMPAIGN_PROGRESSION_AUDIT_2026_11_15.md
+
+
+---
+
+# Takeo and Ivan: required guests no longer block later steps
+
+release-2026-11-15-campaign-audience-transitions | Release | Campaigns
+Date: 2026-11-15
+
+Fixes retained-participant progression blocks found by the follow-up audit of other campaigns.
+
+## Details
+
+Fixed
+
+Takeo now permits the current chapter’s authored participants to remain in the same room after their speaking lines end. Sylvanis, Thirteen and Keisuke no longer block narration-only aftermaths. Unrelated listeners and absent required speakers still block; permission stays specific to the chapter and room.
+
+Ivan’s replacement chapter appointment now walks previous same-room guests out before admitting the next private cast. It also recognises the last completed chapter’s cast in existing saves where the appointment was already cleared. This fixes the sequential general reviews and the later review-to-April transition without revealing private history to the previous guest.
+
+Access
+
+Restart and load your save. In person → Story: continue Takeo’s aftermath normally. For Ivan select Request the chapter appointment, wait for any actual arrivals, then read the chapter scene.
+
+Audit and validation
+
+147 tests passed across the completed campaign, focused transition, audience and dialogue suites. The new checks cover 52 same-room aftermath cases in Mavis, Martos, Elias, Camila and Neo, five Ivan guest replacements, three complete Takeo chains and save/reload. No matching gate defect was found in the reviewed Garrett, Rei or Fox/Gordon source. Old-code negative controls reproduced both bugs. Four actual Tk button scenarios passed and screenshots were inspected.
+
+Known limits
+
+The broader shared prose suite was interrupted before completion; its targeted audience tests passed separately. This was not a full manual playthrough of every route. Five existing sound-load warnings appeared in the UI smoke. Intentional private disclosures remain restricted.
+
+## Save compatibility
+
+Restart to load changed Python code. Existing saves, chapter progress, private knowledge and resources remain compatible without migration. Ivan’s appointment action moves only previous same-room participants using normal room access; no campaign reset.
+
+## Evidence and historical limits
+
+User requested an audit of other campaigns after the Sylvanis Charles-room bug. Source review, real saved-state regressions, in-process negative controls and actual Tk buttons executed locally on 2026-11-15; evidence and limitations recorded in the linked audit.
+
+- takeo_campaigns.py
+- ivan_campaigns.py
+- tests/test_campaign_audience_transitions.py
+- tests/campaign_audience_ui_smoke.py
+- roadmap/CAMPAIGN_AUDIENCE_AUDIT.md
+
+
+---
+
+# Sylvanis: Charles no longer blocks the return from memory
+
+release-2026-11-15-sylvanis-room-audience | Release | Campaigns
+Date: 2026-11-15
+
+Continue the Sylvanis campaign with Charles still in the required Glasshouse room.
+
+## Details
+
+Fixed
+
+The privacy gate incorrectly treated a required participant as an unrelated listener as soon as he stopped speaking. Charles can now remain in the Glasshouse private review room through the return from memory, roster work and aftermath. The equivalent silent-Crow transition in the HQ executive meeting room is also fixed. Other listeners remain blocked; required arrivals and private knowledge rules remain enforced.
+
+Access
+
+Restart, load your existing Sylvanis save, and select In person → Stories, guards & gang properties → Story → Read the return to the present. No need to dismiss Charles or restart the campaign.
+
+Validation
+
+All 19 Sylvanis campaign tests passed, including uninterrupted opening progression with Charles present and disk reloads. An in-process old-gate negative control reproduced the privacy failures. The actual Tk return-button smoke passed and its reader screenshot was inspected. Five sound-load warnings remain in the smoke log. No phone UI changes; broader campaign suites were not rerun.
+
+## Save compatibility
+
+Restart the game to load the fix. Existing saves and pending returns work without migration; no campaign reset, relocation, resource changes or new knowledge disclosure.
+
+## Evidence and historical limits
+
+Direct user screenshot/report on 2026-11-15; implemented and verified locally. Full evidence in .test-tmp/sylvanis-room-fix and the SY-F01 maintenance record.
+
+- sylvanis_campaigns.py
+- tests/test_sylvanis_campaigns.py
+- tests/sylvanis_campaign_ui_smoke.py
+- roadmap/SYLVANIS_CAMPAIGN_UPDATE_PLAN.md
+
+
+---
+
+# Takeo combat objectives start from Story buttons
+
+release-2026-11-15-takeo-combat-button-routing | Release | Story
+Date: 2026-11-15
+
+Fixed the No reading page error when entering Takeo campaign combat.
+
+## Details
+
+Fixed
+
+Enter actual resistance was incorrectly routed through the campaign reader, preventing the fight from starting. Takeo combat objectives now execute through the normal Story action handler and open the in-person combat UI. The same repair covers the breach, supply encounter and all three finale checkpoints. Reading actions still commit only after their scene finishes.
+
+Access
+
+Restart, load the existing story and open In person > Story. Click Enter actual resistance or the next resistance encounter. No replay of completed recollections is needed.
+
+Verification
+
+25 Takeo tests and eight dialogue tests passed. Actual Tk button dispatch was exercised at all five checkpoints and asserted real combat state, mission, wave and encounter tokens. Disabling the repair in memory made all five checks fail with the reported error. The desktop smoke clicked the real chapter-two button, opened combat and produced an inspected screenshot.
+
+Known limitations
+
+Existing nonfatal missing-sound warnings remain. The first dialogue test run hit a sandbox temporary-directory permission error; all eight passed with project-local temporary storage. No full manual campaign playthrough is claimed.
+
+## Save compatibility
+
+Restart to load the routing fix. No save migration, reset or direct user-save edits; completed recollections and chapter progress are preserved.
+
+## Evidence and historical limits
+
+Separate follow-up to the earlier direction-rendering repair, reproduced from the user report on 2026-11-15. Reviewed using falsegreen-skill; actual button path and negative-control evidence retained under .test-tmp/takeo-combat-routing/.
+
+- roadmap/TAKEO_PROGRESSION_FIX.md
+- campaign_dialogue.py
+- tests/test_takeo_progression_ui.py
+- tests/takeo_progression_ui_smoke.py
+
+
+---
+
+# Shinzo Kazama: 193 cm stature
+
+release-2026-11-15-shinzo-kazama-height | Release | Artwork
+Date: 2026-11-15
+
+Kazama now uses his specified 193 cm height in composed scenes, with both map-table illustrations adjusted.
+
+## Details
+
+Changed
+
+Shinzo Kazama now has an explicit historical stature record of 193 cm instead of the 178 cm fallback. Full-name and portrait-path resolution use the same value; custom saved heights retain priority. Takeo remains 211 cm. CS-TK02A and CS-TK02B were edited to reflect Kazama's taller stature and consistent eye-lines. His historical appearance text now matches the established long black hair, pointed beard and black/purple robes.
+
+Access
+
+Restart, then view Takeo's existing In person > Story memory A Man Worth Following. No unlock or scene ID changes.
+
+Verification
+
+Both generated full frames and both actual reader screenshots were inspected, along with the composed Kazama portrait beside Takeo. The Takeo UI smoke passed. Height lookup and retained input/output/backup hashes passed. Final unit and patch checks are recorded in the evidence document. Nonfatal missing-sound warnings remain; no full campaign playthrough claimed.
+
+## Save compatibility
+
+No migration, progression or combat change. Restart clears stature and image caches; custom profiles retain their saved height.
+
+## Evidence and historical limits
+
+Explicit user height correction on 2026-11-15. Built-in image_gen performed two targeted edits. Exact prompts, input snapshots, superseded records, original outputs and reader evidence are retained in the linked workspace.
+
+- character_stature.py
+- assets/portraits/stature.json
+- flashback_character_references.json
+- media-workspace/kazama-height-2026-11-15/README.md
+- media-workspace/kazama-height-2026-11-15/replacements.json
+
+
+---
+
+# April’s backstory: captivity, escape and the search for her parents
+
+release-2026-11-15-april-backstory-canon | Release | Story
+Date: 2026-11-15
+
+April’s confirmed history now follows Vendetta: she escaped Shinokami captivity and is still searching for her parents. Her campaign remains a planned scaffold.
+
+## Details
+
+Changed
+
+The current April conversation reference and RPG dossier no longer state that her parents died. The user confirmed adopting her Vendetta origin: born in Taiwan to enslaved parents, taken into Shinokami captivity, herself enslaved, and escaped during an Interpol siege. Their fate remains unknown. Her Hong Kong childhood with Garrett and their move to Winterfield remain; exact escape ages, rescuer and guardianship are not invented. This history is private, not automatic knowledge for friends or other listeners. April’s owner-facing character-selection biography mentions the escape and ongoing search. Existing Polymath limits now agree across the dossier and world reference; no combat mechanics changed.
+
+Access
+
+Restart to load the revised biography in April’s character-selection preview. The authored conversation reference supplies private background under the existing disclosure system. No April campaign button, chapters, map locations or historical visits are released.
+
+Planning
+
+MH-027 records The People Behind the Numbers: fourteen proposed chapters, six local choice groups and four disabled historical subjects. The JSON scaffold is inactive and is not imported by the game. Proposed evidence and parent-search developments remain proposals.
+
+Verification
+
+Structural/source/link checks passed, including twelve choice options, eleven shared-event anchors and low-trust privacy. Full checks and limitations are recorded in roadmap/APRIL_CAMPAIGN_VERIFICATION.md; the wider conversation suite has four failures and one error involving other character data. This entry does not claim that suite or a playable campaign passed. No UI/layout or media changed.
+
+## Save compatibility
+
+No save migration or campaign progress is added. Restart loads the changed biography. Existing saves and stored conversations are preserved; older saved statements are not erased or rewritten. No new campaign or historical visit is unlocked.
+
+## Evidence and historical limits
+
+User explicitly selected adapting the Vendetta backstory into game canon on 2026-11-15. Reference/biography correction implemented locally; campaign design is not release evidence. External reference documents remain unchanged.
+
+- roadmap/APRIL_CAMPAIGN_PLAN.md
+- roadmap/APRIL_CAMPAIGN_VERIFICATION.md
+- writing/story-skills/adaptations/interactive/april_campaign_scaffold.json
+- Mysterious Hearts - Character References.md
+- Mysterious Hearts - RPG Game.md
+- Mysterious Hearts - Worldbuilding.md
+- character_biographies.py
+
+
+---
+
+# Takeo campaign directions and clear next steps
+
+release-2026-11-15-takeo-progression-directions | Release | Story
+Date: 2026-11-15
+
+Fixed the TK-02 wait-only screen and made campaign next steps and genuine waits explicit.
+
+## Details
+
+Fixed
+
+TK-02 could stop drawing after its wait button because Meridian entry was looked up as a legacy town location. Campaign directions now resolve canonical interior room labels correctly, restoring the destination and Open Maps button.
+
+Changed
+
+Takeo Story displays the next phase action. Within the correct building it directs you back to the location to enter the objective room. Waiting is offered only for an actual journey, recovery or pending Keisuke arrival, with an explanation. Actions and history remain in person; Maps selection still owns travel.
+
+Access
+
+Restart and load your existing story, then open In person > Stories & organisations > Story. For TK-02 travel to Meridian regional command complex and read the chapter scene in Meridian entry. Already-arrived saves retain their current action or recollection.
+
+Verification
+
+24 Takeo tests and five shared navigation tests passed. Four new real-Tk tests cover departure, Maps handoff, arrival, all fourteen briefing boards and pending appointments. An in-memory negative control reproduced the original KeyError. Four rendered progression states were inspected; full Takeo UI and 34-page phone dark-theme smokes passed.
+
+Known limitations
+
+Desktop checks emitted existing nonfatal missing-sound warnings. No full manual campaign playthrough is claimed.
+
+## Save compatibility
+
+No migration or reset. Restart to load the fixed UI; existing chapters, recollections, receipts and outcomes remain unchanged. User save files were not edited.
+
+## Evidence and historical limits
+
+Reproduced and repaired locally on 2026-11-15. Actual commands, plugin review, logs and visual evidence are recorded in the linked MH-018 follow-up. Existing releases were preserved.
+
+- roadmap/TAKEO_PROGRESSION_FIX.md
+- campaign_navigation.py
+- takeo_campaign_ui.py
+- tests/test_takeo_progression_ui.py
+- tests/takeo_progression_ui_smoke.py
+
+
+---
+
+# Campaign illustration anatomy and piano corrections
+
+release-2026-11-15-campaign-shot-anatomy-corrections | Release | Artwork
+Date: 2026-11-15
+
+Reviewed all 80 active campaign paintings and corrected four shots with anatomy or piano-key errors.
+
+## Details
+
+Fixed
+
+Takeo CS-TK04B now has a complete five-digit hand. Sylvanis CS-SY05 now shows the mother's complete advancing forearm and separate hand, with a readable interception. Elias CS-EL01 and Ivan CS-IV01 have corrected piano-key grouping. The remaining 76 paintings are byte-for-byte unchanged. Prior images, exact edit prompts, reference snapshots and hashes are retained.
+
+Access
+
+Restart the game, then view the corresponding existing campaign scenes through In person > Story. Scene IDs, unlocks and progression are unchanged.
+
+Verification
+
+All 80 current paintings were visually screened on 960-pixel-wide-per-image sheets. Suspect details and the four corrected generated frames were inspected full-size. Four affected campaign reader smokes passed, and each corrected reader image was inspected (Elias and Ivan at compact 24pt). Asset audit passed for all 80 images, including four backup/input/output chains and 76 unchanged hashes. Campaign suites: Takeo 20/20, Elias 23/24, Ivan 25/25, Sylvanis 19/19.
+
+Known limitation
+
+The unrelated Elias historical-profile test still expects an empty unique-move list, conflicting with the authorised historical-strength update; the isolated failure and complete diff are retained. Nonfatal missing-sound warnings remain. No full manual playthrough or pixel-level certification of every small background detail is claimed.
+
+## Save compatibility
+
+No save migration or progression changes. Restart clears cached paintings. Existing scenes and historical identities remain unchanged.
+
+## Evidence and historical limits
+
+Built-in image_gen edits performed and visually reviewed on 2026-11-15. Exact prompts, input snapshots, output originals, superseded manifests and actual in-person reader screenshots retained in the audit workspace. Full test and asset logs under .test-tmp/campaign-shot-audit-2026-11-15/. No external provider or API-key workflow used.
+
+- roadmap/CAMPAIGN_SHOT_REBUILD.md
+- media-workspace/campaign-shot-audit-2026-11-15/README.md
+- media-workspace/campaign-shot-audit-2026-11-15/inventory.json
+- media-workspace/campaign-shot-audit-2026-11-15/replacements.json
+
+
+---
+
+# All established campaign illustrations rebuilt
+
+release-2026-11-14-campaign-shots-complete | Release | Artwork
+Date: 2026-11-14
+
+All80 active illustrated shots now use current portrait designs, consistent manhwa rendering and revised camera staging.
+
+## Details
+
+Changed
+
+Completed the final16 shared Rei, Garrett and Interpol paintings, bringing the rebuild to80 of80 across all established campaigns. Historical portraits remain era-specific. Physical confrontations use coherent anatomy and grounded movement; combat effects follow authored abilities. Character stature accounts for pose and perspective. Crow remains fully concealed in Interpol scenes. Shared scenes preserve all18 existing source bindings, including separate route histories and pre/post-combat gates. Current Charles portraits replace older appearance details in the reunion.
+
+Access
+
+Use the existing in-person Story reader and unlocked campaign memories. Restart the game to clear cached artwork. No new progression or unlock requirements.
+
+Verification and limits
+
+All80 generated paintings visually inspected. Every replacement reviewed in actual reader renders; final shared batch inspected through normal/compact24pt contact sheets with full-size combat/concealment spot checks. Eight campaign-specific UI smokes plus the shared16-shot/32-screen smoke passed, exit0. Earlier174 route tests passed; final shared suite passed71 of72. The remaining Garrett-status test expects Syndicate standing35 while current criminal_dynamics.baseline and crime_diplomacy.ensure produce15; isolated rerun reproduces this unrelated gameplay expectation mismatch. No gameplay change was made. The first isolated rerun also hit default temporary-directory permissions; workspace-temp rerun removed that error. Final asset audit passed80 distinct replacements,169 exact reference snapshots, original-byte backups, exact prompts and output dimensions/opacity/hashes. Nonfatal missing-sound warnings remain. No manual full campaign playthrough claimed.
+
+## Save compatibility
+
+No save migration, scene-ID, choice, outcome or unlock changes. Existing saves remain compatible; restart clears artwork caches.
+
+## Evidence and historical limits
+
+Built-in imagegen; assistant visual and actual Tk reader review. Exact generation model unverified. Original bytes, rejected candidates and superseded provenance retained; no user sign-off claimed.
+
+- roadmap/CAMPAIGN_SHOT_REBUILD.md
+- media-workspace/campaign-shot-rebuild-2026-11-14/README.md
+- media-workspace/campaign-shot-rebuild-2026-11-14/inventory.json
+- media-workspace/campaign-shot-rebuild-2026-11-14/shared-replacements.json
+- media-workspace/campaign-shot-rebuild-2026-11-14/verify_all.py
+- tests/campaign_core_art_ui_smoke.py
+- tests/test_garrett_status.py
+- criminal_dynamics.py
+- crime_diplomacy.py
+
+
+---
+
+# Neo: eighteen rebuilt campaign illustrations
+
+release-2026-11-14-campaign-shots-neo | Release | Artwork
+Date: 2026-11-14
+
+Independent wide paintings replace the old paired-sheet crops, matching current and historical portraits.
+
+## Details
+
+Changed
+
+The opening and return-home scenes retain Neo and Alyssa’s apartment. Childhood and school scenes use exact-age portraits without adult tattoos or earrings. Evacuation preserves Mariko’s offscreen death and the father’s living medical-chair handoff. Transport scenes visibly account for six passengers and recovered paperwork. Extraction preserves protected care before adoption. Hachimura remains alive in custody and Thirteen receives immediate care. Neo’s ability is conveyed through positioning rather than invented energy or implants. The final community beat now shows Soren repairing Alfheim with his corrected appearance.
+
+Access
+
+Existing in-person Neo Story scenes and earned memories. Stable scene IDs and outcomes remain unchanged.
+
+Verification
+
+22 affected tests passed and the full Neo UI smoke passed. All18 full paintings and all18 reader renders were inspected; compact24pt opening also checked. An extra hand in one childhood candidate was rejected and removed. Exact prompts, reference snapshots, hashes and original paintings are preserved. Old unused sequence sheets remain historical evidence. Nonfatal missing-sound warnings remain. Overall64/80 paintings complete; shared16 remain. No manual full playthrough claimed.
+
+## Save compatibility
+
+No migration or progression changes; restart to clear cached artwork.
+
+## Evidence and historical limits
+
+Built-in imagegen and assistant full-frame/reader inspection; exact execution model unverified; no user sign-off claimed.
+
+- media-workspace/campaign-shot-rebuild-2026-11-14/README.md
+- media-workspace/campaign-shot-rebuild-2026-11-14/neo-replacements.json
+- tests/neo_campaign_ui_smoke.py
+- roadmap/CAMPAIGN_SHOT_REBUILD.md
+
+
+---
+
+# Ivan: rebuilt campaign illustrations
+
+release-2026-11-14-campaign-shots-ivan | Release | Artwork
+Date: 2026-11-14
+
+Nine illustrations match current portraits with clearer anatomy, combat staging and preserved outcomes.
+
+## Details
+
+Changed
+
+The opening and recovery scenes retain Ivan and Valentina’s familial relationship and established piano alcove. Adult archival review remains separate from inaccessible early history. The group confrontation identifies all five friends, shows Ivan’s red lightning attack channel and preserves his deliberate sparing before Sylvanis arrives. The glove wound stays small; Sylvanis remains concealed and Ivan survives defeat. Two visual errors were rejected and corrected before installation.
+
+Access
+
+Existing in-person Ivan Story scenes and unlocked archival account. No new historical visits are enabled.
+
+Verification
+
+25 affected tests and the full Ivan campaign UI smoke passed. All nine generated frames and actual reader renders were visually inspected, alternating normal and compact24pt screenshots. Full logs and exact provenance are in the evidence directory. Nonfatal missing-sound warnings remain. Overall rebuild46/80; Neo18 and shared16 remain. No full playthrough claimed.
+
+## Save compatibility
+
+No save migration, progression or outcome changes; restart to clear artwork caches.
+
+## Evidence and historical limits
+
+Built-in imagegen; exact execution model unverified. Assistant full-frame and actual reader visual inspection; no claimed user sign-off.
+
+- media-workspace/campaign-shot-rebuild-2026-11-14/README.md
+- media-workspace/campaign-shot-rebuild-2026-11-14/ivan-replacements.json
+- tests/ivan_campaign_ui_smoke.py
+- roadmap/CAMPAIGN_SHOT_REBUILD.md
+
+
+---
+
+# Historical combat capabilities and campaign mission markers
+
+release-2026-11-14-campaign-combat-and-marker-fixes | Release | Gameplay
+Date: 2026-11-14
+
+Historical Mavis, Martos and Elias retain strong awakened combat kits; Ivan and Sylvanis regain mission wayfinding.
+
+## Details
+
+Fixed
+
+Ivan and Sylvanis now publish their current mission to Maps and in-person room guidance. Mission diamonds, the Missions filter, objective-room text and next-door hints follow the route and clear on completion. Saved Sylvanis scene transitions and the headquarters follow-up after arena shutdown retain their correct destinations.
+
+Venn, Rusk and Broker encounters now use fight IQ 72 instead of an ignored field that left the effective value at 10. The previous Spade keeps its separate veteran baseline.
+
+Changed
+
+All playable adult historical fights for Mavis, Martos and Elias now use at least their canonical current stats and strength/endurance multipliers, with their established awakened Trait, unique skills, amplifications and master martial moves. Historical Elias can build and deliver Pyromovement heat. Early-service Martos can use Rage and master Military CQC alongside his authored era disciplines. Old dormant gameplay profiles receive an Awakening floor, without importing later Path history or advanced forms. Historical names, ages, portraits, knowledge and fixed outcomes remain intact. Scripted recollections are still scripted; Ivan’s unresolved-age optional visits remain held.
+
+Access
+
+Restart and open In person → Story. Use Maps → Missions for campaign destinations. In a playable historical encounter, choose Martial or Unique skills, or add a Trait amplification, then Resolve exchange. All actions still require their normal finite resources.
+
+Verification
+
+The broad campaign/combat/save/marker run passed 264 tests. A subsequent new zero-health migration check and final relevant reruns passed, including 57 final combat/save tests. Actual Tk checks passed eight-route mission refresh/completion, compact Maps, historical unique/master actions, heat buildup and legacy-save resume; all 34 phone dark-theme pages passed. Existing missing-sound warnings remain. These are automated checks and assistant rendered inspection, not a human full playthrough.
+
+## Save compatibility
+
+Restart to load the changed modules. Supported active historical sessions upgrade on load or idle encounter open. The upgrade preserves damage and mana already spent while raising capacity; stamina, exchange history, pending narration, RNG, story receipts and present-day state remain intact. Zero health stays zero; custom/unsupported profiles and finished encounters are not rewritten. Existing opponent snapshots remain unchanged; corrected opponent IQ applies to new encounters or explicit retries.
+
+## Evidence and historical limits
+
+Directly authorised campaign-audit follow-up, implemented and verified locally on 2026-11-14. Logs and rendered evidence are retained under .test-tmp/campaign-audit-fixes and .test-tmp/campaign-audit-2026-11-14. Existing releases preserved.
+
+- historical_combat.py
+- combat_balance.py
+- campaign_markers.py
+- ace_campaigns.py
+- martos_campaigns.py
+- elias_campaigns.py
+- game_core.py
+- tests/test_historical_combat.py
+- tests/test_campaign_markers.py
+- tests/campaign_audit_fixes_ui_smoke.py
+- roadmap/CAMPAIGN_AUDIT_FIXES.md
+
+
+---
+
+# Martos, Camila and Mavis: rebuilt campaign illustrations
+
+release-2026-11-14-campaign-shots-martos-camila-mavis | Release | Artwork
+Date: 2026-11-14
+
+Fourteen paintings now match current era portraits with clearer staging, hands, stature and concealment.
+
+## Details
+
+Changed
+
+Five Martos scenes preserve conventional versus operator clothing, his 201 cm stature, responsibility at the cordon, Sera’s supported injury and the protected-door priority. Five Camila scenes preserve childhood proportions and ordinary care, the missing-evidence lesson, future succession without a current transfer, and sealed Diamonds confrontation before combat. Four Mavis scenes use her corrected age-20 identity and 158 cm stature, distinguish the predecessor’s uniform, preserve the bounded recruitment offer, and use the established inner collection room. A threshold candidate with a latch on concrete was rejected and corrected to a coherent steel door.
+
+Access
+
+Use existing in-person Story scenes and unlocked memories for these campaigns. Scene IDs, source anchors, choices and outcomes are unchanged.
+
+Checks and limits
+
+64 affected tests passed: 21 Martos, 22 Camila and 21 Mavis. All three campaign UI smokes passed, including all fourteen paintings at normal and compact reader sizes. Every full generated image and a reader render for each was inspected. Nonfatal missing-sound warnings remain. Martos and Camila format assertions now require at least 1500 by 900 pixels and 16:9 aspect ratio, retaining independent source and hash contracts; the prior Camila height-only failure log is preserved. Prompts, exact input snapshots, original images and superseded production records are retained. Overall rebuild is 37 of 80 paintings; 43 remain. No full campaign playthrough claimed.
+
+## Save compatibility
+
+No migration or progression changes. Existing saves and unlocks remain; restart to clear artwork caches.
+
+## Evidence and historical limits
+
+Built-in imagegen and assistant full-image/actual Tk reader review. No claimed user sign-off or verified execution model. Original rejected candidate and correction retained.
+
+- media-workspace/campaign-shot-rebuild-2026-11-14/README.md
+- media-workspace/campaign-shot-rebuild-2026-11-14/martos-replacements.json
+- media-workspace/campaign-shot-rebuild-2026-11-14/camila-replacements.json
+- media-workspace/campaign-shot-rebuild-2026-11-14/mavis-replacements.json
+- tests/test_martos_presentation.py
+- tests/test_camila_presentation.py
+- tests/test_mavis_presentation.py
+- roadmap/CAMPAIGN_SHOT_REBUILD.md
+
+
+---
+
+# Elias: rebuilt campaign illustrations
+
+release-2026-11-14-campaign-shots-elias | Release | Artwork
+Date: 2026-11-14
+
+Six paintings follow current era portraits, readable physical staging and movement-earned heat.
+
+## Details
+
+Changed
+
+All six Elias campaign paintings were rebuilt. The childhood piano scene uses the age-ten identity. The courtyard victory shows movement-earned heat and retreating attackers without a rescuer. The separate Crow duel preserves near-equal adult stature, opaque concealment, analytical positioning and a readable shoulder/wrist pin. The settlement keeps Johanna’s administrative role separate from Elias’s service. The public-performance shot now includes the unnamed scene partner described in the source and places the audience in front of the stage.
+
+Access
+
+Open the existing in-person Story and unlocked memories. Existing scene IDs and outcomes remain unchanged.
+
+Checks and limits
+
+24 Elias tests and the full campaign UI smoke passed, including normal/compact/24pt reader rendering and existing combat, duel and final mission fixtures. All six generated paintings and six actual reader renders were visually inspected. Nonfatal missing-sound warnings remain. Original images, manifests, exact prompts and reference snapshots are retained. This brings the active rebuild to 23 of 80 paintings; 57 remain pending. No full playthrough is claimed.
+
+## Save compatibility
+
+No migration or progression changes. Restart to clear cached artwork.
+
+## Evidence and historical limits
+
+Built-in imagegen; exact generation references and superseded production records retained. Assistant full-frame and actual Tk reader review; no user sign-off or specific execution model claimed.
+
+- media-workspace/campaign-shot-rebuild-2026-11-14/README.md
+- media-workspace/campaign-shot-rebuild-2026-11-14/elias-replacements.json
+- tests/test_elias_presentation.py
+- tests/elias_campaign_ui_smoke.py
+- roadmap/CAMPAIGN_SHOT_REBUILD.md
+
+
+---
+
+# Takeo and Sylvanis: rebuilt campaign illustrations
+
+release-2026-11-14-campaign-shots-takeo-sylvanis | Release | Artwork
+Date: 2026-11-14
+
+Seventeen campaign paintings now follow the corrected portraits with revised staging, anatomy and combat ability presentation.
+
+## Details
+
+Changed
+
+All ten Takeo paintings and all seven Sylvanis paintings have been rebuilt. Kazama now carries his corrected long black hair, pointed beard and black/purple robes through both historical angles. Arakawa and Garrett/Charles’s parents match their corrected portraits. Camera staging, relative stature, contact poses and hands were reviewed; a three-arm Takeo candidate was rejected and corrected before installation. The archive action shows Nanoengine reinforcement; the masked confrontation distinguishes Sylvanis’s shadow manipulation from Crow’s tactical physical response. Blank-face historical concealment and opaque operational masks remain.
+
+Access
+
+Use the existing in-person Story and memory scenes for Takeo and Sylvanis. Scene IDs, sequence bindings, choices and campaign outcomes are unchanged.
+
+Validation and limits
+
+Thirty-nine affected tests passed (20 Takeo, 19 Sylvanis), and both full campaign UI smokes passed. All seventeen full generated frames and actual reader renders were inspected. Exact prompts, input snapshots/hashes, prior production files and superseded provenance are retained. UI fixtures reported nonfatal missing-sound warnings. This completes only this seventeen-image batch: the other 63 inventoried campaign paintings remain pending. No full campaign playthrough is claimed.
+
+## Save compatibility
+
+No migration or progression change. Existing saves and unlocked memories retain their state. Restart the game to clear cached artwork.
+
+## Evidence and historical limits
+
+Built-in imagegen generation/editing, full-frame and actual Tk reader inspection, route tests and UI smokes performed for this batch. Original model identity unverified. Other campaign replacements are not released by this entry.
+
+- media-workspace/campaign-shot-rebuild-2026-11-14/README.md
+- media-workspace/campaign-shot-rebuild-2026-11-14/takeo-replacements.json
+- media-workspace/campaign-shot-rebuild-2026-11-14/sylvanis-replacements.json
+- tests/test_takeo_presentation.py
+- tests/test_sylvanis_art.py
+- roadmap/CAMPAIGN_SHOT_REBUILD.md
+
+
+---
+
+# Kazama, Garrett’s parents and Soren: design corrections
+
+release-2026-11-14-kazama-parents-soren-design | Release | Artwork
+Date: 2026-11-14
+
+Four portrait revisions follow the supplied Kazama design, further stylise Garrett’s parents and restore Soren’s defining features.
+
+## Details
+
+Changed
+
+Shinzo Kazama now follows the supplied body and expression sheets: long black hair and beard, purple-accented layered robes and ragged cloak, with a less aged face. Garrett and Charles’s father and mother have more stylised manhwa facial construction. These are Garrett’s parents, not Sylvanis’s; existing story text and speaker names were already correct. Soren now has black hair, purple eyes and visible blackwork tattoos, retaining his elf identity and gangster clothing.
+
+Access and validation
+
+The portraits appear through existing in-person Story and memory scenes in the Takeo, Sylvanis and Neo campaigns. All four were inspected individually, on three backgrounds and in actual reader screenshots. Fifteen affected provenance/presentation tests and all three campaign UI smoke checks passed. Exact prompts, references, hashes and previous versions are retained.
+
+## Save compatibility
+
+No save migration or progression changes. Restart to refresh cached portraits. Runtime paths remain unchanged.
+
+## Evidence and historical limits
+
+User-directed follow-up to the 69-portrait style audit. Built-in imagegen used; installed and visually checked 2026-11-14. Verification logs and actual reader captures are retained in the user-corrections folder.
+
+- assets/portraits/ARTSTYLE.md
+- media-workspace/portrait-style-audit-2026-11-14/user-corrections/README.md
+- media-workspace/portrait-style-audit-2026-11-14/user-corrections/staged.json
+- roadmap/CAMPAIGN_PORTRAIT_STYLE_AUDIT.md
+
+
+---
+
+# Campaign portraits: consistent MH-013 facial style
+
+release-2026-11-14-campaign-portrait-facial-style | Release | Artwork
+Date: 2026-11-14
+
+Reviewed 69 transparent portraits across six campaigns and corrected 27 overly realistic portraits to match the main-game manhwa style.
+
+## Details
+
+Changed
+
+Neo: 2 of 13 portraits corrected; Takeo: 6 of 11; Sylvanis: 3 of 8; Martos: 3 of 14; Elias: 7 of 12; Camila: 6 of 11. The other 42 remain unchanged. Corrections use deliberately illustrated eyes, eyelids, face contours and nose/lip planes while preserving character identity, age, complexion, costume and contextual props.
+
+Future portrait generation now explicitly requires facial-design consistency as well as lighting and linework. Male masters: Martos, Ivan and Garrett. Female masters: Emily, April and Alyssa.
+
+Access
+
+Continue existing campaign Story and memory scenes through the in-person window. Existing portrait paths and scene bindings are preserved.
+
+Validation
+
+All 69 originals were visually reviewed. All 27 corrections were inspected individually, on three diagnostic backgrounds and through the actual reader. 45 portrait/presentation tests, all six campaign UI smoke checks and the 34-page phone dark-theme smoke passed. Exact prompts, hashes and backups are retained. This is a portrait correction, not a full campaign playthrough certification.
+
+## Save compatibility
+
+No save migration or progression changes. Restart the game to clear cached portraits. Existing stories remain compatible.
+
+## Evidence and historical limits
+
+Installed and visually verified on 2026-11-14 using built-in imagegen. Historical production manifests and previous live bytes are preserved; explicit correction provenance records supersede only the 27 listed assets. Verification logs: .test-tmp/portrait-style-audit-2026-11-14/.
+
+- assets/portraits/ARTSTYLE.md
+- roadmap/CAMPAIGN_PORTRAIT_STYLE_AUDIT.md
+- media-workspace/portrait-style-audit-2026-11-14/README.md
+- media-workspace/portrait-style-audit-2026-11-14/corrections.json
+- tests/test_campaign_portrait_style.py
+
+
+---
+
+# Neo Ishida: A Life of His Own
+
+release-2026-11-14-neo-a-life-of-his-own | Release | Campaigns
+Date: 2026-11-14
+
+Neo’s complete fourteen-chapter campaign, six memories, three historical areas and new illustrated scenes.
+
+## Details
+
+Added
+
+Restart, choose or load Neo, then open the in-person window → Stories & organisations → Story → Start Neo’s campaign. Follow Story objectives and earned Maps destinations; all campaign activities take place in person. Fourteen chapters, six required memories, eleven actual encounters, ten captive handoffs and the full aftermath are available. School, adoptive home (two periods) and facility visits provide thirteen connected historical rooms.
+
+Mariko is campaign-only/non-playable and the sole present-day death. Tyler’s father survives with his disability; Hachimura and Thirteen survive in custody. Neo and Alyssa retain their partnership and home. Optional visits preserve the live world and cannot complete required memories. Private disclosures and custody are saved per route.
+
+Artwork
+
+Thirteen transparent head-to-mid-thigh portraits, twenty-four location paintings and nine illustrated two-shot sequences (eighteen core frames). Tyler and Daniel retain their own identities; Soren has distinct gangster styling; child Thirteen uses his own adult design reference. Exact prompts, originals, reference hashes and accepted revisions are retained locally.
+
+Validation and limits
+
+Seventeen Neo behavioral tests passed, including a resolver-backed full route with save/reload. Six relevant UI smokes passed, covering dark phone/Maps, normal and compact scenes, historical visits and combat controls. All thirteen portraits passed local alpha validation. Scoped Story CLI checks passed. The broader 276-test suite had 268 passes, seven failures and one error in shared/other-route roster, status and artwork expectations; full details are in the release evidence. No human beta playtest or live generated-dialogue quality certification is claimed.
+
+## Save compatibility
+
+Restart to load changed code. Additive versioned Neo state defaults to unstarted on existing saves. Opening Story does not start the route or force deaths. Earned outcomes, disclosures, custody and historical visit state persist; other protagonists do not inherit Neo outcomes. No player-owned save was overwritten during verification.
+
+## Evidence and historical limits
+
+Implemented and visually reviewed in the user-authorised current-model workstream on 2026-11-13/14. Release date is actual local delivery. Evidence distinguishes successful route checks, retained broader-suite failures and human/live-dialogue limits. Built-in imagegen and restricted local validation were used; no named image model is inferred.
+
+- neo_campaigns.py
+- neo_campaign_content.py
+- neo_campaign_ui.py
+- neo_history.py
+- neo_campaign_visuals.py
+- tests/test_neo_campaigns.py
+- tests/neo_campaign_ui_smoke.py
+- roadmap/NEO_RELEASE_EVIDENCE.md
+- media-workspace/neo-campaign/manifest.json
+
+
+---
+
+# Ivan Yeun · A Life on Loan
+
+release-2026-11-13-ivan-life-on-loan | Release | Campaigns
+Date: 2026-11-13
+
+Play Ivan’s eighteen-chapter campaign with five generals, four new persistent residents, distinct combat kits and 27 new illustrations.
+
+## Details
+
+Added
+
+Select Ivan and open In person → Stories, guards & gang properties → Story. Use Maps, room navigation and the chapter appointment control for actual arrivals. All physical scenes, historical visits and fighting stay in person. Sowon, Kouji Mitaka, Paul Samsen and Somchai are persistent residents and Ivan starts with their contacts; other protagonists can meet them normally. Existing saves receive additive residents/contact migration without resetting explicit contact choices, nicknames or relationships. No Grove account or new romance/protagonist is invented for them.
+
+A Life on Loan has eighteen chapters, eight bounded historical accounts, local choices with callbacks, and one protected ending. Ivan defeats April, Garrett, Neo, Daniel and Tyler and deliberately spares them before Sylvanis arrives. He draws a little blood, loses and remains a captive Syndicate member, attempting restraint with friends’ support. The six linked tactical samples use actual resolver exchanges and explicit fixed-story outcomes; zero-exchange concession cancels without advancing. No escape, clean absolution, repeated grant or permanent Sylvanis injury is awarded.
+
+Five seven-technique kits plus five shared channel/endurance states implement the generals’ forty planned entries. Blue movement, fire force/stability, ice reaction and local footing/barrier, red attack amplification and wind soul injury/endurance remain distinct and finite. Non-wind generals cannot activate Misanthropy; Somchai does not automatically agree to friendly sparring; restrained sparring suppresses soul injury. New general B baselines do not alter Ivan A+ or Sylvanis S+.
+
+Artwork
+
+Thirteen room/location paintings, five transparent main-style portraits including Ivan at eighteen, and nine illustrated shots in three sequences are installed. Four portrait sources are reused in ordinary combat. Portraits match the main cast’s head-to-mid-thigh crop and drawn manhwa style. Somchai has extensive tattoos including his face and a more deranged expression. Opaque operational masks stay concealed; the small blood mark is at Sylvanis’s glove seam. Originals, supplied identity references, exact prompts, hashes and superseded drafts are retained locally. Built-in image generation supplied the art; its exact model identity was not exposed.
+
+Known historical boundary
+
+Eight historical periods are registered in three collections. The independently referenced age-eighteen waiting interval has three connected rooms and harmless inspection/practice with exact present-state restoration. Seven periods with unspecified required ages/reference data remain deliberately locked under the user’s instruction. Birth/fetal material is archival, never playable infant memory. No ages or parent identities were invented to bypass the gate.
+
+Verification
+
+Twenty-three Ivan tests pass. The focused shared-system subset passes 110 tests; the separately recorded full diagnostic run of 115 tests still has four failure records and one error in two existing suites: three Valentina attraction expectations, a Garrett faction-standing expectation and a restricted Glasshouse travel assumption. The full run is not claimed green. Four intentional negative controls were caught by assertions. Ninety-six seeded resolver samples completed without runtime errors; they are descriptive, not guaranteed matchup outcomes. Actual Tk Story/reader normal and compact states, 24pt text, all portraits/shots, historical rooms, dark contacts/threads and four combat profiles were rendered. The 34-page dark-phone smoke passes. Live provider-generated dialogue and a human beta read were not performed. Existing sound-load warnings remain; no new audio is included.
+
+## Save compatibility
+
+Restart the game to reload Python modules and cached artwork. Existing Ivan saves can start the new additive route; no reset is needed. Phone numbers are append-only. Existing relationships, edited names, explicit contact decisions, other campaigns, custody and world progress are retained. Historical visits preserve the suspended present and retain only their separate journal. The birth-sale/trade origin and Queen of Death title correct conflicting future dialogue/reference layers without rewriting past transcripts. Seven historical periods remain locked pending age/reference decisions.
+
+## Evidence and historical limits
+
+Implemented in the current Codex chat under the user’s explicit current-model and treatment/art approvals on 2026-11-13. Story Skills, Writer’s Loop, Context Guard, falsegreen-skill and DESIGN:OS design guidance applied as recorded in the progress document. Built-in raster generation and local Python/Tk tooling used; no Astra/Sol execution, external provider, keys, payments, sign-in or publication claimed. Actual results and full diagnostic failures are recorded separately from planned tasks and release content.
+
+- ivan_campaigns.py
+- ivan_campaign_content.py
+- ivan_generals.py
+- ivan_general_combat.py
+- ivan_history.py
+- tests/test_ivan_campaigns.py
+- tests/ivan_campaign_ui_smoke.py
+- media-workspace/ivan-campaign/manifest.json
+- assets/campaigns/ivan/core/catalog.json
+- roadmap/IVAN_IMPLEMENTATION_PROGRESS.md
+
+
+---
+
+# Takeo Mishima · Empire of One
+
+release-2026-11-13-takeo-empire-of-one | Release | Campaigns
+Date: 2026-11-13
+
+Play Takeo’s complete fourteen-chapter campaign, eight memories and Meridian command crisis, with 36 new illustrations.
+
+## Details
+
+Added
+
+Select Takeo Mishima for a new story, then open In person → Stories, guards & gang properties → Story. Maps leads to the objective rooms. All meetings, historical visits, combat and aftermath remain in person. Takeo starts at Kestrel with Nanoengine, no Grove, and exactly Sylvanis, Number Thirteen and Keisuke Hachimura as personal contacts. His age is roughly 56, with slow visible ageing.
+
+Empire of One contains fourteen chapters, eight required recollections, four optional historical periods and eleven connected rooms. Five actual combat encounters and preservation/archive objectives resolve Meridian’s three-sided crisis. Two transport priorities change the material cost while preserving the confirmed single ending: the bridgehead and Thirteen’s command survive, and Takeo personally destroys the unique local programme archive. The full aftermath settles Keisuke’s supervised reporting, independent Sylvanis terms and the high-level escaped/active designation index. No Neo reunion/address or global war is triggered.
+
+Artwork
+
+Fifteen location paintings, eleven transparent portraits and ten illustrated shots across five ordered sequences use the existing semi-realistic manhwa presentation. Exact-era children/adolescents, current identities and opaque tactical masks are preserved. Built-in image generation/editing supplied the raster art; its model identity was not exposed. Originals, exact prompts, references, hashes, rejected attempts and review evidence are retained locally.
+
+Verification and limitations
+
+Twenty Takeo tests pass, including both complete paths through real resolver exchanges, saves, cancellation, retry, exact-once outcomes, contact/Grove and historical isolation. The broader run has 280 passes from 285 tests, five documented unrelated failures and no errors/skips. Six relevant UI smokes pass, including the 34-page dark-phone audit and the new route’s normal/compact reader, 24pt text, portrait/shot rendering, combat and historical states. Story Skills CLI checks pass with zero errors/warnings. Live generated dialogue and an independent human beta read were not performed. Legacy sound-load warnings remain; no new audio is included. See the release evidence for full logs and the exact unrelated Grove/lore failures.
+
+## Save compatibility
+
+Restart to reload code and cached art. Begin a new Takeo story to access the route. Progress, memories, checkpoints, receipts and appointments are additive and Takeo-scoped. Existing protagonists keep their saves, contact gates, custody, dialogue transcripts and campaign outcomes. No reset, global faction war or cross-route outcome import. Reference corrections affect future dialogue only.
+
+## Evidence and historical limits
+
+Implemented at the user’s 2026-11-13 request, including explicit current-model authorisation and built-in artwork production. Actual test/visual/media evidence is linked; plugin allocation is distinct from execution. No external provider, sign-in, API key, payment or publication.
+
+- takeo_campaigns.py
+- takeo_campaign_content.py
+- takeo_campaign_visuals.py
+- takeo_campaign_ui.py
+- tests/test_takeo_campaigns.py
+- tests/test_takeo_history.py
+- tests/test_takeo_presentation.py
+- tests/takeo_campaign_ui_smoke.py
+- roadmap/TAKEO_RELEASE_EVIDENCE.md
+- roadmap/TAKEO_EDITORIAL_AND_TEST_REVIEW.md
+- media-workspace/takeo/installed.json
+
+
+---
+
+# Sylvanis — The Crow’s Patience
+
+release-2026-11-13-sylvanis-the-crows-patience | Release | Campaigns
+Date: 2026-11-13
+
+Sixteen chapters, ten fixed histories, Before the Cards visits and a private arena shutdown with two consequential aftermaths; 25 illustrated assets and corrected main-portrait framing.
+
+## Details
+
+Added
+
+Select or load Sylvanis, then open In person → Stories, guards & gang properties → Story → The Crow’s Patience. Follow actual room objectives through Maps and arrange the required appointments. Charles stays in the Glasshouse; Takeo receives the authored meetings at headquarters. The Crow’s private arena appearance requires its explicit finite appointment. No physical activity runs on the phone.
+
+Sixteen chapters and ten mandatory histories cover wartime arrival, immediate criminality/mastery/fear, the genuinely protective Organisation and Kaden Mourne, the open conspiracy and coup, expansion, live trials, the eastern murders, Charles’s admission and the first Takeo supply agreement. Kaden asks his required question while alive. Sylvanis willingly chooses evil for amusement and never redeems himself. The bespectacled conspirator’s face stays featureless; parentage is implied, never confirmed.
+
+Before the Cards supplies six optional rooms in four unlocked periods with exact-era reference/voice pairs, ordinary activities, conversations and a separate journal. Recollections cannot change the live clock, inventory, relationships or other campaigns. A saved Crow custody outcome remains intact and makes the present route explicitly unavailable.
+
+The exhibition and four-exchange ledger interception use actual combat. Spending real contested exchanges can retain the ledger while the separate arena shutdown proceeds. Exhibition success, physical performance and retained assets are recorded separately, including concession and a retained ledger after a failed display. Both endings close the arena, settle stock/records/equipment and the campaign operating account, then complete the HQ → Takeo HQ → Glasshouse aftermath. Charles’s bounded evidence success survives without completing revenge or disclosing anything to Garrett. The territorial betrayal remains unresolved.
+
+Artwork and presentation
+
+25 accepted paintings: eight transparent portraits, ten locations and seven core story paintings. All eight portraits were regenerated after the user corrected full-body framing; production now matches the main portraits’ head-to-upper-thigh crop. Superseded originals, exact prompts, reference snapshots and hashes are retained. The 138 authored shot elements use dialogue bubbles followed by separate prose pages, reusable staging and selected core paintings, with saved reading/room resumes.
+
+Compatibility
+
+Normal startup also exposed missing selection text and biography for a concurrently added Takeo selection. Those two menu-copy records were supplied without implementing or changing his separate campaign.
+
+Validation and known limits
+
+Nineteen Sylvanis route/art tests pass. Restricted local asset validation passes 25/25 without warnings or VLM calls. Full actual Tk Story, portraits, core scenes, four-period visits, combat, completed and custody-unavailable states were exercised and inspected. Phone dark-theme smoke passes 34 pages plus embedded states; existing Story, startup layout and patch-note reader smokes pass. Story Skills partial-workspace check passes; prose/continuity and falsegreen review findings are documented.
+
+The expanded shared run executes 233 test methods with seven failure records, zero errors/skips: four missing non-Sylvanis combat portraits, an outdated 24-versus-28 roster assertion, and two Glasshouse fixtures expecting privacy/empty NPCs where guards are present. The latter two also fail with Sylvanis hooks disabled. Existing tests were not weakened or skipped. Existing missing configured sound warnings, independent human manuscript review and live generated wording remain outside the certified result. Complete logs and review limits are linked in the release evidence.
+
+## Save compatibility
+
+Restart to load the Python definitions and images. Existing Sylvanis saves gain additive unstarted route state; other stories, identities, contacts, custody, ordinary wallet and inventory are preserved. Mandatory/optional history is isolated, reading and room transitions resume from saved cursors, and spent campaign funds/closure are applied once. No new game is required.
+
+## Evidence and historical limits
+
+Implemented locally on 2026-11-13 under explicit current-model and built-in-artwork authorisation. Actual route/disk/combat/clock/art/UI checks and all unresolved wider failures are recorded in roadmap/SYLVANIS_RELEASE_EVIDENCE.md. No independent agent/model review, external image provider, payment, API-key setup or publication is claimed.
+
+- sylvanis_campaigns.py
+- sylvanis_campaign_content.py
+- sylvanis_campaign_visuals.py
+- sylvanis_campaign_ui.py
+- campaign_memory_areas.py
+- flashback_character_references.json
+- flashback_dialogue_guides.json
+- assets/campaigns/sylvanis/shot-sequences.json
+- media-workspace/sylvanis-campaign/manifest.json
+- tests/test_sylvanis_campaigns.py
+- tests/test_sylvanis_art.py
+- tests/sylvanis_campaign_ui_smoke.py
+- roadmap/SYLVANIS_RELEASE_EVIDENCE.md
+- roadmap/SYLVANIS_EDITORIAL_AND_TEST_REVIEW.md
+
+
+---
+
+# Camila — The Inheritance
+
+release-2026-11-13-camila-the-inheritance | Release | Campaigns
+Date: 2026-11-13
+
+Ace campaign Part 4: Camila’s fourteen-chapter story, eight memories, private family history, costly decisions and illustrated sequences.
+
+## Details
+
+Added
+
+Restart the game, select or load Camila, and open In person → Stories, guards & gang properties → Story → The Inheritance. Follow the objective room through Maps and arrange required professional or voluntary local appointments. Finish local appointments when a private meeting needs the room.
+
+All fourteen chapters and eight required memories cover adoption by the Crow, his direct upbringing and mentorship, ordinary parental care, evidence-bound Analysis, knowing complicity, earned Diamonds appointment and genuine intended succession. She remains Diamonds and intended successor; he remains Cardmaster. Family disclosure is private and recipient-specific. Her lesbian identity, ordinary interests and other Aces’ independent specialist roles remain intact.
+
+The real Meridian crisis requires observed original records, corroboration, signed conditional cooperation, actual combat victory, records recovery, personnel escort and a final one-time allocation. Releasing the East concession leaves 40 fictional reserve units; retaining it leaves 15. Both plans fund payroll and preserve real costs. Defeat leaves the account open for recovery/retry. The finite mandate expires after execution. The complete aftermath includes Inez, Mara, her father and an ordinary chess game.
+
+The House That Raised Her adds six optional rooms across four gated periods with independent historical references/voices, ordinary activities and a local journal. These visits cannot fulfil mandatory memories or change present resources, time, contacts or relationships. Required memories have saved harmless interactions, not childhood combat.
+
+Artwork and presentation
+
+Eleven transparent portraits, seven reusable location paintings and five selected key illustrations are installed in the current semi-realistic illustrated manhwa style. Existing present-day and sealed operational portraits are reused. Other shots use exact-era portraits and room backgrounds, labelled dialogue first and separate short prose afterward. Room changes preserve the exact reading cursor. All images have local production copies, exact prompts, references and hashes.
+
+Verification and limits
+
+170 route/shared regressions pass, including real save/load, both complete authored paths, actual Aikido wins/loss/retry, isolated history, private knowledge/authority, custody, listener rejection and duplicate allocation. Actual normal/compact/24pt reader, five core shots, encounter/recovery/allocation, optional room/period controls and Maps handoff were rendered. The phone dark-theme smoke passes across 34 pages; existing Story, start preview and patch-note reader smokes pass. All 23 images pass restricted local validation with no warnings/failures. Detailed commands, counts, initial environment failures and catalogue checks are in roadmap/CAMILA_RELEASE_EVIDENCE.md.
+
+This update uses the current model with the user’s explicit exception. Editorial self-review is recorded separately from an independent cold read or human playtest, neither of which was performed. No live-provider dialogue quality pass, new audio, video, external provider setup, payment or publication is claimed. All four MH-012 Ace routes are now available; Sylvanis remains separate queued work.
+
+## Save compatibility
+
+Restart the game to load changed code; no new story is required. Existing Camila saves gain additive version-1 ace_campaigns.camila state when used. Other campaign progress, resources, relationships and custody remain. Historical interactions and optional visits are isolated. Partial memories, selected plan, evidence, disclosures, objective receipts and reading positions survive save/load. Current costs remain spent and completed allocations cannot execute twice.
+
+## Evidence and historical limits
+
+Implemented for the user’s 2026-11-13 Part 4 request, with explicit current-model execution permission. Story Skills/Writer’s Loop informed the source/era/branch and editorial work; falsegreen guided focused manual behavioral-test review. Built-in imagegen produced the requested art; restricted prompt-to-asset validated all 23 PNGs locally with VLM disabled. Actual checks and limitations are in the release ledger. No independent agent, unfamiliar human cold read or game version is invented.
+
+- camila_campaigns.py
+- camila_campaign_content.py
+- camila_campaign_visuals.py
+- camila_campaign_ui.py
+- tests/test_camila_campaigns.py
+- tests/test_camila_memory_areas.py
+- tests/test_camila_presentation.py
+- tests/camila_campaign_ui_smoke.py
+- tests/camila_memory_areas_ui_smoke.py
+- assets/campaigns/camila/manifest.json
+- media-workspace/camila-campaign/README.md
+- roadmap/CAMILA_RELEASE_EVIDENCE.md
+- roadmap/CAMILA_EDITORIAL_REVIEW.md
+
+
+---
+
+# Elias — The Last Applause
+
+release-2026-11-13-elias-the-last-applause | Release | Campaigns
+Date: 2026-11-13
+
+Ace campaign Part 3: Elias’s complete fourteen-chapter personal story, eight memories, historical visits and illustrated sequences.
+
+## Details
+
+Added
+
+Select or load Elias, restart the game to load the updated code, and open In person → Story → The Last Applause. Follow the journal’s objective room, use Maps for travel, and arrange required appointments before starting their scenes.
+
+Play all fourteen chapters and eight mandatory memories: genuine childhood talent and praise, acting chosen over family succession, personal victories over every incoming Syndicate formation, the healthy first defeat by the Crow at Elias’s family crime headquarters, affiliate settlement and early service. The present visiting-production conflict has evidence-backed objectives, real armed resistance, separate disarm/authority/records/custody steps, and a complete family, theatre and private-report aftermath. Quiet and costly methods preserve their actual consequences. Acting, Hearts service and his fear/awe-driven obsession continue.
+
+The House and the Stage adds six optional rooms across four correctly gated historical periods, separate family/theatre sites, private Crow appointments, independent historical references/voices and local memory journals. These visits do not complete mandatory memories or change present resources or relationships.
+
+Artwork
+
+Twelve transparent portraits, eleven location paintings and six selected story illustrations follow the current semi-realistic manhwa style, with fine restrained linework and softly dimensional shading. Existing current portraits and concealed operational masks are reused appropriately. Other shots combine exact-era portraits, room scenery, dialogue bubbles and separate prose pages.
+
+Verification and limits
+
+Campaign/save/combat and historical-isolation checks, actual normal/compact/enlarged-text UI states, all six core illustrations, optional rooms, receiver errors/recovery, and the dark-phone smoke were run. All 29 generated production files pass source/hash/dimension/alpha checks and restricted local validation. Exact counts, commands, initial environment failures and final results are in roadmap/ELIAS_RELEASE_EVIDENCE.md. Informed editorial review and an independent model cold read are distinguished from human playtesting; no unfamiliar human cold read or exhaustive manual playthrough is claimed. Camila remains next; the four-route MH-012 update is still In progress.
+
+## Save compatibility
+
+Restart to load the new Python code. Existing Elias saves gain additive version1 ace_campaigns.elias state when this campaign is used; existing resources, relationships, locations, other campaign progress and custody outcomes remain. Historical fights and optional visits are isolated from the present; active/partial memories, objective receipts, dialogue cursors and retries survive save/load. Current mission costs remain spent and completed results are not awarded twice.
+
+## Evidence and historical limits
+
+Implemented for the user’s 2026-11-13 Ace Part 3 request. Astra medium performed source-grounded strategy and independent editorial review; Sol medium performed runtime implementation/verification and a separate optional-history workstream. Root generated and inspected local campaign art with the built-in image tool, packaged provenance and performed release-note checks. Actual evidence and limitations are linked in the release ledger; no game version number is invented.
+
+- elias_campaigns.py
+- elias_campaign_content.py
+- elias_campaign_visuals.py
+- elias_campaign_ui.py
+- tests/test_elias_campaigns.py
+- tests/test_elias_memory_areas.py
+- tests/test_elias_presentation.py
+- tests/elias_campaign_ui_smoke.py
+- assets/campaigns/elias/manifest.json
+- media-workspace/elias-campaign/README.md
+- roadmap/ELIAS_RELEASE_EVIDENCE.md
+
+
+---
+
+# Martos: What He Holds
+
+release-2026-11-13-martos-what-he-holds | Release | Campaigns
+Date: 2026-11-13
+
+Play Martos’s complete fourteen-chapter story, eight memories and historical service years, with real protection, records and custody outcomes.
+
+## Details
+
+Added
+
+Play as Martos, then open In person → Stories, guards & gang properties → Story. What He Holds follows his conventional and special-forces service, conscious participation in abusive orders, refusal and limited escape, recruitment by the Crow, costly care honoured, sustained Rage-control work and knowing service as Clubs. Fourteen chapters and eight required memories lead through the present protection of Lena Varo, an independent survivor whose account implicates him. She is separate from the existing archive-conservator character Lena.
+
+Lena may reject protection terms and compare a viable revised arrangement without being teleported or failed. Her agreed recipient, route/fallback, records ownership and permitted disclosures are saved. Her unaltered account receives an authenticated receiving receipt. Present pursuit observations remain separate from historical testimony. The three-room transfer house uses normal Maps travel, doors and appointments; physical scene changes save the reading position and wait for actual room arrival. Sera’s voluntary private visits and each colleague’s scoped contribution are distinct from combat authority or forgiveness.
+
+Real protection and outcomes
+
+Present combat uses the ordinary engine, actual health/stamina/mana and knockout recovery. Paid approach costs and a route-local resource condition persist across retries and recover with ordinary elapsed time. The protected leg advances through resolved meaningful exchanges; utility recovery alone cannot deliver it. Reporting strain restores no resources. Handover needs recorded pressure, the control commitment and an agreed, available colleague. Unsupported overextension can lose a secondary sheltered route. Defeating Voss alone does not deliver Lena or the records.
+
+Delivery requires completed protected departure, the intact original account and available authentication/cover colleagues in the receiving room. Securing Voss is separate: return to the defeated commander, disarm him, pay the perimeter costs with available cover and wait for the authorised custody receiver. The saved transfer records its predicates, receiver and time. Prioritising delivery over the secondary custody perimeter leaves Voss escaped and records the continuing risk. Full success and delivered-at-a-cost outcomes have complete Lena/Sera/Crow aftermath; withdrawal and recovery remains incomplete. The lounge watch repair has an actual appointed/private Mavis exchange or a solitude fallback. Neither safety nor custody grants conviction, forgiveness, redemption or a change to Martos’s loyalty.
+
+Historical visits and artwork
+
+Four required memories use fresh exact-era playable encounters. Conventional/selection kits do not borrow present titles, signatures or Path; later extraction uses bounded authored Rage reinforcement. Historical wins, losses, retries and abandonment leave the rest of the present save unchanged. Sera’s historical overmutation injury remains fixed history. Six optional service-years rooms span selection, later deployment, refuge and early service, with gated periods, exact historical voices, local journals, arranged Voss/Sera meetings and paused present time. Optional cooking, repairs and conversation grant no combat or campaign progress.
+
+Thirty new paintings include fourteen transparent portraits, eleven locations and five source-bound core illustrations. Present HQ Aces and Sylvanis retain their existing masked Syndicate uniforms; neutral present combat and historical service/recruitment use their correct costumes, captions and portraits. Normal, compact and 24pt reading layouts, combat/retry and actual receiving/custody controls were rendered and inspected. Existing phone handoffs stay dark.
+
+Compatibility and validation
+
+A narrow legacy repair restores a missing professional Crow discovery only when a canonical professional starter already has his saved number. Explicit unknown records, outsiders, unrelated state and protected custody remain unchanged. It does not invent a new custody/number rule.
+
+351 combined campaign/Mavis/Martos/combat/authority/interiors/save tests passed with zero failures, errors or skips. The final overlapping 21 Martos checks passed after scoped privacy/aftercare adjustments; they include full fourteen/eight supported and cost paths, actual full-health wins and natural historical defeat, saved branch outcomes, exact recipients, no-leak retries, forged-result rejection, all thirty asset hashes/portrait alpha and five core source anchors. Six existing UI baselines, the final Martos feature smoke and final phone-dark smoke passed. Patch-note validation/export and reader/start-screen checks accompany this release. Full evidence, fixed-seed balance limits, assistant-versus-human review scope and baseline missing-sound warnings are recorded in the linked release ledger.
+
+## Save compatibility
+
+No new story is required. Restart the application to load the code, then select or continue Martos; his route starts additively when unstarted. Existing Mavis routes and saved active/finished snapshots are preserved. Historical attempts return only authorised route facts; present combat costs and normal recovery persist. The scoped missing-discovery Crow repair uses existing saved-number evidence and does not overwrite explicit unknown records or custody.
+
+## Evidence and historical limits
+
+User-authorised Part 2 implementation and necessary illustrated assets. Astra medium authored the strategy and independent source cold read; Sol medium implemented runtime/manuscript and real verification with falsegreen oracle review. Root operated the explicitly authorised built-in image tool and inspected raw/in-app output; user style approval applies to the supporting portrait calibration, not a claimed full human playtest. Relevant plugin execution, conditional exclusions, exact art/source hashes and final verification are recorded separately from plans in the release ledger.
+
+- martos_campaigns.py
+- martos_campaign_ui.py
+- martos_campaign_content.py
+- martos_campaign_visuals.py
+- tests/test_martos_campaigns.py
+- tests/test_martos_memory_areas.py
+- tests/test_martos_presentation.py
+- tests/martos_campaign_ui_smoke.py
+- roadmap/MARTOS_RELEASE_EVIDENCE.md
+- roadmap/MARTOS_CAMPAIGN_RUNTIME.md
+- roadmap/MARTOS_COLD_READ_REVIEW.md
+- assets/campaigns/martos/manifest.json
+- media-workspace/martos-campaign/README.md
+
+
+---
+
+# Mavis flashbacks: master moves and Mist skills
+
+release-2026-11-13-mavis-historical-kit-repair | Release | Fixes
+Date: 2026-11-13
+
+Historical Mavis can use supported master Silat moves and her existing Mist skills, including in an already-active saved fight.
+
+## Details
+
+Fixed
+
+The age-twenty combat kit used by Mavis’s mandatory predecessor and provisional-service memories (MV-F02 and MV-F04) now meets the supported martial/Silat 80 threshold and includes four master Silat moves, six existing Mist unique skills and three existing Mist amplifications. The previous kit stopped at 72 and used a historical identifier that did not seed Mavis’s catalogue skills.
+
+Masters include Serpent lattice, Phantom crescent, Falling canopy and Mirror snare. The existing Mist skills are Black-Vapour Slip, Hollow Counter, Veilbreaker Palm, Shrouded Sweep, Smokebreak Traverse and Midnight Curtain. Select them in the in-person fight’s Martial or Unique skills category; normal stamina, mana, targeting and combat rules still apply. At the historical kit’s refinement, the tested master costs 20 stamina, Mist unique costs 14 stamina/15 mana, and a Mist amplification on a basic martial move costs 7 mana. Skills can miss or be interrupted; availability is not a guaranteed hit or immunity.
+
+Existing active fights
+
+A versioned repair now adds the missing capabilities to an already-active matching historical player kit on load or idle encounter open/refresh. It preserves spent health, mana and stamina, opponent, seed, turn, arena, checkpoint, clock and completed exchange payloads. No free heal, encounter reroll or reward is applied. Existing learned entries and the legacy generic Mist amplification remain valid. Present Mavis, unrelated/custom profiles, completed history and the stronger prior Spade are unchanged.
+
+Restart the application to load the changed code, then Continue your save or reopen the encounter. You do not need to lose the fight, restart the story or abandon the checkpoint to receive this repair. The historical kit keeps its existing identity, Mist, power, refinement, fight IQ and Path baseline; no present-day title or new power is copied.
+
+Validation
+
+80 focused gameplay checks passed, including exact kit contents, active/profile-only and idempotent repair, actual disk load/save, unchanged spent resources and opponent, pending resolved narration, paid engine actions and insufficient-resource rejection. Actual Resolve-button use and master/unique/amplification selections were rendered and inspected in normal and compact in-person windows. The full-health predecessor pilot was rerun on five fixed seeds with legal tactics, producing two genuine wins and three losses without injected HP or results. Exact evidence and existing sound-warning limits are recorded in the linked repair report.
+
+## Save compatibility
+
+Restart the application to load the changed Python code. Continue an existing Mavis save or reopen an active MV-F02/MV-F04 encounter: the matching active historical player kit is repaired once, with no resource refill or progress/opponent change. This narrowly supersedes the earlier player-kit freeze to enable the user-requested capabilities; it does not upgrade the saved opponent, reset a story or reopen completed history. New checkpoints use the same authored kit.
+
+## Evidence and historical limits
+
+User-reported active historical combat bug, source-grounded Astra medium handoff, Sol medium implementation and falsegreen review. Real engine/save/UI verification preserved unrelated state and supported move rules. Existing artwork reused; no new art, identities or unrelated powers.
+
+- ace_campaigns.py
+- ace_campaign_ui.py
+- game_core.py
+- tests/test_mavis_historical_kit.py
+- tests/mavis_historical_kit_ui_smoke.py
+- tests/test_mavis_predecessor_balance.py
+- roadmap/MAVIS_HISTORICAL_KIT_FIX.md
+- roadmap/MAVIS_IMPLEMENTATION_HANDOFF.md
+
+
+---
+
+# Mavis: a stronger previous Ace of Spades
+
+release-2026-11-13-mavis-predecessor-balance | Release | Balance
+Date: 2026-11-13
+
+The unnamed former Spade now fights at a veteran Ace baseline in new historical attempts, with stronger skill, endurance and supported martial techniques.
+
+## Details
+
+Changed
+
+In Mavis’s Story campaign, the mandatory predecessor memory (MV-F02, The previous Spade) now starts new attempts with a dedicated former-Ace profile: power 78, martial skill 88, fight IQ 89 and Boxing 88, with 256 HP and 165 mana. The previous generic opponent had 100 HP, no mana and effective fight IQ 10. Supported master Boxing techniques follow ordinary combat rules. No new named Trait, transformation, civilian identity or guaranteed outcome is introduced; his unspecified Trait is not treated as proof he lacked one.
+
+Fixed
+
+The age-twenty Mavis checkpoint now uses its intended effective fight IQ 78. The previous misspelled stat key left the engine reading 10. This fixes the shared historical player kit in MV-F02 and MV-F04; present Mavis and the Venn, Rusk and Broker opponent profiles retain their existing values. Historical outcomes still require real combat. A lost attempt remains incomplete and may be retried; the established predecessor death cannot be reversed after success.
+
+Access and saves
+
+Play Mavis, open In person → Story and follow the chapter to its mandatory memory. Restart the application to load the code change. An encounter already active in a save keeps its original opponent, player resources, seed and progress. Start a new memory attempt or use the explicit retry after a failed attempt to receive the corrected baseline. No story reset or automatic in-fight healing/upgrade occurs.
+
+Validation
+
+103 focused route/combat checks passed. The real engine pilot used five fixed seeds, full starting health and the normal service-approach mana cost, producing three earned wins and two genuine losses without injecting HP or results. A legacy mid-fight snapshot survived actual disk save/load unchanged, and explicit retry used the new baseline. The stronger in-person HUD and controls were rendered and inspected at 1360×920 and 1000×760. Exact stats, policy, outcomes, logs, save effects and existing sound-warning limitations are recorded in the linked balance evidence. This small pilot establishes attainable success and threat, not a population win rate or a full human balance playtest.
+
+## Save compatibility
+
+Existing stories remain compatible. Restart the application to load the new Python code. Already-active historical encounters remain immutable with their original player/opponent resources and balance. New MV-F02 sessions and explicit retries after failure use the new predecessor baseline; new age-twenty player checkpoints in MV-F02/MV-F04 use the corrected fight-IQ key. Present Mavis, other opponents, completed memories and the fixed historical death are preserved.
+
+## Evidence and historical limits
+
+User-requested predecessor strength correction. Astra medium supplied source-grounded strategy; Sol medium implemented the dedicated new-session profile, reviewed independent regressions with falsegreen-skill and ran real engine/save/UI verification. Existing artwork was reused; no new media generation or identity/ability canon was introduced.
+
+- ace_campaigns.py
+- combat_balance.py
+- tests/test_mavis_predecessor_balance.py
+- tests/mavis_predecessor_balance_ui_smoke.py
+- roadmap/MAVIS_PREDECESSOR_BALANCE.md
+- roadmap/MAVIS_IMPLEMENTATION_HANDOFF.md
+
+
+---
+
+# Mavis campaign: The Vacant Seat
+
+release-2026-11-13-mavis-the-vacant-seat | Release | Story
+Date: 2026-11-13
+
+Play Mavis’s twelve-chapter personal campaign, six required memories, illustrated missions, resolved climax and aftermath.
+
+## Details
+
+Added
+
+Choose or continue Mavis, then open the in-person Stories, guards & gang properties panel and its Story tab. The Vacant Seat follows the old contract signal through her previous employer, age-twenty predecessor assassination, recruitment, provisional service, promotion at twenty-one and first substantial Sylvanis collaboration at twenty-three. Present-day work develops her relationships with the Crow, Sylvanis and the other Aces and ends with a resolved Broker operation and outcome-sensitive report. Martos, Elias and Camila have not received their own campaigns in this release.
+
+Use Maps for required travel and walk through the objective building’s rooms. Meetings require actual participants, permissions and availability; personal disclosure is private and recipient-specific. Missions record observed approaches, exposure, evidence, agreed specialist support and final containment/retrieval costs. Required fights use the combat engine. Present-day combat keeps its real resource costs and recovery. Historical fights use saved age-twenty checkpoints with local resources, an explicit case objective where required, failed-attempt retry and an exact return to the present. The established predecessor death cannot be reversed by replaying a memory.
+
+Twenty accepted new artworks comprise eight transparent portraits, eight location/room paintings and four selected core illustrations. Other shots compose rooms and exact-era portraits with labelled dialogue, followed by separate short prose pages in the existing illustrated reader. Reading phase/page and immutable scene snapshots survive save/load. Core paintings show pre-resolution moments; pictures do not grant victories or evidence.
+
+After the first required memory, visit Rooms Without a Name through the in-person historical-area controls. Its six rooms span Quiet House, provisional service and early-service periods, unlocked by the corresponding required memories. Period-specific characters, references, dialogue styles and local journals stay separate. Optional visits pause present time and do not complete mandatory missions or change present relationships/resources.
+
+Validation and limitations
+
+Focused route, historical isolation, disk save/resume, real combat result, private meeting, branch-cost and optional-area checks passed. Required existing campaign regressions and the 34-page dark-phone audit passed. The four core paintings, historical/composed dialogue, memory combat/retry/return and six-room historical visits were rendered and inspected at normal and compact sizes, including 24-point reader text. Astra performed independent source-continuity review; Sol implemented and verified the route. Exact commands, counts, fixture repairs, screenshots and known unrelated test/sound limitations are recorded in roadmap/MAVIS_CAMPAIGN_RUNTIME.md. The editorial review is not an unfamiliar human-reader playtest, and focused completion tests do not certify combat balance.
+
+## Save compatibility
+
+Restart the game to load the changed Python code, then Continue an existing Mavis story or start Mavis. Additive versioned ace_campaigns.mavis state begins unstarted on older saves; existing stories, relationships, resources and other campaigns are retained. Active authored pages and historical encounter checkpoints are serialisable. No story reset or manual save migration is required. Present-day encounter consequences remain real; historical resources do not transfer back.
+
+## Evidence and historical limits
+
+Implemented from the user’s request to begin the Ace update with Mavis and generate the necessary location, portrait and illustrated sequence art. User-approved story locks are recorded in the Mavis handoff. Story Skills, Writer’s Loop, falsegreen-guided regression review and the built-in imagegen workflow were applied; assignments, actual execution, static art review, runtime checks and release evidence remain separate. The four-route MH-012 update stays In progress.
+
+- ace_campaigns.py
+- ace_campaign_ui.py
+- ace_campaign_content.py
+- ace_campaign_visuals.py
+- assets/campaigns/mavis/manifest.json
+- flashback_visits.py
+- campaign_memory_areas.py
+- tests/test_ace_campaigns.py
+- tests/test_mavis_memory_areas.py
+- tests/mavis_campaign_ui_smoke.py
+- roadmap/MAVIS_CAMPAIGN_RUNTIME.md
+- roadmap/MAVIS_EDITORIAL_REVIEW.md
+- media-workspace/mavis-campaign/README.md
+- tests/test_mavis_presentation.py
+- roadmap/MAVIS_RELEASE_EVIDENCE.md
+
+
+---
+
+# Find campaign destinations and rooms with mission markers
+
+release-2026-11-13-campaign-mission-markers | Release | Interface
+Date: 2026-11-13
+
+Gold Mission diamonds identify current campaign destinations in Maps and guide you through the relevant building rooms.
+
+## Details
+
+Added
+
+Open Maps and choose Missions to list current required campaign destinations. Gold diamond outlines and Mission labels also appear on relevant map pins, search results and destination cards. Select a result yourself; the card names the objective and room. Mission markers update when objectives, memories, guard posts and active post-story details change. Completed routes show no required marker.
+
+In the in-person room controls, follow the Mission route badge on an adjacent door. The destination is labelled Mission room, with the campaign/room caption visible along the way. Locked doors, knock/wait states, companions and normal travel rules still apply. Markers do not reveal hidden sites or grant access; temporary Crow-operation HQ markers disappear when that objective ends.
+
+Compatibility and validation
+
+Legacy separate map destinations remain usable; enabled interiors use their building markers. No migration or story reset. The compact Maps filters use two rows so labels fit. Read-only projection, progression, privacy and real room-path tests passed in 53 targeted regressions; final marker tests and nine rendered UI states passed. Existing Maps/interiors UI smokes and the 34-page dark-phone audit passed. Exact logs, release-tool checks, actual plugin usage and inspected screenshots are recorded in roadmap/CAMPAIGN_PRESENTATION_RUNTIME.md.
+
+## Save compatibility
+
+Restart the game, then Continue the existing story. Markers derive from existing mission state; no new save schema, mission progress, rewards or access grants.
+
+## Evidence and historical limits
+
+Implemented from the user’s request for mission map/room markers. DESIGN:OS product-designer consultation and falsegreen-guided regression checks used; existing native/dark styles retained, no new generated assets or campaign canon.
+
+- campaign_markers.py
+- phone_map.py
+- interiors_ui.py
+- tests/test_campaign_markers.py
+- tests/campaign_markers_ui_smoke.py
+- roadmap/CAMPAIGN_PRESENTATION_RUNTIME.md
+
+
+---
+
+# Dialogue labels replace redundant speaker tags
+
+release-2026-11-12-campaign-speaker-tags | Release | Interface
+Date: 2026-11-12
+
+Campaign prose skips plain he said, she said and matching named attributions already conveyed by dialogue labels.
+
+## Details
+
+Changed
+
+In the in-person campaign reader, labelled dialogue now leads directly into meaningful narration. Plain tags such as he said, she asked and Garrett replied do not create separate prose pages. A tag before an action is omitted while the action remains. Delivery, timing and recipient details remain, including said quietly, said under his breath and asked Fox. Reported speech and passages without matching labelled dialogue remain unchanged. History uses the same display rule; original authored source spans remain stored intact.
+
+Save compatibility
+
+Existing reading cursors migrate by source segment/page. If the saved cursor pointed at a removed attribution page, it resumes at the next surviving unit without dispatching the final action early. No campaign reset, reward or outcome change.
+
+Verification
+
+Focused presentation regressions and real Tk stage/transition smokes passed, including preserved actions/tone, source/history immutability, legacy cursor migration and compact rendering. Full results and release-tool checks are recorded in roadmap/CAMPAIGN_PRESENTATION_RUNTIME.md.
+
+## Save compatibility
+
+Restart the game and Continue the existing story. Presentation version 1 reading cursors upgrade automatically; original source snapshots, choices and campaign progress are retained.
+
+## Evidence and historical limits
+
+Implemented from the user’s explicit clarification that dialogue labels make plain speech attribution redundant. Story Skills line-editing and falsegreen guidance applied to conservative display filtering and positive preservation/cursor tests; no manuscript or canon rewrite.
+
+- campaign_presentation.py
+- tests/test_campaign_presentation.py
+- tests/campaign_presentation_ui_smoke.py
+- roadmap/CAMPAIGN_PRESENTATION_RUNTIME.md
+
+
+---
+
+# Campaigns flow through Maps, gauntlets and illustrated scenes
+
+release-2026-11-12-campaign-presentation | Release | Campaigns
+Date: 2026-11-12
+
+Existing campaigns use Maps travel, continuous building encounters and an illustrated in-person reader with separate dialogue and prose.
+
+## Details
+
+Added
+
+Sixteen selected core illustrations across eighteen Rei, Garrett and Interpol source bindings, with reusable historical staging elsewhere. School and Hong Kong memories have connected rooms; Fox and Gordon can visit the early Blackhaven Annex. Its later periods require FM03/FM04; the borrowed table needs the worker’s consent. Historical visits keep separate journals and grant no present-day progress.
+
+Changed
+
+Open Story or a case board for objectives and directions, then Open Maps, find/select the destination and travel. Arrival returns to the in-person window. Secure locations still check permission and companions; Crow-operation HQ permission expires when that objective ends, preserving independent access rights. Winning a required building guard now offers Continue to the next post or authored confrontation without returning through Story. Loss, concession and ordinary patrols do not chain. Existing recovery, victory IDs, rewards and scripted outcomes are preserved.
+
+Scripted dialogue appears first in speaker bubbles, followed by separate short associated prose pages with visible scenery. Use Previous/Continue, font controls, Scene history and Reduced motion. The 180ms shot fold cancels safely on resize, hide, history or load. Old active scenes finish their saved snapshots; new snapshots resume exact reading phases. Optional description adds atmosphere without replacing authored text.
+
+Validation
+
+The 55-test campaign and 128-test integration suites, focused save/history/era regressions, three behavioral mutation probes, all-source/art verification and real Tk stage, 32 core renders, historical-room, transition, Maps and gauntlet checks passed. Phone dark-theme audit passed 34 pages. Exact counts, commands, evidence, source/correction records and release-tool results are in roadmap/CAMPAIGN_PRESENTATION_RUNTIME.md.
+
+Known limitations
+
+Later Ace/Sylvanis campaigns and proposed historical NPCs remain queued. The old pre-interiors campaign prose smoke has an obsolete room/cursor fixture; new phase-aware smokes exercise the current reader. Existing missing optional-sound warnings are disclosed in the evidence record. Patch-note validation/export, all six patch-note tests and patch-note/start-screen UI checks passed. The preserved one-accepted/182-pending Rei manifest is historical, not an unfulfilled image-per-page production target.
+
+## Save compatibility
+
+Restart the game to load the changed code, then Continue the existing story. No story reset or manual migration. Reading phases, historical rooms/periods and gauntlet receipts are additive; old saved scenes remain valid.
+
+## Evidence and historical limits
+
+Implemented after the user resumed MH-016 following interiors and approved the current-model exception. Existing Astra strategy used; actual plugin execution, test review and generated-asset provenance are recorded separately from planning assignments.
+
+- roadmap/CAMPAIGN_PRESENTATION_RUNTIME.md
+- campaign_navigation.py
+- campaign_gauntlet.py
+- campaign_presentation.py
+- campaign_staging.py
+- campaign_scene_staging.py
+- campaign_prose_ui.py
+- campaign_memory_areas.py
+- assets/campaigns/core/catalog.json
+- assets/campaigns/core/REVIEW.md
+- tests/test_campaign_presentation.py
+- tests/test_campaign_navigation.py
+- tests/test_campaign_memory_areas.py
+- tests/campaign_core_art_ui_smoke.py
+- tests/campaign_transition_ui_smoke.py
+
+
+---
+
+# Steadier screens and Grove reading
+
+release-2026-11-12-screen-refresh-audit | Release | Interface
+Date: 2026-11-12
+
+Maps, Calendar, Profiles and hangouts preserve unchanged screens; Grove arrivals preserve drafts and reading position.
+
+## Details
+
+Fixed
+
+Phone Maps updates the travel marker without repainting unchanged terrain. Calendar retains its screen between visible changes, while day navigation and event start/end boundaries remain live. Profiles preserves note scrolling and selection and fixes a Tk callback error. In-person hangout artwork and meeting controls no longer rebuild on idle ticks; invitations and scrollable suggestions fit compact windows.
+
+Open Grove as usual. New background feed activity shows a notice; choose Refresh feed to display it. Incoming posts no longer replace the current feed or unsent draft. Grove private-account rules remain unchanged.
+
+Validation
+
+124 focused units pass. All 34 registered phone pages pass the idle widget/canvas stability audit; chat, contact detail, Calendar, Profiles, hangout, Story and combat hub are also covered. Positive update checks include travel/presence, feed arrivals, calendar event boundaries and profile notes. Dark-theme, navigation, Grove, Maps, live-clock, Weather, interiors, hangout and 24-portrait combat smoke checks pass. An unconditional Calendar redraw negative control fails as expected. See roadmap/SCREEN_REFRESH_AUDIT.md for exact scope, fixtures and evidence; arbitrary story/save combinations are not exhaustively covered.
+
+## Save compatibility
+
+No migration or simulation-clock change. Restart the game and Continue the existing story to load the repair.
+
+## Evidence and historical limits
+
+Implemented and checked in response to the Grove/navigation and cross-screen tick-jitter report. Obsolete test fixtures were corrected against existing privacy, message-pump and room-presence contracts. No new public accounts or canon changes.
+
+- phone_ui.py
+- phone_map.py
+- calendar_ui.py
+- profile_ui.py
+- relationship_ui.py
+- hangout_ui.py
+- interiors_ui.py
+- tests/screen_tick_ui_smoke.py
+- roadmap/SCREEN_REFRESH_AUDIT.md
+
+
+---
+
+# Weather stays steady while the clock runs
+
+release-2026-11-12-weather-incremental-refresh | Release | Interface
+Date: 2026-11-12
+
+Weather updates live readings without rebuilding the phone page or resetting scrolling.
+
+## Details
+
+Fixed
+
+Open Weather on the phone. Each game minute now updates forecast text and chart values in place instead of rebuilding the entire page. Vertical scrolling, hourly scrolling and keyboard focus survive clock ticks. Temperature, light/condition icons, current conditions and the next-day forecast remain live, including at midnight. Weather surfaces remain dark. Reopening the app still loads the current forecast. This is a separate repair from the earlier in-person screen fix.
+
+Validation
+
+The real Tk regression passed six deterministic simulation-clock ticks, both scroll axes, focus, live hourly values, dusk/midnight, dark surfaces and reopening. Restoring the old page-refresh rule in memory fails on the first tick. Phone-dark checks passed across 34 pages; living-world and map UI smokes passed. Broader units have 43/45 passing, with two Grove roster assertions failing; the broader navigation smoke retains a busy-message assertion failure, also reproduced with the old Weather rule. Details, screenshots and logs: roadmap/WEATHER_REFRESH_FIX.md and .test-tmp/weather-refresh/.
+
+## Save compatibility
+
+No save migration, forecast-rule or game-time change. Restart the game and Continue the existing story to load the fix.
+
+## Evidence and historical limits
+
+Implemented after the user clarified Weather was the phone app visibly refreshing. Falsegreen guidance applied to a regression with real tick/rendering and positive live-update checks; still images inspected separately. No other app-refresh repair or complete green phone-suite claim.
+
+- phone_ui.py
+- weather_ui.py
+- tests/weather_refresh_ui_smoke.py
+- roadmap/WEATHER_REFRESH_FIX.md
+
+
+---
+
+# Combat windows use dedicated combat portraits
+
+release-2026-11-12-combat-portrait-routing | Release | Interface
+Date: 2026-11-12
+
+Dedicated combat artwork now takes priority over everyday interiors wardrobe images for both fighters.
+
+## Details
+
+Fixed
+
+Open a fight in the in-person combat window. Fighters with dedicated combat artwork now use it even when interiors are enabled and the encounter has saved ordinary wardrobe snapshots. Previously the interiors wardrobe resolver ran first, replacing most combat portraits with ordinary clothes. Existing shared height scaling and masked combat artwork remain intact. Characters without a dedicated file retain their wardrobe/standard/guard/custom fallback; damaged optional images retain existing fallback handling.
+
+Validation
+
+35 combat-portrait, wardrobe, framing, guard-portrait and RPG UI tests passed. The new roster regression covers all 24 combat-art IDs and verifies saved wardrobe state is unchanged; restoring the old resolver in memory produced 23 failing subcases. Combat portrait, RPG combat and Part 2 UI smokes passed. Both actual stage render requests use the dedicated Samantha/Alyssa PNGs, and the compact combat screenshot was inspected. Full checks and limitations: roadmap/COMBAT_PORTRAIT_ROUTING_FIX.md; logs: .test-tmp/combat-portrait-routing/.
+
+## Save compatibility
+
+No save migration, reset or portrait-asset change. Restart the application and Continue the existing story to load the routing fix.
+
+## Evidence and historical limits
+
+Implemented after the reported wrong combat portraits. Falsegreen structural/semantic guidance applied to the targeted regressions; actual source selection, state preservation, absent/damaged fallback and rendered UI checks recorded separately from historical artwork production.
+
+- combat_portraits.py
+- tests/test_combat_portraits.py
+- tests/combat_portraits_ui_smoke.py
+- roadmap/COMBAT_PORTRAIT_ROUTING_FIX.md
+
+
+---
+
+# Stable in-person screens while time passes
+
+release-2026-11-12-interiors-idle-refresh | Release | Interface
+Date: 2026-11-12
+
+Interior screens no longer rebuild on every clock tick, preserving scrolling, keyboard focus and the enter-alone selection.
+
+## Details
+
+Fixed
+
+In person, simply remaining in an interior previously rebuilt the artwork, activity lists and room controls each game minute. The scene now remains mounted while time passes without a visible change. Room controls refresh independently when door permissions, occupants, work roles, messages or other displayed state changes. The clock continues running, expired access still updates, and moving rooms still updates the scene. Studio staff-access rules are unchanged.
+
+Validation
+
+The real Tk regression passed across six deterministic simulation-clock ticks, preserving the scene, room controls, scroll position, focus and Enter alone. It also checked the visible clock, denied-door message, permit expiry, supervisor-role expiry and navigation. Reintroducing the old minute-based refresh in memory made this regression fail at the first tick. Interiors pilot, workplace, security, living-world and 34-page phone-dark smokes passed. Evidence and final unit/patch-note results are recorded in roadmap/INTERIORS_REFRESH_FIX.md; logs are under .test-tmp/interiors-refresh/.
+
+## Save compatibility
+
+No save migration or access-policy changes. Restart the game to load the fix, then continue the existing story.
+
+## Evidence and historical limits
+
+Implemented following the reported repeated screen refresh. Actual Tk widget identity, focus, scrolling, visible clock and state-transition assertions provide evidence; screenshots were inspected. Falsegreen guidance informed the focused regression review. No separate Astra review or Sol-medium handoff was performed for this bounded maintenance fix.
+
+- presence_ui.py
+- interiors_ui.py
+- tests/interiors_refresh_ui_smoke.py
+- roadmap/INTERIORS_REFRESH_FIX.md
+
+
+---
+
+# Full-screen protagonist text spacing
+
+release-2026-11-12-protagonist-text-spacing | Release | Interface
+Date: 2026-11-12
+
+The protagonist name and tagline stay separated in the full-screen character preview.
+
+## Details
+
+Fixed
+
+On the main menu, select a protagonist to view the starting profile. The tagline now sits below the rendered name, accounting for font metrics, scaling and wrapped names instead of using a fixed vertical position. This corrects the overlap visible beneath Garrett Han at full screen.
+
+Validation
+
+Twelve real Tk layout checks passed for Garrett and Rei at 1303x922, 800x700 and 420x600 with two text scales. Wide and compact screenshots were inspected. The existing start-screen smoke passed for 28 previews, paging, explicit Begin and default/minimum layouts. Logs and screenshots are under .test-tmp/start-text-layout/. Patch-note UI smoke and all six patch-note unit tests passed with TEMP/TMP redirected into the workspace. The initial default-temp UI run exited -805306369 without diagnostics; the default-temp unit run was interrupted. Catalogue validation passed for 511 entries and Markdown export refreshed.
+
+## Save compatibility
+
+No save changes or migration. Restart the game to load the corrected layout.
+
+## Evidence and historical limits
+
+Implemented 2026-11-12 following the reported full-screen overlap. Rendered text bounds and screenshots verify the spacing. Product Designer guidance and Falsegreen structural/semantic test review were applied; no false-positive finding in the new spacing check. Model-specific Astra/Sol handoff was not performed; this bounded maintenance fix was executed in the current chat.
+
+- start_ui.py
+- tests/start_preview_layout_smoke.py
+- roadmap/CHARACTER_SELECTION_COMPLETION.md
+
+
+---
+
+# MH-004: Lived-In Interiors
+
+release-2026-11-12-lived-in-interiors | Release | World
+Date: 2026-11-12
+
+Explore 539 distinct room views, meet people where they actually are, and continue existing stories with room-aware work, events, privacy and automatic outfits.
+
+## Details
+
+Added
+
+Connected interiors across all 90 agreed building groups: homes, public workplaces, campus spaces, faction bases, headquarters, laboratories and custom properties. Every navigable view has its own finished image. Seven old primitive location backgrounds now resolve to finished illustrations. Garrett’s indoor living room and the archive’s outdoor forecourt have dedicated supplemental paintings; original finished artwork is preserved.
+
+In person
+
+Use In person after arriving, then follow adjacent door buttons. Room movement adds no story minutes. Knock at private doors, wait for occupied bathrooms, enter alone, reunite with waiting companions or invite someone present to continue together. Each companion needs their own clearance. NPCs use independent work, leisure and sleep rooms. Open zones share witnesses; people behind closed doors do not automatically hear, appear nearby or gain private knowledge. Amy and Minsu retain separate dorms with one public corridor.
+
+Work, events and stories
+
+All twelve JobSeek jobs and 32 protagonist careers/finales use authored work/review rooms, scoped staff access and actual temporary roles. Arrange shift, supervisor or career access in the in-person room controls, then walk to the named room. Existing deadlines, duration, pay and duplicate-reward protection remain. Calendar lets you choose an available room and dress context; arrive and join to attend. The phone plans and directs; physical activities stay in the main window.
+
+Room-aware Charles, Rei, council, diplomacy, Bubblegram, Interpol and post-story protection flows preserve existing identities, branches, outcomes and private knowledge. New guard posts have separate stable IDs, while old victories and required mission rosters remain valid. The Crow’s scripted Interpol outcome is unchanged; owned properties gain no free guards.
+
+Automatic appearance
+
+Home, beach, actual training, formal and authored work contexts choose from each character’s available wardrobe. Leaving restores the saved baseline. Existing wardrobe controls support a visit-scoped manual choice and Automatic to resume. Required masks and uniforms retain priority, active scenes keep their appearance snapshot, and old photos/history are unchanged. No clothing is automatically bought or unlocked.
+
+Access and saves
+
+Restart the application, then Play or Continue. The complete catalogue is enabled atomically when play begins. Existing stories keep relationships, invitations, missions, ownership, guard wins, rewards and conversation history. No new story or reset is required. Damaged active references are blocked before migration commits, with the existing recovery path available. Unspecified dorm bathrooms remain non-interactive. Later campaign/artwork work remains paused.
+
+Validation
+
+236 targeted integration tests passed, covering all jobs/career work/finales, the complete Charles story, all three Rei endings, nine Interpol files and repeatable operations, original guard IDs, privacy/access, save migration, reservations, wardrobe and artwork. All 539 views rendered in the actual in-person shell with zero callback errors; all 27 render sheets were inspected. The 34-page phone dark-theme audit, required feature/compact-state smokes, patch-note reader and start screen passed. Source coverage records 794 classified stages and no unclassified consumer modules. The broader repository scan remains non-green; older source/lore/roster/local-romance failures and its source-snapshot comparison are detailed in the release evidence. No live-provider conversation evaluation is claimed.
+
+## Save compatibility
+
+Restart to load the changed Python code. Play/Continue applies additive, transactional schema-2 room migration without a save reset. Existing history, relationships, ownership, mission outcomes, rewards, old guard victories and photos are preserved; ordinary low-level save reads stay compatible until play begins.
+
+## Evidence and historical limits
+
+Implemented and locally verified in the authorised MH-004 workstream on 2026-11-12. The user explicitly approved current-model implementation/verification instead of the planned Sol medium owner; existing Astra strategy is input, with no new Astra/Sol execution claimed. Production batches retain separate evidence. Two supplemental paintings used built-in Imagegen. Actual plugin guidance, scoped tests, visuals, source inventories and broader-suite limitations are recorded in the release evidence.
+
+- roadmap/INTERIORS_RELEASE_EVIDENCE.md
+- roadmap/INTERIORS_RELEASE_CHECKS.json
+- roadmap/INTERIORS_UPDATE_PLAN.md
+- roadmap/INTERIORS_ACTIVITY_INVENTORY.json
+- roadmap/INTERIORS_CONSUMER_REVIEW.json
+- roadmap/interiors-runtime-supplement.json
+- interiors.py
+- interior_catalog.json
+- interior_work.py
+- interior_security.py
+- wardrobe_context.py
+- tests/test_interiors_catalog.py
+- tests/test_interiors_campaign_paths.py
+- tests/test_interiors_workplaces.py
+- tests/test_wardrobe_context.py
+- tests/interiors_catalog_ui_smoke.py
+- tests/phone_dark_theme_smoke.py
+
+
+---
+
+# Portrait update completed: wardrobes, history, uniforms and combat auras
+
+release-2026-11-12-portrait-final-integration | Release | Artwork
+Date: 2026-11-12
+
+Installs 146 wardrobes and 39 contextual portraits, including teenage historical designs, deliberate Syndicate poses and masked Ace combat auras.
+
+## Details
+
+Changed
+
+Installed 185 portraits at their existing paths: 146 accepted wardrobe variants plus seven historical portraits, seven Syndicate uniforms, all 24 combat portraits and cybernetic Richter. Together with 107 existing default masters, all 292 active transparent targets in MH-013 are delivered. Fourteen reference, scenic, contact and archived files retain their distinct purpose.
+
+Young Charles (21) now has short side-swept tapered hair and an olive overshirt over a cream tee with charcoal trousers. Historical Garrett (16) and Rei (17) read as teenagers and retain period clothing without adult tattoos. All seven Syndicate uniforms have deliberate poses with gloved hands outside pockets. Combat portraits use calm, dangerous ability auras instead of fighting guards or attacks. Camila, Elias, Martos and Mavis wear their fully sealed masked uniforms in combat.
+
+Preserved the separate civilian Camila refinement, Thirteen's healed facial scars and Takeo's youthful muscular redesign. Previous combat guards/unmasked Ace drafts remain archived as superseded artwork. Updated the historical Charles appearance reference; no new abilities or story outcomes.
+
+Access
+
+Restart to reload cached portraits. Use existing character selection, wardrobe choices and previews, in-person conversations, historical scenes and combat. Existing unlocks and location-based uniform rules still apply. In-person activities stay in their own window; phone surfaces stay dark.
+
+Verification
+
+All 185 installed hashes match accepted source PNGs and all originals are backed up. The other 121 baseline files and stature table are unchanged. All assets pass format/alpha/margin and provenance checks and visual review. Live checks cover 370 paired stature comparisons, 62 saved wardrobe round trips, 26 automatic outfit routes, all 185 files at two thumbnail sizes, normal/compact scenes and all four masked Ace combat screens.
+
+All 13 final UI smoke scripts passed, including selection/start, wardrobe, historical visits, guards, combat and phone dark theme. Related unit suites: 74/76 passed. Corrected two stale exact-alpha tests to check meaningful clear/near-opaque coverage and the start smoke's obsolete hardcoded page members. Production layout/routing logic was unchanged.
+
+Known limitations
+
+Two unrelated unit failures remain: the existing Theo camera-date fixture has no companion, and Takeo's full ability text is absent from a shortened speaker-context string. Existing missing-sound warnings were observed; audio was not changed. Exact logs and review scope are recorded in the final verification document; this is not an all-project green claim.
+
+Publication checks
+
+Catalogue validation and export passed; the patch-note reader smoke passed. Five of six patch-note unit tests passed; the existing archive-source check stops at missing tests/screenshots/mh005-pilot-opening.png. No historical evidence was fabricated.
+
+## Save compatibility
+
+No save migration or reset. Existing outfits, relationships, progress, stats, powers, custom portraits and avatar choices are retained. Restart the game to clear cached artwork.
+
+## Evidence and historical limits
+
+Implemented and verified locally in the authorized Stage 4/final integration. Built-in imagegen outputs copied byte-for-byte after review; exact prompts/source chains, superseded attempts, hashes, backups and actual checks are recorded. No external publication or paid plugin setup.
+
+- roadmap/artwork-stage-04/README.md
+- roadmap/artwork-stage-04/VERIFICATION.md
+- roadmap/artwork-stage-04/install-manifest.json
+- roadmap/artwork-stage-04/checks/installed-integrity.json
+- roadmap/artwork-stage-04/checks/unit-results.json
+- roadmap/artwork-stage-04/checks/ui-results.json
+- flashback_character_references.json
+- assets/portraits/ARTSTYLE.md
+
+
+---
+
+# Camila: cleaner manhwa rendering matched to Mavis
+
+release-2026-11-12-camila-rendering-refinement | Release | Artwork
+Date: 2026-11-12
+
+Camila now has more natural facial construction and cleaner illustrated shading, with matching standing, contact and combat portraits.
+
+## Details
+
+Changed
+
+Revised Camila's default portrait, contact avatar and combat image using Mavis as the rendering reference. Her eyes, nose, lips and facial planes have more natural adult construction. Following the requested correction to an overrendered first attempt, the installed art uses clean skin tones, broad matte fabric shadows and detailed layered hair without surface grain or textile weave. Her identity, age 30, 168 cm stature, complexion, ponytail, glasses, silver earrings, charcoal suit and burgundy blouse remain. Combat retains its controlled open-palm pose and gold Analysis motifs with head-to-mid-thigh coverage. The rejected master/contact attempts were never installed.
+
+Access
+
+Choose Camila on the start screen, meet her through existing in-person access, open her saved contact or message thread, or view her in existing combat. The fully masked Syndicate outfit and character-free phone wallpaper are unchanged. Accepted combat art is also registered in Stage 4 so later integration preserves this refinement.
+
+Verification
+
+Inspected the final images, diagnostic composites on three backgrounds and nine real selection/in-person/combat/phone views at normal and compact sizes. Asset checks and real path/stature/render checks pass. Four combat-portrait tests and eight framing tests pass; the 34-page dark-phone smoke and Four Aces contact/thread smoke pass. Original files, exact prompts, hashes, screenshots and logs are retained in media-workspace/camila-revision.
+
+Verification limits
+
+The Four Aces unit suite has three passes and one failure in an old exact-alpha-255 assertion, first reached on unchanged Martos; the art contract permits 254. The broad start smoke still fails its existing hardcoded paging expectation. A task-local phone-render timing issue was resolved by settling initial window events before navigation, with no callbacks suppressed. Patch-note publication checks and any historical evidence limitations are recorded in the linked evidence. No overall Stage 4 or full-suite completion is claimed.
+
+## Save compatibility
+
+No migration or reset. Existing character IDs, age, height, stats, powers, stories, relationships, access rules and custom avatar choices are unchanged. Restart the game to clear cached portraits.
+
+## Evidence and historical limits
+
+User-requested style refinement implemented 2026-11-12 Australia/Brisbane using built-in imagegen. Story Skills checked identity boundaries; falsegreen-skill reviewed task-local checks. Five generated outputs, two superseded after the overrendering correction and three installed without pixel modification. No external provider setup or runtime generation.
+
+- assets/portraits/camila-selection.png
+- assets/profiles/camila.png
+- assets/portraits/combat/camila.png
+- media-workspace/camila-revision/README.md
+- media-workspace/camila-revision/generations.json
+- media-workspace/camila-revision/checks/assets.json
+- media-workspace/camila-revision/checks/render-results.json
+
+
+---
+
+# Thirteen: facial scars, manhwa rendering and new poses
+
+release-2026-11-12-thirteen-appearance-revision | Release | Artwork
+Date: 2026-11-12
+
+Number Thirteen now has healed facial scars, a more dimensional semi-realistic manhwa face and a controlled folded-arm pose, with matching phone and combat portraits.
+
+## Details
+
+Changed
+
+Replaced Thirteen's standing portrait, contact avatar and combat artwork. A long healed scar runs through his anatomical left brow and cheek, with the eye intact; two shorter diagonal scars mark his right lower cheek. Placement stays consistent across all three images. His face uses dimensional eyelids, nose, lips and softer shading consistent with Ivan and Charles, while retaining his own youthful identity. His standing pose has folded arms; combat uses a compact closed-fist guard and the established pale silver-blue motion motif. His age 21, height 194 cm, muscular build, black buzzcut, clean-shaven face and charcoal suit over a white crewneck are preserved. Two framing refinements improve the lower-body coverage and clear margins.
+
+Access
+
+See the new portrait at Pacific Relay Depot's US command briefing room, in his existing Executive-rank phone contact, and during in-person combat. Existing rank, strike, location and relationship rules remain. Appearance wording now includes the scars; their specific causes and dates are unestablished and must not be invented. The combat image is also registered as an accepted Stage 4 candidate so later integration retains this revision.
+
+Verification
+
+Inspected full images, scar laterality, anatomy and three-background alpha composites. Verified actual installed paths, 194 cm stature, and normal/compact in-person, combat and dark phone screens. Five Thirteen tests, four combat-portrait tests and eight portrait-framing tests passed. The Thirteen feature smoke and 34-page dark-phone theme smoke passed. The existing portrait alpha assertion was corrected to permit near-opaque 254 as specified by ARTSTYLE.md while requiring substantial clear background and solid figure coverage. Original assets, exact generation/edit prompts, source chain, SHA-256 hashes, screenshots and logs are preserved in media-workspace/thirteen-revision.
+
+Verification limits
+
+Art acceptance includes visual inspection; automated file checks do not prove facial likeness. Broader start-screen and historical patch-note-source results are recorded in the evidence and are not claimed as all passing. This is a scoped Thirteen revision, not completion of the remaining Stage 4 collection.
+
+## Save compatibility
+
+No migration or save reset. Existing character IDs, age, height, stats, abilities, rank restrictions, relationships and saved custom avatar choices are unchanged. Restart to clear cached portraits and reload appearance wording.
+
+## Evidence and historical limits
+
+User-requested scars, semi-realistic manhwa rendering and pose changes implemented 2026-11-12 Australia/Brisbane using built-in imagegen. Story Skills informed identity continuity; falsegreen-skill guided the focused alpha-test/harness review. No new scar backstory, powers, external provider setup or runtime generation. Five generated outputs: three initial variants plus two framing refinements; final master, profile and combat are installed.
+
+- assets/portraits/thirteen-selection.png
+- assets/profiles/thirteen.png
+- assets/portraits/combat/thirteen.png
+- thirteen.py
+- thirteen_source_notes.json
+- tests/test_thirteen.py
+- media-workspace/thirteen-revision/README.md
+- media-workspace/thirteen-revision/checks/assets.json
+- media-workspace/thirteen-revision/checks/render-results.json
+
+
+---
+
+# Takeo: youthful, muscular military redesign
+
+release-2026-11-12-takeo-appearance-revision | Release | Artwork
+Date: 2026-11-12
+
+Takeo now has a narrower, younger-looking manhwa face, a powerful muscular build, a serious quarter-zip combat shirt and a composed new pose, with matching contact and combat artwork.
+
+## Details
+
+Changed
+
+Replaced Takeo's standing master, phone avatar and Nanoengine combat portrait. His face is narrower and less cartoonish, with smooth adult features reflecting Nanoengine's slowed visible ageing. The revised physique retains substantial shoulder, chest and arm muscle after the first draft proved too lean. A charcoal quarter-zip military shirt has a plain torso, raised collar and subdued grey-black camouflage sleeves. His default pose turns three-quarter with hands behind his back; combat retains black nanomachine forearm armour and restrained crimson seams/effects.
+
+Access
+
+See him through existing Shinokami headquarters in-person access, his unlocked phone contact, and combat. Existing rank restrictions remain. These files use their original paths; this update does not implement his planned playable campaign. His 211 cm stature is preserved. Appearance references now describe the revised design and slowed visible ageing.
+
+Verification
+
+Three assets decoded and were inspected at full size and on three diagnostic backgrounds. Real loaders and normal/compact in-person and combat screens were verified, together with normal/compact dark contact pages. Takeo's phone feature smoke and the dark-theme smoke (34 pages plus controls) passed; four combat-portrait and eight portrait-framing tests passed. Before/after hashes, originals, exact image-generation prompts, screenshots and check logs are retained in media-workspace/takeo-revision.
+
+Known verification limits
+
+The existing Takeo suite has three passes and one lore-summary assertion failure, reproduced before asset installation; separate checks verify the new assets because that failure stops the combined art test. The start-screen smoke fails its hardcoded page-selection expectation. Patch-note reader/unit verification outcomes are recorded in the linked evidence. The two cutouts contain valid alpha from 0 to 254 and end at a clean mid-thigh picture crop. Historical/staged artwork and the remainder of MH-013 are separate work.
+
+## Save compatibility
+
+No migration or save reset. Character IDs, access, height, stats, relationships, abilities and stored custom avatar choices are unchanged. Restart the game to clear cached portraits and reload appearance wording.
+
+## Evidence and historical limits
+
+Requested appearance redesign, including the user's younger-face and more-muscular corrections, implemented using built-in imagegen on 2026-11-12 Australia/Brisbane. Sources and immutable prior artwork are retained. Story Skills guided identity continuity; falsegreen-skill reviewed task-local verification. No external media-provider setup or runtime generation was added. Only this scoped Takeo follow-up is released; full MH-013 remains in progress.
+
+- assets/portraits/takeo-selection.png
+- assets/profiles/takeo.png
+- assets/portraits/combat/takeo.png
+- takeo.py
+- Mysterious Hearts - Character Appearances.md
+- Mysterious Hearts - Character References.md
+- media-workspace/takeo-revision/README.md
+- media-workspace/takeo-revision/checks/assets.json
+- media-workspace/takeo-revision/checks/render-results.json
+
+
+---
+
 # Varied character heights and specified tall guards
 
 release-2026-11-11-stage2-varied-heights | Release | Artwork
@@ -350,7 +3622,7 @@ Restart required. Narrative state and reading preferences are additive and prota
 
 ## Evidence and historical limits
 
-Implemented and tested on 2026-11-10 from the approved MH-005 plans and three full-route drafts. Compile-time editing resolves manuscript directions and state variants. The implementation evidence separates actual automated/visual checks from unavailable external references, live-provider evaluation and an independent human cold read.
+Implemented and tested on 2026-11-10 from the approved MH-005 plans and three full-route drafts. Compile-time editing resolves manuscript directions and state variants. The implementation evidence separates actual automated/visual checks from unavailable external references, live-provider evaluation and an independent human cold read. Evidence-link correction on 2026-11-12: tests/screenshots/mh005-pilot-opening.png, tests/screenshots/mh005-shared-memory.png, tests/screenshots/mh005-compact-large-text.png are unavailable in this checkout. Their historical references are retained through the existing source/evidence; no replacement screenshots or fresh historical pass are claimed.
 
 - roadmap/CAMPAIGN_PROSE_EVIDENCE.md
 - roadmap/campaign_prose_reading_inventory.json
@@ -363,9 +3635,9 @@ Implemented and tested on 2026-11-10 from the approved MH-005 plans and three fu
 - tests/test_campaign_prose.py
 - tests/campaign_prose_ui_smoke.py
 - tests/results/mh005-units.txt
-- tests/screenshots/mh005-pilot-opening.png
-- tests/screenshots/mh005-shared-memory.png
-- tests/screenshots/mh005-compact-large-text.png
+- roadmap/CAMPAIGN_PROSE_EVIDENCE.md — Historical screenshot reference unavailable in this checkout: tests/screenshots/mh005-pilot-opening.png
+- roadmap/CAMPAIGN_PROSE_EVIDENCE.md — Historical screenshot reference unavailable in this checkout: tests/screenshots/mh005-shared-memory.png
+- roadmap/CAMPAIGN_PROSE_EVIDENCE.md — Historical screenshot reference unavailable in this checkout: tests/screenshots/mh005-compact-large-text.png
 
 
 ---
@@ -403,7 +3675,7 @@ Restart required. Existing stories retain their saved progression, jobs, affilia
 
 ## Evidence and historical limits
 
-Implemented and verified on 2026-11-10. Completes the required remaining MH-002 feature families; prior scoped entries remain historical. Exact checks and finite-sample/provider limitations are recorded in the completion document.
+Implemented and verified on 2026-11-10. Completes the required remaining MH-002 feature families; prior scoped entries remain historical. Exact checks and finite-sample/provider limitations are recorded in the completion document. Evidence-link correction on 2026-11-12: tests/screenshots/mh002-origin-signature-review.png, tests/screenshots/mh002-in-person-trait-applications.png are unavailable in this checkout. Their historical references are retained through the existing source/evidence; no replacement screenshots or fresh historical pass are claimed.
 
 - roadmap/CHARACTER_SELECTION_COMPLETION.md
 - roadmap/creator-balance-results.json
@@ -417,8 +3689,8 @@ Implemented and verified on 2026-11-10. Completes the required remaining MH-002 
 - character_origins.py
 - tests/test_creator_completion.py
 - tests/creator_completion_ui_smoke.py
-- tests/screenshots/mh002-origin-signature-review.png
-- tests/screenshots/mh002-in-person-trait-applications.png
+- roadmap/CHARACTER_SELECTION_COMPLETION.md — Historical screenshot reference unavailable in this checkout: tests/screenshots/mh002-origin-signature-review.png
+- roadmap/CHARACTER_SELECTION_COMPLETION.md — Historical screenshot reference unavailable in this checkout: tests/screenshots/mh002-in-person-trait-applications.png
 
 
 ---
@@ -487,7 +3759,7 @@ Existing saves remain compatible. Restart to clear cached artwork and load curre
 
 ## Evidence and historical limits
 
-Implemented and verified locally on 2026-11-10 using built-in image_gen portrait edits. MH-011; actual checks and pre-existing archive failure recorded.
+Implemented and verified locally on 2026-11-10 using built-in image_gen portrait edits. MH-011; actual checks and pre-existing archive failure recorded. Evidence-link correction on 2026-11-12: tests/screenshots/yakuza-guard-redesign.png are unavailable in this checkout. Their historical references are retained through the existing source/evidence; no replacement screenshots or fresh historical pass are claimed.
 
 - assets/portraits/guards/manifest.json
 - assets/portraits/guards/yakuza-refresh-prompts.json
@@ -496,7 +3768,7 @@ Implemented and verified locally on 2026-11-10 using built-in image_gen portrait
 - combat_engine.py
 - tests/test_guard_dialogue.py
 - tests/yakuza_guard_art_smoke.py
-- tests/screenshots/yakuza-guard-redesign.png
+- assets/portraits/guards/manifest.json — Historical screenshot reference unavailable in this checkout: tests/screenshots/yakuza-guard-redesign.png
 
 
 ---
@@ -619,7 +3891,7 @@ Existing saves remain compatible; no migration or reset. Restart to clear cached
 
 ## Evidence and historical limits
 
-Requested designs generated with built-in image_gen and locally verified on 2026-11-10. No gameplay or phone layout changes.
+Requested designs generated with built-in image_gen and locally verified on 2026-11-10. No gameplay or phone layout changes. Evidence-link correction on 2026-11-12: tests/screenshots/syndicate-guard-redesign.png are unavailable in this checkout. Their historical references are retained through the existing source/evidence; no replacement screenshots or fresh historical pass are claimed.
 
 - assets/portraits/guards/clubs.png
 - assets/portraits/guards/spades.png
@@ -628,7 +3900,7 @@ Requested designs generated with built-in image_gen and locally verified on 2026
 - tests/test_guard_portraits.py
 - tests/guard_portraits_ui_smoke.py
 - tests/syndicate_guard_art_smoke.py
-- tests/screenshots/syndicate-guard-redesign.png
+- assets/portraits/guards/clubs.png — Historical screenshot reference unavailable in this checkout: tests/screenshots/syndicate-guard-redesign.png
 
 
 ---
@@ -706,13 +3978,13 @@ Restart to load the fix. Existing stories, guard histories, authority, contacts 
 
 ## Evidence and historical limits
 
-User-reported repeated guard greeting reproduced against the configured live provider on 2026-11-10. Empty narration was the observed validation failure. Fixed and verified with focused regressions, asynchronous UI smoke and a two-turn live dialogue sample.
+User-reported repeated guard greeting reproduced against the configured live provider on 2026-11-10. Empty narration was the observed validation failure. Fixed and verified with focused regressions, asynchronous UI smoke and a two-turn live dialogue sample. Evidence-link correction on 2026-11-12: tests/screenshots/guard-part2-conversation-compact.png are unavailable in this checkout. Their historical references are retained through the existing source/evidence; no replacement screenshots or fresh historical pass are claimed.
 
 - guard_dialogue.py
 - tests/test_guard_dialogue.py
 - tests/guard_dialogue_ui_smoke.py
 - tests/guard_dialogue_live_check.json
-- tests/screenshots/guard-part2-conversation-compact.png
+- guard_dialogue.py — Historical screenshot reference unavailable in this checkout: tests/screenshots/guard-part2-conversation-compact.png
 
 
 ---
@@ -940,7 +4212,7 @@ Restart the game and continue the existing story. Version-1 guard-social records
 
 ## Evidence and historical limits
 
-Implemented for MH-003 with all six approved refinements and the clarified hierarchy. Focused regression and UI verification performed on 2026-11-10 using isolated states and mocked persistence/providers; no player saves or credentials were modified.
+Implemented for MH-003 with all six approved refinements and the clarified hierarchy. Focused regression and UI verification performed on 2026-11-10 using isolated states and mocked persistence/providers; no player saves or credentials were modified. Evidence-link correction on 2026-11-12: tests/screenshots/guard-part2-commands.png, tests/screenshots/guard-part2-conversation-compact.png are unavailable in this checkout. Their historical references are retained through the existing source/evidence; no replacement screenshots or fresh historical pass are claimed.
 
 - guard_dialogue.py
 - groups.py
@@ -953,8 +4225,8 @@ Implemented for MH-003 with all six approved refinements and the clarified hiera
 - tests/guard_dialogue_ui_smoke.py
 - tests/guard_portraits_ui_smoke.py
 - tests/phone_dark_theme_smoke.py
-- tests/screenshots/guard-part2-commands.png
-- tests/screenshots/guard-part2-conversation-compact.png
+- roadmap/GUARD_UPDATE_PART_2_PLAN.md — Historical screenshot reference unavailable in this checkout: tests/screenshots/guard-part2-commands.png
+- roadmap/GUARD_UPDATE_PART_2_PLAN.md — Historical screenshot reference unavailable in this checkout: tests/screenshots/guard-part2-conversation-compact.png
 - roadmap/GUARD_UPDATE_PART_2_PLAN.md
 
 
@@ -1740,7 +5012,7 @@ Restart to load the changed code. Existing stories gain additive Rei/security/sc
 
 ## Evidence and historical limits
 
-Implemented for the requested major update and follow-up property-art/scripted-hangout requirements on 2026-11-10. Evidence is the checked-in source, generated project assets, focused test runs and inspected rendered screenshots. Historical archive-source failures are explicitly retained as limitations; no prior release dates or version numbers were invented.
+Implemented for the requested major update and follow-up property-art/scripted-hangout requirements on 2026-11-10. Evidence is the checked-in source, generated project assets, focused test runs and inspected rendered screenshots. Historical archive-source failures are explicitly retained as limitations; no prior release dates or version numbers were invented. Evidence-link correction on 2026-11-12: tests/screenshots/script-charles-confrontation.png, tests/screenshots/script-richter.png are unavailable in this checkout. Their historical references are retained through the existing source/evidence; no replacement screenshots or fresh historical pass are claimed.
 
 - rei_story.py
 - organisation_guards.py
@@ -1761,8 +5033,8 @@ Implemented for the requested major update and follow-up property-art/scripted-h
 - tests/test_campaign_dialogue.py
 - tests/major_campaigns_ui_smoke.py
 - tests/campaign_dialogue_ui_smoke.py
-- tests/screenshots/script-charles-confrontation.png
-- tests/screenshots/script-richter.png
+- README.md — Historical screenshot reference unavailable in this checkout: tests/screenshots/script-charles-confrontation.png
+- README.md — Historical screenshot reference unavailable in this checkout: tests/screenshots/script-richter.png
 
 
 ---

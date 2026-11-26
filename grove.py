@@ -104,6 +104,8 @@ def relationship(s, author, other):
 
 
 def profile(s, who):
+    if who in __import__('ivan_generals').IDS:
+        return dict(handle='',bio=__import__('ivan_generals').DETAILS[who]['public'],followers=0)
     if who == 'fox':
         return dict(handle='',bio='Edward Fox has no Grove account.',followers=0)
     if who == 'charles':

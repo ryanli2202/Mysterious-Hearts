@@ -1,0 +1,52 @@
+{
+  "id": "CS-TK05A",
+  "type": "shot",
+  "path": "assets/campaigns/takeo/core/CS-TK05A.png",
+  "original": "media-workspace/campaign-shot-rebuild-2026-11-14/originals/CS-TK05A.png",
+  "prompt": "ONE opaque 16:9 cinematic semi-realistic illustrated manhwa game shot CS-TK05A. Ref 1 exact Takeo current identity/clothes; ref 2 exact older Kenji Arakawa identity/clothes and designed facial style. Meridian archive exit, 2050, a tense contested objective NOT a duel. Enormous 211cm very muscular Takeo in charcoal quarterzip with grey-black camouflage sleeves stands between ONE secured offline archive cabinet (left foreground) and open evacuation doorway (right background). Arakawa, normal-sized older Japanese man with short salt-and-pepper hair, clean shaven, dark slate jacket and field armour, stands alert beside exit. Both alive, uninjured, unarmed, composed, neither victorious. Camera low three-quarter from beside cabinet to establish the obstacle/exit triangle; Takeo turns head to Arakawa, hands relaxed visible, one near cabinet but no destruction yet. Maintain believable ground plane and relative stature, not oversized heads, broken legs or elbows. Five fingers per visible hand, correct shoulder/wrist/pelvis connections. Exact drawn face identities with manhwa almond eyes and selective nose/lip planes, clean tapered contours, soft dimensional shadows; no photographic facial microtexture. Industrial archive corridor with muted amber practical light, cool slate exterior visible, no ranks of servers or backup equipment. No powers yet, no victims, guns, flags, emblems, readable text, bubbles, UI, watermark or panel borders. Essential heads and gestures above lower prose strip.",
+  "references": [
+    "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK05A-1.png",
+    "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK05A-2.png"
+  ],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "37b34a71c8cdde3fcb92d55f236d66533af47f301c5fed30dd828f6f3ff2b7de",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "alpha_extrema": null,
+  "visual_review": "Full generated image and actual reader render visually inspected; affected artwork checks and route UI smoke passed. See campaign-shot-rebuild-2026-11-14/README.md.",
+  "reference_hashes_measured_at_release_review": {
+    "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK05A-1.png": "afc2370234f44a8550c34e3ebb9bf3c28d42d2c4ffa7513d3eb5b2b615e95849",
+    "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK05A-2.png": "27529113e06f96e6541ce1340b6e4ca34c960c10a1a86484e93dc9e6393cb8e2"
+  },
+  "revision_date": "2026-11-14",
+  "supersedes": {
+    "id": "CS-TK05A",
+    "type": "shot",
+    "path": "assets/campaigns/takeo/core/CS-TK05A.png",
+    "original": "media-workspace/takeo/originals/exec-91f9debb-ae2d-471a-9338-f9d8951dee39.png",
+    "prompt": "ONE 16:9 illustrated visual-novel shot, single frame. Medium-wide last confrontation at the Meridian archive exit in 2050. Takeo exactly as reference 1, enormous 211cm muscular Japanese man in charcoal quarterzip military shirt, stands between a single secured offline archive cabinet and the exit. Kenji Arakawa exactly as reference 2, older salt-and-pepper Japanese man in slate field armour, remains by the open evacuation door; he knows he cannot win by physical superiority. Both alive, alert and composed, no pointed weapons or injuries. A contested objective, not a duel. Semi-realistic illustrated manhwa with dimensional painted shading, restrained linework, clear coherent anatomy, slate/amber dramatic lighting, not photo/3D/cel cartoon. No flags, emblems, captions, readable text, watermark or signature.",
+    "references": [
+      "assets/portraits/takeo-selection.png",
+      "media-workspace/takeo/originals/exec-9a9490de-d587-4082-9170-a84b11fb4dec.png"
+    ],
+    "provider": "Built-in image_gen tool",
+    "model": "Not exposed; unverified",
+    "sha256": "c166b256df6fdbae4373ab3c2383ec21a27ad87f7c3d2a8783de3f630261bd4b",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+    "reference_hashes_measured_at_release_review": {
+      "assets/portraits/takeo-selection.png": "afc2370234f44a8550c34e3ebb9bf3c28d42d2c4ffa7513d3eb5b2b615e95849",
+      "media-workspace/takeo/originals/exec-9a9490de-d587-4082-9170-a84b11fb4dec.png": "2a8e231b917c1e2bfbcc0252820370d2099897c85974a20a0325c040b765b4d3"
+    }
+  },
+  "previous_production_copy": "media-workspace/campaign-shot-rebuild-2026-11-14/backups/CS-TK05A.png"
+}

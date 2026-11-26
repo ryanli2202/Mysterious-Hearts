@@ -2,7 +2,7 @@
   "roadmap_id": "MH-001",
   "batch": 1,
   "created": "2026-11-10",
-  "status": "Six local sprite sheets and six GIFs assembled and structurally verified; runtime integration pending.",
+  "status": "Withdrawn 2026-11-13: prior review sheets, GIFs, preview and contact removed; runtime integration remains pending.",
   "requested_model": "Images 2.6",
   "generation_tool": "built-in image_gen",
   "model_verification": "The built-in tool does not expose a model selector or return a verified model identifier.",
@@ -47,7 +47,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "456b04515d913d3fc5b3fe13de1b1dee07e37889322a1b88cc57cc1a4f58de5c",
         "sha256_gif": "5ab522da14e40f948455d4d9a88a53449c3d37a9ab5e58f08570c94d02302797"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B01-blunt-impact",
@@ -81,7 +82,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "68a0f6b7c564a8ca3ab5caed6f3b4a58dbfbe32a15afe4338241b8b4a119d94a",
         "sha256_gif": "f44e858100d697fa26f72b77433584a5968bf97e8bb4119fa1586243e12434c6"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B01-projectile",
@@ -115,7 +117,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "7b80d4437aefa113acdafd2f49f4ba268b805d402f1c7b1b18e4e56ae2731e42",
         "sha256_gif": "d23ed72a849f316b7276566e7b6a961995f35c17de19fe45a232dd1960b541b6"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B01-magic",
@@ -149,7 +152,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "9bbfc921323798018e7703c5fdf965521455386a1bdd65289af50f6da5c58250",
         "sha256_gif": "4d8686617b57d1b7f7509bb89a7f6e8483ae49826d9ad70986702e94b0e9e671"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B01-heal",
@@ -183,7 +187,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "3c7cb2a2d88852f52893b814c7c9d1013704c1b58bd60694eec15c1e841d3757",
         "sha256_gif": "48a9edafa5c9e48de03426f69e86fef22b93da121aa7e91a2389c476043dd043"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B01-shield",
@@ -217,8 +222,15 @@
         "loop": "infinite preview",
         "sha256_sheet": "d4ea928b9812632d887bdc6cb89aa55799b90a45b6fed4064a328aad51057dcc",
         "sha256_gif": "9e3d9b864a4c029eed5c57c5b2abe2e3cbb92f9fbceb31604ca0124cf0c3147c"
-      }
+      },
+      "available": false
     }
   ],
-  "validation_command": "python tools/build_combat_batch_gifs.py"
+  "validation_command": "python tools/build_combat_batch_gifs.py",
+  "withdrawn": true,
+  "availability": "withdrawn",
+  "withdrawn_on": "2026-11-13",
+  "withdrawal_reason": "User-requested combat animation artwork reset; historical paths and verification are retained, files removed.",
+  "style_guide": "roadmap/COMBAT_ANIMATION_STYLE_GUIDE.md",
+  "validation_command_status": "Historical command only; this manifest is withdrawn and the builder rejects it."
 }

@@ -49,7 +49,7 @@ class QuestPanel(ttk.Frame):
         elif stage<5:
             who='charles' if stage==1 else 'garrett';venue=s['world']['cast'][who]['location']
             label(who.title()+' is currently at '+town.location_name(s,venue))
-            if s['world']['location']!=venue:ttk.Button(self.body,text='Travel to '+who.title(),command=lambda:self.act(town.travel,venue)).pack(anchor='w',pady=5)
+            if s['world']['location']!=venue:__import__('campaign_navigation').directions(self.body,self.game,venue)
             ttk.Button(self.body,text=steps[stage],command=lambda:self.act(report.act)).pack(anchor='w',pady=5)
         if self.notice not in d.get('journal',[]):label(self.notice)
         for entry in d.get('journal',[]):label(entry)
@@ -71,14 +71,14 @@ def story_board(parent,game,act,notice=""):
         if s['world']['location']==quest.LAB and d['step']<9:
             ttk.Button(parent,text='I recognise Charles · request a private explanation',command=lambda:act(quest.recognise)).pack(anchor='w',pady=5)
         if s['world']['location']!=venue:
-            ttk.Button(parent,text='Travel to the memory’s starting point',command=lambda:act(town.travel,venue)).pack(anchor='w',pady=5)
+            __import__('campaign_navigation').directions(parent,game,venue)
         else:
             ttk.Button(parent,text='Begin flashback · '+title,command=lambda:act(campaign_flashbacks.start,memory)).pack(anchor='w',pady=5)
         label(notice)
         __import__('phone_theme').apply_tree(parent)
         return
     if s['world']['location']!=venue:
-        ttk.Button(parent,text='Travel to the current objective',command=lambda:act(town.travel,venue)).pack(anchor='w',pady=5)
+        __import__('campaign_navigation').directions(parent,game,venue)
     elif d['step']<len(quest.STEPS):
         if d['step'] in (6,9) or d['step'] in quest.garrett_chapters.BATTLES:
             ttk.Button(parent,text='Fight mission opponents' ,command=lambda:act(quest.security_action)).pack(fill='x',pady=4)

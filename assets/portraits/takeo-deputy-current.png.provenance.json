@@ -1,0 +1,22 @@
+{
+  "id": "takeo-deputy-current",
+  "type": "portrait",
+  "path": "assets/portraits/takeo-deputy-current.png",
+  "original": "media-workspace/takeo/originals/exec-9a9490de-d587-4082-9170-a84b11fb4dec.png",
+  "prompt": "ONE standalone head-to-mid-thigh game portrait, 2:3 vertical, TRUE transparent background. Kenji Arakawa, fictional Japanese man about 55, former special-operations deputy now serving in an authorised UN record-seizure operation. Lean sturdy build, short salt-and-pepper hair, square lined face, dark brown eyes, clean shaven, quiet accountable resolve. Charcoal field jacket and practical slate body armour, no helmet, no emblems or weapon posing. Semi-realistic illustrated manhwa, restrained tapered linework, softly dimensional facial planes, natural eye proportions, not photo/3D/chibi/exaggerated cel shade. Connected full head, complete hands, pelvis and meaningful thigh length below crotch, knees outside frame. Safe headroom. No scenery, ground, cast shadow, haze rectangle, text, watermark or signature. Genuine clear alpha outside silhouette.",
+  "references": [],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "2a8e231b917c1e2bfbcc0252820370d2099897c85974a20a0325c040b765b4d3",
+  "size": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+  "reference_hashes_measured_at_release_review": {}
+}

@@ -3,13 +3,13 @@ import copy
 LAB = 'glasshouse_lab'
 # title, location, question, choices, verified finding. No future finding appears in the current view.
 STEPS = (
- ('Mei’s delivery slip','noodle_shop','Mei’s old dispatch photo shows a correction eleven days after Charles left his job. The crooked H resembles his notes on the fridge.',('Keep the slip as a lead, not proof','Write down why the handwriting feels familiar'),'A dispatch slip was corrected from six crates to four. The handwriting resembles Charles’s, but authorship is unverified.'),
- ('The receiving copy','noodle_shop','The photo cuts off the stamp. Mei can provide the complete receiving copy.',('Compare both copies','Ask Mei to preserve the original'),'West Pier Cold Storage, Hong Kong, received four crates eleven days after Charles left work. The driver did not sign.'),
- ('Reconcile the crates','archive','The duplicate tally lists six packed crates and four collected. A discrepancy is not a missing passenger.',('Separate packed from collected totals','Record the uncertainty'),'Two crates remained at dispatch. The correction reconciles the totals; it proves neither Charles’s handwriting nor his travel.'),
- ('What the stamp proves','interpol_hq','At the public desk, Dana explains what receiving records establish. This is a records enquiry, not an announced investigation.',('Ask for the authorisation procedure','Request a public records form'),'The stamp confirms delivery acceptance only. A dated dispatch authorisation is needed to identify who ordered collection.'),
- ('Mei’s missing page','noodle_shop','Mei has found the matching index, but its authorisation page is absent. Her former records custodian may have the retained copy.',('Request the retained copy','Send the matching index number'),'Mei’s index matches the consignment. The missing authorisation has been requested from the records custodian.'),
- ('A Winterfield connection','archive','The custodian’s retained page is now available. Compare its date, crate count and reference number with the receiving copy.',('Cross-check all three fields','Treat the name alone as proof'),'The matching authorisation names Greyglass Service House in Winterfield as the equipment-service correspondent. It names no passenger and does not locate Charles.'),
- ('The service-house account','site_08','A frontage clerk recalls a quiet martial artist checking returned equipment. The description could fit Charles, but it is not identification.',('Ask for the dated service receipt','Accuse the clerk of hiding Charles'),'A dated receipt connects the old consignment to a private research-office account. The clerk accepts a sealed family enquiry through the existing return-document channel.'),
+ ('Mei’s delivery slip','noodle_shop','Mei’s old dispatch photo shows a correction eleven days after Charles left his job. The crooked H resembles his notes on the fridge.',('Ask Mei about the photograph','Tell Mei why the handwriting matters'),'A dispatch slip was corrected from six crates to four. The handwriting resembles Charles’s, but authorship is unverified.'),
+ ('The receiving copy','noodle_shop','The photo cuts off the stamp. Mei can provide the complete receiving copy.',('Ask Mei what she remembers','Give Mei time to find the complete copy'),'West Pier Cold Storage, Hong Kong, received four crates eleven days after Charles left work. The driver did not sign.'),
+ ('Reconcile the crates','archive','The duplicate tally lists six packed crates and four collected. A discrepancy is not a missing passenger.',('Let the disappointment settle','Keep looking for Charles'),'Two crates remained at dispatch. The correction reconciles the totals; it proves neither Charles’s handwriting nor his travel.'),
+ ('What the stamp proves','interpol_hq','At the public desk, Dana explains what receiving records establish. This is a records enquiry, not an announced investigation.',('Ask Dana how to reach the next lead','Accept Dana’s help with the request'),'The stamp confirms delivery acceptance only. A dated dispatch authorisation is needed to identify who ordered collection.'),
+ ('Mei’s missing page','noodle_shop','Mei has found the matching index, but its authorisation page is absent. Her former records custodian may have the retained copy.',('Ask Mei to contact the custodian','Stay with the lead despite the wait'),'Mei’s index matches the consignment. The missing authorisation has been requested from the records custodian.'),
+ ('A Winterfield connection','archive','The custodian’s retained page is now available. Compare its date, crate count and reference number with the receiving copy.',('Follow the matching reference','Insist this must mean Charles is nearby'),'The matching authorisation names Greyglass Service House in Winterfield as the equipment-service correspondent. It names no passenger and does not locate Charles.'),
+ ('The service-house account','site_08','A frontage clerk recalls a quiet martial artist checking returned equipment. The description could fit Charles, but it is not identification.',('Ask what the clerk can actually show you','Accuse the clerk of hiding Charles'),'A dated receipt connects the old consignment to a private research-office account. The clerk accepts a sealed family enquiry through the existing return-document channel.'),
  ('Separate evidence from rumour','archive','The returned reference mentions blue and red research files. A street rumour calls every associate a dealer. Neither explains why Charles disappeared.',('Follow the document chain, not the rumour','Treat the rumour as a confirmed confession'),'The office references are consistent across the retained copies. Blue and red file labels are not evidence that Charles sells drugs or was abducted. Your sealed enquiry has reached the office.'),
  ('A question only family can answer','noodle_shop','A handwritten reply asks: “When we tried to make her broth again, what did we use to measure it?” It offers no number. Answer from your own memory.',('Our father’s chipped teacup','A measuring jug from the restaurant'),'The reply answers with the unfinished shrimp-shell argument from your last call. Charles offers a private evening meeting at the Glasshouse, 19:00–23:00. A personal visitor authorisation and directions are enclosed. Come alone; this is not faction clearance.'),
  ('The brother in the laboratory',LAB,'Charles is here, alive. The room must be private before you confront the silence between you.',('Ask why he let you keep searching','Tell him you needed to know he was alive'),'Charles confirms that he disappeared deliberately to infiltrate the Syndicate and work beside Sylvanis, seeking to avenge your parents. He names no newly established culprit. He withheld contact to protect his cover, admits that it hurt you, and shares his private number for direct texts. Until now only Sylvanis could call him. He stays in the laboratory; this is a reunion, not a rescue or extraction.'),
@@ -58,12 +58,18 @@ def guard(s,venue,private=False,memories=True):
     if s['player']!='garrett': raise ValueError('This investigation belongs to Garrett’s story.')
     if memories:__import__('campaign_flashbacks').require(s)
     actor=s['world']['cast']['garrett']
-    if s['world']['location']!=venue or actor['location']!=venue or actor.get('journey'):
+    import interiors
+    at_venue=(interiors.same_building(s['world']['location'],venue) and interiors.same_building(actor['location'],venue)) if interiors.enabled(s,venue) else s['world']['location']==venue and actor['location']==venue
+    if not at_venue or actor.get('journey'):
         raise ValueError('Visit the current objective in person before proceeding.')
     if actor.get('activity')=='Sleep': raise ValueError('Wake up before investigating.')
     if private:
         now=s['world']['minute']%1440
         if not 19*60<=now<23*60: raise ValueError('Charles’s private visitor window is 19:00–23:00.')
+        if __import__('interiors').enabled(s, LAB):
+            if s['world'].get('party') or not __import__('interior_security').private_review(s, ('charles',)):
+                raise ValueError('Meet Charles alone in the private review and reunion room.')
+            return
         if s['world'].get('party') or any(not n.startswith('Post guard · ') for n in s['world'].get('npcs',[])) or any(who not in ('garrett','charles') and a['location']==LAB and not a.get('journey') for who,a in s['world']['cast'].items()):
             raise ValueError('Wait until you and Charles are alone. No sensitive discussion with other listeners.')
         charles=s['world']['cast']['charles']
@@ -76,6 +82,7 @@ def advance(s,choice):
     if type(choice) is not int or choice not in (0,1): raise ValueError('Choose one of the current responses.')
     title,venue,question,options,finding=STEPS[step]
     guard(s,venue,venue==LAB)
+    __import__('interior_activities').campaign(s,'charles',step)
     import combat, organisation_guards as security
     combat.guard(s)
     if step in (6,9) and security.remaining(s,venue,'charles:search'):
@@ -84,6 +91,8 @@ def advance(s,choice):
         raise ValueError('Defeat the civilian-protection mission detail before resolving this chapter.')
     if step==11 and s['world'].get('party'):
         raise ValueError('Take this private moment at home alone.')
+    if step==11 and __import__('interiors').enabled(s) and __import__('interiors').occupancy(s,__import__('interiors').room(s))>1:
+        raise ValueError('Wait until the dining room is private before taking this moment alone.')
     if step==9 and 'charles' not in security.data(s)['victories'].get('charles:finale',[]):
         raise ValueError('Charles refuses to return to your life. Defeat him in the private confrontation before reconciliation.')
     day=s['world']['minute']//1440
@@ -167,12 +176,19 @@ def security_action(s):
     step=read(s)['step']
     if step in garrett_chapters.BATTLES:
         guard(s,STEPS[step][1]); combat.guard(s)
+        __import__('interior_activities').campaign(s,'charles',step)
         return garrett_chapters.fight(s,step)
     if step not in (6,9): raise ValueError('No combat objective in this chapter.')
-    venue=STEPS[step][1]; guard(s,venue,step==9)
+    venue=STEPS[step][1]
+    room_mode=__import__('interiors').enabled(s, venue)
+    guard(s,venue,step==9 and not room_mode)
+    if step==9 and room_mode:
+        if s['world'].get('party') or not 19*60<=s['world']['minute']%1440<23*60:
+            raise ValueError('Approach alone during Charles’s 19:00–23:00 visitor window.')
     if security.remaining(s,venue,'charles:search'):
         return security.begin(s,venue,'charles:search')
     if step==9 and 'charles' not in security.data(s)['victories'].get('charles:finale',[]):
+        if room_mode: guard(s,venue,True)
         text=('Charles blocks the doorway. “If you stay in my life, they can use you against me. Go home.” '
               'Garrett refuses. “Let me prove I do not need you to disappear to keep me safe.” '
               'Charles takes his stance, fighting to drive Garrett away. Reconciliation requires Garrett to win.')

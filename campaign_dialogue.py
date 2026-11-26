@@ -17,7 +17,7 @@ def normalize_actions(d):
     import rei_story, charles_quest
     labels = set()
     if d.get('action') == 'rei_story.advance':
-        labels = {label for scene in rei_story.SCENES for label in scene[3]}
+        labels = {label for scene in rei_story.SCENES for label in scene[3]} | rei_story.LEGACY_CHOICE_LABELS
     elif d.get('action') == 'charles_quest.advance':
         labels = {label for i, scene in enumerate(charles_quest.STEPS) if i != 8 for label in scene[3]}
     for b in d['beats']:
@@ -97,10 +97,18 @@ RICHTER_FIGHT = [
 
 def dispatch(s,action,args):
     module,name=action.split('.')
-    if module not in ('rei_story','charles_quest','interpol'): raise ValueError('Unknown scripted campaign action.')
+    if module not in ('rei_story','charles_quest','interpol') and action not in ('campaign_gauntlet.continue_wave','ace_campaigns.perform_action','martos_campaigns.perform_action','elias_campaigns.perform_action','camila_campaigns.perform_action','sylvanis_campaigns.perform_action','neo_campaigns.perform_action','takeo_campaigns.perform_action','ivan_campaigns.perform_action'): raise ValueError('Unknown scripted campaign action.')
     return getattr(__import__(module),name)(s,*args)
 
 def scenes(s,action,args):
+    if action=='takeo_campaigns.perform_action':return __import__('takeo_campaigns').action_pages(s,args)
+    if action=='ivan_campaigns.perform_action':return __import__('ivan_campaigns').action_pages(s,args)
+    if action=='neo_campaigns.perform_action':return __import__('neo_campaigns').action_pages(s,args)
+    if action=='sylvanis_campaigns.perform_action':return __import__('sylvanis_campaigns').action_pages(s,args)
+    if action=='camila_campaigns.perform_action':return __import__('camila_campaigns').action_pages(s,args)
+    if action=='elias_campaigns.perform_action':return __import__('elias_campaigns').action_pages(s,args)
+    if action=='martos_campaigns.perform_action':return __import__('martos_campaigns').action_pages(s,args)
+    if action=='ace_campaigns.perform_action':return __import__('ace_campaigns').action_pages(s,args)
     import rei_story, charles_quest
     player=s['player']
     if action=='charles_quest.security_action':return CHARLES_FIGHT
@@ -156,9 +164,17 @@ def scenes(s,action,args):
             return [beat(speaker='gordon',text=person['name']+' is the Ace of '+person['suit']+'. The records and the field encounter support the same conclusion.'),
                     beat(speaker='fox',text='Then put the name against what they did. Not everyone who worked beside them.'),
                     beat(narration='The verified identity is disclosed to the assembled investigation team. Other contacts do not automatically learn it.')]
-        return [beat(speaker=partner,text='Our objective: '+step['title']+'.',narration='The field team reviews the current evidence at the objective location.'),
-                beat('We keep the record to what we can establish.',partner,
-                     'Guard posts first. Then the operation target. Stay ready.' if step['kind']=='combat' else step['finding'])]
+        lines=[beat(speaker=partner,text='Our objective: '+step['title']+'.',narration='The field team reviews the current evidence at the objective location.'),
+               beat('We keep the record to what we can establish.',partner,
+                    'Guard posts first. Then the operation target. Stay ready.' if step['kind']=='combat' else step['finding'])]
+        if interpol.read(s)['active'].get('repeatable') and key in ('patrol','intercept','protect'):
+            voice=__import__('campaign_voice')
+            if player=='gordon' and partner=='fox':
+                voice.fixed_exchange(lines[0],player,{'fox':'FG-OP-'+key.upper()})
+                voice.fixed_exchange(lines[1],player,{'fox':'FG-OP-GUARDS'})
+            elif player=='fox' and partner=='gordon':
+                voice.fixed_exchange(lines[1],player,{'fox':'FG-OP-RECORD'})
+        return lines
     return []
 
 def begin(s,action,args=()):
@@ -186,16 +202,34 @@ def begin(s,action,args=()):
         module=__import__(action.split('.')[0])
         index=module.data(s)['stage'] if action.startswith('rei') else module.read(s)['step']
         spec=module.SCENES[index] if action.startswith('rei') else module.STEPS[index]
-        if not (action.startswith('charles') and index==8):
+        if action.startswith('rei'):
+            # Keep the selected response and optional narration contract without
+            # an extra bookkeeping page after the narrative's final beat.
+            lines[-1].update(action=spec[3][args[0]],optional_narration=True)
+        elif index!=8:
             lines.append(campaign_prose.page('Selected action: '+spec[3][args[0]]+'\n\nThe response will be recorded when you continue to the outcome.',
                 action=spec[3][args[0]],optional_narration=True,title='Your response'))
     stamp_pages(s,lines)
     s['campaign_dialogue']=dict(action=action,args=list(args),beats=copy.deepcopy(lines),cursor=0,venue=s['world']['location'],player=s['player'],flashback_gate_checked=True)
+    if action in ('ace_campaigns.perform_action','martos_campaigns.perform_action','elias_campaigns.perform_action','camila_campaigns.perform_action','sylvanis_campaigns.perform_action','neo_campaigns.perform_action','takeo_campaigns.perform_action','ivan_campaigns.perform_action'):
+        s['campaign_dialogue']['social_cast']=__import__(action.split('.')[0]).required_cast(s,args[0],args[1] if len(args)>1 else '')
 
 def stamp_pages(s,lines):
+    import interiors
+    appearance=None
+    if s.get('interiors',{}).get('enabled_buildings'):
+        people=interiors.occupants(s,interiors.room(s)) if interiors.enabled(s) else [s['player']]
+        appearance=__import__('wardrobe_context').snapshot(s,people)
     for b in lines:
+        if b.get('mode')!='memory':
+            b.setdefault('stage_cast',__import__('campaign_presentation').present_cast(s,b))
+        if appearance is not None and b.get('mode')!='memory':
+            b.setdefault('wardrobe_snapshot',copy.deepcopy(appearance))
         if b.get('prose'):
             b.setdefault('venue',s['world']['location']);b.setdefault('minute',s['world']['minute'])
+            if (__import__('interiors').enabled(s) and b.get('mode') != 'memory'
+                    and not b.get('background') and b['venue'] == s['world']['location']):
+                b.setdefault('room', __import__('interiors').room(s))
 
 
 def epilogue(s,lines):
@@ -204,10 +238,13 @@ def epilogue(s,lines):
         s['campaign_dialogue']=dict(action=None,args=[],beats=lines,cursor=0,venue=s['world']['location'],player=s['player'])
 
 def activate_epilogue(s):
+    __import__('campaign_gauntlet').prune(s)
     if not s.get('campaign_dialogue') and not s.get('combat',{}).get('active') and not __import__('combat').recovering(s) and s.get('campaign_epilogues'):
         entry=s['campaign_epilogues'][0]
         if entry['venue']==s['world']['location']:
             s['campaign_epilogues'].pop(0);epilogue(s,entry['lines'])
+            if entry.get('action'):
+                s['campaign_dialogue'].update(action=entry['action'],args=entry['args'],flashback_gate_checked=True)
 
 def next_line(s):
     d=s.get('campaign_dialogue')
@@ -215,7 +252,13 @@ def next_line(s):
     if s['player']!=d['player'] or s['world']['location']!=d['venue']:raise ValueError('Return to the saved conversation location.')
     b=d['beats'][d['cursor']]
     if b.get('reflection') and b.get('selected') is None:raise ValueError('Choose a reflection before continuing.')
-    if d['cursor']<len(d['beats'])-1:d['cursor']+=1;return 'Next line'
+    if d['cursor']<len(d['beats'])-1:
+        if d.get('action')=='takeo_campaigns.perform_action' and __import__('takeo_campaigns').pause_for_room(s,d,d['cursor']+1):return 'Scene saved. Travel to the next room and resume from Story.'
+        if d.get('action')=='sylvanis_campaigns.perform_action' and __import__('sylvanis_campaigns').pause_for_room(s,d,d['cursor']+1):return 'Scene saved. Travel to the next room and resume from Story.'
+        if d.get('action')=='camila_campaigns.perform_action' and __import__('camila_campaigns').pause_for_room(s,d,d['cursor']+1):return 'Scene saved. Travel to the next room and resume from Story.'
+        if d.get('action')=='elias_campaigns.perform_action' and __import__('elias_campaigns').pause_for_room(s,d,d['cursor']+1):return 'Scene saved. Travel to the next room and resume from Story.'
+        if d.get('action')=='martos_campaigns.perform_action' and __import__('martos_campaigns').pause_for_room(s,d,d['cursor']+1):return 'Scene saved. Travel to the next room and resume from Story.'
+        d['cursor']+=1;return 'Next line'
     if d['action']=='campaign_flashbacks.finish':
         result=__import__('campaign_flashbacks').finish(s,*d['args'])
         __import__('campaign_prose').finish(s,d)
@@ -232,13 +275,21 @@ def next_line(s):
     finally:s.pop('_finishing_legacy_campaign_dialogue',None)
     __import__('campaign_prose').finish(s,d)
     s.setdefault('campaign_dialogue_history',[]).append(d)
+    if d.get('action')=='neo_campaigns.perform_action':
+        __import__('neo_campaigns').finish_reading(s,d)
+    if d.get('action')=='sylvanis_campaigns.perform_action':
+        __import__('sylvanis_campaigns').finish_reading(s,d['args'][0])
     return result
 
 def maybe_open(game,fn,args):
     action=fn.__module__+'.'+fn.__name__
+    # These objectives start combat directly after the authored scene. The
+    # Story action handler executes them and opens the fight without a filler page.
+    if action in ('takeo_campaigns.perform_action','neo_campaigns.perform_action','martos_campaigns.perform_action') and args and args[0]=='objective':
+        return False
     if action=='campaign_flashbacks.start':
         fn(game.state_data,*args);game.persist();show(game);return True
-    if action=='campaign_prose.begin_social':
+    if action in ('campaign_prose.begin_social','campaign_prose.revisit_interpol'):
         fn(game.state_data,*args);game.persist();show(game);return True
     allowed=('rei_story.advance','rei_story.choose','rei_story.confront','rei_story.fight_guards','charles_quest.advance','charles_quest.check_in','interpol.advance')
     if action=='charles_quest.security_action':
@@ -246,63 +297,14 @@ def maybe_open(game,fn,args):
         s=game.state_data
         step=charles_quest.read(s)['step']
         if step not in (14,16) and (step!=9 or organisation_guards.remaining(s,'glasshouse_lab','charles:search')):return False
-    elif action not in allowed:return False
+    elif action not in allowed and action not in ('ace_campaigns.perform_action','martos_campaigns.perform_action','elias_campaigns.perform_action','camila_campaigns.perform_action','sylvanis_campaigns.perform_action','neo_campaigns.perform_action','takeo_campaigns.perform_action','ivan_campaigns.perform_action'):return False
     begin(game.state_data,action,args);game.persist();show(game);return True
 
 def show(game):
-    import tkinter as tk
-    from tkinter import ttk
-    from hangout_ui import Exchange
-    import phone_theme, artwork, winterfield_ui as ui
-    d=game.state_data.get('campaign_dialogue')
-    if not d:return
-    if d['beats'][d['cursor']].get('prose'):
-        __import__('campaign_prose_ui').show(game)
+    if not game.state_data.get('campaign_dialogue'):
         return
-    __import__('campaign_prose_ui').hide(game)
-    game.hide_phone_for_location()
-    for name in ('campaign_view','interpol_view','combat_view'):
-        panel=getattr(game,name,None)
-        if panel is not None and panel.winfo_exists():panel.place_forget()
-    area=getattr(game,'area_view',None)
-    if area is not None and area.winfo_exists():area.pack_forget()
-    game.presence_view.pack_forget();game.in_person_chat.pack(side='left',fill='both',expand=True)
-    view=game.hangout_view;c=view.canvas
-    view.script_mode=True
-    if not hasattr(view,'script_panel'):
-        view.script_panel=tk.Frame(c,bg=ui.PANEL,padx=14,pady=12)
-        view.script_item=c.create_window(0,0,window=view.script_panel,anchor='sw')
-    for w in view.script_panel.winfo_children():w.destroy()
-    normalize_actions(d)
-    b=d['beats'][d['cursor']]
-    c.members=list(dict.fromkeys(who for line in d['beats'] for who,_ in line['speeches'] if who!=game.state_data['player']))
-    narration = b.get('gm_narration') or ('Selected action: '+b['action']+'\n\n'+b['narration'] if b.get('action') else b['narration'])
-    c.exchange=Exchange(player=b['player'],narration=narration,speeches=b['speeches'])
-    c.speech_index=0;c.page_indices=dict.fromkeys(c.page_indices,0)
-    c.artwork=d.get('background') or artwork.scene_art(d['venue'],minute=game.state_data['world']['minute'])
-    heading=('MANDATORY FLASHBACK · '+d['title']) if d.get('title') else ('SCRIPTED CONVERSATION · '+__import__('town').location_name(game.state_data,d['venue']))
-    ttk.Label(view.script_panel,text=f"{heading} · {d['cursor']+1} / {len(d['beats'])}",wraplength=700).pack(anchor='w')
-    if b.get('action') and not b.get('gm_narration'):
-        ttk.Label(view.script_panel, text=b.get('_narration_error') or 'Game Master is describing your action…').pack(anchor='w')
-        if b.get('_narration_error'):
-            def retry():
-                game._campaign_narration_job = None
-                b.pop('_narration_error', None)
-                show(game)
-            ttk.Button(view.script_panel, text='Retry narration', command=retry).pack(side='left')
-    request_narration(game, d, b)
-    def advance():
-        try:next_line(game.state_data);game.persist()
-        except ValueError as exc:
-            ttk.Label(view.script_panel,text=str(exc),wraplength=700).pack(fill='x');return
-        if game.state_data.get('campaign_dialogue'):show(game)
-        else:
-            restore(view);game.render()
-            if __import__('combat').active(game.state_data):__import__('combat_ui').open_combat(game)
-    ttk.Button(view.script_panel,text='Continue' if d['cursor']<len(d['beats'])-1 else 'Continue to outcome',command=advance).pack(side='right',padx=4)
-    c.controls_height=90
-    c.itemconfigure(view.controls_item,state='hidden');c.itemconfigure(view.header_item,state='hidden')
-    c.itemconfigure(view.script_item,state='normal');c.redraw();phone_theme.apply_tree(view.script_panel)
+    __import__('campaign_prose_ui').show(game)
+
 
 def restore(view):
     reader=getattr(view,'prose_reader',None)

@@ -31,7 +31,7 @@ PROFILES = {
     'emily': ('Awakened', 'Critical Hit creates weak points and suppresses pain without preventing damage or knockout. She begins awakened; this does not invent memories of fighting Blackstone or rising through the Iron Circle. Conversation and romance do not grant extra powers.'),
     'sylvanis': ('Awakened; Blisk', 'Umbrakinesis, enhanced speed and reflexes, True Sight and Polymath. These do not grant omniscience or every Blisk the same abilities. Source endgame Transcendence and victories are not automatically current AU feats.'),
     'ivan': ('Awakened', 'Conduit channels elemental affinities: fire, wind, ice and lightning with physical amplification. His source five-minute Conduit State is limited to once per twenty-four hours; this is lore, not a usable timed combat action. Power does not erase responsibility or free him from the Syndicate.'),
-    'valentina': ('Awakened', 'Queen of Wind; Trait: Deathwind. Ivan provided Deathwind as an extension of his wind, including soul injury and Misanthropy continued-function endurance. It shapes dangerous cutting wind and controlled gusts, requiring concentration and risking collateral injury. It is not automatic death, soul control or limitless weather control. She is one of Ivan’s five generals with real command responsibility, alongside her sailing work and independent personal life.'),
+    'valentina': ('Awakened', 'Queen of Death; Trait: Deathwind. Ivan provided Deathwind as an extension of his wind, including soul injury and Misanthropy continued-function endurance. It shapes dangerous cutting wind and controlled gusts, requiring concentration and risking collateral injury. It is not automatic death, soul control or limitless weather control. She is one of Ivan’s five generals with real command responsibility, alongside her sailing work and independent personal life.'),
     'alyssa': ('Awakened; Blisk', 'Umbrakinesis with enhanced speed and reflexes. Shadow manipulation does not grant teleportation, intangibility, True Sight, Polymath or Sylvanis’s entire repertoire. Her archive work, botanical art and relationship with Neo remain her own life.'),
     'minsu': ('Awakened', 'A speed-and-reflexes Trait improves short-burst movement, reactions and coordination. Its formal name is not established. No time stopping, teleportation, limitless stamina or automatic sporting victories; training, rest and fair competition still matter.'),
 }
@@ -53,7 +53,7 @@ def speaker_context(who, listeners, state=None):
             'Do not turn a casual conversation into a dossier or demonstrate powers without an authored action.')
     if who in ('ivan', 'valentina'):
         result['Private command knowledge'] = (
-            'Ivan and Valentina both know she is his general, the Queen of Wind, with Deathwind, '
+            'Ivan and Valentina both know she is his general, the Queen of Death, with Deathwind, '
             'and that he is the Black and White Joker Card. She knows her assignments and his command role, '
             'not automatically his undisclosed dealings or private vulnerabilities. '
             'Her authority entails responsibility for harm; kinship does not excuse it. Keep these facts from outsiders.')
@@ -73,6 +73,7 @@ def speaker_context(who, listeners, state=None):
         result['Combat continuity override']='Peak source-story powers are available now for combat; source deaths, romances and victories are not imported. Mechanical actions occur only in the in-person combat controls.'
         result['Own ability (private self-knowledge)'] = ('Awakened. ' if p['awakened'] else 'Unawakened. ') + (p['trait']['name']+': '+p['trait']['description'] if p['trait'] else 'No named Trait.')+' '+p.get('abilities','')
         result['Own martial knowledge']=list(p['arts'])
+        if who=='takeo':result['Own ability (private self-knowledge)']+=' '+takeo.ABILITY
         if p.get('form'): result['Available combat form']=p['form']
         import combat_path
         result['The Path']=combat_path.LORE

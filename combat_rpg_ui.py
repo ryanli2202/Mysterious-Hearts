@@ -12,7 +12,7 @@ import combat_objectives as objectives
 import combat_identity as identity
 import combat_portraits
 from combat_profiles import profile
-from artwork import source_image, scene_art
+from artwork import source_image, scene_art, combat_scene_art
 import winterfield_ui as ui
 import combat_style as style
 
@@ -163,7 +163,7 @@ class RPGCombat:
         self.ui_prefs = preferences(s); self.rpg_fight = f; self.rpg_ghost = {}
         self.rpg_drawer = None
         p = profile(s, s['player']); q = f['opponent_profile']
-        self.title.configure(text=('BOSS' if q.get('boss') else f['kind'].upper())+' · '+q['name'][:55], font=('Segoe UI', 16, 'bold'))
+        self.title.configure(text=('BOSS' if q.get('boss') else f.get('display_kind',f['kind'].upper()))+' · '+q['name'][:55], font=('Segoe UI', 16, 'bold'))
         # Bottom dock is reserved first so it remains reachable in compact windows.
         dock = style.Panel(self.body, bg=ui.PANEL, padx=8, pady=3)
         dock.pack(side='bottom', fill='x')
@@ -175,7 +175,7 @@ class RPGCombat:
         self.rpg_button(top, 'Display / help', self.display_settings).pack(side='right')
         self.rpg_button(top, 'Tactics', self.toggle_tactics).pack(side='right')
         clock = f"Round {min(3, f['elapsed']//300+1)}/3 · {max(0,900-f['elapsed'])}s remaining" if f['kind']=='circle' else 'Both fighters act each exchange'
-        self.objective_label = self.rpg_text(self.body, f"{f['location'].replace('_',' ').title()} · Exchange {f['turn']+1} · {clock}\n" + objectives.description(f))
+        self.objective_label = self.rpg_text(self.body, f"{f.get('location_label',f['location'].replace('_',' ').title())} · Exchange {f['turn']+1} · {clock}\n" + objectives.description(f))
         self.objective_label.pack(fill='x')
         # Latest narration has a fixed height; the entire history lives in a drawer.
         self.transcript = tk.Text(self.body, height=1 if self.ui_prefs['density']=='Cinematic' or self.ui_prefs['text_size']>10 else 2, wrap='word', bg=ui.PANEL, fg=ui.CREAM,
@@ -188,7 +188,9 @@ class RPGCombat:
         self.build_stage(s, f)
         if f['status']=='finished':
             self.rpg_text(dock, f.get('result', 'Encounter finished'), ui.GOLD).pack(fill='x')
-            self.rpg_button(dock, 'Return to location', lambda: self.run(self.close_encounter)).pack(side='right')
+            mission=s.get('organisation_guards',{}).get('encounter')
+            label='Continue building →' if mission and mission['scope']!='patrol' and f.get('result','').startswith('Victory') else 'Return to location'
+            self.rpg_button(dock, label, lambda: self.run(self.close_encounter)).pack(side='right')
             return
         self.build_commands(dock, s, f, p)
 
@@ -219,6 +221,7 @@ class RPGCombat:
                 bar.bind('<Configure>', lambda e,side=side,key=key: self.draw_bar(side,key))
             form = engine.active_form(f, side)
             state = form['name']+f" · {max(0,f[side]['form_until']-f['elapsed'])}s" if form else p['path']['stage']
+            if f.get('ace_historical'):state='Historical checkpoint · isolated resources'
             status = states.status(p, f[side])
             if status or any(f[side].get(key) for key in ('restrained','staggered','focus')):
                 state += '\nStates active · inspect fighter'
@@ -258,7 +261,7 @@ class RPGCombat:
         w,h = max(1,stage.winfo_width()),max(1,stage.winfo_height())
         if w<100 or h<60: return
         f = self.rpg_fight; s = self.game.state_data
-        scene = ImageOps.fit(source_image(scene_art(f['location'],minute=s['world']['minute'])).convert('RGB'),(w,h))
+        scene = ImageOps.fit(source_image(combat_scene_art(f,s)).convert('RGB'),(w,h))
         scene = Image.blend(scene,Image.new('RGB',(w,h),ui.INK),.22)
         self.combat_stage_background = ImageTk.PhotoImage(scene,master=self.game)
         stage.itemconfigure(self.stage_background,image=self.combat_stage_background)
@@ -471,7 +474,8 @@ class RPGCombat:
         if channels:
             channel=tk.StringVar(value=f['player']['channel'] or 'No channel')
             self.picker(row,channel,['No channel',*channels[1:]],lambda:self.run(lambda:states.set_channel(s,'' if channel.get()=='No channel' else channel.get())),16)
-            self.rpg_button(row,'Misanthropy · 18 mana',lambda:self.run(lambda:states.activate_endurance(s))).pack(side='left')
+            if states.trait(p,'Conduit') or states.trait(p,'Deathwind'):
+                self.rpg_button(row,'Misanthropy · 18 mana',lambda:self.run(lambda:states.activate_endurance(s))).pack(side='left')
         extra=tk.Frame(panel,bg=ui.PANEL); extra.pack(fill='x',after=row)
         self.picker(extra,self.action_art,['All arts',*p['arts']],self.populate_moves,22)
         if not f['turn'] and len(objectives.choices(f))>1:

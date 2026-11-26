@@ -1,0 +1,8 @@
+{
+  "id": "campaign-school-garden",
+  "prompt": "Create one opaque 1536x1024 landscape reusable semi-realistic manhwa game background for Mysterious Hearts. Match the supplied location reference's rendering language and compatible architecture, not its exact camera. A small school model garden beside the courtyard, with a little handmade greenhouse model on a potting bench, plants, modest paths, school wall and visible doorway back to courtyard. No people. 2046-2047 ordinary living school interval; no memorial or loss symbolism. Eye-level stage composition, believable doors and open central floor for reusable transparent character layers; lower third quiet for runtime reading area. No UI, captions, speech bubbles, watermark, logos, baked-in writing, decorative glyphs or people.",
+  "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ceb4-8567-7891-b908-9e00449056e7\\exec-0b8d7507-23c9-47d2-b47c-809bab504e82.png",
+  "method": "built-in image_gen",
+  "review": "Accepted: source image and actual embedded historical room/stage rendering inspected; evidence in roadmap/CAMPAIGN_PRESENTATION_RUNTIME.md.",
+  "sha256": "0a4c3df3e7a068a3f132d7c761aa6b0788934df5747656121fbbe33fbfb6a72e"
+}

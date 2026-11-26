@@ -1,0 +1,48 @@
+{
+  "id": "CS-TK03A",
+  "type": "shot",
+  "path": "assets/campaigns/takeo/core/CS-TK03A.png",
+  "original": "media-workspace/campaign-shot-rebuild-2026-11-14/originals/CS-TK03A.png",
+  "prompt": "Create ONE opaque 16:9 cinematic illustrated game scene CS-TK03A. Exact Takeo identity/costume from supplied portrait: 211cm very muscular adult Japanese man with short black buzzcut, compact moustache/goatee, youthful angular manhwa face, charcoal quarter-zip shirt and grey-black camouflage sleeves, black belt and dark combat trousers. Establishing arrival at fortified Meridian industrial-port service entrance at rainy night, fictional 2050. He strides TOWARD the large closed service door, shown three-quarter from side/rear with face readable in profile, not posing facing camera. Low camera near wet pavement, tall receding concrete wall and red warning lamps, strong diagonal reflections leading to doorway. One heavy grounded step, planted foot with correct ankle, natural arm swing and connected shoulders/pelvis/knees; he is imposing relative to a normal-sized service door without miniature head or distorted limbs. Long spatial depth and controlled anticipation, not combat, victory or aftermath. Semi-realistic illustrated manhwa, faces deliberately drawn like portrait with almond eyes and simplified nose/lip/cheek planes, selective tapered contours, soft dimensional paint shadows, restrained fabric detail; no photo texture. No victims, bystanders, weapons, power auras, lightning, flags, readable text, logos, bubbles or panels. Keep figure essential silhouette within central safe area, leave quieter lower strip for reader; no body cut off at joints. Exactly one person.",
+  "references": [
+    "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK03A-1.png"
+  ],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "5e59b2e05e00804ec1d01462bc63c296e144066291fbbe15c85cace439c565c4",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "alpha_extrema": null,
+  "visual_review": "Full generated image and actual reader render visually inspected; affected artwork checks and route UI smoke passed. See campaign-shot-rebuild-2026-11-14/README.md.",
+  "reference_hashes_measured_at_release_review": {
+    "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK03A-1.png": "afc2370234f44a8550c34e3ebb9bf3c28d42d2c4ffa7513d3eb5b2b615e95849"
+  },
+  "revision_date": "2026-11-14",
+  "supersedes": {
+    "id": "CS-TK03A",
+    "type": "shot",
+    "path": "assets/campaigns/takeo/core/CS-TK03A.png",
+    "original": "media-workspace/takeo/originals/exec-43e9e5e5-f0af-45e3-bade-da61be70f071.png",
+    "prompt": "ONE 16:9 wide illustrated visual-novel shot, single frame no borders. Wide establishing shot at the Meridian complex service entrance, fictional 2050 industrial port at night, rain-dark concrete and red warning lamps. Takeo exactly as reference, an enormous 211cm powerfully muscular Japanese commander in charcoal quarter-zip shirt with grey-black camouflage sleeves and dark combat trousers, walks toward the fortified door. No punching yet, no victory, no defeated bodies, controlled stillness before real resistance. Semi-realistic illustrated manhwa, restrained linework, natural proportions, soft dimensional painted shading, not photo/3D/cel cartoon. No flags, emblems, captions, readable text or watermark.",
+    "references": [
+      "assets/portraits/takeo-selection.png"
+    ],
+    "provider": "Built-in image_gen tool",
+    "model": "Not exposed; unverified",
+    "sha256": "15a07fc584078a06a46b5542b8b822258f7fa18c67c9470ce56aefa84e931b8e",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+    "reference_hashes_measured_at_release_review": {
+      "assets/portraits/takeo-selection.png": "afc2370234f44a8550c34e3ebb9bf3c28d42d2c4ffa7513d3eb5b2b615e95849"
+    }
+  },
+  "previous_production_copy": "media-workspace/campaign-shot-rebuild-2026-11-14/backups/CS-TK03A.png"
+}

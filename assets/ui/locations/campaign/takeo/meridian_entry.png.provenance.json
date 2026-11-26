@@ -1,0 +1,19 @@
+{
+  "id": "meridian_entry",
+  "type": "location",
+  "path": "assets/ui/locations/campaign/takeo/meridian_entry.png",
+  "original": "media-workspace/takeo/originals/exec-77577412-acfb-456d-9a5e-73de7bfeae55.png",
+  "prompt": "A single 16:9 wide game location background painting: Meridian complex service entrance, fictional 2050 American industrial port, fortified service corridor with heavy sliding door, loading pavement and independent exit lane, rain-dark concrete, crimson warning lights and slate blue night. No people, no readable text, no logos. Semi-realistic illustrated manhwa, restrained linework, dimensional soft painted shadows, not photorealistic or 3D or exaggerated cel-shaded. Strong clear room layout for visual-novel character staging, central lower region uncluttered.",
+  "references": [],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "01585e4c0769f33c40f598de9a5175a7296c9da1ae6a801705cd286c4e8930a1",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "alpha_extrema": null,
+  "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+  "reference_hashes_measured_at_release_review": {}
+}

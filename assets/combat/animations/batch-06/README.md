@@ -1,19 +1,22 @@
 # MH-001 combat animation batch 06
 
+> **Withdrawn 2026-11-13.** All GIFs, sprite sheets, combined preview and contact image from this batch were removed for the combat animation reset. The manifest and this README are historical production evidence; paths below are retired, and rebuild commands are historical only. No runtime integration or release is claimed. Future work follows the [combat animation style guide](../../../../roadmap/COMBAT_ANIMATION_STYLE_GUIDE.md).
+
+
 Eight Kyokushin/MMA master sprite sheets generated first with built-in image_gen, then sliced into GIFs locally with Pillow. [The manifest](manifest.json) preserves exact prompts, source paths and hashes. Exact generator model identity is unverified.
 
-Open [the combined animated preview](batch-06-preview.gif).
+Open the combined animated preview (retired path: `batch-06-preview.gif`).
 
 | Move | GIF | Sprite sheet |
 | --- | --- | --- |
-| mountain splitter | [GIF](gifs/mountain-splitter.gif) | [PNG](spritesheets/mountain-splitter.png) |
-| adamant advance | [GIF](gifs/adamant-advance.gif) | [PNG](spritesheets/adamant-advance.png) |
-| hundred beat barrage | [GIF](gifs/hundred-beat-barrage.gif) | [PNG](spritesheets/hundred-beat-barrage.png) |
-| thunder heel | [GIF](gifs/thunder-heel.gif) | [PNG](spritesheets/thunder-heel.png) |
-| apex chain | [GIF](gifs/apex-chain.gif) | [PNG](spritesheets/apex-chain.png) |
-| predator switch | [GIF](gifs/predator-switch.gif) | [PNG](spritesheets/predator-switch.png) |
-| gravity crash | [GIF](gifs/gravity-crash.gif) | [PNG](spritesheets/gravity-crash.png) |
-| total control | [GIF](gifs/total-control.gif) | [PNG](spritesheets/total-control.png) |
+| mountain splitter | GIF (retired path: `gifs/mountain-splitter.gif`) | PNG (retired path: `spritesheets/mountain-splitter.png`) |
+| adamant advance | GIF (retired path: `gifs/adamant-advance.gif`) | PNG (retired path: `spritesheets/adamant-advance.png`) |
+| hundred beat barrage | GIF (retired path: `gifs/hundred-beat-barrage.gif`) | PNG (retired path: `spritesheets/hundred-beat-barrage.png`) |
+| thunder heel | GIF (retired path: `gifs/thunder-heel.gif`) | PNG (retired path: `spritesheets/thunder-heel.png`) |
+| apex chain | GIF (retired path: `gifs/apex-chain.gif`) | PNG (retired path: `spritesheets/apex-chain.png`) |
+| predator switch | GIF (retired path: `gifs/predator-switch.gif`) | PNG (retired path: `spritesheets/predator-switch.png`) |
+| gravity crash | GIF (retired path: `gifs/gravity-crash.gif`) | PNG (retired path: `spritesheets/gravity-crash.png`) |
+| total control | GIF (retired path: `gifs/total-control.gif`) | PNG (retired path: `spritesheets/total-control.png`) |
 
 Each sheet is 1536x1024 with six 512x512 cells in row-major order. Each GIF uses six 150ms action frames (900ms) plus a 720ms blank review pause, repeating every 1620ms. These are opaque dark-slate keyframe previews, not transparent overlays or seamless loops.
 

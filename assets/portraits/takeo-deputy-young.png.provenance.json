@@ -1,0 +1,26 @@
+{
+  "id": "takeo-deputy-young",
+  "type": "portrait",
+  "path": "assets/portraits/takeo-deputy-young.png",
+  "original": "media-workspace/takeo/originals/exec-e40ebdd2-0afb-4eae-9a3d-d17b00e27f21.png",
+  "prompt": "ONE standalone head-to-mid-thigh portrait, vertical 2:3, genuine transparent background. Use this exact fictional Kenji Arakawa identity with recognisable square facial proportions and dark brown eyes, but depict him as a younger adult in his late twenties before 2024: short black hair without grey, less lined skin, clean shaven. Plain dark military uniform, no insignia, calm attentive deputy posture. Semi-realistic illustrated manhwa, restrained linework and soft dimensional shadows, natural eyes, not photo/3D/exaggerated anime. Whole head, complete hands and both thighs visible through true mid-thigh crop, no knees, safe margins. No background, ground, shadow, haze rectangle, text or watermark.",
+  "references": [
+    "media-workspace/takeo/originals/exec-9a9490de-d587-4082-9170-a84b11fb4dec.png"
+  ],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "322c42f46b2cb7e77613b76dabd76a22800134341f17363f9e59b5fc7611fae9",
+  "size": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+  "reference_hashes_measured_at_release_review": {
+    "media-workspace/takeo/originals/exec-9a9490de-d587-4082-9170-a84b11fb4dec.png": "2a8e231b917c1e2bfbcc0252820370d2099897c85974a20a0325c040b765b4d3"
+  }
+}

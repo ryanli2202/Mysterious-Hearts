@@ -1,0 +1,8 @@
+{
+  "id": "campaign-hk-street",
+  "prompt": "Create one opaque 1536x1024 landscape reusable semi-realistic manhwa game background for Mysterious Hearts. Match the supplied location reference's rendering language and compatible architecture, not its exact camera. A lived-in Hong Kong side street adjacent to the school gate: tiled pavement, plain old shop fronts with completely blank awnings, steam from a small neighbourhood noodle shop, hillside apartments in distance. No people, cars with readable plates, named shops or readable signs. The past when Garrett is sixteen; this is not his adult Golden Dragon business. Eye-level stage composition, believable doors and open central floor for reusable transparent character layers; lower third quiet for runtime reading area. No UI, captions, speech bubbles, watermark, logos, baked-in writing, decorative glyphs or people.",
+  "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ceb4-8567-7891-b908-9e00449056e7\\exec-933bfe6a-c810-46cf-9654-ca4d88bc33da.png",
+  "method": "built-in image_gen",
+  "review": "Accepted: source image and actual embedded historical room/stage rendering inspected; evidence in roadmap/CAMPAIGN_PRESENTATION_RUNTIME.md.",
+  "sha256": "9eddd7f543eb406b2963554260abb8c93fd842ff15d62255b1fb0d0093f2826a"
+}

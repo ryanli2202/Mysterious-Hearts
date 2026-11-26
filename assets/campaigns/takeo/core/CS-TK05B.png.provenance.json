@@ -1,0 +1,50 @@
+{
+  "id": "CS-TK05B",
+  "type": "shot",
+  "path": "assets/campaigns/takeo/core/CS-TK05B.png",
+  "original": "media-workspace/campaign-shot-rebuild-2026-11-14/originals/CS-TK05B.png",
+  "prompt": "Correct this image's severe anatomy error. The foreground Takeo currently has THREE ARMS. Remove the ENTIRE uppermost extra arm running from left shoulder to the TOP of the cabinet, including its bare hand on cabinet top and entire camouflage sleeve. Replace its region with the bare background wall and naturally shaped shoulder silhouette. Keep EXACTLY TWO ARMS on Takeo: (1) the reinforced dark crimson metallic arm at image LEFT gripping and tearing out the storage assembly, which must connect naturally through upper arm and elbow to his RIGHT shoulder; (2) the normal camouflage-sleeved arm at image RIGHT with its bare hand resting on his bent knee, connected to LEFT shoulder. No third hand, elbow, sleeve or limb remains anywhere. Repair shoulder and armpit construction convincingly. Preserve exact face, hair, clothes, grounded pose, two legs, dark-red Nanoengine reinforcement on ONLY the active right forearm/hand, cabinet destruction, Arakawa retreating alive through doorway, lighting, framing and manhwa art style. No added content. Make every body connection anatomically readable.",
+  "references": [
+    "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK05B-1.png"
+  ],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "95c4a0e9f7a2aa613ead36781fd9751ae75edf4f5e9343b3f062520f324f1796",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "alpha_extrema": null,
+  "visual_review": "Full generated image and actual reader render visually inspected; affected artwork checks and route UI smoke passed. See campaign-shot-rebuild-2026-11-14/README.md.",
+  "reference_hashes_measured_at_release_review": {
+    "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK05B-1.png": "ae14bfbddba242d8d002b6915b46751492fff7b70a0917f38625ad69fbca0831"
+  },
+  "revision_date": "2026-11-14",
+  "supersedes": {
+    "id": "CS-TK05B",
+    "type": "shot",
+    "path": "assets/campaigns/takeo/core/CS-TK05B.png",
+    "original": "media-workspace/takeo/originals/exec-aabad604-5c41-46f2-87f6-42ce6fda748d.png",
+    "prompt": "ONE 16:9 illustrated visual-novel shot, single frame. Wide cinematic archive-denial action at Meridian in 2050. Takeo exactly as reference1, enormous 211cm muscular Japanese commander in charcoal quarterzip shirt and grey-black camouflage sleeves, personally drives dark red nanomachine-hardened fingers through ONE offline archive housing and tears its small storage assembly apart. Restrained red Nanoengine energy close to his hand, exact face and proportions. Arakawa as reference2 is a small retreating figure at the distant open evacuation door. No victims, gore or uncontrolled explosion. No other server racks or complete backup. Material sacrifice, not a triumphant army massacre. Semi-realistic illustrated manhwa with dimensional painted shading, restrained linework, clear coherent anatomy, slate/amber dramatic lighting, not photo/3D/cel cartoon. No flags, emblems, captions, readable text, watermark or signature.",
+    "references": [
+      "assets/portraits/takeo-selection.png",
+      "media-workspace/takeo/originals/exec-9a9490de-d587-4082-9170-a84b11fb4dec.png"
+    ],
+    "provider": "Built-in image_gen tool",
+    "model": "Not exposed; unverified",
+    "sha256": "6ca9162b517127fb32ef9acdf27f9f8c90717eb150b699f77828a53d2eecc9fa",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+    "reference_hashes_measured_at_release_review": {
+      "assets/portraits/takeo-selection.png": "afc2370234f44a8550c34e3ebb9bf3c28d42d2c4ffa7513d3eb5b2b615e95849",
+      "media-workspace/takeo/originals/exec-9a9490de-d587-4082-9170-a84b11fb4dec.png": "2a8e231b917c1e2bfbcc0252820370d2099897c85974a20a0325c040b765b4d3"
+    }
+  },
+  "previous_production_copy": "media-workspace/campaign-shot-rebuild-2026-11-14/backups/CS-TK05B.png"
+}

@@ -54,7 +54,8 @@ def clearance(s, who):
 def case_access(s, who, location):
     a=read(s).get('active') or {}
     return (clearance(s,s.get('player')) and location=='syndicate_hq' and a.get('key')=='crow_operation'
-            and who in (s.get('player'),a.get('partner')) and not a.get('repeatable'))
+            and who in (s.get('player'),a.get('partner')) and not a.get('repeatable')
+            and (objective(s) or {}).get('venue')=='syndicate_hq')
 
 
 def check_trip(s, who, destination, passengers=()):
@@ -63,6 +64,9 @@ def check_trip(s, who, destination, passengers=()):
 
 
 def here(s, who):
+    import interiors
+    if interiors.enabled(s):
+        return interiors.same_room(s,s['player'],who) and interiors.available(s,who)
     actor=s['world'].get('cast',{}).get(who,{})
     return actor.get('location')==s['world']['location'] and not actor.get('journey') and actor.get('activity')!='Sleep'
 
@@ -200,6 +204,7 @@ def available(s, key):
 
 
 def begin(s, key, repeatable=False):
+    __import__('interior_activities').require(s,'interpol_hq__public_lobby_verification_desk')
     guard(s,'interpol_hq'); d=ensure(s)
     if not clearance(s,s['player']): raise ValueError('Register for case assistance at this desk first.')
     if d['active']: raise ValueError('Finish or suspend the current operation first.')
@@ -262,6 +267,8 @@ def team_guard(s):
     a=read(s).get('active'); step=objective(s)
     if not a or not step: raise ValueError('No active investigation.')
     guard(s,step['venue'])
+    target=__import__('interior_activities').interpol_room(step)
+    if target:__import__('interior_activities').require(s,target)
     import combat
     if not clearance(s,s['player']) or a['partner'] in combat.ensure(s)['ruptures']:
         raise ValueError('This field partnership no longer has valid clearance or trust. Suspend the operation.')
@@ -377,6 +384,8 @@ def encounter_profile(s):
         result=make('interpol_suspect',dict(name=step['enemy'],awakened=True))
         power=step['power']; result['stats'].update(awakened_power=power,trait_refinement=0,martial_skill=min(90,power+15),fight_iq=min(90,power+12))
         result['arts']={'Military CQC':result['stats']['martial_skill']}
+        portrait=__import__('interpol_cases').OPPOSITION_PORTRAITS.get(read(s)['active']['key'])
+        if portrait:result['portrait']=portrait
     return result
 
 
@@ -391,6 +400,8 @@ def start_encounter(s):
     actor=s['world']['cast'].get(step.get('opponent'))
     previous=copy.deepcopy(actor) if actor is not None else None
     if actor is not None: actor.update(location=step['venue'],journey=None,activity='Intercepted during an Interpol operation')
+    if actor is not None and __import__('interiors').enabled(s,step['venue']):
+        __import__('interior_compat').assign(s,step['opponent'],__import__('interior_activities').interpol_room(step))
     try:
         f=combat.start(s,step.get('opponent') or 'interpol:'+a['key'],'interpol')
     except Exception:
@@ -398,6 +409,7 @@ def start_encounter(s):
         ensure(s)['encounter']=None
         raise
     f['operation_token']=token; f['ally']=a['partner']
+    if s.get('interiors',{}).get('enabled_buildings'):f.setdefault('wardrobe_snapshot',{}).update(__import__('wardrobe_context').snapshot(s,(a['partner'],)))
     if step.get('scripted_outcome')=='crow_defeat':
         f['scripted_outcome']='crow_defeat'
         f['log'].append('Story confrontation: the Crow will defeat the team. Your actions play out, but survival and withdrawal carry the story forward after at most four exchanges.')

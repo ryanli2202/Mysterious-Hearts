@@ -1,0 +1,8 @@
+{
+  "id": "campaign-annex-kettle",
+  "prompt": "Create one opaque 1536x1024 landscape reusable semi-realistic manhwa game background for Mysterious Hearts. Match the supplied location reference's rendering language and compatible architecture, not its exact camera. The tiny kettle alcove attached to a borrowed Blackhaven repair-shop annex: a practical kettle, mismatched mugs, basin, plain shelving and a doorway visibly back to the scuffed annex table. Warm low light, rain outside. No people, labelled case files, logos, text, badges or futuristic apparatus. An ordinary undated early-partnership setting. Eye-level stage composition, believable doors and open central floor for reusable transparent character layers; lower third quiet for runtime reading area. No UI, captions, speech bubbles, watermark, logos, baked-in writing, decorative glyphs or people.",
+  "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ceb4-8567-7891-b908-9e00449056e7\\exec-d77d2739-84d7-4c48-a673-12a46d7c71a9.png",
+  "method": "built-in image_gen",
+  "review": "Accepted: source image and actual embedded historical room/stage rendering inspected; evidence in roadmap/CAMPAIGN_PRESENTATION_RUNTIME.md.",
+  "sha256": "3738782f10a28126d36f0a7496054e0675f297f153b86a098f540253a26876db"
+}

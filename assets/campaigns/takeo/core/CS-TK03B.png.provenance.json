@@ -1,0 +1,50 @@
+{
+  "id": "CS-TK03B",
+  "type": "shot",
+  "path": "assets/campaigns/takeo/core/CS-TK03B.png",
+  "original": "media-workspace/campaign-shot-rebuild-2026-11-14/originals/CS-TK03B.png",
+  "prompt": "ONE 16:9 opaque cinematic manhwa detail shot CS-TK03B. Reference 1 is exact current Takeo face/body/clothing; ref 2 is preceding Meridian rainy industrial doorway scene for continuity. Chest-level three-quarter close shot of Takeo beneath door canopy studying a physical rugged tablet, his left hand SUPPORTS tablet by lower/right edge from viewer, right index finger touches ONE highlighted feasible withdrawal lane on its screen. Tablet is angled so viewer sees abstract diagram of THREE SEPARATE positions and one connecting lane, no labels or readable text, no hologram. Correct hand laterality, two hands only, five anatomically coherent fingers on each, grips with weight and contact, sleeves attached naturally. Show his stern face above screen: angular adult Japanese face, black buzzcut/moustache/goatee, refined drawn almond eyes, simplified cheeks/nose/lips matching portrait, huge muscular shoulders without tiny head. Quarter-zip charcoal shirt grey-black camouflage sleeves. Composition from over and beside tablet corner emphasizes difficult physical distances; he cannot be everywhere. Dark rainy doorway blurred behind, restrained red and cool slate reflected light with warm canopy edge. Unified semi-realistic illustrated manhwa shading and linework, no photo pores, no grainy microtexture, no flat cartoons. No battle, power effects, weapons, other people, readable writing, logos, UI overlays, bubbles, panels or watermark. Keep face/hands and screen inside central safe area and quieter lower strip.",
+  "references": [
+    "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK03B-1.png",
+    "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK03B-2.png"
+  ],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "542eeaecd5dfc9ebd31a0fa6396b82b0a4668cf0d817da9c42ba8a5cb42a4df8",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "alpha_extrema": null,
+  "visual_review": "Full generated image and actual reader render visually inspected; affected artwork checks and route UI smoke passed. See campaign-shot-rebuild-2026-11-14/README.md.",
+  "reference_hashes_measured_at_release_review": {
+    "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK03B-1.png": "afc2370234f44a8550c34e3ebb9bf3c28d42d2c4ffa7513d3eb5b2b615e95849",
+    "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK03B-2.png": "5e59b2e05e00804ec1d01462bc63c296e144066291fbbe15c85cace439c565c4"
+  },
+  "revision_date": "2026-11-14",
+  "supersedes": {
+    "id": "CS-TK03B",
+    "type": "shot",
+    "path": "assets/campaigns/takeo/core/CS-TK03B.png",
+    "original": "media-workspace/takeo/originals/exec-6d7eed51-e27f-4994-98c1-770d435e77ab.png",
+    "prompt": "ONE 16:9 wide illustrated visual-novel shot, single frame no borders. Cinematic close insert of Takeo's huge adult hand pointing to a single viable withdrawal lane on a dim physical command tablet, abstract unlabelled map with three separated positions. Reference identity/clothing exact if face visible. Rain-dark Meridian service doorway out of focus behind. Show the physical limit of one commander and divided routes, no data labels or readable text, no holographic magic. Semi-realistic illustrated manhwa, restrained linework, natural proportions, soft dimensional painted shading, not photo/3D/cel cartoon. No flags, emblems, captions, readable text or watermark.",
+    "references": [
+      "assets/portraits/takeo-selection.png"
+    ],
+    "provider": "Built-in image_gen tool",
+    "model": "Not exposed; unverified",
+    "sha256": "4dde244c616d221d1e21b7c5d4946d176073a3698b706def2229b7ab86d84e1c",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+    "reference_hashes_measured_at_release_review": {
+      "assets/portraits/takeo-selection.png": "afc2370234f44a8550c34e3ebb9bf3c28d42d2c4ffa7513d3eb5b2b615e95849"
+    }
+  },
+  "previous_production_copy": "media-workspace/campaign-shot-rebuild-2026-11-14/backups/CS-TK03B.png"
+}

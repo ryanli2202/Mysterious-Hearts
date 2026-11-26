@@ -1,0 +1,26 @@
+{
+  "id": "takeo-onami",
+  "type": "portrait",
+  "path": "assets/portraits/takeo-onami.png",
+  "original": "media-workspace/takeo/originals/exec-eb456bd6-a35f-4aaa-b05b-f482412120cb.png",
+  "prompt": "ONE standalone head-to-mid-thigh portrait, vertical 2:3, genuine transparent background. Preserve this exact Takeo Mishima identity and massive 211cm muscular build, buzzcut, moustache/goatee, narrow youthful adult face. Historical adult around thirty in 2024, dark high-collared practical military coat, no insignia, no medals, hands composed and visible, severe deliberate command presence. Semi-realistic illustrated manhwa, restrained linework and soft dimensional shadows, natural eyes, not photo/3D/exaggerated anime. Whole head, complete hands and both thighs visible through true mid-thigh crop, no knees, safe margins. No background, ground, shadow, haze rectangle, text or watermark.",
+  "references": [
+    "assets/portraits/takeo-selection.png"
+  ],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "d47fa581600dbfd33dad52153fe9c9df844afb090355d9503a55d7c63d9d599e",
+  "size": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+  "reference_hashes_measured_at_release_review": {
+    "assets/portraits/takeo-selection.png": "afc2370234f44a8550c34e3ebb9bf3c28d42d2c4ffa7513d3eb5b2b615e95849"
+  }
+}

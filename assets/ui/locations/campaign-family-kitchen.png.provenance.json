@@ -1,0 +1,8 @@
+{
+  "id": "family-kitchen",
+  "prompt": "One opaque 1536x1024 landscape reusable semi-realistic manhwa game background: a modest undated family kitchen remembered by Garrett and Charles while trying to recreate their late mother's broth. No people, portraits, photographs, clothing, devices, dates, brands or readable text. Warm plain tiled counter, simple stove and pot, a chipped plain ceramic measuring cup, two bowls, everyday shelves. No futuristic laboratory or adult business logos. Avoid fixing exact year, city, wealth or childhood age. Eye-level cinematic background with open central standing space for reusable character layers and quiet lower foreground for runtime prose. Intimate imperfect domestic memory, restrained warm light, not a restaurant or a shrine.",
+  "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1ceb4-8567-7891-b908-9e00449056e7\\exec-9a735ece-10f7-486b-a22b-9a68523f2615.png",
+  "method": "built-in image_gen",
+  "review": "Accepted: source image and actual embedded historical room/stage rendering inspected; evidence in roadmap/CAMPAIGN_PRESENTATION_RUNTIME.md.",
+  "sha256": "7289e630c50b2b70248452311c998ff38dfebc640ac48a40e44da439964eb886"
+}

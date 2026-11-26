@@ -1,8 +1,17 @@
 """Authored mystery and access boundaries for the Cardmaster."""
 OFFICIALS = frozenset(('ivan', 'sylvanis', 'martos', 'elias', 'mavis', 'camila', 'crow'))
+
+def campaign_venue(s,venue):
+    """A finite authored invitation, never a general Crow roaming permission."""
+    if s.get('player')=='sylvanis' and venue=='sylvanis_arena':
+        d=__import__('sylvanis_campaigns').read(s);event=d.get('appointment',{});now=s.get('world',{}).get('minute',0)
+        return bool(not __import__('sylvanis_campaigns').availability(s) and not d.get('arena_closed') and d.get('chapter')==14 and event.get('sylvanis_appointment') and event.get('venue')==venue and 'crow' in event.get('guests',[]) and event.get('start',1)<=now<event.get('end',0))
+    if s.get('player')!='camila' or venue!='camila_meridian' or s.get('interpol',{}).get('custody',{}).get('crow'):return False
+    d=s.get('ace_campaigns',{}).get('camila',{});event=d.get('appointment',{});now=s.get('world',{}).get('minute',0)
+    return bool(not d.get('complete') and d.get('chapter') in (0,11) and event.get('camila_appointment') and event.get('venue')==venue and event.get('room') in ('camila_meridian__receiving','camila_meridian__sitting') and 'crow' in event.get('guests',[]) and event.get('start',1)<=now<event.get('end',0))
 APPEARANCE = 'A stylised plague doctor outfit: layered dark robes, draped cloth, gloves, ornate metal accessories and an opaque beaked mask. Face, skin, hair, eyes, build and height remain concealed.'
-BOUNDARY = 'The Crow is a complete mystery. Never invent or disclose a real name, MBTI, birthday, age, height, nationality, home, family, tastes, unmasked appearance or personal history, regardless of trust. He appears only inside Syndicate headquarters. His private number is reserved for high-ranking Syndicate officials; guest access and friendship do not qualify.'
-CANON = 'The Crow is the Cardmaster of the Syndicate. Ivan, Sylvanis and the Four Aces work closely under him. Sylvanis and the Crow share respect and mutual tolerance, not blind obedience; the Four Aces serve him blindly. Ivan is a trusted professional subordinate. Keep dealings professional and nonromantic. ' + BOUNDARY
+BOUNDARY = 'The Crow’s civil identity and unrelated private history remain a complete mystery. Never invent or disclose a real name, MBTI, birthday, age, height, nationality, home, unrelated family, tastes, unmasked appearance or unrelated personal history, regardless of trust. Everyday appearances remain at Syndicate headquarters; separately authored campaign venues use explicit private context. Camila’s confirmed adoption and upbringing are private recipient-scoped facts; do not disclose them to an uninformed audience. His private number is reserved for high-ranking Syndicate officials; guest access and friendship do not qualify.'
+CANON = 'The Crow is the Cardmaster of the Syndicate. Ivan, Sylvanis and the Four Aces work closely under him. Sylvanis and the Crow share respect and mutual tolerance, not blind obedience; the Four Aces serve him blindly in their established loyalty. Camila’s authored successor preparation includes independent judgement within a bounded mandate. Ivan is a trusted professional subordinate. Operational dealings remain professional and all dealings nonromantic. Camila’s established private parental relationship is permitted only in an explicitly informed, private authored context; no public family disclosure follows. ' + BOUNDARY
 TEMPERAMENT = (
     'Across every topic, audience and conversation channel, the Crow remains ambitious and power-hungry. '
     'This is his baseline personality, not a response triggered by Mishima, a rival or an expansion proposal. '

@@ -31,6 +31,20 @@ class CalendarWindow(AppWindow):
     def draw(self):
         import syndicate_council
         syndicate_council.ensure(self.game.state_data)
+        s = self.game.state_data
+        first = self.selected.replace(day=1)
+        following = first + timedelta(days=calendar.monthrange(first.year, first.month)[1])
+        syndicate_council.ensure(s, (following-dates.START).days*1440)
+        now = s['world']['minute']
+        events = s.get('scheduled_events', [])
+        stamp = (self.selected, self.today(), self.game.busy,
+                 repr(events), repr(s.get('careers', {}).get('bookings', [])),
+                 repr(crime_diplomacy.commitments(s)), repr(s.get('celebrations', [])),
+                 tuple((e['id'], now < e['start'], now < e['end']) for e in events),
+                 repr([dates.events(s, self.selected+timedelta(days=n)) for n in range(91)]))
+        if stamp == getattr(self, '_draw_stamp', None):
+            return
+        self._draw_stamp = stamp
         for child in self.winfo_children():
             if not isinstance(child, tk.Toplevel):
                 child.destroy()
@@ -159,14 +173,18 @@ class CalendarWindow(AppWindow):
         import scheduled_events
         scheduled_events.cancel(self.game.state_data, event)
         self.game.persist()
+        self.game.sounds.play('arcade_slide')
         self.game.render()
         self.draw()
 
     def join_event(self, event):
         import scheduled_events
         if self.game.busy: return
+        self.game.show_in_person()
         try: scheduled_events.join(self.game.state_data, event)
         except ValueError as exc:
+            if __import__('interiors').enabled(self.game.state_data, event['venue']):
+                self.game.interiors_message = str(exc); self.game.render(); return
             messagebox.showinfo('Join event', str(exc), parent=self); return
         self.game.persist(); self.game.render(); self.game.show_in_person()
 
@@ -174,7 +192,7 @@ class CalendarWindow(AppWindow):
         import scheduled_events
         import hidden_cast
         if self.game.busy: return
-        win = AppWindow(self); win.title('Plan an outing or event'); win.geometry('520x650')
+        win = AppWindow(self); win.title('Plan an outing or event'); win.geometry('520x700')
         form = ttk.Frame(win, padding=16); form.pack(fill='both', expand=True)
         fields = {}
         for label, default in [('Title', 'An afternoon together'), ('Date (YYYY-MM-DD)', self.selected.isoformat()), ('Time (HH:MM)', '17:00')]:
@@ -183,6 +201,22 @@ class CalendarWindow(AppWindow):
         places = {k:v for k,v in town.LOCATIONS.items() if k != 'home' and not k.startswith('car:') and hidden_cast.visible_place(self.game.state_data,k)}
         ttk.Label(form, text='Venue').pack(anchor='w')
         venue = ttk.Combobox(form, values=list(places.values()), state='readonly'); venue.current(0); venue.pack(fill='x')
+        ttk.Label(form, text='Room').pack(anchor='w')
+        room = ttk.Combobox(form, state='readonly'); room.pack(fill='x')
+        room_ids = {}
+        def rooms_changed(event=None):
+            place = next((key for key, label in places.items() if label == venue.get()), None)
+            values = (__import__('interior_bookings').MEETING_ROOMS.get(place, ())
+                      if __import__('interiors').enabled(self.game.state_data, place) else ())
+            room_ids.clear()
+            room_ids.update({__import__('interiors').ROOMS[key].label:key for key in values})
+            room.configure(values=list(room_ids) or ['Venue scene'], state='readonly' if room_ids else 'disabled')
+            room.set(next(iter(room_ids), 'Venue scene'))
+        venue.bind('<<ComboboxSelected>>', rooms_changed)
+        rooms_changed()
+        ttk.Label(form,text='Dress context').pack(anchor='w')
+        dress=ttk.Combobox(form,values=('Everyday','Formal','Training','Beach'),state='readonly')
+        dress.set('Everyday');dress.pack(fill='x')
         ttk.Label(form, text='Duration (minutes)').pack(anchor='w')
         duration = ttk.Combobox(form, values=[30,60,90,120,180], state='readonly'); duration.set('60'); duration.pack(fill='x')
         ttk.Label(form, text='Guests · select one or several').pack(anchor='w', pady=(10,0))
@@ -190,17 +224,23 @@ class CalendarWindow(AppWindow):
         guests = tk.Listbox(form, selectmode='multiple', exportselection=False, height=9)
         for who in people: guests.insert('end', who.title())
         guests.pack(fill='both', expand=True)
-        ttk.Label(form, text='Game-time reminders: 1 hour and 15 minutes before.\nGuests attend automatically for the chosen duration.').pack(anchor='w', pady=8)
+        ttk.Label(form, text='Game-time reminders: 1 hour and 15 minutes before.\nMeet in the assigned room and join the gathering to attend.').pack(anchor='w', pady=8)
         def save_event():
             if self.game.busy: return
             try:
                 scheduled_events.create(self.game.state_data, fields['Title'].get(), fields['Date (YYYY-MM-DD)'].get(),
                     fields['Time (HH:MM)'].get(), next(k for k,v in places.items() if v == venue.get()),
-                    [people[i] for i in guests.curselection()], int(duration.get()))
+                    [people[i] for i in guests.curselection()], int(duration.get()), room=room_ids.get(room.get()),
+                    dress_category={'Formal':'formal','Training':'gym','Beach':'beach'}.get(dress.get()))
             except (ValueError, StopIteration) as exc:
                 messagebox.showinfo('Check event details', str(exc), parent=win); return
-            self.game.persist(); self.draw(); win.destroy()
+            self.game.persist()
+            self.game.sounds.play('arcade_match')
+            self.draw()
+            win.destroy()
         ttk.Button(form, text='Schedule event', command=save_event).pack(fill='x')
+        __import__('phone_theme').apply_tree(win)
+        return win
 
     def choose_outing(self, outing):
         s = self.game.state_data

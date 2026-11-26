@@ -1,0 +1,677 @@
+{
+  "assets": [
+    {
+      "id": 1,
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1d3e7-7342-7313-be33-01becca4bd16\\exec-d568aa02-c80e-468a-abbe-bdcf402d4fb2.png",
+      "target": "assets/portraits/camila-child7.png",
+      "prompt": "Create ONE production transparent character portrait for Mysterious Hearts, semi-realistic illustrated manhwa with restrained contours, dimensional soft shading, natural eyes, not photorealism, not chibi. Reference image defines ONLY Camila Lopez's identity; depict her historical self at age SEVEN, a clearly ordinary child with child anatomy and proportions, warm medium tan skin, dark brown eyes, dark brown hair in a practical ponytail and straight bangs, small rectangular black glasses. Full head through knees visible with both hands and generous safe margins, vertical 2:3 composition. She wears a modest burgundy cardigan, pale blue T-shirt and navy trousers, flat shoes. Curious determined expression, holding a worn wooden game piece loosely in one hand. No makeup, earrings, adult suit or adult body. Single child only. Genuine transparent RGBA background, no floor, text, frame, background or watermark. Keep this child's facial traits recognisably the younger version of the reference.",
+      "tool": "built-in image_gen",
+      "model": "unverified",
+      "date": "2026-11-13",
+      "references": [
+        "assets/portraits/camila-selection.png"
+      ],
+      "sha256": "f3400ad7573548a240abfb78ac1abcf821c31ed2ec50bc7fafd4e7167e323016",
+      "production_copy": "assets/portraits/camila-child7.png",
+      "original_copy": "media-workspace/camila-campaign/originals/exec-d568aa02-c80e-468a-abbe-bdcf402d4fb2.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": 2,
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1d3e7-7342-7313-be33-01becca4bd16\\exec-7122e5b5-cfe9-40ca-8ee6-95559596f12e.png",
+      "target": "assets/portraits/camila-child11.png",
+      "prompt": "One transparent production portrait: Camila Lopez at age ELEVEN, an ordinary preteen child, warm medium tan skin, dark brown eyes, rectangular black glasses, dark brown high ponytail and straight bangs. Use the reference ONLY for recognizable identity, age her down faithfully with preteen face and body, no makeup or adult curves. Semi-realistic illustrated manhwa, restrained tapered contours, soft dimensional shading, natural eye size. Full head, hands and knees visible, modest slate-blue long-sleeved shirt, navy trousers, carrying a small notebook; upright thoughtful posture, slight competitive smile. Genuine RGBA transparent empty background, no scenery, text, floor, haze or watermark. Vertical 2:3 with safe margins.",
+      "tool": "built-in image_gen",
+      "model": "unverified",
+      "date": "2026-11-13",
+      "references": [
+        "assets/portraits/camila-selection.png"
+      ],
+      "sha256": "333a846c144fe29986057b323bb56d7eff3a43883749c605b57306b1a200f67b",
+      "production_copy": "assets/portraits/camila-child11.png",
+      "original_copy": "media-workspace/camila-campaign/originals/exec-7122e5b5-cfe9-40ca-8ee6-95559596f12e.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": 3,
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1d3e7-7342-7313-be33-01becca4bd16\\exec-3e455063-faed-4ebb-b55a-23de8400333e.png",
+      "target": "assets/ui/locations/campaign/camila/orphanage.png",
+      "prompt": "Production reusable game background, a warm ordinary orphanage common room called the garden house. Semi-realistic illustrated manhwa, clean restrained linework and soft dimensional painted shading, NOT photo, NOT chibi. Wide landscape 3:2. Wooden table with a worn biscuit tin and wooden game pieces near left edge, low bookcases, modest chairs, child-height coat pegs, sunlight through tall windows overlooking a small well-kept garden. Safe cared-for place, ordinary signs of children's games. No people, no portraits, no legible words, no symbols, no watermark. Leave center floor and center wall uncluttered for transparent character staging, generous depth, eye-level camera. Warm honey daylight against blue-grey walls, controlled detail.",
+      "tool": "built-in image_gen",
+      "model": "unverified",
+      "date": "2026-11-13",
+      "references": [],
+      "sha256": "851c3b69d15b5a483c0d2fd5b804672ce84beaf691a3377dfc07713094931673",
+      "production_copy": "assets/ui/locations/campaign/camila/orphanage.png",
+      "original_copy": "media-workspace/camila-campaign/originals/exec-3e455063-faed-4ebb-b55a-23de8400333e.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "id": 4,
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1d3e7-7342-7313-be33-01becca4bd16\\exec-c61639ae-dc2d-4ad5-811b-54373d72c9b6.png",
+      "target": "assets/portraits/camila-elena.png",
+      "prompt": "ONE transparent character portrait for Mysterious Hearts. Elena Sanz, an ordinary orphanage caregiver age forty-four, warm brown skin, short softly curly dark hair, brown eyes, kind practical face with realistic age lines, sturdy average build. Modest muted teal cardigan, clay blouse, dark practical trousers. Holding a folded child-size coat in both hands, calm attentive expression. Semi-realistic illustrated manhwa, clean tapered contours, dimensional soft shading, natural eyes, no photorealism or exaggerated anime. Vertical 2:3, complete head through mid-thigh, both full arms and hands visible with generous safe margins. Genuine transparent RGBA background, no scenery, floor, text, haze or watermark. No glamour, no insignia, no invented faction role.",
+      "tool": "built-in image_gen",
+      "model": "unverified",
+      "date": "2026-11-13",
+      "references": [],
+      "sha256": "ac256bc101d7f06d1f8de6da4e692fbdd5e99ee93d907645d58540807f34f5b9",
+      "production_copy": "assets/portraits/camila-elena.png",
+      "original_copy": "media-workspace/camila-campaign/originals/exec-c61639ae-dc2d-4ad5-811b-54373d72c9b6.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": 5,
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1d3e7-7342-7313-be33-01becca4bd16\\exec-b5d90edf-4ac2-4f9d-8763-5e93330b836f.png",
+      "target": "assets/portraits/camila-pilar.png",
+      "prompt": "ONE transparent ordinary child portrait for a semi-realistic illustrated manhwa game, restrained clean linework and soft dimensional shading, natural eyes. Pilar, girl age SEVEN, a childhood friend in an ordinary well-kept orphanage. Warm olive skin, hazel eyes, dark curly chin-length bob, round child face, child proportions, modest mustard-yellow jumper, denim overalls, practical shoes. Holds a small red wooden game counter between thumb and forefinger, mischievous friendly expression. Full head through knees, both complete arms and hands, safe margins, vertical 2:3. Genuine RGBA transparency, no background, floor, words, frame or watermark. No makeup, glamour, adult curves, weapons or faction symbols.",
+      "tool": "built-in image_gen",
+      "model": "unverified",
+      "date": "2026-11-13",
+      "references": [],
+      "sha256": "0b6afee46c63d5b64429b85362ce938b1447df7bfead23d692e600bf3fbecc66",
+      "production_copy": "assets/portraits/camila-pilar.png",
+      "original_copy": "media-workspace/camila-campaign/originals/exec-b5d90edf-4ac2-4f9d-8763-5e93330b836f.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": 6,
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1d3e7-7342-7313-be33-01becca4bd16\\exec-150350bf-1ccc-4fc8-ae20-93de3f9edf78.png",
+      "target": "assets/ui/locations/campaign/camila/receiving.png",
+      "prompt": "One production game location painting, wide 3:2 landscape, semi-realistic illustrated manhwa, selective clean contours, soft dimensional shading, no photorealism. Meridian receiving office, private contemporary affiliate business meeting room in Winterfield. Dark walnut paneling, blue slate walls, tall rain-streaked window, table set toward the side with two closed document folders, desk lamp, empty chairs, discrete inner door leading to a loading court. No people, no insignia, no legible text or watermark. Leave central floor and center wall open for layered character portraits. Calm late afternoon with cool window light and warm lamp, restrained corporate realism. Papers have abstract strokes only. Eye-level, depth, no foreground obstruction.",
+      "tool": "built-in image_gen",
+      "model": "unverified",
+      "date": "2026-11-13",
+      "references": [],
+      "sha256": "321657f20bde164de3fa68da227f6dcf3d3174ed05cbd2392b7b2dec2a09ee53",
+      "production_copy": "assets/ui/locations/campaign/camila/receiving.png",
+      "original_copy": "media-workspace/camila-campaign/originals/exec-150350bf-1ccc-4fc8-ae20-93de3f9edf78.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "id": 7,
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1d3e7-7342-7313-be33-01becca4bd16\\exec-25e07bbb-5317-415e-af49-a6e494c9bcf1.png",
+      "target": "assets/portraits/camila-inez.png",
+      "prompt": "One standalone transparent character portrait, semi-realistic illustrated manhwa with restrained contours and soft dimensional shading, natural adult features, not photo. Inez Salcedo, woman age thirty-six, dark warm brown skin, strong practical build, brown eyes, short black natural curls, observant oval face. Navy work blazer over a muted terracotta crew-neck shirt, charcoal trousers, simple wristwatch. Holds a closed slate document folder in one hand, other hand open in a calm questioning gesture. Self-possessed operations manager, no weapons, no faction badge, no glamour. Vertical 2:3, entire hairstyle, shoulders, both complete arms/hands, pelvis and legs to mid-thigh visible with safe margins. Genuine RGBA transparency, no scenery, floor, haze, text or watermark.",
+      "tool": "built-in image_gen",
+      "model": "unverified",
+      "date": "2026-11-13",
+      "references": [],
+      "sha256": "fa860e328246038598c64ab5b45db0b8da67925ea45dd59904e7ac85c764ae3f",
+      "production_copy": "assets/portraits/camila-inez.png",
+      "original_copy": "media-workspace/camila-campaign/originals/exec-25e07bbb-5317-415e-af49-a6e494c9bcf1.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": 8,
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1d3e7-7342-7313-be33-01becca4bd16\\exec-2793004b-9dda-40a2-a6b3-64ed0a53ab0b.png",
+      "target": "assets/portraits/camila-teen16.png",
+      "prompt": "One transparent portrait: Camila Lopez at SIXTEEN, adolescent student with age-appropriate facial planes and proportions, warm medium tan skin, dark brown eyes, rectangular black glasses, dark brown high ponytail and straight bangs. Reference defines her identity only, faithfully younger than thirty. Modest burgundy knit sweater over a slate shirt, straight navy trousers, holding a plain notebook and pencil. Thoughtful slightly frustrated expression, no makeup or adult glamour, no suit or powers. Semi-realistic illustrated manhwa, restrained tapered linework, soft dimensional shading, natural eye scale, no photorealism, no exaggerated cartoon. Vertical 2:3, full hairstyle, both complete arms and hands and legs through mid-thigh with safe margins. Genuine RGBA transparency, no scenery, floor, haze, words or watermark.",
+      "tool": "built-in image_gen",
+      "model": "unverified",
+      "date": "2026-11-13",
+      "references": [
+        "assets/portraits/camila-selection.png"
+      ],
+      "sha256": "893444697122e1a0f27faf237cbba6d89a3ae43ee4fc76294f2deb76e98a689f",
+      "production_copy": "assets/portraits/camila-teen16.png",
+      "original_copy": "media-workspace/camila-campaign/originals/exec-2793004b-9dda-40a2-a6b3-64ed0a53ab0b.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": 9,
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1d3e7-7342-7313-be33-01becca4bd16\\exec-7be19c4b-0bcf-4fe6-9aa3-9b49c2b7bb51.png",
+      "target": "assets/portraits/camila-young-adult.png",
+      "prompt": "ONE production transparent portrait of Camila Lopez in early adult years, age twenty-two to twenty-eight. Preserve reference identity: warm medium tan skin, dark brown eyes, dark brown high ponytail with straight bangs, rectangular black glasses, upright slim build, small silver earrings. Slightly younger adult facial planes than thirty, own face unmistakable. Charcoal tailored trousers and a burgundy blouse under a simple dark waistcoat, sleeves to wrists, holding a capped fountain pen loosely, restrained competitive smile. Semi-realistic illustrated manhwa with clean selective tapered contours and soft dimensional shading, natural eye size, no photorealism, no exaggerated cel shadows. Vertical 2:3, full head to mid-thigh, complete arms and hands, safe margins. Genuine RGBA transparent background, no floor, scenery, haze, words or watermark.",
+      "tool": "built-in image_gen",
+      "model": "unverified",
+      "date": "2026-11-13",
+      "references": [
+        "assets/portraits/camila-selection.png"
+      ],
+      "sha256": "745462ca3e6ce70320785db70f4843a9497cb734f98456785233bdef7f352151",
+      "production_copy": "assets/portraits/camila-young-adult.png",
+      "original_copy": "media-workspace/camila-campaign/originals/exec-7be19c4b-0bcf-4fe6-9aa3-9b49c2b7bb51.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": 10,
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1d3e7-7342-7313-be33-01becca4bd16\\exec-583a5532-10ac-409f-a5b8-375273adc5f2.png",
+      "target": "assets/portraits/camila-mara-young.png",
+      "prompt": "ONE standalone transparent portrait for Mysterious Hearts. Mara Esteve, household tutor in her late thirties to early forties, olive skin, warm brown eyes, dark wavy shoulder-length hair with a few first silver strands, strong rounded nose and thoughtful broad face, average build. Modest plum cardigan over a plain slate blouse and dark trousers. Holding a small plate of bread, one hand supporting it and one hand relaxed. Dry affectionate half-smile, practical and quietly self-possessed. Semi-realistic illustrated manhwa, selective tapered linework, soft dimensional shading, natural eyes and adult anatomy, no photorealism, no glamour. Vertical 2:3, full hairstyle, complete shoulders, arms and hands, hips and legs to mid-thigh, safe margins. Genuine RGBA transparency, no scenery, floor, haze, words or watermark.",
+      "tool": "built-in image_gen",
+      "model": "unverified",
+      "date": "2026-11-13",
+      "references": [],
+      "sha256": "1e3648c551a32d34dbe3a3cb43d8a3ebe1be5977bfa27ad3339b8274859221f4",
+      "production_copy": "assets/portraits/camila-mara-young.png",
+      "original_copy": "media-workspace/camila-campaign/originals/exec-583a5532-10ac-409f-a5b8-375273adc5f2.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": 11,
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1d3e7-7342-7313-be33-01becca4bd16\\exec-3d4fd764-5cbb-44e3-9e8b-df54a363d2d4.png",
+      "target": "assets/portraits/camila-mara-current.png",
+      "prompt": "Create the later-life version of this same Mara Esteve, the household tutor, now age fifty-eight. Preserve her olive skin, warm brown eyes, broad distinctive face, rounded nose, wavy shoulder-length hair and dry affectionate half-smile. Age her naturally: substantially more silver in the dark hair, mild cheek and eye lines and mature neck/hands, not frail. Same modest plum cardigan and slate blouse, dark trousers. Replace the bread plate with a plain teacup held carefully; both hands visible. Same restrained semi-realistic illustrated manhwa rendering, selective contours, soft dimensional shading, no photorealism. Vertical 2:3 complete head through mid-thigh with both arms/hands and safe margins. Genuine RGBA transparency, no background, floor, haze, text or watermark.",
+      "tool": "built-in image_gen",
+      "model": "unverified",
+      "date": "2026-11-13",
+      "references": [
+        "media-workspace/camila-campaign/originals/exec-583a5532-10ac-409f-a5b8-375273adc5f2.png"
+      ],
+      "sha256": "6a5eee26dc052cf53e26ef75897e579f2b09f31446876fed5c3801840974aada",
+      "production_copy": "assets/portraits/camila-mara-current.png",
+      "original_copy": "media-workspace/camila-campaign/originals/exec-3d4fd764-5cbb-44e3-9e8b-df54a363d2d4.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": 12,
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1d3e7-7342-7313-be33-01becca4bd16\\exec-c5187c8c-4fa4-4124-ab7b-dc338030f4a0.png",
+      "target": "assets/portraits/camila-ansel.png",
+      "prompt": "Keep this exact Ansel Vey face, age, hair, suit, folio, proportions, pose, illustration style and transparent background. Correct one issue: take his right hand out of his trouser pocket, let his full right forearm and anatomically natural relaxed right hand hang visibly alongside his thigh with all fingers intact. Keep the other hand holding the folio. Both full hands visible. Extend safe canvas margins if needed, complete head through mid-thigh. No other changes. Preserve genuine RGBA transparency.",
+      "tool": "built-in image_gen",
+      "model": "unverified",
+      "date": "2026-11-13",
+      "references": [
+        "C:\\Users\\ryanl\\.codex\\generated_images\\01a1d3e7-7342-7313-be33-01becca4bd16\\exec-33f6db54-545a-4265-b786-d27b61598761.png"
+      ],
+      "revision_reason": "Initial candidate hid one hand in a pocket; corrected before installation.",
+      "sha256": "dbc4f94e852102cdb18b209f5848724d8d1c88837858c37188c5296b1b0e3f5e",
+      "production_copy": "assets/portraits/camila-ansel.png",
+      "original_copy": "media-workspace/camila-campaign/originals/exec-c5187c8c-4fa4-4124-ab7b-dc338030f4a0.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": 13,
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1d3e7-7342-7313-be33-01becca4bd16\\exec-e055c0a5-5d35-437c-b6c4-b7e2c5057af2.png",
+      "target": "assets/portraits/camila-contractor.png",
+      "prompt": "ONE transparent illustrated character portrait for the Meridian campaign encounter. Adult male hired security contractor around thirty-eight, medium brown skin, close-cropped dark hair, dark eyes, broad practical build. Generic charcoal work jacket over dark plain body armour, grey cargo trousers, black gloves, no police or military insignia, no faction symbols. Quiet watchful neutral stance, one gloved hand holding a short lowered plain baton away from body, other gloved hand relaxed and fully visible. Not an exaggerated villain and no supernatural powers or aura. Semi-realistic illustrated manhwa, clean selective tapered contours, dimensional soft shading, natural anatomy, not photorealism. Vertical 2:3, full head through mid-thigh, both full arms and hands, safe margins, genuine transparent RGBA background without floor, scenery, words, haze or watermark.",
+      "tool": "built-in image_gen",
+      "model": "unverified",
+      "date": "2026-11-13",
+      "references": [],
+      "sha256": "385a8fa138c2d3cf8aff89bc3c27689fea3152b3629979d16929e2091588a5a6",
+      "production_copy": "assets/portraits/camila-contractor.png",
+      "original_copy": "media-workspace/camila-campaign/originals/exec-e055c0a5-5d35-437c-b6c4-b7e2c5057af2.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": 14,
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1d3e7-7342-7313-be33-01becca4bd16\\exec-8b0b8950-7b59-43ba-9913-28ef28b1b1ce.png",
+      "target": "assets/ui/locations/campaign/camila/dining.png",
+      "prompt": "ONE reusable illustrated game background, wide landscape 3:2. Household dining room that quietly raised a child: dark wooden table near left edge with bread plate and two place settings, sideboard to right holding a small crooked paper house, warm lamp, tall curtained window with late afternoon light, muted plum and blue-slate walls, books and ordinary carefully kept furniture. A private home with continuity and care, no overt mansion spectacle or faction symbolism. Semi-realistic illustrated manhwa, selective restrained contours, soft dimensional shading, not photo. No people or figures, no visible face in pictures, no legible text or watermark. Leave central floor and middle wall open for transparent character staging. Eye-level, generous room depth, visual warmth without blown highlights.",
+      "tool": "built-in image_gen",
+      "model": "unverified",
+      "date": "2026-11-13",
+      "references": [],
+      "sha256": "decc38a92378cb8b2cf55fa94511ca2a0f871c081f54adf9409f8d0c3f31407c",
+      "production_copy": "assets/ui/locations/campaign/camila/dining.png",
+      "original_copy": "media-workspace/camila-campaign/originals/exec-8b0b8950-7b59-43ba-9913-28ef28b1b1ce.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "id": 15,
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1d3e7-7342-7313-be33-01becca4bd16\\exec-9cd9f47b-8692-4d71-8047-3e7ffa720c41.png",
+      "target": "assets/ui/locations/campaign/camila/study.png",
+      "prompt": "ONE reusable game background painting, private household study used over many years, wide 3:2 landscape. Semi-realistic illustrated manhwa, restrained contours, dimensional soft painted shading, not photo. Dark walnut desk near one side with four closed envelopes, a few wooden counting counters, fountain pen, clean sheets with no legible writing. Tall bookshelves at edges, two empty chairs, warm green-shaded brass desk lamp, blue-slate walls and late afternoon window light. An empty chair beside the main chair subtly matters, no throne, no faction insignia. Leave central floor and center wall open for character portrait staging. Quiet lived-in discipline and care, no people or pictures of faces, no readable words, signature or watermark. Eye-level composition with depth.",
+      "tool": "built-in image_gen",
+      "model": "unverified",
+      "date": "2026-11-13",
+      "references": [],
+      "sha256": "371decab8b6397018e457b1b617d7244a8a8256b8bfca3d7bf591dffe7f697c2",
+      "production_copy": "assets/ui/locations/campaign/camila/study.png",
+      "original_copy": "media-workspace/camila-campaign/originals/exec-9cd9f47b-8692-4d71-8047-3e7ffa720c41.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "id": 16,
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1d3e7-7342-7313-be33-01becca4bd16\\exec-5f6e4f8f-0338-4ab8-a8e9-529c1cc67462.png",
+      "target": "assets/ui/locations/campaign/camila/sitting.png",
+      "prompt": "ONE reusable illustrated game background painting, wide 3:2 landscape. Private sitting room at a discreet Meridian receiving house in Winterfield: deep slate upholstered armchairs set along side walls, small walnut tea table at right with two empty cups and closed planner, chessboard folded on a shelf, warm table lamp, plum curtains, rain-softened window and a secure closed inner door. Quiet lived-in adult room suitable for an old tutor's tea, a private masked visitor's appointment and an ordinary chess game. No people, no pictures of faces, no insignia, no readable text, no watermark. Leave wide central floor and central wall open for portrait staging. Semi-realistic illustrated manhwa, selective linework and soft dimensional painted shading, not photorealism. Cool blue-slate and warm walnut, generous depth, eye-level camera.",
+      "tool": "built-in image_gen",
+      "model": "unverified",
+      "date": "2026-11-13",
+      "references": [],
+      "sha256": "01d9f7778cb3a3c3ca374eb190405e3faa4e6c36bf82568a60c41b6dc68278a0",
+      "production_copy": "assets/ui/locations/campaign/camila/sitting.png",
+      "original_copy": "media-workspace/camila-campaign/originals/exec-5f6e4f8f-0338-4ab8-a8e9-529c1cc67462.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "id": 17,
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1d3e7-7342-7313-be33-01becca4bd16\\exec-541489bd-cf1c-4753-aeb6-59d02c2fa449.png",
+      "target": "assets/ui/locations/campaign/camila/garden.png",
+      "prompt": "ONE reusable background painting for a narrative game, wide 3:2 landscape. A small ordinary orphanage garden outside the garden house: well-kept stone path, raised pots suitable for children to tend, wooden bench at side, plain low garden table with two wooden counters, flowering shrubs and modest old building windows in the back. Afternoon honey sunlight, blue-grey stone and muted greens. Warm cared-for childhood place, no sinister imagery, no people, no portraits, no readable words, signs or watermark. Leave central path and center space open for transparent character staging. Semi-realistic illustrated manhwa with selective clean contours and soft dimensional shading, not photo, no exaggerated cartoon. Eye-level intimate scale with real depth.",
+      "tool": "built-in image_gen",
+      "model": "unverified",
+      "date": "2026-11-13",
+      "references": [],
+      "sha256": "5b6aeb91f710cfba7699219f2768ecbaaf9b3129d421654d18f9d6e2c8704bc8",
+      "production_copy": "assets/ui/locations/campaign/camila/garden.png",
+      "original_copy": "media-workspace/camila-campaign/originals/exec-541489bd-cf1c-4753-aeb6-59d02c2fa449.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "id": 18,
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1d3e7-7342-7313-be33-01becca4bd16\\exec-f5fbd4b1-4560-418c-a37e-0153710290c9.png",
+      "target": "assets/ui/locations/campaign/camila/loading.png",
+      "prompt": "ONE reusable background for a contemporary narrative game, wide landscape 3:2. Meridian secured loading court: rain-wet blue-grey paving under a deep steel canopy, warm light over an inner office door at right, closed record cabinet visible through a small protected window, stacked ordinary shipping cases along side walls, clear pedestrian lane leading through inner gate. Empty quiet depot court before an obstruction encounter. No people, weapons, logos, readable words, signs or watermark. Leave central ground and mid-distance open for character portraits and combat staging. Semi-realistic illustrated manhwa, selective crisp contours with soft dimensional painted shading, not photorealistic. Cool late-afternoon rain with restrained amber lamps, deep perspective but clear readable environment.",
+      "tool": "built-in image_gen",
+      "model": "unverified",
+      "date": "2026-11-13",
+      "references": [],
+      "sha256": "959ed579168cf1c65984fb32e95e43167b957a30e06f8fd5eda7faaaeec5b496",
+      "production_copy": "assets/ui/locations/campaign/camila/loading.png",
+      "original_copy": "media-workspace/camila-campaign/originals/exec-f5fbd4b1-4560-418c-a37e-0153710290c9.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "id": 19,
+      "source": "media-workspace/campaign-shot-rebuild-2026-11-14/originals/CS-CA01.png",
+      "target": "assets/campaigns/camila/core/CS-CA01.png",
+      "prompt": "Rebuild CS-CA01 ONE cinematic16:9 landscape illustration for narrative game. Exact references: Camila AGE7 tan child brown ponytail and bangs black rectangular glasses burgundy cardigan pale blue shirt navy trousers black flats; Crow fully opaque black beaked plague mask black unreadable lenses hood layered black robes black gloves concealing all skin/hair/eyes. Match refined manhwa drawn designed eyes simplified planes and softly dimensional painted cloth; no photograph. Ordinary sunlit orphanage common room, low wooden games table center with a few wooden counters, colorful modest books in background. Camila stands left holding a battered closed biscuit tin with BOTH small hands at chest level, looking with cautious curiosity toward prospective adoptive guardian. Crow sits low on right at respectful distance, masked head roughly at child's eye level, gloved hands resting separately openly on low tabletop. Camera at child eye level diagonally across table to privilege her perspective, no looming threat, no contact, no intimidating powers. Correct age7 proportions and122cm standing height; do not make miniature adult or toddler. Masked adult body outline obscured by cloth. Warm everyday care, actual ordinary childhood not rescue from abuse, no injury or trauma. Clear two arms each five fingers when visible, no duplicate hands or impossible tin grip. Cinematic depth from sunny window and tabletop diagonal, gentle gold/navy/slate palette. No text captions logos panels or captions.",
+      "tool": "built-in image_gen",
+      "model": "unverified",
+      "date": "2026-11-13",
+      "references": [
+        "assets/portraits/camila-child7.png",
+        "assets/portraits/crow-mavis-history.png"
+      ],
+      "sha256": "73acdf7510693c515233fc71156e1dfe1c7af4f2feb9fa36234424b3fc4c284e",
+      "production_copy": "assets/campaigns/camila/core/CS-CA01.png",
+      "original_copy": "media-workspace/campaign-shot-rebuild-2026-11-14/originals/CS-CA01.png",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "reference_snapshots": [
+        {
+          "source": "assets/portraits/camila-child7.png",
+          "copy": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-CA01-1.png",
+          "sha256": "f3400ad7573548a240abfb78ac1abcf821c31ed2ec50bc7fafd4e7167e323016"
+        },
+        {
+          "source": "assets/portraits/crow-mavis-history.png",
+          "copy": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-CA01-2.png",
+          "sha256": "ae2aaaf225ad4981d632ba3d8720481aacbe61c02feab842f5d97a2edcdd4a6e"
+        }
+      ],
+      "supersedes": {
+        "id": 19,
+        "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1d3e7-7342-7313-be33-01becca4bd16\\exec-b91434a2-1735-4649-9e4f-b90e8d3fb2ae.png",
+        "target": "assets/campaigns/camila/core/CS-CA01.png",
+        "prompt": "Create ONE cinematic illustrated story shot, landscape 3:2, semi-realistic illustrated manhwa, restrained contours, dimensional soft shading, no photorealism. Scene: Camila at age SEVEN meets the guardian who will adopt her, in the ordinary sunlit orphanage common room. Reference 1 is child Camila identity/clothes, reference 2 the Crow's concealed outfit, reference 3 the room. Camila stands on left beside a child-height wooden table, holding a battered biscuit tin at chest level and looking up with cautious curiosity. On right the Crow sits or kneels to her eye level at respectful distance, gloved hands resting openly on the table, fully opaque beaked mask with opaque black lenses, deep hood and dark layered robes conceal EVERY inch of skin, face, eyes and hair. His height/build/age cannot be inferred beneath robes. No touching, no threatening staging, no weapons. Warm ordinary daylight and small game pieces convey an actual cared-for childhood, not rescue from abuse. Both figures and the tin entirely readable, generous margins and no important action in bottom quarter because game text overlays there. No text, speech bubbles, frames or watermark. One coherent shot, not a contact sheet.",
+        "tool": "built-in image_gen",
+        "model": "unverified",
+        "date": "2026-11-13",
+        "references": [
+          "assets/portraits/camila-child7.png",
+          "assets/portraits/crow-mavis-history.png",
+          "assets/ui/locations/campaign/camila/orphanage.png"
+        ],
+        "sha256": "407ed75026653e6a13f37c0810d605158d511ab8f7af9c9bfc4f9e3754f3a7e1",
+        "production_copy": "assets/campaigns/camila/core/CS-CA01.png",
+        "original_copy": "media-workspace/camila-campaign/originals/exec-b91434a2-1735-4649-9e4f-b90e8d3fb2ae.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "mode": "RGB"
+      },
+      "previous_production_copy": "media-workspace/campaign-shot-rebuild-2026-11-14/backups/CS-CA01.png",
+      "revision_date": "2026-11-14",
+      "review": "Full generated image and actual reader render visually inspected; affected artwork checks and route UI smoke passed. See campaign-shot-rebuild-2026-11-14/README.md."
+    },
+    {
+      "id": 20,
+      "source": "media-workspace/campaign-shot-rebuild-2026-11-14/originals/CS-CA02.png",
+      "target": "assets/campaigns/camila/core/CS-CA02.png",
+      "prompt": "CS-CA02 rebuild one16:9 landscape cinematic illustrated game painting. Exact references age8 Camila (child7 portrait aged just one year, small tan child with brown high ponytail bangs black rectangular glasses burgundy cardigan blue shirt navy trousers), Crow fully opaque black plague beak mask unreadable black lenses hood layered robes gloves all skin/hair hidden. After supper domestic dining room, intimate slightly elevated three-quarter camera over small sideboard, hands and uneven PAPER HOUSE focal foreground with faces above. Camila kneels on safe upholstered dining chair so reaches tabletop, explains her design while both small hands fix one folded paper roof edge. Crow seated beside her at respectful distance, ONE black-gloved hand steadies paper wall other rests on his lap, patient parental attention. Paper house visibly handmade uneven cream walls muted red folded roof, small glue pot safely on table, no model mansion or perfectly built house. Child age-appropriate proportions, exactly two hands each with natural fingers, no hand merging with roof. Warm lamplight against blue evening window, cozy ordinary room rather than sinister HQ. Robes clear of glue, no exposing father identity, no magic or operational meaning, no text or panel layout. Match reference fine contours designed almond eyes simplified face planes soft painted dimensional materials, not photo or chunky cartoon.",
+      "tool": "built-in image_gen",
+      "model": "unverified",
+      "date": "2026-11-13",
+      "references": [
+        "assets/portraits/camila-child7.png",
+        "assets/portraits/crow-mavis-history.png"
+      ],
+      "sha256": "a3a20ac6fef76afff1a9bad460cdd4dccc17b8be58ac1be9f775b057ac7fc2e8",
+      "production_copy": "assets/campaigns/camila/core/CS-CA02.png",
+      "original_copy": "media-workspace/campaign-shot-rebuild-2026-11-14/originals/CS-CA02.png",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "reference_snapshots": [
+        {
+          "source": "assets/portraits/camila-child7.png",
+          "copy": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-CA02-1.png",
+          "sha256": "f3400ad7573548a240abfb78ac1abcf821c31ed2ec50bc7fafd4e7167e323016"
+        },
+        {
+          "source": "assets/portraits/crow-mavis-history.png",
+          "copy": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-CA02-2.png",
+          "sha256": "ae2aaaf225ad4981d632ba3d8720481aacbe61c02feab842f5d97a2edcdd4a6e"
+        }
+      ],
+      "supersedes": {
+        "id": 20,
+        "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1d3e7-7342-7313-be33-01becca4bd16\\exec-9b38d5c8-bc91-4f73-b29a-8be36f7dc700.png",
+        "target": "assets/campaigns/camila/core/CS-CA02.png",
+        "prompt": "One cinematic illustrated story shot in landscape 3:2. Camila age EIGHT and her fully concealed adoptive father repairing her crooked paper house after supper. Reference 1 child Camila identity, reference 2 Crow's dark hooded robes and opaque beaked mask, reference 3 dining room continuity. Camila is a plainly dressed tan child with rectangular glasses, ponytail and bangs, burgundy cardigan. At a sideboard or low table she carefully fixes a paper roof; Crow sits beside her with one black-gloved hand steadying a paper wall. Ordinary patient parental attention, no operational objective. He remains ENTIRELY covered: no face, eyes, hair, skin or bodily outline exposed. His mask has opaque dark lenses. The small uneven paper house is clearly visible between their hands, child identity consistent, anatomy natural. Semi-realistic illustrated manhwa, selective clean contours and dimensional soft shading, restrained warm lamp and evening window light, not photo or cartoon. Keep faces, hands and house in upper two-thirds with room below for game prose; no text, speech bubbles, frame or watermark. One coherent shot.",
+        "tool": "built-in image_gen",
+        "model": "unverified",
+        "date": "2026-11-13",
+        "references": [
+          "assets/portraits/camila-child7.png",
+          "assets/portraits/crow-mavis-history.png",
+          "assets/ui/locations/campaign/camila/dining.png"
+        ],
+        "sha256": "5b3c94310bde3459e1e883e5adb46e2846586cb9aa3d3e08e18acaf14a6d4f1a",
+        "production_copy": "assets/campaigns/camila/core/CS-CA02.png",
+        "original_copy": "media-workspace/camila-campaign/originals/exec-9b38d5c8-bc91-4f73-b29a-8be36f7dc700.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "mode": "RGB"
+      },
+      "previous_production_copy": "media-workspace/campaign-shot-rebuild-2026-11-14/backups/CS-CA02.png",
+      "revision_date": "2026-11-14",
+      "review": "Full generated image and actual reader render visually inspected; affected artwork checks and route UI smoke passed. See campaign-shot-rebuild-2026-11-14/README.md."
+    },
+    {
+      "id": 21,
+      "source": "media-workspace/campaign-shot-rebuild-2026-11-14/originals/CS-CA03.png",
+      "target": "assets/campaigns/camila/core/CS-CA03.png",
+      "prompt": "CS-CA03 rebuild ONE16:9 landscape narrative manhwa painting. Reference exact Camila at16: tan skin dark-brown high ponytail bangs black rectangular glasses burgundy modest sweater blue-grey collared shirt small silver hoop earrings, age-appropriate adolescent165cm proportions. Refined fine drawn lines designed eyes and simplified nose/lip/cheek planes, softly dimensional matte shading not photoreal. High oblique camera over opposite study-desk corner lets us clearly see her thoughtful face and the evidence. She sits in private slate-walled household study, reading a newly opened fourth report held naturally in both hands. Exactly THREE prior report sheets arranged to left and ONE opened envelope beside new sheet, plus one unused clean sheet and plain pencil. No legible writing. At far right edge show only father's opaque black GLOVED hand with robe cuff pointing toward opened envelope, arm continuing offscreen plausibly, no exposed skin or father face. Her expression unsettled concentration, learning that assumed cooperation was only likely, not certain. Warm desk lamp, cool evening window, papers create strong diagonal foreground. No projected future visions, branching holograms, glowing eyes or omniscient symbols; this is a lesson about omitted evidence, not awakening powers or trauma. Anatomically natural hands and wrists, two arms attached to Camila shoulders, no duplicate hands. No text captions logos panels.",
+      "tool": "built-in image_gen",
+      "model": "unverified",
+      "date": "2026-11-13",
+      "references": [
+        "assets/portraits/camila-teen16.png"
+      ],
+      "sha256": "b4ff513b39bb955815e7556a782f6f8ace148d97f3fd7256e55806bc474c3bc1",
+      "production_copy": "assets/campaigns/camila/core/CS-CA03.png",
+      "original_copy": "media-workspace/campaign-shot-rebuild-2026-11-14/originals/CS-CA03.png",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "reference_snapshots": [
+        {
+          "source": "assets/portraits/camila-teen16.png",
+          "copy": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-CA03-1.png",
+          "sha256": "893444697122e1a0f27faf237cbba6d89a3ae43ee4fc76294f2deb76e98a689f"
+        }
+      ],
+      "supersedes": {
+        "id": 21,
+        "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1d3e7-7342-7313-be33-01becca4bd16\\exec-a001da05-333f-4e26-889e-a5991263c5bc.png",
+        "target": "assets/campaigns/camila/core/CS-CA03.png",
+        "prompt": "ONE coherent cinematic illustrated story shot, wide landscape 3:2, restrained semi-realistic illustrated manhwa, selective contours and soft dimensional shading, no photo. Camila at SIXTEEN sits at her household study desk opening the fourth envelope that disproves her elegant evidence exercise. Reference 1 teenage identity and modest burgundy sweater, reference 2 study continuity. Brown ponytail and bangs, tan skin, black rectangular glasses, age-appropriate adolescent proportions. She reads the newly opened sheet with thoughtful unsettled concentration; the first three reports and a clean sheet are visible beside it, no readable words anywhere. Her hands hold paper naturally. An opaque black-gloved hand at the far right edge marks the fourth envelope; no exposed skin or unmasked father, no invented adult body in view. This is a supervised lesson in admitting missing evidence, not trauma or omniscience. Warm lamp against slate walls. Keep face, hands, envelopes and clean sheet in upper two-thirds with lower space for game text, generous safe margins. No words, bubbles, frames, symbolic visions or watermark.",
+        "tool": "built-in image_gen",
+        "model": "unverified",
+        "date": "2026-11-13",
+        "references": [
+          "assets/portraits/camila-teen16.png",
+          "assets/ui/locations/campaign/camila/study.png"
+        ],
+        "sha256": "b400e9abf6d08ac8b45df14ce073bfe65b1fa5eabe4c4fd63d0d4ea3c6df0f26",
+        "production_copy": "assets/campaigns/camila/core/CS-CA03.png",
+        "original_copy": "media-workspace/camila-campaign/originals/exec-a001da05-333f-4e26-889e-a5991263c5bc.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "mode": "RGB"
+      },
+      "previous_production_copy": "media-workspace/campaign-shot-rebuild-2026-11-14/backups/CS-CA03.png",
+      "revision_date": "2026-11-14",
+      "review": "Full generated image and actual reader render visually inspected; affected artwork checks and route UI smoke passed. See campaign-shot-rebuild-2026-11-14/README.md."
+    },
+    {
+      "id": 22,
+      "source": "media-workspace/campaign-shot-rebuild-2026-11-14/originals/CS-CA04.png",
+      "target": "assets/campaigns/camila/core/CS-CA04.png",
+      "prompt": "CS-CA04 rebuild ONE16:9 cinematic illustrated manhwa narrative scene. Exact portraits: Camila26 tan skin dark-brown ponytail bangs black rectangular glasses silver hoops burgundy blouse charcoal waistcoat trousers; Crow opaque black beaked mask black opaque goggles hood layered robes black gloves, no skin/hair/eyes. Private household slate-walled study after report. Medium wide camera slightly to side at seated eye-level, a nearby EMPTY chair between foreground and window deliberately prominent but an ordinary chair not throne. Camila seated left of frame leaning forward attentive, hands resting separately over closed plain folder in lap, expression pride mixed with apprehension. Crow seated right by study desk, one black gloved hand rests on another closed report, other on chair arm, calm deliberate parental conversation. He intends her future succession but remains active leader now: no crowns, bowing, signing, ceremonial transfer, retirement or illness. Exactly two characters with unoccupied third chair beside Crow. Natural adult scale Camila168cm vs Crow180cm standing equivalent, anatomy articulated clearly with two arms each. Warm table lamp vs cool late-day window, intimate serious family mood, elegant diagonals from desk and chairs, coherent perspective. Softly painted matte dimensional manhwa with portrait's designed facial planes and almond eyes, no photographic realism. No legible writing, captions, panels, magic or third person.",
+      "tool": "built-in image_gen",
+      "model": "unverified",
+      "date": "2026-11-13",
+      "references": [
+        "assets/portraits/camila-young-adult.png",
+        "assets/portraits/crow-mavis-history.png"
+      ],
+      "sha256": "ee5e7701b2f4572ae303dad6dea6e1f90b28267bffb711b609560dcf0e890fa6",
+      "production_copy": "assets/campaigns/camila/core/CS-CA04.png",
+      "original_copy": "media-workspace/campaign-shot-rebuild-2026-11-14/originals/CS-CA04.png",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "reference_snapshots": [
+        {
+          "source": "assets/portraits/camila-young-adult.png",
+          "copy": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-CA04-1.png",
+          "sha256": "745462ca3e6ce70320785db70f4843a9497cb734f98456785233bdef7f352151"
+        },
+        {
+          "source": "assets/portraits/crow-mavis-history.png",
+          "copy": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-CA04-2.png",
+          "sha256": "ae2aaaf225ad4981d632ba3d8720481aacbe61c02feab842f5d97a2edcdd4a6e"
+        }
+      ],
+      "supersedes": {
+        "id": 22,
+        "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1d3e7-7342-7313-be33-01becca4bd16\\exec-fa53c362-9ed8-4573-a445-22d7ec7334e0.png",
+        "target": "assets/campaigns/camila/core/CS-CA04.png",
+        "prompt": "ONE cinematic story painting, landscape 3:2, semi-realistic illustrated manhwa, restrained tapered contours, soft dimensional shading, natural adult anatomy, not photo. Camila age TWENTY-SIX in a private household study hears her father explain his genuine intention that she eventually succeed him. Reference 1 adult Camila identity and burgundy blouse/charcoal waistcoat, reference 2 fully concealed Crow outfit, reference 3 study. She stands or sits to left, attentive with pride and apprehension, black rectangular glasses, tan skin, dark ponytail and bangs. Crow sits to right beside a second empty chair, one black-gloved hand resting on a closed report. He is fully hooded and robed with an opaque beaked mask and opaque black lenses: NO visible skin, hair, eyes, face or defined body. Quiet serious parental relationship, no romance. No coronation, throne, bowing or current leadership transfer. Keep both figures, hands and the nearby empty chair readable in upper two-thirds, generous safe margins and bottom space for game prose. Warm lamp on slate walls. No words, bubbles, captions, frame or watermark.",
+        "tool": "built-in image_gen",
+        "model": "unverified",
+        "date": "2026-11-13",
+        "references": [
+          "assets/portraits/camila-young-adult.png",
+          "assets/portraits/crow-mavis-history.png",
+          "assets/ui/locations/campaign/camila/study.png"
+        ],
+        "sha256": "0927e8865d779d7fe48748529eb12f5162324c5fa1bb8fd94935580d2f7610a9",
+        "production_copy": "assets/campaigns/camila/core/CS-CA04.png",
+        "original_copy": "media-workspace/camila-campaign/originals/exec-fa53c362-9ed8-4573-a445-22d7ec7334e0.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "mode": "RGB"
+      },
+      "previous_production_copy": "media-workspace/campaign-shot-rebuild-2026-11-14/backups/CS-CA04.png",
+      "revision_date": "2026-11-14",
+      "review": "Full generated image and actual reader render visually inspected; affected artwork checks and route UI smoke passed. See campaign-shot-rebuild-2026-11-14/README.md."
+    },
+    {
+      "id": 23,
+      "source": "media-workspace/campaign-shot-rebuild-2026-11-14/originals/CS-CA05.png",
+      "target": "assets/campaigns/camila/core/CS-CA05.png",
+      "prompt": "CS-CA05 rebuild one16:9 cinematic manhwa narrative painting. Exact references: Camila sealed Diamonds uniform fully covering face/hair/skin/eyes: opaque smooth white mask SINGLE RED DIAMOND, white hood layered robes white gloves,168cm; contractor183cm adult tan dark short hair stubble charcoal jacket black work armor grey cargo trousers black gloves plain baton. Before combat Meridian loading-court confrontation. Camera low oblique near contractor's planted boot at right foreground but BOTH figures fully legible: contractor on right blocks route, baton lowered in one hand, other near belt, wary competent posture; Camila at left composed, one white-gloved hand calmly indicates closed inner office door at rear, other near her waist. Contractor visibly15cm taller accounting for perspective, neither giant. Her masked head subtly studies his weight/foot and door checks, implying Analysis from observed movement ONLY; no supernatural aura, glowing eyes, diagram, certain prediction or fire. Rain-blue court, amber canopy lighting, closed protected door rear-center and locked record cabinet visible through reinforced window beside it. Crew remains OFFSCREEN behind closed door, nobody freed, no victory or captured enemy. Two arms two legs each with readable natural shoulders/elbows/wrists, feet grounded, cloak falls naturally, no exposed face under mask. Refined drawn facial planes on contractor and matte dimensional costume painting matching game portraits, not photo. No text logos captions panels.",
+      "tool": "built-in image_gen",
+      "model": "unverified",
+      "date": "2026-11-13",
+      "references": [
+        "assets/portraits/camila-syndicate.png",
+        "assets/portraits/camila-contractor.png"
+      ],
+      "sha256": "a6c42204f02de4eddcf0809d3d5814dd9a289dd614124cc8cb47860157884cfd",
+      "production_copy": "assets/campaigns/camila/core/CS-CA05.png",
+      "original_copy": "media-workspace/campaign-shot-rebuild-2026-11-14/originals/CS-CA05.png",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "reference_snapshots": [
+        {
+          "source": "assets/portraits/camila-syndicate.png",
+          "copy": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-CA05-1.png",
+          "sha256": "7b48016b215475626598b3bab96dfbf129b71ffaff7a6617fee490fb688928e9"
+        },
+        {
+          "source": "assets/portraits/camila-contractor.png",
+          "copy": "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-CA05-2.png",
+          "sha256": "792b97498114c847f2371b3380e20be8439793761b42b8789a07cea5cb57355e"
+        }
+      ],
+      "supersedes": {
+        "id": 23,
+        "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1d3e7-7342-7313-be33-01becca4bd16\\exec-1ac5bd7d-bd88-464d-bbf5-71b487e3b66a.png",
+        "target": "assets/campaigns/camila/core/CS-CA05.png",
+        "prompt": "ONE cinematic story shot, landscape 3:2, semi-realistic illustrated manhwa, restrained linework and soft dimensional shading, not photorealistic. The Meridian loading-court confrontation before combat. Reference 1 is Camila's sealed Diamonds operational uniform: white hooded robes, opaque smooth white full-face mask bearing a single red diamond, white gloves, NO exposed eyes, skin, face or hair. Reference 2 depot location, reference 3 ordinary armed contractor identity and charcoal work armour. Camila stands composed at left, one gloved hand calmly indicating the inner office door, no punch or attack windup, no powers/aura. Contractor stands at right with plain baton lowered, blocking the passage, wary competent adult. Through the protected window a locked record cabinet is visible; the dispatch team is behind the closed door and is NOT shown as already rescued. Rain-blue court with amber canopy light, quiet tension, clear positions. Both figures complete enough for readable posture, generous frame margins, faces/hands/door in upper two-thirds, space below for game prose. No words, labels, speech bubbles, frame, blood or watermark.",
+        "tool": "built-in image_gen",
+        "model": "unverified",
+        "date": "2026-11-13",
+        "references": [
+          "assets/portraits/camila-syndicate.png",
+          "assets/ui/locations/campaign/camila/loading.png",
+          "assets/portraits/camila-contractor.png"
+        ],
+        "sha256": "b20a530e208d7ba83e242103419f22e8f779489d29bb26cc08858919270cab5e",
+        "production_copy": "assets/campaigns/camila/core/CS-CA05.png",
+        "original_copy": "media-workspace/camila-campaign/originals/exec-1ac5bd7d-bd88-464d-bbf5-71b487e3b66a.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "mode": "RGB"
+      },
+      "previous_production_copy": "media-workspace/campaign-shot-rebuild-2026-11-14/backups/CS-CA05.png",
+      "revision_date": "2026-11-14",
+      "review": "Full generated image and actual reader render visually inspected; affected artwork checks and route UI smoke passed. See campaign-shot-rebuild-2026-11-14/README.md."
+    }
+  ],
+  "rejected": [
+    {
+      "source": "C:\\Users\\ryanl\\.codex\\generated_images\\01a1d3e7-7342-7313-be33-01becca4bd16\\exec-33f6db54-545a-4265-b786-d27b61598761.png",
+      "prompt": "ONE transparent character portrait for a contemporary illustrated manhwa game. Ansel Vey, male financial counterparty age forty-nine, light olive skin, narrow angular face, long straight nose, grey-green eyes, dark slicked-back hair greying at temples, clean-shaven, slender average-tall build. Expensive restrained navy suit, grey waistcoat, muted silver tie, holds one closed document folio with a cool assessing expression. Ordinary capable fallible institutional rival, no fantasy powers, no weapon or insignia. Semi-realistic illustrated manhwa with selective tapered contours, dimensional soft shading, natural eyes, not photorealistic or exaggerated cartoon. Full head through MID-THIGH, both complete arms and hands, vertical 2:3 with safe margins. Genuine RGBA transparency, no background, floor, haze, text or watermark.",
+      "reason": "Hand hidden in pocket; corrected before installation.",
+      "sha256": "416d00fc491edfcd4bd27169208f4e5fa91c4da4afcf648aa8c4a9a15aa5e6ee",
+      "local_copy": "media-workspace/camila-campaign/rejected/exec-33f6db54-545a-4265-b786-d27b61598761.png"
+    }
+  ]
+}

@@ -69,6 +69,7 @@ def available(s, minutes):
         raise ValueError('Finish or withdraw the current assignment first.')
     spec = jobs.JOBS[key]
     jobs.guard(s, spec['venue'], minutes)
+    __import__('interior_work').require(s, 'development', minutes=minutes)
     now = s['world']['minute']
     if not spec['hours'][0]*60 <= now % 1440 <= spec['hours'][1]*60-minutes:
         raise ValueError('The whole activity must fit within workplace hours.')

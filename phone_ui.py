@@ -177,7 +177,9 @@ class PhoneWindow(PersonalPhone, tk.Toplevel):
             stamp = (manager.key(), manager.status())
             if stamp != getattr(self, 'supafast_stamp', None): self.refresh()
         if self.selected == 'Conversation': self.update_messages()
-        if self.selected == 'Weather' and getattr(self, 'weather_stamp', None) != self.game.state_data['world']['minute']: self.refresh()
+        if self.selected == 'Weather' and getattr(self, 'weather_stamp', None) != self.game.state_data['world']['minute']:
+            self.weather_view.update_forecast(self.game.state_data)
+            self.weather_stamp = self.game.state_data['world']['minute']
         if self.selected == 'Maps': self.update_map_people()
         self.update_notifications()
         if self.selected == 'Lock' and self.unread_stamp() != getattr(self, '_lock_stamp', None):
@@ -334,7 +336,7 @@ class PhoneWindow(PersonalPhone, tk.Toplevel):
     def weather_page(self, frame, s):
         from weather_ui import WeatherView
         self.weather_stamp = s['world']['minute']
-        WeatherView(frame, s)
+        self.weather_view = WeatherView(frame, s)
 
     def living_page(self, frame, s):
         import living_world_ui
@@ -345,7 +347,12 @@ class PhoneWindow(PersonalPhone, tk.Toplevel):
         Arcade(frame, self.arcade_sessions, self.game.sounds)
 
     def refresh_feed(self):
-        if self.selected in ('Home', 'Grove'): self.refresh()
+        if self.selected == 'Home':
+            self.update_notifications()
+        elif self.selected == 'Grove':
+            notice = getattr(self, 'grove_feed_notice', None)
+            if notice is not None and notice.winfo_exists():
+                notice.configure(text='New feed activity · Refresh feed to view')
 
     def retry_grove(self):
         pump = getattr(self.game, 'grove_pump', None)
@@ -812,9 +819,9 @@ class PhoneWindow(PersonalPhone, tk.Toplevel):
 
     def grove(self, frame, s):
         ttk.Label(frame, text='Grove', font=('Segoe UI', 24, 'bold')).pack(anchor='w')
-        if s['player']=='fox':
-            ttk.Label(frame,text='Edward Fox has no Grove account.',wraplength=270).pack(fill='x',pady=12)
-            ttk.Label(frame,text='Use Messages for private contacts and Bubblegram for Interpol records.',wraplength=270).pack(fill='x')
+        if s['player'] in ('fox','takeo'):
+            ttk.Label(frame,text=('Takeo Mishima' if s['player']=='takeo' else 'Edward Fox')+' has no Grove account.',wraplength=270).pack(fill='x',pady=12)
+            ttk.Label(frame,text=('Use Messages for command contacts and Maps for campaign travel.' if s['player']=='takeo' else 'Use Messages for private contacts and Bubblegram for Interpol records.'),wraplength=270).pack(fill='x')
             return
         import grove_accounts, grove_account_ui
         if grove_accounts.needed(s) and grove_accounts.account(s) is None:
@@ -859,6 +866,8 @@ class PhoneWindow(PersonalPhone, tk.Toplevel):
         PhoneButton(bar, text='Post', command=lambda: self.act(apps.post, entry.get(), self.reply_to)).pack(side='left')
         PhoneButton(bar, text='Cancel reply', command=lambda: self.choose_reply(None)).pack(side='left', padx=5)
         PhoneButton(bar, text='Refresh feed', command=self.refresh).pack(side='right')
+        self.grove_feed_notice = ttk.Label(frame, text='')
+        self.grove_feed_notice.pack(anchor='w')
         posts = apps.grove_posts(s)
         children = {}
         for p in posts: children.setdefault(p['parent'], []).append(p)

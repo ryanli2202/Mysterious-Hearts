@@ -1,0 +1,22 @@
+{
+  "id": "takeo-opposition",
+  "type": "portrait",
+  "path": "assets/portraits/takeo-opposition.png",
+  "original": "media-workspace/takeo/originals/exec-bb87e8b5-1de6-446d-9f66-5c3157d4bfbb.png",
+  "prompt": "Create ONE fictional adult tactical service contractor, face mostly obscured by an opaque dark full-face protective visor and plain helmet, charcoal practical military uniform and body armour, hands relaxed at sides, no gun pointed at viewer, ordinary trained build, no symbols or flags. This is bounded tactical resistance, not a superpowered equal to Takeo. Standalone 2:3 vertical head-to-mid-thigh portrait, genuine transparent background. Semi-realistic illustrated manhwa, soft dimensional shading and restrained linework, not photo/3D/cel cartoon. Whole head and complete hands, connected pelvis and both thighs, safe margins. No scenery, shadow, rectangular haze, text or watermark.",
+  "references": [],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "0b457de06c68979eb3c3f0f2fbd209c6b1e98ee79c111281b23ab7bffd84b7ea",
+  "size": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+  "reference_hashes_measured_at_release_review": {}
+}

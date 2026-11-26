@@ -158,6 +158,7 @@ def initialise(p,who='',custom=None):
             for move in MOVES.values():
                 if move['art']==art and move['tier']=='basic' and move['id'] not in book['learned']: book['learned'].append(move['id'])
             book['arts'].append(art)
+    __import__('ivan_general_combat').install(p,who or p.get('combat_id',''))
     return book
 
 

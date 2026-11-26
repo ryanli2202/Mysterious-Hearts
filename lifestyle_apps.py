@@ -145,6 +145,8 @@ def edit_mixtape_playlist(s, title, entries, memory='', playlist_id=None):
 
 
 def wear(s, label):
+    if s.get('interiors', {}).get('enabled_buildings'):
+        return __import__('wardrobe_context').wear(s, label)
     if label == 'Automatic':
         s['world'].pop('player_outfit', None)
     elif label in camera.outfits(s, s['player']):
@@ -250,6 +252,7 @@ def collect(s, ident):
         raise ValueError('There is no purchase waiting for collection.')
     if s['world']['location'] != item['venue'] or s['world']['cast'][s['player']].get('journey'):
         raise ValueError('Travel to '+town.LOCATIONS[item['venue']]+' to collect this item.')
+    __import__('interior_activities').require(s,__import__('interior_activities').COLLECTIONS.get(item['venue']))
     item['collected'] = True
     key = 'exchange:'+item['listing']
     s['world']['inventory'][key] = s['world']['inventory'].get(key, 0)+1
@@ -272,10 +275,14 @@ def cook(s, title):
     scene = camera.scene(s)
     if not scene['at_home']:
         raise ValueError('Visit a home kitchen before cooking.')
+    if __import__('interiors').enabled(s):
+        __import__('interiors').require_activity(s, 'home.cook')
     spend(s, RECIPES[title][0], 'Ingredients · '+title)
     note = f'{camera.name(s["player"])} cooked {title}.'
     record(s, 'cooked', title=title, companions=scene['companions'])
     s['world']['camera_activity'] = dict(text=title, location=s['world']['location'], minute=s['world']['minute'])
+    if __import__('interiors').enabled(s):
+        s['world']['camera_activity']['room'] = __import__('interiors').room(s)
     s.setdefault('shared_events', []).append(dict(minute=s['world']['minute'], text=note, witnesses=scene['companions']))
     town.log(s, note)
 
@@ -312,6 +319,7 @@ def complete_assignment(s, club):
         raise ValueError('Today’s practice is already complete.')
     if s['world']['location'] != venue or s['world']['cast'][s['player']].get('journey'):
         raise ValueError('Visit '+town.LOCATIONS[venue]+' for this practice.')
+    __import__('interior_activities').require(s,__import__('interior_activities').CLUBS[club])
     done.append(day)
     town.log(s, club+' practice: '+task)
 

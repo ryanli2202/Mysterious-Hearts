@@ -1,0 +1,19 @@
+{
+  "id": "meridian_command",
+  "type": "location",
+  "path": "assets/ui/locations/campaign/takeo/meridian_command.png",
+  "original": "media-workspace/takeo/originals/exec-89cb330d-683e-4b2f-83b9-579b878a692a.png",
+  "prompt": "A single 16:9 wide game location background painting: Meridian complex regional command room, fictional 2050 military industrial facility. A rectangular dark planning table, unlabelled subdued route map wall, three service-status panels and guarded door to research wing. Slate blue and warm muted amber practical lights, no people, no readable text or logos. Semi-realistic illustrated manhwa, restrained linework and dimensional soft painted shading, not photo, not 3D, no exaggerated cartoon. Clear spatial layout and room for visual-novel portraits in foreground.",
+  "references": [],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "94f39b6e849495706a58901db79295bb343c8df825a5f752421299fe752c1409",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "alpha_extrema": null,
+  "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+  "reference_hashes_measured_at_release_review": {}
+}

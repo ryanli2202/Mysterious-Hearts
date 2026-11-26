@@ -1,0 +1,19 @@
+{
+  "id": "directive_briefing",
+  "type": "location",
+  "path": "assets/ui/locations/campaign/takeo/directive_briefing.png",
+  "original": "media-workspace/takeo/originals/exec-d49645fb-fb74-440c-b2ff-0fab1c7a8344.png",
+  "prompt": "ONE 16:9 wide game location background painting. Historical United Nations classified Directive 0 briefing room before 2024. Plain worn military briefing table, unmarked closed folders, equipment lockers and functional overhead lamps, grounded early 2020s technology, no flags or readable insignia. No people, no readable text, logos or watermarks. Semi-realistic illustrated manhwa with restrained linework, softly dimensional painted shadows; not photorealism, 3D or exaggerated cartoon. Clear spatial layout and open foreground for visual novel portraits.",
+  "references": [],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "9f3d6fd72544c21d442b92a25e1d9579c7b519996e42e89cac1a765382181bde",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "alpha_extrema": null,
+  "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+  "reference_hashes_measured_at_release_review": {}
+}

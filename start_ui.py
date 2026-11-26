@@ -26,6 +26,8 @@ CAST = {
 import playable_cast
 # Selection copy is authored separately from starting funds, jobs and home actions.
 EXPANDED_DESCRIPTIONS = {
+    'takeo': ('THE HUMAN SIEGE ENGINE', 'A command. A consequence.',
+              'Military command · Strategy · Combat'),
     'yuriko': ('THE SCENE MAKER', 'Small stages. Big possibilities.',
                'Theatre design · Miniatures · Costume sketches'),
     'emily': ('THE GENTLE BLOOM', 'Small kindnesses take root.',
@@ -183,9 +185,11 @@ class CharacterPreview(tk.Canvas):
         self.create_text(x, h*.24, text=tag, anchor='nw', fill=accent,
                          font=('Segoe UI', 9, 'bold'))
         name = (d['name'] if d else core.PLAYERS[self.selected]).replace(' ', '\n', 1)
-        self.create_text(x-2, h*.24+33, text=name, anchor='nw', fill=CREAM,
+        name_item = self.create_text(x-2, h*.24+33, text=name, anchor='nw', fill=CREAM,
                          font=('Georgia', 23 if w < 750 else 34), justify='left', width=max(170, int(w*.55)))
-        self.create_text(x, h*.24+118, text=mood, anchor='nw', fill=CREAM,
+        # Tk font metrics vary with DPI, font size and wrapped custom names.
+        # Keep the hook below the actual name instead of a fixed two-line slot.
+        self.create_text(x, self.bbox(name_item)[3]+12, text=mood, anchor='nw', fill=CREAM,
                          font=('Georgia', 12, 'italic'), width=max(150, int(w*.39)))
         self.create_text(x, h-75, text=interests.replace(' · ', '\n'), anchor='sw',
                          fill='#d3dbd8', font=('Segoe UI', 10), justify='left')

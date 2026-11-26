@@ -17,7 +17,7 @@ CASES = {
 }
 HIERARCHY = {
     'Syndicate': ('The Crow / Cardmaster sets strategic authority. Sylvanis is second-in-command and the Coloured Joker. '
-        'Ivan is the Black and White Joker, with cross-Suit authority and five generals including Valentina, Queen of Wind. '
+        'Ivan is the Black and White Joker, with cross-Suit authority and five generals including Valentina, Queen of Death. '
         'Clubs, Hearts, Diamonds and Spades have their own branch leadership and local supervisors. '
         'The Four Aces are hidden mission specialists directly assigned by the Crow, not Suit commanders. '
         'An Ace mandate can override a local task but does not give a visitor permanent rank.'),
@@ -52,6 +52,9 @@ def authority(who, key):
 
 
 def permitted(s, who, key):
+    if __import__('takeo_campaigns').appointment_access(s,who,key):return True
+    if who==s.get('player')=='takeo' and key in ('site_01','site_02'):return True
+    if key=='site_01' and __import__('sylvanis_campaigns').meeting_access(s,who):return True
     if who==s['player'] and __import__('organisation_guards').breach(s,key): return True
     if who==s['player'] and sites.SITES[key]['faction'].lower() in s.get('combat',{}).get('expelled',[]): return False
     import thirteen
@@ -68,15 +71,16 @@ def permitted(s, who, key):
 
 def access_text(s,key):
     import thirteen
-    if key=='site_02' and thirteen.number_allowed(s): return 'Executive clearance: report to Number Thirteen, commander of US operations, in the briefing room.'
+    if key=='site_02' and (s['player']=='thirteen' or thirteen.number_allowed(s)): return 'Executive clearance: report to Number Thirteen, commander of US operations, in the briefing room.'
     import takeo
-    if key == 'site_01' and takeo.number_allowed(s): return 'Regional command clearance: Takeo receives reports in the headquarters briefing room.'
+    if key == 'site_01' and (s['player']=='takeo' or takeo.number_allowed(s)): return 'Regional command clearance: Takeo receives reports in the headquarters briefing room.'
     if authority(s['player'],key): return 'Command authority · '+BRANCHES[key]
     import four_aces
     if s['player'] in four_aces.IDS and sites.SITES[key]['faction'] == 'Syndicate':
         return 'Ace operational clearance · all Syndicate affiliate interiors · no Suit command authority'
     if progress(s,key)['pressure']>=15: return 'Clearance suspended by the local supervisor · reduce pressure through responsible reception work.'
     permit=read(s).get('permits',{}).get(key,{})
+    if __import__('organisation_guards').breach(s,key):return 'Security defeated · current breach access; no command authority granted'
     if permitted(s,s['player'],key):
         return 'Escorted briefing clearance · '+str(permit['until']-s['world']['minute'])+' story minutes remaining'
     if key=='site_07' and s['player'] not in sites.INSIDERS:
@@ -88,6 +92,10 @@ def can_enter(s,who,destination):
     import organisation_guards as security
     key,area=ROOMS.get(destination,(None,None))
     actor=s['world']['cast'].get(who,{})
+    import interiors
+    if key and interiors.enabled(s,key):
+        if actor.get('journey'):return False
+        return area=='reception' or permitted(s,who,key)
     if key and who==s['player'] and site_of(actor.get('location'))==key and not actor.get('journey') and security.slots(s,key) and not security.remaining(s,key): return True
     if destination not in ROOMS: return True
     key,area=ROOMS[destination]
@@ -104,6 +112,14 @@ def check_trip(s,who,destination,passengers=()):
 
 def enter(s,key,area):
     if key not in sites.SITES or area not in ('reception','briefing'): raise ValueError('Choose an available room.')
+    import interiors
+    if interiors.enabled(s,key):
+        interiors._guard_action(s)
+        if not interiors.same_building(s['world']['location'],key):raise ValueError('Travel to this site’s public frontage first.')
+        target=__import__('interior_compat').ROOMS[key+'_'+area]
+        for step in interiors.route(s,target):interiors.move(s,step)
+        if interiors.room(s)!=target:raise ValueError('The assigned room could not be reached.')
+        return 'Entered '+interiors.ROOMS[target].label+'.'
     import town
     town.travel(s,key+'_'+area)
     if not sites.records(s).get(key,{}).get('inspected'):
@@ -112,6 +128,12 @@ def enter(s,key,area):
 
 
 def exit_site(s,key):
+    import interiors
+    if interiors.enabled(s,key):
+        interiors._guard_action(s)
+        if not interiors.same_building(s['world']['location'],key):raise ValueError('You are not at this site.')
+        for step in interiors.route(s,interiors.ARRIVALS[key]):interiors.move(s,step)
+        return 'Returned to the public frontage.'
     import town
     if site_of(s['world']['location']) != key: raise ValueError('You are not at this site.')
     town.travel(s,key)
@@ -222,6 +244,7 @@ def abandon(s):
 
 def reconcile(s):
     """Expired/revoked access returns occupants to reception, even after loading."""
+    __import__('interiors').reconcile_security(s)
     world=s.get('world',{})
     for who,actor in world.get('cast',{}).items():
         location=actor.get('location')

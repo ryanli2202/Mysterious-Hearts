@@ -1,0 +1,23 @@
+{
+  "id": "onami_research",
+  "type": "location",
+  "path": "assets/ui/locations/campaign/takeo/onami_research.png",
+  "original": "media-workspace/takeo/originals/exec-f3d8e7c6-7f9f-4233-a4a1-8bc7864f95cb.png",
+  "prompt": "Edit this exact illustrated game room. Remove the entire flag and flagpole/stand. Replace their space naturally with the adjacent plain dark wall/panelling. Preserve the exact room geography, furniture, lighting and semi-realistic illustrated manhwa style. No flags, emblems, insignia, logos, readable text or new objects. No other changes.",
+  "references": [
+    "media-workspace/takeo/rejected/exec-90560f0a-6b6b-49ce-b123-78c29fe6cd91.png"
+  ],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "3723805413d5ef6d1d50c776cd532123d4920c8ce641f9460217f2415750e51a",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "alpha_extrema": null,
+  "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+  "reference_hashes_measured_at_release_review": {
+    "media-workspace/takeo/rejected/exec-90560f0a-6b6b-49ce-b123-78c29fe6cd91.png": "d345034027743f82648841dba02870fe0b6b199258342210cc5d2248dcb5caa0"
+  }
+}

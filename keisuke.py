@@ -76,12 +76,18 @@ def reference_table():
 
 
 def member(s):
+    if __import__('neo_campaigns').suppressed(s,'hachimura'):return False
     m = s.get('job_apps', {}).get('membership') or {}
     return m.get('faction') == 'Shinokami' and m.get('branch') == 'Shinokami'
 
 
 def ensure(s):
     """Idempotent joining/old-save introduction; never reset a conversation."""
+    if s.get('player')=='takeo':
+        import phone_numbers
+        s.setdefault('npc_chats',{}).setdefault(NAME,dict(history=[],connection=dict(status='command liaison',trust=45,closeness=10),shinokami_introduced=True))
+        d=s.setdefault('phone_numbers',{});d.setdefault('directory',{}).setdefault(NAME,phone_numbers.NUMBERS[NAME]);d.setdefault('contacts',{}).setdefault(NAME,dict(number=phone_numbers.NUMBERS[NAME],source='Command liaison',minute=None))
+        return
     if not member(s): return
     import phone_numbers
     import groups

@@ -1,19 +1,22 @@
 # MH-001 combat animation batch 10
 
+> **Withdrawn 2026-11-13.** All GIFs, sprite sheets, combined preview and contact image from this batch were removed for the combat animation reset. The manifest and this README are historical production evidence; paths below are retired, and rebuild commands are historical only. No runtime integration or release is claimed. Future work follows the [combat animation style guide](../../../../roadmap/COMBAT_ANIMATION_STYLE_GUIDE.md).
+
+
 Eight Silat/Aikido master sprite sheets generated first with built-in image_gen, then sliced into GIFs locally with Pillow. [The manifest](manifest.json) preserves exact prompts, source paths and source/output hashes. Exact generator model identity is unverified.
 
-Open [the combined animated preview](batch-10-preview.gif).
+Open the combined animated preview (retired path: `batch-10-preview.gif`).
 
 | Move | GIF | Sprite sheet |
 | --- | --- | --- |
-| serpent lattice | [GIF](gifs/serpent-lattice.gif) | [PNG](spritesheets/serpent-lattice.png) |
-| phantom crescent | [GIF](gifs/phantom-crescent.gif) | [PNG](spritesheets/phantom-crescent.png) |
-| falling canopy | [GIF](gifs/falling-canopy.gif) | [PNG](spritesheets/falling-canopy.png) |
-| mirror snare | [GIF](gifs/mirror-snare.gif) | [PNG](spritesheets/mirror-snare.png) |
-| still water reversal | [GIF](gifs/still-water-reversal.gif) | [PNG](spritesheets/still-water-reversal.png) |
-| world axis turn | [GIF](gifs/world-axis-turn.gif) | [PNG](spritesheets/world-axis-turn.png) |
-| orbit of silence | [GIF](gifs/orbit-of-silence.gif) | [PNG](spritesheets/orbit-of-silence.png) |
-| returning mountain | [GIF](gifs/returning-mountain.gif) | [PNG](spritesheets/returning-mountain.png) |
+| serpent lattice | GIF (retired path: `gifs/serpent-lattice.gif`) | PNG (retired path: `spritesheets/serpent-lattice.png`) |
+| phantom crescent | GIF (retired path: `gifs/phantom-crescent.gif`) | PNG (retired path: `spritesheets/phantom-crescent.png`) |
+| falling canopy | GIF (retired path: `gifs/falling-canopy.gif`) | PNG (retired path: `spritesheets/falling-canopy.png`) |
+| mirror snare | GIF (retired path: `gifs/mirror-snare.gif`) | PNG (retired path: `spritesheets/mirror-snare.png`) |
+| still water reversal | GIF (retired path: `gifs/still-water-reversal.gif`) | PNG (retired path: `spritesheets/still-water-reversal.png`) |
+| world axis turn | GIF (retired path: `gifs/world-axis-turn.gif`) | PNG (retired path: `spritesheets/world-axis-turn.png`) |
+| orbit of silence | GIF (retired path: `gifs/orbit-of-silence.gif`) | PNG (retired path: `spritesheets/orbit-of-silence.png`) |
+| returning mountain | GIF (retired path: `gifs/returning-mountain.gif`) | PNG (retired path: `spritesheets/returning-mountain.png`) |
 
 Each sheet is 1536x1024 with six 512x512 cells in row-major order. Each GIF uses six 150ms action frames (900ms) plus a 720ms blank review pause, repeating every 1620ms. These are opaque dark-slate keyframe previews, not transparent overlays or seamless loops.
 

@@ -44,6 +44,20 @@ LOCATIONS = {
     'interpol_hq': 'Interpol Regional Headquarters',
     'syndicate_office': 'Waterfront executive offices',
     hidden.HQ: 'Syndicate underground headquarters',
+    'mavis_dispatch_exchange': 'Dispatch exchange warehouse',
+    'martos_transfer_house':'Protected transfer house',
+    'elias_theatre':'Winterfield visiting theatre',
+    'camila_meridian':'Meridian receiving house',
+    'takeo_meridian':'Meridian regional command complex',
+    'sylvanis_arena':'Sylvanis’s private testing arena',
+    'neo_mariko':'Mariko’s house',
+    'neo_club':'Community boxing club',
+    'neo_alfheim':'Alfheim community square',
+    'neo_refuge':'Temporary evacuation refuge',
+    'neo_yard':'Blackhaven transfer yard',
+    'neo_transport':'Stationary transport stop',
+    'neo_annex':'Retrieval transfer annex',
+    'ivan_network':'Black and White Joker Network rooms',
 }
 LOCATIONS.update({key: v[0] for key, v in public_venues.VENUES.items()})
 LOCATIONS.update({data[0]: data[1] for data in loop.HOUSES.values()})
@@ -325,6 +339,10 @@ def end_hangouts(s):
     for who in s['routes']: set_channel(s, who, 'text')
 
 def summon(s, who):
+    if __import__('interiors').enabled(s):
+        __import__('interiors')._guard_action(s)
+        if who in s['world']['cast'] and not __import__('interiors').available(s, who):
+            raise ValueError('This person is unavailable. Wait until they are awake and free.')
     if who == 'charles': raise ValueError('Charles remains inside the Glasshouse; no outings.')
     if who == 'thirteen': raise ValueError('Number Thirteen receives reports at Pacific Relay Depot; no outings.')
     if who == 'takeo': raise ValueError('Takeo receives visitors at headquarters and does not join outings.')
@@ -339,7 +357,15 @@ def summon(s, who):
     if actor['journey']:
         raise ValueError('They are already travelling. Wait for them to arrive first.')
     if not loop.together(s, who):
-        loop.start_trip(s, who, w['location'])
+        if (__import__('interiors').enabled(s) and
+                __import__('interiors').same_building(actor['location'], w['location'])):
+            if not __import__('interiors').walk_actor(s, who, __import__('interiors').room(s)):
+                raise ValueError('Your guest is waiting at a door they cannot enter.')
+        else:
+            loop.start_trip(s, who, w['location'])
+            if __import__('interiors').enabled(s):
+                if not __import__('interiors').walk_actor(s, who, __import__('interiors').room(s)):
+                    raise ValueError('Your guest is waiting at a door they cannot enter.')
     meet(s, who)
     accept_hangout(s, who)
     import groups
@@ -385,7 +411,7 @@ def arrival_scene(s, arrivals):
     if trip:
         scene = {'place': place, 'observations': {}}
         w['arrival_scene'] = scene
-        w['npcs'] = [] if place.endswith('_home') or place in (hidden.HQ, criminal_dynamics.LAB) or place in crime_sites.SITES or place in crime_operations.ROOMS else [n[0] for n in random.sample(WANDERING_NPCS, random.randint(1, 3))]
+        w['npcs'] = [] if place.endswith('_home') or place in (hidden.HQ, criminal_dynamics.LAB, 'mavis_dispatch_exchange', 'martos_transfer_house', 'elias_theatre', 'camila_meridian', 'sylvanis_arena', 'neo_mariko', 'neo_club', 'neo_alfheim', 'neo_refuge', 'neo_yard', 'neo_transport', 'neo_annex', 'takeo_meridian', 'ivan_network') or place in crime_sites.SITES or place in crime_operations.ROOMS else [n[0] for n in random.sample(WANDERING_NPCS, random.randint(1, 3))]
         town_residents.refresh(s)
         date = s.get('date_session')
         if date and date.get('meeting_place') == place and date['partner'] not in w['npcs']:
@@ -399,6 +425,8 @@ def arrival_scene(s, arrivals):
     observations = scene.setdefault('observations', {})
     for who, actor in w['cast'].items():
         if who == player or actor['location'] != place or actor['activity'] == 'Sleep':
+            continue
+        if __import__('interiors').enabled(s, place) and not __import__('interiors').same_room(s, player, who):
             continue
         if not trip and who not in arrivals:
             continue
@@ -467,6 +495,7 @@ def npc_details(s, name):
     return next(n for n in NPCS if n[0] == name)
 
 def generate_npc(s, name, reply):
+    if __import__('neo_campaigns').suppressed(s,name):raise ValueError('This person is unavailable in earned campaign custody.')
     import guard_dialogue
     if guard_dialogue.is_guard(name): return guard_dialogue.generate(s, name, reply)
     import game_core as core
@@ -512,6 +541,7 @@ def generate_npc(s, name, reply):
                                     submitted_tone=core.selected_tone(s, reply, npc=name), opening=reply is None)
 
 def commit_npc(s, name, reply, result):
+    if __import__('neo_campaigns').suppressed(s,name):raise ValueError('This person is now in earned campaign custody; discard the stale reply.')
     import guard_dialogue
     if guard_dialogue.is_guard(name): return guard_dialogue.commit(s, name, reply, result)
     import combat
@@ -702,6 +732,7 @@ def order_pizza(s, item, guests=(), date=False):
     w = ensure(s)
     if w['location'] != 'marios_pizza' or item not in PIZZA_MENU:
         raise ValueError("Choose a slice at Mario's Pizza.")
+    __import__('interior_activities').require(s,'marios_pizza__dining_counter_room')
     guests = list(dict.fromkeys(guests))
     eligible = pizza_companions(s)
     if any(who not in eligible or not present(s, who) for who in guests):
@@ -841,10 +872,21 @@ def context(s, viewer=None):
             data['relationships'].pop(who, None)
             data['friendships'].pop(who, None)
     for who, actor in data['world']['cast'].items():
+        if __import__('interiors').enabled(s, actor['location']) and not __import__('interiors').same_room(s, s['player'], who):
+            for field in ('room', 'room_activity', 'room_since', 'room_until', 'room_location', 'requested_room', 'room_route', 'zone'):
+                actor.pop(field, None)
+            actor['activity'] = 'Elsewhere; exact room and activity are not visible'
+            actor['location']=__import__('interiors').building(actor['location'])
+        elif s.get('interiors',{}).get('enabled_buildings') and __import__('interiors').same_room(s,s['player'],who):
+            actor['appearance_outfit']=__import__('wardrobe_context').resolve(s,who)
         if not hidden.visible_place(s, actor['location']):
             actor['location'] = 'private location'
             actor['activity'] = 'Busy'
         journey = actor.get('journey')
+        if journey:
+            journey.pop('requested_room',None)
+            for field in ('origin','destination'):
+                journey[field]=__import__('interiors').building(journey[field])
         if ((who in hidden.CAST and not hidden.ensure(s)[who]['home']) or
                 (journey and not all(hidden.visible_place(s, p) for p in (journey['origin'], journey['destination'])))):
             actor['journey'] = None
@@ -860,7 +902,24 @@ def context(s, viewer=None):
     data['world']['log'] = data['world']['log'][-10:]
     data['world'].pop('arrival_scene', None)
     data['world'].pop('home_visitors', None)
+    if __import__('interiors').enabled(s):
+        data['current_room'] = dict(id=__import__('interiors').room(s), label=__import__('interiors').label(s),
+            present=[who for who in members if who in s['world']['cast'] and loop.together(s,who)])
     data['world']['journeys'] = data['world']['journeys'][-5:]
+    for trip in data['world']['journeys']:
+        trip.pop('requested_room',None)
+        if trip.get('driver')!=s['player']:
+            for field in ('origin','destination'):
+                if field in trip:trip[field]=__import__('interiors').building(trip[field])
+    if viewer and viewer in s['world']['cast'] and not __import__('interiors').same_room(s,s['player'],viewer):
+        data.pop('current_room',None)
+        data['world'].pop('room',None)
+        data['world']['location']=__import__('interiors').building(data['world']['location'])
+        player=data['world']['cast'].get(s['player'],{})
+        for field in ('room','room_activity','room_since','room_until','room_location','requested_room','room_route','appearance_outfit'):
+            player.pop(field,None)
+        player['location']=__import__('interiors').building(player.get('location'))
+        data['world'].pop('camera_activity',None)
     for bond in data['bond_details'].values(): bond['events'] = bond['events'][-3:]
     for relation in data['relationships'].values():
         relation['milestones'] = relation.get('milestones', [])[-4:]
@@ -956,6 +1015,12 @@ def home_action(s, action):
     w=ensure(s)
     if w['location']!=HOMES[s['player']]: raise ValueError('Self actions are available at your own home.')
     if not isinstance(action,str) or not action.strip() or len(action)>2000: raise ValueError('Enter an action under 2,000 characters.')
+    if __import__('interiors').enabled(s):
+        key = {'Paint at the easel':'home.paint', 'Write in your journal':'home.journal',
+               'Cook a comforting meal':'home.cook', 'Read and reflect in the library':'home.read'}.get(action)
+        if key:
+            if not w['location'].startswith('vacant_'):__import__('interiors').require_activity(s, key)
+        __import__('interior_residential').require_action(s, action)
     s['turn']+=1
     import autonomy
     needs=autonomy.person(s,s['player'])
@@ -963,5 +1028,7 @@ def home_action(s, action):
     needs['happiness']=min(100,needs['happiness']+2)
     text=log(s,custom_protagonist.display_name(s["player"])+' · '+action.strip())
     w['camera_activity'] = dict(text=action.strip(), location=w['location'], minute=w['minute'])
+    if __import__('interiors').enabled(s):
+        w['camera_activity']['room'] = __import__('interiors').room(s)
     w.setdefault('home_journal',[]).append(text); w['home_journal']=w['home_journal'][-80:]
     return text

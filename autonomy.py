@@ -215,6 +215,16 @@ def control(s, who):
                 request(s,who,'hangout','Propose moving this outdoor outing indoors because of rain; keep the existing plan unless the player accepts.',shelter)
         if actor['location'] != plan['venue']:
             loop.start_trip(s,who,plan['venue'])
+        if (__import__('interiors').enabled(s, plan['venue']) and plan['kind'] in ('social', 'visit')
+                and plan.get('accepted', True)):
+            ident = plan.get('room')
+            if ident not in __import__('interiors').ROOMS or __import__('interiors').building(ident) != plan['venue']:
+                ident = __import__('interiors').event_room(s, {'venue': plan['venue']})
+                plan['room'] = ident
+            speaking = s.get('routes', {}).get(who, {}).get('channel') == 'in_person' and loop.together(s, who)
+            if not speaking and not __import__('interiors').walk_actor(s, who, ident):
+                actor['activity'] = 'Waiting outside the agreed room'
+                return True
         if plan['kind']=='overnight':
             actor['activity']='Sleep' if sleep_window(s,who) else 'Breakfast and preparing to leave'
             return True
@@ -234,6 +244,10 @@ def control(s, who):
             actor['activity']='Quiet company' if p['social']<35 else 'Hanging out'
             target=plan['target']; other=s['world']['cast'].get(target,{})
             shared=(loop.together(s,who) if target==s['player'] else other.get('location')==actor['location'] and not other.get('journey'))
+            if shared and __import__('interiors').enabled(s, actor['location']):
+                shared = __import__('interiors').same_room(s, who, target)
+                if plan.get('room'):
+                    shared = shared and __import__('interiors').room(s, who) == plan['room']
             shared=shared and status(s,target)!='Asleep'
             if not plan.get('recorded') and shared:
                 plan['recorded']=True
@@ -288,6 +302,8 @@ def tick(s):
         sleeping=state=='Asleep'; social=state=='Socialising' or actor['activity'] in ('Hanging out','Quiet company')
         p['energy']=max(0,min(100,p['energy']+(1.05 if sleeping else -.40)))
         companions=[other for other,c in s['world']['cast'].items() if other!=who and c['location']==actor['location'] and not c['journey'] and status(s,other)!='Asleep'] if social else []
+        if __import__('interiors').enabled(s, actor['location']):
+            companions = [other for other in companions if __import__('interiors').same_room(s, who, other)]
         def familiarity(other):
             if s['player'] in (who,other):
                 friend=other if who==s['player'] else who
@@ -310,7 +326,7 @@ def tick(s):
             p['happiness']=max(0,min(100,p['happiness']+(3 if good else -3)))
             record(s,who+(' made satisfying progress during their usual work or study.' if good else ' found today’s work or study tiring and wants some quiet recovery.'),[who])
         project_plan=p.get('plan') or {}
-        if who in living_world.PROJECTS and not actor['journey'] and (actor['location']==living_world.PROJECTS[who][1] or project_plan.get('kind')=='project' and actor['location']==project_plan['venue']):
+        if who in living_world.PROJECTS and not actor['journey'] and __import__('interior_activities').project_here(s,who) and (actor['location']==living_world.PROJECTS[who][1] or project_plan.get('kind')=='project' and actor['location']==project_plan['venue']):
             progress=living_world.ensure(s)['projects'].setdefault(who,{})
             if 'work_minutes' not in progress: living_world.project(s,who)
             progress['work_minutes']=progress.get('work_minutes',0)+5
@@ -403,6 +419,8 @@ def advance_player(s, action):
     duration={'nap':60,'sleep':480}[action]
     if action in ('nap','sleep'):
         if s['world']['location']!=loop.HOUSES[s['player']][0]: raise ValueError('Go home before sleeping.')
+        if __import__('interiors').enabled(s):
+            __import__('interiors').require_activity(s, 'home.sleep')
         town.end_hangouts(s)
         p['sleep_until']=now+duration
         s['world']['sleep_speed']=1

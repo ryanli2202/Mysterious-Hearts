@@ -1,0 +1,3590 @@
+{
+  "presentation": "MH-016 dialogue followed by separate prose pages",
+  "shots": [
+    {
+      "scene": "SY01",
+      "field": "briefing",
+      "index": 0,
+      "source_id": "SY01:briefing:000",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection",
+        "charles": "charles-selection-v2"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "charles",
+          "text": "The demonstration schedule is ready. One contracted lot, no substitutions, authorised observers only.",
+          "source_id": "SY01:briefing:000",
+          "source_element": 0,
+          "shot_id": "SY01:briefing:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection",
+            "charles": "charles-selection-v2"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY01",
+      "field": "briefing",
+      "index": 1,
+      "source_id": "SY01:briefing:001",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "How clean. Did anyone enjoy writing it?",
+          "source_id": "SY01:briefing:001",
+          "source_element": 1,
+          "shot_id": "SY01:briefing:001:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY01",
+      "field": "briefing",
+      "index": 2,
+      "source_id": "SY01:briefing:002",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The Crow’s signed instruction specified a controlled demonstration for the Shinokami. The deadline was the agreed appointment, not a weekly council meeting. No breach had happened yet. Sylvanis put a finger beside the empty audience column and considered what might make it worth attending.",
+          "source_id": "SY01:briefing:002",
+          "source_element": 2,
+          "shot_id": "SY01:briefing:002:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY01",
+      "field": "aftermath",
+      "index": 0,
+      "source_id": "SY01:aftermath:000",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The order remains intact. Sylvanis has agreed to examine the roster, not yet changed it.",
+          "source_id": "SY01:aftermath:000",
+          "source_element": 0,
+          "shot_id": "SY01:aftermath:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY02",
+      "field": "briefing",
+      "index": 0,
+      "source_id": "SY02:briefing:000",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The demonstration roster described a rehearsed exchange with a known finish. Sylvanis recognised each fighter’s method from the supplied material. Nothing required him to pretend that an ordinary bout could challenge him.",
+          "source_id": "SY02:briefing:000",
+          "source_element": 0,
+          "shot_id": "SY02:briefing:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY02",
+      "field": "briefing",
+      "index": 1,
+      "source_id": "SY02:briefing:001",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "They have even scheduled the applause.",
+          "source_id": "SY02:briefing:001",
+          "source_element": 1,
+          "shot_id": "SY02:briefing:001:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY02",
+      "field": "briefing",
+      "index": 2,
+      "source_id": "SY02:briefing:002",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection",
+        "charles": "charles-selection-v2"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "charles",
+          "text": "They were asked for a controlled comparison.",
+          "source_id": "SY02:briefing:002",
+          "source_element": 2,
+          "shot_id": "SY02:briefing:002:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection",
+            "charles": "charles-selection-v2"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY02",
+      "field": "briefing",
+      "index": 3,
+      "source_id": "SY02:briefing:003",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "Yes. I can read.",
+          "source_id": "SY02:briefing:003",
+          "source_element": 3,
+          "shot_id": "SY02:briefing:003:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY02",
+      "field": "aftermath",
+      "index": 0,
+      "source_id": "SY02:aftermath:000",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The difference between the contracted test and the event he wants is now explicit.",
+          "source_id": "SY02:aftermath:000",
+          "source_element": 0,
+          "shot_id": "SY02:aftermath:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY03",
+      "field": "briefing",
+      "index": 0,
+      "source_id": "SY03:briefing:000",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection",
+        "charles": "charles-selection-v2"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "charles",
+          "text": "The staff call it useful work. They want to know whether the cancelled shift will be restored.",
+          "source_id": "SY03:briefing:000",
+          "source_element": 0,
+          "shot_id": "SY03:briefing:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection",
+            "charles": "charles-selection-v2"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY03",
+      "field": "briefing",
+      "index": 1,
+      "source_id": "SY03:briefing:001",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "A cause and a payroll. They do travel together.",
+          "source_id": "SY03:briefing:001",
+          "source_element": 1,
+          "shot_id": "SY03:briefing:001:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY03",
+      "field": "briefing",
+      "index": 2,
+      "source_id": "SY03:briefing:002",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "He remembered a man who had stayed with people unable to pay. Sylvanis had understood that kindness without sharing it. He now asked which cost the staff had already absorbed; the answer interested him as a lever, not as an appeal.",
+          "source_id": "SY03:briefing:002",
+          "source_element": 2,
+          "shot_id": "SY03:briefing:002:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY03",
+      "field": "aftermath",
+      "index": 0,
+      "source_id": "SY03:aftermath:000",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The lost shift remains a real cost. Taking an interest in it has not made him kind.",
+          "source_id": "SY03:aftermath:000",
+          "source_element": 0,
+          "shot_id": "SY03:aftermath:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY04",
+      "field": "briefing",
+      "index": 0,
+      "source_id": "SY04:briefing:000",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The buyer expected reliability, the supervisors expected obedience and the Crow expected distance. Sylvanis could already imagine each expectation breaking. He chose which response he wanted to see first.",
+          "source_id": "SY04:briefing:000",
+          "source_element": 0,
+          "shot_id": "SY04:briefing:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY04",
+      "field": "briefing",
+      "index": 1,
+      "source_id": "SY04:briefing:001",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "I do not need a reason supplied for me. I am deciding what would be fun.",
+          "source_id": "SY04:briefing:001",
+          "source_element": 1,
+          "shot_id": "SY04:briefing:001:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY04",
+      "field": "aftermath",
+      "index": 0,
+      "source_id": "SY04:aftermath:000",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The selected provocation is saved. It changes pressure and dialogue, never alignment.",
+          "source_id": "SY04:aftermath:000",
+          "source_element": 0,
+          "shot_id": "SY04:aftermath:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY05",
+      "field": "briefing",
+      "index": 0,
+      "source_id": "SY05:briefing:000",
+      "era": null,
+      "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate",
+        "crow": "crow-selection"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "crow",
+          "text": "The agreement has not changed because you have become bored.",
+          "source_id": "SY05:briefing:000",
+          "source_element": 0,
+          "shot_id": "SY05:briefing:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate",
+            "crow": "crow-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY05",
+      "field": "briefing",
+      "index": 1,
+      "source_id": "SY05:briefing:001",
+      "era": null,
+      "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "You used to bring more ambitious proposals, Bird-man.",
+          "source_id": "SY05:briefing:001",
+          "source_element": 1,
+          "shot_id": "SY05:briefing:001:stage",
+          "core_id": null,
+          "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY05",
+      "field": "briefing",
+      "index": 2,
+      "source_id": "SY05:briefing:002",
+      "era": null,
+      "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate",
+        "crow": "crow-selection"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "crow",
+          "text": "And you have remained expensive. Do not confuse tolerance with an unlimited account.",
+          "source_id": "SY05:briefing:002",
+          "source_element": 2,
+          "shot_id": "SY05:briefing:002:stage",
+          "core_id": null,
+          "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate",
+            "crow": "crow-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY05",
+      "field": "briefing",
+      "index": 3,
+      "source_id": "SY05:briefing:003",
+      "era": null,
+      "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "Their shared history stayed inside the closed meeting room. No name behind the mask or confirmed family relationship passed between them.",
+          "source_id": "SY05:briefing:003",
+          "source_element": 3,
+          "shot_id": "SY05:briefing:003:stage",
+          "core_id": null,
+          "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY05",
+      "field": "aftermath",
+      "index": 0,
+      "source_id": "SY05:aftermath:000",
+      "era": null,
+      "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The Crow has heard his irreverence directly. No bystander acquires their history.",
+          "source_id": "SY05:aftermath:000",
+          "source_element": 0,
+          "shot_id": "SY05:aftermath:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY06",
+      "field": "briefing",
+      "index": 0,
+      "source_id": "SY06:briefing:000",
+      "era": null,
+      "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate",
+        "crow": "crow-selection"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "crow",
+          "text": "One contracted lot. No additional subjects. No unscheduled exhibition. Those are the limits.",
+          "source_id": "SY06:briefing:000",
+          "source_element": 0,
+          "shot_id": "SY06:briefing:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate",
+            "crow": "crow-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY06",
+      "field": "briefing",
+      "index": 1,
+      "source_id": "SY06:briefing:001",
+      "era": null,
+      "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "I understand every word.",
+          "source_id": "SY06:briefing:001",
+          "source_element": 1,
+          "shot_id": "SY06:briefing:001:stage",
+          "core_id": null,
+          "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY06",
+      "field": "briefing",
+      "index": 2,
+      "source_id": "SY06:briefing:002",
+      "era": null,
+      "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate",
+        "crow": "crow-selection"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "crow",
+          "text": "Then there will be no misunderstanding to settle afterwards.",
+          "source_id": "SY06:briefing:002",
+          "source_element": 2,
+          "shot_id": "SY06:briefing:002:stage",
+          "core_id": null,
+          "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate",
+            "crow": "crow-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY06",
+      "field": "briefing",
+      "index": 3,
+      "source_id": "SY06:briefing:003",
+      "era": null,
+      "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The instruction left him no accidental breach to hide behind. Sylvanis liked that about it.",
+          "source_id": "SY06:briefing:003",
+          "source_element": 3,
+          "shot_id": "SY06:briefing:003:stage",
+          "core_id": null,
+          "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY06",
+      "field": "aftermath",
+      "index": 0,
+      "source_id": "SY06:aftermath:000",
+      "era": null,
+      "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The boundary is recorded. Any later breach is deliberate.",
+          "source_id": "SY06:aftermath:000",
+          "source_element": 0,
+          "shot_id": "SY06:aftermath:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY07",
+      "field": "briefing",
+      "index": 0,
+      "source_id": "SY07:briefing:000",
+      "era": null,
+      "background": "locations/glasshouse_lab",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "At the workroom he reserved his private arena and opened a separate campaign operating account. Neither action transferred ownership of the public venues. The current stock manifest contained a single demonstration consignment and an original trial ledger.",
+          "source_id": "SY07:briefing:000",
+          "source_element": 0,
+          "shot_id": "SY07:briefing:000:stage",
+          "core_id": null,
+          "background": "locations/glasshouse_lab",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY07",
+      "field": "briefing",
+      "index": 1,
+      "source_id": "SY07:briefing:001",
+      "era": null,
+      "background": "locations/glasshouse_lab",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "An exhibition. I will choose the programme myself.",
+          "source_id": "SY07:briefing:001",
+          "source_element": 1,
+          "shot_id": "SY07:briefing:001:stage",
+          "core_id": null,
+          "background": "locations/glasshouse_lab",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY07",
+      "field": "aftermath",
+      "index": 0,
+      "source_id": "SY07:aftermath:000",
+      "era": null,
+      "background": "locations/glasshouse_lab",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The private venue is revealed through Maps. Operating costs belong to the campaign account.",
+          "source_id": "SY07:aftermath:000",
+          "source_element": 0,
+          "shot_id": "SY07:aftermath:000:stage",
+          "core_id": null,
+          "background": "locations/glasshouse_lab",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY08",
+      "field": "briefing",
+      "index": 0,
+      "source_id": "SY08:briefing:000",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection",
+        "charles": "charles-selection-v2"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "charles",
+          "text": "Some old records omit the names of the people affected.",
+          "source_id": "SY08:briefing:000",
+          "source_element": 0,
+          "shot_id": "SY08:briefing:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection",
+            "charles": "charles-selection-v2"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY08",
+      "field": "briefing",
+      "index": 1,
+      "source_id": "SY08:briefing:001",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "An omission can make a story terribly convenient.",
+          "source_id": "SY08:briefing:001",
+          "source_element": 1,
+          "shot_id": "SY08:briefing:001:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY08",
+      "field": "briefing",
+      "index": 2,
+      "source_id": "SY08:briefing:002",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "He did not confess. Charles did not suddenly know the truth, and Garrett received no disclosure. The casual remark lay between the two men with different meanings for each.",
+          "source_id": "SY08:briefing:002",
+          "source_element": 2,
+          "shot_id": "SY08:briefing:002:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY08",
+      "field": "aftermath",
+      "index": 0,
+      "source_id": "SY08:aftermath:000",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The history is private to this route. Garrett’s investigation remains untouched.",
+          "source_id": "SY08:aftermath:000",
+          "source_element": 0,
+          "shot_id": "SY08:aftermath:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY09",
+      "field": "briefing",
+      "index": 0,
+      "source_id": "SY09:briefing:000",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection",
+        "charles": "charles-selection-v2"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "charles",
+          "text": "I need the archive window for the demonstration reconciliation. A bounded copy, not the whole register.",
+          "source_id": "SY09:briefing:000",
+          "source_element": 0,
+          "shot_id": "SY09:briefing:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection",
+            "charles": "charles-selection-v2"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY09",
+      "field": "briefing",
+      "index": 1,
+      "source_id": "SY09:briefing:001",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "Take the window. I would hate to stop you being thorough.",
+          "source_id": "SY09:briefing:001",
+          "source_element": 1,
+          "shot_id": "SY09:briefing:001:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY09",
+      "field": "briefing",
+      "index": 2,
+      "source_id": "SY09:briefing:002",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "Sylvanis recognised an opportunity for Charles without knowing everything Charles would do with it. He granted access because he wanted to see the result. Charles accepted the practical opening, not an invitation to disclose his real purpose.",
+          "source_id": "SY09:briefing:002",
+          "source_element": 2,
+          "shot_id": "SY09:briefing:002:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY09",
+      "field": "aftermath",
+      "index": 0,
+      "source_id": "SY09:aftermath:000",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The limited access window is granted. Charles retains his own aims.",
+          "source_id": "SY09:aftermath:000",
+          "source_element": 0,
+          "shot_id": "SY09:aftermath:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY10",
+      "field": "briefing",
+      "index": 0,
+      "source_id": "SY10:briefing:000",
+      "era": null,
+      "background": "locations/campaign/sylvanis/takeo_meeting",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate",
+        "takeo": "takeo-selection"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "takeo",
+          "text": "My delegation is authorised to observe the agreed test. It has no mandate for an exhibition.",
+          "source_id": "SY10:briefing:000",
+          "source_element": 0,
+          "shot_id": "SY10:briefing:000:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/takeo_meeting",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate",
+            "takeo": "takeo-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY10",
+      "field": "briefing",
+      "index": 1,
+      "source_id": "SY10:briefing:001",
+      "era": null,
+      "background": "locations/campaign/sylvanis/takeo_meeting",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "I can promise a considerably better evening.",
+          "source_id": "SY10:briefing:001",
+          "source_element": 1,
+          "shot_id": "SY10:briefing:001:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/takeo_meeting",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY10",
+      "field": "briefing",
+      "index": 2,
+      "source_id": "SY10:briefing:002",
+      "era": null,
+      "background": "locations/campaign/sylvanis/takeo_meeting",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate",
+        "takeo": "takeo-selection"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "takeo",
+          "text": "Promise what you can deliver. I will close the order if you cannot.",
+          "source_id": "SY10:briefing:002",
+          "source_element": 2,
+          "shot_id": "SY10:briefing:002:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/takeo_meeting",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate",
+            "takeo": "takeo-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY10",
+      "field": "briefing",
+      "index": 3,
+      "source_id": "SY10:briefing:003",
+      "era": null,
+      "background": "locations/campaign/sylvanis/takeo_meeting",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "Takeo spoke at his headquarters. He did not trust the visitor blindly or leave with him. Sylvanis’s extra promise exceeded the Crow’s permission.",
+          "source_id": "SY10:briefing:003",
+          "source_element": 3,
+          "shot_id": "SY10:briefing:003:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/takeo_meeting",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY10",
+      "field": "aftermath",
+      "index": 0,
+      "source_id": "SY10:aftermath:000",
+      "era": null,
+      "background": "locations/campaign/sylvanis/takeo_meeting",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The delegation and the promise are recorded. No territorial operation is begun.",
+          "source_id": "SY10:aftermath:000",
+          "source_element": 0,
+          "shot_id": "SY10:aftermath:000:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/takeo_meeting",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY11",
+      "field": "briefing",
+      "index": 0,
+      "source_id": "SY11:briefing:000",
+      "era": null,
+      "background": "locations/campaign/sylvanis/arena_control",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The programme now had two incompatible descriptions: a controlled commercial test for the delegation and an unsanctioned exhibition for the fighters. Sylvanis signed his own instruction. He understood both commitments and wanted the collision.",
+          "source_id": "SY11:briefing:000",
+          "source_element": 0,
+          "shot_id": "SY11:briefing:000:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/arena_control",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY11",
+      "field": "briefing",
+      "index": 1,
+      "source_id": "SY11:briefing:001",
+      "era": null,
+      "background": "locations/campaign/sylvanis/arena_control",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "Put my name on the alteration. I want him to know whose idea it was.",
+          "source_id": "SY11:briefing:001",
+          "source_element": 1,
+          "shot_id": "SY11:briefing:001:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/arena_control",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY11",
+      "field": "aftermath",
+      "index": 0,
+      "source_id": "SY11:aftermath:000",
+      "era": null,
+      "background": "locations/campaign/sylvanis/arena_control",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The incompatible promises can be discovered in the actual programme copies.",
+          "source_id": "SY11:aftermath:000",
+          "source_element": 0,
+          "shot_id": "SY11:aftermath:000:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/arena_control",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY12",
+      "field": "briefing",
+      "index": 0,
+      "source_id": "SY12:briefing:000",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "Charles worked inside the granted archive interval. He made a bounded copy of trial discrepancies and deposited it in a separate sealed laboratory hold, outside the consignment Sylvanis could retrieve at the arena. He also stopped the reserve vial case from entering the event’s loading stream.",
+          "source_id": "SY12:briefing:000",
+          "source_element": 0,
+          "shot_id": "SY12:briefing:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY12",
+      "field": "briefing",
+      "index": 1,
+      "source_id": "SY12:briefing:001",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection",
+        "charles": "charles-selection-v2"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "charles",
+          "text": "The reconciliation has an exception. I have retained its supporting record.",
+          "source_id": "SY12:briefing:001",
+          "source_element": 1,
+          "shot_id": "SY12:briefing:001:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection",
+            "charles": "charles-selection-v2"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY12",
+      "field": "briefing",
+      "index": 2,
+      "source_id": "SY12:briefing:002",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "Naturally.",
+          "source_id": "SY12:briefing:002",
+          "source_element": 2,
+          "shot_id": "SY12:briefing:002:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY12",
+      "field": "briefing",
+      "index": 3,
+      "source_id": "SY12:briefing:003",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "Sylvanis saw the missing case on the dispatch tally and let that part proceed for entertainment. He did not see the sealed copy or acquire its storage key. Charles preserved evidence without completing his revenge or transmitting a murder accusation to Garrett.",
+          "source_id": "SY12:briefing:003",
+          "source_element": 3,
+          "shot_id": "SY12:briefing:003:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY12",
+      "field": "aftermath",
+      "index": 0,
+      "source_id": "SY12:aftermath:000",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "Charles’s independent evidence success and the reduced consignment are saved once.",
+          "source_id": "SY12:aftermath:000",
+          "source_element": 0,
+          "shot_id": "SY12:aftermath:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY13",
+      "field": "briefing",
+      "index": 0,
+      "source_id": "SY13:briefing:000",
+      "era": null,
+      "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate",
+        "crow": "crow-selection"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "crow",
+          "text": "Your two programmes disagree. I am cancelling the event. My teams will secure the consignment, ledger and equipment; discretionary support ends now.",
+          "source_id": "SY13:briefing:000",
+          "source_element": 0,
+          "shot_id": "SY13:briefing:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate",
+            "crow": "crow-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY13",
+      "field": "briefing",
+      "index": 1,
+      "source_id": "SY13:briefing:001",
+      "era": null,
+      "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "And if I go ahead?",
+          "source_id": "SY13:briefing:001",
+          "source_element": 1,
+          "shot_id": "SY13:briefing:001:stage",
+          "core_id": null,
+          "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY13",
+      "field": "briefing",
+      "index": 2,
+      "source_id": "SY13:briefing:002",
+      "era": null,
+      "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate",
+        "crow": "crow-selection"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "crow",
+          "text": "I will close it in person if necessary.",
+          "source_id": "SY13:briefing:002",
+          "source_element": 2,
+          "shot_id": "SY13:briefing:002:stage",
+          "core_id": null,
+          "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate",
+            "crow": "crow-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY13",
+      "field": "briefing",
+      "index": 3,
+      "source_id": "SY13:briefing:003",
+      "era": null,
+      "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "There. A better invitation. I know exactly what you intend, and I want the fight.",
+          "source_id": "SY13:briefing:003",
+          "source_element": 3,
+          "shot_id": "SY13:briefing:003:stage",
+          "core_id": null,
+          "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY13",
+      "field": "briefing",
+      "index": 4,
+      "source_id": "SY13:briefing:004",
+      "era": null,
+      "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The Crow had issued an order and declared opposition. He had neither created Sylvanis’s appetite nor secretly engineered his choice. The Aces remained his people; no order here placed them under Sylvanis.",
+          "source_id": "SY13:briefing:004",
+          "source_element": 4,
+          "shot_id": "SY13:briefing:004:stage",
+          "core_id": null,
+          "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY13",
+      "field": "aftermath",
+      "index": 0,
+      "source_id": "SY13:aftermath:000",
+      "era": null,
+      "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "Cancellation and the shutdown operation are explicit before the exhibition begins.",
+          "source_id": "SY13:aftermath:000",
+          "source_element": 0,
+          "shot_id": "SY13:aftermath:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY14",
+      "field": "briefing",
+      "index": 0,
+      "source_id": "SY14:briefing:000",
+      "era": null,
+      "background": "locations/campaign/sylvanis/arena",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The Shinokami delegation arrived for the contracted demonstration and found the altered programme. A strong contracted fighter refused to pretend that this was what had been agreed. Charles remained at the Glasshouse. Takeo remained at headquarters.",
+          "source_id": "SY14:briefing:000",
+          "source_element": 0,
+          "shot_id": "SY14:briefing:000:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/arena",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY14",
+      "field": "briefing",
+      "index": 1,
+      "source_id": "SY14:briefing:001",
+      "era": null,
+      "background": "locations/campaign/sylvanis/arena",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "Then we can finally stop rehearsing.",
+          "source_id": "SY14:briefing:001",
+          "source_element": 1,
+          "shot_id": "SY14:briefing:001:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/arena",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY14",
+      "field": "briefing",
+      "index": 2,
+      "source_id": "SY14:briefing:002",
+      "era": null,
+      "background": "locations/campaign/sylvanis/arena",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The actual encounter decides whether he establishes the display he wanted. Separate shutdown teams are already moving through the service route; winning this fight cannot put him in every room.",
+          "source_id": "SY14:briefing:002",
+          "source_element": 2,
+          "shot_id": "SY14:briefing:002:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/arena",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY14",
+      "field": "aftermath",
+      "index": 0,
+      "source_id": "SY14:aftermath:000",
+      "era": null,
+      "background": "locations/campaign/sylvanis/arena",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The exhibition result and its cost are recorded from actual exchanges.",
+          "source_id": "SY14:aftermath:000",
+          "source_element": 0,
+          "shot_id": "SY14:aftermath:000:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/arena",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY15",
+      "field": "briefing",
+      "index": 0,
+      "source_id": "SY15:briefing:000",
+      "era": null,
+      "background": "locations/campaign/sylvanis/arena",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate",
+        "crow": "crow-selection"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "crow",
+          "text": "My teams are closing your consignment routes and dismantling the equipment. I am withdrawing with the ledger. This arena operation ends tonight.",
+          "source_id": "SY15:briefing:000",
+          "source_element": 0,
+          "shot_id": "SY15:briefing:000:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/arena",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate",
+            "crow": "crow-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY15",
+      "field": "briefing",
+      "index": 1,
+      "source_id": "SY15:briefing:001",
+      "era": null,
+      "background": "locations/campaign/sylvanis/arena",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "You brought yourself. I knew this could be worth doing.",
+          "source_id": "SY15:briefing:001",
+          "source_element": 1,
+          "shot_id": "SY15:briefing:001:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/arena",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY15",
+      "field": "briefing",
+      "index": 2,
+      "source_id": "SY15:briefing:002",
+      "era": null,
+      "background": "locations/campaign/sylvanis/arena",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate",
+        "crow": "crow-selection"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "crow",
+          "text": "Contest the withdrawal if you intend to keep anything.",
+          "source_id": "SY15:briefing:002",
+          "source_element": 2,
+          "shot_id": "SY15:briefing:002:CS-SY07",
+          "core_id": "CS-SY07",
+          "background": "locations/campaign/sylvanis/arena",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate",
+            "crow": "crow-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY15",
+      "field": "briefing",
+      "index": 3,
+      "source_id": "SY15:briefing:003",
+      "era": null,
+      "background": "locations/campaign/sylvanis/arena",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The encounter has four declared exchanges before the service-route withdrawal completes. Sylvanis can challenge the Crow directly or spend openings securing the ledger. Both see the trade-off. The Crow contests each attempt; no hidden manipulation or invented invulnerability protects either combatant. Bodily dominance and retained assets are separate results.",
+          "source_id": "SY15:briefing:003",
+          "source_element": 3,
+          "shot_id": "SY15:briefing:003:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/arena",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY15",
+      "field": "aftermath",
+      "index": 0,
+      "source_id": "SY15:aftermath:000",
+      "era": null,
+      "background": "locations/campaign/sylvanis/arena",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The exhibition shuts down permanently. The fight and withdrawal account settle who retained the ledger.",
+          "source_id": "SY15:aftermath:000",
+          "source_element": 0,
+          "shot_id": "SY15:aftermath:000:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/arena",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY16",
+      "field": "briefing",
+      "index": 0,
+      "source_id": "SY16:briefing:000",
+      "era": null,
+      "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate",
+        "crow": "crow-selection"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "crow",
+          "text": "Your rank remains. Your exhibition account does not. Any replacement site requires separate authorisation.",
+          "source_id": "SY16:briefing:000",
+          "source_element": 0,
+          "shot_id": "SY16:briefing:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate",
+            "crow": "crow-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY16",
+      "field": "briefing",
+      "index": 1,
+      "source_id": "SY16:briefing:001",
+      "era": null,
+      "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "You have made that sound so uninviting, Bro.",
+          "source_id": "SY16:briefing:001",
+          "source_element": 1,
+          "shot_id": "SY16:briefing:001:stage",
+          "core_id": null,
+          "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY16",
+      "field": "briefing",
+      "index": 2,
+      "source_id": "SY16:briefing:002",
+      "era": null,
+      "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "They settled the operation’s losses without touching Sylvanis’s ordinary wallet. The public lounge, Iron Circle and Glasshouse remained standing. The failed order would be closed at Takeo’s headquarters, then Sylvanis would return to Charles.",
+          "source_id": "SY16:briefing:002",
+          "source_element": 2,
+          "shot_id": "SY16:briefing:002:stage",
+          "core_id": null,
+          "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY16",
+      "field": "aftermath",
+      "index": 0,
+      "source_id": "SY16:aftermath:000",
+      "era": null,
+      "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+      "portraits": {
+        "sylvanis": "sylvanis-syndicate"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The crisis ends. Sylvanis remains responsible, amused or irritated, and unchanged.",
+          "source_id": "SY16:aftermath:000",
+          "source_element": 0,
+          "shot_id": "SY16:aftermath:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/syndicate_hq/executive_meeting_room",
+          "portraits": {
+            "sylvanis": "sylvanis-syndicate"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M01",
+      "field": "text",
+      "index": 0,
+      "source_id": "SY-M01:text:000",
+      "era": "sylvanis_arrival",
+      "background": "locations/campaign/sylvanis/arrival",
+      "portraits": {
+        "sylvanis": "sylvanis-early"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "Humans had captured his planet. The Blisk war was still being fought when Sylvanis came to Earth. The port had forms for displaced arrivals, employers waiting for cheap hands, and a queue that folded twice around the customs hall.",
+          "source_id": "SY-M01:text:000",
+          "source_element": 0,
+          "shot_id": "SY-M01:text:000:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/arrival",
+          "portraits": {
+            "sylvanis": "sylvanis-early"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M01",
+      "field": "text",
+      "index": 1,
+      "source_id": "SY-M01:text:001",
+      "era": "sylvanis_arrival",
+      "background": "locations/campaign/sylvanis/arrival",
+      "portraits": {
+        "sylvanis": "sylvanis-early"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "He watched a collector close a hand around a traveller’s purse. A second collector guarded the side exit. Sylvanis could have joined the queue. He crossed the hall instead.",
+          "source_id": "SY-M01:text:001",
+          "source_element": 1,
+          "shot_id": "SY-M01:text:001:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/arrival",
+          "portraits": {
+            "sylvanis": "sylvanis-early"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M01",
+      "field": "text",
+      "index": 2,
+      "source_id": "SY-M01:text:002",
+      "era": "sylvanis_arrival",
+      "background": "locations/campaign/sylvanis/arrival",
+      "portraits": {
+        "sylvanis": "sylvanis-early"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "You have made that look very easy.",
+          "source_id": "SY-M01:text:002",
+          "source_element": 2,
+          "shot_id": "SY-M01:text:002:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/arrival",
+          "portraits": {
+            "sylvanis": "sylvanis-early"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M01",
+      "field": "text",
+      "index": 3,
+      "source_id": "SY-M01:text:003",
+      "era": "sylvanis_arrival",
+      "background": "locations/campaign/sylvanis/arrival",
+      "portraits": {
+        "sylvanis": "sylvanis-early"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The collector reached for his weapon. Sylvanis broke the movement before it finished and took the money for himself. The traveller held out an empty hand; Sylvanis passed him without stopping. By evening he had found people willing to pay for violence. He chose their work because it sounded enjoyable.",
+          "source_id": "SY-M01:text:003",
+          "source_element": 3,
+          "shot_id": "SY-M01:text:003:CS-SY01",
+          "core_id": "CS-SY01",
+          "background": "locations/campaign/sylvanis/arrival",
+          "portraits": {
+            "sylvanis": "sylvanis-early"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M01",
+      "field": "text",
+      "index": 4,
+      "source_id": "SY-M01:text:004",
+      "era": "sylvanis_arrival",
+      "background": "locations/campaign/sylvanis/arrival",
+      "portraits": {
+        "sylvanis": "sylvanis-early"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "A whole new world. Let us see what it does.",
+          "source_id": "SY-M01:text:004",
+          "source_element": 4,
+          "shot_id": "SY-M01:text:004:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/arrival",
+          "portraits": {
+            "sylvanis": "sylvanis-early"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M01",
+      "field": "after_encounter",
+      "index": 0,
+      "source_id": "SY-M01:after_encounter:000",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The recollection ends. The present room, clock, belongings and everyone else’s knowledge are exactly as he left them.",
+          "source_id": "SY-M01:after_encounter:000",
+          "source_element": 0,
+          "shot_id": "SY-M01:after_encounter:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M02",
+      "field": "text",
+      "index": 0,
+      "source_id": "SY-M02:text:000",
+      "era": "sylvanis_mastery",
+      "background": "locations/campaign/sylvanis/arrival",
+      "portraits": {
+        "sylvanis": "sylvanis-early"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "A fighter offered to demonstrate a school Sylvanis had not seen. The opening movement supplied a structure; the next supplied its weakness. He understood, reproduced and surpassed it before the demonstration was over. Other schools fared no better. Human martial arts were immediately his to use.",
+          "source_id": "SY-M02:text:000",
+          "source_element": 0,
+          "shot_id": "SY-M02:text:000:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/arrival",
+          "portraits": {
+            "sylvanis": "sylvanis-early"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M02",
+      "field": "text",
+      "index": 1,
+      "source_id": "SY-M02:text:001",
+      "era": "sylvanis_mastery",
+      "background": "locations/campaign/sylvanis/arrival",
+      "portraits": {
+        "sylvanis": "sylvanis-early"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "Again. Something you actually meant to hide.",
+          "source_id": "SY-M02:text:001",
+          "source_element": 1,
+          "shot_id": "SY-M02:text:001:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/arrival",
+          "portraits": {
+            "sylvanis": "sylvanis-early"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M02",
+      "field": "text",
+      "index": 2,
+      "source_id": "SY-M02:text:002",
+      "era": "sylvanis_mastery",
+      "background": "locations/campaign/sylvanis/arrival",
+      "portraits": {
+        "sylvanis": "sylvanis-early"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "Polymath made the comprehension possible. Practice did not slowly earn him the mastery he already possessed. Survivors carried accounts beyond the city: the same stranger, different methods, the same impossible ease. His crimes and their witnesses made him the most feared man on the planet before any mercenary recruiter approached him.",
+          "source_id": "SY-M02:text:002",
+          "source_element": 2,
+          "shot_id": "SY-M02:text:002:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/arrival",
+          "portraits": {
+            "sylvanis": "sylvanis-early"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M02",
+      "field": "text",
+      "index": 3,
+      "source_id": "SY-M02:text:003",
+      "era": "sylvanis_mastery",
+      "background": "locations/campaign/sylvanis/arrival",
+      "portraits": {
+        "sylvanis": "sylvanis-early"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "He heard the new reputation from a man who could scarcely finish saying it. Sylvanis asked whether the man knew anyone better.",
+          "source_id": "SY-M02:text:003",
+          "source_element": 3,
+          "shot_id": "SY-M02:text:003:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/arrival",
+          "portraits": {
+            "sylvanis": "sylvanis-early"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M02",
+      "field": "after_encounter",
+      "index": 0,
+      "source_id": "SY-M02:after_encounter:000",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The recollection ends. The present room, clock, belongings and everyone else’s knowledge are exactly as he left them.",
+          "source_id": "SY-M02:after_encounter:000",
+          "source_element": 0,
+          "shot_id": "SY-M02:after_encounter:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M03",
+      "field": "text",
+      "index": 0,
+      "source_id": "SY-M03:text:000",
+      "era": "sylvanis_organisation",
+      "background": "locations/campaign/sylvanis/compound",
+      "portraits": {
+        "sylvanis": "sylvanis-early"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "Kaden Mourne counted the sheltered civilians before he counted his own fighters. An older, heavily muscled man in practical mercenary gear, he gave his coat to a shivering evacuee and knelt to hear a medic’s report. The Organisation had come to protect these people. It stayed until they were safe.",
+          "source_id": "SY-M03:text:000",
+          "source_element": 0,
+          "shot_id": "SY-M03:text:000:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/compound",
+          "portraits": {
+            "sylvanis": "sylvanis-early"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M03",
+      "field": "text",
+      "index": 1,
+      "source_id": "SY-M03:text:001",
+      "era": "sylvanis_organisation",
+      "background": "locations/campaign/sylvanis/compound",
+      "portraits": {
+        "sylvanis": "sylvanis-early",
+        "kaden": "sylvanis-kaden"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "kaden",
+          "text": "The wounded first. Nobody discusses payment while someone is still outside.",
+          "source_id": "SY-M03:text:001",
+          "source_element": 1,
+          "shot_id": "SY-M03:text:001:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/compound",
+          "portraits": {
+            "sylvanis": "sylvanis-early",
+            "kaden": "sylvanis-kaden"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M03",
+      "field": "text",
+      "index": 2,
+      "source_id": "SY-M03:text:002",
+      "era": "sylvanis_organisation",
+      "background": "locations/campaign/sylvanis/compound",
+      "portraits": {
+        "sylvanis": "sylvanis-early"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "You have a remarkably expensive way of choosing enemies.",
+          "source_id": "SY-M03:text:002",
+          "source_element": 2,
+          "shot_id": "SY-M03:text:002:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/compound",
+          "portraits": {
+            "sylvanis": "sylvanis-early"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M03",
+      "field": "text",
+      "index": 3,
+      "source_id": "SY-M03:text:003",
+      "era": "sylvanis_organisation",
+      "background": "locations/campaign/sylvanis/compound",
+      "portraits": {
+        "sylvanis": "sylvanis-early",
+        "kaden": "sylvanis-kaden"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "kaden",
+          "text": "They cannot afford protection. We can afford to give it.",
+          "source_id": "SY-M03:text:003",
+          "source_element": 3,
+          "shot_id": "SY-M03:text:003:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/compound",
+          "portraits": {
+            "sylvanis": "sylvanis-early",
+            "kaden": "sylvanis-kaden"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M03",
+      "field": "text",
+      "index": 4,
+      "source_id": "SY-M03:text:004",
+      "era": "sylvanis_organisation",
+      "background": "locations/campaign/sylvanis/compound",
+      "portraits": {
+        "sylvanis": "sylvanis-early"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "Kaden offered him work after the evacuation. He knew Sylvanis was dangerous; he imposed a clear boundary around the people they protected and offered opponents outside it. Sylvanis understood the terms. The fighting appealed to him. The cause did not.",
+          "source_id": "SY-M03:text:004",
+          "source_element": 4,
+          "shot_id": "SY-M03:text:004:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/compound",
+          "portraits": {
+            "sylvanis": "sylvanis-early"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M03",
+      "field": "text",
+      "index": 5,
+      "source_id": "SY-M03:text:005",
+      "era": "sylvanis_organisation",
+      "background": "locations/campaign/sylvanis/compound",
+      "portraits": {
+        "sylvanis": "sylvanis-early"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "If you keep finding people who want to fight, I will keep coming.",
+          "source_id": "SY-M03:text:005",
+          "source_element": 5,
+          "shot_id": "SY-M03:text:005:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/compound",
+          "portraits": {
+            "sylvanis": "sylvanis-early"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M03",
+      "field": "text",
+      "index": 6,
+      "source_id": "SY-M03:text:006",
+      "era": "sylvanis_organisation",
+      "background": "locations/campaign/sylvanis/compound",
+      "portraits": {
+        "sylvanis": "sylvanis-early"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "At supper Kaden put a bowl beside the bespectacled man without asking what he ate. His face was withheld: a blank, featureless plane, glasses the only visible cue.",
+          "source_id": "SY-M03:text:006",
+          "source_element": 6,
+          "shot_id": "SY-M03:text:006:CS-SY02",
+          "core_id": "CS-SY02",
+          "background": "locations/campaign/sylvanis/compound",
+          "portraits": {
+            "sylvanis": "sylvanis-early"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M03",
+      "field": "text",
+      "index": 7,
+      "source_id": "SY-M03:text:007",
+      "era": "sylvanis_organisation",
+      "background": "locations/campaign/sylvanis/compound",
+      "portraits": {
+        "sylvanis": "sylvanis-early",
+        "kaden": "sylvanis-kaden"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "kaden",
+          "text": "You used to wait up after every deployment. Eat before it goes cold this time.",
+          "source_id": "SY-M03:text:007",
+          "source_element": 7,
+          "shot_id": "SY-M03:text:007:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/compound",
+          "portraits": {
+            "sylvanis": "sylvanis-early",
+            "kaden": "sylvanis-kaden"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M03",
+      "field": "text",
+      "index": 8,
+      "source_id": "SY-M03:text:008",
+      "era": "sylvanis_organisation",
+      "background": "locations/campaign/sylvanis/compound",
+      "portraits": {
+        "sylvanis": "sylvanis-early",
+        "conspirator": "sylvanis-conspirator"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "conspirator",
+          "text": "I learned that waiting did not make you return sooner.",
+          "source_id": "SY-M03:text:008",
+          "source_element": 8,
+          "shot_id": "SY-M03:text:008:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/compound",
+          "portraits": {
+            "sylvanis": "sylvanis-early",
+            "conspirator": "sylvanis-conspirator"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M03",
+      "field": "after_encounter",
+      "index": 0,
+      "source_id": "SY-M03:after_encounter:000",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The recollection ends. The present room, clock, belongings and everyone else’s knowledge are exactly as he left them.",
+          "source_id": "SY-M03:after_encounter:000",
+          "source_element": 0,
+          "shot_id": "SY-M03:after_encounter:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M04",
+      "field": "text",
+      "index": 0,
+      "source_id": "SY-M04:text:000",
+      "era": "sylvanis_proposal",
+      "background": "locations/campaign/sylvanis/briefing",
+      "portraits": {
+        "sylvanis": "sylvanis-early",
+        "kaden": "sylvanis-kaden"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "kaden",
+          "text": "Stay a moment. You do not have to earn your place beside me.",
+          "source_id": "SY-M04:text:000",
+          "source_element": 0,
+          "shot_id": "SY-M04:text:000:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/briefing",
+          "portraits": {
+            "sylvanis": "sylvanis-early",
+            "kaden": "sylvanis-kaden"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M04",
+      "field": "text",
+      "index": 1,
+      "source_id": "SY-M04:text:001",
+      "era": "sylvanis_proposal",
+      "background": "locations/campaign/sylvanis/briefing",
+      "portraits": {
+        "sylvanis": "sylvanis-early"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The bespectacled man remained after the formal briefing. Later he found Sylvanis alone. His face stayed blank and featureless; his intent was in the sheet he laid on the table and the hand that held it flat.",
+          "source_id": "SY-M04:text:001",
+          "source_element": 1,
+          "shot_id": "SY-M04:text:001:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/briefing",
+          "portraits": {
+            "sylvanis": "sylvanis-early"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M04",
+      "field": "text",
+      "index": 2,
+      "source_id": "SY-M04:text:002",
+      "era": "sylvanis_proposal",
+      "background": "locations/campaign/sylvanis/briefing",
+      "portraits": {
+        "sylvanis": "sylvanis-early",
+        "conspirator": "sylvanis-conspirator"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "conspirator",
+          "text": "We kill Kaden. We take the Organisation beyond mercenary contracts. A multinational syndicate. Cards and suits to organise its people.",
+          "source_id": "SY-M04:text:002",
+          "source_element": 2,
+          "shot_id": "SY-M04:text:002:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/briefing",
+          "portraits": {
+            "sylvanis": "sylvanis-early",
+            "conspirator": "sylvanis-conspirator"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M04",
+      "field": "text",
+      "index": 3,
+      "source_id": "SY-M04:text:003",
+      "era": "sylvanis_proposal",
+      "background": "locations/campaign/sylvanis/briefing",
+      "portraits": {
+        "sylvanis": "sylvanis-early"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "Yes.",
+          "source_id": "SY-M04:text:003",
+          "source_element": 3,
+          "shot_id": "SY-M04:text:003:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/briefing",
+          "portraits": {
+            "sylvanis": "sylvanis-early"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M04",
+      "field": "text",
+      "index": 4,
+      "source_id": "SY-M04:text:004",
+      "era": "sylvanis_proposal",
+      "background": "locations/campaign/sylvanis/briefing",
+      "portraits": {
+        "sylvanis": "sylvanis-early",
+        "conspirator": "sylvanis-conspirator"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "conspirator",
+          "text": "You understand what I am proposing.",
+          "source_id": "SY-M04:text:004",
+          "source_element": 4,
+          "shot_id": "SY-M04:text:004:CS-SY03",
+          "core_id": "CS-SY03",
+          "background": "locations/campaign/sylvanis/briefing",
+          "portraits": {
+            "sylvanis": "sylvanis-early",
+            "conspirator": "sylvanis-conspirator"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M04",
+      "field": "text",
+      "index": 5,
+      "source_id": "SY-M04:text:005",
+      "era": "sylvanis_proposal",
+      "background": "locations/campaign/sylvanis/briefing",
+      "portraits": {
+        "sylvanis": "sylvanis-early"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "Perfectly. It sounds fun.",
+          "source_id": "SY-M04:text:005",
+          "source_element": 5,
+          "shot_id": "SY-M04:text:005:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/briefing",
+          "portraits": {
+            "sylvanis": "sylvanis-early"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M04",
+      "field": "text",
+      "index": 6,
+      "source_id": "SY-M04:text:006",
+      "era": "sylvanis_proposal",
+      "background": "locations/campaign/sylvanis/briefing",
+      "portraits": {
+        "sylvanis": "sylvanis-early"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "There was no hesitation to overcome and no loyalty to prise loose. Sylvanis wanted to take part before the man explained the first practical detail. The card structure was the conspirator’s proposal. The pleasure Sylvanis anticipated was his own.",
+          "source_id": "SY-M04:text:006",
+          "source_element": 6,
+          "shot_id": "SY-M04:text:006:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/briefing",
+          "portraits": {
+            "sylvanis": "sylvanis-early"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M04",
+      "field": "after_encounter",
+      "index": 0,
+      "source_id": "SY-M04:after_encounter:000",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The recollection ends. The present room, clock, belongings and everyone else’s knowledge are exactly as he left them.",
+          "source_id": "SY-M04:after_encounter:000",
+          "source_element": 0,
+          "shot_id": "SY-M04:after_encounter:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M05",
+      "field": "text",
+      "index": 0,
+      "source_id": "SY-M05:text:000",
+      "era": "sylvanis_coup",
+      "background": "locations/campaign/sylvanis/briefing",
+      "portraits": {
+        "sylvanis": "sylvanis-early"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "Kaden recognised the changed guard positions before either man spoke. He put himself between the door and the people still clearing the infirmary. The conspirator reached for the command ledger Kaden had always left within his reach.",
+          "source_id": "SY-M05:text:000",
+          "source_element": 0,
+          "shot_id": "SY-M05:text:000:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/briefing",
+          "portraits": {
+            "sylvanis": "sylvanis-early"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M05",
+      "field": "text",
+      "index": 1,
+      "source_id": "SY-M05:text:001",
+      "era": "sylvanis_coup",
+      "background": "locations/campaign/sylvanis/briefing",
+      "portraits": {
+        "sylvanis": "sylvanis-early",
+        "kaden": "sylvanis-kaden"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "kaden",
+          "text": "After all those nights waiting for me, this is what you chose?",
+          "source_id": "SY-M05:text:001",
+          "source_element": 1,
+          "shot_id": "SY-M05:text:001:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/briefing",
+          "portraits": {
+            "sylvanis": "sylvanis-early",
+            "kaden": "sylvanis-kaden"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M05",
+      "field": "text",
+      "index": 2,
+      "source_id": "SY-M05:text:002",
+      "era": "sylvanis_coup",
+      "background": "locations/campaign/sylvanis/briefing",
+      "portraits": {
+        "sylvanis": "sylvanis-early",
+        "conspirator": "sylvanis-conspirator"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "conspirator",
+          "text": "The Organisation ends here.",
+          "source_id": "SY-M05:text:002",
+          "source_element": 2,
+          "shot_id": "SY-M05:text:002:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/briefing",
+          "portraits": {
+            "sylvanis": "sylvanis-early",
+            "conspirator": "sylvanis-conspirator"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M05",
+      "field": "text",
+      "index": 3,
+      "source_id": "SY-M05:text:003",
+      "era": "sylvanis_coup",
+      "background": "locations/campaign/sylvanis/briefing",
+      "portraits": {
+        "sylvanis": "sylvanis-early"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "I wanted to see this part myself.",
+          "source_id": "SY-M05:text:003",
+          "source_element": 3,
+          "shot_id": "SY-M05:text:003:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/briefing",
+          "portraits": {
+            "sylvanis": "sylvanis-early"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M05",
+      "field": "text",
+      "index": 4,
+      "source_id": "SY-M05:text:004",
+      "era": "sylvanis_coup",
+      "background": "locations/campaign/sylvanis/briefing",
+      "portraits": {
+        "sylvanis": "sylvanis-early"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "Kaden fought to keep the exit open. His strength bought the wounded time; it did not make him Sylvanis’s equal. Sylvanis struck him down. Before the injury took his remaining breath, Kaden turned towards him.",
+          "source_id": "SY-M05:text:004",
+          "source_element": 4,
+          "shot_id": "SY-M05:text:004:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/briefing",
+          "portraits": {
+            "sylvanis": "sylvanis-early"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M05",
+      "field": "text",
+      "index": 5,
+      "source_id": "SY-M05:text:005",
+      "era": "sylvanis_coup",
+      "background": "locations/campaign/sylvanis/briefing",
+      "portraits": {
+        "sylvanis": "sylvanis-early",
+        "kaden": "sylvanis-kaden"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "kaden",
+          "text": "Sylvanis... will you ever truly find the thrill you are looking for?",
+          "source_id": "SY-M05:text:005",
+          "source_element": 5,
+          "shot_id": "SY-M05:text:005:CS-SY04",
+          "core_id": "CS-SY04",
+          "background": "locations/campaign/sylvanis/briefing",
+          "portraits": {
+            "sylvanis": "sylvanis-early",
+            "kaden": "sylvanis-kaden"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M05",
+      "field": "text",
+      "index": 6,
+      "source_id": "SY-M05:text:006",
+      "era": "sylvanis_coup",
+      "background": "locations/campaign/sylvanis/briefing",
+      "portraits": {
+        "sylvanis": "sylvanis-early"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "I intend to keep looking.",
+          "source_id": "SY-M05:text:006",
+          "source_element": 6,
+          "shot_id": "SY-M05:text:006:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/briefing",
+          "portraits": {
+            "sylvanis": "sylvanis-early"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M05",
+      "field": "text",
+      "index": 7,
+      "source_id": "SY-M05:text:007",
+      "era": "sylvanis_coup",
+      "background": "locations/campaign/sylvanis/briefing",
+      "portraits": {
+        "sylvanis": "sylvanis-early"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "Kaden died after the question. Sylvanis felt no remorse. The bespectacled conspirator closed the ledger and gave orders to the new guards. Protective contracts were abandoned or converted into demands for payment. The Organisation’s purpose died with its leader. The man who had stood closest to Kaden would eventually call himself the Crow; neither his civil identity nor the relationship between them was spoken.",
+          "source_id": "SY-M05:text:007",
+          "source_element": 7,
+          "shot_id": "SY-M05:text:007:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/briefing",
+          "portraits": {
+            "sylvanis": "sylvanis-early"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M05",
+      "field": "after_encounter",
+      "index": 0,
+      "source_id": "SY-M05:after_encounter:000",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The recollection ends. The present room, clock, belongings and everyone else’s knowledge are exactly as he left them.",
+          "source_id": "SY-M05:after_encounter:000",
+          "source_element": 0,
+          "shot_id": "SY-M05:after_encounter:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M06",
+      "field": "text",
+      "index": 0,
+      "source_id": "SY-M06:text:000",
+      "era": "sylvanis_expansion",
+      "background": "locations/campaign/sylvanis/early_office",
+      "portraits": {
+        "sylvanis": "sylvanis-research"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "A negotiated border route had taken weeks. Sylvanis ruined it in an afternoon because an escort challenged him and the challenge was more interesting than the agreement. The Crow moved the surviving consignment, paid for another route and dismissed the officer who had assumed Sylvanis would follow the schedule.",
+          "source_id": "SY-M06:text:000",
+          "source_element": 0,
+          "shot_id": "SY-M06:text:000:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/early_office",
+          "portraits": {
+            "sylvanis": "sylvanis-research"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M06",
+      "field": "text",
+      "index": 1,
+      "source_id": "SY-M06:text:001",
+      "era": "sylvanis_expansion",
+      "background": "locations/campaign/sylvanis/early_office",
+      "portraits": {
+        "sylvanis": "sylvanis-research",
+        "crow": "crow-mavis-history"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "crow",
+          "text": "You understood the agreement.",
+          "source_id": "SY-M06:text:001",
+          "source_element": 1,
+          "shot_id": "SY-M06:text:001:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/early_office",
+          "portraits": {
+            "sylvanis": "sylvanis-research",
+            "crow": "crow-mavis-history"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M06",
+      "field": "text",
+      "index": 2,
+      "source_id": "SY-M06:text:002",
+      "era": "sylvanis_expansion",
+      "background": "locations/campaign/sylvanis/early_office",
+      "portraits": {
+        "sylvanis": "sylvanis-research"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "That was the boring part, Mr. Crow.",
+          "source_id": "SY-M06:text:002",
+          "source_element": 2,
+          "shot_id": "SY-M06:text:002:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/early_office",
+          "portraits": {
+            "sylvanis": "sylvanis-research"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M06",
+      "field": "text",
+      "index": 3,
+      "source_id": "SY-M06:text:003",
+      "era": "sylvanis_expansion",
+      "background": "locations/campaign/sylvanis/early_office",
+      "portraits": {
+        "sylvanis": "sylvanis-research"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The Crow’s beaked mask gave nothing away. He itemised the loss and withdrew Sylvanis’s access to that shipment. A later contract required another repair. Cooperation continued because each remained useful; welcome narrowed into tolerance. No friendship grew inside the arrangement.",
+          "source_id": "SY-M06:text:003",
+          "source_element": 3,
+          "shot_id": "SY-M06:text:003:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/early_office",
+          "portraits": {
+            "sylvanis": "sylvanis-research"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M06",
+      "field": "text",
+      "index": 4,
+      "source_id": "SY-M06:text:004",
+      "era": "sylvanis_expansion",
+      "background": "locations/campaign/sylvanis/early_office",
+      "portraits": {
+        "sylvanis": "sylvanis-research",
+        "crow": "crow-mavis-history"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "crow",
+          "text": "I will decide what resources remain available to you.",
+          "source_id": "SY-M06:text:004",
+          "source_element": 4,
+          "shot_id": "SY-M06:text:004:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/early_office",
+          "portraits": {
+            "sylvanis": "sylvanis-research",
+            "crow": "crow-mavis-history"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M06",
+      "field": "text",
+      "index": 5,
+      "source_id": "SY-M06:text:005",
+      "era": "sylvanis_expansion",
+      "background": "locations/campaign/sylvanis/early_office",
+      "portraits": {
+        "sylvanis": "sylvanis-research"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "Then we both have decisions to make.",
+          "source_id": "SY-M06:text:005",
+          "source_element": 5,
+          "shot_id": "SY-M06:text:005:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/early_office",
+          "portraits": {
+            "sylvanis": "sylvanis-research"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M06",
+      "field": "after_encounter",
+      "index": 0,
+      "source_id": "SY-M06:after_encounter:000",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The recollection ends. The present room, clock, belongings and everyone else’s knowledge are exactly as he left them.",
+          "source_id": "SY-M06:after_encounter:000",
+          "source_element": 0,
+          "shot_id": "SY-M06:after_encounter:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M07",
+      "field": "text",
+      "index": 0,
+      "source_id": "SY-M07:text:000",
+      "era": "sylvanis_trials",
+      "background": "locations/campaign/sylvanis/historic_lab",
+      "portraits": {
+        "sylvanis": "sylvanis-research"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "He began Red Magic and Blue Magic on a whim. He wanted to see what temporary power did to people certain of their own limits. The subjects were living humans. Some had never agreed to be there; the restraints did not become consent because a technician called them precautions.",
+          "source_id": "SY-M07:text:000",
+          "source_element": 0,
+          "shot_id": "SY-M07:text:000:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/historic_lab",
+          "portraits": {
+            "sylvanis": "sylvanis-research"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M07",
+      "field": "text",
+      "index": 1,
+      "source_id": "SY-M07:text:001",
+      "era": "sylvanis_trials",
+      "background": "locations/campaign/sylvanis/historic_lab",
+      "portraits": {
+        "sylvanis": "sylvanis-research"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The drugs produced short gains and harmful limits. A fighter’s burst of strength ended in tremor; another’s concentration broke while the observers were still writing. No permanent Awakening followed. Sylvanis watched closely and asked for a different opponent.",
+          "source_id": "SY-M07:text:001",
+          "source_element": 1,
+          "shot_id": "SY-M07:text:001:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/historic_lab",
+          "portraits": {
+            "sylvanis": "sylvanis-research"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M07",
+      "field": "text",
+      "index": 2,
+      "source_id": "SY-M07:text:002",
+      "era": "sylvanis_trials",
+      "background": "locations/campaign/sylvanis/historic_lab",
+      "portraits": {
+        "sylvanis": "sylvanis-research"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "The numbers say it worked. He does not look pleased.",
+          "source_id": "SY-M07:text:002",
+          "source_element": 2,
+          "shot_id": "SY-M07:text:002:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/historic_lab",
+          "portraits": {
+            "sylvanis": "sylvanis-research"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M07",
+      "field": "text",
+      "index": 3,
+      "source_id": "SY-M07:text:003",
+      "era": "sylvanis_trials",
+      "background": "locations/campaign/sylvanis/historic_lab",
+      "portraits": {
+        "sylvanis": "sylvanis-research"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "He opened his own underground testing arena. It belonged to him, not to the public lounge or the Iron Circle. Strong fighters, paid observers and unwilling subjects occupied different positions in the same operation. Their suffering was real even when he found it entertaining.",
+          "source_id": "SY-M07:text:003",
+          "source_element": 3,
+          "shot_id": "SY-M07:text:003:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/historic_lab",
+          "portraits": {
+            "sylvanis": "sylvanis-research"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M07",
+      "field": "after_encounter",
+      "index": 0,
+      "source_id": "SY-M07:after_encounter:000",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The recollection ends. The present room, clock, belongings and everyone else’s knowledge are exactly as he left them.",
+          "source_id": "SY-M07:after_encounter:000",
+          "source_element": 0,
+          "shot_id": "SY-M07:after_encounter:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M08",
+      "field": "text",
+      "index": 0,
+      "source_id": "SY-M08:text:000",
+      "era": "sylvanis_eastern",
+      "background": "locations/campaign/sylvanis/eastern",
+      "portraits": {
+        "sylvanis": "sylvanis-research"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "He travelled east because people spoke of two formidable fighters. They were Garrett and Charles’s parents, though neither son stood in this room. The pair checked the exits and moved together. Their first response covered each other rather than offering him an individual display.",
+          "source_id": "SY-M08:text:000",
+          "source_element": 0,
+          "shot_id": "SY-M08:text:000:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/eastern",
+          "portraits": {
+            "sylvanis": "sylvanis-research"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M08",
+      "field": "text",
+      "index": 1,
+      "source_id": "SY-M08:text:001",
+      "era": "sylvanis_eastern",
+      "background": "locations/campaign/sylvanis/eastern",
+      "portraits": {
+        "sylvanis": "sylvanis-research",
+        "parent-one": "sylvanis-parent-one"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "parent-one",
+          "text": "There are people behind us. Keep the doorway.",
+          "source_id": "SY-M08:text:001",
+          "source_element": 1,
+          "shot_id": "SY-M08:text:001:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/eastern",
+          "portraits": {
+            "sylvanis": "sylvanis-research",
+            "parent-one": "sylvanis-parent-one"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M08",
+      "field": "text",
+      "index": 2,
+      "source_id": "SY-M08:text:002",
+      "era": "sylvanis_eastern",
+      "background": "locations/campaign/sylvanis/eastern",
+      "portraits": {
+        "sylvanis": "sylvanis-research",
+        "parent-two": "sylvanis-parent-two"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "parent-two",
+          "text": "I have it.",
+          "source_id": "SY-M08:text:002",
+          "source_element": 2,
+          "shot_id": "SY-M08:text:002:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/eastern",
+          "portraits": {
+            "sylvanis": "sylvanis-research",
+            "parent-two": "sylvanis-parent-two"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M08",
+      "field": "text",
+      "index": 3,
+      "source_id": "SY-M08:text:003",
+      "era": "sylvanis_eastern",
+      "background": "locations/campaign/sylvanis/eastern",
+      "portraits": {
+        "sylvanis": "sylvanis-research"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "They were competent and courageous. He understood their coordination and broke it. Sylvanis killed both of them because he had come for that fight. There was no order to blame, no accident and no defensive necessity. Afterwards he was disappointed by the gap between their reputation and his own strength.",
+          "source_id": "SY-M08:text:003",
+          "source_element": 3,
+          "shot_id": "SY-M08:text:003:CS-SY05",
+          "core_id": "CS-SY05",
+          "background": "locations/campaign/sylvanis/eastern",
+          "portraits": {
+            "sylvanis": "sylvanis-research"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M08",
+      "field": "text",
+      "index": 4,
+      "source_id": "SY-M08:text:004",
+      "era": "sylvanis_eastern",
+      "background": "locations/campaign/sylvanis/eastern",
+      "portraits": {
+        "sylvanis": "sylvanis-research"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "Was that all?",
+          "source_id": "SY-M08:text:004",
+          "source_element": 4,
+          "shot_id": "SY-M08:text:004:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/eastern",
+          "portraits": {
+            "sylvanis": "sylvanis-research"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M08",
+      "field": "text",
+      "index": 5,
+      "source_id": "SY-M08:text:005",
+      "era": "sylvanis_eastern",
+      "background": "locations/campaign/sylvanis/eastern",
+      "portraits": {
+        "sylvanis": "sylvanis-research"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "His judgement measured his appetite. It did not measure what their lives had been worth. The room emptied into an absence their sons would have to live with. Sylvanis left in search of another name.",
+          "source_id": "SY-M08:text:005",
+          "source_element": 5,
+          "shot_id": "SY-M08:text:005:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/eastern",
+          "portraits": {
+            "sylvanis": "sylvanis-research"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M08",
+      "field": "after_encounter",
+      "index": 0,
+      "source_id": "SY-M08:after_encounter:000",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The recollection ends. The present room, clock, belongings and everyone else’s knowledge are exactly as he left them.",
+          "source_id": "SY-M08:after_encounter:000",
+          "source_element": 0,
+          "shot_id": "SY-M08:after_encounter:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M09",
+      "field": "text",
+      "index": 0,
+      "source_id": "SY-M09:text:000",
+      "era": "sylvanis_charles",
+      "background": "locations/campaign/sylvanis/historic_lab",
+      "portraits": {
+        "sylvanis": "sylvanis-research"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "Years later Charles applied to work with him. During a routine archive task he asked about an old eastern encounter record with a precision the assignment did not require. The questions stopped just before the part Sylvanis remembered personally. Charles had also omitted that interest from his application.",
+          "source_id": "SY-M09:text:000",
+          "source_element": 0,
+          "shot_id": "SY-M09:text:000:CS-SY06",
+          "core_id": "CS-SY06",
+          "background": "locations/campaign/sylvanis/historic_lab",
+          "portraits": {
+            "sylvanis": "sylvanis-research"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M09",
+      "field": "text",
+      "index": 1,
+      "source_id": "SY-M09:text:001",
+      "era": "sylvanis_charles",
+      "background": "locations/campaign/sylvanis/historic_lab",
+      "portraits": {
+        "sylvanis": "sylvanis-research",
+        "charles": "sylvanis-charles-early"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "charles",
+          "text": "I wanted to establish why that entry was incomplete.",
+          "source_id": "SY-M09:text:001",
+          "source_element": 1,
+          "shot_id": "SY-M09:text:001:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/historic_lab",
+          "portraits": {
+            "sylvanis": "sylvanis-research",
+            "charles": "sylvanis-charles-early"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M09",
+      "field": "text",
+      "index": 2,
+      "source_id": "SY-M09:text:002",
+      "era": "sylvanis_charles",
+      "background": "locations/campaign/sylvanis/historic_lab",
+      "portraits": {
+        "sylvanis": "sylvanis-research"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "Very thorough. You should stay.",
+          "source_id": "SY-M09:text:002",
+          "source_element": 2,
+          "shot_id": "SY-M09:text:002:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/historic_lab",
+          "portraits": {
+            "sylvanis": "sylvanis-research"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M09",
+      "field": "text",
+      "index": 3,
+      "source_id": "SY-M09:text:003",
+      "era": "sylvanis_charles",
+      "background": "locations/campaign/sylvanis/historic_lab",
+      "portraits": {
+        "sylvanis": "sylvanis-research"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The observable discrepancy came before the conclusion. Sylvanis recognised an infiltrator and chose to admit him because the attempt amused him. True Sight had not read a mind. Charles believed his cover had held. That belief did not make him foolish, and recognising his purpose did not tell Sylvanis every step he would take.",
+          "source_id": "SY-M09:text:003",
+          "source_element": 3,
+          "shot_id": "SY-M09:text:003:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/historic_lab",
+          "portraits": {
+            "sylvanis": "sylvanis-research"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M09",
+      "field": "text",
+      "index": 4,
+      "source_id": "SY-M09:text:004",
+      "era": "sylvanis_charles",
+      "background": "locations/campaign/sylvanis/historic_lab",
+      "portraits": {
+        "sylvanis": "sylvanis-research"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The application went into the accepted tray. Sylvanis deliberately left its omissions unmentioned.",
+          "source_id": "SY-M09:text:004",
+          "source_element": 4,
+          "shot_id": "SY-M09:text:004:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/historic_lab",
+          "portraits": {
+            "sylvanis": "sylvanis-research"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M09",
+      "field": "after_encounter",
+      "index": 0,
+      "source_id": "SY-M09:after_encounter:000",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The recollection ends. The present room, clock, belongings and everyone else’s knowledge are exactly as he left them.",
+          "source_id": "SY-M09:after_encounter:000",
+          "source_element": 0,
+          "shot_id": "SY-M09:after_encounter:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M10",
+      "field": "text",
+      "index": 0,
+      "source_id": "SY-M10:text:000",
+      "era": "sylvanis_takeo",
+      "background": "locations/campaign/sylvanis/takeo_meeting",
+      "portraits": {
+        "sylvanis": "sylvanis-research"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "At Takeo Mishima’s headquarters, Sylvanis described a commercial supply of Red Magic and Blue Magic. Takeo asked what the temporary advantages cost, how unreliable effects would be contained, and who answered for a failed delivery. He treated his visitor as a dangerous counterpart.",
+          "source_id": "SY-M10:text:000",
+          "source_element": 0,
+          "shot_id": "SY-M10:text:000:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/takeo_meeting",
+          "portraits": {
+            "sylvanis": "sylvanis-research"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M10",
+      "field": "text",
+      "index": 1,
+      "source_id": "SY-M10:text:001",
+      "era": "sylvanis_takeo",
+      "background": "locations/campaign/sylvanis/takeo_meeting",
+      "portraits": {
+        "sylvanis": "sylvanis-research",
+        "takeo": "takeo-selection"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "takeo",
+          "text": "I am buying a dependable supply. I am not buying your amusement.",
+          "source_id": "SY-M10:text:001",
+          "source_element": 1,
+          "shot_id": "SY-M10:text:001:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/takeo_meeting",
+          "portraits": {
+            "sylvanis": "sylvanis-research",
+            "takeo": "takeo-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M10",
+      "field": "text",
+      "index": 2,
+      "source_id": "SY-M10:text:002",
+      "era": "sylvanis_takeo",
+      "background": "locations/campaign/sylvanis/takeo_meeting",
+      "portraits": {
+        "sylvanis": "sylvanis-research"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "sylvanis",
+          "text": "You should. It is considerably less dependable.",
+          "source_id": "SY-M10:text:002",
+          "source_element": 2,
+          "shot_id": "SY-M10:text:002:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/takeo_meeting",
+          "portraits": {
+            "sylvanis": "sylvanis-research"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M10",
+      "field": "text",
+      "index": 3,
+      "source_id": "SY-M10:text:003",
+      "era": "sylvanis_takeo",
+      "background": "locations/campaign/sylvanis/takeo_meeting",
+      "portraits": {
+        "sylvanis": "sylvanis-research",
+        "takeo": "takeo-selection"
+      },
+      "segments": [
+        {
+          "phase": "dialogue",
+          "speaker": "takeo",
+          "text": "Then keep it outside the agreement.",
+          "source_id": "SY-M10:text:003",
+          "source_element": 3,
+          "shot_id": "SY-M10:text:003:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/takeo_meeting",
+          "portraits": {
+            "sylvanis": "sylvanis-research",
+            "takeo": "takeo-selection"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M10",
+      "field": "text",
+      "index": 4,
+      "source_id": "SY-M10:text:004",
+      "era": "sylvanis_takeo",
+      "background": "locations/campaign/sylvanis/takeo_meeting",
+      "portraits": {
+        "sylvanis": "sylvanis-research"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "They settled a bounded Syndicate-to-Shinokami arrangement. The Crow’s internal terms reached Takeo through Sylvanis; no meeting between the Crow and Takeo took place. Takeo remained at his headquarters. Neither man disclosed or resolved a separate territorial betrayal.",
+          "source_id": "SY-M10:text:004",
+          "source_element": 4,
+          "shot_id": "SY-M10:text:004:stage",
+          "core_id": null,
+          "background": "locations/campaign/sylvanis/takeo_meeting",
+          "portraits": {
+            "sylvanis": "sylvanis-research"
+          }
+        }
+      ]
+    },
+    {
+      "scene": "SY-M10",
+      "field": "after_encounter",
+      "index": 0,
+      "source_id": "SY-M10:after_encounter:000",
+      "era": null,
+      "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+      "portraits": {
+        "sylvanis": "sylvanis-selection"
+      },
+      "segments": [
+        {
+          "phase": "prose",
+          "text": "The recollection ends. The present room, clock, belongings and everyone else’s knowledge are exactly as he left them.",
+          "source_id": "SY-M10:after_encounter:000",
+          "source_element": 0,
+          "shot_id": "SY-M10:after_encounter:000:stage",
+          "core_id": null,
+          "background": "locations/interiors/glasshouse_lab/private_review_reunion_room",
+          "portraits": {
+            "sylvanis": "sylvanis-selection"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "CS-TK02A",
+  "type": "shot",
+  "path": "assets/campaigns/takeo/core/CS-TK02A.png",
+  "original": "media-workspace/kazama-height-2026-11-15/originals/CS-TK02A.png",
+  "prompt": "Use case: identity-preserve targeted stature correction. Edit existing campaign shot CS-TK02A. Shinzo Kazama on RIGHT (long black hair and beard, purple eyes, black/purple robes) must read as a TALL 193 cm man; Takeo on LEFT stays 211 cm. Increase Kazama's bodily stature, raise his shoulders/head and lengthen torso naturally from the same standing ground plane, rather than enlarging his head. Their true height difference is only 18 cm, about three quarters of an adult head; Kazama is 91.5 percent of Takeo's total standing height. Keep their camera depths comparable and have both stand more upright so that relationship is clear. Kazama remains slightly shorter than Takeo, with his crown near Takeo's upper face/brow level when depth-adjusted. Preserve exact identities, face construction, proportions, clothes and rendering, pointing index finger on map and other hand on table. Ensure natural arm lengths and connected shoulder/elbow/wrist chains as stature changes. Preserve same ruined Japanese command hall, map, table, lighting, voluntary discussion and two people only. No text, ruler, labels, new objects, abilities or outcome change. Opaque 16:9 manhwa at original resolution or higher.",
+  "references": [
+    "media-workspace/kazama-height-2026-11-15/references/CS-TK02A-before.png"
+  ],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "c227a5a5fa792475f434383485515dc37b939d8acd901524465c47b1769003fd",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "alpha_extrema": null,
+  "visual_review": "Full generated frame inspected for 193 cm Kazama / 211 cm Takeo stature, perspective, anatomy and identities; actual reader screenshot inspected; Takeo UI smoke passed.",
+  "reference_hashes_measured_at_release_review": {
+    "media-workspace/kazama-height-2026-11-15/references/CS-TK02A-before.png": "d510a0f14491bbcbbbf210118575fee50d013a0b83d5c4e1d9985b24d61c692f"
+  },
+  "revision_date": "2026-11-15",
+  "supersedes": {
+    "id": "CS-TK02A",
+    "type": "shot",
+    "path": "assets/campaigns/takeo/core/CS-TK02A.png",
+    "original": "media-workspace/campaign-shot-rebuild-2026-11-14/originals/CS-TK02A.png",
+    "prompt": "Rebuild ONE opaque landscape 16:9 game scene illustration CS-TK02A, illustration-story. Reference 1 is the OLD SCENE for environment and narrative only: its Kazama design is obsolete. Reference 2 is authoritative exact historical Takeo identity and clothing. Reference 3 is authoritative corrected Shinzo Kazama identity, clothing and drawn facial style. In the damaged Japanese command hall after fictional 2024 conquest, Shinzo Kazama assigns a position on a physical route map while Takeo willingly listens. Render Kazama with long BLACK hair, long pointed BLACK beard, fierce purple eyes, less-aged angular drawn face, black and purple layered robes, ragged cloak and ornate purple waist cords/gold chains exactly like ref 3; NO military coat or short grey hair on Kazama. Takeo is an enormous 211cm muscular Japanese man, black short buzzcut, compact moustache/goatee and dark high-collared military coat as ref 2. He remains clearly imposing in actual body proportions, no inflated tiny head. Dynamic three-quarter camera from the corner of the map table, medium-wide composition with diagonal table leading into depth; Kazama at right points with ONE anatomically correct index finger to the map, his other hand naturally resting on edge; Takeo to left turned toward him attentively. Plausible connected shoulder/elbow/wrist chains and five-finger hands, physically coherent ground plane and perspective; no extra hands, fused fingers, elongated torso or repeated limbs. Consistent designed semi-realistic MANHWA facial construction like portraits, tapered selective lines, soft dimensional shadows; no photographic pores, over-rendered fabric, waxy faces or chibi. Warm muted window light against slate shadow. Retain damaged hall architecture, quiet tense voluntary service not triumph or combat. No ability effects, victims, flags, emblems, text, labels, bubbles, watermark, panels or UI. Faces and essential gesture in upper two thirds, quieter lower strip for reader. Exactly two people. This is a full scene, not portrait cutouts pasted onto a background.",
+    "references": [
+      "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK02A-1.png",
+      "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK02A-2.png",
+      "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK02A-3.png"
+    ],
+    "provider": "Built-in image_gen tool",
+    "model": "Not exposed; unverified",
+    "sha256": "d510a0f14491bbcbbbf210118575fee50d013a0b83d5c4e1d9985b24d61c692f",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null,
+    "visual_review": "Full generated image and actual reader render visually inspected; affected artwork checks and route UI smoke passed. See campaign-shot-rebuild-2026-11-14/README.md.",
+    "reference_hashes_measured_at_release_review": {
+      "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK02A-1.png": "e4ed4def7a79fb0046fb89ce1a839d1321a35be975e8dbef9cb75831c4874f3e",
+      "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK02A-2.png": "d47fa581600dbfd33dad52153fe9c9df844afb090355d9503a55d7c63d9d599e",
+      "media-workspace/campaign-shot-rebuild-2026-11-14/references/CS-TK02A-3.png": "c43e9269d53be18ceeea3b40b1eaa5d92169eb632a6faf622a6b174701505c8a"
+    },
+    "revision_date": "2026-11-14",
+    "supersedes": {
+      "id": "CS-TK02A",
+      "type": "shot",
+      "path": "assets/campaigns/takeo/core/CS-TK02A.png",
+      "original": "media-workspace/takeo/originals/exec-cfc1ad4f-8501-48d4-a201-b1ba2ae62764.png",
+      "prompt": "ONE 16:9 illustrated visual-novel sequence shot, no panel borders. Wide cinematic shot in a damaged Japanese military command hall after the fictional 2024 conquest. Takeo (reference 1), enormous 211cm muscular adult, voluntarily stands beside Shinzo Kazama (reference 2) at a large physical route map table. Kazama points to one region; Takeo listens with sincere stern attention. Preserve exact faces, hair and dark military coats. Not triumphal propaganda, no combat victims or insignia. Semi-realistic illustrated manhwa, restrained linework and dimensional painted shading, natural faces, cinematic slate/amber light, not photo/3D or exaggerated cel cartoon. No captions, text, readable map labels, watermark or signature.",
+      "references": [
+        "media-workspace/takeo/originals/exec-eb456bd6-a35f-4aaa-b05b-f482412120cb.png",
+        "media-workspace/takeo/originals/exec-0d2be04a-eb88-4541-9d35-e0c927deea13.png"
+      ],
+      "provider": "Built-in image_gen tool",
+      "model": "Not exposed; unverified",
+      "sha256": "e4ed4def7a79fb0046fb89ce1a839d1321a35be975e8dbef9cb75831c4874f3e",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+      "reference_hashes_measured_at_release_review": {
+        "media-workspace/takeo/originals/exec-eb456bd6-a35f-4aaa-b05b-f482412120cb.png": "d47fa581600dbfd33dad52153fe9c9df844afb090355d9503a55d7c63d9d599e",
+        "media-workspace/takeo/originals/exec-0d2be04a-eb88-4541-9d35-e0c927deea13.png": "26959f6cb12c7e9395c4546dc1abfa444db76e11f4374c3d7dabd7ab7b37eaf5"
+      }
+    },
+    "previous_production_copy": "media-workspace/campaign-shot-rebuild-2026-11-14/backups/CS-TK02A.png"
+  },
+  "previous_production_copy": "media-workspace/kazama-height-2026-11-15/backups/CS-TK02A.png"
+}

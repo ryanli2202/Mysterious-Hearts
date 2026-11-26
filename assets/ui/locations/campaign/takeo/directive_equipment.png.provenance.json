@@ -1,0 +1,19 @@
+{
+  "id": "directive_equipment",
+  "type": "location",
+  "path": "assets/ui/locations/campaign/takeo/directive_equipment.png",
+  "original": "media-workspace/takeo/originals/exec-a7ae9d92-3542-4e5a-b44a-9819be9f674a.png",
+  "prompt": "ONE 16:9 wide game location background painting: Directive 0 equipment room before 2024, practical unmarked military lockers, closed equipment cases, dark steel maintenance bench, early-2020s fixtures, no experimental weapons. Semi-realistic illustrated manhwa, restrained linework, softly dimensional painted shading, not photo/3D/cel cartoon. No people, readable text, logos or watermark. Clear room geography, open portrait staging foreground, charcoal/slate palette with restrained warm practical light.",
+  "references": [],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "d3051d89609f05aae25e82c19b335f6f28265e938b0b13d1dddc0e3a510e12a6",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "alpha_extrema": null,
+  "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+  "reference_hashes_measured_at_release_review": {}
+}

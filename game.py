@@ -193,6 +193,12 @@ class Game(tk.Tk):
             available = camera.outfits(self.state_data, key)
             if chosen in available:
                 path = core.ROOT / available[chosen]
+        if (location is not None and not outfit and
+                (getattr(self, 'state_data', None) or {}).get('interiors', {}).get('enabled_buildings')
+                and key in self.state_data['world']['cast']):
+            effective = __import__('wardrobe_context').path(self.state_data, key)
+            if effective:
+                path = core.ROOT / effective
         # Headquarters attire overrides Ivan's saved player wardrobe without changing it.
         # A location-less portrait is a profile preview, not the current scene.
         if four_aces.uniform_at(key, location) and (not outfit or key == 'ivan'):
@@ -227,6 +233,10 @@ class Game(tk.Tk):
                 for who, size in sizes.items()}
 
     def portrait(self, key, size, location=None, minute=None, outfit=None, *, scale=None):
+        visit=__import__('flashback_visits').active(getattr(self,'state_data',None) or {})
+        if visit and key=='repair-worker':
+            # Authored unnamed historical voice is deliberately off-screen.
+            return ImageTk.PhotoImage(Image.new('RGBA',size,(0,0,0,0)))
         import character_stature
         import portrait_framing
         key, path = Game.portrait_path(self, key, location, minute, outfit)
@@ -333,7 +343,9 @@ class Game(tk.Tk):
         menu = tk.Menu(button, tearoff=False)
         button.configure(menu=menu)
         def wear(label):
-            if label == 'Automatic':
+            if state.get('interiors', {}).get('enabled_buildings'):
+                __import__('wardrobe_context').wear(state, label)
+            elif label == 'Automatic':
                 state['world'].pop('player_outfit', None)
             else:
                 state['world']['player_outfit'] = label
@@ -345,6 +357,7 @@ class Game(tk.Tk):
         return button
 
     def play_screen(self):
+        __import__('interiors').rollout(self.state_data)
         self.cancel_suggestions()
         self.sounds.observe(self.state_data)
         self.notification_popups.observe(self.state_data)
@@ -555,6 +568,10 @@ class Game(tk.Tk):
         name = core.contact_name(state, who)
         self.home_button.config(state='normal' if not self.busy and state['world']['location']==core.town.HOMES[state['player']] else 'disabled')
         self.clock_label.config(text=core.town.loop.clock(state) + f" · ${core.town.ensure(state)['money']:,}")
+        if state.get('interiors', {}).get('enabled_buildings'):
+            __import__('wardrobe_context').resolve(state, state['player'])
+            selected = state['wardrobe_context']['actors'][state['player']].get('manual') or 'Automatic'
+            self.outfit_name.set(selected)
         import simulation_clock
         selected_time = simulation_clock.mode(state)
         self.time_mode.set(selected_time)
@@ -650,9 +667,10 @@ class Game(tk.Tk):
         area=getattr(self,'area_view',None)
         if area is not None and area.winfo_exists():
             wrong_place=getattr(area,'location_key',None) not in (None,self.state_data['world']['location'])
-            if wrong_place or (group.get('open') and group.get('channel')!='text'):
+            if wrong_place or (group.get('open') and group.get('channel')!='text' and not getattr(area,'allows_group',False)):
                 self.area_view=None;area.destroy()
             else:
+                if hasattr(area, 'rooms'): area.rooms.refresh()
                 self.presence_view.pack_forget();self.in_person_chat.pack_forget()
                 area.pack(fill='both',expand=True)
                 return
@@ -1163,6 +1181,31 @@ class Game(tk.Tk):
         self.close_main_area()
         self.hide_phone_for_location()
         self.area_view=ParkView(self.play_body,self,self.leave_main_area)
+        self.layout_presence()
+
+    def enter_chess(self, who, name):
+        import chess_lounge
+        import interiors
+        from chess_lounge_ui import ChessTable
+        state = self.state_data
+        if self.busy or interiors.room(state) != chess_lounge.PLAYING_ROOM or not interiors.available(state, state['player']):
+            return
+        if who is not None and who not in chess_lounge.opponents(state):
+            return
+        self.close_main_area()
+        self.hide_phone_for_location()
+        self.area_view = ChessTable(self.play_body, self, who, name)
+        self.layout_presence()
+
+    def open_chess_history(self):
+        import interiors
+        from chess_lounge import PLAYING_ROOM
+        from chess_lounge_ui import MatchHistory
+        if self.busy or interiors.room(self.state_data) != PLAYING_ROOM:
+            return
+        self.close_main_area()
+        self.hide_phone_for_location()
+        self.area_view = MatchHistory(self.play_body, self)
         self.layout_presence()
 
     def open_living_world(self, window=None):

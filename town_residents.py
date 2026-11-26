@@ -135,6 +135,7 @@ def routine(name, minute):
 
 def refresh(state):
     """Update only this roster; preserve legacy locals, venue staff and saved chats."""
+    __import__('interior_presence').restore(state)
     world = state['world']
     current = [name for name in world['npcs'] if name not in RESIDENTS]
     current.extend(name for name in RESIDENTS
@@ -148,6 +149,8 @@ def refresh(state):
     gang_members.refresh(state)
     import organisation_guards
     organisation_guards.refresh(state)
+    __import__('interior_presence').staff_roster(state)
+    __import__('interior_presence').filter_roster(state)
 
 
 def context(name, minute):

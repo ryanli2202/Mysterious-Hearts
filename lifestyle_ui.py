@@ -198,9 +198,12 @@ class Screen:
             self.label('Image unavailable. Restore its file to preview this item.')
 
     def wardrobe(self):
-        design.card(self.body, self.s['world'].get('player_outfit', 'Automatic'), 'Your current look', self.accent, '◇')
+        look = self.s['world'].get('player_outfit', 'Automatic')
+        if self.s.get('interiors', {}).get('enabled_buildings'):
+            look = __import__('wardrobe_context').resolve(self.s, self.s['player']) or 'Automatic'
+        design.card(self.body, look, 'Your current look', self.accent, '◇')
         self.form_start()
-        self.label('Current outfit: '+self.s['world'].get('player_outfit', 'Automatic'))
+        self.label('Current outfit: '+look)
         self.button('My outfits', lambda: self.wardrobe_tab('closet'))
         self.button('Design outfit', lambda: self.wardrobe_tab('design'))
         if self.draft.get('tab', 'closet') == 'design':

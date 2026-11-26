@@ -1,0 +1,188 @@
+{
+  "date": "2026-11-15",
+  "provider": "built-in image_gen",
+  "prompt_record": "media-workspace/rei-expansion-2026-11-15/generation.json",
+  "assets": [
+    {
+      "id": "rei-child",
+      "path": "assets/portraits/rei-child.png",
+      "original": "media-workspace/rei-expansion-2026-11-15/originals/rei-child.png",
+      "kind": "portrait",
+      "sha256": "c5b1385f1309b4857da9948a9e8173eca269f0819a66d33bb089f4180746fc7f",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alpha": [
+        0,
+        254
+      ],
+      "review": "Accepted after source inspection and normal/compact in-person rendering on 2026-11-15; see roadmap/REI_EXPANSION_EVIDENCE_2026_11_15.md"
+    },
+    {
+      "id": "yuriko-child",
+      "path": "assets/portraits/yuriko-child.png",
+      "original": "media-workspace/rei-expansion-2026-11-15/originals/yuriko-child.png",
+      "kind": "portrait",
+      "sha256": "edf723f71350bbec455d43d7d0e36f6b091883232ca8bf92d0c016b51d2599e2",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alpha": [
+        0,
+        254
+      ],
+      "review": "Accepted after source inspection and normal/compact in-person rendering on 2026-11-15; see roadmap/REI_EXPANSION_EVIDENCE_2026_11_15.md"
+    },
+    {
+      "id": "rei-escape-corrected",
+      "path": "assets/portraits/rei-escape.png",
+      "original": "media-workspace/rei-expansion-2026-11-15/originals/rei-escape-corrected.png",
+      "kind": "portrait",
+      "sha256": "17864d1684da6c216b40228e7fbe1afd0de87d26c4d7fda45a6de8fb6e7af16d",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alpha": [
+        0,
+        254
+      ],
+      "review": "Accepted after source inspection and normal/compact in-person rendering on 2026-11-15; see roadmap/REI_EXPANSION_EVIDENCE_2026_11_15.md"
+    },
+    {
+      "id": "yuriko-escape",
+      "path": "assets/portraits/yuriko-escape.png",
+      "original": "media-workspace/rei-expansion-2026-11-15/originals/yuriko-escape.png",
+      "kind": "portrait",
+      "sha256": "607f57fe6fb2e8c5e1b141a117d5d02ac14a6882fee9cc4ee0a9fc214ee01ad1",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "review": "Accepted after source inspection and normal/compact in-person rendering on 2026-11-15; see roadmap/REI_EXPANSION_EVIDENCE_2026_11_15.md"
+    },
+    {
+      "id": "hamayashi-training-hall",
+      "path": "assets/ui/locations/hamayashi-training-hall.png",
+      "original": "media-workspace/rei-expansion-2026-11-15/originals/hamayashi-training-hall.png",
+      "kind": "location",
+      "sha256": "0383f65e15a104e99712fe9bc189e84655fa463bdda739fcb0d2eabe269451a4",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alpha": null,
+      "review": "Accepted after source inspection and normal/compact in-person rendering on 2026-11-15; see roadmap/REI_EXPANSION_EVIDENCE_2026_11_15.md"
+    },
+    {
+      "id": "hamayashi-siblings-room",
+      "path": "assets/ui/locations/hamayashi-siblings-room.png",
+      "original": "media-workspace/rei-expansion-2026-11-15/originals/hamayashi-siblings-room.png",
+      "kind": "location",
+      "sha256": "d319641e10934721d5bedfcc878e3c7b08ce5370f17884bfba28bd9f57396735",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alpha": null,
+      "review": "Accepted after source inspection and normal/compact in-person rendering on 2026-11-15; see roadmap/REI_EXPANSION_EVIDENCE_2026_11_15.md"
+    },
+    {
+      "id": "hamayashi-first-safe-room",
+      "path": "assets/ui/locations/hamayashi-first-safe-room.png",
+      "original": "media-workspace/rei-expansion-2026-11-15/originals/hamayashi-first-safe-room.png",
+      "kind": "location",
+      "sha256": "031bb5e784cb70c60786da5a1132b30744ec439bd84d5f23ea64aefacb5a96e0",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alpha": null,
+      "review": "Accepted after source inspection and normal/compact in-person rendering on 2026-11-15; see roadmap/REI_EXPANSION_EVIDENCE_2026_11_15.md"
+    },
+    {
+      "id": "CS-R07",
+      "path": "assets/campaigns/core/CS-R07.png",
+      "original": "media-workspace/rei-expansion-2026-11-15/originals/CS-R07.png",
+      "kind": "core",
+      "sha256": "20cfab7dc75d3267a2cb1b5e03bb7bf707ae2e89dfbd20d706e367e993da8d95",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alpha": null,
+      "review": "Accepted after source inspection and normal/compact in-person rendering on 2026-11-15; see roadmap/REI_EXPANSION_EVIDENCE_2026_11_15.md"
+    },
+    {
+      "id": "CS-R08",
+      "path": "assets/campaigns/core/CS-R08.png",
+      "original": "media-workspace/CS-R08-scale-2026-11-15/generated.png",
+      "kind": "core",
+      "sha256": "51423acdc5aa44b45ae1e8534f3c69c3f8ea172f24b0a2f0105c8f2a7c9b3837",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "alpha": null,
+      "review": "Accepted full painting and actual normal/compact reader screenshots: significantly denser fallen adults and ravaged compound, exact age15 Rei still/shocked, non-graphic.",
+      "source": "media-workspace/CS-R08-scale-2026-11-15/generated.png",
+      "production": "media-workspace/CS-R08-scale-2026-11-15/production.json",
+      "revision_date": "2026-11-15"
+    },
+    {
+      "id": "rei-school-grief",
+      "path": "assets/portraits/rei-school-grief.png",
+      "original": "media-workspace/rei-expansion-2026-11-15/originals/rei-school-grief.png",
+      "kind": "portrait",
+      "sha256": "90661473d65792f6021162f00ac8232cab70f774a85c2d48050aa73bdd18faee",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alpha": [
+        0,
+        254
+      ],
+      "review": "Accepted after source inspection and normal/compact in-person rendering on 2026-11-15; see roadmap/REI_EXPANSION_EVIDENCE_2026_11_15.md"
+    },
+    {
+      "id": "emily-school-grief",
+      "path": "assets/portraits/emily-school-grief.png",
+      "original": "media-workspace/rei-expansion-2026-11-15/originals/emily-school-grief.png",
+      "kind": "portrait",
+      "sha256": "176708502acaab196a5c98aadf7de3e711c9d1934477b610866eab74471995ed",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alpha": [
+        0,
+        254
+      ],
+      "review": "Accepted after source inspection and normal/compact in-person rendering on 2026-11-15; see roadmap/REI_EXPANSION_EVIDENCE_2026_11_15.md"
+    },
+    {
+      "id": "sophie-school-grief",
+      "path": "assets/portraits/sophie-school-grief.png",
+      "original": "media-workspace/rei-expansion-2026-11-15/originals/sophie-school-grief.png",
+      "kind": "portrait",
+      "sha256": "d56ee537762b422a88a1aa571367cbe263524d3e0fa54c4ec13e512c91ac84a9",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alpha": [
+        0,
+        254
+      ],
+      "review": "Accepted after source inspection and normal/compact in-person rendering on 2026-11-15; see roadmap/REI_EXPANSION_EVIDENCE_2026_11_15.md"
+    }
+  ],
+  "render_evidence": ".test-tmp/rei-expansion/screenshots"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "takeo-directive",
+  "type": "portrait",
+  "path": "assets/portraits/takeo-directive.png",
+  "original": "media-workspace/takeo/originals/exec-1838f771-8da0-4730-8b21-49e3cb3ea766.png",
+  "prompt": "ONE standalone head-to-mid-thigh portrait, vertical 2:3, genuine transparent background. Preserve this exact Takeo Mishima identity, huge 211cm muscular frame, narrow angular youthful adult face, short black buzzcut, moustache and compact goatee. Depict him in his late twenties before 2024 as captain of a classified special-forces unit, plain practical dark field uniform and unmarked vest, no futuristic Nanoengine effects. No costume insignia or flag. Semi-realistic illustrated manhwa, restrained linework and soft dimensional shadows, natural eyes, not photo/3D/exaggerated anime. Whole head, complete hands and both thighs visible through true mid-thigh crop, no knees, safe margins. No background, ground, shadow, haze rectangle, text or watermark.",
+  "references": [
+    "assets/portraits/takeo-selection.png"
+  ],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "fdffd45b52591fd726385716394fe1711713afa76b486a0352003fc6b76fbd51",
+  "size": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+  "reference_hashes_measured_at_release_review": {
+    "assets/portraits/takeo-selection.png": "afc2370234f44a8550c34e3ebb9bf3c28d42d2c4ffa7513d3eb5b2b615e95849"
+  }
+}

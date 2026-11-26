@@ -1,6 +1,11 @@
 """Takeo Mishima's authored portrayal and personal clearance rules."""
 HQ = 'site_01_briefing'
-APPEARANCE = '211 cm; an immensely muscular Japanese man with a short black buzzcut, moustache and goatee, wearing a monochrome camouflage combat longsleeve shirt and dark combat trousers.'
+APPEARANCE = ('211 cm; a powerfully muscular Japanese man with broad shoulders, a deep chest, substantial arms and a tapered waist. '
+    'Nanoengine slows his visible ageing: his narrower, angular adult face has smooth skin and few age lines. '
+    'He has a short black buzzcut, moustache and compact goatee, with a cold, commanding gaze. '
+    'He wears a fitted charcoal quarter-zip military combat shirt with a raised collar, plain torso and subdued '
+    'grey-black camouflage long sleeves, a black belt and dark combat trousers. '
+    'His usual portrait shows a composed three-quarter stance with his hands behind his back.')
 PERSONALITY = ('The supreme leader of the Shinokami, known as the Human Siege Engine. Reputation 100. '
     'He prizes strength and domination and despises weakness and mercy. Severe, authoritarian and unyielding, '
     'he judges others by demonstrated resolve and results. He regards obedience as an obligation, not affection. '
@@ -26,7 +31,11 @@ HISTORY = ('Takeo commands the Shinokami, one of the Three Dragon Heads alongsid
     'He formerly served in United Nations black operations special forces, in classified conflict zones '
     'involving insurgent suppression, containment, assassination prevention and paramilitary disruption. '
     'His service earned a reputation for efficiency, aggression, fear resistance and disregard for collateral '
-    'damage. He defected during or after that service; the exact timing and cause remain unknown. '
+    'damage. He captained Directive 0, a top-secret United Nations black-operations death squad. '
+    'After its ethical dissolution he deliberately joined Onami and served Shinzo Kazama. '
+    'The 2024 conquest preceded Onami’s 2027 defeat and Kazama’s death; his killer is unspecified. '
+    'Takeo gathered the remnants into Shinokami. His Nanoengine inspired the experimental baseline, '
+    'not a demonstrated reproducible Nanoengine or a remote-control mechanism in its subjects. '
     'He resurfaced as a paramilitary terrorist commander, organising insurgent special forces with '
     'professional discipline, weapons access and military doctrine. Entering the Asian underworld, he '
     'absorbed criminal networks and eliminated rival warlords. Through intimidation, purges and military '
@@ -67,8 +76,9 @@ ABILITY = ('Awakened Trait: Nanoengine. Takeo generates and controls nanomachine
     'limitless regeneration, omniscience or an automatic victory over every opponent. '
     'This is his current power, not an unlock or a hypothetical future awakening. It supersedes earlier '
     'guidance excluding Nanoengine or treating him as merely trained human strength.')
-BOUNDARY = ('He is 42. His MBTI and birthday are unknown. Keep dealings nonromantic. He resides permanently '
+BOUNDARY = ('He is roughly 56; Nanoengine slows visible ageing. His MBTI and birthday are unknown. Keep dealings nonromantic. As an NPC he resides permanently '
     'inside Shinokami headquarters at Kestrel Operations Centre; he never joins outings or accepts summons elsewhere. '
+    'Only his own playable campaign permits authored command travel; this does not change NPC appointments. '
     'His private number requires current Shinokami Regional commander rank or higher with sponsorship in good standing. '
     'Friendship, reputation alone, Syndicate rank and family ties grant no exception. His family and programme history '
     'are private writer knowledge: do not reveal Neo’s identity or history to an uninformed listener, even at high trust. '
@@ -77,13 +87,13 @@ BOUNDARY = ('He is 42. His MBTI and birthday are unknown. Keep dealings nonroman
     'incidents are not automatically completed story events. Preserve the existing 211 cm appearance. '
     'His own Nanoengine does not give Neo implants or alter Neo’s established abilities. '
     'His expertise grants no knowledge of unseen player actions or rival secrets; reputation guarantees no victory.')
-CAST = dict(name='Takeo Mishima', role='antagonist', height=211, age=42, mbti='Unknown',
+CAST = dict(name='Takeo Mishima', role='antagonist', height=211, age=56, mbti='Unknown',
     birthday='Unknown', hobbies=[], likes=['strength', 'domination'], dislikes=['weakness', 'mercy'],
     occupation='Supreme leader of the Shinokami', attraction=0, area=HQ, area_name='Shinokami headquarters',
     activity='Receiving command reports at headquarters', home='Shinokami headquarters',
     interior='A guarded headquarters command room with regional reports and a heavy briefing table.',
     personality=PERSONALITY, texting_style=VOICE, followup='State the result.', appearance=APPEARANCE)
-PROFILE = 'Takeo Mishima · The Human Siege Engine\n42 years · 211 cm · MBTI: Unknown · Reputation: 100\nLikes: strength, domination\nDislikes: weakness, mercy\n' + PERSONALITY
+PROFILE = 'Takeo Mishima · The Human Siege Engine\nRoughly 56 years · 211 cm · MBTI: Unknown · Reputation: 100\nLikes: strength, domination\nDislikes: weakness, mercy\n' + PERSONALITY
 
 def number_allowed(s):
     m = s.get('job_apps', {}).get('membership') or {}

@@ -169,8 +169,9 @@ class EnhancedCombat:
         if channels:
             channel=tk.StringVar(value=f['player']['channel'] or 'No channel')
             self.picker(row,channel,['No channel',*channels[1:]],lambda:self.run(lambda:states.set_channel(s,'' if channel.get()=='No channel' else channel.get())),16)
-            endurance=self.button(row,'Misanthropy · 18 mana',lambda:states.activate_endurance(s))
-            if f['player']['misanthropy_used'] or f['player']['energy']<18: endurance.configure(state='disabled')
+            if states.trait(p,'Conduit') or states.trait(p,'Deathwind'):
+                endurance=self.button(row,'Misanthropy · 18 mana',lambda:states.activate_endurance(s))
+                if f['player']['misanthropy_used'] or f['player']['energy']<18: endurance.configure(state='disabled')
         if not f['turn'] and len(objectives.choices(f))>1:
             goal=tk.StringVar(value=f.get('objective','Duel'))
             self.picker(row,goal,objectives.choices(f),lambda:self.run(lambda:objectives.select(s,goal.get())),14)

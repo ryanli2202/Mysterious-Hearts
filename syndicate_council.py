@@ -23,7 +23,7 @@ def week_start(minute):
 def npc_event(s, who, minute):
     start = week_start(minute)
     if who in ROSTER and who != s['player'] and start <= minute < start+60:
-        return dict(venue='syndicate_hq', title='Syndicate face-card council · chaired by the Crow')
+        return dict(venue='syndicate_hq', source=SOURCE, room='syndicate_hq__council_chamber', title='Syndicate face-card council · chaired by the Crow')
 
 
 def ensure(s, through=None):
@@ -65,6 +65,9 @@ def join(s, e):
 
 
 def observe(s, e):
+    import interiors
+    if interiors.enabled(s, e['venue']) and interiors.room(s) != interiors.event_room(s, e):
+        return
     now = s['world']['minute']
     actor = s['world']['cast'][s['player']]
     if (e.get('council_joined') and eligible(s) and actor['location'] == e['venue']

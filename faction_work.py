@@ -47,6 +47,7 @@ def colleagues(s, key):
         shift = appointment(who, s['world']['minute'])
         if who == s['player'] or not shift or shift[1] != location: continue
         if actor.get('journey') or actor['location'] != location: continue
+        if __import__('interiors').enabled(s) and not __import__('interiors').same_room(s,s['player'],who):continue
         if ops.site_of(location) != key: continue
         if location.endswith('_briefing') and not ops.permitted(s,who,key): continue
         if actor.get('activity') != shift[2]: continue
@@ -62,5 +63,6 @@ def validate_colleague(s, key, who):
 def disclosure(s):
     import four_aces
     listeners = {who for who, actor in s['world']['cast'].items()
-                 if actor['location']==s['world']['location'] and not actor.get('journey')}
+                 if actor['location']==s['world']['location'] and not actor.get('journey')
+                 and (not __import__('interiors').enabled(s) or __import__('interiors').same_room(s,s['player'],who))}
     return bool(listeners) and all(four_aces.knows_identities(s, who) for who in listeners)

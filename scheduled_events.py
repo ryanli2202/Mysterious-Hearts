@@ -4,7 +4,7 @@ import uuid
 import story_calendar as calendar
 
 
-def create(s, title, day, time, venue, guests, duration=60, *, source=None):
+def create(s, title, day, time, venue, guests, duration=60, *, source=None, room=None, dress_category=None):
     import town
     import hidden_cast
     day = date.fromisoformat(day)
@@ -13,6 +13,9 @@ def create(s, title, day, time, venue, guests, duration=60, *, source=None):
         raise ValueError('Enter a time from 00:00 to 23:59.')
     start = (day-calendar.START).days*1440 + hour*60 + minute
     guests = list(dict.fromkeys(guests))
+    if dress_category not in (None,'formal','gym','beach'):raise ValueError('Choose an available event dress context.')
+    if dress_category in ('gym','beach') and venue=='syndicate_hq' and any(__import__('four_aces').uniform_at(w,venue) for w in [s['player'],*guests]):
+        raise ValueError('This event dress context conflicts with the required headquarters appearance.')
     if not title.strip() or len(title.strip()) > 100:
         raise ValueError('Enter an event title of 1–100 characters.')
     if start <= s['world']['minute']:
@@ -40,17 +43,31 @@ def create(s, title, day, time, venue, guests, duration=60, *, source=None):
         raise ValueError('Takeo only meets inside Shinokami headquarters.')
     if 'crow' in guests and venue != hidden_cast.HQ:
         raise ValueError('The Crow only meets inside Syndicate headquarters.')
+    if 'charles' in guests and venue!='glasshouse_lab':raise ValueError('Charles only meets inside the Glasshouse.')
+    if venue=='glasshouse_lab' and any(not __import__('criminal_dynamics').lab_access(w,s) for w in [s['player'],*guests]):
+        raise ValueError('Every attendee needs their own existing laboratory access.')
     if venue == hidden_cast.HQ and any(not hidden_cast.hq_access(s, w) for w in [s['player'], *guests]):
         raise ValueError('Every guest needs access to this venue.')
     import careers
     if careers.conflict(s, start, start+duration):
         raise ValueError('You already have an event or career commitment at that time.')
+    if s.get('interiors',{}).get('enabled_buildings') and __import__('interior_bookings').participant_conflict(s,[s['player'],*guests],start,start+duration):
+        raise ValueError('A required guest has a conflicting hard obligation at that time.')
     for e in s.get('scheduled_events', []):
         if not e.get('cancelled') and start < e['end'] and e['start'] < start+duration:
             raise ValueError('You already have an event at that time.')
     e = dict(id=uuid.uuid4().hex, title=title.strip(), venue=venue, guests=guests,
              start=start, end=start+duration, reminded=[], cancelled=False,
              created_minute=s['world']['minute'], memory_phase='planned', attendees=[])
+    if dress_category:e['dress_category']=dress_category
+    if __import__('interiors').enabled(s, venue):
+        e['room'] = room or __import__('interiors').event_room(s, e)
+        __import__('interior_bookings').validate(s, e, e['room'])
+        target = __import__('interiors').ROOMS[e['room']]
+        if len(guests) + 1 > target.capacity:
+            raise ValueError('This room does not have enough places for the participants.')
+    elif room:
+        raise ValueError('This venue does not support room bookings.')
     if app_invitation: e['source'] = 'meet_cute'
     s.setdefault('scheduled_events', []).append(e)
     import memory_store
@@ -67,6 +84,14 @@ def active(s, who, minute=None):
     import crime_diplomacy
     if meeting := crime_diplomacy.npc_appointment(s, who, now):
         return meeting
+    if meeting := __import__('ace_campaigns').npc_appointment(s,who,now):return meeting
+    if meeting := __import__('martos_campaigns').npc_appointment(s,who,now):return meeting
+    if meeting := __import__('elias_campaigns').npc_appointment(s,who,now):return meeting
+    if meeting := __import__('camila_campaigns').npc_appointment(s,who,now):return meeting
+    if meeting := __import__('sylvanis_campaigns').npc_appointment(s,who,now):return meeting
+    if meeting := __import__('neo_campaigns').npc_appointment(s,who,now):return meeting
+    if meeting := __import__('ivan_campaigns').npc_appointment(s,who,now):return meeting
+    if meeting := __import__('takeo_campaigns').npc_appointment(s,who,now):return meeting
     return next((e for e in s.get('scheduled_events', []) if not e.get('cancelled')
                  and who in e['guests'] and e['start'] <= now < e['end']), None)
 
@@ -86,7 +111,9 @@ def tick(s):
                 town.log(s, text)
         if now == e['start']:
             e['memory_phase'] = 'in_progress'
-            text = f"{e['title']} is starting at {town.LOCATIONS[e['venue']]}. Your guests have arrived."
+            text = (f"{e['title']} is starting at {town.LOCATIONS[e['venue']]}. Check who is present."
+                    if __import__('interiors').enabled(s, e['venue']) else
+                    f"{e['title']} is starting at {town.LOCATIONS[e['venue']]}. Your guests have arrived.")
             s.setdefault('event_notifications', []).append(text)
             town.log(s, text)
         if e.get('source') == syndicate_council.SOURCE and now >= e['end'] and not e.get('council_resolved'):
@@ -104,7 +131,8 @@ def tick(s):
 def describe(e):
     import town
     return (f"{calendar.story_date(e['start']):%Y-%m-%d} · {e['start']%1440//60:02}:{e['start']%60:02}"
-            f" · {e['title']} · {town.LOCATIONS[e['venue']]}")
+            f" · {e['title']} · {town.LOCATIONS[e['venue']]}" +
+            (' › ' + __import__('interior_bookings').label(e) if e.get('room') else ''))
 
 
 def join(s, event):
@@ -113,8 +141,12 @@ def join(s, event):
     now = s['world']['minute']
     if event.get('cancelled') or not event['start'] <= now < event['end']:
         raise ValueError('Join during the scheduled event time.')
-    if s['world']['location'] != event['venue'] or s['world']['cast'][s['player']]['journey']:
+    at_venue=(__import__('interiors').same_building(s['world']['location'],event['venue']) if __import__('interiors').enabled(s,event['venue']) else s['world']['location']==event['venue'])
+    if not at_venue or s['world']['cast'][s['player']]['journey']:
         raise ValueError('Travel to the event venue first.')
+    if (__import__('interiors').enabled(s, event['venue']) and
+            __import__('interiors').room(s) != __import__('interiors').event_room(s, event)):
+        raise ValueError('Go to the assigned event room before joining.')
     if event.get('source') == 'syndicate_council':
         import syndicate_council
         syndicate_council.join(s, event)
@@ -163,8 +195,18 @@ def observe(s):
             import syndicate_council
             syndicate_council.observe(s, e)
             continue
-        actual=[w for w in [s['player'],*e['guests']] if s['world']['cast'][w]['location']==e['venue']
+        actual=[w for w in [s['player'],*e['guests']] if (__import__('interiors').same_building(s['world']['cast'][w]['location'],e['venue']) if __import__('interiors').enabled(s,e['venue']) else s['world']['cast'][w]['location']==e['venue'])
                 and not s['world']['cast'][w]['journey']]
+        if __import__('interiors').enabled(s, e['venue']):
+            actual = [who for who in actual if __import__('interiors').room(s, who) == __import__('interiors').event_room(s, e)
+                      and s['world']['cast'][who].get('activity') != 'Sleep']
+            arrived=e.setdefault('arrived',[])
+            arrived.extend(who for who in actual if who not in arrived)
+            group=s.get('groups',{}).get(e.get('joined_group'),{})
+            joined=bool(group.get('open') and s.get('active_group')==e.get('joined_group'))
+            e['participating']=actual if joined else []
+            e['participation_state']='in_room' if joined and s['player'] in actual else 'temporarily_away' if e.get('joined_group') else 'awaiting_join'
+            if not joined:continue
         attendees=e.setdefault('attendees',[])
         added=[w for w in actual if w not in attendees]
         if added:

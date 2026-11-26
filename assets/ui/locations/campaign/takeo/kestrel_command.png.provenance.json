@@ -1,0 +1,19 @@
+{
+  "id": "kestrel_command",
+  "type": "location",
+  "path": "assets/ui/locations/campaign/takeo/kestrel_command.png",
+  "original": "media-workspace/takeo/originals/exec-776b8da8-24e2-446f-891a-58bebef12787.png",
+  "prompt": "ONE 16:9 wide game location background painting. Kestrel Operations Centre private Shinokami headquarters command room in 2050. Heavy dark briefing table, regional route-map wall with no readable labels, disciplined military Japanese design, charcoal walls, cool controlled lighting. No people, no readable text, logos or watermarks. Semi-realistic illustrated manhwa with restrained linework, softly dimensional painted shadows; not photorealism, 3D or exaggerated cartoon. Clear spatial layout and open foreground for visual novel portraits.",
+  "references": [],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "4cf892f72e3c8d4317b07a113cbe84ee5784c9e3b2be02c096fc7417b711f4b0",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "alpha_extrema": null,
+  "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+  "reference_hashes_measured_at_release_review": {}
+}

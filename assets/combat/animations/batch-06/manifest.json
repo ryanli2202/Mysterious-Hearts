@@ -2,7 +2,7 @@
   "roadmap_id": "MH-001",
   "batch": 6,
   "created": "2026-11-10",
-  "status": "8 local sprite sheets and GIFs assembled and structurally verified; runtime integration pending.",
+  "status": "Withdrawn 2026-11-13: prior review sheets, GIFs, preview and contact removed; runtime integration remains pending.",
   "generation_tool": "built-in image_gen",
   "model_verification": "Tool does not expose a model selector or verified model identifier.",
   "workflow": "Generate sprite sheets first, then slice and encode locally using Pillow.",
@@ -12,7 +12,7 @@
   },
   "frame_duration_ms": 150,
   "blank_hold_ms": 720,
-  "timing_reason": "900ms action matches the plan's 700\u20131100ms martial master range.",
+  "timing_reason": "900ms action matches the plan's 700–1100ms martial master range.",
   "background": "opaque dark slate; not transparent",
   "assets": [
     {
@@ -47,7 +47,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "7a98ed48b1e659db268b8e2eed3dad660a12c6fe98a23e85a3d6c6309af45586",
         "sha256_gif": "559617726e6684d3e583f6979ac3149221fb05c24477665faee4f55a69fe9af3"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B06-adamant-advance",
@@ -81,7 +82,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "23516e578762a4e1b4678acfc86c57c69d798dc3723b368005da522e889a3d2b",
         "sha256_gif": "540780441b6b0a387581e298fbff81c2deef381ca4e2fdf29f0e39c5a9c67478"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B06-hundred-beat-barrage",
@@ -115,7 +117,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "6b2132ff946590b1f2d483a82c2e85e7f935bf7a41298243930d776a16ad5b0e",
         "sha256_gif": "8ce3410d0f5c7d28d4dcb1ad18b643e318b87ba1c89f48c0bb67232b80899019"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B06-thunder-heel",
@@ -149,7 +152,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "0211ac7b4f361425e7be8bee61afc3897dfd12b1ae0a26ad28ec1fb4b9ef1266",
         "sha256_gif": "5ccdd1479c4af77edbf1cc9f4081abf5a122c02f1e4f1186c0707103d5cf7eea"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B06-apex-chain",
@@ -183,7 +187,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "87bbaeebf740464ccf50a6bd7a4fa7a28017acf7b2a1079ac5c131c586d06f61",
         "sha256_gif": "0dd165ac2e31e42dbf66fc3ddfabfa50656cfc6085176f14ec24cb1d74bf0fd8"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B06-predator-switch",
@@ -217,7 +222,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "4f7bc4fed02dc1b80d0ebbdcbdc95aaf146be021442e221de9c995850938f8b8",
         "sha256_gif": "5874bb911e6e01f6fe6050e4d9c9975556b7a34b88895905078b5bbbc509ce90"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B06-gravity-crash",
@@ -251,7 +257,8 @@
         "loop": "infinite preview",
         "sha256_sheet": "d8bbb9e5069d04885de8b9c0afe9a002dd818099692b552cef1a111dd34baf6d",
         "sha256_gif": "93165c5ee5e386c0437f4ae7976590a5d83a677c08b71d92db37e5a5d31d48e8"
-      }
+      },
+      "available": false
     },
     {
       "asset_id": "MH-001-B06-total-control",
@@ -285,8 +292,15 @@
         "loop": "infinite preview",
         "sha256_sheet": "5d08047a04040da702739743c395c3659ad01850b8b29baa4fb907e2b01f4785",
         "sha256_gif": "e75133a9b046a5bc939aee19d49d8e64d91e666ffa2f95046eb4764289336b60"
-      }
+      },
+      "available": false
     }
   ],
-  "validation_command": "python tools/build_combat_batch_gifs.py --batch 6"
+  "validation_command": "python tools/build_combat_batch_gifs.py --batch 6",
+  "withdrawn": true,
+  "availability": "withdrawn",
+  "withdrawn_on": "2026-11-13",
+  "withdrawal_reason": "User-requested combat animation artwork reset; historical paths and verification are retained, files removed.",
+  "style_guide": "roadmap/COMBAT_ANIMATION_STYLE_GUIDE.md",
+  "validation_command_status": "Historical command only; this manifest is withdrawn and the builder rejects it."
 }

@@ -12,6 +12,15 @@ def together(s, who):
     if a['location']!=w['location'] or p['location']!=w['location'] or a.get('journey') or p.get('journey') or a.get('activity')=='Sleep':
         raise ValueError('Speak to '+who.title()+' in person while both of you are awake and present.')
     import groups
+    import interiors
+    if interiors.enabled(s):
+        if (not interiors.same_room(s,s['player'],who) or w.get('party')
+                or any(person not in (who,s['player']) for person in interiors.occupants(s,interiors.room(s)))
+                or __import__('interior_presence').count(s,interiors.room(s))):
+            raise ValueError('Find a private room with the actual person first.')
+        if who=='charles' and interiors.room(s)!='glasshouse_lab__private_review_reunion_room':
+            raise ValueError('Speak privately in the review and reunion room.')
+        return
     if w.get('party') or w.get('npcs') or groups.hanging_out_with(s)-{who} or any(k not in (who,s['player']) and v['location']==w['location'] and not v.get('journey') for k,v in w['cast'].items()):
         raise ValueError('Find a private moment without other listeners first.')
 
@@ -47,6 +56,11 @@ def hold(s):
     if a['location']!=LAB:
         world_loop.start_trip(s,'garrett',LAB);return True
     private=w['location']!=LAB and not any(k not in ('garrett','charles') and v['location']==LAB and not v.get('journey') for k,v in w['cast'].items())
+    import interiors
+    if interiors.enabled(s,LAB):
+        interiors.walk_actor(s,'garrett','glasshouse_lab__private_review_reunion_room')
+        interiors.walk_actor(s,'charles','glasshouse_lab__private_review_reunion_room')
+        private=__import__('interior_security').private_review(s,('charles',),observer='garrett')
     if not private:d.pop('started',None);a['activity']='Waiting for a private family meeting';return True
     d.setdefault('started',now);a['activity']='Private reunion with Charles'
     if now-d['started']>=20:

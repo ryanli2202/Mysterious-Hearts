@@ -4,8 +4,23 @@ from pathlib import Path
 import tkinter as tk
 from PIL import Image, ImageOps, ImageTk, ImageEnhance, ImageDraw
 import outskirts
+import json
 
 ASSETS = Path(__file__).resolve().parent / 'assets' / 'ui'
+LOCATION_REPLACEMENTS={
+    'beach':'locations/interiors/beach/shoreline_beach_scene',
+    'arcade':'locations/interiors/arcade/cabinet_floor',
+    'bar':'locations/interiors/bar/bar_seating_room',
+    'bowling_alley':'locations/interiors/bowling_alley/lane_hall',
+    'library':'locations/interiors/library/reading_room',
+    'nightclub':'locations/interiors/nightclub/dance_hall',
+    'shopping_mall':'locations/interiors/shopping_mall/concourse',
+}
+_room_catalog=Path(__file__).with_name('interior_catalog.json')
+OUTDOOR_ART={row['art'] for building in json.loads(_room_catalog.read_text(encoding='utf-8'))['buildings']
+             for row in building['rooms'] if row['outdoor']}
+SHELTERED_ART={'locations/harbour_market','locations/interiors/harbour_market/sheltered_entrance',
+               'locations/interiors/harbour_market/public_seating'}
 
 
 @lru_cache(maxsize=8)
@@ -20,17 +35,19 @@ def source_image(name):
             image = Image.blend(image, Image.new('RGB',image.size,tint), .17)
         # Rain on exterior scenes; indoor artwork keeps its sheltered lighting.
         outdoor = base in ('campus-day','winterfield-dusk') or base in ('locations/downtown','locations/park','locations/public_park','locations/beach','locations/wetlands','locations/track','locations/sailing_club')
-        outdoor = outdoor or base in {'locations/' + place for place in outskirts.OUTDOORS}
+        outdoor = outdoor or base in OUTDOOR_ART or base in {'locations/' + place for place in outskirts.OUTDOORS}
         import crime_sites
         outdoor = outdoor or base in {'locations/' + place for place in crime_sites.SITES}
         outdoor = outdoor or base in {'locations/blackhaven','locations/fox_hideout','locations/gordon_apartments','locations/blackstone_loading'}
-        if outdoor and condition in ('Rain','Snow'):
+        if outdoor and base not in SHELTERED_ART and condition in ('Rain','Snow'):
             draw=ImageDraw.Draw(image)
             for x in range(10,image.width,47):
                 for y in range((x*13)%91,image.height,91):
                     if condition=='Rain': draw.line((x,y,x-5,y+16),fill='#8fa9bf',width=1)
                     else: draw.ellipse((x,y,x+3,y+3),fill='#dce5ed')
         return image.convert('RGBA')
+    if name.startswith('locations/') and name.removeprefix('locations/') in LOCATION_REPLACEMENTS:
+        name=LOCATION_REPLACEMENTS[name.removeprefix('locations/')]
     path = ASSETS / (name + '.png')
     if not path.exists():
         return Image.new('RGB', (16, 16), '#10121c')
@@ -46,6 +63,8 @@ def scene_art(location, texting=False, minute=None):
     # Text conversations have no shared physical setting.
     if texting:
         return 'ui-header'
+    if location in LOCATION_REPLACEMENTS:
+        return LOCATION_REPLACEMENTS[location]
     if location == 'campus':
         return 'campus-day'
     if location == 'cafe':
@@ -57,6 +76,20 @@ def scene_art(location, texting=False, minute=None):
     if location.isidentifier() and (ASSETS / 'locations' / (location + '.png')).is_file():
         return 'locations/' + location
     return 'ui-header'
+
+
+def combat_scene_art(f,state):
+    if f.get('ace_historical'):return 'locations/mavis-dispatch-exchange'
+    import interiors,weather
+    ident=f.get('room')
+    encounter=state.get('organisation_guards',{}).get('encounter') or {}
+    if not ident and encounter.get('token')==f.get('guard_token'):ident=encounter.get('room')
+    room=interiors.ROOMS.get(ident)
+    if not room:return scene_art(f['location'],minute=state['world']['minute'])
+    if room.outdoor:
+        current=weather.at(state['world']['minute'])
+        return room.art,current['light'],current['condition']
+    return room.art
 
 
 class ArtCanvas(tk.Canvas):

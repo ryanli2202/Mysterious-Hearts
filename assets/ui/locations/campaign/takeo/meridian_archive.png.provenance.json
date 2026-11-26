@@ -1,0 +1,19 @@
+{
+  "id": "meridian_archive",
+  "type": "location",
+  "path": "assets/ui/locations/campaign/takeo/meridian_archive.png",
+  "original": "media-workspace/takeo/originals/exec-b6e06164-82c1-499c-bf09-4e265e179121.png",
+  "prompt": "ONE 16:9 wide game location background painting. Meridian complex unique programme archive, fictional 2050 American industrial facility. Dark narrow archive chamber with one secured metal cabinet and isolated offline data console, no other records stores or backup racks; heavy door, slate and subdued amber lights. No people, no readable text, logos or watermarks. Semi-realistic illustrated manhwa with restrained linework, softly dimensional painted shadows; not photorealism, 3D or exaggerated cartoon. Clear spatial layout and open foreground for visual novel portraits.",
+  "references": [],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "647f9fab5b3bc88c766eae12ed609f518eac143047f90d8856b58948f7c0afe4",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "alpha_extrema": null,
+  "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+  "reference_hashes_measured_at_release_review": {}
+}

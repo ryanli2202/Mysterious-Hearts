@@ -15,7 +15,7 @@ def account(s):
 
 
 def require(s):
-    if s.get('player')=='fox': raise ValueError('Edward Fox has no Grove account.')
+    if s.get('player') in ('fox','takeo'): raise ValueError('This character has no Grove account.')
     if needed(s) and account(s) is None:
         raise ValueError('Create your Grove account before posting, replying or liking photos.')
 

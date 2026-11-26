@@ -1,0 +1,19 @@
+{
+  "id": "early_command",
+  "type": "location",
+  "path": "assets/ui/locations/campaign/takeo/early_command.png",
+  "original": "media-workspace/takeo/originals/exec-9eb93bd0-661e-433f-95d5-709688d5a4f3.png",
+  "prompt": "ONE 16:9 wide game location background painting: Early Shinokami reconstituted command room after 2027, improvised functional headquarters, scratched dark briefing table, stacked salvaged radios, uneven plaster repairs, unlabelled strength-return folders and a map board, no dead bodies. Semi-realistic illustrated manhwa, restrained linework, softly dimensional painted shading, not photo/3D/cel cartoon. No people, readable text, logos or watermark. Clear room geography and open portrait staging foreground.",
+  "references": [],
+  "provider": "Built-in image_gen tool",
+  "model": "Not exposed; unverified",
+  "sha256": "345607165439e2cb3b1e30d7c201c4d427f936c67a4c1ba141ca34ac826b21fb",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "alpha_extrema": null,
+  "visual_review": "Accepted 2026-11-13: generated output/production contact sheets reviewed; corresponding portraits and ordered shots rendered in the real Tk reader; location/optional-history and compact/dark-phone states inspected. See roadmap/TAKEO_RELEASE_EVIDENCE.md and .test-tmp/takeo/screenshots.",
+  "reference_hashes_measured_at_release_review": {}
+}
